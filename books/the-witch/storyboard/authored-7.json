@@ -1,0 +1,752 @@
+[
+  {
+    "i": 241,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE REAL MOTIVE",
+      "emphasis": [
+        "EVIDENCE",
+        "IDENTITY"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a bare winter field at dawn, a blackened wooden stake standing in a low bed of grey ash, thin smoke drifting across the frozen ground, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The execution was chosen to erase who the victims were, not to deliver justice.",
+        "concreteVisual": "a bare winter field at dawn, a blackened stake in grey ash, thin smoke, no people",
+        "onScreenText": "none",
+        "relationToPrevious": "Continues the point that a burning in a hanging era means a deliberate cover-up.",
+        "addedInformation": "Fire destroys the body, and with it the proof of who died."
+      }
+    }
+  },
+  {
+    "i": 242,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE CURATOR",
+      "emphasis": [
+        "HENRY",
+        "DYNAMIC"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a man in his forties, neat build, short hair, tweed jacket, polite but intense, leaning across a small retro diner table toward a woman in her thirties, slim build, shoulder-length dark hair, plain modern clothes, tired expression, two cheeseburgers on plates between them",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Henry is the expert who explains the hidden dynamic to Julia.",
+        "concreteVisual": "Henry leaning across a diner table toward Julia, two cheeseburgers between them",
+        "onScreenText": "none",
+        "relationToPrevious": "Shifts from the abstract cover-up to the people who will explain it.",
+        "addedInformation": "Henry is the curator, and the setting is a casual diner, not the museum."
+      }
+    }
+  },
+  {
+    "i": 243,
+    "design": {
+      "type": "statement",
+      "kicker": "JUICY GOSSIP",
+      "emphasis": [
+        "GOSSIP"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "Henry is casually offering Julia historical gossip over lunch.",
+        "concreteVisual": "none, a light banter beat with no picture",
+        "onScreenText": "JUICY GOSSIP",
+        "relationToPrevious": "Stays on the diner table and marks the tone shift to chatty history.",
+        "addedInformation": "Henry frames the next revelation as gossip, not evidence."
+      }
+    }
+  },
+  {
+    "i": 244,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "MASTER'S THESIS",
+      "emphasis": [
+        "WOOD HAVEN",
+        "TRIALS"
+      ],
+      "items": [],
+      "image": {
+        "subject": "an old yellowed court record lying open on a wooden library table, dark brown ink handwriting that cannot be read, a pair of reading glasses resting beside it, a single lamp",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Henry has studied the Wood Haven trials in depth and knows the real accuser.",
+        "concreteVisual": "a yellowed 1692 court record on a library table with reading glasses beside it",
+        "onScreenText": "none",
+        "relationToPrevious": "Backs the claim with the expertise Henry just mentioned.",
+        "addedInformation": "The primary accuser was not a hysterical girl as in Salem, and the record shows it."
+      }
+    }
+  },
+  {
+    "i": 245,
+    "design": {
+      "type": "question",
+      "kicker": "THE ACCUSER",
+      "emphasis": [
+        "MOLLY"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "The surprising name is Molly, a servant, not a teenager.",
+        "concreteVisual": "none, a question card with no picture",
+        "onScreenText": "THE PRIMARY ACCUSER WAS A WOMAN NAMED MOLLY",
+        "relationToPrevious": "Julia's question sets up the answer that Molly is the accuser.",
+        "addedInformation": "The accuser was a servant, which changes the whole story."
+      }
+    }
+  },
+  {
+    "i": 246,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE SERVANT",
+      "emphasis": [
+        "MOLLY",
+        "WITCH"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a young woman in her twenties, plain build, brown hair under a cap, rough servant's dress, standing before a wooden bench in a dim 1692 meeting house, hands folded, eyes lowered",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Molly was a poor servant who testified that Caroline was a witch.",
+        "concreteVisual": "Molly in a rough servant's dress and cap, hands folded, before a wooden bench in a dim meeting house",
+        "onScreenText": "none",
+        "relationToPrevious": "Gives Molly a face after her name was asked.",
+        "addedInformation": "Molly is a poor household servant in the Eldridge home."
+      }
+    }
+  },
+  {
+    "i": 247,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE EXECUTION",
+      "emphasis": [
+        "CAROLINE",
+        "ASH"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a cold village field at dusk, a low grey mound of ash and a charred stake, a cart standing empty at the edge of the trees, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Caroline is executed and reduced to ash, and the ash is the end of her.",
+        "concreteVisual": "a cold field at dusk, a grey mound of ash and a charred stake, empty of people",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the outcome of the testimony, not the act itself.",
+        "addedInformation": "Caroline's body is destroyed, so no one can later prove who was burned."
+      }
+    }
+  },
+  {
+    "i": 248,
+    "design": {
+      "type": "compare",
+      "kicker": "THE NEW HOUSE",
+      "emphasis": [
+        "MOLLY",
+        "MASTER"
+      ],
+      "items": [],
+      "image": null,
+      "compare": {
+        "left": {
+          "label": "SERVANTS' QUARTERS",
+          "subject": "a small bare attic room with a narrow cot, one candle on a plank table, plain wooden walls, no people"
+        },
+        "right": {
+          "label": "MASTER BEDROOM",
+          "subject": "an empty canopy bed with heavy dark curtains in a candlelit timber room, no people"
+        }
+      },
+      "storyboard": {
+        "claim": "Molly rises from the servants' quarters into the master bedroom after marrying Archie.",
+        "concreteVisual": "a split: a bare servants' attic on the left, a grand four-poster bedroom on the right",
+        "onScreenText": "none",
+        "relationToPrevious": "The marriage moves Molly from the bottom of the house to the top.",
+        "addedInformation": "Molly takes the mistress's room in the same house."
+      }
+    }
+  },
+  {
+    "i": 249,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE MIRROR",
+      "emphasis": [
+        "MISTRESS",
+        "MIRROR"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a young woman in her twenties, plain build, brown hair under a cap, rough servant's dress, standing at a tall gilt mirror in a candlelit bedroom, wearing a dark period gown that is too fine for her",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The servant literally takes the mistress's place in the household.",
+        "concreteVisual": "Molly in a servant's dress before a gilt mirror, wearing a dark gown that is too fine for her",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the replacement the compare beat only described.",
+        "addedInformation": "The mistress's gown on the servant makes the swap visible."
+      }
+    }
+  },
+  {
+    "i": 250,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE SAME HOUSE",
+      "emphasis": [
+        "CELIA",
+        "ETHEL"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a woman in her seventies, composed, grey-streaked hair, cardigan, cold expression, standing in a dim doorway of an old timber house holding a heavy flashlight",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Celia takes Ethel's place, repeating the 1692 pattern in the present day.",
+        "concreteVisual": "Celia in a cardigan in a dim doorway, holding a heavy flashlight",
+        "onScreenText": "none",
+        "relationToPrevious": "Brings the modern servant into the frame as the mirror of Molly.",
+        "addedInformation": "Celia is the present-day replacement, not the original mistress."
+      }
+    }
+  },
+  {
+    "i": 251,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE SOIL",
+      "emphasis": [
+        "CLASS",
+        "SOIL"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a seventeenth-century timber house at night under a low moon, a dark turned-over garden plot in front of it, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The house lets the poor take the place of the rich, as long as the land is fed.",
+        "concreteVisual": "a timber house at night with a dark freshly turned garden plot in front",
+        "onScreenText": "none",
+        "relationToPrevious": "Moves from the people to the house that repeats the pattern.",
+        "addedInformation": "Peton itself is the force that rewards the cycle."
+      }
+    }
+  },
+  {
+    "i": 252,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE PLAN",
+      "emphasis": [
+        "MOLLY",
+        "HUSBAND"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a young woman in her twenties, plain build, brown hair under a cap, rough servant's dress, a faint sly half-smile, standing at the edge of a crowded 1692 village square, townspeople gathered behind her looking up at a meeting house",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Molly stirred the town's witch panic to win a rich husband and an estate.",
+        "concreteVisual": "Molly with a sly half-smile at the edge of a crowded village square",
+        "onScreenText": "none",
+        "relationToPrevious": "Ties Molly's personal ambition to the wider hysteria.",
+        "addedInformation": "Molly is the one who drove the accusations, not a bystander."
+      }
+    }
+  },
+  {
+    "i": 253,
+    "design": {
+      "type": "punchline",
+      "kicker": "EVIL GENIUS",
+      "emphasis": [
+        "GENIUS"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "Molly is a calculating mastermind, and the book's answer lands on her.",
+        "concreteVisual": "none, a punchline card with no picture",
+        "onScreenText": "EVIL GENIUS",
+        "relationToPrevious": "Closes the Molly theory with one blunt line.",
+        "addedInformation": "Molly is praised as a villain, which the next beat will undercut."
+      }
+    }
+  },
+  {
+    "i": 254,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE PAWN",
+      "emphasis": [
+        "PAWN",
+        "GAME"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a wooden chess board mid-game in candlelight, one white pawn knocked over beside a dark king, no hands",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Molly was a pawn in a much larger game.",
+        "concreteVisual": "a chess board with a knocked-over pawn beside a dark king",
+        "onScreenText": "none",
+        "relationToPrevious": "Overturns the mastermind theory with a visual metaphor.",
+        "addedInformation": "There is a larger player behind the accusations."
+      }
+    }
+  },
+  {
+    "i": 255,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE 1717 EPILOGUE",
+      "emphasis": [
+        "1717",
+        "EPILOGUE"
+      ],
+      "items": [],
+      "image": {
+        "subject": "an old bound ledger page open on a wooden desk, a candle beside it, brown ink lines too faded to read, a dated 1717 heading in the page margin, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The real answer is in the 1717 epilogue.",
+        "concreteVisual": "an old ledger page on a desk with a candle, faded ink lines, no people",
+        "onScreenText": "1717 EPILOGUE",
+        "relationToPrevious": "Shifts the search from 1692 to the later record.",
+        "addedInformation": "The true monster appears twenty-five years later in the record."
+      }
+    }
+  },
+  {
+    "i": 256,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE LOVERS",
+      "emphasis": [
+        "CAROLINE",
+        "JONAS REEV"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a young woman in her twenties, slim, long pale hair under a plain linen cap, dark period dress, frightened eyes, standing close beside a hulking man with wild dark hair in a shadowed stone prison doorway, a guard's lantern in the background",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Caroline and Jonas Reev were lovers, and neither was executed.",
+        "concreteVisual": "Caroline and a hulking man with wild dark hair close together in a shadowed prison doorway",
+        "onScreenText": "none",
+        "relationToPrevious": "Reveals the relationship the 1692 story hid.",
+        "addedInformation": "Caroline and the supposed killer were lovers, which reverses the accusation."
+      }
+    }
+  },
+  {
+    "i": 257,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE BRIBE",
+      "emphasis": [
+        "BRIBED",
+        "FLED"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a stone jailhouse yard at night, a leather coin purse passed through a wooden gate to a guard holding a lantern, two shadowy figures slipping away into the dark",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The lovers bribed their way out and fled the colony.",
+        "concreteVisual": "a leather coin purse passed to a guard at a gate, two figures slipping away into dark",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the escape the narration just stated.",
+        "addedInformation": "The escape was paid for, which is the first sign of the family's money."
+      }
+    }
+  },
+  {
+    "i": 258,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE RETURN",
+      "emphasis": [
+        "PETON",
+        "NIGHT"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a seventeenth-century timber house at night under a thin moon, two dim figures on the cobbled lane in front of it, faces not visible",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Twenty-five years later, the two return to Peton in the dead of night.",
+        "concreteVisual": "a timber house at night with two dim figures on the lane, faces not visible",
+        "onScreenText": "none",
+        "relationToPrevious": "Follows the escape to the homecoming.",
+        "addedInformation": "The return to Peton is planned, not accidental."
+      }
+    }
+  },
+  {
+    "i": 259,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE DISGUISE",
+      "emphasis": [
+        "MOLLY",
+        "IDENTITY"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a rough servant's dress and a plain linen cap laid across a bed beside a dark period gown, candlelight on the cloth, like costumes set out for a play",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Caroline and Jonas steal the identities of Molly and Archie.",
+        "concreteVisual": "a servant's dress and cap laid across a bed beside a dark gown, candlelit",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the costume of the impersonation that the narration describes.",
+        "addedInformation": "The identity theft is set up with costumes, not a person."
+      }
+    }
+  },
+  {
+    "i": 260,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE IMPOSTOR",
+      "emphasis": [
+        "JONAS",
+        "ARCHIE"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a man in his fifties, heavy build, dark wool coat, white collar, stern face, standing in a wood-panelled hall of a timber manor, a lit candelabra beside him",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Jonas steps into Archie's life as the wealthy merchant.",
+        "concreteVisual": "a heavy man in a dark wool coat and white collar in a wood-panelled hall",
+        "onScreenText": "none",
+        "relationToPrevious": "Puts the impostor in Archie's place.",
+        "addedInformation": "The impostor wears Archie's coat and collar, so he looks like the husband."
+      }
+    }
+  },
+  {
+    "i": 261,
+    "design": {
+      "type": "punchline",
+      "kicker": "MY BRAIN",
+      "emphasis": [
+        "BREAKING"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "The layers of identity theft are too much to follow.",
+        "concreteVisual": "none, a punchline card with no picture",
+        "onScreenText": "WAIT, MY BRAIN IS BREAKING",
+        "relationToPrevious": "A reaction to the impostor reveal.",
+        "addedInformation": "None beyond the reaction itself."
+      }
+    }
+  },
+  {
+    "i": 262,
+    "design": {
+      "type": "question",
+      "kicker": "THE RECAP",
+      "emphasis": [
+        "CAROLINE",
+        "DECADES"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "Caroline returns decades later, kills her husband and the servant, then lives as the woman who accused her.",
+        "concreteVisual": "none, a question card with no picture",
+        "onScreenText": "THE INNOCENT VICTIM RETURNS?",
+        "relationToPrevious": "Restates the chain of events in one sentence.",
+        "addedInformation": "Caroline is the one who kills her husband and the servant."
+      }
+    }
+  },
+  {
+    "i": 263,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE SAME FACE",
+      "emphasis": [
+        "ENEMY",
+        "BED"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a small oval hand mirror on a dark wooden table, reflecting a young woman's face in a plain linen cap, a candle beside it",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Caroline wears the face of her enemy to sleep in her own bed.",
+        "concreteVisual": "an oval hand mirror reflecting a young woman in a plain linen cap beside a candle",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the disguise the recap just described.",
+        "addedInformation": "The face in the mirror is the one she took from the woman who accused her."
+      }
+    }
+  },
+  {
+    "i": 264,
+    "design": {
+      "type": "statement",
+      "kicker": "LAYERS OF THEFT",
+      "emphasis": [
+        "THEFT"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "The identity theft is layered and deliberate.",
+        "concreteVisual": "none, a reaction card with no picture",
+        "onScreenText": "LAYERS OF IDENTITY THEFT",
+        "relationToPrevious": "Confirms the recap in one line.",
+        "addedInformation": "None beyond confirmation."
+      }
+    }
+  },
+  {
+    "i": 265,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE PROPERTY",
+      "emphasis": [
+        "PETON",
+        "KEEPS"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a timber manor house in grey dawn light, its heavy chestnut front door standing open onto a dim hall, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The house keeps and absorbs these false identities.",
+        "concreteVisual": "a grey dawn view of a timber manor with its heavy front door open onto a dim hall",
+        "onScreenText": "none",
+        "relationToPrevious": "Turns from the people to the house that welcomes them.",
+        "addedInformation": "The house is shown as an open door, not as a jailer."
+      }
+    }
+  },
+  {
+    "i": 266,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE WELCOME",
+      "emphasis": [
+        "PETON",
+        "WELCOME"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a heavy chestnut front door of a timber manor standing wide open at night, warm candlelight spilling onto the flagstones, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Peton welcomes false identities as long as the cycle continues.",
+        "concreteVisual": "a wide-open chestnut door with candlelight on the flagstones, no people",
+        "onScreenText": "none",
+        "relationToPrevious": "Repeats the house image with a warmer, inviting light.",
+        "addedInformation": "The house takes the parasites in, not out."
+      }
+    }
+  },
+  {
+    "i": 267,
+    "design": {
+      "type": "place",
+      "kicker": "THE MUSEUM",
+      "emphasis": [
+        "WOOD HAVEN"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "The Wood Haven Museum is the modern force digging up the buried past.",
+        "concreteVisual": "none, a place card with no picture",
+        "onScreenText": "WOOD HAVEN MUSEUM",
+        "relationToPrevious": "Brings the modern threat into the story after the house.",
+        "addedInformation": "The museum is the present-day institution uncovering the history."
+      }
+    }
+  },
+  {
+    "i": 268,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE PITCH",
+      "emphasis": [
+        "HENRY",
+        "SALE"
+      ],
+      "items": [],
+      "image": {
+        "subject": "an empty brick museum gallery with a glass case under soft light, no people",
+        "style": "cutout"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "Henry walks Julia through the museum to pitch her on buying the house.",
+        "concreteVisual": "Henry gesturing at a glass case beside Julia inside a brick museum gallery",
+        "onScreenText": "none",
+        "relationToPrevious": "Puts Henry and Julia in the museum for the sales pitch.",
+        "addedInformation": "Henry wants to buy the house, which the museum tour is meant to win."
+      }
+    }
+  },
+  {
+    "i": 269,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "BRICK CASTLE",
+      "emphasis": [
+        "BRICK",
+        "17TH CENTURY"
+      ],
+      "items": [],
+      "image": {
+        "subject": "red brick facade of a historic building in daylight, clipped hedges, empty front lawn, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The museum is a clean, controlled brick castle.",
+        "concreteVisual": "a red brick museum with clipped hedges and a manicured lawn, daylight, no people",
+        "onScreenText": "none",
+        "relationToPrevious": "Moves from the pitch to the building itself.",
+        "addedInformation": "The brick building is shown as a sterile fortress for the past."
+      }
+    }
+  },
+  {
+    "i": 270,
+    "design": {
+      "type": "imagefocus",
+      "kicker": "THE ARTIFACTS",
+      "emphasis": [
+        "SPINNING WHEEL",
+        "CHEST"
+      ],
+      "items": [],
+      "image": {
+        "subject": "a colonial spinning wheel, a heavy ornate wooden chest and two silver candlesticks on display in a dim glass-cased museum room, no people",
+        "style": "card"
+      },
+      "compare": null,
+      "storyboard": {
+        "claim": "The museum holds the period objects that Henry wants to display.",
+        "concreteVisual": "a spinning wheel, a carved chest and silver candlesticks behind museum glass",
+        "onScreenText": "none",
+        "relationToPrevious": "Shows the artifacts the narration lists.",
+        "addedInformation": "The objects are sterile museum pieces, separated from the house they came from."
+      }
+    }
+  },
+  {
+    "i": 271,
+    "design": {
+      "type": "compare",
+      "kicker": "THE TRANSPLANT",
+      "emphasis": [
+        "PETON",
+        "MUSEUM"
+      ],
+      "items": [],
+      "image": null,
+      "compare": {
+        "left": {
+          "label": "THE MUSEUM",
+          "subject": "period artifacts behind glass in a clean museum room, a spinning wheel, a carved chest and silver candlesticks, no people"
+        },
+        "right": {
+          "label": "PETON",
+          "subject": "the seventeenth-century timber house Peton at dusk, its windows dark, no people"
+        }
+      },
+      "storyboard": {
+        "claim": "Henry wants to move the museum's sterile artifacts into the real house.",
+        "concreteVisual": "a split: museum artifacts behind glass on the left, the dark timber house at dusk on the right",
+        "onScreenText": "none",
+        "relationToPrevious": "Contrasts the museum display with the house Henry wants.",
+        "addedInformation": "Henry plans to buy the house and put the artifacts inside it."
+      }
+    }
+  },
+  {
+    "i": 272,
+    "design": {
+      "type": "statement",
+      "kicker": "STERILE HORROR",
+      "emphasis": [
+        "PORTAL",
+        "TOURISTS"
+      ],
+      "items": [],
+      "image": null,
+      "compare": null,
+      "storyboard": {
+        "claim": "Henry wants a authentic portal to colonial times for tourists, which sterilizes horror.",
+        "concreteVisual": "none, a statement card with no picture",
+        "onScreenText": "A PORTAL TO COLONIAL TIMES FOR TOURISTS",
+        "relationToPrevious": "Closes the pitch with Henry's stated plan.",
+        "addedInformation": "The plan turns the horror of the past into a tourist attraction."
+      }
+    }
+  }
+]

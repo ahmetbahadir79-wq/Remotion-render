@@ -1,0 +1,57 @@
+{
+  "note": "Operator render decisions. Written only by render.js --accept-quality-debt. Each binds to one config hash; BLOCK findings are never accepted.",
+  "decisions": [
+    {
+      "kind": "quality-debt",
+      "at": "2026-11-07T05:47:01.951Z",
+      "commit": "55748c9b",
+      "tools": "8ce1e634",
+      "pin": "55748c9bd183",
+      "configHash": "0d592b606b91d7fd",
+      "renderInputHash": "a454c796b4534876",
+      "reason": "5 beats (003,040,226,268,269) have no image after the content filter rejected them 3/3; mute test run2 PASS (WRONG 0/30, dead 4/30); operator ordered render on all GitHub accounts",
+      "keys": [],
+      "preview": {
+        "state": "NOT_READY",
+        "mute": {
+          "label": "run2",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 0,
+          "dead": 4,
+          "adds": 17,
+          "pass": true
+        },
+        "at": "2026-11-07T05:40:15.031Z"
+      }
+    },
+    {
+      "kind": "render-authorization",
+      "at": "2026-11-07T05:47:02.716Z",
+      "commit": "55748c9b",
+      "tools": "8ce1e634",
+      "pin": "55748c9bd183",
+      "configHash": "0d592b606b91d7fd",
+      "renderInputHash": "a454c796b4534876",
+      "reason": "ben pc başından kalkıyorum, bitince pass olmazsa bütün github hesaplarında render başlat, onay sorma, render sonrası youtube a yüklenecek hale getirecek bütün adımları tamamla",
+      "keys": [],
+      "preview": {
+        "state": "NOT_READY",
+        "at": "2026-11-07T05:40:15.031Z",
+        "mute": {
+          "label": "run2",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 0,
+          "dead": 4,
+          "adds": 17,
+          "pass": true
+        }
+      },
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "reviews": null
+      }
+    }
+  ]
+}

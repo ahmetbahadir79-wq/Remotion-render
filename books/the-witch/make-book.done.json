@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-06T17:00:38.782Z",
+  "at": "2026-11-06T17:06:18.865Z",
+  "config": "config.vox.json",
+  "configSha256": "0d592b606b91d7fd4ea71964182929969fa9a9185c5bb95074e5962505efedf4",
+  "inputs": {
+    "storyboard": {
+      "path": "books/the-witch/designs.json",
+      "sha256": "0b91bf73d3f09631265a5f406d026ca6278d5a5c1d1c049a5c988286e59d3b92"
+    },
+    "storyBible": {
+      "path": "books/the-witch/story-bible.json",
+      "sha256": "9cb5549b2c20447be6d2907136af4ef9ebde566169f77f0555c926feb1e6cae0"
+    },
+    "motifs": {
+      "path": "books/the-witch/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/the-witch.vtt",
+      "sha256": "a236c08c781c12b13e39db9db9ffcf2de9195b00ee94b20ec2ca2c17a3ddbf06"
+    },
+    "audio": {
+      "path": "public/audio/the-witch.mp3",
+      "sha256": "44382a5997d77c262ac71564b388c8bbca8f8cf7d48f9fee4b431c202bd455f1"
+    }
+  },
+  "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+  "previewOnly": false,
+  "skipPack": true
+}

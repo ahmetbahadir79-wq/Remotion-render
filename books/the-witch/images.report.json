@@ -1,0 +1,2548 @@
+{
+  "note": "gen-vox-images.py: one record per image (outcome ok|failed|skipped-existing|not-attempted-cap; promptSha = sha256 of the prompt, first 16 hex)",
+  "images": [
+    {
+      "path": "scenes/the-witch/beat-000.png",
+      "beat": "beat-000",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "92b98214eda38aad",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-002.png",
+      "beat": "beat-002",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "eb2d53098a83f57b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-003.png",
+      "beat": "beat-003",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "07cceb08d3421719",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: the damp stone and brick cellar wall of an old house, a wooden door ajar and warm lantern light on worn stone steps, no people. moody low-key lighting, desaturated, tense, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-06T15:22:39.822395+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-006.png",
+      "beat": "beat-006",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "da51d8d4a077468f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-007-a.png",
+      "beat": "beat-007",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "94143ff9a5feb66a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-007-b.png",
+      "beat": "beat-007",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "58ce49315298a2ec",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-008.png",
+      "beat": "beat-008",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "35333d5ff971c855",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-009.png",
+      "beat": "beat-009",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "637774e271593845",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-010.png",
+      "beat": "beat-010",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4a2f53a7910cc732",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-012.png",
+      "beat": "beat-012",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b47efbfe0a36a065",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-013-a.png",
+      "beat": "beat-013",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b49d23e3c9773318",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-013-b.png",
+      "beat": "beat-013",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3d5ce2d0e451e293",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-015.png",
+      "beat": "beat-015",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "05eaae59927ad2ac",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-016.png",
+      "beat": "beat-016",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ffdf0ce5bba9d1bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-017.png",
+      "beat": "beat-017",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b683d2a976be0ee3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-018.png",
+      "beat": "beat-018",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6032eb300e42693e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-019.png",
+      "beat": "beat-019",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fe6ea8ca7467aaa1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-020.png",
+      "beat": "beat-020",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d5c65e672a1dbbd8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-021.png",
+      "beat": "beat-021",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6ca918936020529e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-022.png",
+      "beat": "beat-022",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f2a719ccf79fe0c4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-023.png",
+      "beat": "beat-023",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dab9b4d46c366616",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-024.png",
+      "beat": "beat-024",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f426dc9a90f5ff26",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-026.png",
+      "beat": "beat-026",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "929cabdb17052668",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-027.png",
+      "beat": "beat-027",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "26d03d2bec60be79",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-028.png",
+      "beat": "beat-028",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "90174bf18cd81de0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-029.png",
+      "beat": "beat-029",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "89b7ea4ea8861aa8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-030.png",
+      "beat": "beat-030",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "549056a90501cfba",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-031.png",
+      "beat": "beat-031",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dd7e5e1766e2b754",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-032.png",
+      "beat": "beat-032",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1de4b2d0c0830c07",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-033.png",
+      "beat": "beat-033",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "368d6b2b1146e7c0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-034.png",
+      "beat": "beat-034",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dd059bda1220ba71",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-035.png",
+      "beat": "beat-035",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "83acdb85cd7a6216",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-036-a.png",
+      "beat": "beat-036",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "46021b028ed12963",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-036-b.png",
+      "beat": "beat-036",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6b406a556d806dff",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-037.png",
+      "beat": "beat-037",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a8f8d702b0e4bb76",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-038.png",
+      "beat": "beat-038",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1128db04e5e49ac1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-039.png",
+      "beat": "beat-039",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "97f4311c19b556b6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-040.png",
+      "beat": "beat-040",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "20c849bbc730123b",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a polished empty desk in a museum office with a thick cream document folder lying on it, no people. single isolated subject, plain seamless studio background, centered, full subject in frame, moody low-key lighting, desaturated, tense, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-06T15:22:39.822395+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-041.png",
+      "beat": "beat-041",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b3eb51472fd7ac72",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-042.png",
+      "beat": "beat-042",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "83ec2014b7b5734a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-043.png",
+      "beat": "beat-043",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6429dd56f32a38df",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-044.png",
+      "beat": "beat-044",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8cfab59ded41645b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-045.png",
+      "beat": "beat-045",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "20aa8a3f96463fb3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-046.png",
+      "beat": "beat-046",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d26ddc2355eba035",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-047.png",
+      "beat": "beat-047",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d4da3d00941322b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-048.png",
+      "beat": "beat-048",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9afec299b7ba2e30",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-050.png",
+      "beat": "beat-050",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6442cac0c274f950",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-051.png",
+      "beat": "beat-051",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9421ec188efbcb77",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-052.png",
+      "beat": "beat-052",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d7986b2513c2ce4a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-053.png",
+      "beat": "beat-053",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "73492a066a369d39",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-054.png",
+      "beat": "beat-054",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fde853bb1c02d3a3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-055.png",
+      "beat": "beat-055",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5189f1ab68a799ca",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-056.png",
+      "beat": "beat-056",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d2dfedf2660bd2bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-058.png",
+      "beat": "beat-058",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2addef6bab44a7f1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-059.png",
+      "beat": "beat-059",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5d04a7e92e03a217",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-060.png",
+      "beat": "beat-060",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fb3d60118b0900c7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-061.png",
+      "beat": "beat-061",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "98697be54afe499c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-062.png",
+      "beat": "beat-062",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "df8cda382148b791",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-063.png",
+      "beat": "beat-063",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "175e2191867f8279",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-065.png",
+      "beat": "beat-065",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "12bf14f35efa5365",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-066.png",
+      "beat": "beat-066",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "903f856349b0648a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-067.png",
+      "beat": "beat-067",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f71c0cf856115308",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-068.png",
+      "beat": "beat-068",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a23e1520187d90d7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-070.png",
+      "beat": "beat-070",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4cc6d514be32b25d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-071-a.png",
+      "beat": "beat-071",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3aef2e21fe4d0320",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-071-b.png",
+      "beat": "beat-071",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4063a23b840cc690",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-073.png",
+      "beat": "beat-073",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d5c45d7070ac528b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-074.png",
+      "beat": "beat-074",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "50da6edc2d6638eb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-076.png",
+      "beat": "beat-076",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "32ce7bcb266f17a2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-077.png",
+      "beat": "beat-077",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3556defe27548db2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-078.png",
+      "beat": "beat-078",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4adbb7eac672280b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-079.png",
+      "beat": "beat-079",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e2bf3cce47d24142",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-080.png",
+      "beat": "beat-080",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ba3ac1cfce51e4dd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-083.png",
+      "beat": "beat-083",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b2f415252447cc1b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-084.png",
+      "beat": "beat-084",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d331a90ac6d71eb6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-085.png",
+      "beat": "beat-085",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "99a036c06567c1d0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-087.png",
+      "beat": "beat-087",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6600ae07e97eb920",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-088.png",
+      "beat": "beat-088",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9c6bb9206c7ebd60",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-089.png",
+      "beat": "beat-089",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ac46272a7062ef85",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-090.png",
+      "beat": "beat-090",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d728397a3b398771",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-091.png",
+      "beat": "beat-091",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "35f4032a6f47c100",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-092.png",
+      "beat": "beat-092",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2a93539e62b5ce09",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-093.png",
+      "beat": "beat-093",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "16eb6bead7636432",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-094.png",
+      "beat": "beat-094",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3affed88da3a7225",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-095.png",
+      "beat": "beat-095",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9269274f35ce568a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-096-a.png",
+      "beat": "beat-096",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "402d341d431d9162",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-096-b.png",
+      "beat": "beat-096",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ce0f8c42e34abb5c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-097.png",
+      "beat": "beat-097",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a360cbf3b72f3138",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-098.png",
+      "beat": "beat-098",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "881d767b44967748",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-099.png",
+      "beat": "beat-099",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "45ecfb31327ba6d4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-101.png",
+      "beat": "beat-101",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e70a78f946abfe40",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-102.png",
+      "beat": "beat-102",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e721e7822833db51",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-103.png",
+      "beat": "beat-103",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d7560b3917890044",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-104-a.png",
+      "beat": "beat-104",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aeaf76dc73bcdedd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-104-b.png",
+      "beat": "beat-104",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ca78ba449f188466",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-106.png",
+      "beat": "beat-106",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c9f32d77b0088079",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-108.png",
+      "beat": "beat-108",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "20adb0d1b18250d0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-109.png",
+      "beat": "beat-109",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fe5bd53eeeb2ff55",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-110-a.png",
+      "beat": "beat-110",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1c2da0771c25114e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-110-b.png",
+      "beat": "beat-110",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "90cdd09fd68bdfd2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-111.png",
+      "beat": "beat-111",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ff6c5759e9b659a0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-113.png",
+      "beat": "beat-113",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d1767326d4d4f75c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-114.png",
+      "beat": "beat-114",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "97459b8c7f150dc2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-115.png",
+      "beat": "beat-115",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "195898320a387601",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-116.png",
+      "beat": "beat-116",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "60d5c77fd217ca17",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-117.png",
+      "beat": "beat-117",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "57ba83ba3db7f358",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-119.png",
+      "beat": "beat-119",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a92a37bcf18f46b0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-120.png",
+      "beat": "beat-120",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ef3a0c45a0d063ac",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-121-a.png",
+      "beat": "beat-121",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9ba3e8371b5de856",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-121-b.png",
+      "beat": "beat-121",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5e2fd598fc7f9693",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-122.png",
+      "beat": "beat-122",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b6e74d9642774b81",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-123.png",
+      "beat": "beat-123",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d71fdc9ccf097941",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-124.png",
+      "beat": "beat-124",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "536f71b7e46c79bb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-125.png",
+      "beat": "beat-125",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d86e9376abef0dd1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-126.png",
+      "beat": "beat-126",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8f72c4f215e808b1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-127.png",
+      "beat": "beat-127",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "56a75b6657dda815",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-128.png",
+      "beat": "beat-128",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "84db7800624bdb31",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-129-a.png",
+      "beat": "beat-129",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c4b4e4310028d123",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-129-b.png",
+      "beat": "beat-129",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "75b065da168260f4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-130.png",
+      "beat": "beat-130",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "27f300cb8bfaa345",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-131.png",
+      "beat": "beat-131",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b9e6b8346bd4f67a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-132.png",
+      "beat": "beat-132",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "070f0694b9b82069",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-133.png",
+      "beat": "beat-133",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "961b594332c55cc0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-134.png",
+      "beat": "beat-134",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a89b3f4b6b147779",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-136.png",
+      "beat": "beat-136",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cca413cbc36f76b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-137.png",
+      "beat": "beat-137",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f427838cfc124e9c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-138.png",
+      "beat": "beat-138",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fbe909e7d96522a5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-139.png",
+      "beat": "beat-139",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2376a45ea2f9bd8b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-140.png",
+      "beat": "beat-140",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "df4c5bfe97eef5eb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-141.png",
+      "beat": "beat-141",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4fc8b9a3523990d5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-142.png",
+      "beat": "beat-142",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ce1be767e594d9bc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-143.png",
+      "beat": "beat-143",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8b1dfe10b6846d22",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-145.png",
+      "beat": "beat-145",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d1d8de8d423b772f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-148.png",
+      "beat": "beat-148",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "25c480abf136ec8d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-150.png",
+      "beat": "beat-150",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aeb5644651eaed30",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-151.png",
+      "beat": "beat-151",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5a5b0f864964ac85",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-152.png",
+      "beat": "beat-152",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c47707a35b181733",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-153-a.png",
+      "beat": "beat-153",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e366ec75955707d6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-153-b.png",
+      "beat": "beat-153",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9f70d25de496bf61",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-154.png",
+      "beat": "beat-154",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "46f00b3290b4696c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-155.png",
+      "beat": "beat-155",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ec9c307548f68a7d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-156.png",
+      "beat": "beat-156",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c1bed5e442c1f17b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-158.png",
+      "beat": "beat-158",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1230496a8356eca9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-159.png",
+      "beat": "beat-159",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0f79d526c5f25bf5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-161.png",
+      "beat": "beat-161",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6de582687af8d359",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-162.png",
+      "beat": "beat-162",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "329e69269deb81d2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-163.png",
+      "beat": "beat-163",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d62eed23f8db35f1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-165.png",
+      "beat": "beat-165",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5cf1a982cb071d34",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-166.png",
+      "beat": "beat-166",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2e9d7d9f2805c667",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-167.png",
+      "beat": "beat-167",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "360603572e2c56c7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-168.png",
+      "beat": "beat-168",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1cbc1f490329508c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-170.png",
+      "beat": "beat-170",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "07d2c7bfcaca767a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-171.png",
+      "beat": "beat-171",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "14ae1c1d0490262a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-172.png",
+      "beat": "beat-172",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "78fc1b63cc8cc3e2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-173.png",
+      "beat": "beat-173",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b308ae0d20e2c96e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-175.png",
+      "beat": "beat-175",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "25e229d91e168cce",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-177.png",
+      "beat": "beat-177",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2f7e2dbd5aa7b7bc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-180.png",
+      "beat": "beat-180",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4ff4f91abcb504dd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-181.png",
+      "beat": "beat-181",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b8971063ba581e01",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-183.png",
+      "beat": "beat-183",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "348c7fdff5f921bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-184.png",
+      "beat": "beat-184",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6fb4e58acee5d9b8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-185.png",
+      "beat": "beat-185",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "459733d1e473c027",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-186.png",
+      "beat": "beat-186",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "033d91846e05de1e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-188.png",
+      "beat": "beat-188",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e26a904e50ccdacb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-189.png",
+      "beat": "beat-189",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2f28b77e6f877586",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-190.png",
+      "beat": "beat-190",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "58d3884f1f8329b5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-191.png",
+      "beat": "beat-191",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9f049018de9ecce9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-193.png",
+      "beat": "beat-193",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "39352dd371cc08c1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-194.png",
+      "beat": "beat-194",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e0c069b3d8143590",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-196.png",
+      "beat": "beat-196",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "524d175df65bd67b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-197.png",
+      "beat": "beat-197",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a851e2d191150871",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-198.png",
+      "beat": "beat-198",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0857ddbee77e1218",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-199.png",
+      "beat": "beat-199",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6be5b94c76b02897",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-200.png",
+      "beat": "beat-200",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4ee5a40be286c964",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-201.png",
+      "beat": "beat-201",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "62de0291710ca4ff",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-202.png",
+      "beat": "beat-202",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "17452d0f9dea913c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-203.png",
+      "beat": "beat-203",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5ee7ebd182728756",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-204.png",
+      "beat": "beat-204",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "53bf0aac89450e3c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-205.png",
+      "beat": "beat-205",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c93dcd76a4914d0b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-206.png",
+      "beat": "beat-206",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cf039c651736c2f1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-207.png",
+      "beat": "beat-207",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e32c6155cb0623a6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-209.png",
+      "beat": "beat-209",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "105799efaf096bf2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-210.png",
+      "beat": "beat-210",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "43003fab5c2a4af6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-211.png",
+      "beat": "beat-211",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "90c61702af861381",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-213.png",
+      "beat": "beat-213",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a35ebc09c17b3e47",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-214.png",
+      "beat": "beat-214",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "880a35a5e4816e59",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-215.png",
+      "beat": "beat-215",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "52c1a629026bf98b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-218-a.png",
+      "beat": "beat-218",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cfde94b2eeb7dd2e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-218-b.png",
+      "beat": "beat-218",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7fd070cd66c32876",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-219.png",
+      "beat": "beat-219",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "238b3ccd552af9fd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-220.png",
+      "beat": "beat-220",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "640f775999561a48",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-221.png",
+      "beat": "beat-221",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "321164e119c54bc8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-223.png",
+      "beat": "beat-223",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "abc69e4119885023",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-224.png",
+      "beat": "beat-224",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b61f9937740337ef",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-225.png",
+      "beat": "beat-225",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ed6b4a80a7873c25",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-226.png",
+      "beat": "beat-226",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "eb3bec7a9c7a4a5c",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a grand panelled estate room with an empty leather chair beside a polished desk and a tall window, candles lit, no people. moody low-key lighting, desaturated, tense, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-06T15:22:39.822395+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-227.png",
+      "beat": "beat-227",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dd1847deb8aaa6f3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-229.png",
+      "beat": "beat-229",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "be1c7bf6684e96fb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-230.png",
+      "beat": "beat-230",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "82869c52166883b1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-231.png",
+      "beat": "beat-231",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "63356d98d8d6dbad",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-233.png",
+      "beat": "beat-233",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a6879d454d06e216",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-234.png",
+      "beat": "beat-234",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cae400f41e6d9b5c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-236.png",
+      "beat": "beat-236",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b747ef7794456706",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-237.png",
+      "beat": "beat-237",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f617bbf095efdde0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-239.png",
+      "beat": "beat-239",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7369a760468bed46",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-240.png",
+      "beat": "beat-240",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "751845109399c748",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-241.png",
+      "beat": "beat-241",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c9de118fe48cc1d8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-242.png",
+      "beat": "beat-242",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ef6503ba0c6cca65",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-244.png",
+      "beat": "beat-244",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a1062a7eda215aeb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-246.png",
+      "beat": "beat-246",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f2dd4bb3414868ad",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-247.png",
+      "beat": "beat-247",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d9e4b01e9e2074b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-248-a.png",
+      "beat": "beat-248",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "693a8e61c2d08ab2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-248-b.png",
+      "beat": "beat-248",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "470247cd9d66309a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-249.png",
+      "beat": "beat-249",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fd9e71a78244c368",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-250.png",
+      "beat": "beat-250",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fc430d339e2fd5bb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-251.png",
+      "beat": "beat-251",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0637080fb02ddacb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-252.png",
+      "beat": "beat-252",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0ffadbbdacaf0966",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-254.png",
+      "beat": "beat-254",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0a9791c2574dd964",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-255.png",
+      "beat": "beat-255",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5eee07b18b43347f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-256.png",
+      "beat": "beat-256",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a375e03bde74e0f9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-257.png",
+      "beat": "beat-257",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "40dcf3e8b7fbd865",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-258.png",
+      "beat": "beat-258",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8083d079013b3be6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-259.png",
+      "beat": "beat-259",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2da64a239b8028e0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-260.png",
+      "beat": "beat-260",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ec73bd2d09151046",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-263.png",
+      "beat": "beat-263",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b7fd3ee427a2d9d9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-265.png",
+      "beat": "beat-265",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8c96495f5a92bfb2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-266.png",
+      "beat": "beat-266",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fc19a9d6f57e1301",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-268.png",
+      "beat": "beat-268",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "b42a601a69a3921a",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: an empty brick museum gallery with a glass case under soft light, no people. single isolated subject, plain seamless studio background, centered, full subject in frame, moody low-key lighting, desaturated, tense, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-06T15:22:39.822395+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-269.png",
+      "beat": "beat-269",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "7f69d4a9a2fefdee",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: red brick facade of a historic building in daylight, clipped hedges, empty front lawn, no people. moody low-key lighting, desaturated, tense, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-06T15:22:39.822395+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-270.png",
+      "beat": "beat-270",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1ad83786c8ec571d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-271-a.png",
+      "beat": "beat-271",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "11ec2104b2ef6f38",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-271-b.png",
+      "beat": "beat-271",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "515114325f8d88dd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-273.png",
+      "beat": "beat-273",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2ccc20de53a85e1a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-274.png",
+      "beat": "beat-274",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "427f55849ec23944",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-276.png",
+      "beat": "beat-276",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3ae1e05bc66ca0df",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-277.png",
+      "beat": "beat-277",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ce8dafcdd73f9766",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-280.png",
+      "beat": "beat-280",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6122534a47bc6559",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-281.png",
+      "beat": "beat-281",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4d8f4005bb87a2f6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-283.png",
+      "beat": "beat-283",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "15cab1ae4eaa2de5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-286.png",
+      "beat": "beat-286",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "70c63db39864f37c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-288.png",
+      "beat": "beat-288",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5ddcb1af2358d82f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-289.png",
+      "beat": "beat-289",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a237d0a2740e057c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-290-a.png",
+      "beat": "beat-290",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ac832f335b04dca6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-290-b.png",
+      "beat": "beat-290",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "deb398d320db9dde",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-292.png",
+      "beat": "beat-292",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e816167d5902732c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-293.png",
+      "beat": "beat-293",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d5a7114cb5314a3b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-294.png",
+      "beat": "beat-294",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "98a8f652c06ff27e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-295.png",
+      "beat": "beat-295",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "60be4256bc2f0d26",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-296.png",
+      "beat": "beat-296",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6ef7b2f41082c4c6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-297.png",
+      "beat": "beat-297",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8af457f9f2190a83",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-298.png",
+      "beat": "beat-298",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e0633e44cac2127c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-300.png",
+      "beat": "beat-300",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1026561b3678035b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-301.png",
+      "beat": "beat-301",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0c86b9d907188866",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-302.png",
+      "beat": "beat-302",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "23e9ffab32a4ce82",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-303.png",
+      "beat": "beat-303",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9c1cb9c2132f4fe4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-304.png",
+      "beat": "beat-304",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2c554c4f10088d03",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-305.png",
+      "beat": "beat-305",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c388d7dcaa9ce244",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-306.png",
+      "beat": "beat-306",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "280d46e2472d1283",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-307.png",
+      "beat": "beat-307",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c666515fbc43eeb4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-310.png",
+      "beat": "beat-310",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ac3600177466184f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-312.png",
+      "beat": "beat-312",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9dfc7661487fb576",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-313.png",
+      "beat": "beat-313",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aac5bc8c17ea3c02",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-314.png",
+      "beat": "beat-314",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c045abb5d1a9fdc6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-315.png",
+      "beat": "beat-315",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dff6da1855b4aebd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-316.png",
+      "beat": "beat-316",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bf497bc9090ddf3f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-317.png",
+      "beat": "beat-317",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a35c59cd40f11ae5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-318.png",
+      "beat": "beat-318",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6d514402c15c30ab",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-319.png",
+      "beat": "beat-319",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7e08bde6a7c69503",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-322.png",
+      "beat": "beat-322",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2047b46da73d1305",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-323.png",
+      "beat": "beat-323",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dc7242c75f46ef58",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-324.png",
+      "beat": "beat-324",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9485fc53961e26c0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-326.png",
+      "beat": "beat-326",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "913385333d7b066c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-327.png",
+      "beat": "beat-327",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "685bf5a9e886c88d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-328.png",
+      "beat": "beat-328",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7ae8e245e452676c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-331.png",
+      "beat": "beat-331",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3c221ace446bca9c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-334.png",
+      "beat": "beat-334",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cfe9c88159d4a9e4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-335.png",
+      "beat": "beat-335",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cf96a7fe7dfec05e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-336.png",
+      "beat": "beat-336",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4d38786e0b01560b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-337.png",
+      "beat": "beat-337",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4676ef254f7e2236",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-338.png",
+      "beat": "beat-338",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "37515058d062397c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-339.png",
+      "beat": "beat-339",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aa506b527d835800",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    },
+    {
+      "path": "scenes/the-witch/beat-340.png",
+      "beat": "beat-340",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b6c128995f4ee22c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-06T17:02:03.529081+00:00"
+    }
+  ]
+}

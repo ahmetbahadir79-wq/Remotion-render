@@ -1,0 +1,260 @@
+{
+  "slug": "the-witch",
+  "bible": {
+    "slug": "the-witch",
+    "world": {
+      "era": "1692–present day",
+      "eraEvidence": "stated years in the narration: 1692 witch trials, 1970s servant flashback, present-day Julia",
+      "worldId": "the-witch",
+      "approxYear": 1692,
+      "setting": "Pemberton, a seventeenth-century estate in rural Massachusetts, and the 1692 village around it",
+      "register": "gothic thriller, dual timeline, present-day plain modern dress against period dress and candlelit rooms",
+      "forbid": [
+        "phone",
+        "codeWindow",
+        "laptopMockup",
+        "rocketLaunch",
+        "funnelMetrics",
+        "dollarExchange",
+        "subway",
+        "car",
+        "alarmClock",
+        "medical",
+        "coffee"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "the-witch",
+      "worldId": "the-witch",
+      "allowedMotifs": [
+        "home",
+        "family",
+        "inheritance",
+        "grave",
+        "shield",
+        "law",
+        "gift",
+        "mask",
+        "coin"
+      ],
+      "forbiddenMotifs": [],
+      "allowedCharacters": [
+        "julia",
+        "caroline",
+        "peton",
+        "ethel",
+        "henry",
+        "molly",
+        "celia",
+        "eldridge"
+      ],
+      "allowedLocations": [
+        "forest",
+        "bedroom",
+        "cafe",
+        "manuscript",
+        "street"
+      ],
+      "allowedProps": []
+    },
+    "cast": {
+      "julia": {
+        "name": "Julia",
+        "role": "present-day protagonist, a woman who loses her job and apartment and moves into the family estate to check on her grandmother",
+        "look": "a woman in her thirties, slim build, shoulder-length dark hair, plain modern clothes, tired expression",
+        "variant": {
+          "outfit": "casual",
+          "headwear": "none",
+          "hairStyle": "long",
+          "height": 1,
+          "build": "slight"
+        },
+        "mentions": 8
+      },
+      "caroline": {
+        "name": "Caroline",
+        "role": "1692 ancestor, a young wife of Archie Eldridge, accused of witchcraft and burned at the stake",
+        "look": "a young woman in her twenties, slim, long pale hair under a plain linen cap, dark period dress, frightened eyes",
+        "variant": {
+          "outfit": "dress",
+          "headwear": "cap",
+          "hairStyle": "long",
+          "height": 1,
+          "build": "slight"
+        },
+        "mentions": 8
+      },
+      "peton": {
+        "name": "Peton",
+        "role": "the estate itself, named in the narration as the house Julia is walking; the family house the book centres on",
+        "look": "a seventeenth-century timber house, not a person; no figure is drawn for it",
+        "variant": {},
+        "mentions": 5
+      },
+      "ethel": {
+        "name": "Ethel",
+        "role": "Julia's great-aunt, elderly, aggressive about protecting the yard",
+        "look": "an elderly woman in her eighties, thin, grey hair in a bun, dark cardigan, stern face",
+        "variant": {
+          "outfit": "robe",
+          "headwear": "none",
+          "hairStyle": "bun",
+          "height": 0.95,
+          "build": "slight"
+        },
+        "mentions": 5
+      },
+      "henry": {
+        "name": "Henry",
+        "role": "ambitious curator from the Wood Haven Museum",
+        "look": "a man in his forties, neat build, short hair, tweed jacket, polite but intense",
+        "variant": {
+          "outfit": "suit",
+          "headwear": "none",
+          "hairStyle": "short",
+          "height": 1,
+          "build": "average"
+        },
+        "mentions": 3
+      },
+      "molly": {
+        "name": "Molly",
+        "role": "1692 servant in the Eldridge household, later revealed as a manipulator behind the accusations",
+        "look": "a young woman in her twenties, plain build, brown hair under a cap, rough servant's dress",
+        "variant": {
+          "outfit": "rags",
+          "headwear": "cap",
+          "hairStyle": "short",
+          "height": 1,
+          "build": "average"
+        },
+        "mentions": 3
+      },
+      "celia": {
+        "name": "Celia",
+        "role": "a 1970s servant at the estate who later appears in the present-day plot, proud and remorseless",
+        "look": "a woman in her seventies, composed, grey-streaked hair, cardigan, cold expression",
+        "variant": {
+          "outfit": "coat",
+          "headwear": "none",
+          "hairStyle": "short",
+          "height": 1,
+          "build": "slight"
+        },
+        "mentions": 2
+      },
+      "eldridge": {
+        "name": "Archie Eldridge",
+        "role": "wealthy, powerful husband, about fifteen years older than Caroline",
+        "look": "a man in his fifties, heavy build, dark wool coat, white collar, stern face",
+        "variant": {
+          "outfit": "coat",
+          "headwear": "none",
+          "hairStyle": "short",
+          "height": 1.05,
+          "build": "heavy"
+        },
+        "mentions": 2
+      }
+    },
+    "places": {
+      "forest": {
+        "set": "forest",
+        "look": "a dark wooded estate edge at night, where a serial killer is said to hunt",
+        "mentions": 3
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "a low old bedroom with a window onto the grounds and a hidden trapdoor in the floor",
+        "mentions": 3
+      },
+      "cafe": {
+        "set": "cafe",
+        "look": "a small retro diner in town",
+        "mentions": 2
+      },
+      "manuscript": {
+        "set": "library",
+        "look": "the heavy chestnut front door and the old household records of the house",
+        "mentions": 2
+      },
+      "street": {
+        "set": "street",
+        "look": "the iron-fronted street side of the house",
+        "mentions": 1
+      }
+    },
+    "objects": [
+      {
+        "concept": "home",
+        "mentions": 66,
+        "why": "the book's central theme: who owns a house and what it holds"
+      },
+      {
+        "concept": "family",
+        "mentions": 28,
+        "why": "the family's willingness to bury things on its own property"
+      },
+      {
+        "concept": "inheritance",
+        "mentions": 21,
+        "why": "the estate passing down with its secrets"
+      },
+      {
+        "concept": "grave",
+        "mentions": 20,
+        "why": "the bones found in the yard"
+      },
+      {
+        "concept": "shield",
+        "mentions": 14,
+        "why": "the iron bear door knocker as protector, and the house as a barrier"
+      },
+      {
+        "concept": "law",
+        "mentions": 10,
+        "why": "the 1692 trials and the present-day legal trap"
+      },
+      {
+        "concept": "gift",
+        "mentions": 7,
+        "why": "the estate inherited as a gift that is also a trap"
+      },
+      {
+        "concept": "mask",
+        "mentions": 7,
+        "why": "the people hiding behind other identities"
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 2,
+        "claim": "Julia moves into Pemberton with nothing left, and the house starts to show its own secrets."
+      },
+      {
+        "act": "development",
+        "fromFrame": 14438,
+        "claim": "The bones in the yard and Ethel's threats show that the family has been burying its history on its own land."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 28574,
+        "claim": "The 1692 story and the present story are the same story: a house that protects its owners by hiding its dead."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 46558,
+        "claim": "Inheritance turns out to be a debt the family keeps paying in silence."
+      },
+      {
+        "act": "close",
+        "fromFrame": 61870,
+        "claim": "The house does not belong to the family; the family belongs to the house."
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 551
+  }
+}

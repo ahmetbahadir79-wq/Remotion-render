@@ -1,0 +1,70 @@
+{
+  "runs": [
+    {
+      "label": "final",
+      "date": "2026-11-06T14:40:11.269Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 23,
+        "TEXT_ONLY": 9,
+        "ADDS": 21,
+        "NEUTRAL": 7,
+        "EXPLAINS": 1
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "df98c1a2c0a4e457723c6de9d5fd50bb042b752aaa140109e1a3fc12f698f9a2",
+      "verdict": true,
+      "dead": 0,
+      "addsTargetMet": true,
+      "evidenceSha256": "263963b1fca3b8921498ecc0d6f5b81b3b10fbad4ab39c3fa36b8661fbc05ea7",
+      "binding": "BOUND",
+      "imageBeats": 22,
+      "imageAdds": 21,
+      "addsAll": 70,
+      "configSha256": "5a4fab5757d0da5f837352022e6e31c9d7e3a90b71af2a14f0cf9b143f4805bf",
+      "renderInputHash": "f35891360f2c61b7",
+      "codeHead": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "framesConfigSha": "5a4fab5757d0da5f"
+    },
+    {
+      "label": "run2",
+      "date": "2026-11-07T05:39:01.857Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 21,
+        "TEXT_ONLY": 9,
+        "ADDS": 17,
+        "NEUTRAL": 9,
+        "NONE": 4
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "8168195004b29efa9dfd1ef2e4375445310f9cab7ebda9837032876866db496f",
+      "verdict": true,
+      "dead": 4,
+      "addsTargetMet": false,
+      "evidenceSha256": "2ced4ec3a986f67ae21151dd97cbb9257e1f1805e16ba39cd8c58687b1657b9e",
+      "binding": "BOUND",
+      "imageBeats": 21,
+      "imageAdds": 17,
+      "addsAll": 57,
+      "configSha256": "0d592b606b91d7fd4ea71964182929969fa9a9185c5bb95074e5962505efedf4",
+      "renderInputHash": "a454c796b4534876",
+      "codeHead": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "framesConfigSha": "0d592b606b91d7fd"
+    }
+  ]
+}

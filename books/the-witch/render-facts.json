@@ -1,0 +1,56 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-11-07T05:50:14.714Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "55748c9b",
+      "tools": "8ce1e634",
+      "pin": "55748c9bd183",
+      "configHash": "0d592b606b91d7fd",
+      "renderInputHash": "a454c796b4534876",
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "blocks": null,
+        "reviews": null
+      },
+      "preview": {
+        "state": "NOT_READY",
+        "covered": true,
+        "mute": {
+          "label": "run2",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 0,
+          "dead": 4,
+          "adds": 17,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT (recorded now)",
+        "ok": true,
+        "accepted": true,
+        "reason": "5 beats (003,040,226,268,269) have no image after the content filter rejected them 3/3; mute test run2 PASS (WRONG 0/30, dead 4/30); operator ordered render on all GitHub accounts",
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "authorization": {
+        "at": "2026-11-07T05:47:02.716Z",
+        "recordedNow": true,
+        "kind": "render-authorization"
+      },
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 5,
+        "refused": 0
+      }
+    }
+  ]
+}

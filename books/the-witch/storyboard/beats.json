@@ -1,0 +1,5797 @@
+{
+  "slug": "the-witch",
+  "title": "The Witch",
+  "author": "Freida McFadden",
+  "genre": "thriller",
+  "count": 342,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "We always talk about home ownership like, you know, like we own the house, right? Like it's the ultimate American Exactly. We hold the deed.",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "ULTIMATE",
+          "AMERICAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ownership, ultimate, american",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "We pay the 30-year mortgage. We agonize over um the paint colors for the guest bathroom. Oh, definitely. And so, we convince ourselves that we are the absolute masters of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "30-YEAR",
+          "MORTGAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 2,
+      "text": "our domain. But if you look at the physical architecture of a place that stood for 350 years, the house owns us.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "350",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "Yeah. It dictates who lives. It dictates who dies. And it dictates exactly where the bodies are buried. Because wood and brick,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DICTATES",
+          "WHO",
+          "LIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "I mean, they simply don't rot as fast as human Wow. Yeah. That is the grim unavoidable reality we were forced to confront here.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "WOW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unavoidable, confront, reality",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 5,
+      "text": "When a house survives that long, when it stands defiant for centuries through civil wars and famines, through the industrial revolution,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDUSTRIAL",
+          "REVOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "right? Through the rise and fall of entire generations of a single bloodline. It's almost never because of good maintenance. it is usually because the people inside made",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "BLOODLINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 7,
+      "text": "a terrible Fostian bargain with the dirt it sits on. The foundation of a legacy estate isn't just poured stone. It's well, it's compromise.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TERRIBLE",
+          "FOSTIAN",
+          "BARGAIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "compromise., foundation, terrible",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 8,
+      "text": "That profound architectural compromise is basically the beating heart of The Witch by Freda McFaden. Because if you just glance at the cover,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREDA",
+          "MCFADEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "architectural, compromise, basically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 9,
+      "text": "this book is heavily disguised as like a traditional supernatural ghost story. You've got the creepy old isolated Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TRADITIONAL",
+          "SUPERNATURAL",
+          "GHOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "supernatural, traditional, disguised",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 10,
+      "text": "You've got things going bump in the night. You've got the deep, dark historical ties of the Massachusetts Twitch trials, but we are pulling back the floorboards today.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSACHUSETTS",
+          "TWITCH",
+          "TRIALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "youve, massachusetts, floorboards",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 11,
+      "text": "We really are because this is actually a thriller about inheritance. The argument we are proving today in this deep dive is this.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROVING",
+          "TODAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 12,
+      "text": "The real protagonist and frankly the real monster is Peton, the 17th century estate the house itself, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "17TH",
+          "CENTURY",
+          "ESTATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "real, protagonist, frankly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 13,
+      "text": "And the two distinct timelines we see that 1692 won in the present day, they're not separate stories at all. Not at all. They are the exact same agonizing question",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "1692",
+          "WON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "asked twice three centuries apart. And that question is, what is the family willing to bury on their own property to keep their house?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "TWICE",
+          "THREE",
+          "CENTURIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "It's a completely fascinating framework. And to understand exactly how this um this architectural trap closes on the characters, we need to carefully look at the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FASCINATING",
+          "FRAMEWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 16,
+      "text": "board as it is set. Let's do it. Let's start with the present day. We follow Julia Barlo. She is 27 years old.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FOLLOW",
+          "JULIA",
+          "BARLO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lets, present, follow",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 17,
+      "text": "She is flat broke and she is arguably at the lowest point of her adult life. Oh, she's having a terrible time. Just brutal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIBLE",
+          "TIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "She recently lost her nonprofit tutoring job because the funding was suddenly cut. And subsequently, because she lives in one of the most expensive cities on",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NONPROFIT",
+          "TUTORING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 19,
+      "text": "Earth, she lost her Manhattan apartment. Yeah. You can't survive there without a Exactly. And she",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MANHATTAN",
+          "APARTMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "apartment., manhattan, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 20,
+      "text": "has this distinctive white patch in her hair, which is this physical marker of stress",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISTINCTIVE",
+          "WHITE",
+          "PATCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 21,
+      "text": "or maybe genetics. and she is entirely a drift. She has nowhere to go. None. Out of sheer desperation, she packs her meager belongings and moves into",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MEAGER",
+          "BELONGINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "her family's ancestral estate, Peton, located in the rural, heavily wooded town of Wood Haven, Right.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ancestral, familys, located",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 23,
+      "text": "And she's there ostensibly to care for her aging relatives. You've got her grandmother, Letty, who is 85 and seemingly slipping deep into the fog of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AGING",
+          "RELATIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "grandmother, ostensibly, relatives.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 24,
+      "text": "Yes. And then you have her great aunt Ethel, who is this sharpelbowed, steelely woman, effectively running the household with an iron grip.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GREAT",
+          "AUNT",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sharpelbowed, effectively, household",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 25,
+      "text": "She is terrifying. She really is. But the catalyst for the entire nightmare happens almost immediately upon Julia arriving.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "UPON",
+          "JULIA",
+          "ARRIVING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrifying., immediately, nightmare",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 26,
+      "text": "The backyard. Yeah. She wanders out into the overgrown massive backyard. And we're not talking about a manicured suburban lawn. No, it's wild.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OVERGROWN",
+          "MASSIVE",
+          "BACKYARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "We're talking about acres of dense, untamed New England wilderness just creeping right up to the back porch. She looks down into the dirt and she finds what she initially",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NEW",
+          "ENGLAND",
+          "WILDERNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "wilderness, initially, creeping",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 28,
+      "text": "assumes is a large animal bone, like a deer or something, right? But it's not a deer. It's a 300-year-old human pelvic bone sitting right there",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "300-YEAR-OLD",
+          "HUMAN",
+          "PELVIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "just working its way out of the soil. And that single piece of human anatomy is the physical tether dragging us down into our 1692 timeline.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "1692",
+          "TIMELINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "Right, let's jump back. In that colonial era, we follow a young woman named Caroline Eldridge. She is the much younger second wife of a wealthy,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAMED",
+          "CAROLINE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "eldridge., colonial, caroline",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 31,
+      "text": "influential merchant named Archie Eldridge. It's kind of a big deal in town. Huge deal. Mhm. [clears throat] She lives in Peton, which Archie's father actually built, cementing",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAMED",
+          "ARCHIE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "influential, eldridge., cementing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 32,
+      "text": "their status as the town's founders. While the surrounding village of Wood Haven is descending into absolute paranoia.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "surrounding, descending, founders.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 33,
+      "text": "The witch trials. Exactly. It is the height of the witch trial hysteria where neighbors are turning on neighbors over like spoiled Yeah.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WITCH",
+          "TRIAL",
+          "HYSTERIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "But simultaneously, there is a very real, very physical threat hunting the town. A brutal serial killer known as the Night Reaper, Jamus",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NIGHT",
+          "REAPER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "simultaneously, physical, hunting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 35,
+      "text": "Reev. Yes, Jonas Reev, who is actively stalking the woods and strangling young",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONAS",
+          "REEV"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "strangling, actively, stalking",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 36,
+      "text": "So, you have supernatural panic layered on top of a very real",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUPERNATURAL",
+          "PANIC",
+          "LAYERED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 37,
+      "text": "terrestrial serial killer. It's just a complete powder keg. It really is. And the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRESTRIAL",
+          "SERIAL",
+          "KILLER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "pressure cooker forcing all these ancient secrets to the surface in the present day",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRESSURE",
+          "COOKER",
+          "FORCING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 39,
+      "text": "is a man named Henry Ziegler. Ah, Henry. Yeah. Henry is an ambitious curator from the Wood Haven Museum.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN",
+          "MUSEUM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "henry, ambitious, ziegler.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 40,
+      "text": "He is aggressively pitching this massive, highly generous financial offer to buy Pimpton to preserve it as a historical Which, you know, on paper",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BUY",
+          "PIMPTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "aggressively, historical, financial",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 41,
+      "text": "sounds incredible, right? Totally. It's a financial lifeline for a family that is completely broke. But here are the actual stakes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINANCIAL",
+          "LIFELINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 42,
+      "text": "The reason the tension is so incredibly high, the excavation. Yes. If",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REASON",
+          "THE",
+          "TENSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "the museum buys the estate, they will bring in heavy machinery.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "MACHINERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 44,
+      "text": "They will excavate the land to build parking lots and modern visitor exhibits. And you can't have that. No. Because if they excavate the grounds of Peterton, all",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "VISITOR",
+          "EXHIBITS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "excavate, exhibits., peterton",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 45,
+      "text": "of the family's bodies dating back three centuries are coming up with the dirt. Exactly. The estate is under active siege from the outside",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FAMILY",
+          "BODIES",
+          "DATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 46,
+      "text": "world, which forces the desperate inhabitants inside to take drastic unthinkable measures. Yeah. To understand the psychology here, we have to look at how Petton",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DRASTIC",
+          "UNTHINKABLE",
+          "MEASURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "inhabitants, unthinkable, understand",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 47,
+      "text": "itself operates as a living entity. Starting with the physical space, I want you to drop yourself directly into Julia's perspective on her very first",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "PERSPECTIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "perspective, operates, starting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 48,
+      "text": "day in the Okay, set the scene. She has barely stepped through the heavy front door. She's dealing with Mick, the frail, elderly, overall",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEALING",
+          "WITH",
+          "MICK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "stepped, through, dealing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 49,
+      "text": "wearing groundskeeper who practically had a heart attack just exerting the effort to open the door for her. Right. He's so old.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEARING",
+          "GROUNDSKEEPER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 50,
+      "text": "The air is stale. The lighting is dim and as she's walking down the main second floor hallway, she stops dead.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SECOND",
+          "FLOOR",
+          "HALLWAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "She stares at the wooden staircase leading up to the attic. Oh man, the stairs. The stairs are completely wrong.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WOODEN",
+          "STAIRCASE",
+          "LEADING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 52,
+      "text": "They are so unsettling. They aren't flat uniform levels like you'd find in any normal house. Each side alternates in height, so your left foot",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLAT",
+          "UNIFORM",
+          "LEVELS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "lands on one step and then your right foot has to land on a slightly higher separate block of wood on the right side. It's just back and forth.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIGHER",
+          "SEPARATE",
+          "BLOCK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "It's dizzying. It's incredibly jarring to look at. It messes with your equilibrium just standing at the bottom. And Julia stands there and she suddenly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "STANDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "equilibrium, incredibly, dizzying.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 55,
+      "text": "remembers being a little girl holding her grandmother Letty's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GRANDMOTHER",
+          "LETTY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "grandmother, remembers, holding",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 56,
+      "text": "hand. Letty smiles this deeply unsettling mischievous smile,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNSETTLING",
+          "MISCHIEVOUS",
+          "SMILE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "pointing up into the dark and telling young Julia that they are witches stairs. The family lore, right? The deeprooted lore of Peton is that",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "YOUNG",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lore, deeprooted, pointing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 58,
+      "text": "these alternating treads were designed specifically to trip up the supernatural because of which supposedly cannot comprehend or physically",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUPPOSEDLY",
+          "CANNOT",
+          "COMPREHEND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "climb these kinds of irregular asymmetric It's such a striking image. It immediately sets the hair on the back of Julia's neck standing straight up.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "NECK",
+          "STANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "immediately, asymmetric, irregular",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 60,
+      "text": "It frames the house right from page one as an active battleground against the It's a fascinating bit of psychological architecture.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTIVE",
+          "BATTLEGROUND",
+          "AGAINST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 61,
+      "text": "Here's what that means for you. The architectural quirks we often romanticize today as like historical charm are frequently the physical manifestations",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "MANIFESTATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "of a society's deep-seated paranoia. Wow. Yeah. When we walk into a preserved colonial home on a weekend tour and admire the strange sharp angles,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIETY",
+          "DEEP-SEATED",
+          "PARANOIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "the deliberately low ceilings or the heavy iron window we think it's quaint. We do. But we're not just looking at old building techniques.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUILDING",
+          "TECHNIQUES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 64,
+      "text": "We are looking at fossilized fear. Fossilized fear. I love that. The family mythology of the Eldriches has taken a literal staircase and mentally",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ELDRICHES",
+          "HAS",
+          "TAKEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fossilized, fear., mythology",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 65,
+      "text": "transformed it into a magical ward. You know, a spell cast in oak and pine to keep the devil in the attic. But then Henry, the museum curator,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MUSEUM",
+          "CURATOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transformed, magical, curator",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 66,
+      "text": "completely bursts this supernatural bubble in the most mundane way possible. He really does. A few chapters later, he takes Julia out to this classic",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TAKES",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "supernatural, completely, possible.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 67,
+      "text": "retro diner in town. They're sitting in a booth with black and white checkered floors eating greasy cheeseburgers and fries. Great scene.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHECKERED",
+          "FLOORS",
+          "EATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "Yeah. And Julia, still totally spooked by the house, brings up the witch's stairs, and Henry just chuckles into his milkshake.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "JUST",
+          "CHUCKLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "milkshake., chuckles, totally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 69,
+      "text": "He tells her, \"It's a complete myth.\" Just shatters it. He says, \"Alterning tread stairs had absolutely nothing to do with witches, spells, or the supernatural.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ALTERNING",
+          "TREAD",
+          "STAIRS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "They were simply a highly pragmatic, deeply boring 17th century architectural design used to save horizontal space in narrow, cramped hallways where a standard staircase",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "17TH",
+          "CENTURY",
+          "ARCHITECTURAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "wouldn't fit. It is a brilliant surgical deflating of the ghost story. Henry replaces the terrifying supernatural lore of the family with cold,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRILLIANT",
+          "SURGICAL",
+          "DEFLATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 72,
+      "text": "hard, pragmatic architectural utility. Okay, hold on. I need to unpack this because honestly, when I read that scene, I was actually kind of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRAGMATIC",
+          "ARCHITECTURAL",
+          "UTILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "When Henry strips the magic away and explains it's just a space-saving measure, I felt like it ruined the horror of the house.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "STRIPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "space-saving, explains, measure",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 74,
+      "text": "It takes this terrifying mystical element of Petan, this idea that the house is fighting invisible demons, and reduces it to basically 17th century",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "17TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrifying, invisible, basically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 75,
+      "text": "IKEA That's hilarious. But it makes the house feel mundane and practical instead of malevolent. See, I couldn't disagree with you more.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRACTICAL",
+          "INSTEAD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "malevolent., hilarious., practical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 76,
+      "text": "The pragmatic truth doesn't ruin the horror at all. I think it makes it infinitely scarier if you follow the logic to its conclusion.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRAGMATIC",
+          "TRUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 77,
+      "text": "How so? Think about the physical implications of what Henry is saying. If the stairs aren't designed to stop ghosts, they are designed purely for human",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "IMPLICATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "designed, implications, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 78,
+      "text": "efficiency and it means the terror inside Peton isn't spectral.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TERROR",
+          "INSIDE",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "efficiency, spectral., terror",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 79,
+      "text": "The real threat is human beings hiding in that attic,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "BEINGS",
+          "HIDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "utilizing efficient architecture to move around quietly, to spy on the lower floors, to survive undetected in the tight spaces of the house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UTILIZING",
+          "EFFICIENT",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 81,
+      "text": "Oh my god. It shifts the threat from the ethereal, which you can't fight, to the visceral, which can actually hold a knife.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHIFTS",
+          "THE",
+          "THREAT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "Humans built those cramped stairs to hide other Okay. When you put it like that, it completely flips the script. It's not a magical barrier protecting the family.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAGICAL",
+          "BARRIER",
+          "PROTECTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 83,
+      "text": "It's a structural tool for the living to move around like rats on the walls. Which perfectly reinforces the core thesis of this whole situation.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHOLE",
+          "SITUATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "The property always keeps the receipts. It truly does. The house holds the physical evidence of every lie ever told inside of it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "EVIDENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "And that architectural dread isn't just contained to the dark corners of the interior. It",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARCHITECTURAL",
+          "DREAD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 86,
+      "text": "starts at the very threshold of the house. The boundary between the wild and the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BOUNDARY",
+          "BETWEEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "the front door. Let's look at how that threshold functions in 1692. The atmosphere in the colony is suffocating.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUNCTIONS",
+          "IN",
+          "1692"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 88,
+      "text": "Caroline is utterly terrified. She's just out of her mind with fear. She has just been out in the muddy streets of the town and she made direct eye contact with the night reaper himself,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NIGHT",
+          "REAPER",
+          "HIMSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "Jonas Reev. Right. This is a man with wild uncamped hair, a",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONAS",
+          "REEV"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "uncamped, right., jonas",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 90,
+      "text": "hulking physical presence who has already violently claimed four souls, strangling",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HULKING",
+          "PHYSICAL",
+          "PRESENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "young girls and leaving them in the brush. He's a monster. When Caroline",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "monster., caroline, leaving",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 92,
+      "text": "runs back to Peton, she views the house as her absolute impenetrable fortress.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "IMPENETRABLE",
+          "FORTRESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "impenetrable, fortress., absolute",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 93,
+      "text": "She bolts the heavy chestnut door, which the text notes was built large enough for a Yeah, it's massive. But she specifically fixates on the knocker on the outside of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "CHESTNUT",
+          "DOOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "that door. It's this terrifying heavy black metal knocker fashioned in England, shaped like a snarling bear with its mouth wide open and iron teeth bared.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "FASHIONED",
+          "IN",
+          "ENGLAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 95,
+      "text": "It's such a great detail for Caroline feeling the literal gaze of a",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "FEELING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "caroline, feeling, literal",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 96,
+      "text": "serial killer on her back. That heavy iron bear is her fierce guardian.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIERCE",
+          "GUARDIAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 97,
+      "text": "And I mean, it makes total sense, right? In a world without police forces or alarm systems, a massive door with a snarling iron beast on it is your",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SNARLING",
+          "IRON",
+          "BEAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "only security system. the only thing between you and death. Here's what that means for you. We falsely equate the physical boundaries of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "BOUNDARIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 99,
+      "text": "our property with absolute safety from the outside world. Oh, we do this all the time. Think about how we live today.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "SAFETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 100,
+      "text": "We put up a 6ft privacy fence. We install a heavy steel corridor. We buy the loudest, fiercest looking ring camera, right, with the flood lights.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "6FT",
+          "PRIVACY",
+          "FENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 101,
+      "text": "And we tell ourselves that the evil chaotic rot of the world explicitly stops at our property line. We treat our homes as sacred sanctuaries that are somehow",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SACRED",
+          "SANCTUARIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 102,
+      "text": "magically immune to the societal decay surrounding them. We believe the lock keeps the danger out. And that illusion just echoes through time.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIETAL",
+          "DECAY",
+          "SURROUNDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 103,
+      "text": "Fast forward to the modern timeline. When Julia was a little kid visiting Pean for the holidays, she was utterly terrified of that exact same bear knocker.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VISITING",
+          "PEAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "timeline., terrified, visiting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 104,
+      "text": "I love that parallel. While her ancestor Caroline saw it as a fierce protector, young Julia thought that heavy iron bear was malevolent.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANCESTOR",
+          "CAROLINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "malevolent., parallel., protector",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 105,
+      "text": "She thought he was going to literally leap right off the chestnut wood and eat her in one bite. It's a stark, fascinating psychological contrast between the two women.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FASCINATING",
+          "PSYCHOLOGICAL",
+          "CONTRAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 106,
+      "text": "But wait, look at the context of why Caroline feels safe. I think the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "FEELS",
+          "SAFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "caroline, context, feels",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 107,
+      "text": "bear knocker clearly represents the patriarchal protection of the men in the Oh, interesting.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PATRIARCHAL",
+          "PROTECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "Archie Eldridge is this wealthy, powerful 15 years older husband. He's the guy who built the town economy. He provides the fine surge clothing she wears,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ARCHIE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "eldridge, powerful, husband.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 109,
+      "text": "the hot bean pottage on the table, the roaring fires. He's the provider.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ROARING",
+          "FIRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 110,
+      "text": "The iron bear is the literal manifestation of Archie's wealth and status",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ARCHIE",
+          "WEALTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "manifestation, literal, archies",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 111,
+      "text": "guarding his young, vulnerable wife from the wildness of the night reaper out in the univilized woods. I hear what you're saying about the economics of the era, but",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNIVILIZED",
+          "WOODS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 112,
+      "text": "I read that entirely differently. I don't think the bear represents Archie's protection at all. Not even a little bit. Really?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "REPRESENTS",
+          "ARCHIE",
+          "PROTECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "Why not? I think the bear is Peton itself. And young Julia, with the unclouded intuition of a child, had the right instinct.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PETON",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unclouded, intuition, instinct.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 114,
+      "text": "The kid was right. The bear doesn't protect the women inside. It devours them. It traps them within its walls so they can never ever",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WOMEN",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "But Archie bought it. It's literal iron facing the street. How is it a jailer if its teeth are pointed at the woods?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "ARCHIE",
+          "BOUGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "Because of what the house forces Caroline to endure. Caroline thinks the house is keeping",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOUSE",
+          "FORCES",
+          "CAROLINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "caroline, house, because",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 117,
+      "text": "the serial killer out, but the house is actually isolating her from the community.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SERIAL",
+          "KILLER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "Oh wow. It's locking her into a domestic dynamic with Archie that is deeply toxic and will ultimately lead to her being executed.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DYNAMIC",
+          "WITH",
+          "ARCHIE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ultimately, executed., domestic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 119,
+      "text": "The heavy chestnut door doesn't just stop people from coming in, it stops her from getting out. The bear is a padlock on a cell, not a guard dog.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "CHESTNUT",
+          "DOOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 120,
+      "text": "Okay, so Peppton is the cage and the iron bear is the padlock. And no matter how much time passes, whether it's 1692 or modern day, that",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WHETHER",
+          "IT",
+          "1692"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "padlock., peppton, whether",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 121,
+      "text": "physical hardware serves the exact same psychological because the property always keeps the It really does.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "HARDWARE",
+          "SERVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "The house is a machine that traps its inhabitants. Which brings us to the terrifying reality of what happens when you finally breach that boundary, leave the safety",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 123,
+      "text": "of the house, and start looking at the land itself. We have to talk about the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LAND",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "backyard. We do. This is one of the most chilling, visceral scenes in the entire book.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VISCERAL",
+          "SCENES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "Julia is walking the massive backgrounds of Peton. As we established, this isn't a manicured suburban lawn where you'd set up a croquet set.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BACKGROUNDS",
+          "OF",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "backgrounds, established, manicured",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 126,
+      "text": "Definitely not. It is heavily overgrown. The grass and weeds are hitting her knees. The wind is literally whispering past her ears.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHISPERING",
+          "PAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "The woods are encroaching on the property line. She's completely alone. Very spooky. And she looks down into the dark dirt and she discovers",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROPERTY",
+          "LINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 128,
+      "text": "a bone. Not a small animal bone, a massive, undeniably human pelvic bone.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SMALL",
+          "ANIMAL",
+          "BONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "The anatomy is unmistakable. Exactly. It's not a femur that you could confuse with a deer. It's a human pelvis.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "PELVIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 130,
+      "text": "Now, she immediately connects this gruesome discovery to the dark family lore she grew up with. The bedtime stories. Yeah. Grandmother Lety used to tell her these morbid stories that",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GRANDMOTHER",
+          "LETY",
+          "USED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "immediately, grandmother, discovery",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 131,
+      "text": "her ancestor Caroline was executed for witchcraft in 1692. And because she was a",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANCESTOR",
+          "CAROLINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "witchcraft, ancestor, caroline",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 132,
+      "text": "convicted witch, the puritanical town wouldn't allow her to be buried in consecrated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURITANICAL",
+          "TOWN",
+          "WOULDN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 133,
+      "text": "ground in the local church cemetery. Right? They cast her out. So her grieving husband, Archie, supposedly carried her scorched, ruined remains back to Peton",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LOCAL",
+          "CHURCH",
+          "CEMETERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "supposedly, cemetery., grieving",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 134,
+      "text": "in the dead of night and buried her in an unmarked grave right there in the backyard. It's a horrifying legacy to literally stumble over.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HORRIFYING",
+          "LEGACY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 135,
+      "text": "Here's what that means for you. Inheriting an estate doesn't just mean inheriting wealth or acorage or beautiful historical architecture.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEAUTIFUL",
+          "HISTORICAL",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 136,
+      "text": "It rarely does in these books. You are legally, physically, and morally inheriting the crimes and the cover-ups of your ancestors.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "INHERITING"
+        ],
+        "items": [
+          "ARE LEGALLY",
+          "PHYSICALLY",
+          "MORALLY INHERITING"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 137,
+      "text": "The literal dirt you own is comprised of the secrets they buried to maintain their status. You cannot separate the financial value of the property from the moral deficit",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "SEPARATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "of its history. Think about modern real estate inheritance, right? When people inherit a house today, they worry about back taxes or leaky roof or",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "ESTATE",
+          "INHERITANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "maybe outdated Yeah, normal stuff. They don't think about the fact that they are inheriting the exact physical space where decades of domestic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "PHYSICAL",
+          "SPACE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "trauma or worse might have And the living relatives in the book are absolutely ruthless about protecting that dirt.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LIVING",
+          "RELATIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 141,
+      "text": "They know the cost of the Ethel especially. Yes. When Julia's great aunt Ethel",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "GREAT",
+          "AUNT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ethel, especially., julias",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 142,
+      "text": "finds out that Julia has been poking around the yard and found a bone,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "poking, around, finds",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 143,
+      "text": "the elderly woman aggressively corners her. Ethel's steel gray eyebrows shoot up. Her eyes are flashing with genuine menace, and she gives Julia",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GIVES",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "aggressively, eyebrows, flashing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 144,
+      "text": "this hardthreatening She's so scary. She warns her never to disturb Caroline's grave, saying Caroline won't stand for it either.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DISTURB",
+          "CAROLINE",
+          "GRAVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hardthreatening, carolines, caroline",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 145,
+      "text": "Ethel is actively, maliciously weaponizing a 300-year-old ghost story to protect the physical dirt of the yard from being dug up.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "300-YEAR-OLD",
+          "GHOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 146,
+      "text": "She's using the supernatural as an ADT security system for a crime scene. but wait, I have to stop here.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ADT",
+          "SECURITY",
+          "SYSTEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 147,
+      "text": "What does this all actually mean for Julia as a Because honestly, Julia's reaction in this chapter drives me completely crazy.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "REACTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, actually, honestly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 148,
+      "text": "she finds a massive human pelvic bone in the yard. The logical, normal, same response for any human being in the 21st century is to pull out your cell phone and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "21ST",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "call 911 immediately. you don't just say, \"Oh, it's my great great whatever grandmother from 1692.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "GREAT",
+          "WHATEVER",
+          "GRANDMOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "Let's leave it for the raccoons and go back inside to make tea.\" You call the cops. But let me challenge you on that. Would you?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BACK",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "Of course. Really think about the brutal financial and emotional trap Peton has sprung on her. Henry Ziegler has already explicitly told Julia",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EMOTIONAL",
+          "TRAP",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "explicitly, financial, emotional",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 152,
+      "text": "that if the police are called to the estate and they find human remains, the entire property immediately becomes a state crime scene, It gets wrapped in yellow tape.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIND",
+          "HUMAN",
+          "REMAINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "That completely tanks the museum's multi-million dollar offer. So Julia has to weigh the moral imperative of reporting anonymous human remains against the absolute",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REPORTING",
+          "ANONYMOUS",
+          "HUMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "multi-million, completely, imperative",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 154,
+      "text": "financial salvation of her entire destitute family. That's a huge burden. Furthermore, look at the emotional leverage her grandmother Lety is",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GRANDMOTHER",
+          "LETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "furthermore, grandmother, financial",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 155,
+      "text": "85, frail, and deeply confused. Turning Letty's lifelong home into a forensic excavation site with flood lights and backhos would literally",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "LETTY",
+          "LIFELONG"
+        ],
+        "items": [
+          "85",
+          "FRAIL",
+          "DEEPLY CONFUSED"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "destroy the old Yeah, that would kill her. The house forces Julia into a massive impossible moral compromise. She actively chooses the financial safety of the estate",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOUSE",
+          "FORCES",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "compromise., impossible, financial",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 157,
+      "text": "over the truth of the bones. My god, you're right. She gets complicit The house makes you an accomplice to its crimes just by living there.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLICIT",
+          "THE",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 158,
+      "text": "It uses your love for your grandmother and your need for a paycheck to turn you into a grave robber in reverse, just burying it all back down because the property",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRAVE",
+          "ROBBER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "always keeps the It absolutely demands complicity to maintain its facade of respectability. And if the physical architecture of the stairs",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "is hostile and the grounds of the backyard are literally hiding bodies, we have to look at how the very passage of time inside Peton is actively",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TIME",
+          "INSIDE",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "literally, backyard, actively",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 161,
+      "text": "weaponized against the inhabitants. Oh yes, the grandfather clock. It's so good. This is one of the creepiest elements of the modern timeline.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "CREEPIEST",
+          "ELEMENTS"
+        ],
+        "items": [
+          "OH YES",
+          "GR",
+          "FATHER CLOCK"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "This clock is as old as the house itself. It sits in the main living room and it has this hypnotic heavy pendulum swing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HYPNOTIC",
+          "HEAVY",
+          "PENDULUM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "Tick tick echoing everywhere. It echoes through the entire first floor. But in the present day, Julia wakes up in the dead of the night",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TICK",
+          "ECHOING",
+          "EVERYWHERE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "tick, everywhere., echoing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 164,
+      "text": "to this horrific, agonizing moaning echoing out in the second floor hallway. She's terrified.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGONIZING",
+          "MOANING",
+          "ECHOING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "She goes to her bedroom window and in the moonlight, she finds a fresh, smudged, greasy handprint drying slowly down the outside",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "GREASY",
+          "HANDPRINT"
+        ],
+        "items": [
+          "SMUDGED",
+          "GREASY H",
+          "PRINT DRYING"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 166,
+      "text": "of the glass with these unnaturally elongated So creepy. And the next morning when she goes downstairs, she realizes the anti-grandfather",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNNATURALLY",
+          "ELONGATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "clock has stopped dead. The hands are frozen at exactly 3:41 It's a textbook haunting scenario designed to isolate and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEXTBOOK",
+          "HAUNTING",
+          "SCENARIO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "terrify. Here's what that means for you. A haunting isn't always supernatural. Um, sometimes it's just human malice weaponizing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "MALICE",
+          "WEAPONIZING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "a That is so true. When we experience something inexplicable, a sound in the night, a door opening on its own, a clock stopping, our human",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPERIENCE",
+          "SOMETHING",
+          "INEXPLICABLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 170,
+      "text": "minds immediately leap to ghosts because it is almost psychologically easier to process a restless spirit than to accept the terrifying reality",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "that a living, breathing human being in our own home is orchestrating",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BREATHING",
+          "HUMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 172,
+      "text": "our terror. Because humans are way worse than And the orchestration",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WAY",
+          "WORSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 173,
+      "text": "at Peton is meticulous and deeply sinister. The very next day after the window incident, Mick, the groundskeeper, standing in the living room in his dirty",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "PETON"
+        ],
+        "items": [
+          "GROUNDSKEEPER",
+          "ST",
+          "ING IN"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "overalls, casually holding a rake, just hanging out. Yeah. He looks at the frozen clock and tells Julia that the grandfather clock stops every single night at",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GRANDFATHER",
+          "CLOCK",
+          "STOPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "clock, grandfather, overalls",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 175,
+      "text": "exactly 3:41 a.m. He claims he had a professional clock repairman come all the way from town, pull the whole mechanism apart, and the guy found absolutely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFESSIONAL",
+          "CLOCK",
+          "REPAIRMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "nothing wrong with the gears of the weights. Nothing wrong at all. And then the absolute kicker, Mick holts up his own wrist.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "KICKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "nothing, wrong, weights.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 177,
+      "text": "His silver battery operated analog watch also stops every single night at exactly 3:41 a.m.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SILVER",
+          "BATTERY",
+          "OPERATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "It presents the illusion of a localized supernatural stoppage of time. The house itself is refusing to move past that specific minute.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LOCALIZED",
+          "SUPERNATURAL",
+          "STOPPAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "Okay, I have to jump in here because when I read this, I got so excited. 3:41 a.m. has to be a historical marker.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "MARKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 180,
+      "text": "It is the exact hour that Caroline Eldridge was burned at the stake in That's the logic. The house is literally holding its breath at the moment of her ultimate trauma.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "literally, caroline, eldridge",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 181,
+      "text": "The ghost of Caroline is freezing time in the modern day to force her living descendants to acknowledge her brutal murder. It's classic Gothic It is",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CLASSIC",
+          "GOTHIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "descendants, acknowledge, caroline",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 182,
+      "text": "a very compelling, very Gothic theory, but I have to reject it We really, it is pure narrative misdirection, and Julia falls for it just as completely",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOTHIC",
+          "THEORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "misdirection, compelling, completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 183,
+      "text": "as you did. Oh, damn it. The haunting at 3:41 a.m. isn't a ghost reliving her fiery trauma.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HAUNTING",
+          "AT",
+          "3"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 184,
+      "text": "It is a highly coordinated, incredibly mechanical stage play orchestrated by the living, breathing residents of the house, specifically Mick",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BREATHING",
+          "RESIDENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "orchestrated, specifically, coordinated",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 185,
+      "text": "and the woman pretending to be Ethel. The trapoor. Yes. Remember that Henry Ziegler later points out a crucial architectural detail.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "ZIEGLER",
+          "LATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "architectural, pretending, trapoor.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 186,
+      "text": "Mick's ground floor bedroom has a hidden 17th century trap door that leads directly up through the walls to the attic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIDDEN",
+          "17TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 187,
+      "text": "Wait, hold on. Walk me through the actual logistics of this. How do they fake a haunting? It's mechanical gas lighting. They are using the hidden architecture of the house to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MECHANICAL",
+          "GAS",
+          "LIGHTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "move around undetected at night. Mick is physically going into the living room and jamming the pendulum of the grandfather clock. Oh my god.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MOVE",
+          "AROUND",
+          "UNDETECTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 189,
+      "text": "He is manually pulling the crown out on his own wristwatch to stop the hands. They are dragging their own hands down the dewy windows from the outside.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANUALLY",
+          "PULLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "And they are standing in the hidden hallways moaning to deliberately terrorize Julia. That is so much effort. They aren't ghosts. They are saboturs.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DELIBERATELY",
+          "TERRORIZE",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deliberately, terrorize, saboturs.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 191,
+      "text": "They are using the aesthetic of a haunting, the terrifying lore of the 341 witching hour to scare Julia into fleeing the estate so she won't convince Letty",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CONVINCE",
+          "LETTY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrifying, aesthetic, haunting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 192,
+      "text": "to sell the house to the museum. That is deeply, deeply messed up. They are gaslighting a vulnerable young woman using her own family's traumatic ghost story.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FAMILY",
+          "TRAUMATIC",
+          "GHOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "Exactly. They are using Peton's bloody history as a blunt force weapon to maintain physical control of Peton because the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PETON",
+          "BLOODY",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "exactly., maintain, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 194,
+      "text": "property always keeps the Exactly. The estate breeds a highly specific, highly toxic kind of madness where the inhabitants",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ESTATE",
+          "BREEDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "highly, inhabitants, property",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 195,
+      "text": "will do absolutely anything, including psychological torture, to maintain their occupancy. Which leads us to the most grotesque,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCLUDING",
+          "PSYCHOLOGICAL",
+          "TORTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 196,
+      "text": "most shocking inheritance of all in the present day timeline. The theft",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHOCKING",
+          "INHERITANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "of The climax of the modern timeline is an absolute mind bender.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "MIND",
+          "BENDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "Let's set the scene. Julia is standing out in the pitch blackyard, terrified, looking for The woman she thought was her great aunt,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PITCH",
+          "BLACKYARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "Ethel, approaches her holding a heavy flashlight, But as the light hits her face, Julia realizes the truth.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "FLASHLIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "approaches, flashlight, realizes",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 200,
+      "text": "It's not Ethel. It is a woman named Celia Kain, the impostor. Celia coldly, proudly, without a shred of remorse,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAMED",
+          "CELIA",
+          "KAIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "celia, impostor., proudly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 201,
+      "text": "details how over half a century ago in the 1970s, she was working as a lowly servant at Peton, she helped the real Ethel give birth at home",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ETHEL",
+          "GIVE",
+          "BIRTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "details, century, working",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 202,
+      "text": "in secret, which was a huge scandal back then. Exactly. And after the baby was born, while the real Ethel was lying in bed, incredibly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incredibly, exactly., scandal",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 203,
+      "text": "weak and bleeding, Celia calmly took a down pillow and smothered her to death. Just brutal.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PILLOW",
+          "AND",
+          "SMOTHERED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "smothered, bleeding, brutal.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 204,
+      "text": "Celia then physically stole Ethel's passport, her driver's license, her clothes, and her entire life. She has been living at Peton, pretending",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ETHEL",
+          "PASSPORT"
+        ],
+        "items": [
+          "S LICENSE",
+          "HER CLOTHES",
+          "HER ENTIRE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "to be Ethel for 50 solid years. It is a staggering violation. Here's what that means for you.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ETHEL",
+          "FOR",
+          "50"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "staggering, violation., years.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 206,
+      "text": "The ultimate home invasion isn't a thief kicking in your back door to steal your silver or your flat screen television.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "HOME",
+          "INVASION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "The ultimate home invasion is a parasite stealing your very identity, rooting themselves so",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "HOME",
+          "INVASION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "deeply into the fabric of your home and your family that they literally",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FABRIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 209,
+      "text": "become you. They just take over. The house Peton doesn't care who occupies it. It doesn't care about the name on the deed as long as the blood",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOUSE",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "doesnt, care, occupies",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 210,
+      "text": "sacrifices made to keep the walls And the most maddening part is that the clues were there the whole time.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHOLE",
+          "TIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "They really were. Earlier in the book, Grandmother Letty's mind is supposedly slipping into severe dementia, and she repeatedly calls Julia Celia.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "CELIA"
+        ],
+        "items": [
+          "BOOK",
+          "GR",
+          "MOTHER LETTY"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "Everyone in the house brushes it off as the tragic ramblings of an 85-year-old Right, they just ignore it. But it wasn't dementia.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "85-YEAR-OLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 213,
+      "text": "It was the horrifying objective truth leaking out of Letty's fractured mind. She was looking at a young woman in her house and associating",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LETTY",
+          "FRACTURED",
+          "MIND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "associating, horrifying, objective",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 214,
+      "text": "her with the last young woman who tore her family apart. It's a deeply chilling realization that the decay of the matriarch's mind is the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHILLING",
+          "REALIZATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 215,
+      "text": "only thing that reveals the rot of the house. The dementia strips away the 50-year cover up. Okay, I have to stop here because I have a massive,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "50-YEAR",
+          "COVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 216,
+      "text": "massive problem with this Walk me through the logistics because my brain is actively rejecting it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "PROBLEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "logistics, rejecting, actively",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 217,
+      "text": "How on earth could Lety, Ethel's own sister, be fooled for 50 years? Well, you live in a house with someone who",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "50",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "someone, ethels, sister",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 218,
+      "text": "is not your sister who just vaguely looks like her because they share a similar build and hair color and you never notice the tone of her voice, her mannerisms, her childhood",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SIMILAR",
+          "BUILD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "memories, the way she drinks her coffee. I know it sounds No dentist ever noticed her x-rays didn't match. No doctor noticed her blood type was wrong.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DOCTOR",
+          "NOTICED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "That is a plot hole the size of a crater. You're looking at it as a flaw in the disguise. But if we connect this to the bigger picture of the estate's corrupting",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ESTATE",
+          "CORRUPTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "influence, it's not a plot hole at all. It's the darkest, most terrifying truth of the entire book. Lety wasn't fooled.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "TRUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "What? Wait, what do you mean? Letty knew exactly what Celia was doing the entire time. You're kidding. Think about the intense social and emotional desperation of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EMOTIONAL",
+          "DESPERATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "desperation, emotional, kidding.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 223,
+      "text": "these characters in the mid 20th century. Ethel was an unmarried woman who got pregnant. In their social circle, an absolute family destroying scandal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "20TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "Okay. Yeah. Letty, on the other hand, was desperately, painfully infertile and wanted a child more than anything. So, they struck a demonic, unspoken",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "INFERTILE"
+        ],
+        "items": [
+          "WAS DESPERATELY",
+          "PAINFULLY INFERTILE",
+          "WANTED A"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "bargain in the blood of the house. Oh my god. Celia smothered Ethel and physically handed Lety the newborn baby, the baby who would grow up to be Julia's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CELIA",
+          "SMOTHERED",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "baby, physically, smothered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 226,
+      "text": "father. In exchange for the child, Letty allowed the murderer, Celia, to assume Ethel's identity and live at Peton in luxury, effectively paying her",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ASSUME",
+          "ETHEL",
+          "IDENTITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "effectively, exchange, murderer",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 227,
+      "text": "off for decades. That is insane. Lety willfully traded her own sister's life for a baby and gave Celia the grand estate as hush",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GAVE",
+          "CELIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "willfully, decades., insane.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 228,
+      "text": "money. The house makes absolute monsters of everyone who wants to stay inside it. Oh my god. The sweet dementia adult grandmother wasn't a victim at",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEMENTIA",
+          "ADULT",
+          "GRANDMOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "all. She was the architect of the entire cover up. She bought a baby with her sister's life and the deed of the house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SISTER",
+          "LIFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 230,
+      "text": "And the property always keeps the It does. It absorbs the sin. And what makes this 50-year modern-day identity theft so brilliant is that it",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "50-YEAR",
+          "MODERN-DAY",
+          "IDENTITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 231,
+      "text": "is not an isolated incident. It is a direct calculated reflection of the 1692 The cycle, the house doesn't just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIRECT",
+          "CALCULATED",
+          "REFLECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 232,
+      "text": "invite this behavior. It demands this exact cycle be Let's jump back to the Massachusetts witch trials to prove that.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSACHUSETTS",
+          "WITCH",
+          "TRIALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "massachusetts, behavior., demands",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 233,
+      "text": "The scene is the highly publicized trial of Caroline Eldridge. The wooden pews are packed with terrified, angry towns folk.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "publicized, eldridge., terrified",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 234,
+      "text": "just a Magistrate Putman sits at the front banging his heavy wooden gavvel. He demands she enter a plea.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MAGISTRATE",
+          "PUTMAN",
+          "SITS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "magistrate, banging, gavvel.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 235,
+      "text": "She looks him in the eye and says, \"Not guilty.\" But it doesn't matter. The verdict was decided before she walked in. She is sentenced to death.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "SENTENCED",
+          "TO",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "But here's the bizarre, highly specific historical detail. She is not sentenced to hang. Women like Heidi Atkins and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HEIDI",
+          "ATKINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "historical, sentenced, specific",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 237,
+      "text": "the other accused witches in Woodhaven were hanged by the neck at the town gallows. But Caroline Eldridge, the wealthy merchants's wife, is sentenced to burn at the",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 238,
+      "text": "stake. This is a crucial distinction. Here's what that means for you. When you see a historical anomaly like a burning in an era of hangings,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRUCIAL",
+          "DISTINCTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "particularly in puritanical colonial New England, where hanging was the strict legal standard for witchcraft. It almost always points to a very personal,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COLONIAL",
+          "NEW",
+          "ENGLAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "particularly, puritanical, witchcraft.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 240,
+      "text": "very deliberate cover up, not a systemic legal rule. Someone is pulling the strings. Exactly. The execution method wasn't chosen for justice.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXECUTION",
+          "METHOD",
+          "WASN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "It was altered specifically to destroy physical evidence. Fire purifies, but more importantly, fire obliterates identity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESTROY",
+          "PHYSICAL",
+          "EVIDENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "And Henry, the museum curator, spells this exact dynamic out for Julia",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MUSEUM",
+          "CURATOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "curator, dynamic, museum",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 243,
+      "text": "over those diner cheeseburgers. He drops what he calls juicy historical gossip.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "JUICY",
+          "HISTORICAL",
+          "GOSSIP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "He actually did his master's thesis on the Wood Haven trials. He knows his stuff. He tells Julia that the primary accuser against Caroline wasn't some hysterical",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN",
+          "TRIALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hysterical, actually, caroline",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 245,
+      "text": "hallucinating teenage girl like in Salem. The primary accuser was a woman named Molly. How the servant?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "WOMAN",
+          "NAMED",
+          "MOLLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "Yes. Molly was a lowly, impoverished servant working in the Eldrich household. She testified that Caroline was a witch.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ELDRICH",
+          "HOUSEHOLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "impoverished, household., testified",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 247,
+      "text": "Caroline is subsequently burned at the stake, turned to ash, and highly conveniently, shortly after the execution,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUBSEQUENTLY",
+          "BURNED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 248,
+      "text": "the lowly servant Molly marries the wealthy, grieving widowerower Archie Eldridge. She moves from the servants's quarters to the master bedroom.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WIDOWEROWER",
+          "ARCHIE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "widowerower, eldridge., servantss",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 249,
+      "text": "The servant literally takes the mistress's place in the estate. It is a perfect flawless thematic mirror to the modern day timeline where",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERFECT",
+          "FLAWLESS",
+          "THEMATIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 250,
+      "text": "Celia the servant takes Ethel's place. It's the exact same thing. The house systematically repeats its own violent history.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SERVANT",
+          "TAKES",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "systematically, history., servant",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 251,
+      "text": "It constantly churns the class divide, allowing the poor to murder the rich as long as the blood feeds the soil of Peton.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "constantly, allowing, churns",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 252,
+      "text": "So Molly is the ultimate mastermind villain of 1692, just like Celia is the mastermind in the Molly manipulated the religious",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MOLLY",
+          "MANIPULATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "mastermind, molly, manipulated",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 253,
+      "text": "witch hysteria of the entire town specifically to steal a rich husband and a grand estate. Evil genius.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WITCH",
+          "HYSTERIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 254,
+      "text": "You're falling for the historical misdirection again. I am. Molly was just a pawn in a much larger, much darker game.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "MISDIRECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 255,
+      "text": "To see the real monster 1692, you have to look at the 1717 epilogue at the very end of the Okay, lay it on me.",
+      "design": {
+        "type": "timeline",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "MONSTER",
+          "1692"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 256,
+      "text": "Caroline Eldridge and Jonas Reev, the serial killer who was supposedly terrorizing her, were actually lovers. They weren't executed.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONAS",
+          "REEV"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrorizing, supposedly, executed.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 257,
+      "text": "They bribed the guards, placed another body on the P to burn, and they survived. They fled the colony. And 25 years later, when the heat had died down,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "25",
+          "YEARS",
+          "LATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 258,
+      "text": "they returned to Peton in the dead of night. Oh my god. They brutally killed the real Archie and the real Molly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "ARCHIE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "real, returned, brutally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 259,
+      "text": "And then Caroline and Jonas stole their Yes. Caroline became the mistress of her own house again by pretending to be Molly, the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROLINE",
+          "AND",
+          "JONAS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "caroline, pretending, mistress",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 260,
+      "text": "servant who had originally accused her, who had now aged 25 years. Jonas, the hulking serial killer, trimmed his wild hair and stepped",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGED",
+          "25",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 261,
+      "text": "seamlessly into the life of Archie, the wealthy aging merchant. Wait, my brain",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WEALTHY",
+          "AGING",
+          "MERCHANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "seamlessly, merchant., wealthy",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 262,
+      "text": "is breaking. So Caroline, the supposed innocent victim of the witch trials,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUPPOSED",
+          "INNOCENT",
+          "VICTIM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "breaking., caroline, supposed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 263,
+      "text": "returns decades later, murders her own husband and the treacherous servant, and then lives out the rest of her natural life, pretending to be",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RETURNS",
+          "DECADES",
+          "LATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 264,
+      "text": "the woman who tried to have her That's exactly right. That is insane. The layers of identity theft are staggering.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "IDENTITY",
+          "THEFT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "staggering., identity, exactly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 265,
+      "text": "The sheer audacity to wear the face of your enemy just so you can sleep in your own bed again. It's wild. And the property always keeps the Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SHEER",
+          "AUDACITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "audacity, property, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 266,
+      "text": "Peton happily absorbs these false identities. It doesn't reject the parasites. It welcomes them with open arms as long as the blood is spilled on its soil.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FALSE",
+          "IDENTITIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 267,
+      "text": "The house is a monument to successful sociopathy. Which brings us to the modern entity that is actively trying to uncover all this buried dirt,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUCCESSFUL",
+          "SOCIOPATHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 268,
+      "text": "the Wood Haven Museum. We have to talk about Henry Ziegler's grand vision for this place. He walks Julia through the local museum to pitch her on the sale.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN",
+          "MUSEUM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "zieglers, museum., through",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 269,
+      "text": "The building is like a brick castle, perfectly manicured. He takes her into a back room filled with meticulously preserved 17th century artifacts.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRESERVED",
+          "17TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 270,
+      "text": "There's a creepy colonial spinning wheel, a heavy ornate wooden chest, silver candlesticks, all the classics. Yeah, his eyes are just lighting up with academic",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "COLONIAL",
+          "SPINNING"
+        ],
+        "items": [
+          "WOODEN CHEST",
+          "SILVER C",
+          "LESTICKS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 271,
+      "text": "fervor. He desperately wants to buy Peton so he can transplant all these sterile artifacts into the actual house.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BUY",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "desperately, transplant, artifacts",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 272,
+      "text": "He tells Julia he wants to create a fully authentic portal to colonial times for tourists. It is the ultimate sterilization of horror.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FULLY",
+          "AUTHENTIC",
+          "PORTAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sterilization, authentic, tourists.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 273,
+      "text": "Here's what that means for you. Historical preservation is often the greatest existential threat to families built on a foundation of lies.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GREATEST",
+          "EXISTENTIAL",
+          "THREAT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 274,
+      "text": "A museum seeks to excavate, to catalog, to dig up the yard and bring things into the fluorescent light.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLUORESCENT",
+          "LIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 275,
+      "text": "For a family like the Eldriches, whose entire legacy is built on murder and identity theft, the light of historical accuracy is lethal.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "ACCURACY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "historical, eldriches, identity",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 276,
+      "text": "And Henry's wealthy benefactors are specifically driving this narrative. They are willing to pay top dollar, way above market value to preserve",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "WEALTHY",
+          "BENEFACTORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "specifically, benefactors, narrative.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 277,
+      "text": "one specific item inside Peton. The painting, the grand sweeping oil painting of Archie and Molly Eldridge",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "MOLLY",
+          "ELDRIDGE"
+        ],
+        "items": [
+          "PAINTING",
+          "GR",
+          "SWEEPING OIL"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 278,
+      "text": "that hangs in the parlor. They want to honor the founding family of Wood Haven with a It's the ultimate sickening irony",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sickening, founding, ultimate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 279,
+      "text": "of the entire novel. The benefactors want to spend millions of dollars to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPEND",
+          "MILLIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "preserve a glorious oil painting of a prolific serial killer and an executed",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROLIFIC",
+          "SERIAL",
+          "KILLER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "witch masquerading as respectable upper class They are paying to worship the But hold on,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RESPECTABLE",
+          "UPPER",
+          "CLASS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "let me play devil's advocate here. I look at Henry as the white knight in this story. Really? Yeah. He's trying to save the physical structure of the house from",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "structure, advocate, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 283,
+      "text": "rotting away into nothing. He's offering Julia, who is completely broke, a massive financial way out of poverty.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "OFFERING",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, financial, nothing.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 284,
+      "text": "He even offers her a salaried job managing the estate for the museum once they buy it. He's the good guy trying to preserve history for the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SALARIED",
+          "JOB",
+          "MANAGING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 285,
+      "text": "This raises a profoundly important question. Is Henry really preserving history or is he just curating a profitable aesthetic?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "REALLY",
+          "PRESERVING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 286,
+      "text": "What do you mean? Think of Henry like a modern-day house flipper who buys a rotting house, slaps gray paint over the toxic black mold, and sells",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MODERN-DAY",
+          "HOUSE",
+          "FLIPPER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "house, modern-day, flipper",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 287,
+      "text": "it at a markup. Because Henry is highly, deeply problematic. How so? When Julia actually brings him the physical proof",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULIA",
+          "ACTUALLY",
+          "BRINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "problematic., actually, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 288,
+      "text": "of history, the human pelvic bone she found in the yard, what does Henry do? He doesn't call the police. He doesn't call a forensic anthropologist.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FORENSIC",
+          "ANTHROPOLOGIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "doesnt, call, anthropologist.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 289,
+      "text": "Right. He looks at this young woman and tells her flat out to just go bury it again. He says, \"We're not in the habit of exuming 300-year-old corpses.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "EXUMING",
+          "300-YEAR-OLD",
+          "CORPSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 290,
+      "text": "He knows instantly that an unidentified bone will trigger an investigation and ruin his real estate deal. He doesn't actually care about the true, brutal",
+      "design": {
+        "type": "document",
+        "kicker": "",
+        "emphasis": [
+          "UNIDENTIFIED",
+          "BONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 291,
+      "text": "history of Peton. He only cares about the sanitized, profitable, curated aesthetic of history.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HISTORY",
+          "OF",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "profitable, sanitized, aesthetic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 292,
+      "text": "He is actively willing to cover up a murder to build his museum exhibit. Oh my god, you're right. he becomes just as complicit as Lety.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COMPLICIT",
+          "AS",
+          "LETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "complicit, actively, exhibit.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 293,
+      "text": "The house corrupts him, too, before the ink on the deed is even dry. It turns an academic historian into an accessory to a crime because the property always keeps",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACADEMIC",
+          "HISTORIAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 294,
+      "text": "the receipts. It demands a cover up from everyone who touches it. But as we see in the explosive final climax of the book, you can only",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPLOSIVE",
+          "FINAL",
+          "CLIMAX"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 295,
+      "text": "suppress the earth for so long before it spits the truth back out. The final excavation. This is where all the timelines crash together.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TIMELINES",
+          "CRASH",
+          "TOGETHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 296,
+      "text": "The police are finally called to the estate after Celia violently attacks Julia in the house and Mick is found dead.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CELIA",
+          "VIOLENTLY",
+          "ATTACKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "violently, finally, attacks",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 297,
+      "text": "The whole thing falls apart. The flashing red and blue lights of the cruisers are aggressively illuminating Peton's massive imposing facade.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATING",
+          "PETON",
+          "MASSIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "aggressively, illuminating, flashing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 298,
+      "text": "The police bring out the shovels. They set up the flood lights. And they start digging up the overgrown backyard. Finally.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OVERGROWN",
+          "BACKYARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 299,
+      "text": "Now, based on the confessions Julia has heard, they expect to find two skeletons in the dirt. They expect to find the recently murdered real Ethel from 50 years",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MURDERED",
+          "REAL",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "expect, find, confessions",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 300,
+      "text": "ago, and they expect to find the 300-year-old scorched remains of Caroline. That's the math. But the shovels hit bone three times.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "300-YEAR-OLD",
+          "SCORCHED",
+          "REMAINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "300-year-old, caroline., scorched",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 301,
+      "text": "They pull up three distinct skeletons from the dirt. It is the ultimate reckoning for the house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THREE",
+          "DISTINCT",
+          "SKELETONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 302,
+      "text": "Here's what that means for you. You can try to curate the past. You can build museums. You can paint grand portraits and you can invent terrifying ghost",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVENT",
+          "TERRIFYING",
+          "GHOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 303,
+      "text": "stories to keep people away. But once you start digging, the earth ultimately decides what comes up. The earth doesn't lie.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KEEP",
+          "PEOPLE",
+          "AWAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 304,
+      "text": "The dirt holds the objective truth. And the dirt doesn't care about your family And the forensics eventually come back on those three skeletons.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OBJECTIVE",
+          "TRUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 305,
+      "text": "Using carbon dating and strategraphy, one skeleton is modern. That's Ethel, smothered by Celia 50 years ago.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CELIA",
+          "50",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "strategraphy, smothered, skeleton",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 306,
+      "text": "Two skeletons are 300 years old. One is female, one is male. The female is Molly, the treacherous servant murdered by Caroline",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TREACHEROUS",
+          "SERVANT",
+          "MURDERED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "female, treacherous, skeletons",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 307,
+      "text": "when she returned from exile 25 years later. But the male skeleton",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXILE",
+          "25",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 308,
+      "text": "is the final agonizing twist of the knife in this entire Okay,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINAL",
+          "AGONIZING",
+          "TWIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 309,
+      "text": "so when I was reading this, I assumed the male skeleton had to be Jonas Reev, the serial killer, finally gets justice, right? That's what you want to think.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONAS",
+          "REEV"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "skeleton, reading, assumed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 310,
+      "text": "I figured Archie, the husband, eventually figured out his wife was sleeping with a murderer, killed Jonas, and buried him in the yard to protect the family name.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FIGURED",
+          "ARCHIE"
+        ],
+        "items": [
+          "MURDERER",
+          "KILLED JONAS",
+          "BURIED HIM"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 311,
+      "text": "No, you have to remember the epilogue. Jonas Reef survived and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONAS",
+          "REEF",
+          "SURVIVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "epilogue., remember, survived",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 312,
+      "text": "became Archie He lived out his natural days, sleeping in Archie's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SLEEPING",
+          "IN",
+          "ARCHIE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sleeping, natural, archies",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 313,
+      "text": "luxurious bed, wearing Archie's fine surge clothes, eating at Archie's table. That means the male skeleton rotting in the cold, unmarked grave in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WEARING",
+          "ARCHIE",
+          "FINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "archies, luxurious, skeleton",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 314,
+      "text": "the backyard for 300 years is the real Archie Eldridge. That's just He was brutally murdered in his own home by his own wife Caroline",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "ARCHIE",
+          "ELDRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "eldridge., backyard, brutally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 315,
+      "text": "and her serial killer lover specifically so they could steal his identity and keep",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SERIAL",
+          "KILLER",
+          "LOVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 316,
+      "text": "the house. The wealthy merchant who literally built the house, who founded the town,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEALTHY",
+          "MERCHANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 317,
+      "text": "is the one rotting in the dirt like an animal. While the serial killer got his majestic portrait painted and hung in the parlor for three centuries.",
+      "design": {
+        "type": "polaroid",
+        "kicker": "",
+        "emphasis": [
+          "MAJESTIC",
+          "PORTRAIT",
+          "PAINTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "centuries., majestic, portrait",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 318,
+      "text": "The house consumed its own creator. The property always keeps the receipts. It is a stunning, deeply cynical subversion of justice, entirely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CYNICAL",
+          "SUBVERSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 319,
+      "text": "facilitated and protected by the physical location of Peton. The house protected the killers and buried the Now, as much as we",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LOCATION",
+          "OF",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "protected, facilitated, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 320,
+      "text": "clearly love unpacking the heavy thematic weight of this book and the incredible mirroring between 1692 and the present day, we do have to take a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MIRRORING",
+          "BETWEEN",
+          "1692"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 321,
+      "text": "step back and look at the actual mechanics of the writing. Fair There is a very valid counterpoint to all of this brilliant thematic mirroring.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRILLIANT",
+          "THEMATIC",
+          "MIRRORING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 322,
+      "text": "The book requires a massive almost gravitational suspension of disbelief, particularly regarding the Celia and Ethel twist in the modern",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CELIA",
+          "AND",
+          "ETHEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "gravitational, particularly, suspension",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 323,
+      "text": "It is undeniably the weakest structural beam in the entire narrative architecture. To make the twist work, the book relies incredibly heavily on",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEAKEST",
+          "STRUCTURAL",
+          "BEAM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 324,
+      "text": "the dementia trope to hide clues in plain sight. like Letty",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEMENTIA",
+          "TROPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dementia, sight., trope",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 325,
+      "text": "calling Julia right? The confused knitting patterns, the sudden unexplained",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CALLING",
+          "JULIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unexplained, confused, knitting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 326,
+      "text": "bursts of panic from the grandmother. It's a highly convenient way for the author to handwave away massive logical Right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HANDWAVE",
+          "AWAY",
+          "MASSIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 327,
+      "text": "Because is it really truly believable that Celia perfectly impersonated Ethel for over 50 years in the modern era?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "CELIA",
+          "PERFECTLY",
+          "IMPERSONATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 328,
+      "text": "We are supposed to believe that no outside family members who came for holidays,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OUTSIDE",
+          "FAMILY",
+          "MEMBERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 329,
+      "text": "no primary care doctors, no dentists, no bank tellers ever noticed a discrepancy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRIMARY",
+          "CARE",
+          "DOCTORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 330,
+      "text": "It's tough to swallow. 50 years of physical aging, 50 years of medical records, dental x-rays, blood work, and DNA.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "50",
+          "YEARS"
+        ],
+        "items": [
+          "DENTAL X-RAYS",
+          "BLOOD WORK",
+          "DNA"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 331,
+      "text": "And absolutely nobody in the town of Wood Haven flagged that this woman was a complete and total impostor. It severely strains credul",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOOD",
+          "HAVEN",
+          "FLAGGED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolutely, impostor., complete",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 332,
+      "text": "if you look at it with any kind of modern logistical lens. You basically have to accept two impossible things. That Let's complicity and acting skills",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "LOGISTICAL",
+          "LENS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "logistical, impossible, complicity",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 333,
+      "text": "were utterly flawless for five decades. And that the social isolation of Peton was so absolute that Ethel never had to produce a valid",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ISOLATION",
+          "OF",
+          "PETON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "isolation, flawless, decades.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 334,
+      "text": "ID for a skeptical government employee. Yeah, that's a stretch. It functions beautifully as a thematic mechanism. The servant stealing the life of the master to parallel 1692.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PARALLEL",
+          "1692"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 335,
+      "text": "But as a grounded realworld thriller plot point, it requires the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GROUNDED",
+          "REALWORLD",
+          "THRILLER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 336,
+      "text": "reader to deliberately look the other way on basic modern logistics.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BASIC",
+          "MODERN",
+          "LOGISTICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 337,
+      "text": "It's a thrilling mechanic when you're flipping the pages at midnight. But yeah, it asks a huge favor of the reader. But honestly, even with that massive strain on credul,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THRILLING",
+          "MECHANIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 338,
+      "text": "the thematic landing of this book sticks so hard that I forgive it. Oh, absolutely. We started this deep dive by asking what a family is willing to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THEMATIC",
+          "LANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 339,
+      "text": "bury to keep their house. But if you look at those three skeletons buried in the cold dirt of Petan's yard, the real Ethel, the real Molly, and the real Archie, the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PETAN",
+          "YARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "real, skeletons, house.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 340,
+      "text": "answer is terrifyingly clear. What is it? They didn't bury those bodies to keep the house. They buried them to become the house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYINGLY",
+          "CLEAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 341,
+      "text": "In the end, Pean doesn't belong to the Eldrich family. The Eldrich family belongs to Petan.",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "ELDRICH",
+          "FAMILY",
+          "BELONGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}

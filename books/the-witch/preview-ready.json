@@ -1,0 +1,19 @@
+{
+  "ready": false,
+  "at": "2026-11-07T05:40:15.031Z",
+  "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+  "configSha256": "0d592b606b91d7fd4ea71964182929969fa9a9185c5bb95074e5962505efedf4",
+  "renderInputHash": "a454c796b4534876",
+  "mute": {
+    "label": "run2",
+    "sample": "fresh",
+    "n": 30,
+    "wrong": 0,
+    "dead": 4,
+    "adds": 17,
+    "pass": true
+  },
+  "failed": [
+    "authored images present (designs → config → disk, no empty cut-out)"
+  ]
+}

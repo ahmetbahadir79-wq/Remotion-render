@@ -1,0 +1,203 @@
+{
+  "note": "production-guard.js: which code each pipeline step ran on",
+  "runs": [
+    {
+      "step": "storyboard prep",
+      "at": "2026-11-05T16:54:21.863Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 11,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-11-06T05:48:30.330Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 11,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-11-06T05:49:07.200Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 11,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "make-book",
+      "at": "2026-11-06T05:49:58.795Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 11,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep final",
+      "at": "2026-11-06T11:00:28.207Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 16,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep final",
+      "at": "2026-11-06T11:02:20.244Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 16,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "preview-ready",
+      "at": "2026-11-06T14:40:52.663Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 19,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-11-06T15:12:57.425Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 19,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-11-06T15:13:10.503Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 19,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "make-book",
+      "at": "2026-11-06T15:13:15.603Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 19,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "make-book",
+      "at": "2026-11-06T17:00:38.333Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 31,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep run2",
+      "at": "2026-11-06T17:06:46.121Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 31,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep run2",
+      "at": "2026-11-06T17:06:50.712Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 31,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep run2",
+      "at": "2026-11-06T17:16:02.983Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 31,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep run2",
+      "at": "2026-11-06T17:39:42.930Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 31,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "preview-ready",
+      "at": "2026-11-07T05:39:15.778Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 34,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "render",
+      "at": "2026-11-07T05:42:23.739Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 34,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "render",
+      "at": "2026-11-07T05:46:51.905Z",
+      "head": "55748c9bd183ee20a20956c3e62946b72125a7cc",
+      "scriptsTree": "66eb5fcf1134ade79da18e7408539556beb15fbf",
+      "srcTree": "29fa32146abd173dab610c9c640b5f024247462c",
+      "behindOrigin": 34,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    }
+  ]
+}
