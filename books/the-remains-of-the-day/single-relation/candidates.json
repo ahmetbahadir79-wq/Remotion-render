@@ -1,0 +1,164 @@
+{
+ "schema": "single-relation-candidates/1",
+ "slug": "the-remains-of-the-day",
+ "at": "2026-11-10T18:43:31.924Z",
+ "capability": "single-relation/1",
+ "level": "Level 1 — default OFF; candidates are proposals, nothing is applied",
+ "scenes": 208,
+ "causalBeats": 13,
+ "listed": 3,
+ "configHash": "a4d198ea81d74202",
+ "candidates": [
+  {
+   "sceneIndex": 177,
+   "sceneId": "scene-177",
+   "evidence": "After 20 years, they sit in the rain at a bus stop and she finally admits it.",
+   "cause": "After 20 years, they sit in the rain at a",
+   "effect": "and she finally admits it.",
+   "cue": "stop",
+   "inputHash": "f76f25b3fb96c0ae",
+   "currentLimitation": "people + on-screen words only (shot twoShot) — no object or diagram shows the effect; a muted viewer gets it from words or a face",
+   "proposedRepresentation": "B cause → effect: the cause marked, a token, a pause, the effect visibly changes another entity (one locked frame)",
+   "proposedMechanism": "removal",
+   "expectedUnderstanding": "After 20 years, they sit in the rain at a → and she finally admits it.",
+   "risk": "the two ends must be drawable as entities named in the narration; if not, or if the author finds the claim not asserted, fall back to the authored scene (or a quote card)"
+  },
+  {
+   "sceneIndex": 135,
+   "sceneId": "scene-135",
+   "evidence": "your pay grade is often a deliberate active choice to enable terrible things happening right in front of you.",
+   "cause": "your pay grade is often a deliberate active choice to",
+   "effect": "terrible things happening right in front of you.",
+   "cue": "enable",
+   "inputHash": "0688ca852d3c6e9f",
+   "currentLimitation": "people + on-screen words only (shot medium) — no object or diagram shows the effect; a muted viewer gets it from words or a face",
+   "proposedRepresentation": "B cause → effect: the cause marked, a token, a pause, the effect visibly changes another entity (one locked frame)",
+   "proposedMechanism": "cause-effect",
+   "expectedUnderstanding": "your pay grade is often a deliberate active choice to → terrible things happening right in front of you.",
+   "risk": "the two ends must be drawable as entities named in the narration; if not, or if the author finds the claim not asserted, fall back to the authored scene (or a quote card)"
+  },
+  {
+   "sceneIndex": 160,
+   "sceneId": "scene-160",
+   "evidence": "He is an unreliable narrator to us because he is an unreliable narrator to himself.",
+   "cause": "he is an unreliable narrator to himself.",
+   "effect": "He is an unreliable narrator to us",
+   "cue": "because",
+   "inputHash": "4a32a497a753bc9d",
+   "currentLimitation": "people + on-screen words only (shot silhouette) — no object or diagram shows the effect; a muted viewer gets it from words or a face",
+   "proposedRepresentation": "B cause → effect: the cause marked, a token, a pause, the effect visibly changes another entity (one locked frame)",
+   "proposedMechanism": "cause-effect",
+   "expectedUnderstanding": "he is an unreliable narrator to himself. → He is an unreliable narrator to us",
+   "risk": "the two ends must be drawable as entities named in the narration; if not, or if the author finds the claim not asserted, fall back to the authored scene (or a quote card)"
+  }
+ ],
+ "rejected": [
+  {
+   "sceneIndex": 44,
+   "sceneId": "scene-44",
+   "evidence": "And instead of processing it, he turns it into a twisted badge of honor.",
+   "cause": "And instead of processing it, he",
+   "effect": "a twisted badge of honor.",
+   "cue": "turns it into",
+   "inputHash": "88ebe63f3fe40e0a",
+   "reason": "the scene already shows an object / diagram that can carry the effect — keep the authored storyboard"
+  },
+  {
+   "sceneIndex": 50,
+   "sceneId": "scene-50",
+   "evidence": "It really is because it shows the father was a complex feeling human being.",
+   "cause": "it shows the father was a complex feeling human being.",
+   "effect": "It really is",
+   "cue": "because",
+   "inputHash": "fbc4b678a300355a",
+   "rejectClass": "an end that is only a pronoun",
+   "reason": "an end that is only a pronoun cue — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 80,
+   "sceneId": "scene-80",
+   "evidence": "Economists like John Maynard Kanes were screaming that it was going to destroy Europe's economy and lead to another Right.",
+   "cause": "Economists like John Maynard Kanes were screaming that it was",
+   "effect": "Europe's economy and lead to another Right.",
+   "cue": "destroy",
+   "inputHash": "e8beeb34b2f8dc3b",
+   "reason": "the scene already shows an object / diagram that can carry the effect — keep the authored storyboard"
+  },
+  {
+   "sceneIndex": 99,
+   "sceneId": "scene-99",
+   "evidence": "He tells her, \"His lordship has made his decision, and there is nothing for you and I to debate over.\" He shuts her down completely.",
+   "cause": "He tells her, \"His lordship has",
+   "effect": "his decision, and there is nothing for you and I",
+   "cue": "made",
+   "inputHash": "db94a52bdb17074b",
+   "rejectClass": "quoted speech / opinion",
+   "reason": "quoted speech / opinion cue (\"\"\") — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 137,
+   "sceneId": "scene-137",
+   "evidence": "Again, he concludes that it is illogical that I should feel any regret or shame because he confined himself to his own professional realm.",
+   "cause": "he confined himself to his own professional realm.",
+   "effect": "Again, he concludes that it is illogical that I should",
+   "cue": "because",
+   "inputHash": "a29a248e21a2f030",
+   "rejectClass": "obligation / advice",
+   "reason": "obligation / advice cue (\"should\") — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 144,
+   "sceneId": "scene-144",
+   "evidence": "He doesn't even allow himself to think my boss is doing something evil.",
+   "cause": "He doesn't even",
+   "effect": "himself to think my boss is doing something evil.",
+   "cue": "allow",
+   "inputHash": "6b4a6862075be1a5",
+   "rejectClass": "negation",
+   "reason": "negation cue (\"doesn't\") — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 145,
+   "sceneId": "scene-145",
+   "evidence": "And the tragedy is that this suppression doesn't just destroy his moral compass.",
+   "cause": "And the tragedy is that this suppression doesn't just",
+   "effect": "his moral compass.",
+   "cue": "destroy",
+   "inputHash": "5a86e033deacb615",
+   "rejectClass": "negation",
+   "reason": "negation cue (\"doesn't\") — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 169,
+   "sceneId": "scene-169",
+   "evidence": "He doesn't know how to respond to a boss who makes jokes and just wants him to take a road trip.",
+   "cause": "He doesn't know how to respond to a boss who",
+   "effect": "jokes and just wants him to take a road trip.",
+   "cue": "makes",
+   "inputHash": "9a1daac0b28c035e",
+   "rejectClass": "negation",
+   "reason": "negation cue (\"doesn't\") — not an asserted, drawable relation; stays as authored (or a quote card)"
+  },
+  {
+   "sceneIndex": 170,
+   "sceneId": "scene-170",
+   "evidence": "with just four staff because he used to be 28.",
+   "cause": "he used to be 28.",
+   "effect": "with just four staff",
+   "cue": "because",
+   "inputHash": "11918e7d63a3e5e9",
+   "reason": "the scene already shows an object / diagram that can carry the effect — keep the authored storyboard"
+  },
+  {
+   "sceneIndex": 178,
+   "sceneId": "scene-178",
+   "evidence": "She admits she made a And Steven's heart breaks in silence.",
+   "cause": "She admits she",
+   "effect": "a And Steven's heart breaks in silence.",
+   "cue": "made",
+   "inputHash": "325b58fbae3bb38c",
+   "rejectClass": "an end that is only a pronoun",
+   "reason": "an end that is only a pronoun cue — not an asserted, drawable relation; stays as authored (or a quote card)"
+  }
+ ]
+}

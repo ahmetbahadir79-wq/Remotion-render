@@ -1,0 +1,394 @@
+{
+  "slug": "the-remains-of-the-day",
+  "world": {
+    "era": "1923–1956",
+    "eraEvidence": "stated years",
+    "worldId": "darlington_hall_estate",
+    "approxYear": 1956,
+    "setting": "Darlington Hall English country estate and West Country coastal towns",
+    "register": "restrained mid-century British realism",
+    "forbid": [
+      "phone",
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "alarmClock"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "the-remains-of-the-day",
+    "worldId": "darlington-hall",
+    "allowedCharacters": [
+      "stevens",
+      "darlington",
+      "faraday",
+      "kenton",
+      "meredith",
+      "narrator",
+      "everyman"
+    ],
+    "allowedLocations": [
+      "shore",
+      "horizon",
+      "room",
+      "office",
+      "stage",
+      "street",
+      "abstract",
+      "library",
+      "bedroom",
+      "kitchen",
+      "none"
+    ],
+    "allowedMotifs": [
+      "arrow",
+      "balance",
+      "book",
+      "cave",
+      "chains",
+      "check",
+      "circle",
+      "city",
+      "clock",
+      "coin",
+      "compass",
+      "crack",
+      "crash",
+      "cross",
+      "door",
+      "eye",
+      "family",
+      "fire",
+      "food",
+      "game",
+      "gift",
+      "grave",
+      "heart",
+      "home",
+      "hourglass",
+      "knife",
+      "law",
+      "ledge",
+      "lightbulb",
+      "lock",
+      "mask",
+      "mirror",
+      "notes",
+      "paper",
+      "phone",
+      "photo",
+      "puppeteer",
+      "puzzle",
+      "ripple",
+      "shield",
+      "star",
+      "storm",
+      "target",
+      "tree",
+      "trophy",
+      "typewriter",
+      "war",
+      "warning",
+      "water",
+      "magnifier",
+      "inheritance",
+      "car",
+      "medical",
+      "silverware",
+      "butler",
+      "pier",
+      "tea",
+      "parchment",
+      "road",
+      "key"
+    ],
+    "forbiddenMotifs": [
+      "sword",
+      "chariot",
+      "toga",
+      "ancientGreek",
+      "boulder",
+      "spear",
+      "temple",
+      "colonnade",
+      "modern electronics",
+      "skyscrapers",
+      "smartphones"
+    ],
+    "allowedProps": [
+      "arrow",
+      "balance",
+      "book",
+      "cave",
+      "chains",
+      "check",
+      "circle",
+      "city",
+      "clock",
+      "coin",
+      "compass",
+      "crack",
+      "crash",
+      "cross",
+      "door",
+      "eye",
+      "family",
+      "fire",
+      "food",
+      "game",
+      "gift",
+      "grave",
+      "heart",
+      "home",
+      "hourglass",
+      "knife",
+      "law",
+      "ledge",
+      "lightbulb",
+      "lock",
+      "mask",
+      "mirror",
+      "notes",
+      "paper",
+      "phone",
+      "photo",
+      "puppeteer",
+      "puzzle",
+      "ripple",
+      "shield",
+      "star",
+      "storm",
+      "target",
+      "tree",
+      "trophy",
+      "typewriter",
+      "war",
+      "warning",
+      "magnifier",
+      "inheritance",
+      "car",
+      "medical",
+      "silverware",
+      "silver tray",
+      "lamp",
+      "champagne glass",
+      "letter",
+      "road",
+      "key"
+    ]
+  },
+  "signatureObjects": [],
+  "cast": {
+    "stevens": {
+      "name": "Stevens",
+      "role": "Head butler of Darlington Hall devoted entirely to professional dignity",
+      "look": "A severe 50-year-old English butler, slender upright posture, slicked greying hair, wearing a spotless black tailcoat vest and crisp collar.",
+      "variant": {
+        "outfit": "suit",
+        "suit": "#1a1a24",
+        "shirt": "#f0f0f0",
+        "hairStyle": "short",
+        "hair": "#707070",
+        "height": 1.05,
+        "build": "slight",
+        "age": "adult",
+        "gender": "m"
+      },
+      "mentions": 12
+    },
+    "darlington": {
+      "name": "Lord Darlington",
+      "role": "Aristocratic English lord who falls into naive appeasement with Nazi Germany",
+      "look": "A distinguished 60-year-old British nobleman with receding silver hair, tailored tweed and wool morning suit, holding a silver pocket watch.",
+      "variant": {
+        "outfit": "suit",
+        "suit": "#4a3c31",
+        "shirt": "#f8f4ec",
+        "hairStyle": "receding",
+        "hair": "#e0e0e0",
+        "height": 1.08,
+        "build": "average",
+        "age": "old",
+        "gender": "m"
+      },
+      "mentions": 8
+    },
+    "faraday": {
+      "name": "Mr. Faraday",
+      "role": "Wealthy American gentleman who buys Darlington Hall after the war",
+      "look": "A relaxed 55-year-old American businessman with casual posture, open-collar linen suit, relaxed smile and neat salt-and-pepper hair.",
+      "variant": {
+        "outfit": "suit",
+        "suit": "#8c7b6d",
+        "shirt": "#ffffff",
+        "hairStyle": "short",
+        "hair": "#505050",
+        "height": 1.02,
+        "build": "heavy",
+        "age": "adult",
+        "gender": "m"
+      },
+      "mentions": 3
+    },
+    "kenton": {
+      "name": "Miss Kenton",
+      "role": "Head housekeeper at Darlington Hall whose warmth and affection Stevens represses",
+      "look": "A sensible 40-year-old English housekeeper with observant warm eyes, dark hair tied in a practical chignon, wearing an austere dark wool dress with white apron.",
+      "variant": {
+        "outfit": "dress",
+        "suit": "#2d3748",
+        "shirt": "#ffffff",
+        "hairStyle": "bun",
+        "hair": "#302015",
+        "height": 0.98,
+        "build": "slight",
+        "age": "adult",
+        "gender": "f"
+      },
+      "mentions": 2
+    },
+    "meredith": {
+      "name": "Dr. Meredith",
+      "role": "Local estate physician attending to Stevens' dying father",
+      "look": "A quiet 50-year-old provincial British doctor in a dark Victorian-cut frock coat, spectacles, carrying a leather medical bag.",
+      "variant": {
+        "outfit": "suit",
+        "suit": "#2b2b2b",
+        "shirt": "#e2e8f0",
+        "hairStyle": "receding",
+        "hair": "#606060",
+        "height": 1,
+        "build": "average",
+        "age": "adult",
+        "gender": "m",
+        "glasses": true
+      },
+      "mentions": 2
+    }
+  },
+  "places": {
+    "pantry": {
+      "set": "room",
+      "look": "A secluded domestic butler pantry lined with dark oak cabinetry, polished silver, ledgers, and a single brass reading lamp.",
+      "mentions": 3
+    },
+    "weymouth_pier": {
+      "set": "shore",
+      "look": "A windy English seaside pier at dusk overlooking the grey English Channel, weathered wooden boards and festive coloured lightbulbs.",
+      "mentions": 3
+    },
+    "study": {
+      "set": "library",
+      "look": "A grand mahogany-paneled country estate study with heavy velvet curtains, leather armchairs, cigar smoke and political treaties.",
+      "mentions": 2
+    },
+    "bedroom": {
+      "set": "bedroom",
+      "look": "A spartan top-floor servants bedroom with a narrow brass cot, plain wooden side table, and a faint smell of medicinal camphor.",
+      "mentions": 1
+    },
+    "shore": {
+      "set": "shore",
+      "look": "Seaside pier overlooking the English Channel with wooden promenade",
+      "mentions": 10
+    },
+    "room": {
+      "set": "room",
+      "look": "Darlington Hall domestic interior",
+      "mentions": 10
+    }
+  },
+  "objects": [
+    {
+      "concept": "shield",
+      "mentions": 16,
+      "why": "Represents the psychological defense mechanism and impenetrable armor of professional dignity."
+    },
+    {
+      "concept": "heart",
+      "mentions": 16,
+      "why": "The emotional longing, unspoken affection for Miss Kenton, and buried grief for his father."
+    },
+    {
+      "concept": "work",
+      "mentions": 12,
+      "why": "The relentless routine of domestic duty and silver polishing used to avoid human confrontation."
+    },
+    {
+      "concept": "home",
+      "mentions": 8,
+      "why": "Darlington Hall, the sprawling country house echoing with vanished aristocratic power."
+    },
+    {
+      "concept": "grave",
+      "mentions": 8,
+      "why": "The death of Stevens' father upstairs while a grand diplomatic reception unfolds downstairs."
+    },
+    {
+      "concept": "mask",
+      "mentions": 8,
+      "why": "The outward facade of perfect composure masking deep inner despair and complicity."
+    },
+    {
+      "concept": "chains",
+      "mentions": 7,
+      "why": "The rigid British class hierarchy and psychological cage trapping Stevens in emotional servitude."
+    },
+    {
+      "concept": "road",
+      "mentions": 6,
+      "why": "The six-day motoring trip across the West Country in Mr. Faraday's Ford motoring car."
+    },
+    {
+      "concept": "car",
+      "mentions": 6,
+      "why": "The vintage Ford automobile driving through the English countryside toward Miss Kenton."
+    },
+    {
+      "concept": "book",
+      "mentions": 5,
+      "why": "The sentimental romance novel Miss Kenton catches Stevens secretly reading in his sanctuary."
+    },
+    {
+      "concept": "clock",
+      "mentions": 5,
+      "why": "The passage of decades and the unrecoverable loss of the best years of youth and love."
+    },
+    {
+      "concept": "door",
+      "mentions": 4,
+      "why": "The threshold of human vulnerability that Miss Kenton held open and Stevens firmly shut."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "Stevens presents his absolute devotion to professional dignity as noble service, framing his motoring journey as a mere staffing expedition."
+    },
+    {
+      "act": "development",
+      "fromFrame": 11981,
+      "claim": "In the interwar years, Stevens systematically sacrifices family bonds and personal affections to maintain pristine service during high-stakes diplomatic summits."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 24137,
+      "claim": "Stevens unquestioningly carries out Lord Darlington's anti-Semitic dismissals and fascist hospitality, exposing his dignity as moral complicity."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 35623,
+      "claim": "Reuniting with Miss Kenton after twenty years forces Stevens to confront the ruinous cost of having traded human love for false loyalty."
+    },
+    {
+      "act": "close",
+      "fromFrame": 46620,
+      "claim": "Sitting on the pier at dusk, Stevens realizes that by surrendering his moral autonomy to another man, he is left alone with the remains of his day."
+    }
+  ],
+  "authored": true
+}

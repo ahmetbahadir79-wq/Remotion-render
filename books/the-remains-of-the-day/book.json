@@ -1,0 +1,49 @@
+{
+  "slug": "the-remains-of-the-day",
+  "title": "The Remains of the Day",
+  "author": "Kazuo Ishiguro",
+  "genre": "fiction",
+  "engine": "antidote",
+  "engineRationale": "Historical period fiction, dramatic character study, subtle emotional conflicts and staging suited to Antidote visual character system.",
+  "engineDecidedBy": "claude-explicit",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "period",
+    "era": 1956,
+    "realPeople": false,
+    "format": "story",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "Stevens in butler livery",
+      "Lord Darlington in study",
+      "Miss Kenton and Stevens talking in pantry"
+    ],
+    "periodLook": "essential",
+    "ideaDensity": "ideas"
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-11-10",
+    "fit": "vox",
+    "confidence": "moderate",
+    "voxScore": 18.5,
+    "antidoteScore": 9.5,
+    "signals": {
+      "year": 1.8,
+      "history": 2.2,
+      "second": 14.9,
+      "abstract": 5.3,
+      "sensitive": 2.6,
+      "era": 1956,
+      "words": 5432
+    },
+    "reasons": [
+      "real-world / dated references (1.8 years, 2.2 history terms per 1k words) → photoreal shows the actual world (Vox)",
+      "set around 1956 → period realism favours Vox"
+    ],
+    "risks": [],
+    "confirmed": false
+  },
+  "audioSource": "public/audio/the-remains-of-the-day.mp3"
+}

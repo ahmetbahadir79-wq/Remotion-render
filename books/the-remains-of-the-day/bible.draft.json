@@ -1,0 +1,495 @@
+{
+  "slug": "the-remains-of-the-day",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "The draft's era, cast keys, ages and places are a HEURISTIC and are often wrong (Trust Fall: one metaphor gave a",
+    "  sci-fi era; The Art of Strategy: 'lean', 'fred', 'end' as characters). Correcting them from the narration is",
+    "  routine authoring — never a question for the operator. Ages, roles and relations come from what the narration says.",
+    "Then: node scripts/plan-bible.js --slug=the-remains-of-the-day --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "the-remains-of-the-day",
+    "world": {
+      "era": "1923–1956",
+      "eraEvidence": "stated years",
+      "worldId": "darlington_hall_estate",
+      "approxYear": 1956,
+      "setting": "Darlington Hall English country estate and West Country coastal towns",
+      "register": "restrained mid-century British realism",
+      "forbid": [
+        "phone",
+        "codeWindow",
+        "laptopMockup",
+        "rocketLaunch",
+        "funnelMetrics",
+        "dollarExchange",
+        "subway",
+        "alarmClock"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "the-remains-of-the-day",
+      "worldId": "darlington_hall_estate",
+      "allowedMotifs": ["butler", "silverware", "manor", "pier", "vintage car", "tea", "parchment"],
+      "forbiddenMotifs": ["modern electronics", "skyscrapers", "smartphones"],
+      "allowedCharacters": ["stevens", "darlington", "faraday", "kenton", "meredith"],
+      "allowedLocations": ["darlington_hall", "pantry", "weymouth_pier", "study"],
+      "allowedProps": ["silver tray", "book", "lamp", "champagne glass", "letter"]
+    },
+    "cast": {
+      "stevens": {
+        "name": "Stevens",
+        "role": "Head butler of Darlington Hall devoted entirely to professional dignity",
+        "look": "A severe 50-year-old English butler, slender upright posture, slicked greying hair, wearing a spotless black tailcoat vest and crisp collar.",
+        "variant": {
+          "outfit": "suit",
+          "hairStyle": "short",
+          "hair": "#707070",
+          "height": 1.05,
+          "build": "slight",
+          "age": "adult",
+          "gender": "m"
+        },
+        "mentions": 12
+      },
+      "darlington": {
+        "name": "Lord Darlington",
+        "role": "Aristocratic English lord who falls into naive appeasement with Nazi Germany",
+        "look": "A distinguished 60-year-old British nobleman with receding silver hair, tailored tweed and wool morning suit, holding a silver pocket watch.",
+        "variant": {
+          "outfit": "suit",
+          "hairStyle": "receding",
+          "hair": "#e0e0e0",
+          "height": 1.08,
+          "build": "average",
+          "age": "old",
+          "gender": "m"
+        },
+        "mentions": 8
+      },
+      "faraday": {
+        "name": "Mr. Faraday",
+        "role": "Wealthy American gentleman who buys Darlington Hall after the war",
+        "look": "A relaxed 55-year-old American businessman with casual posture, open-collar linen suit, relaxed smile and neat salt-and-pepper hair.",
+        "variant": {
+          "outfit": "suit",
+          "hairStyle": "short",
+          "hair": "#505050",
+          "height": 1.02,
+          "build": "heavy",
+          "age": "adult",
+          "gender": "m"
+        },
+        "mentions": 3
+      },
+      "kenton": {
+        "name": "Miss Kenton",
+        "role": "Head housekeeper at Darlington Hall whose warmth and affection Stevens represses",
+        "look": "A sensible 40-year-old English housekeeper with observant warm eyes, dark hair tied in a practical chignon, wearing an austere dark wool dress with white apron.",
+        "variant": {
+          "outfit": "dress",
+          "hairStyle": "bun",
+          "hair": "#302015",
+          "height": 0.98,
+          "build": "slight",
+          "age": "adult",
+          "gender": "f"
+        },
+        "mentions": 2
+      },
+      "meredith": {
+        "name": "Dr. Meredith",
+        "role": "Local estate physician attending to Stevens' dying father",
+        "look": "A quiet 50-year-old provincial British doctor in a dark Victorian-cut frock coat, spectacles, carrying a leather medical bag.",
+        "variant": {
+          "outfit": "suit",
+          "hairStyle": "receding",
+          "hair": "#606060",
+          "height": 1.0,
+          "build": "average",
+          "age": "adult",
+          "gender": "m",
+          "glasses": true
+        },
+        "mentions": 2
+      }
+    },
+    "places": {
+      "pantry": {
+        "set": "room",
+        "look": "A secluded domestic butler pantry lined with dark oak cabinetry, polished silver, ledgers, and a single brass reading lamp.",
+        "mentions": 3
+      },
+      "weymouth_pier": {
+        "set": "shore",
+        "look": "A windy English seaside pier at dusk overlooking the grey English Channel, weathered wooden boards and festive coloured lightbulbs.",
+        "mentions": 3
+      },
+      "study": {
+        "set": "library",
+        "look": "A grand mahogany-paneled country estate study with heavy velvet curtains, leather armchairs, cigar smoke and political treaties.",
+        "mentions": 2
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "A spartan top-floor servants bedroom with a narrow brass cot, plain wooden side table, and a faint smell of medicinal camphor.",
+        "mentions": 1
+      }
+    },
+    "objects": [
+      {
+        "concept": "shield",
+        "mentions": 16,
+        "why": "Represents the psychological defense mechanism and impenetrable armor of professional dignity."
+      },
+      {
+        "concept": "heart",
+        "mentions": 16,
+        "why": "The emotional longing, unspoken affection for Miss Kenton, and buried grief for his father."
+      },
+      {
+        "concept": "work",
+        "mentions": 12,
+        "why": "The relentless routine of domestic duty and silver polishing used to avoid human confrontation."
+      },
+      {
+        "concept": "home",
+        "mentions": 8,
+        "why": "Darlington Hall, the sprawling country house echoing with vanished aristocratic power."
+      },
+      {
+        "concept": "grave",
+        "mentions": 8,
+        "why": "The death of Stevens' father upstairs while a grand diplomatic reception unfolds downstairs."
+      },
+      {
+        "concept": "mask",
+        "mentions": 8,
+        "why": "The outward facade of perfect composure masking deep inner despair and complicity."
+      },
+      {
+        "concept": "chains",
+        "mentions": 7,
+        "why": "The rigid British class hierarchy and psychological cage trapping Stevens in emotional servitude."
+      },
+      {
+        "concept": "road",
+        "mentions": 6,
+        "why": "The six-day motoring trip across the West Country in Mr. Faraday's Ford motoring car."
+      },
+      {
+        "concept": "car",
+        "mentions": 6,
+        "why": "The vintage Ford automobile driving through the English countryside toward Miss Kenton."
+      },
+      {
+        "concept": "book",
+        "mentions": 5,
+        "why": "The sentimental romance novel Miss Kenton catches Stevens secretly reading in his sanctuary."
+      },
+      {
+        "concept": "clock",
+        "mentions": 5,
+        "why": "The passage of decades and the unrecoverable loss of the best years of youth and love."
+      },
+      {
+        "concept": "door",
+        "mentions": 4,
+        "why": "The threshold of human vulnerability that Miss Kenton held open and Stevens firmly shut."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 2,
+        "claim": "Stevens presents his absolute devotion to professional dignity as noble service, framing his motoring journey as a mere staffing expedition."
+      },
+      {
+        "act": "development",
+        "fromFrame": 11981,
+        "claim": "In the interwar years, Stevens systematically sacrifices family bonds and personal affections to maintain pristine service during high-stakes diplomatic summits."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 24137,
+        "claim": "Stevens unquestioningly carries out Lord Darlington's anti-Semitic dismissals and fascist hospitality, exposing his dignity as moral complicity."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 35623,
+        "claim": "Reuniting with Miss Kenton after twenty years forces Stevens to confront the ruinous cost of having traded human love for false loyalty."
+      },
+      {
+        "act": "close",
+        "fromFrame": 46620,
+        "claim": "Sitting on the pier at dusk, Stevens realizes that by surrendering his moral autonomy to another man, he is left alone with the remains of his day."
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 418,
+    "cast": [
+      {
+        "name": "Stevens",
+        "asSubject": 12,
+        "total": 40,
+        "samples": [
+          "Like what a tragic, beautiful victim of British duty, which is exactly the narrative Stevens is desperately trying to sell you.",
+          "Exactly. Back then, Stevens had a staff of 28 under his command.",
+          "Oh, absolutely. As he drives, Stevens is desperately litigating his past."
+        ]
+      },
+      {
+        "name": "Darlington",
+        "asSubject": 8,
+        "total": 22,
+        "samples": [
+          "Entire corridors, like the grand guest corridor on the second floor, and the extensive servants quarters are literally under dust The great Lord Darlington is d",
+          "Exactly. Lord Darlington is operating on this oldworld chiver honor system.",
+          "He decides right then, Lord Darlington is a good man."
+        ]
+      },
+      {
+        "name": "Faraday",
+        "asSubject": 3,
+        "total": 7,
+        "samples": [
+          "Faraday. Faraday is stretched out on the chzlong, casual, completely alien to the stiff British hierarchy Stevens Completely different vibe.",
+          "And Faraday tells Stevens to take a break.",
+          "Faraday is dismantling the only structure that gave Steven's sacrifices any meaning."
+        ]
+      },
+      {
+        "name": "Kenton",
+        "asSubject": 2,
+        "total": 9,
+        "samples": [
+          "Miss Kenton comes in and she physically corners him.",
+          "What was the point of letting Miss Kenton walk away?"
+        ]
+      },
+      {
+        "name": "Meredith",
+        "asSubject": 2,
+        "total": 2,
+        "samples": [
+          "Dr. Meredith is standing in Steven's father's room making notes, confirming that the older man has just suffered a fatal stroke.",
+          "Well, Dr. Meredith tells him his father has passed and Stevens essentially says, \"Um, I must get back downstairs.\" He just leaves."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "manuscript",
+        "mentions": 3,
+        "samples": [
+          "But as we dig into the text and the history of the 1920s and30s aristocracy, we are flipping that standard reading entirely.",
+          "But I have to ask, based on the text, does Stevens actually harbor these anti-semitic That's a really important question."
+        ]
+      },
+      {
+        "set": "forest",
+        "mentions": 1,
+        "samples": [
+          "A forest of black dinner jackets, gray hair, thick cigar smoke everywhere."
+        ]
+      },
+      {
+        "set": "colonnade",
+        "mentions": 1,
+        "samples": [
+          "It happens in Steven's pantry, which is his sanctuary."
+        ]
+      },
+      {
+        "set": "bedroom",
+        "mentions": 1,
+        "samples": [
+          "When she brought him flowers to brighten his room, when she asked about his book, when she threatened to leave, she was holding the door to humanity w"
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "family",
+        "mentions": 17,
+        "sample": "It happens during the first major beat of his defense mechanism, which is the night his father dies."
+      },
+      {
+        "concept": "heart",
+        "mentions": 16,
+        "sample": "They cannot even claim ownership of their own heartbreak."
+      },
+      {
+        "concept": "shield",
+        "mentions": 16,
+        "sample": "It is a highly calibrated, desperately maintained psychological defense mechanism."
+      },
+      {
+        "concept": "work",
+        "mentions": 12,
+        "sample": "They have to shut off the personal connection just to get the job done and save a life."
+      },
+      {
+        "concept": "home",
+        "mentions": 8,
+        "sample": "So, we start the narrative in 1956 at Darlington Hall, and the house is a total ghost town."
+      },
+      {
+        "concept": "grave",
+        "mentions": 8,
+        "sample": "Mortimer's apron, the room where Steven's father has just died is dominated by the smell of roasting It is such a grotesque, visceral sensor"
+      },
+      {
+        "concept": "phone",
+        "mentions": 7,
+        "sample": "But as we dig into the text and the history of the 1920s and30s aristocracy, we are flipping that standard reading entirely."
+      },
+      {
+        "concept": "chains",
+        "mentions": 7,
+        "sample": "I like to think of it like a psychological Faraday cage."
+      },
+      {
+        "concept": "notes",
+        "mentions": 7,
+        "sample": "Dr. Meredith is standing in Steven's father's room making notes, confirming that the older man has just suffered a fatal stroke."
+      },
+      {
+        "concept": "road",
+        "mentions": 6,
+        "sample": "He is driving Mr."
+      },
+      {
+        "concept": "target",
+        "mentions": 5,
+        "sample": "And we have a very specific mission Yes."
+      },
+      {
+        "concept": "gift",
+        "mentions": 4,
+        "sample": "The past and the present of the right?"
+      }
+    ],
+    "openingLines": [
+      "I want you to just drop yourself instantly onto the Weaimoth Pier at Okay.",
+      "Setting the scene.",
+      "Yeah. Just imagine you're sitting there on this wooden bench and the air has that sharp, you know, that unmistakable smell of salt and the evening chill coming in.",
+      "Oh, I can picture it.",
+      "Right. And the sky over the English Channel has faded to this pale, almost bruised red color.",
+      "All around you, there's this continuous hollow drumming of footsteps on the wooden boards as families and couples prominade past."
+    ],
+    "closingLines": [
+      "Are you using your career, your arbitrary rules, or your impossibly busy schedule as a It's a question we all have to ask.",
+      "Are you using them to avoid messy conversations?",
+      "To avoid taking a stand when it's uncomfortable or to avoid admitting that you are heartbroken?",
+      "Because as Stevens learns on that pier in Weimoth, you can ignore your inner life all you want, but the sun still sets, the colored lights still come on, and if you have traded your heart for your duty, you are left entirely alone with the remains of your Okay."
+    ]
+  }
+}

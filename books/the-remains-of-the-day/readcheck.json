@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-10T19:48:13.897Z",
+  "n": 208,
+  "total": 208,
+  "sources": [
+    "readcheck",
+    "recheck-1"
+  ],
+  "binding": "BOUND",
+  "tallied": {
+    "baseRun": "the-remains-of-the-day-prep-a7008e51b285",
+    "folders": {
+      "readcheck": {
+        "run": "the-remains-of-the-day-prep-a7008e51b285",
+        "evidenceSha256": "a6ec745b167f402315ecc3cc01f3202e1db9063a1d4799f055f4d8bfd73ad2d8"
+      },
+      "recheck-1": {
+        "run": "the-remains-of-the-day-prep-80cee62cc834",
+        "evidenceSha256": "a797019a1dafeab6cae7c45d269d0e1c9a488bd8552e961628ee361f238caa36"
+      }
+    }
+  },
+  "totals": {
+    "CORRECT": 197,
+    "NEUTRAL": 9,
+    "WRONG": 2
+  },
+  "wrongRate": 0.01,
+  "blame": {
+    "diagram": 3,
+    "people": 5,
+    "words": 3
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 15,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The refute diagram has no text labels, leaving the relationship vague.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 16,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The refute diagram has no text labels, leaving the relationship vague.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 17,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The refute diagram has no text labels, leaving the relationship vague.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 36,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "The viewer mistakes the doctor for the butler while noting the fatal stroke.",
+      "from": "readcheck",
+      "concept": "medical",
+      "callout": "A FATAL STROKE"
+    },
+    {
+      "i": 38,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "The viewer mistakes the doctor in the death room for the butler.",
+      "from": "readcheck",
+      "concept": "food",
+      "callout": "THE SMELL OF ROASTING"
+    },
+    {
+      "i": 39,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "The viewer assumes the butler is present on screen rather than the doctor.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "UGLY REALITY OF THE BODY"
+    },
+    {
+      "i": 55,
+      "verdict": "WRONG",
+      "blame": "people",
+      "why": "The doctor on screen represents the trauma surgeon analogy, but the viewer mistook him for the butler.",
+      "from": "readcheck",
+      "concept": "medical",
+      "callout": "THE TRAUMA SURGEON"
+    },
+    {
+      "i": 147,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Narration describes receiving her first letter in seven years, while guess says he kept and re-read letters for seven years.",
+      "from": "readcheck",
+      "concept": "notes",
+      "callout": "SEVEN YEARS"
+    },
+    {
+      "i": 171,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Narration quotes Stevens calling taking on extra duties broad-minded, while guess attributes broad-mindedness to the employer.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "MOST BROAD MINDED"
+    },
+    {
+      "i": 190,
+      "verdict": "WRONG",
+      "blame": "words",
+      "why": "Narration calls it a completely devastatingly tragic ending, but the crossed-out words led the viewer to guess it is not completely tragic.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "COMPLETELY TRAGIC ENDING"
+    },
+    {
+      "i": 198,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "Narration explains Miss Kenton held the door open and he chose obedience, but the viewer guessed he turned away in anger from an angry pose.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "DOOR TO HUMANITY WIDE OPEN"
+    }
+  ],
+  "reviewRequired": {
+    "flagged": 5,
+    "wrong": [],
+    "neutral": [],
+    "cleared": 5,
+    "unread": []
+  }
+}

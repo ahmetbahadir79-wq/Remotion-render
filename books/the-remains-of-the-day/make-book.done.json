@@ -1,0 +1,36 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-10T19:48:48.073Z",
+  "at": "2026-11-10T19:50:09.072Z",
+  "config": "config.antidote.json",
+  "configSha256": "42af223f992e8f041a48db0870357abf01cc58ffe7a7a856cca4d3adee3a21d4",
+  "inputs": {
+    "storyboard": {
+      "path": "books/the-remains-of-the-day/art.json",
+      "sha256": "9cdbc2c04e2fe3d45114e6896d44c8f1a57bd8ba883eb9ce9e2674c54fd6da39"
+    },
+    "storyBible": {
+      "path": "books/the-remains-of-the-day/story-bible.json",
+      "sha256": "f2c9159ce9a1210d8a147c6377ce7fd2618c0f881bf51851d0326740dc03b39b"
+    },
+    "motifs": {
+      "path": "books/the-remains-of-the-day/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/the-remains-of-the-day.vtt",
+      "sha256": "28fc7001d4ce41a3f5ac602fbe204c1fea2d84c17c26332cab6630382d2605d4"
+    },
+    "audio": {
+      "path": "public/audio/the-remains-of-the-day.mp3",
+      "sha256": "8ad4f2b479a8ce10e91f5e4a008e6cef9207176fee6659d09f372b790bee1bd1"
+    },
+    "singleRelation": {
+      "path": "books/the-remains-of-the-day/single-relation/active.json",
+      "sha256": null
+    }
+  },
+  "head": "1313d9b1122b28c59fa739662100862548553595",
+  "previewOnly": true,
+  "skipPack": true
+}

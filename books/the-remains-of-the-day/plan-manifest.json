@@ -1,0 +1,2100 @@
+{
+  "version": 1,
+  "slug": "the-remains-of-the-day",
+  "generatedAt": "2026-11-10T19:49:40.786Z",
+  "history": [
+    {
+      "at": "2026-11-10T18:00:08.162Z",
+      "reason": "pipeline",
+      "scenes": 208
+    },
+    {
+      "at": "2026-11-10T18:05:34.704Z",
+      "reason": "pipeline",
+      "scenes": 208
+    },
+    {
+      "at": "2026-11-10T18:07:32.349Z",
+      "reason": "pipeline",
+      "scenes": 208
+    },
+    {
+      "at": "2026-11-10T18:41:44.204Z",
+      "reason": "pipeline",
+      "scenes": 208
+    },
+    {
+      "at": "2026-11-10T19:49:40.782Z",
+      "reason": "pipeline",
+      "scenes": 208
+    }
+  ],
+  "scenes": {
+    "intro": {
+      "fp": "cd6ca50c31",
+      "props": [],
+      "texts": 2,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-01": {
+      "fp": "43abc69618",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-02": {
+      "fp": "a3ac5f2bd7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-03": {
+      "fp": "bb7008c2ca",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-04": {
+      "fp": "e66bc7a918",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "room"
+    },
+    "scene-05": {
+      "fp": "92e88e4751",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-06": {
+      "fp": "20c7a2f952",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-07": {
+      "fp": "50c5984a07",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "chains",
+      "set": "stage"
+    },
+    "scene-08": {
+      "fp": "87e2e546c4",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "stage"
+    },
+    "scene-09": {
+      "fp": "d0bf452b8d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-10": {
+      "fp": "aff72ab060",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-11": {
+      "fp": "42b8261ab1",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-12": {
+      "fp": "ce72781a53",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-13": {
+      "fp": "b5fd8d8f1e",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "library"
+    },
+    "scene-14": {
+      "fp": "3d3d722f16",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-15": {
+      "fp": "0b53b4e121",
+      "props": [],
+      "texts": 0,
+      "diagram": "refute",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-16": {
+      "fp": "f2a16f489b",
+      "props": [],
+      "texts": 0,
+      "diagram": "refute",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-17": {
+      "fp": "a666058248",
+      "props": [],
+      "texts": 0,
+      "diagram": "refute",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-18": {
+      "fp": "20a852396b",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balance",
+      "set": "room"
+    },
+    "scene-19": {
+      "fp": "a0349f2e98",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-20": {
+      "fp": "40083c6e1d",
+      "props": [
+        "home"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "home",
+      "set": "room"
+    },
+    "scene-21": {
+      "fp": "f21438bb81",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "room"
+    },
+    "scene-22": {
+      "fp": "00b5cb1f9a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-23": {
+      "fp": "f3b3887246",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-24": {
+      "fp": "7118c31d3e",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "room"
+    },
+    "scene-25": {
+      "fp": "610f33d09c",
+      "props": [
+        "road"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "road",
+      "set": "room"
+    },
+    "scene-26": {
+      "fp": "3312a44422",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "heart",
+      "set": "room"
+    },
+    "scene-27": {
+      "fp": "d7cf0e66a9",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "room"
+    },
+    "scene-28": {
+      "fp": "e90111d301",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "stage"
+    },
+    "scene-29": {
+      "fp": "14a2038dfb",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "horizon"
+    },
+    "scene-30": {
+      "fp": "7adae21b65",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "horizon"
+    },
+    "scene-31": {
+      "fp": "d17e689e89",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-32": {
+      "fp": "0802fdd536",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "none"
+    },
+    "scene-33": {
+      "fp": "3acf9332dc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "none"
+    },
+    "scene-34": {
+      "fp": "500cf07105",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "none"
+    },
+    "scene-35": {
+      "fp": "145b320e4c",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "horizon"
+    },
+    "scene-36": {
+      "fp": "176f23f0e1",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "horizon"
+    },
+    "scene-37": {
+      "fp": "fa6b4d4749",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-38": {
+      "fp": "297d483aa2",
+      "props": [
+        "food"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "food",
+      "set": "room"
+    },
+    "scene-39": {
+      "fp": "811fe5d34e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-40": {
+      "fp": "449c467656",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-41": {
+      "fp": "6532321849",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "room"
+    },
+    "scene-42": {
+      "fp": "6132f70639",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-43": {
+      "fp": "55cb9e05ab",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "stage"
+    },
+    "scene-44": {
+      "fp": "8ce5527ff8",
+      "props": [
+        "trophy"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "trophy",
+      "set": "stage"
+    },
+    "scene-45": {
+      "fp": "53a97b24b4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-46": {
+      "fp": "b1b2456fb8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-47": {
+      "fp": "c8c7f0d97a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-48": {
+      "fp": "25be047950",
+      "props": [
+        "tree"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "tree",
+      "set": "room"
+    },
+    "scene-49": {
+      "fp": "0d02d6fc7b",
+      "props": [
+        "tree"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "tree",
+      "set": "room"
+    },
+    "scene-50": {
+      "fp": "f8584b8a06",
+      "props": [
+        "mirror"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mirror",
+      "set": "bedroom"
+    },
+    "scene-51": {
+      "fp": "b6693dcb18",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-52": {
+      "fp": "032d5d099c",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "bedroom"
+    },
+    "scene-53": {
+      "fp": "9596b1e9f9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-54": {
+      "fp": "ffb3c165e6",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balance",
+      "set": "bedroom"
+    },
+    "scene-55": {
+      "fp": "28e7ca6400",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "bedroom"
+    },
+    "scene-56": {
+      "fp": "c8c9c7e834",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "horizon"
+    },
+    "scene-57": {
+      "fp": "8eae17e469",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "horizon"
+    },
+    "scene-58": {
+      "fp": "2caeafe8ec",
+      "props": [],
+      "texts": 0,
+      "diagram": "sorter",
+      "characters": 0,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-59": {
+      "fp": "efd3e9a78a",
+      "props": [],
+      "texts": 0,
+      "diagram": "sorter",
+      "characters": 0,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-60": {
+      "fp": "6bc3b13ebc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-61": {
+      "fp": "beae212f8a",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "horizon"
+    },
+    "scene-62": {
+      "fp": "4c89c5fedb",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-63": {
+      "fp": "69f1393ea3",
+      "props": [
+        "key"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "key",
+      "set": "room"
+    },
+    "scene-64": {
+      "fp": "490d156b06",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balance",
+      "set": "room"
+    },
+    "scene-65": {
+      "fp": "46768f0cec",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "room"
+    },
+    "scene-66": {
+      "fp": "4e46555551",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-67": {
+      "fp": "0790661009",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "library"
+    },
+    "scene-68": {
+      "fp": "8b23ac5663",
+      "props": [
+        "game"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "game",
+      "set": "library"
+    },
+    "scene-69": {
+      "fp": "8bbc326fc9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "library"
+    },
+    "scene-70": {
+      "fp": "a0be1c016a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-71": {
+      "fp": "42c045f866",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "library"
+    },
+    "scene-72": {
+      "fp": "9fffeb7300",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "library"
+    },
+    "scene-73": {
+      "fp": "667ea6778f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-74": {
+      "fp": "a4f09cac92",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "room"
+    },
+    "scene-75": {
+      "fp": "01ab044067",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-76": {
+      "fp": "efa5790fd4",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "room"
+    },
+    "scene-77": {
+      "fp": "009c64e012",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "room"
+    },
+    "scene-78": {
+      "fp": "c268f51507",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-79": {
+      "fp": "8710158c9c",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balance",
+      "set": "library"
+    },
+    "scene-80": {
+      "fp": "e3ab1109df",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-81": {
+      "fp": "13daece7c2",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "horizon"
+    },
+    "scene-82": {
+      "fp": "8d0c6eb1a9",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "horizon"
+    },
+    "scene-83": {
+      "fp": "35d1efc4da",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-84": {
+      "fp": "ddc71a5b74",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "horizon"
+    },
+    "scene-85": {
+      "fp": "e1be217790",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-86": {
+      "fp": "6db3d15746",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-87": {
+      "fp": "c9dc0b6676",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "library"
+    },
+    "scene-88": {
+      "fp": "5f1dee791c",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "library"
+    },
+    "scene-89": {
+      "fp": "683f58fb24",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "library"
+    },
+    "scene-90": {
+      "fp": "cefb04c32b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-91": {
+      "fp": "d73d47d2ed",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-92": {
+      "fp": "bfb7782c97",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "law",
+      "set": "library"
+    },
+    "scene-93": {
+      "fp": "5242d560a6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-94": {
+      "fp": "1372c76240",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-95": {
+      "fp": "fe57a6b141",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "library"
+    },
+    "scene-96": {
+      "fp": "161aa92331",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-97": {
+      "fp": "8579ce787d",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "balance",
+      "set": "library"
+    },
+    "scene-98": {
+      "fp": "a8781c1ba9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-99": {
+      "fp": "9eeb6f344d",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "library"
+    },
+    "scene-100": {
+      "fp": "fe2ab04575",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "shore"
+    },
+    "scene-101": {
+      "fp": "cd0d72cdda",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "library"
+    },
+    "scene-102": {
+      "fp": "049559f8cd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-103": {
+      "fp": "7daf07ee30",
+      "props": [
+        "road"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "road",
+      "set": "stage"
+    },
+    "scene-104": {
+      "fp": "6de8c0342d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-105": {
+      "fp": "7358553ed2",
+      "props": [
+        "mirror"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mirror",
+      "set": "bedroom"
+    },
+    "scene-106": {
+      "fp": "956b8fb85d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-107": {
+      "fp": "f2ea565bb3",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "bedroom"
+    },
+    "scene-108": {
+      "fp": "20e0445287",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "bedroom"
+    },
+    "scene-109": {
+      "fp": "9a82d49f4a",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "bedroom"
+    },
+    "scene-110": {
+      "fp": "0e4d3c9aa6",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "bedroom"
+    },
+    "scene-111": {
+      "fp": "760d6823db",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-112": {
+      "fp": "444fa00e37",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-113": {
+      "fp": "c33e3d68c2",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "book",
+      "set": "bedroom"
+    },
+    "scene-114": {
+      "fp": "e3da783b03",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "library"
+    },
+    "scene-115": {
+      "fp": "c4ae56152f",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "library"
+    },
+    "scene-116": {
+      "fp": "12fe3e4dcf",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-117": {
+      "fp": "456d6fa075",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-118": {
+      "fp": "74001fc991",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-119": {
+      "fp": "cf592622e8",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "library"
+    },
+    "scene-120": {
+      "fp": "da53753e65",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "library"
+    },
+    "scene-121": {
+      "fp": "06a466291a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-122": {
+      "fp": "8146f09e6a",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-123": {
+      "fp": "ddb1875b4d",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-124": {
+      "fp": "8cd2229c8c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "library"
+    },
+    "scene-125": {
+      "fp": "f6dcfcabf5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-126": {
+      "fp": "ff6887f1b5",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-127": {
+      "fp": "970e14d6a8",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-128": {
+      "fp": "9eedfcb869",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-129": {
+      "fp": "f08dbf7397",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "horizon"
+    },
+    "scene-130": {
+      "fp": "7b2cc7c558",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "horizon"
+    },
+    "scene-131": {
+      "fp": "9c2c079699",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-132": {
+      "fp": "2f6c775d9d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-133": {
+      "fp": "03a79bd72a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-134": {
+      "fp": "14ee433342",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-135": {
+      "fp": "2e3fbbcef8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "shore"
+    },
+    "scene-136": {
+      "fp": "9b7c9b852d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-137": {
+      "fp": "0933b6c76b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-138": {
+      "fp": "8f1a453dfe",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-139": {
+      "fp": "398322dc88",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "room"
+    },
+    "scene-140": {
+      "fp": "f23473ee43",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-141": {
+      "fp": "fff79caf99",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-142": {
+      "fp": "a9fa544cba",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-143": {
+      "fp": "7afc0c4df4",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-144": {
+      "fp": "b719f129ee",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-145": {
+      "fp": "9fba47a238",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "stage"
+    },
+    "scene-146": {
+      "fp": "d516449d66",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "stage"
+    },
+    "scene-147": {
+      "fp": "efddfd320c",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-148": {
+      "fp": "f150d8c6e2",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-149": {
+      "fp": "35b9a8733d",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "library"
+    },
+    "scene-150": {
+      "fp": "3767fa2848",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-151": {
+      "fp": "2de14a5acb",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "shore"
+    },
+    "scene-152": {
+      "fp": "5d239f3ee6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-153": {
+      "fp": "60f1460d83",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-154": {
+      "fp": "5546ff6fd2",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-155": {
+      "fp": "eee7880868",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-156": {
+      "fp": "d9b5db8d02",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-157": {
+      "fp": "5bd6d90476",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-158": {
+      "fp": "e50ea4f609",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "library"
+    },
+    "scene-159": {
+      "fp": "44a0e1434d",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "library"
+    },
+    "scene-160": {
+      "fp": "a061cfb2d2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-161": {
+      "fp": "472fd2f423",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-162": {
+      "fp": "2415269239",
+      "props": [
+        "home"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "home",
+      "set": "room"
+    },
+    "scene-163": {
+      "fp": "d5f4ed5247",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-164": {
+      "fp": "6257d08a18",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-165": {
+      "fp": "f707d89276",
+      "props": [
+        "road"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "road",
+      "set": "room"
+    },
+    "scene-166": {
+      "fp": "e11dbbee3d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-167": {
+      "fp": "dfe4680ab0",
+      "props": [
+        "coin"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "coin",
+      "set": "room"
+    },
+    "scene-168": {
+      "fp": "0cf9a0147d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-169": {
+      "fp": "5223461d9f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-170": {
+      "fp": "abe94c3553",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-171": {
+      "fp": "0a3bd4a91d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-172": {
+      "fp": "81c5435fdf",
+      "props": [
+        "road"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "road",
+      "set": "stage"
+    },
+    "scene-173": {
+      "fp": "9fe2ad1423",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-174": {
+      "fp": "3e29c792ec",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-175": {
+      "fp": "1cacbafd24",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-176": {
+      "fp": "f0b92add5a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-177": {
+      "fp": "e66ff3e176",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-178": {
+      "fp": "64f7de2026",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "heart",
+      "set": "room"
+    },
+    "scene-179": {
+      "fp": "4444d87255",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "room"
+    },
+    "scene-180": {
+      "fp": "4f380f9788",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-181": {
+      "fp": "27b1918a6e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-182": {
+      "fp": "1052e5434a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-183": {
+      "fp": "b83319ed54",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-184": {
+      "fp": "72c922ea3d",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "stage"
+    },
+    "scene-185": {
+      "fp": "f53fe28467",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-186": {
+      "fp": "8cbfc176ea",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-187": {
+      "fp": "da4545af4d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-188": {
+      "fp": "d0c972d44a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-189": {
+      "fp": "8d213c865a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-190": {
+      "fp": "8e76a562d6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-191": {
+      "fp": "40dca46e49",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-192": {
+      "fp": "12a9ae9c00",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-193": {
+      "fp": "753d6d3fff",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-194": {
+      "fp": "97c45d8540",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-195": {
+      "fp": "a336d293f8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-196": {
+      "fp": "b0ae60ca4f",
+      "props": [],
+      "texts": 0,
+      "diagram": "refute",
+      "characters": 0,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-197": {
+      "fp": "63fe17c708",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-198": {
+      "fp": "27577d4262",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-199": {
+      "fp": "cef30ab2c8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-200": {
+      "fp": "0476427a58",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-201": {
+      "fp": "f373439f09",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "stage"
+    },
+    "scene-202": {
+      "fp": "576bc0365e",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "stage"
+    },
+    "scene-203": {
+      "fp": "3256505e97",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-204": {
+      "fp": "5f85207468",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-205": {
+      "fp": "ea431c5db5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "stage"
+    },
+    "scene-206": {
+      "fp": "848f5d1e92",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "none"
+    },
+    "scene-207": {
+      "fp": "e4b0b767f7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "the-remains-of-the-day",
+  "engine": "antidote",
+  "at": "2026-11-10T19:45:02.658Z",
+  "write": true,
+  "written": true,
+  "problems": 0,
+  "byClass": {
+    "OPERATOR": 0,
+    "AGENT_STEP": 0,
+    "REAUTHOR": 0,
+    "ROUTINE": 0
+  },
+  "byCode": [],
+  "byFile": {},
+  "operatorNeeded": false,
+  "next": "merged — next: node scripts/preview-state.js status (it names the next step: readcheck for Antidote, make-book for Vox); routine, never end the turn",
+  "items": [],
+  "warnings": 0,
+  "review": [
+    {
+      "i": 12,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"PORTRAIT OF NOBLE STOICISM\" repeats the narration and nothing else on screen carries the meaning (lone idle, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 23,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"STAFF OF 28 UNDER HIS COMMAND\" repeats the narration and nothing else on screen carries the meaning (lone point, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 74,
+      "code": "EARLY_TEXT",
+      "field": "callout",
+      "why": "\"THE GREAT AFFAIRS\" shows \"great affairs\" before the narration says it (beat 75) — move the text to that beat or use this beat's words",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 189,
+      "code": "EARLY_TEXT",
+      "field": "callout",
+      "why": "\"ACCEPTING THE EVENING OF HIS LIFE\" shows \"evening life\" before the narration says it (beat 190) — move the text to that beat or use this beat's words",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 204,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"AVOID MESSY CONVERSATIONS\" repeats the narration and nothing else on screen carries the meaning (lone think, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    }
+  ],
+  "refused": {}
+}

@@ -1,0 +1,2114 @@
+{
+  "book": {
+    "slug": "the-remains-of-the-day",
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "genre": "fiction"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "I want you to just drop yourself instantly onto the Weaimoth Pier at Okay. Setting the scene. Yeah.",
+      "callout": {
+        "text": "THE REMAINS OF THE DAY",
+        "style": "plain"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Just imagine you're sitting there on this wooden bench and the air has that sharp, you know, that unmistakable smell of salt and the evening chill coming in. Oh, I can picture it.",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. And the sky over the English Channel has faded to this pale, almost bruised red color.",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "All around you, there's this continuous hollow drumming of footsteps on the wooden boards as families and couples prominade past. Just the normal evening crowd.",
+      "callout": null
+    },
+    {
+      "i": 4,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. And then suddenly the colored lights switch on. Ah, right. Bulbs of every hue stringing along the pier illuminate the twilight and the crowd, like hundreds of strangers,",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "gives this spontaneous echoing cheer. It's this incredibly visceral moment of communal joy, a celebration of the day's end.",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Really? But as you sit on that bench in this scene, you are hit with a devastating",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A really heavy one. Very. Because when a person surrenders their moral autonomy to their employer for their entire life, when they, you know, trade their very humanity for",
+      "callout": {
+        "text": "THEIR ENTIRE LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "an armor of professional duty, they lose right? They cannot even claim ownership of their own heartbreak. You're left sitting in the fading light",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "surrounded by cheering strangers just completely permanently hollow. So today we are taking a deep dive into Kazul Ishiguru's masterpiece,",
+      "callout": null
+    },
+    {
+      "i": 10,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The Remains of the Day. Such a phenomenal book. It really is. We've gathered a stack of literary analyses, historical context on interwar Britain,",
+      "callout": null
+    },
+    {
+      "i": 11,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "and psychological profiles on this whole concept of duty. And we have a very specific mission Yes. Our mission today is to completely dismantle how this story is usually Because for decades,",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "people have looked at the protagonist, the butler Stevens, and thought, \"Oh, what a portrait of noble stoicism.\"",
+      "callout": null
+    },
+    {
+      "i": 13,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. Like what a tragic, beautiful victim of British duty, which is exactly the narrative Stevens is desperately trying to sell you.",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He really is. But as we dig into the text and the history of the 1920s and30s aristocracy,",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "we are flipping that standard reading entirely. Total 180, Steven's absolute unquestioning devotion to professional dignity is not noble stoicism at all. It is a highly calibrated,",
+      "callout": {
+        "text": "180",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 16,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "desperately maintained psychological defense mechanism. I like to think of it like a psychological Faraday cage. Oh, that's a good way to put it. Right. He he thinks this armor of professionalism",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "is keeping the dangerous worldly elements out, but it's really just blocking any real human signals from getting in. The emotional suppression he cloaks in professional duty isn't loyalty.",
+      "callout": {
+        "text": "BLOCKING ANY REAL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 18,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is a profound moral abdication. It is. And to understand how this defense mechanism actually functions, we really have to look at the setup of his world, which is defined by two",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "heavily contrasting eras, right? The past and the present of the right? So, we start the narrative in 1956",
+      "callout": {
+        "text": "1956",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 20,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "at Darlington Hall, and the house is a total ghost town. It's so empty. It really is. It's running on a skeleton staff of four. Entire corridors, like the grand guest corridor on the second floor, and the extensive",
+      "callout": null
+    },
+    {
+      "i": 21,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "servants quarters are literally under dust The great Lord Darlington is dead in disgrace.",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the estate has been sold off to a wealthy American, Mr. Faraday. And you have to contrast that quiet, dusty reality",
+      "callout": null
+    },
+    {
+      "i": 23,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "with his memories of the inter war decades. You know, the 1920s and 30s, the glory days in his mind. Exactly. Back then, Stevens had a staff of 28 under his command. 28. It's a massive operation.",
+      "callout": {
+        "text": "INTER WAR",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 24,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A huge operation. He was orchestrating these massive geopolitically significant banquetss, managing complex shifting roas, feeling like he was standing at the very hub of the world's wheel.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And now in 1956, he's physically leaving that hub. He is driving Mr. Faraday's Ford across the finest countryside of the West Country, heading toward a reunion with the",
+      "callout": null
+    },
+    {
+      "i": 26,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "former housekeeper, Miss Kenton, who is now Mrs. Ben. Right. Mrs. Ben.",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And this is after almost seven years of complete silence between them. But the physical journey in the Ford is just a vehicle for his psychological journey, isn't it? Oh, absolutely.",
+      "callout": {
+        "text": "ALMOST SEVEN YEARS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 28,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "As he drives, Stevens is desperately litigating his past. He's using this abstract concept of professionalism as a shield to fend off the creeping realization of his own and",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the terrifying thought that he wasted his life enabling an appeaser of So give me an example of how this starts.",
+      "callout": {
+        "text": "WASTED HIS LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 30,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Where does this armor first show its cracks? Or rather, where do we first see him actively welding it shut? It happens during the first major beat of his defense mechanism, which is the night his father dies. Oh, this scene is so intense.",
+      "callout": null
+    },
+    {
+      "i": 31,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is. It's 1923. Ishiguro drops us right into the present tense of this memory. It's the smoking room of Darlington Hall during a crucial secret diplomatic",
+      "callout": {
+        "text": "1923",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 32,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Set the scene for us. Well, you can picture it. A forest of black dinner jackets, gray hair, thick cigar smoke everywhere.",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The illustrious French envoy M. Dupont is in a foul mood and taps Stevens on the shoulder, demanding immediate assistance with his sore feet. his sore feet.",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Of all things. Of all things. I know, right? I know, right? And the jarring part is what is happening simultaneously. Right upstairs. Exactly.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Meanwhile, a completely different tragic scene is unfolding upstairs in the cramped servants quarters. Dr. Meredith is standing in Steven's father's room making notes, confirming that the older man has just suffered",
+      "callout": null
+    },
+    {
+      "i": 36,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "a fatal stroke. Oh, man. And the cook, Mrs. Mortimer is weeping so bitterly, she's been using her cooking apron to wipe away her tears. That's just heartbreaking.",
+      "callout": null
+    },
+    {
+      "i": 37,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But here is the crazy detail. The grease from the apron is smeared all over her face, giving her this absurd, almost theatrical appearance. And bizarrely, because of Mrs.",
+      "callout": {
+        "text": "OVER HER FACE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 38,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Mortimer's apron, the room where Steven's father has just died is dominated by the smell of roasting It is such a grotesque, visceral sensory It really is. The smell of the roast, the grease marks,",
+      "callout": null
+    },
+    {
+      "i": 39,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the dead father. It really grounds you in the ugly reality of the physical body.",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, how does Stevens react to this? What is the psychological engine driving him in this exact moment? Well, Dr.",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Meredith tells him his father has passed and Stevens essentially says, \"Um, I must get back downstairs.\" He just leaves. He goes right back to serving champagne",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and searching for clean glasses to replenish. He literally says to his dying father's doctor that his assistance is required downstairs with the French envoy.",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "I think the real takeaway for anyone listening is how easy it is to mistake emotional numbness for professional Oh, absolutely. He experiences a profound human trauma, the death of the man",
+      "callout": {
+        "text": "THINK THE REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "who raised him. And instead of processing it, he turns it into a twisted badge of honor. Yes, a badge of honor.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He tells himself that by ignoring his father's corpse to fetch foot ointment for M. from Dupont. He's achieving the absolute pinnacle of his profession. And Ishiguro gives us this beautiful",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "painful second example to show just how unnatural this suppression is. What's the example?",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So later, Stevens recalls a memory of his father told to him by Miss Kenton.",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She remembers watching Stevens's father pacing back and forth in front of the summer house on the lawn. The shadows of the poppplers falling across the grass. Right. I remember this.",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He was looking down at the ground, as Miss Kenton put it, as though he hoped to find some precious jewel he had dropped there.",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is such a haunting image. It really is because it shows the father was a complex feeling human being.",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, he experienced loss, confusion, maybe deep regret over how his life turned out.",
+      "callout": {
+        "text": "MAYBE DEEP REGRET",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 52,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Searching the ground for something precious and unreoverable, But Stevens reduces his father's actual death to a logistical hurdle. He notes it, files it away, and returns to the smoking room.",
+      "callout": null
+    },
+    {
+      "i": 53,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He refuses to search for his own dropped jewels. Precisely. He views his father's death as an opportunity to prove a point about his own detachment.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, let me play devil's advocate for a second here. Go for it. Cuz when I read that scene, a part of me thought, um, isn't there actual nobility in the keep calm and carry on ethos?",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "How do you mean? I mean, think of a trauma surgeon whose own family member is on the operating table.",
+      "callout": {
+        "text": "OWN FAMILY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 56,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They have to shut off the personal connection just to get the job done and save a life. Okay, I see where you're going. If Darlington Hall is literally full of international dignitaries and the piece of Europe is hanging by a thread, isn't there something genuinely impressive about the guy",
+      "callout": null
+    },
+    {
+      "i": 57,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "who swallows his own pain to keep the machine running? That is exactly the trap Stevens wants you to fall into. But I'm going to push back hard on that comparison.",
+      "callout": {
+        "text": "OWN PAIN",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 58,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, hit me. A trauma surgeon compartmentalizes to save a life and then they break down in the locker room afterward.",
+      "callout": null
+    },
+    {
+      "i": 59,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Resilience implies feeling the pain and pushing through it. Stevens doesn't push through it. He permanently amputates it.",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Furthermore, he isn't saving a life. He is pouring champagne and fetching foot ointment. Okay. Yeah, that's a huge difference, right?",
+      "callout": {
+        "text": "SAVING A LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 61,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He forcefully amputates his own heart all while the room smells of roasting meat to serve a beverage.",
+      "callout": null
+    },
+    {
+      "i": 62,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is moral abdication hollowing out his soul in real time, deliberately disguised as duty.",
+      "callout": {
+        "text": "REAL TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 63,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, that makes total sense. The trauma surgeon comes back to their humanity. Stevens locks the door and throws away the key.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "POLITICAL STAKES AT THIS 1923",
+          "NEXT BIG PIECE"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "So, if he is willing to do this to his own father, to treat his own blood with this bureaucratic coldness, how does he handle the world stage? Well, that's the next big piece of this because the political stakes at this 1923",
+      "callout": null
+    },
+    {
+      "i": 65,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "conference are massive, right? They are. And this brings us to March 1923,",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "this unofficial conference. Lord Darlington and Sir David have brought this incredibly influential Frenchman, Msier Dupont, to Darlington Hall for a strict off thereord gathering.",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And what's the goal here? The stated goal of the host is to ease the cruelties of the Versailles treaty, which they feel is punishing Germany too harshly after the First World War. Right? So you've got these old school aristocrats",
+      "callout": {
+        "text": "FIRST WORLD WAR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 68,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "who think world peace is just about gentlemen keeping their word over cigars and they are colliding headfirst with ruthless modern geopolitical sharks.",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. Lord Darlington is operating on this oldworld chiver honor system. He befriended a German officer Carl Hines Braymond after the great war and is motivated largely by this personal friendship",
+      "callout": {
+        "text": "GREAT WAR",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 70,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "to rewrite international which is pretty wild when you think about it. it is. He thinks if he can just get the right gentleman in a room with some good port, they can fix Europe.",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "But he is being actively exploited by people who understand real Think about how this applies to modern",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "corporate or political culture. Delegating your moral compass to powerful people simply because you deem them honorable or because they have a fancy title is incredibly dangerous.",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "split",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So dangerous. Stevens watches all this manipulation happen. He serves the drinks. He hears the whispers, but he actively chooses not to judge it. He really does.",
+      "callout": {
+        "text": "ACTIVELY CHOOSES NOT TO JUDGE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 74,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He has an entire internal monologue justifying this willful blindness. He says, and this is a direct quote from his mind, the likes of you and I will never be in a position to comprehend the",
+      "callout": null
+    },
+    {
+      "i": 75,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "great affairs of today's world. Yeah. He argues that a butler's best course is to put his trust in an employer.",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "insert",
+      "beat": "story",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "USES",
+          "WILD"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "He judges to be wise and just serve him blindly. It's wild because he actually uses his",
+      "callout": null
+    },
+    {
+      "i": 77,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "lowerass status as a shield to absolve himself of having to think critically, He points to other famous butlers of his era, asking if we imagine Mr. Marshall arguing with Lord Kimberly over a foreign",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "office dispatch or Mr. Lane challenging Sir Leonard Gray before a speech in the House of Commons. He's basically saying like, I'm just the He's saying, I don't I, you know, I don't have",
+      "callout": null
+    },
+    {
+      "i": 79,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "to carry the moral weight of the world. But here's where we have to look at the historical nuance. We have to acknowledge that the Versail treaty was incredibly punitive.",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, absolutely. Economists like John Maynard Kanes were screaming that it was going to destroy Europe's economy and lead to another Right.",
+      "callout": null
+    },
+    {
+      "i": 81,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "History backed that up. Yeah. So Darlington's initial impulse in 1923",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "to ease the suffering of the German people and his friend Braymond, who eventually shoots himself out of despair, came from a place of genuine, albeit naive, compassion. I see.",
+      "callout": null
+    },
+    {
+      "i": 83,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, Stevens isn't entirely wrong to see Darlington as an honorable man at this specific point in time. Okay, I'm going to stop you there because while Darlington might have had good intentions in 1923, Stevens",
+      "callout": {
+        "text": "STOP",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 84,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "uses those good intentions to permanently shut off his own brain. Okay, fair point. He decides right then, Lord Darlington is a good man. Therefore, everything Lord Darlington does for the rest",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "of his life is good. Therefore, I never need to evaluate his actions ever again. He writes a blank check.",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. He stops evaluating the outcomes of the actions entirely. Delegating your conscience to your boss, even a well-intentioned one, isn't loyalty.",
+      "callout": {
+        "text": "YOUR BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 87,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a refusal to be a complete human being. That's a great way to phrase it. And we see exactly how that locked conscience rots a decade later. Yes, the 1930s.",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We move to the early 1930s, the dismissal of the Jewish maids. This is where Darlington's naive compassion curdles into something much darker.",
+      "callout": {
+        "text": "MOVE TO THE EARLY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 89,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "This part is so hard to read. Lord Darlington has been falling under the influence of Mrs. Carolyn Barnett who is deeply steeped in the rising fascist ideologies of the time very",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "similar to real historical figures like the Mittford sisters or the Clifton set who flirted heavily with Hitler's regime. Right? So Lord Darlington calls Stevens into a and the scene is chilling in its",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "diorama",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "sheer Darlington says he's been doing a great deal of thinking and his conclusion,",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "we cannot have Jews on the staff here at Darlington Hall, just completely casual about it. He blames it on the interests of the guests. And Stevens, the great professional,",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "he obeys instantly. No push back at all. None. He fires the two mates, Ruth and Sarah, without a single word of protest.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He focuses entirely on the logistics of the dismissal to avoid the moral horror of the act itself.",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is the danger of the just following orders mentality. Staying strictly professional is so often just a coward's way of executing bigotry without feeling guilty about it.",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The contrast with Miss Kenton in this moment is explosive. She corners him in his pantry. She is completely outraged.",
+      "callout": null
+    },
+    {
+      "i": 97,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Really acting as the moral center of the book here. She really is. She says to him, \"I am outraged that you can sit there and utter what you have just done as though you were discussing orders for the",
+      "callout": null
+    },
+    {
+      "i": 98,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Such a powerful line. It is. She sees exactly what he is doing, reducing a moral atrocity to a catering issue. And his reply is just pure ice.",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "He tells her, \"His lordship has made his decision, and there is nothing for you and I to debate over.\" He shuts her down completely.",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "diorama",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But I have to ask, based on the text, does Stevens actually harbor these anti-semitic That's a really important question.",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like, is he secretly a fascist who is happy to see these women gone, or is he just a weak man caught in the gears?",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The text actually proves he doesn't hold those views, which in a way makes it How so?",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, years later, from the safety of his road trip in 1956, he tries to downplay the entire era. He calls those weeks under Carolyn Barnett's influence",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "brief and entirely insignificant. Oh, he's trying to rewrite history. He actively tries to dismiss the allegations that there was ever a bar against Jewish staff at Darlington Hall, claiming they were never treated differently in the",
+      "callout": null
+    },
+    {
+      "i": 105,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "long run. He is squirming on the page. So, he knows it was wrong. He absolutely knows it was a profound moral failure.",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that is exactly why his defense mechanism has to work Right? If he admits to himself that he fired two innocent women just for being Jewish and ruined their livelihoods during an economic depression,",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "his entire concept of his own dignity It would break him. He has to lie to himself, framing it as an unfortunate but necessary professional duty.",
+      "callout": {
+        "text": "NECESSARY PROFESSIONAL DUTY",
+        "style": "box"
+      }
+    },
+    {
+      "i": 108,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because the alternative, admitting he was a willing tool of bigotry, would shatter his psyche. It makes you wonder if he is willing to treat other people's lives with this kind of bureaucratic",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "coldness, how does he handle his own personal You mean his own inner life? Yeah. Does he treat his own heart with that same ice? That brings us to one of the most painful, claustrophobic scenes in the entire novel.",
+      "callout": {
+        "text": "OWN INNER LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 110,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The romance novel Oh, I love the scene. It happens in Steven's pantry, which is his sanctuary.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the one place in the house he is supposed to be safe from the performance of his duties. Miss Kenton comes in and she physically corners him.",
+      "callout": null
+    },
+    {
+      "i": 112,
+      "shot": "illustration",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is advancing on him and he is backing away terrified like he's being hunted. Exactly. He is clutching a book to his chest like a shield. She finally pries it away from him to see what dark scandalous secret he is",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "hiding. And it turns out to be a sentimental romance novel. Just a cheap pulpy love",
+      "callout": {
+        "text": "CHEAP PULPY LOVE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 114,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. Just a standard romance. The psychology here is fascinating. He uses relentless self-improvement as a shield against intimacy.",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is so afraid of vulnerability, of human connection, of simply being a man who desires romance that he treats a basic love story like Look at his immediate defense when she catches him.",
+      "callout": {
+        "text": "BASIC LOVE STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 116,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He desperately rationalizes reading the romance novel to Miss What does he say?",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He doesn't just say, \"Oh, I enjoy this story. It's a nice escape.\" He claims he is reading it because it is an extremely efficient way to maintain and develop one's command of the English",
+      "callout": {
+        "text": "NICE ESCAPE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "language. That is just so sad. It is. He argues that a good accent and command of language are professionally desirable for a butler.",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He turns his secret human desire for love into a homework assignment for his job. And then he physically shows her out of his pantry. He can't handle the proximity.",
+      "callout": {
+        "text": "TURNS HIS SECRET",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 120,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He physically removes her to end the unbearable intimacy of the moment. He notes that he showed her out quite He has to reestablish the boundary.",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "But let's look at this from another angle. Could he really just be a giant What do you mean? I mean, we know he's obsessed with being a great butler.",
+      "callout": null
+    },
+    {
+      "i": 122,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And maybe to him, a romance novel really is just a textbook for upper class diction.",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's a guy who spends his free time reading encyclopedias to make sure he knows facts for the guests. If it were just a vocabulary exercise,",
+      "callout": {
+        "text": "FREE TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 124,
+      "shot": "split",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "why the sheer terror? Why clutch it to his chest? Why back away into the shadows of the pantry? Good point. He's starving for romance, for connection. But if he admits he has personal desires,",
+      "callout": {
+        "text": "ADMITS HE HAS PERSONAL DESIRES",
+        "style": "box"
+      }
+    },
+    {
+      "i": 125,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "his entire defense mechanism collapses. Think about it. If you are a vessel for someone else's will, having your own desires is an existential threat. Oh wow.",
+      "callout": null
+    },
+    {
+      "i": 126,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If he is a man who wants love, then he is not just a butler. And if he is not just a butler, then he has to take responsibility for his life and his choices. Denying his own emotional",
+      "callout": {
+        "text": "WANTS LOVE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 127,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "reality is the core engine of his moral Well, he can't allow himself to be a man",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because a man would have to speak up about the Jewish maids. That is incredibly dark. It all connects.",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that engine of denial keeps running right into the darkest chapters of world history.",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "By the late 1930s, Lord Darlington has slid from naive appeasement into active fascist sympathy.",
+      "callout": null
+    },
+    {
+      "i": 131,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is hosting her ribbon, the Nazi ambassador to Britain. And we get this incredibly tense evening at Darlington Hall. The British prime minister,",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the foreign secretary, and the German ambassador are all gathered in a And Stevens is there.",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. And someone, I guess, Mr. Spencer, interrogates Stevens. They ask him directly, \"Do you know what is going on",
+      "callout": null
+    },
+    {
+      "i": 134,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They're testing him. They are essentially mocking his ignorance, but they are also asking, \"Do you see the evil that is being plotted under your The real lesson here is that claiming a situation is above",
+      "callout": {
+        "text": "ALSO ASKING",
+        "style": "box"
+      }
+    },
+    {
+      "i": 135,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "your pay grade is often a deliberate active choice to enable terrible things happening right in front of you. Looking away is an action.",
+      "callout": null
+    },
+    {
+      "i": 136,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Stevens justifies this looking away with breathtaking mental gymnastics. He thinks about men like Mr. Marshall or Mr.",
+      "callout": null
+    },
+    {
+      "i": 137,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lane. Again, he concludes that it is illogical that I should feel any regret or shame because he confined himself to his own professional realm.",
+      "callout": {
+        "text": "FEEL ANY REGRET",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 138,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He really says that he does. He says he carried out his duties to a first rate standard and it's not his fault if Darlington's life turned out to be a sad waste.",
+      "callout": {
+        "text": "NOT HIS FAULT",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 139,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, let's hash this out. What could a butler actually do against a prime minister and a German ambassador? I mean, it's not like Stevens could burst into the drawing room, throw hot tea in Ribbon Trop's face, and arrest him.",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He literally has no political power. Isn't it a bit unfair to call him complicit when he is just a servant in a highly stratified society? It's not about him physically stopping World War II.",
+      "callout": {
+        "text": "NO POLITICAL POWER",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 141,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "No one expects Stevens the butler to defeat the Third Reich Okay, fair enough. It's about his internal soul.",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He refuses to even judge the situation privately. When asked if he knows what's going on, he doesn't just feain ignorance to keep his job.",
+      "callout": {
+        "text": "KEEP HIS JOB",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 143,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He actively convinces himself he shouldn't know. He blinds himself. He forcefully amputates his own conscience so he doesn't have to feel the moral weight of pouring the tea for Nazis.",
+      "callout": null
+    },
+    {
+      "i": 144,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He doesn't even allow himself to think my boss is doing something evil. That is the complicity.",
+      "callout": {
+        "text": "THINK MY BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 145,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the tragedy is that this suppression doesn't just destroy his moral compass. It destroys his only chance at personal happiness.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to the ultimate cost of this blindness. Miss Kenton's engagement.",
+      "callout": null
+    },
+    {
+      "i": 147,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. We jump back to 1956 for a moment. Stevens is processing Miss Kenton's letter, the first one he has received from her in almost seven years, right? She's reaching out.",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He notes with this painful formality that she is now Mrs. Ben. And as he reads it, Ishiguro makes the reader feel the massive gulf of time,",
+      "callout": {
+        "text": "GULF OF TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 149,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "the decades of unspoken feelings, the sheer crushing weight of what could have been between It's a warning to all of us.",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you wait for the proper professional moment to express your humanity, life will simply pass you by and the person you love will marry someone else.",
+      "callout": {
+        "text": "PERSON YOU LOVE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 151,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's true. You will bury your agony under decorum until there is absolutely nothing left but the decorum.",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Look at how he reacted back in the 30s when Miss Kenton actually announced her Oh, this is the worst part. When she finally gives up on him, when she tells him she's leaving Darlington Hall to marry another man, how does Stevens react?",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He masks his absolute devastation by obsessing over a faulty staff plan. A staff plan? Yes. He fixates on small errors he has been making in his daily duties.",
+      "callout": {
+        "text": "FAULTY STAFF PLAN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 154,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He convinces himself that his distress isn't about losing the love of his life, but rather about the unusually difficult task of running the house with only four staff members. It's like someone going through a horrific divorce and deciding the real problem in their",
+      "callout": {
+        "text": "LOSING THE LOVE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 155,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "life is that their email inbox isn't at zero. That's exactly what it's like. He spends hours he says upon a stepladder dusting the portrait of by count weatherbe pondering the margins of error in his roas.",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He creates this massive logistical puzzle in his head to avoid feeling the He tells us that his errors derive from nothing more sinister than a",
+      "callout": null
+    },
+    {
+      "i": 157,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "faulty staff plan. He is literally using the schedule of the cleaning girls, Rosemary and Agnes, as a blockade against his own So, as a reader,",
+      "callout": null
+    },
+    {
+      "i": 158,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "how are we supposed to take this? Is he lying to us trying to save face?",
+      "callout": {
+        "text": "SAVE FACE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 159,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Or is he just utterly broken and lying to himself? Honestly, it's both.",
+      "callout": {
+        "text": "BROKEN AND LYING",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 160,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is an unreliable narrator to us because he is an unreliable narrator to himself. That makes a lot of sense. He cannot process the grief of losing her.",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The emotion is too vast, too terrifying. So, he displaces all that agony onto his eclectic new duties. Professional duty acts as a permanent soulc crushing blockade to love.",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which makes the reality of 1956 so brutally ironic. We enter Mr. Faraday's new era.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lord Darlington is dead. The Darlington family has sold the house. And Stevens is standing in the strangely bare study with the new American owner, Mr.",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Faraday. Faraday is stretched out on the chzlong, casual, completely alien to the stiff British hierarchy Stevens Completely different vibe.",
+      "callout": null
+    },
+    {
+      "i": 165,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Faraday tells Stevens to take a break. He says, \"I'll foot the bill for the gas.",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You fellows, you're always locked up in these big houses helping out. How do you ever get to see around this beautiful country of yours?\" It's the ultimate tragedy of the corporate loyalist.",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "The rigid system you sacrificed your entire soul for will eventually be sold to the highest bidder.",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that highest bidder won't even understand the rules you died for. Stevens is mourning a hierarchy that consumed him. You see it in how awkwardly he fumbles with Faraday's American banter.",
+      "callout": null
+    },
+    {
+      "i": 169,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, the bantering, right? He doesn't know how to respond to a boss who makes jokes and just wants him to take a road trip. But even more, Stevens is deeply unsettled by the instruction to run the house",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "USED TO BE 28",
+          "JUST FOUR STAFF"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "with just four staff because he used to be 28. Exactly. He remembers the days of 28 staff members. He spent his life creating those complaints wrote to justify his existence.",
+      "callout": null
+    },
+    {
+      "i": 171,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He took on duties. He says that it was quote most broad-minded of a butler to do. Let me push back on Steven's misery here, though.",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay. What do you think? Farad is actually being a great boss. He's recognizing Stevens works hard. He's paying for his gas.",
+      "callout": {
+        "text": "GREAT BOSS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 173,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's telling him to go see the country. He is offering Stevens the freedom he never had under Darlington. Why is Steven so miserable about this? Because freedom is terrifying to someone who has institutionalized himself. Faraday is dismantling",
+      "callout": null
+    },
+    {
+      "i": 174,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the only structure that gave Steven's sacrifices any meaning. I see. If being a butler is just a job where the boss pays for your gas for a road trip, then what was the point of ignoring his dying father?",
+      "callout": {
+        "text": "JOB WHERE THE BOSS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 175,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "What was the point of firing the Jewish maids? What was the point of letting Miss Kenton walk away? It makes it all for nothing. Exactly. Faraday's casual kindness threatens to expose the absolute absurdity of Steven's life.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "When the structure of professional duty crumbles, the hollowed soul is left with nothing to hold on to. Which brings us to the climax of the book and back to where we started in the cold open. The reunion in Little Compton and the bench",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "on the Weimoth Pier, the heartbreak. Stevens finally meets Miss Kenton, Mrs. Ben. After 20 years, they sit in the rain at a bus stop and she finally admits it.",
+      "callout": {
+        "text": "AFTER 20 YEARS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 178,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She admits that she sometimes thinks about what a life with him might have been like. She admits she made a And Steven's heart breaks in silence.",
+      "callout": {
+        "text": "HEART BREAKS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 179,
+      "shot": "split",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He literally says his heart is breaking. It's so sad. It's so sad. But he still cannot break his armor.",
+      "callout": {
+        "text": "STILL CANNOT BREAK HIS ARMOR",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 180,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He gives her the most devastatingly formal goodbye. He says, \"Now, Mrs. Ben, you must take good care of yourself.",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "illustration",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Retirement is the best part of life. He uses the language of like a like a corporate HR, you know, manual like Yeah.",
+      "callout": {
+        "text": "BEST PART OF LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 182,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the employee handbook. Professional. Yeah. A professional retirement to say goodbye to the only woman he has ever loved.",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's excruciating to read. Hiding behind formalities at the most critical moment of your life guarantees you will die with regret.",
+      "callout": {
+        "text": "YOUR LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 184,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He leaves her there, gets back in the Ford, and goes to sit on that bench at Weimouth. The colored lights turn on, the crowd cheers,",
+      "callout": null
+    },
+    {
+      "i": 185,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "and a stranger sits next to him. The man notices Stevens is crying and offers this folksy advice. He says, \"The evening's the best part of the day.",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You've done your day's work. Now you can put your feet up.\" And Stevens listens. And Stevens, sitting there with his shattered life, tries to adopt this man's positive outlook.",
+      "callout": {
+        "text": "YOUR DAY'S WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 187,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "He tells himself he shouldn't look back, that he should be proud he made his small contribution to the great gentleman at the hub of the Wait,",
+      "callout": null
+    },
+    {
+      "i": 188,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "I've heard people argue that this is a hopeful ending. A lot of people do think that. Doesn't he find some peace here?",
+      "callout": null
+    },
+    {
+      "i": 189,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He decides to focus on the future on improving his bantering skills to please Mr. Faraday. Isn't he finally accepting",
+      "callout": null
+    },
+    {
+      "i": 190,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the evening of his life? He's looking at the lights. He's moving forward. I strongly disagree. It is a completely devastatingly tragic ending.",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is not finding peace. He is just rebooting his defense mechanism. Rebooting it. Yes. He is still telling himself to just make the best of what remains because facing the total catastrophic waste of his life would literally",
+      "callout": {
+        "text": "MAKE THE BEST",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 192,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "destroy him. He can't face it. He decides his new life's purpose is to learn how to banter. He has learned absolutely nothing.",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Avoiding feeling cannot protect you from the reckoning of the day's remains. He is just building a new slightly more modern cage for his This raises a massive counterpoint, one that a lot of",
+      "callout": {
+        "text": "MODERN CAGE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 194,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "readers and critics bring What's that? Isn't Stevens just a tragic,",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "helpless victim of the British class system? He was born into this rigid hierarchy. He was raised by a butler father who thought the exact same way.",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "He didn't have a modern liberal arts education. He literally didn't know any better. Ishiguro systematically proves that argument false.",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He proved Stevens had constant agency. How so? Miss Kenton offered him an out time and time again. When she brought him flowers to brighten his room, when she asked about his book,",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "diorama",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "when she threatened to leave, she was holding the door to humanity wide open for him and he shut it. He deliberately chose obedience because freedom and intimacy were too frightening.",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He wasn't a victim of the hierarchy. He was its most active, willing accomplice. He built the walls of his own prison brick by brick. The ultimate tragedy of Stevens isn't what",
+      "callout": null
+    },
+    {
+      "i": 200,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "society or the class system took from him. It is what he willingly He thought that by eliminating his emotions and hiding inside the armor of a great butler, he would be safe from the messy, painful realities of the 20th But he wasn't",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "safe. No. But the armor didn't protect him. It just blinded him while he served a fascist.",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And it deafened him to the love of his life. The armor became his coffin. Think about the dignity or the professionalism you might be hiding behind in your own life.",
+      "callout": {
+        "text": "YOUR OWN LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 203,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are you using your career, your arbitrary rules, or your impossibly busy schedule as a It's a question we all have to ask.",
+      "callout": {
+        "text": "USING YOUR CAREER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 204,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are you using them to avoid messy conversations? To avoid taking a stand when it's uncomfortable",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "or to avoid admitting that you are heartbroken? Because as Stevens learns on that pier in Weimoth,",
+      "callout": null
+    },
+    {
+      "i": 206,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "you can ignore your inner life all you want, but the sun still sets, the colored lights still come on, and if you have traded your heart for your duty, you are left entirely alone",
+      "callout": {
+        "text": "IGNORE YOUR INNER LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 207,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "with the remains of your Okay.",
+      "callout": null
+    }
+  ]
+}
