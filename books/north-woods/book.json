@@ -1,0 +1,67 @@
+{
+  "slug": "north-woods",
+  "title": "North Woods",
+  "author": "Daniel Mason",
+  "genre": "fiction",
+  "engine": "vox",
+  "engineRationale": "Book profile (moderate): the past world must be seen (essential, 1700) → period realism favours Vox RISK: some violence → plan those beats as aftermath/symbol if Vox",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "period",
+    "era": 1700,
+    "realPeople": false,
+    "format": "story",
+    "violence": "some",
+    "minorHarm": false,
+    "mustSee": [
+      "a clearing and farmhouse hearth in the Massachusetts woods",
+      "a colonial family working the land with axe and plough",
+      "a grave or burial marker under the trees",
+      "a later 19th-century household inside the same house",
+      "a present-day person walking the same woods"
+    ],
+    "periodLook": "essential",
+    "ideaDensity": "balanced",
+    "violenceOf": "people"
+  },
+  "engineRubric": {
+    "pick": "vox",
+    "confidence": "moderate",
+    "voxScore": 20,
+    "antidoteScore": 0,
+    "reasons": [
+      "the past world must be seen (essential, 1700) → period realism favours Vox"
+    ],
+    "risks": [
+      "some violence → plan those beats as aftermath/symbol if Vox"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-11-13",
+    "fit": "vox",
+    "confidence": "strong",
+    "voxScore": 17.4,
+    "antidoteScore": 8.5,
+    "signals": {
+      "year": 0.1,
+      "history": 4.6,
+      "second": 10.5,
+      "abstract": 2.7,
+      "sensitive": 7.8,
+      "era": 1700,
+      "words": 8768
+    },
+    "reasons": [
+      "real-world / dated references (0.1 years, 4.6 history terms per 1k words) → photoreal shows the actual world (Vox)",
+      "set around 1700 → period realism favours Vox"
+    ],
+    "risks": [
+      "violence/death 7.8/1k (> 6) → Flux will refuse many Vox images of the key scenes (CONTENT_FILTERED); Antidote draws them symbolically"
+    ],
+    "confirmed": true,
+    "confirmedBy": "appr-1"
+  },
+  "audioSource": "public/audio/north-woods.mp3"
+}

@@ -1,0 +1,23 @@
+{
+  "note": "operator approvals for routine production work (preview-state.js approve). Append-only. A record matches only its attempt (engine, pin, audio, VTT). Quality debt, render, upload, publish and cleanup are NEVER recorded here.",
+  "approvals": [
+    {
+      "id": "appr-1",
+      "at": "2026-11-12T11:16:45.853Z",
+      "by": "savas",
+      "book": "north-woods",
+      "words": "Keep Vox",
+      "scope": "engineKeep",
+      "attempt": {
+        "engine": "vox",
+        "productionBase": "e2b8605228eb90bebe2e241e525a3085fa1db603",
+        "audioSha256": "d878b3d35f44791684545dc3ef566501d3299b1b7968a6a8bacfc331f1691bf7",
+        "vttSha256": "5944b70995588086a7ab383c4cc5a75324889d65345ef73151ff7f75189e352e"
+      },
+      "limits": {
+        "conditions": "Keep Vox; accept Flux refusals on violent beats, draw them as aftermath or symbol"
+      },
+      "used": []
+    }
+  ]
+}

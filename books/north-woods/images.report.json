@@ -1,0 +1,3035 @@
+{
+  "note": "gen-vox-images.py: one record per image (outcome ok|failed|skipped-existing|not-attempted-cap; promptSha = sha256 of the prompt, first 16 hex)",
+  "images": [
+    {
+      "path": "scenes/north-woods/beat-000.png",
+      "beat": "beat-000",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bb82282f224cab22",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-001.png",
+      "beat": "beat-001",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "11a9d42a30078ae4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-002.png",
+      "beat": "beat-002",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "573407e08b799c12",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-003.png",
+      "beat": "beat-003",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b0560fed5ef91c83",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-005.png",
+      "beat": "beat-005",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4bab3d666ff7e796",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-006.png",
+      "beat": "beat-006",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e144fedbc6200ad5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-007.png",
+      "beat": "beat-007",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a1547ca3b24cbf2a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-009.png",
+      "beat": "beat-009",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c5daec6dd44d952f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-010.png",
+      "beat": "beat-010",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "19cc93e4cf970294",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-011.png",
+      "beat": "beat-011",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7cfc3d9f2fba1162",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-012.png",
+      "beat": "beat-012",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "351632c7f8a3783d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-014.png",
+      "beat": "beat-014",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a1177c6907721f65",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-015.png",
+      "beat": "beat-015",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "557298c0ddd0cb05",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-016.png",
+      "beat": "beat-016",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "73ea38cdecc0031d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-017.png",
+      "beat": "beat-017",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d3930f2ea576635a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-019.png",
+      "beat": "beat-019",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fd3879ab29b71c1f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-020.png",
+      "beat": "beat-020",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "81e3e6572980c442",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-022.png",
+      "beat": "beat-022",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3b352ede7b9964ea",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-023.png",
+      "beat": "beat-023",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "230daf4975c2c236",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-024.png",
+      "beat": "beat-024",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e62cb5cbf259ef8a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-025.png",
+      "beat": "beat-025",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d307f4ea68a47357",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-026.png",
+      "beat": "beat-026",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5d3b4317d0aafaf8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-027.png",
+      "beat": "beat-027",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c0c1dcfbfec498b1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-028.png",
+      "beat": "beat-028",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ca95cce4d89aba37",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-029.png",
+      "beat": "beat-029",
+      "attempts": 3,
+      "filtered": 0,
+      "promptSha": "7726f1e640a7e065",
+      "outcome": "failed",
+      "at": "2026-11-13T07:18:08.508015+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-030.png",
+      "beat": "beat-030",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bc64e83b71400f79",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-031.png",
+      "beat": "beat-031",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8513090308f59a81",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-033.png",
+      "beat": "beat-033",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5967c25ae690f7e0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-034.png",
+      "beat": "beat-034",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "87ff8432fa86eeff",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-035.png",
+      "beat": "beat-035",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9311ebc29a97ca53",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-036.png",
+      "beat": "beat-036",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "22830eeba5d347df",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-037.png",
+      "beat": "beat-037",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "30d1a1c0f26280fe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-038.png",
+      "beat": "beat-038",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b4edbc019f7ecf45",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-039.png",
+      "beat": "beat-039",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cb7429cf3d04f71e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-040.png",
+      "beat": "beat-040",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a45f41f5cf52dc49",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-042.png",
+      "beat": "beat-042",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "295987c776201d27",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-043.png",
+      "beat": "beat-043",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7d51564ea73e21bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-044.png",
+      "beat": "beat-044",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9defc4d6cbec2552",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-045.png",
+      "beat": "beat-045",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f540b1308768cef3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-046.png",
+      "beat": "beat-046",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "452a397603ec89ab",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-047.png",
+      "beat": "beat-047",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1726c8bdd8eeb543",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-048.png",
+      "beat": "beat-048",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "82c0483bb735e85f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-050.png",
+      "beat": "beat-050",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7e6cc823460a50f3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-051.png",
+      "beat": "beat-051",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bdfaec460b222d94",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-053.png",
+      "beat": "beat-053",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dacecaa733929c57",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-055.png",
+      "beat": "beat-055",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5d8f618cc4ec49de",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-056.png",
+      "beat": "beat-056",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f2e710def57c24eb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-057.png",
+      "beat": "beat-057",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "56ee53347d5a71dd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-058.png",
+      "beat": "beat-058",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9d37a923acba6c69",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-059.png",
+      "beat": "beat-059",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "692a563411980e02",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-061.png",
+      "beat": "beat-061",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "107405103757e212",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-063.png",
+      "beat": "beat-063",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9afc198493a6ff24",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-065.png",
+      "beat": "beat-065",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cd3eaab86f582d9a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-067.png",
+      "beat": "beat-067",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2d3a03c2f7bbd2bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-068.png",
+      "beat": "beat-068",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dbb12e2021f4d572",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-069.png",
+      "beat": "beat-069",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "682db2f86f18400d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-070.png",
+      "beat": "beat-070",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d3b74c4344095f97",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-071.png",
+      "beat": "beat-071",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "558453760439b99e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-072.png",
+      "beat": "beat-072",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e58bc21e3dcbdf81",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-073.png",
+      "beat": "beat-073",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "706cf04533022ac7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-074.png",
+      "beat": "beat-074",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a6d36f57730da5fc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-075.png",
+      "beat": "beat-075",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4bffce40757c2e35",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-076.png",
+      "beat": "beat-076",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "06db5809e5d17d1f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-078.png",
+      "beat": "beat-078",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a22cb195872a7f97",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-079.png",
+      "beat": "beat-079",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3d59dabac8dc14ad",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-080.png",
+      "beat": "beat-080",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "74a18ffd3618ada0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-081.png",
+      "beat": "beat-081",
+      "attempts": 3,
+      "filtered": 0,
+      "promptSha": "861b589e6cdda2fe",
+      "outcome": "failed",
+      "at": "2026-11-13T07:18:08.508015+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-082.png",
+      "beat": "beat-082",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b7fdbcebca6f9fc1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-083.png",
+      "beat": "beat-083",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "abfb7f8229bb8827",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-084.png",
+      "beat": "beat-084",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a873fdf0a370f867",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-085.png",
+      "beat": "beat-085",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "af4c03bdd45ee99c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-087.png",
+      "beat": "beat-087",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e6994d4d1902c39d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-088.png",
+      "beat": "beat-088",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1cf6f4789778eb50",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-089.png",
+      "beat": "beat-089",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bf59397c0005e185",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-090.png",
+      "beat": "beat-090",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6ebaa2f1e4e129a1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-091.png",
+      "beat": "beat-091",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "93878bd5baffffb4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-092.png",
+      "beat": "beat-092",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8baca415ee182e5c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-093-a.png",
+      "beat": "beat-093",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7fbab0376390cb3a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-093-b.png",
+      "beat": "beat-093",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e7e05c5bf1d19cfe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-094.png",
+      "beat": "beat-094",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4c80897e4994f025",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-095.png",
+      "beat": "beat-095",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "88705fb6023fcb9d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-096.png",
+      "beat": "beat-096",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ab77639769b0c44c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-097.png",
+      "beat": "beat-097",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0a7ca635d76563ed",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-099.png",
+      "beat": "beat-099",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8e8d46ebcc097954",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-100.png",
+      "beat": "beat-100",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b9bc80994f170d54",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-102.png",
+      "beat": "beat-102",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4446b8ec4b9473f5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-104.png",
+      "beat": "beat-104",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "47c10056f1af22ac",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-105.png",
+      "beat": "beat-105",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "47f3768106e3c9d7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-106.png",
+      "beat": "beat-106",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "64c503a98c42978f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-107.png",
+      "beat": "beat-107",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "01be48556c493452",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-108.png",
+      "beat": "beat-108",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d015bf19a7a090a3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-109.png",
+      "beat": "beat-109",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "c3e78ce5464267e9",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a leather-bound page with a hand-drawn apple in the margin lying open on a doctor's desk in a colonial study, a physician in a black coat peering at it through spectacles. single isolated subject, plain seamless studio background, centered, full subject in frame, cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-12T13:50:53.178640+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-110.png",
+      "beat": "beat-110",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f778c9f5209a250a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-111.png",
+      "beat": "beat-111",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "789a655ee3e2bfa3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-112.png",
+      "beat": "beat-112",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7492377362160df9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-114.png",
+      "beat": "beat-114",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "76545931e72e8d39",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-115.png",
+      "beat": "beat-115",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "97118ff7abba45fc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-116.png",
+      "beat": "beat-116",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "94c2e3a6b953c8de",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-118.png",
+      "beat": "beat-118",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "be01a03f807649d8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-119-a.png",
+      "beat": "beat-119",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "6f47a77c633ef340",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a rolled paper deed with a red wax seal lying on a wooden desk in a colonial study. single isolated subject, plain seamless studio background, centered, full subject in frame, cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-12T13:50:53.178640+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-119-b.png",
+      "beat": "beat-119",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e5a47cf2c6619fef",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T11:05:23.731583+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-120.png",
+      "beat": "beat-120",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d2c9c469117b87d1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-121.png",
+      "beat": "beat-121",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d57869dc61b51b3a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-123.png",
+      "beat": "beat-123",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "2fd74bf9bd514a2a",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a grand old colonial mansion with tall windows and an overgrown garden, a worried owner in a coat standing in the doorway holding a long list of repairs. single isolated subject, plain seamless studio background, centered, full subject in frame, cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-12T13:50:53.178640+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-124.png",
+      "beat": "beat-124",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cddc4e348d235c07",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-126.png",
+      "beat": "beat-126",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ffd4cbe2a3a3acbf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-127.png",
+      "beat": "beat-127",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f1377d25ce05cb72",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-129.png",
+      "beat": "beat-129",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0ebcf5d616a2e8b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-130.png",
+      "beat": "beat-130",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f21a96cc69141ec1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-131.png",
+      "beat": "beat-131",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "53164731eff65a65",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-132.png",
+      "beat": "beat-132",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f1fe6922d5858ccb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-133.png",
+      "beat": "beat-133",
+      "attempts": 3,
+      "filtered": 0,
+      "promptSha": "728c201dc81a9599",
+      "outcome": "failed",
+      "at": "2026-11-13T07:18:08.508015+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-134.png",
+      "beat": "beat-134",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "60f20cb7c34edcae",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-135.png",
+      "beat": "beat-135",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "96330117b75b1c77",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-136.png",
+      "beat": "beat-136",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f04e59fcaf2b5a55",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-139.png",
+      "beat": "beat-139",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b47a5d77d4fac63d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-140.png",
+      "beat": "beat-140",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d8220cc4efbc3875",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-141.png",
+      "beat": "beat-141",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b10c6b75a5a17d25",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-142.png",
+      "beat": "beat-142",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a6b6a83d734f5877",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-143.png",
+      "beat": "beat-143",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "71529e8d00d45e42",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-144.png",
+      "beat": "beat-144",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "934289dbf3a7cee6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-145.png",
+      "beat": "beat-145",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c5027c0dcf78e8e0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-147.png",
+      "beat": "beat-147",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0b8d5e5cf9f09338",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-148.png",
+      "beat": "beat-148",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6bd1feef8eb9d10b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-149.png",
+      "beat": "beat-149",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "abd2c152a37a82d1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-150.png",
+      "beat": "beat-150",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "602484ca83e430de",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-151.png",
+      "beat": "beat-151",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3c3738876124b50b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-152.png",
+      "beat": "beat-152",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "74cc1815bcfe51a0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-153.png",
+      "beat": "beat-153",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1935d6f0ae3e8814",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-156.png",
+      "beat": "beat-156",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2a6cef335dd766a8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-157.png",
+      "beat": "beat-157",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8724bc8a6480caf4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-158.png",
+      "beat": "beat-158",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "864cdcbc0fee162f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-159.png",
+      "beat": "beat-159",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aad5b9fb1549848c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-160.png",
+      "beat": "beat-160",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ce2c190672f36706",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-161.png",
+      "beat": "beat-161",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "90ec79cb095c2fd5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-162.png",
+      "beat": "beat-162",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6765a747aa0ee209",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-163.png",
+      "beat": "beat-163",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "424c341686c43b8e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-165.png",
+      "beat": "beat-165",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "671d9727c391e1c2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-166.png",
+      "beat": "beat-166",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a071ffae630d74d7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-167.png",
+      "beat": "beat-167",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "034929364b1d9472",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-168.png",
+      "beat": "beat-168",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8dd94bbcd5c53c41",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-169.png",
+      "beat": "beat-169",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d34d0b1b8fe60d82",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-170.png",
+      "beat": "beat-170",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e3b8fde1a86b0019",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-172.png",
+      "beat": "beat-172",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "82c9d91599feb8dd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-173.png",
+      "beat": "beat-173",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bb5495c4eaaae19a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-175.png",
+      "beat": "beat-175",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0bf9c1f3197db637",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-176.png",
+      "beat": "beat-176",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8dd9ec83c3f3adfe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-177.png",
+      "beat": "beat-177",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0be3d285bd679c97",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-179.png",
+      "beat": "beat-179",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "aa3371872000e71c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-181.png",
+      "beat": "beat-181",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9a81753dfc0906f3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-182.png",
+      "beat": "beat-182",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bd6ffa21e3ef6c3f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-183.png",
+      "beat": "beat-183",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5c4b134907f44ad6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-184.png",
+      "beat": "beat-184",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7af9ebac7c7cfbb3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-185.png",
+      "beat": "beat-185",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8808c719605db624",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-187.png",
+      "beat": "beat-187",
+      "attempts": 3,
+      "filtered": 2,
+      "promptSha": "d0197b455e4e0cb4",
+      "outcome": "skipped-existing",
+      "softenedPrompt": "cinematic editorial still: smoke and black soot pouring back into a dim room from a blocked fieldstone fireplace, a pale man coughing in the haze, colonial interior. single isolated subject, plain seamless studio background, centered, full subject in frame, cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-188.png",
+      "beat": "beat-188",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a5f56203fa099c68",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-189.png",
+      "beat": "beat-189",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "38f11a2fddf0c8ee",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-190.png",
+      "beat": "beat-190",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "774a0ebfe4f08c01",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-191.png",
+      "beat": "beat-191",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9eb36c47dc059f7a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-194.png",
+      "beat": "beat-194",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1739962fbdb77e0d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-195.png",
+      "beat": "beat-195",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f61d533a3b3ae384",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-197.png",
+      "beat": "beat-197",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7c576f6092aec172",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-199.png",
+      "beat": "beat-199",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2890dfec7c914bcf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-200.png",
+      "beat": "beat-200",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "30d812f5f1fd2138",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-202.png",
+      "beat": "beat-202",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "362c8df5732628cc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-203.png",
+      "beat": "beat-203",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7e57e6f742222dd5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-204.png",
+      "beat": "beat-204",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2db8ecfc822d1377",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-206.png",
+      "beat": "beat-206",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8b846da436315acc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-207.png",
+      "beat": "beat-207",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d917db6b1836141b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-209.png",
+      "beat": "beat-209",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5b30bed28f1e4cde",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-210.png",
+      "beat": "beat-210",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "231996578eb0d6fe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-211.png",
+      "beat": "beat-211",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c5f6a5eda329c9cd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-213.png",
+      "beat": "beat-213",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9475168528e26c30",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-214.png",
+      "beat": "beat-214",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "58b5183bd0e81b66",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-215.png",
+      "beat": "beat-215",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "80e88152e3463087",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-216.png",
+      "beat": "beat-216",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "68004586ff9d4710",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-219.png",
+      "beat": "beat-219",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dd667ae50e30377f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-220.png",
+      "beat": "beat-220",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "03e34ba3b2543d00",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-221.png",
+      "beat": "beat-221",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "95c532b94504652f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-223.png",
+      "beat": "beat-223",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9da581c16c2d1e7d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-224.png",
+      "beat": "beat-224",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "02f6615586bad9ee",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-226.png",
+      "beat": "beat-226",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "373e21c6afcf4b4b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-227.png",
+      "beat": "beat-227",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a2cc8eeb8182b0b3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-228.png",
+      "beat": "beat-228",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1f3e4b94daa06cf4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-231.png",
+      "beat": "beat-231",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "63f1f5897090ec18",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-233.png",
+      "beat": "beat-233",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "23c364637602203a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-234.png",
+      "beat": "beat-234",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "485a6fd6b8ed87ca",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a macro photograph of a tiny dark elm bark beetle on a fingertip beside a grain of rice, for scale, pale dusting of spores on its back. cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-12T13:50:53.178640+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-235.png",
+      "beat": "beat-235",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a30698e066859d36",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-236.png",
+      "beat": "beat-236",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dc4f278366bad544",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-237.png",
+      "beat": "beat-237",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3bda6826e540e1d7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-238.png",
+      "beat": "beat-238",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6b1c954199e9e7af",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-239.png",
+      "beat": "beat-239",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "822d39191bc7663b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-240.png",
+      "beat": "beat-240",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9a918344fcdd27c1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-242.png",
+      "beat": "beat-242",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2260b23b91e2f010",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-243.png",
+      "beat": "beat-243",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5db3779b3869d31d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-244.png",
+      "beat": "beat-244",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e1741af71064ec09",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-246.png",
+      "beat": "beat-246",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "23985f6ce344e23e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-247.png",
+      "beat": "beat-247",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a9fc6ac71b6dd0bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-248.png",
+      "beat": "beat-248",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b629d87f4defa330",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-249.png",
+      "beat": "beat-249",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d36a9330102fd0a7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-250.png",
+      "beat": "beat-250",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c497d4235a6f7d94",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-251.png",
+      "beat": "beat-251",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0a783e4fd4cd4c21",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-252.png",
+      "beat": "beat-252",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "eb8716b56529d855",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-253.png",
+      "beat": "beat-253",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f9f3ccb2919409e3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-255.png",
+      "beat": "beat-255",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5f26575f8d4508e9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-256.png",
+      "beat": "beat-256",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5a8b0186f063c6e1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-257.png",
+      "beat": "beat-257",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5f0e9460483a55fc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-258.png",
+      "beat": "beat-258",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "157c7b294fb2b6f5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-259.png",
+      "beat": "beat-259",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "12a591a0e9911e39",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-261.png",
+      "beat": "beat-261",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "553b3ce3cdae7614",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-262.png",
+      "beat": "beat-262",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "32a1dc9749004f00",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-263.png",
+      "beat": "beat-263",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9fe2aea6e20529ef",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-264.png",
+      "beat": "beat-264",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bee3431ef35bc14c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-265.png",
+      "beat": "beat-265",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0e5d9b35eba08989",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-266.png",
+      "beat": "beat-266",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4be514aea9369df4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-271.png",
+      "beat": "beat-271",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0124a5f6ded3946f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-272.png",
+      "beat": "beat-272",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4c01e503f377cb04",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-273.png",
+      "beat": "beat-273",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "026f8389c9c6de27",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-275.png",
+      "beat": "beat-275",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9ba969523bf038ad",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-276.png",
+      "beat": "beat-276",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "49641869d0a47416",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-277.png",
+      "beat": "beat-277",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "102d471dc93e83c8",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-279.png",
+      "beat": "beat-279",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c352f8cca2cec67c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-280.png",
+      "beat": "beat-280",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2efd3e53c1ee280c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-281.png",
+      "beat": "beat-281",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e7c4f54806b029f5",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-282.png",
+      "beat": "beat-282",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "657f8f3e6606da0b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-283.png",
+      "beat": "beat-283",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "283de2cf56890f66",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-284.png",
+      "beat": "beat-284",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ed75e25cd7103d12",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-285.png",
+      "beat": "beat-285",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8846a5c186acb3b1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-287.png",
+      "beat": "beat-287",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "96eec5a79958ff60",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-288.png",
+      "beat": "beat-288",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "293a51abdf1cd079",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-289.png",
+      "beat": "beat-289",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d8e17dc193039c81",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-290.png",
+      "beat": "beat-290",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a0960b056b81017d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-291.png",
+      "beat": "beat-291",
+      "attempts": 2,
+      "filtered": 1,
+      "promptSha": "f7084cb2307bb23c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-292.png",
+      "beat": "beat-292",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "459f06be0c559d16",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-293.png",
+      "beat": "beat-293",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "df7c10a15b706b86",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-295.png",
+      "beat": "beat-295",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b9df48be72178e39",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-297.png",
+      "beat": "beat-297",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6833bb732f1be6b6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-298.png",
+      "beat": "beat-298",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b4507be5c002baa6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-299.png",
+      "beat": "beat-299",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "30b10f0a6d898c9a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-300.png",
+      "beat": "beat-300",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4ca1b1dcafd53600",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-301.png",
+      "beat": "beat-301",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "883ad3d3e90678e3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-302.png",
+      "beat": "beat-302",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bbfc5afe249f67ca",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-303.png",
+      "beat": "beat-303",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d9e57be57e7e9376",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-305.png",
+      "beat": "beat-305",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f896599d8076abaa",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-306.png",
+      "beat": "beat-306",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "0d55cb48a2d6919a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-307.png",
+      "beat": "beat-307",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "40a40920f3300c67",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-311.png",
+      "beat": "beat-311",
+      "attempts": 3,
+      "filtered": 0,
+      "promptSha": "9fddaebe8b9fff21",
+      "outcome": "failed",
+      "at": "2026-11-13T07:18:08.508015+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-312.png",
+      "beat": "beat-312",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "61e126b4231089ce",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-313.png",
+      "beat": "beat-313",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e0854afb4cbd753b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-316.png",
+      "beat": "beat-316",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "68df7c2d437f68d9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-317.png",
+      "beat": "beat-317",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bea46014edf70279",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-318.png",
+      "beat": "beat-318",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "602960a0860ed7d9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-320.png",
+      "beat": "beat-320",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a867374dbe9dcd6e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-322.png",
+      "beat": "beat-322",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "759a57d6a878c83a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-323.png",
+      "beat": "beat-323",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bb9cbf5983597285",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-324.png",
+      "beat": "beat-324",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7e911ca8659e2d02",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-325.png",
+      "beat": "beat-325",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4ddf3c35faec2e6a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-327.png",
+      "beat": "beat-327",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "42c223d456db1a94",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-328.png",
+      "beat": "beat-328",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1ce5157b5551a62c",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-329.png",
+      "beat": "beat-329",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6c1d1949b8c53704",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-330.png",
+      "beat": "beat-330",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1106fee56d0feb9f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-331.png",
+      "beat": "beat-331",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "75c09551b442d9bc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-334.png",
+      "beat": "beat-334",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "caa772dcc1ffe47f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-335.png",
+      "beat": "beat-335",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "2325931989e3991b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-336.png",
+      "beat": "beat-336",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c11f6a05a7c5dfb9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-337.png",
+      "beat": "beat-337",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "337b1a6f02283626",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-338.png",
+      "beat": "beat-338",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ebf5cdbd2e934b7d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-339.png",
+      "beat": "beat-339",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7f275746685f543a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-340.png",
+      "beat": "beat-340",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e52b2c878d33639a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-341.png",
+      "beat": "beat-341",
+      "attempts": 2,
+      "filtered": 1,
+      "promptSha": "9a5f28fb612ed5f1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-343.png",
+      "beat": "beat-343",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b7d1d1aefd723d29",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-345.png",
+      "beat": "beat-345",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "b1a6e2aef20158ab",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-346.png",
+      "beat": "beat-346",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "babbe0b95d6edc0d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-348.png",
+      "beat": "beat-348",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "bc7405e1e8ec8cfe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-349.png",
+      "beat": "beat-349",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c7b745d12a805f1e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-350.png",
+      "beat": "beat-350",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5bdbf86d961d2415",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-351.png",
+      "beat": "beat-351",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cfe0069fec1e5c63",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-352.png",
+      "beat": "beat-352",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "44e1e390c81a7b3d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-353.png",
+      "beat": "beat-353",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "45ac2490d44fbcc9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-354.png",
+      "beat": "beat-354",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "51eb88de940dbd10",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-355.png",
+      "beat": "beat-355",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8dcbedbe0183108f",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-357.png",
+      "beat": "beat-357",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "fdb8db2e0e3d441a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-358.png",
+      "beat": "beat-358",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "61b6b15fc0fb49bf",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-359.png",
+      "beat": "beat-359",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8f2ae0b7b8c60d64",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-362.png",
+      "beat": "beat-362",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a33176b08d07be96",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-363.png",
+      "beat": "beat-363",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "db45ccd9d8f15239",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-364.png",
+      "beat": "beat-364",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "dd49f0eee9164a25",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-365.png",
+      "beat": "beat-365",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8e7f2bec98785001",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-366.png",
+      "beat": "beat-366",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "66e38d24b3c35dd1",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-367.png",
+      "beat": "beat-367",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7b7525cca0644e00",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-368.png",
+      "beat": "beat-368",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a0665ee57d482f85",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-369.png",
+      "beat": "beat-369",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "697bdf19cf8aaf50",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-370.png",
+      "beat": "beat-370",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "18467f78a7a8feef",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-371.png",
+      "beat": "beat-371",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "be56f63a87f227ce",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-374.png",
+      "beat": "beat-374",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "448921b979f765bc",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-375.png",
+      "beat": "beat-375",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3da7b39bfb209b29",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-377.png",
+      "beat": "beat-377",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f08073dfd8ea5660",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-378.png",
+      "beat": "beat-378",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "69e06f95591710f0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-379.png",
+      "beat": "beat-379",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "8656f9b756517e16",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-380.png",
+      "beat": "beat-380",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "29a5bb110ef7d778",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-381.png",
+      "beat": "beat-381",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9cf94cfd1134f6b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-382.png",
+      "beat": "beat-382",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7000bc33382f5c9b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-383.png",
+      "beat": "beat-383",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d0e34512c674aab7",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-384.png",
+      "beat": "beat-384",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "d5c1f7f98af44e49",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-385.png",
+      "beat": "beat-385",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "4c8f58d90ed6400b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-386.png",
+      "beat": "beat-386",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "27d53da365fe838e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-388.png",
+      "beat": "beat-388",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c3c028839aadbbf6",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-389.png",
+      "beat": "beat-389",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "739bb4e897b8cded",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-391.png",
+      "beat": "beat-391",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e9770c6662f599a0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-392.png",
+      "beat": "beat-392",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "cac7a58eba80d39e",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-393.png",
+      "beat": "beat-393",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7026dfefe13ddbce",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-394.png",
+      "beat": "beat-394",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "55cc84599de92c21",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-395.png",
+      "beat": "beat-395",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "7f541341935448eb",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-396.png",
+      "beat": "beat-396",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "43bbf9309c63bcf4",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-397.png",
+      "beat": "beat-397",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9cf8be5c18e08331",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-399.png",
+      "beat": "beat-399",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a0b5246bda22f458",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-401.png",
+      "beat": "beat-401",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "1b29adfbaf41ed9d",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-402.png",
+      "beat": "beat-402",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "ab64afe4e894bf42",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-404.png",
+      "beat": "beat-404",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "c51f1683c718e1b9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-405.png",
+      "beat": "beat-405",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "46499fd37e6b047a",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-406.png",
+      "beat": "beat-406",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "320a70da5b4bd572",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-409.png",
+      "beat": "beat-409",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3906bc0691ed6fc2",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-412.png",
+      "beat": "beat-412",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "5a47466de77f2666",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-413.png",
+      "beat": "beat-413",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "117d68db99cb7abe",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-414.png",
+      "beat": "beat-414",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "e5e9331b1842b426",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-415.png",
+      "beat": "beat-415",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "f18ff1ad618d23a3",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-417.png",
+      "beat": "beat-417",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "a6d2ad3077c314c0",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-419.png",
+      "beat": "beat-419",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "3747bcdd911f0499",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-420.png",
+      "beat": "beat-420",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "44f63d9a97ede9ca",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-421-a.png",
+      "beat": "beat-421",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "32072ab9ea08627b",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-421-b.png",
+      "beat": "beat-421",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "48a4be9805440acd",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-422.png",
+      "beat": "beat-422",
+      "attempts": 3,
+      "filtered": 3,
+      "promptSha": "1d8f0b9faf9997d7",
+      "outcome": "failed",
+      "softenedPrompt": "cinematic editorial still: a wide colonial New England field at harvest time, rows of cut grain and scattered wooden hand tools, a lone scythe leaning against a stone wall, tall dark forest behind, golden low autumn light. cinematic, filmic, atmospheric, shallow depth of field, no text, no words, no letters, no writing, no typography, no labels, no captions, no titles, no watermark, high detail, 8k",
+      "at": "2026-11-12T13:50:53.178640+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-423.png",
+      "beat": "beat-423",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "9a89ba54fb69b742",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-424.png",
+      "beat": "beat-424",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "6fcba0a667fe5815",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-425.png",
+      "beat": "beat-425",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "51beb2a937ac88f9",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    },
+    {
+      "path": "scenes/north-woods/beat-427.png",
+      "beat": "beat-427",
+      "attempts": 1,
+      "filtered": 0,
+      "promptSha": "85c84e67c6dde637",
+      "outcome": "skipped-existing",
+      "at": "2026-11-13T16:03:12.022996+00:00"
+    }
+  ]
+}

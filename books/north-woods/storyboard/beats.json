@@ -1,0 +1,6980 @@
+{
+  "slug": "north-woods",
+  "title": "North Woods",
+  "author": "Daniel Mason",
+  "genre": "fiction",
+  "count": 428,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "I mean, because here is the most provocative thing about this entire narrative. The dirt, you know, the trees and the clearing, they remember far",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "REMEMBER",
+          "FAR"
+        ],
+        "items": [
+          "YOU KNOW",
+          "TREES",
+          "CLEARING"
+        ],
+        "compare": null,
+        "image": {
+          "subject": "provocative, narrative., clearing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "more than any human character ever does. The people are just passing through, but the ground keeps receipts. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GROUND",
+          "KEEPS",
+          "RECEIPTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 2,
+      "text": "You see, these humans pouring their absolute souls into owning this tiny patch of Massachusetts wilderness, and the forest just quietly out lives them all, like",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSACHUSETTS",
+          "WILDERNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "massachusetts, wilderness, absolute",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 3,
+      "text": "literally feeding on their bones. Right. And this is a deep dive into North Woods by Daniel Mason. And yeah, we are analyzing the whole book right through",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DANIEL",
+          "MASON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "literally, analyzing, feeding",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 4,
+      "text": "to the final ashes of its ending. Our argument today is simple. The place, not the people, is the book's true protagonist.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARGUMENT",
+          "TODAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 5,
+      "text": "And by the end of this, you are going to understand three specific things. First, how a single apple seed buried in a dead man's ribs maps a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERSTAND",
+          "THREE",
+          "SPECIFIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "century of human greed. Second, why microscopic invaders actually hold more power than any human army.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MICROSCOPIC",
+          "INVADERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 7,
+      "text": "And third, how the ghosts haunting this yellow house are actually the trees",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GHOSTS",
+          "HAUNTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 8,
+      "text": "So, we have to ask, how does an act of brutal violence",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRUTAL",
+          "VIOLENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 9,
+      "text": "birth a legendary wonder? Because to understand this land, you really have to stand in the pitch black night of a wet, freezing meadow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LEGENDARY",
+          "WONDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 10,
+      "text": "You have this unnamed captive mother completely alone in the dark. Exactly. She is desperately digging a grave with a heavy iron shovel and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNNAMED",
+          "CAPTIVE",
+          "MOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "she is dragging the body of a poisoned English scout through the mud.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "POISONED",
+          "ENGLISH",
+          "SCOUT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dragging, poisoned, english",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 12,
+      "text": "And sitting inside that dead man's stomach is an unweed apple core.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SITTING",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "You are right there in the present tense with her. And the sensory reality is just overwhelming. Mhm. I mean, you can hear the sucking heavy",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SENSORY",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "sound of the wet mud clinging to the metal of that shovel. It's so visceral. It is. You can hear her breathing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MUD",
+          "CLINGING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "this terrified, exhausted, ragged weeping of a young mother who has lost almost everything. And then in the absolute pitch black,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "PITCH",
+          "BLACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 16,
+      "text": "there is the sharp metallic clink of the shovel blade striking a piece of bedrock deep in the earth.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHOVEL",
+          "BLADE",
+          "STRIKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 17,
+      "text": "It is this moment of pure desperate It's a total sensory nightmare. She's out there in the colonial wilderness, a baby strapped",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTAL",
+          "SENSORY",
+          "NIGHTMARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "to her back, the elements actively working against her. And when you really internalize that image, it completely changes how you look at the landscape today.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ELEMENTS",
+          "ACTIVELY",
+          "WORKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 19,
+      "text": "Oh, for sure. Every beautiful, pristine, like quote unquote untouched piece of nature that we romanticize usually has a foundation of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "QUOTE",
+          "UNQUOTE",
+          "UNTOUCHED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 20,
+      "text": "completely forgotten human violence. We look at a gorgeous flowering apple tree and our brains immediately go to the Garden of Eden.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GARDEN",
+          "OF",
+          "EDEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "immediately, completely, forgotten",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 21,
+      "text": "We think of peace and bounty. But this narrative demands that",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PEACE",
+          "AND",
+          "BOUNTY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "you look at the soil. Look at the specific violent organic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "VIOLENT",
+          "ORGANIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "matter that is decomposing to feed those roots. Right? And to really grasp the gravity of this, you have to look at the historical context of how",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "CONTEXT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 24,
+      "text": "this unnamed woman even got to this wet meadow. This is the era of brutal colonial skirmishes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRUTAL",
+          "COLONIAL",
+          "SKIRMISHES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 25,
+      "text": "This woman was taken captive during a horrific raid on her village. Her family was slaughtered right in front of her. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKEN",
+          "CAPTIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 26,
+      "text": "She is then marched deep into the wilderness, suffering from extreme exposure, malnutrition, and illness. Utterly convinced she's either going to be murdered or handed",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "EXTREME",
+          "EXPOSURE"
+        ],
+        "items": [
+          "EXTREME EXPOSURE",
+          "MALNUTRITION",
+          "ILLNESS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "over to the devil, she is eventually left in the care of an older woman, a former English captive herself, who had actually chosen to stay and live in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENGLISH",
+          "CAPTIVE",
+          "HERSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "eventually, actually, english",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 28,
+      "text": "the deep woods away from Puritan society, which is wild in itself. Totally. And when English scouts finally arrive, men who are ostensibly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PURITAN",
+          "SOCIETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ostensibly, totally., puritan",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 29,
+      "text": "her rescuers, they don't bring salvation. They bring with them the severed hand of a native child as a grotesque trophy, which is the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GROTESQUE",
+          "TROPHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "ultimate catalyst for the poisoning. The older woman sees this severed hand. She recognizes the endless churning cycle of bloodshed that these military scouts",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENDLESS",
+          "CHURNING",
+          "CYCLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "represent. So, she serves them a broth made from night maids, which",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NIGHT",
+          "MAIDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 32,
+      "text": "is a highly poisonous It's an act of horrific necessary violence",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HORRIFIC",
+          "NECESSARY",
+          "VIOLENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 33,
+      "text": "designed to stop further violence. And our unnamed mother, who is ferociously defending her own child, uses an axe to finish",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STOP",
+          "FURTHER",
+          "VIOLENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "off the very last surviving scout. This is the exact same man who just a few hours earlier had casually offered her a bite of an apple.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LAST",
+          "SURVIVING",
+          "SCOUT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 35,
+      "text": "It's so dark. It is. She buries him along with the other dead scouts right there in that wet meadow. But the narrative doesn't follow the weeping mother as she",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEEPING",
+          "MOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "escapes. It stays exactly where she was digging. It stays with the ground. A full year passes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FULL",
+          "YEAR",
+          "PASSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 37,
+      "text": "The heavy winter snow finally melts. A pack of wolves, absolutely starving from the brutal New England winter, sniff out the shallow grave.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BRUTAL",
+          "NEW",
+          "ENGLAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "winter, absolutely, starving",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 38,
+      "text": "Oh yeah. They dig up the rotting corpse of that English scout and they drag it further up the hill to tear it apart.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENGLISH",
+          "SCOUT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rotting, english, further",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 39,
+      "text": "And there, exposed to the warming spring air in the sunlight, the apple seed that was sitting inside his stomach finally cracks its protective coat.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WARMING",
+          "SPRING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 40,
+      "text": "It drops a tiny root into the thawing soil and it pushes a pale green codalon directly upward through the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CODALON",
+          "DIRECTLY",
+          "UPWARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 41,
+      "text": "fifth and sixth ribs of the dead man Wait, a codalon for anyone who hasn't taken a botney class in a decade.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEAD",
+          "MAN",
+          "WAIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "codalon, decade., anyone",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 42,
+      "text": "That's just that's the little baby Well, it's the embryionic first leaf that pops out of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMBRYIONIC",
+          "FIRST",
+          "LEAF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "a seed. Right. Right. It's the it's the seed's very first attempt to capture sunlight.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CAPTURE",
+          "SUNLIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 44,
+      "text": "Gotcha. And for an apple seed to even get to that point, it requires a biological process. It's called stratification, it it has to experience",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "PROCESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 45,
+      "text": "the deep freezing cold of winter. That's what breaks its dormcancy. And then it has to be followed by the warming of spring.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "FREEZING",
+          "COLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 46,
+      "text": "And then of course it also really needs intense nutrients to fuel all that initial growth which gets from the scout.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTENSE",
+          "NUTRIENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 47,
+      "text": "Right. From the scout. It is such a visceral almost macob visual. The human rib cage, a structure that literally evolved over millions",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VISCERAL",
+          "ALMOST",
+          "MACOB"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 48,
+      "text": "of years to protect the beating human heart, is now completely repurposed. It is serving as a nursery trellis for a wild fruit tree.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEATING",
+          "HUMAN",
+          "HEART"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 49,
+      "text": "Now, I have to be honest, I read this as the earth actively punishing the colonizer's Oh, really? Yeah. It feels like profound poetic justice.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "POETIC",
+          "JUSTICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 50,
+      "text": "This man brought war. He brought severed hands and arrogance into the forest. and the earth repays him by dissolving him, by using his",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROUGHT",
+          "SEVERED",
+          "HANDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "literal corpse as fertilizer for something beautiful and wild. It feels like the forest asserting its moral superiority over human pettiness.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FOREST",
+          "ASSERTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 52,
+      "text": "See, I have to push back on that interpretation. As tempting as it is, attributing a sense of punishment or moral superiority to the earth is just another form of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MORAL",
+          "SUPERIORITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "We desperately want nature to have a sense of justice because we want human suffering to mean something. We want a cosmic balancing of the scales.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COSMIC",
+          "BALANCING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "But you don't think But the Earth is totally terrifyingly indifferent. It doesn't care about human morality. It doesn't care about colonial politics.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COLONIAL",
+          "POLITICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "doesnt, care, terrifyingly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 55,
+      "text": "And it certainly doesn't care who started the fight. It just opportunistically uses the nitrogen and the phosphorus leeching from his decaying bones.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHOSPHORUS",
+          "LEECHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "The worm in the fungal networks don't judge the flesh they are consuming. But you don't think there's a thematic almost literary justice in the fact that the seedling shoots",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THEMATIC",
+          "ALMOST",
+          "LITERARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "up specifically through his ribs, like the very cage of his heart. It's pure biological opportunism. The ribs happen to provide a rigid physical",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURE",
+          "BIOLOGICAL",
+          "OPPORTUNISM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "structure that protects the fragile chute from being trampled. And the decomposing flesh provides an incredibly rich localized nutrient bomb in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECOMPOSING",
+          "FLESH",
+          "PROVIDES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "an otherwise nutrient poor rocky soil. The seed is essentially just a biological machine executing its genetic programming to grow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "MACHINE",
+          "EXECUTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 60,
+      "text": "So it's just mechanics to you, right? The violence of men, the wars they fight to the forest, that's just another weather event.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANOTHER",
+          "WEATHER",
+          "EVENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 61,
+      "text": "It's a sudden unexpected deposit of organic matter. The indifference is actually what makes it so powerful. The forest doesn't need to be vindictive or",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUDDEN",
+          "UNEXPECTED",
+          "DEPOSIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "angry to completely erase him from existence. Which brings us right back to the core realization of this entire landscape. This indifferent consumption, the way the land",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDIFFERENT",
+          "CONSUMPTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "just swallows human trauma, digests the violence, and uses it to sprout a pale green leaf proves the thesis.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SWALLOWS",
+          "HUMAN",
+          "TRAUMA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 64,
+      "text": "The place, not the people, is the true protagonist. The human drama, the tears, the axes, the wars, it is all just top soil",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUE",
+          "PROTAGONIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 65,
+      "text": "for whatever comes next. Precisely. The land rests, it grows, and eventually that tree bears fruit, which naturally pulls us",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "WHATEVER",
+          "COMES"
+        ],
+        "items": [
+          "LAND RESTS",
+          "IT GROWS",
+          "EVENTUALLY THAT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 66,
+      "text": "into the next phase of human interaction with this space, right? Which forces us to ask, what makes a man abandon a prestigious lifelong",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRESTIGIOUS",
+          "LIFELONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "military career for a wild piece of fruit. But let's drop into this moment. We have Major Charles Osgood, and he is a hardened veteran of the French and Indian War.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MAJOR",
+          "CHARLES",
+          "OSGOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "military, hardened, moment.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 68,
+      "text": "He is standing in the deep woods and his heavy woolen coat is absolutely soaked through from a cold autumn drizzle.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COLD",
+          "AUTUMN",
+          "DRIZZLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "Such a great scene. He is standing before a ruined mosscovered stone cabin holding a faintly russeted spring green apple in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUINED",
+          "MOSSCOVERED",
+          "STONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "his hand and a runty juggeeared local boy is sitting on a field stone nearby just watching him. The sensory reality of that specific afternoon",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUNTY",
+          "JUGGEEARED",
+          "LOCAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "is intoxicating. If you stand there with Ozgood, you can literally hear the fizzing fermented pop of rotting windfall apples",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROTTING",
+          "WINDFALL",
+          "APPLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intoxicating., literally, fermented",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 72,
+      "text": "bursting under the heavy leather of his military boots as he paces the overgrown grass. Yeah, you can smell it. You really can.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MILITARY",
+          "BOOTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "He takes a bite of this wild, unnamed apple, and you experience the exact taste exploding in his mouth.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "TASTE",
+          "EXPLODING"
+        ],
+        "items": [
+          "THIS WILD",
+          "UNNAMED APPLE",
+          "YOU EXPERIENCE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "It starts as a scent, something incredibly delicate, as light as lemon blossoms. And then a second wave comes rushing through, spreading",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOMETHING",
+          "INCREDIBLY",
+          "DELICATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 75,
+      "text": "across his pallet like a rich, heavy syrup. And Osgood, a man who has seen unimaginable battlefield horrors, just stands there trembling",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "OSGOOD"
+        ],
+        "items": [
+          "BATTLEFIELD HORRORS",
+          "JUST ST",
+          "S THERE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 76,
+      "text": "in the rain, whispering, \"I found it.\" That single taste radically changes the entire trajectory of his life.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "TASTE",
+          "RADICALLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 77,
+      "text": "And if you map that onto our lives, human ambition is a incredibly funny, predictable thing. We constantly try to tame and rename nature as",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "AMBITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 78,
+      "text": "a way to cheat our own mortality. Ozgood is a man who was literally",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OWN",
+          "MORTALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 79,
+      "text": "inches from death. He fought at the Plains of Abraham in 1759, which",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PLAINS",
+          "OF",
+          "ABRAHAM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "abraham, inches, death.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 80,
+      "text": "for context was one of the most pivotal and bloody battles of the Seven Years War. Fought right outside the walls of Quebec City. The casualties were staggering and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SEVEN",
+          "YEARS",
+          "WAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "casualties, staggering, context",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 81,
+      "text": "the psychological toll on the survivors was immense. Exactly. Ozgood took a French bayonet directly to the chest on those planes.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCH",
+          "BAYONET",
+          "DIRECTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "psychological, survivors, immense.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 82,
+      "text": "He survives by a millimeter. And while he is recovering delirious with fever, he has this vision of an orchard of souls.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RECOVERING",
+          "DELIRIOUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 83,
+      "text": "So when he tastes this incredible lifeaffirming apple years later, he becomes entirely obsessed.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLE",
+          "LIFEAFFIRMING",
+          "APPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "He decides he is going to own this miracle. he is going to possess it. And he doesn't just want to own the land.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OWN",
+          "THIS",
+          "MIRACLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "He has a deep psychological need to brand it. He buys the entire",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "PSYCHOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 86,
+      "text": "500 acre parcel. And here is a crucial detail about his mindset.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "500",
+          "ACRE",
+          "PARCEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "When his carpenter suggests tearing down that old ruined stone cabin, the exact same cabin where our captive mother from the previous era",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CARPENTER",
+          "SUGGESTS",
+          "TEARING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 88,
+      "text": "lived and where she committed murder. Ozgood adamantly refuses. He keeps it. He does.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMMITTED",
+          "MURDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "Instead, he builds his pristine, highly symmetrical lemon yellow house directly attached to those violent ruins.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SYMMETRICAL",
+          "LEMON",
+          "YELLOW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 90,
+      "text": "He essentially crafts his new civilized architectural life directly onto the wild, bloody past. And then the ultimate act of possession.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CIVILIZED",
+          "ARCHITECTURAL",
+          "LIFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "He names the fruit Ozgood's wonder. Ozgood's wonder. Not the Pumptuk",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRUIT",
+          "OZGOOD",
+          "WONDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ozgoods, wonder., pumptuk",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 92,
+      "text": "wonder, honoring the indigenous people who lived there for millennia.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDIGENOUS",
+          "PEOPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 93,
+      "text": "Not the bloody scout wonder honoring the man whose corpse literally fed the seed. Ozgoods. I look at Charles Osgood and I see just another arrogant",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "CHARLES",
+          "OSGOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "colonizer. You really think so? Oh, absolutely. He brings a gang of rough, violent men from the Albany docks, men with facial scars who literally",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALBANY",
+          "DOCKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolutely., colonizer., literally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 95,
+      "text": "stab each other and camp over petty disputes to hack a road into the untouched wilderness. He clearcuts the ancient trees.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNTOUCHED",
+          "WILDERNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "He imposes his rigid geometric English sensibilities on the wild landscape. And",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GEOMETRIC",
+          "ENGLISH",
+          "SENSIBILITIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sensibilities, landscape., geometric",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 97,
+      "text": "he slaps his own surname on a biological miracle he had absolutely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "MIRACLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "zero hand in creating. He is the ultimate gentrifier of the forest. He thinks he can just buy the magic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "GENTRIFIER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 99,
+      "text": "I actually view Osgood completely differently. I don't see arrogance. I see a deeply traumatized visionary who is the very first person to truly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VIEW",
+          "OSGOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "differently., traumatized, completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 100,
+      "text": "appreciate the magic of the land. Remember the biology of apples. They exhibit extreme hetererozygosity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXHIBIT",
+          "EXTREME",
+          "HETEREROZYGOSITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 101,
+      "text": "Meaning what exactly for the layman? It means that if you plant a seed from a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PLANT",
+          "A",
+          "SEED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 102,
+      "text": "delicious apple, the tree that grows from that seed will almost certainly produce terrible bitter",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRODUCE",
+          "TERRIBLE",
+          "BITTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 103,
+      "text": "crab apple-like fruit. Every seed is a genetic lottery ticket. And 99.9% of them are losers.",
+      "design": {
+        "type": "stat",
+        "kicker": "",
+        "emphasis": [
+          "GENETIC",
+          "LOTTERY",
+          "TICKET"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 104,
+      "text": "For a wild seed to sprout from a corpse and produce a worldclass transcendent fruit is a statistical miracle.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WORLDCLASS",
+          "TRANSCENDENT",
+          "FRUIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 105,
+      "text": "Okay, that's fair, right? Before Ozgood came along, that apple was just rotting on the wet ground, being eaten by starving wolves and flies.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "OZGOOD",
+          "CAME",
+          "ALONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "starving, rotting, before",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 106,
+      "text": "Ozgood is the one who recognizes its superal quality. To protect",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUPERAL",
+          "QUALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "it, he abandons the immense social prestige of a military promotion.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "MILITARY",
+          "PROMOTION"
+        ],
+        "items": [
+          "IT",
+          "HE AB",
+          "ONS THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "He faces the intense mockery of his wealthy family, who literally try to have him legally declared a lunatic, suffering from pomomania,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTENSE",
+          "MOCKERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "an obsession with apples. Wait, Palomania is a real medical diagnosis they tried to use on In the context of the era, the obsession with cultivating",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "MEDICAL",
+          "DIAGNOSIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "obsession, cultivating, palomania",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 110,
+      "text": "specific fruits could totally be viewed as a form of madness. Yes, his family is so desperate they literally try to cure him by making him sniff sheep utters,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "FRUITS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "which was a bizarre folk remedy for hysteria. He risks his entire reputation and fortune for beauty.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIZARRE",
+          "FOLK",
+          "REMEDY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 112,
+      "text": "And regarding the cabin, he doesn't destroy it because he inherently senses the deep history vibrating there. He isn't acting as a conqueror.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "HISTORY",
+          "VIBRATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "He is acting as an eccentric, fiercely dedicated steward. But look at the human cost of his stewardship.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIERCELY",
+          "DEDICATED",
+          "STEWARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 114,
+      "text": "He forces his two young daughters to move to the absolute middle of nowhere. He isolates them completely from society, from potential partners, from a normal life,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POTENTIAL",
+          "PARTNERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "all for the sake of his precious trees. He writes this entire manic rambling manuscript about his genius in cultivating this apple.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANIC",
+          "RAMBLING",
+          "MANUSCRIPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "He boasts about how he prefers his trees shaggy and how he maliciously tricked a rival farmer into fertilizing his own crops with human waste.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TREES",
+          "SHAGGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 117,
+      "text": "It's all driven by his massive fragile ego. But step back and look at the actual power dynamic. Despite his sprawling ego, despite",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "POWER",
+          "DYNAMIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "physically carving his name into the narrative with Ozgood's wonder, who is actually serving whom? Osgood firmly believes he owns the tree because he",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "OZGOOD",
+          "WONDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physically, narrative, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 119,
+      "text": "holds a paper deed. But the tree completely controls his entire That's true. It runs his life. It totally does. It dictates where he lives.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PAPER",
+          "DEED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, controls, dictates",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 120,
+      "text": "It dictates how he spends every waking hour. It dictates how he raises his children. It takes a highly decorated cosmopolitan military",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECORATED",
+          "COSMOPOLITAN",
+          "MILITARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 121,
+      "text": "major and turns him into its personal panicked gardener. He's up all hours of the night freezing in the dark, violently worrying about porcupines",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSONAL",
+          "PANICKED",
+          "GARDENER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "chewing the bark and wax wings eating the buds. The tree didn't just grow on his land. The tree completely domesticated him.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WINGS",
+          "EATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 123,
+      "text": "That is a brilliant flip. It's like owning a historical mansion. You don't own the house. The house owns your bank account and your weekends.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "MANSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "He thinks he's the master, but he's just the seasonal help. And that ties perfectly back to our argument. Despite the paper deed in his pocket, the tree aggressively outlasts his tenure.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TREE",
+          "AGGRESSIVELY",
+          "OUTLASTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "the place, not the people, is the true And this becomes incredibly evident when history intrudes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORY",
+          "INTRUDES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 126,
+      "text": "When Osgood abruptly marches off to fight in the Revolutionary War, leaving his sheltered daughters completely behind, we see exactly what happens to the people who try",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "REVOLUTIONARY",
+          "WAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolutionary, completely, sheltered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 127,
+      "text": "to desperately hold on to that land and freeze it in time,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATELY",
+          "HOLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 128,
+      "text": "which forces us to examine the daughters. How does profound isolation",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "ISOLATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "twist the fundamental human need for a legacy? Let's get the picture of this exact moment. We have Mary Osgood.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARY",
+          "OSGOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fundamental, picture, moment.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 130,
+      "text": "She is an adult woman gripping a thick switch of raw beachwood in her trembling hand, slashing furiously, almost violently at the tall golden rod",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ADULT",
+          "WOMAN",
+          "GRIPPING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 131,
+      "text": "encroaching on the meadow. Her identical twin sister Alice lunges forward into",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALICE",
+          "LUNGES",
+          "FORWARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "encroaching, identical, meadow.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 132,
+      "text": "the brush to physically catch Mary's wrist to stop her manic swinging.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CATCH",
+          "MARY",
+          "WRIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physically, swinging., brush",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 133,
+      "text": "And right at that exact fraction of a second, a massive explosive thunderstorm breaks violently above their heads.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "EXPLOSIVE",
+          "THUNDERSTORM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 134,
+      "text": "If you drop into the senses of that specific second, it is suffocating. You can smell the sudden, sharp, metallic ozone scent of a lightning bolt striking",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LIGHTNING",
+          "BOLT",
+          "STRIKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 135,
+      "text": "perilously close by. You hear the deafening physical crack of thunder echoing off the sheer granite face of Blue Mountain. You can vividly see Mary's knuckles turning",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BLUE",
+          "MOUNTAIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "perilously, deafening, mountain.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 136,
+      "text": "stark, bone white as she grips her sister's hand, holding on for dear life as the freezing rain begins to pour down on them in this massive empty field.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "EMPTY",
+          "FIELD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 137,
+      "text": "It's an incredibly tense, almost claustrophobic scene, which is wild considering they are outside in a sprawling open meadow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPRAWLING",
+          "OPEN",
+          "MEADOW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "And the takeaway for anyone listening is this. When you dedicate your entire existence to freezing a piece of land in time, when you make it your life's mission",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANYONE",
+          "LISTENING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "to perfectly preserve someone else's legacy without adding your own, you only end up freezing yourself. That's spot on.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "YOURSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "These two women are identical twins and they are utterly isolated in this sprawling yellow house for 41 years after their father dies in the Revolutionary",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "41",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolutionary, identical, sprawling",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 141,
+      "text": "War. They become psychologically and physically stagnant. The historical reality of their stagnation is heartbreaking, especially when you look",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 142,
+      "text": "at how they survive the war. To protect their father's precious Ozgoods wonder orchard while the revolution rages around them, they have to navigate",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FATHER",
+          "PRECIOUS",
+          "OZGOODS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolution, precious, navigate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 143,
+      "text": "incredibly treacherous local politics. They are English by descent. Their father was a well-known English major and the local revolutionary militias",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WELL-KNOWN",
+          "ENGLISH",
+          "MAJOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "english, local, revolutionary",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 144,
+      "text": "are highly suspicious of Confiscation of loyalist farms was a very real, very common threat. So what do these isolated women",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUSPICIOUS",
+          "OF",
+          "CONFISCATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "confiscation, suspicious, loyalist",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 145,
+      "text": "do? They erect scarecrows in the orchard to keep the birds away. But they dress the scarecrows in literal British red coats.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "BRITISH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "scarecrows, orchard, literal",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 146,
+      "text": "Wait, why would they dress them in red coats if they are trying to avoid the wrath of the revolutionaries? because it's a desperate, highly visible performance of patriotism.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VISIBLE",
+          "PERFORMANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 147,
+      "text": "They are hanging the enemy in effigy. They are literally turning their dead father's military uniform, the very symbol of his life and memory,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FATHER",
+          "MILITARY",
+          "UNIFORM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 148,
+      "text": "into a bizarre, alienating theatrical farce just to scare off the wax wings and simultaneously appease the violent roaming bands of local",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALIENATING",
+          "THEATRICAL",
+          "FARCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "patriots. They are sacrificing their father's dignity to save his trees. It is so profoundly pathetic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FATHER",
+          "DIGNITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "I mean, I feel immense pity for Alice and Mary. They are prisoners of a dead man's obsession. They are in their 60s.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALICE",
+          "AND",
+          "MARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "obsession., prisoners, immense",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 151,
+      "text": "Their bodies are failing them. And yet, they are still sleeping on the exact same lumpy straw stuffed mattress they slept on as little girls.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRAW",
+          "STUFFED",
+          "MATTRESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 152,
+      "text": "Yeah, that detail always gets me. They still walk softly, tiptoeing around",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TIPTOEING",
+          "AROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "the wooden floorboards of the house out of a deeply ingrained childhood",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INGRAINED",
+          "CHILDHOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 154,
+      "text": "habit of not waking adults who have been dead for decades. They have absolutely zero lives of their own.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WAKING",
+          "ADULTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 155,
+      "text": "No suitors, no travel, no external joy. Alice almost has a fleeting moment of connection with a local boy when she's younger.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALICE",
+          "ALMOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "But Mary throws a violent, jealous fit and completely sabotages it. They are entirely trapped in a museum of their own making, curating a",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "MARY",
+          "THROWS"
+        ],
+        "items": [
+          "VIOLENT",
+          "JEALOUS FIT",
+          "COMPLETELY SABOTAGES"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 157,
+      "text": "life they aren't even allowed to live. See, pity is entirely the wrong lens through which to view Alice and Mary. When I look at them, I don't see prisoners.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALICE",
+          "AND",
+          "MARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "prisoners., entirely, allowed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 158,
+      "text": "I see the fiercest, most unequivocally successful guardians that specific patch of land ever had. You call them pathetic, but",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNEQUIVOCALLY",
+          "SUCCESSFUL",
+          "GUARDIANS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "they successfully held a massive agricultural perimeter against total ruin for half a But at what cost?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "AGRICULTURAL",
+          "PERIMETER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "Well, they outlasted heavily armed militias. They survived decades of brutal, freezing New England winters without modern heating.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "NEW",
+          "ENGLAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "outlasted, militias., survived",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 161,
+      "text": "They fiercely negotiated with hostile locals who wanted to take their land. Furthermore, they expertly manage devastating biological threats.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEVASTATING",
+          "BIOLOGICAL",
+          "THREATS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "Canker worms, tent caterpillars, swarms of wax wings, droughts, and frosts. Maintaining a pre-industrial apple orchard is backbreaking, highly",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "PRE-INDUSTRIAL",
+          "APPLE"
+        ],
+        "items": [
+          "WAX WINGS",
+          "DROUGHTS",
+          "FROSTS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "technical labor. They kept that orchard alive and producing through sheer, unrelenting grit. They aren't pathetic spinsters.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PATHETIC",
+          "SPINSTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 164,
+      "text": "They are hardened elite combatants in an unending agricultural war. But they didn't grow as human beings.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HARDENED",
+          "ELITE",
+          "COMBATANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "They just maintained. They literally became indistinguishable from the antique furniture decaying in the living room. The tragedy of identical twins living in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANTIQUE",
+          "FURNITURE",
+          "DECAYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 166,
+      "text": "total isolation is that they become an echo chamber. Mary gets so incredibly paranoid and rigid that when a young man who happens to be the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTAL",
+          "ISOLATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "grown son of the juggeeeared boy who first showed their father the apple all those years ago shows up at their door, they treat him like a dangerous intruder.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DANGEROUS",
+          "INTRUDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "They are so terrified of the outside world that they reject the very community that could have saved them from their loneliness.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OUTSIDE",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "They maintain the land because the land strictly required it. The biological reality of an apple orchard demands constant obsessive intervention",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSTANT",
+          "OBSESSIVE",
+          "INTERVENTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 170,
+      "text": "or it reverts to wild forest within a few short years. The tragedy isn't that they didn't leave and go to parties in Boston.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "PARTIES",
+          "IN",
+          "BOSTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "The tragedy is simply that human biology does not operate on the same grand time scale as a forest. They aged.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "BIOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 172,
+      "text": "Their human backs and necks stiffened with arthritis. Their eyesight failed. But their stewardship was absolutely flawless.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EYESIGHT",
+          "FAILED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 173,
+      "text": "They were the literal dryads of that orchard. Spirits bound to the trees keeping them alive with their own life force.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "DRYADS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "Dryads is a beautiful way to put it. But eventually, even dryads die. The text notes that by the 1820s or 1830s,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "1820S",
+          "OR",
+          "1830S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 175,
+      "text": "the yellow house is just found completely empty. No grand finale, no tragic death scene. They are just gone.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "YELLOW",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "Poof. Yeah. And immediately the land begins its relentless work of reclaiming the space. The forest starts aggressively encroaching",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RELENTLESS",
+          "WORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 177,
+      "text": "on the meticulously maintained edges of the orchard they fought so incredibly hard to protect. While the sisters just stall out and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "METICULOUSLY",
+          "MAINTAINED",
+          "EDGES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "disappear into the footnotes of local history, it proves our argument. Once again, the dirt always wins the waiting The place, not the people,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LOCAL",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "is the true The land rests for a moment. It digests their long absence, letting the golden rod and the brambles creep back over",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRAMBLES",
+          "CREEP",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 180,
+      "text": "the stone walls. And then it lures someone entirely new into its orbit, which forces us to ask, can art actually",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STONE",
+          "WALLS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 181,
+      "text": "capture the true essence of the wilderness, or does it merely mirror the artist's own fragile ego? Let's look at the next inhabitant.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARTIST",
+          "OWN",
+          "FRAGILE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 182,
+      "text": "We have William, a landscape painter. He is impossibly pale,",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "WILLIAM"
+        ],
+        "items": [
+          "HAVE WILLIAM",
+          "L",
+          "SCAPE PAINTER"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 183,
+      "text": "dangerously emaciated, and suffering from a severe physical Yeah.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SEVERE",
+          "PHYSICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 184,
+      "text": "Sitting in that freezing house, wrapped tightly in a heavy, foul smelling bare skin blanket. He's in a dusty, freezing room inside the long abandoned",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "ROOM",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 185,
+      "text": "yellow house. The floor is covered in mouse droppings. He is surrounded by glass jars filled with dead insects he's collected, and he is obsessively",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MOUSE",
+          "DROPPINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 186,
+      "text": "painting a canvas. The sensory details of William's existence are incredibly suffocating. If you are in that room with him in the dead of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WILLIAM",
+          "EXISTENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "suffocating., incredibly, existence",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 187,
+      "text": "winter, you can smell the acrid choking scent of woodsoot backing up into the room from a blocked fieldstone You can hear",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WOODSOOT",
+          "BACKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "the agonizing metallic scrape of the heavy iron brace on his bad leg every single time he shifts his weight in the wooden chair.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGONIZING",
+          "METALLIC",
+          "SCRAPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 189,
+      "text": "And visually against the backdrop of his sickly translucent pale hand",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRANSLUCENT",
+          "PALE",
+          "HAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "resting outside the heavy blanket, you see the bright, stark,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RESTING",
+          "OUTSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "almost shocking red of two ladybugs slowly crawling across his He is physically deteriorating, literally wasting away",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LADYBUGS",
+          "SLOWLY",
+          "CRAWLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "while trying to capture the vibrant life of the landscape. And if you think about what this means in our modern context, it's remarkably relevant.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "CONTEXT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "We constantly use nature as a blank passive screen. Oh, absolutely. We project our own repressed desires, our deep traumas, and our desperate need for",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BLANK",
+          "PASSIVE",
+          "SCREEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "control onto the woods, and we politely call it nature appreciation. It's like an influencer using a majestic mountain range purely as an aesthetic backdrop for",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAJESTIC",
+          "MOUNTAIN",
+          "RANGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "their own brand. William believes he is escaping the suffocating society of Boston, a society that pies him and doesn't understand him, to find pure,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOCIETY",
+          "OF",
+          "BOSTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "society, suffocating, understand",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 196,
+      "text": "unadulterated truth in the pristine forest. His artistic ambition is incredibly specific",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARTISTIC",
+          "AMBITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "and deeply tied to the philosophical movements of the 19th century.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "19TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "This is the era of transcendentalism where thinkers like Emerson and throw are arguing that the divine can be found in nature.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THINKERS",
+          "LIKE",
+          "EMERSON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transcendentalism, thinkers, emerson",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 199,
+      "text": "But William wants to go even further. Look at his intense letters to his friend Nash back in the city. William writes this profound, almost desperate manifesto",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WILLIAM",
+          "WANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "william, desperate, manifesto",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 200,
+      "text": "about his art. He says he is utterly exhausted by landscape paintings where the human perspective is the arrogant center of the universe.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LANDSCAPE",
+          "PAINTINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 201,
+      "text": "Right. He wants to erase himself. Exactly. He states that he wants to paint quote beast as seen by beast tree as seen by tree.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PAINT",
+          "QUOTE",
+          "BEAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "He desperately wants to dissolve his own human identity, his pain, his disability completely into the landscape. He wants to disappear into the paint.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "IDENTITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 203,
+      "text": "But as the winter drags on, he slowly and painfully realizes that the very physical act of composition. The act of choosing what goes inside the rectangular",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "WINTER",
+          "DRAGS"
+        ],
+        "items": [
+          "DRAGS ON",
+          "HE SLOWLY",
+          "PAINFULLY REALIZES"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 204,
+      "text": "frame of the canvas and what stays out inherently unavoidably centers the human viewer. He realizes he cannot escape his own human",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "ESCAPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "eye. I think his failure is far more selfish than a mere philosophical conundrum. I completely reject his noble, tortured artist",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MERE",
+          "PHILOSOPHICAL",
+          "CONUNDRUM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 206,
+      "text": "framing. William isn't genuinely seeking spiritual dissolution. He is using",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SEEKING",
+          "SPIRITUAL",
+          "DISSOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "the woods as a desperate sexual and emotional substitute.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMOTIONAL",
+          "SUBSTITUTE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "You really think it's just that? Oh, totally. Look closely at the language in his letters to Nash. They are absolutely loaded with this intense, highly repressed, almost",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LETTERS",
+          "TO",
+          "NASH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolutely, repressed, totally.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 209,
+      "text": "frantic longing. Because of his physical condition and the social mores of Boston, he couldn't have the physical intimacy he desperately craved.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "CONDITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physical, desperately, condition",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 210,
+      "text": "So he retreats to the isolated woods and entirely eroticizes the landscape. He writes passionately about the aeros of a delicate",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ISOLATED",
+          "WOODS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "damsel landing on his thigh. He is projecting his deeply frustrated human desires onto oblivious bugs and trees simply because they",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FRUSTRATED",
+          "HUMAN",
+          "DESIRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "cannot reject him. It's a massive ego trip disguised as high-minded naturalism. That is an incredibly cynical reading of a man who is clearly experiencing a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIGH-MINDED",
+          "NATURALISM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 213,
+      "text": "profound, albeit painful, spiritual awakening. You are reducing his genuine connection to the sublime down to mere sexual frustration.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPIRITUAL",
+          "AWAKENING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 214,
+      "text": "I argue that William actually achieved a rare genuine connection to the forest's deep geological time.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WILLIAM",
+          "ACTUALLY",
+          "ACHIEVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "connection, geological, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 215,
+      "text": "When he meticulously paints the specific structural fractures in the ice on the lake or spends days trying to capture the exact flat gray of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "STRUCTURAL",
+          "FRACTURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 216,
+      "text": "an impending snowstorm, he is seeing the physical world with a hyper clarity that most humans rushing through their lives never achieve.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IMPENDING",
+          "SNOWSTORM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 217,
+      "text": "But is it genuine? I think it is. He is genuinely trying to strip away the anthropocentric ego.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANTHROPOCENTRIC",
+          "EGO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 218,
+      "text": "The fact that he struggles with it, the fact that he realizes how impossible it is, doesn't mean the attempt is purely selfish.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURELY",
+          "SELFISH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "It means he is one of the few humans who actually recognizes how hard it is to truly see nature for what it is rather than what we want it to be.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FEW",
+          "HUMANS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "But look at what happens when another human actually enters his pristine sanctuary. His former nurse, Anna, comes out to the wilderness to save him from starvation.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRISTINE",
+          "SANCTUARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "starvation., sanctuary., wilderness",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 221,
+      "text": "And she nurses him back to health. She falls deeply in love with him. And what does she do? She realizes she has to secretly destroy a letter from Nash to",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LETTER",
+          "FROM",
+          "NASH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "realizes, secretly, health.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 222,
+      "text": "keep William isolated and entirely for herself. Yeah, that gets messy. It gets so messy. The messy, jealous, needy human drama completely infects",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KEEP",
+          "WILLIAM",
+          "ISOLATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "messy., gets, completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 223,
+      "text": "and destroys his pure wilderness retreat. He ends up just as entangled in deceit and human messiness in the middle of the woods as he ever was in the drawing rooms of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURE",
+          "WILDERNESS",
+          "RETREAT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "Boston. He can't escape human nature by hiding in the trees. And ultimately, what happens to all those painstakingly crafted paintings?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "PAINSTAKINGLY",
+          "CRAFTED",
+          "PAINTINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "What is the final fate of his desperate attempt to perfectly capture the essence of the woods on canvas? The woods swallow his art just like they swallow",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATE",
+          "ATTEMPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "the apples and the bones. Decades later, his brilliant paintings are just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRILLIANT",
+          "PAINTINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "dusty, forgotten relics shoved in the dark attic of the yellow house,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FORGOTTEN",
+          "RELICS",
+          "SHOVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "completely divorced from the living, breathing, constantly changing forest he tried to freeze in oil paint.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSTANTLY",
+          "CHANGING",
+          "FOREST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "The force doesn't care about his brilliant compositions or his transcendentalist philosophies. The dirt outlasts the canvas.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRILLIANT",
+          "COMPOSITIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 230,
+      "text": "The place, not the people, is the true protagonist. Which brings us to the forces that the forest actually does care about.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUE",
+          "PROTAGONIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 231,
+      "text": "The biological forces that reshape the entire landscape without a single philosophical thought. Right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "PHILOSOPHICAL",
+          "THOUGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 232,
+      "text": "Which forces us to ask a terrifying question. How do the absolute smallest microscopic invaders execute the most",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "SMALLEST",
+          "MICROSCOPIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 233,
+      "text": "massive devastating shifts in ecological power? Let's zoom in on this scene. We are no longer looking at humans.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "DEVASTATING",
+          "SHIFTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 234,
+      "text": "We are looking at a single, incredibly tiny female elm bark beetle. She is no bigger than a grain of rice and she is coated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "TINY",
+          "FEMALE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 235,
+      "text": "in invisible silvery fungal spores. and she is actively boring her way into the incredibly thick",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVISIBLE",
+          "SILVERY",
+          "FUNGAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "grooved bark of a massive 200-year-old elm tree standing right beside the yellow house. The sensory drop in here requires us to entirely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "200-YEAR-OLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 237,
+      "text": "shift our perspective and shrink down to the microscopic level. If you are that beetle, you can hear the infiniteesimal rhythmic crunch of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INFINITEESIMAL",
+          "RHYTHMIC",
+          "CRUNCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 238,
+      "text": "wood fibers as her mandibles slowly chew their way through the tough outer bark. You can vividly smell the sweet, wet, highly concentrated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOUGH",
+          "OUTER",
+          "BARK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "scent of the elm sap, which is actively acting as a lubricant for her",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTIVELY",
+          "ACTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 240,
+      "text": "mouth parts as she digs her complex labyrinthine galleries to lay her eggs.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLEX",
+          "LABYRINTHINE",
+          "GALLERIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "It's a tiny, silent, almost invisible action. But think about what this means for us in the grand scheme of things.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALMOST",
+          "INVISIBLE",
+          "ACTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "Human history, all our massive wars, our complex politics, our meticulously drawn property deeds and borders is completely at the mercy",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DRAWN",
+          "PROPERTY",
+          "DEEDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 243,
+      "text": "of invisible non-human forces that operate on a scale we cannot control and often cannot even perceive until the devastation is already It's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVISIBLE",
+          "NON-HUMAN",
+          "FORCES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "terrifying. We arrogantly think we dictate the fate of a landscape because we build a house on it. But a bug smaller than a fingernail, carrying a fungus",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUG",
+          "SMALLER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 245,
+      "text": "we can't even see, can rewrite the entire ecology of a region in a matter of years. To truly understand the devastating scale of this, we have to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRULY",
+          "UNDERSTAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "look at the historical reality of what happens next. While that single elm beetle is doing her localized work, another far more catastrophic invader is arriving",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 247,
+      "text": "on the horizon. The chestnut blight, the fungus cryfomeria parasitica. and to rise silently on a warm June wind blowing up",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JUNE",
+          "WIND",
+          "BLOWING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "parasitica., cryfomeria, horizon.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 248,
+      "text": "from the Suscana Valley. It deploys billions of microscopic",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUSCANA",
+          "VALLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "microscopic, billions, suscana",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 249,
+      "text": "flaskshaped fruing bodies that ride the atmospheric Yeah,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLASKSHAPED",
+          "FRUING",
+          "BODIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 250,
+      "text": "it just wipes them out. And it systematically ruthlessly chokes the life out of the magnificent New England chestnut forests.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MAGNIFICENT",
+          "NEW",
+          "ENGLAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "systematically, magnificent, ruthlessly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 251,
+      "text": "Now, the American chestnut wasn't just another tree. It was the foundational species of the climax forest. These were massive towering trees that had sustained",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMERICAN",
+          "CHESTNUT",
+          "WASN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "foundational, sustained, american",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 252,
+      "text": "indigenous tribes like the Mohawk and Anida for countless centuries. The trees reliably provided massive amounts of protein reach food, excellent timber for shelter,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MOHAWK",
+          "AND",
+          "ANIDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "indigenous, centuries., countless",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 253,
+      "text": "tannins for leather, an entire way of life depended on them. And within a few short decades, the blight eradicates them almost entirely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BLIGHT",
+          "ERADICATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 254,
+      "text": "When you say it chokes them, what is physically happening inside the tree trunk? Is it blocking the water like a clogged pipe?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICALLY",
+          "HAPPENING",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 255,
+      "text": "Exactly. The tree has a vascular system just like humans have veins and arteries. The xylem transports water up from the roots and the phum",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "XYLEM",
+          "TRANSPORTS",
+          "WATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 256,
+      "text": "transports sugars down from the leaves. When the fungal spores land in a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRANSPORTS",
+          "SUGARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 257,
+      "text": "crack in the bark, they germinate and literally grow into this vascular tissue.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "VASCULAR",
+          "TISSUE"
+        ],
+        "items": [
+          "BARK",
+          "THEY GERMINATE",
+          "LITERALLY GROW"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 258,
+      "text": "The fungus expands, creating a massive rotting canker that circles the entire trunk. It literally girdles the tree, completely cutting off its circulation.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "ROTTING",
+          "CANKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 259,
+      "text": "Wow. The top of the tree violently starves and dies of thirst while the roots remain alive, desperately sending up small shoots that will also eventually be infected and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ROOTS",
+          "REMAIN",
+          "ALIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 260,
+      "text": "killed. It is a horrific way to die. Now, I place the blame for this apocalyptic ecological event squarely on human arrogance",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "APOCALYPTIC",
+          "ECOLOGICAL",
+          "EVENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 261,
+      "text": "and carelessness. The book specifically shows us exactly how the elm beetle, for instance, gets to the yellow house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "YELLOW",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 262,
+      "text": "A young human couple looking for a cozy romantic weekend getaway in the country literally steal a load of firewood from a massive pile left by the new turnpike",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ROMANTIC",
+          "WEEKEND",
+          "GETAWAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 263,
+      "text": "construction. The Chevy nomad scene. Yes. They throw the infected logs in the back of their pristine Chevy Nomad and drive it miles up into the untouched",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRISTINE",
+          "CHEVY",
+          "NOMAD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "chevy, nomad, construction.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 264,
+      "text": "mountains. They act as the luxury taxi service for the apocalypse.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LUXURY",
+          "TAXI",
+          "SERVICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 265,
+      "text": "Our narcissism, our constant need for convenience and expansion physically transports",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPANSION",
+          "PHYSICALLY",
+          "TRANSPORTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 266,
+      "text": "the destruction. We are the super vectors. Without the global trade that brought the blight from Asia on imported nursery stock, and without the highways,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "IMPORTED",
+          "NURSERY",
+          "STOCK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "without, destruction., vectors.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 267,
+      "text": "the forest remains safe. I push back incredibly hard on that framing. Blaming the young couple in the Chevy Nomad, or even blaming global trade as the ultimate evil",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CHEVY",
+          "NOMAD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "blaming, incredibly, framing.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 268,
+      "text": "is just another subtle manifestation of human We desperately want to believe we are important enough to be the ultimate cause, the grand",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANOTHER",
+          "SUBTLE",
+          "MANIFESTATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 269,
+      "text": "villains of everything that happens on Earth. But we did move the logs.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EARTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "everything, villains, happens",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 270,
+      "text": "Yes, humans moved the log. Yes, humans imported the initial infected trees.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INITIAL",
+          "INFECTED",
+          "TREES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 271,
+      "text": "But the blight itself, the billions of spores, they came on the wind. They swept across the entire Appalachian mountain range without",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "APPALACHIAN",
+          "MOUNTAIN",
+          "RANGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "appalachian, billions, mountain",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 272,
+      "text": "requiring a single human intervention. The wind, the beetles, and the fungus act with pure, terrifying, indifferent biological machinery.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "INDIFFERENT",
+          "BIOLOGICAL"
+        ],
+        "items": [
+          "WIND",
+          "BEETLES",
+          "FUNGUS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 273,
+      "text": "They operate on atmospheric vectors, thermals, and raw biological imperatives to reproduce. The fungus would have eventually reshaped the forest",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "IMPERATIVES"
+        ],
+        "items": [
+          "ATMOSPHERIC VECTORS",
+          "THERMALS",
+          "RAW BIOLOGICAL"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 274,
+      "text": "with or without that chvy nomad. We merely slightly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHVY",
+          "NOMAD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 275,
+      "text": "accelerated a biological inevitability. We are just minor temporary",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "INEVITABILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 276,
+      "text": "variables in their massive ancient ecological I hear that. But you cannot deny that human infrastructure acts as a massive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "ANCIENT",
+          "ECOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 277,
+      "text": "accelerant. The turnpike cutting through the mountains, the aggressive logging practices that weaken the remaining stands, the globalized trade.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGGRESSIVE",
+          "LOGGING",
+          "PRACTICES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 278,
+      "text": "We set the table for the feast. We set the table, yes, but the fundamental crushing power shift belongs entirely to the pathogen.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUNDAMENTAL",
+          "CRUSHING",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 279,
+      "text": "When the giant chestnuts fall, the entire canopy of the forest violently opens up to the sun. The entire understory microclimate changes instantly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERSTORY",
+          "MICROCLIMATE",
+          "CHANGES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "Plants that thrived in the cool shade suddenly wither and die, and sun-loving invasive plants violently take over.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUN-LOVING",
+          "INVASIVE",
+          "PLANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "The animal populations, the bears, the turkeys, the passenger pigeons that relied on the nuts face mass starvation and shift their territories.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PASSENGER",
+          "PIGEONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "The landscape radically, permanently transforms, and not a single human being declared war or fired a shot.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "LANDSCAPE"
+        ],
+        "items": [
+          "LANDSCAPE RADICALLY",
+          "PERMANENTLY TRANSFORMS",
+          "NOT A"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 283,
+      "text": "The forest is violently overthrown from within. A complete regime change occurs in the canopy. And the humans living down in the yellow house, worried about their mortgages and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLETE",
+          "REGIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 284,
+      "text": "their love lives, have absolutely no idea it has even happened until the dead trees start falling on their roof. The dirt always wins.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TREES",
+          "START",
+          "FALLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 285,
+      "text": "The place, not the people, is the true protagonist. But what if someone did notice? What if a human mind was actually sensitive enough to perceive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SENSITIVE",
+          "ENOUGH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 286,
+      "text": "the massive scale of the trauma happening to the trees? That is an incredibly terrifying thought which forces us to ask what actually",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "TERRIFYING",
+          "THOUGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 287,
+      "text": "happens to a human being when they hear the woods speaking. Let's drop into this horrific scene. We have Robert.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WOODS",
+          "SPEAKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "speaking., horrific, happens",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 288,
+      "text": "He is a modern descendant of the original families. He is shivering violently in a freezing snow-covered winter forest.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "SNOW-COVERED",
+          "WINTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 289,
+      "text": "He's in bad shape here. He is frantically scraping at the solid ice and the frozen black lom with a broken stick. He throws off his heavy winter mittens.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "WINTER",
+          "MITTENS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 290,
+      "text": "tears at the freezing ground with his bare hands and literally presses his exposed face directly into the dirt to listen.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "GROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 291,
+      "text": "The sensory experience of Robert's reality is pure unadulterated agony and desperation. If you're standing there watching him,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROBERT",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unadulterated, desperation., experience",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 292,
+      "text": "you can physically feel the freezing sharp gravel violently tearing at his fingernails until they bleed. You smell the rich, cold, metallic scent of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "SHARP",
+          "GRAVEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 293,
+      "text": "plaque lom he uncovers beneath the snow. And you hear his frantic, continuous, desperate whispering as he speaks directly into the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATE",
+          "WHISPERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 294,
+      "text": "earth, begging the soulers to listen to him. It is deeply unsettling to witness. And if you think about what this means, it touches on a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEPLY",
+          "UNSETTLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 295,
+      "text": "very modern anxiety. Absolute unfiltered connection to the deep ecology of a place. Truly feeling the pain of the environment looks exactly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "UNFILTERED",
+          "CONNECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 296,
+      "text": "like severe mental illness to modern human society. We have a term for it now, eco anxiety. But Robert is beyond anxiety.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SEVERE",
+          "MENTAL",
+          "ILLNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "anxiety., society., illness",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 297,
+      "text": "If you actually feel the slow, agonizing death of millions of chestnut trees, if you actually perceive the grinding, violent shifts of the geological",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGONIZING",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 298,
+      "text": "plates beneath your feet, you cannot function in a normal human society. To be perfectly, flawlessly attuned to the brutal reality of nature",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NORMAL",
+          "HUMAN",
+          "SOCIETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 299,
+      "text": "is to be perceived as entirely mad. The tragedy is that Robert",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROBERT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "perceived, entirely, tragedy",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 300,
+      "text": "tries so incredibly hard to translate that overwhelming madness into something actionable,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OVERWHELMING",
+          "MADNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 301,
+      "text": "something the human world can understand. Look at what he produces. He writes a massive, sprawling manuscript.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPRAWLING",
+          "MANUSCRIPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 302,
+      "text": "It's an 800page document wrapped meticulously in three brown paper grocery bags and shield aggressively with silver duct",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "800PAGE",
+          "DOCUMENT",
+          "WRAPPED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 303,
+      "text": "Such a specific visual, right? He mails it to a respected academic named Helen. The manuscript is full of incredibly precise, highly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ACADEMIC",
+          "NAMED",
+          "HELEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "manuscript, incredibly, respected",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 304,
+      "text": "obsessive directions. He writes things like, \"After the fifth mature maple, you",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "OBSESSIVE",
+          "DIRECTIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 305,
+      "text": "will pass a white quartz stone covered in tufts of grimia moss.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "QUARTZ",
+          "STONE",
+          "COVERED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 306,
+      "text": "He truly believes that by walking these specific ritualistic paths. He is literally stitching the deep ecological rupture in the earth with his own",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "RITUALISTIC",
+          "PATHS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 307,
+      "text": "footsteps. But to Helen and to anyone operating in the rational academic world, the manuscript is completely unreadable.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RATIONAL",
+          "ACADEMIC",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unreadable., footsteps., manuscript",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 308,
+      "text": "It's a tragic fragmented output of severe See, I think",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TRAGIC",
+          "FRAGMENTED",
+          "OUTPUT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fragmented, tragic, output",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 309,
+      "text": "romanticizing Robert as some kind of ecooit is incredibly dangerous.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROMANTICIZING",
+          "ROBERT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "romanticizing, incredibly, dangerous.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 310,
+      "text": "It's a very tired literary trope to say the mad man is the only one who sees the real truth. Robert isn't experiencing profound ecoenlightenment.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPERIENCING",
+          "PROFOUND",
+          "ECOENLIGHTENMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 311,
+      "text": "He is experiencing profound clinical terror. His obsession with the woods, his elaborate terrifying belief in entities he",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPERIENCING",
+          "PROFOUND",
+          "CLINICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 312,
+      "text": "calls the harrow and the soulairs. These are textbook manifestations of a diseased brain desperately trying to find order and meaning in chaos.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEXTBOOK",
+          "MANIFESTATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 313,
+      "text": "But look at his context. Even his own sister, Lillian, observes him and says it perfectly clearly. He doesn't want to wander the freezing woods.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "WOODS"
+        ],
+        "items": [
+          "LILLIAN",
+          "OBSERVES HIM",
+          "SAYS IT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 314,
+      "text": "He has to wander. He is compelled by a chemical imbalance. We",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHEMICAL",
+          "IMBALANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 315,
+      "text": "shouldn't elevate his deep psychological suffering into some kind of mystical",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "PSYCHOLOGICAL",
+          "SUFFERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 316,
+      "text": "shamanic communion with nature. He is severely sick and he needs medical help, not a But you have to look at what his brain is specifically",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHAMANIC",
+          "COMMUNION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 317,
+      "text": "reacting to. He is the only character in the entire narrative who explicitly physically mourns the catastrophic loss of the chestnut trees.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHESTNUT",
+          "TREES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 318,
+      "text": "He is the only human who registers the violent trauma of the commercial logging that his own family happily permits for You say he is just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMMERCIAL",
+          "LOGGING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 319,
+      "text": "clinically sick, but his specific delusions map perfectly onto the very real ecological devastation happening all around him, but it's just a delusion.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ECOLOGICAL",
+          "DEVASTATION",
+          "HAPPENING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 320,
+      "text": "A climax forest was murdered, and nobody cares. He senses the deep rupture that the fungal blight and the steel chainsaws caused.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STEEL",
+          "CHAINSAWS",
+          "CAUSED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 321,
+      "text": "Yes, his brain processes that trauma through a distorted vocabulary of paranoia and hallucination, but the underlying stimulus he is reacting to, the intense pain",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISTORTED",
+          "VOCABULARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 322,
+      "text": "of the changing forest is absolutely real. He's a tragic prophet precisely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHANGING",
+          "FOREST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 323,
+      "text": "because he physically feels the wound that every other sane human",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERY",
+          "OTHER",
+          "SANE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 324,
+      "text": "is actively ignoring so they can comfortably heat their homes. But his supposed prophecy helps absolutely no one.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUPPOSED",
+          "PROPHECY",
+          "HELPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 325,
+      "text": "He sends this massive 800page warning and what happens? Helen the academic just tries to gently awkwardly reject him by suggesting he go",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "800PAGE",
+          "WARNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 326,
+      "text": "read Henry David Thorough. The modern human world simply cannot interface with the raw unvarnished truth he's trying to Regardless",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HENRY",
+          "DAVID",
+          "THOROUGH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unvarnished, regardless, thorough.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 327,
+      "text": "of whether you view him as a visionary prophet or a tragic psychiatric patient. Look at the final evolution of his relationship to the land.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRAGIC",
+          "PSYCHIATRIC",
+          "PATIENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 328,
+      "text": "Robert is the first character who realizes he must serve the forest, not own it. He's desperately trying to heal it, to stitch it back together with his",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIRST",
+          "CHARACTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 329,
+      "text": "body, not harvest it for timber or apples. But ultimately, his fragile human body cannot withstand the elements.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BODY",
+          "CANNOT",
+          "WITHSTAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 330,
+      "text": "His efforts are completely swallowed by the brutal winter snow. He disappears into the freezing woods, and the woods silently absorb him, just like they absorbed the English",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ABSORBED",
+          "THE",
+          "ENGLISH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "woods, completely, disappears",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 331,
+      "text": "scouts centuries before. The dirt always wins. The place, not the people, is the true protagonist.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SCOUTS",
+          "CENTURIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 332,
+      "text": "The land eventually absorbs But as the centuries grind on, it doesn't always keep those things hidden which forces us to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CENTURIES",
+          "GRIND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 333,
+      "text": "ask a very uncomfortable question about human nature. Why do we obsessively dig up the past when it is already dead and buried?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "UNCOMFORTABLE",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 334,
+      "text": "Let's drop into this modern scene. We have Morris Lakeman. He is an elderly,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MORRIS",
+          "LAKEMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lakeman., elderly, modern",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 335,
+      "text": "somewhat frail man standing in a bright green field dotted with yellow dandelions.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "YELLOW",
+          "DANDELIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 336,
+      "text": "He is sweating. He suddenly drops his heavy digging tool and adds in absolute freezing shock because his metal",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "FREEZING",
+          "SHOCK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 337,
+      "text": "detector is screaming a high-pitched tone over a freshly dug hole and he has just uncovered a buried human skull.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BURIED",
+          "HUMAN",
+          "SKULL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 338,
+      "text": "You the very distinct very old bullet hole right through the bone. The sensory reality of that specific discovery is a massive adrenaline",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "DISCOVERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 339,
+      "text": "spike. If you are standing next to Morris, you hear the low, choppy, rhythmic purr of the nautilus metal detector, a sound that Morris, as an amateur",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAUTILUS",
+          "METAL",
+          "DETECTOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "morris, standing, rhythmic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 340,
+      "text": "historian, knows intimately. You see the sudden, sharp glint of sunlight catching a small silver charm mixed in the wet, dark dirt",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUNLIGHT",
+          "CATCHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 341,
+      "text": "beside the bone, and you physically feel Morris's heart hammering against his It's terrifying for him. You watch him violently wipe the cold sweat",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MORRIS",
+          "HEART",
+          "HAMMERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physically, terrifying, hammering",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 342,
+      "text": "from his forehead as the profound reality of what he's just found hits him, prompting him",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 343,
+      "text": "to desperately reach into his pocket for his nitroglycerin bills to save off a heart attack.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NITROGLYCERIN",
+          "BILLS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 344,
+      "text": "It is the exact moment every amateur historian both dreams of and deeply dreads. And if you think about what this means for us, it's like endlessly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERY",
+          "AMATEUR",
+          "HISTORIAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 345,
+      "text": "scrolling through a deceased relative's social media history, looking for answers to questions that shouldn't be asked anymore.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECEASED",
+          "RELATIVE",
+          "SOCIAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 346,
+      "text": "You can never fully permanently bury history. We build massive housing developments. We pave over meadows with asphalt.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "HOUSING",
+          "DEVELOPMENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 347,
+      "text": "We arrogantly think we have successfully overwritten the past with our modern lives. But the land is the ultimate inescapable It",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "INESCAPABLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 348,
+      "text": "really is. It churns through frost heave, through the roots of trees. It will eventually cough up our darkest secrets, our forgotten",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DARKEST",
+          "SECRETS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 349,
+      "text": "crimes, our buried violence. And Morris is the absolute human embodiment of this desperate need to unearth things.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "HUMAN",
+          "EMBODIMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "embodiment, violence., desperate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 350,
+      "text": "Look at his lifestyle for a second. He isn't just visiting the property on weekends. He essentially becomes a squatter in the massively decaying yellow house.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECAYING",
+          "YELLOW",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 351,
+      "text": "The place is an absolute ruin by this point. The roof is physically caving in.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "RUIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 352,
+      "text": "The elements are inside the living room. And he survives by eating expired 1950s",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EATING",
+          "EXPIRED",
+          "1950S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 353,
+      "text": "canned peas left behind in the pantry by a previous hoarder owner. That's incredibly sad.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PREVIOUS",
+          "HOARDER",
+          "OWNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 354,
+      "text": "He is an elderly man whose wife literally left him because of his absolute unyielding obsession with the dead past.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "UNYIELDING",
+          "OBSESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 355,
+      "text": "And now he is physically living inside it. He vastly prefers the silent ghosts in the dirt to the complex reality of his modern lonely life.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLEX",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 356,
+      "text": "See, I view Morris's discovery as a triumphant, necessary unearthing of a lost historical truth.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VIEW",
+          "MORRIS",
+          "DISCOVERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "triumphant, unearthing, historical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 357,
+      "text": "Think all the way back to our very first beat. That unnamed mother",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNNAMED",
+          "MOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 358,
+      "text": "buried those violent men in total secrecy. For centuries, that specific violence,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "VIOLENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 359,
+      "text": "that specific historical moment was completely lost to time. Morris brings it back to the light. He solves a centuries old mystery.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "HISTORICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 360,
+      "text": "He proves to the historical record that the rumors of the night maid's poisoning weren't just local folklore fiction.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LOCAL",
+          "FOLKLORE",
+          "FICTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 361,
+      "text": "He gives history back its concrete facts. That is a noble scientific pursuit. I argued the exact opposite. I argue that his digging is a profound violation of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NOBLE",
+          "SCIENTIFIC",
+          "PURSUIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 362,
+      "text": "natural order. The forest had successfully meticulously digested that trauma.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NATURAL",
+          "ORDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 363,
+      "text": "The bodies of those scouts had literally become soil. The soil had become magnificent apple trees.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAGNIFICENT",
+          "APPLE",
+          "TREES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 364,
+      "text": "The violence had been completely neutralized and repurposed by the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NEUTRALIZED",
+          "AND",
+          "REPURPOSED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 365,
+      "text": "massive ecological And Morris is just a lonely, deeply alienated",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ECOLOGICAL",
+          "AND",
+          "MORRIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ecological, alienated, massive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 366,
+      "text": "old man aggressively ripping open a beautifully healed scar just to get a brief dopamine hit of discovery.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRIEF",
+          "DOPAMINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 367,
+      "text": "You really think it's just for a dopamine hit? Absolutely. He doesn't bring peace to those bones. He brings yellow police tape, flashing lights, and sterile",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FLASHING",
+          "LIGHTS"
+        ],
+        "items": [
+          "POLICE TAPE",
+          "FLASHING LIGHTS",
+          "STERILE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 368,
+      "text": "corners, reports. He violently disrupts the silent, elegant work of the forest, just to satisfy his own selfish He",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VIOLENTLY",
+          "DISRUPTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 369,
+      "text": "is extracting history from the ground the exact same way a greedy logger extracts timber. But the land literally offered it up to him.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GREEDY",
+          "LOGGER",
+          "EXTRACTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 370,
+      "text": "The physics of the earth, the heavy spring rains washing away the top soil, the freeze and thaw cycle of the frost heave pushing the stones and bones upward.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "RAINS",
+          "WASHING"
+        ],
+        "items": [
+          "TOP SOIL",
+          "FREEZE",
+          "THAW CYCLE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 371,
+      "text": "The earth did the work because the land is constantly turnurning. Yes, it's a master record, a massive geological filing cabinet.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "GEOLOGICAL",
+          "FILING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 372,
+      "text": "But it doesn't care if Morris reads the files or not. It's just moving dirt, which proves the ultimate point. The land holds the master record of all human folly and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MORRIS",
+          "READS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ultimate, doesnt, morris",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 373,
+      "text": "triumph. Humans arrogantly think they can bury their secrets forever, but the earth alone decides when to reveal them. Completely indifferent to the consequences.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SECRETS",
+          "FOREVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 374,
+      "text": "The dirt always wins. The place, not the people, is the true protagonist. And as we move to the final sweeping era of this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINAL",
+          "SWEEPING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 375,
+      "text": "specific piece of land, we have to look at what happens when you are forced to view all of this history, all of these centuries at the exact same time.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "PIECE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 376,
+      "text": "which asks the final question. How does recognizing deep geological time fundamentally change how we see our own brief frantic lives?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "RECOGNIZING",
+          "DEEP",
+          "GEOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 377,
+      "text": "Let's picture this final surreal scene. We have Nora, but she is no longer a living scientist. She is gliding transparently as a literal",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LIVING",
+          "SCIENTIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transparently, scientist., picture",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 378,
+      "text": "ghost through the rotting kudzu choked collapsing hallways of the yellow house. It's such a wild shift.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHOKED",
+          "COLLAPSING",
+          "HALLWAYS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 379,
+      "text": "and she is silently watching a bizarre futuristic cult aggressively smash television sets with hammers so they can bury the glass screens",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIZARRE",
+          "FUTURISTIC",
+          "CULT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 380,
+      "text": "in the earth. The sensory contrast in this final scene is absolutely stunning. You can smell the cloying, overwhelmingly sweet, almost sickening",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SENSORY",
+          "CONTRAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 381,
+      "text": "scent of invasive honeysuckle that has physically breached the walls and invaded the parlor. And you can hear the sharp, violent, jarring sound of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVASIVE",
+          "HONEYSUCKLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 382,
+      "text": "shattering glass screens echoing through the empty rooms as the cult members desperately try to destroy their ties to technology.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHATTERING",
+          "GLASS",
+          "SCREENS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 383,
+      "text": "And in the middle of all this chaotic human noise, you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHAOTIC",
+          "HUMAN",
+          "NOISE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 384,
+      "text": "physically feel the silent, weightless, calm drift of Nor's spirit,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NOR",
+          "SPIRIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physically, weightless, silent",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 385,
+      "text": "just watching them without any desire to It is a surreal, entirely detached perspective.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENTIRELY",
+          "DETACHED",
+          "PERSPECTIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 386,
+      "text": "And if you apply this to your own life, it is deeply humbling. Once you zoom out to geological and ecological time, when you look at a forest",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ECOLOGICAL",
+          "TIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 387,
+      "text": "that operates in centuries and millennia, our intense human anxieties, our bitter property disputes, our massive heartbreaks and careers,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BITTER",
+          "PROPERTY",
+          "DISPUTES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 388,
+      "text": "they look incredibly small, fleeting, and almost comical. Right? When Norah was alive, she was a brilliant ecologist, obsessed with finding",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "NORAH"
+        ],
+        "items": [
+          "INCREDIBLY SMALL",
+          "FLEETING",
+          "ALMOST COMICAL"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 389,
+      "text": "witness trees, ancient trees that had stood long enough to witness centuries",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WITNESS",
+          "CENTURIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 390,
+      "text": "of human history. In death, she literally becomes the witness herself.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WITNESS",
+          "HERSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 391,
+      "text": "She sees the grand churning, magnificent cinema of the forest, silently replacing the petty, loud human And the ultimate culmination",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "CULMINATION"
+        ],
+        "items": [
+          "PETTY",
+          "LOUD HUMAN",
+          "ULTIMATE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 392,
+      "text": "of that grand cinema is the complete violent eraser of the human footprint. We have to look at the final cleansing act, the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLETE",
+          "VIOLENT",
+          "ERASER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 393,
+      "text": "autumn fire. It is aggressively fanned by a massive dry south wind. The flames sweep intensely through the landscape.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "DRY",
+          "SOUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 394,
+      "text": "And ironically, they feed voraciously on the desiccated barbar and calorie pair, which are highly flammable invasive plant species that humans themselves",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLAMMABLE",
+          "INVASIVE",
+          "PLANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 395,
+      "text": "brought to the land for landscaping. Wow, that's poetic. The fire entirely, ruthlessly consumes the sprawling yellow fouse.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPRAWLING",
+          "YELLOW",
+          "FOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 396,
+      "text": "It burns the original salt box core. It incinerates the Grand Victorian editions. It turns Williams dusty paintings to ash.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GRAND",
+          "VICTORIAN",
+          "EDITIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incinerates, victorian, editions.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 397,
+      "text": "It erases the physical architectural structure from the face of the earth Now, you look at that fire and you see a massive tragic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "ARCHITECTURAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 398,
+      "text": "loss, right? The destruction of centuries of human history and memory.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 399,
+      "text": "It is undeniably profoundly tragic. That specific wooden house held",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "WOODEN",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 400,
+      "text": "Major Osgood's massive ego and dreams. It held the spinsters lifelong paranoid dedication. It held Williams tortured art.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MAJOR",
+          "OSGOOD",
+          "MASSIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "held, dedication., spinsters",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 401,
+      "text": "It held Robert's terrifying visions. It held Morris's canned peas. It was a massive physical repository of intense human striving",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROBERT",
+          "TERRIFYING",
+          "VISIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "held, terrifying, repository",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 402,
+      "text": "and suffering. When those beams burn and collapse, a massive, irreplaceable archive of human experience is completely annihilated.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IRREPLACEABLE",
+          "ARCHIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 403,
+      "text": "It's the ultimate death of memory. See, I completely fundamentally disagree. It is not a tragedy at all. It is a triumphant, deeply beautiful",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 404,
+      "text": "reclamation by the forest. The house, for all its history, was essentially a massive wound on the landscape. The fire finally cauterizes it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "WOUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 405,
+      "text": "It wipes the exhausted slate completely clean for the next massive cycle. Think about succession ecology.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUCCESSION",
+          "ECOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 406,
+      "text": "The ashes of that sprawling yellow house, the carbon from those Victorian additions will now directly feed the next generation of pioneer",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VICTORIAN",
+          "ADDITIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "generation, sprawling, victorian",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 407,
+      "text": "species, the birch and the pine. So you see it as a reset. Yes. It's not a tragic ending.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "TRAGIC",
+          "ENDING"
+        ],
+        "items": [
+          "SPECIES",
+          "BIRCH",
+          "PINE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 408,
+      "text": "It's a required aggressive ecological reset. The fire proves beyond a shadow of a doubt that all our desperate building and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REQUIRED",
+          "AGGRESSIVE",
+          "ECOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 409,
+      "text": "striving is entirely temporary. The house burns to the ground, but the land remains perfectly intact. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REMAINS",
+          "PERFECTLY",
+          "INTACT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 410,
+      "text": "The dirt always wins. The place, not the people, is the true protagonist.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUE",
+          "PROTAGONIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 411,
+      "text": "But I have to step back and raise an honest structural criticism",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HONEST",
+          "STRUCTURAL",
+          "CRITICISM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 412,
+      "text": "here. We have to talk about where the specific narrative argument that the place outlasts the people actually strains the listener or the reader.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PLACE",
+          "OUTLASTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 413,
+      "text": "Go on. Because if the argument is that the forest always wins, it means the structure of the narrative forces a brutal unending",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRUTAL",
+          "UNENDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 414,
+      "text": "turnover of characters, just as you, the audience, get deeply, emotionally attached to someone like Charles Ozgood, desperately trying to build his legacy,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CHARLES",
+          "OZGOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "emotionally, desperately, characters",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 415,
+      "text": "or Robert tragically battling his demons in the freezing snow, they are violently ripped away by the relentless march of time.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROBERT",
+          "TRAGICALLY",
+          "BATTLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "tragically, relentless, violently",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 416,
+      "text": "It actively, aggressively denies us the traditional comforting character resolution we naturally crave in a story.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRADITIONAL",
+          "COMFORTING",
+          "CHARACTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 417,
+      "text": "You're left holding the heavy bag of your own empathy. You invest deeply in a human life and the narrative just buries them in the dirt and coldly moves on to the next century.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LEFT",
+          "HOLDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 418,
+      "text": "I hear that frustration, but I argue that that specific discomfort is exactly the profound point of the entire experience.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "DISCOMFORT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 419,
+      "text": "As humans, we are deeply narcissistically conditioned to think we are the main characters of the universe.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NARCISSISTICALLY",
+          "CONDITIONED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 420,
+      "text": "We think our loves and our wars are the center of reality. This narrative brutally forces us to look in the mirror and realize the humbling truth.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMBLING",
+          "TRUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 421,
+      "text": "Humans aren't the grand tragic heroes of the earth. And we aren't even the grand apocalyptic villains. To the deep time with the forest, we are",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRAND",
+          "APOCALYPTIC",
+          "VILLAINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 422,
+      "text": "just seasonal crops. We sprout up. We make a tremendous amount of noise and mess. And then we are inevitably harvested by time,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TREMENDOUS",
+          "AMOUNT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 423,
+      "text": "rotting down to feed the soil for whatever beautiful wild thing needs to grow next. So the next time you are walking through a quiet, peaceful",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHATEVER",
+          "BEAUTIFUL",
+          "WILD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 424,
+      "text": "patch of woods, I want you to look down at the slight unnatural bumps in the earth.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SLIGHT",
+          "UNNATURAL",
+          "BUMPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 425,
+      "text": "Look at the weird sharp angle of a massive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEIRD",
+          "SHARP",
+          "ANGLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 426,
+      "text": "pine branch. Ask yourself what incredibly violent, profoundly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ASK",
+          "YOURSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 427,
+      "text": "beautiful, entirely forgotten human drama is actively fertilizing the ground you are standing on right Now.",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "FORGOTTEN",
+          "HUMAN",
+          "DRAMA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}

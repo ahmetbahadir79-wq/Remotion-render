@@ -1,0 +1,36 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-13T16:01:32.056Z",
+  "at": "2026-11-13T16:23:27.888Z",
+  "config": "config.vox.json",
+  "configSha256": "c8b977393953eb43b05a632645249a26f779911f67b1a9cba86eeb17b0a06776",
+  "inputs": {
+    "storyboard": {
+      "path": "books/north-woods/designs.json",
+      "sha256": "ddee73e7f8d954cd56af981862b067d86158e1658aee68ec346cbcacca9743ad"
+    },
+    "storyBible": {
+      "path": "books/north-woods/story-bible.json",
+      "sha256": "3f07eea3adf422db41c09e680ad775ea8a0b44da0a2fa34619c70378f23b19cf"
+    },
+    "motifs": {
+      "path": "books/north-woods/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/north-woods.vtt",
+      "sha256": "5944b70995588086a7ab383c4cc5a75324889d65345ef73151ff7f75189e352e"
+    },
+    "audio": {
+      "path": "public/audio/north-woods.mp3",
+      "sha256": "d878b3d35f44791684545dc3ef566501d3299b1b7968a6a8bacfc331f1691bf7"
+    },
+    "singleRelation": {
+      "path": "books/north-woods/single-relation/active.json",
+      "sha256": null
+    }
+  },
+  "head": "e2b8605228eb90bebe2e241e525a3085fa1db603",
+  "previewOnly": false,
+  "skipPack": true
+}

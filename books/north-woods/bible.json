@@ -1,0 +1,148 @@
+{
+  "slug": "north-woods",
+  "world": {
+    "era": "1700s colonial New England",
+    "eraEvidence": "narration: colonial raids, English scouts, Puritan society",
+    "worldId": "north-woods-colonial",
+    "approxYear": 1700,
+    "setting": "wet meadow and forest of colonial Massachusetts, later a yellow house in the same woods",
+    "register": "period, plain, unhurried",
+    "forbid": [
+      "phone",
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "car",
+      "alarmClock",
+      "medical",
+      "coffee"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "north-woods",
+    "worldId": "north-woods-colonial",
+    "allowedMotifs": [],
+    "forbiddenMotifs": [],
+    "allowedCharacters": [],
+    "allowedLocations": [],
+    "allowedProps": []
+  },
+  "cast": {
+    "captive-mother": {
+      "name": "Captive mother",
+      "role": "young captive mother defending her infant, digs the grave",
+      "look": "a young woman in her twenties, thin, hair tied back, ragged colonial dress and shawl, mud on her hands, a baby strapped to her back",
+      "variant": {
+        "outfit": "rags",
+        "headwear": "hood",
+        "hairStyle": "bun",
+        "hair": "#5a4632",
+        "height": 1,
+        "build": "slight",
+        "headScale": 1
+      }
+    },
+    "older-captive": {
+      "name": "Older former captive",
+      "role": "older woman who chose to live in the woods, serves the poisoned broth",
+      "look": "an older woman in her sixties, weathered face, grey hair under a plain cap, a worn wool cloak and apron",
+      "variant": {
+        "outfit": "cloak",
+        "headwear": "bonnet",
+        "hairStyle": "bun",
+        "hair": "#9a9a9a",
+        "height": 0.95,
+        "build": "heavy",
+        "headScale": 1
+      }
+    },
+    "english-scout": {
+      "name": "English scout",
+      "role": "colonial scout who carries a severed hand as a trophy and dies poisoned",
+      "look": "a rugged English militiaman in his thirties, beard, leather jerkin and wide-brimmed hat, musket at his side",
+      "variant": {
+        "outfit": "vest",
+        "headwear": "fedora",
+        "hairStyle": "short",
+        "hair": "#6b4a2b",
+        "height": 1.08,
+        "build": "average",
+        "headScale": 1
+      }
+    }
+  },
+  "places": {
+    "wet-meadow": {
+      "set": "forest",
+      "look": "a wet freezing meadow at the edge of a dark forest, mud, bedrock showing through the soil, night",
+      "mentions": 12
+    },
+    "forest-clearing": {
+      "set": "forest",
+      "look": "a forest clearing in colonial Massachusetts, tall pines and oaks, dappled light, later the apple tree",
+      "mentions": 37
+    }
+  },
+  "objects": [
+    {
+      "concept": "tree",
+      "mentions": 60,
+      "why": "the apple tree grown from the buried seed; the book the trees remember"
+    },
+    {
+      "concept": "grave",
+      "mentions": 15,
+      "why": "the shallow grave dug by the captive mother"
+    },
+    {
+      "concept": "war",
+      "mentions": 15,
+      "why": "the colonial raids and the scouts"
+    },
+    {
+      "concept": "fire",
+      "mentions": 11,
+      "why": "the yellow house and the forest fires"
+    },
+    {
+      "concept": "home",
+      "mentions": 22,
+      "why": "the house the people keep trying to build"
+    },
+    {
+      "concept": "storm",
+      "mentions": 26,
+      "why": "the winter storms that shape the meadow"
+    },
+    {
+      "concept": "shield",
+      "mentions": 6,
+      "why": "the men who claim the land"
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "The woods remember more than the people who pass through them: a captive mother buries a poisoned scout in a wet colonial meadow."
+    },
+    {
+      "act": "development",
+      "fromFrame": 19500,
+      "claim": "A single apple seed inside the scout becomes a tree that outlives every family that tries to own the land."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 37087,
+      "claim": "Each generation builds on the same ground and repeats the same violence in new clothes."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 57706,
+      "claim": "The trees, not the people, are the ones who keep the record of the land."
+    }
+  ]
+}

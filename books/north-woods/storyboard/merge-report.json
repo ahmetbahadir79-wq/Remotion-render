@@ -1,0 +1,30 @@
+{
+  "slug": "north-woods",
+  "engine": "vox",
+  "at": "2026-11-13T16:01:25.296Z",
+  "write": true,
+  "written": true,
+  "problems": 0,
+  "byClass": {
+    "OPERATOR": 0,
+    "AGENT_STEP": 0,
+    "REAUTHOR": 0,
+    "ROUTINE": 0
+  },
+  "byCode": [],
+  "byFile": {},
+  "operatorNeeded": false,
+  "next": "merged — next: node scripts/preview-state.js status (it names the next step: readcheck for Antidote, make-book for Vox); routine, never end the turn",
+  "items": [],
+  "warnings": 0,
+  "review": [
+    {
+      "i": 253,
+      "code": "VISUAL_IS_CLAIM",
+      "field": "concreteVisual",
+      "why": "concreteVisual restates the claim (\"text card stating the speed of the loss\") — name what is DRAWN (who, what, where), or say the beat is text-led",
+      "signal": "REVIEW_REQUIRED"
+    }
+  ],
+  "refused": {}
+}

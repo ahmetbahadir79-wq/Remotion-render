@@ -1,0 +1,56 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-11-14T05:44:48.351Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "e2b86052",
+      "tools": "b7d00c2b",
+      "pin": "e2b8605228eb",
+      "configHash": "c8b977393953eb43",
+      "renderInputHash": "c61e5144eaae3a33",
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "blocks": null,
+        "reviews": null
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "run3",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 20,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "NOT_APPLICABLE",
+        "ok": true,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "authorization": {
+        "at": "2026-11-14T05:43:40.075Z",
+        "recordedNow": true,
+        "kind": "render-authorization"
+      },
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 9,
+        "refused": 0
+      }
+    }
+  ]
+}

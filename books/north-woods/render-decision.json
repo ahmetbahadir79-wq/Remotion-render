@@ -1,0 +1,33 @@
+{
+  "note": "Operator render decisions: quality-debt acceptances (--accept-quality-debt) and production render authorizations (--authorize-render), each bound to one render input. BLOCK findings are never accepted.",
+  "decisions": [
+    {
+      "kind": "render-authorization",
+      "at": "2026-11-14T05:43:40.075Z",
+      "commit": "e2b86052",
+      "tools": "b7d00c2b",
+      "pin": "e2b8605228eb",
+      "configHash": "c8b977393953eb43",
+      "renderInputHash": "c61e5144eaae3a33",
+      "reason": "borcu kabul ediyorum ve bütün github hesaplarında render başlat, youtube'a hazırla",
+      "keys": [],
+      "preview": {
+        "state": "READY",
+        "at": "2026-11-13T17:09:28.075Z",
+        "mute": {
+          "label": "run3",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 20,
+          "pass": true
+        }
+      },
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "reviews": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "north-woods",
+  "hook": "THE SETUP",
+  "at": "2026-11-13T16:11:23.590Z",
+  "variants": [
+    {
+      "letter": "A",
+      "file": "out/thumbnail-north-woods.png",
+      "hookVisible": true,
+      "changedPct": 5.9,
+      "detail": "5.90% of pixels change with the hook (visible ≥ 0.8%)"
+    },
+    {
+      "letter": "B",
+      "file": "out/thumbnail-north-woods-b.png",
+      "hookVisible": true,
+      "changedPct": 4.68,
+      "detail": "4.68% of pixels change with the hook (visible ≥ 0.8%)"
+    },
+    {
+      "letter": "C",
+      "file": "out/thumbnail-north-woods-c.png",
+      "hookVisible": true,
+      "changedPct": 7.75,
+      "detail": "7.75% of pixels change with the hook (visible ≥ 0.8%)"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "runs": [
+    {
+      "label": "final",
+      "date": "2026-11-12T17:01:11.602Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 25,
+        "ADDS": 22,
+        "EXPLAINS": 4,
+        "TEXT_ONLY": 8,
+        "NEUTRAL": 5
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "443ab133c74578a0688b46879a789e6a075438c81aaba61a7bbf8a9d1cea690f",
+      "verdict": true,
+      "dead": 0,
+      "addsTargetMet": true,
+      "evidenceSha256": "946988b34a2e8b41fdd9e3a15e08a6de76c022fe2fc678aeecbb9ef3b6809092",
+      "binding": "BOUND",
+      "imageBeats": 26,
+      "imageAdds": 22,
+      "addsAll": 73,
+      "configSha256": "f08942360a933492f0ddefbc7704f3ecf4cc5c63b6cb3facf8ac06da97aec23e",
+      "renderInputHash": "7c006c9e3afd22d6",
+      "codeHead": "e2b8605228eb90bebe2e241e525a3085fa1db603",
+      "framesConfigSha": "f08942360a933492"
+    },
+    {
+      "label": "run2",
+      "date": "2026-11-13T15:57:56.393Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 23,
+        "ADDS": 21,
+        "NEUTRAL": 7,
+        "TEXT_ONLY": 6,
+        "EXPLAINS": 3,
+        "NONE": 3
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "evidence": {
+        "status": "OK",
+        "signals": [
+          "judge: 30/30 (100%) give one identical \"why\" (\"blind message vs narration judged literally\") — verdicts vary, so a stock phrase, not a template",
+          "judge: 30/30 (100%) give one identical \"whyC\" (\"based on whether the picture itself not copied text carries meaning\") — verdicts vary, so a stock phrase, not a template"
+        ]
+      },
+      "sample": "fresh",
+      "verdict": true,
+      "dead": 3,
+      "addsTargetMet": true,
+      "evidenceSha256": "c5e69c297af194ec472708374dfecceb06afd8b22d704bb9990d388318e3badb",
+      "binding": "BOUND",
+      "imageBeats": 25,
+      "imageAdds": 21,
+      "addsAll": 70,
+      "configSha256": "38416f48df82da85da096b1504e58efbf6d2868adbbf5f09027135fe73a9f759",
+      "renderInputHash": "e196bcbf448a466f",
+      "codeHead": "e2b8605228eb90bebe2e241e525a3085fa1db603",
+      "framesConfigSha": "38416f48df82da85"
+    },
+    {
+      "label": "run3",
+      "date": "2026-11-13T17:09:05.492Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 19,
+        "ADDS": 20,
+        "TEXT_ONLY": 10,
+        "EXPLAINS": 5,
+        "NEUTRAL": 10,
+        "WRONG": 1
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "verdict": true,
+      "dead": 0,
+      "addsTargetMet": true,
+      "evidenceSha256": "1a846198f9e613a51d1b69e8800ce72940bece88748ad6999a6781e482b4b632",
+      "binding": "BOUND",
+      "imageBeats": 22,
+      "imageAdds": 20,
+      "addsAll": 67,
+      "configSha256": "c8b977393953eb43b05a632645249a26f779911f67b1a9cba86eeb17b0a06776",
+      "renderInputHash": "c61e5144eaae3a33",
+      "codeHead": "e2b8605228eb90bebe2e241e525a3085fa1db603",
+      "framesConfigSha": "c8b977393953eb43"
+    }
+  ]
+}
