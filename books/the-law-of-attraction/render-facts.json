@@ -1,0 +1,103 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-11-13T06:41:39.455Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "a69adf9c",
+      "tools": "af97474b",
+      "pin": "a69adf9c92c1",
+      "configHash": "16e0588f4d52a88b",
+      "renderInputHash": "1a11c4a758d42d78",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 504
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "final",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 17,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "REFUSED",
+        "ok": false,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 32,
+        "goneFindings": 0
+      },
+      "authorization": null,
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 10,
+        "refused": 0
+      }
+    },
+    {
+      "at": "2026-11-13T06:43:32.966Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "a69adf9c",
+      "tools": "af97474b",
+      "pin": "a69adf9c92c1",
+      "configHash": "16e0588f4d52a88b",
+      "renderInputHash": "1a11c4a758d42d78",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 504
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "final",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 17,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT (recorded now)",
+        "ok": true,
+        "accepted": true,
+        "reason": "Kabul ediyorum",
+        "covered": 32,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "authorization": {
+        "at": "2026-11-13T06:43:30.178Z",
+        "recordedNow": true,
+        "kind": "render-authorization"
+      },
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 10,
+        "refused": 0
+      }
+    }
+  ]
+}
