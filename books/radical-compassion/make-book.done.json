@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-04T06:34:26.272Z",
+  "at": "2026-11-04T07:18:15.178Z",
+  "config": "config.antidote.json",
+  "configSha256": "c67bdf9e7bce7bc12ca04df729fa0bff354f234e0dafe928fbacb16a6bc1357c",
+  "inputs": {
+    "storyboard": {
+      "path": "books/radical-compassion/art.json",
+      "sha256": "3a915369569d4ef78cdfea0dd193abf22f98f0e6208f78b693c0e32e2958d4dc"
+    },
+    "storyBible": {
+      "path": "books/radical-compassion/story-bible.json",
+      "sha256": "5a13c2a7c8cef23a7d34a923b664eded6e8d878767390a8758ca8fdb5a60852f"
+    },
+    "motifs": {
+      "path": "books/radical-compassion/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/radical-compassion.vtt",
+      "sha256": "348c8fb1f4126ed5813ded993b9f23b6856d574f25c4f555210ddb30c8bedf2e"
+    },
+    "audio": {
+      "path": "public/audio/radical-compassion.mp3",
+      "sha256": "62c48578ede8608d4b7015195a579dec31cd6c351dd96f5e89aee15325c4b86a"
+    }
+  },
+  "head": "eadb0371cc72402728b0de55ff3ccde3dde22313",
+  "previewOnly": true,
+  "skipPack": true
+}

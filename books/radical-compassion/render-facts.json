@@ -1,0 +1,56 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-11-04T11:38:39.307Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "eadb0371",
+      "tools": "20941526",
+      "pin": "eadb0371cc72",
+      "configHash": "c67bdf9e7bce7bc1",
+      "renderInputHash": "4a032e900d2a9f8b",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 474
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "final",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 0,
+          "dead": 0,
+          "adds": 21,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT (recorded now)",
+        "ok": true,
+        "accepted": true,
+        "reason": "Operator authorized render across github accounts accepting preview-review quality debt",
+        "covered": 42,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "authorization": {
+        "at": "2026-11-04T11:38:19.533Z",
+        "recordedNow": true,
+        "kind": "render-authorization"
+      },
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 10,
+        "refused": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,862 @@
+[
+  {
+    "i": 86,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "THE DELIBERATE ACT OF LABELING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "noVisual": null,
+    "explainedBy": "Tara explains that naming an emotion verbally disrupts amygdala alarm activity.",
+    "storyboard": {
+      "claim": "Affect labeling deliberately disrupts the brain amygdala alarm system.",
+      "concreteVisual": "Tara calmly gesturing beside a lightbulb motif representing mindful linguistic awareness.",
+      "onScreenText": "THE DELIBERATE ACT OF LABELING",
+      "relationToPrevious": "Answers the previous question by introducing the neurological mechanism of affect labeling.",
+      "addedInformation": "Names the deliberate cognitive intervention before illustrating it with a real-world metaphor."
+    }
+  },
+  {
+    "i": 87,
+    "concept": "crash",
+    "diagram": null,
+    "callout": {
+      "text": "TERRIFYING CRASHING NOISE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "wide",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "afraid",
+    "action": "lying",
+    "noVisual": null,
+    "explainedBy": "Mitch lies frozen in bed in the dark hearing a terrifying crash downstairs.",
+    "storyboard": {
+      "claim": "Hearing an unidentified crash at night instantly sends heart rate skyrocketing.",
+      "concreteVisual": "Mitch lying awake in a dark bedroom wide-eyed in sudden dread with a crash motif.",
+      "onScreenText": "TERRIFYING CRASHING NOISE",
+      "relationToPrevious": "Provides a concrete domestic analogy for sudden visceral panic.",
+      "addedInformation": "Stages somatic dread in a recognizable home setting."
+    }
+  },
+  {
+    "i": 88,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "JUST THE ICE MAKER",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "medium",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "surprised",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Mitch sits up in bed realizing the scary sound was only the refrigerator ice maker.",
+    "storyboard": {
+      "claim": "Visceral panic collapses the moment you accurately identify the benign source.",
+      "concreteVisual": "Mitch sitting up in bed, fear evaporating into sudden realization.",
+      "onScreenText": "JUST THE ICE MAKER",
+      "relationToPrevious": "Continues the bedroom sequence showing the immediate emotional release of naming.",
+      "addedInformation": "Contrasts physiological terror against rapid cognitive re-evaluation."
+    }
+  },
+  {
+    "i": 89,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE BRAIN STOOD DOWN",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "neutral",
+    "action": "slump",
+    "noVisual": null,
+    "explainedBy": "Mitch exhales and relaxes into his bed as adrenaline shuts down after accurate labeling.",
+    "storyboard": {
+      "claim": "Accurate threat labeling immediately turns off adrenaline without changing the noise itself.",
+      "concreteVisual": "Mitch relaxing his shoulders in bed, physical tension draining out completely.",
+      "onScreenText": "THE BRAIN STOOD DOWN",
+      "relationToPrevious": "Concludes the domestic bedroom analogy demonstrating physiological stand-down.",
+      "addedInformation": "Highlights that changing the label changes somatic arousal even if external facts remain identical."
+    }
+  },
+  {
+    "i": 90,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Hyperactive amygdala",
+        "Ventrolateral PFC"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram showing neural activation moving from the right amygdala toward prefrontal areas.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Being caught in an emotional trance correlates with hyperactivity in the right amygdala.",
+      "concreteVisual": "Neural flow diagram charting electrical transition away from the panic center.",
+      "onScreenText": "none",
+      "relationToPrevious": "Shifts from the household story to the underlying synaptic architecture.",
+      "addedInformation": "Maps emotional trance to measurable regional brain activation."
+    }
+  },
+  {
+    "i": 91,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "NAME THE FEELING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "noVisual": null,
+    "explainedBy": "Tara holds notes naming specific core emotions like anger, fear, and shame.",
+    "storyboard": {
+      "claim": "Assigning a verbal label to an intense feeling initiates neurochemical regulation.",
+      "concreteVisual": "Tara holding notes while deliberately speaking emotional category words.",
+      "onScreenText": "NAME THE FEELING",
+      "relationToPrevious": "Demonstrates the linguistic action that triggers neural pathway redirection.",
+      "addedInformation": "Anchors linguistic categorization into an overt physical act."
+    }
+  },
+  {
+    "i": 92,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "VENTROLATERAL PREFRONTAL CORTEX",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "explainedBy": "A lightbulb illuminates the right ventrolateral prefrontal cortex activating under linguistic labeling.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Verbal labeling forces electrical current into the right ventrolateral prefrontal cortex.",
+      "concreteVisual": "Luminous lightbulb illustration symbolizing higher cognitive illumination.",
+      "onScreenText": "VENTROLATERAL PREFRONTAL CORTEX",
+      "relationToPrevious": "Pins the anatomical destination of the redirected neural current.",
+      "addedInformation": "Connects subjective mindfulness practice to clinical neuroscience."
+    }
+  },
+  {
+    "i": 93,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Panic center",
+        "Observation center"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Sorter diagram contrasting raw panic reactivity with conscious prefrontal observation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Labeling is not emotional suppression; it shifts energy from panic to observation.",
+      "concreteVisual": "Two-bucket sorter distinguishing panic reactivity from mindful observation.",
+      "onScreenText": "none",
+      "relationToPrevious": "Clarifies that affect labeling activates regulation rather than repression.",
+      "addedInformation": "Refutes the misunderstanding that mindfulness equates to suppressing distress."
+    }
+  },
+  {
+    "i": 94,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REWIRING THE BRAIN",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "noVisual": null,
+    "explainedBy": "Tara explains that naming emotions physically alters and rewires brain circuitry in real time.",
+    "storyboard": {
+      "claim": "Naming an emotion physically alters brain state and rewires circuitry in real time.",
+      "concreteVisual": "Tara pointing forward clearly, explaining biological neuroplasticity.",
+      "onScreenText": "REWIRING THE BRAIN",
+      "relationToPrevious": "Synthesizes the neurobiological mechanism behind affect labeling.",
+      "addedInformation": "Emphasizes that mental naming yields tangible biological transformation."
+    }
+  },
+  {
+    "i": 95,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "FACING THE PRISON WARDEN",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "roger"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "noVisual": null,
+    "explainedBy": "Roger stands firmly near an exit door, looking internal emotional entrapment in the eye without fighting.",
+    "storyboard": {
+      "claim": "Recognizing emotion is acknowledging the prison warden without yet fighting him.",
+      "concreteVisual": "Roger standing pensively before a closed door motif, confronting inner restriction.",
+      "onScreenText": "FACING THE PRISON WARDEN",
+      "relationToPrevious": "Translates biological rewiring into the visceral metaphor of facing inner captivity.",
+      "addedInformation": "Frames recognition as non-combative awareness rather than an immediate brawl."
+    }
+  },
+  {
+    "i": 96,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "THE A IN RAIN",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "noVisual": null,
+    "explainedBy": "Tara introduces the second step of the RAIN framework: Allow.",
+    "storyboard": {
+      "claim": "Acknowledgement sets the foundation for Allow, the second step of RAIN.",
+      "concreteVisual": "Tara presenting the next progressive phase with an illuminating lightbulb motif.",
+      "onScreenText": "THE A IN RAIN",
+      "relationToPrevious": "Transitions from Recognition (R) to Allowing (A).",
+      "addedInformation": "Signposts the sequential progression of the meditative methodology."
+    }
+  },
+  {
+    "i": 97,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Evolutionary instinct",
+        "Mindful allowance"
+      ],
+      "values": [
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Spectrum diagram highlighting how radical allowing runs directly counter to survival instincts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Allowing is deeply counterintuitive because it contradicts primitive survival instincts.",
+      "concreteVisual": "Spectrum diagram charting the gulf between knee-jerk survival defense and conscious allowance.",
+      "onScreenText": "none",
+      "relationToPrevious": "Explains why practicing allowance evokes intense instinctive friction.",
+      "addedInformation": "Normalizes the viewer psychological resistance to accepting painful emotions."
+    }
+  },
+  {
+    "i": 98,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "THE MARA STORY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "noVisual": null,
+    "explainedBy": "Tara holds a teaching book to introduce the parable of the Buddha and the demon Mara.",
+    "storyboard": {
+      "claim": "A profound ancient parable of the Buddha perfectly illustrates radical allowance.",
+      "concreteVisual": "Tara holding a book, preparing to recount the classical parable.",
+      "onScreenText": "THE MARA STORY",
+      "relationToPrevious": "Introduces mythological narrative framing to explain the counterintuitive step.",
+      "addedInformation": "Uses classical archetypal storytelling to anchor psychological theory."
+    }
+  },
+  {
+    "i": 99,
+    "concept": "tree",
+    "diagram": null,
+    "callout": {
+      "text": "THE BUDDHA MEDITATING",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "wide",
+    "cast": [
+      "brenda"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Brenda sits in serene meditation under forest trees as the shadow adversary approaches.",
+    "storyboard": {
+      "claim": "The Buddha meditates peacefully in a secluded grove when Mara appears.",
+      "concreteVisual": "Brenda seated in deep meditation amidst quiet forest trees.",
+      "onScreenText": "THE BUDDHA MEDITATING",
+      "relationToPrevious": "Opens the parable scene in the quiet forest grove.",
+      "addedInformation": "Establishes the contemplative stillness prior to psychological confrontation."
+    }
+  },
+  {
+    "i": 100,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "SHADOW GOD MARA",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "medium",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "mask",
+    "noVisual": null,
+    "explainedBy": "Mitch embodies Mara holding a mask representing greed, delusion, and existential terror.",
+    "storyboard": {
+      "claim": "Mara embodies everything humans run from: greed, hatred, delusion, and terror.",
+      "concreteVisual": "Mitch wearing an antagonistic smirk holding a shadowy mask motif in the forest.",
+      "onScreenText": "SHADOW GOD MARA",
+      "relationToPrevious": "Introduces the mythological antagonist embodying universal shadow fears.",
+      "addedInformation": "Personifies psychological avoidance and existential threat."
+    }
+  },
+  {
+    "i": 101,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "STORMS AND ARCHERS",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "wide",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "noVisual": null,
+    "explainedBy": "Mitch as Mara unleashes violent storms and onslaughts against the meditator.",
+    "storyboard": {
+      "claim": "The demon launches violent storms and armies of archers in total onslaught.",
+      "concreteVisual": "Mitch gesturing aggressively beneath a brewing tempest storm motif in the forest.",
+      "onScreenText": "STORMS AND ARCHERS",
+      "relationToPrevious": "Depicts the overwhelming psychological assault unleashed by shadow projections.",
+      "addedInformation": "Illustrates the intensity of internal panic attacks and emotional crises."
+    }
+  },
+  {
+    "i": 102,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "NO DEFENSIVE WEAPONS",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "medium",
+    "cast": [
+      "brenda"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Brenda remains peacefully seated without raising a shield or striking back.",
+    "storyboard": {
+      "claim": "The meditator refuses to flee, raise a sword, or erect a defensive shield.",
+      "concreteVisual": "Brenda sitting tranquil and open, refusing defensive resistance beside a shield motif.",
+      "onScreenText": "NO DEFENSIVE WEAPONS",
+      "relationToPrevious": "Contrasts mythological onslaught against complete lack of combative reaction.",
+      "addedInformation": "Visually establishes non-resistance in the face of perceived threat."
+    }
+  },
+  {
+    "i": 103,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TEA WITH MARA",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "medium",
+    "cast": [
+      "brenda"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "cup",
+    "noVisual": null,
+    "explainedBy": "Brenda looks calmly at the demon and holds a teacup inviting him to tea.",
+    "storyboard": {
+      "claim": "The Buddha looks directly at the demon and warmly invites him to share tea.",
+      "concreteVisual": "Brenda holding out a cup in an invitation of radical hospitality.",
+      "onScreenText": "TEA WITH MARA",
+      "relationToPrevious": "Delivers the narrative climax where hostility is met with hospitable invitation.",
+      "addedInformation": "Shows that welcoming inner demons dissolves adversary status."
+    }
+  },
+  {
+    "i": 104,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "AN HONORED GUEST",
+      "style": "reveal"
+    },
+    "set": "forest",
+    "shotOverride": "twoShot",
+    "cast": [
+      "brenda",
+      "mitch"
+    ],
+    "expression": "happy",
+    "action": "offer",
+    "holds": "cup",
+    "partnerExpression": "surprised",
+    "noVisual": null,
+    "explainedBy": "Brenda sits opposite Mitch serving him tea as an honored guest.",
+    "storyboard": {
+      "claim": "The demon is seated and served with the full dignity of an honored guest.",
+      "concreteVisual": "Brenda offering a teacup to a startled Mitch seated peacefully in the forest.",
+      "onScreenText": "AN HONORED GUEST",
+      "relationToPrevious": "Completes the hospitality gesture transforming the adversarial confrontation.",
+      "addedInformation": "Demonstrates hospitality replacing warfare in responding to distressing thoughts."
+    }
+  },
+  {
+    "i": 105,
+    "concept": "tree",
+    "diagram": null,
+    "callout": {
+      "text": "SHIFT IN RESPONSE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "tara"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "noVisual": null,
+    "explainedBy": "Tara translates the ancient parable into modern neurobiological emotional regulation.",
+    "storyboard": {
+      "claim": "The ancient tea parable represents a radical shift in how we respond to threats.",
+      "concreteVisual": "Tara speaking thoughtfully beside a grounded tree motif representing ancient wisdom.",
+      "onScreenText": "SHIFT IN RESPONSE",
+      "relationToPrevious": "Bridges ancient mythical metaphor with modern psychological mechanics.",
+      "addedInformation": "Validates that ancient wisdom traditions anticipated somatic regulation."
+    }
+  },
+  {
+    "i": 106,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "NO RESISTANCE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "neutral",
+    "action": "slump",
+    "noVisual": null,
+    "explainedBy": "Mitch sits quietly allowing emotional discomfort without raising defensive shields.",
+    "storyboard": {
+      "claim": "Allowing means letting present emotional experience be without pushing it away.",
+      "concreteVisual": "Mitch sitting with dropped shoulders beside a lowered shield motif, abandoning struggle.",
+      "onScreenText": "NO RESISTANCE",
+      "relationToPrevious": "Defines the operational discipline of allowing as the cessation of resistance.",
+      "addedInformation": "Illustrates the somatic feeling of relinquishing defensive armor."
+    }
+  },
+  {
+    "i": 107,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LETTING SENSATIONS EXIST",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Mitch sits still without rushing to analyze or problem-solve his bodily sensations.",
+    "storyboard": {
+      "claim": "Allowing lets bodily sensations exist without judging them or rushing to problem-solve.",
+      "concreteVisual": "Mitch seated calmly in quiet presence, resting with somatic sensations.",
+      "onScreenText": "LETTING SENSATIONS EXIST",
+      "relationToPrevious": "Extends allowance to visceral physical sensations in the body.",
+      "addedInformation": "Distinguishes bodily feeling from cognitive problem-solving."
+    }
+  },
+  {
+    "i": 108,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Zero resistance",
+        "Break reflex",
+        "Emotional safety"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram showing how non-resistance disarms the biological fight-or-flight reflex.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Non-resistance breaks the primitive reflex of automatic defensive reactivity.",
+      "concreteVisual": "Flow diagram showing non-resistance leading directly to interrupted defensiveness.",
+      "onScreenText": "none",
+      "relationToPrevious": "Details the physiological payoff of allowing.",
+      "addedInformation": "Explains the causal link between mental non-resistance and nervous system de-escalation."
+    }
+  },
+  {
+    "i": 109,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ROGER IN THE BOARDROOM",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "medium",
+    "cast": [
+      "roger"
+    ],
+    "expression": "angry",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Roger sits in the corporate boardroom noticing intense anger rising during a tense meeting.",
+    "storyboard": {
+      "claim": "Returning to Roger to observe how allowing functions during boardroom conflict.",
+      "concreteVisual": "Roger sitting tensely in an office setting, recognizing anger building internally.",
+      "onScreenText": "ROGER IN THE BOARDROOM",
+      "relationToPrevious": "Applies theoretical allowance to Roger boardroom case study.",
+      "addedInformation": "Transitions from monastic myth into high-stakes corporate reality."
+    }
+  },
+  {
+    "i": 110,
+    "continue": true,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "ALLOWING THE HEAT",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "closeUp",
+    "cast": [
+      "roger"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "noVisual": null,
+    "explainedBy": "Roger allows the burning heat in his face and chest pressure to exist without repressing it.",
+    "storyboard": {
+      "claim": "Rather than forcing calm, Roger simply permits heat and pressure to exist in his body.",
+      "concreteVisual": "Roger close-up seated tensely beside a fire motif, feeling bodily burning without lashing out.",
+      "onScreenText": "ALLOWING THE HEAT",
+      "relationToPrevious": "Shows Roger staying with somatic anger sensations rather than acting them out.",
+      "addedInformation": "Validates that allowing feels hot and uncomfortable, not blissful."
+    }
+  },
+  {
+    "i": 111,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LOOKED AT THE MAN",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "twoShot",
+    "cast": [
+      "roger",
+      "mitch"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "worried",
+    "noVisual": null,
+    "explainedBy": "In the space of non-attack, Roger truly looks at his exhausted staff member.",
+    "storyboard": {
+      "claim": "By not attacking, Roger gains the space to genuinely perceive the staff member.",
+      "concreteVisual": "Roger pausing to look attentively across at his fatigued staff member.",
+      "onScreenText": "LOOKED AT THE MAN",
+      "relationToPrevious": "Reveals the perceptual clarity that arises when impulsive reactivity is withheld.",
+      "addedInformation": "Shows empathy replacing blame when somatic anger is contained."
+    }
+  },
+  {
+    "i": 112,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "EXHAUSTION AND DEDICATION",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "medium",
+    "cast": [
+      "mitch"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "noVisual": null,
+    "explainedBy": "The staff member slumps in weariness, visibly exhausted yet deeply dedicated.",
+    "storyboard": {
+      "claim": "Roger recognizes the staff member deep dedication and profound exhaustion.",
+      "concreteVisual": "The staff member slumped in quiet vulnerability and weariness.",
+      "onScreenText": "EXHAUSTION AND DEDICATION",
+      "relationToPrevious": "Focuses on the colleague vulnerability Roger anger had previously eclipsed.",
+      "addedInformation": "Humanizes the target of boardroom anger."
+    }
+  },
+  {
+    "i": 113,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "STAGE 4 DIAGNOSIS",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "twoShot",
+    "cast": [
+      "roger",
+      "mitch"
+    ],
+    "expression": "sad",
+    "action": "talk",
+    "partnerExpression": "sad",
+    "noVisual": null,
+    "explainedBy": "Roger talks with the staff member after the meeting and learns of his wife cancer diagnosis.",
+    "storyboard": {
+      "claim": "Talking after the meeting, Roger learns the man wife was diagnosed with stage 4 cancer.",
+      "concreteVisual": "Roger and the staff member conversing somberly beside a medical cross motif.",
+      "onScreenText": "STAGE 4 DIAGNOSIS",
+      "relationToPrevious": "Uncovers the tragic context behind the colleague perceived shortcomings.",
+      "addedInformation": "Demonstrates the transformative empathy enabled by allowing anger to subside."
+    }
+  },
+  {
+    "i": 114,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "HUGGING IN THE OFFICE",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "twoShot",
+    "cast": [
+      "roger",
+      "mitch"
+    ],
+    "expression": "sad",
+    "action": "embrace",
+    "actionCue": "hugging in the office",
+    "partnerExpression": "sad",
+    "noVisual": null,
+    "explainedBy": "Roger and his staff member embrace warmly in the office, dissolving hostility into compassion.",
+    "storyboard": {
+      "claim": "Allowing inner anger creates the space for genuine connection, ending in a heartfelt hug.",
+      "concreteVisual": "Roger and the staff member embracing with genuine compassion beside a heart motif.",
+      "onScreenText": "HUGGING IN THE OFFICE",
+      "relationToPrevious": "Culminates the boardroom sequence with complete reconciliation and connection.",
+      "addedInformation": "Illustrates the profound interpersonal fruit of emotional allowance."
+    }
+  },
+  {
+    "i": 115,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Allowing internal state",
+        "Breaking reactivity",
+        "Compassionate connection"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram tracing how allowing internal sensation breaks automatic reactive behavior.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Roger said yes to the reality of his physiological state without acting it out.",
+      "concreteVisual": "Flow diagram mapping internal allowance to broken reactivity loops and genuine connection.",
+      "onScreenText": "none",
+      "relationToPrevious": "Synthesizes the behavioral takeaway from Roger experience.",
+      "addedInformation": "Reinforces the distinction between accepting internal feelings and directing outward actions."
+    }
+  },
+  {
+    "i": 116,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT ACTING IT OUT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "roger"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "noVisual": null,
+    "explainedBy": "Roger articulates the friction people experience when trying to allow toxic traits.",
+    "storyboard": {
+      "claim": "Allowing does not mean acting out toxic impulses or tolerating active attacks.",
+      "concreteVisual": "Roger gesturing pensively while wrestling with the dilemma of allowing difficult feelings.",
+      "onScreenText": "NOT ACTING IT OUT",
+      "relationToPrevious": "Anticipates the viewer immediate objection regarding tolerance of destructive traits.",
+      "addedInformation": "Directly addresses common skepticism toward mindfulness."
+    }
+  },
+  {
+    "i": 117,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "A PERMISSION SLIP",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "janice"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "notes",
+    "noVisual": null,
+    "explainedBy": "Janice holds notes questioning whether allowing chronic anger is writing herself a permission slip.",
+    "storyboard": {
+      "claim": "People worry that allowing anger or jealousy acts as an endorsing permission slip.",
+      "concreteVisual": "Janice holding notes with a troubled frown, questioning self-indulgence.",
+      "onScreenText": "A PERMISSION SLIP",
+      "relationToPrevious": "Gives concrete form to the fear of endorsing destructive habits.",
+      "addedInformation": "Visualizes the cognitive trap of confusing self-acceptance with self-indulgence."
+    }
+  },
+  {
+    "i": 118,
+    "continue": true,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "LETTING IT RUN RAMPANT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "janice"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "noVisual": null,
+    "explainedBy": "Janice slumps beside a burning fire motif, questioning if saying yes to jealousy lets it run wild.",
+    "storyboard": {
+      "claim": "If I accept my jealousy, am I validating it and letting it run rampant?",
+      "concreteVisual": "Janice slumped beside a fire motif, wrestling with out-of-control emotion.",
+      "onScreenText": "LETTING IT RUN RAMPANT",
+      "relationToPrevious": "Sharpens the objection regarding uncontrolled negative emotional spirals.",
+      "addedInformation": "Depicts the dread of emotional overwhelm."
+    },
+    "holds": "notes"
+  },
+  {
+    "i": 119,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Allowing experience",
+        "Acting out"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Sorter diagram clarifying the fundamental distinction between allowing inner emotion and acting it out.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "This distinction is where 90% of people fundamentally misunderstand mindfulness.",
+      "concreteVisual": "Two-bucket sorter diagram cleanly separating internal experiential allowance from outward behavior.",
+      "onScreenText": "none",
+      "relationToPrevious": "Resolves the objection by drawing the precise boundary of mindfulness.",
+      "addedInformation": "Provides the visual key to preventing emotional indulgence while practicing allowance."
+    }
+  }
+]

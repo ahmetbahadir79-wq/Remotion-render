@@ -1,0 +1,3713 @@
+{
+  "slug": "radical-compassion",
+  "totalSequences": 102,
+  "totalScenes": 292,
+  "averageDurationSecs": 25.6,
+  "sequences": [
+    {
+      "id": "seq-01",
+      "source": "engine",
+      "fromFrame": 5,
+      "durationFrames": 216,
+      "durationSeconds": 7.2,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "sceneId": "intro",
+          "fromFrame": 5,
+          "durationFrames": 216,
+          "role": "reveal",
+          "narration": "We treat self-criticism like a vigilant guard keeping us safe. I mean, you know that exact feeling I"
+        }
+      ]
+    },
+    {
+      "id": "seq-02",
+      "source": "authored",
+      "fromFrame": 221,
+      "durationFrames": 432,
+      "durationSeconds": 14.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 1,
+          "sceneId": "scene-01",
+          "fromFrame": 221,
+          "durationFrames": 233,
+          "role": "authored-start",
+          "narration": "It's that reflexive suffocating tightness in your chest the second shame hits. Like, it's that immed"
+        },
+        {
+          "index": 2,
+          "sceneId": "scene-02",
+          "fromFrame": 454,
+          "durationFrames": 199,
+          "role": "authored-kept",
+          "narration": "telling you exactly how you've messed up. How you've dropped the ball, how you are just, you know, f"
+        }
+      ]
+    },
+    {
+      "id": "seq-03",
+      "source": "engine",
+      "fromFrame": 653,
+      "durationFrames": 1034,
+      "durationSeconds": 34.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 3,
+          "sceneId": "scene-03",
+          "fromFrame": 653,
+          "durationFrames": 305,
+          "role": "setup",
+          "narration": "We've been conditioned to think that voice is our protector. We think it's the thing keeping our liv"
+        },
+        {
+          "index": 4,
+          "sceneId": "scene-04",
+          "fromFrame": 958,
+          "durationFrames": 352,
+          "role": "question",
+          "narration": "That is exactly the illusion we have to dismantle. I mean we have culturally accepted and even glori"
+        },
+        {
+          "index": 5,
+          "sceneId": "scene-05",
+          "fromFrame": 1310,
+          "durationFrames": 377,
+          "role": "reveal",
+          "narration": "right? Like the beatings will continue until morale improves. Exactly. But from a purely biological "
+        }
+      ]
+    },
+    {
+      "id": "seq-04",
+      "source": "engine",
+      "fromFrame": 1687,
+      "durationFrames": 1265,
+      "durationSeconds": 42.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 6,
+          "sceneId": "scene-06",
+          "fromFrame": 1687,
+          "durationFrames": 286,
+          "role": "setup",
+          "narration": "which is what we are looking at through Taro Brock's synthesis of clinical psychology and meditative"
+        },
+        {
+          "index": 7,
+          "sceneId": "scene-07",
+          "fromFrame": 1973,
+          "durationFrames": 312,
+          "role": "question",
+          "narration": "It's a rigorous embodied deconditioning technology. And it is biologically transformative, but only "
+        },
+        {
+          "index": 8,
+          "sceneId": "scene-08",
+          "fromFrame": 2285,
+          "durationFrames": 348,
+          "role": "complication",
+          "narration": "emotional pain and instead learn to inhabit the sematic vulnerability beneath it. Yeah. And we do th"
+        },
+        {
+          "index": 9,
+          "sceneId": "scene-09",
+          "fromFrame": 2633,
+          "durationFrames": 319,
+          "role": "reveal",
+          "narration": "nurture. Okay, we need to pause right there because you just used the phrase uh inhabit the sematic "
+        }
+      ]
+    },
+    {
+      "id": "seq-05",
+      "source": "engine",
+      "fromFrame": 2952,
+      "durationFrames": 521,
+      "durationSeconds": 17.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 10,
+          "sceneId": "scene-10",
+          "fromFrame": 2952,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "What does that actually mean in plain English? It's a great question. Somatic just means relating to"
+        },
+        {
+          "index": 11,
+          "sceneId": "scene-11",
+          "fromFrame": 3156,
+          "durationFrames": 317,
+          "role": "reveal",
+          "narration": "So instead of staying up in your head analyzing why you feel bad or looping through the story of who"
+        }
+      ]
+    },
+    {
+      "id": "seq-06",
+      "source": "authored",
+      "fromFrame": 3473,
+      "durationFrames": 420,
+      "durationSeconds": 14,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 12,
+          "sceneId": "scene-12",
+          "fromFrame": 3473,
+          "durationFrames": 206,
+          "role": "authored-start",
+          "narration": "down into your actual physical tissue. You feel the tightness in your throat, the heat in your face,"
+        },
+        {
+          "index": 13,
+          "sceneId": "scene-13",
+          "fromFrame": 3679,
+          "durationFrames": 214,
+          "role": "authored-kept",
+          "narration": "You are inhabiting the physical sensation of the vulnerability rather than trying to outthink it. Th"
+        }
+      ]
+    },
+    {
+      "id": "seq-07",
+      "source": "engine",
+      "fromFrame": 3893,
+      "durationFrames": 1015,
+      "durationSeconds": 33.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 14,
+          "sceneId": "scene-14",
+          "fromFrame": 3893,
+          "durationFrames": 367,
+          "role": "setup",
+          "narration": "We are so used to trying to logic our way out of a feeling. So, I want to be incredibly clear about "
+        },
+        {
+          "index": 15,
+          "sceneId": "scene-15",
+          "fromFrame": 4260,
+          "durationFrames": 334,
+          "role": "question",
+          "narration": "feels like you're constantly on the edge of burnout, or uh if you're a parent who goes to bed every "
+        },
+        {
+          "index": 16,
+          "sceneId": "scene-16",
+          "fromFrame": 4594,
+          "durationFrames": 314,
+          "role": "reveal",
+          "narration": "state of emotional flight and relational rupture, this conversation is specifically for you. We are "
+        }
+      ]
+    },
+    {
+      "id": "seq-08",
+      "source": "engine",
+      "fromFrame": 4908,
+      "durationFrames": 540,
+      "durationSeconds": 18,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 17,
+          "sceneId": "scene-17",
+          "fromFrame": 4908,
+          "durationFrames": 295,
+          "role": "setup",
+          "narration": "And to dismantle it, we first have to understand the architecture of the cage itself. Tara Brock ref"
+        },
+        {
+          "index": 18,
+          "sceneId": "scene-18",
+          "fromFrame": 5203,
+          "durationFrames": 245,
+          "role": "reveal",
+          "narration": "It sounds so mystical, but it's actually incredibly mundane and like exhausting. So exhausting. Let'"
+        }
+      ]
+    },
+    {
+      "id": "seq-09",
+      "source": "authored",
+      "fromFrame": 5448,
+      "durationFrames": 1536,
+      "durationSeconds": 51.2,
+      "sceneCount": 6,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 19,
+          "sceneId": "scene-19",
+          "fromFrame": 5448,
+          "durationFrames": 216,
+          "role": "authored-start",
+          "narration": "If you've ever sat in your car, dreading walking into an obligation, you are doing exactly what Jani"
+        },
+        {
+          "index": 20,
+          "sceneId": "scene-20",
+          "fromFrame": 5664,
+          "durationFrames": 199,
+          "role": "authored-kept",
+          "narration": "Yeah. Janice is a busy single mom. She's sitting in her car, having just reclined the seat outside h"
+        },
+        {
+          "index": 21,
+          "sceneId": "scene-21",
+          "fromFrame": 5863,
+          "durationFrames": 348,
+          "role": "authored-kept",
+          "narration": "She hasn't even opened the car door yet, but her jaw is already clamped shut. You can just feel the "
+        },
+        {
+          "index": 22,
+          "sceneId": "scene-22",
+          "fromFrame": 6211,
+          "durationFrames": 375,
+          "role": "authored-kept",
+          "narration": "And there's this familiar vicious VA hissing in her head saying, \"I just don't have the Before she e"
+        },
+        {
+          "index": 23,
+          "sceneId": "scene-23",
+          "fromFrame": 6586,
+          "durationFrames": 189,
+          "role": "authored-kept",
+          "narration": "of fatigue and guilt. She feels dutiful, resentful, and immediately condemned by her own mind."
+        },
+        {
+          "index": 24,
+          "sceneId": "scene-24",
+          "fromFrame": 6775,
+          "durationFrames": 209,
+          "role": "authored-kept",
+          "narration": "Her exact internal dialogue is, \"I'm falling short on the most important fronts. I'm failing my dad."
+        }
+      ]
+    },
+    {
+      "id": "seq-10",
+      "source": "engine",
+      "fromFrame": 6984,
+      "durationFrames": 694,
+      "durationSeconds": 23.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 25,
+          "sceneId": "scene-25",
+          "fromFrame": 6984,
+          "durationFrames": 235,
+          "role": "setup",
+          "narration": "I'm just not a loving person.\" It's a heavy, deeply painful scene, but it is so universally relatabl"
+        },
+        {
+          "index": 26,
+          "sceneId": "scene-26",
+          "fromFrame": 7219,
+          "durationFrames": 161,
+          "role": "question",
+          "narration": "We all have. And if you're listening to this on your commute or while washing dishes,"
+        },
+        {
+          "index": 27,
+          "sceneId": "scene-27",
+          "fromFrame": 7380,
+          "durationFrames": 298,
+          "role": "reveal",
+          "narration": "the practical takeaway here is that internal narratives of failure and chronic deficiency construct "
+        }
+      ]
+    },
+    {
+      "id": "seq-11",
+      "source": "authored",
+      "fromFrame": 7678,
+      "durationFrames": 379,
+      "durationSeconds": 12.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 28,
+          "sceneId": "scene-28",
+          "fromFrame": 7678,
+          "durationFrames": 213,
+          "role": "authored-start",
+          "narration": "Yeah, that isolation is key. Think about Janice in that car. She isn't present with her father. She "
+        },
+        {
+          "index": 29,
+          "sceneId": "scene-29",
+          "fromFrame": 7891,
+          "durationFrames": 166,
+          "role": "authored-kept",
+          "narration": "She isn't present with herself or her own exhaustion. She is completely trapped in the trance."
+        }
+      ]
+    },
+    {
+      "id": "seq-12",
+      "source": "engine",
+      "fromFrame": 8057,
+      "durationFrames": 1053,
+      "durationSeconds": 35.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 30,
+          "sceneId": "scene-30",
+          "fromFrame": 8057,
+          "durationFrames": 365,
+          "role": "setup",
+          "narration": "She's just gone. Completely. This trance means living on autopilot, operating entirely below the lin"
+        },
+        {
+          "index": 31,
+          "sceneId": "scene-31",
+          "fromFrame": 8422,
+          "durationFrames": 345,
+          "role": "question",
+          "narration": "unpack that negativity bias because it's basically uh Velcro for the bad stuff and teflon for the go"
+        },
+        {
+          "index": 32,
+          "sceneId": "scene-32",
+          "fromFrame": 8767,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "If our ancestors didn't remember where the tiger lived, they didn't survive. But today, the tiger is"
+        }
+      ]
+    },
+    {
+      "id": "seq-13",
+      "source": "engine",
+      "fromFrame": 9110,
+      "durationFrames": 1344,
+      "durationSeconds": 44.8,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 33,
+          "sceneId": "scene-33",
+          "fromFrame": 9110,
+          "durationFrames": 180,
+          "role": "setup",
+          "narration": "When you believe you are deficient, your brain perceives that as a literal life or death survival th"
+        },
+        {
+          "index": 34,
+          "sceneId": "scene-34",
+          "fromFrame": 9290,
+          "durationFrames": 344,
+          "role": "question",
+          "narration": "You construct an entire reality around it, scanning your environment, gathering evidence all day lon"
+        },
+        {
+          "index": 35,
+          "sceneId": "scene-35",
+          "fromFrame": 9634,
+          "durationFrames": 218,
+          "role": "partial_answer",
+          "narration": "this sense of deficiency even when it makes us totally The Polynesian myth. Yes, this traditional Po"
+        },
+        {
+          "index": 36,
+          "sceneId": "scene-36",
+          "fromFrame": 9852,
+          "durationFrames": 216,
+          "role": "complication",
+          "narration": "The story goes that there is a revered tribal leader, a mother who goes down to the river to shed he"
+        },
+        {
+          "index": 37,
+          "sceneId": "scene-37",
+          "fromFrame": 10068,
+          "durationFrames": 386,
+          "role": "reveal",
+          "narration": "She steps out of it and emerges completely renewed. She is vibrant. She is glowing. She is in the ab"
+        }
+      ]
+    },
+    {
+      "id": "seq-14",
+      "source": "engine",
+      "fromFrame": 10454,
+      "durationFrames": 1004,
+      "durationSeconds": 33.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 38,
+          "sceneId": "scene-38",
+          "fromFrame": 10454,
+          "durationFrames": 164,
+          "role": "setup",
+          "narration": "terrifies her young daughter. The child doesn't recognize her and starts screaming."
+        },
+        {
+          "index": 39,
+          "sceneId": "scene-39",
+          "fromFrame": 10618,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "So to appease her crying child, to make things normal again, the mother goes back down to the river,"
+        },
+        {
+          "index": 40,
+          "sceneId": "scene-40",
+          "fromFrame": 10872,
+          "durationFrames": 305,
+          "role": "complication",
+          "narration": "and puts it back on. It's so sad. And the myth dictates that by putting the old skin back on, she lo"
+        },
+        {
+          "index": 41,
+          "sceneId": "scene-41",
+          "fromFrame": 11177,
+          "durationFrames": 281,
+          "role": "reveal",
+          "narration": "powerful metaphor for how human beings maintain their own suffering. You know, we build relationship"
+        }
+      ]
+    },
+    {
+      "id": "seq-15",
+      "source": "engine",
+      "fromFrame": 11458,
+      "durationFrames": 1111,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 42,
+          "sceneId": "scene-42",
+          "fromFrame": 11458,
+          "durationFrames": 230,
+          "role": "setup",
+          "narration": "around our shared insecurities and our perceived flaws. We really do. And we wear the dead skin of o"
+        },
+        {
+          "index": 43,
+          "sceneId": "scene-43",
+          "fromFrame": 11688,
+          "durationFrames": 370,
+          "role": "question",
+          "narration": "It feels safe. You know, taking off that skin, stepping into our actual power and goodness feels lik"
+        },
+        {
+          "index": 44,
+          "sceneId": "scene-44",
+          "fromFrame": 12058,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "people won't recognize us or worse, they just won't love us. Okay, I have to play devil's advocate h"
+        },
+        {
+          "index": 45,
+          "sceneId": "scene-45",
+          "fromFrame": 12353,
+          "durationFrames": 216,
+          "role": "reveal",
+          "narration": "Okay, go for it. Honestly, if I just drop my self-criticism, if I just shed that old skin and walk a"
+        }
+      ]
+    },
+    {
+      "id": "seq-16",
+      "source": "engine",
+      "fromFrame": 12569,
+      "durationFrames": 1214,
+      "durationSeconds": 40.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 46,
+          "sceneId": "scene-46",
+          "fromFrame": 12569,
+          "durationFrames": 206,
+          "role": "setup",
+          "narration": "I have no flaws.\" Won't I just become incredibly Nah. Yes. Like when I fail at work because my edge "
+        },
+        {
+          "index": 47,
+          "sceneId": "scene-47",
+          "fromFrame": 12775,
+          "durationFrames": 365,
+          "role": "question",
+          "narration": "I feel like that self-judgment, that little voice telling me I need to do better is the only thing k"
+        },
+        {
+          "index": 48,
+          "sceneId": "scene-48",
+          "fromFrame": 13140,
+          "durationFrames": 379,
+          "role": "complication",
+          "narration": "We all believe that. But from a neurological perspective, the exact opposite is true. Yes. We think "
+        },
+        {
+          "index": 49,
+          "sceneId": "scene-49",
+          "fromFrame": 13519,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "When you actively judge and shame yourself, you lock your brain into the lyic The lyic system being "
+        }
+      ]
+    },
+    {
+      "id": "seq-17",
+      "source": "engine",
+      "fromFrame": 13783,
+      "durationFrames": 1181,
+      "durationSeconds": 39.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 50,
+          "sceneId": "scene-50",
+          "fromFrame": 13783,
+          "durationFrames": 151,
+          "role": "setup",
+          "narration": "Exactly. It's the emotional center responsible for the fight, flight, or freeze response."
+        },
+        {
+          "index": 51,
+          "sceneId": "scene-51",
+          "fromFrame": 13934,
+          "durationFrames": 341,
+          "role": "question",
+          "narration": "When your inner critic attacks you, your amygdala literally the brain's alarm bell. The alarm bell. "
+        },
+        {
+          "index": 52,
+          "sceneId": "scene-52",
+          "fromFrame": 14275,
+          "durationFrames": 204,
+          "role": "partial_answer",
+          "narration": "thoughts. So, cortisol spikes. Adrenaline floods your system. And here is the mechanical problem wit"
+        },
+        {
+          "index": 53,
+          "sceneId": "scene-53",
+          "fromFrame": 14479,
+          "durationFrames": 168,
+          "role": "complication",
+          "narration": "When the lympic system is flooded, it diverts metabolic resources away from the prefrontal cortex."
+        },
+        {
+          "index": 54,
+          "sceneId": "scene-54",
+          "fromFrame": 14647,
+          "durationFrames": 317,
+          "role": "reveal",
+          "narration": "It essentially paralyzes the executive center of your And the prefrontal cortex is where all the goo"
+        }
+      ]
+    },
+    {
+      "id": "seq-18",
+      "source": "engine",
+      "fromFrame": 14964,
+      "durationFrames": 1018,
+      "durationSeconds": 33.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 55,
+          "sceneId": "scene-55",
+          "fromFrame": 14964,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "of true creativity, complex problem solving, empathy, rational thought, and strategic planning."
+        },
+        {
+          "index": 56,
+          "sceneId": "scene-56",
+          "fromFrame": 15168,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "Wow. So by judging yourself in an attempt to keep your edge, you are actually dulling it. You are li"
+        },
+        {
+          "index": 57,
+          "sceneId": "scene-57",
+          "fromFrame": 15444,
+          "durationFrames": 314,
+          "role": "complication",
+          "narration": "You are operating from a state of panicked survival rather than clear-headed strategy. That is wild."
+        },
+        {
+          "index": 58,
+          "sceneId": "scene-58",
+          "fromFrame": 15758,
+          "durationFrames": 224,
+          "role": "reveal",
+          "narration": "prison warden keeping you locked in a cell of failure. You are guarding your own cage. So how do we "
+        }
+      ]
+    },
+    {
+      "id": "seq-19",
+      "source": "engine",
+      "fromFrame": 15982,
+      "durationFrames": 544,
+      "durationSeconds": 18.1,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 59,
+          "sceneId": "scene-59",
+          "fromFrame": 15982,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "Because just knowing this isn't enough. That brings us to the actual mechanics of the protocol. Star"
+        },
+        {
+          "index": 60,
+          "sceneId": "scene-60",
+          "fromFrame": 16243,
+          "durationFrames": 283,
+          "role": "reveal",
+          "narration": "Recognizing is where we make the fundamental shift from being possessed by an emotion to merely witn"
+        }
+      ]
+    },
+    {
+      "id": "seq-20",
+      "source": "authored",
+      "fromFrame": 16526,
+      "durationFrames": 1020,
+      "durationSeconds": 34,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 61,
+          "sceneId": "scene-61",
+          "fromFrame": 16526,
+          "durationFrames": 339,
+          "role": "authored-start",
+          "narration": "Meet Roger. He is a highlevel, historically explosive IT executive. We all know Roger. Oh yeah. He i"
+        },
+        {
+          "index": 62,
+          "sceneId": "scene-62",
+          "fromFrame": 16865,
+          "durationFrames": 201,
+          "role": "authored-kept",
+          "narration": "a completely inadequate, incomplete report in front of him. Roger's blood pressure instantly spikes."
+        },
+        {
+          "index": 63,
+          "sceneId": "scene-63",
+          "fromFrame": 17066,
+          "durationFrames": 279,
+          "role": "authored-kept",
+          "narration": "If you've ever had a flash of rage, you know the physical markers. Heat floods his face. His chest t"
+        },
+        {
+          "index": 64,
+          "sceneId": "scene-64",
+          "fromFrame": 17345,
+          "durationFrames": 201,
+          "role": "authored-kept",
+          "narration": "But instead of screaming, instead of berating the guy in front of the whole room like he normally wo"
+        }
+      ]
+    },
+    {
+      "id": "seq-21",
+      "source": "engine",
+      "fromFrame": 17546,
+      "durationFrames": 994,
+      "durationSeconds": 33.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 65,
+          "sceneId": "scene-65",
+          "fromFrame": 17546,
+          "durationFrames": 255,
+          "role": "setup",
+          "narration": "He pauses. He closes his eyes for just a micro second. and he mentally whispers to himself,"
+        },
+        {
+          "index": 66,
+          "sceneId": "scene-66",
+          "fromFrame": 17801,
+          "durationFrames": 165,
+          "role": "partial_answer",
+          "narration": "That tiny microscopic pause is the hinge on which everything turns."
+        },
+        {
+          "index": 67,
+          "sceneId": "scene-67",
+          "fromFrame": 17966,
+          "durationFrames": 284,
+          "role": "question",
+          "narration": "By simply naming the mental storm, \"Without fusion,\" Roger takes the first definitive step out of th"
+        },
+        {
+          "index": 68,
+          "sceneId": "scene-68",
+          "fromFrame": 18250,
+          "durationFrames": 290,
+          "role": "reveal",
+          "narration": "Let's clarify that for the listener because that sounds like a clinical term. Do you mean he's not g"
+        }
+      ]
+    },
+    {
+      "id": "seq-22",
+      "source": "engine",
+      "fromFrame": 18540,
+      "durationFrames": 1044,
+      "durationSeconds": 34.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 69,
+          "sceneId": "scene-69",
+          "fromFrame": 18540,
+          "durationFrames": 278,
+          "role": "setup",
+          "narration": "That is a perfect analogy. Psychological fusion is when your identity collapses into the emotion. Yo"
+        },
+        {
+          "index": 70,
+          "sceneId": "scene-70",
+          "fromFrame": 18818,
+          "durationFrames": 348,
+          "role": "question",
+          "narration": "You become the Recognizing without fusion is stepping back into a state of mindful objective observa"
+        },
+        {
+          "index": 71,
+          "sceneId": "scene-71",
+          "fromFrame": 19166,
+          "durationFrames": 149,
+          "role": "complication",
+          "narration": "body. You become a witnessing presence. You are no longer the storm."
+        },
+        {
+          "index": 72,
+          "sceneId": "scene-72",
+          "fromFrame": 19315,
+          "durationFrames": 269,
+          "role": "reveal",
+          "narration": "You are the vast sky watching the storm roll through. It's almost like you're neutralizing a bomb ju"
+        }
+      ]
+    },
+    {
+      "id": "seq-23",
+      "source": "authored",
+      "fromFrame": 19584,
+      "durationFrames": 749,
+      "durationSeconds": 25,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 73,
+          "sceneId": "scene-73",
+          "fromFrame": 19584,
+          "durationFrames": 372,
+          "role": "authored-start",
+          "narration": "And it's not just for explosive boardroom anger. There's a great, highly relatable story from the au"
+        },
+        {
+          "index": 74,
+          "sceneId": "scene-74",
+          "fromFrame": 19956,
+          "durationFrames": 235,
+          "role": "authored-kept",
+          "narration": "to give a major talk on the topic of loving kindness. Oh, the irony. Total irony. While she's stress"
+        },
+        {
+          "index": 75,
+          "sceneId": "scene-75",
+          "fromFrame": 20191,
+          "durationFrames": 142,
+          "role": "authored-kept",
+          "narration": "rushing against the clock, her 83-year-old mother pops into the office just to chat."
+        }
+      ]
+    },
+    {
+      "id": "seq-24",
+      "source": "engine",
+      "fromFrame": 20333,
+      "durationFrames": 1188,
+      "durationSeconds": 39.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 76,
+          "sceneId": "scene-76",
+          "fromFrame": 20333,
+          "durationFrames": 223,
+          "role": "setup",
+          "narration": "Tara is glued to the screen, scowlling, totally unavailable. Her mother sees the tension and quietly"
+        },
+        {
+          "index": 77,
+          "sceneId": "scene-77",
+          "fromFrame": 20556,
+          "durationFrames": 314,
+          "role": "question",
+          "narration": "And in that exact moment, Tara catches herself. She sees the trance. She does. She recognizes the bi"
+        },
+        {
+          "index": 78,
+          "sceneId": "scene-78",
+          "fromFrame": 20870,
+          "durationFrames": 284,
+          "role": "complication",
+          "narration": "ignoring her own elderly mother. But crucially, she doesn't just judge herself for being a hypocrite"
+        },
+        {
+          "index": 79,
+          "sceneId": "scene-79",
+          "fromFrame": 21154,
+          "durationFrames": 367,
+          "role": "reveal",
+          "narration": "noting the physical pulling and the tight pressure around her own heart. She labels the rushing and "
+        }
+      ]
+    },
+    {
+      "id": "seq-25",
+      "source": "engine",
+      "fromFrame": 21521,
+      "durationFrames": 1073,
+      "durationSeconds": 35.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 80,
+          "sceneId": "scene-80",
+          "fromFrame": 21521,
+          "durationFrames": 228,
+          "role": "setup",
+          "narration": "For some, it's rushing. For others, it's obsessive list making or a specific physical tension in the"
+        },
+        {
+          "index": 81,
+          "sceneId": "scene-81",
+          "fromFrame": 21749,
+          "durationFrames": 228,
+          "role": "question",
+          "narration": "Recognizing is simply the act of saying, \"Ah, this is happening. The trance is But I'm struggling wi"
+        },
+        {
+          "index": 82,
+          "sceneId": "scene-82",
+          "fromFrame": 21977,
+          "durationFrames": 360,
+          "role": "complication",
+          "narration": "Naming my anger and taking a breath. Isn't that just telling a toddler to count to 10? I hear that a"
+        },
+        {
+          "index": 83,
+          "sceneId": "scene-83",
+          "fromFrame": 22337,
+          "durationFrames": 257,
+          "role": "reveal",
+          "narration": "feels a bit, I don't know, simplistic. It feels like a superficial band-aid for a deeply rooted phys"
+        }
+      ]
+    },
+    {
+      "id": "seq-26",
+      "source": "engine",
+      "fromFrame": 22594,
+      "durationFrames": 1063,
+      "durationSeconds": 35.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 84,
+          "sceneId": "scene-84",
+          "fromFrame": 22594,
+          "durationFrames": 194,
+          "role": "setup",
+          "narration": "until you look at the functional MRI scans of the brain while this is happening. This isn't about di"
+        },
+        {
+          "index": 85,
+          "sceneId": "scene-85",
+          "fromFrame": 22788,
+          "durationFrames": 175,
+          "role": "question",
+          "narration": "It is not counting to 10 to buy time while you grit your Okay. So, what is it?"
+        },
+        {
+          "index": 86,
+          "sceneId": "scene-86",
+          "fromFrame": 22963,
+          "durationFrames": 291,
+          "role": "complication",
+          "narration": "Neurobiology shows us that the simple deliberate act of labeling an emotion, which psychologists tec"
+        },
+        {
+          "index": 87,
+          "sceneId": "scene-87",
+          "fromFrame": 23254,
+          "durationFrames": 403,
+          "role": "reveal",
+          "narration": "the amygdala's alarm bells. Oh, I love this concept of affect labeling. It's exactly like when you'r"
+        }
+      ]
+    },
+    {
+      "id": "seq-27",
+      "source": "authored",
+      "fromFrame": 23657,
+      "durationFrames": 470,
+      "durationSeconds": 15.7,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 88,
+          "sceneId": "scene-88",
+          "fromFrame": 23657,
+          "durationFrames": 249,
+          "role": "authored-start",
+          "narration": "You're paralyzed. You're ready to fight an Panic mode. But then you realize, oh, it's just the ice m"
+        },
+        {
+          "index": 89,
+          "sceneId": "scene-89",
+          "fromFrame": 23906,
+          "durationFrames": 221,
+          "role": "authored-kept",
+          "narration": "The physical noise didn't change. But the second you labeled the threat accurately, your adrenaline "
+        }
+      ]
+    },
+    {
+      "id": "seq-28",
+      "source": "engine",
+      "fromFrame": 24127,
+      "durationFrames": 1044,
+      "durationSeconds": 34.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 90,
+          "sceneId": "scene-90",
+          "fromFrame": 24127,
+          "durationFrames": 231,
+          "role": "setup",
+          "narration": "And that is exactly what is happening on a synaptic level. When you are in the trance, the right amy"
+        },
+        {
+          "index": 91,
+          "sceneId": "scene-91",
+          "fromFrame": 24358,
+          "durationFrames": 180,
+          "role": "question",
+          "narration": "But the moment you assign a word to the feeling like anger, fear, shame,"
+        },
+        {
+          "index": 92,
+          "sceneId": "scene-92",
+          "fromFrame": 24538,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "you force electrical activity to travel to the right vententralateral prefrontal cortex. The right v"
+        },
+        {
+          "index": 93,
+          "sceneId": "scene-93",
+          "fromFrame": 24833,
+          "durationFrames": 338,
+          "role": "reveal",
+          "narration": "Which is the part of the brain that handles language and emotional regulation. You aren't suppressin"
+        }
+      ]
+    },
+    {
+      "id": "seq-29",
+      "source": "engine",
+      "fromFrame": 25171,
+      "durationFrames": 1145,
+      "durationSeconds": 38.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 94,
+          "sceneId": "scene-94",
+          "fromFrame": 25171,
+          "durationFrames": 360,
+          "role": "setup",
+          "narration": "in your brain from the panic center to the observation center. You are rewiring the circuitry in rea"
+        },
+        {
+          "index": 95,
+          "sceneId": "scene-95",
+          "fromFrame": 25531,
+          "durationFrames": 274,
+          "role": "question",
+          "narration": "Recognizing the emotion is how you finally look the prison warden in the eye. You aren't fighting hi"
+        },
+        {
+          "index": 96,
+          "sceneId": "scene-96",
+          "fromFrame": 25805,
+          "durationFrames": 151,
+          "role": "complication",
+          "narration": "And that acknowledgement sets the stage for the second step, the A in rain."
+        },
+        {
+          "index": 97,
+          "sceneId": "scene-97",
+          "fromFrame": 25956,
+          "durationFrames": 360,
+          "role": "reveal",
+          "narration": "allow. And I will warn you, this is unequivocally the most counterintuitive step of the entire It re"
+        }
+      ]
+    },
+    {
+      "id": "seq-30",
+      "source": "engine",
+      "fromFrame": 26316,
+      "durationFrames": 960,
+      "durationSeconds": 32,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 98,
+          "sceneId": "scene-98",
+          "fromFrame": 26316,
+          "durationFrames": 202,
+          "role": "setup",
+          "narration": "To understand it, there is this profound story of the Buddha that illustrates allowing perfectly. Oh"
+        },
+        {
+          "index": 99,
+          "sceneId": "scene-99",
+          "fromFrame": 26518,
+          "durationFrames": 187,
+          "role": "question",
+          "narration": "Yeah. The Buddha is meditating in a forest grove. Suddenly, the shadow god Mara appears."
+        },
+        {
+          "index": 100,
+          "sceneId": "scene-100",
+          "fromFrame": 26705,
+          "durationFrames": 211,
+          "role": "complication",
+          "narration": "Now in this tradition, Mara represents literally everything we run from. Greed, hatred, delusion,"
+        },
+        {
+          "index": 101,
+          "sceneId": "scene-101",
+          "fromFrame": 26916,
+          "durationFrames": 360,
+          "role": "reveal",
+          "narration": "terror, failure. He is the ultimate demon. He attacks the Buddha with storms and armies of archers. "
+        }
+      ]
+    },
+    {
+      "id": "seq-31",
+      "source": "engine",
+      "fromFrame": 27276,
+      "durationFrames": 149,
+      "durationSeconds": 5,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 102,
+          "sceneId": "scene-102",
+          "fromFrame": 27276,
+          "durationFrames": 149,
+          "role": "reveal",
+          "narration": "He doesn't run away. He doesn't even try to build a magical shield to deflect the arrows."
+        }
+      ]
+    },
+    {
+      "id": "seq-32",
+      "source": "authored",
+      "fromFrame": 27425,
+      "durationFrames": 379,
+      "durationSeconds": 12.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 103,
+          "sceneId": "scene-103",
+          "fromFrame": 27425,
+          "durationFrames": 206,
+          "role": "authored-start",
+          "narration": "He simply looks at the demon and says, \"I see you, Mara. Come, let's have tea."
+        },
+        {
+          "index": 104,
+          "sceneId": "scene-104",
+          "fromFrame": 27631,
+          "durationFrames": 173,
+          "role": "authored-kept",
+          "narration": "And he sits down and serves the demon as an honored guest. It is a radical,"
+        }
+      ]
+    },
+    {
+      "id": "seq-33",
+      "source": "engine",
+      "fromFrame": 27804,
+      "durationFrames": 967,
+      "durationSeconds": 32.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 105,
+          "sceneId": "scene-105",
+          "fromFrame": 27804,
+          "durationFrames": 298,
+          "role": "setup",
+          "narration": "almost incomprehensible shift in how we are taught to respond to threats. If we translate that ancie"
+        },
+        {
+          "index": 106,
+          "sceneId": "scene-106",
+          "fromFrame": 28102,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "means letting the present emotional experience be just as it is without pushing it away. No resistan"
+        },
+        {
+          "index": 107,
+          "sceneId": "scene-107",
+          "fromFrame": 28385,
+          "durationFrames": 177,
+          "role": "complication",
+          "narration": "and without immediately trying to problem solve it. You simply let the sensations exist."
+        },
+        {
+          "index": 108,
+          "sceneId": "scene-108",
+          "fromFrame": 28562,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "By doing nothing, by not resisting, it breaks the biological reflex of immediate defensive"
+        }
+      ]
+    },
+    {
+      "id": "seq-34",
+      "source": "authored",
+      "fromFrame": 28771,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 109,
+          "sceneId": "scene-109",
+          "fromFrame": 28771,
+          "durationFrames": 240,
+          "role": "authored-start",
+          "narration": "Let's go back to Roger, our angry IT executive in the boardroom to see this in practice. He recogniz"
+        },
+        {
+          "index": 110,
+          "sceneId": "scene-110",
+          "fromFrame": 29011,
+          "durationFrames": 305,
+          "role": "authored-kept",
+          "narration": "He didn't try to force himself to calm down, which never worked anyway. Exactly. He didn't tell hims"
+        },
+        {
+          "index": 111,
+          "sceneId": "scene-111",
+          "fromFrame": 29316,
+          "durationFrames": 245,
+          "role": "authored-kept",
+          "narration": "And in that tiny sustained space of not attacking the staff member, of just letting the anger burn w"
+        },
+        {
+          "index": 112,
+          "sceneId": "scene-112",
+          "fromFrame": 29561,
+          "durationFrames": 175,
+          "role": "authored-kept",
+          "narration": "He saw him. He noticed the staff member's genuine dedication, noticed how exhausted the man looked."
+        }
+      ]
+    },
+    {
+      "id": "seq-35",
+      "source": "engine",
+      "fromFrame": 29736,
+      "durationFrames": 1087,
+      "durationSeconds": 36.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 113,
+          "sceneId": "scene-113",
+          "fromFrame": 29736,
+          "durationFrames": 338,
+          "role": "setup",
+          "narration": "They ended up talking after the meeting, and Roger learned that this man's wife had just been diagno"
+        },
+        {
+          "index": 114,
+          "sceneId": "scene-114",
+          "fromFrame": 30074,
+          "durationFrames": 224,
+          "role": "question",
+          "narration": "created the space for They ended up hugging in the office. Allowing his internal state broke the loo"
+        },
+        {
+          "index": 115,
+          "sceneId": "scene-115",
+          "fromFrame": 30298,
+          "durationFrames": 184,
+          "role": "complication",
+          "narration": "outward reactivity. Roger said yes to the reality of his internal physiological state."
+        },
+        {
+          "index": 116,
+          "sceneId": "scene-116",
+          "fromFrame": 30482,
+          "durationFrames": 341,
+          "role": "reveal",
+          "narration": "He did not say yes to acting it out. But hold on. This is where a lot of people are going to get rea"
+        }
+      ]
+    },
+    {
+      "id": "seq-36",
+      "source": "authored",
+      "fromFrame": 30823,
+      "durationFrames": 389,
+      "durationSeconds": 13,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 117,
+          "sceneId": "scene-117",
+          "fromFrame": 30823,
+          "durationFrames": 243,
+          "role": "authored-start",
+          "narration": "I'm a chronic yeller or I'm deeply jealous, allowing it feels like I'm writing myself a permission s"
+        },
+        {
+          "index": 118,
+          "sceneId": "scene-118",
+          "fromFrame": 31066,
+          "durationFrames": 146,
+          "role": "authored-kept",
+          "narration": "If I say yes to my jealousy, aren't I just validating it and letting it run rampant?"
+        }
+      ]
+    },
+    {
+      "id": "seq-37",
+      "source": "engine",
+      "fromFrame": 31212,
+      "durationFrames": 984,
+      "durationSeconds": 32.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 119,
+          "sceneId": "scene-119",
+          "fromFrame": 31212,
+          "durationFrames": 161,
+          "role": "setup",
+          "narration": "This is a crucial distinction, and it is where 90% of people misunderstand mindfulness."
+        },
+        {
+          "index": 120,
+          "sceneId": "scene-120",
+          "fromFrame": 31373,
+          "durationFrames": 209,
+          "role": "question",
+          "narration": "Saying yes to the energetic reality of anger in your body is not saying yes to the content of the an"
+        },
+        {
+          "index": 121,
+          "sceneId": "scene-121",
+          "fromFrame": 31582,
+          "durationFrames": 360,
+          "role": "complication",
+          "narration": "Break that down for me. Energetic reality versus cognitive content. The cognitive content is the sto"
+        },
+        {
+          "index": 122,
+          "sceneId": "scene-122",
+          "fromFrame": 31942,
+          "durationFrames": 254,
+          "role": "reveal",
+          "narration": "They deserve to be yelled at. The justification, right? The energetic reality is the physical sensat"
+        }
+      ]
+    },
+    {
+      "id": "seq-38",
+      "source": "authored",
+      "fromFrame": 32196,
+      "durationFrames": 583,
+      "durationSeconds": 19.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 123,
+          "sceneId": "scene-123",
+          "fromFrame": 32196,
+          "durationFrames": 245,
+          "role": "authored-start",
+          "narration": "My jaw is locked. My palms are sweating. You are not agreeing with the narrative story. You are radi"
+        },
+        {
+          "index": 124,
+          "sceneId": "scene-124",
+          "fromFrame": 32441,
+          "durationFrames": 338,
+          "role": "authored-kept",
+          "narration": "I like that framing. You are accepting that there is a thunderstorm happening in your nervous system"
+        }
+      ]
+    },
+    {
+      "id": "seq-39",
+      "source": "engine",
+      "fromFrame": 32779,
+      "durationFrames": 492,
+      "durationSeconds": 16.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 125,
+          "sceneId": "scene-125",
+          "fromFrame": 32779,
+          "durationFrames": 255,
+          "role": "setup",
+          "narration": "You stop feeding the cognitive story that drives the destructive behavior. Resistance fuels the fire"
+        },
+        {
+          "index": 126,
+          "sceneId": "scene-126",
+          "fromFrame": 33034,
+          "durationFrames": 237,
+          "role": "reveal",
+          "narration": "I see. It's accepting that the storm is currently happening rather than standing out in the rain scr"
+        }
+      ]
+    },
+    {
+      "id": "seq-40",
+      "source": "authored",
+      "fromFrame": 33271,
+      "durationFrames": 427,
+      "durationSeconds": 14.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 127,
+          "sceneId": "scene-127",
+          "fromFrame": 33271,
+          "durationFrames": 252,
+          "role": "authored-start",
+          "narration": "You just acknowledge you are wet. Allowing means you finally stop fighting the prison warden on his "
+        },
+        {
+          "index": 128,
+          "sceneId": "scene-128",
+          "fromFrame": 33523,
+          "durationFrames": 175,
+          "role": "authored-kept",
+          "narration": "And once you stop resisting, the adrenaline starts to clear. The dust settles."
+        }
+      ]
+    },
+    {
+      "id": "seq-41",
+      "source": "engine",
+      "fromFrame": 33698,
+      "durationFrames": 718,
+      "durationSeconds": 23.9,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 129,
+          "sceneId": "scene-129",
+          "fromFrame": 33698,
+          "durationFrames": 396,
+          "role": "setup",
+          "narration": "But you can't just stop there or the feeling will come right back the next day. Right. Now that you "
+        },
+        {
+          "index": 130,
+          "sceneId": "scene-130",
+          "fromFrame": 34094,
+          "durationFrames": 322,
+          "role": "reveal",
+          "narration": "phase, the eye in rain. Investigate with care. So, we move from passive allowing to active inquiry. "
+        }
+      ]
+    },
+    {
+      "id": "seq-42",
+      "source": "authored",
+      "fromFrame": 34416,
+      "durationFrames": 1094,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 131,
+          "sceneId": "scene-131",
+          "fromFrame": 34416,
+          "durationFrames": 278,
+          "role": "authored-start",
+          "narration": "This is David. He's sitting in a chair in a therapist's office. His face is scrunched in utter conce"
+        },
+        {
+          "index": 132,
+          "sceneId": "scene-132",
+          "fromFrame": 34694,
+          "durationFrames": 291,
+          "role": "authored-kept",
+          "narration": "You could picture it perfectly. He is completely toxically obsessing over getting his ex-girlfriend "
+        },
+        {
+          "index": 133,
+          "sceneId": "scene-133",
+          "fromFrame": 34985,
+          "durationFrames": 249,
+          "role": "authored-kept",
+          "narration": "So, he's guided to investigate. But when he's asked where the wanting actually lives in his body, he"
+        },
+        {
+          "index": 134,
+          "sceneId": "scene-134",
+          "fromFrame": 35234,
+          "durationFrames": 276,
+          "role": "authored-kept",
+          "narration": "He describes a clawed hand with sharp nails sunk deep into his chest, violently yanking and shreddin"
+        }
+      ]
+    },
+    {
+      "id": "seq-43",
+      "source": "engine",
+      "fromFrame": 35510,
+      "durationFrames": 1299,
+      "durationSeconds": 43.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 135,
+          "sceneId": "scene-135",
+          "fromFrame": 35510,
+          "durationFrames": 384,
+          "role": "setup",
+          "narration": "That is visceral. It is a terrifying image, but it perfectly illustrates the mechanism of the step. "
+        },
+        {
+          "index": 136,
+          "sceneId": "scene-136",
+          "fromFrame": 35894,
+          "durationFrames": 305,
+          "role": "question",
+          "narration": "why you are mad because of something your mother did to you 20 years ago. We all love to do that tho"
+        },
+        {
+          "index": 137,
+          "sceneId": "scene-137",
+          "fromFrame": 36199,
+          "durationFrames": 247,
+          "role": "complication",
+          "narration": "True investigation is somatic curiosity. It is locating exactly where the emotion lives in the tissu"
+        },
+        {
+          "index": 138,
+          "sceneId": "scene-138",
+          "fromFrame": 36446,
+          "durationFrames": 363,
+          "role": "reveal",
+          "narration": "Is it a tight throat? Is it a hollow pit in the stomach? A racing pulse? You are interrogating the p"
+        }
+      ]
+    },
+    {
+      "id": "seq-44",
+      "source": "engine",
+      "fromFrame": 36809,
+      "durationFrames": 309,
+      "durationSeconds": 10.3,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 139,
+          "sceneId": "scene-139",
+          "fromFrame": 36809,
+          "durationFrames": 309,
+          "role": "reveal",
+          "narration": "It's like using your physical body as a radar system for your psychological wounds. There's another "
+        }
+      ]
+    },
+    {
+      "id": "seq-45",
+      "source": "authored",
+      "fromFrame": 37118,
+      "durationFrames": 742,
+      "durationSeconds": 24.7,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 140,
+          "sceneId": "scene-140",
+          "fromFrame": 37118,
+          "durationFrames": 372,
+          "role": "authored-start",
+          "narration": "She is investigating her own panic. She physically touches her chest and feels this dark, heavy, tig"
+        },
+        {
+          "index": 141,
+          "sceneId": "scene-141",
+          "fromFrame": 37490,
+          "durationFrames": 370,
+          "role": "authored-kept",
+          "narration": "feeling, breathing into it, she suddenly discovers this mental image of a little girl crouched insid"
+        }
+      ]
+    },
+    {
+      "id": "seq-46",
+      "source": "engine",
+      "fromFrame": 37860,
+      "durationFrames": 1066,
+      "durationSeconds": 35.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 142,
+          "sceneId": "scene-142",
+          "fromFrame": 37860,
+          "durationFrames": 377,
+          "role": "setup",
+          "narration": "That core terror is the unmet Exactly. She successfully moved from the cognitive surface level story"
+        },
+        {
+          "index": 143,
+          "sceneId": "scene-143",
+          "fromFrame": 38237,
+          "durationFrames": 221,
+          "role": "question",
+          "narration": "I am unlovable. That is the power of true investigation. You bypass the ego's excuses and find the a"
+        },
+        {
+          "index": 144,
+          "sceneId": "scene-144",
+          "fromFrame": 38458,
+          "durationFrames": 256,
+          "role": "complication",
+          "narration": "Okay. But I have a major concern here. What's that? Diving directly into an image of a claw shreddin"
+        },
+        {
+          "index": 145,
+          "sceneId": "scene-145",
+          "fromFrame": 38714,
+          "durationFrames": 212,
+          "role": "reveal",
+          "narration": "absolutely terrifying. What if the trauma is just too much? What if I look closely at that claw and "
+        }
+      ]
+    },
+    {
+      "id": "seq-47",
+      "source": "engine",
+      "fromFrame": 38926,
+      "durationFrames": 537,
+      "durationSeconds": 17.9,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 146,
+          "sceneId": "scene-146",
+          "fromFrame": 38926,
+          "durationFrames": 180,
+          "role": "setup",
+          "narration": "Doesn't this run the severe risk of just retraumatizing someone who has real PTSD?"
+        },
+        {
+          "index": 147,
+          "sceneId": "scene-147",
+          "fromFrame": 39106,
+          "durationFrames": 357,
+          "role": "reveal",
+          "narration": "That is a very real, very serious danger and it's something any clinical practitioner has to address"
+        }
+      ]
+    },
+    {
+      "id": "seq-48",
+      "source": "authored",
+      "fromFrame": 39463,
+      "durationFrames": 552,
+      "durationSeconds": 18.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 148,
+          "sceneId": "scene-148",
+          "fromFrame": 39463,
+          "durationFrames": 339,
+          "role": "authored-start",
+          "narration": "which was coined by Dr. Dan Can you explain the window of tolerance for us? Think of it as a bandwid"
+        },
+        {
+          "index": 149,
+          "sceneId": "scene-149",
+          "fromFrame": 39802,
+          "durationFrames": 213,
+          "role": "authored-kept",
+          "narration": "in the present moment. If you investigate a sensation and the fear pushes you outside that upper win"
+        }
+      ]
+    },
+    {
+      "id": "seq-49",
+      "source": "engine",
+      "fromFrame": 40015,
+      "durationFrames": 619,
+      "durationSeconds": 20.6,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 150,
+          "sceneId": "scene-150",
+          "fromFrame": 40015,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "meaning a traumatic flashback, dissociation, or a full-blown panic attack, sematic investigation wil"
+        },
+        {
+          "index": 151,
+          "sceneId": "scene-151",
+          "fromFrame": 40279,
+          "durationFrames": 355,
+          "role": "reveal",
+          "narration": "Your brain will just reinforce the trauma loop. You aren't healing. You're just reliving the nightma"
+        }
+      ]
+    },
+    {
+      "id": "seq-50",
+      "source": "authored",
+      "fromFrame": 40634,
+      "durationFrames": 581,
+      "durationSeconds": 19.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 152,
+          "sceneId": "scene-152",
+          "fromFrame": 40634,
+          "durationFrames": 341,
+          "role": "authored-start",
+          "narration": "If the investigation becomes too destabilizing, you stop immediately. You do not push through the pa"
+        },
+        {
+          "index": 153,
+          "sceneId": "scene-153",
+          "fromFrame": 40975,
+          "durationFrames": 240,
+          "role": "authored-kept",
+          "narration": "of biological safety. You do not force yourself to stare into the abyss if your nervous system is ac"
+        }
+      ]
+    },
+    {
+      "id": "seq-51",
+      "source": "authored",
+      "fromFrame": 41215,
+      "durationFrames": 516,
+      "durationSeconds": 17.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 154,
+          "sceneId": "scene-154",
+          "fromFrame": 41215,
+          "durationFrames": 336,
+          "role": "authored-start",
+          "narration": "You have to respect your own biological pacing. But if you can stay with it, if you can stay in that"
+        },
+        {
+          "index": 155,
+          "sceneId": "scene-155",
+          "fromFrame": 41551,
+          "durationFrames": 180,
+          "role": "authored-kept",
+          "narration": "inside your own tissue. You finally see the cage for exactly what it is and where it lives in your b"
+        }
+      ]
+    },
+    {
+      "id": "seq-52",
+      "source": "engine",
+      "fromFrame": 41731,
+      "durationFrames": 387,
+      "durationSeconds": 12.9,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 156,
+          "sceneId": "scene-156",
+          "fromFrame": 41731,
+          "durationFrames": 147,
+          "role": "setup",
+          "narration": "Which leads us seamlessly into the most transformative active step of the protocol."
+        },
+        {
+          "index": 157,
+          "sceneId": "scene-157",
+          "fromFrame": 41878,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "Nurture with loving presence. This is the turning point. This is where we shift from observing and m"
+        }
+      ]
+    },
+    {
+      "id": "seq-53",
+      "source": "authored",
+      "fromFrame": 42118,
+      "durationFrames": 1610,
+      "durationSeconds": 53.7,
+      "sceneCount": 6,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 158,
+          "sceneId": "scene-158",
+          "fromFrame": 42118,
+          "durationFrames": 211,
+          "role": "authored-start",
+          "narration": "Picture this scene. It's a silent winter meditation retreat. It's freezing outside, completely quiet"
+        },
+        {
+          "index": 159,
+          "sceneId": "scene-159",
+          "fromFrame": 42329,
+          "durationFrames": 326,
+          "role": "authored-kept",
+          "narration": "Tar Brock is sitting there and she is suddenly swamped by an overwhelming wave of guilt. She's obses"
+        },
+        {
+          "index": 160,
+          "sceneId": "scene-160",
+          "fromFrame": 42655,
+          "durationFrames": 274,
+          "role": "authored-kept",
+          "narration": "a good enough partner. We've all gone down that spiral. Oh, completely. She investigates this feelin"
+        },
+        {
+          "index": 161,
+          "sceneId": "scene-161",
+          "fromFrame": 42929,
+          "durationFrames": 225,
+          "role": "authored-kept",
+          "narration": "She feels utterly helpless against it. It's too big. So right there in the quiet room, she breaks th"
+        },
+        {
+          "index": 162,
+          "sceneId": "scene-162",
+          "fromFrame": 43154,
+          "durationFrames": 216,
+          "role": "authored-kept",
+          "narration": "\"Please love me.\" She surrenders to the vulnerability and suddenly she senses this field of light"
+        },
+        {
+          "index": 163,
+          "sceneId": "scene-163",
+          "fromFrame": 43370,
+          "durationFrames": 358,
+          "role": "authored-kept",
+          "narration": "and she feels a tender almost physical kiss on her brow from a boundless compassionate and and it's "
+        }
+      ]
+    },
+    {
+      "id": "seq-54",
+      "source": "engine",
+      "fromFrame": 43728,
+      "durationFrames": 1075,
+      "durationSeconds": 35.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 164,
+          "sceneId": "scene-164",
+          "fromFrame": 43728,
+          "durationFrames": 324,
+          "role": "setup",
+          "narration": "active kindness directly to your somatic pain. Now it's not just thinking nice positive thoughts. Ye"
+        },
+        {
+          "index": 165,
+          "sceneId": "scene-165",
+          "fromFrame": 44052,
+          "durationFrames": 386,
+          "role": "question",
+          "narration": "just thinking good thoughts, you know, it means actually like physically intervening. It it means pl"
+        },
+        {
+          "index": 166,
+          "sceneId": "scene-166",
+          "fromFrame": 44438,
+          "durationFrames": 365,
+          "role": "reveal",
+          "narration": "the hurting part of you needs most. You know, it's it's saying it's not your fault or I am here. You"
+        }
+      ]
+    },
+    {
+      "id": "seq-55",
+      "source": "authored",
+      "fromFrame": 44803,
+      "durationFrames": 960,
+      "durationSeconds": 32,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 167,
+          "sceneId": "scene-167",
+          "fromFrame": 44803,
+          "durationFrames": 406,
+          "role": "authored-start",
+          "narration": "you mapped out during the investigation phase. You are literally reparing your own nervous system. T"
+        },
+        {
+          "index": 168,
+          "sceneId": "scene-168",
+          "fromFrame": 45209,
+          "durationFrames": 297,
+          "role": "authored-kept",
+          "narration": "She's consumed by absolute toxic self-hatred. to nurture herself because she literally cannot find a"
+        },
+        {
+          "index": 169,
+          "sceneId": "scene-169",
+          "fromFrame": 45506,
+          "durationFrames": 257,
+          "role": "authored-kept",
+          "narration": "She uses what Bra calls a resource anchor. A very powerful technique. Brenda closes her eyes and vis"
+        }
+      ]
+    },
+    {
+      "id": "seq-56",
+      "source": "authored",
+      "fromFrame": 45763,
+      "durationFrames": 528,
+      "durationSeconds": 17.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 170,
+          "sceneId": "scene-170",
+          "fromFrame": 45763,
+          "durationFrames": 238,
+          "role": "authored-start",
+          "narration": "She pictures this vibrant, forgiving, healthy woman with clear blue eyes standing in a beautiful sun"
+        },
+        {
+          "index": 171,
+          "sceneId": "scene-171",
+          "fromFrame": 46001,
+          "durationFrames": 290,
+          "role": "authored-kept",
+          "narration": "And she imagines this future self walking up to her current broken hung over self and whispering, \"Y"
+        }
+      ]
+    },
+    {
+      "id": "seq-57",
+      "source": "engine",
+      "fromFrame": 46291,
+      "durationFrames": 353,
+      "durationSeconds": 11.8,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 172,
+          "sceneId": "scene-172",
+          "fromFrame": 46291,
+          "durationFrames": 353,
+          "role": "reveal",
+          "narration": "Trust your caring heart.\" She is sourcing compassion from within, but she is using visualization to "
+        }
+      ]
+    },
+    {
+      "id": "seq-58",
+      "source": "authored",
+      "fromFrame": 46644,
+      "durationFrames": 612,
+      "durationSeconds": 20.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 173,
+          "sceneId": "scene-173",
+          "fromFrame": 46644,
+          "durationFrames": 389,
+          "role": "authored-start",
+          "narration": "stop you. Making up an imaginary future self with dogs to talk to me. That sounds like delusional I "
+        },
+        {
+          "index": 174,
+          "sceneId": "scene-174",
+          "fromFrame": 47033,
+          "durationFrames": 223,
+          "role": "authored-kept",
+          "narration": "magical future being in a field feels like I'm just escaping reality. It feels like a hallucination "
+        }
+      ]
+    },
+    {
+      "id": "seq-59",
+      "source": "engine",
+      "fromFrame": 47256,
+      "durationFrames": 1306,
+      "durationSeconds": 43.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 175,
+          "sceneId": "scene-175",
+          "fromFrame": 47256,
+          "durationFrames": 250,
+          "role": "setup",
+          "narration": "I completely understand why it sounds like woo woo escapism. But from a hard neurobiological perspec"
+        },
+        {
+          "index": 176,
+          "sceneId": "scene-176",
+          "fromFrame": 47506,
+          "durationFrames": 304,
+          "role": "question",
+          "narration": "It is a neurological bridge. Think about the architecture of the brain. The prefrontal cortex alread"
+        },
+        {
+          "index": 177,
+          "sceneId": "scene-177",
+          "fromFrame": 47810,
+          "durationFrames": 382,
+          "role": "complication",
+          "narration": "Okay, so the hardware is there. You possess the hardware. But when you were steeped in acute trauma "
+        },
+        {
+          "index": 178,
+          "sceneId": "scene-178",
+          "fromFrame": 48192,
+          "durationFrames": 370,
+          "role": "reveal",
+          "narration": "By visualizing a high self or a future self, you are giving your brain a A backdoor? Yes. The brain "
+        }
+      ]
+    },
+    {
+      "id": "seq-60",
+      "source": "engine",
+      "fromFrame": 48562,
+      "durationFrames": 1027,
+      "durationSeconds": 34.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 179,
+          "sceneId": "scene-179",
+          "fromFrame": 48562,
+          "durationFrames": 324,
+          "role": "setup",
+          "narration": "Visualizing that compassionate figure forces the brain to fire those dormant neurons. You are using "
+        },
+        {
+          "index": 180,
+          "sceneId": "scene-180",
+          "fromFrame": 48886,
+          "durationFrames": 247,
+          "role": "question",
+          "narration": "You keep firing those specific pathways until the feeling of compassion feels native and accessible "
+        },
+        {
+          "index": 181,
+          "sceneId": "scene-181",
+          "fromFrame": 49133,
+          "durationFrames": 185,
+          "role": "complication",
+          "narration": "You're just using a proxy to jumpstart your own hardware. That completely shifts how I view visualiz"
+        },
+        {
+          "index": 182,
+          "sceneId": "scene-182",
+          "fromFrame": 49318,
+          "durationFrames": 271,
+          "role": "reveal",
+          "narration": "Nurturing is how you finally take the keys away from the prison warden. You you replace the warden's"
+        }
+      ]
+    },
+    {
+      "id": "seq-61",
+      "source": "engine",
+      "fromFrame": 49589,
+      "durationFrames": 523,
+      "durationSeconds": 17.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 183,
+          "sceneId": "scene-183",
+          "fromFrame": 49589,
+          "durationFrames": 271,
+          "role": "setup",
+          "narration": "Beautifully put. And once you do that, once the nervous system regulates, you enter a completely dif"
+        },
+        {
+          "index": 184,
+          "sceneId": "scene-184",
+          "fromFrame": 49860,
+          "durationFrames": 252,
+          "role": "reveal",
+          "narration": "after the rain, the shift into presence. And this is where the entire practice shifts gears. You mov"
+        }
+      ]
+    },
+    {
+      "id": "seq-62",
+      "source": "authored",
+      "fromFrame": 50112,
+      "durationFrames": 461,
+      "durationSeconds": 15.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 185,
+          "sceneId": "scene-185",
+          "fromFrame": 50112,
+          "durationFrames": 281,
+          "role": "authored-start",
+          "narration": "into the being of the result. Let's look at Max. Max is an executive who is totally unhealthily obse"
+        },
+        {
+          "index": 186,
+          "sceneId": "scene-186",
+          "fromFrame": 50393,
+          "durationFrames": 180,
+          "role": "authored-kept",
+          "narration": "He is constantly chasing the next win. Terrified of failure, never satisfied with what he has,"
+        }
+      ]
+    },
+    {
+      "id": "seq-63",
+      "source": "engine",
+      "fromFrame": 50573,
+      "durationFrames": 360,
+      "durationSeconds": 12,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 187,
+          "sceneId": "scene-187",
+          "fromFrame": 50573,
+          "durationFrames": 360,
+          "role": "reveal",
+          "narration": "he sits down, runs through the rain protocol, and at the nurturing stage, he imagines a small sailbo"
+        }
+      ]
+    },
+    {
+      "id": "seq-64",
+      "source": "authored",
+      "fromFrame": 50933,
+      "durationFrames": 545,
+      "durationSeconds": 18.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 188,
+          "sceneId": "scene-188",
+          "fromFrame": 50933,
+          "durationFrames": 357,
+          "role": "authored-start",
+          "narration": "It just lets go. When he opens his eyes after the meditation, he feels the sudden glowing warmth in "
+        },
+        {
+          "index": 189,
+          "sceneId": "scene-189",
+          "fromFrame": 51290,
+          "durationFrames": 188,
+          "role": "authored-kept",
+          "narration": "here breathing. This is it. That realization is the gold of the entire practice."
+        }
+      ]
+    },
+    {
+      "id": "seq-65",
+      "source": "engine",
+      "fromFrame": 51478,
+      "durationFrames": 1226,
+      "durationSeconds": 40.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 190,
+          "sceneId": "scene-190",
+          "fromFrame": 51478,
+          "durationFrames": 254,
+          "role": "setup",
+          "narration": "After the rain is not another action step. You aren't trying to achieve or fix or analyze anything h"
+        },
+        {
+          "index": 191,
+          "sceneId": "scene-191",
+          "fromFrame": 51732,
+          "durationFrames": 278,
+          "role": "question",
+          "narration": "It is resting in natural awareness. You were simply observing the profound internal shift from a con"
+        },
+        {
+          "index": 192,
+          "sceneId": "scene-192",
+          "fromFrame": 52010,
+          "durationFrames": 358,
+          "role": "complication",
+          "narration": "anxious self. Yes, the self that is always judging things is good or bad into a spacious, formless f"
+        },
+        {
+          "index": 193,
+          "sceneId": "scene-193",
+          "fromFrame": 52368,
+          "durationFrames": 336,
+          "role": "reveal",
+          "narration": "the parking lot at the very beginning of our Yeah. Outside the nursing home, she practices rain in h"
+        }
+      ]
+    },
+    {
+      "id": "seq-66",
+      "source": "authored",
+      "fromFrame": 52704,
+      "durationFrames": 974,
+      "durationSeconds": 32.5,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 194,
+          "sceneId": "scene-194",
+          "fromFrame": 52704,
+          "durationFrames": 266,
+          "role": "authored-start",
+          "narration": "But the real structural shift happens later that night. Before she goes to sleep, lying in the dark,"
+        },
+        {
+          "index": 195,
+          "sceneId": "scene-195",
+          "fromFrame": 52970,
+          "durationFrames": 375,
+          "role": "authored-kept",
+          "narration": "Who would I be if I didn't believe this negative story about Such a powerful question. And just by a"
+        },
+        {
+          "index": 196,
+          "sceneId": "scene-196",
+          "fromFrame": 53345,
+          "durationFrames": 333,
+          "role": "authored-kept",
+          "narration": "physical feeling of buoyancy and peace. It's a feeling that exists completely outside of her daily g"
+        }
+      ]
+    },
+    {
+      "id": "seq-67",
+      "source": "engine",
+      "fromFrame": 53678,
+      "durationFrames": 764,
+      "durationSeconds": 25.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 197,
+          "sceneId": "scene-197",
+          "fromFrame": 53678,
+          "durationFrames": 260,
+          "role": "setup",
+          "narration": "She tasted what Buddhist philosophy refers to as emptiness. But we have to be careful with that word"
+        },
+        {
+          "index": 198,
+          "sceneId": "scene-198",
+          "fromFrame": 53938,
+          "durationFrames": 199,
+          "role": "question",
+          "narration": "like depression. But in this context, emptiness means freedom from a fixed limiting identity."
+        },
+        {
+          "index": 199,
+          "sceneId": "scene-199",
+          "fromFrame": 54137,
+          "durationFrames": 305,
+          "role": "reveal",
+          "narration": "It is the absence of the false self. But wait, if I let go of my identity, if I realize I am not thi"
+        }
+      ]
+    },
+    {
+      "id": "seq-68",
+      "source": "authored",
+      "fromFrame": 54442,
+      "durationFrames": 487,
+      "durationSeconds": 16.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 200,
+          "sceneId": "scene-200",
+          "fromFrame": 54442,
+          "durationFrames": 244,
+          "role": "authored-start",
+          "narration": "If Max the executive stops obsessing over his investments and just realizes this is it, won't he jus"
+        },
+        {
+          "index": 201,
+          "sceneId": "scene-201",
+          "fromFrame": 54686,
+          "durationFrames": 243,
+          "role": "authored-kept",
+          "narration": "I feel like we need that ego identity, that friction to actually get things done in the real world, "
+        }
+      ]
+    },
+    {
+      "id": "seq-69",
+      "source": "engine",
+      "fromFrame": 54929,
+      "durationFrames": 545,
+      "durationSeconds": 18.2,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 202,
+          "sceneId": "scene-202",
+          "fromFrame": 54929,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "It's a very common fear, but it's based on a fundamental misunderstanding of what ego identity actua"
+        },
+        {
+          "index": 203,
+          "sceneId": "scene-203",
+          "fromFrame": 55174,
+          "durationFrames": 300,
+          "role": "reveal",
+          "narration": "Shedding that identity doesn't mean you become a vegetable sitting on a cushion all day. It means sh"
+        }
+      ]
+    },
+    {
+      "id": "seq-70",
+      "source": "authored",
+      "fromFrame": 55474,
+      "durationFrames": 465,
+      "durationSeconds": 15.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 204,
+          "sceneId": "scene-204",
+          "fromFrame": 55474,
+          "durationFrames": 153,
+          "role": "authored-start",
+          "narration": "Think about how much literal caloric energy it takes to constantly defend your ego."
+        },
+        {
+          "index": 205,
+          "sceneId": "scene-205",
+          "fromFrame": 55627,
+          "durationFrames": 312,
+          "role": "authored-kept",
+          "narration": "Think about how exhausting it is to constantly worry about how you look to others, to constantly fig"
+        }
+      ]
+    },
+    {
+      "id": "seq-71",
+      "source": "engine",
+      "fromFrame": 55939,
+      "durationFrames": 723,
+      "durationSeconds": 24.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 206,
+          "sceneId": "scene-206",
+          "fromFrame": 55939,
+          "durationFrames": 178,
+          "role": "setup",
+          "narration": "It really is. Without the friction of constant self-defense, you actually have more energy available"
+        },
+        {
+          "index": 207,
+          "sceneId": "scene-207",
+          "fromFrame": 56117,
+          "durationFrames": 216,
+          "role": "question",
+          "narration": "You have higher creativity, better problem solving, and vastly deeper resilience to engage with your"
+        },
+        {
+          "index": 208,
+          "sceneId": "scene-208",
+          "fromFrame": 56333,
+          "durationFrames": 329,
+          "role": "reveal",
+          "narration": "Max doesn't stop working or investing. He just stops working from a place of desperate panic and lac"
+        }
+      ]
+    },
+    {
+      "id": "seq-72",
+      "source": "authored",
+      "fromFrame": 56662,
+      "durationFrames": 432,
+      "durationSeconds": 14.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 209,
+          "sceneId": "scene-209",
+          "fromFrame": 56662,
+          "durationFrames": 206,
+          "role": "authored-start",
+          "narration": "finally vanished. You you look around and you realize you are no longer in the cell. You are the ope"
+        },
+        {
+          "index": 210,
+          "sceneId": "scene-210",
+          "fromFrame": 56868,
+          "durationFrames": 226,
+          "role": "authored-kept",
+          "narration": "You don't lose your life. You finally get to live it without the cage. Now this internal this this l"
+        }
+      ]
+    },
+    {
+      "id": "seq-73",
+      "source": "engine",
+      "fromFrame": 57094,
+      "durationFrames": 729,
+      "durationSeconds": 24.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 211,
+          "sceneId": "scene-211",
+          "fromFrame": 57094,
+          "durationFrames": 256,
+          "role": "setup",
+          "narration": "you know, this internal liberation, it's incredible. But we don't live in a vacuum. And this shift i"
+        },
+        {
+          "index": 212,
+          "sceneId": "scene-212",
+          "fromFrame": 57350,
+          "durationFrames": 180,
+          "role": "question",
+          "narration": "Which brings us to the application of this outward interpersonal rain and common humanity."
+        },
+        {
+          "index": 213,
+          "sceneId": "scene-213",
+          "fromFrame": 57530,
+          "durationFrames": 293,
+          "role": "reveal",
+          "narration": "And this is where the rubber meets the road. We take the internal technology of rain and apply it to"
+        }
+      ]
+    },
+    {
+      "id": "seq-74",
+      "source": "authored",
+      "fromFrame": 57823,
+      "durationFrames": 1443,
+      "durationSeconds": 48.1,
+      "sceneCount": 6,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 214,
+          "sceneId": "scene-214",
+          "fromFrame": 57823,
+          "durationFrames": 209,
+          "role": "authored-start",
+          "narration": "Listen to this intense scene. Mitch is at a workshop focusing on this painful squeezing in his chest"
+        },
+        {
+          "index": 215,
+          "sceneId": "scene-215",
+          "fromFrame": 58032,
+          "durationFrames": 338,
+          "role": "authored-kept",
+          "narration": "He's vividly remembering a horrible traumatic moment from his recent past. His mother's screaming at"
+        },
+        {
+          "index": 216,
+          "sceneId": "scene-216",
+          "fromFrame": 58370,
+          "durationFrames": 248,
+          "role": "authored-kept",
+          "narration": "The mother So stressful. But after yelling, his mother suddenly crumples to the floor in tears of ab"
+        },
+        {
+          "index": 217,
+          "sceneId": "scene-217",
+          "fromFrame": 58618,
+          "durationFrames": 201,
+          "role": "authored-kept",
+          "narration": "Mitch is sitting in the workshop recalling this. Feeling the heavy, suffocating guilt of empathic di"
+        },
+        {
+          "index": 218,
+          "sceneId": "scene-218",
+          "fromFrame": 58819,
+          "durationFrames": 204,
+          "role": "authored-kept",
+          "narration": "He's furious at his mom for yelling at a sick old man. but he is also drowning in her pain and his d"
+        },
+        {
+          "index": 219,
+          "sceneId": "scene-219",
+          "fromFrame": 59023,
+          "durationFrames": 243,
+          "role": "authored-kept",
+          "narration": "It's a total emotional pileup. It's a tangled web of deep reactivity. If we break this down, the cor"
+        }
+      ]
+    },
+    {
+      "id": "seq-75",
+      "source": "engine",
+      "fromFrame": 59266,
+      "durationFrames": 1135,
+      "durationSeconds": 37.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 220,
+          "sceneId": "scene-220",
+          "fromFrame": 59266,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "that when we are stressed, we naturally turn other people into what Brock calls unreal others. Unrea"
+        },
+        {
+          "index": 221,
+          "sceneId": "scene-221",
+          "fromFrame": 59530,
+          "durationFrames": 232,
+          "role": "question",
+          "narration": "We make them two-dimensional. They become mere obstacles to our happiness or enemies or just sources"
+        },
+        {
+          "index": 222,
+          "sceneId": "scene-222",
+          "fromFrame": 59762,
+          "durationFrames": 281,
+          "role": "complication",
+          "narration": "Interpersonal reign is the tool to break the cycle of Whether it's with your partner or your colleag"
+        },
+        {
+          "index": 223,
+          "sceneId": "scene-223",
+          "fromFrame": 60043,
+          "durationFrames": 358,
+          "role": "reveal",
+          "narration": "you have to investigate your own distress first. You can't start with them. Right. That's right. No."
+        }
+      ]
+    },
+    {
+      "id": "seq-76",
+      "source": "authored",
+      "fromFrame": 60401,
+      "durationFrames": 475,
+      "durationSeconds": 15.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 224,
+          "sceneId": "scene-224",
+          "fromFrame": 60401,
+          "durationFrames": 221,
+          "role": "authored-start",
+          "narration": "Once you clear your own fear and anger through rain, the veil drops. You can actually see the other "
+        },
+        {
+          "index": 225,
+          "sceneId": "scene-225",
+          "fromFrame": 60622,
+          "durationFrames": 254,
+          "role": "authored-kept",
+          "narration": "You see their raw vulnerability instead of just reacting to their toxic You see the terrified human "
+        }
+      ]
+    },
+    {
+      "id": "seq-77",
+      "source": "engine",
+      "fromFrame": 60876,
+      "durationFrames": 648,
+      "durationSeconds": 21.6,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 226,
+          "sceneId": "scene-226",
+          "fromFrame": 60876,
+          "durationFrames": 365,
+          "role": "setup",
+          "narration": "But I want to push this concept to the absolute extreme. Because it's easy to empathize with a stres"
+        },
+        {
+          "index": 227,
+          "sceneId": "scene-227",
+          "fromFrame": 61241,
+          "durationFrames": 283,
+          "role": "reveal",
+          "narration": "a close family friend of hers is murdered. And the killer is a man who was specifically driving arou"
+        }
+      ]
+    },
+    {
+      "id": "seq-78",
+      "source": "authored",
+      "fromFrame": 61524,
+      "durationFrames": 761,
+      "durationSeconds": 25.4,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 228,
+          "sceneId": "scene-228",
+          "fromFrame": 61524,
+          "durationFrames": 286,
+          "role": "authored-start",
+          "narration": "It's horrifying. To survive the sheer crushing hatred and grief of this reality, Valerie Core forces"
+        },
+        {
+          "index": 229,
+          "sceneId": "scene-229",
+          "fromFrame": 61810,
+          "durationFrames": 211,
+          "role": "authored-kept",
+          "narration": "she uses rain, clears her own immediate shock, and asks the most difficult question imaginable."
+        },
+        {
+          "index": 230,
+          "sceneId": "scene-230",
+          "fromFrame": 62021,
+          "durationFrames": 264,
+          "role": "authored-kept",
+          "narration": "What's it like being you? And through that she uncovers the profound socially conditioned terror and"
+        }
+      ]
+    },
+    {
+      "id": "seq-79",
+      "source": "engine",
+      "fromFrame": 62285,
+      "durationFrames": 295,
+      "durationSeconds": 9.8,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 231,
+          "sceneId": "scene-231",
+          "fromFrame": 62285,
+          "durationFrames": 295,
+          "role": "reveal",
+          "narration": "That is a staggering almost superhuman application of compassion. It requires stepping entirely outs"
+        }
+      ]
+    },
+    {
+      "id": "seq-80",
+      "source": "authored",
+      "fromFrame": 62580,
+      "durationFrames": 521,
+      "durationSeconds": 17.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 232,
+          "sceneId": "scene-232",
+          "fromFrame": 62580,
+          "durationFrames": 298,
+          "role": "authored-start",
+          "narration": "I have to stop here because I think a lot of people will strongly object to this. You are asking me "
+        },
+        {
+          "index": 233,
+          "sceneId": "scene-233",
+          "fromFrame": 62878,
+          "durationFrames": 223,
+          "role": "authored-kept",
+          "narration": "That feels morally repulsive. Some people aren't just scared or vulnerable underneath it all. Some p"
+        }
+      ]
+    },
+    {
+      "id": "seq-81",
+      "source": "engine",
+      "fromFrame": 63101,
+      "durationFrames": 1214,
+      "durationSeconds": 40.5,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 234,
+          "sceneId": "scene-234",
+          "fromFrame": 63101,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "If we spend all our time and energy trying to empathize with murderers and abusers, aren't we just e"
+        },
+        {
+          "index": 235,
+          "sceneId": "scene-235",
+          "fromFrame": 63362,
+          "durationFrames": 231,
+          "role": "question",
+          "narration": "It feels like a betrayal of justice. But this raises the most important question about the nature of"
+        },
+        {
+          "index": 236,
+          "sceneId": "scene-236",
+          "fromFrame": 63593,
+          "durationFrames": 199,
+          "role": "partial_answer",
+          "narration": "Finding common humanity is not pity and it absolutely categorically does not excuse"
+        },
+        {
+          "index": 237,
+          "sceneId": "scene-237",
+          "fromFrame": 63792,
+          "durationFrames": 180,
+          "role": "complication",
+          "narration": "evil behavior. Accountability, justice, and physical boundaries must still happen."
+        },
+        {
+          "index": 238,
+          "sceneId": "scene-238",
+          "fromFrame": 63972,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "Okay, so she's not saying let him go. Not at all. But recognizing common humanity is the rigorous sc"
+        }
+      ]
+    },
+    {
+      "id": "seq-82",
+      "source": "authored",
+      "fromFrame": 64315,
+      "durationFrames": 516,
+      "durationSeconds": 17.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 239,
+          "sceneId": "scene-239",
+          "fromFrame": 64315,
+          "durationFrames": 187,
+          "role": "authored-start",
+          "narration": "When human beings are deeply completely identified with their survival brain, they commit horrific a"
+        },
+        {
+          "index": 240,
+          "sceneId": "scene-240",
+          "fromFrame": 64502,
+          "durationFrames": 329,
+          "role": "authored-kept",
+          "narration": "If we label them as unreal others, if we say they are just monsters, a completely different species "
+        }
+      ]
+    },
+    {
+      "id": "seq-83",
+      "source": "engine",
+      "fromFrame": 64831,
+      "durationFrames": 142,
+      "durationSeconds": 4.7,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 241,
+          "sceneId": "scene-241",
+          "fromFrame": 64831,
+          "durationFrames": 142,
+          "role": "reveal",
+          "narration": "fight. We become the monster to fight the monster."
+        }
+      ]
+    },
+    {
+      "id": "seq-84",
+      "source": "authored",
+      "fromFrame": 64973,
+      "durationFrames": 612,
+      "durationSeconds": 20.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 242,
+          "sceneId": "scene-242",
+          "fromFrame": 64973,
+          "durationFrames": 240,
+          "role": "authored-start",
+          "narration": "We become capable of the exact same dehumanization. So empathy in this extreme context isn't about l"
+        },
+        {
+          "index": 243,
+          "sceneId": "scene-243",
+          "fromFrame": 65213,
+          "durationFrames": 372,
+          "role": "authored-kept",
+          "narration": "It's about making sure we don't get put on the hook of hatred. The prison warden doesn't just lock y"
+        }
+      ]
+    },
+    {
+      "id": "seq-85",
+      "source": "engine",
+      "fromFrame": 65585,
+      "durationFrames": 187,
+      "durationSeconds": 6.2,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 244,
+          "sceneId": "scene-244",
+          "fromFrame": 65585,
+          "durationFrames": 187,
+          "role": "reveal",
+          "narration": "other, you are entirely alone in a prison of your own making, surrounded by enemies."
+        }
+      ]
+    },
+    {
+      "id": "seq-86",
+      "source": "authored",
+      "fromFrame": 65772,
+      "durationFrames": 420,
+      "durationSeconds": 14,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 245,
+          "sceneId": "scene-245",
+          "fromFrame": 65772,
+          "durationFrames": 192,
+          "role": "authored-start",
+          "narration": "Which brings us to the ultimate highest goal of all this work. Living with an unconditional heart"
+        },
+        {
+          "index": 246,
+          "sceneId": "scene-246",
+          "fromFrame": 65964,
+          "durationFrames": 228,
+          "role": "authored-kept",
+          "narration": "or what the Buddhist tradition calls the bodhic sattva in daily life. I want to take you to a litera"
+        }
+      ]
+    },
+    {
+      "id": "seq-87",
+      "source": "authored",
+      "fromFrame": 66192,
+      "durationFrames": 924,
+      "durationSeconds": 30.8,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 247,
+          "sceneId": "scene-247",
+          "fromFrame": 66192,
+          "durationFrames": 302,
+          "role": "authored-start",
+          "narration": "San Quentin. Jarvis Masters is an inmate living on death row. He is standing out in the prison yard "
+        },
+        {
+          "index": 248,
+          "sceneId": "scene-248",
+          "fromFrame": 66494,
+          "durationFrames": 272,
+          "role": "authored-kept",
+          "narration": "It is the definition of bleak. And he's watching a single seagull fly freely through the chainlink f"
+        },
+        {
+          "index": 249,
+          "sceneId": "scene-249",
+          "fromFrame": 66766,
+          "durationFrames": 350,
+          "role": "authored-kept",
+          "narration": "A guard looks at Jarvis and asks why he looks so peaceful, so happy in such a hopeless, condemned pl"
+        }
+      ]
+    },
+    {
+      "id": "seq-88",
+      "source": "engine",
+      "fromFrame": 67116,
+      "durationFrames": 1159,
+      "durationSeconds": 38.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 250,
+          "sceneId": "scene-250",
+          "fromFrame": 67116,
+          "durationFrames": 358,
+          "role": "setup",
+          "narration": "That story gives me chills every single time I hear it. That is the absolute embodiment of radical c"
+        },
+        {
+          "index": 251,
+          "sceneId": "scene-251",
+          "fromFrame": 67474,
+          "durationFrames": 208,
+          "role": "question",
+          "narration": "Extending radical compassion outwards is not a passive soft nice mindset. It is immense"
+        },
+        {
+          "index": 252,
+          "sceneId": "scene-252",
+          "fromFrame": 67682,
+          "durationFrames": 207,
+          "role": "complication",
+          "narration": "staggering courage. Courage. Yeah. It is the foundation for social repair and active resilience in a"
+        },
+        {
+          "index": 253,
+          "sceneId": "scene-253",
+          "fromFrame": 67889,
+          "durationFrames": 386,
+          "role": "reveal",
+          "narration": "It is living the bodhic sattva ideal which is the vow to awaken and find freedom not just for yourse"
+        }
+      ]
+    },
+    {
+      "id": "seq-89",
+      "source": "engine",
+      "fromFrame": 68275,
+      "durationFrames": 881,
+      "durationSeconds": 29.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 254,
+          "sceneId": "scene-254",
+          "fromFrame": 68275,
+          "durationFrames": 406,
+          "role": "setup",
+          "narration": "It's realizing our absolute undeniable interconnectedness. There's this incredible piercing quote fr"
+        },
+        {
+          "index": 255,
+          "sceneId": "scene-255",
+          "fromFrame": 68681,
+          "durationFrames": 187,
+          "role": "question",
+          "narration": "outsiders so clearly. They said, \"If you have come here to help me, you are wasting your time."
+        },
+        {
+          "index": 256,
+          "sceneId": "scene-256",
+          "fromFrame": 68868,
+          "durationFrames": 288,
+          "role": "reveal",
+          "narration": "But if you have come because your liberation is bound up with mine, then let us work together.\" True"
+        }
+      ]
+    },
+    {
+      "id": "seq-90",
+      "source": "authored",
+      "fromFrame": 69156,
+      "durationFrames": 566,
+      "durationSeconds": 18.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 257,
+          "sceneId": "scene-257",
+          "fromFrame": 69156,
+          "durationFrames": 199,
+          "role": "authored-start",
+          "narration": "The Aboriginal activists recognize that pity is toxic. Pity is hierarchical. It says, \"I am above yo"
+        },
+        {
+          "index": 258,
+          "sceneId": "scene-258",
+          "fromFrame": 69355,
+          "durationFrames": 367,
+          "role": "authored-kept",
+          "narration": "Let me reach down and save you.\" Compassion is horizontal. It says, \"We are in the exact same web of"
+        }
+      ]
+    },
+    {
+      "id": "seq-91",
+      "source": "authored",
+      "fromFrame": 69722,
+      "durationFrames": 483,
+      "durationSeconds": 16.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 259,
+          "sceneId": "scene-259",
+          "fromFrame": 69722,
+          "durationFrames": 188,
+          "role": "authored-start",
+          "narration": "own life together between work deadlines, raising kids, paying bills, and managing my own mental hea"
+        },
+        {
+          "index": 260,
+          "sceneId": "scene-260",
+          "fromFrame": 69910,
+          "durationFrames": 295,
+          "role": "authored-kept",
+          "narration": "My bandwidth is maxed out. If I actually open my heart to the suffering of the whole world, the wars"
+        }
+      ]
+    },
+    {
+      "id": "seq-92",
+      "source": "engine",
+      "fromFrame": 70205,
+      "durationFrames": 833,
+      "durationSeconds": 27.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 261,
+          "sceneId": "scene-261",
+          "fromFrame": 70205,
+          "durationFrames": 372,
+          "role": "setup",
+          "narration": "Won't I just suffer massive empathic burnout and become totally non-functional? It's a very real con"
+        },
+        {
+          "index": 262,
+          "sceneId": "scene-262",
+          "fromFrame": 70577,
+          "durationFrames": 249,
+          "role": "question",
+          "narration": "of what compassion actually is. You only burn out when you try to fix the world from your small ego-"
+        },
+        {
+          "index": 263,
+          "sceneId": "scene-263",
+          "fromFrame": 70826,
+          "durationFrames": 212,
+          "role": "reveal",
+          "narration": "When you use your personal limited caloric energy to try and control outcomes and carry everyone's p"
+        }
+      ]
+    },
+    {
+      "id": "seq-93",
+      "source": "authored",
+      "fromFrame": 71038,
+      "durationFrames": 549,
+      "durationSeconds": 18.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 264,
+          "sceneId": "scene-264",
+          "fromFrame": 71038,
+          "durationFrames": 331,
+          "role": "authored-start",
+          "narration": "you'll absolutely exhaust yourself. Right? But true compassion like the Tibetan practice of Tonglin "
+        },
+        {
+          "index": 265,
+          "sceneId": "scene-265",
+          "fromFrame": 71369,
+          "durationFrames": 218,
+          "role": "authored-kept",
+          "narration": "out relief as bright light means holding the world's pain in the boundless space of shared vulnerabi"
+        }
+      ]
+    },
+    {
+      "id": "seq-94",
+      "source": "engine",
+      "fromFrame": 71587,
+      "durationFrames": 1126,
+      "durationSeconds": 37.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 266,
+          "sceneId": "scene-266",
+          "fromFrame": 71587,
+          "durationFrames": 233,
+          "role": "setup",
+          "narration": "You aren't holding it in your tiny ego. You are holding it in vast awareness. The space itself doesn"
+        },
+        {
+          "index": 267,
+          "sceneId": "scene-267",
+          "fromFrame": 71820,
+          "durationFrames": 274,
+          "role": "question",
+          "narration": "Only the ego does. It's like the difference between trying to hold the entire ocean in a plastic buc"
+        },
+        {
+          "index": 268,
+          "sceneId": "scene-268",
+          "fromFrame": 72094,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "The bucket breaks, the ocean just holds the waves. And when you finally realize that, you realize th"
+        },
+        {
+          "index": 269,
+          "sceneId": "scene-269",
+          "fromFrame": 72389,
+          "durationFrames": 324,
+          "role": "reveal",
+          "narration": "You were the sky all along. And yet, we still have to navigate the gravity in reality on the ground."
+        }
+      ]
+    },
+    {
+      "id": "seq-95",
+      "source": "engine",
+      "fromFrame": 72713,
+      "durationFrames": 1051,
+      "durationSeconds": 35,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 270,
+          "sceneId": "scene-270",
+          "fromFrame": 72713,
+          "durationFrames": 177,
+          "role": "setup",
+          "narration": "we must address before we close this exploration. Yes, the very real danger of spiritual bypassing."
+        },
+        {
+          "index": 271,
+          "sceneId": "scene-271",
+          "fromFrame": 72890,
+          "durationFrames": 358,
+          "role": "question",
+          "narration": "Because if we use the rain protocol to constantly just allow everything, if we just sit on our medit"
+        },
+        {
+          "index": 272,
+          "sceneId": "scene-272",
+          "fromFrame": 73248,
+          "durationFrames": 259,
+          "role": "complication",
+          "narration": "people who actively hurt us, isn't that just a recipe for enabling abuse? That's the danger. Are we "
+        },
+        {
+          "index": 273,
+          "sceneId": "scene-273",
+          "fromFrame": 73507,
+          "durationFrames": 257,
+          "role": "reveal",
+          "narration": "abusive partners, or structural injustices by just accepting everything? It feels like fatalism disg"
+        }
+      ]
+    },
+    {
+      "id": "seq-96",
+      "source": "engine",
+      "fromFrame": 73764,
+      "durationFrames": 670,
+      "durationSeconds": 22.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 274,
+          "sceneId": "scene-274",
+          "fromFrame": 73764,
+          "durationFrames": 257,
+          "role": "setup",
+          "narration": "And this is where the surgical precision of rain is vital. Allowing is strictly an internal psycholo"
+        },
+        {
+          "index": 275,
+          "sceneId": "scene-275",
+          "fromFrame": 74021,
+          "durationFrames": 149,
+          "role": "question",
+          "narration": "Take the tragic but powerful case study from the book of the abused Right?"
+        },
+        {
+          "index": 276,
+          "sceneId": "scene-276",
+          "fromFrame": 74170,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "She was caught in a horrifying cycle of rage, terror, and graveling with her physically abusive husb"
+        }
+      ]
+    },
+    {
+      "id": "seq-97",
+      "source": "authored",
+      "fromFrame": 74434,
+      "durationFrames": 933,
+      "durationSeconds": 31.1,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 277,
+          "sceneId": "scene-277",
+          "fromFrame": 74434,
+          "durationFrames": 307,
+          "role": "authored-start",
+          "narration": "But crucially, she didn't use it to allow him to keep hitting her. She used rain to allow herself to"
+        },
+        {
+          "index": 278,
+          "sceneId": "scene-278",
+          "fromFrame": 74741,
+          "durationFrames": 290,
+          "role": "authored-kept",
+          "narration": "For years, she had minimized it, blamed herself, or dissociated to survive. Rain allowed the absolut"
+        },
+        {
+          "index": 279,
+          "sceneId": "scene-279",
+          "fromFrame": 75031,
+          "durationFrames": 336,
+          "role": "authored-kept",
+          "narration": "She finally stopped running from the pain of her own reality. She looked at the blood and said, \"Thi"
+        }
+      ]
+    },
+    {
+      "id": "seq-98",
+      "source": "authored",
+      "fromFrame": 75367,
+      "durationFrames": 567,
+      "durationSeconds": 18.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 280,
+          "sceneId": "scene-280",
+          "fromFrame": 75367,
+          "durationFrames": 281,
+          "role": "authored-start",
+          "narration": "spiritually bypass her own trauma or pretend it wasn't that bad is what finally gave her the crystal"
+        },
+        {
+          "index": 281,
+          "sceneId": "scene-281",
+          "fromFrame": 75648,
+          "durationFrames": 286,
+          "role": "authored-kept",
+          "narration": "to file for divorce, call the police, and leave. Real compassion never ever rescues us from our mess"
+        }
+      ]
+    },
+    {
+      "id": "seq-99",
+      "source": "engine",
+      "fromFrame": 75934,
+      "durationFrames": 1094,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 282,
+          "sceneId": "scene-282",
+          "fromFrame": 75934,
+          "durationFrames": 314,
+          "role": "setup",
+          "narration": "It does not act as a positive thinking shield that pretends everything is okay when the house is on "
+        },
+        {
+          "index": 283,
+          "sceneId": "scene-283",
+          "fromFrame": 76248,
+          "durationFrames": 257,
+          "role": "question",
+          "narration": "can find the fire Exactly. Compassion awakens the spacious, rigorous presence capable of holding eve"
+        },
+        {
+          "index": 284,
+          "sceneId": "scene-284",
+          "fromFrame": 76505,
+          "durationFrames": 324,
+          "role": "complication",
+          "narration": "It allows you to see the fire clearly so you can act decisively rather than reacting blindly from te"
+        },
+        {
+          "index": 285,
+          "sceneId": "scene-285",
+          "fromFrame": 76829,
+          "durationFrames": 199,
+          "role": "reveal",
+          "narration": "We've broken down the actual neurobiological steps of rain. Recognize, allow, investigate, nurture."
+        }
+      ]
+    },
+    {
+      "id": "seq-100",
+      "source": "engine",
+      "fromFrame": 77028,
+      "durationFrames": 581,
+      "durationSeconds": 19.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 286,
+          "sceneId": "scene-286",
+          "fromFrame": 77028,
+          "durationFrames": 178,
+          "role": "setup",
+          "narration": "We've looked at the science of why affect labeling and visualization actually rewire your hardware"
+        },
+        {
+          "index": 287,
+          "sceneId": "scene-287",
+          "fromFrame": 77206,
+          "durationFrames": 261,
+          "role": "question",
+          "narration": "and how this internal shift connects us horizontally to the rest of the suffering world. Now, I want"
+        },
+        {
+          "index": 288,
+          "sceneId": "scene-288",
+          "fromFrame": 77467,
+          "durationFrames": 142,
+          "role": "reveal",
+          "narration": "Think back to that resource anchor, the future self that Brenda used in the field."
+        }
+      ]
+    },
+    {
+      "id": "seq-101",
+      "source": "authored",
+      "fromFrame": 77609,
+      "durationFrames": 693,
+      "durationSeconds": 23.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 289,
+          "sceneId": "scene-289",
+          "fromFrame": 77609,
+          "durationFrames": 360,
+          "role": "authored-start",
+          "narration": "I want you to imagine your own future self 10 years from now standing in the room with you right now"
+        },
+        {
+          "index": 290,
+          "sceneId": "scene-290",
+          "fromFrame": 77969,
+          "durationFrames": 333,
+          "role": "authored-kept",
+          "narration": "in the eye and ask, \"What do you want me to stop running away from today?\" The answer that comes bac"
+        }
+      ]
+    },
+    {
+      "id": "seq-102",
+      "source": "engine",
+      "fromFrame": 78302,
+      "durationFrames": 63,
+      "durationSeconds": 2.1,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 291,
+          "sceneId": "scene-291",
+          "fromFrame": 78302,
+          "durationFrames": 63,
+          "role": "reveal",
+          "narration": "massive, beautiful reality of your"
+        }
+      ]
+    }
+  ]
+}

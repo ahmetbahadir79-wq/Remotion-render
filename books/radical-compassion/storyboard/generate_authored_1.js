@@ -1,0 +1,942 @@
+const fs = require('fs');
+
+const beats = [
+  {
+    "i": 0,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "SELF-CRITICISM AS GUARD", "style": "reveal" },
+    "set": "room",
+    "cast": ["roger"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "shield",
+    "explainedBy": "Self-criticism is mistaken for a protective shield that keeps us safe from mistakes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We treat self-criticism like a vigilant guard keeping us safe.",
+      "concreteVisual": "Roger stands holding a defensive shield tightly against his chest with a tense, worried face.",
+      "onScreenText": "SELF-CRITICISM AS GUARD",
+      "relationToPrevious": "Cold open establishing the common illusion of inner self-defense.",
+      "addedInformation": "Visualizes the defensive posture and emotional vigilance people adopt against perceived failure."
+    }
+  },
+  {
+    "i": 1,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "SUFFOCATING TIGHTNESS", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "afraid",
+    "action": "slump",
+    "holds": null,
+    "explainedBy": "The somatic sensation of shame creates a suffocating constriction in the chest.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Shame triggers a reflexive suffocating tightness in the chest and sharp internal critic.",
+      "concreteVisual": "Mitch slumps forward holding his hands near his chest with an expression of sharp distress and fear.",
+      "onScreenText": "SUFFOCATING TIGHTNESS",
+      "relationToPrevious": "Narrows in from the idea of the mental critic to its direct somatic physical shock.",
+      "addedInformation": "Grounds abstract self-blame into tangible bodily distress and chest constriction."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "FUNDAMENTALLY FALLING SHORT", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "The internal voice lists all personal failures, reinforcing feelings of total inadequacy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The internal voice tells you exactly how you have messed up and fallen short.",
+      "concreteVisual": "Mitch remains slumped, his expression shifting from panic to deep sorrowful defeat.",
+      "onScreenText": "FUNDAMENTALLY FALLING SHORT",
+      "relationToPrevious": "Continues Mitch's emotional collapse as the harsh internal narrative takes over.",
+      "addedInformation": "Shows the psychological sinking after the initial shock of shame."
+    }
+  },
+  {
+    "i": 3,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "GUARD OR WARDEN?", "style": "box" },
+    "set": "room",
+    "cast": ["roger"],
+    "expression": "worried",
+    "action": "struggling",
+    "holds": null,
+    "explainedBy": "The presumed protective guard is revealed to be an imprisoning warden locking us in chains.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "What if the internal guard is actually an imprisoning prison warden?",
+      "concreteVisual": "Roger stands struggling beside heavy iron chains, realizing his protector has bound him.",
+      "onScreenText": "GUARD OR WARDEN?",
+      "relationToPrevious": "Inverts the shield premise from beat 0 into imprisonment.",
+      "addedInformation": "Reframes self-policing from security into painful entrapment."
+    }
+  },
+  {
+    "i": 4,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "CULTURAL MYTH",
+        "claim": "Self-punishment produces improvement",
+        "inputs": ["Harsh blame", "Punishment"],
+        "hub": "Drive",
+        "output": "Functional adult",
+        "verdict": "CATASTROPHIC TRAP",
+        "reason": "Biology triggers shutdown, not growth",
+        "truth": "Somatic compassion"
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A refute diagram breaking down the myth that relentless self-punishment creates functional adults.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Culture glorifies relentless self-punishment as necessary for self-improvement.",
+      "concreteVisual": "Refute diagram showing the flawed claim that harsh self-criticism drives success.",
+      "onScreenText": "none",
+      "relationToPrevious": "Formalizes the false belief that beating oneself up produces adult maturity.",
+      "addedInformation": "Exposes the ideological mechanism that keeps people trapped in self-blame."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "continue": true,
+      "refute": {
+        "owner": "CULTURAL MYTH",
+        "claim": "Self-punishment produces improvement",
+        "inputs": ["Harsh blame", "Punishment"],
+        "hub": "Drive",
+        "output": "Functional adult",
+        "verdict": "CATASTROPHIC TRAP",
+        "reason": "Biology triggers shutdown, not growth",
+        "truth": "Somatic compassion"
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The refute diagram stamps the verdict: self-punishment is a catastrophic biological and psychological trap.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "From a biological standpoint, self-punishment is a catastrophic trap.",
+      "concreteVisual": "The refute diagram highlights the CATASTROPHIC TRAP verdict over the punishment model.",
+      "onScreenText": "none",
+      "relationToPrevious": "Completes the refute sequence on the exact punchline of the hosts' argument.",
+      "addedInformation": "Clinically invalidates the logic of self-abuse before offering the alternative."
+    }
+  },
+  {
+    "i": 6,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "NOT A BUBBLE BATH", "style": "strike" },
+    "set": "room",
+    "cast": ["tara"],
+    "expression": "neutral",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Compassion is clarified as rigorous clinical inquiry rather than superficial relaxation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Tara Brach's compassion is not a soft bubble bath relaxation routine.",
+      "concreteVisual": "Tara stands centered in a calm room speaking with authoritative composure beside struck-out text.",
+      "onScreenText": "NOT A BUBBLE BATH",
+      "relationToPrevious": "Transitions from dismantling self-criticism to defining real compassion.",
+      "addedInformation": "Distinguishes clinical meditative technology from commercialized self-care tropes."
+    }
+  },
+  {
+    "i": 7,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": ["Fixing pain", "Inhabiting tissue"],
+      "values": [0.15]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Spectrum contrasting the intellectual urge to fix emotional pain against inhabiting somatic vulnerability.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "It is biologically transformative when we stop trying to fix emotional pain.",
+      "concreteVisual": "Spectrum diagram with the needle positioned on the mental effort of fixing pain.",
+      "onScreenText": "none",
+      "relationToPrevious": "Introduces the paradigm shift from intellectual management to somatic presence.",
+      "addedInformation": "Visualizes the common error of treating emotional distress as a cognitive repair job."
+    }
+  },
+  {
+    "i": 8,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": ["Recognize", "Allow", "Investigate", "Nurture"]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Sorter diagram introducing the four structured pillars of the RAIN protocol.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We decondition through the specific protocol called RAIN: Recognize, Allow, Investigate, Nurture.",
+      "concreteVisual": "Four-bucket sorter diagram outlining the sequential steps of RAIN.",
+      "onScreenText": "none",
+      "relationToPrevious": "Provides the concrete 4-step framework corresponding to the acronym.",
+      "addedInformation": "Gives the viewer an organized visual architecture for the rest of the deep dive."
+    }
+  },
+  {
+    "i": 9,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "PLAIN ENGLISH EXPLANATION", "style": "box" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "surprised",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "A participant pauses the dense psychological jargon to demand a plain English explanation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Pause right there: what does inhabiting somatic vulnerability mean for non-clinicians?",
+      "concreteVisual": "Mitch gestures inquisitively with an engaged, surprised expression asking for clarity.",
+      "onScreenText": "PLAIN ENGLISH EXPLANATION",
+      "relationToPrevious": "Interprets the conversational host turn seeking accessibility.",
+      addedInformation: "Acts as the viewer's surrogate breaking down clinical terminology."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "SOMATIC = PHYSICAL BODY", "style": "reveal" },
+    "set": "room",
+    "cast": ["tara"],
+    "expression": "neutral",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Tara directly defines somatic as pertaining to the living physical body.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Somatic simply means relating directly to the physical body.",
+      "concreteVisual": "Tara explains calmly with open posture, clarifying the definition.",
+      "onScreenText": "SOMATIC = PHYSICAL BODY",
+      "relationToPrevious": "Answers Mitch's question with direct simplicity.",
+      "addedInformation": "Anchors the clinical term into bodily reality."
+    }
+  },
+  {
+    "i": 11,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["Head loops", "Drop awareness", "Body tissue"]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram showing awareness shifting downwards from mental loops into body tissue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Instead of staying in mental loops, drop awareness down into actual physical tissue.",
+      "concreteVisual": "Flow diagram tracing movement from head rumination down into physical tissue.",
+      "onScreenText": "none",
+      "relationToPrevious": "Shows the operational movement of attention being taught.",
+      "addedInformation": "Maps attention descent as a visible mechanical transition."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THROAT / FACE / STOMACH", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "worried",
+    "action": "think",
+    "holds": null,
+    "explainedBy": "Attending to physical sensations: throat tightness, flushed face, and stomach knots.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You feel the tightness in your throat, heat in your face, knot in your stomach.",
+      "concreteVisual": "Mitch stands introspecting, tuning into visceral sensations in his torso and throat.",
+      "onScreenText": "THROAT / FACE / STOMACH",
+      "relationToPrevious": "Gives specific bodily landmarks for the somatic descent introduced in beat 11.",
+      "addedInformation": "Directs viewer attention to physical stress signatures."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "FEEL RATHER THAN OUTTHINK", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "neutral",
+    "action": "talk",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Reaching understanding that feeling vulnerability directly replaces outthinking it.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Inhabiting physical vulnerability rather than trying to outthink it makes total sense.",
+      "concreteVisual": "Mitch looks enlightened and grounded, speaking with clear comprehension.",
+      "onScreenText": "FEEL RATHER THAN OUTTHINK",
+      "relationToPrevious": "Synthesizes the somatic lesson into an intellectual breakthrough.",
+      "addedInformation": "Affirms the shift from rumination to embodiment."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "MISSION OF OUR DEEP DIVE", "style": "box" },
+    "set": "office",
+    "cast": ["roger"],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Defining the core audience: high performers and professionals on the verge of burnout.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Setting the mission of the deep dive for high performers facing chronic burnout.",
+      "concreteVisual": "Roger in an office setting looking strained as the target demographic is laid out.",
+      "onScreenText": "MISSION OF OUR DEEP DIVE",
+      "relationToPrevious": "Pivots to define who this teaching is urgently designed for.",
+      "addedInformation": "Contextualizes somatic mindfulness inside demanding high-pressure lifestyles."
+    }
+  },
+  {
+    "i": 15,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CHRONIC GUILT & BURNOUT", "style": "reveal" },
+    "set": "bedroom",
+    "cast": ["janice"],
+    "expression": "worried",
+    "action": "slump",
+    "holds": null,
+    "explainedBy": "Depicting parents and individuals replaying past mistakes late at night in bed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "For parents who go to bed replaying everything they did wrong with their kids.",
+      "concreteVisual": "Janice slumped at the edge of a bed, weighed down by nocturnal self-judgment.",
+      "onScreenText": "CHRONIC GUILT & BURNOUT",
+      "relationToPrevious": "Expands the target cases to everyday parental guilt.",
+      "addedInformation": "Captures the universal experience of late-night mental recrimination."
+    }
+  },
+  {
+    "i": 16,
+    "concept": "crack",
+    "diagram": null,
+    "callout": { "text": "DISMANTLE ILLUSION OF CONTROL", "style": "reveal" },
+    "set": "abstract",
+    "cast": ["roger"],
+    "expression": "angry",
+    "action": "point",
+    "holds": null,
+    "explainedBy": "Challenging and breaking the false belief that self-criticism provides real control.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We are going to dismantle the illusion of control the inner critic holds over you.",
+      "concreteVisual": "Roger points forcefully towards a cracking structure, confronting his inner critic.",
+      "onScreenText": "DISMANTLE ILLUSION OF CONTROL",
+      "relationToPrevious": "Declares the proactive objective of breaking down the inner critic.",
+      "addedInformation": "Depicts an active confrontation with rigid internal demands."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "THE TRANCE OF UNWORTHINESS", "style": "box" },
+    "set": "abstract",
+    "cast": ["janice"],
+    "expression": "afraid",
+    "action": "struggling",
+    "holds": null,
+    "explainedBy": "Tara Brach's baseline diagnosis: the pervasive trance of unworthiness acting as an invisible cage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Tara Brach refers to this baseline state as the trance of unworthiness.",
+      "concreteVisual": "Janice struggles amidst binding chains symbolizing the trance of unworthiness.",
+      "onScreenText": "THE TRANCE OF UNWORTHINESS",
+      "relationToPrevious": "Names the foundational psychological cage described in the book.",
+      "addedInformation": "Introduces the central concept that binds everyday suffering."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "MUNDANE AND EXHAUSTING", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "The trance is demystified as everyday, repetitive, and deeply draining emotional exhaustion.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The trance sounds mystical but is actually mundane, everyday, and exhausting.",
+      "concreteVisual": "Janice slumps with profound exhaustion, her shoulders dropped under everyday weight.",
+      "onScreenText": "MUNDANE AND EXHAUSTING",
+      "relationToPrevious": "Brings the lofty word 'trance' down into daily emotional weariness.",
+      "addedInformation": "Normalizes the state as a common human fatigue rather than an esoteric flaw."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "DREADING THE OBLIGATION", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "worried",
+    "action": "sit",
+    "holds": null,
+    "explainedBy": "Janice sits dreading stepping out into an overwhelming personal obligation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Imagine sitting in your car dreading walking into an obligation, just like Janice.",
+      "concreteVisual": "Janice sits frozen in place, dreading the impending demand outside.",
+      "onScreenText": "DREADING THE OBLIGATION",
+      "relationToPrevious": "Establishes Janice's iconic narrative case study.",
+      "addedInformation": "Anchors the emotional state in the familiar barrier before entering a stressful duty."
+    }
+  },
+  {
+    "i": 20,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "OUTSIDE NURSING HOME", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "sit",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Janice reclines her car seat outside her ailing father's nursing home, depleted.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Janice is sitting in her car with the seat reclined outside her dad's nursing home.",
+      "concreteVisual": "Janice sits reclined and sad, gathering energy outside the care facility.",
+      "onScreenText": "OUTSIDE NURSING HOME",
+      "relationToPrevious": "Deepens the narrative scene setting Janice's family context.",
+      "addedInformation": "Illustrates the painful clash between duty and overwhelming emotional depletion."
+    }
+  },
+  {
+    "i": 21,
+    "concept": "boulder",
+    "diagram": null,
+    "callout": { "text": "WEIGHT ON THE RIBS", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "worried",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Somatic manifestation of her guilt: jaw clenched tight and a heavy cinder block on her ribs.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Her jaw is clamped shut and her chest feels like a literal cinder block on her ribs.",
+      "concreteVisual": "Janice slumps beneath the heavy symbol of a boulder pressing down on her.",
+      "onScreenText": "WEIGHT ON THE RIBS",
+      "relationToPrevious": "Translates Janice's mental dread into immediate somatic pressure.",
+      "addedInformation": "Shows how unworthiness physically restricts breathing and posture."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "OPPRESSIVE SINKING WAVE", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "worried",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "An internal condemning voice whispers inadequacy before she even steps through the doors.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Before walking through the doors, she feels an oppressive sinking wave of fatigue.",
+      "concreteVisual": "Janice slumps deeper as self-critical thoughts assail her mind.",
+      "onScreenText": "OPPRESSIVE SINKING WAVE",
+      "relationToPrevious": "Tracks the internal attack that paralyzes action.",
+      "addedInformation": "Highlights pre-emptive mental punishment before an interaction even begins."
+    }
+  },
+  {
+    "i": 23,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CONDEMNED BY HER MIND", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Janice feels simultaneously dutiful, resentful, and harshly condemned by her own mind.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "She feels dutiful, resentful, and immediately condemned by her own mind.",
+      "concreteVisual": "Janice sits slumped in profound conflict between filial duty and inner condemnation.",
+      "onScreenText": "CONDEMNED BY HER MIND",
+      "relationToPrevious": "Exposes the conflicting emotional tangle of caregiving resentment and guilt.",
+      "addedInformation": "Demonstrates how the inner critic attacks legitimate human fatigue."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "FAILING EVERYONE", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Her internal dialogue spirals into catastrophic global failure: failing her dad and failing her kids.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Her dialogue is: 'I am falling short, failing my dad, failing my kids.'",
+      "concreteVisual": "Janice remains slumped, devastated by the cascade of self-accusations.",
+      "onScreenText": "FAILING EVERYONE",
+      "relationToPrevious": "Quotes the catastrophic escalation from fatigue to total moral failure.",
+      "addedInformation": "Illustrates how the trance generalizes one stressful moment into lifelong failure."
+    }
+  },
+  {
+    "i": 25,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "NOT A LOVING PERSON", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "The ultimate condemnation of the trance: believing one is intrinsically unloving and defective.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The core belief surfaces: 'I am just not a loving person.'",
+      "concreteVisual": "Janice holds a sad mask before her, questioning her true goodness and character.",
+      "onScreenText": "NOT A LOVING PERSON",
+      "relationToPrevious": "Reaches the core wound of unworthiness behind Janice's story.",
+      "addedInformation": "Captures the bitter self-verdict of feeling like an impostor in love."
+    }
+  },
+  {
+    "i": 26,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "A UNIVERSAL EXPERIENCE", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "sad",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Acknowledging that Janice's experience of chronic deficiency is shared by virtually everyone.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "It is deeply painful, but universally relatable whether on a commute or doing chores.",
+      "concreteVisual": "Mitch talks with empathetic resonance, acknowledging shared suffering.",
+      "onScreenText": "A UNIVERSAL EXPERIENCE",
+      "relationToPrevious": "Bridges Janice's specific car scene to the viewer's everyday routine.",
+      "addedInformation": "Breaks isolation by universalizing the feeling of inadequacy."
+    }
+  },
+  {
+    "i": 27,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "THE INVISIBLE CAGE", "style": "box" },
+    "set": "abstract",
+    "cast": ["roger"],
+    "expression": "worried",
+    "action": "struggling",
+    "holds": null,
+    "explainedBy": "Internal deficiency narratives construct an invisible prison that isolates us from actual life.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Narratives of chronic deficiency construct an invisible cage isolating you from life.",
+      "concreteVisual": "Roger stands struggling within symbolic chains that represent the invisible cage.",
+      "onScreenText": "THE INVISIBLE CAGE",
+      "relationToPrevious": "Articulates the macro takeaway of how internal stories sever connection.",
+      "addedInformation": "Shows how abstract negative thoughts build a real experiential prison."
+    }
+  },
+  {
+    "i": 28,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "SEVERED FROM PRESENCE", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "blank",
+    "action": "sit",
+    "holds": null,
+    "explainedBy": "Trapped in the mental trance, Janice cannot connect with her father or reality.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "She isn't present with her father; she hasn't even seen him yet.",
+      "concreteVisual": "Janice sits with a disconnected blank stare, lost in mental abstraction.",
+      "onScreenText": "SEVERED FROM PRESENCE",
+      "relationToPrevious": "Returns to Janice to show the functional cost of the trance.",
+      "addedInformation": "Illustrates the dissociation caused by catastrophic worry."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "TRAPPED IN THE TRANCE", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "holds": null,
+    "explainedBy": "Cut off from her own exhaustion and feelings, completely absorbed in the mental trance.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "She isn't present with her own exhaustion. She is completely trapped in the trance.",
+      "concreteVisual": "Janice slumps fully, estranged even from her own bodily tiredness.",
+      "onScreenText": "TRAPPED IN THE TRANCE",
+      "relationToPrevious": "Emphasizes self-abandonment inside the trance of unworthiness.",
+      "addedInformation": "Depicts how obsession with inadequacy blinds one to actual self-care needs."
+    }
+  },
+  {
+    "i": 30,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["Autopilot", "Below awareness", "Negativity bias"]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram mapping how autopilot behavior runs below conscious awareness via negativity bias.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "This trance means living on autopilot driven by a survival-based negativity bias.",
+      "concreteVisual": "Flow diagram showing the progression from autopilot to subconscious negativity bias.",
+      "onScreenText": "none",
+      "relationToPrevious": "Explains the psychological and evolutionary mechanics behind the trance.",
+      "addedInformation": "Transforms a vague feeling into a precise cognitive architecture."
+    }
+  },
+  {
+    "i": 31,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": ["Teflon good", "Velcro bad"],
+      "values": [0.85]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Spectrum showing the negativity bias: velcro adhesion for bad experiences and slippery teflon for good.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Negativity bias acts like Velcro for bad stuff and Teflon for good stuff.",
+      "concreteVisual": "Spectrum diagram with the indicator heavily tilted towards Velcro for bad.",
+      "onScreenText": "none",
+      "relationToPrevious": "Visualizes Rick Hanson's famous velcro/teflon evolutionary metaphor.",
+      "addedInformation": "Clearly demonstrates the brain's asymmetric threat-detection filter."
+    }
+  },
+  {
+    "i": 32,
+    "concept": "war",
+    "diagram": null,
+    "callout": { "text": "INTERNAL FLAW AS TIGER", "style": "reveal" },
+    "set": "abstract",
+    "cast": ["roger"],
+    "expression": "afraid",
+    "action": "struggling",
+    "holds": null,
+    "explainedBy": "Ancient survival instincts designed for predators now treat internal flaws as existential threats.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Today the tiger isn't a predator; the threat is the belief that you are fundamentally flawed.",
+      "concreteVisual": "Roger stands in defensive conflict against a war symbol, treating inner flaws as predators.",
+      "onScreenText": "INTERNAL FLAW AS TIGER",
+      "relationToPrevious": "Transitions the evolutionary predator threat into an internal identity crisis.",
+      "addedInformation": "Shows how psychological self-blame hijacks primal survival alarms."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["Belief of flaw", "Alarm response", "Survival threat"]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram detailing how believing oneself deficient triggers a physiological life-or-death alarm.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "When you believe you are deficient, your brain perceives it as a life-or-death survival threat.",
+      "concreteVisual": "Flow diagram linking the core belief of deficiency to physiological survival danger.",
+      "onScreenText": "none",
+      "relationToPrevious": "Diagrams the biological amplification of emotional unworthiness.",
+      "addedInformation": "Explains why shame produces intense somatic fight-or-flight symptoms."
+    }
+  },
+  {
+    "i": 34,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": { "text": "SCANNING FOR INADEQUACY", "style": "reveal" },
+    "set": "room",
+    "cast": ["janice"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "mirror",
+    "explainedBy": "Compulsive environmental scanning to gather evidence proving personal inadequacy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You construct a reality scanning the environment to gather evidence of your inadequacy.",
+      "concreteVisual": "Janice holds a mirror with anxiety, looking for confirmation of her perceived deficiencies.",
+      "onScreenText": "SCANNING FOR INADEQUACY",
+      "relationToPrevious": "Demonstrates how the cognitive bias actively filters daily life for confirmation.",
+      "addedInformation": "Shows the hypervigilant loop of self-scrutiny."
+    }
+  },
+  {
+    "i": 35,
+    "concept": "book",
+    "diagram": null,
+    "callout": { "text": "THE POLYNESIAN MYTH", "style": "reveal" },
+    "set": "room",
+    "cast": ["tara"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Tara introduces the traditional Polynesian myth explaining why we cling to deficiency.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "An incredible traditional Polynesian myth illustrates why we cling to deficiency.",
+      "concreteVisual": "Tara holds a book, preparing to recount the ancient teaching story.",
+      "onScreenText": "THE POLYNESIAN MYTH",
+      "relationToPrevious": "Opens the allegorical fable about shedding and wearing old skin.",
+      "addedInformation": "Frames the fable as an enduring parable for self-perpetuated suffering."
+    }
+  },
+  {
+    "i": 36,
+    "concept": "water",
+    "diagram": null,
+    "callout": { "text": "SHEDDING WRINKLED SKIN", "style": "reveal" },
+    "set": "shore",
+    "cast": ["brenda"],
+    "expression": "neutral",
+    "action": "walk",
+    "holds": null,
+    "explainedBy": "The mother goes down to the river to shed her aged, wrinkled skin.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A tribal leader goes to the river to shed her old wrinkled skin.",
+      "concreteVisual": "Brenda stands beside the water on the river shore, beginning the ritual shedding.",
+      "onScreenText": "SHEDDING WRINKLED SKIN",
+      "relationToPrevious": "Begins the mythological narrative at the water's edge.",
+      "addedInformation": "Visualizes the archetypal act of releasing past burdens and aged identity."
+    }
+  },
+  {
+    "i": 37,
+    "concept": "star",
+    "diagram": null,
+    "callout": { "text": "RENEWED AND GLOWING", "style": "reveal" },
+    "set": "shore",
+    "cast": ["brenda"],
+    "expression": "happy",
+    "action": "celebrate",
+    "holds": null,
+    "explainedBy": "Emerging renewed, radiant, and in the full prime of her power after shedding the skin.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "She steps out of it and emerges completely renewed, vibrant, and glowing in her power.",
+      "concreteVisual": "Brenda celebrates on the shore beside a glowing star symbol, radiant and liberated.",
+      "onScreenText": "RENEWED AND GLOWING",
+      "relationToPrevious": "Shows the glorious transformation following the release of old skin.",
+      "addedInformation": "Captures the natural vitality uncovered beneath chronic defense mechanisms."
+    }
+  },
+  {
+    "i": 38,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CHILD SIGHT OF TERROR", "style": "reveal" },
+    "set": "room",
+    "cast": ["brenda"],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Her young daughter does not recognize the renewed mother and begins screaming in fear.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Her raw new appearance terrifies her young daughter who starts screaming.",
+      "concreteVisual": "Brenda looks distressed and worried as her child rejects her unfamiliar radiance.",
+      "onScreenText": "CHILD SIGHT OF TERROR",
+      "relationToPrevious": "Introduces the tragic relational conflict created by change.",
+      "addedInformation": "Illustrates how growth can threaten established relational expectations."
+    }
+  },
+  {
+    "i": 39,
+    "concept": "water",
+    "diagram": null,
+    "callout": { "text": "RETURNING TO THE RIVER", "style": "reveal" },
+    "set": "shore",
+    "cast": ["brenda"],
+    "expression": "sad",
+    "action": "walk",
+    "holds": null,
+    "explainedBy": "To appease the crying child, the mother returns to the river to retrieve her old dead skin.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "To appease her child, she goes back down to the river to find her old dead skin.",
+      "concreteVisual": "Brenda walks back towards the water with a mournful expression to retrieve the old skin.",
+      "onScreenText": "RETURNING TO THE RIVER",
+      "relationToPrevious": "Depicts the tragic regression to restore familiar comfort to others.",
+      "addedInformation": "Shows the voluntary sacrifice of personal wholeness to calm another's anxiety."
+    }
+  },
+  {
+    "i": 40,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "POWER LOST FOREVER", "style": "reveal" },
+    "set": "shore",
+    "cast": ["brenda"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "Putting the dead skin back on, she forfeits her newfound power and vitality forever.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "By putting the old skin back on, the myth dictates she loses her power forever.",
+      "concreteVisual": "Brenda stands holding the wrinkled mask, defeated and drained of her radiance.",
+      "onScreenText": "POWER LOST FOREVER",
+      "relationToPrevious": "Concludes the myth with its devastating consequence.",
+      "addedInformation": "Warns of the permanent spiritual cost of retreating into familiar smallness."
+    }
+  },
+  {
+    "i": 41,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["Shared flaws", "Familiar roles", "Suffering cycle"]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flow diagram explaining how human relationships and identities are built around shared flaws.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We build relationships, dynamics, and identities around shared insecurities and perceived flaws.",
+      "concreteVisual": "Flow diagram mapping how shared flaws stabilize relationships in suffering cycles.",
+      "onScreenText": "none",
+      "relationToPrevious": "Extracts the sociological and psychological lesson from the Polynesian myth.",
+      "addedInformation": "Explains why families and communities unconsciously resist individual liberation."
+    }
+  },
+  {
+    "i": 42,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "FAMILIAR DEAD SKIN", "style": "reveal" },
+    "set": "room",
+    "cast": ["mitch"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "We choose to wear the dead skin of deficiency because it provides familiar emotional safety.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We wear the dead skin of our deficiency because it feels familiar and safe.",
+      "concreteVisual": "Mitch holds a dull mask, recognizing his attachment to familiar self-blame.",
+      "onScreenText": "FAMILIAR DEAD SKIN",
+      "relationToPrevious": "Applies the myth's metaphor directly to everyday self-critical identity.",
+      "addedInformation": "Unmasks deficiency as a perverse source of emotional predictability."
+    }
+  },
+  {
+    "i": 43,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE EXQUISITE RISK", "style": "reveal" },
+    "set": "room",
+    "cast": ["brenda"],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Shedding familiar shame feels terrifying, risking rejection from those who know our old selves.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Stepping into actual power and goodness feels like an exquisite risk.",
+      "concreteVisual": "Brenda speaks with vulnerable courage, facing the anxiety of genuine transformation.",
+      "onScreenText": "THE EXQUISITE RISK",
+      "relationToPrevious": "Articulates the existential dread of becoming healthy and happy.",
+      "addedInformation": "Reframes self-actualization as an act requiring emotional bravery."
+    }
+  },
+  {
+    "i": 44,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "FEAR OF UNRECOGNIZABLE", "style": "reveal" },
+    "set": "room",
+    "cast": ["roger"],
+    "expression": "surprised",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "The terror that if we drop self-criticism, loved ones won't recognize or love us anymore.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We fear that if we drop familiar shame, people won't recognize us or love us.",
+      "concreteVisual": "Roger speaks defensively, expressing intense skepticism and resistance to letting go of shame.",
+      "onScreenText": "FEAR OF UNRECOGNIZABLE",
+      "relationToPrevious": "Sets up the host's pushback and devil's advocate challenge for chunk 2.",
+      "addedInformation": "Captures the common terror that self-love will destroy belonging."
+    }
+  }
+];
+
+const dest = 'C:/Users/savas/Cursor/Remotion/wt-book-radical-compassion/books/radical-compassion/storyboard/authored-1.json';
+fs.writeFileSync(dest, JSON.stringify(beats, null, 2), 'utf8');
+console.log('Done: wrote ' + beats.length + ' beats to ' + dest);

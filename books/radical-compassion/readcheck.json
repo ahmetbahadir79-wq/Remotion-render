@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-04T07:20:20.320Z",
+  "n": 292,
+  "total": 292,
+  "sources": [
+    "readcheck",
+    "recheck-1"
+  ],
+  "totals": {
+    "CORRECT": 280,
+    "NEUTRAL": 8,
+    "WRONG": 4
+  },
+  "wrongRate": 0.014,
+  "blame": {
+    "place": 8,
+    "diagram": 1,
+    "body": 1,
+    "words": 1,
+    "face": 1
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 4,
+      "verdict": "NEUTRAL",
+      "blame": "place",
+      "why": "Abstract empty screen conveys only a pause or transition, missing the narration content entirely.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 5,
+      "verdict": "NEUTRAL",
+      "blame": "place",
+      "why": "Abstract empty screen conveys only a pause or transition, missing the narration content entirely.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 120,
+      "verdict": "NEUTRAL",
+      "blame": "place",
+      "why": "Abstract empty screen conveys only a pause or transition, missing the narration content entirely.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 135,
+      "verdict": "NEUTRAL",
+      "blame": "place",
+      "why": "Abstract empty screen conveys only a pause or transition, missing the narration content entirely.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 149,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess states moving from hyperarousal back to grounded, whereas the narration describes being pushed outside the window into hyperarousal.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 150,
+      "verdict": "WRONG",
+      "blame": "place",
+      "why": "The guess mentions pausing in quiet contemplation rather than somatic inquiry backfiring and triggering panic attacks or flashbacks.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 164,
+      "verdict": "WRONG",
+      "blame": "place",
+      "why": "The guess describes transitioning into open abstract space instead of clarifying that nurturing is active physical kindness rather than positive thinking.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 175,
+      "verdict": "WRONG",
+      "blame": "place",
+      "why": "The guess describes shifting into an abstract reflective space instead of explaining that visualization is grounded in neurobiology rather than escapism.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 194,
+      "verdict": "NEUTRAL",
+      "blame": "body",
+      "why": "The guess assumes she is unable to sleep, whereas the narration describes her lying in the dark preparing to ask a profound question.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "LYING IN THE DARK"
+    },
+    {
+      "i": 215,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess attributes the cold to the viewer feeling cast out, rather than recalling his father with dementia wandering outside into the cold.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "OUTSIDE INTO THE COLD"
+    },
+    {
+      "i": 282,
+      "verdict": "NEUTRAL",
+      "blame": "face",
+      "why": "The guess focuses on feeling alarmed by the fire rather than not panicking and seeing reality clearly without pretending everything is okay.",
+      "from": "readcheck",
+      "concept": "fire",
+      "callout": "WHEN THE HOUSE BURNS"
+    },
+    {
+      "i": 288,
+      "verdict": "WRONG",
+      "blame": "place",
+      "why": "The viewer guessed grounding peacefully in nature rather than recalling Brenda's future-self resource anchor from the earlier story.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "RESOURCE ANCHOR"
+    }
+  ],
+  "reviewRequired": {
+    "flagged": 4,
+    "wrong": [],
+    "neutral": [],
+    "cleared": 4,
+    "unread": []
+  }
+}

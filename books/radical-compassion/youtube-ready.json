@@ -1,0 +1,21 @@
+{
+  "slug": "radical-compassion",
+  "status": "NOT_READY",
+  "at": "2026-11-04T08:11:54.941Z",
+  "metaSha256": "86b8aa6230dfaf4772859445d5019058ca97ea28d0297c135b718df58af5878e",
+  "mdSha256": null,
+  "cleanVttSha256": null,
+  "errors": [
+    "TITLES TOO_FEW_ANGLES: 1 anchored angle title(s), need ≥ 2 (each names THIS book's misread thing — a character, object, event or claim from the narration — or a surprising idea grounded in a titleAngles {kind:\"insight\"} entry)",
+    "TITLES NO_TITLE_ANGLES: youtube-meta.titleAngles needs ≥ 2 entries {myth, book, quote} — the specific belief the book overturns, what it shows instead, and a verbatim narration quote proving it",
+    "NOT_REFINED: youtube-meta.needsClaudeRefine is undefined — the deterministic scaffold must be hand-refined from the narration (titles, description, chapters, tags, hook), then set to false",
+    "CHAPTERS_NOT_IN_DESCRIPTION: 11 chapter(s) missing from the description's timestamp list (e.g. \"0:00 The Guard or the Prison Warden?\") — YouTube reads chapters only from the description",
+    "NO_YOUTUBE_MD: books/radical-compassion/youtube.md missing",
+    "NO_CLEAN_VTT: public/captions/radical-compassion.clean.vtt missing (node scripts/clean-vtt.js public/captions/radical-compassion.vtt public/captions/radical-compassion.clean.vtt)"
+  ],
+  "warnings": [
+    "TITLES UNANCHORED_ANGLE #5: counter-narrative wording but no book-specific anchor from the narration (does not count as an angle) — \"Why Harsh Self-Criticism Never Works — Tara Brach's Radical Compassion\"",
+    "TITLE_DESCRIPTION_MISMATCH: the description never names what the angle titles promise (fighting)",
+    "HOOK_UNVERIFIED: no books/radical-compassion/thumbnail-check.json — run render-thumbnails.js (it checks the hook pixels in every variant)"
+  ]
+}

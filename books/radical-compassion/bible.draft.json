@@ -1,0 +1,572 @@
+{
+  "slug": "radical-compassion",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=radical-compassion --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "radical-compassion",
+    "world": {
+      "era": "contemporary",
+      "eraEvidence": "Contemporary psychology, mindfulness meditation workshops, corporate boardrooms, smartphones and modern clinical practice.",
+      "worldId": "contemporary-mindfulness",
+      "approxYear": 2020,
+      "setting": "Modern urban and professional life, meditation retreat spaces, and introspective somatic environments.",
+      "register": "introspective, somatic, clinical-psychological, mindful",
+      "forbid": [
+        "sword",
+        "thirtyTyrants",
+        "kallipolis",
+        "caveAllegory",
+        "fiveRegimes"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "radical-compassion",
+      "worldId": "contemporary-mindfulness",
+      "allowedMotifs": [
+        "crash",
+        "ledge",
+        "water",
+        "grave",
+        "medical",
+        "notes",
+        "phone",
+        "home",
+        "family",
+        "road",
+        "storm",
+        "star",
+        "heart",
+        "fire",
+        "tree",
+        "mask",
+        "mirror",
+        "key",
+        "law",
+        "photo",
+        "war",
+        "game",
+        "city",
+        "food",
+        "coin",
+        "door",
+        "lightbulb",
+        "puppeteer",
+        "chains",
+        "compass",
+        "boulder",
+        "crack",
+        "clock",
+        "balance",
+        "book",
+        "shield",
+        "trophy",
+        "hourglass",
+        "target",
+        "gift",
+        "inheritance"
+      ],
+      "forbiddenMotifs": [
+        "sword",
+        "thirtyTyrants",
+        "kallipolis"
+      ],
+      "allowedCharacters": [
+        "tara",
+        "roger",
+        "mitch",
+        "janice",
+        "brenda"
+      ],
+      "allowedLocations": [
+        "room",
+        "office",
+        "bedroom",
+        "forest",
+        "shore",
+        "abstract"
+      ],
+      "allowedProps": [
+        "phone",
+        "car",
+        "notes",
+        "clock",
+        "mirror",
+        "key"
+      ]
+    },
+    "cast": {
+      "tara": {
+        "name": "Tara Brach",
+        "role": "Psychologist, meditation teacher, and author guiding the somatic RAIN inquiries",
+        "look": "A contemplative woman in her late 60s with soft silver-streaked hair, serene posture, wearing a loose muted linen shawl and simple contemporary clothing.",
+        "variant": {
+          "gender": "f",
+          "age": "old",
+          "hairStyle": "bun",
+          "hair": "#C8C8C8",
+          "build": "slight",
+          "outfit": "robe",
+          "suit": "#5A6B7C"
+        },
+        "mentions": 12
+      },
+      "roger": {
+        "name": "Roger",
+        "role": "High-strung IT executive caught in chronic anger and perfectionist demands in the boardroom",
+        "look": "A 45-year-old corporate executive with short dark hair, sharp tense posture, dressed in an open-collar pressed dress shirt and slacks.",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "hairStyle": "short",
+          "hair": "#2C221E",
+          "build": "average",
+          "outfit": "suit",
+          "suit": "#1F2937"
+        },
+        "mentions": 8
+      },
+      "mitch": {
+        "name": "Mitch",
+        "role": "Workshop participant exploring somatic grief and chronic chest tightness from past family dynamics",
+        "look": "A 38-year-old introspective man with trimmed stubble and thoughtful eyes, wearing a dark crewneck sweater and casual trousers.",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "hairStyle": "short",
+          "hair": "#4A3728",
+          "beard": "stubble",
+          "build": "average",
+          "outfit": "casual",
+          "suit": "#3B5249"
+        },
+        "mentions": 5
+      },
+      "janice": {
+        "name": "Janice",
+        "role": "Exhausted single mother sitting in her car struggling with guilt and the trance of falling short",
+        "look": "A 35-year-old weary professional mother with tied-back brunette hair, warm but tired eyes, wearing a simple knitted cardigan over casual clothes.",
+        "variant": {
+          "gender": "f",
+          "age": "adult",
+          "hairStyle": "ponytail",
+          "hair": "#3D2314",
+          "build": "slight",
+          "outfit": "casual",
+          "suit": "#8B5E3C"
+        },
+        "mentions": 4
+      },
+      "brenda": {
+        "name": "Brenda",
+        "role": "Workshop seeker who anchors into her future resilient self during deep inquiry",
+        "look": "A 40-year-old woman with shoulder-length curly hair, centered and steady demeanor, wearing comfortable retreat attire.",
+        "variant": {
+          "gender": "f",
+          "age": "adult",
+          "hairStyle": "curly",
+          "hair": "#A0522D",
+          "build": "slight",
+          "outfit": "dress",
+          "suit": "#6B4C72"
+        },
+        "mentions": 3
+      }
+    },
+    "places": {
+      "office": {
+        "set": "office",
+        "look": "A modern corporate boardroom and private study with glass partitions, clean lines, and desk workstations.",
+        "mentions": 5
+      },
+      "room": {
+        "set": "room",
+        "look": "A warm, sunlit meditation room with hardwood flooring, simple cushions, and minimal distraction.",
+        "mentions": 6
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "A quiet private bedroom where evening doubts and racing thoughts keep one awake.",
+        "mentions": 3
+      },
+      "shore": {
+        "set": "shore",
+        "look": "A calm, expansive riverbank or ocean shoreline under an open morning sky representing vast presence.",
+        "mentions": 3
+      },
+      "forest": {
+        "set": "forest",
+        "look": "A secluded grove of ancient trees with dappled sunlight filtering through branches, inviting silent inquiry.",
+        "mentions": 2
+      },
+      "abstract": {
+        "set": "abstract",
+        "look": "A minimalist psychological canvas depicting internal states, somatic sensations, and waves of awareness.",
+        "mentions": 10
+      }
+    },
+    "objects": [
+      {
+        "concept": "chains",
+        "mentions": 24,
+        "why": "The internal trance of unworthiness acting as a psychological prison warden holding the self captive."
+      },
+      {
+        "concept": "shield",
+        "mentions": 12,
+        "why": "Defensive mechanisms and self-criticism adopted under the false belief they protect us from hurt."
+      },
+      {
+        "concept": "heart",
+        "mentions": 20,
+        "why": "The somatic center of caring touch, self-compassion, and unconditional presence."
+      },
+      {
+        "concept": "storm",
+        "mentions": 27,
+        "why": "The turbulent emotional weather of anger, fear, and shame that passes through awareness."
+      },
+      {
+        "concept": "water",
+        "mentions": 9,
+        "why": "The fluidity of RAIN and the ocean of presence holding waves of transient emotion."
+      },
+      {
+        "concept": "mirror",
+        "mentions": 10,
+        "why": "Direct inquiry and honest somatic investigation reflecting emotional realities without distortion."
+      },
+      {
+        "concept": "key",
+        "mentions": 8,
+        "why": "The practice of RAIN unlocking the mental cage to step into spacious freedom."
+      },
+      {
+        "concept": "car",
+        "mentions": 6,
+        "why": "The liminal everyday space of waiting, dread, and pause before entering demanding obligations."
+      },
+      {
+        "concept": "phone",
+        "mentions": 8,
+        "why": "Constant digital interruptions triggering reflexive fight-or-flight reactivity."
+      },
+      {
+        "concept": "fire",
+        "mentions": 10,
+        "why": "The visceral burning heat of shame and reactive anger felt in the body."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 5,
+        "claim": "Self-criticism is not our vigilant guardian; it is the prison warden trapping us in a trance of chronic deficiency."
+      },
+      {
+        "act": "development",
+        "fromFrame": 16135,
+        "claim": "The RAIN protocol dismantles emotional reactivity by shifting attention from obsessive thoughts to somatic sensations."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 30588,
+        "claim": "Nurturing with active self-kindness rewires neurological fight-or-flight loops into grounded safety and self-trust."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 44962,
+        "claim": "Moving out of personal contraction expands empathy into relational repair, dissolving blame in human connections."
+      },
+      {
+        "act": "close",
+        "fromFrame": 60401,
+        "claim": "Radical compassion awakens an unconditional heart capable of meeting both personal vulnerability and worldly pain with brave presence."
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 573,
+    "cast": [
+      {
+        "name": "Roger",
+        "asSubject": 3,
+        "total": 8,
+        "samples": [
+          "But instead of screaming, instead of berating the guy in front of the whole room like he normally would, Roger does something different.",
+          "By simply naming the mental storm, \"Without fusion,\" Roger takes the first definitive step out of the trance.",
+          "Roger said yes to the reality of his internal physiological state."
+        ]
+      },
+      {
+        "name": "Mitch",
+        "asSubject": 3,
+        "total": 3,
+        "samples": [
+          "Mitch is at a workshop focusing on this painful squeezing in his chest.",
+          "Mitch is sitting in the workshop recalling this.",
+          "No. Mitch has to clear his own physiological reactivity before he can process his parents dynamic."
+        ]
+      },
+      {
+        "name": "Brock",
+        "asSubject": 2,
+        "total": 5,
+        "samples": [
+          "Tara Brock is frantically searching through her deeply disorganized computer files because she has to give a major talk on the topic of loving kindness.",
+          "Tar Brock is sitting there and she is suddenly swamped by an overwhelming wave of guilt."
+        ]
+      },
+      {
+        "name": "Janice",
+        "asSubject": 2,
+        "total": 4,
+        "samples": [
+          "If you've ever sat in your car, dreading walking into an obligation, you are doing exactly what Janice is doing in this scenario, right from the book.",
+          "Yeah. Janice is a busy single mom."
+        ]
+      },
+      {
+        "name": "Recognizing",
+        "asSubject": 2,
+        "total": 4,
+        "samples": [
+          "Recognizing is where we make the fundamental shift from being possessed by an emotion to merely witnessing it.",
+          "Recognizing is simply the act of saying, \"Ah, this is happening."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "office",
+        "mentions": 3,
+        "samples": [
+          "Total irony. While she's stressed out, rushing against the clock, her 83-year-old mother pops into the office just to chat.",
+          "By doing nothing, by not resisting, it breaks the biological reflex of immediate defensive Let's go back to Roger, our angry IT executive in the board"
+        ]
+      },
+      {
+        "set": "manuscript",
+        "mentions": 2,
+        "samples": [
+          "Her exact internal dialogue is, \"I'm falling short on the most important fronts.",
+          "If someone is actively attacking me or if I have a genuinely toxic trait, like I'm a chronic yeller or I'm deeply jealous, allowing it feels like I'm "
+        ]
+      },
+      {
+        "set": "shore",
+        "mentions": 2,
+        "samples": [
+          "The story goes that there is a revered tribal leader, a mother who goes down to the river to shed her old wrinkled skin.",
+          "So to appease her crying child, to make things normal again, the mother goes back down to the river, finds her old dead, wrinkled skin, and puts it ba"
+        ]
+      },
+      {
+        "set": "cave",
+        "mentions": 2,
+        "samples": [
+          "She physically touches her chest and feels this dark, heavy, tight, squeezing And through this sematic inquiry, just staying with the physical feeling",
+          "Oh, completely. She investigates this feeling and locates a hollow, achy darkness right in her belly."
+        ]
+      },
+      {
+        "set": "shipDeck",
+        "mentions": 2,
+        "samples": [
+          "It's like the difference between trying to hold the entire ocean in a plastic bucket versus realizing you are the ocean itself.",
+          "The bucket breaks, the ocean just holds the waves."
+        ]
+      },
+      {
+        "set": "forest",
+        "mentions": 1,
+        "samples": [
+          "Yeah. The Buddha is meditating in a forest grove."
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "storm",
+        "mentions": 27,
+        "sample": "Yeah. And we do this through a specific protocol called RAIN."
+      },
+      {
+        "concept": "family",
+        "mentions": 25,
+        "sample": "Yeah. Janice is a busy single mom."
+      },
+      {
+        "concept": "chains",
+        "mentions": 24,
+        "sample": "But uh what if the guard is actually the prison warden?"
+      },
+      {
+        "concept": "law",
+        "mentions": 15,
+        "sample": "But uh what if the guard is actually the prison warden?"
+      },
+      {
+        "concept": "shield",
+        "mentions": 12,
+        "sample": "We treat self-criticism like a vigilant guard keeping us safe."
+      },
+      {
+        "concept": "gift",
+        "mentions": 11,
+        "sample": "She isn't present with her father."
+      },
+      {
+        "concept": "fire",
+        "mentions": 10,
+        "sample": "And in that tiny sustained space of not attacking the staff member, of just letting the anger burn without fueling it, he actually looked at"
+      },
+      {
+        "concept": "water",
+        "mentions": 9,
+        "sample": "And there's this familiar vicious VA hissing in her head saying, \"I just don't have the Before she even walks through those sliding glass do"
+      },
+      {
+        "concept": "road",
+        "mentions": 9,
+        "sample": "But the moment you assign a word to the feeling like anger, fear, shame, you force electrical activity to travel to the right vententralater"
+      },
+      {
+        "concept": "phone",
+        "mentions": 8,
+        "sample": "Yeah. And we do this through a specific protocol called RAIN."
+      },
+      {
+        "concept": "war",
+        "mentions": 8,
+        "sample": "Exactly. It's the emotional center responsible for the fight, flight, or freeze response."
+      },
+      {
+        "concept": "car",
+        "mentions": 6,
+        "sample": "If you've ever sat in your car, dreading walking into an obligation, you are doing exactly what Janice is doing in this scenario, right from"
+      }
+    ],
+    "openingLines": [
+      "We treat self-criticism like a vigilant guard keeping us safe.",
+      "I mean, you know that exact feeling I'm talking about, Oh, absolutely.",
+      "It's that reflexive suffocating tightness in your chest the second shame hits.",
+      "Like, it's that immediate razor sharp internal voice telling you exactly how you've messed up.",
+      "How you've dropped the ball, how you are just, you know, fundamentally falling short.",
+      "We've been conditioned to think that voice is our protector."
+    ],
+    "closingLines": [
+      "Think back to that resource anchor, the future self that Brenda used in the field.",
+      "I want you to imagine your own future self 10 years from now standing in the room with you right now.",
+      "They possess all the wisdom, the fierce resilience, and the radical compassion you are currently striving for.",
+      "I want you to look them right in the eye and ask, \"What do you want me to stop running away from today?\" The answer that comes back to you might just be the exact key that lets you finally walk past the warden, step out of the cage, and into the massive, beautiful reality of your"
+    ]
+  }
+}

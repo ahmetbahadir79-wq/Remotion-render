@@ -1,0 +1,283 @@
+{
+  "slug": "radical-compassion",
+  "world": {
+    "era": "contemporary",
+    "eraEvidence": "Contemporary psychology, mindfulness meditation workshops, corporate boardrooms, smartphones and modern clinical practice.",
+    "worldId": "contemporary-mindfulness",
+    "approxYear": 2020,
+    "setting": "Modern urban and professional life, meditation retreat spaces, and introspective somatic environments.",
+    "register": "introspective, somatic, clinical-psychological, mindful",
+    "forbid": [
+      "sword",
+      "thirtyTyrants",
+      "kallipolis",
+      "caveAllegory",
+      "fiveRegimes"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "radical-compassion",
+    "worldId": "contemporary-mindfulness",
+    "allowedMotifs": [
+      "crash",
+      "ledge",
+      "water",
+      "grave",
+      "medical",
+      "notes",
+      "phone",
+      "home",
+      "family",
+      "road",
+      "storm",
+      "star",
+      "heart",
+      "fire",
+      "tree",
+      "mask",
+      "mirror",
+      "key",
+      "law",
+      "photo",
+      "war",
+      "game",
+      "city",
+      "food",
+      "coin",
+      "door",
+      "lightbulb",
+      "puppeteer",
+      "chains",
+      "compass",
+      "boulder",
+      "crack",
+      "clock",
+      "balance",
+      "book",
+      "shield",
+      "trophy",
+      "hourglass",
+      "target",
+      "gift",
+      "inheritance"
+    ],
+    "forbiddenMotifs": [
+      "sword",
+      "thirtyTyrants",
+      "kallipolis"
+    ],
+    "allowedCharacters": [
+      "tara",
+      "roger",
+      "mitch",
+      "janice",
+      "brenda"
+    ],
+    "allowedLocations": [
+      "room",
+      "office",
+      "bedroom",
+      "forest",
+      "shore",
+      "abstract"
+    ],
+    "allowedProps": [
+      "phone",
+      "car",
+      "notes",
+      "clock",
+      "mirror",
+      "key"
+    ]
+  },
+  "cast": {
+    "tara": {
+      "name": "Tara Brach",
+      "role": "Psychologist, meditation teacher, and author guiding the somatic RAIN inquiries",
+      "look": "A contemplative woman in her late 60s with soft silver-streaked hair, serene posture, wearing a loose muted linen shawl and simple contemporary clothing.",
+      "variant": {
+        "gender": "f",
+        "age": "old",
+        "hairStyle": "bun",
+        "hair": "#C8C8C8",
+        "build": "slight",
+        "outfit": "robe",
+        "suit": "#5A6B7C"
+      },
+      "mentions": 12
+    },
+    "roger": {
+      "name": "Roger",
+      "role": "High-strung IT executive caught in chronic anger and perfectionist demands in the boardroom",
+      "look": "A 45-year-old corporate executive with short dark hair, sharp tense posture, dressed in an open-collar pressed dress shirt and slacks.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#2C221E",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#1F2937"
+      },
+      "mentions": 8
+    },
+    "mitch": {
+      "name": "Mitch",
+      "role": "Workshop participant exploring somatic grief and chronic chest tightness from past family dynamics",
+      "look": "A 38-year-old introspective man with trimmed stubble and thoughtful eyes, wearing a dark crewneck sweater and casual trousers.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#4A3728",
+        "beard": "stubble",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#3B5249"
+      },
+      "mentions": 5
+    },
+    "janice": {
+      "name": "Janice",
+      "role": "Exhausted single mother sitting in her car struggling with guilt and the trance of falling short",
+      "look": "A 35-year-old weary professional mother with tied-back brunette hair, warm but tired eyes, wearing a simple knitted cardigan over casual clothes.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "hairStyle": "ponytail",
+        "hair": "#3D2314",
+        "build": "slight",
+        "outfit": "casual",
+        "suit": "#8B5E3C"
+      },
+      "mentions": 4
+    },
+    "brenda": {
+      "name": "Brenda",
+      "role": "Workshop seeker who anchors into her future resilient self during deep inquiry",
+      "look": "A 40-year-old woman with shoulder-length curly hair, centered and steady demeanor, wearing comfortable retreat attire.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "hairStyle": "curly",
+        "hair": "#A0522D",
+        "build": "slight",
+        "outfit": "dress",
+        "suit": "#6B4C72"
+      },
+      "mentions": 3
+    }
+  },
+  "places": {
+    "office": {
+      "set": "office",
+      "look": "A modern corporate boardroom and private study with glass partitions, clean lines, and desk workstations.",
+      "mentions": 5
+    },
+    "room": {
+      "set": "room",
+      "look": "A warm, sunlit meditation room with hardwood flooring, simple cushions, and minimal distraction.",
+      "mentions": 6
+    },
+    "bedroom": {
+      "set": "bedroom",
+      "look": "A quiet private bedroom where evening doubts and racing thoughts keep one awake.",
+      "mentions": 3
+    },
+    "shore": {
+      "set": "shore",
+      "look": "A calm, expansive riverbank or ocean shoreline under an open morning sky representing vast presence.",
+      "mentions": 3
+    },
+    "forest": {
+      "set": "forest",
+      "look": "A secluded grove of ancient trees with dappled sunlight filtering through branches, inviting silent inquiry.",
+      "mentions": 2
+    },
+    "abstract": {
+      "set": "abstract",
+      "look": "A minimalist psychological canvas depicting internal states, somatic sensations, and waves of awareness.",
+      "mentions": 10
+    }
+  },
+  "objects": [
+    {
+      "concept": "chains",
+      "mentions": 24,
+      "why": "The internal trance of unworthiness acting as a psychological prison warden holding the self captive."
+    },
+    {
+      "concept": "shield",
+      "mentions": 12,
+      "why": "Defensive mechanisms and self-criticism adopted under the false belief they protect us from hurt."
+    },
+    {
+      "concept": "heart",
+      "mentions": 20,
+      "why": "The somatic center of caring touch, self-compassion, and unconditional presence."
+    },
+    {
+      "concept": "storm",
+      "mentions": 27,
+      "why": "The turbulent emotional weather of anger, fear, and shame that passes through awareness."
+    },
+    {
+      "concept": "water",
+      "mentions": 9,
+      "why": "The fluidity of RAIN and the ocean of presence holding waves of transient emotion."
+    },
+    {
+      "concept": "mirror",
+      "mentions": 10,
+      "why": "Direct inquiry and honest somatic investigation reflecting emotional realities without distortion."
+    },
+    {
+      "concept": "key",
+      "mentions": 8,
+      "why": "The practice of RAIN unlocking the mental cage to step into spacious freedom."
+    },
+    {
+      "concept": "car",
+      "mentions": 6,
+      "why": "The liminal everyday space of waiting, dread, and pause before entering demanding obligations."
+    },
+    {
+      "concept": "phone",
+      "mentions": 8,
+      "why": "Constant digital interruptions triggering reflexive fight-or-flight reactivity."
+    },
+    {
+      "concept": "fire",
+      "mentions": 10,
+      "why": "The visceral burning heat of shame and reactive anger felt in the body."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 5,
+      "claim": "Self-criticism is not our vigilant guardian; it is the prison warden trapping us in a trance of chronic deficiency."
+    },
+    {
+      "act": "development",
+      "fromFrame": 16135,
+      "claim": "The RAIN protocol dismantles emotional reactivity by shifting attention from obsessive thoughts to somatic sensations."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 30588,
+      "claim": "Nurturing with active self-kindness rewires neurological fight-or-flight loops into grounded safety and self-trust."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 44962,
+      "claim": "Moving out of personal contraction expands empathy into relational repair, dissolving blame in human connections."
+    },
+    {
+      "act": "close",
+      "fromFrame": 60401,
+      "claim": "Radical compassion awakens an unconditional heart capable of meeting both personal vulnerability and worldly pain with brave presence."
+    }
+  ],
+  "authored": true
+}
