@@ -1,0 +1,25 @@
+{
+  "slug": "then-she-was-gone",
+  "status": "NOT_READY",
+  "at": "2026-11-12T08:35:25.378Z",
+  "metaSha256": "5e02f28019b1a773cc6762f995ce55e8c47d58de34e961c0212a17a9b1af1f1e",
+  "mdSha256": null,
+  "cleanVttSha256": null,
+  "errors": [
+    "TITLES TOO_FEW_TITLES: 0 (need 5: spread search intents AND counter-narrative angles)",
+    "TITLES AUTHOR_TOO_RARE: author \"Lisa Jewell\" in 0 title(s), need ≥ 2",
+    "TITLES MODIFIER_TOO_RARE: search modifier in 0 title(s), need ≥ 3 (Summary / Explained / Review / Analysis / Ending Explained / Key Ideas …)",
+    "TITLES TOO_FEW_ANGLES: 0 anchored angle title(s), need ≥ 2 (each names THIS book's misread thing — a character, object, event or claim from the narration — or a surprising idea grounded in a titleAngles {kind:\"insight\"} entry)",
+    "TITLES NO_STACKED_TITLE: need ≥ 1 title that stacks book title + search modifier + an anchored counter-narrative angle (e.g. \"<Book> Ending Explained: Why <Character>'s <Act> Isn't <Common Reading>\")",
+    "TITLES NO_TITLE_ANGLES: youtube-meta.titleAngles needs ≥ 2 entries {myth, book, quote} — the specific belief the book overturns, what it shows instead, and a verbatim narration quote proving it",
+    "NOT_REFINED: youtube-meta.needsClaudeRefine is undefined — the deterministic scaffold must be hand-refined from the narration (titles, description, chapters, tags, hook), then set to false",
+    "NO_DESCRIPTION",
+    "NO_HOOK: youtube-meta.thumbnail.hook is empty",
+    "NO_YOUTUBE_MD: books/then-she-was-gone/youtube.md missing",
+    "NO_CLEAN_VTT: public/captions/then-she-was-gone.clean.vtt missing (node scripts/clean-vtt.js public/captions/then-she-was-gone.vtt public/captions/then-she-was-gone.clean.vtt)"
+  ],
+  "warnings": [
+    "NO_CHAPTERS: youtube-meta.chapters is empty",
+    "HOOK_UNVERIFIED: no books/then-she-was-gone/thumbnail-check.json — run render-thumbnails.js (it checks the hook pixels in every variant)"
+  ]
+}
