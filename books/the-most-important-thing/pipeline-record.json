@@ -1,0 +1,159 @@
+{
+  "note": "production-guard.js: which code each pipeline step ran on",
+  "runs": [
+    {
+      "step": "storyboard prep",
+      "at": "2026-10-30T19:48:33.016Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard prep",
+      "at": "2026-10-30T19:49:47.366Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-10-31T05:46:13.018Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-10-31T06:08:21.133Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-10-31T06:09:36.881Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "make-book",
+      "at": "2026-10-31T06:19:25.478Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 36,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "storyboard merge",
+      "at": "2026-10-31T06:24:04.764Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 37,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "make-book",
+      "at": "2026-10-31T06:24:15.543Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 37,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep final",
+      "at": "2026-10-31T07:13:16.714Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 37,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "mute-test prep final",
+      "at": "2026-10-31T07:13:37.471Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 37,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "preview-ready",
+      "at": "2026-10-31T07:33:21.925Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 39,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "render",
+      "at": "2026-10-31T07:44:34.349Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 39,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "render",
+      "at": "2026-10-31T07:45:15.676Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 39,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    },
+    {
+      "step": "render",
+      "at": "2026-10-31T11:29:31.309Z",
+      "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+      "scriptsTree": "dba059e7eddce44ce83b72b395252cf4b932e9c7",
+      "srcTree": "1218512543a06455f09e509db712845d43573a90",
+      "behindOrigin": 42,
+      "linkedWorktree": true,
+      "dirty": 0,
+      "allowReason": null
+    }
+  ]
+}

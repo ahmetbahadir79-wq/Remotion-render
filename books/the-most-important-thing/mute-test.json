@@ -1,0 +1,29 @@
+{
+  "runs": [
+    {
+      "label": "final",
+      "date": "2026-10-31T07:33:06.278Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 30,
+        "ADDS": 30,
+        "EXPLAINS": 30
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "c0117b81571a0f21f13e88eadeaf537055f95bb9d10d40bf1761e3e44e1c89aa",
+      "verdict": true,
+      "dead": 0,
+      "addsTargetMet": true,
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 100
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-10-31T06:24:15.735Z",
+  "at": "2026-10-31T07:11:55.841Z",
+  "config": "config.antidote.json",
+  "configSha256": "f4178282f4fa99428a5b7a4432337a78ad22881a3f4497c508c9d1461084fba0",
+  "inputs": {
+    "storyboard": {
+      "path": "books/the-most-important-thing/art.json",
+      "sha256": "4d5b9679165b284408504e5d08c7221ea019e90a665356e3c0fbf6ccd81e2412"
+    },
+    "storyBible": {
+      "path": "books/the-most-important-thing/story-bible.json",
+      "sha256": "ef9031922a98b3121e216b018fb107b0f01c20b3487f7cd0b390e6ed951978a9"
+    },
+    "motifs": {
+      "path": "books/the-most-important-thing/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/the-most-important-thing.vtt",
+      "sha256": "7506ae95034e706f2c7845b38a60f8f2ed82f68ec86a11ec9c75a4d6473dbc5c"
+    },
+    "audio": {
+      "path": "public/audio/the-most-important-thing.mp3",
+      "sha256": "a24cb116c832995a9d88111f86fe11fbc685c576f7c711b4a92d0030732da5c3"
+    }
+  },
+  "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+  "previewOnly": true,
+  "skipPack": true
+}

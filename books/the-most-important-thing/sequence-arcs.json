@@ -1,0 +1,3272 @@
+{
+  "slug": "the-most-important-thing",
+  "totalSequences": 68,
+  "totalScenes": 272,
+  "averageDurationSecs": 36.4,
+  "sequences": [
+    {
+      "id": "seq-01",
+      "source": "engine",
+      "fromFrame": 5,
+      "durationFrames": 1089,
+      "durationSeconds": 36.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "sceneId": "intro",
+          "fromFrame": 5,
+          "durationFrames": 319,
+          "role": "setup",
+          "narration": "Everyone thinks buying a great company makes a great investment, I mean, it's the most natural insti"
+        },
+        {
+          "index": 1,
+          "sceneId": "scene-01",
+          "fromFrame": 324,
+          "durationFrames": 398,
+          "role": "question",
+          "narration": "I want a piece of that. Yeah. You want in on the winning team. But that exact first level instinct i"
+        },
+        {
+          "index": 2,
+          "sceneId": "scene-02",
+          "fromFrame": 722,
+          "durationFrames": 372,
+          "role": "reveal",
+          "narration": "uh they completely fail to account for the math of the crowd. Yeah. By the time you realize it's a g"
+        }
+      ]
+    },
+    {
+      "id": "seq-02",
+      "source": "engine",
+      "fromFrame": 1094,
+      "durationFrames": 1008,
+      "durationSeconds": 33.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 3,
+          "sceneId": "scene-03",
+          "fromFrame": 1094,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "that it is mathematically rigged against You're just paying for perfection at that point. Exactly. Y"
+        },
+        {
+          "index": 4,
+          "sceneId": "scene-04",
+          "fromFrame": 1298,
+          "durationFrames": 204,
+          "role": "partial_answer",
+          "narration": "And the real world, as we know, rarely delivers perfection for very long. So true. Welcome to the de"
+        },
+        {
+          "index": 5,
+          "sceneId": "scene-05",
+          "fromFrame": 1502,
+          "durationFrames": 284,
+          "role": "question",
+          "narration": "Have you ever looked at your investment portfolio during a market crash or I don't know even just a "
+        },
+        {
+          "index": 6,
+          "sceneId": "scene-06",
+          "fromFrame": 1786,
+          "durationFrames": 316,
+          "role": "reveal",
+          "narration": "That creeping panic that you've just made a massive mistake. Well, today we are talking about how th"
+        }
+      ]
+    },
+    {
+      "id": "seq-03",
+      "source": "engine",
+      "fromFrame": 2102,
+      "durationFrames": 1052,
+      "durationSeconds": 35.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 7,
+          "sceneId": "scene-07",
+          "fromFrame": 2102,
+          "durationFrames": 348,
+          "role": "setup",
+          "narration": "It really is. We are taking on a mission today that feels honestly almost subversive because it goes"
+        },
+        {
+          "index": 8,
+          "sceneId": "scene-08",
+          "fromFrame": 2450,
+          "durationFrames": 262,
+          "role": "partial_answer",
+          "narration": "by Howard Marx. Such an incredible book. Oh, it's a classic. And the core argument we are going to e"
+        },
+        {
+          "index": 9,
+          "sceneId": "scene-09",
+          "fromFrame": 2712,
+          "durationFrames": 257,
+          "role": "question",
+          "narration": "how you look at the financial world because exceptional returns do not come from predicting macroeco"
+        },
+        {
+          "index": 10,
+          "sceneId": "scene-10",
+          "fromFrame": 2969,
+          "durationFrames": 185,
+          "role": "reveal",
+          "narration": "They don't come from a crystal No. And they certainly don't come from just buying uh quote unquote g"
+        }
+      ]
+    },
+    {
+      "id": "seq-04",
+      "source": "engine",
+      "fromFrame": 3154,
+      "durationFrames": 1245,
+      "durationSeconds": 41.5,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 11,
+          "sceneId": "scene-11",
+          "fromFrame": 3154,
+          "durationFrames": 331,
+          "role": "setup",
+          "narration": "They actually come from exploiting the extremes of a wildly swinging market pendulum through highly "
+        },
+        {
+          "index": 12,
+          "sceneId": "scene-12",
+          "fromFrame": 3485,
+          "durationFrames": 151,
+          "role": "question",
+          "narration": "It is a profound shift in perspective. And the thing is it is entirely battle tested."
+        },
+        {
+          "index": 13,
+          "sceneId": "scene-13",
+          "fromFrame": 3636,
+          "durationFrames": 223,
+          "role": "partial_answer",
+          "narration": "For those who, you know, aren't super familiar, Howard Marx and his firm Oak Tree Capital have navig"
+        },
+        {
+          "index": 14,
+          "sceneId": "scene-14",
+          "fromFrame": 3859,
+          "durationFrames": 252,
+          "role": "complication",
+          "narration": "Decades. We are talking about the late 80s junk bond crash, the dot bubble, the 2008 financial crisi"
+        },
+        {
+          "index": 15,
+          "sceneId": "scene-15",
+          "fromFrame": 4111,
+          "durationFrames": 288,
+          "role": "reveal",
+          "narration": "They've seen it And what they've done is master the contrast between consensus first level thinking,"
+        }
+      ]
+    },
+    {
+      "id": "seq-05",
+      "source": "engine",
+      "fromFrame": 4399,
+      "durationFrames": 1001,
+      "durationSeconds": 33.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 16,
+          "sceneId": "scene-16",
+          "fromFrame": 4399,
+          "durationFrames": 341,
+          "role": "setup",
+          "narration": "common knowledge, predictable models, and counteryclical risk management. Counterical being the key "
+        },
+        {
+          "index": 17,
+          "sceneId": "scene-17",
+          "fromFrame": 4740,
+          "durationFrames": 199,
+          "role": "question",
+          "narration": "And what makes this specific exploration today so incredibly rich is that we aren't just looking at "
+        },
+        {
+          "index": 18,
+          "sceneId": "scene-18",
+          "fromFrame": 4939,
+          "durationFrames": 231,
+          "role": "complication",
+          "narration": "The version of the text we are diving into is heavily annotated by some of the most legendary heavy "
+        },
+        {
+          "index": 19,
+          "sceneId": "scene-19",
+          "fromFrame": 5170,
+          "durationFrames": 230,
+          "role": "reveal",
+          "narration": "They really are. We are arming you with the margin notes of Joel Greenblat, Seth Clareman, Christoph"
+        }
+      ]
+    },
+    {
+      "id": "seq-06",
+      "source": "engine",
+      "fromFrame": 5400,
+      "durationFrames": 1296,
+      "durationSeconds": 43.2,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 20,
+          "sceneId": "scene-20",
+          "fromFrame": 5400,
+          "durationFrames": 252,
+          "role": "setup",
+          "narration": "Yeah. It's like a masterclass in the Exactly. And Charlie Munger is actually quoted early on in this"
+        },
+        {
+          "index": 21,
+          "sceneId": "scene-21",
+          "fromFrame": 5652,
+          "durationFrames": 242,
+          "role": "question",
+          "narration": "Anyone who finds it easy is stupid.\" Classic Munger, right? So blunt. Which is the perfect framing f"
+        },
+        {
+          "index": 22,
+          "sceneId": "scene-22",
+          "fromFrame": 5894,
+          "durationFrames": 236,
+          "role": "partial_answer",
+          "narration": "Because to understand how to beat what is essentially a zero sum game where, you know, for you to wi"
+        },
+        {
+          "index": 23,
+          "sceneId": "scene-23",
+          "fromFrame": 6130,
+          "durationFrames": 225,
+          "role": "complication",
+          "narration": "We first have to fundamentally change how you process basic information. We have to separate the fir"
+        },
+        {
+          "index": 24,
+          "sceneId": "scene-24",
+          "fromFrame": 6355,
+          "durationFrames": 341,
+          "role": "reveal",
+          "narration": "Okay, let's drop right into a scene to illustrate that. I want you to imagine the hum of servers and"
+        }
+      ]
+    },
+    {
+      "id": "seq-07",
+      "source": "engine",
+      "fromFrame": 6696,
+      "durationFrames": 1042,
+      "durationSeconds": 34.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 25,
+          "sceneId": "scene-25",
+          "fromFrame": 6696,
+          "durationFrames": 307,
+          "role": "setup",
+          "narration": "screens, and a stellar corporate earnings report just flashed across the wire for a major tech compa"
+        },
+        {
+          "index": 26,
+          "sceneId": "scene-26",
+          "fromFrame": 7003,
+          "durationFrames": 199,
+          "role": "question",
+          "narration": "Everyone's celebrating, right? And the first level thinker looks at that screen, sees the green text"
+        },
+        {
+          "index": 27,
+          "sceneId": "scene-27",
+          "fromFrame": 7202,
+          "durationFrames": 288,
+          "role": "complication",
+          "narration": "Let's buy the It's totally reflexive. It's an instant reaction. Exactly. But then you have the secon"
+        },
+        {
+          "index": 28,
+          "sceneId": "scene-28",
+          "fromFrame": 7490,
+          "durationFrames": 248,
+          "role": "reveal",
+          "narration": "They see the exact same green numbers. They are reading the exact same press release. But their inte"
+        }
+      ]
+    },
+    {
+      "id": "seq-08",
+      "source": "engine",
+      "fromFrame": 7738,
+      "durationFrames": 1036,
+      "durationSeconds": 34.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 29,
+          "sceneId": "scene-29",
+          "fromFrame": 7738,
+          "durationFrames": 192,
+          "role": "setup",
+          "narration": "They look at it and say, \"Wait, it's a good company.\" Yes. But everyone already thinks it's great."
+        },
+        {
+          "index": 30,
+          "sceneId": "scene-30",
+          "fromFrame": 7930,
+          "durationFrames": 312,
+          "role": "question",
+          "narration": "Everyone expected revenue to be up 25%. Ah, so they missed the whisper number, right? So what unreal"
+        },
+        {
+          "index": 31,
+          "sceneId": "scene-31",
+          "fromFrame": 8242,
+          "durationFrames": 201,
+          "role": "complication",
+          "narration": "Sell that scene right there. I mean that captures the entire essence of the problem most retail inve"
+        },
+        {
+          "index": 32,
+          "sceneId": "scene-32",
+          "fromFrame": 8443,
+          "durationFrames": 331,
+          "role": "reveal",
+          "narration": "It's tough. It is. The lesson here is that investing is an incredibly competitive zero sum game. Bei"
+        }
+      ]
+    },
+    {
+      "id": "seq-09",
+      "source": "engine",
+      "fromFrame": 8774,
+      "durationFrames": 1128,
+      "durationSeconds": 37.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 33,
+          "sceneId": "scene-33",
+          "fromFrame": 8774,
+          "durationFrames": 262,
+          "role": "setup",
+          "narration": "You have to be more right. You must be more right than the consensus. You have to outthink the crowd"
+        },
+        {
+          "index": 34,
+          "sceneId": "scene-34",
+          "fromFrame": 9036,
+          "durationFrames": 298,
+          "role": "question",
+          "narration": "It only asks for an opinion about the future like will this company sell a lot of software which is "
+        },
+        {
+          "index": 35,
+          "sceneId": "scene-35",
+          "fromFrame": 9334,
+          "durationFrames": 201,
+          "role": "complication",
+          "narration": "It asks about the range of outcomes the probabilities what the consensus believes and crucially how "
+        },
+        {
+          "index": 36,
+          "sceneId": "scene-36",
+          "fromFrame": 9535,
+          "durationFrames": 367,
+          "role": "reveal",
+          "narration": "differs from that consensus. It's almost like everyone is looking at the same puzzle, but the second"
+        }
+      ]
+    },
+    {
+      "id": "seq-10",
+      "source": "engine",
+      "fromFrame": 9902,
+      "durationFrames": 1121,
+      "durationSeconds": 37.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 37,
+          "sceneId": "scene-37",
+          "fromFrame": 9902,
+          "durationFrames": 207,
+          "role": "setup",
+          "narration": "example in the text to hammer this home. So the first level thinker reads the morning paper and sees"
+        },
+        {
+          "index": 38,
+          "sceneId": "scene-38",
+          "fromFrame": 10109,
+          "durationFrames": 153,
+          "role": "question",
+          "narration": "The outlook calls for low growth and rising inflation. Bad news. Bad news."
+        },
+        {
+          "index": 39,
+          "sceneId": "scene-39",
+          "fromFrame": 10262,
+          "durationFrames": 300,
+          "role": "complication",
+          "narration": "Their immediate reaction is the economy is bad. Dump our stocks. Sell everything. Right? But the sec"
+        },
+        {
+          "index": 40,
+          "sceneId": "scene-40",
+          "fromFrame": 10562,
+          "durationFrames": 212,
+          "role": "complication",
+          "narration": "the outlook stinks.\" Absolutely. But everyone else is selling in a blind, terrified panic because of"
+        },
+        {
+          "index": 41,
+          "sceneId": "scene-41",
+          "fromFrame": 10774,
+          "durationFrames": 249,
+          "role": "reveal",
+          "narration": "So prices are crashing. Exactly. Therefore, the prices have plummeted completely below the actual fu"
+        }
+      ]
+    },
+    {
+      "id": "seq-11",
+      "source": "engine",
+      "fromFrame": 11023,
+      "durationFrames": 1008,
+      "durationSeconds": 33.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 42,
+          "sceneId": "scene-42",
+          "fromFrame": 11023,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "So buy. I'd take it even a step further. Actually, it's not just about doing the opposite. It's a co"
+        },
+        {
+          "index": 43,
+          "sceneId": "scene-43",
+          "fromFrame": 11287,
+          "durationFrames": 166,
+          "role": "question",
+          "narration": "Well, the first level thinker thinks in absolutes. Good news means buy. Bad news means sell."
+        },
+        {
+          "index": 44,
+          "sceneId": "scene-44",
+          "fromFrame": 11453,
+          "durationFrames": 326,
+          "role": "complication",
+          "narration": "But the second level thinker thinks in relative terms. They ask, \"Is the news better or worse than w"
+        },
+        {
+          "index": 45,
+          "sceneId": "scene-45",
+          "fromFrame": 11779,
+          "durationFrames": 252,
+          "role": "reveal",
+          "narration": "second because this sounds great in theory, but let's look at Bring it on. The crowd today isn't jus"
+        }
+      ]
+    },
+    {
+      "id": "seq-12",
+      "source": "engine",
+      "fromFrame": 12031,
+      "durationFrames": 1111,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 46,
+          "sceneId": "scene-46",
+          "fromFrame": 12031,
+          "durationFrames": 233,
+          "role": "setup",
+          "narration": "The crowd is made up of thousands of Ivy League educated quants with supercomputers analyzing every "
+        },
+        {
+          "index": 47,
+          "sceneId": "scene-47",
+          "fromFrame": 12264,
+          "durationFrames": 302,
+          "role": "question",
+          "narration": "Right. The algorithms. Yeah. If millions of highly computerized analysts are competing for every sin"
+        },
+        {
+          "index": 48,
+          "sceneId": "scene-48",
+          "fromFrame": 12566,
+          "durationFrames": 356,
+          "role": "complication",
+          "narration": "I mean, how do you outthink a supercomputer that already knows what the consensus is before you've e"
+        },
+        {
+          "index": 49,
+          "sceneId": "scene-49",
+          "fromFrame": 12922,
+          "durationFrames": 220,
+          "role": "reveal",
+          "narration": "Okay, tell me why. Yes, it is intensely difficult to beat the market. That's exactly why simple mech"
+        }
+      ]
+    },
+    {
+      "id": "seq-13",
+      "source": "engine",
+      "fromFrame": 13142,
+      "durationFrames": 1059,
+      "durationSeconds": 35.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 50,
+          "sceneId": "scene-50",
+          "fromFrame": 13142,
+          "durationFrames": 260,
+          "role": "setup",
+          "narration": "ultimately fail during periods of stress because they break. Exactly. Algorithms are entirely based "
+        },
+        {
+          "index": 51,
+          "sceneId": "scene-51",
+          "fromFrame": 13402,
+          "durationFrames": 220,
+          "role": "question",
+          "narration": "They are, in a very real sense, the ultimate first level thinkers just operating at light speed. Oh "
+        },
+        {
+          "index": 52,
+          "sceneId": "scene-52",
+          "fromFrame": 13622,
+          "durationFrames": 257,
+          "role": "complication",
+          "narration": "Yeah, they assume the future will look exactly like the past. But as Joel Greenblat points out in hi"
+        },
+        {
+          "index": 53,
+          "sceneId": "scene-53",
+          "fromFrame": 13879,
+          "durationFrames": 322,
+          "role": "reveal",
+          "narration": "is a very comfortable place to be emotionally. But it is not where above average profits are found. "
+        }
+      ]
+    },
+    {
+      "id": "seq-14",
+      "source": "engine",
+      "fromFrame": 14201,
+      "durationFrames": 1101,
+      "durationSeconds": 36.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 54,
+          "sceneId": "scene-54",
+          "fromFrame": 14201,
+          "durationFrames": 185,
+          "role": "setup",
+          "narration": "at a compelling narrative on financial television and ask yourself one simple question, which is,"
+        },
+        {
+          "index": 55,
+          "sceneId": "scene-55",
+          "fromFrame": 14386,
+          "durationFrames": 331,
+          "role": "question",
+          "narration": "and who doesn't know that? Oh man, and who doesn't know that? That is such a killer question. It cut"
+        },
+        {
+          "index": 56,
+          "sceneId": "scene-56",
+          "fromFrame": 14717,
+          "durationFrames": 240,
+          "role": "complication",
+          "narration": "about on a cable news show, it is already baked into the price of the stock. Precisely. If everyone "
+        },
+        {
+          "index": 57,
+          "sceneId": "scene-57",
+          "fromFrame": 14957,
+          "durationFrames": 345,
+          "role": "reveal",
+          "narration": "Anformational advantage only exists when you know something the crowd doesn't. Or more likely, when "
+        }
+      ]
+    },
+    {
+      "id": "seq-15",
+      "source": "engine",
+      "fromFrame": 15302,
+      "durationFrames": 1136,
+      "durationSeconds": 37.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 58,
+          "sceneId": "scene-58",
+          "fromFrame": 15302,
+          "durationFrames": 404,
+          "role": "setup",
+          "narration": "Right? So superior investing is at its absolute core an exercise in second level thinking. But you k"
+        },
+        {
+          "index": 59,
+          "sceneId": "scene-59",
+          "fromFrame": 15706,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "cuz the market isn't a math equation. It's a pendulum of human emotion. And to apply this thinking y"
+        },
+        {
+          "index": 60,
+          "sceneId": "scene-60",
+          "fromFrame": 15960,
+          "durationFrames": 204,
+          "role": "complication",
+          "narration": "The environment is everything. And let me tell you, it is incredibly hostile to rational thought. Le"
+        },
+        {
+          "index": 61,
+          "sceneId": "scene-61",
+          "fromFrame": 16164,
+          "durationFrames": 274,
+          "role": "reveal",
+          "narration": "I want you to picture the chaotic, screaming trading floors during the absolute peak of the tech bub"
+        }
+      ]
+    },
+    {
+      "id": "seq-16",
+      "source": "engine",
+      "fromFrame": 16438,
+      "durationFrames": 979,
+      "durationSeconds": 32.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 62,
+          "sceneId": "scene-62",
+          "fromFrame": 16438,
+          "durationFrames": 338,
+          "role": "setup",
+          "narration": "in the name. You've got day traders literally quitting their jobs to trade tech stocks from their li"
+        },
+        {
+          "index": 63,
+          "sceneId": "scene-63",
+          "fromFrame": 16776,
+          "durationFrames": 240,
+          "role": "question",
+          "narration": "But now I want you to completely invert that sensory experience to the stunned silent shock of the 2"
+        },
+        {
+          "index": 64,
+          "sceneId": "scene-64",
+          "fromFrame": 17016,
+          "durationFrames": 185,
+          "role": "complication",
+          "narration": "Just dead silence. Trading screens are just a sea of red. Nobody is making a sound."
+        },
+        {
+          "index": 65,
+          "sceneId": "scene-65",
+          "fromFrame": 17201,
+          "durationFrames": 216,
+          "role": "reveal",
+          "narration": "People are walking out of investment banks with their belongings in cardboard boxes. It's devastatin"
+        }
+      ]
+    },
+    {
+      "id": "seq-17",
+      "source": "engine",
+      "fromFrame": 17417,
+      "durationFrames": 1140,
+      "durationSeconds": 38,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 66,
+          "sceneId": "scene-66",
+          "fromFrame": 17417,
+          "durationFrames": 197,
+          "role": "setup",
+          "narration": "brilliant, vivid line about this exact phenomenon. He says, \"The air goes out of the balloon"
+        },
+        {
+          "index": 67,
+          "sceneId": "scene-67",
+          "fromFrame": 17614,
+          "durationFrames": 316,
+          "role": "question",
+          "narration": "much faster than it went in.\" It's a very visceral image and mechanically it is exactly how markets "
+        },
+        {
+          "index": 68,
+          "sceneId": "scene-68",
+          "fromFrame": 17930,
+          "durationFrames": 351,
+          "role": "complication",
+          "narration": "market is not some neat upward sloping trend line with occasional bits of random noise like they tea"
+        },
+        {
+          "index": 69,
+          "sceneId": "scene-69",
+          "fromFrame": 18281,
+          "durationFrames": 276,
+          "role": "reveal",
+          "narration": "oscillating pendulum. And it is constantly swinging between two absolute dangerous extremes. Greed a"
+        }
+      ]
+    },
+    {
+      "id": "seq-18",
+      "source": "engine",
+      "fromFrame": 18557,
+      "durationFrames": 1029,
+      "durationSeconds": 34.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 70,
+          "sceneId": "scene-70",
+          "fromFrame": 18557,
+          "durationFrames": 249,
+          "role": "setup",
+          "narration": "and greed on one side and paralyzing depression and fear on the other. And what's fascinating is tha"
+        },
+        {
+          "index": 71,
+          "sceneId": "scene-71",
+          "fromFrame": 18806,
+          "durationFrames": 243,
+          "role": "question",
+          "narration": "It's like the physics of the market pendulum dictate that it rarely spends any time at the happy med"
+        },
+        {
+          "index": 72,
+          "sceneId": "scene-72",
+          "fromFrame": 19049,
+          "durationFrames": 297,
+          "role": "complication",
+          "narration": "If you think about the actual mechanics of a physical pendulum, it's the movement toward the extreme"
+        },
+        {
+          "index": 73,
+          "sceneId": "scene-73",
+          "fromFrame": 19346,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "That is the crucial insight that Markx emphasizes over and over. Busts are not exogenous events that"
+        }
+      ]
+    },
+    {
+      "id": "seq-19",
+      "source": "engine",
+      "fromFrame": 19586,
+      "durationFrames": 1112,
+      "durationSeconds": 37.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 74,
+          "sceneId": "scene-74",
+          "fromFrame": 19586,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "You know, busts are the direct product of booms. They feed off each other. Yeah. Think about the mec"
+        },
+        {
+          "index": 75,
+          "sceneId": "scene-75",
+          "fromFrame": 19790,
+          "durationFrames": 279,
+          "role": "question",
+          "narration": "When the pendulum is swinging toward greed, people become incredibly They'll believe anything, right"
+        },
+        {
+          "index": 76,
+          "sceneId": "scene-76",
+          "fromFrame": 20069,
+          "durationFrames": 254,
+          "role": "complication",
+          "narration": "And because they ignore risks, banks lower their lending standards to get more money out the door. T"
+        },
+        {
+          "index": 77,
+          "sceneId": "scene-77",
+          "fromFrame": 20323,
+          "durationFrames": 375,
+          "role": "reveal",
+          "narration": "Exactly. And that very behavior, the greedy lowering of standards, weakens the structural integrity "
+        }
+      ]
+    },
+    {
+      "id": "seq-20",
+      "source": "engine",
+      "fromFrame": 20698,
+      "durationFrames": 993,
+      "durationSeconds": 33.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 78,
+          "sceneId": "scene-78",
+          "fromFrame": 20698,
+          "durationFrames": 256,
+          "role": "setup",
+          "narration": "conditions necessary for the catastrophic collapse. The 2005 to 2007 housing market is the ultimate "
+        },
+        {
+          "index": 79,
+          "sceneId": "scene-79",
+          "fromFrame": 20954,
+          "durationFrames": 231,
+          "role": "question",
+          "narration": "The boom, the idea that housing prices could never ever go down led directly to ninja loans. No inco"
+        },
+        {
+          "index": 80,
+          "sceneId": "scene-80",
+          "fromFrame": 21185,
+          "durationFrames": 175,
+          "role": "complication",
+          "narration": "Lenders were just handing out mortgages to anyone with a pulse because the pendulum was at maximum g"
+        },
+        {
+          "index": 81,
+          "sceneId": "scene-81",
+          "fromFrame": 21360,
+          "durationFrames": 331,
+          "role": "reveal",
+          "narration": "The boom literally manufactured the toxic subprime debt that caused the bust. Exactly. The extreme o"
+        }
+      ]
+    },
+    {
+      "id": "seq-21",
+      "source": "engine",
+      "fromFrame": 21691,
+      "durationFrames": 1303,
+      "durationSeconds": 43.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 82,
+          "sceneId": "scene-82",
+          "fromFrame": 21691,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "second though. Because if we know the pendulum always swings back to the middle eventually, why on e"
+        },
+        {
+          "index": 83,
+          "sceneId": "scene-83",
+          "fromFrame": 21936,
+          "durationFrames": 209,
+          "role": "question",
+          "narration": "M like [clears throat] if I'm listening to this, I'm thinking, why not just buy a broadly diversifie"
+        },
+        {
+          "index": 84,
+          "sceneId": "scene-84",
+          "fromFrame": 22145,
+          "durationFrames": 297,
+          "role": "partial_answer",
+          "narration": "Let the pendulum swing all at once. I'm just going to ignore it. Well, that sounds incredibly logica"
+        },
+        {
+          "index": 85,
+          "sceneId": "scene-85",
+          "fromFrame": 22442,
+          "durationFrames": 183,
+          "role": "complication",
+          "narration": "But it ignores a brutal reality that is perfectly summarized by John Maynard Kanes's famous warning."
+        },
+        {
+          "index": 86,
+          "sceneId": "scene-86",
+          "fromFrame": 22625,
+          "durationFrames": 369,
+          "role": "reveal",
+          "narration": "The market can remain irrational longer than you can remain solvent. O, that's a scary thought. It i"
+        }
+      ]
+    },
+    {
+      "id": "seq-22",
+      "source": "engine",
+      "fromFrame": 22994,
+      "durationFrames": 1236,
+      "durationSeconds": 41.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 87,
+          "sceneId": "scene-87",
+          "fromFrame": 22994,
+          "durationFrames": 288,
+          "role": "setup",
+          "narration": "in reality. Let's talk about the mechanics of getting wiped out. Let's do it. If you buy at the abso"
+        },
+        {
+          "index": 88,
+          "sceneId": "scene-88",
+          "fromFrame": 23282,
+          "durationFrames": 293,
+          "role": "question",
+          "narration": "the violent swing back toward fear can wipe out your capital Right. And for anyone who hasn't had th"
+        },
+        {
+          "index": 89,
+          "sceneId": "scene-89",
+          "fromFrame": 23575,
+          "durationFrames": 310,
+          "role": "complication",
+          "narration": "Let's break that down. Sure. So when you buy on margin, you are essentially borrowing money from you"
+        },
+        {
+          "index": 90,
+          "sceneId": "scene-90",
+          "fromFrame": 23885,
+          "durationFrames": 345,
+          "role": "reveal",
+          "narration": "Yes, but also your losses. [laughter] The stock itself acts as collateral for the loan. So if the ma"
+        }
+      ]
+    },
+    {
+      "id": "seq-23",
+      "source": "engine",
+      "fromFrame": 24230,
+      "durationFrames": 1208,
+      "durationSeconds": 40.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 91,
+          "sceneId": "scene-91",
+          "fromFrame": 24230,
+          "durationFrames": 384,
+          "role": "setup",
+          "narration": "No, they will demand that you deposit more cash into your account immediately to cover the declining"
+        },
+        {
+          "index": 92,
+          "sceneId": "scene-92",
+          "fromFrame": 24614,
+          "durationFrames": 200,
+          "role": "question",
+          "narration": "the absolute worst possible time, at the absolute bottom of the market to get their money back, and "
+        },
+        {
+          "index": 93,
+          "sceneId": "scene-93",
+          "fromFrame": 24814,
+          "durationFrames": 345,
+          "role": "complication",
+          "narration": "Your capital is completely vaporized. And if your capital is wiped out at the bottom of the ark, you"
+        },
+        {
+          "index": 94,
+          "sceneId": "scene-94",
+          "fromFrame": 25159,
+          "durationFrames": 279,
+          "role": "reveal",
+          "narration": "or you know, even if you aren't using margin, the psychological pain of watching your life savings d"
+        }
+      ]
+    },
+    {
+      "id": "seq-24",
+      "source": "engine",
+      "fromFrame": 25438,
+      "durationFrames": 960,
+      "durationSeconds": 32,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 95,
+          "sceneId": "scene-95",
+          "fromFrame": 25438,
+          "durationFrames": 362,
+          "role": "setup",
+          "narration": "They panic sell. They voluntarily sell at the exact bottom just to stop the bleeding. And in both sc"
+        },
+        {
+          "index": 96,
+          "sceneId": "scene-96",
+          "fromFrame": 25800,
+          "durationFrames": 274,
+          "role": "question",
+          "narration": "pendulum extremes through disciplined second level thinking. You have to recognize when the pendulum"
+        },
+        {
+          "index": 97,
+          "sceneId": "scene-97",
+          "fromFrame": 26074,
+          "durationFrames": 324,
+          "role": "reveal",
+          "narration": "and when it has swung too far toward fear and go on the offense. And that threat of permanent loss, "
+        }
+      ]
+    },
+    {
+      "id": "seq-25",
+      "source": "engine",
+      "fromFrame": 26398,
+      "durationFrames": 1164,
+      "durationSeconds": 38.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 98,
+          "sceneId": "scene-98",
+          "fromFrame": 26398,
+          "durationFrames": 300,
+          "role": "setup",
+          "narration": "most misunderstood concept in all of modern finance. The concept of risk. I want to put you in a ste"
+        },
+        {
+          "index": 99,
+          "sceneId": "scene-99",
+          "fromFrame": 26698,
+          "durationFrames": 208,
+          "role": "question",
+          "narration": "You've got a finance professor standing at a whiteboard drawing a neat perfectly upward sloping grap"
+        },
+        {
+          "index": 100,
+          "sceneId": "scene-100",
+          "fromFrame": 26906,
+          "durationFrames": 300,
+          "role": "complication",
+          "narration": "The x-axis is risk. The y-axis is return. The professor taps the board with a marker and tells the s"
+        },
+        {
+          "index": 101,
+          "sceneId": "scene-101",
+          "fromFrame": 27206,
+          "durationFrames": 356,
+          "role": "reveal",
+          "narration": "It's so clean. It makes so much intuitive sense. But Howard Marx wants to take a sledgehammer to tha"
+        }
+      ]
+    },
+    {
+      "id": "seq-26",
+      "source": "engine",
+      "fromFrame": 27562,
+      "durationFrames": 1032,
+      "durationSeconds": 34.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 102,
+          "sceneId": "scene-102",
+          "fromFrame": 27562,
+          "durationFrames": 328,
+          "role": "setup",
+          "narration": "representing terrible, unpredictable outcomes. It's a vital demolition job. Really? Because that upw"
+        },
+        {
+          "index": 103,
+          "sceneId": "scene-103",
+          "fromFrame": 27890,
+          "durationFrames": 284,
+          "role": "question",
+          "narration": "If riskier investments reliably produced higher returns, they wouldn't actually be riskier, would th"
+        },
+        {
+          "index": 104,
+          "sceneId": "scene-104",
+          "fromFrame": 28174,
+          "durationFrames": 177,
+          "role": "complication",
+          "narration": "It's an Exactly. What this shattered whiteboard means for you is that risk is not volatility."
+        },
+        {
+          "index": 105,
+          "sceneId": "scene-105",
+          "fromFrame": 28351,
+          "durationFrames": 243,
+          "role": "reveal",
+          "narration": "It is not beta, which is just this academic mathematical measure of how much a specific stock bounce"
+        }
+      ]
+    },
+    {
+      "id": "seq-27",
+      "source": "engine",
+      "fromFrame": 28594,
+      "durationFrames": 1144,
+      "durationSeconds": 38.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 106,
+          "sceneId": "scene-106",
+          "fromFrame": 28594,
+          "durationFrames": 288,
+          "role": "setup",
+          "narration": "Just because a stock wiggles a lot doesn't mean it's inherently risky. Right? True risk, the only ri"
+        },
+        {
+          "index": 107,
+          "sceneId": "scene-107",
+          "fromFrame": 28882,
+          "durationFrames": 348,
+          "role": "question",
+          "narration": "is the permanent loss of capital going to zero. Going to zero. And the great terrifying irony here i"
+        },
+        {
+          "index": 108,
+          "sceneId": "scene-108",
+          "fromFrame": 29230,
+          "durationFrames": 172,
+          "role": "complication",
+          "narration": "risk has been entirely eliminated. Yes. Let's talk about the quants during the 2007208"
+        },
+        {
+          "index": 109,
+          "sceneId": "scene-109",
+          "fromFrame": 29402,
+          "durationFrames": 336,
+          "role": "reveal",
+          "narration": "mortgage crisis because this perfectly illustrates the danger of those academic risk models. Oh, the"
+        }
+      ]
+    },
+    {
+      "id": "seq-28",
+      "source": "engine",
+      "fromFrame": 29738,
+      "durationFrames": 1071,
+      "durationSeconds": 35.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 110,
+          "sceneId": "scene-110",
+          "fromFrame": 29738,
+          "durationFrames": 267,
+          "role": "setup",
+          "narration": "on Wall Street. The smartest guys in the room. Exactly. They built these massively heavily leveraged"
+        },
+        {
+          "index": 111,
+          "sceneId": "scene-111",
+          "fromFrame": 30005,
+          "durationFrames": 221,
+          "role": "question",
+          "narration": "Their models looked at decades of historical data and assumed that nationwide home prices could neve"
+        },
+        {
+          "index": 112,
+          "sceneId": "scene-112",
+          "fromFrame": 30226,
+          "durationFrames": 283,
+          "role": "complication",
+          "narration": "Right. They equated historical price stability with future safety. Exactly. They looked at their nea"
+        },
+        {
+          "index": 113,
+          "sceneId": "scene-113",
+          "fromFrame": 30509,
+          "durationFrames": 300,
+          "role": "reveal",
+          "narration": "They literally engineered their portfolios. assuing a nationwide housing crash, a true black swan ou"
+        }
+      ]
+    },
+    {
+      "id": "seq-29",
+      "source": "engine",
+      "fromFrame": 30809,
+      "durationFrames": 1106,
+      "durationSeconds": 36.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 114,
+          "sceneId": "scene-114",
+          "fromFrame": 30809,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "And because they thought risk was gone, they leveraged up 30 to1. So when reality broke their models"
+        },
+        {
+          "index": 115,
+          "sceneId": "scene-115",
+          "fromFrame": 31070,
+          "durationFrames": 346,
+          "role": "question",
+          "narration": "They confused the map for the territory. Joel Greenblat actually chimes in on this exact point in th"
+        },
+        {
+          "index": 116,
+          "sceneId": "scene-116",
+          "fromFrame": 31416,
+          "durationFrames": 156,
+          "role": "complication",
+          "narration": "of investing. Give us an example. Let's say a company's stock price drops by 50%"
+        },
+        {
+          "index": 117,
+          "sceneId": "scene-117",
+          "fromFrame": 31572,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "in a week because of a broad market panic, but the underlying business is incredibly sound. It has z"
+        }
+      ]
+    },
+    {
+      "id": "seq-30",
+      "source": "engine",
+      "fromFrame": 31915,
+      "durationFrames": 1102,
+      "durationSeconds": 36.7,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 118,
+          "sceneId": "scene-118",
+          "fromFrame": 31915,
+          "durationFrames": 235,
+          "role": "setup",
+          "narration": "stock's beta or volatility has just skyrocketed, meaning the stock is now quote unquote riskier beca"
+        },
+        {
+          "index": 119,
+          "sceneId": "scene-119",
+          "fromFrame": 32150,
+          "durationFrames": 221,
+          "role": "complication",
+          "narration": "But to a value investor like Markx or Greenblat, the actual risk of permanent capital loss has just"
+        },
+        {
+          "index": 120,
+          "sceneId": "scene-120",
+          "fromFrame": 32371,
+          "durationFrames": 195,
+          "role": "complication",
+          "narration": "Because the business is exactly the same, but it's now on sale for half the Here is the problem with"
+        },
+        {
+          "index": 121,
+          "sceneId": "scene-121",
+          "fromFrame": 32566,
+          "durationFrames": 264,
+          "role": "question",
+          "narration": "If we throw out the professor's neat little graph, if we completely abandon academic measures like v"
+        },
+        {
+          "index": 122,
+          "sceneId": "scene-122",
+          "fromFrame": 32830,
+          "durationFrames": 187,
+          "role": "reveal",
+          "narration": "Because if I can't look at a metric on my brokerage app to tell me how risky a stock is, aren't I ju"
+        }
+      ]
+    },
+    {
+      "id": "seq-31",
+      "source": "engine",
+      "fromFrame": 33017,
+      "durationFrames": 1133,
+      "durationSeconds": 37.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 123,
+          "sceneId": "scene-123",
+          "fromFrame": 33017,
+          "durationFrames": 343,
+          "role": "setup",
+          "narration": "We need some way to quantify what we are facing. That's the uncomfortable truth Markx insists upon. "
+        },
+        {
+          "index": 124,
+          "sceneId": "scene-124",
+          "fromFrame": 33360,
+          "durationFrames": 223,
+          "role": "question",
+          "narration": "volatility cannot be scientifically quantified in advance. It must be assessed judgmentally."
+        },
+        {
+          "index": 125,
+          "sceneId": "scene-125",
+          "fromFrame": 33583,
+          "durationFrames": 233,
+          "role": "complication",
+          "narration": "so it's subjective. It is. It requires human wisdom, experience, and deep analysis, not just a calcu"
+        },
+        {
+          "index": 126,
+          "sceneId": "scene-126",
+          "fromFrame": 33816,
+          "durationFrames": 334,
+          "role": "reveal",
+          "narration": "You have to recognize that taking on higher risk doesn't mean a guarantee of higher returns, right? "
+        }
+      ]
+    },
+    {
+      "id": "seq-32",
+      "source": "engine",
+      "fromFrame": 34150,
+      "durationFrames": 1209,
+      "durationSeconds": 40.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 127,
+          "sceneId": "scene-127",
+          "fromFrame": 34150,
+          "durationFrames": 367,
+          "role": "setup",
+          "narration": "including the very real possibility of catastrophic permanent losses. It's about expanding your imag"
+        },
+        {
+          "index": 128,
+          "sceneId": "scene-128",
+          "fromFrame": 34517,
+          "durationFrames": 197,
+          "role": "question",
+          "narration": "tying this back to our core angle, risk is not volatility. It's the price you pay"
+        },
+        {
+          "index": 129,
+          "sceneId": "scene-129",
+          "fromFrame": 34714,
+          "durationFrames": 302,
+          "role": "complication",
+          "narration": "relative to the underlying value, especially when crowd psychology has pushed that price to an extre"
+        },
+        {
+          "index": 130,
+          "sceneId": "scene-130",
+          "fromFrame": 35016,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "if risk is tied so intimately to the price you pay, how do we know what the right price actually is?"
+        }
+      ]
+    },
+    {
+      "id": "seq-33",
+      "source": "engine",
+      "fromFrame": 35359,
+      "durationFrames": 1212,
+      "durationSeconds": 40.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 131,
+          "sceneId": "scene-131",
+          "fromFrame": 35359,
+          "durationFrames": 387,
+          "role": "setup",
+          "narration": "mahogany desk looking at two different Okay? One is a glossy highdefinition brochure for a pristine "
+        },
+        {
+          "index": 132,
+          "sceneId": "scene-132",
+          "fromFrame": 35746,
+          "durationFrames": 158,
+          "role": "question",
+          "narration": "visionary CEO, and revenue is doubling every single Sounds great. It does."
+        },
+        {
+          "index": 133,
+          "sceneId": "scene-133",
+          "fromFrame": 35904,
+          "durationFrames": 348,
+          "role": "complication",
+          "narration": "The other dossier is this crumpled manila folder outlining a rusting, distressed debt portfolio of f"
+        },
+        {
+          "index": 134,
+          "sceneId": "scene-134",
+          "fromFrame": 36252,
+          "durationFrames": 319,
+          "role": "reveal",
+          "narration": "Not so glamorous. Not at all. And the crowd outside the window is banging on the glass, pointing at "
+        }
+      ]
+    },
+    {
+      "id": "seq-34",
+      "source": "engine",
+      "fromFrame": 36571,
+      "durationFrames": 1085,
+      "durationSeconds": 36.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 135,
+          "sceneId": "scene-135",
+          "fromFrame": 36571,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "the classic fatal trap of first level thinking. What this means for you practically speaking is that"
+        },
+        {
+          "index": 136,
+          "sceneId": "scene-136",
+          "fromFrame": 36835,
+          "durationFrames": 243,
+          "role": "question",
+          "narration": "It comes exclusively from buying things. Well, that is a massive distinction. There is a canyonsized"
+        },
+        {
+          "index": 137,
+          "sceneId": "scene-137",
+          "fromFrame": 37078,
+          "durationFrames": 247,
+          "role": "complication",
+          "narration": "No asset is so universally wonderful that it cannot become a terrible wealth destroying investment i"
+        },
+        {
+          "index": 138,
+          "sceneId": "scene-138",
+          "fromFrame": 37325,
+          "durationFrames": 331,
+          "role": "reveal",
+          "narration": "Conversely, no asset is so flawed, ugly, or distressed that it cannot become a spectacular bargain i"
+        }
+      ]
+    },
+    {
+      "id": "seq-35",
+      "source": "engine",
+      "fromFrame": 37656,
+      "durationFrames": 1116,
+      "durationSeconds": 37.2,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 139,
+          "sceneId": "scene-139",
+          "fromFrame": 37656,
+          "durationFrames": 202,
+          "role": "setup",
+          "narration": "the ultimate historical example of this Oh, definitely. These were undeniably great dominant compani"
+        },
+        {
+          "index": 140,
+          "sceneId": "scene-140",
+          "fromFrame": 37858,
+          "durationFrames": 244,
+          "role": "question",
+          "narration": "Xerox, Polaroid, Avon, IBM. The consensus crowd adopted a literal price is no object mentality. Buy "
+        },
+        {
+          "index": 141,
+          "sceneId": "scene-141",
+          "fromFrame": 38102,
+          "durationFrames": 245,
+          "role": "partial_answer",
+          "narration": "Exactly. They believe that because these companies were so dominant, you could pay any multiple of e"
+        },
+        {
+          "index": 142,
+          "sceneId": "scene-142",
+          "fromFrame": 38347,
+          "durationFrames": 163,
+          "role": "complication",
+          "narration": "It's like buying a perfectly engineered Ferrari, but agreeing to pay the price of a Boeing 747"
+        },
+        {
+          "index": 143,
+          "sceneId": "scene-143",
+          "fromFrame": 38510,
+          "durationFrames": 262,
+          "role": "reveal",
+          "narration": "for it. Great car, terrible investment. Exactly. It's a great car, but at that price, it is an objec"
+        }
+      ]
+    },
+    {
+      "id": "seq-36",
+      "source": "engine",
+      "fromFrame": 38772,
+      "durationFrames": 991,
+      "durationSeconds": 33,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 144,
+          "sceneId": "scene-144",
+          "fromFrame": 38772,
+          "durationFrames": 206,
+          "role": "setup",
+          "narration": "When reality finally set in and growth slowed even slightly, those investors suffered massive losses"
+        },
+        {
+          "index": 145,
+          "sceneId": "scene-145",
+          "fromFrame": 38978,
+          "durationFrames": 245,
+          "role": "question",
+          "narration": "Not because the companies went bankrupt, but because the astronomical price they paid had completely"
+        },
+        {
+          "index": 146,
+          "sceneId": "scene-146",
+          "fromFrame": 39223,
+          "durationFrames": 317,
+          "role": "complication",
+          "narration": "They confused a great company with a great investment. As Paul Johnson notes in his annotations of t"
+        },
+        {
+          "index": 147,
+          "sceneId": "scene-147",
+          "fromFrame": 39540,
+          "durationFrames": 223,
+          "role": "reveal",
+          "narration": "mechanics of other market participants will eventually take care of the rest. But you have to know h"
+        }
+      ]
+    },
+    {
+      "id": "seq-37",
+      "source": "engine",
+      "fromFrame": 39763,
+      "durationFrames": 1063,
+      "durationSeconds": 35.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 148,
+          "sceneId": "scene-148",
+          "fromFrame": 39763,
+          "durationFrames": 161,
+          "role": "setup",
+          "narration": "Let's explain how you actually do Yeah. How do you find the intrinsic value that separates"
+        },
+        {
+          "index": 149,
+          "sceneId": "scene-149",
+          "fromFrame": 39924,
+          "durationFrames": 290,
+          "role": "question",
+          "narration": "the Ferrari from the Boeing 747 price tag? Well, in traditional finance, intrinsic value is usually "
+        },
+        {
+          "index": 150,
+          "sceneId": "scene-150",
+          "fromFrame": 40214,
+          "durationFrames": 310,
+          "role": "complication",
+          "narration": "Okay, DCF. The basic logic is this. A company is only worth the amount of actual cash it can generat"
+        },
+        {
+          "index": 151,
+          "sceneId": "scene-151",
+          "fromFrame": 40524,
+          "durationFrames": 302,
+          "role": "reveal",
+          "narration": "Because of the time value of Exactly. Because a dollar today is worth more than a dollar 10 years fr"
+        }
+      ]
+    },
+    {
+      "id": "seq-38",
+      "source": "engine",
+      "fromFrame": 40826,
+      "durationFrames": 970,
+      "durationSeconds": 32.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 152,
+          "sceneId": "scene-152",
+          "fromFrame": 40826,
+          "durationFrames": 260,
+          "role": "setup",
+          "narration": "If you do the deep second level analysis of a company's balance sheet, its competitive advantage, an"
+        },
+        {
+          "index": 153,
+          "sceneId": "scene-153",
+          "fromFrame": 41086,
+          "durationFrames": 187,
+          "role": "question",
+          "narration": "fundamental dollar value per share. That is the intrinsic value. Okay? But I'm going to stop you the"
+        },
+        {
+          "index": 154,
+          "sceneId": "scene-154",
+          "fromFrame": 41273,
+          "durationFrames": 381,
+          "role": "complication",
+          "narration": "Because here is the agonizing part of this philosophy. You could sit in your office, do a brilliant "
+        },
+        {
+          "index": 155,
+          "sceneId": "scene-155",
+          "fromFrame": 41654,
+          "durationFrames": 142,
+          "role": "reveal",
+          "narration": "share, buy it for 30. A bargain. A huge bargain."
+        }
+      ]
+    },
+    {
+      "id": "seq-39",
+      "source": "engine",
+      "fromFrame": 41796,
+      "durationFrames": 1258,
+      "durationSeconds": 41.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 156,
+          "sceneId": "scene-156",
+          "fromFrame": 41796,
+          "durationFrames": 307,
+          "role": "setup",
+          "narration": "And then you watch the market ignore your math for five years. Yep, it happens. The stock could drif"
+        },
+        {
+          "index": 157,
+          "sceneId": "scene-157",
+          "fromFrame": 42103,
+          "durationFrames": 336,
+          "role": "question",
+          "narration": "You could be perfectly right on a spreadsheet, but completely bankrupt in the actual market if you g"
+        },
+        {
+          "index": 158,
+          "sceneId": "scene-158",
+          "fromFrame": 42439,
+          "durationFrames": 267,
+          "role": "complication",
+          "narration": "of value investing. It sounds awful. It is. As Markx deeply explores, this is exactly where absolute"
+        },
+        {
+          "index": 159,
+          "sceneId": "scene-159",
+          "fromFrame": 42706,
+          "durationFrames": 348,
+          "role": "reveal",
+          "narration": "The core tenant of value investing is that intrinsic value exerts a magnetic pull on price eventuall"
+        }
+      ]
+    },
+    {
+      "id": "seq-40",
+      "source": "engine",
+      "fromFrame": 43054,
+      "durationFrames": 1084,
+      "durationSeconds": 36.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 160,
+          "sceneId": "scene-160",
+          "fromFrame": 43054,
+          "durationFrames": 340,
+          "role": "setup",
+          "narration": "But you have to have the emotional fortitude and the structural portfolio design, meaning no aggress"
+        },
+        {
+          "index": 161,
+          "sceneId": "scene-161",
+          "fromFrame": 43394,
+          "durationFrames": 315,
+          "role": "question",
+          "narration": "stomach for You do. It's an exercise in second level thinking where risk is defined entirely by the "
+        },
+        {
+          "index": 162,
+          "sceneId": "scene-162",
+          "fromFrame": 43709,
+          "durationFrames": 218,
+          "role": "complication",
+          "narration": "much the stock chart wiggles dayto day. But surviving that weight, holding on to that conviction whi"
+        },
+        {
+          "index": 163,
+          "sceneId": "scene-163",
+          "fromFrame": 43927,
+          "durationFrames": 211,
+          "role": "reveal",
+          "narration": "single day requires fighting an enemy that is literally hardwired into our human"
+        }
+      ]
+    },
+    {
+      "id": "seq-41",
+      "source": "engine",
+      "fromFrame": 44138,
+      "durationFrames": 1049,
+      "durationSeconds": 35,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 164,
+          "sceneId": "scene-164",
+          "fromFrame": 44138,
+          "durationFrames": 183,
+          "role": "setup",
+          "narration": "The herd. The herd. I want to take you back to a classroom at Sworthmore College in the 1950s."
+        },
+        {
+          "index": 165,
+          "sceneId": "scene-165",
+          "fromFrame": 44321,
+          "durationFrames": 173,
+          "role": "partial_answer",
+          "narration": "Solomon Ash's famous psychology experiment on conformity. This is fascinating. It is."
+        },
+        {
+          "index": 166,
+          "sceneId": "scene-166",
+          "fromFrame": 44494,
+          "durationFrames": 290,
+          "role": "question",
+          "narration": "Imagine a real test subject sweating under the fluorescent lights, sitting at a table with a group o"
+        },
+        {
+          "index": 167,
+          "sceneId": "scene-167",
+          "fromFrame": 44784,
+          "durationFrames": 163,
+          "role": "complication",
+          "narration": "Just lines on a board, right? The task is simple. Just say which line is the longest."
+        },
+        {
+          "index": 168,
+          "sceneId": "scene-168",
+          "fromFrame": 44947,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "But the other people at the table are actors. They're shills for the experimentter. And the subject "
+        }
+      ]
+    },
+    {
+      "id": "seq-42",
+      "source": "engine",
+      "fromFrame": 45187,
+      "durationFrames": 1248,
+      "durationSeconds": 41.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 169,
+          "sceneId": "scene-169",
+          "fromFrame": 45187,
+          "durationFrames": 197,
+          "role": "setup",
+          "narration": "loudly give the completely wrong answer. So everyone before him is saying the short line is the long"
+        },
+        {
+          "index": 170,
+          "sceneId": "scene-170",
+          "fromFrame": 45384,
+          "durationFrames": 396,
+          "role": "question",
+          "narration": "The tension in the room builds. The real subject is looking at the board, doubting his own eyes. Fin"
+        },
+        {
+          "index": 171,
+          "sceneId": "scene-171",
+          "fromFrame": 45780,
+          "durationFrames": 293,
+          "role": "complication",
+          "narration": "It is a chilling experiment because it reveals a profound truth about human We want to fit in. We ne"
+        },
+        {
+          "index": 172,
+          "sceneId": "scene-172",
+          "fromFrame": 46073,
+          "durationFrames": 362,
+          "role": "reveal",
+          "narration": "What this means for you in the financial markets is that emotion and the pressure to conform turn hi"
+        }
+      ]
+    },
+    {
+      "id": "seq-43",
+      "source": "engine",
+      "fromFrame": 46435,
+      "durationFrames": 975,
+      "durationSeconds": 32.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 173,
+          "sceneId": "scene-173",
+          "fromFrame": 46435,
+          "durationFrames": 351,
+          "role": "setup",
+          "narration": "Exactly. The corrosive psychological effect of watching your neighbors, your peers, or you know, you"
+        },
+        {
+          "index": 174,
+          "sceneId": "scene-174",
+          "fromFrame": 46786,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "people to abandon their carefully crafted discipline at the exact peaks and bottoms of the market. Y"
+        },
+        {
+          "index": 175,
+          "sceneId": "scene-175",
+          "fromFrame": 47062,
+          "durationFrames": 348,
+          "role": "reveal",
+          "narration": "You think, well, they must know something I don't. It's FOMO, fear of missing out, weaponized on a g"
+        }
+      ]
+    },
+    {
+      "id": "seq-44",
+      "source": "engine",
+      "fromFrame": 47410,
+      "durationFrames": 1024,
+      "durationSeconds": 34.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 176,
+          "sceneId": "scene-176",
+          "fromFrame": 47410,
+          "durationFrames": 386,
+          "role": "setup",
+          "narration": "conformity is for institutional investors. Swenson is a legend. He really is. To give some context, "
+        },
+        {
+          "index": 177,
+          "sceneId": "scene-177",
+          "fromFrame": 47796,
+          "durationFrames": 326,
+          "role": "question",
+          "narration": "warned that casual commitments invite casual reversal. meaning this exposes portfolio managers to th"
+        },
+        {
+          "index": 178,
+          "sceneId": "scene-178",
+          "fromFrame": 48122,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "because they just want to look conventional to their peers. A mutual fund manager would often rather"
+        }
+      ]
+    },
+    {
+      "id": "seq-45",
+      "source": "engine",
+      "fromFrame": 48434,
+      "durationFrames": 1289,
+      "durationSeconds": 43,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 179,
+          "sceneId": "scene-179",
+          "fromFrame": 48434,
+          "durationFrames": 399,
+          "role": "setup",
+          "narration": "career risk of being a contrarian is Huge. The pressure to conform takes a massive toll on the actua"
+        },
+        {
+          "index": 180,
+          "sceneId": "scene-180",
+          "fromFrame": 48833,
+          "durationFrames": 182,
+          "role": "question",
+          "narration": "bottom when everyone is terrified. But let me push back on the idea of always fighting the herd."
+        },
+        {
+          "index": 181,
+          "sceneId": "scene-181",
+          "fromFrame": 49015,
+          "durationFrames": 346,
+          "role": "complication",
+          "narration": "Because isn't the herd actually right most of the time? I mean, trends exist for a reason. If a comp"
+        },
+        {
+          "index": 182,
+          "sceneId": "scene-182",
+          "fromFrame": 49361,
+          "durationFrames": 362,
+          "role": "reveal",
+          "narration": "If you constantly resist the herd just on principle, aren't you just being a contrarian for the sake"
+        }
+      ]
+    },
+    {
+      "id": "seq-46",
+      "source": "engine",
+      "fromFrame": 49723,
+      "durationFrames": 1095,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 183,
+          "sceneId": "scene-183",
+          "fromFrame": 49723,
+          "durationFrames": 259,
+          "role": "setup",
+          "narration": "I agree completely and Markx makes this distinction very clearly in the book. It is absolutely not e"
+        },
+        {
+          "index": 184,
+          "sceneId": "scene-184",
+          "fromFrame": 49982,
+          "durationFrames": 224,
+          "role": "partial_answer",
+          "narration": "That is just as lazy as following them. Profitable contrarianism must be based on rigorous reason an"
+        },
+        {
+          "index": 185,
+          "sceneId": "scene-185",
+          "fromFrame": 50206,
+          "durationFrames": 264,
+          "role": "question",
+          "narration": "You must know exactly why the crowd is wrong. Not just that they are a If everyone is running out of"
+        },
+        {
+          "index": 186,
+          "sceneId": "scene-186",
+          "fromFrame": 50470,
+          "durationFrames": 348,
+          "role": "reveal",
+          "narration": "You die. Right? If you jump in front of a Mac truck just to prove you aren't part of the herd, you j"
+        }
+      ]
+    },
+    {
+      "id": "seq-47",
+      "source": "engine",
+      "fromFrame": 50818,
+      "durationFrames": 996,
+      "durationSeconds": 33.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 187,
+          "sceneId": "scene-187",
+          "fromFrame": 50818,
+          "durationFrames": 218,
+          "role": "setup",
+          "narration": "having the wisdom to know when the crowd has completely lost its collective mind versus when the cro"
+        },
+        {
+          "index": 188,
+          "sceneId": "scene-188",
+          "fromFrame": 51036,
+          "durationFrames": 178,
+          "role": "question",
+          "narration": "And when you finally do the math, find your conviction, and decide to step away from that herd,"
+        },
+        {
+          "index": 189,
+          "sceneId": "scene-189",
+          "fromFrame": 51214,
+          "durationFrames": 259,
+          "role": "complication",
+          "narration": "you find out just how incredibly cold and lonely it is out Oh man, let's drop into that exact feelin"
+        },
+        {
+          "index": 190,
+          "sceneId": "scene-190",
+          "fromFrame": 51473,
+          "durationFrames": 341,
+          "role": "reveal",
+          "narration": "Leman Brothers, a massive historic investment bank, is dead and bankrupt. Till rates, the yield on s"
+        }
+      ]
+    },
+    {
+      "id": "seq-48",
+      "source": "engine",
+      "fromFrame": 51814,
+      "durationFrames": 1128,
+      "durationSeconds": 37.6,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 191,
+          "sceneId": "scene-191",
+          "fromFrame": 51814,
+          "durationFrames": 151,
+          "role": "setup",
+          "narration": "panicked flight to Everyone was terrified. Institutions are hoarding cash."
+        },
+        {
+          "index": 192,
+          "sceneId": "scene-192",
+          "fromFrame": 51965,
+          "durationFrames": 228,
+          "role": "question",
+          "narration": "It feels like the global financial system is literally ending. There are real fears that ATMs might "
+        },
+        {
+          "index": 193,
+          "sceneId": "scene-193",
+          "fromFrame": 52193,
+          "durationFrames": 360,
+          "role": "partial_answer",
+          "narration": "I remember that panic. And in the middle of this total despair, you have to be the lone contrarian l"
+        },
+        {
+          "index": 194,
+          "sceneId": "scene-194",
+          "fromFrame": 52553,
+          "durationFrames": 189,
+          "role": "complication",
+          "narration": "of investing. What this means for you is that true contrarianism is deeply"
+        },
+        {
+          "index": 195,
+          "sceneId": "scene-195",
+          "fromFrame": 52742,
+          "durationFrames": 200,
+          "role": "reveal",
+          "narration": "deeply uncomfortable. It is not a fun detached intellectual exercise you do on a"
+        }
+      ]
+    },
+    {
+      "id": "seq-49",
+      "source": "engine",
+      "fromFrame": 52942,
+      "durationFrames": 969,
+      "durationSeconds": 32.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 196,
+          "sceneId": "scene-196",
+          "fromFrame": 52942,
+          "durationFrames": 324,
+          "role": "setup",
+          "narration": "It's physical. It is. Being too far ahead of your time, taking a position before the pendulum starts"
+        },
+        {
+          "index": 197,
+          "sceneId": "scene-197",
+          "fromFrame": 53266,
+          "durationFrames": 196,
+          "role": "question",
+          "narration": "Your friends think you're crazy. Your clients think you're reckless. But standing alone in that disc"
+        },
+        {
+          "index": 198,
+          "sceneId": "scene-198",
+          "fromFrame": 53462,
+          "durationFrames": 272,
+          "role": "complication",
+          "narration": "only path to asymmetrical The numbers from that exact era are staggering and they prove the point. I"
+        },
+        {
+          "index": 199,
+          "sceneId": "scene-199",
+          "fromFrame": 53734,
+          "durationFrames": 177,
+          "role": "reveal",
+          "narration": "when everyone on television was screaming that the world was ending and cash was the only safe asset"
+        }
+      ]
+    },
+    {
+      "id": "seq-50",
+      "source": "engine",
+      "fromFrame": 53911,
+      "durationFrames": 1030,
+      "durationSeconds": 34.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 200,
+          "sceneId": "scene-200",
+          "fromFrame": 53911,
+          "durationFrames": 219,
+          "role": "setup",
+          "narration": "Oak Tree and a few other distressed debt specialists were actually buying up the debt of fundamental"
+        },
+        {
+          "index": 201,
+          "sceneId": "scene-201",
+          "fromFrame": 54130,
+          "durationFrames": 321,
+          "role": "question",
+          "narration": "Backing up the truck. Exactly. [snorts] And those distressed debt purchases yielded returns of 50 to"
+        },
+        {
+          "index": 202,
+          "sceneId": "scene-202",
+          "fromFrame": 54451,
+          "durationFrames": 159,
+          "role": "complication",
+          "narration": "\"Well, that's too good to be true during a tech bubble.\" It's having the guts, the pure"
+        },
+        {
+          "index": 203,
+          "sceneId": "scene-203",
+          "fromFrame": 54610,
+          "durationFrames": 331,
+          "role": "reveal",
+          "narration": "analytical courage to look at a market in freef fall and say, \"That's too bad to be true during a gl"
+        }
+      ]
+    },
+    {
+      "id": "seq-51",
+      "source": "engine",
+      "fromFrame": 54941,
+      "durationFrames": 984,
+      "durationSeconds": 32.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 204,
+          "sceneId": "scene-204",
+          "fromFrame": 54941,
+          "durationFrames": 163,
+          "role": "setup",
+          "narration": "just as much as it applies to extreme optimism. But how do you actually endure it?"
+        },
+        {
+          "index": 205,
+          "sceneId": "scene-205",
+          "fromFrame": 55104,
+          "durationFrames": 262,
+          "role": "question",
+          "narration": "Seth Clarin, one of the greatest value investors alive, has this annotation in the book where he not"
+        },
+        {
+          "index": 206,
+          "sceneId": "scene-206",
+          "fromFrame": 55366,
+          "durationFrames": 271,
+          "role": "complication",
+          "narration": "makes you feel like a total It hurts. Your DCF spreadsheet says you're right, but your brokerage acc"
+        },
+        {
+          "index": 207,
+          "sceneId": "scene-207",
+          "fromFrame": 55637,
+          "durationFrames": 288,
+          "role": "reveal",
+          "narration": "How do you psychologically survive the months or even years where you look totally foolish to everyo"
+        }
+      ]
+    },
+    {
+      "id": "seq-52",
+      "source": "engine",
+      "fromFrame": 55925,
+      "durationFrames": 1161,
+      "durationSeconds": 38.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 208,
+          "sceneId": "scene-208",
+          "fromFrame": 55925,
+          "durationFrames": 353,
+          "role": "setup",
+          "narration": "You survive it by fundamentally changing how you view what you own. You have to remember that you ow"
+        },
+        {
+          "index": 209,
+          "sceneId": "scene-209",
+          "fromFrame": 56278,
+          "durationFrames": 242,
+          "role": "question",
+          "narration": "Make it real. Make it real. If you own a local laundromat, you don't care if someone offers you 10% "
+        },
+        {
+          "index": 210,
+          "sceneId": "scene-210",
+          "fromFrame": 56520,
+          "durationFrames": 336,
+          "role": "complication",
+          "narration": "As long as the washing machines are still generating You take comfort from your position outside the"
+        },
+        {
+          "index": 211,
+          "sceneId": "scene-211",
+          "fromFrame": 56856,
+          "durationFrames": 230,
+          "role": "reveal",
+          "narration": "set in. You have to trust the math over the Because exceptional returns only come from exploiting th"
+        }
+      ]
+    },
+    {
+      "id": "seq-53",
+      "source": "engine",
+      "fromFrame": 57086,
+      "durationFrames": 1239,
+      "durationSeconds": 41.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 212,
+          "sceneId": "scene-212",
+          "fromFrame": 57086,
+          "durationFrames": 202,
+          "role": "setup",
+          "narration": "And you can only exploit them if you survive the isolation of being a contrarian long enough for the"
+        },
+        {
+          "index": 213,
+          "sceneId": "scene-213",
+          "fromFrame": 57288,
+          "durationFrames": 317,
+          "role": "question",
+          "narration": "But psychological comfort and mental discipline aren't enough on their own. You can't just meditate "
+        },
+        {
+          "index": 214,
+          "sceneId": "scene-214",
+          "fromFrame": 57605,
+          "durationFrames": 319,
+          "role": "complication",
+          "narration": "Which brings us to the margin of safety. I want you to picture a loan officer at a commercial bank r"
+        },
+        {
+          "index": 215,
+          "sceneId": "scene-215",
+          "fromFrame": 57924,
+          "durationFrames": 401,
+          "role": "reveal",
+          "narration": "income projections and asks, \"Will this business pay us back our principle in interest if the econom"
+        }
+      ]
+    },
+    {
+      "id": "seq-54",
+      "source": "engine",
+      "fromFrame": 58325,
+      "durationFrames": 1106,
+      "durationSeconds": 36.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 216,
+          "sceneId": "scene-216",
+          "fromFrame": 58325,
+          "durationFrames": 374,
+          "role": "setup",
+          "narration": "hits tomorrow? and they lose their biggest client. What is the liquidation value of their factory eq"
+        },
+        {
+          "index": 217,
+          "sceneId": "scene-217",
+          "fromFrame": 58699,
+          "durationFrames": 293,
+          "role": "question",
+          "narration": "That is the essence of defensive investing and the margin of safety. What this means for you is that"
+        },
+        {
+          "index": 218,
+          "sceneId": "scene-218",
+          "fromFrame": 58992,
+          "durationFrames": 173,
+          "role": "complication",
+          "narration": "No, it is about actively preparing for worst case outcomes rather than blindly betting on probable o"
+        },
+        {
+          "index": 219,
+          "sceneId": "scene-219",
+          "fromFrame": 59165,
+          "durationFrames": 266,
+          "role": "reveal",
+          "narration": "It's about building a portfolio architecture that survives whatever reality actually arrives, even i"
+        }
+      ]
+    },
+    {
+      "id": "seq-55",
+      "source": "engine",
+      "fromFrame": 59431,
+      "durationFrames": 1047,
+      "durationSeconds": 34.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 220,
+          "sceneId": "scene-220",
+          "fromFrame": 59431,
+          "durationFrames": 173,
+          "role": "setup",
+          "narration": "Now, this is the core philosophy of Oak Tree Capital, outperforming in bad times."
+        },
+        {
+          "index": 221,
+          "sceneId": "scene-221",
+          "fromFrame": 59604,
+          "durationFrames": 250,
+          "role": "question",
+          "narration": "Markx uses a great sports analogy in the text. It's deciding whether you want to focus entirely on s"
+        },
+        {
+          "index": 222,
+          "sceneId": "scene-222",
+          "fromFrame": 59854,
+          "durationFrames": 304,
+          "role": "complication",
+          "narration": "or if you want to focus on keeping your opponent from scoring. Defense. Oak Tree focuses relentlessl"
+        },
+        {
+          "index": 223,
+          "sceneId": "scene-223",
+          "fromFrame": 60158,
+          "durationFrames": 320,
+          "role": "reveal",
+          "narration": "By avoiding catastrophic permanent losses, they allow the math of compounding to do all the heavy li"
+        }
+      ]
+    },
+    {
+      "id": "seq-56",
+      "source": "engine",
+      "fromFrame": 60478,
+      "durationFrames": 1108,
+      "durationSeconds": 36.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 224,
+          "sceneId": "scene-224",
+          "fromFrame": 60478,
+          "durationFrames": 242,
+          "role": "setup",
+          "narration": "massive hit and loses 50% of its value, you don't just need a 50% gain to get back to where you Righ"
+        },
+        {
+          "index": 225,
+          "sceneId": "scene-225",
+          "fromFrame": 60720,
+          "durationFrames": 362,
+          "role": "question",
+          "narration": "You need a 100% gain just to get back to which is incredibly hard to do. Exactly. But if you don't t"
+        },
+        {
+          "index": 226,
+          "sceneId": "scene-226",
+          "fromFrame": 61082,
+          "durationFrames": 255,
+          "role": "complication",
+          "narration": "But let's look at the logical extreme of If you prepare for the absolute worst case scenario constan"
+        },
+        {
+          "index": 227,
+          "sceneId": "scene-227",
+          "fromFrame": 61337,
+          "durationFrames": 249,
+          "role": "reveal",
+          "narration": "Markx himself admits in the text that you can't run a business or an investment portfolio on worst c"
+        }
+      ]
+    },
+    {
+      "id": "seq-57",
+      "source": "engine",
+      "fromFrame": 61586,
+      "durationFrames": 1268,
+      "durationSeconds": 42.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 228,
+          "sceneId": "scene-228",
+          "fromFrame": 61586,
+          "durationFrames": 394,
+          "role": "setup",
+          "narration": "Right? I mean, if you assumed the banking system was going to fail completely every single day, you'"
+        },
+        {
+          "index": 229,
+          "sceneId": "scene-229",
+          "fromFrame": 61980,
+          "durationFrames": 182,
+          "role": "question",
+          "narration": "You can't prepare for the literal end of the world because in that scenario, financial assets don't "
+        },
+        {
+          "index": 230,
+          "sceneId": "scene-230",
+          "fromFrame": 62162,
+          "durationFrames": 344,
+          "role": "complication",
+          "narration": "But you must demand a margin for error. Mechanically, this means paying a low enough price for an as"
+        },
+        {
+          "index": 231,
+          "sceneId": "scene-231",
+          "fromFrame": 62506,
+          "durationFrames": 348,
+          "role": "reveal",
+          "narration": "or the CEO makes a strategic mistake, the financial outcome remains tolerable. It's a buffer. It is."
+        }
+      ]
+    },
+    {
+      "id": "seq-58",
+      "source": "engine",
+      "fromFrame": 62854,
+      "durationFrames": 1233,
+      "durationSeconds": 41.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 232,
+          "sceneId": "scene-232",
+          "fromFrame": 62854,
+          "durationFrames": 230,
+          "role": "setup",
+          "narration": "So, exceptional returns require a strict margin of safety. It's not about avoiding risk entirely bec"
+        },
+        {
+          "index": 233,
+          "sceneId": "scene-233",
+          "fromFrame": 63084,
+          "durationFrames": 324,
+          "role": "partial_answer",
+          "narration": "It's about buying that risk. so cheaply that the downside is mitigated by the massive discount you r"
+        },
+        {
+          "index": 234,
+          "sceneId": "scene-234",
+          "fromFrame": 63408,
+          "durationFrames": 391,
+          "role": "question",
+          "narration": "dose of intellectual humility. Let's talk about the crystal ball. Imagine a highly paid Wall Street "
+        },
+        {
+          "index": 235,
+          "sceneId": "scene-235",
+          "fromFrame": 63799,
+          "durationFrames": 288,
+          "role": "reveal",
+          "narration": "class is hopelessly, permanently clouded over. It's a great image for the futility of macro forecast"
+        }
+      ]
+    },
+    {
+      "id": "seq-59",
+      "source": "engine",
+      "fromFrame": 64087,
+      "durationFrames": 1167,
+      "durationSeconds": 38.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 236,
+          "sceneId": "scene-236",
+          "fromFrame": 64087,
+          "durationFrames": 255,
+          "role": "setup",
+          "narration": "in the book and it perfectly encapsulates this humility. Experience is what you got when you didn't "
+        },
+        {
+          "index": 237,
+          "sceneId": "scene-237",
+          "fromFrame": 64342,
+          "durationFrames": 326,
+          "role": "question",
+          "narration": "What this means for you is that the I know school of investing, the people who confidently go on tel"
+        },
+        {
+          "index": 238,
+          "sceneId": "scene-238",
+          "fromFrame": 64668,
+          "durationFrames": 262,
+          "role": "complication",
+          "narration": "of the next election, is incredibly dangerous to your wealth. so dangerous. You must instead proudly"
+        },
+        {
+          "index": 239,
+          "sceneId": "scene-239",
+          "fromFrame": 64930,
+          "durationFrames": 324,
+          "role": "reveal",
+          "narration": "Because you humbly accept that you don't know the future, you are forced to manage your downside pro"
+        }
+      ]
+    },
+    {
+      "id": "seq-60",
+      "source": "engine",
+      "fromFrame": 65254,
+      "durationFrames": 1008,
+      "durationSeconds": 33.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 240,
+          "sceneId": "scene-240",
+          "fromFrame": 65254,
+          "durationFrames": 225,
+          "role": "setup",
+          "narration": "started their careers in the early 1980s and worked all the way through the late 1990s. Oh yeah. For"
+        },
+        {
+          "index": 241,
+          "sceneId": "scene-241",
+          "fromFrame": 65479,
+          "durationFrames": 183,
+          "role": "question",
+          "narration": "dropping interest rates and a massive economic expansion, they never saw a market decline exceed 5%."
+        },
+        {
+          "index": 242,
+          "sceneId": "scene-242",
+          "fromFrame": 65662,
+          "durationFrames": 360,
+          "role": "complication",
+          "narration": "Incredible run it was. But they were completely lulled to sleep. They genuinely believe they knew th"
+        },
+        {
+          "index": 243,
+          "sceneId": "scene-243",
+          "fromFrame": 66022,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "risk simply didn't exist They confused a very long, very pleasant economic cycle with a permanent st"
+        }
+      ]
+    },
+    {
+      "id": "seq-61",
+      "source": "engine",
+      "fromFrame": 66262,
+      "durationFrames": 1164,
+      "durationSeconds": 38.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 244,
+          "sceneId": "scene-244",
+          "fromFrame": 66262,
+          "durationFrames": 360,
+          "role": "setup",
+          "narration": "And they paid for it dearly when the.com bubble burst. But I have to ask, if we truly can't know the"
+        },
+        {
+          "index": 245,
+          "sceneId": "scene-245",
+          "fromFrame": 66622,
+          "durationFrames": 328,
+          "role": "question",
+          "narration": "gambling blindly? I mean, why bother doing any deep analysis at all if we just throw our hands up an"
+        },
+        {
+          "index": 246,
+          "sceneId": "scene-246",
+          "fromFrame": 66950,
+          "durationFrames": 188,
+          "role": "complication",
+          "narration": "forces you to focus hyperintensely on the micro realities of the specific businesses you are buying."
+        },
+        {
+          "index": 247,
+          "sceneId": "scene-247",
+          "fromFrame": 67138,
+          "durationFrames": 288,
+          "role": "reveal",
+          "narration": "It forces you to demand a lower price today. Price is literally the only variable you can completely"
+        }
+      ]
+    },
+    {
+      "id": "seq-62",
+      "source": "engine",
+      "fromFrame": 67426,
+      "durationFrames": 988,
+      "durationSeconds": 32.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 248,
+          "sceneId": "scene-248",
+          "fromFrame": 67426,
+          "durationFrames": 288,
+          "role": "setup",
+          "narration": "You cannot control the inflation rate. You cannot control the macro economy. But you can absolutely "
+        },
+        {
+          "index": 249,
+          "sceneId": "scene-249",
+          "fromFrame": 67714,
+          "durationFrames": 290,
+          "role": "question",
+          "narration": "Superior investing is not about forecasting when it's going to rain. It's about spending your time b"
+        },
+        {
+          "index": 250,
+          "sceneId": "scene-250",
+          "fromFrame": 68004,
+          "durationFrames": 156,
+          "role": "complication",
+          "narration": "But before we conclude, we have to address the massive elephant in the room regarding this entire"
+        },
+        {
+          "index": 251,
+          "sceneId": "scene-251",
+          "fromFrame": 68160,
+          "durationFrames": 254,
+          "role": "reveal",
+          "narration": "valuedriven philosophy. Let's do it. Because as much as I admire Markx, I have a major challenge to "
+        }
+      ]
+    },
+    {
+      "id": "seq-63",
+      "source": "engine",
+      "fromFrame": 68414,
+      "durationFrames": 970,
+      "durationSeconds": 32.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 252,
+          "sceneId": "scene-252",
+          "fromFrame": 68414,
+          "durationFrames": 375,
+          "role": "setup",
+          "narration": "Let's hear it. Howard Marks preaches endless patience. He preaches relentless defense, demanding a m"
+        },
+        {
+          "index": 253,
+          "sceneId": "scene-253",
+          "fromFrame": 68789,
+          "durationFrames": 331,
+          "role": "question",
+          "narration": "before backing up the truck to buy. Yes, but as Joel Greenblat notes in the margins, those deep valu"
+        },
+        {
+          "index": 254,
+          "sceneId": "scene-254",
+          "fromFrame": 69120,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "year or two of waiting, sometimes much longer, sometimes a decade. Exactly. Doesn't sitting in cash,"
+        }
+      ]
+    },
+    {
+      "id": "seq-64",
+      "source": "engine",
+      "fromFrame": 69384,
+      "durationFrames": 1238,
+      "durationSeconds": 41.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 255,
+          "sceneId": "scene-255",
+          "fromFrame": 69384,
+          "durationFrames": 322,
+          "role": "setup",
+          "narration": "mean you risk missing massive generational bull runs powered by technology and liquidity? It's a hug"
+        },
+        {
+          "index": 256,
+          "sceneId": "scene-256",
+          "fromFrame": 69706,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "cash waiting for a 2008 style crash to buy everything at a discount, you missed out on unprecedented"
+        },
+        {
+          "index": 257,
+          "sceneId": "scene-257",
+          "fromFrame": 69960,
+          "durationFrames": 353,
+          "role": "complication",
+          "narration": "Isn't the risk of omission, the risk of missing out on massive gains just as dangerous to long-term "
+        },
+        {
+          "index": 258,
+          "sceneId": "scene-258",
+          "fromFrame": 70313,
+          "durationFrames": 309,
+          "role": "reveal",
+          "narration": "pain of the value investing approach. Yeah. The reality is Oak Tree willingly accepts that they migh"
+        }
+      ]
+    },
+    {
+      "id": "seq-65",
+      "source": "engine",
+      "fromFrame": 70622,
+      "durationFrames": 982,
+      "durationSeconds": 32.7,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 259,
+          "sceneId": "scene-259",
+          "fromFrame": 70622,
+          "durationFrames": 348,
+          "role": "setup",
+          "narration": "They just accept it. They do. They will look foolish to their peers when speculative cash burning as"
+        },
+        {
+          "index": 260,
+          "sceneId": "scene-260",
+          "fromFrame": 70970,
+          "durationFrames": 404,
+          "role": "question",
+          "narration": "hard. But they accept this agonizing underperformance because their math tested over decades shows t"
+        },
+        {
+          "index": 261,
+          "sceneId": "scene-261",
+          "fromFrame": 71374,
+          "durationFrames": 230,
+          "role": "reveal",
+          "narration": "superior to riding the wave up and getting wiped out on the way down. So they sacrifice the peak to "
+        }
+      ]
+    },
+    {
+      "id": "seq-66",
+      "source": "engine",
+      "fromFrame": 71604,
+      "durationFrames": 1200,
+      "durationSeconds": 40,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 262,
+          "sceneId": "scene-262",
+          "fromFrame": 71604,
+          "durationFrames": 336,
+          "role": "setup",
+          "narration": "They aren't trying to win the sprint of a 2-year bull market. They are trying to survive the maratho"
+        },
+        {
+          "index": 263,
+          "sceneId": "scene-263",
+          "fromFrame": 71940,
+          "durationFrames": 372,
+          "role": "question",
+          "narration": "Precisely. When you strip away all the jargon and the complexity, the most important thing is realiz"
+        },
+        {
+          "index": 264,
+          "sceneId": "scene-264",
+          "fromFrame": 72312,
+          "durationFrames": 190,
+          "role": "complication",
+          "narration": "a mechanical formula or a simple algorithmic rule. It is not physics."
+        },
+        {
+          "index": 265,
+          "sceneId": "scene-265",
+          "fromFrame": 72502,
+          "durationFrames": 302,
+          "role": "reveal",
+          "narration": "The rules change because human beings change. It is an art. It requires what Ben Graham called a tra"
+        }
+      ]
+    },
+    {
+      "id": "seq-67",
+      "source": "engine",
+      "fromFrame": 72804,
+      "durationFrames": 1018,
+      "durationSeconds": 33.9,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 266,
+          "sceneId": "scene-266",
+          "fromFrame": 72804,
+          "durationFrames": 389,
+          "role": "setup",
+          "narration": "and the bravery to stand completely alone when the crowd is screaming in your ear that you are Wow. "
+        },
+        {
+          "index": 267,
+          "sceneId": "scene-267",
+          "fromFrame": 73193,
+          "durationFrames": 242,
+          "role": "question",
+          "narration": "absolute, undeniable urge to follow the crowd and do a sure thing because everyone else is making mo"
+        },
+        {
+          "index": 268,
+          "sceneId": "scene-268",
+          "fromFrame": 73435,
+          "durationFrames": 387,
+          "role": "reveal",
+          "narration": "Just pause, take a breath, and ask yourself, are you truly acting on a cold, calculated estimate of "
+        }
+      ]
+    },
+    {
+      "id": "seq-68",
+      "source": "engine",
+      "fromFrame": 73822,
+      "durationFrames": 402,
+      "durationSeconds": 13.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 269,
+          "sceneId": "scene-269",
+          "fromFrame": 73822,
+          "durationFrames": 218,
+          "role": "setup",
+          "narration": "swinging toward greed? That is the defining question that separates the first level thinkers from th"
+        },
+        {
+          "index": 270,
+          "sceneId": "scene-270",
+          "fromFrame": 74040,
+          "durationFrames": 154,
+          "role": "question",
+          "narration": "Thank you for joining us on this deep dive into Howard Marks and the most important thing."
+        },
+        {
+          "index": 271,
+          "sceneId": "scene-271",
+          "fromFrame": 74194,
+          "durationFrames": 30,
+          "role": "reveal",
+          "narration": "We'll see you next"
+        }
+      ]
+    }
+  ]
+}
