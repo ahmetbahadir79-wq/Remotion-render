@@ -1,0 +1,36 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-07T06:48:27.001Z",
+  "at": "2026-11-07T06:50:15.244Z",
+  "config": "config.antidote.json",
+  "configSha256": "9e1905cc6118703a50f870491b6e62913b51118fc0fcb08204850bd67f28cd1b",
+  "inputs": {
+    "storyboard": {
+      "path": "books/the-choice-factory/art.json",
+      "sha256": "e0e06e1e97084af23b63da3f26d5483345f4e9a671929693e3d9e68689184d69"
+    },
+    "storyBible": {
+      "path": "books/the-choice-factory/story-bible.json",
+      "sha256": "006e4f516f6fa99ca93e9640338130c506b215315cbd5bce254c6ddbadf94c3f"
+    },
+    "motifs": {
+      "path": "books/the-choice-factory/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/the-choice-factory.vtt",
+      "sha256": "e0009b3416ae905fbe5875b8ba872cfbeb4d345c8fa3f1cf03852b6d51c90989"
+    },
+    "audio": {
+      "path": "public/audio/the-choice-factory.mp3",
+      "sha256": "000e8c242437f993a7254678ded42b009eca1d2407534a59fa5dd607992513e7"
+    },
+    "singleRelation": {
+      "path": "books/the-choice-factory/single-relation/active.json",
+      "sha256": "56c4ba958a218d46ee4fa3a4255ee613fce577dada8279ebd8fa1d0974b96a04"
+    }
+  },
+  "head": "1445f82345191de748d76be292895246ba753bfc",
+  "previewOnly": true,
+  "skipPack": true
+}
