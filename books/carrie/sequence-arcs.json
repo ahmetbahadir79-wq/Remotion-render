@@ -1,0 +1,2728 @@
+{
+  "slug": "carrie",
+  "totalSequences": 76,
+  "totalScenes": 214,
+  "averageDurationSecs": 25.1,
+  "sequences": [
+    {
+      "id": "seq-01",
+      "source": "authored",
+      "fromFrame": 2,
+      "durationFrames": 384,
+      "durationSeconds": 12.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 0,
+          "sceneId": "intro",
+          "fromFrame": 2,
+          "durationFrames": 195,
+          "role": "authored-start",
+          "narration": "Over 400 people are dead. I mean, a thriving American town has just been reduced to smoldering ash."
+        },
+        {
+          "index": 1,
+          "sceneId": "scene-01",
+          "fromFrame": 197,
+          "durationFrames": 189,
+          "role": "authored-kept",
+          "narration": "Just a completely smoking crater of destroyed infrastructure. Exactly. Collapsed buildings everywher"
+        }
+      ]
+    },
+    {
+      "id": "seq-02",
+      "source": "engine",
+      "fromFrame": 386,
+      "durationFrames": 572,
+      "durationSeconds": 19.1,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 2,
+          "sceneId": "scene-02",
+          "fromFrame": 386,
+          "durationFrames": 298,
+          "role": "setup",
+          "narration": "And the fuse that lit this entire powder keg, the inciting incident that leveled Chamberlain, Maine "
+        },
+        {
+          "index": 3,
+          "sceneId": "scene-03",
+          "fromFrame": 684,
+          "durationFrames": 274,
+          "role": "reveal",
+          "narration": "So, welcome to the deep dive. Today, we aren't talking about ghosts. We aren't talking about superna"
+        }
+      ]
+    },
+    {
+      "id": "seq-03",
+      "source": "authored",
+      "fromFrame": 958,
+      "durationFrames": 556,
+      "durationSeconds": 18.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 4,
+          "sceneId": "scene-04",
+          "fromFrame": 958,
+          "durationFrames": 304,
+          "role": "authored-start",
+          "narration": "Carrie. And our mission here is to strip away all those decades of pop culture caricature, right? Li"
+        },
+        {
+          "index": 5,
+          "sceneId": "scene-05",
+          "fromFrame": 1262,
+          "durationFrames": 252,
+          "role": "authored-kept",
+          "narration": "Exactly. We're throwing that out to look at what this text actually is, which is an autopsy. I mean,"
+        }
+      ]
+    },
+    {
+      "id": "seq-04",
+      "source": "engine",
+      "fromFrame": 1514,
+      "durationFrames": 195,
+      "durationSeconds": 6.5,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 6,
+          "sceneId": "scene-06",
+          "fromFrame": 1514,
+          "durationFrames": 195,
+          "role": "reveal",
+          "narration": "autopsy of how a community basically manufactures its own absolute Yeah, it really is."
+        }
+      ]
+    },
+    {
+      "id": "seq-05",
+      "source": "authored",
+      "fromFrame": 1709,
+      "durationFrames": 2681,
+      "durationSeconds": 89.4,
+      "sceneCount": 10,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 7,
+          "sceneId": "scene-07",
+          "fromFrame": 1709,
+          "durationFrames": 336,
+          "role": "authored-start",
+          "narration": "And I want to start by dragging us right into the claustrophobic terror of that locker room. Oh, it'"
+        },
+        {
+          "index": 8,
+          "sceneId": "scene-08",
+          "fromFrame": 2045,
+          "durationFrames": 242,
+          "role": "authored-kept",
+          "narration": "the room is incredibly humid, just thick with steam, right? The air is thick, smelling of cheap deod"
+        },
+        {
+          "index": 9,
+          "sceneId": "scene-09",
+          "fromFrame": 2287,
+          "durationFrames": 336,
+          "role": "authored-kept",
+          "narration": "And there's this constant sort of subterranean rumble of the jacuzzi in the corner. You can almost f"
+        },
+        {
+          "index": 10,
+          "sceneId": "scene-10",
+          "fromFrame": 2623,
+          "durationFrames": 353,
+          "role": "authored-kept",
+          "narration": "out of the shower and there is blood running down her leg. She's having her first period years later"
+        },
+        {
+          "index": 11,
+          "sceneId": "scene-11",
+          "fromFrame": 2976,
+          "durationFrames": 197,
+          "role": "authored-kept",
+          "narration": "menstruation even None at all. She literally thinks she is bleeding to And she the sheer visceral pa"
+        },
+        {
+          "index": 12,
+          "sceneId": "scene-12",
+          "fromFrame": 3173,
+          "durationFrames": 209,
+          "role": "authored-kept",
+          "narration": "I mean, it's hard to overstate. She is a child who genuinely believes she is experiencing a fatal he"
+        },
+        {
+          "index": 13,
+          "sceneId": "scene-13",
+          "fromFrame": 3382,
+          "durationFrames": 201,
+          "role": "authored-kept",
+          "narration": "Right. But the true horror of this scene isn't even Car's biological confusion. It's the reaction of"
+        },
+        {
+          "index": 14,
+          "sceneId": "scene-14",
+          "fromFrame": 3583,
+          "durationFrames": 267,
+          "role": "authored-kept",
+          "narration": "Yeah. I mean, you would expect at least one person to pull her aside, right? Or, I don't know, even "
+        },
+        {
+          "index": 15,
+          "sceneId": "scene-15",
+          "fromFrame": 3850,
+          "durationFrames": 213,
+          "role": "authored-kept",
+          "narration": "But instead, this chanting circle of girls forms around her. The cruelty is just instant. It's weapo"
+        },
+        {
+          "index": 16,
+          "sceneId": "scene-16",
+          "fromFrame": 4063,
+          "durationFrames": 327,
+          "role": "authored-kept",
+          "narration": "They start bombarding her. They're hurling sanitary napkins and tampons at her like stones, screamin"
+        }
+      ]
+    },
+    {
+      "id": "seq-06",
+      "source": "engine",
+      "fromFrame": 4390,
+      "durationFrames": 1015,
+      "durationSeconds": 33.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 17,
+          "sceneId": "scene-17",
+          "fromFrame": 4390,
+          "durationFrames": 273,
+          "role": "setup",
+          "narration": "this scene with a pacing of a nuclear meltdown. It's this chain reaction of mob mentality that just "
+        },
+        {
+          "index": 18,
+          "sceneId": "scene-18",
+          "fromFrame": 4663,
+          "durationFrames": 142,
+          "role": "question",
+          "narration": "And this really brings us to the core thesis of what we're exploring for you today."
+        },
+        {
+          "index": 19,
+          "sceneId": "scene-19",
+          "fromFrame": 4805,
+          "durationFrames": 326,
+          "role": "complication",
+          "narration": "Carrie proves that horror is entirely systemic. The telekinesis, the whole TK gene thing is merely t"
+        },
+        {
+          "index": 20,
+          "sceneId": "scene-20",
+          "fromFrame": 5131,
+          "durationFrames": 274,
+          "role": "reveal",
+          "narration": "is engineered over 17 years by Margaret White's fanatical domestic abuse on one side. Right. The hom"
+        }
+      ]
+    },
+    {
+      "id": "seq-07",
+      "source": "engine",
+      "fromFrame": 5405,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 21,
+          "sceneId": "scene-21",
+          "fromFrame": 5405,
+          "durationFrames": 336,
+          "role": "setup",
+          "narration": "It's a complete ecosystem of failure. You have Carrie White, this ostracized, terrified senior who h"
+        },
+        {
+          "index": 22,
+          "sceneId": "scene-22",
+          "fromFrame": 5741,
+          "durationFrames": 259,
+          "role": "question",
+          "narration": "wields this distorted scripture and a terrifying closet alter to keep her daughter trapped in a psyc"
+        },
+        {
+          "index": 23,
+          "sceneId": "scene-23",
+          "fromFrame": 6000,
+          "durationFrames": 370,
+          "role": "reveal",
+          "narration": "And then you have the school ecology which is starkly divided between cruel, privileged instigators "
+        }
+      ]
+    },
+    {
+      "id": "seq-08",
+      "source": "authored",
+      "fromFrame": 6370,
+      "durationFrames": 1087,
+      "durationSeconds": 36.2,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 24,
+          "sceneId": "scene-24",
+          "fromFrame": 6370,
+          "durationFrames": 360,
+          "role": "authored-start",
+          "narration": "all of this not through some standard campfire style scary story, but through an episttolary It's su"
+        },
+        {
+          "index": 25,
+          "sceneId": "scene-25",
+          "fromFrame": 6730,
+          "durationFrames": 393,
+          "role": "authored-kept",
+          "narration": "academic environment right from the beginning. It's so jarring. It really is. You're placed in 1981 "
+        },
+        {
+          "index": 26,
+          "sceneId": "scene-26",
+          "fromFrame": 7123,
+          "durationFrames": 334,
+          "role": "authored-kept",
+          "narration": "So, we're reading through Senate hearings. We're looking at psychiatric reports. We are hearing this"
+        }
+      ]
+    },
+    {
+      "id": "seq-09",
+      "source": "authored",
+      "fromFrame": 7457,
+      "durationFrames": 557,
+      "durationSeconds": 18.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 27,
+          "sceneId": "scene-27",
+          "fromFrame": 7457,
+          "durationFrames": 348,
+          "role": "authored-start",
+          "narration": "The juxtaposition there is wild because you have this dry academic jargon analyzing an absolute Yeah"
+        },
+        {
+          "index": 28,
+          "sceneId": "scene-28",
+          "fromFrame": 7805,
+          "durationFrames": 209,
+          "role": "authored-kept",
+          "narration": "disputed that failure to note specific instances of telekinesis during the white girls earlier years"
+        }
+      ]
+    },
+    {
+      "id": "seq-10",
+      "source": "engine",
+      "fromFrame": 8014,
+      "durationFrames": 369,
+      "durationSeconds": 12.3,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 29,
+          "sceneId": "scene-29",
+          "fromFrame": 8014,
+          "durationFrames": 369,
+          "role": "reveal",
+          "narration": "must be attributed to the conclusion offered by White and Sterns. Right. It reads exactly like a pee"
+        }
+      ]
+    },
+    {
+      "id": "seq-11",
+      "source": "authored",
+      "fromFrame": 8383,
+      "durationFrames": 792,
+      "durationSeconds": 26.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 30,
+          "sceneId": "scene-30",
+          "fromFrame": 8383,
+          "durationFrames": 389,
+          "role": "authored-start",
+          "narration": "He's deliberately stripping away the supernatural gloss to frame this as an irreversible societal An"
+        },
+        {
+          "index": 31,
+          "sceneId": "scene-31",
+          "fromFrame": 8772,
+          "durationFrames": 403,
+          "role": "authored-kept",
+          "narration": "like death toll in Chamberlain stands at 409, It completely recontextualizes the narrative. He's bas"
+        }
+      ]
+    },
+    {
+      "id": "seq-12",
+      "source": "authored",
+      "fromFrame": 9175,
+      "durationFrames": 583,
+      "durationSeconds": 19.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 32,
+          "sceneId": "scene-32",
+          "fromFrame": 9175,
+          "durationFrames": 315,
+          "role": "authored-start",
+          "narration": "like a massive How so? Well, doesn't knowing the ending immediately kill the suspense? I mean, if yo"
+        },
+        {
+          "index": 33,
+          "sceneId": "scene-33",
+          "fromFrame": 9490,
+          "durationFrames": 268,
+          "role": "authored-kept",
+          "narration": "much like a textbook? You think it loses the dread? Yeah, you lose that visceral edgeofyour seat dre"
+        }
+      ]
+    },
+    {
+      "id": "seq-13",
+      "source": "engine",
+      "fromFrame": 9758,
+      "durationFrames": 821,
+      "durationSeconds": 27.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 34,
+          "sceneId": "scene-34",
+          "fromFrame": 9758,
+          "durationFrames": 286,
+          "role": "setup",
+          "narration": "I see why you'd think that, but I'd actually argue the complete opposite. Really? Yeah, the clinical"
+        },
+        {
+          "index": 35,
+          "sceneId": "scene-35",
+          "fromFrame": 10044,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "It shifts the horror from the question of, you know, what is going to happen to the agonizing realiz"
+        },
+        {
+          "index": 36,
+          "sceneId": "scene-36",
+          "fromFrame": 10327,
+          "durationFrames": 252,
+          "role": "reveal",
+          "narration": "I see. Right. When you read a sterile report analyzing Car's telekinetic potential, you are constant"
+        }
+      ]
+    },
+    {
+      "id": "seq-14",
+      "source": "authored",
+      "fromFrame": 10579,
+      "durationFrames": 379,
+      "durationSeconds": 12.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 37,
+          "sceneId": "scene-37",
+          "fromFrame": 10579,
+          "durationFrames": 219,
+          "role": "authored-start",
+          "narration": "You see every missed opportunity by an adult. Every tiny failure of empathy by a classmate. Like cut"
+        },
+        {
+          "index": 38,
+          "sceneId": "scene-38",
+          "fromFrame": 10798,
+          "durationFrames": 160,
+          "role": "authored-kept",
+          "narration": "Exactly. There's another wire being cut on a bomb you already know is absolutely going to detonate."
+        }
+      ]
+    },
+    {
+      "id": "seq-15",
+      "source": "engine",
+      "fromFrame": 10958,
+      "durationFrames": 1047,
+      "durationSeconds": 34.9,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 39,
+          "sceneId": "scene-39",
+          "fromFrame": 10958,
+          "durationFrames": 147,
+          "role": "setup",
+          "narration": "Ah, okay. So, it's not a who done it. It's a why did it happen."
+        },
+        {
+          "index": 40,
+          "sceneId": "scene-40",
+          "fromFrame": 11105,
+          "durationFrames": 249,
+          "role": "question",
+          "narration": "It's like watching a plane crash investigation in slow motion. That's a great way to put it. You see"
+        },
+        {
+          "index": 41,
+          "sceneId": "scene-41",
+          "fromFrame": 11354,
+          "durationFrames": 264,
+          "role": "partial_answer",
+          "narration": "You see the tired pilot. The episttolary structure acts as a literal autopsy report of institutional"
+        },
+        {
+          "index": 42,
+          "sceneId": "scene-42",
+          "fromFrame": 11618,
+          "durationFrames": 233,
+          "role": "complication",
+          "narration": "Precisely. And to understand the very first faulty rivet in this disaster, we have to look at the do"
+        },
+        {
+          "index": 43,
+          "sceneId": "scene-43",
+          "fromFrame": 11851,
+          "durationFrames": 154,
+          "role": "reveal",
+          "narration": "Yes. Margaret White and this sanctified terror she subjected her daughter to."
+        }
+      ]
+    },
+    {
+      "id": "seq-16",
+      "source": "engine",
+      "fromFrame": 12005,
+      "durationFrames": 357,
+      "durationSeconds": 11.9,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 44,
+          "sceneId": "scene-44",
+          "fromFrame": 12005,
+          "durationFrames": 357,
+          "role": "reveal",
+          "narration": "So, let's step into the white bungalow. King does such an incredible job making this house feel just"
+        }
+      ]
+    },
+    {
+      "id": "seq-17",
+      "source": "authored",
+      "fromFrame": 12362,
+      "durationFrames": 432,
+      "durationSeconds": 14.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 45,
+          "sceneId": "scene-45",
+          "fromFrame": 12362,
+          "durationFrames": 245,
+          "role": "authored-start",
+          "narration": "And the living room is dominated by this terrifying 4-foot plaster crucifix on the wall, But it's no"
+        },
+        {
+          "index": 46,
+          "sceneId": "scene-46",
+          "fromFrame": 12607,
+          "durationFrames": 187,
+          "role": "authored-kept",
+          "narration": "Jesus is frozen in this grotesque, muscle straining agony. And someone has painted these vivid"
+        }
+      ]
+    },
+    {
+      "id": "seq-18",
+      "source": "authored",
+      "fromFrame": 12794,
+      "durationFrames": 504,
+      "durationSeconds": 16.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 47,
+          "sceneId": "scene-47",
+          "fromFrame": 12794,
+          "durationFrames": 200,
+          "role": "authored-start",
+          "narration": "scarlet streams of blood running down the It's gruesome. It really is. And then you have Margaret."
+        },
+        {
+          "index": 48,
+          "sceneId": "scene-48",
+          "fromFrame": 12994,
+          "durationFrames": 304,
+          "role": "authored-kept",
+          "narration": "She's a large woman, her eyes magnified behind these rimless bifocals. And the physical violence she"
+        }
+      ]
+    },
+    {
+      "id": "seq-19",
+      "source": "engine",
+      "fromFrame": 13298,
+      "durationFrames": 584,
+      "durationSeconds": 19.5,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 49,
+          "sceneId": "scene-49",
+          "fromFrame": 13298,
+          "durationFrames": 334,
+          "role": "setup",
+          "narration": "architecture she builds that is truly monstrous. Like when Carrie comes home after the locker room i"
+        },
+        {
+          "index": 50,
+          "sceneId": "scene-50",
+          "fromFrame": 13632,
+          "durationFrames": 250,
+          "role": "reveal",
+          "narration": "She swings a heavy laundry callous hand, knocks her teenager to the floor, and drags her to the clos"
+        }
+      ]
+    },
+    {
+      "id": "seq-20",
+      "source": "authored",
+      "fromFrame": 13882,
+      "durationFrames": 710,
+      "durationSeconds": 23.7,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 51,
+          "sceneId": "scene-51",
+          "fromFrame": 13882,
+          "durationFrames": 352,
+          "role": "authored-start",
+          "narration": "I mean, it's essentially a torture chamber. It really is. It's this tiny space illuminated only by a"
+        },
+        {
+          "index": 52,
+          "sceneId": "scene-52",
+          "fromFrame": 14234,
+          "durationFrames": 358,
+          "role": "authored-kept",
+          "narration": "Margaret locks Carrie in there for hours to pray for the quote unquote sin of She literally teaches "
+        }
+      ]
+    },
+    {
+      "id": "seq-21",
+      "source": "engine",
+      "fromFrame": 14592,
+      "durationFrames": 1008,
+      "durationSeconds": 33.6,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 53,
+          "sceneId": "scene-53",
+          "fromFrame": 14592,
+          "durationFrames": 377,
+          "role": "setup",
+          "narration": "curse of blood is God's punishment on women. It just perfectly illustrates how the most dangerous mo"
+        },
+        {
+          "index": 54,
+          "sceneId": "scene-54",
+          "fromFrame": 14969,
+          "durationFrames": 386,
+          "role": "question",
+          "narration": "in broad daylight. Here's what this means for you as you're diving into this. Margaret's theological"
+        },
+        {
+          "index": 55,
+          "sceneId": "scene-55",
+          "fromFrame": 15355,
+          "durationFrames": 245,
+          "role": "reveal",
+          "narration": "and offensive to God. Yeah. It's an environment engineered to extinguish any foundational sense of s"
+        }
+      ]
+    },
+    {
+      "id": "seq-22",
+      "source": "engine",
+      "fromFrame": 15600,
+      "durationFrames": 276,
+      "durationSeconds": 9.2,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 56,
+          "sceneId": "scene-56",
+          "fromFrame": 15600,
+          "durationFrames": 276,
+          "role": "reveal",
+          "narration": "And it starts so incredibly early in Car's life. Like there is this testimony in the book from a nei"
+        }
+      ]
+    },
+    {
+      "id": "seq-23",
+      "source": "authored",
+      "fromFrame": 15876,
+      "durationFrames": 737,
+      "durationSeconds": 24.6,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 57,
+          "sceneId": "scene-57",
+          "fromFrame": 15876,
+          "durationFrames": 254,
+          "role": "authored-start",
+          "narration": "Oh, the backyard scene. Yes. Estelle is sunbathing in her backyard in a swimsuit and a three-year-ol"
+        },
+        {
+          "index": 58,
+          "sceneId": "scene-58",
+          "fromFrame": 16130,
+          "durationFrames": 257,
+          "role": "authored-kept",
+          "narration": "Three years old. Three. She's wearing this heavy, inappropriately long yellow dress on a boiling hot"
+        },
+        {
+          "index": 59,
+          "sceneId": "scene-59",
+          "fromFrame": 16387,
+          "durationFrames": 226,
+          "role": "authored-kept",
+          "narration": "Carrie looks at Estelle, points to her chest, and asks, \"What are those?\" She says her mama told her"
+        }
+      ]
+    },
+    {
+      "id": "seq-24",
+      "source": "authored",
+      "fromFrame": 16613,
+      "durationFrames": 636,
+      "durationSeconds": 21.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 60,
+          "sceneId": "scene-60",
+          "fromFrame": 16613,
+          "durationFrames": 372,
+          "role": "authored-start",
+          "narration": "A toddler. She is already being taught to fear female biology. And when Margaret catches them talkin"
+        },
+        {
+          "index": 61,
+          "sceneId": "scene-61",
+          "fromFrame": 16985,
+          "durationFrames": 264,
+          "role": "authored-kept",
+          "narration": "his primal Complete insane rage. She drags this toddler inside, screaming about [&nbsp;__&nbsp;] and"
+        }
+      ]
+    },
+    {
+      "id": "seq-25",
+      "source": "engine",
+      "fromFrame": 17249,
+      "durationFrames": 372,
+      "durationSeconds": 12.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 62,
+          "sceneId": "scene-62",
+          "fromFrame": 17249,
+          "durationFrames": 180,
+          "role": "setup",
+          "narration": "And right after that, stones start raining from a clear blue sky, smashing onto the whites roof."
+        },
+        {
+          "index": 63,
+          "sceneId": "scene-63",
+          "fromFrame": 17429,
+          "durationFrames": 192,
+          "role": "reveal",
+          "narration": "It shows just how early this pressure cooker of abuse began triggering Car's latent telekinetic powe"
+        }
+      ]
+    },
+    {
+      "id": "seq-26",
+      "source": "authored",
+      "fromFrame": 17621,
+      "durationFrames": 626,
+      "durationSeconds": 20.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 64,
+          "sceneId": "scene-64",
+          "fromFrame": 17621,
+          "durationFrames": 360,
+          "role": "authored-start",
+          "narration": "It's a physical manifestation of extreme repressed psychological trauma. It is. But, you know, I thi"
+        },
+        {
+          "index": 65,
+          "sceneId": "scene-65",
+          "fromFrame": 17981,
+          "durationFrames": 266,
+          "role": "authored-kept",
+          "narration": "Well, I mean, she is purely evil, isn't Is she? She literally stabs her daughter in the back with a "
+        }
+      ]
+    },
+    {
+      "id": "seq-27",
+      "source": "engine",
+      "fromFrame": 18247,
+      "durationFrames": 1104,
+      "durationSeconds": 36.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 66,
+          "sceneId": "scene-66",
+          "fromFrame": 18247,
+          "durationFrames": 324,
+          "role": "setup",
+          "narration": "She's just a one-dimensional religious Wait, I have to strongly disagree with that reading. Really? "
+        },
+        {
+          "index": 67,
+          "sceneId": "scene-67",
+          "fromFrame": 18571,
+          "durationFrames": 166,
+          "role": "question",
+          "narration": "she screams when she finds out about the prom, she isn't just quoting scripture randomly."
+        },
+        {
+          "index": 68,
+          "sceneId": "scene-68",
+          "fromFrame": 18737,
+          "durationFrames": 302,
+          "role": "complication",
+          "narration": "She raves about the sniffing dogs in the parking lots of roadouses. She says, \"I've seen it all righ"
+        },
+        {
+          "index": 69,
+          "sceneId": "scene-69",
+          "fromFrame": 19039,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "Oh, I see. She genuinely, terrifyingly believes she is saving Car's soul because her own life was de"
+        }
+      ]
+    },
+    {
+      "id": "seq-28",
+      "source": "engine",
+      "fromFrame": 19351,
+      "durationFrames": 1051,
+      "durationSeconds": 35,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 70,
+          "sceneId": "scene-70",
+          "fromFrame": 19351,
+          "durationFrames": 293,
+          "role": "setup",
+          "narration": "I see what you mean. So the trauma is entirely generational. It doesn't excuse her abuse for a fract"
+        },
+        {
+          "index": 71,
+          "sceneId": "scene-71",
+          "fromFrame": 19644,
+          "durationFrames": 331,
+          "role": "question",
+          "narration": "cycle rather than just, you know, cartoonish evil. Margaret's worldview was shattered, so she built "
+        },
+        {
+          "index": 72,
+          "sceneId": "scene-72",
+          "fromFrame": 19975,
+          "durationFrames": 209,
+          "role": "complication",
+          "narration": "She's a victim of her own twisted psychology, desperately trying to stop the cycle of sexuality the "
+        },
+        {
+          "index": 73,
+          "sceneId": "scene-73",
+          "fromFrame": 20184,
+          "durationFrames": 218,
+          "role": "reveal",
+          "narration": "So Margaret's fanatical abuse lays the explosive foundation. She strips Carrie of any emotional defe"
+        }
+      ]
+    },
+    {
+      "id": "seq-29",
+      "source": "engine",
+      "fromFrame": 20402,
+      "durationFrames": 1035,
+      "durationSeconds": 34.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 74,
+          "sceneId": "scene-74",
+          "fromFrame": 20402,
+          "durationFrames": 269,
+          "role": "setup",
+          "narration": "ensuring she has absolutely no self-esteem and no understanding of the world. But then Carrie has to"
+        },
+        {
+          "index": 75,
+          "sceneId": "scene-75",
+          "fromFrame": 20671,
+          "durationFrames": 315,
+          "role": "question",
+          "narration": "She has to go to UN high school. And that's where the weaponized isolation is truly forged. Which br"
+        },
+        {
+          "index": 76,
+          "sceneId": "scene-76",
+          "fromFrame": 20986,
+          "durationFrames": 252,
+          "role": "complication",
+          "narration": "The adults failed her, too. So Carrie's huddled in the shower, thinking she's bleeding to death. Tam"
+        },
+        {
+          "index": 77,
+          "sceneId": "scene-77",
+          "fromFrame": 21238,
+          "durationFrames": 199,
+          "role": "reveal",
+          "narration": "Right, here comes Miss Dejardan. It's Miss Dejardan, the gym teacher. Her silver whistle is swinging"
+        }
+      ]
+    },
+    {
+      "id": "seq-30",
+      "source": "engine",
+      "fromFrame": 21437,
+      "durationFrames": 367,
+      "durationSeconds": 12.2,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 78,
+          "sceneId": "scene-78",
+          "fromFrame": 21437,
+          "durationFrames": 367,
+          "role": "reveal",
+          "narration": "She's an authority figure. Literally a physical educator. And instead of comforting a girl who is cl"
+        }
+      ]
+    },
+    {
+      "id": "seq-31",
+      "source": "authored",
+      "fromFrame": 21804,
+      "durationFrames": 641,
+      "durationSeconds": 21.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 79,
+          "sceneId": "scene-79",
+          "fromFrame": 21804,
+          "durationFrames": 406,
+          "role": "authored-start",
+          "narration": "She slaps her. Yep. She slaps Carrie smartly across the face and yells at her to quote, \"Get up and "
+        },
+        {
+          "index": 80,
+          "sceneId": "scene-80",
+          "fromFrame": 22210,
+          "durationFrames": 235,
+          "role": "authored-kept",
+          "narration": "white gym shorts. Dejardan physically shakes her in And here's what that means for you when looking "
+        }
+      ]
+    },
+    {
+      "id": "seq-32",
+      "source": "engine",
+      "fromFrame": 22445,
+      "durationFrames": 1123,
+      "durationSeconds": 37.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 81,
+          "sceneId": "scene-81",
+          "fromFrame": 22445,
+          "durationFrames": 187,
+          "role": "setup",
+          "narration": "It perfectly highlights how institutions fail the vulnerable. Yeah. Authority figures like Dejardan"
+        },
+        {
+          "index": 82,
+          "sceneId": "scene-82",
+          "fromFrame": 22632,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "punish the symptom carries panic because dealing with the root cause of that trauma requires an emot"
+        },
+        {
+          "index": 83,
+          "sceneId": "scene-83",
+          "fromFrame": 22908,
+          "durationFrames": 278,
+          "role": "complication",
+          "narration": "Exactly. Dejardan misdiagnoses severe domestic abuse and fundamental ignorance as simple social awkw"
+        },
+        {
+          "index": 84,
+          "sceneId": "scene-84",
+          "fromFrame": 23186,
+          "durationFrames": 382,
+          "role": "reveal",
+          "narration": "And that institutional failure goes all the way up the chain. Like let's look at principal Henry Gra"
+        }
+      ]
+    },
+    {
+      "id": "seq-33",
+      "source": "engine",
+      "fromFrame": 23568,
+      "durationFrames": 444,
+      "durationSeconds": 14.8,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 85,
+          "sceneId": "scene-85",
+          "fromFrame": 23568,
+          "durationFrames": 173,
+          "role": "setup",
+          "narration": "to protect its most vulnerable selves, the students. But instead, when threatened, the system attack"
+        },
+        {
+          "index": 86,
+          "sceneId": "scene-86",
+          "fromFrame": 23741,
+          "durationFrames": 271,
+          "role": "reveal",
+          "narration": "When Chris Hargginson's powerful, wealthy lawyer father threatens to sue the school over Chris's sus"
+        }
+      ]
+    },
+    {
+      "id": "seq-34",
+      "source": "authored",
+      "fromFrame": 24012,
+      "durationFrames": 514,
+      "durationSeconds": 17.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 87,
+          "sceneId": "scene-87",
+          "fromFrame": 24012,
+          "durationFrames": 288,
+          "role": "authored-start",
+          "narration": "He uses Carrie as a human shield. He uses Car's trauma as bureaucratic leverage. He threatens to cro"
+        },
+        {
+          "index": 88,
+          "sceneId": "scene-88",
+          "fromFrame": 24300,
+          "durationFrames": 226,
+          "role": "authored-kept",
+          "narration": "Wow. The administration doesn't see a traumatized girl crying for help. They just see a convenient c"
+        }
+      ]
+    },
+    {
+      "id": "seq-35",
+      "source": "engine",
+      "fromFrame": 24526,
+      "durationFrames": 674,
+      "durationSeconds": 22.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 89,
+          "sceneId": "scene-89",
+          "fromFrame": 24526,
+          "durationFrames": 201,
+          "role": "setup",
+          "narration": "That's completely cynical. But, you know, I think it's deeply unfair to put DeJar down in the exact "
+        },
+        {
+          "index": 90,
+          "sceneId": "scene-90",
+          "fromFrame": 24727,
+          "durationFrames": 255,
+          "role": "question",
+          "narration": "Wait, really? She slapped a bleeding, hysterical teenager who thought she was She did. She did. And "
+        },
+        {
+          "index": 91,
+          "sceneId": "scene-91",
+          "fromFrame": 24982,
+          "durationFrames": 218,
+          "role": "reveal",
+          "narration": "But look at what happens next. Dejardan is the only adult in this entire ecosystem who actually feel"
+        }
+      ]
+    },
+    {
+      "id": "seq-36",
+      "source": "authored",
+      "fromFrame": 25200,
+      "durationFrames": 487,
+      "durationSeconds": 16.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 92,
+          "sceneId": "scene-92",
+          "fromFrame": 25200,
+          "durationFrames": 197,
+          "role": "authored-start",
+          "narration": "I guess that's true. She admits to the administration that she handled it terribly. She is the one w"
+        },
+        {
+          "index": 93,
+          "sceneId": "scene-93",
+          "fromFrame": 25397,
+          "durationFrames": 290,
+          "role": "authored-kept",
+          "narration": "She wants a 3-day suspension and to refuse them their prom tickets. Her tragedy is that her initial "
+        }
+      ]
+    },
+    {
+      "id": "seq-37",
+      "source": "engine",
+      "fromFrame": 25687,
+      "durationFrames": 1109,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 94,
+          "sceneId": "scene-94",
+          "fromFrame": 25687,
+          "durationFrames": 319,
+          "role": "setup",
+          "narration": "that refuses to fully back her up. That is a fair point. The men in the office completely dilute the"
+        },
+        {
+          "index": 95,
+          "sceneId": "scene-95",
+          "fromFrame": 26006,
+          "durationFrames": 300,
+          "role": "question",
+          "narration": "skip the detention, and thereby get banned from the prominent technicality. Exactly. Dejardan tried "
+        },
+        {
+          "index": 96,
+          "sceneId": "scene-96",
+          "fromFrame": 26306,
+          "durationFrames": 248,
+          "role": "complication",
+          "narration": "So the adults completely abdicate their responsibility. But nature of horror is a vacuum. When autho"
+        },
+        {
+          "index": 97,
+          "sceneId": "scene-97",
+          "fromFrame": 26554,
+          "durationFrames": 242,
+          "role": "reveal",
+          "narration": "steps in to fill it. Oh, absolutely. And that brings us to the bystanders. The kids who watch the va"
+        }
+      ]
+    },
+    {
+      "id": "seq-38",
+      "source": "engine",
+      "fromFrame": 26796,
+      "durationFrames": 286,
+      "durationSeconds": 9.5,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 98,
+          "sceneId": "scene-98",
+          "fromFrame": 26796,
+          "durationFrames": 286,
+          "role": "reveal",
+          "narration": "We really have to talk about Yes, Susnell is such a fascinating character study in performative guil"
+        }
+      ]
+    },
+    {
+      "id": "seq-39",
+      "source": "authored",
+      "fromFrame": 27082,
+      "durationFrames": 916,
+      "durationSeconds": 30.5,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 99,
+          "sceneId": "scene-99",
+          "fromFrame": 27082,
+          "durationFrames": 252,
+          "role": "authored-start",
+          "narration": "It's Friday night. They're sitting in the dark, steamed up windows of Tommy Ross' 1963 Ford. Right. "
+        },
+        {
+          "index": 100,
+          "sceneId": "scene-100",
+          "fromFrame": 27334,
+          "durationFrames": 271,
+          "role": "authored-kept",
+          "narration": "but she's not happy. She's crying. Not out of sadness, but out of this sudden, crushing suburban gui"
+        },
+        {
+          "index": 101,
+          "sceneId": "scene-101",
+          "fromFrame": 27605,
+          "durationFrames": 151,
+          "role": "authored-kept",
+          "narration": "She realizes she went along with the shower room cruelty. She thinks of herself as a hypocrite."
+        },
+        {
+          "index": 102,
+          "sceneId": "scene-102",
+          "fromFrame": 27756,
+          "durationFrames": 242,
+          "role": "authored-kept",
+          "narration": "And right there in the front seat of the car, she begs Tommy to take Carrie White to the spring It's"
+        }
+      ]
+    },
+    {
+      "id": "seq-40",
+      "source": "engine",
+      "fromFrame": 27998,
+      "durationFrames": 576,
+      "durationSeconds": 19.2,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 103,
+          "sceneId": "scene-103",
+          "fromFrame": 27998,
+          "durationFrames": 339,
+          "role": "setup",
+          "narration": "And here's what this means for you. It's this brilliant uncomfortable realization that Sue's grand g"
+        },
+        {
+          "index": 104,
+          "sceneId": "scene-104",
+          "fromFrame": 28337,
+          "durationFrames": 237,
+          "role": "reveal",
+          "narration": "it's totally selfish. She's using pity as a currency to buy back her own peace of mind. She just wan"
+        }
+      ]
+    },
+    {
+      "id": "seq-41",
+      "source": "authored",
+      "fromFrame": 28574,
+      "durationFrames": 543,
+      "durationSeconds": 18.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 105,
+          "sceneId": "scene-105",
+          "fromFrame": 28574,
+          "durationFrames": 320,
+          "role": "authored-start",
+          "narration": "We see this so clearly when Sue is sitting out the prom. While Tommy and Carrie are at the dance, Su"
+        },
+        {
+          "index": 106,
+          "sceneId": "scene-106",
+          "fromFrame": 28894,
+          "durationFrames": 223,
+          "role": "authored-kept",
+          "narration": "crepe paper with her friend Helen Shiers, right? Being a good school citizen, right? She's publicly "
+        }
+      ]
+    },
+    {
+      "id": "seq-42",
+      "source": "engine",
+      "fromFrame": 29117,
+      "durationFrames": 977,
+      "durationSeconds": 32.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 107,
+          "sceneId": "scene-107",
+          "fromFrame": 29117,
+          "durationFrames": 266,
+          "role": "setup",
+          "narration": "But internally, she admits a very dark truth to herself. A part of her deeply wants to see Chris Har"
+        },
+        {
+          "index": 108,
+          "sceneId": "scene-108",
+          "fromFrame": 29383,
+          "durationFrames": 187,
+          "role": "question",
+          "narration": "quote sackcloth and ashes. She wants to win the moral high ground over the school's mean girl."
+        },
+        {
+          "index": 109,
+          "sceneId": "scene-109",
+          "fromFrame": 29570,
+          "durationFrames": 286,
+          "role": "complication",
+          "narration": "So, she's entirely selfish. She's using Tommy as a proxy to clear her conscience without having to a"
+        },
+        {
+          "index": 110,
+          "sceneId": "scene-110",
+          "fromFrame": 29856,
+          "durationFrames": 238,
+          "role": "reveal",
+          "narration": "not a Okay, but wait, are we being too harsh on Sue, though? You think so? I do. I passionately disa"
+        }
+      ]
+    },
+    {
+      "id": "seq-43",
+      "source": "engine",
+      "fromFrame": 30094,
+      "durationFrames": 1058,
+      "durationSeconds": 35.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 111,
+          "sceneId": "scene-111",
+          "fromFrame": 30094,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "Sue is giving up her senior In her world, in 1970s suburban Maine, that is the ultimate status symbo"
+        },
+        {
+          "index": 112,
+          "sceneId": "scene-112",
+          "fromFrame": 30355,
+          "durationFrames": 252,
+          "role": "question",
+          "narration": "She is pushing her boyfriend, the golden boy, the most popular athlete in school, to cross a massive"
+        },
+        {
+          "index": 113,
+          "sceneId": "scene-113",
+          "fromFrame": 30607,
+          "durationFrames": 283,
+          "role": "complication",
+          "narration": "It is. It's a clumsy, ill-thoughtout, dangerous gesture. Yes. But there is a seed of genuine empathy"
+        },
+        {
+          "index": 114,
+          "sceneId": "scene-114",
+          "fromFrame": 30890,
+          "durationFrames": 262,
+          "role": "reveal",
+          "narration": "And she wants to do something that actually Well, it's a fascinating tension. I'll grant you that. T"
+        }
+      ]
+    },
+    {
+      "id": "seq-44",
+      "source": "engine",
+      "fromFrame": 31152,
+      "durationFrames": 1049,
+      "durationSeconds": 35,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 115,
+          "sceneId": "scene-115",
+          "fromFrame": 31152,
+          "durationFrames": 266,
+          "role": "setup",
+          "narration": "That's fair. Sue doesn't understand the volatile ecosystem she's disrupting. She thinks you can just"
+        },
+        {
+          "index": 116,
+          "sceneId": "scene-116",
+          "fromFrame": 31418,
+          "durationFrames": 236,
+          "role": "question",
+          "narration": "into the most highstakes social event of the year and it would all be fine just because a popular bo"
+        },
+        {
+          "index": 117,
+          "sceneId": "scene-117",
+          "fromFrame": 31654,
+          "durationFrames": 338,
+          "role": "complication",
+          "narration": "The high school social hierarchy is so toxic that even its attempts at kindness result in weaponized"
+        },
+        {
+          "index": 118,
+          "sceneId": "scene-118",
+          "fromFrame": 31992,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "And the people taking aim at that target are Chris Hargginson and Billy Nolan. Yes, the sociopathy b"
+        }
+      ]
+    },
+    {
+      "id": "seq-45",
+      "source": "engine",
+      "fromFrame": 32201,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 119,
+          "sceneId": "scene-119",
+          "fromFrame": 32201,
+          "durationFrames": 271,
+          "role": "setup",
+          "narration": "Let's stand in the dark at Irwin Hinty's farm for a second. It's night and you hear this heavy porte"
+        },
+        {
+          "index": 120,
+          "sceneId": "scene-120",
+          "fromFrame": 32472,
+          "durationFrames": 175,
+          "role": "question",
+          "narration": "moving through the This scene, it's Billy Nolan swinging it to slaughter a pig."
+        },
+        {
+          "index": 121,
+          "sceneId": "scene-121",
+          "fromFrame": 32647,
+          "durationFrames": 324,
+          "role": "complication",
+          "narration": "Billy and his greaser friends are laughing. The pigs are squealing in the dark. And the thick blood "
+        },
+        {
+          "index": 122,
+          "sceneId": "scene-122",
+          "fromFrame": 32971,
+          "durationFrames": 195,
+          "role": "reveal",
+          "narration": "Hargginson's revenge. And this shows how sociopathy thrives when it is insulated by privilege."
+        }
+      ]
+    },
+    {
+      "id": "seq-46",
+      "source": "engine",
+      "fromFrame": 33166,
+      "durationFrames": 691,
+      "durationSeconds": 23,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 123,
+          "sceneId": "scene-123",
+          "fromFrame": 33166,
+          "durationFrames": 156,
+          "role": "setup",
+          "narration": "Chris's calculated malice isn't just a high school prank gone too far. You definitely not."
+        },
+        {
+          "index": 124,
+          "sceneId": "scene-124",
+          "fromFrame": 33322,
+          "durationFrames": 268,
+          "role": "question",
+          "narration": "It is the violent immune system reaction of an entitled ecosystem fighting back against any challeng"
+        },
+        {
+          "index": 125,
+          "sceneId": "scene-125",
+          "fromFrame": 33590,
+          "durationFrames": 267,
+          "role": "reveal",
+          "narration": "She was told no for the first time in her life. and she decides to burn the whole social contract do"
+        }
+      ]
+    },
+    {
+      "id": "seq-47",
+      "source": "authored",
+      "fromFrame": 33857,
+      "durationFrames": 571,
+      "durationSeconds": 19,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 126,
+          "sceneId": "scene-126",
+          "fromFrame": 33857,
+          "durationFrames": 355,
+          "role": "authored-start",
+          "narration": "There's this incredibly tense scene above the Cavalere Tavern. They are in this dark, dingy room tha"
+        },
+        {
+          "index": 127,
+          "sceneId": "scene-127",
+          "fromFrame": 34212,
+          "durationFrames": 216,
+          "role": "authored-kept",
+          "narration": "the pig blood scheme. She is just playing him like a fiddle. Oh, wait. I have to stop you there. Are"
+        }
+      ]
+    },
+    {
+      "id": "seq-48",
+      "source": "engine",
+      "fromFrame": 34428,
+      "durationFrames": 703,
+      "durationSeconds": 23.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 128,
+          "sceneId": "scene-128",
+          "fromFrame": 34428,
+          "durationFrames": 336,
+          "role": "setup",
+          "narration": "Well, yeah. that he's just a puppet on Chris Hargins and string doing it purely for the transactiona"
+        },
+        {
+          "index": 129,
+          "sceneId": "scene-129",
+          "fromFrame": 34764,
+          "durationFrames": 367,
+          "role": "reveal",
+          "narration": "dark. He's the muscle. Chris is the brains. Not at all. Actually, the text shows us that Billy is hi"
+        }
+      ]
+    },
+    {
+      "id": "seq-49",
+      "source": "authored",
+      "fromFrame": 35131,
+      "durationFrames": 583,
+      "durationSeconds": 19.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 130,
+          "sceneId": "scene-130",
+          "fromFrame": 35131,
+          "durationFrames": 255,
+          "role": "authored-start",
+          "narration": "Yeah. He agrees to the scheme not just for Chris, but because he harbors this deep, simmering violen"
+        },
+        {
+          "index": 131,
+          "sceneId": "scene-131",
+          "fromFrame": 35386,
+          "durationFrames": 328,
+          "role": "authored-kept",
+          "narration": "He hates the golden kids at the school. Oh, I hadn't thought of it like that. When they're slaughter"
+        }
+      ]
+    },
+    {
+      "id": "seq-50",
+      "source": "engine",
+      "fromFrame": 35714,
+      "durationFrames": 142,
+      "durationSeconds": 4.7,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 132,
+          "sceneId": "scene-132",
+          "fromFrame": 35714,
+          "durationFrames": 142,
+          "role": "reveal",
+          "narration": "so they won't have to worry about the bomb Oh, the socioeconomic divide."
+        }
+      ]
+    },
+    {
+      "id": "seq-51",
+      "source": "authored",
+      "fromFrame": 35856,
+      "durationFrames": 790,
+      "durationSeconds": 26.3,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 133,
+          "sceneId": "scene-133",
+          "fromFrame": 35856,
+          "durationFrames": 264,
+          "role": "authored-start",
+          "narration": "Exactly. Billy is using Chris's petty high school vendetta as a convenient excuse to enact his own v"
+        },
+        {
+          "index": 134,
+          "sceneId": "scene-134",
+          "fromFrame": 36120,
+          "durationFrames": 245,
+          "role": "authored-kept",
+          "narration": "They are mutually using each Chris wants revenge on Carrie and the administration for stripping her "
+        },
+        {
+          "index": 135,
+          "sceneId": "scene-135",
+          "fromFrame": 36365,
+          "durationFrames": 281,
+          "role": "authored-kept",
+          "narration": "Billy just wants to defile the sacred spaces of the privilege class. He wants to drag their pristine"
+        }
+      ]
+    },
+    {
+      "id": "seq-52",
+      "source": "engine",
+      "fromFrame": 36646,
+      "durationFrames": 888,
+      "durationSeconds": 29.6,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 136,
+          "sceneId": "scene-136",
+          "fromFrame": 36646,
+          "durationFrames": 319,
+          "role": "setup",
+          "narration": "So, it's a perfect toxic symbiosis. Yes, Chris provides the target and the financing, and Billy prov"
+        },
+        {
+          "index": 137,
+          "sceneId": "scene-137",
+          "fromFrame": 36965,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "This sociopathy, protected by Chris's privilege and fueled by Billy's resentment, is the final wirin"
+        },
+        {
+          "index": 138,
+          "sceneId": "scene-138",
+          "fromFrame": 37248,
+          "durationFrames": 286,
+          "role": "reveal",
+          "narration": "Everything is It is, which takes us to the prom itself, the night it all goes off. But before the bo"
+        }
+      ]
+    },
+    {
+      "id": "seq-53",
+      "source": "authored",
+      "fromFrame": 37534,
+      "durationFrames": 1274,
+      "durationSeconds": 42.5,
+      "sceneCount": 5,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 139,
+          "sceneId": "scene-139",
+          "fromFrame": 37534,
+          "durationFrames": 225,
+          "role": "authored-start",
+          "narration": "we have what I think is the most devastating sequence in the entire novel. The epiphany of dignity. "
+        },
+        {
+          "index": 140,
+          "sceneId": "scene-140",
+          "fromFrame": 37759,
+          "durationFrames": 307,
+          "role": "authored-kept",
+          "narration": "Let's step onto the dance floor. Let's do it. The gymnasium is bathed in this soft, ethereal orangey"
+        },
+        {
+          "index": 141,
+          "sceneId": "scene-141",
+          "fromFrame": 38066,
+          "durationFrames": 202,
+          "role": "authored-kept",
+          "narration": "handmade crushed velvet gown, a dark wine color that her mother absolutely despises, calling it"
+        },
+        {
+          "index": 142,
+          "sceneId": "scene-142",
+          "fromFrame": 38268,
+          "durationFrames": 259,
+          "role": "authored-kept",
+          "narration": "red and sinful. Right. Tommy Ross, the golden boy, looks at her and genuinely tells her, \"You're bea"
+        },
+        {
+          "index": 143,
+          "sceneId": "scene-143",
+          "fromFrame": 38527,
+          "durationFrames": 281,
+          "role": "authored-kept",
+          "narration": "For one fleeting, miraculous hour, she allows herself to believe that she is actually And the true h"
+        }
+      ]
+    },
+    {
+      "id": "seq-54",
+      "source": "engine",
+      "fromFrame": 38808,
+      "durationFrames": 624,
+      "durationSeconds": 20.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 144,
+          "sceneId": "scene-144",
+          "fromFrame": 38808,
+          "durationFrames": 293,
+          "role": "setup",
+          "narration": "Here's what this means for you. The tragedy isn't that Carrie lived her whole life in darkness. It's"
+        },
+        {
+          "index": 145,
+          "sceneId": "scene-145",
+          "fromFrame": 39101,
+          "durationFrames": 180,
+          "role": "question",
+          "narration": "respect, and acceptance feel like. If she had stayed home in the closet, the bomb never goes off."
+        },
+        {
+          "index": 146,
+          "sceneId": "scene-146",
+          "fromFrame": 39281,
+          "durationFrames": 151,
+          "role": "reveal",
+          "narration": "The betrayal is infinitely more devastating because she finally had something to lose."
+        }
+      ]
+    },
+    {
+      "id": "seq-55",
+      "source": "authored",
+      "fromFrame": 39432,
+      "durationFrames": 804,
+      "durationSeconds": 26.8,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 147,
+          "sceneId": "scene-147",
+          "fromFrame": 39432,
+          "durationFrames": 242,
+          "role": "authored-start",
+          "narration": "And we see that dignity reinforced so beautifully when Miss Dejardon approaches Carrie at the table."
+        },
+        {
+          "index": 148,
+          "sceneId": "scene-148",
+          "fromFrame": 39674,
+          "durationFrames": 396,
+          "role": "authored-kept",
+          "narration": "She offers a genuine unprompted apology for the locker room incident. Yeah, she actually apologizes."
+        },
+        {
+          "index": 149,
+          "sceneId": "scene-149",
+          "fromFrame": 40070,
+          "durationFrames": 166,
+          "role": "authored-kept",
+          "narration": "was magic anyway. For a brief moment, the generational trauma stops."
+        }
+      ]
+    },
+    {
+      "id": "seq-56",
+      "source": "engine",
+      "fromFrame": 40236,
+      "durationFrames": 866,
+      "durationSeconds": 28.9,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 150,
+          "sceneId": "scene-150",
+          "fromFrame": 40236,
+          "durationFrames": 274,
+          "role": "setup",
+          "narration": "Two women, teacher and student, connect with pure, unfeigned But, you know, look at it from the outs"
+        },
+        {
+          "index": 151,
+          "sceneId": "scene-151",
+          "fromFrame": 40510,
+          "durationFrames": 259,
+          "role": "question",
+          "narration": "You think she's being naive? Well, she is blinding herself to an incredibly obvious trap because she"
+        },
+        {
+          "index": 152,
+          "sceneId": "scene-152",
+          "fromFrame": 40769,
+          "durationFrames": 333,
+          "role": "reveal",
+          "narration": "She knows these people hate her. She knows Chris Harinson is out for blood and has been vowing reven"
+        }
+      ]
+    },
+    {
+      "id": "seq-57",
+      "source": "authored",
+      "fromFrame": 41102,
+      "durationFrames": 509,
+      "durationSeconds": 17,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 153,
+          "sceneId": "scene-153",
+          "fromFrame": 41102,
+          "durationFrames": 336,
+          "role": "authored-start",
+          "narration": "That's what makes it so heartbreaking. She did? Yes. When Tommy first asks her in the study hall, sh"
+        },
+        {
+          "index": 154,
+          "sceneId": "scene-154",
+          "fromFrame": 41438,
+          "durationFrames": 173,
+          "role": "authored-kept",
+          "narration": "Okay, that's true. She drops her guard only because Tommy and Dejardan treat her with undeniable,"
+        }
+      ]
+    },
+    {
+      "id": "seq-58",
+      "source": "engine",
+      "fromFrame": 41611,
+      "durationFrames": 735,
+      "durationSeconds": 24.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 155,
+          "sceneId": "scene-155",
+          "fromFrame": 41611,
+          "durationFrames": 322,
+          "role": "setup",
+          "narration": "unfeigned respect. When Tommy tells her she's beautiful, he actually means it. When they are voting "
+        },
+        {
+          "index": 156,
+          "sceneId": "scene-156",
+          "fromFrame": 41933,
+          "durationFrames": 204,
+          "role": "question",
+          "narration": "out loud. It's amazing. The system actually worked for an hour. It proved she wasn't inherently unlo"
+        },
+        {
+          "index": 157,
+          "sceneId": "scene-157",
+          "fromFrame": 42137,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "She was capable of joy, capable of integration. Yes, this epiphany of dignity is the final cruelty."
+        }
+      ]
+    },
+    {
+      "id": "seq-59",
+      "source": "authored",
+      "fromFrame": 42346,
+      "durationFrames": 976,
+      "durationSeconds": 32.5,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 158,
+          "sceneId": "scene-158",
+          "fromFrame": 42346,
+          "durationFrames": 355,
+          "role": "authored-start",
+          "narration": "Snatching it away right at the moment of her greatest triumph. Right when she realizes she is a huma"
+        },
+        {
+          "index": 159,
+          "sceneId": "scene-159",
+          "fromFrame": 42701,
+          "durationFrames": 158,
+          "role": "authored-kept",
+          "narration": "The black prom, the mechanics of total destruction. They are called to the stage."
+        },
+        {
+          "index": 160,
+          "sceneId": "scene-160",
+          "fromFrame": 42859,
+          "durationFrames": 180,
+          "role": "authored-kept",
+          "narration": "Tommy and Carrie sit on the thrones. The school song starts playing and then"
+        },
+        {
+          "index": 161,
+          "sceneId": "scene-161",
+          "fromFrame": 43039,
+          "durationFrames": 283,
+          "role": "authored-kept",
+          "narration": "you hear the metallic clink of the buckets shifting on the rafters above. Oh god. And the coppery ro"
+        }
+      ]
+    },
+    {
+      "id": "seq-60",
+      "source": "engine",
+      "fromFrame": 43322,
+      "durationFrames": 713,
+      "durationSeconds": 23.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 162,
+          "sceneId": "scene-162",
+          "fromFrame": 43322,
+          "durationFrames": 240,
+          "role": "setup",
+          "narration": "King slows down time here. In the dead silence that follows, before anyone even fully realizes what "
+        },
+        {
+          "index": 163,
+          "sceneId": "scene-163",
+          "fromFrame": 43562,
+          "durationFrames": 233,
+          "role": "question",
+          "narration": "there is a solitary hyena-like laugh from the And then the sensory breakdown. Car's mind just snaps."
+        },
+        {
+          "index": 164,
+          "sceneId": "scene-164",
+          "fromFrame": 43795,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "The trauma is so absolute it breaks her psyche. She flees the stage, but someone trips her. She fall"
+        }
+      ]
+    },
+    {
+      "id": "seq-61",
+      "source": "authored",
+      "fromFrame": 44035,
+      "durationFrames": 545,
+      "durationSeconds": 18.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 165,
+          "sceneId": "scene-165",
+          "fromFrame": 44035,
+          "durationFrames": 262,
+          "role": "authored-start",
+          "narration": "As she runs out of the gym, her telekinesis takes over. Right. But King writes this not as a spell s"
+        },
+        {
+          "index": 166,
+          "sceneId": "scene-166",
+          "fromFrame": 44297,
+          "durationFrames": 283,
+          "role": "authored-kept",
+          "narration": "Her brain flooded with adrenaline and cortisol from the ultimate social betrayal literally bypasses "
+        }
+      ]
+    },
+    {
+      "id": "seq-62",
+      "source": "authored",
+      "fromFrame": 44580,
+      "durationFrames": 602,
+      "durationSeconds": 20.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 167,
+          "sceneId": "scene-167",
+          "fromFrame": 44580,
+          "durationFrames": 204,
+          "role": "authored-start",
+          "narration": "Exactly. It's an involuntary muscle spasm of the mind. She slams the heavy gymnasium door shut."
+        },
+        {
+          "index": 168,
+          "sceneId": "scene-168",
+          "fromFrame": 44784,
+          "durationFrames": 398,
+          "role": "authored-kept",
+          "narration": "She locks her classmates in. She turns on the sprinkler system. and the live electrical wires of the"
+        }
+      ]
+    },
+    {
+      "id": "seq-63",
+      "source": "engine",
+      "fromFrame": 45182,
+      "durationFrames": 706,
+      "durationSeconds": 23.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 169,
+          "sceneId": "scene-169",
+          "fromFrame": 45182,
+          "durationFrames": 226,
+          "role": "setup",
+          "narration": "irrevocably weaponized, it ceases to be a human action. It becomes an indifferent natural catastroph"
+        },
+        {
+          "index": 170,
+          "sceneId": "scene-170",
+          "fromFrame": 45408,
+          "durationFrames": 204,
+          "role": "question",
+          "narration": "It ceases to be about justice or even revenge. It becomes pure indiscriminate annihilation."
+        },
+        {
+          "index": 171,
+          "sceneId": "scene-171",
+          "fromFrame": 45612,
+          "durationFrames": 276,
+          "role": "reveal",
+          "narration": "The fault line finally slips and the earthquake doesn't care who is standing above it. And it doesn'"
+        }
+      ]
+    },
+    {
+      "id": "seq-64",
+      "source": "authored",
+      "fromFrame": 45888,
+      "durationFrames": 518,
+      "durationSeconds": 17.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 172,
+          "sceneId": "scene-172",
+          "fromFrame": 45888,
+          "durationFrames": 312,
+          "role": "authored-start",
+          "narration": "Carrie wanders the streets covered in blood, looking like a monster from a nightmare. Her mind is ju"
+        },
+        {
+          "index": 173,
+          "sceneId": "scene-173",
+          "fromFrame": 46200,
+          "durationFrames": 206,
+          "role": "authored-kept",
+          "narration": "nozzles, so the fire trucks have no water pressure. She detonates Teddy's Amo gas station. The town "
+        }
+      ]
+    },
+    {
+      "id": "seq-65",
+      "source": "engine",
+      "fromFrame": 46406,
+      "durationFrames": 312,
+      "durationSeconds": 10.4,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 174,
+          "sceneId": "scene-174",
+          "fromFrame": 46406,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "Power lines are coming down. over 400 people perish because she brings the unimaginable horror of he"
+        }
+      ]
+    },
+    {
+      "id": "seq-66",
+      "source": "authored",
+      "fromFrame": 46718,
+      "durationFrames": 939,
+      "durationSeconds": 31.3,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 175,
+          "sceneId": "scene-175",
+          "fromFrame": 46718,
+          "durationFrames": 219,
+          "role": "authored-start",
+          "narration": "a lot of people read Carrie's rampage as a highly calculated, almost John Wick style revenge mission"
+        },
+        {
+          "index": 176,
+          "sceneId": "scene-176",
+          "fromFrame": 46937,
+          "durationFrames": 326,
+          "role": "authored-kept",
+          "narration": "She turns on the water to short the amps. She takes out the hydrants to stop the fire department. Th"
+        },
+        {
+          "index": 177,
+          "sceneId": "scene-177",
+          "fromFrame": 47263,
+          "durationFrames": 394,
+          "role": "authored-kept",
+          "narration": "It shows us a traumatized, bleeding girl reacting on pure animal instinct. You don't think it was ca"
+        }
+      ]
+    },
+    {
+      "id": "seq-67",
+      "source": "engine",
+      "fromFrame": 47657,
+      "durationFrames": 1087,
+      "durationSeconds": 36.2,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 178,
+          "sceneId": "scene-178",
+          "fromFrame": 47657,
+          "durationFrames": 240,
+          "role": "setup",
+          "narration": "She finds a terrified child. Carrie doesn't just target the bullies, she traps That's true. She kill"
+        },
+        {
+          "index": 179,
+          "sceneId": "scene-179",
+          "fromFrame": 47897,
+          "durationFrames": 269,
+          "role": "question",
+          "narration": "She kills Mr. Stevens and Mr. Lelin who desperately try to open the doors to save the students. It's"
+        },
+        {
+          "index": 180,
+          "sceneId": "scene-180",
+          "fromFrame": 48166,
+          "durationFrames": 225,
+          "role": "partial_answer",
+          "narration": "She is operating on the level of a wounded cornered animal striking out at anything that moves. Whic"
+        },
+        {
+          "index": 181,
+          "sceneId": "scene-181",
+          "fromFrame": 48391,
+          "durationFrames": 151,
+          "role": "complication",
+          "narration": "Telekinesis didn't destroy Chamberlain. Telekinesis was merely the detonator."
+        },
+        {
+          "index": 182,
+          "sceneId": "scene-182",
+          "fromFrame": 48542,
+          "durationFrames": 202,
+          "role": "reveal",
+          "narration": "The town's systemic cruelty, the social hierarchy, the domestic abuse. They engineered the blast."
+        }
+      ]
+    },
+    {
+      "id": "seq-68",
+      "source": "engine",
+      "fromFrame": 48744,
+      "durationFrames": 1044,
+      "durationSeconds": 34.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 183,
+          "sceneId": "scene-183",
+          "fromFrame": 48744,
+          "durationFrames": 221,
+          "role": "setup",
+          "narration": "They built the bomb, packed it with shrapnel, and then they dropped the match. Which leaves us with "
+        },
+        {
+          "index": 184,
+          "sceneId": "scene-184",
+          "fromFrame": 48965,
+          "durationFrames": 350,
+          "role": "question",
+          "narration": "mattresside, the death of Chamberlain, and the genetic menace. Let's go back to the ruined white liv"
+        },
+        {
+          "index": 185,
+          "sceneId": "scene-185",
+          "fromFrame": 49315,
+          "durationFrames": 209,
+          "role": "complication",
+          "narration": "flickering, eerie fire light coming through the windows from the burning town outside. So cinematic."
+        },
+        {
+          "index": 186,
+          "sceneId": "scene-186",
+          "fromFrame": 49524,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "Margaret White is sitting there waiting. She's quoting scripture. Carrie walks in, barely holding on"
+        }
+      ]
+    },
+    {
+      "id": "seq-69",
+      "source": "engine",
+      "fromFrame": 49788,
+      "durationFrames": 1094,
+      "durationSeconds": 36.5,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 187,
+          "sceneId": "scene-187",
+          "fromFrame": 49788,
+          "durationFrames": 211,
+          "role": "setup",
+          "narration": "long arched butcher knife right into her own daughter's shoulder. And Carrie, bleeding,"
+        },
+        {
+          "index": 188,
+          "sceneId": "scene-188",
+          "fromFrame": 49999,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "exhausted, dying, uses her mind to seize her mother's heart. She physically grasps it with her telek"
+        },
+        {
+          "index": 189,
+          "sceneId": "scene-189",
+          "fromFrame": 50275,
+          "durationFrames": 161,
+          "role": "partial_answer",
+          "narration": "She says, \"Slower, mama. Slower.\" And Margaret collapses."
+        },
+        {
+          "index": 190,
+          "sceneId": "scene-190",
+          "fromFrame": 50436,
+          "durationFrames": 264,
+          "role": "complication",
+          "narration": "The cycle of violence reaches its terminal end. The ultimate implication here is that institutional "
+        },
+        {
+          "index": 191,
+          "sceneId": "scene-191",
+          "fromFrame": 50700,
+          "durationFrames": 182,
+          "role": "reveal",
+          "narration": "It inevitably consumes the abusers as well. The system eats itself."
+        }
+      ]
+    },
+    {
+      "id": "seq-70",
+      "source": "engine",
+      "fromFrame": 50882,
+      "durationFrames": 1128,
+      "durationSeconds": 37.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 192,
+          "sceneId": "scene-192",
+          "fromFrame": 50882,
+          "durationFrames": 228,
+          "role": "setup",
+          "narration": "Margaret's religious abuse created the weapon that literally stopped her heart. You's cruelty create"
+        },
+        {
+          "index": 193,
+          "sceneId": "scene-193",
+          "fromFrame": 51110,
+          "durationFrames": 360,
+          "role": "question",
+          "narration": "But the terrifying part is the cycle isn't actually over. The book leaves us with this chilling fina"
+        },
+        {
+          "index": 194,
+          "sceneId": "scene-194",
+          "fromFrame": 51470,
+          "durationFrames": 344,
+          "role": "complication",
+          "narration": "Right. The letter at the very end. She writes about her baby Annie, whose quote eyes are as bright a"
+        },
+        {
+          "index": 195,
+          "sceneId": "scene-195",
+          "fromFrame": 51814,
+          "durationFrames": 196,
+          "role": "reveal",
+          "narration": "her crib. The genetic menace is dormant, and the entire cycle is ready to begin all over"
+        }
+      ]
+    },
+    {
+      "id": "seq-71",
+      "source": "engine",
+      "fromFrame": 52010,
+      "durationFrames": 790,
+      "durationSeconds": 26.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 196,
+          "sceneId": "scene-196",
+          "fromFrame": 52010,
+          "durationFrames": 334,
+          "role": "setup",
+          "narration": "Despite that ominous ending, I've always viewed Carrie's death as a dark mercy. A mercy? Yeah, she w"
+        },
+        {
+          "index": 197,
+          "sceneId": "scene-197",
+          "fromFrame": 52344,
+          "durationFrames": 218,
+          "role": "question",
+          "narration": "Her death finally brings a horrific kind of peace to a towel that is violently burned out at sins. T"
+        },
+        {
+          "index": 198,
+          "sceneId": "scene-198",
+          "fromFrame": 52562,
+          "durationFrames": 238,
+          "role": "reveal",
+          "narration": "The patient is dead. The contagion is stopped. But look at how she dies. I can't see any mercy in it"
+        }
+      ]
+    },
+    {
+      "id": "seq-72",
+      "source": "authored",
+      "fromFrame": 52800,
+      "durationFrames": 866,
+      "durationSeconds": 28.9,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 199,
+          "sceneId": "scene-199",
+          "fromFrame": 52800,
+          "durationFrames": 242,
+          "role": "authored-start",
+          "narration": "Sus now finds her dying in the parking lot of the Cavalere Tavern, right where Chris and Billy plott"
+        },
+        {
+          "index": 200,
+          "sceneId": "scene-200",
+          "fromFrame": 53042,
+          "durationFrames": 243,
+          "role": "authored-kept",
+          "narration": "telepathically. And Sue feels Car's final thoughts. It's not a monster dying in peace. What is it?"
+        },
+        {
+          "index": 201,
+          "sceneId": "scene-201",
+          "fromFrame": 53285,
+          "durationFrames": 381,
+          "role": "authored-kept",
+          "narration": "It's just, \"Mama, it hurts. I'm scared. Mama, there is no mercy there. There's no peace. It's just a"
+        }
+      ]
+    },
+    {
+      "id": "seq-73",
+      "source": "engine",
+      "fromFrame": 53666,
+      "durationFrames": 668,
+      "durationSeconds": 22.3,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 202,
+          "sceneId": "scene-202",
+          "fromFrame": 53666,
+          "durationFrames": 368,
+          "role": "setup",
+          "narration": "the very woman who stabbed her. The episttolary autopsy is complete. Yes. But weaponized isolation h"
+        },
+        {
+          "index": 203,
+          "sceneId": "scene-203",
+          "fromFrame": 54034,
+          "durationFrames": 300,
+          "role": "reveal",
+          "narration": "Yeah. When you put it like that. And that brings us to a major critique of the novel that we really "
+        }
+      ]
+    },
+    {
+      "id": "seq-74",
+      "source": "authored",
+      "fromFrame": 54334,
+      "durationFrames": 897,
+      "durationSeconds": 29.9,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 204,
+          "sceneId": "scene-204",
+          "fromFrame": 54334,
+          "durationFrames": 268,
+          "role": "authored-start",
+          "narration": "tickers, the scientific rationalizations of the TK gene, the academic books from David Congress actu"
+        },
+        {
+          "index": 205,
+          "sceneId": "scene-205",
+          "fromFrame": 54602,
+          "durationFrames": 396,
+          "role": "authored-kept",
+          "narration": "I've heard that they argue it deflates the visceral horror of his debut narrative. They just want a "
+        },
+        {
+          "index": 206,
+          "sceneId": "scene-206",
+          "fromFrame": 54998,
+          "durationFrames": 233,
+          "role": "authored-kept",
+          "narration": "actually the absolute core of the novel's power. It forces you to step back and witness the anatomy "
+        }
+      ]
+    },
+    {
+      "id": "seq-75",
+      "source": "engine",
+      "fromFrame": 55231,
+      "durationFrames": 1109,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 207,
+          "sceneId": "scene-207",
+          "fromFrame": 55231,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "you aren't just scared of a girl with powers. You are horrified by the mundane, bureaucratic, and so"
+        },
+        {
+          "index": 208,
+          "sceneId": "scene-208",
+          "fromFrame": 55476,
+          "durationFrames": 242,
+          "role": "question",
+          "narration": "The payoff here is profound. The ultimate tragedy of Carrie White is that Chamberlain did not perish"
+        },
+        {
+          "index": 209,
+          "sceneId": "scene-209",
+          "fromFrame": 55718,
+          "durationFrames": 260,
+          "role": "complication",
+          "narration": "They didn't perish because she was a monster from a horror movie. Chamberlain perished because a who"
+        },
+        {
+          "index": 210,
+          "sceneId": "scene-210",
+          "fromFrame": 55978,
+          "durationFrames": 362,
+          "role": "reveal",
+          "narration": "until she took the entire town down with her. I want to leave you with a final thought to ponder. In"
+        }
+      ]
+    },
+    {
+      "id": "seq-76",
+      "source": "engine",
+      "fromFrame": 56340,
+      "durationFrames": 812,
+      "durationSeconds": 27.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 211,
+          "sceneId": "scene-211",
+          "fromFrame": 56340,
+          "durationFrames": 374,
+          "role": "setup",
+          "narration": "Look at how fast a rumor spreads. How quickly a pylon happens online. What happens when the next Car"
+        },
+        {
+          "index": 212,
+          "sceneId": "scene-212",
+          "fromFrame": 56714,
+          "durationFrames": 305,
+          "role": "question",
+          "narration": "easier to weaponized than ever before. When that metaphorical shower room is a global group chat, an"
+        },
+        {
+          "index": 213,
+          "sceneId": "scene-213",
+          "fromFrame": 57019,
+          "durationFrames": 133,
+          "role": "reveal",
+          "narration": "We're all in UN High School. Now the question is who is holding the match?"
+        }
+      ]
+    }
+  ]
+}

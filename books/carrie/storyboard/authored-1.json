@@ -1,0 +1,947 @@
+[
+  {
+    "i": 0,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "OVER 400 DEAD",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [],
+    "explainedBy": "The opening aftermath establishes the catastrophic death toll and ruined town.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Over 400 people are dead and the town is reduced to smoldering ash.",
+      "concreteVisual": "A memorial grave marker set amidst ruined street debris.",
+      "onScreenText": "OVER 400 DEAD",
+      "relationToPrevious": "Cold open hook.",
+      "addedInformation": "Visualizes the official mass casualty toll of the Chamberlain disaster before the narrative unfolds."
+    }
+  },
+  {
+    "i": 1,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "COLLAPSED BUILDINGS EVERYWHERE",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "The physical destruction of the town infrastructure left in smoking ruins.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The town is a smoking crater of destroyed infrastructure.",
+      "concreteVisual": "Smoldering fire engulfing the ruined street structures.",
+      "onScreenText": "COLLAPSED BUILDINGS EVERYWHERE",
+      "relationToPrevious": "Expands on beat 0 by showing the physical devastation of buildings.",
+      "addedInformation": "Emphasizes that entire civil infrastructure was annihilated, not just a single school."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "MUNDANE LOCKER ROOM",
+        "POWDER KEG",
+        "CHAMBERLAIN LEVELED"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "The causal progression linking an ordinary locker room incident to the annihilation of Chamberlain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A mundane locker room incident was the fuse that leveled Chamberlain.",
+      "concreteVisual": "A 3-step causal flow from locker room to powder keg to leveled town.",
+      "onScreenText": "MUNDANE LOCKER ROOM -> POWDER KEG -> CHAMBERLAIN LEVELED",
+      "relationToPrevious": "Shifts from the wreckage of the town to its mundane point of origin.",
+      "addedInformation": "Maps the cause-and-effect progression connecting a school incident to mass catastrophe."
+    }
+  },
+  {
+    "i": 3,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "STEPHEN KING'S DEBUT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Framing the analysis around Stephen King's debut novel rather than supernatural monster tropes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Today we explore Stephen King debut novel rather than supernatural monsters.",
+      "concreteVisual": "The published novel Carrie standing as the central literary text.",
+      "onScreenText": "STEPHEN KING'S DEBUT",
+      "relationToPrevious": "Introduces the subject of the deep dive after the cold open.",
+      "addedInformation": "Anchors the discussion to King original published text rather than film adaptations."
+    }
+  },
+  {
+    "i": 4,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "POP CULTURE CARICATURE",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Stripping away decades of Halloween costume caricatures and superficial pop culture imagery.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We strip away pop culture caricature and Halloween costume tropes.",
+      "concreteVisual": "A superficial mask struck through to discard the blood-soaked caricature.",
+      "onScreenText": "POP CULTURE CARICATURE (struck)",
+      "relationToPrevious": "Directly challenges the conventional public perception of Carrie introduced in beat 3.",
+      "addedInformation": "The strike rejects the cartoonish horror stereotype in favor of serious textual analysis."
+    }
+  },
+  {
+    "i": 5,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "A METICULOUS AUTOPSY",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "Reframing the novel as a meticulously documented historical and psychological autopsy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The text is a meticulously documented historical autopsy.",
+      "concreteVisual": "Official investigative notes and documents examining the case.",
+      "onScreenText": "A METICULOUS AUTOPSY",
+      "relationToPrevious": "Replaces the struck caricature of beat 4 with the true nature of the novel.",
+      "addedInformation": "Emphasizes the clinical, archival structure of King text."
+    }
+  },
+  {
+    "i": 6,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "COMMUNITY FAULTS",
+        "SYSTEMIC ABUSE",
+        "TOWN COLLAPSE"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Showing how the community manufactures its own destruction through systemic neglect.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A community manufactures its own absolute destruction.",
+      "concreteVisual": "A causal flow showing community failure leading to total collapse.",
+      "onScreenText": "COMMUNITY FAULTS -> SYSTEMIC ABUSE -> TOWN COLLAPSE",
+      "relationToPrevious": "Deepens the autopsy thesis from beat 5 into its societal mechanism.",
+      "addedInformation": "Clarifies that the tragedy was produced from within the social fabric."
+    }
+  },
+  {
+    "i": 7,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Morning Volleyball Class",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "Entering the claustrophobic tension of the high school locker room after volleyball class.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Period 1 begins the claustrophobic terror in the high school locker room.",
+      "concreteVisual": "Carrie slumped awkwardly in the institutional high school setting.",
+      "onScreenText": "Morning Volleyball Class",
+      "relationToPrevious": "Transitions from thesis overview into the narrative dramatization of the locker room.",
+      "addedInformation": "Establishes Carrie vulnerability and isolation in the mundane school environment."
+    }
+  },
+  {
+    "i": 8,
+    "concept": "water",
+    "diagram": null,
+    "callout": {
+      "text": "THICK WITH STEAM",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "continue": true,
+    "explainedBy": "Sensory atmosphere of the humid, steamy shower room setting.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The shower room is humid and thick with steam.",
+      "concreteVisual": "A water nozzle icon representing the steamy shower setting with Carrie standing tense.",
+      "onScreenText": "THICK WITH STEAM",
+      "relationToPrevious": "Sensory immersion in the physical environment introduced in beat 7.",
+      "addedInformation": "Visually conveys the suffocating humidity and sensory confinement of the locker room."
+    }
+  },
+  {
+    "i": 9,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SUBTERRANEAN RUMBLE",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "The persistent ominous rumble and oppressive mechanical heat of the school showers.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A constant subterranean rumble of the jacuzzi echoes through the steamy room.",
+      "concreteVisual": "Carrie standing isolated in the locker room amid the mounting background tension.",
+      "onScreenText": "SUBTERRANEAN RUMBLE",
+      "relationToPrevious": "Deepens the sensory dread established in beats 7 and 8.",
+      "addedInformation": "Focuses on the claustrophobic audio-sensory dread right before the crisis begins."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "UTTERLY IGNORANT",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "Carrie shock and total lack of basic biological knowledge when discovering she is bleeding.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie discovers blood and is utterly ignorant of basic human biology.",
+      "concreteVisual": "Carrie recoiling in terror at her own physical condition.",
+      "onScreenText": "UTTERLY IGNORANT",
+      "relationToPrevious": "The inciting crisis: Carrie discovers her first menstruation.",
+      "addedInformation": "Shows that her primary reaction is bewilderment and terror due to domestic denial."
+    }
+  },
+  {
+    "i": 11,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BLEEDING TO DEATH",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "Carrie visceral terror as she genuinely believes she is bleeding to death.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie literally believes she is bleeding to death in sheer visceral panic.",
+      "concreteVisual": "Carrie trembling with hands near chest in absolute terror.",
+      "onScreenText": "BLEEDING TO DEATH",
+      "relationToPrevious": "Escalates Carrie emotional state from confusion to life-threatening dread.",
+      "addedInformation": "Underlines the catastrophic consequence of her mother religious withholding."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FATAL HEMORRHAGE IN PUBLIC",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "The horrifying reality of a child convinced she is experiencing a fatal hemorrhage in public.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A terrified child genuinely believes she is suffering a fatal hemorrhage in public.",
+      "concreteVisual": "Carrie slumped in despair, exposed and completely helpless.",
+      "onScreenText": "FATAL HEMORRHAGE IN PUBLIC",
+      "relationToPrevious": "Culmination of Carrie solitary panic before the mob forms.",
+      "addedInformation": "Frames her experience as genuine life terror, completely isolated from maternal guidance."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REACTION OF HER PEERS",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "chris",
+      "carrie"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "continue": true,
+    "explainedBy": "The sudden turning of high school peers into mocking spectators toward the panicking outcast.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The true horror is not biological confusion but the cruel reaction of her peers.",
+      "concreteVisual": "Chris smirking and pointing while Carrie slumps in panic.",
+      "onScreenText": "REACTION OF HER PEERS",
+      "relationToPrevious": "Pivots focus from Carrie internal terror to the peer hostility.",
+      "addedInformation": "Contrasts Chris entitled arrogance against Carrie utter helplessness."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Expected Everyday Awkwardness",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "sue",
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "continue": true,
+    "explainedBy": "The expectation of normal teenage awkwardness or private guidance that completely fails to occur.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "One would expect someone to pull her aside or laugh awkwardly.",
+      "concreteVisual": "Sue looking worried and hesitant beside a terrified Carrie.",
+      "onScreenText": "Expected Everyday Awkwardness",
+      "relationToPrevious": "Contrasts the expected human response with the vicious mob reaction.",
+      "addedInformation": "Highlights the absence of simple empathy among teenage bystanders."
+    }
+  },
+  {
+    "i": 15,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CHANTING CIRCLE FORMS",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "chris",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "continue": true,
+    "explainedBy": "A predatory circle of peers surrounding Carrie with weaponized collective cruelty.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A chanting circle of girls forms around her with instant weaponized cruelty.",
+      "concreteVisual": "Chris aggressively pointing and commanding while Carrie cowers.",
+      "onScreenText": "CHANTING CIRCLE FORMS",
+      "relationToPrevious": "Escalates from individual peer cruelty to organized mob intimidation.",
+      "addedInformation": "Depicts the mob dynamic coalescing around a single vulnerable scapegoat."
+    }
+  },
+  {
+    "i": 16,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PLUG IT UP",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "chris",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "continue": true,
+    "explainedBy": "Peers bombarding Carrie with sanitary napkins while chanting cruel taunts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Girls bombard Carrie hurling sanitary napkins and chanting cruel taunts.",
+      "concreteVisual": "Chris hurling accusations while Carrie slumps sobbing on the floor.",
+      "onScreenText": "PLUG IT UP",
+      "relationToPrevious": "Peak of physical and verbal torment in the shower room.",
+      "addedInformation": "Directly depicts the ritualized humiliation that cements Carrie psychological fracture."
+    }
+  },
+  {
+    "i": 17,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "MOB MENTALITY",
+        "CHAIN REACTION",
+        "CRITICAL MASS"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "The psychological chain reaction of mob cruelty escalating to critical mass like a nuclear meltdown.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The scene paces like a nuclear meltdown of mob mentality reaching critical mass.",
+      "concreteVisual": "A 3-step causal flow from mob mentality to chain reaction to critical mass.",
+      "onScreenText": "MOB MENTALITY -> CHAIN REACTION -> CRITICAL MASS",
+      "relationToPrevious": "Abstracts the locker room cruelty into a systemic psychological process.",
+      "addedInformation": "Illustrates how peer cruelty behaves like an uncontrollable chain reaction."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE CORE THESIS",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Transitioning to the analytical core thesis of the story.",
+    "noVisual": "An abstract analytical transition; staging is anchored cleanly with typographic focus.",
+    "storyboard": {
+      "claim": "This brings us to the core thesis of our exploration today.",
+      "concreteVisual": "Clean documentarian inquiry space highlighting the analytical core thesis.",
+      "onScreenText": "THE CORE THESIS",
+      "relationToPrevious": "Transitions from the dramatized scene to the architectural analysis of horror.",
+      "addedInformation": "Signals the shift from emotional narrative to structural systemic critique."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "SYSTEMIC HORROR",
+        "TK DETONATOR",
+        "SOCIETAL BOMB"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Telekinesis is merely the detonator; the actual bomb is systemic societal cruelty.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horror is entirely systemic where telekinesis is merely the detonator of a societal bomb.",
+      "concreteVisual": "A 3-stage flow mapping systemic horror to the TK detonator to the societal bomb.",
+      "onScreenText": "SYSTEMIC HORROR -> TK DETONATOR -> SOCIETAL BOMB",
+      "relationToPrevious": "Directly articulates the analytical claim introduced in beat 18.",
+      "addedInformation": "Deconstructs King premise: the supernatural power is only an ignition mechanism."
+    }
+  },
+  {
+    "i": 20,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "DOMESTIC ABUSE",
+        "SOCIAL CRUELTY"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "The dual structural pillars engineering the catastrophe: domestic religious abuse and high school social cruelty.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The catastrophe is engineered by domestic abuse on one side and high school cruelty on the other.",
+      "concreteVisual": "A 2-pillar sorter categorizing domestic abuse versus social cruelty.",
+      "onScreenText": "DOMESTIC ABUSE vs SOCIAL CRUELTY",
+      "relationToPrevious": "Breaks down the two components that construct the bomb described in beat 19.",
+      "addedInformation": "Separates the home pressure from the institutional school pressure."
+    }
+  },
+  {
+    "i": 21,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TOWN PUNCHING BAG",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Carrie White lifelong status as an ostracized outcast and punching bag since kindergarten.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie is an ostracized senior who has been the town punching bag since kindergarten.",
+      "concreteVisual": "Carrie standing slumped in defeat and enduring systemic social rejection.",
+      "onScreenText": "TOWN PUNCHING BAG",
+      "relationToPrevious": "Examines the recipient of the two structural pressures defined in beat 20.",
+      "addedInformation": "Shows that her isolation was not a recent event but a seventeen-year conditioning."
+    }
+  },
+  {
+    "i": 22,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "A THEOLOGICAL PRISON",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "holds": "book",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret White wielding distorted scripture to trap Carrie in domestic religious servitude.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret White wields distorted scripture to keep Carrie in a theological prison.",
+      "concreteVisual": "Margaret aggressively clutching a Bible while Carrie slumps trapped beside chains.",
+      "onScreenText": "A THEOLOGICAL PRISON",
+      "relationToPrevious": "Dramatizes the domestic side of the dual pressures introduced in beat 20.",
+      "addedInformation": "Visually shows maternal religious terror enforcing complete psychological subjugation."
+    }
+  },
+  {
+    "i": 23,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "CRUEL INSTIGATOR",
+        "COMPLICIT BYSTANDER"
+      ],
+      "values": [
+        0.15,
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "The school ecology divided between active cruel instigators like Chris and complicit bystanders like Sue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The school ecology is divided between cruel instigators and complicit bystanders.",
+      "concreteVisual": "A spectrum mapping peer dynamics from cruel instigator to complicit bystander.",
+      "onScreenText": "CRUEL INSTIGATOR <-> COMPLICIT BYSTANDER",
+      "relationToPrevious": "Dramatizes the school side of the dual pressures introduced in beat 20.",
+      "addedInformation": "Clarifies that passive complicity is just as responsible as active cruelty."
+    }
+  },
+  {
+    "i": 24,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "AN EPISTOLARY STRUCTURE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "King structural choice to convey the tragedy through epistolary documents rather than a standard horror tale.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We learn the story through a brilliant subversive epistolary structure.",
+      "concreteVisual": "Investigative dossiers and archival notes symbolizing King documentary form.",
+      "onScreenText": "AN EPISTOLARY STRUCTURE",
+      "relationToPrevious": "Shifts focus from the story world to the narrative technique employed by King.",
+      "addedInformation": "Introduces the epistolary framework that transforms the novel into an autopsy."
+    }
+  },
+  {
+    "i": 25,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "THE SHADOW EXPLODED",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "Reading excerpts from David Congress post-disaster study The Shadow Exploded published in 1981.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We are reading excerpts from the 1981 academic book The Shadow Exploded.",
+      "concreteVisual": "A book artifact representing Congress scholarly post-mortem study.",
+      "onScreenText": "THE SHADOW EXPLODED",
+      "relationToPrevious": "Grounds the epistolary structure of beat 24 with its primary academic text.",
+      "addedInformation": "Sets the post-tragedy perspective where the disaster is already historical fact."
+    }
+  },
+  {
+    "i": 26,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "SENATE HEARINGS AND REPORTS",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "The cold clinical dissection of Carrie life through Senate committee hearings and psychiatric autopsies.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Senate hearings and psychiatric reports dissect Carrie life with clinical detachment.",
+      "concreteVisual": "Official transcripts and bureaucratic dossiers compiling Senate inquiry evidence.",
+      "onScreenText": "SENATE HEARINGS AND REPORTS",
+      "relationToPrevious": "Expands the variety of official documentary sources beyond Congress book.",
+      "addedInformation": "Demonstrates the detachment of institutions investigating a human tragedy."
+    }
+  },
+  {
+    "i": 27,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "ACADEMIC JARGON",
+        "BLOODY AGONY"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "The stark juxtaposition between sterile academic jargon and brutal visceral human agony.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The juxtaposition contrasts dry academic jargon against absolute visceral horror.",
+      "concreteVisual": "A 2-part contrast flow balancing academic jargon against bloody agony.",
+      "onScreenText": "ACADEMIC JARGON -> BLOODY AGONY",
+      "relationToPrevious": "Analyzes the stylistic friction created by the clinical framing in beats 25-26.",
+      "addedInformation": "Exposes how formal bureaucratic language alienates the human suffering it describes."
+    }
+  },
+  {
+    "i": 28,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "DISPUTED TELEKINESIS INSTANCES",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "Reading academic citations debating early instances of telekinesis in the White girl.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Scholarly papers dispute failure to note telekinesis during Carrie earlier years.",
+      "concreteVisual": "Official academic report notes citing theoretical case studies.",
+      "onScreenText": "DISPUTED TELEKINESIS INSTANCES",
+      "relationToPrevious": "Provides a direct textual example of the academic jargon described in beat 27.",
+      "addedInformation": "Captures the clinical tone of researchers analyzing a child trauma as data."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "PEER REVIEW",
+        "TERRIFIED TEENAGER"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Contrasting the tone of a peer-reviewed academic journal against the reality of a terrified teenager.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A peer-reviewed journal contrasts sharply with the agonizing reality of a terrified teen.",
+      "concreteVisual": "A 2-step flow linking peer review detachment to the terrified teenager experience.",
+      "onScreenText": "PEER REVIEW -> TERRIFIED TEENAGER",
+      "relationToPrevious": "Reinforces the clash between theoretical analysis and real human terror.",
+      "addedInformation": "Stresses the tragic irony that science only studies Carrie after she is destroyed."
+    }
+  },
+  {
+    "i": 30,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "COLD TELETYPE NEWS",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Interspersing cold Associated Press wire tickers reporting official casualty statistics throughout the text.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Cold AP teletype news tickers report the disaster as detached journalistic facts.",
+      "concreteVisual": "AP teletype news strip recording detached media bulletins.",
+      "onScreenText": "COLD TELETYPE NEWS",
+      "relationToPrevious": "Introduces journalistic wire reports alongside academic and psychiatric texts.",
+      "addedInformation": "Shows how media broadcasts flatten visceral horror into cold casualty numbers."
+    }
+  },
+  {
+    "i": 31,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "DEATH TOLL AT 409",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "The telegraph wire announces the death toll stands at 409, revealing the catastrophe on page three.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The news wire states the death toll in Chamberlain stands at 409 on page three.",
+      "concreteVisual": "A memorial grave symbol recording the official tally of 409 casualties.",
+      "onScreenText": "DEATH TOLL AT 409",
+      "relationToPrevious": "Gives the specific headline disclosed by the AP ticker in beat 30.",
+      "addedInformation": "Reiterates that the reader knows the full tragic outcome from the opening pages."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "KILLING THE SUSPENSE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Questioning whether revealing the ending immediately kills narrative suspense and dread.",
+    "noVisual": "An argumentative query between hosts debating narrative structure; visual stays clean and typographic.",
+    "storyboard": {
+      "claim": "Traditional storytelling assumes revealing the ending immediately kills suspense.",
+      "concreteVisual": "Inquiry space examining the narrative consequence of knowing the disaster upfront.",
+      "onScreenText": "KILLING THE SUSPENSE",
+      "relationToPrevious": "Host raises an objection to the early revelation discussed in beat 31.",
+      "addedInformation": "Articulates the common reader doubt regarding spoiled suspense."
+    }
+  },
+  {
+    "i": 33,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "READING LIKE A TEXTBOOK",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "Wondering if knowing everyone dies makes the novel read too much like a detached textbook.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Knowing the ending upfront risks making the novel read like a textbook without dread.",
+      "concreteVisual": "A textbook icon symbolizing the loss of visceral edge-of-seat dread.",
+      "onScreenText": "READING LIKE A TEXTBOOK",
+      "relationToPrevious": "Deepens the skepticism voiced in beat 32 about academic detachment.",
+      "addedInformation": "Frames the potential pitfall of King non-traditional documentary structure."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "CHEAP SURPRISE",
+        "INSIDIOUS DREAD"
+      ],
+      "values": [
+        0.1,
+        0.9
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Refuting the objection: clinical framing replaces cheap surprise with far more insidious dread.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The clinical framing amplifies dread in a far more insidious way than surprise.",
+      "concreteVisual": "A spectrum showing suspense shifting from cheap surprise to insidious dread.",
+      "onScreenText": "CHEAP SURPRISE <-> INSIDIOUS DREAD",
+      "relationToPrevious": "Counter-argument answering the objection raised in beats 32 and 33.",
+      "addedInformation": "Proves that inevitable doom generates heavier suspense than mystery."
+    }
+  },
+  {
+    "i": 35,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "WHAT HAPPENS",
+        "EASILY STOPPED"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Shifting the horror from what happens to the agonizing realization of how easily this could have been stopped.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horror shifts from what happens to the agonizing reality that it could have been stopped.",
+      "concreteVisual": "A 2-part flow contrasting mystery of outcome against preventable tragedy.",
+      "onScreenText": "WHAT HAPPENS -> EASILY STOPPED",
+      "relationToPrevious": "Defines the exact psychological mechanism behind the insidious dread of beat 34.",
+      "addedInformation": "Focuses audience attention on the missed opportunities for human intervention."
+    }
+  },
+  {
+    "i": 36,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "A TICKING CLOCK",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Reading sterile reports while constantly aware of the relentless ticking clock counting down to catastrophe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Reading sterile reports keeps the reader constantly aware of a ticking clock.",
+      "concreteVisual": "An hourglass or clock counting down toward the inevitable disaster.",
+      "onScreenText": "A TICKING CLOCK",
+      "relationToPrevious": "Translates the psychological realization of beat 35 into a temporal metaphor.",
+      "addedInformation": "Visualizes the inevitable countdown ticking down behind every document."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "MISSED OPPORTUNITY",
+        "FAILURE OF EMPATHY"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": "insert",
+    "cast": [],
+    "explainedBy": "Every adult missed opportunity and classmate failure of empathy acts like cutting another wire on a bomb.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Every missed opportunity by adults and failure of empathy by classmates cuts another wire.",
+      "concreteVisual": "A 2-bucket sorter categorizing adult missed opportunities versus peer empathy failures.",
+      "onScreenText": "MISSED OPPORTUNITY vs FAILURE OF EMPATHY",
+      "relationToPrevious": "Specifies the two types of human failure that accelerate the ticking clock.",
+      "addedInformation": "Categorizes the systemic negligence into adult abdication and teenage cruelty."
+    }
+  },
+  {
+    "i": 38,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "WIRES ON A BOMB",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "Watching another wire being cut on a bomb that you already know is destined to detonate.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Each failure is another wire cut on a bomb you already know will detonate.",
+      "concreteVisual": "A target icon locking onto the inevitable detonation point.",
+      "onScreenText": "WIRES ON A BOMB",
+      "relationToPrevious": "Concluding summary of the ticking bomb metaphor introduced in beats 36-37.",
+      "addedInformation": "Leaves the viewer with the chilling inevitability of the tragedy before the next scene."
+    }
+  }
+]

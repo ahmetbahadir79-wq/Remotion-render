@@ -1,0 +1,276 @@
+{
+  "slug": "carrie",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=carrie --bible=<this file>"
+  ],
+  "bible": {
+    "slug": "carrie",
+    "world": {
+      "era": "1974-1979",
+      "worldId": "chamberlain-maine-1970s",
+      "approxYear": 1974,
+      "setting": "Chamberlain, Maine in the mid-1970s: austere suburban New England high school and suffocating domestic religious interiors.",
+      "register": "austere, gritty 1970s American realism with claustrophobic domestic dread and catastrophic fire aftermath",
+      "forbid": [
+        "smartphone",
+        "laptop",
+        "modern-car",
+        "digital-screen",
+        "internet"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "carrie",
+      "worldId": "chamberlain-maine-1970s",
+      "allowedMotifs": [
+        "crucifix",
+        "blood",
+        "fire",
+        "prom-streamers",
+        "typewriter-transcript",
+        "locker",
+        "water-nozzle"
+      ],
+      "forbiddenMotifs": [
+        "smartphones",
+        "cyberpunk-neon",
+        "fantasy-magic-circles"
+      ],
+      "allowedCharacters": [
+        "carrie",
+        "margaret",
+        "sue",
+        "tommy",
+        "chris",
+        "billy"
+      ],
+      "allowedLocations": [
+        "classroom",
+        "bedroom",
+        "room",
+        "stage",
+        "street",
+        "abstract"
+      ],
+      "allowedProps": [
+        "book",
+        "car",
+        "fire",
+        "chains",
+        "door",
+        "grave",
+        "mirror",
+        "phone",
+        "school",
+        "target",
+        "shield",
+        "notes"
+      ]
+    },
+    "cast": {
+      "carrie": {
+        "name": "Carrie White",
+        "role": "Traumatized, telekinetic high school outcast pushed beyond endurance by abuse and public cruelty.",
+        "look": "A sixteen-year-old girl with pale skin, awkward slumped posture, unruly mousy brown hair, plain shapeless home-sewn 1970s dress, and intense frightened blue eyes.",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "outfit": "dress",
+          "suit": "#8b5a2b",
+          "hair": "#5a3d28",
+          "hairStyle": "messy",
+          "height": 0.95,
+          "build": "slight"
+        },
+        "mentions": 36
+      },
+      "margaret": {
+        "name": "Margaret White",
+        "role": "Fanatical fundamentalist mother enforcing religious terror and self-mutilating dogma.",
+        "look": "A severe 45-year-old woman with gaunt features, tight graying bun, high-collared dark Victorian-style 1970s dress, and clutching a worn Bible with manic intensity.",
+        "variant": {
+          "gender": "f",
+          "age": "adult",
+          "outfit": "dress",
+          "suit": "#222222",
+          "hair": "#555555",
+          "hairStyle": "bun",
+          "height": 1.05,
+          "build": "slight"
+        },
+        "mentions": 18
+      },
+      "sue": {
+        "name": "Sue Snell",
+        "role": "Remorseful popular senior attempting moral restitution by offering her prom date to Carrie.",
+        "look": "An attractive seventeen-year-old girl with blonde feathered 1970s hair, clean-cut preppy pastel sweater and plaid skirt, bearing a pensive and guilty expression.",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "outfit": "casual",
+          "suit": "#3b82f6",
+          "hair": "#e3b34a",
+          "hairStyle": "long",
+          "height": 1.0,
+          "build": "average"
+        },
+        "mentions": 10
+      },
+      "tommy": {
+        "name": "Tommy Ross",
+        "role": "Charismatic high school athlete and class president who genuinely respects Carrie at the prom.",
+        "look": "A tall, athletic seventeen-year-old boy with wavy brown 1970s hair, friendly open smile, wearing a powder-blue tuxedo with dark velvet lapels.",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "outfit": "suit",
+          "suit": "#60a5fa",
+          "hair": "#3e2723",
+          "hairStyle": "short",
+          "height": 1.1,
+          "build": "average"
+        },
+        "mentions": 12
+      },
+      "chris": {
+        "name": "Chris Hargensen",
+        "role": "Vindictive, wealthy ringleader whose humiliation drives her to execute the pig blood prank.",
+        "look": "A sharply styled seventeen-year-old girl with manicured dark hair, entitled posture, fashionable 1970s silk blouse, and a cold mocking glare.",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "outfit": "casual",
+          "suit": "#dc2626",
+          "hair": "#18181b",
+          "hairStyle": "long",
+          "height": 1.0,
+          "build": "slight"
+        },
+        "mentions": 15
+      },
+      "billy": {
+        "name": "Billy Nolan",
+        "role": "Violent delinquent boyfriend who procures the pig blood and enacts sociopathic hostility.",
+        "look": "An aggressive nineteen-year-old hoodlum with greasy black hair, denim jacket over white undershirt, cigarette behind ear, and callous smirking gaze.",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "outfit": "casual",
+          "suit": "#1e293b",
+          "hair": "#0f172a",
+          "hairStyle": "short",
+          "height": 1.05,
+          "build": "average"
+        },
+        "mentions": 11
+      }
+    },
+    "places": {
+      "classroom": {
+        "set": "classroom",
+        "look": "A drab 1970s Maine public high school gymnasium and locker room with institutional brick walls, wooden benches, and metal lockers.",
+        "mentions": 25
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "The oppressive White household interior, featuring a claustrophobic prayer closet, blue-eyed bleeding crucifix, and heavy faded floral wallpaper.",
+        "mentions": 15
+      },
+      "stage": {
+        "set": "stage",
+        "look": "The decorated Ewen High prom stage with crepe paper gondolas, sparkling streamers, mirror ball, and the fateful suspended buckets above the coronation throne.",
+        "mentions": 20
+      },
+      "street": {
+        "set": "street",
+        "look": "The nocturnal streets of Chamberlain engulfed in fire, ruptured fire hydrants, snapped power lines sparking violently, and exploding gas stations.",
+        "mentions": 18
+      },
+      "abstract": {
+        "set": "abstract",
+        "look": "A clean documentarian inquiry space representing official Senate transcripts, psychiatric autopsies, and teletype news wires.",
+        "mentions": 10
+      }
+    },
+    "objects": [
+      {
+        "concept": "school",
+        "mentions": 25,
+        "why": "Ewen High School social hierarchy and the institutional setting of the locker room and prom."
+      },
+      {
+        "concept": "chains",
+        "mentions": 15,
+        "why": "Domestic religious imprisonment, closet altar, and mental subjugation imposed by Margaret White."
+      },
+      {
+        "concept": "fire",
+        "mentions": 12,
+        "why": "The catastrophic conflagration that incinerates Chamberlain during Carrie's telekinetic retribution."
+      },
+      {
+        "concept": "grave",
+        "mentions": 10,
+        "why": "The mass casualties, memorial stones, and official death toll of over 400 victims."
+      },
+      {
+        "concept": "car",
+        "mentions": 13,
+        "why": "Billy Nolan's hot rod vehicle used in the pig blood sabotage and the fatal confrontation."
+      },
+      {
+        "concept": "notes",
+        "mentions": 14,
+        "why": "The epistolary documentation, AP teletype news wires, Senate committee transcripts, and memoirs."
+      },
+      {
+        "concept": "mirror",
+        "mentions": 8,
+        "why": "Carrie discovering her telekinesis and shattered self-image in the bathroom mirror."
+      },
+      {
+        "concept": "door",
+        "mentions": 9,
+        "why": "The locked gymnasium fire exits sealing students inside during the prom disaster."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 2,
+        "claim": "The tragedy begins not with demonic fury but with severe locker room cruelty and religious abuse manufacturing Carrie's deep isolation."
+      },
+      {
+        "act": "development",
+        "fromFrame": 11654,
+        "claim": "Institutional failure and misplaced guilt converge as Sue offers her prom date while Chris plots venomous revenge."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 24173,
+        "claim": "At the prom, a brief taste of genuine dignity is destroyed by the bucket prank, snapping Carrie's fragile restraint."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 35131,
+        "claim": "Telekinetic destruction turns Chamberlain into an inferno as Carrie exacts indiscriminate retribution across the town."
+      },
+      {
+        "act": "close",
+        "fromFrame": 46937,
+        "claim": "The epistolary autopsy leaves a haunting societal warning that institutional neglect weaponizes the vulnerable into devastating catastrophe."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1093 @@
+[
+  {
+    "i": 162,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "IN THE DEAD SILENCE",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Time slows down in the horrific dead silence immediately after the blood drenching before anyone reacts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "King slows time down during the dead silence before shock registers.",
+      "concreteVisual": "A clock suspended in time beside Carrie frozen in shock.",
+      "onScreenText": "IN THE DEAD SILENCE",
+      "relationToPrevious": "Follows the bucket drenching from context beat 161.",
+      "addedInformation": "The clock conveys the perception of time stopping in shock."
+    }
+  },
+  {
+    "i": 163,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CARRIE'S MIND JUST SNAPS",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "chris",
+      "carrie"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Chris breaks the dead silence with a mocking laugh, triggering Carrie's sensory and mental breakdown.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A mocking laugh triggers Carrie's sensory breakdown and mental snap.",
+      "concreteVisual": "Chris mocking and laughing while Carrie slumps in shock.",
+      "onScreenText": "CARRIE'S MIND JUST SNAPS",
+      "relationToPrevious": "The silence breaks into mockery.",
+      "addedInformation": "Shows who laughs and who breaks under the mockery."
+    }
+  },
+  {
+    "i": 164,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHE FLEES THE STAGE",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "flee",
+    "explainedBy": "Carrie flees the stage in terror after the overwhelming psychological trauma.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie flees the stage in absolute psychological trauma.",
+      "concreteVisual": "Carrie running away from the stage in panic.",
+      "onScreenText": "SHE FLEES THE STAGE",
+      "relationToPrevious": "Carrie runs away from the mockery on stage.",
+      "addedInformation": "The physical flee action shows her desperate attempt to escape."
+    }
+  },
+  {
+    "i": 165,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          {
+            "label": "BETRAYAL",
+            "glyph": "danger"
+          },
+          {
+            "label": "OVERLOAD",
+            "glyph": "bolt"
+          },
+          {
+            "label": "TELEKINESIS",
+            "glyph": "spark"
+          }
+        ],
+        "token": {
+          "glyph": "spark",
+          "tag": "TRAUMA",
+          "from": 0
+        },
+        "cues": {
+          "n0": "runs out of the gym",
+          "n1": "overload",
+          "n2": "telekinesis"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Carrie's telekinesis operates not as a magical spell but as a neurological overload triggered by trauma.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Telekinesis is a neurological overload rather than a cast spell.",
+      "concreteVisual": "A causal chain from betrayal to neurological overload to telekinesis.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Explains the psychological mechanism behind her fleeing.",
+      "addedInformation": "Diagrams the cause from social trauma to involuntary psychic release."
+    }
+  },
+  {
+    "i": 166,
+    "continue": true,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          {
+            "label": "BETRAYAL",
+            "glyph": "danger"
+          },
+          {
+            "label": "OVERLOAD",
+            "glyph": "bolt"
+          },
+          {
+            "label": "INVOLUNTARY",
+            "glyph": "spark"
+          }
+        ],
+        "token": {
+          "glyph": "spark",
+          "tag": "TRAUMA",
+          "from": 0
+        },
+        "cues": {
+          "n0": "adrenaline",
+          "n1": "bypasses",
+          "n2": "involuntary"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Flooded with adrenaline and cortisol from ultimate social betrayal, Carrie's conscious thought is completely bypassed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Conscious thought is bypassed into an involuntary physiological reaction.",
+      "concreteVisual": "The causal chain reinforces the involuntary bypass mechanism.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Continues the causal diagram of neurological overload.",
+      "addedInformation": "Shows conscious thought being bypassed."
+    }
+  },
+  {
+    "i": 167,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "SLAMS THE HEAVY GYMNASIUM DOORS",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "reach",
+    "explainedBy": "In an involuntary muscle spasm of the mind, Carrie telekinetically slams the heavy gym doors shut.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie telekinetically slams the heavy gymnasium doors shut.",
+      "concreteVisual": "Carrie reaching out her mind toward the gym doors.",
+      "onScreenText": "SLAMS THE HEAVY GYMNASIUM DOORS",
+      "relationToPrevious": "The internal neurological spasm results in external physical action.",
+      "addedInformation": "Pairs the mental spasm with the slamming of the physical doors."
+    }
+  },
+  {
+    "i": 168,
+    "continue": true,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "LOCKS HER CLASSMATES IN",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "explainedBy": "Carrie locks the doors, turning on the sprinklers and electrifying the puddles with rock band amps.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie seals her classmates inside the gymnasium death trap.",
+      "concreteVisual": "Carrie pointing telekinetically at the locked gym exits.",
+      "onScreenText": "LOCKS HER CLASSMATES IN",
+      "relationToPrevious": "After slamming the doors, she seals the trap.",
+      "addedInformation": "Keeps the classroom exit stage to emphasize total confinement."
+    }
+  },
+  {
+    "i": 169,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "NATURAL CATASTROPHE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Repressed trauma irrevocably weaponized ceases to be human action and becomes an indifferent natural catastrophe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Repressed trauma weaponized turns into an indifferent natural catastrophe.",
+      "concreteVisual": "A violent storm icon representing an impersonal force of nature.",
+      "onScreenText": "NATURAL CATASTROPHE",
+      "relationToPrevious": "Transitions from high school revenge to an impersonal force.",
+      "addedInformation": "The storm icon makes clear this is an uncontrolled natural force."
+    }
+  },
+  {
+    "i": 170,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "INDISCRIMINATE ANNIHILATION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The destruction is no longer about justice or revenge; it has become pure indiscriminate annihilation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The event transcends revenge into pure indiscriminate annihilation.",
+      "concreteVisual": "A roaring fire icon standing for complete destruction.",
+      "onScreenText": "INDISCRIMINATE ANNIHILATION",
+      "relationToPrevious": "From natural storm to total fiery destruction.",
+      "addedInformation": "Fire conveys total, unselective physical ruin."
+    }
+  },
+  {
+    "i": 171,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "FAULT LINE",
+        "EARTHQUAKE",
+        "DEVASTATION"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The fault line slips like an earthquake that does not care who stands above it, spreading destruction into the town outside.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The slip of the fault line produces devastation that spreads beyond the school.",
+      "concreteVisual": "A 3-step flow diagram mapping fault line to earthquake to devastation.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Explains the metaphor of the tectonic slip spreading outwards.",
+      "addedInformation": "Flow labels map the inevitable outward progression of destruction."
+    }
+  },
+  {
+    "i": 172,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "WANDERS COVERED IN BLOOD",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "blank",
+    "action": "walk",
+    "explainedBy": "Carrie wanders the nocturnal streets of Chamberlain covered in blood, stripping hydrant nozzles with her mind.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie wanders the town streets covered in blood as a monster of destruction.",
+      "concreteVisual": "Carrie walking down the dark streets of Chamberlain in a trance.",
+      "onScreenText": "WANDERS COVERED IN BLOOD",
+      "relationToPrevious": "Carrie leaves the school grounds and enters the town streets.",
+      "addedInformation": "Blank expression conveys her trance-like psychic detachment."
+    }
+  },
+  {
+    "i": 173,
+    "continue": true,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "DETONATES THE GAS STATION",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "reach",
+    "explainedBy": "Carrie detonates Teddy's Amoco gas station while town alarms shriek into the night.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie detonates the Amoco gas station as alarms shriek across the burning town.",
+      "concreteVisual": "Carrie reaching toward the exploding gas station fire on the street.",
+      "onScreenText": "DETONATES THE GAS STATION",
+      "relationToPrevious": "Continues her path of destruction along the street.",
+      "addedInformation": "Shows Carrie physically directing destruction at infrastructure."
+    }
+  },
+  {
+    "i": 174,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "OVER 400 PEOPLE PERISH",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [],
+    "explainedBy": "Over 400 people perish as the chaos of Carrie's inner domestic horror is unleashed into the physical world.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Over 400 people perish in the catastrophic destruction of Chamberlain.",
+      "concreteVisual": "A grave icon marking the mass death toll of the town.",
+      "onScreenText": "OVER 400 PEOPLE PERISH",
+      "relationToPrevious": "The culmination of the street-level rampage.",
+      "addedInformation": "The grave icon literally reads as mass death and mourning."
+    }
+  },
+  {
+    "i": 175,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "POPULAR READING",
+        "claim": "CALCULATED REVENGE MISSION",
+        "inputs": [
+          "LOCKS DOORS",
+          "SHORTS AMPS",
+          "CUTS WATER"
+        ],
+        "hub": "TACTICAL PLANNING",
+        "output": "MASTERMIND STRIKE",
+        "verdict": "DISPROVED BY THE TEXT",
+        "reason": "PURE ANIMAL INSTINCT",
+        "truth": "TRAUMATIZED CHILD REACTING",
+        "cues": {
+          "claim": "calculated",
+          "links": "revenge mission",
+          "result": "locks the doors"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Many viewers mistakenly frame Carrie's rampage as a highly calculated, John Wick style tactical revenge mission.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The popular reading views Carrie's actions as a calculated revenge mission.",
+      "concreteVisual": "A refute diagram stating the tactical mastermind claim.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Switches to analytical debate questioning Carrie's intent.",
+      "addedInformation": "Begins building the refutation of the mastermind theory."
+    }
+  },
+  {
+    "i": 176,
+    "continue": true,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "POPULAR READING",
+        "claim": "CALCULATED REVENGE MISSION",
+        "inputs": [
+          "LOCKS DOORS",
+          "SHORTS AMPS",
+          "CUTS WATER"
+        ],
+        "hub": "TACTICAL PLANNING",
+        "output": "MASTERMIND STRIKE",
+        "verdict": "DISPROVED BY THE TEXT",
+        "reason": "PURE ANIMAL INSTINCT",
+        "truth": "TRAUMATIZED CHILD REACTING",
+        "cues": {
+          "doubt": "entirely different",
+          "rejected": {
+            "phrase": "entirely different",
+            "occurrence": 1
+          }
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "While the tactics seem planned, the text rejects this reading entirely, showing a different reality.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The text refutes the idea of a tactical mastermind.",
+      "concreteVisual": "The refute diagram stamps the mastermind claim as rejected.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Continues the refute diagram to reject the tactical theory.",
+      "addedInformation": "Stamps the calculated claim as rejected by the evidence."
+    }
+  },
+  {
+    "i": 177,
+    "continue": true,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "POPULAR READING",
+        "claim": "CALCULATED REVENGE MISSION",
+        "inputs": [
+          "LOCKS DOORS",
+          "SHORTS AMPS",
+          "CUTS WATER"
+        ],
+        "hub": "TACTICAL PLANNING",
+        "output": "MASTERMIND STRIKE",
+        "verdict": "DISPROVED BY THE TEXT",
+        "reason": "PURE ANIMAL INSTINCT",
+        "truth": "TRAUMATIZED CHILD REACTING",
+        "cues": {
+          "reason": "animal instinct",
+          "truth": "instinct"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Sue Snell's telepathic reading reveals not a calculating mastermind, but a terrified child reacting on animal instinct.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sue finds a terrified child reacting on instinct rather than a mastermind.",
+      "concreteVisual": "The refute diagram reveals the truth: a terrified child reacting on instinct.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Completes the refute sequence with the text's psychological reality.",
+      "addedInformation": "Reveals the true model: an animal instinct reaction."
+    }
+  },
+  {
+    "i": 178,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "KILLS THE INNOCENT KIDS",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "sue"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Carrie traps and destroys everyone indiscriminately, killing innocent classmates who had no part in the bullying.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie's rampage indiscriminately kills innocent bystanders.",
+      "concreteVisual": "Sue slumping in grief over the innocent classmates destroyed.",
+      "onScreenText": "KILLS THE INNOCENT KIDS",
+      "relationToPrevious": "Evidences the lack of calculation: non-bullies die too.",
+      "addedInformation": "Sue's guilt and sorrow underscore the tragedy of innocent victims."
+    }
+  },
+  {
+    "i": 179,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "TRY TO OPEN THE DOORS",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "explainedBy": "She kills teachers desperately trying to open the doors to rescue students, showing an explosion beyond all limits.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Even teachers attempting rescue are killed by the indiscriminate explosion.",
+      "concreteVisual": "Carrie pointing with intense rage at the blocked exit doors.",
+      "onScreenText": "TRY TO OPEN THE DOORS",
+      "relationToPrevious": "Shows teachers trying to breach the locked exit.",
+      "addedInformation": "Emphasizes the total loss of control where helpers are also killed."
+    }
+  },
+  {
+    "i": 180,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WOUNDED CORNERED ANIMAL",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Carrie operates on the level of a wounded, cornered animal striking out at anything that moves.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie strikes out on the instinct of a wounded, cornered creature.",
+      "concreteVisual": "Carrie slumping in terror and pain, cornered against the world.",
+      "onScreenText": "WOUNDED CORNERED ANIMAL",
+      "relationToPrevious": "Summarizes her psychological state during the massacre.",
+      "addedInformation": "Afraid slump captures the vulnerability of an animal lashing out."
+    }
+  },
+  {
+    "i": 181,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "CRUELTY",
+        "DETONATOR",
+        "BLAST"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Telekinesis was merely the detonator; the town's cruelty and abuse engineered the blast.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Telekinesis was just the detonator; society built the weapon.",
+      "concreteVisual": "A 3-step flow diagram linking cruelty to detonator to blast.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Reasserts the core analytical thesis of the video.",
+      "addedInformation": "Flow shows telekinesis as merely an intermediate trigger."
+    }
+  },
+  {
+    "i": 182,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "ENGINEERED THE BLAST",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Chamberlain's social hierarchy, school cruelty, and domestic abuse engineered the catastrophic explosion.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The town's systemic cruelty and domestic abuse engineered the disaster.",
+      "concreteVisual": "Chains icon representing domestic and social imprisonment.",
+      "onScreenText": "ENGINEERED THE BLAST",
+      "relationToPrevious": "Identifies the source of the bomb.",
+      "addedInformation": "Chains directly represent the domestic and social entrapment."
+    }
+  },
+  {
+    "i": 183,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "DROPPED THE MATCH",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The community built the bomb, packed it with shrapnel, and then dropped the match.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The abusers built the bomb and finally ignited it.",
+      "concreteVisual": "Fire icon showing the inevitable ignition of the community's bomb.",
+      "onScreenText": "DROPPED THE MATCH",
+      "relationToPrevious": "The final step of the metaphor: lighting the manufactured bomb.",
+      "addedInformation": "Fire literalizes the dropping of the match."
+    }
+  },
+  {
+    "i": 184,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "Darkness Envelops the Homestead",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [],
+    "explainedBy": "In the ruined, darkened White living room, power is completely out as fire flickers through the windows.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The scene returns to the darkened, ruined White household living room.",
+      "concreteVisual": "The oppressive interior of the White residence illuminated by outside fire.",
+      "onScreenText": "Darkness Envelops the Homestead",
+      "relationToPrevious": "Shifts setting from the burning town to the climatic mother-daughter confrontation.",
+      "addedInformation": "Establishes the grim domestic set before the confrontation."
+    }
+  },
+  {
+    "i": 185,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "BURNING TOWN OUTSIDE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [],
+    "explainedBy": "The only illumination comes from eerie, flickering firelight cast by the incinerated town outside.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Eerie firelight from the burning town illuminates the dark living room.",
+      "concreteVisual": "Fire icon showing the catastrophic town glow entering the room.",
+      "onScreenText": "BURNING TOWN OUTSIDE",
+      "relationToPrevious": "Describes the ambient light source in the ruined house.",
+      "addedInformation": "Connects the outside destruction with the internal domestic showdown."
+    }
+  },
+  {
+    "i": 186,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "QUOTING SCRIPTURE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "holds": "book",
+    "partnerExpression": "afraid",
+    "partnerAction": "walk",
+    "explainedBy": "Margaret sits clutching her Bible and quoting scripture as an exhausted, bleeding Carrie walks through the door.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret waits clutching scripture as Carrie stumbles home.",
+      "concreteVisual": "Margaret clutching her Bible with manic intensity as Carrie walks in.",
+      "onScreenText": "QUOTING SCRIPTURE",
+      "relationToPrevious": "The two characters meet in the living room.",
+      "addedInformation": "Margaret's Bible and severe stance contrast with Carrie's exhaustion."
+    }
+  },
+  {
+    "i": 187,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PLUNGES THE BUTCHER KNIFE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret lunges and plunges a butcher knife into her own daughter's shoulder.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret attacks Carrie, stabbing her in the shoulder.",
+      "concreteVisual": "Margaret lunging forward aggressively while Carrie reels back in agony.",
+      "onScreenText": "PLUNGES THE BUTCHER KNIFE",
+      "relationToPrevious": "Margaret acts on her religious fanaticism to execute Carrie.",
+      "addedInformation": "Adheres to safety rules against explicit gore while conveying lethal aggression."
+    }
+  },
+  {
+    "i": 188,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "SEIZES HER MOTHER'S HEART",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "carrie",
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "reach",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "A dying Carrie uses her mind to physically seize her mother's heart and halt its beating.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie telekinetically grasps Margaret's heart to stop it.",
+      "concreteVisual": "Carrie reaching with mental focus toward the heart icon while Margaret slumps.",
+      "onScreenText": "SEIZES HER MOTHER'S HEART",
+      "relationToPrevious": "Carrie's telekinetic counter-attack against her mother.",
+      "addedInformation": "The heart icon represents the anatomical target of Carrie's power."
+    }
+  },
+  {
+    "i": 189,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Heart Commanded to Cease",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "carrie",
+      "margaret"
+    ],
+    "expression": "blank",
+    "action": "talk",
+    "partnerExpression": "blank",
+    "partnerAction": "slump",
+    "explainedBy": "Carrie whispers 'Slower, mama. Slower' as Margaret collapses dead on the floor.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie commands Margaret's heart to slow down until Margaret collapses.",
+      "concreteVisual": "Carrie looking down with a blank stare as Margaret slumps motionless.",
+      "onScreenText": "Heart Commanded to Cease",
+      "relationToPrevious": "The final execution of matricide.",
+      "addedInformation": "Blank expressions reflect the emotional numbness at the end of abuse."
+    }
+  },
+  {
+    "i": 190,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "DOMESTIC ABUSE",
+        "CYCLE TURNS",
+        "MUTUAL RUIN"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The cycle of violence reaches its terminal end: institutional and domestic failure destroys abusers alongside victims.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Systemic failure inevitably destroys both victim and abuser.",
+      "concreteVisual": "A 3-step flow diagram tracing abuse to the turning cycle to mutual ruin.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Draws the thematic lesson from the matricide.",
+      "addedInformation": "Diagrams the self-destructive feedback loop of systemic abuse."
+    }
+  },
+  {
+    "i": 191,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "THE SYSTEM EATS ITSELF",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The system inevitably consumes the abusers as well as the victims; it eats itself entirely.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The abusive system inevitably devours its own architects.",
+      "concreteVisual": "War icon representing self-consuming systemic destruction.",
+      "onScreenText": "THE SYSTEM EATS ITSELF",
+      "relationToPrevious": "Summarizes the self-cannibalizing nature of systemic cruelty.",
+      "addedInformation": "War icon conveys total self-destructive conflict."
+    }
+  },
+  {
+    "i": 192,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "RELIGIOUS TERROR",
+        "STOPPED HEART",
+        "CLASS CRUELTY",
+        "BURNED SCHOOL"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Margaret's religious terror created the weapon that stopped her heart; high school cruelty created the weapon that burned the school.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Specific abuses directly generated the weapons that destroyed the abusers.",
+      "concreteVisual": "A sorter diagram mapping religious terror to the stopped heart, and school cruelty to the fire.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Breaks down the two parallel paths of manufactured destruction.",
+      "addedInformation": "Sorter cleanly pairs the two institutions with their respective retributions."
+    }
+  },
+  {
+    "i": 193,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "CHILLING FINAL DOCUMENT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The book concludes with an epistolary document: a gossiping letter from Amelia Jensen in another town.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "King closes the novel with an epistolary letter from another town.",
+      "concreteVisual": "Notes icon showing the gossiping letter document.",
+      "onScreenText": "CHILLING FINAL DOCUMENT",
+      "relationToPrevious": "Transitions to the novel's final textual artifact.",
+      "addedInformation": "Notes icon represents the epistolary format."
+    }
+  },
+  {
+    "i": 194,
+    "concept": "star",
+    "diagram": null,
+    "callout": {
+      "text": "LEVITATING MARBLES IN HER CRIB",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [],
+    "explainedBy": "She describes baby Annie casually displaying telekinesis by levitating marbles in her crib.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A new baby casually levitates marbles in her crib.",
+      "concreteVisual": "Star icon representing supernatural levitation in a domestic nursery.",
+      "onScreenText": "LEVITATING MARBLES IN HER CRIB",
+      "relationToPrevious": "Details the content of Amelia Jensen's letter.",
+      "addedInformation": "Highlights the sudden manifestation of TK in another child."
+    }
+  },
+  {
+    "i": 195,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          {
+            "label": "TK GENE",
+            "glyph": "spark"
+          },
+          {
+            "label": "ISOLATION",
+            "glyph": "lock"
+          },
+          {
+            "label": "CATASTROPHE",
+            "glyph": "fire"
+          }
+        ],
+        "token": {
+          "glyph": "spark",
+          "tag": "CYCLE",
+          "from": 0
+        },
+        "loop": {
+          "to": 0,
+          "label": "REPEATS"
+        },
+        "cues": {
+          "n0": "genetic menace",
+          "n1": "dormant",
+          "n2": "entire cycle"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The genetic menace lies dormant, leaving the entire catastrophic cycle ready to begin all over again.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The TK menace is dormant and ready to cycle all over again.",
+      "concreteVisual": "A causal loop diagram showing the repeating cycle of genetic power and destruction.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Interprets the Annie letter as the prelude to another tragedy.",
+      "addedInformation": "Causal loop shows the inescapable recurrence of the cycle."
+    }
+  },
+  {
+    "i": 196,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A DARK MERCY",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "sue"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "One host suggests Carrie's death was a dark mercy for someone too broken to live, a framing immediately challenged.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The host rejects the framing of Carrie's death as a mercy.",
+      "concreteVisual": "Sue looking uneasy beside the struck-through phrase 'A DARK MERCY'.",
+      "onScreenText": "A DARK MERCY (struck through)",
+      "relationToPrevious": "Hosts shift from the epilogue to the philosophical meaning of Carrie's death.",
+      "addedInformation": "The strike marks the rejection of the 'mercy' euphemism."
+    }
+  },
+  {
+    "i": 197,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "THE CONTAGION IS STOPPED",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The clinical, institutional perspective frames the autopsy as complete and the contagion safely stopped.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The clinical view treats Carrie's death as an autopsy that stops a contagion.",
+      "concreteVisual": "Grave icon representing the sanitized institutional conclusion.",
+      "onScreenText": "THE CONTAGION IS STOPPED",
+      "relationToPrevious": "Presents the official bureaucratic argument before dismantling it.",
+      "addedInformation": "Grave icon signifies the finality of the clinical autopsy."
+    }
+  },
+  {
+    "i": 198,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NO MERCY IN IT",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Looking at how Carrie actually dies, the counter-argument insists there was no peace or mercy whatsoever.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie's actual dying moments contain no mercy or peace.",
+      "concreteVisual": "Carrie slumped dying in the cold gravel, abandoned and terrified.",
+      "onScreenText": "NO MERCY IN IT",
+      "relationToPrevious": "Cuts from the clinical defense to Carrie's harsh physical death.",
+      "addedInformation": "Carrie's slumped, terrified posture reveals the reality of her demise."
+    }
+  },
+  {
+    "i": 199,
+    "concept": "road",
+    "diagram": null,
+    "callout": {
+      "text": "PARKING LOT OF CAVALIER TAVERN",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "sue",
+      "carrie"
+    ],
+    "expression": "sad",
+    "action": "reach",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Sue finds Carrie dying in the tavern parking lot where Chris and Billy plotted against her, as their minds link telepathically.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sue reaches Carrie in the parking lot and links telepathically with her dying mind.",
+      "concreteVisual": "Sue reaching out in tears to Carrie slumped on the pavement beside a car.",
+      "onScreenText": "PARKING LOT OF CAVALIER TAVERN",
+      "relationToPrevious": "Sue arrives at Carrie's side in the tavern lot.",
+      "addedInformation": "Reaching action illustrates Sue's desperate attempt at psychic connection."
+    }
+  },
+  {
+    "i": 200,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CARRIE'S FINAL THOUGHTS",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "sue",
+      "carrie"
+    ],
+    "expression": "surprised",
+    "action": "think",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Sue feels Carrie's final thoughts through the telepathic link, discovering not a dying monster but something heartbreaking.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sue senses Carrie's dying thoughts and discovers no monster.",
+      "concreteVisual": "Sue experiencing Carrie's telepathic shock as Carrie slumps in pain.",
+      "onScreenText": "CARRIE'S FINAL THOUGHTS",
+      "relationToPrevious": "Continues the telepathic encounter in the parking lot.",
+      "addedInformation": "Sue's surprised and sorrowful look reflects what she encounters in Carrie's mind."
+    }
+  },
+  {
+    "i": 201,
+    "continue": true,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MAMA, IT HURTS. I'M SCARED.",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "sue",
+      "carrie"
+    ],
+    "expression": "sad",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Carrie's dying mind cries out for her mother in sheer terror: 'Mama, it hurts. I'm scared.'",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie dies weeping for her mother as a terrified, helpless child.",
+      "concreteVisual": "Sue weeping as Carrie slumps crying out for her mother.",
+      "onScreenText": "MAMA, IT HURTS. I'M SCARED.",
+      "relationToPrevious": "The emotional core of the telepathic communion.",
+      "addedInformation": "Reveals the core truth of Carrie: an abused child longing for comfort."
+    }
+  },
+  {
+    "i": 202,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "WEAPONIZED ISOLATION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The epistolary autopsy is complete: weaponized isolation left nothing behind but total unmitigated tragedy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The forensic documentation shows that isolation weaponized leads to unmitigated tragedy.",
+      "concreteVisual": "Notes icon representing the final completed autopsy files.",
+      "onScreenText": "WEAPONIZED ISOLATION",
+      "relationToPrevious": "Concludes chunk 5 and the thematic analysis of Carrie's destruction.",
+      "addedInformation": "The notes icon bookends the epistolary framework of the novel."
+    }
+  }
+]

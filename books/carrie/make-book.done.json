@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-10-31T07:23:08.524Z",
+  "at": "2026-10-31T07:24:27.064Z",
+  "config": "config.antidote.json",
+  "configSha256": "5cf98a136a54bf9c542c5cb8344e327a841904e47cbc4d0b0ea02ef4c3cf1486",
+  "inputs": {
+    "storyboard": {
+      "path": "books/carrie/art.json",
+      "sha256": "1cff67c24157930cb4281b719eba59829772dd7532e22f5b268b3fe5eb0ae43f"
+    },
+    "storyBible": {
+      "path": "books/carrie/story-bible.json",
+      "sha256": "4891ef8c4f6692179a4eea927947e90b742b048c198b88c566bd21784c03109d"
+    },
+    "motifs": {
+      "path": "books/carrie/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/carrie.vtt",
+      "sha256": "f0bf84b03635c99e0e0b9e1fb121c9e3ed60e4b5606f2bd79db64605e3c2c9f7"
+    },
+    "audio": {
+      "path": "public/audio/carrie.mp3",
+      "sha256": "2ed1bf568c25c2a9e744afa861bcd1e249ce8b83ae951756020652749d810abf"
+    }
+  },
+  "head": "88db7e09393a3f152140dcf0c3a9f95523734a26",
+  "previewOnly": true,
+  "skipPack": true
+}

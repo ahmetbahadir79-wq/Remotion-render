@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-31T07:23:03.941Z",
+  "n": 214,
+  "total": 214,
+  "sources": [
+    "readcheck",
+    "recheck-1"
+  ],
+  "totals": {
+    "CORRECT": 205,
+    "NEUTRAL": 9,
+    "WRONG": 0
+  },
+  "wrongRate": 0,
+  "blame": {
+    "diagram": 9
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 39,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The unlabelled refute diagram yielded a vague guess about refuting how the disaster occurred without capturing the distinction between a whodunit and why it happened.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 66,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The unlabelled refute diagram prompted a generic statement about refuting misconceptions rather than Margaret having deep unhealed trauma.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 128,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The unlabelled refute diagram caused a broad guess about refuting control over the scheme rather than Billy being a passive puppet.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 175,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess vaguely notes challenging a conventional perception without the specific tactical John Wick revenge debate in the narration.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 176,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess is a generic refutation that misses the specific clash between tactical calculation and traumatized instinct.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 177,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess is a broad refutation statement that lacks the narration's core revelation of finding a terrified child rather than a mastermind.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 204,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess is a general refutation of bureaucratic conclusions rather than addressing critics claiming epistolary pacing disruptions.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 205,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess vaguely mentions questioning institutional blame instead of critics arguing the framing deflates horror.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 206,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess refers to disputing an official narrative rather than clinical framing forming the core power of witnessing the disaster.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    }
+  ]
+}

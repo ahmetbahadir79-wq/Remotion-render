@@ -1,0 +1,1047 @@
+[
+  {
+    "i": 39,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "refute": {
+        "owner": "THE GENRE EXPECTATION",
+        "claim": "A standard whodunit mystery",
+        "inputs": [
+          "The culprit",
+          "The motive"
+        ],
+        "hub": "The catastrophe",
+        "output": "Whodunit revelation",
+        "verdict": "Why did it happen",
+        "reason": "Institutional autopsy of cause and effect",
+        "truth": "A slow-motion disaster autopsy",
+        "cues": {
+          "links": "who done it",
+          "result": "happen",
+          "rejected": {
+            "phrase": "not a who done it",
+            "occurrence": 1
+          },
+          "truth": "why did it happen"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Refuting the assumption of a murder mystery in favor of a forensic why-did-it-happen autopsy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The book is not an unsolved whodunit but a forensic analysis of why the disaster happened.",
+      "concreteVisual": "A refute diagram replacing the whodunit mystery model with a forensic inquiry into causes.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Picks up from the ticking clock context, defining the book's analytical structure.",
+      "addedInformation": "Contrasts whodunit speculation against structural forensic inquiry."
+    }
+  },
+  {
+    "i": 40,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          {
+            "label": "Crash Investigation",
+            "glyph": "eye"
+          },
+          {
+            "label": "Faulty Rivet",
+            "glyph": "cross"
+          },
+          {
+            "label": "Ignored Report",
+            "glyph": "speech"
+          }
+        ],
+        "token": {
+          "glyph": "danger",
+          "tag": "defect",
+          "from": 0
+        },
+        "cues": {
+          "n0": "crash",
+          "n1": "faulty rivet",
+          "n2": "maintenance report"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A sequence of neglected defects and ignored warnings culminating in catastrophic disaster.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Like an air crash investigation, every small institutional failure stacks toward inevitable collapse.",
+      "concreteVisual": "A causal chain of accumulated defects moving from a faulty component to an ignored report.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Grounds the plane crash investigation analogy into concrete causal failure stations.",
+      "addedInformation": "Shows that disasters result from compounding unaddressed failures rather than a single sudden shock."
+    }
+  },
+  {
+    "i": 41,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "AN AUTOPSY REPORT",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "The epistolary transcripts and testimony act as an autopsy report documenting institutional failure.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The epistolary documentation functions as an autopsy report of institutional failure.",
+      "concreteVisual": "A stack of official investigative hearing notes and psychiatric reports.",
+      "onScreenText": "AN AUTOPSY REPORT",
+      "relationToPrevious": "Connects the investigation analogy to the novel's epistolary framework of official records.",
+      "addedInformation": "Visualizes the physical papers, testimony excerpts, and tribunal records that structure the book."
+    }
+  },
+  {
+    "i": 42,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE FIRST FAULTY RIVET",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "holds": "book",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret White looms over Carrie, embodying the foundational domestic abuse that begins the catastrophe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret White's domestic abuse represents the very first defect in Carrie's life.",
+      "concreteVisual": "Margaret pointing sternly with her Bible while young Carrie cowers in fear.",
+      "onScreenText": "THE FIRST FAULTY RIVET",
+      "relationToPrevious": "Transitions from official institutional transcripts to the domestic origin of the trauma.",
+      "addedInformation": "Shows Margaret's religious authority wielded as a weapon against her slumped daughter."
+    }
+  },
+  {
+    "i": 43,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "THIS SANCTIFIED TERROR",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Margaret White enforces religious subjugation and terror upon her daughter through scripture.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret subjects Carrie to fanatical religious terror disguised as holy devotion.",
+      "concreteVisual": "Margaret clutching her Bible with rigid hostility beside the chains of domestic imprisonment.",
+      "onScreenText": "THIS SANCTIFIED TERROR",
+      "relationToPrevious": "Focuses directly on Margaret's sanctified terror and dogma.",
+      "addedInformation": "Pairs the holy book with chains to show how dogma is used to imprison Carrie."
+    }
+  },
+  {
+    "i": 44,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "THE WHITE BUNGALOW",
+      "style": "box"
+    },
+    "set": "room",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Carrie sits isolated inside the suffocating, claustrophobic atmosphere of the White bungalow.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The White home is a suffocating environment steeped in domestic dread.",
+      "concreteVisual": "Carrie huddled alone in the oppressive family house.",
+      "onScreenText": "THE WHITE BUNGALOW",
+      "relationToPrevious": "Moves inside the physical domestic setting described by the hosts.",
+      "addedInformation": "Establishes the grim domestic isolation of the White household."
+    }
+  },
+  {
+    "i": 45,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A TERRIFYING CRUCIFIX",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "explainedBy": "Margaret points upward toward the grotesque, dominating crucifix on the living room wall.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The White living room is dominated by a grotesque plaster crucifix that commands obedience.",
+      "concreteVisual": "Margaret gesturing toward the agonizing religious icon on the wall.",
+      "onScreenText": "A TERRIFYING CRUCIFIX",
+      "relationToPrevious": "Highlights the specific horrifying religious focal point inside the house.",
+      "addedInformation": "Shows Margaret directing terror toward the wall icon to instill dread."
+    }
+  },
+  {
+    "i": 46,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MUSCLE STRAINING AGONY",
+      "style": "highlight"
+    },
+    "set": "room",
+    "shotOverride": "closeUp",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "Carrie trembles beneath the agonizing depiction of suffering hanging over her home.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The crucifix emphasizes pain and torture rather than peace, magnifying Carrie's dread.",
+      "concreteVisual": "Carrie in close-up, gazing up with frightened eyes at the violent icon.",
+      "onScreenText": "MUSCLE STRAINING AGONY",
+      "relationToPrevious": "Shows Carrie's immediate psychological terror under the crucifix's gaze.",
+      "addedInformation": "Reflects the violent imagery of religious martyrdom in Carrie's terrified expression."
+    }
+  },
+  {
+    "i": 47,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SCARLET STREAMS OF BLOOD",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret preaches violently about blood and suffering to her cowed, terrified daughter.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Gruesome painted blood streams on the crucifix reinforce Margaret's bloody obsessions.",
+      "concreteVisual": "Margaret preaching fanatically while Carrie cringes beside her.",
+      "onScreenText": "SCARLET STREAMS OF BLOOD",
+      "relationToPrevious": "Connects the painted blood of the crucifix to Margaret's morbid fixation.",
+      "addedInformation": "Shows Margaret lecturing Carrie on the gruesome penalty of sin."
+    }
+  },
+  {
+    "i": 48,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PSYCHOLOGICAL ARCHITECTURE",
+      "style": "box"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "partnerExpression": "worried",
+    "partnerAction": "slump",
+    "continue": true,
+    "explainedBy": "Margaret's towering, manipulative control constructs a monstrous mental prison around Carrie.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Beyond physical abuse, Margaret builds a monstrous psychological prison of guilt.",
+      "concreteVisual": "Margaret towering with severe, magnified eyes while Carrie wilts in distress.",
+      "onScreenText": "PSYCHOLOGICAL ARCHITECTURE",
+      "relationToPrevious": "Examines Margaret's imposing presence and the psychological trap she enforces.",
+      "addedInformation": "Emphasizes Margaret's calculating mental dominance over Carrie's shattered sense of self."
+    }
+  },
+  {
+    "i": 49,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NO COMFORT OR HUG",
+      "style": "strike"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "partnerExpression": "sad",
+    "partnerAction": "reach",
+    "explainedBy": "Carrie reaches out for solace after the locker room trauma, but Margaret turns away with cold anger.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "When Carrie arrives home traumatized, Margaret offers neither comfort nor sympathy.",
+      "concreteVisual": "Carrie reaching out weeping while Margaret refuses her with harsh rejection.",
+      "onScreenText": "NO COMFORT OR HUG",
+      "relationToPrevious": "Depicts Carrie's return home from school seeking maternal refuge.",
+      "addedInformation": "Contrasts Carrie's desperate bid for warmth against Margaret's callous refusal."
+    }
+  },
+  {
+    "i": 50,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "DRAGS HER TO THE CLOSET",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "leave",
+    "explainedBy": "Margaret angrily directs Carrie toward the locked domestic prayer closet to punish her.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret violently banishes her daughter to the prayer closet.",
+      "concreteVisual": "Margaret pointing rigidly toward the dark closed door as Carrie retreats in terror.",
+      "onScreenText": "DRAGS HER TO THE CLOSET",
+      "relationToPrevious": "Follows the domestic confrontation to its punitive outcome.",
+      "addedInformation": "Shows the command and forced banishment into the punishment closet."
+    }
+  },
+  {
+    "i": 51,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "A TORTURE CHAMBER",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "sit",
+    "explainedBy": "Carrie sits huddled in the pitch-dark closet illuminated solely by a harsh solitary bulb.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The prayer closet functions as a domestic torture chamber of psychological terror.",
+      "concreteVisual": "Carrie sitting huddled in darkness beneath a single glaring bulb.",
+      "onScreenText": "A TORTURE CHAMBER",
+      "relationToPrevious": "Takes the viewer inside the closet space described in the dialogue.",
+      "addedInformation": "Establishes the stark sensory deprivation and fear of the punishment room."
+    }
+  },
+  {
+    "i": 52,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE SIN OF WOMANHOOD",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "Carrie slumps in grief and shame, internalizing her mother's condemnation of female sexuality.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret indoctrinates Carrie to believe her developing body is inherently sinful.",
+      "concreteVisual": "Carrie slumped in deep despair inside the closet, crushed by indoctrinated guilt.",
+      "onScreenText": "THE SIN OF WOMANHOOD",
+      "relationToPrevious": "Deepens the emotional cost of Margaret's theological imprisonment.",
+      "addedInformation": "Reveals the deep psychological shame inflicted by Margaret's warped doctrine."
+    }
+  },
+  {
+    "i": 53,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "ABSOLUTE SELF RIGHTEOUSNESS",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "Margaret holds a pious religious mask, hiding monstrous abuse behind public self-righteousness.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The most dangerous monsters operate in broad daylight behind masks of holy virtue.",
+      "concreteVisual": "Margaret holding a false pious mask over her callous features.",
+      "onScreenText": "ABSOLUTE SELF RIGHTEOUSNESS",
+      "relationToPrevious": "Extends the narrator's commentary on how moral monsters camouflage cruelty.",
+      "addedInformation": "Exposes the hypocrisy between Margaret's pious exterior and her private cruelty."
+    }
+  },
+  {
+    "i": 54,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "A THEOLOGICAL PRISON",
+      "style": "box"
+    },
+    "set": "bedroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret White binds Carrie in an ideological trap, dictating that her natural growth is offensive to God.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret designs a theological prison to convince Carrie her own body is unclean.",
+      "concreteVisual": "Margaret preaching with hostile authority beside binding chains as Carrie shrinks away.",
+      "onScreenText": "A THEOLOGICAL PRISON",
+      "relationToPrevious": "Synthesizes Margaret's dogma into a deliberate psychological cage.",
+      "addedInformation": "Shows how religious guilt is weaponized to bind Carrie's identity."
+    }
+  },
+  {
+    "i": 55,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Erasing Foundation of Self-Worth",
+      "style": "strike"
+    },
+    "set": "bedroom",
+    "shotOverride": "closeUp",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "blank",
+    "action": "slump",
+    "explainedBy": "Carrie's blank expression reflects total psychological numbness and stripped self-worth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The domestic environment systematically destroys Carrie's foundational self-esteem.",
+      "concreteVisual": "Carrie's hollow, unfeeling expression under persistent domestic cruelty.",
+      "onScreenText": "Erasing Foundation of Self-Worth",
+      "relationToPrevious": "Demonstrates the end state of Margaret's systematic erasure of Carrie's dignity.",
+      "addedInformation": "Shows the hollow numbness produced when every trace of self-worth is stamped out."
+    }
+  },
+  {
+    "i": 56,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "TESTIMONY FROM A NEIGHBOR",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [],
+    "explainedBy": "Official neighborhood testimony records establish that the abuse began in Carrie's earliest childhood.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Estella Horan's official interview documents the early roots of the White family trauma.",
+      "concreteVisual": "A written transcript page documenting eyewitness testimony from the neighborhood.",
+      "onScreenText": "TESTIMONY FROM A NEIGHBOR",
+      "relationToPrevious": "Transitions to the documentary retrospective account from neighbor Estella Horan.",
+      "addedInformation": "Emphasizes the archival transcript nature of the neighbor's recollection."
+    }
+  },
+  {
+    "i": 57,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE BACKYARD SCENE",
+      "style": "box"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "A tiny, three-year-old Carrie wanders curiously toward the neighbor's backyard fence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Toddler Carrie approaches the sunny backyard fence in innocent curiosity.",
+      "concreteVisual": "A small, awkward child wandering outside under bright summer light.",
+      "onScreenText": "THE BACKYARD SCENE",
+      "relationToPrevious": "Opens the specific historical flashback recounted by the neighbor.",
+      "addedInformation": "Establishes the stark outdoor setting and Carrie's vulnerability as a young child."
+    }
+  },
+  {
+    "i": 58,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INAPPROPRIATELY LONG DRESS",
+      "style": "highlight"
+    },
+    "set": "street",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "continue": true,
+    "explainedBy": "Three-year-old Carrie stands sweltering in an oversized, stifling dress on a boiling hot summer day.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret forces toddler Carrie to wear an oppressive, shapeless dress even in summer heat.",
+      "concreteVisual": "Carrie sweltering in awkward, heavy home-sewn clothing.",
+      "onScreenText": "INAPPROPRIATELY LONG DRESS",
+      "relationToPrevious": "Highlights the visual absurdity and cruelty of Margaret's modesty rules for a toddler.",
+      "addedInformation": "Shows how Margaret's fear of the flesh was forced onto Carrie from infancy."
+    }
+  },
+  {
+    "i": 59,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "GOOD GIRLS DONT GET THEM",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "surprised",
+    "action": "point",
+    "continue": true,
+    "explainedBy": "Toddler Carrie naively points to her chest, repeating her mother's warped prohibition on womanhood.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie naively repeats her mother's dogma that female anatomy is forbidden to good girls.",
+      "concreteVisual": "Carrie innocently gesturing toward herself in confusion.",
+      "onScreenText": "GOOD GIRLS DONT GET THEM",
+      "relationToPrevious": "Reaches the core verbal moment of Carrie's conversation at the fence.",
+      "addedInformation": "Exposes how deeply Margaret's anti-body shame was drilled into Carrie at age three."
+    }
+  },
+  {
+    "i": 60,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FEAR FEMALE BIOLOGY",
+      "style": "highlight"
+    },
+    "set": "street",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret rushes outside in savage fury, screaming violently upon catching Carrie at the fence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret reacts with animalistic fury when discovering Carrie speaking to the neighbor.",
+      "concreteVisual": "Margaret erupting in wild rage, pointing aggressively at terrified young Carrie.",
+      "onScreenText": "FEAR FEMALE BIOLOGY",
+      "relationToPrevious": "Shows Margaret's sudden, violent intrusion into the neighborly scene.",
+      "addedInformation": "Visualizes the terrifying contrast between innocent curiosity and feral adult fury."
+    }
+  },
+  {
+    "i": 61,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PRIMAL INSANE RAGE",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "leave",
+    "actionCue": "drags",
+    "partnerExpression": "afraid",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Margaret drags the screaming child inside the house in a fit of fanatical hysterics.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret forcibly drags the toddler back inside their dark home.",
+      "concreteVisual": "Margaret angrily marching Carrie away from the outside world toward the house.",
+      "onScreenText": "PRIMAL INSANE RAGE",
+      "relationToPrevious": "Shows Margaret dragging Carrie away from the fence and into confinement.",
+      "addedInformation": "Demonstrates the forceful severance of Carrie's connection to normal reality."
+    }
+  },
+  {
+    "i": 62,
+    "concept": "crack",
+    "diagram": null,
+    "callout": {
+      "text": "STONES RAINING FROM SKY",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [],
+    "explainedBy": "Stones pelt the roof of the White house from a clear sky during Carrie's earliest telekinetic tantrum.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The trauma immediately triggers a shower of stones crashing onto the White house roof.",
+      "concreteVisual": "A fractured line representing the aerial bombardment of stones impacting the house roof.",
+      "onScreenText": "STONES RAINING FROM SKY",
+      "relationToPrevious": "Depicts the shocking supernatural reaction immediately following the domestic assault.",
+      "addedInformation": "Captures Carrie's telekinetic retaliation rupturing into physical reality."
+    }
+  },
+  {
+    "i": 63,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Abuse pressure",
+        "TK eruption"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The pressure cooker of maternal abuse directly triggers the eruption of latent telekinetic power.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Extreme domestic abuse acts as the pressure cooker triggering Carrie's latent power.",
+      "concreteVisual": "A flow diagram linking domestic abuse pressure directly to telekinetic eruption.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Synthesizes the causal connection between Margaret's violence and Carrie's psychic outburst.",
+      "addedInformation": "Clarifies that Carrie's powers are awakened and shaped by trauma rather than random chance."
+    }
+  },
+  {
+    "i": 64,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CARTOONISH VILLAIN",
+      "style": "strike"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Margaret clutches her Bible aggressively, challenging the easy dismissal of her as a simple caricature.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dismissing Margaret as merely a cartoonish religious fanatic ignores her textual depth.",
+      "concreteVisual": "Margaret holding her Bible in harsh defiance.",
+      "onScreenText": "CARTOONISH VILLAIN",
+      "relationToPrevious": "Reflects the host challenging a superficial reading of Margaret's character.",
+      "addedInformation": "Confronts the viewer with Margaret's chilling presence while striking the shallow label."
+    }
+  },
+  {
+    "i": 65,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ZERO NUANCE",
+      "style": "strike"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "continue": true,
+    "explainedBy": "One host argues Margaret has zero nuance, citing her murderous knife assault on her daughter.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "One argument claims Margaret is purely evil and lacks any psychological nuance.",
+      "concreteVisual": "Margaret pointing with menacing rage inside the oppressive domestic bedroom.",
+      "onScreenText": "ZERO NUANCE",
+      "relationToPrevious": "Presents the counterargument highlighting Margaret's murderous extremism.",
+      "addedInformation": "Prepares for the psychological refute sequence by stating the simplistic reading first."
+    },
+    "holds": "book"
+  },
+  {
+    "i": 66,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "refute": {
+        "owner": "THE SURFACE READING",
+        "claim": "Pure evil caricatures",
+        "inputs": [
+          "Scripture screaming",
+          "Violent fanaticism"
+        ],
+        "hub": "Her cruelty",
+        "output": "One-dimensional villain",
+        "verdict": "Deep unhealed trauma",
+        "reason": "Shattered by sexual assault and religious terror",
+        "truth": "A self-perpetuating cycle of generational trauma",
+        "cues": {
+          "links": "reading",
+          "result": "reading",
+          "doubt": "Wait",
+          "rejected": {
+            "phrase": "disagree with that reading",
+            "occurrence": 1
+          },
+          "truth": "deep unhealed trauma"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Refuting the cartoon villain label to expose Margaret's behavior as deep unhealed trauma.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The host strongly rejects the one-dimensional evil label in favor of deep unhealed trauma.",
+      "concreteVisual": "A refute diagram rejecting the cartoon villain model in favor of unhealed psychological trauma.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "The analytical pivot rejecting the simplistic villain interpretation.",
+      "addedInformation": "Structures the argument that Margaret's cruelty stems from her own past victimization."
+    }
+  },
+  {
+    "i": 67,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Scripture Weaponized as Defense",
+      "style": "highlight"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "explainedBy": "Margaret rants in desperation upon hearing about the prom, her words reflecting personal panic.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret's hysterical reaction to the prom reveals specific personal dread rather than rote scripture.",
+      "concreteVisual": "Margaret speaking with intense, tormented agitation.",
+      "onScreenText": "Scripture Weaponized as Defense",
+      "relationToPrevious": "Examines Margaret's specific dialogue and panicked outburst over the prom.",
+      "addedInformation": "Shows that Margaret's biblical quotations are fueled by terror rather than calm doctrine."
+    }
+  },
+  {
+    "i": 68,
+    "concept": "road",
+    "diagram": null,
+    "callout": {
+      "text": "PROJECTING HER SHATTERED WORLDVIEW",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "point",
+    "partnerExpression": "worried",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret projects memories of roadhouse parking lots and sexual assault outward onto Carrie.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret projects her memories of sexual violation at roadside parking lots onto Carrie's life.",
+      "concreteVisual": "Margaret gesturing toward an empty dark road while Carrie stands burdened beside her.",
+      "onScreenText": "PROJECTING HER SHATTERED WORLDVIEW",
+      "relationToPrevious": "Reveals the root memory driving Margaret's terror of the prom.",
+      "addedInformation": "Pairs Margaret's haunted past with the barren road of her trauma."
+    }
+  },
+  {
+    "i": 69,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "SAVING CARRIES SOUL",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "partnerExpression": "sad",
+    "partnerAction": "slump",
+    "explainedBy": "In her warped mind, Margaret genuinely believes she is rescuing Carrie from the sins of the flesh.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret genuinely believes she is saving Carrie from the sexual sins that ruined her own life.",
+      "concreteVisual": "Margaret speaking with frantic concern beside Carrie, believing she offers salvation.",
+      "onScreenText": "SAVING CARRIES SOUL",
+      "relationToPrevious": "Explores the twisted subjective sincerity behind Margaret's abuse.",
+      "addedInformation": "Contrasts Margaret's protective religious intention with the destructive reality of her actions."
+    }
+  },
+  {
+    "i": 70,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Past violation",
+        "Maternal terror",
+        "Generational cycle"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Margaret's past trauma fuels maternal terror, converting personal victimhood into a generational cycle.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret's past violation fuels maternal terror, producing a self-perpetuating generational cycle.",
+      "concreteVisual": "A three-stage flow diagram charting the reproduction of trauma from past violation to cycle.",
+      "onScreenText": "Scene visual",
+      "relationToPrevious": "Synthesizes Margaret's psychology into an institutional cycle of generational abuse.",
+      "addedInformation": "Shows how trauma replicates across generations when framed as moral salvation."
+    }
+  },
+  {
+    "i": 71,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "AN IDEOLOGICAL BUNKER",
+      "style": "box"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "holds": "book",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret barricades Carrie inside a domestic ideological fortress to shield her from the world.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret built an ideological fortress to trap and 'protect' her daughter from reality.",
+      "concreteVisual": "Margaret clutching her Bible in front of the home while Carrie cowers behind her.",
+      "onScreenText": "AN IDEOLOGICAL BUNKER",
+      "relationToPrevious": "Visualizes the domestic household as a defensive ideological bunker.",
+      "addedInformation": "Frames the White house not just as a prison, but as a bunker constructed against moral panic."
+    }
+  },
+  {
+    "i": 72,
+    "concept": "balance",
+    "diagram": null,
+    "callout": {
+      "text": "FRACTURED MIND",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "margaret"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "Margaret's fractured mind desperately attempts to balance moral purity against inevitable sexuality.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret is a victim of her own twisted psychology, desperately fighting the cycle of sexuality.",
+      "concreteVisual": "Margaret in distress beside a tipped balance scale representing her shattered worldview.",
+      "onScreenText": "FRACTURED MIND",
+      "relationToPrevious": "Reflects the tragic internal conflict of Margaret's fractured mental state.",
+      "addedInformation": "Highlights Margaret's internal instability as she tries to weigh sin against salvation."
+    }
+  },
+  {
+    "i": 73,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STRIPS ALL DEFENSES",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "margaret",
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Margaret's fanatical abuse strips Carrie of every psychological defense before she faces the world.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Margaret's abuse systematically strips Carrie of any emotional defense mechanisms.",
+      "concreteVisual": "Margaret aggressively scolding Carrie while Carrie collapses inward in utter defeat.",
+      "onScreenText": "STRIPS ALL DEFENSES",
+      "relationToPrevious": "Summarizes the total vulnerability created by Margaret's domestic regime.",
+      "addedInformation": "Visualizes the total erasure of Carrie's ability to protect herself emotionally."
+    }
+  },
+  {
+    "i": 74,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "IMMENSE VULNERABILITY",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "explainedBy": "Carrie carries her defenseless emotional vulnerability into the institutional high school hallway.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie must carry her absolute domestic vulnerability into the harsh school environment.",
+      "concreteVisual": "Carrie walking hesitantly into the high school classroom with awkward posture.",
+      "onScreenText": "IMMENSE VULNERABILITY",
+      "relationToPrevious": "Transitions Carrie from the domestic sphere into the predatory high school world.",
+      "addedInformation": "Emphasizes Carrie's extreme exposure as she steps outside the home."
+    }
+  },
+  {
+    "i": 75,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WEAPONIZED ISOLATION",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "twoShot",
+    "cast": [
+      "chris",
+      "carrie"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Chris Hargensen mocks and points cruelly at Carrie, forging weaponized social isolation in school.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "At Ewen High, peer cruelty turns Carrie's domestic vulnerability into weaponized isolation.",
+      "concreteVisual": "Chris smirking and pointing mockingly at cowering Carrie in the school environment.",
+      "onScreenText": "WEAPONIZED ISOLATION",
+      "relationToPrevious": "Introduces the predatory peer hierarchy awaiting Carrie at school.",
+      "addedInformation": "Visualizes the peer hostility that compounds Carrie's domestic abuse."
+    }
+  },
+  {
+    "i": 76,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE ADULTS FAILED HER",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "sit",
+    "explainedBy": "Carrie sits huddled in terror on the shower floor as the bathroom door slams open with a bang.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carrie huddles alone in the locker room shower as institutional adults fail to protect her.",
+      "concreteVisual": "Carrie huddled on the shower floor in complete terror and physical distress.",
+      "onScreenText": "THE ADULTS FAILED HER",
+      "relationToPrevious": "Returns to the initial locker room breakdown, framing it as an institutional adult failure.",
+      "addedInformation": "Prepares for Miss Desjardin's arrival by highlighting Carrie's defenseless posture on the shower floor."
+    }
+  }
+]

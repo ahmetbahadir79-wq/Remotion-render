@@ -1,0 +1,364 @@
+[
+  {
+    "i": 203,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "EPISTOLARY EXCERPTS",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "sue"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "book",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Critics target Stephen King's documentary and epistolary fragments as pacing disruptions.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Critics argue that King's epistolary excerpts disrupt the novel's pacing.",
+      "concreteVisual": "Sue holding an academic book documenting the tragedy, troubled by the clinical dissection.",
+      "onScreenText": "EPISTOLARY EXCERPTS",
+      "relationToPrevious": "Transitions from the story's tragic conclusion to critical debates on its literary structure.",
+      "addedInformation": "Shows the physical book format containing the excerpts that critics argue interrupt the narrative."
+    }
+  },
+  {
+    "i": 204,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "CRITICS SAY",
+        "claim": "EXCERPTS DISRUPT PACING",
+        "inputs": [
+          "AP TICKERS",
+          "TK GENE",
+          "ACADEMIC TEXTS"
+        ],
+        "hub": "STRUCTURE",
+        "output": "DISRUPTS PACING",
+        "verdict": "CORE POWER",
+        "reason": "ANATOMY OF DISASTER",
+        "truth": "CLINICAL AUTOPSY",
+        "cues": {
+          "links": "tickers",
+          "result": "disrupt"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": null,
+    "cast": [],
+    "expression": null,
+    "action": null,
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The critics' model claims that AP tickers, genetics, and academic texts merely interrupt the narrative flow.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The epistolary excerpts are claimed by critics to interrupt and stall the story pacing.",
+      "concreteVisual": "A refute diagram mapping the three cited document inputs feeding into the critics' accusation of pacing disruption.",
+      "onScreenText": "CRITICS: DISRUPTS PACING",
+      "relationToPrevious": "Expands on the specific textual fragments (AP tickers, TK gene papers, academic texts) named by critics.",
+      "addedInformation": "Formalizes the critical argument into structured inputs leading to a pacing disruption claim."
+    }
+  },
+  {
+    "i": 205,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "CRITICS SAY",
+        "claim": "EXCERPTS DISRUPT PACING",
+        "inputs": [
+          "AP TICKERS",
+          "TK GENE",
+          "ACADEMIC TEXTS"
+        ],
+        "hub": "STRUCTURE",
+        "output": "DEFLATES VISCERAL HORROR",
+        "verdict": "CORE POWER",
+        "reason": "ANATOMY OF DISASTER",
+        "truth": "CLINICAL AUTOPSY",
+        "cues": {
+          "doubt": "linear",
+          "rejected": "clinical"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": null,
+    "cast": [],
+    "expression": null,
+    "action": null,
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "continue": true,
+    "explainedBy": "Critics demand a linear horror story, but the podcast rejects the idea that clinical framing deflates the book.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Critics want a straight bloody horror story, but the claim that epistolary framing weakens the book is rejected.",
+      "concreteVisual": "The refute diagram grays out and stamps the critics' complaint as the hosts counter their assessment.",
+      "onScreenText": "DEFLATES VISCERAL HORROR",
+      "relationToPrevious": "Continues the refute diagram from beat 204, shifting from stating the objection to challenging and rejecting it.",
+      "addedInformation": "Directly confronts the expectation of a generic monster story versus deliberate literary architecture."
+    }
+  },
+  {
+    "i": 206,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "CRITICS SAY",
+        "claim": "EXCERPTS DISRUPT PACING",
+        "inputs": [
+          "AP TICKERS",
+          "TK GENE",
+          "ACADEMIC TEXTS"
+        ],
+        "hub": "STRUCTURE",
+        "output": "DEFLATES VISCERAL HORROR",
+        "verdict": "CORE POWER",
+        "reason": "ANATOMY OF DISASTER",
+        "truth": "CLINICAL AUTOPSY",
+        "cues": {
+          "reason": "anatomy",
+          "truth": "core"
+        }
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "shotOverride": null,
+    "cast": [],
+    "expression": null,
+    "action": null,
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "continue": true,
+    "explainedBy": "The clinical framing is revealed as the novel's true power, exposing the anatomy of a systemic disaster.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Clinical framing forces readers to step back and examine the full anatomy of a communal disaster.",
+      "concreteVisual": "The refute diagram reveals the underlying truth: the excerpts construct an anatomy of disaster.",
+      "onScreenText": "ANATOMY OF A DISASTER",
+      "relationToPrevious": "Resolves the refute diagram from beats 204-205 by uncovering the genuine model and its explanatory purpose.",
+      "addedInformation": "Validates King's documentary structure as an intentional analytical post-mortem rather than flawed pacing."
+    }
+  },
+  {
+    "i": 207,
+    "concept": "balance",
+    "diagram": null,
+    "callout": {
+      "text": "BUREAUCRATIC AND SOCIAL FAILURES",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "shotOverride": "medium",
+    "cast": [
+      "sue"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The horror stems not from telekinesis, but from the ordinary institutional neglect and social cruelty that enabled the crisis.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Readers are horrified not by supernatural power, but by mundane bureaucratic and social failures.",
+      "concreteVisual": "Sue in the school hallway burdened with guilt, framed beside the balance icon weighing institutional complicity.",
+      "onScreenText": "BUREAUCRATIC AND SOCIAL FAILURES",
+      "relationToPrevious": "Shifts from the literary debate to the novel's thematic core: institutional culpability.",
+      "addedInformation": "Emphasizes that human failure, represented by school administration and bystander peers, is the true terror."
+    }
+  },
+  {
+    "i": 208,
+    "concept": "city",
+    "diagram": null,
+    "callout": {
+      "text": "NOT INHERENTLY EVIL",
+      "style": "strike"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Chamberlain's destruction was not caused by an inherently evil girl, striking the assumption of born malice.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Chamberlain did not burn because Carrie was innately evil.",
+      "concreteVisual": "Carrie slumps isolated on the town street before the town backdrop, with her purported malice struck down.",
+      "onScreenText": "NOT INHERENTLY EVIL",
+      "relationToPrevious": "Reframes the catastrophe from blame on the individual victim to the community.",
+      "addedInformation": "Strikes through the trope of the innately malevolent monster, isolating Carrie's despair."
+    }
+  },
+  {
+    "i": 209,
+    "concept": "water",
+    "diagram": null,
+    "callout": {
+      "text": "IGNORE A DROWNING CHILD",
+      "style": "reveal"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "afraid",
+    "action": "reach",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The town fell because an entire community chose to abandon a drowning child crying out for help.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Chamberlain perished because a whole town chose to ignore a drowning child.",
+      "concreteVisual": "Carrie in terror reaching out desperately for help next to the water icon representing her drowning distress.",
+      "onScreenText": "IGNORE A DROWNING CHILD",
+      "relationToPrevious": "Contrasts the rejected monster myth with the actual reality of an abandoned child.",
+      "addedInformation": "Stages the literal metaphor of drowning and reaching out to an indifferent community."
+    }
+  },
+  {
+    "i": 210,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "TOOK THE ENTIRE TOWN DOWN",
+      "style": "highlight"
+    },
+    "set": "street",
+    "shotOverride": "wide",
+    "cast": [
+      "carrie"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "When Carrie finally collapses under cruelty, she unleashes fire and brings the entire town down with her.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Neglect ends in absolute catastrophe as Carrie drags the entire town down with her.",
+      "concreteVisual": "Carrie stands enraged against the burning street as the fire icon marks the town's doom.",
+      "onScreenText": "TOOK THE ENTIRE TOWN DOWN",
+      "relationToPrevious": "Culminates the cause-and-effect of communal neglect into catastrophic retaliation.",
+      "addedInformation": "Demonstrates the catastrophic blowback of systemic abuse exploding into public ruin."
+    }
+  },
+  {
+    "i": 211,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "HOW FAST A RUMOR SPREADS",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "medium",
+    "cast": [
+      "chris"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Modern digital mobs and rapid online pile-ons mirror high school cruelty without needing telekinesis.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "In the modern digital landscape, viral rumors and online mobs weaponize isolation instantly.",
+      "concreteVisual": "Chris Hargensen smirks and points maliciously beside a storm icon depicting the rapid gale of viral harassment.",
+      "onScreenText": "HOW FAST A RUMOR SPREADS",
+      "relationToPrevious": "Transposes the novel's 1970s tragedy into a contemporary warning about digital vitriol.",
+      "addedInformation": "Links Chris's instigation of peer cruelty to modern social media pile-ons and rumor swarms."
+    }
+  },
+  {
+    "i": 212,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "WEAPONIZED ISOLATION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "twoShot",
+    "cast": [
+      "carrie",
+      "chris"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": "smirk",
+    "partnerAction": "point",
+    "explainedBy": "Isolation is weaponized when public humiliation transforms into endless comments and viral cruelty targeting a vulnerable teen.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Modern isolation is weaponized when viral videos and endless comments turn humiliation into an inescapable gauntlet.",
+      "concreteVisual": "Carrie slumps in terror targeted by the malicious smirk and pointing finger of Chris beside the target icon.",
+      "onScreenText": "WEAPONIZED ISOLATION",
+      "relationToPrevious": "Connects the prom shower-room trauma to modern harassment campaigns targeting vulnerable teenagers.",
+      "addedInformation": "Shows the predator-prey dynamic of social cruelty amplified across an inescapable public arena."
+    }
+  },
+  {
+    "i": 213,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "WHO IS HOLDING THE MATCH?",
+      "style": "highlight"
+    },
+    "set": "stage",
+    "shotOverride": "closeUp",
+    "cast": [
+      "sue"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The video ends on an urgent moral question: in a volatile, interconnected world, who holds the match that starts the fire?",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Society remains an explosive environment where everyone must ask who holds the match.",
+      "concreteVisual": "Sue in a worried close-up confronting the audience with the fire icon posing the ultimate moral responsibility.",
+      "onScreenText": "WHO IS HOLDING THE MATCH?",
+      "relationToPrevious": "Final concluding beat delivering the takeaway challenge directly to the audience.",
+      "addedInformation": "Leaves the audience with an indelible moral dilemma regarding their own role as bystanders or instigators."
+    }
+  }
+]
