@@ -1,0 +1,1075 @@
+[
+  {
+    "i": 78,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CEO OF YAHOO",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Marissa Mayer taking charge at Yahoo and issuing an aggressive executive decree.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Marissa Mayer became CEO of Yahoo in 2013 and enforced strict visibility.",
+      "concreteVisual": "Knowledge worker standing in an open corporate office speaking sternly as management.",
+      "onScreenText": "CEO OF YAHOO",
+      "relationToPrevious": "Introduces the Yahoo case study illustrating visibility proxy culture.",
+      "addedInformation": "Embodies the executive management stance demanding physical presence."
+    }
+  },
+  {
+    "i": 79,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "BANNED ALL EMPLOYEES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "A corporate decree banning remote work sparks outrage across the company.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Yahoo controversially banned all employees from working from home.",
+      "concreteVisual": "Worker pointing aggressively next to the home icon to signify the ban on working from home.",
+      "onScreenText": "BANNED ALL EMPLOYEES",
+      "relationToPrevious": "Specifies Mayer's controversial remote-work ban decree.",
+      "addedInformation": "Links the home icon to the prohibition order."
+    }
+  },
+  {
+    "i": 80,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CHECKED THE VPN",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "smirk",
+    "action": "think",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Management scrutinizes remote access server logs instead of real output like shipped code.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mayer audited VPN server logs rather than code output or shipped products.",
+      "concreteVisual": "Knowledge worker gesturing analytically in the office while monitoring network logs.",
+      "onScreenText": "CHECKED THE VPN",
+      "relationToPrevious": "Reveals the flawed metric Mayer used to judge productivity.",
+      "addedInformation": "Focuses on digital log surveillance over meaningful output."
+    }
+  },
+  {
+    "i": 81,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT VISIBLY BUSY",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Remote workers are penalized simply for failing to leave frequent server check-in timestamps.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Employees were punished because their server login logs were not frequent enough.",
+      "concreteVisual": "Knowledge worker slumped dejectedly at an office desk under administrative scrutiny.",
+      "onScreenText": "NOT VISIBLY BUSY",
+      "relationToPrevious": "Shows the consequence of failing the login frequency check.",
+      "addedInformation": "Depicts the defeat of employees judged solely by digital timestamps."
+    }
+  },
+  {
+    "i": 82,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STEALING COMPANY TIME",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Without a trail of constant pings, management assumes the employee is slacking off.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Failing to leave constant digital pings creates the corporate assumption of theft of time.",
+      "concreteVisual": "Worker speaking anxiously under the oppressive corporate expectation of constant activity.",
+      "onScreenText": "STEALING COMPANY TIME",
+      "relationToPrevious": "Explains the corporate presumption that lack of pings equals slacking.",
+      "addedInformation": "Highlights the fear of being accused of stealing company time."
+    }
+  },
+  {
+    "i": 83,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HIGHLY RESPONSIVE",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "take",
+    "holds": "phone",
+    "actionCue": "responsive",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "A modern worker grabs their phone to rapidly reply to messages, treating responsiveness as the core job.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers defend constant connectivity as the core requirement of their job.",
+      "concreteVisual": "Worker reaching for and taking their phone from the desk to answer an email immediately.",
+      "onScreenText": "HIGHLY RESPONSIVE",
+      "relationToPrevious": "Pivots to the worker's counter-defense of rapid communication.",
+      "addedInformation": "Physical action of taking the phone captures the reflex to be responsive."
+    }
+  },
+  {
+    "i": 84,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "OPERATION GRINDS TO A HALT",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The worker grips the phone anxiously, fearing everything will collapse without instant replies.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers fear operations will freeze if they miss client or boss messages.",
+      "concreteVisual": "Worker anxiously clutching phone with both hands, dreading operational breakdown.",
+      "onScreenText": "OPERATION GRINDS TO A HALT",
+      "relationToPrevious": "Deepens the anxiety that justifies keeping the phone in hand.",
+      "addedInformation": "The worried grip shows the panic driving constant inbox checks."
+    }
+  },
+  {
+    "i": 85,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LUBRICANT OF THE BUSINESS",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The hosts reject the executive excuse that non-stop messaging lubricates business.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Empirical research dismantles the defense that constant messaging is essential lubricant.",
+      "concreteVisual": "Worker speaking calmly in the office as the struck callout refutes the executive defense.",
+      "onScreenText": "LUBRICANT OF THE BUSINESS",
+      "relationToPrevious": "Directly rejects the claim that rapid response is necessary.",
+      "addedInformation": "The struck text clarifies the rejection of executive justification."
+    }
+  },
+  {
+    "i": 86,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "HARVARD BUSINESS SCHOOL",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Introducing Leslie Perlow's rigorous Harvard Business School field experiment.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Professor Leslie Perlow investigated hyperconnectivity through a rigorous empirical study.",
+      "concreteVisual": "Worker pointing toward an open academic book in a quiet university library setting.",
+      "onScreenText": "HARVARD BUSINESS SCHOOL",
+      "relationToPrevious": "Introduces scholarly evidence refuting the responsiveness myth.",
+      "addedInformation": "Grounds the counter-argument in empirical academic research."
+    }
+  },
+  {
+    "i": 87,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HIGHLY PAID PROFESSIONALS",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "holds": "briefcase",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Studying elite consultants whose entire value was assumed to depend on constant availability.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Perlow studied consultants whose jobs supposedly depended on non-stop responsiveness.",
+      "concreteVisual": "Knowledge worker carrying a briefcase through a corporate office corridor.",
+      "onScreenText": "HIGHLY PAID PROFESSIONALS",
+      "relationToPrevious": "Identifies the elite subject group analyzed in the Harvard study.",
+      "addedInformation": "The briefcase identifies corporate consulting professionals."
+    }
+  },
+  {
+    "i": 88,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "25 HOURS OUTSIDE OF WORK",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Consultants spent 20 to 25 hours every week outside the office monitoring messaging devices.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Consultants monitored email and devices for 20 to 25 hours per week outside normal office hours.",
+      "concreteVisual": "Worker slumped anxiously at home clutching a phone beside a large ticking clock icon.",
+      "onScreenText": "25 HOURS OUTSIDE OF WORK",
+      "relationToPrevious": "Quantifies the massive off-hours monitoring burden uncovered by the study.",
+      "addedInformation": "Combines the phone in hand with the clock to display after-hours overtime."
+    }
+  },
+  {
+    "i": 89,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PSYCHOLOGICAL HEALTH",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "worker"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The chronic round-the-clock monitoring severely damaged employees' psychological health.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Constant digital monitoring actively degraded workers' mental and emotional health.",
+      "concreteVisual": "Worker standing hunched and exhausted in an empty room, drained by relentless connectivity.",
+      "onScreenText": "PSYCHOLOGICAL HEALTH",
+      "relationToPrevious": "Reveals the direct psychological toll of 25 hours of after-hours monitoring.",
+      "addedInformation": "Shows personal physical fatigue and dejection caused by digital tethering."
+    }
+  },
+  {
+    "i": 90,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Scheduled disconnect",
+        "Protected bottom line",
+        "Quality went up"
+      ]
+    },
+    "callout": null,
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Mandatory predictable time off caused work quality to rise without harming revenue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Enforcing scheduled disconnection protected company profits and boosted work quality.",
+      "concreteVisual": "Three-step flow diagram tracking scheduled disconnect leading to safe profits and higher quality.",
+      "onScreenText": "none",
+      "relationToPrevious": "Presents the surprising positive finding from Perlow's intervention study.",
+      "addedInformation": "Charts the causal path showing disconnection improves final output."
+    }
+  },
+  {
+    "i": 91,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "METRIC BLACK HOLE",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Companies operate in an informational void where the real costs of distraction cannot be tracked.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Hyperconnectivity flourishes inside an unmeasured corporate metric black hole.",
+      "concreteVisual": "Worker standing amidst office cubicles discussing the invisible organizational vacuum.",
+      "onScreenText": "METRIC BLACK HOLE",
+      "relationToPrevious": "Introduces Newport's key concept explaining why shallow habits persist.",
+      "addedInformation": "Frames the open office as an environment devoid of productivity metrics."
+    }
+  },
+  {
+    "i": 92,
+    "concept": "coin",
+    "diagram": null,
+    "callout": {
+      "text": "NO QUANTIFIABLE METRICS",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Firms have no bottom-line financial balance sheet tracking revenue lost to interruption.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Companies possess no hard financial data showing the dollar loss of distraction.",
+      "concreteVisual": "Worker pointing inquiringly toward a coin icon to question lost corporate revenue.",
+      "onScreenText": "NO QUANTIFIABLE METRICS",
+      "relationToPrevious": "Elaborates on the lack of financial accountability in the metric black hole.",
+      "addedInformation": "Pairs financial currency with the absence of cognitive accounting."
+    }
+  },
+  {
+    "i": 93,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A TOTAL TRAP",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Frantic activity gives an illusion of progress while trapping workers in shallow routines.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Constant frantic busyness is an enticing organizational trap.",
+      "concreteVisual": "Worker standing dejectedly in the middle of the workplace caught in mindless routine.",
+      "onScreenText": "A TOTAL TRAP",
+      "relationToPrevious": "Synthesizes the corporate culture critique into a blunt conclusion.",
+      "addedInformation": "Depicts the resignation of being trapped in performative activity."
+    }
+  },
+  {
+    "i": 94,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Unmeasured real value",
+        "Proxy busyness"
+      ],
+      "values": [
+        0.15,
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "When real economic value cannot be measured, culture skews heavily toward visible proxy busywork.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Busyness acts as a comforting proxy where true value creation is difficult to measure.",
+      "concreteVisual": "A horizontal spectrum showing corporate culture shifted heavily toward proxy busyness.",
+      "onScreenText": "none",
+      "relationToPrevious": "Diagrams the skew toward visible busyness when true value is unmeasured.",
+      "addedInformation": "Visual scale demonstrates how corporate metrics default to superficial effort."
+    }
+  },
+  {
+    "i": 95,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "SHIELD OF BEING BUSY",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "shield",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Hiding behind superficial busyness shields workers from accountability but guarantees failure.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Hiding behind a defensive posture of busyness sets individuals up for career failure.",
+      "concreteVisual": "Worker holding up a defensive shield in the workplace to deflect scrutiny.",
+      "onScreenText": "SHIELD OF BEING BUSY",
+      "relationToPrevious": "Warns against using responsiveness as a personal defense mechanism.",
+      "addedInformation": "Literal shield held in hand manifests the metaphor of defensive busyness."
+    }
+  },
+  {
+    "i": 96,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PROTECT YOUR ATTENTION",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Urging knowledge workers to deliberately defend their cognitive focus from digital erosion.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Professionals must actively guard their attention or suffer cognitive deterioration.",
+      "concreteVisual": "Worker pointing forward with firm resolve in the modern office environment.",
+      "onScreenText": "PROTECT YOUR ATTENTION",
+      "relationToPrevious": "Calls for active attention management before neurological damage sets in.",
+      "addedInformation": "Direct posture signals urgency in reclaiming cognitive focus."
+    }
+  },
+  {
+    "i": 97,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ACTUAL NEUROSCIENCE",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "worker"
+    ],
+    "expression": "surprised",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Transitioning into the terrifying neurological consequences of task switching.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The biological science behind attention residue reveals severe neurological consequences.",
+      "concreteVisual": "Worker speaking with heightened intensity in an academic research setting.",
+      "onScreenText": "ACTUAL NEUROSCIENCE",
+      "relationToPrevious": "Bridges corporate habits to laboratory cognitive neuroscience.",
+      "addedInformation": "Shifts the environment to academic research for scientific exploration."
+    }
+  },
+  {
+    "i": 98,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PSYCHOLOGY LAB",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Placing the viewer into the position of a research subject in Sophie Leroy's laboratory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The audience is placed into Sophie Leroy's University of Minnesota cognitive laboratory.",
+      "concreteVisual": "Worker seated quietly at a stark research desk prepared to begin an experiment.",
+      "onScreenText": "PSYCHOLOGY LAB",
+      "relationToPrevious": "Establishes the experimental laboratory setting for the Leroy study.",
+      "addedInformation": "Seated subject posture prepares for the laboratory puzzle test."
+    }
+  },
+  {
+    "i": 99,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "COMPLEX WORD PUZZLE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The subject is completely immersed in solving a difficult cognitive word puzzle.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The subject enters deep focus solving a demanding word puzzle on paper.",
+      "concreteVisual": "Seated worker deeply absorbed in reading notes at the desk beside the notes icon.",
+      "onScreenText": "COMPLEX WORD PUZZLE",
+      "relationToPrevious": "Builds deep immersion in the initial experimental task.",
+      "addedInformation": "Holding the notes paper illustrates active mental puzzle solving."
+    }
+  },
+  {
+    "i": 100,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INTERRUPTS YOU",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "surprised",
+    "action": "sit",
+    "holds": "notes",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The researcher abruptly enters the testing room and cuts off the subject mid-solve.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Professor Leroy suddenly walks into the laboratory room and interrupts the puzzle.",
+      "concreteVisual": "Seated worker looking up in sudden surprise, holding the puzzle paper as the interruption strikes.",
+      "onScreenText": "INTERRUPTS YOU",
+      "relationToPrevious": "Disrupts the deep concentration established in the preceding beat.",
+      "addedInformation": "Surprised face captures the jarring shock of an unexpected interruption."
+    }
+  },
+  {
+    "i": 101,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DROP THE PUZZLE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "place",
+    "holds": "notes",
+    "actionCue": "Drop",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The subject is ordered to instantly put down the unfinished puzzle and switch to resumes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The subject is ordered to immediately stop the puzzle and evaluate hiring resumes.",
+      "concreteVisual": "Worker placing the puzzle notes onto the table on the verbal cue, breaking task flow.",
+      "onScreenText": "DROP THE PUZZLE",
+      "relationToPrevious": "Executes the forced transition commanded by the experimenter.",
+      "addedInformation": "Setting down the paper captures the forced abandonment of the task."
+    }
+  },
+  {
+    "i": 102,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RAPIDFIRE LEXICAL GAME",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "holds": null,
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "During the cognitive transition, a rapid-fire computer test measures mental processing speed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A sudden lexical decision test flashes on screen between tasks to probe cognitive state.",
+      "concreteVisual": "Worker gesturing in focused concentration at the workstation trying to react quickly.",
+      "onScreenText": "RAPIDFIRE LEXICAL GAME",
+      "relationToPrevious": "Inserts the diagnostic reaction test into the seam between tasks.",
+      "addedInformation": "Focuses on the rapid mental effort during the transition window."
+    }
+  },
+  {
+    "i": 103,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "EXPLAIN THE EXHAUSTION",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "The test revealed why task switching leaves workers mentally drained at the end of the day.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Lexical reaction delays explain the widespread mental exhaustion of modern knowledge workers.",
+      "concreteVisual": "Worker slumped wearily at the workstation table, overwhelmed by cognitive fatigue.",
+      "onScreenText": "EXPLAIN THE EXHAUSTION",
+      "relationToPrevious": "Connects the laboratory test results to workplace fatigue.",
+      "addedInformation": "The slumped posture reflects the profound depletion caused by switching."
+    }
+  },
+  {
+    "i": 104,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "GLANCING AT YOUR INBOX",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "take",
+    "holds": "phone",
+    "actionCue": "inbox",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Even a quick 10-second glance at an inbox notification pulls attention away from deep work.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Switching from a primary report to glance at an inbox, even for ten seconds, breaks attention.",
+      "concreteVisual": "Worker at desk picking up phone to check an incoming notification during work.",
+      "onScreenText": "GLANCING AT YOUR INBOX",
+      "relationToPrevious": "Applies Leroy's lab findings to everyday workstation interruptions.",
+      "addedInformation": "The physical action of taking the phone represents the ten-second inbox glance."
+    }
+  },
+  {
+    "i": 105,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DOES NOT CLEANLY SNAP",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Human attention does not transition cleanly or instantaneously between disparate tasks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Attention does not cleanly snap over when shifting from one target to another.",
+      "concreteVisual": "Worker holding phone with troubled expression as the struck callout denies clean switching.",
+      "onScreenText": "DOES NOT CLEANLY SNAP",
+      "relationToPrevious": "Disproves the assumption of effortless cognitive multitasking.",
+      "addedInformation": "The struck phrase emphasizes that instant mental resets are an illusion."
+    }
+  },
+  {
+    "i": 106,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ATTENTION RESIDUE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "holds": "phone",
+    "continue": true,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "A sticky layer of cognitive residue remains stuck to the message even after looking away.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A sticky layer of attention residue remains tethered to the email you just viewed.",
+      "concreteVisual": "Worker slumped with phone in hand, mentally paralyzed by lingering message thoughts.",
+      "onScreenText": "ATTENTION RESIDUE",
+      "relationToPrevious": "Names and depicts the cognitive residue concept discovered by Leroy.",
+      "addedInformation": "Slumped posture shows the mental drag of fragmented attention."
+    }
+  },
+  {
+    "i": 107,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "UNRESOLVED OPEN LOOPS",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Subconscious executive networks continue processing unfinished problems from the previous task.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Executive function remains tied up attempting to resolve open loops from the prior task.",
+      "concreteVisual": "Worker gesturing thoughtfully with a furrowed brow, distracted by unresolved mental loops.",
+      "onScreenText": "UNRESOLVED OPEN LOOPS",
+      "relationToPrevious": "Unpacks the internal mechanism creating attention residue.",
+      "addedInformation": "Conveys background cognitive calculation competing with current tasks."
+    }
+  },
+  {
+    "i": 108,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SEVERELY IMPAIRS PERFORMANCE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Lingering cognitive residue degrades intelligence and processing speed on the next task.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Cognitive residue significantly degrades performance on subsequent work tasks.",
+      "concreteVisual": "Worker slumped forward at the desk, struggling with diminished mental faculties.",
+      "onScreenText": "SEVERELY IMPAIRS PERFORMANCE",
+      "relationToPrevious": "Demonstrates the operational consequence of unresolved open loops.",
+      "addedInformation": "Posture portrays the mental impairment caused by residue."
+    }
+  },
+  {
+    "i": 109,
+    "concept": "hourglass",
+    "diagram": null,
+    "callout": {
+      "text": "20 MINUTES TO CLEAR",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "hourglass",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "It takes up to 20 minutes of sustained focus to clear attention residue from a 10-second glance.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain requires up to twenty minutes to flush residual attention and restore full power.",
+      "concreteVisual": "Worker holding an hourglass solemnly beside the hourglass icon, observing time drain.",
+      "onScreenText": "20 MINUTES TO CLEAR",
+      "relationToPrevious": "Quantifies the disproportionate recovery time required after an interruption.",
+      "addedInformation": "The hourglass captures the lengthy recovery countdown needed to restore clarity."
+    }
+  },
+  {
+    "i": 110,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "THREE BURNERS ON HIGH",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "worker"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Like cooking while leaving burners blazing, unclosed cognitive loops overwhelm the mental kitchen.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Switching tasks resembles leaving breakfast stove burners blasting while attempting to cook dinner.",
+      "concreteVisual": "Worker standing panicked beside a fire icon, representing an out-of-control mental kitchen.",
+      "onScreenText": "THREE BURNERS ON HIGH",
+      "relationToPrevious": "Illustrates Newport's domestic metaphor for cognitive overload.",
+      "addedInformation": "The fire icon makes the danger of unattended mental burners vivid."
+    }
+  },
+  {
+    "i": 111,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STOVE IS OVERLOADED",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "By mid-afternoon, workers experience complete mental exhaustion from cognitive overload.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "By late afternoon, the worker's cognitive capacity is completely burned out.",
+      "concreteVisual": "Worker slumped in complete exhaustion in the office cubicle at 3 p.m.",
+      "onScreenText": "STOVE IS OVERLOADED",
+      "relationToPrevious": "Grounds the kitchen metaphor in the familiar 3 p.m. workplace slump.",
+      "addedInformation": "Dejected posture embodies end-of-day cognitive exhaustion."
+    }
+  },
+  {
+    "i": 112,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "YOUNGEST FULL PROFESSOR",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "celebrate",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Adam Grant became Wharton's youngest full professor by mastering attention protection.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Adam Grant leveraged deep focus to become Wharton's youngest full professor.",
+      "concreteVisual": "Worker standing proudly with celebrating arms beside a golden status trophy in the library.",
+      "onScreenText": "YOUNGEST FULL PROFESSOR",
+      "relationToPrevious": "Introduces Adam Grant as the exemplar who conquered attention residue.",
+      "addedInformation": "Trophy icon confirms academic distinction and high-status achievement."
+    }
+  },
+  {
+    "i": 113,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RUTHLESSLY BATCHING",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "place",
+    "holds": "phone",
+    "actionCue": "batching",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Grant eliminates attention residue by setting his phone aside and activating out-of-office autoreplies.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Grant prevents attention residue by batching work and enabling hard email autoresponders.",
+      "concreteVisual": "Worker deliberately setting phone down on the office table to isolate attention.",
+      "onScreenText": "RUTHLESSLY BATCHING",
+      "relationToPrevious": "Explains Grant's core tactical discipline of batching.",
+      "addedInformation": "Action of placing the phone down demonstrates setting aside digital interruption."
+    }
+  },
+  {
+    "i": 114,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FOUR DAYS AT A TIME",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "holds": "book",
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Grant sits at his desk drafting papers for days, completely ignoring baffled colleagues outside.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Colleagues are baffled seeing Grant at his desk while his out-of-office message runs for days.",
+      "concreteVisual": "Worker seated focused at desk holding a book, working calmly while ignoring outside voices.",
+      "onScreenText": "FOUR DAYS AT A TIME",
+      "relationToPrevious": "Dramatizes Grant's unyielding multi-day focus periods.",
+      "addedInformation": "Calm seated posture contrasts with the confusion of passersby."
+    }
+  },
+  {
+    "i": 115,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Time spent",
+        "Intensity of focus",
+        "High-quality work"
+      ]
+    },
+    "callout": null,
+    "set": "library",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "Work produced equals time spent multiplied by the intensity of mental focus.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "High-quality work equals time spent multiplied by intensity of focus.",
+      "concreteVisual": "Three-step flow diagram mapping time spent and intensity leading to high-quality work.",
+      "onScreenText": "none",
+      "relationToPrevious": "Summarizes Grant's mathematical formula for intellectual productivity.",
+      "addedInformation": "Displays the productivity equation cleanly as a causal flow."
+    }
+  },
+  {
+    "i": 116,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LET ME CHALLENGE THIS",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "surprised",
+    "action": "talk",
+    "holds": null,
+    "partnerExpression": null,
+    "partnerAction": null,
+    "explainedBy": "A podcast host raises a skeptical counter-argument representing common listener doubts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The co-host pauses the theory to voice common practical doubts from listeners.",
+      "concreteVisual": "Worker speaking with animated, questioning expression in the office.",
+      "onScreenText": "LET ME CHALLENGE THIS",
+      "relationToPrevious": "Sets up the practical pushback against extreme disconnection.",
+      "addedInformation": "Animated talking gesture marks the transition to a skeptical objection."
+    }
+  }
+]

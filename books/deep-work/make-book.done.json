@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-11-05T06:05:38.650Z",
+  "at": "2026-11-05T06:33:48.652Z",
+  "config": "config.antidote.json",
+  "configSha256": "0b9f3abfdacd94a8006f75e122252c1c9fd42502746517ac5b0bc7ddebe8b017",
+  "inputs": {
+    "storyboard": {
+      "path": "books/deep-work/art.json",
+      "sha256": "206e0699fb4136ca918e3595b2477b5ddb1f28b72980cc3adce41090a2fe059a"
+    },
+    "storyBible": {
+      "path": "books/deep-work/story-bible.json",
+      "sha256": "fbd64d2b417554e869d8b6ae76c1b0d488ba281d6ad0351169c5316782166d7d"
+    },
+    "motifs": {
+      "path": "books/deep-work/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/deep-work.vtt",
+      "sha256": "e7f70449cf32c864ae47b1db3ed34b6f5f2dfc6d1516ed1c3d1cecefb770f9d4"
+    },
+    "audio": {
+      "path": "public/audio/deep-work.mp3",
+      "sha256": "546e59c4eeca366a62469e7b4c4b48bb0309638f1537023943e94da2a0b2d661"
+    }
+  },
+  "head": "eadb0371cc72402728b0de55ff3ccde3dde22313",
+  "previewOnly": true,
+  "skipPack": true
+}

@@ -1,0 +1,1203 @@
+[
+  {
+    "i": 117,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT TASK SWITCHING",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "smirk",
+    "action": "sit",
+    "explainedBy": "A knowledge worker defends having email and tabs open by claiming he is not actually switching tasks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The worker believes keeping an inbox open on the side is harmless compared to full task switching.",
+      "concreteVisual": "A knowledge worker sits at his workstation with a self-assured smirk, insisting his dual-screen habit is safe.",
+      "onScreenText": "NOT TASK SWITCHING",
+      "relationToPrevious": "Transitions from Newport's focus formula to the common worker's skeptical objection.",
+      "addedInformation": "Visualizes the complacent rationalization knowledge workers use to defend open inboxes."
+    }
+  },
+  {
+    "i": 118,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PHONE ON SILENT",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "The worker explains that leaving his phone face up on silent feels completely benign.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Leaving a phone face up on silent feels like passive awareness rather than real distraction.",
+      "concreteVisual": "The worker holds up his silent phone at his workstation while continuing to argue his routine is harmless.",
+      "onScreenText": "PHONE ON SILENT",
+      "relationToPrevious": "Continues the workstation setup, introducing the silent phone on the desk.",
+      "addedInformation": "Shows the physical device resting in view, highlighting the illusion of benign proximity."
+    }
+  },
+  {
+    "i": 119,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SITUATIONAL AWARENESS",
+      "style": "box"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "holds": "phone",
+    "explainedBy": "The worker rationalizes quick glances at his phone as maintaining situational awareness without stopping typing.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers rebrand micro-distractions as necessary situational awareness.",
+      "concreteVisual": "The worker gestures while holding his phone, smirking as he justifies his peripheral glances.",
+      "onScreenText": "SITUATIONAL AWARENESS",
+      "relationToPrevious": "Maintains the stage as the worker delivers his intellectualized excuse for checking screens.",
+      "addedInformation": "Labels the cognitive excuse modern professionals invent to avoid admitting fractured attention."
+    }
+  },
+  {
+    "i": 120,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ATTENTION HANGOVER",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The host refutes the objection: quick glances cause a devastating 20-minute attention residue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Even momentary glances trigger a severe attention hangover lasting up to twenty minutes.",
+      "concreteVisual": "The worker slumps at his workstation with a worried expression as the myth of harmless glancing is shattered.",
+      "onScreenText": "ATTENTION HANGOVER",
+      "relationToPrevious": "Pivots from the worker's smug rationalization to the sudden shock of cognitive reality.",
+      "addedInformation": "Contrasts the worker's casual glance with the heavy, lingering cost of attention residue."
+    }
+  },
+  {
+    "i": 121,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "COGNITIVELY DEVASTATING",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Semi-distraction is named as a myth that causes devastating cognitive impairment.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Harmless multitasking is a workplace myth; semi-distraction is cognitively devastating.",
+      "concreteVisual": "The worker remains slumped in distress as the struck callout rejects harmless multitasking.",
+      "onScreenText": "COGNITIVELY DEVASTATING",
+      "relationToPrevious": "Intensifies the worker's defeat as the host terms semi-distraction devastating.",
+      "addedInformation": "The strike callout explicitly repudiates the modern belief in harmless split focus."
+    }
+  },
+  {
+    "i": 122,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NEUROSCIENCE OF OPEN OFFICES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "wide",
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "explainedBy": "A British TV special investigates the neuroscience of open offices and subconscious focus breaks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Open offices trigger unconscious neural reactions that shatter focus even without active awareness.",
+      "concreteVisual": "A wide view of an open-plan office where the knowledge worker sits uneasy amidst surrounding desks.",
+      "onScreenText": "NEUROSCIENCE OF OPEN OFFICES",
+      "relationToPrevious": "Broadens the setting from an individual workstation to the systemic open-office environment.",
+      "addedInformation": "Visualizes the sprawling office architecture responsible for constant sensory distraction."
+    }
+  },
+  {
+    "i": 123,
+    "concept": "phone",
+    "conceptMotion": "light",
+    "conceptMotionCue": "notification flashes",
+    "diagram": null,
+    "callout": {
+      "text": "NOTIFICATION FLASHES",
+      "style": "highlight"
+    },
+    "set": "office",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "explainedBy": "A peripheral phone flash forces the brain to expend concentration even when consciously ignored.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Consciously ignoring a peripheral flash still drains mental concentration.",
+      "concreteVisual": "The phone screen lights up with an incoming alert beside the worker in the office, catching his gaze.",
+      "onScreenText": "NOTIFICATION FLASHES",
+      "relationToPrevious": "Introduces the concrete stimulus: an illuminated screen in peripheral vision triggering neural friction.",
+      "addedInformation": "The lighting phone icon depicts the exact micro-event that hijacks cognitive resources."
+    }
+  },
+  {
+    "i": 124,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "PERIPHERAL FLASH",
+        "EXECUTIVE FILTERING"
+      ]
+    },
+    "callout": null,
+    "set": "office",
+    "cast": [],
+    "explainedBy": "Executive function is forced into continuous background evaluation to filter out irrelevancies.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ignoring distractions forces executive function to constantly filter irrelevant stimuli.",
+      "concreteVisual": "A two-node flow diagram showing how a peripheral flash forces continuous executive filtering.",
+      "onScreenText": "PERIPHERAL FLASH → EXECUTIVE FILTERING",
+      "relationToPrevious": "Abstracts the physical notification into the underlying neural processing chain.",
+      "addedInformation": "Exposes the hidden mental machinery that operates beneath conscious awareness."
+    }
+  },
+  {
+    "i": 125,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "PERIPHERAL FLASH",
+        "EXECUTIVE FILTERING",
+        "ATTENTION RESIDUE"
+      ]
+    },
+    "callout": null,
+    "set": "office",
+    "continue": true,
+    "cast": [],
+    "explainedBy": "Constant filtering burns cognitive calories and deposits a lasting layer of attention residue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mental filtering burns energy and deposits a persistent layer of attention residue over all subsequent work.",
+      "concreteVisual": "The flow diagram expands to a third node, culminating in the buildup of attention residue.",
+      "onScreenText": "PERIPHERAL FLASH → EXECUTIVE FILTERING → ATTENTION RESIDUE",
+      "relationToPrevious": "Completes the causal chain started in the previous beat by showing the damaging final outcome.",
+      "addedInformation": "Visually links tiny sensory interruptions directly to permanent cognitive fog."
+    }
+  },
+  {
+    "i": 126,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LOWERING YOUR OWN IQ",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "explainedBy": "Workers voluntarily depress their effective cognitive performance throughout the day.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Voluntary multi-tasking and open-office distraction artificially lower effective intelligence all day.",
+      "concreteVisual": "The worker slumps at his workstation looking alarmed as the self-inflicted mental toll is stated.",
+      "onScreenText": "LOWERING YOUR OWN IQ",
+      "relationToPrevious": "Returns from the neural flow diagram to the personal impact on the knowledge worker.",
+      "addedInformation": "Conveys the horrifying realization that professionals voluntarily inflict cognitive decline."
+    }
+  },
+  {
+    "i": 127,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DESTROYS YOUR INTENSITY",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "blank",
+    "action": "slump",
+    "explainedBy": "Semi-distraction permanently damages focus intensity, the primary multiplier of high-quality output.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Semi-distraction destroys focus intensity, which is the sole multiplier of quality work produced.",
+      "concreteVisual": "The worker remains slumped in a blank daze as the callout strikes out the destruction of intensity.",
+      "onScreenText": "DESTROYS YOUR INTENSITY",
+      "relationToPrevious": "Connects the IQ drop to Newport's core equation where intensity is the indispensable multiplier.",
+      "addedInformation": "Emphasizes the complete neutralization of productivity when focus intensity collapses."
+    }
+  },
+  {
+    "i": 128,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DILUTING COGNITIVE CAPITAL",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "The hosts pose the practical problem of scheduling deep focus in an otherwise chaotic life.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Knowledge workers must stop diluting their cognitive capital and learn how to schedule deep focus.",
+      "concreteVisual": "The worker rubs his chin thoughtfully at his desk, considering how to escape constant dilution.",
+      "onScreenText": "DILUTING COGNITIVE CAPITAL",
+      "relationToPrevious": "Transitions from diagnosing the cognitive pathology to searching for practical scheduling solutions.",
+      "addedInformation": "Frames the worker's shift from helpless victim to active strategist."
+    }
+  },
+  {
+    "i": 129,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RESIDUE-FREE FOCUS",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "The question is framed: how can someone achieve residue-free focus within a messy modern routine?",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The urgent question is how to fit residue-free focus into a messy, demanding modern existence.",
+      "concreteVisual": "The worker talks outwardly from his desk, asking how genuine depth can coexist with modern chaos.",
+      "onScreenText": "RESIDUE-FREE FOCUS",
+      "relationToPrevious": "Crystallizes the core inquiry that the upcoming case studies and philosophies will resolve.",
+      "addedInformation": "Defines the ultimate objective that every deep work scheduling philosophy aims to achieve."
+    }
+  },
+  {
+    "i": 130,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "MASSIVE FOUNDATIONAL THOUGHTS",
+      "style": "reveal"
+    },
+    "set": "library",
+    "shotOverride": "wide",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "explainedBy": "Computer science pioneer Donald Knuth requires total mental space to formulate algorithmic foundations.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Computer science legend Donald Knuth prioritized massive foundational thinking about algorithms.",
+      "concreteVisual": "A quiet library where a scholar sits absorbed in thought beside a grand book icon.",
+      "onScreenText": "MASSIVE FOUNDATIONAL THOUGHTS",
+      "relationToPrevious": "Opens the case study section by introducing Donald Knuth's monastic approach.",
+      "addedInformation": "Sets a dignified, studious atmosphere representing pure high-level conceptual work."
+    }
+  },
+  {
+    "i": 131,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ELIMINATED EMAIL",
+      "style": "highlight"
+    },
+    "set": "library",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Knuth famously eliminated electronic mail entirely to protect his mental uninterruptedness.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Knuth completely eliminated email from his life, having no public address at all.",
+      "concreteVisual": "The scholar holds his book calmly in the library while the callout strikes through email.",
+      "onScreenText": "ELIMINATED EMAIL",
+      "relationToPrevious": "Details the extreme measure Knuth took to preserve the foundational thinking introduced in beat 130.",
+      "addedInformation": "The strike callout highlights the deliberate refusal of digital immediacy."
+    }
+  },
+  {
+    "i": 132,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A PHYSICAL LETTER",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "letter",
+    "explainedBy": "Contacting Knuth requires a physical letter filtered and batched by an assistant.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "To contact Knuth one must send a physical paper letter screened and batched by an assistant.",
+      "concreteVisual": "The scholar holds a physical letter in the library, illustrating his analog, batched filter.",
+      "onScreenText": "A PHYSICAL LETTER",
+      "relationToPrevious": "Specifies the analog barrier Knuth erected to replace instantaneous electronic communication.",
+      "addedInformation": "The held letter visually contrasts slow, deliberate paper mail with frantic email chains."
+    }
+  },
+  {
+    "i": 133,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TOTAL ISOLATION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Knuth exemplifies the monastic philosophy of total isolation before shifting to Jerry Seinfeld.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Knuth's unapologetic isolation represents Newport's monastic scheduling philosophy.",
+      "concreteVisual": "The worker stands in a quiet room explaining the monastic archetype before transitioning to Seinfeld.",
+      "onScreenText": "TOTAL ISOLATION",
+      "relationToPrevious": "Names the first scheduling philosophy exemplified by Knuth and prepares to contrast it.",
+      "addedInformation": "Formally categorizes Knuth's lifestyle as the monastic archetype within Newport's taxonomy."
+    }
+  },
+  {
+    "i": 134,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WRITING A NEW JOKE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "holds": "notes",
+    "explainedBy": "Jerry Seinfeld sits down daily with a calendar to do the disciplined work of writing jokes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Comedian Jerry Seinfeld relied on a daily ritual of writing a new joke on a wall calendar.",
+      "concreteVisual": "The worker sits in the room holding notes, embodying Seinfeld's disciplined daily writing habit.",
+      "onScreenText": "WRITING A NEW JOKE",
+      "relationToPrevious": "Shifts from academic monasticism to an entertainment craftsman's daily regimen.",
+      "addedInformation": "Depicts the routine nature of creative production when stripped of romantic inspiration."
+    }
+  },
+  {
+    "i": 135,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DONT BREAK THE CHAIN",
+      "style": "box"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "sit",
+    "holds": "notes",
+    "explainedBy": "Seinfeld crosses out each day with a red X, adhering strictly to the rule of not breaking the chain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Seinfeld's sole rule was marking each day's completed writing with an X to keep the chain unbroken.",
+      "concreteVisual": "The worker smiles contentedly over his notes, bounded by the boxed rule to never break the chain.",
+      "onScreenText": "DONT BREAK THE CHAIN",
+      "relationToPrevious": "Reveals the core tracking mechanism behind Seinfeld's daily creative discipline.",
+      "addedInformation": "Emphasizes visual habit tracking as an external constraint that guarantees consistency."
+    }
+  },
+  {
+    "i": 136,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE RHYTHMIC APPROACH",
+      "style": "reveal"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "explainedBy": "Seinfeld illustrates the rhythmic approach, achieving world-class depth through repeatable habit.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Seinfeld's method demonstrates the rhythmic approach, proving world-class depth via routine.",
+      "concreteVisual": "The worker gestures enthusiastically while holding his notes, celebrating the power of rhythmic discipline.",
+      "onScreenText": "THE RHYTHMIC APPROACH",
+      "relationToPrevious": "Identifies Seinfeld's technique as the rhythmic philosophy, contrasting with Knuth's monasticism.",
+      "addedInformation": "Validates that high-volume creative output springs from rhythmic habit rather than retreat."
+    }
+  },
+  {
+    "i": 137,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A STONE TOWER IN SWITZERLAND",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "worker",
+      "jung"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "explainedBy": "Knowledge workers do not need to abandon corporate life and hide in a Swiss stone tower like Carl Jung.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You do not need to quit your corporate job and retreat to a Swiss stone tower like Carl Jung.",
+      "concreteVisual": "The modern worker stands beside Carl Jung in his tweed vest, smirking at the dramatic comparison.",
+      "onScreenText": "A STONE TOWER IN SWITZERLAND",
+      "relationToPrevious": "Contrasts the ordinary office worker directly against Jung's famous retreat at Bollingen.",
+      "addedInformation": "Puts the modern worker and historical exemplar side by side to demystify deep work requirements."
+    }
+  },
+  {
+    "i": 138,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FOUR SCHEDULING PHILOSOPHIES",
+      "style": "reveal"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Newport provides four distinct scheduling philosophies so anyone can match depth to their reality.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Rather than becoming a hermit, professionals must choose one of Newport's four scheduling philosophies.",
+      "concreteVisual": "The worker stands alone in the room, gesturing as he introduces the framework of four philosophies.",
+      "onScreenText": "FOUR SCHEDULING PHILOSOPHIES",
+      "relationToPrevious": "Concludes the historical comparison and sets up the four-part taxonomy.",
+      "addedInformation": "Frames the upcoming sorter diagram as a practical matching tool for diverse lifestyles."
+    }
+  },
+  {
+    "i": 139,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MONASTIC ISOLATION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [],
+    "explainedBy": "The monastic philosophy relies on near-total isolation, suited primarily for academic superstars.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The monastic philosophy demands complete isolation, viable mainly for elite researchers.",
+      "concreteVisual": "A sorter diagram introduces its first bucket labeled MONASTIC.",
+      "onScreenText": "MONASTIC ISOLATION",
+      "relationToPrevious": "Launches the four-part sorter sequence, starting with Knuth's isolationist model.",
+      "addedInformation": "Begins structuring the four philosophies into distinct comparative operational bins."
+    }
+  },
+  {
+    "i": 140,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BIMODAL RETREAT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [],
+    "explainedBy": "The bimodal philosophy alternates blocks of retreat with active urban engagement, as Jung did.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The bimodal philosophy alternates prolonged deep retreats with intense clinical engagement.",
+      "concreteVisual": "The sorter diagram adds a second bin labeled BIMODAL alongside MONASTIC.",
+      "onScreenText": "BIMODAL RETREAT",
+      "relationToPrevious": "Adds Jung's alternating retreat-and-practice approach as the second category in the sorter.",
+      "addedInformation": "Shows how depth can be partitioned into distinct multi-day or seasonal chunks."
+    }
+  },
+  {
+    "i": 141,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RHYTHMIC CHAIN",
+      "style": "reveal"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [],
+    "explainedBy": "The rhythmic philosophy turns depth into daily habit blocks, as in Seinfeld's unbroken chain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The rhythmic philosophy builds depth into a daily time-blocked habit chain.",
+      "concreteVisual": "The sorter diagram gains a third bin labeled RHYTHMIC.",
+      "onScreenText": "RHYTHMIC CHAIN",
+      "relationToPrevious": "Integrates the daily micro-block method alongside the larger multi-day paradigms.",
+      "addedInformation": "Positions daily rhythmic execution as the pragmatic middle ground for modern workers."
+    }
+  },
+  {
+    "i": 142,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "MONASTIC",
+        "BIMODAL",
+        "RHYTHMIC",
+        "JOURNALISTIC"
+      ]
+    },
+    "callout": null,
+    "set": "room",
+    "continue": true,
+    "cast": [],
+    "explainedBy": "The journalistic philosophy seizes unexpected gaps to switch into deep focus on a dime.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The journalistic philosophy seizes sudden schedule openings to enter depth on demand.",
+      "concreteVisual": "The sorter diagram completes its full four-bucket layout with the addition of JOURNALISTIC.",
+      "onScreenText": "MONASTIC, BIMODAL, RHYTHMIC, JOURNALISTIC",
+      "relationToPrevious": "Completes the four-part taxonomy of scheduling philosophies.",
+      "addedInformation": "Provides a complete overview of all four approaches for viewers to compare at a glance."
+    }
+  },
+  {
+    "i": 143,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE RHYTHMIC APPROACH",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "The hosts focus on the rhythmic approach as the most viable model for everyday commuters.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The rhythmic approach is the most realistic option for everyday working commuters.",
+      "concreteVisual": "The knowledge worker sits at his desk discussing the practical appeal of rhythmic scheduling.",
+      "onScreenText": "THE RHYTHMIC APPROACH",
+      "relationToPrevious": "Zooms into the rhythmic bin from the sorter diagram to examine an everyday case study.",
+      "addedInformation": "Pins down the exact philosophy most relevant to the target audience's daily constraints."
+    }
+  },
+  {
+    "i": 144,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A DEMANDING FULL-TIME JOB",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "briefcase",
+    "explainedBy": "Brian Chappelle was juggling a doctoral dissertation, a demanding job, and a newborn infant.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Brian Chappelle balanced doctoral studies with a demanding full-time job and a newborn infant.",
+      "concreteVisual": "The worker holds a briefcase at his desk looking worried under heavy professional burdens.",
+      "onScreenText": "A DEMANDING FULL-TIME JOB",
+      "relationToPrevious": "Establishes Chappelle's intense life constraints to show why extreme retreats were impossible.",
+      "addedInformation": "The held briefcase visualizes the heavy weight of conventional employment."
+    }
+  },
+  {
+    "i": 145,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CANNOT RETREAT TO A CABIN",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "holds": "briefcase",
+    "explainedBy": "A family man cannot abandon home duties for a week in the woods without domestic catastrophe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Chappelle could not imitate Jung's weeklong cabin retreat without alienating his family.",
+      "concreteVisual": "The worker talks with a knowing smirk, acknowledging the impossibility of escaping home duties.",
+      "onScreenText": "CANNOT RETREAT TO A CABIN",
+      "relationToPrevious": "Directly rejects the bimodal retreat model as incompatible with family responsibilities.",
+      "addedInformation": "Uses humor and a struck callout to dismiss unrealistic romantic retreat fantasies."
+    }
+  },
+  {
+    "i": 146,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "WAKING UP AT DAWN",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "blank",
+    "action": "sit",
+    "explainedBy": "Chappelle carved out deep time by disciplining himself to wake up before dawn at 4:45 a.m.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Chappelle built the discipline to wake up before dawn at 4:45 a.m. for uninterrupted focus.",
+      "concreteVisual": "The worker sits alert in early morning darkness beside an analog clock icon showing pre-dawn hours.",
+      "onScreenText": "WAKING UP AT DAWN",
+      "relationToPrevious": "Shows the radical personal sacrifice Chappelle made to establish his rhythmic window.",
+      "addedInformation": "The clock icon anchors the literal time boundary where deep work was forged."
+    }
+  },
+  {
+    "i": 147,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "90-MINUTE BLOCK OF FOCUS",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "He secured a pure 90-minute block of focus before his household and office day began.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Waking early secured a ninety-minute block of pure focus before daily distractions awoke.",
+      "concreteVisual": "The worker holds his study notes alongside the clock icon, immersed in his quiet ninety-minute block.",
+      "onScreenText": "90-MINUTE BLOCK OF FOCUS",
+      "relationToPrevious": "Demonstrates what the pre-dawn wake-up achieved: an inviolable protected block of depth.",
+      "addedInformation": "Highlights the protected quality of early morning hours before email and demands start."
+    }
+  },
+  {
+    "i": 148,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "A MASSIVE THESIS CHAPTER",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "celebrate",
+    "holds": "book",
+    "explainedBy": "Through this grueling daily rhythm, Chappelle drafted an entire thesis chapter every few weeks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Adhering to that grueling daily rhythm allowed Chappelle to draft a massive thesis chapter every few weeks.",
+      "concreteVisual": "The worker celebrates joyfully at his desk, holding up his finished academic book manuscript.",
+      "onScreenText": "A MASSIVE THESIS CHAPTER",
+      "relationToPrevious": "Reveals the massive cumulative payoff of ninety daily minutes maintained over time.",
+      "addedInformation": "Proves that small, disciplined daily blocks yield monumental intellectual output."
+    }
+  },
+  {
+    "i": 149,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE JOURNALISTIC APPROACH",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "explainedBy": "The co-host suggests the journalistic approach looks like the ideal holy grail for office workers.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The journalistic approach appears on the surface to be the holy grail for corporate professionals.",
+      "concreteVisual": "The worker talks optimistically at his workstation, advocating for spontaneous deep work bursts.",
+      "onScreenText": "THE JOURNALISTIC APPROACH",
+      "relationToPrevious": "Pivots from Chappelle's grueling dawn routine to the enticing prospect of opportunistic depth.",
+      "addedInformation": "Captures the widespread wish that deep work could simply be squeezed into random schedule gaps."
+    }
+  },
+  {
+    "i": 150,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A FREE 45 MINUTES",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "smirk",
+    "action": "sit",
+    "explainedBy": "The fantasy is that when a meeting ends early, one can simply shut the door and pivot into depth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers imagine seizing unexpected forty-five minute gaps between meetings to execute deep work.",
+      "concreteVisual": "The worker sits smirking at his desk, imagining himself smoothly pivoting into depth during a gap.",
+      "onScreenText": "A FREE 45 MINUTES",
+      "relationToPrevious": "Elaborates the seductive scenario where calendar gaps are effortlessly turned into focus.",
+      "addedInformation": "Visualizes the corporate fantasy of opportunistic, zero-friction task switching."
+    }
+  },
+  {
+    "i": 151,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NEUROLOGICALLY THE HARDEST",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "While journalistic depth sounds easy on paper, neurologically it is by far the most difficult.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Though journalistic scheduling sounds easy on paper, neurologically it is the most difficult.",
+      "concreteVisual": "The worker looks worried and thoughtful as the neurobiological reality counters his fantasy.",
+      "onScreenText": "NEUROLOGICALLY THE HARDEST",
+      "relationToPrevious": "Abruptly punctures the opportunistic fantasy with harsh neurological facts.",
+      "addedInformation": "Distinguishes between superficial calendar convenience and raw cognitive feasibility."
+    }
+  },
+  {
+    "i": 152,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SWITCH GEARS ON DEMAND",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The journalistic method demands almost superhuman mental energy to switch cognitive gears instantly.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Journalistic depth requires superhuman mental energy to switch gears instantly without transition.",
+      "concreteVisual": "The worker slumps at his desk looking drained, feeling the immense strain of on-demand switching.",
+      "onScreenText": "SWITCH GEARS ON DEMAND",
+      "relationToPrevious": "Explains why journalistic focus fails: the immense activation energy needed to pivot on demand.",
+      "addedInformation": "Depicts the invisible cognitive tax of forcing cold-start intellectual intensity."
+    }
+  },
+  {
+    "i": 153,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FRICTION OF A BLANK PAGE",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "afraid",
+    "action": "sit",
+    "holds": "notes",
+    "explainedBy": "Starting a complex intellectual task from a blank state involves enormous friction with no warmup.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Overcoming the friction of starting hard tasks without warm-up paralyzes untrained minds.",
+      "concreteVisual": "The worker stares with dread at blank notes on his desk, intimidated by starting cold.",
+      "onScreenText": "FRICTION OF A BLANK PAGE",
+      "relationToPrevious": "Pinpoints the exact psychological barrier: staring cold at an empty page or complex dataset.",
+      "addedInformation": "The blank notes represent the daunting initial inertia of high-level creative work."
+    }
+  },
+  {
+    "i": 154,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WILLPOWER WILL DEPLETE",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Without years of rigorous focus training, willpower rapidly depletes when forcing opportunistic depth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Untrained workers attempting opportunistic depth suffer total willpower depletion.",
+      "concreteVisual": "The worker slumps in dejection as the struck callout confirms the collapse of raw willpower.",
+      "onScreenText": "WILLPOWER WILL DEPLETE",
+      "relationToPrevious": "Traces the inevitable breakdown when reliance is placed on willpower rather than ritual.",
+      "addedInformation": "Illustrates the futility of using sheer conscious strain to force deep concentration."
+    }
+  },
+  {
+    "i": 155,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "GETTING INTO THE ZONE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "hourglass",
+    "explainedBy": "Most of the gap is wasted just warming up, and by the time focus arrives, the next meeting starts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers spend twenty-five minutes just warming up, only to be interrupted by the next meeting.",
+      "concreteVisual": "The worker watches sand slip away in a held hourglass, realizing his focus window has expired.",
+      "onScreenText": "GETTING INTO THE ZONE",
+      "relationToPrevious": "Demonstrates the practical failure mode: warm-up time consumes the entire available window.",
+      "addedInformation": "The hourglass literalizes the precious minutes lost to cognitive friction and delays."
+    }
+  },
+  {
+    "i": 156,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE EXACT SAME TIME",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "shotOverride": "medium",
+    "cast": [
+      "worker"
+    ],
+    "expression": "happy",
+    "action": "sit",
+    "explainedBy": "The rhythmic method is far more robust because working at the exact same time and place removes decisions.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The rhythmic method is robust because executing at the same time and place eliminates friction.",
+      "concreteVisual": "The worker sits comfortably and confidently at his workstation, anchored in a set routine.",
+      "onScreenText": "THE EXACT SAME TIME",
+      "relationToPrevious": "Re-establishes rhythmic routine as the true solution after exposing journalistic vulnerabilities.",
+      "addedInformation": "Contrasts the calm stability of fixed schedules against chaotic opportunistic attempts."
+    }
+  },
+  {
+    "i": 157,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DO NOT RELY ON INSPIRATION",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Automating when and where to work removes decision fatigue and eliminates reliance on inspiration.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Automating where and when to work removes decision-making and eliminates reliance on inspiration.",
+      "concreteVisual": "The worker explains with steady conviction why relying on inspiration is a fatal trap.",
+      "onScreenText": "DO NOT RELY ON INSPIRATION",
+      "relationToPrevious": "Reinforces why rhythmic scheduling works: it substitutes environmental habit for fleeting mood.",
+      "addedInformation": "The strike callout explicitly bans romantic notions of waiting for spontaneous inspiration."
+    }
+  },
+  {
+    "i": 158,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RELY ON ARCHITECTURE",
+      "style": "box"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "You must deliberately architect your time, or it will be seized by those with their own agendas.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You must deliberately architect your time, or it will be stolen by other people's demands.",
+      "concreteVisual": "The worker points resolutely forward, commanding the viewer to construct defensive time architecture.",
+      "onScreenText": "RELY ON ARCHITECTURE",
+      "relationToPrevious": "Elevates schedule design from a mere scheduling preference to an essential defensive shield.",
+      "addedInformation": "Boxes the core maxim: structure protects human agency against external workplace encroachment."
+    }
+  },
+  {
+    "i": 159,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE FRICTION IS STILL THERE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "Even with a color-coded calendar, the friction of starting difficult work remains when sitting down.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A color-coded calendar is not enough; the resistance to executing hard work remains at the desk.",
+      "concreteVisual": "The worker looks pensive and worried at his desk, acknowledging that calendar blocks alone do not write.",
+      "onScreenText": "THE FRICTION IS STILL THERE",
+      "relationToPrevious": "Transitions from time scheduling to the next problem: executing once seated at the desk.",
+      "addedInformation": "Acknowledges the stubborn gap between booking a time block and actually producing deep output."
+    }
+  },
+  {
+    "i": 160,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "OFFICE OF ROBERT CARO",
+      "style": "reveal"
+    },
+    "set": "office",
+    "shotOverride": "wide",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "The hosts invite us into the New York office of Pulitzer-winning biographer Robert Caro.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Pulitzer-winning biographer Robert Caro solved execution friction through radical office rituals.",
+      "concreteVisual": "The worker walks into a traditional, orderly private office in New York.",
+      "onScreenText": "OFFICE OF ROBERT CARO",
+      "relationToPrevious": "Introduces Robert Caro's workplace as the premier case study in ritualized execution.",
+      "addedInformation": "Establishes a dignified, solemn workspace dedicated entirely to solitary long-form scholarship."
+    }
+  },
+  {
+    "i": 161,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BRUTALLY STRICT RULES",
+      "style": "box"
+    },
+    "set": "office",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "surprised",
+    "action": "sit",
+    "explainedBy": "Every single square inch of Caro's private office is governed by brutally strict spatial rules.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Every inch of Caro's office environment is governed by unbending, systematic rules.",
+      "concreteVisual": "The worker sits at the organized desk looking wide-eyed at the intense environmental discipline.",
+      "onScreenText": "BRUTALLY STRICT RULES",
+      "relationToPrevious": "Highlights the immediate shock of discovering Caro's total environmental regimentation.",
+      "addedInformation": "Boxes the guiding principle that physical space must strictly enforce mental discipline."
+    }
+  },
+  {
+    "i": 162,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "PRECISE UNVARYING LOCATION",
+      "style": "highlight"
+    },
+    "set": "office",
+    "continue": true,
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Caro maintains a precise, unvarying location for every reference book he consults.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "There is an exact, permanent spot where reference books must always reside.",
+      "concreteVisual": "The worker holds a reference book steadily in Caro's office, honoring its permanent place.",
+      "onScreenText": "PRECISE UNVARYING LOCATION",
+      "relationToPrevious": "Provides the first specific rule: strict spatial invariance for research materials.",
+      "addedInformation": "Demonstrates how eliminating search friction preserves continuous mental immersion."
+    }
+  },
+  {
+    "i": 163,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "SPECIFIC ENGINEERED WAY",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "His notebooks are stacked in a specific engineered manner, with explicit rules for wall pinning.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Notebooks are stacked in an engineered arrangement, with explicit rules for wall outlines.",
+      "concreteVisual": "The worker holds a neat stack of notes in the office, reflecting Caro's meticulous paper staging.",
+      "onScreenText": "SPECIFIC ENGINEERED WAY",
+      "relationToPrevious": "Details the second physical rule: engineered stacking and wall-pinned outlines.",
+      "addedInformation": "Shows that organizing primary notes physically eliminates working memory clutter."
+    }
+  },
+  {
+    "i": 164,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A TIE AND A JACKET",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "worker"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Caro wears a suit jacket and tie every single day, even when working completely alone for twelve hours.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Caro wears a suit jacket and tie daily, even when working entirely alone for twelve hours.",
+      "concreteVisual": "The worker gestures thoughtfully in the office, describing Caro's ritual of formal daily attire.",
+      "onScreenText": "A TIE AND A JACKET",
+      "relationToPrevious": "Culminates Caro's environmental rituals with his personal dress code for solitary writing.",
+      "addedInformation": "Formal clothing serves as an embodied cue that signals serious, professional labor."
+    }
+  }
+]

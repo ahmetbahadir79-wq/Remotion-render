@@ -1,0 +1,61 @@
+{
+  "slug": "deep-work",
+  "title": "Deep Work",
+  "author": "Cal Newport",
+  "genre": "nonfiction",
+  "engine": "antidote",
+  "engineRationale": "Book profile (strong): an ideas/advice book → concepts are drawn as icons, diagrams and an everyman (Antidote)",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "ideas",
+    "era": 2016,
+    "realPeople": false,
+    "format": "argument",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "Carl Jung retreating to the Bollingen Tower stone sanctuary without distraction",
+      "modern knowledge workers drowning in open-plan offices and constant Slack pings",
+      "a professional staring into endless browser tabs and reflexive inbox checking",
+      "the depth philosophy quadrant mapping monastic, bimodal, rhythmic, and journalistic schedules",
+      "the four rules in practice with deliberate shutdown rituals and deep focus blocks"
+    ],
+    "periodLook": "none",
+    "ideaDensity": "ideas"
+  },
+  "engineRubric": {
+    "pick": "antidote",
+    "confidence": "strong",
+    "voxScore": 0,
+    "antidoteScore": 45,
+    "reasons": [
+      "an ideas/advice book → concepts are drawn as icons, diagrams and an everyman (Antidote)"
+    ],
+    "risks": []
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-11-05",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 5.1,
+    "antidoteScore": 28.7,
+    "signals": {
+      "year": 0.8,
+      "history": 0.8,
+      "second": 38.1,
+      "abstract": 19.2,
+      "sensitive": 1.9,
+      "era": 2016,
+      "words": 7710
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 38.1/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)",
+      "idea vocabulary 19.2/1k (habits, decisions, attention, money…) → concepts need icons/diagrams, not photographs (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  },
+  "audioSource": "public/audio/deep-work.mp3"
+}

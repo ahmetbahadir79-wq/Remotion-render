@@ -1,0 +1,277 @@
+{
+  "slug": "deep-work",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "The draft's era, cast keys, ages and places are a HEURISTIC and are often wrong (Trust Fall: one metaphor gave a",
+    "  sci-fi era; The Art of Strategy: 'lean', 'fred', 'end' as characters). Correcting them from the narration is",
+    "  routine authoring — never a question for the operator. Ages, roles and relations come from what the narration says.",
+    "Then: node scripts/plan-bible.js --slug=deep-work --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "deep-work",
+    "world": {
+      "era": "contemporary",
+      "eraEvidence": "modern knowledge economy, digital distraction, 2016 onward",
+      "worldId": "knowledge-economy",
+      "approxYear": 2016,
+      "setting": "open-plan offices, secluded study rooms, and stone lakeside retreats",
+      "register": "analytical, philosophical, modern workplace documentary",
+      "forbid": ["flying-car", "medieval-armor"]
+    },
+    "visualProvenance": {
+      "bookId": "deep-work",
+      "worldId": "knowledge-economy",
+      "allowedMotifs": ["open-office", "stone-tower", "analog-notebook", "dual-monitors", "time-blocks", "focus-timer"],
+      "forbiddenMotifs": ["magical-glow", "sci-fi-hologram"],
+      "allowedCharacters": ["worker", "jung"],
+      "allowedLocations": ["office", "workstation", "room", "library", "forest", "cafe"],
+      "allowedProps": ["laptopMockup", "notes", "clock", "hourglass", "book", "codeWindow", "target", "shield"]
+    },
+    "cast": {
+      "worker": {
+        "name": "Knowledge Worker",
+        "role": "The everyman modern professional caught between constant shallow demands and the urgent need for deep focus",
+        "look": "A 32-year-old knowledge worker of slim build with neat dark hair, wearing a clean charcoal sweater and chinos.",
+        "variant": {
+          "outfit": "casual",
+          "hairStyle": "short",
+          "hair": "#222222",
+          "height": 1.75,
+          "build": "average"
+        },
+        "mentions": 12
+      },
+      "jung": {
+        "name": "Carl Jung",
+        "role": "Psychologist exemplar who withdrew to Bollingen Tower to practice bimodal deep work without electricity",
+        "look": "A sturdy 50-year-old Swiss intellectual with receding grey hair, round wire spectacles, and a tweed waistcoat.",
+        "variant": {
+          "outfit": "suit",
+          "headwear": "none",
+          "hairStyle": "short",
+          "hair": "#888888",
+          "height": 1.8,
+          "build": "heavy"
+        },
+        "mentions": 5
+      }
+    },
+    "places": {
+      "office": {
+        "set": "office",
+        "look": "A bustling modern open-plan office with glass partitions, long shared desks, and distracting digital screens.",
+        "mentions": 15
+      },
+      "workstation": {
+        "set": "workstation",
+        "look": "A focused minimalist desk with a clean laptop, physical notebook, and analog timer.",
+        "mentions": 12
+      },
+      "room": {
+        "set": "room",
+        "look": "A rustic stone retreat room inspired by Bollingen Tower with wooden furniture, oil lamps, and no electrical cords.",
+        "mentions": 6
+      },
+      "library": {
+        "set": "library",
+        "look": "A silent academic library with towering bookshelves, reading lamps, and long mahogany study tables.",
+        "mentions": 5
+      },
+      "cafe": {
+        "set": "cafe",
+        "look": "A busy urban coffee shop where queueing commuters glance continuously down at smartphone screens.",
+        "mentions": 3
+      },
+      "forest": {
+        "set": "forest",
+        "look": "A quiet pine forest bordering a lake where deep thinkers walk to untangle complex intellectual problems.",
+        "mentions": 3
+      }
+    },
+    "objects": [
+      {
+        "concept": "work",
+        "mentions": 33,
+        "why": "Central concept of knowledge output versus shallow activity"
+      },
+      {
+        "concept": "target",
+        "mentions": 27,
+        "why": "Wildly important goals and intense cognitive targeting"
+      },
+      {
+        "concept": "phone",
+        "mentions": 25,
+        "why": "Primary instrument of reflexive digital interruption and attention fragmentation"
+      },
+      {
+        "concept": "notes",
+        "mentions": 13,
+        "why": "Analog index cards, journals, and physical scoreboards tracking deep work hours"
+      },
+      {
+        "concept": "clock",
+        "mentions": 12,
+        "why": "Time-blocking, 90-minute ultradian focus sessions, and shutdown deadlines"
+      },
+      {
+        "concept": "codeWindow",
+        "mentions": 9,
+        "why": "High-value algorithmic problem solving and technical craft"
+      },
+      {
+        "concept": "laptopMockup",
+        "mentions": 7,
+        "why": "The digital workstation as a double-edged sword for creation and distraction"
+      },
+      {
+        "concept": "shield",
+        "mentions": 7,
+        "why": "Cognitive defense against attention residue and workplace interruptions"
+      },
+      {
+        "concept": "book",
+        "mentions": 6,
+        "why": "Hard intellectual books and sustained long-form concentration"
+      },
+      {
+        "concept": "hourglass",
+        "mentions": 5,
+        "why": "Finite daily cognitive reserves and deep work rationing"
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 5,
+        "claim": "Modern knowledge work mistakenly conflates frantic digital connectivity and busyness with genuine economic productivity."
+      },
+      {
+        "act": "development",
+        "fromFrame": 15026,
+        "claim": "Deep focus is a rare and exponentially rewarded economic asset, while attention residue degrades cognitive performance."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 31198,
+        "claim": "Willpower alone is insufficient; mastering depth requires structured scheduling philosophies and business-like execution."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 45984,
+        "claim": "Sustained focus demands embracing boredom, quitting addictive network tools, and draining shallow busywork."
+      },
+      {
+        "act": "close",
+        "fromFrame": 62306,
+        "claim": "Deep work is an existential reclamation: choosing disciplined concentration builds a richer, more meaningful life."
+      }
+    ]
+  }
+}

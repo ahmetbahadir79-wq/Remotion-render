@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-05T06:38:02.136Z",
+  "n": 299,
+  "total": 299,
+  "sources": [
+    "readcheck",
+    "recheck-1"
+  ],
+  "totals": {
+    "CORRECT": 288,
+    "NEUTRAL": 11,
+    "WRONG": 0
+  },
+  "wrongRate": 0,
+  "blame": {
+    "words": 10,
+    "face": 1
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 26,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The phrase 'drop into a scene' was taken as a generic topic rather than transitioning to the modern-day Virginia case study.",
+      "from": "readcheck",
+      "concept": "road",
+      "callout": "DROP INTO A SCENE"
+    },
+    {
+      "i": 29,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess takes 'from one column to another' literally without conveying the realization that the work is utterly mechanical and automatable.",
+      "from": "readcheck",
+      "concept": "lightbulb",
+      "callout": "FROM ONE COLUMN TO ANOTHER"
+    },
+    {
+      "i": 33,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess treats 'in your daily life' as a generic topic rather than framing the personal relevance of automation risk.",
+      "from": "readcheck",
+      "concept": "road",
+      "callout": "IN YOUR DAILY LIFE"
+    },
+    {
+      "i": 62,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess frames economically valuable as a worker struggle rather than questioning why companies discourage such valuable work.",
+      "from": "readcheck",
+      "concept": "balance",
+      "callout": "ECONOMICALLY VALUABLE"
+    },
+    {
+      "i": 68,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess takes the executive buzzword 'glorious synergized future' sincerely as an advantage, missing that the narrator calls it a superficial illusion.",
+      "from": "readcheck",
+      "concept": "mirror",
+      "callout": "GLORIOUS SYNERGIZED FUTURE"
+    },
+    {
+      "i": 80,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess frames checking the VPN as an advantageous technique rather than an arbitrary administrative metric used to penalize staff.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "CHECKED THE VPN"
+    },
+    {
+      "i": 137,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess frames living in a stone tower as an advantage to pursue, whereas the narrator emphasizes that one does not need to move to a stone tower to do deep work.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "A STONE TOWER IN SWITZERLAND"
+    },
+    {
+      "i": 243,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess describes routine of cold rather than the scientific experiment comparing attention restoration in freezing weather.",
+      "from": "readcheck",
+      "concept": "tree",
+      "callout": "BRUTAL BITING COLD"
+    },
+    {
+      "i": 244,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess describes routine of city streets rather than walking in the city as the control condition.",
+      "from": "readcheck",
+      "concept": "city",
+      "callout": "BUSTLING CITY STREET"
+    },
+    {
+      "i": 249,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess focuses vaguely on fascinating stimuli rather than nature's inherent ability to restore directed attention.",
+      "from": "readcheck",
+      "concept": "tree",
+      "callout": "FASCINATING STIMULI"
+    },
+    {
+      "i": 297,
+      "verdict": "NEUTRAL",
+      "blame": "face",
+      "why": "The worried face led the viewer to guess fear of falling short rather than the goal being starved by constant accessibility to others.",
+      "from": "readcheck",
+      "concept": "target",
+      "callout": "WILDLY IMPORTANT GOAL"
+    }
+  ],
+  "reviewRequired": {
+    "flagged": 10,
+    "wrong": [],
+    "neutral": [],
+    "cleared": 10,
+    "unread": []
+  }
+}

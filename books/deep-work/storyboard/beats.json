@@ -1,0 +1,3026 @@
+{
+  "book": {
+    "slug": "deep-work",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "nonfiction"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "The terrifying truth Newport proves isn't that social media distracts us. It's that knowledge work has spent 30 years confusing frantic network connectivity",
+      "callout": {
+        "text": "SPENT 30 YEARS",
+        "style": "box"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "with actual economic value. Exactly. I mean, we have built this entire professional architecture like a globally spanning corporate infrastructure that is entirely built around the illusion",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "of productivity. Right? So, if you are listening to this right now, we are looking directly at Yeah, we're talking about your brain.",
+      "callout": {
+        "text": "YOUR BRAIN",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 3,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are. We're talking about your career trajectory and uh really the daily routine that is currently just grinding you down. Today we are taking a massive",
+      "callout": {
+        "text": "YOUR CAREER",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 4,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "uncompromising deep dive into Kell Newport's concept of deep work. It's such a crucial concept. It totally is. And we are pulling together this synthesis of historical routines, some really",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "cutting edge neurological studies and hard economic All to figure out how you can actually reclaim your brain. Yes. Because right now you are trying to thrive in a modern economy that exponentially",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "rewards deep focus, but you're simultaneously sitting inside a corporate infrastructure that is I mean practically engineered in a lab to destroy it.",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is the core argument we have to unpack today. The ability to perform deep work is rapidly becoming the ultimate superpower in the modern The ultimate superpower, right?",
+      "callout": {
+        "text": "PERFORM DEEP WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But precisely because of how we structure our workdays, this skill is becoming incredibly rare. So rare, it's a fundamental supply and demand imbalance.",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You know, the demand for deep thinking is skyrocketing while the supply of people actually capable of doing it is just plummeting.",
+      "callout": null
+    },
+    {
+      "i": 10,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's make this real for a second. I want you to contrast the modern knowledge worker with someone like the psychiatrist Carl Jung. Oo, this is a wild comparison.",
+      "callout": {
+        "text": "MAKE THIS REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 11,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It really is. Picture your typical Tuesday morning. You are trapped in an open office plan or maybe a hybrid remote setup, right?",
+      "callout": {
+        "text": "OPEN OFFICE PLAN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 12,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "With the Slack notifications constantly popping off. Exactly. You're frantically triaging those messages.",
+      "callout": null
+    },
+    {
+      "i": 13,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have that little green dot next to your name. The dreaded green dot. And you are terrified of letting it go idle. You are answering emails within 3 minutes of receiving them. Just trying to look busy.",
+      "callout": {
+        "text": "WITHIN 3 MINUTES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 14,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're basically treading water in a sea of pings. Now, take a breath.",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "step back a hundred years and contrast that environment with Carl Jung in 1922.",
+      "callout": {
+        "text": "1922",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 16,
+      "shot": "overShoulder",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a stunning historical contrast. It really is because Jung was a man trying to fundamentally change the world. He really was. He was in this intense intellectual dog fight with his former mentor Sigman right?",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He was trying to establish analytical psychology as a legitimate standalone field. And Freud wasn't just some colleague. He was an intellectual juggernaut.",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He could easily destroy Young's career if Jung missed the mark. Total pressure cooker. Exactly. So to win this war of ideas, Jung didn't just rent a nice quiet office in downtown",
+      "callout": {
+        "text": "WIN THIS WAR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 19,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Zurich. He went to a small village called Bowlingan right on the edge of Lake Zurich.",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he didn't build a lakeside vacation home for entertaining. No. No big windows for dinner parties. He built what is now known as the Bowlingan Tower. It was a two-story stone house.",
+      "callout": {
+        "text": "NO BIG",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 21,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "No electricity. Yeah. He built it specifically to lock himself inside a room at 7 a.m. every single morning. Just totally walled off from the world. Literally, he kept the key to this room",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "on his person at all times. Nobody was allowed in. He used oil lamps for light just for that profound almost aggressive isolation to outthink his rival. He went to the woods to wage",
+      "callout": {
+        "text": "NOBODY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 23,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "intellectual war. He built a stone fortress for his mind, a literal fortress. And that really sets the stakes for us today, for every single person listening.",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "The economy has changed completely since 1922 obviously. But the underlying cognitive rules of human output, they haven't changed one bit.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Not at all. If you cannot protect your attention, the market is going to replace you with an algorithm that can. You have to master deep focus or become cognitively That is the absolute dividing line of the 21st century.",
+      "callout": null
+    },
+    {
+      "i": 26,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "So why did Young's extreme stone tower isolation matter? Let's fast forward to the present day and drop into a scene that proves the exact same rules apply Okay, let's do it.",
+      "callout": {
+        "text": "EXACT SAME RULES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 27,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are in a high-end financial firm in Virginia. Let's meet a guy named Jason Ben. Right? He's sitting there in this sleek office under these bright fluorescent lights, but he is just staring at endless mind-numbing Excel spreadsheets.",
+      "callout": null
+    },
+    {
+      "i": 28,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The worst. The absolute worst. He has this massive complex 6-hour daily report process he has to execute manually.",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He actually described it as moving numbers from one column to another. Oh man. And one day, sitting in that sterile office, he realizes something absolutely What's that?",
+      "callout": null
+    },
+    {
+      "i": 30,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He realizes this entire 6-hour chunk of his daily life, the thing he is being paid a salary to do, can be fully automated by a clued together Excel macro. Wow.",
+      "callout": {
+        "text": "DAILY LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 31,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, a script can just replace his entire day. Exactly. He actually said of the work, and this is a quote, it was about as interesting as it sounds. He's sitting there, this highly educated",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "young guy, realizing he is on the absolute verge of economic obsolescence.",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "that economic reality that Ben crashed into. I mean, it's something every listener really needs to internalize. Here is what this means for you in your daily life.",
+      "callout": {
+        "text": "YOUR DAILY LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 34,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "If your job or even just the core fundamental tasks of your job can be automated by a script or outsourced or honestly easily learned by a smart high schooler, you are rapidly losing",
+      "callout": {
+        "text": "YOUR JOB",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 35,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's harsh, but it's true. We are currently operating in an information economy that is completely dependent on complex systems that change incredibly fast. So to survive in",
+      "callout": {
+        "text": "CHANGE INCREDIBLY FAST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 36,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "this ecosystem, you must be able to master hard things right? You have to be able to learn complicated abstract systems that didn't even exist 10 years ago. And you have to be ready",
+      "callout": null
+    },
+    {
+      "i": 37,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "to completely abandon them when they become obsolete in another 10. Exactly. So what does Jason Ben do? He doesn't just ask his boss for more spreadsheets. He pulls a modern-day Carl",
+      "callout": {
+        "text": "ASK HIS BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 38,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He retreats. He quits his job, locks himself in a room, no computer, no internet, just dense textbooks on computer programming, a stack of blank note cards, and a That sounds brutal.",
+      "callout": null
+    },
+    {
+      "i": 39,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, it was agonizing deep work. He was literally forcing his brain to learn how to code from scratch.",
+      "callout": {
+        "text": "DEEP WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 40,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "But he goes from making uh $40,000 a year as a human spreadsheet to making over $100,000",
+      "callout": {
+        "text": "$40,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 41,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "as a highly skilled developer in Silicon That is a wild leap. Which brings us to the macro level of this.",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "MIT economists Eric Brunolson and Andrew McAfee actually identified the quote unquote new winners of this right? The the people who are actually",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. They talk about high-skilled workers. So think of someone like Nate Silver, the data journalist. Sure. Sure. Yeah. His almost ability to tease out complex results from Monte Carlo simulations just made him",
+      "callout": {
+        "text": "SILVER THE DATA",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "illustration",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "a massive success. So he's driving like an astonishing 70% of the New York Times total web traffic at one point during an election cycle.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's that's insane. And then you have the the superstars like uh David Hineer Hansen.",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So he's the programmer who created the Ruby on Rails I love Ruby on Rails. Yeah. And he's he's programming from Marba, Spain.",
+      "callout": {
+        "text": "RAILS I LOVE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 47,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he's just he's dictating his absolute own terms to the because his skill is so rare. Yes, it's rare. It's deep and it's easily distributed globally. But wait, let's look at this from another",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "angle for a second because there is this huge cultural narrative that runs totally counter to this. Okay, what do you mean?",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, isn't technology supposed to democratize work? I mean, I thought the entire utopian promise of the internet in the digital age was that it levels the playing field.",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "closeUp",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. Right. It makes it easier for everyone to succeed, right? We all have laptops. We all have broadband. We all have access to the exact same information.",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Shouldn't this be making us all richer? It's a really common, really comforting misconception, but uh the data tells a completely different story.",
+      "callout": null
+    },
+    {
+      "i": 52,
+      "shot": "split",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Bren Jolson and McAfee described the era we are living through not as a democratization, but as the great restructuring. The great restructuring.",
+      "callout": {
+        "text": "GREAT RESTRUCTURING",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 53,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. Technology isn't driving down all jobs uniformly and it definitely isn't lifting all boats equally.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is dividing the workforce. It is creating a strict biodal A biodal distribution. So a giant peak of winners on one end, a giant",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "peak of losers on the other. Exactly. And the middle is completely hollowing out. On one end you have the capital owners and those who can work with complex intelligent machines, the deep workers. They are thriving at an unprecedented",
+      "callout": null
+    },
+    {
+      "i": 56,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "scale because the internet allows them to distribute their high value work globally at zero marginal And on the other end, on the other end,",
+      "callout": {
+        "text": "HIGH VALUE WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "shallow workers, people who traffic in easily replicable emails and meetings. They are losing out, facing wage stagnation or flatout Wow.",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, it's not democratizing the rewards at all. It's heavily concentrating them among those who can push their brains to the absolute cognitive limit.",
+      "callout": null
+    },
+    {
+      "i": 59,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a winner take all If you can't sit down and quickly learn complex difficult things, you are obsolete. It's that simple.",
+      "callout": {
+        "text": "IT'S A WINNER",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 60,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "You either architect your brain for depth or you get swallowed by the restructuring. Master deep focus or become cognitively Precisely.",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to what might be honestly the single most massive contradiction in modern corporate life. Oh, I know where you're going with this.",
+      "callout": null
+    },
+    {
+      "i": 62,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. If deep work is so demonstrably economically valuable, why do our organizations,",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the very entities paying our salaries, actively discourage it? Yes. Let's talk about the absolute nightmare that is the modern office.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I want you to picture it right now. You're walking onto a modern open office floor. No walls anywhere. The walls have been totally eradicated.",
+      "callout": null
+    },
+    {
+      "i": 65,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Everyone is sitting at these long communal tables. Everyone has heavy noiseancelling headphones on, but nobody is actually getting any real work done.",
+      "callout": {
+        "text": "ANY REAL WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 66,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A manager sends a message on a corporate instant messaging system. Let's call it Hall or Slack or Teams. People are expected to reply in seconds to prove they are at their keyboards to prove they're",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "working. Exactly. Workers are constantly roaming around tapping people on the shoulder supposedly, you know, bouncing ideas off each other.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "To a CEO walking the floor, it looks incredibly energetic. It looks like the glorious synergized future of collaboration. But neuroscientists and cognitive psychologists look at this exact physical environment and they",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "classify it as an environment of massive It's a disaster. The mechanism behind this disaster is fascinating really.",
+      "callout": null
+    },
+    {
+      "i": 70,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for your daily professional life. Knowledge work is currently suffering from a massive",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "structural measurement A measurement problem? Yeah. Think back to the industrial age.",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Productivity was incredibly easy to measure. How many physical widgets did you assemble on the factory floor per hour? We could measure it with a right?",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "split",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Very simple math. But in knowledge work, there is a total lack of clear metrics for output. How do you measure the value of a brilliant idea that took 3 days of staring out a window to conceptualize? You really can't, right?",
+      "callout": {
+        "text": "KNOWLEDGE WORK",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 74,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because we can't easily measure it. The modern office defaults to what Newport calls the principle of least Okay, break that down.",
+      "callout": {
+        "text": "BREAK",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 75,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Without clear objective feedback on what behaviors actually impact the bottom line, organizational culture automatically defaults to whatever is easiest in the moment.",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And what is easiest? Visibility. Visible busyiness. It's like driving a car that doesn't have a speedometer.",
+      "callout": null
+    },
+    {
+      "i": 77,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't know how fast you're going, so you just rev the engine as loudly as possible to prove to your passengers that you're doing something. That is a perfect analogy.",
+      "callout": {
+        "text": "KNOW HOW FAST",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 78,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's look at a prime example of this. Marissa Mayor, the CEO of Yahoo back in 2013.",
+      "callout": {
+        "text": "2013",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 79,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She famously and super controversially banned all employees from working at home. I remember that people lost their minds.",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They did. And her reasoning was wild. She didn't look at the code they were writing or the products they were shipping. She literally checked the virtual private network, the VPN",
+      "callout": null
+    },
+    {
+      "i": 81,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "server logs, and saw that people working from home weren't signing in frequently enough throughout the day. You're kidding. No. She essentially punished her entire workforce for not being visibly busy",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "checking emails on the server. If you aren't leaving a digital trail of constant shallow interactions, the corporate assumption is that you are stealing company time. But wait, let me inject a dose of reality here.",
+      "callout": null
+    },
+    {
+      "i": 83,
+      "shot": "diorama",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "[snorts] For a massive portion of the workforce, being highly responsive is the job. Is it though? Well, you have to answer emails to keep the business running.",
+      "callout": null
+    },
+    {
+      "i": 84,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If I don't answer my clients immediately, or if I don't respond to my boss's Slack message right away, the whole operation grinds to a halt.",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's not just a proxy for productivity. It's the actual lubricant of the business, isn't it? I hear that defense constantly from executives, but the empirical data completely dismantles the necessity",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "of it. Harvard Business School professor Leslie Pllo actually ran a rigorous study on this exact phenomenon. Well, what did she find?",
+      "callout": null
+    },
+    {
+      "i": 87,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She looked at highly paid professionals, consultants, people whose jobs supposedly rely entirely on responsiveness.",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "She found that these professionals were spending 20 to 25 hours a week entirely outside of standard office hours just monitoring their email and uh Blackberries at the 25 hours outside of work.",
+      "callout": {
+        "text": "25 HOURS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 89,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. And here is the kicker, the true cost. She found it actively degraded their psychological well-being.",
+      "callout": {
+        "text": "TRUE COST",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 90,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It caused immense burnout. And when they actually forced these teams to disconnect for scheduled periods, it didn't hurt the bottom line at all. Wow. In fact, the quality of their",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "work went up. This hyperconnectivity thrives in what Newport calls a metric black hole.",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "We do it because it feels productive, because it's culturally expected, and mostly because the company has no hard quantifiable metrics proving how much actual money this constant interruption is losing them in",
+      "callout": {
+        "text": "ACTUAL MONEY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 93,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "lost cognitive potential. So, this frantic busyness is just a A total trap.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a comforting proxy for productivity in an environment where we don't know how to measure real value.",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you hide behind the shield of being busy, you are setting yourself up for failure.",
+      "callout": {
+        "text": "YOU HIDE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 96,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have to protect your attention or become cognitively And that busyiness isn't just wasting your time on a spreadsheet. It is actively biologically",
+      "callout": {
+        "text": "WASTING YOUR TIME",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 97,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "degrading your brain's capacity to function at a high Which leads us right into the actual neuroscience of this, which is probably the most terrifying part of the book. truly terrifying.",
+      "callout": null
+    },
+    {
+      "i": 98,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I want to put you, the listener, into a psychology lab right now. You are a test subject in Sophie Leroyy's lab at the University of Minnesota.",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are sitting at a quiet desk and you are deep into solving a complex word puzzle. Okay, I'm picturing it. You are completely locked in.",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have all the variables of the puzzle held right there in your short-term memory. Suddenly, Leroy walks into the room and interrupts you.",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "She says, \"Stop right now. Drop the puzzle. You have to read these resumes and make a hypothetical hiring decision immediately.",
+      "callout": {
+        "text": "STOP",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 102,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's so jarring. It is. And then right in the middle of that cognitive transition, right in that tiny space between dropping the puzzle and picking up the resumes, she flashes a quick rapidfire lexical decision game at you on a",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "screen just to test your reaction time and cognitive state. The results of that rapid fire lexical game are revoly. They explain the exhaustion of the modern worker They really do.",
+      "callout": {
+        "text": "FIRE LEXICAL GAME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 104,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for your brain. When you switch your attention from one target to another, say from writing a report to glancing at your inbox, even for just 10 seconds to",
+      "callout": null
+    },
+    {
+      "i": 105,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "check a notification, your attention does not immediately cleanly snap over to the new task.",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A thick, sticky layer of what Loy identified as attention residue remains plastered onto that email you just read.",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your brain's executive function is still subconsciously trying to process the unresolved open loops of the first task,",
+      "callout": null
+    },
+    {
+      "i": 108,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that residue severely impairs your cognitive performance on whatever you tried to do next.",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It can take up to 20 minutes for your brain to fully clear the cash and restore its full cognitive 20 minutes from a 10-second glance. It's like you're trying to cook a five",
+      "callout": null
+    },
+    {
+      "i": 110,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "course meal, but you've left three burners running on high from breakfast and the smoke alarm is blaring.",
+      "callout": {
+        "text": "SMOKE ALARM",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 111,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your brain's cognitive stove is totally overloaded. That's exactly what it feels like by 3 p.m. every day. Yeah. Let's look at the flip side of this. Someone who leverages this science perfectly.",
+      "callout": null
+    },
+    {
+      "i": 112,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adam Grant. He became the youngest full professor at the Wharton School of Business. He produces a massive, almost absurdly",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "high amount of academic value. How does he do it? By ruthlessly batching his work to avoid attention residue entirely. He will put a hard out of office autoresponder on his email for up to three or",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "four days at a time just to draft an academic Three or four days. Yes. His colleagues are baffled. They'll walk by his office and say, \"But you're sitting right there. I can see you at your desk.\" But he ignores them because he leverages",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "a very specific unbreakable formula. High quality work produced equals time spent multiplied by the intensity of focus.",
+      "callout": {
+        "text": "EQUALS TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 116,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But let me challenge this because I think a lot of people listening are going to say what I'm thinking right Okay, go for it.",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "I get that total task switching is bad. Dropping a report to go write a long email is bad, but I don't do that.",
+      "callout": {
+        "text": "WRITE A LONG EMAIL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I just leave my inbox open on a second Oh, the second monitor, right? Or I have my phone sitting on the desk face up on silent.",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I just let my eyes dart over to it without stopping my main typing. I'm not switching tasks. I'm just maintaining situational awareness.",
+      "callout": null
+    },
+    {
+      "i": 120,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Surely that doesn't cause a 20-minute attention hangover. It absolutely does. And this is perhaps the most dangerous myth of the modern workplace.",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The myth of harmless multitasking. Even semi-distraction is cognitively devastating.",
+      "callout": null
+    },
+    {
+      "i": 122,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the brain responds to novel distractions even if you aren't actively aware, you're breaking your focus. There was a fascinating British TV special that looked into the neuroscience of open offices.",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The neuroscientists involved noted that even if a phone rings in the background or a notification flashes in your peripheral vision and you consciously think I am ignoring that, your brain's concentration is already",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "just from ignoring it. Yes. Because you are forcing your brain's executive function to constantly evaluate and filter out irrelevancies.",
+      "callout": null
+    },
+    {
+      "i": 125,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That filtering process burns immense cognitive calories and leaves a permanent low-grade layer of attention residue over everything you do.",
+      "callout": null
+    },
+    {
+      "i": 126,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are artificially lowering your own IQ for the entire day. It's terrifying when you realize we are doing this to ourselves voluntarily.",
+      "callout": null
+    },
+    {
+      "i": 127,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Semi-distraction destroys your intensity and intensity is the only multiplier you have.",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Stop diluting your cognitive capital or become cognitively So the obvious practical question if we know the neuroscience and we know the economics, how do you actually schedule this",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "kind of intense residuefree focus into a normal messy modern life?",
+      "callout": {
+        "text": "MESSY MODERN LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 130,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's look at how the masters do it. Drop in on a legend in computer science, Donald New. This is a man who wants to think massive foundational thoughts about computer algorithms,",
+      "callout": null
+    },
+    {
+      "i": 131,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the big stuff, right? So he has completely eliminated email from his life. He doesn't even have an address you can reach.",
+      "callout": {
+        "text": "EMAIL FROM HIS LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 132,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you want to contact him, you send a physical letter to his assistant who batches them and maybe shows them to him every few Total unapologetic",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "isolation. That is what Newport calls the monastic approach. Now, physically shift gears and look at the comedian Jerry Seinfeld.",
+      "callout": null
+    },
+    {
+      "i": 134,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He didn't lock himself in a monastery. He has a big wall calendar. Every single day, he sits down and does the hard work of writing a new joke.",
+      "callout": {
+        "text": "BIG WALL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 135,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He crosses out that day with a big thick red X. Don't break the chain. Exactly. His only job, his entire philosophy is don't break the chain.",
+      "callout": {
+        "text": "BREAK THE CHAIN",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 136,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's the rhythmic approach. Two totally different lifestyles, but both are achieving worldclass depth. When we look at these case studies, the application becomes really clear.",
+      "callout": null
+    },
+    {
+      "i": 137,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for you. You do not have to quit your corporate job and move to a stone tower in Switzerland like Carl Young to do deep work.",
+      "callout": {
+        "text": "YOUR CORPORATE JOB",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 138,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You do not have to become a hermit. Thank goodness, right? You just have to pick a scheduling philosophy that actually aligns with the reality of your life. Newport outlines four main ones.",
+      "callout": {
+        "text": "YOUR LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 139,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "We have the monastic, which is complete isolation like Can usually only viable for established academics or superstar Yeah, hard to pull off in middle",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Definitely. Then we have the biodal, which is Young's approach, retreating to the tower for days or weeks at a time for deep work. then returning to a highly interactive busy clinical practice in the city for the rest of the Okay,",
+      "callout": {
+        "text": "TIME FOR DEEP WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 141,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "what else? We have the rhythmic, which is Seinfeld's daily time blocking, building a chain of habits.",
+      "callout": {
+        "text": "CHAIN OF HABITS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 142,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And finally, the journalistic, which is fitting deep work in whenever the schedule suddenly allows, pivoting into depth on a dime, like a journalist reacting to breaking",
+      "callout": null
+    },
+    {
+      "i": 143,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's zoom in on the rhythmic approach because I think this is the most relatable for the person currently sitting in traffic listening to us. Let's do it. Let's look at Brian Chappelle.",
+      "callout": null
+    },
+    {
+      "i": 144,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He was a doctoral candidate, but he wasn't a full-time student. He had a demanding full-time job, and on top of that, he had a newborn baby at home. Oh, wow.",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. He couldn't exactly pull a Carl Young and retreat to a cabin in the woods for a week. His wife would have killed him.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, he adopted the rhythmic philosophy. He started waking up at 5:30 a.m. and then as he built the muscle, he eventually pushed it to 4:45 a.m.",
+      "callout": null
+    },
+    {
+      "i": 147,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "just to get a pure 90minute block of deep work in before his baby woke up and his standard highly distracted workday even That is",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "grueling. It was grueling. But by adhering to that one daily rhythm, he was drafting a massive thesis chapter every 2 to 3 Oh, hold on.",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I'm looking at these four options and honestly the journalistic approach seems like the absolute holy grail for a busy corporate worker.",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why do you say that? Well, you know, you have a free 45 minutes because a Zoom meeting ended early. So, you just shut your door and squeeze some deep work in. You pivot.",
+      "callout": {
+        "text": "SHUT YOUR DOOR",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 151,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "That seems so much more flexible and realistic than waking up at 4:45 a.m. every single day. Why wouldn't everyone just do the journalistic method? It sounds like the easiest option on paper, but neurologically it is by far the hardest.",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Really? Oh yeah. The journalistic approach requires an immense almost superhuman amount of mental energy to constantly switch gears on demand.",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Think about the friction of starting a hard task, starting at a blank page or a complex data set. You have to be able to instantly overcome that friction without any warm-up.",
+      "callout": null
+    },
+    {
+      "i": 154,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "That makes sense. If you aren't already a highly trained expert in focus, if you haven't built that mental muscle over years, you will fail at the journalistic approach. Your willpower will completely",
+      "callout": {
+        "text": "YEARS YOU WILL FAIL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 155,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "deplete. You'll spend 25 minutes of that 45minute window just trying to get into the zone and by the time you're there the next meeting is starting.",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is so true. For most standard office workers, the rhythmic philosophy, the Seinfeld chain method where you do it at the exact same time in the exact same place every single day is far more robust precisely because it",
+      "callout": {
+        "text": "EXACT SAME TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 157,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "removes the need to make a decision about when and where to work. You take the decision-m out of it. You don't rely on inspiration.",
+      "callout": null
+    },
+    {
+      "i": 158,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You rely on architecture. You must deliberately architect your time or it will be stolen by people who haven't.",
+      "callout": {
+        "text": "YOUR TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 159,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Master your schedule or become cognitively But having a beautifully color-coded schedule on your Google calendar isn't enough. The friction is still there.",
+      "callout": {
+        "text": "CALENDAR ISN'T ENOUGH",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 160,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "How do you make sure you actually execute the deep difficult work when you sit down at the desk? Right? Getting to the chair is only half the battle. So step into the New York office of Robert Caro, the legendary Pulitzer Prizewinning",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "biographer. Okay? You walk into a space and you notice something immediately. Every single inch of this room is governed by brutally strict rules.",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "There is a precise unvarying location for where his reference books go.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "There is a specific engineered way his notebooks are stacked on the desk. He has explicit rules for what gets pinned to the wall. That sounds intense.",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He even has a rule for exactly what he wears to the office every single day. He wears a tie and a jacket even if he is completely alone for 12 hours.",
+      "callout": {
+        "text": "ALONE FOR 12 HOURS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 165,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Now an outside observer might look at this and think it's clinical OCD. But it's not a compulsion. It is meticulous, deliberate systematization",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "of his physical What Caro knows intuitively is a vital cognitive principle.",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for your daily execution. You absolutely cannot wait for inspiration to strike. Nope. The author David Brooks noted that great creative minds think like artists but they work like accountants.",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "You must build idiosyncratic highly specific rituals around your deep work. Where exactly will you work? Is it a specific room?",
+      "callout": {
+        "text": "YOUR DEEP WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 169,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "A specific coffee shop? How long will you stay there? Will be 90 minutes 2 hours. And how will you physically support your brain while you do it? Exactly.",
+      "callout": {
+        "text": "MINUTES 2 HOURS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 170,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Will you have a specific type of coffee? Friedrich Nichi used to praise long rigorous walks as the only way to gain truly profound ideas.",
+      "callout": null
+    },
+    {
+      "i": 171,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Whatever your routine is, the goal of the ritual is to minimize the sheer willpower needed to transition from a shallow reactive state into a state of intense depth. You are building a runway for",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "your brain. Let's bring in a second example here. And this one is pulled straight from the corporate world. The four disciplines of execution or",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "40X. It was designed as a management framework for big companies, but Newport brilliantly applies it to personal focus. Well, this 40X stuff is great.",
+      "callout": {
+        "text": "40X",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 174,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The first discipline is to focus on the wildly important. Don't try to do everything. Pick one massive goal. But the second discipline is the game changer.",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Act on lead measures instead of lagging Can you explain the difference for the Yeah. A lagging measure is something like papers published or deals closed. By the time you measure it, the work is already done.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's too late to change the outcome. A lead measure is something you have absolute control over right now, like hours spent in deep work this week. That's a huge shift in And",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "split",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to track that lead measure, you use the third discipline. Keep a compelling physical scoreboard, not an app on your phone, literally tally marks on a piece of thick card stock taped directly",
+      "callout": {
+        "text": "APP ON YOUR PHONE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 178,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to your computer monitor. And finally, maintain a strict cadence of accountability, reviewing that scoreboard every week.",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But let me stop you right there because applying a corporate middle management framework like 40X",
+      "callout": null
+    },
+    {
+      "i": 180,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to personal creative deep work, it sounds incredibly bureaucratic. It does sound a bit dry.",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It sounds soul crushing. Isn't creative work by definition supposed to be free flowing and organic. If I tweet my writing like an assembly line, would I just produce robotic garbage?",
+      "callout": null
+    },
+    {
+      "i": 182,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It sounds restrictive, but the paradox of creative work is that execution is actually much harder than strategizing.",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Ideas are cheap. Deep execution is incredibly expensive. By making the process of your work bureaucratic and deeply systemized, you actually free up your mental energy for the creative work itself.",
+      "callout": {
+        "text": "YOUR WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 184,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't waste precious cognitive calories figuring out what to do, when to do it, or how to measure it. The scaffolding holds you up.",
+      "callout": null
+    },
+    {
+      "i": 185,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "Newport himself used this exact 4DX framework, the tally marks, the lead measures to jump from publishing four peer-reviewed academic papers a year to an astonishing nine papers a year.",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he did that while writing a fulllength book at the exact same time. Wow. By being a ruthless accountant about the process,",
+      "callout": null
+    },
+    {
+      "i": 187,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "you allow yourself to become a genius in the output. The bureaucracy handles the how",
+      "callout": {
+        "text": "YOU ALLOW YOURSELF",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 188,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "so your brain can fully attack the what. systematize your focus, minimize your willpower drain,",
+      "callout": null
+    },
+    {
+      "i": 189,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "or become cognitively But here is the harsh, uncomfortable reality that most people don't want to face. Even with the best schedules in the world and the tightest, most aesthetic rituals,",
+      "callout": {
+        "text": "HARSH",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 190,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "you will still completely fail if your brain is fundamentally wired for distraction when you are off the clock. This brings us to a really uncomfortable scene in the book. Yeah, brace yourselves.",
+      "callout": {
+        "text": "FAIL IF YOUR BRAIN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 191,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Imagine you are sitting across a table from the late Stanford professor Clifford Nass. He is interviewing you for a study.",
+      "callout": null
+    },
+    {
+      "i": 192,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're a modern professional. So you proudly tell him, \"Look, professor, I know I multitask a lot. I'm on Twitter. I'm on Slack.",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "closeUp",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "I'm answering emails. But when I really have to concentrate, when a big deadline is looming, I could just turn off everything. I close the tabs.",
+      "callout": {
+        "text": "CONCENTRATE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 194,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "I put the phone in the drawer. And I am laser We all think we can do that. We all say it.",
+      "callout": {
+        "text": "PUT THE PHONE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 195,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So NAS listens to you and then he runs you through a series of rigorous cognitive tests.",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He looks at the results. He looks you dead in the eye and he tells you that you are entirely incapable of filtering out Your working memory is chronically shot. You are, in his",
+      "callout": {
+        "text": "LOOKS YOU DEAD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 197,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "exact brutally harsh words, a mental wreck. It is a brutal diagnosis, but it is supported by decades of neuroplasticity research.",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for your brain's physical wiring. Focus is not a habit like flossing your teeth that you can just decide to start doing one morning.",
+      "callout": {
+        "text": "NOT A HABIT",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 199,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, it's not a switch you flip. It is a biological mental muscle. If you spend your entire day relieving every single micro moment of potential boredom, if you pull out your phone while waiting five minutes in line at",
+      "callout": {
+        "text": "PULL OUT YOUR PHONE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 200,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "the grocery store, if you scroll social media while sitting alone at a restaurant table for 3 minutes waiting for a friend, you permanently rewire",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "your brain. You train your neural pathways to constantly expect a steady drip of novel stimuli.",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You become, neurologically speaking, a sucker for irrelevancy. Which means when you do sit down and try to focus on a hard, boring spreadsheet or a difficult chapter, your brain literally throws a biochemical",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "tantrum. It craves the dopamine of the distraction. Let's look at Adam Marlin as our second example here to see how to reverse this.",
+      "callout": null
+    },
+    {
+      "i": 204,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, what did he do? He was a business guy who started a practice of daily Talmood study which is an incredibly",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "complex dense ancient text that requires immense sustained concentration just to understand a single page.",
+      "callout": null
+    },
+    {
+      "i": 206,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "After doing this daily mental calisthenics for a while he noticed something strange. What was it? He wasn't just getting better at reading the Talmud. He was suddenly having highly creative breakthrough insights in his professional business life.",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The focus training was bleeding over. He was building that underlying mental muscle and it elevated his entire cognitive But hold on, let's trace this logic out.",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Does this mean to be successful I have to maintain this intense teeth gritting monklike focus 24 hours a day, 7 days a week.",
+      "callout": {
+        "text": "FOCUS 24 HOURS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 209,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "I can never just sit on the couch, relax, and scroll through Instagram. I have to be a hyperfocused cyborg all weekend, too. Not at all.",
+      "callout": null
+    },
+    {
+      "i": 210,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "In fact, you have to do the exact opposite. The strategy isn't to be constantly focused.",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The strategy is to embrace boredom. [snorts] Embrace boredom. Currently, most people take breaks from distraction, to occasionally focus.",
+      "callout": {
+        "text": "TAKE BREAKS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 212,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You need to flip that. You need to schedule specific blocks of time for internet use. Say, \"I will only check social media from 7:00 p.m. to 7:30 p.m.\" And outside of those specific blocks, you just let yourself be",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "bored. Like actually bored. If you have to wait in line at the DMV, you don't pull out your phone. You just stand there and experience the discomfort of waiting. If you are on a train, you",
+      "callout": null
+    },
+    {
+      "i": 214,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "just stare out the window. You have to actively, intentionally wean your mind from its chemical addiction to ondemand distraction.",
+      "callout": {
+        "text": "WEAN YOUR MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 215,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's all about tolerance. It's exposure therapy for boredom. If you can't tolerate the void of boredom, you simply cannot achieve the depth of focus required to do great work. Train your attention muscle",
+      "callout": null
+    },
+    {
+      "i": 216,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "or become cognitively And if we are talking about weaning yourself off distraction, we have to tackle the absolute biggest obstacle to that goal. The pervasive cultural narrative that all",
+      "callout": null
+    },
+    {
+      "i": 217,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "internet tools and social media platforms are absolutely mandatory for professional success. Yes. Okay. Picture JK Rowling.",
+      "callout": null
+    },
+    {
+      "i": 218,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "The year is 2009. She is writing the final Harry Potter novels. It is arguably the biggest cultural literary phenomenon of the decade.",
+      "callout": {
+        "text": "2009",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 219,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "At the exact same time, the rise of the digital age, social media, Facebook, Twitter, it's all exploding. It's everywhere. Everyone is saying you must build a personal brand. And she's completely totally absent",
+      "callout": null
+    },
+    {
+      "i": 220,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "from it. She's a ghost which is crazy for someone that famous. Finally, in the fall of 2009,",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "her staff starts a verified Twitter account in her name, and her only tweet for an entire year and a half just says, \"This is the real me, but you won't be hearing from me often, I am afraid, as pen and paper is my",
+      "callout": null
+    },
+    {
+      "i": 222,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "priority at the moment.\" It is a perfect highstakes illustration of a crucial mindset shift.",
+      "callout": null
+    },
+    {
+      "i": 223,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for your relationship with technology. We currently live in an era where anything internet related is assumed by default to",
+      "callout": null
+    },
+    {
+      "i": 224,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "be innovative, necessary, and good. We just accept it. This is what Newport calls the any benefit mindset.",
+      "callout": null
+    },
+    {
+      "i": 225,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the justification that if a tool offers any conceivable benefit, like finding an old high school friend on Facebook or seeing one interesting article on Twitter, people think they must use it.",
+      "callout": {
+        "text": "HIGH SCHOOL FRIEND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 226,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But you have to abandon that flawed logic. You must adopt the craftsman approach to your Right? A craftsman doesn't use every tool in the hardware store. They ruthlessly evaluate platforms based on",
+      "callout": null
+    },
+    {
+      "i": 227,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "whether their substantial, measurable, positive impact significantly outweigh their massive, often hidden",
+      "callout": {
+        "text": "OFTEN HIDDEN",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 228,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "cognitive Let's bring in a second example to highlight this contrast. Rick Furer. He's a master craftsman who literally forges traditional swords for a living. Nobody in their right mind thinks it's weird that Rick Fur isn't constantly updating his",
+      "callout": null
+    },
+    {
+      "i": 229,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Facebook status. He works with fire and steel, right? He's busy making swords. But if a knowledge worker makes that exact same choice, they are labeled a freak, a lite, or an eccentric. Yet, look at Neil Stevenson, the",
+      "callout": {
+        "text": "WORKS WITH FIRE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 230,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "brilliant cyberpunk author who literally coined a lot of our foundational concepts of the internet. He coined the term metaverse. He did. And he hides entirely from email.",
+      "callout": null
+    },
+    {
+      "i": 231,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "His website has a long essay explaining that if he answered emails, he'd be spending his time writing thousands of fragmented, useless messages to individuals",
+      "callout": null
+    },
+    {
+      "i": 232,
+      "shot": "wide",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "instead of writing massive, worldchanging novels that last for But let me push back here because I can hear the LinkedIn crowd screaming right Oh, I know what they're saying. What about networking?",
+      "callout": {
+        "text": "NOVELS THAT LAST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 233,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "What about serendipity? This is what everyone says. If I quit LinkedIn or if I log off Twitter, I'll miss out on career opportunities. I won't get that lucky break.",
+      "callout": null
+    },
+    {
+      "i": 234,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "I won't meet that investor. I won't see that job posting. That fear of missing out is exactly the trap of the metric black hole we talked about earlier.",
+      "callout": {
+        "text": "SEE THAT JOB",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 235,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "We highly highly overvalue these minor serendipitous benefits because they are easy to imagine and we totally ignore the massive invisible cognitive cost of having our attention",
+      "callout": null
+    },
+    {
+      "i": 236,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "constantly fragmented all day every day. That's a great point. Yes, a random lucky tweet might lead to a coffee meeting once in a decade.",
+      "callout": {
+        "text": "RANDOM LUCKY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 237,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But deep work produces substantial, measurable, undeniable career capital every single day.",
+      "callout": null
+    },
+    {
+      "i": 238,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you write a brilliant book or code an amazing app, the network will find you.",
+      "callout": null
+    },
+    {
+      "i": 239,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The value of deep, undeniable output completely dwarfs the value of network serendipity. You have to reject the default assumption of connectivity.",
+      "callout": null
+    },
+    {
+      "i": 240,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Just because it plugs into the wall doesn't mean it's good for your brain. Ruthlessly audit your tools or become cognitively",
+      "callout": null
+    },
+    {
+      "i": 241,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to the final and perhaps most biologically necessary tactical piece of this entire puzzle. To truly protect your ability to do deep work, you have to set aggressive",
+      "callout": null
+    },
+    {
+      "i": 242,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "boundaries on your workday as a whole. Right? Okay. Picture this scene. We are with a group of test subjects in Ann Arbor, Michigan. They are divided into two groups.",
+      "callout": null
+    },
+    {
+      "i": 243,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The first group is walking on a wooded path, but it is the dead of winter. It is brutal, freezing, miserable, biting cold.",
+      "callout": {
+        "text": "WOODED PATH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 244,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are not happy to be out there. Sounds awful. The second group is walking down a bustling, interesting city street. Afterward, they bring both groups inside, thaw them out,",
+      "callout": null
+    },
+    {
+      "i": 245,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "and they all take a rigorous cognitive concentration test. The people who walked in the freezing, miserable woods perform a staggering 20% better than the people who walked in the What this",
+      "callout": null
+    },
+    {
+      "i": 246,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "study brilliantly validates is a concept called attention restoration theory or art.",
+      "callout": null
+    },
+    {
+      "i": 247,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here's what this means for your daily energy levels. Your capacity for directed attention, the sheer willpower required to focus on a spreadsheet or a blank document is a strictly finite biological resource.",
+      "callout": null
+    },
+    {
+      "i": 248,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Once it's gone, it's gone. When it is gone, it is gone. You simply cannot force yourself to focus anymore. To restore that finite resource, you need downtime.",
+      "callout": {
+        "text": "CANNOT FORCE YOURSELF",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 249,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But not just any downtime. You need what psychologists call inherently fascinating stimuli that are completely free from directed concentration.",
+      "callout": null
+    },
+    {
+      "i": 250,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like nature. Nature is great for this, even if it's freezing, because it engages your mind softly without demanding focus. The crucial takeaway is that downtime is not a weakness. It is a biological necessity.",
+      "callout": {
+        "text": "ENGAGES YOUR MIND",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 251,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And this pairs with unconscious thought theory which shows that for incredibly complex problems with dozens of variables, your conscious mind actually gets overloaded, right?",
+      "callout": null
+    },
+    {
+      "i": 252,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You just hit a wall. You have to step away and let your background unconscious processing crunch the numbers. But that only happens if you truly disconnect.",
+      "callout": {
+        "text": "HIT A WALL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 253,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And to enforce that vital downtime, Newport argues for a hard, uncompromising 5:30 p.m. shutdown ritual. You close your laptop, you say a specific phrase to mark the end of the day,",
+      "callout": null
+    },
+    {
+      "i": 254,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "and you do not look at work again. Which leads to our second example here, which proves this works at scale.",
+      "callout": {
+        "text": "NOT LOOK AT WORK",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 255,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "In 2007, the software company 37 Signals, which is now the wildly successful company Base Camp,",
+      "callout": {
+        "text": "2007",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 256,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "did something that sounded like corporate suicide. From May through October, they shortened their entire company work week to four days.",
+      "callout": null
+    },
+    {
+      "i": 257,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Not four 10-hour days, four eightour days. But hang on, a major journalist from Forbes actually wrote a piece heavily criticizing that exact move.",
+      "callout": {
+        "text": "MOVE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 258,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "I remember that. She wrote that packing 40 hours of corporate work into four days would just exhaust people, cause massive burnout, and cause morale and productivity to plummet.",
+      "callout": null
+    },
+    {
+      "i": 259,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You can't just delete a day of work and expect the same output. Her critique assumes that all 40 hours were highly productive, which is a total fallacy.",
+      "callout": {
+        "text": "ALL 40 HOURS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 260,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "The founder, Jason Fared, had a brilliant response. He said, \"They aren't cramming 40 hours into four days. They are strictly working 32 hours.",
+      "callout": null
+    },
+    {
+      "i": 261,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "What happens when you limit time? Parkinson's law takes effect. By squeezing the fat out of the work week, the pointless recurring meetings, the endless web surfing, the shallow office politics, the 2-hour lunches, people suddenly",
+      "callout": {
+        "text": "YOU LIMIT TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 262,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "become incredibly stingy with their time. They guard it with their lives. When you only have 32 hours, you simply don't have the bandwidth to entertain shallow work.",
+      "callout": null
+    },
+    {
+      "i": 263,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You drain the shallows. You realize what actually moves the needle, and you ignore the rest. Productivity didn't drop.",
+      "callout": null
+    },
+    {
+      "i": 264,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It maintained or improved and morale skyrocketed. Constrain your time to force depth.",
+      "callout": null
+    },
+    {
+      "i": 265,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a forcing function for priority. Guard your downtime. Let your unconscious mind work",
+      "callout": {
+        "text": "MIND WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 266,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "or become cognitively replaceable. Okay, I have to stop the momentum here for a second. We've gone through all these incredible philosophies and tactics, but we need to address the massive",
+      "callout": null
+    },
+    {
+      "i": 267,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "glaring elephant in the room. Uh oh. What is it? This whole book, this entire philosophy, there is a major structural critique here that we cannot ignore. This all sounds absolutely fantastic if you",
+      "callout": null
+    },
+    {
+      "i": 268,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "are a member of the cognitive elite. It is incredibly easy to say, \"I'm going to adopt the monastic approach, shut my door, put up a do not disturb sign, and totally ignore my boss's emails.\" If you are a tenure Ivy League",
+      "callout": {
+        "text": "SHUT MY DOOR",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 269,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "professor like Adam Grant, or if you are a superstar coder making a 100K like Jason Ben, right? But what if you are a 24-year-old junior PR account executive? What if your entire job is",
+      "callout": {
+        "text": "YOUR ENTIRE JOB",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 270,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "client-f facing? If a junior staffer decides to ignore Slack for 4 hours to go think deep thoughts by a lake, they don't get a MacArthur Genius Grant. They get fired on a Friday It",
+      "callout": null
+    },
+    {
+      "i": 271,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "is the most common critique of Newport's work. It raises a vital point about workplace power dynamics, and it's one we have to address head-on.",
+      "callout": null
+    },
+    {
+      "i": 272,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Deep work is not a license to blindly ignore your boss or sherk your It is instead a framework for forcing a highly specific,",
+      "callout": {
+        "text": "IGNORE YOUR BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 273,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "very uncomfortable conversation about that metric black hole. If you were a junior staffer, you don't just disappear into the woods.",
+      "callout": null
+    },
+    {
+      "i": 274,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "You go to your manager with respect and you say, \"I have tracked my time and I am currently spending six hours a day monitoring our communication channels. I can continue to answer emails instantly",
+      "callout": {
+        "text": "SIX HOURS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 275,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "all day or I can dedicate three hours of uninterrupted time every morning to produce this high-value strategy report that the client desperately needs.",
+      "callout": null
+    },
+    {
+      "i": 276,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which of these two activities adds more value to our bottom line? Ah, so you don't declare a boundary, you ask for prioritization.",
+      "callout": null
+    },
+    {
+      "i": 277,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are making the invisible accepted cost of continuous connectivity visible to the organization. You force the manager to explicitly choose between demanding",
+      "callout": {
+        "text": "CHOOSE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 278,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "shallow responsiveness and getting deep, highly profitable results. Exactly. You have to become an advocate for the economic value of your own brain.",
+      "callout": {
+        "text": "YOUR OWN BRAIN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 279,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "No manager will ever explicitly say, \"I want you to be highly responsive, even if it means the strategy reward is terrible.\" Once you frame it as an economic trade-off, you start carving out permission",
+      "callout": null
+    },
+    {
+      "i": 280,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "for depth even at the entry level. So, as we zoom out from all these specific tactics, the time blocking, the 40x scoreboards, the shutdown rituals, the conversations with management,",
+      "callout": null
+    },
+    {
+      "i": 281,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "we realize that deep work is about a lot more than just checking off tasks on a to-do list faster. It's not a life hack. It is ultimately an existential reclamation of your own",
+      "callout": {
+        "text": "IT'S NOT A LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 282,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It absolutely moves from mere productivity to profound philosophy. Consider the science writer Winfrey Gallagher.",
+      "callout": null
+    },
+    {
+      "i": 283,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is an incredibly poignant story in the book. She received a terrifying advanced cancer diagnosis.",
+      "callout": null
+    },
+    {
+      "i": 284,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It was the kind of news that stops your It changes everything. But in that moment,",
+      "callout": null
+    },
+    {
+      "i": 285,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "walking out of the hospital, she realized something powerful. She still had a choice about where to direct her attention. She decided consciously",
+      "callout": null
+    },
+    {
+      "i": 286,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "to focus her remaining attention on the good things. watching great movies, taking long walks, having a 6:30 p.m. martini.",
+      "callout": null
+    },
+    {
+      "i": 287,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Instead of letting the disease completely monopolize her attention with terror and anxiety, her life, even during grueling medical treatment, became remarkably pleasant. It proves that our reality is quite literally",
+      "callout": null
+    },
+    {
+      "i": 288,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "constructed by what we pay attention to. If you spend your day completely fractured, constantly reacting to shallow emergencies, your life will inherently feel fractured, shallow, and stressful.",
+      "callout": null
+    },
+    {
+      "i": 289,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But if we connect that to the work of the famous psychologist Mihali Cheeks sent Mihi,",
+      "callout": null
+    },
+    {
+      "i": 290,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "he used this tool called the experience sampling method or ESM.",
+      "callout": null
+    },
+    {
+      "i": 291,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He would beat people randomly on pages throughout the day to see exactly how they felt in that given moment. And he proves something totally counterintuitive.",
+      "callout": null
+    },
+    {
+      "i": 292,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "People are actually happier at work than they are in their unstructured free time, provided they are in a state of flow, a state of deep work where their mind is stretched to its absolute limits, accomplishing something difficult and worthwhile.",
+      "callout": {
+        "text": "FREE TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 293,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Flow generates baseline human happiness. A life lived in sustained deliberate focus is not just more economically productive, though it certainly is that. It is fundamentally a richer, more meaningful",
+      "callout": null
+    },
+    {
+      "i": 294,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "life. The neuroscience, the economics, and the psychology all point to the exact same inescapable",
+      "callout": null
+    },
+    {
+      "i": 295,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "conclusion. A deep life is a good life. Which brings us right back to where we started this entire journey.",
+      "callout": {
+        "text": "DEEP LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 296,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are talking about your brain, your routine, your choices. So, here is a question to take with you into your chaotic, distracted day.",
+      "callout": null
+    },
+    {
+      "i": 297,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "What is the one wildly important goal in your life right now that is starving for your attention simply because you are too busy trying to be accessible to everyone else?",
+      "callout": {
+        "text": "GOAL IN YOUR LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 298,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "What if your fear of missing out is actually the exact thing ensuring that you miss out on your own potential?",
+      "callout": {
+        "text": "YOUR FEAR",
+        "style": "highlight"
+      }
+    }
+  ]
+}
