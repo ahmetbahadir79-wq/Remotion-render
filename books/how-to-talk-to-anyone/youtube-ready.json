@@ -1,0 +1,28 @@
+{
+  "slug": "how-to-talk-to-anyone",
+  "status": "NOT_READY",
+  "at": "2026-10-31T08:47:31.529Z",
+  "metaSha256": "00580f9c300bd4691b89ef9d3156bfd1f8c7f0493b4f0a6741cdbd12b51f9a32",
+  "mdSha256": "e189bea3744675db0cb6e22fa346796432bd388192fe57fbf6f60ea8e5327b58",
+  "cleanVttSha256": null,
+  "errors": [
+    "TITLES PLACEHOLDER #3: scaffold/template text \"TODO\" in a title — write the real title — \"How to Talk to Anyone Explained — TODO counter-narrative angle 1 (lint-titles.js)\"",
+    "TITLES PLACEHOLDER #4: scaffold/template text \"TODO\" in a title — write the real title — \"How to Talk to Anyone Review — TODO counter-narrative angle 2 (lint-titles.js)\"",
+    "TITLES TOO_FEW_ANGLES: 0 anchored angle title(s), need ≥ 2 (each names THIS book's misread thing — a character, object, event or claim from the narration — or a surprising idea grounded in a titleAngles {kind:\"insight\"} entry)",
+    "TITLES MODIFIER_SWAP: 3 titles are only book + author + a search modifier (#1, #2, #5) — at most 2; the others need their own angle",
+    "TITLES NO_STACKED_TITLE: need ≥ 1 title that stacks book title + search modifier + an anchored counter-narrative angle (e.g. \"<Book> Ending Explained: Why <Character>'s <Act> Isn't <Common Reading>\")",
+    "TITLES SET_REPEATS_ITSELF: #3 and #4 say the same thing — \"How to Talk to Anyone Explained — TODO counter-narrative angle 1 (lint-titles.js)\" / \"How to Talk to Anyone Review — TODO counter-narrative angle 2 (lint-titles.js)\"",
+    "TITLES NO_TITLE_ANGLES: youtube-meta.titleAngles needs ≥ 2 entries {myth, book, quote} — the specific belief the book overturns, what it shows instead, and a verbatim narration quote proving it",
+    "NOT_REFINED: youtube-meta.needsClaudeRefine is true — the deterministic scaffold must be hand-refined from the narration (titles, description, chapters, tags, hook), then set to false",
+    "SCAFFOLD_DESCRIPTION: the fallback description is still there (\"the one argument the book quietly proves\") — write it from the narration",
+    "CHAPTER_LABELS_ARE_FRAGMENTS: 8 label(s) end mid-phrase — cut-off narration snippets, not chapter names (\"Research Center Alongside Researchers From\", \"Make It Highly Sticky When\", \"Most Important Person In The\")",
+    "STALE_MD: youtube.md still carries scaffold text (\"TODO\") — regenerate it from the refined meta (plan-meta.js / plan-antidote-meta.js --md-only)",
+    "STALE_MD: youtube.md is marked SCAFFOLD",
+    "NO_CLEAN_VTT: public/captions/how-to-talk-to-anyone.clean.vtt missing (node scripts/clean-vtt.js public/captions/how-to-talk-to-anyone.vtt public/captions/how-to-talk-to-anyone.clean.vtt)"
+  ],
+  "warnings": [
+    "DESCRIPTION_ABOVE_FOLD: \"How to Talk to Anyone\" is not in the first ~157 chars (shown above the fold)",
+    "HOOK_REPEATS_TITLE: the hook only repeats the book title/author (\"ANYONE\") — it should add what the title doesn't",
+    "HOOK_UNVERIFIED: no books/how-to-talk-to-anyone/thumbnail-check.json — run render-thumbnails.js (it checks the hook pixels in every variant)"
+  ]
+}

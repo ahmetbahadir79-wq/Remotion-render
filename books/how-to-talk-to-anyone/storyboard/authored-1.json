@@ -1,0 +1,809 @@
+[
+  {
+    "i": 0,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "THE CHEAP SMILE", "style": "strike" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "smirk",
+    "action": "talk",
+    "explainedBy": "An instant reflexive grin signals a cheap, unearned social mask rather than genuine warmth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Flashing an instant automatic grin signals your smile is cheap rather than warm.",
+      "concreteVisual": "Everyman Striver wearing a forced polite grin standing beside a mask icon in a networking room.",
+      "onScreenText": "THE CHEAP SMILE",
+      "relationToPrevious": "Opening beat establishing the book's central premise on reflexive social gestures.",
+      "addedInformation": "The strike on cheap smile and the mask icon show that the rapid grin is an insincere public performance."
+    }
+  },
+  {
+    "i": 1,
+    "concept": "coin",
+    "diagram": null,
+    "callout": { "text": "THROWING PENNIES AT PEOPLE", "style": "box" },
+    "set": "room",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "offer",
+    "holds": "coin",
+    "explainedBy": "Distributing a reflexive smile to anyone nearby is the social equivalent of tossing pennies.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Distributing a reflexive smile to everyone is biologically treated like throwing pennies.",
+      "concreteVisual": "Everyman Striver in the networking room holding out a coin to the peripheral crowd.",
+      "onScreenText": "THROWING PENNIES AT PEOPLE",
+      "relationToPrevious": "Continues from beat 0, translating the cheap smile metaphor into held currency.",
+      "addedInformation": "Holding out a literal coin visualizes the reflexive social currency tossed mindlessly to bystanders."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "A CROWDED NETWORKING EVENT", "style": "reveal" },
+    "set": "room",
+    "shotOverride": "wide",
+    "cast": ["everyman", "carla"],
+    "expression": "worried",
+    "action": "idle",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "A crowded networking mixer where an anxious striver feels out of place among mingling professionals.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Listeners have experienced the awkward pressure of crowded networking events and corporate mixers.",
+      "concreteVisual": "Wide shot of an open event room with Everyman looking anxious while Carla chats comfortably.",
+      "onScreenText": "A CROWDED NETWORKING EVENT",
+      "relationToPrevious": "Transitions from opening metaphor to the relatable scenario of a high-stakes social gathering.",
+      "addedInformation": "Contrasts the anxious outsider against a smoothly socializing peer in the same room."
+    }
+  },
+  {
+    "i": 3,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "AN INVISIBLE LANGUAGE", "style": "box" },
+    "set": "room",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["everyman", "carla"],
+    "expression": "worried",
+    "action": "think",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "The striver watches others converse smoothly and wonders what unspoken code they are using.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Socially anxious people feel others speak an invisible language they were never taught.",
+      "concreteVisual": "Everyman Striver gestures pensively while Carla speaks with ease beside him.",
+      "onScreenText": "AN INVISIBLE LANGUAGE",
+      "relationToPrevious": "Continues the room stage, focusing on the striver's feeling of exclusion.",
+      "addedInformation": "Highlights the perceptual divide between an effortless conversationalist and the baffled observer."
+    }
+  },
+  {
+    "i": 4,
+    "concept": "door",
+    "diagram": null,
+    "callout": { "text": "DOORS OPEN FOR THEM", "style": "highlight" },
+    "set": "room",
+    "cast": ["carla"],
+    "expression": "happy",
+    "action": "walk",
+    "explainedBy": "Effortlessly charming people navigate crowds with ease, gaining immediate acceptance.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Charming winners glide through rooms and social doors open for them naturally.",
+      "concreteVisual": "Carla walking confidently across the room toward a door icon with an open, friendly expression.",
+      "onScreenText": "DOORS OPEN FOR THEM",
+      "relationToPrevious": "Shifts focus from the anxious striver to the effortless winner navigating the event.",
+      "addedInformation": "Shows social mobility and acceptance through confident forward movement toward welcoming thresholds."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CLUTCHING A NAPKIN", "style": "reveal" },
+    "set": "room",
+    "shotOverride": "medium",
+    "cast": ["everyman"],
+    "expression": "worried",
+    "action": "slump",
+    "holds": "notes",
+    "explainedBy": "The anxious striver retreats to the buffet table feeling completely unprepared for human connection.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Awkward attendees retreat to the food table clutching napkins feeling socially incompetent.",
+      "concreteVisual": "Everyman Striver slumped by himself clutching paper napkins like a safety shield.",
+      "onScreenText": "CLUTCHING A NAPKIN",
+      "relationToPrevious": "Sharp visual contrast back to the socially isolated observer after seeing the winner glide.",
+      "addedInformation": "The held paper and slumped posture capture the physical withdrawal of social anxiety."
+    }
+  },
+  {
+    "i": 6,
+    "concept": "book",
+    "diagram": null,
+    "callout": { "text": "HOW TO TALK TO ANYONE", "style": "box" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Introducing the source guide by Leil Lowndes to decode interpersonal dynamics.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The episode dives into Leil Lowndes's foundational guide How to Talk to Anyone.",
+      "concreteVisual": "Everyman Striver standing on stage holding a book.",
+      "onScreenText": "HOW TO TALK TO ANYONE",
+      "relationToPrevious": "Moves from the party scenario to introducing the study material.",
+      "addedInformation": "Directly presents the core text being analyzed."
+    }
+  },
+  {
+    "i": 7,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "NOT A STERILE LIST", "style": "strike" },
+    "set": "stage",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Rejecting the idea that social connection can be mastered through a dry list of tips.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The analysis will not just recite a sterile checklist of 92 networking tips.",
+      "concreteVisual": "Everyman on stage explaining with an open hand, rejecting rote listicle advice.",
+      "onScreenText": "NOT A STERILE LIST",
+      "relationToPrevious": "Continues the stage setup, clarifying the investigative approach.",
+      "addedInformation": "The strike on sterile list visually negates shallow tip-based networking."
+    }
+  },
+  {
+    "i": 8,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "DOWN TO THE STUDS", "style": "highlight" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Dismantling the mechanics of charisma to uncover its foundational principles.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The hosts tear the material down to the studs to prove a radical thesis on human interaction.",
+      "concreteVisual": "Everyman on stage pointing decisively forward to introduce the core structural thesis.",
+      "onScreenText": "DOWN TO THE STUDS",
+      "relationToPrevious": "Deepens the analytical framing of the breakdown.",
+      "addedInformation": "Signals an uncompromising, deep structural investigation into behavioral mechanics."
+    }
+  },
+  {
+    "i": 9,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "POPULAR BELIEF",
+        "claim": "CHARISMA IS INNATE",
+        "inputs": ["GENETICS", "EXTROVERSION", "MAGIC"],
+        "hub": "NATURAL CHARM",
+        "output": "EFFORTLESS RAPPORT",
+        "verdict": "NOT AN INNATE GIFT",
+        "reason": "CALIBRATION CREATES CHARISMA",
+        "truth": "LEARNED MICRO-CALIBRATION",
+        "cues": {
+          "links": "underlying thesis",
+          "result": "innate",
+          "doubt": "not some",
+          "rejected": { "phrase": "innate", "occurrence": 1 }
+        }
+      }
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Refuting the common myth that charismatic power is an innate, unchangeable genetic gift.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Charisma is not an innate gift bestowed only upon natural extroverts.",
+      "concreteVisual": "A refute diagram dismantling the myth of innate charisma, striking the claim that charm is genetic.",
+      "onScreenText": "none",
+      "relationToPrevious": "Replaces stage commentary with a formal structural refute of the extrovert myth.",
+      "addedInformation": "Visually breaks the false belief that social magnetism cannot be engineered."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "POPULAR BELIEF",
+        "claim": "CHARISMA IS INNATE",
+        "inputs": ["GENETICS", "EXTROVERSION", "MAGIC"],
+        "hub": "NATURAL CHARM",
+        "output": "EFFORTLESS RAPPORT",
+        "verdict": "NOT AN INNATE GIFT",
+        "reason": "CALIBRATION CREATES CHARISMA",
+        "truth": "LEARNED MICRO-CALIBRATION",
+        "cues": {
+          "reason": "magical gift",
+          "truth": "relief honestly"
+        }
+      }
+    },
+    "callout": null,
+    "continue": true,
+    "cast": [],
+    "explainedBy": "Revealing the correct model of learned micro-calibration brings relief to non-extroverts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dispelling the magical gift myth is a huge relief for anyone who is not naturally extroverted.",
+      "concreteVisual": "The refute diagram advances to reveal the truth branch of learned micro-calibration.",
+      "onScreenText": "none",
+      "relationToPrevious": "Continues the refute diagram from beat 9, completing the structural transition.",
+      "addedInformation": "Emphasizes that charisma is an accessible, learned operational discipline."
+    }
+  },
+  {
+    "i": 11,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["NON-VERBAL MARGINS", "FRACTIONS OF A SECOND", "LOGICAL CONVERSATION"]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Social encounters are won or lost in micro-fractions of a second before words are exchanged.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Interactions are decided in tiny non-verbal margins fractions of a second before conversation begins.",
+      "concreteVisual": "A 3-step causal flow diagram mapping the timeline from non-verbal cues to verbal discussion.",
+      "onScreenText": "none",
+      "relationToPrevious": "Transitions from debunking the myth to explaining the chronological timeline of impressions.",
+      "addedInformation": "Proves that subconscious evaluation precedes rational conversation."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE SOCIALLY ANXIOUS STRIVER", "style": "box" },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": ["everyman", "carla"],
+    "expression": "worried",
+    "action": "slump",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "The contrast between the self-conscious striver and the effortlessly charming achiever.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Lowndes contrasts the relatable socially anxious striver against effortlessly charming winners.",
+      "concreteVisual": "Two-shot framing Everyman looking anxious beside poised, relaxed Carla in a room.",
+      "onScreenText": "THE SOCIALLY ANXIOUS STRIVER",
+      "relationToPrevious": "Returns to the social dynamic between the two archetypes.",
+      "addedInformation": "Directly contrasts the self-conscious posture with ease of movement."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE BIG WINNERS", "style": "highlight" },
+    "set": "room",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "happy",
+    "action": "celebrate",
+    "partnerExpression": "worried",
+    "partnerAction": "idle",
+    "explainedBy": "The big winners command everyday high-stakes arenas with natural poise and confidence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Big winners dominate high-stakes everyday mixers and networking rooms without struggle.",
+      "concreteVisual": "Carla leads with confident celebratory posture while Everyman looks on with admiration and concern.",
+      "onScreenText": "THE BIG WINNERS",
+      "relationToPrevious": "Continues the dynamic, shifting visual focus to Carla as the big winner.",
+      "addedInformation": "Illustrates the social dominance and ease of the winning archetype in everyday arenas."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "DEAD AIR OF THE BOARDROOM", "style": "box" },
+    "set": "office",
+    "shotOverride": "medium",
+    "cast": ["everyman"],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The painful awkwardness of dead silence in a boardroom before a meeting begins.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Awkward silences in boardrooms before presentations are high-stakes interpersonal arenas.",
+      "concreteVisual": "Everyman Striver sitting slumped in an office boardroom enduring deafening silence.",
+      "onScreenText": "DEAD AIR OF THE BOARDROOM",
+      "relationToPrevious": "Shifts to a corporate arena demonstrating where social micro-calibration matters.",
+      "addedInformation": "Captures the heavy discomfort of pre-meeting silence in professional settings."
+    }
+  },
+  {
+    "i": 15,
+    "concept": "clock",
+    "diagram": null,
+    "callout": { "text": "CEMENTED IN 3 SECONDS", "style": "reveal" },
+    "set": "office",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "surprised",
+    "action": "think",
+    "explainedBy": "A professional reputation is permanently cemented within three seconds of a casual encounter.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Hallway encounters solidify your professional reputation in a critical 3-second window.",
+      "concreteVisual": "Everyman Striver in the office corridor reflecting beside a clock icon showing 3 seconds.",
+      "onScreenText": "CEMENTED IN 3 SECONDS",
+      "relationToPrevious": "Continues the corporate office setting, measuring the micro-window of judgment.",
+      "addedInformation": "The clock icon visually anchors the precise, unforgiving timeframe of first impressions."
+    }
+  },
+  {
+    "i": 16,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CYNICAL MANIPULATION TRICKS", "style": "strike" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Rejecting the cynical interpretation that body language tactics are merely cheap manipulation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We must resist viewing social calibration techniques as cynical manipulation tricks.",
+      "concreteVisual": "Everyman on stage presenting an open-handed explanatory gesture rejecting manipulative intent.",
+      "onScreenText": "CYNICAL MANIPULATION TRICKS",
+      "relationToPrevious": "Transitions from corporate stakes to ethical framing of interpersonal techniques.",
+      "addedInformation": "The strike over manipulation tricks explicitly separates empathy from deceit."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "A CHEAT CODE FOR FAKING", "style": "strike" },
+    "set": "stage",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "Warning against treating interpersonal dynamics as a dishonest shortcut for faking competence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "It is easy to misinterpret social dynamic manuals as cheat codes for faking sincerity.",
+      "concreteVisual": "Everyman Striver holding a mask at chest level while rejecting the idea of social fakery.",
+      "onScreenText": "A CHEAT CODE FOR FAKING",
+      "relationToPrevious": "Continues stage analysis, using the mask prop to represent superficial deception.",
+      "addedInformation": "The held mask and struck callout demonstrate that fake charm backfires."
+    }
+  },
+  {
+    "i": 18,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "ANATOMICAL DEFENSE MANUAL", "style": "highlight" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "shield",
+    "explainedBy": "Reframing techniques as protective armor designed to manage mutual social vulnerability.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Techniques are an anatomical defense manual to protect against social vulnerability.",
+      "concreteVisual": "Everyman holds a shield prop on stage, visualizing protective emotional armor.",
+      "onScreenText": "ANATOMICAL DEFENSE MANUAL",
+      "relationToPrevious": "Replaces the mask of deceit with the shield of protective defense.",
+      "addedInformation": "Reframes technique from predation to mutual emotional protection."
+    }
+  },
+  {
+    "i": 19,
+    "concept": "heart",
+    "diagram": null,
+    "callout": { "text": "CHOREOGRAPHING EMOTIONAL SAFETY", "style": "box" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "happy",
+    "action": "talk",
+    "explainedBy": "True charisma is the deliberate practice of making conversational partners feel emotionally safe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Charisma is the deliberate choreography of making the other person feel emotionally safe.",
+      "concreteVisual": "Everyman stands on stage gesturing warmly beside a heart icon representing emotional safety.",
+      "onScreenText": "CHOREOGRAPHING EMOTIONAL SAFETY",
+      "relationToPrevious": "Resolves the ethical reframe by defining genuine charisma as emotional reassurance.",
+      "addedInformation": "Pairs the heart icon with warm body posture to reinforce safety and care."
+    }
+  },
+  {
+    "i": 20,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "A MIDTOWN RESTAURANT LOUNGE", "style": "reveal" },
+    "set": "cafe",
+    "shotOverride": "wide",
+    "cast": ["carla"],
+    "expression": "neutral",
+    "action": "idle",
+    "explainedBy": "Entering the case study setting of an upscale Midtown cocktail lounge at dusk.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The hosts transition into the first case study set in a Midtown cocktail lounge.",
+      "concreteVisual": "Wide view of an ambient cocktail lounge with low tables and warm lighting as Carla arrives.",
+      "onScreenText": "A MIDTOWN RESTAURANT LOUNGE",
+      "relationToPrevious": "Begins the Melissa/Carla narrative case study sequence.",
+      "addedInformation": "Establishes the sophisticated corporate venue for the upcoming interaction."
+    }
+  },
+  {
+    "i": 21,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE CLINKING OF ICE", "style": "highlight" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "medium",
+    "cast": ["carla"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "cup",
+    "explainedBy": "The sensory ambiance of an evening lounge filled with clinking glassware and networking murmur.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "At 6 p.m. the lounge is alive with clinking ice glasses and overlapping corporate chatter.",
+      "concreteVisual": "Carla holds a rocks glass in the lounge, immersed in the ambient networking environment.",
+      "onScreenText": "THE CLINKING OF ICE",
+      "relationToPrevious": "Continues the lounge setting, bringing sensory details to life.",
+      "addedInformation": "Grounds the scene in a realistic professional cocktail atmosphere."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "MELISSA TAKING OVER", "style": "reveal" },
+    "set": "cafe",
+    "shotOverride": "medium",
+    "cast": ["carla"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Introducing Melissa, preparing to step up and lead her family's packaging business.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Meet Melissa, stepping up to take leadership of her family's corrugated box business.",
+      "concreteVisual": "Carla embodying Melissa in her sharp navy blazer looking poised and professional.",
+      "onScreenText": "MELISSA TAKING OVER",
+      "relationToPrevious": "Identifies Carla as Melissa, establishing her professional stakes.",
+      "addedInformation": "Establishes high personal and commercial stakes for the meeting."
+    }
+  },
+  {
+    "i": 23,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "PROSPECTIVE CLIENTS", "style": "box" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "neutral",
+    "action": "walk",
+    "partnerExpression": "neutral",
+    "partnerAction": "sit",
+    "explainedBy": "Melissa approaches a table of prospective high-value corporate clients.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Melissa meets three prospective, lucrative corporate clients for the first time.",
+      "concreteVisual": "Carla walks toward a table where Everyman sits representing the prospective clients.",
+      "onScreenText": "PROSPECTIVE CLIENTS",
+      "relationToPrevious": "Advances the encounter as Melissa steps toward the clients' table.",
+      "addedInformation": "Frames the approach as a critical first-contact moment."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE MOMENT EVERYTHING SHIFTS", "style": "reveal" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "neutral",
+    "action": "idle",
+    "partnerExpression": "neutral",
+    "partnerAction": "sit",
+    "explainedBy": "Melissa halts at the table where the critical micro-calibration begins.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "As she arrives at their table, the exact micro-calibration moment begins.",
+      "concreteVisual": "Carla pauses standing right in front of the seated client table.",
+      "onScreenText": "THE MOMENT EVERYTHING SHIFTS",
+      "relationToPrevious": "Suspends the narrative at the precise threshold of initial contact.",
+      "addedInformation": "Focuses all visual attention on the upcoming facial micro-adjustment."
+    }
+  },
+  {
+    "i": 25,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "A FULL DELIBERATE SECOND", "style": "box" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "neutral",
+    "action": "idle",
+    "partnerExpression": "neutral",
+    "partnerAction": "sit",
+    "explainedBy": "Melissa maintains direct eye contact while holding a neutral face for one full second.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "She locks direct eye contact and pauses her expression for a full deliberate second.",
+      "concreteVisual": "Carla maintains a steady, neutral, attentive gaze looking straight into the seated client's eyes.",
+      "onScreenText": "A FULL DELIBERATE SECOND",
+      "relationToPrevious": "Depicts the start state of the Flooding Smile: the controlled 1-second pause.",
+      "addedInformation": "Shows the disciplined stillness that precedes the delayed smile."
+    }
+  },
+  {
+    "i": 26,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "A BIG WARM SMILE", "style": "highlight" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "happy",
+    "action": "talk",
+    "partnerExpression": "surprised",
+    "partnerAction": "sit",
+    "explainedBy": "After the delay, a radiant warm smile floods her face and crinkles her eyes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A warm, genuine smile slowly floods her face, crinkling her eyes after the pause.",
+      "concreteVisual": "Carla's face blossoms into a radiant smile while the seated client looks up pleasantly surprised.",
+      "onScreenText": "A BIG WARM SMILE",
+      "relationToPrevious": "Completes the state change from the neutral pause of beat 25 to the flooding smile.",
+      "addedInformation": "Visualizes the Flooding Smile technique and its immediate positive impact."
+    }
+  },
+  {
+    "i": 27,
+    "concept": "heart",
+    "diagram": null,
+    "callout": { "text": "SILENT INTERNAL REACTION", "style": "reveal" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["everyman", "carla"],
+    "expression": "surprised",
+    "action": "sit",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "The clients experience a subconscious, involuntary biological surge of affirmation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Monitoring the clients' biometrics would reveal a sudden involuntary surge of connection.",
+      "concreteVisual": "A heart icon pulses beside Everyman as he reacts involuntarily to the customized smile.",
+      "onScreenText": "SILENT INTERNAL REACTION",
+      "relationToPrevious": "Shifts focus to the physiological reception inside the recipient.",
+      "addedInformation": "The heart icon grounds the psychological impact in biological resonance."
+    }
+  },
+  {
+    "i": 28,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "FEELING INCREDIBLY SPECIAL", "style": "highlight" },
+    "set": "cafe",
+    "continue": true,
+    "shotOverride": "twoShot",
+    "cast": ["everyman", "carla"],
+    "expression": "happy",
+    "action": "sit",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "The client experiences a profound feeling of being uniquely seen and valued.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The recipient experiences an unmistakable emotional wave of feeling uniquely special.",
+      "concreteVisual": "Everyman looks up warmly at Carla, visibly disarmed and feeling valued.",
+      "onScreenText": "FEELING INCREDIBLY SPECIAL",
+      "relationToPrevious": "Captures the emotional result of the Flooding Smile interaction.",
+      "addedInformation": "Confirms mutual rapport and emotional safety achieved through the delayed smile."
+    }
+  },
+  {
+    "i": 29,
+    "concept": "clock",
+    "diagram": null,
+    "callout": { "text": "DELAY A SMILE BY 1 SECOND", "style": "box" },
+    "set": "room",
+    "cast": ["carla"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "The psychological rule: delaying your smile by one full second creates deep perceived sincerity.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Delaying your smile by one second while holding eye contact transforms its psychological impact.",
+      "concreteVisual": "Carla demonstrates the deliberate 1-second pause beside a clock icon measuring the delay.",
+      "onScreenText": "DELAY A SMILE BY 1 SECOND",
+      "relationToPrevious": "Extracts the generalized principle from the Melissa case study.",
+      "addedInformation": "The clock icon measures the exact calibrated pause required for perceived sincerity."
+    }
+  },
+  {
+    "i": 30,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "BESPOKE SINCERITY", "style": "highlight" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "happy",
+    "action": "point",
+    "explainedBy": "The delayed smile creates an undeniable perception of custom, tailored personal warmth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The pause generates an undeniable impression of bespoke sincerity tailored specifically to them.",
+      "concreteVisual": "Carla smiles warmly and points forward, communicating tailored personal regard.",
+      "onScreenText": "BESPOKE SINCERITY",
+      "relationToPrevious": "Explains the cognitive takeaway of the calibrated delay.",
+      "addedInformation": "Contrasts custom interpersonal recognition against automatic reflexive gestures."
+    }
+  },
+  {
+    "i": 31,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          { "label": "INSTANT GRIN", "glyph": "eye" },
+          { "label": "PATTERN RECOGNITION", "glyph": "brain" },
+          { "label": "DEFENSE MECHANISM", "glyph": "lock" }
+        ],
+        "token": { "glyph": "spark", "tag": "REFLEX", "from": 0 },
+        "cues": {
+          "n0": "instant grin",
+          "n1": "pattern recognition",
+          "n2": "defense mechanism"
+        }
+      }
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "The brain's pattern recognition detects instant grins and categorizes them as cheap reflexes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain categorizes an instant grin as a reflexive defense mechanism rather than genuine delight.",
+      "concreteVisual": "A causal chain diagram tracing an instant grin through pattern recognition into a defensive classification.",
+      "onScreenText": "none",
+      "relationToPrevious": "Deconstructs the neurological mechanism behind why instant smiling fails.",
+      "addedInformation": "Diagrams the subconscious cognitive dismissal of unearned grins."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          { "label": "DELAYED SMILE", "glyph": "clock" },
+          { "label": "COGNITIVE PROCESSING", "glyph": "brain" },
+          { "label": "BESPOKE DELIGHT", "glyph": "heart" }
+        ],
+        "token": { "glyph": "spark", "tag": "SINCERITY", "from": 0 },
+        "contrast": { "label": "STORE CHIME TRIGGER", "glyph": "cross" },
+        "cues": {
+          "n0": "delayed smile",
+          "n1": "cognitive processing",
+          "n2": "mechanical trigger"
+        }
+      }
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Unlike a mechanical store chime, a delayed smile proves active cognitive processing.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A delayed smile signals cognitive processing rather than a mechanical store chime reflex.",
+      "concreteVisual": "A causal diagram contrasting a gas station store chime against genuine cognitive processing.",
+      "onScreenText": "none",
+      "relationToPrevious": "Shows the alternative causal path of the delayed smile versus the automatic trigger.",
+      "addedInformation": "Contrasts mechanical triggers with deliberate cognitive acknowledgement."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "SPECIFIC REACTION TO YOUR PRESENCE", "style": "box" },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": ["carla", "everyman"],
+    "expression": "happy",
+    "action": "talk",
+    "partnerExpression": "happy",
+    "partnerAction": "idle",
+    "explainedBy": "The delayed smile signals: I saw you, processed who you are, and my delight is specifically for you.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A delayed smile proves your delight is a specific personal reaction to their unique presence.",
+      "concreteVisual": "Carla addresses Everyman with genuine warmth, communicating direct personal delight.",
+      "onScreenText": "SPECIFIC REACTION TO YOUR PRESENCE",
+      "relationToPrevious": "Returns from diagrams to the human staging of the principle in action.",
+      "addedInformation": "Shows interpersonal engagement where the listener feels uniquely acknowledged."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": ["MASS-PRODUCED AFFECTION", "CUSTOM-TAILORED AFFECTION"],
+      "values": [0.85]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "The difference between cheap mass-produced affection and custom-tailored personal warmth.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "It is the difference between mass-produced affection and something custom-tailored just for them.",
+      "concreteVisual": "A spectrum diagram contrasting mass-produced affection on the left against custom-tailored affection on the right.",
+      "onScreenText": "none",
+      "relationToPrevious": "Summarizes the fundamental polarity between automatic and bespoke warmth.",
+      "addedInformation": "Positions the Flooding Smile firmly at the bespoke end of interpersonal warmth."
+    }
+  },
+  {
+    "i": 35,
+    "concept": "notes",
+    "diagram": null,
+    "callout": { "text": "BOSTON AND YALE RESEARCH", "style": "reveal" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "Introducing the empirical study on eye contact and smiling conducted by Boston and Yale researchers.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The biological mechanics are illustrated by a fascinating study conducted by Boston and Yale researchers.",
+      "concreteVisual": "Everyman Striver holding research notes in an academic setting introducing the study.",
+      "onScreenText": "BOSTON AND YALE RESEARCH",
+      "relationToPrevious": "Bridges chunk 1 to chunk 2 by setting up the experimental study.",
+      "addedInformation": "The held research notes visually establish scientific rigor and empirical backing."
+    }
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "slug": "how-to-talk-to-anyone",
+  "engine": "antidote",
+  "at": "2026-10-31T07:44:36.043Z",
+  "write": true,
+  "written": true,
+  "problems": 0,
+  "byClass": {
+    "OPERATOR": 0,
+    "AGENT_STEP": 0,
+    "REAUTHOR": 0,
+    "ROUTINE": 0
+  },
+  "byCode": [],
+  "byFile": {},
+  "operatorNeeded": false,
+  "next": "merged — next: node scripts/preview-state.js status (it names the next step: readcheck for Antidote, make-book for Vox); routine, never end the turn",
+  "items": [],
+  "warnings": 7,
+  "review": [
+    {
+      "i": 16,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"CYNICAL MANIPULATION TRICKS\" repeats the narration and nothing else on screen carries the meaning (lone talk, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 48,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"PRIMAL THREAT SIGNAL\" repeats the narration and nothing else on screen carries the meaning (lone think, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 59,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"BIG BABY PIVOT\" repeats the narration and nothing else on screen carries the meaning (lone talk, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 62,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"DEFENSIVE HALF SMILES\" repeats the narration and nothing else on screen carries the meaning (lone point, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 67,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"THE BIG BABY PIVOT\" repeats the narration and nothing else on screen carries the meaning (lone point, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 78,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"PULLS YOUR HEAD HIGH\" repeats the narration and nothing else on screen carries the meaning (lone idle, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 167,
+      "code": "EARLY_TEXT",
+      "field": "callout",
+      "why": "\"TRANSACTIONAL FLATTERY\" shows \"transactional flattery\" before the narration says it (beat 169) — move the text to that beat or use this beat's words",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 233,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"GUARD DOG PROGRAMMING\" repeats the narration and nothing else on screen carries the meaning (lone talk, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    },
+    {
+      "i": 235,
+      "code": "ECHO_ONLY_CARRIER",
+      "field": "callout",
+      "why": "the callout \"REFUSING TO PLAY THE ROLE\" repeats the narration and nothing else on screen carries the meaning (lone talk, no object/icon/diagram) — text-carried",
+      "signal": "REVIEW_REQUIRED"
+    }
+  ],
+  "refused": {}
+}

@@ -1,0 +1,869 @@
+[
+  {
+    "i": 36,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "OPPOSITE SEX SUBJECTS", "style": "reveal" },
+    "set": "room",
+    "cast": ["everyman", "carla"],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "talk",
+    "explainedBy": "Two participants are seated facing each other for a conversation study with a secret assignment.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Researchers set up paired conversations with one subject assigned a secret task.",
+      "concreteVisual": "Two subjects, a man and a woman, seated opposite each other engaged in discussion in a research room.",
+      "onScreenText": "OPPOSITE SEX SUBJECTS",
+      "relationToPrevious": "Starts the Boston/Yale research experiment sequence.",
+      "addedInformation": "Establishes the paired subjects and experimental dialogue setup."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "COUNT EVERY BLINK", "style": "highlight" },
+    "set": "room",
+    "continue": true,
+    "cast": ["everyman", "carla"],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "surprised",
+    "partnerAction": "talk",
+    "explainedBy": "The instruction forces one partner to stare intently to track the other person's blinks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The secret task instructs one subject to count every single blink.",
+      "concreteVisual": "The man looks closely at the woman's eyes while she blinks during the conversation.",
+      "onScreenText": "COUNT EVERY BLINK",
+      "relationToPrevious": "Adds the secret task instruction to the conversation setup.",
+      "addedInformation": "Focuses the visual interaction on observing eye blinks."
+    }
+  },
+  {
+    "i": 38,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "UNBROKEN EYE CONTACT", "style": "box" },
+    "set": "room",
+    "continue": true,
+    "cast": ["everyman", "carla"],
+    "expression": "blank",
+    "action": "idle",
+    "partnerExpression": "surprised",
+    "partnerAction": "idle",
+    "explainedBy": "The counting task forces an unbroken, intense gaze between the participants.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Counting blinks forces relentless, unbroken eye contact.",
+      "concreteVisual": "The man locks eyes in an unblinking, direct stare at the woman.",
+      "onScreenText": "UNBROKEN EYE CONTACT",
+      "relationToPrevious": "Maintains the pair as the stare intensifies into unbroken lock.",
+      "addedInformation": "Visualizes the physical reality of the counting task: locked stare."
+    }
+  },
+  {
+    "i": 39,
+    "concept": "heart",
+    "diagram": null,
+    "callout": { "text": "DEEP RESPECT AND FONDNESS", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla", "everyman"],
+    "expression": "happy",
+    "action": "reach",
+    "partnerExpression": "happy",
+    "partnerAction": "idle",
+    "explainedBy": "The stared-at participant develops an unexpected feeling of affection and fondness.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Stared-at subjects reported significantly higher fondness and respect.",
+      "concreteVisual": "The stared-at partner smiles warmly and reaches toward the heart icon appearing beside them.",
+      "onScreenText": "DEEP RESPECT AND FONDNESS",
+      "relationToPrevious": "Shows the experimental result of the prolonged eye contact.",
+      "addedInformation": "Illustrates the positive emotional payoff of fondness with a heart."
+    }
+  },
+  {
+    "i": 40,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "NOT A TRICK", "style": "reveal" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "surprised",
+    "action": "think",
+    "explainedBy": "The host questions whether staring alone works, confirmed to be physiological rather than a trick.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The reaction is physiological biology, not merely a psychological illusion.",
+      "concreteVisual": "A man looking startled and questioning how staring triggers an actual physical reaction.",
+      "onScreenText": "NOT A TRICK",
+      "relationToPrevious": "Shifts from the experiment's behavioral result to its biological cause.",
+      "addedInformation": "Emphasizes the biological reality behind the psychological effect."
+    }
+  },
+  {
+    "i": 41,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          { "label": "INTENSE EYE CONTACT", "glyph": "eye" },
+          { "label": "ADRENALINE SURGE", "glyph": "bolt" },
+          { "label": "PEA RELEASE", "glyph": "spark" }
+        ],
+        "token": {
+          "glyph": "spark",
+          "tag": "EXCITEMENT",
+          "from": 0
+        },
+        "cues": {
+          "n0": "shoots a surge",
+          "n1": "adrenaline",
+          "n2": "phenylthylamine"
+        }
+      }
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Intense eye contact triggers an immediate chain of adrenaline and phenylethylamine release.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Eye contact shoots adrenaline and phenylethylamine through the recipient's veins.",
+      "concreteVisual": "A causal chain flowing from eye contact through adrenaline surge to chemical PEA release.",
+      "onScreenText": "none",
+      "relationToPrevious": "Diagrams the biological mechanism introduced in the prior beat.",
+      "addedInformation": "Shows the step-by-step neurochemical cascade."
+    }
+  },
+  {
+    "i": 42,
+    "concept": null,
+    "diagram": {
+      "type": "causal",
+      "labels": [],
+      "scale": 1.25,
+      "causal": {
+        "stations": [
+          { "label": "INTENSE EYE CONTACT", "glyph": "eye" },
+          { "label": "ADRENALINE SURGE", "glyph": "bolt" },
+          { "label": "PEA RELEASE", "glyph": "spark" }
+        ],
+        "token": {
+          "glyph": "spark",
+          "tag": "EXCITEMENT",
+          "tagTo": "FALLING IN LOVE",
+          "from": 0
+        },
+        "cues": {
+          "relabel": "falling in love"
+        }
+      }
+    },
+    "continue": true,
+    "callout": null,
+    "cast": [],
+    "explainedBy": "The chemical PEA released by eye contact is identical to the hormone of early romance and falling in love.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "PEA is the exact hormone released during erotic excitement or falling in love.",
+      "concreteVisual": "The causal diagram continues as the token tag relabels from excitement to falling in love.",
+      "onScreenText": "none",
+      "relationToPrevious": "Continues the causal diagram to reveal the hormone's romantic nature.",
+      "addedInformation": "Connects the conversational eye contact hormone to romance biology."
+    }
+  },
+  {
+    "i": 43,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "STICKY EYES", "style": "highlight" },
+    "set": "room",
+    "cast": ["carla", "everyman"],
+    "expression": "smirk",
+    "action": "talk",
+    "partnerExpression": "surprised",
+    "partnerAction": "idle",
+    "explainedBy": "Lowndes introduces the technique Sticky Eyes, stretching gaze contact until it reluctantly breaks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Lowndes names this technique Sticky Eyes: stretching eye contact like warm taffy.",
+      "concreteVisual": "Carla holds an engaged gaze on the man, holding eye contact past the expected moment.",
+      "onScreenText": "STICKY EYES",
+      "relationToPrevious": "Names the formal technique resulting from the chemical mechanism.",
+      "addedInformation": "Frames the prolonged gaze as an intentional social tool."
+    }
+  },
+  {
+    "i": 44,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "END UP IN HR", "style": "box" },
+    "set": "office",
+    "cast": ["everyman"],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The speaker pushes back: an uncalibrated blank stare at co-workers risks disciplinary action.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Uncalibrated staring at colleagues triggers fear of workplace HR complaints.",
+      "concreteVisual": "A worried professional slumped in an office setting realizing the hazard of unblinking staring.",
+      "onScreenText": "END UP IN HR",
+      "relationToPrevious": "Contrasts the idealized technique with real-world workplace risks.",
+      "addedInformation": "Grounds the risk in common professional anxiety."
+    }
+  },
+  {
+    "i": 45,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "TERRIFIED OF THE CAT", "style": "reveal" },
+    "set": "room",
+    "cast": ["carla"],
+    "expression": "afraid",
+    "action": "reach",
+    "explainedBy": "The book illustrates uncalibrated staring with the story of Zola terrified by the family cat.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Housekeeper Zola was terrified by the family Siamese cat's unbroken gaze.",
+      "concreteVisual": "Carla recoils with hands raised in fear, demonstrating Zola's terror at an unblinking gaze.",
+      "onScreenText": "TERRIFIED OF THE CAT",
+      "relationToPrevious": "Introduces the cautionary tale of the predatory cat stare.",
+      "addedInformation": "Depicts visceral fear caused by cold, unbroken stares."
+    }
+  },
+  {
+    "i": 46,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "STARING INTO THE SOUL", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "blank",
+    "action": "sit",
+    "explainedBy": "The emotionless cat sat on the stairs staring into her soul, signaling predatory intent.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "An unbroken stare in nature signals predatory calculation, not respect.",
+      "concreteVisual": "A seated figure adopting a cold, unblinking predatory posture on the steps.",
+      "onScreenText": "STARING INTO THE SOUL",
+      "relationToPrevious": "Explains why the cat's stare terrified the housekeeper.",
+      "addedInformation": "Connects cold stillness with primal threat signals."
+    }
+  },
+  {
+    "i": 47,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "PREDATOR CALCULATING", "style": "box" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "angry",
+    "action": "point",
+    "explainedBy": "In nature an unbroken stare means a predator calculating the trajectory to bite your neck.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "In the wild, unbroken staring is a lethal predatory calculation.",
+      "concreteVisual": "A sharp, aggressive posture pointing directly forward, embodying predator focus.",
+      "onScreenText": "PREDATOR CALCULATING",
+      "relationToPrevious": "Delivers the evolutionary explanation of unbroken gaze.",
+      "addedInformation": "Dramatizes the animal threat of calculating an attack."
+    }
+  },
+  {
+    "i": 48,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "PRIMAL THREAT SIGNAL", "style": "reveal" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "Prolonged eye contact without warm calibration is interpreted by the brain as an existential threat.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Prolonged eye contact is a primal threat signal if it lacks calibration.",
+      "concreteVisual": "A man reflecting anxiously on how gaze without warmth triggers instinctual danger.",
+      "onScreenText": "PRIMAL THREAT SIGNAL",
+      "relationToPrevious": "Translates the predator anecdote into human communication theory.",
+      "addedInformation": "Identifies lack of calibration as the cause of social creepiness."
+    }
+  },
+  {
+    "i": 49,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "COMMON BELIEF",
+        "claim": "EYE CONTACT CREATES A BOND",
+        "inputs": ["EYE CONTACT", "ANY GENDER PAIR", "UNBROKEN TIME"],
+        "hub": "BONDING",
+        "output": "MUTUAL AFFECTION",
+        "verdict": "HOSTILE",
+        "reason": "MALE GAZE CREATES A THREAT",
+        "truth": "CALIBRATED EYE CONTACT BY GENDER DYNAMICS",
+        "cues": {
+          "links": "In fact, that same Yale study",
+          "doubt": "highlighted this exact boundary",
+          "rejected": { "phrase": "didn't feel a sudden surge", "occurrence": 1 }
+        }
+      }
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "The assumption that staring creates fondness fails when men stare at men, provoking hostility.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Male subjects stared at by another man felt hostility rather than fondness.",
+      "concreteVisual": "A refute diagram showing universal staring rejected when tested on male-to-male pairs.",
+      "onScreenText": "none",
+      "relationToPrevious": "Refutes the universal claim of uncalibrated eye contact.",
+      "addedInformation": "Reveals the gender boundary discovered by the Yale study."
+    }
+  },
+  {
+    "i": 50,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "COMMON BELIEF",
+        "claim": "EYE CONTACT CREATES A BOND",
+        "inputs": ["EYE CONTACT", "ANY GENDER PAIR", "UNBROKEN TIME"],
+        "hub": "BONDING",
+        "output": "MUTUAL AFFECTION",
+        "verdict": "HOSTILE",
+        "reason": "MALE GAZE CREATES A THREAT",
+        "truth": "CALIBRATED EYE CONTACT BY GENDER DYNAMICS",
+        "cues": {
+          "reason": "fightor-flight response",
+          "truth": "not a bonding response"
+        }
+      }
+    },
+    "continue": true,
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Prolonged male gaze fires adrenaline into a fight-or-flight response rather than a chemical bonding response.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Adrenaline triggers fight-or-flight rather than bonding when gaze is miscalibrated.",
+      "concreteVisual": "The refute diagram highlights the reason: threat response replacing the PEA surge.",
+      "onScreenText": "none",
+      "relationToPrevious": "Completes the refute diagram with the physiological reason.",
+      "addedInformation": "Shows adrenaline diverted to fight-or-flight instead of bonding."
+    }
+  },
+  {
+    "i": 51,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "MICRO CALIBRATION", "style": "highlight" },
+    "set": "office",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Micro-calibration is essential: men must adjust eye contact intensity when speaking to men.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Micro-calibration requires moderating eye contact when speaking man-to-man.",
+      "concreteVisual": "Everyman explains the necessity of fine-tuning gaze intensity in conversations.",
+      "onScreenText": "MICRO CALIBRATION",
+      "relationToPrevious": "Presents micro-calibration as the solution to gaze hostility.",
+      "addedInformation": "Establishes conscious calibration as the core rule."
+    }
+  },
+  {
+    "i": 52,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "BREAK IT NATURALLY", "style": "reveal" },
+    "set": "office",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "In male conversation, especially on vulnerable topics, the gaze must break naturally.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Eye contact between men must break naturally during vulnerable topics.",
+      "concreteVisual": "Everyman gestures turning gaze away slightly, demonstrating a comfortable release of tension.",
+      "onScreenText": "BREAK IT NATURALLY",
+      "relationToPrevious": "Specifies how to execute micro-calibration between men.",
+      "addedInformation": "Illustrates releasing gaze to reduce conversational pressure."
+    }
+  },
+  {
+    "i": 53,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "HIGHLY STICKY", "style": "reveal" },
+    "set": "cafe",
+    "cast": ["everyman", "carla"],
+    "expression": "happy",
+    "action": "talk",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "Sticky eye contact is held warmly with women to cultivate genuine empathetic rapport.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sticky eyes can be held longer with women to build empathetic engagement.",
+      "concreteVisual": "A man and woman in conversation sharing warm, sustained, empathetic eye contact.",
+      "onScreenText": "HIGHLY STICKY",
+      "relationToPrevious": "Contrasts male-to-male calibration with mixed-gender engagement.",
+      "addedInformation": "Shows warm, attentive focus in social dialogue."
+    }
+  },
+  {
+    "i": 54,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "ANCHORING TO YOUR WORDS", "style": "box" },
+    "set": "cafe",
+    "continue": true,
+    "cast": ["everyman", "carla"],
+    "expression": "happy",
+    "action": "reach",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "The gaze functions as an empathetic tether anchoring your complete attention to their words.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The gaze acts as an empathetic anchor signaling total absorption in the other's words.",
+      "concreteVisual": "The listener leans in attentively with a supportive hand reach while the partner speaks.",
+      "onScreenText": "ANCHORING TO YOUR WORDS",
+      "relationToPrevious": "Clarifies that sticky eyes are an empathetic anchor, not a blank stare.",
+      "addedInformation": "Demonstrates listening through engaged physical posture."
+    }
+  },
+  {
+    "i": 55,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": ["LOW WATTAGE", "HIGH WATTAGE"],
+      "values": [0.65]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Social calibration operates like dialing down the wattage of attention depending on the partner.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Social awareness means dialing attention wattage up or down depending on the audience.",
+      "concreteVisual": "A spectrum scale showing attention intensity adjusted between low and high wattage.",
+      "onScreenText": "none",
+      "relationToPrevious": "Summarizes the dynamic calibration rule as an adjustable spectrum.",
+      "addedInformation": "Visualizes attention as a continuum rather than on/off."
+    }
+  },
+  {
+    "i": 56,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "NOT HYPNOTIZING ANYONE", "style": "strike" },
+    "set": "office",
+    "cast": ["everyman"],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "Techniques like sticky eyes are not about manipulative sales tricks or hypnotizing clients.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sticky eyes and flooding smiles are not cheap hypnosis or sales manipulation.",
+      "concreteVisual": "A man sets aside a false smiling mask, rejecting superficial social manipulation.",
+      "onScreenText": "NOT HYPNOTIZING ANYONE",
+      "relationToPrevious": "Dispels the misconception that these techniques are cynical sales tricks.",
+      "addedInformation": "Uses the mask icon to reject dishonest manipulation."
+    }
+  },
+  {
+    "i": 57,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "CHOREOGRAPHING SAFETY", "style": "reveal" },
+    "set": "office",
+    "cast": ["carla"],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "shield",
+    "explainedBy": "True calibration choreographs emotional safety, offering a secure harbor for their primitive brain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mastery is choreographing emotional safety as an exclusive harbor for their primitive brain.",
+      "concreteVisual": "Carla stands confidently holding a protective shield, symbolizing emotional safety.",
+      "onScreenText": "CHOREOGRAPHING SAFETY",
+      "relationToPrevious": "States the true goal: building psychological and biological safety.",
+      "addedInformation": "Represents interpersonal trust with a protective shield."
+    }
+  },
+  {
+    "i": 58,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": ["FACIAL SAFETY", "PHYSICAL SAFETY"]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Facial safety must be grounded by physical body posture to establish complete rapport.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Facial rapport must be reinforced and grounded by full physical posture.",
+      "concreteVisual": "A flow diagram linking facial safety directly to bodily physical safety.",
+      "onScreenText": "none",
+      "relationToPrevious": "Bridges facial micro-calibration to whole-body posturing.",
+      "addedInformation": "Maps the transition from facial cues to postural alignment."
+    }
+  },
+  {
+    "i": 59,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "BIG BABY PIVOT", "style": "highlight" },
+    "set": "room",
+    "cast": ["carla"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "The hosts introduce the big baby pivot and epaulet posture as foundational physical tools.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The next core techniques are the Big Baby Pivot and the Epaulet Posture.",
+      "concreteVisual": "Carla introduces the postural techniques with an upright, deliberate stance.",
+      "onScreenText": "BIG BABY PIVOT",
+      "relationToPrevious": "Announces the two primary physical alignment techniques.",
+      "addedInformation": "Opens the narrative demonstration scene."
+    }
+  },
+  {
+    "i": 60,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CORPORATE MIXER", "style": "reveal" },
+    "set": "room",
+    "cast": ["carla"],
+    "expression": "worried",
+    "action": "walk",
+    "explainedBy": "Carla steps into a packed corporate mixer surrounded by intimidating industry leaders.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A high-stakes corporate mixer crowded with industry heavyweights.",
+      "concreteVisual": "Carla steps tentatively into an upscale, intimidating corporate networking room.",
+      "onScreenText": "CORPORATE MIXER",
+      "relationToPrevious": "Establishes the story scene setting for Carla's case study.",
+      "addedInformation": "Places Carla in the high-pressure social mixer environment."
+    }
+  },
+  {
+    "i": 61,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "DIVORCED COPYWRITER", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Carla, recently divorced and re-entering the professional scene, feels vulnerable and anxious.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carla is a recently divorced copywriter trying to re-enter professional networking.",
+      "concreteVisual": "Carla slumps slightly, conveying vulnerability and self-conscious hesitation in the crowd.",
+      "onScreenText": "DIVORCED COPYWRITER",
+      "relationToPrevious": "Reveals Carla's personal backstory and vulnerability.",
+      "addedInformation": "Shows emotional anxiety behind her guarded physical posture."
+    }
+  },
+  {
+    "i": 62,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "DEFENSIVE HALF SMILES", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "smirk",
+    "action": "point",
+    "explainedBy": "Carla hides near an architectural pillar, casting nervous half-smiles over her shoulder.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carla hides by a pillar, casting nervous defensive half-smiles over her shoulder.",
+      "concreteVisual": "Carla shelters against a pillar, casting a strained half-smile over her angled shoulder.",
+      "onScreenText": "DEFENSIVE HALF SMILES",
+      "relationToPrevious": "Depicts Carla's defensive, closed-off body language.",
+      "addedInformation": "Visualizes the hesitant over-the-shoulder smile mistake."
+    }
+  },
+  {
+    "i": 63,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "ANGLED AWAY", "style": "strike" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "Because her body is angled defensively away, passing guests quickly lose interest and walk off.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "When a torso is angled away, people lose interest and wander off.",
+      "concreteVisual": "Carla's angled, averted posture causes prospective conversationalists to walk away.",
+      "onScreenText": "ANGLED AWAY",
+      "relationToPrevious": "Shows the negative consequence of an angled body posture.",
+      "addedInformation": "Demonstrates how angled shoulders repel social approaches."
+    }
+  },
+  {
+    "i": 64,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "TUG ON HER SKIRT", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "surprised",
+    "action": "idle",
+    "explainedBy": "Suddenly Carla feels a gentle tug on her skirt: it is the hostess's five-year-old son Willie.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The hostess's five-year-old son Willie gives a tiny tug on Carla's skirt.",
+      "concreteVisual": "Carla stops in surprise as she feels a tug from a child down at her skirt.",
+      "onScreenText": "TUG ON HER SKIRT",
+      "relationToPrevious": "The unexpected interruption that breaks Carla's guarded posture.",
+      "addedInformation": "Introduces the non-threatening child trigger."
+    }
+  },
+  {
+    "i": 65,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "PIVOTS 100 PERCENT", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "happy",
+    "action": "celebrate",
+    "explainedBy": "Instantly Carla drops all defense and pivots her entire torso one hundred percent toward the child.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carla drops her defensive shoulder angle and pivots 100 percent toward the child.",
+      "concreteVisual": "Carla turns her full chest and face directly toward the child, radiating welcoming warmth.",
+      "onScreenText": "PIVOTS 100 PERCENT",
+      "relationToPrevious": "The sudden transformation in posture upon greeting a child.",
+      "addedInformation": "Depicts complete physical re-orientation with open arms."
+    }
+  },
+  {
+    "i": 66,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "HELLO THERE WILLIE", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla"],
+    "expression": "happy",
+    "action": "reach",
+    "explainedBy": "Carla bends down with wide eyes, completely absorbed in greeting young Willie.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Her eyes widen with complete warmth as she greets the child by name.",
+      "concreteVisual": "Carla reaches forward with an open, genuine, beaming smile of undivided affection.",
+      "onScreenText": "HELLO THERE WILLIE",
+      "relationToPrevious": "Completes the genuine, unguarded interaction with Willie.",
+      "addedInformation": "Shows total, uninhibited social warmth in action."
+    }
+  },
+  {
+    "i": 67,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE BIG BABY PIVOT", "style": "highlight" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "What Carla did instinctively with the child is what Lowndes defines as the Big Baby Pivot.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Carla's instinctive pivot toward a child is the definition of the Big Baby Pivot.",
+      "concreteVisual": "Everyman explains how Carla's natural reaction embodies the core technique.",
+      "onScreenText": "THE BIG BABY PIVOT",
+      "relationToPrevious": "Extracts the universal technique from Carla's specific story.",
+      "addedInformation": "Identifies the instinctive child greeting as the master template."
+    }
+  },
+  {
+    "i": 68,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "POTENT NETWORKING TOOL", "style": "reveal" },
+    "set": "room",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "In an adult networking room this pivot is potent because adults secretly crave undivided attention.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Applying this pivot to adults is potent because everyone craves total acceptance.",
+      "concreteVisual": "Everyman speaks with authority about applying full-torso orientation to adult peers.",
+      "onScreenText": "POTENT NETWORKING TOOL",
+      "relationToPrevious": "Applies the child reaction to adult professional environments.",
+      "addedInformation": "Explains why adults respond powerfully to total physical presence."
+    }
+  },
+  {
+    "i": 69,
+    "concept": "heart",
+    "diagram": null,
+    "callout": { "text": "ORIENT HEART CENTER", "style": "reveal" },
+    "set": "room",
+    "cast": ["everyman", "carla"],
+    "expression": "happy",
+    "action": "point",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "Orienting your torso and literal heart center toward an interlocutor satisfies primitive security needs.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Turning your chest and heart center directly toward someone satisfies deep safety needs.",
+      "concreteVisual": "Everyman stands facing Carla chest-to-chest, gesturing toward the heart center between them.",
+      "onScreenText": "ORIENT HEART CENTER",
+      "relationToPrevious": "Explains the physical geometry of full frontal alignment.",
+      "addedInformation": "Connects chest orientation to emotional heart center alignment."
+    }
+  },
+  {
+    "i": 70,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": ["PREPARING TO FLEE", "HIDING A WEAPON"]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "An angled torso triggers primitive suspicion of someone preparing to flee or concealing a weapon.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "An angled torso signals primitive suspicion: fleeing or concealing a weapon.",
+      "concreteVisual": "A sorter diagram displaying the primitive brain's two suspicions for angled postures.",
+      "onScreenText": "none",
+      "relationToPrevious": "Analyzes the subconscious threat interpretation of being angled away.",
+      "addedInformation": "Classifies the evolutionary threat signals of oblique posture."
+    }
+  },
+  {
+    "i": 71,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "UNDIVIDED ACKNOWLEDGEMENT", "style": "reveal" },
+    "set": "room",
+    "cast": ["carla", "everyman"],
+    "expression": "happy",
+    "action": "talk",
+    "partnerExpression": "happy",
+    "partnerAction": "talk",
+    "explainedBy": "Opening your chest completely offers an undivided acknowledgement of the other person's status.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Opening your chest completely grants undivided acknowledgement of their status.",
+      "concreteVisual": "Carla and Everyman stand facing each other squarely, engaged in mutual respectful dialogue.",
+      "onScreenText": "UNDIVIDED ACKNOWLEDGEMENT",
+      "relationToPrevious": "Contrasts the angled threat with total open acknowledgement.",
+      "addedInformation": "Shows frontal orientation conveying respect and status."
+    }
+  },
+  {
+    "i": 72,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "NOT SCANNING THE ROOM", "style": "strike" },
+    "set": "room",
+    "continue": true,
+    "cast": ["carla", "everyman"],
+    "expression": "neutral",
+    "action": "reach",
+    "partnerExpression": "happy",
+    "partnerAction": "idle",
+    "explainedBy": "Full frontal attention proves you are not scanning the room for someone more important.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Full frontal attention signals: I am not scanning the room for someone more important.",
+      "concreteVisual": "Carla offers focused attention directly to the listener without glancing around.",
+      "onScreenText": "NOT SCANNING THE ROOM",
+      "relationToPrevious": "Eliminates the anxiety of divided attention in conversation.",
+      "addedInformation": "Emphasizes locked, unhurried, presence-centered focus."
+    }
+  },
+  {
+    "i": 73,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "HOLD YOUR SPACE", "style": "box" },
+    "set": "room",
+    "cast": ["everyman"],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "A full pivot requires a physical counterbalance: you must hold your space with strong posture.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A full pivot requires physical grounding: holding your space with solid posture.",
+      "concreteVisual": "Everyman stands upright and grounded, demonstrating deliberate posturing balance.",
+      "onScreenText": "HOLD YOUR SPACE",
+      "relationToPrevious": "Introduces the structural posture needed to support the pivot.",
+      "addedInformation": "Stresses stability so the pivot does not appear servile."
+    }
+  },
+  {
+    "i": 74,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "THE WENDEZ ACROBATS", "style": "reveal" },
+    "set": "stage",
+    "cast": ["everyman"],
+    "expression": "surprised",
+    "action": "talk",
+    "explainedBy": "The book introduces the hang-by-your-teeth epaulet posture, inspired by circus acrobats.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The Hang-by-Your-Teeth technique draws inspiration from circus acrobats.",
+      "concreteVisual": "Everyman gestures toward a stage setting, introducing the circus acrobat metaphor.",
+      "onScreenText": "THE WENDEZ ACROBATS",
+      "relationToPrevious": "Transitions to the acrobat visualization for upright posture.",
+      "addedInformation": "Evokes high-wire acrobatic poise and spinal extension."
+    }
+  },
+  {
+    "i": 75,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "CENTER RING", "style": "reveal" },
+    "set": "stage",
+    "continue": true,
+    "cast": ["everyman"],
+    "expression": "happy",
+    "action": "point",
+    "explainedBy": "Imagine the great Wendez circus acrobats preparing to race into the center ring with proud carriage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Acrobats prepare to enter the center ring with total spinal poise and confidence.",
+      "concreteVisual": "Everyman points forward into the spotlighted arena, holding a proud, lengthened posture.",
+      "onScreenText": "CENTER RING",
+      "relationToPrevious": "Completes chunk 2 by framing the acrobatic posture at the arena entrance.",
+      "addedInformation": "Sets up the threshold bite-bar visualization of the next chunk."
+    }
+  }
+]

@@ -1,0 +1,839 @@
+[
+  {
+    "i": 203,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "WHAT COLOR IS YOUR TIME",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Broadcaster Barry introduces a proactive boundary setting question to check prospect availability before pitching.",
+    "storyboard": {
+      "claim": "Barry proactively asks prospects what color their time is before launching into information.",
+      "concreteVisual": "Everyman in an office setting introducing Barry's boundary technique beside a clock symbol.",
+      "onScreenText": "WHAT COLOR IS YOUR TIME",
+      "relationToPrevious": "Transitions from reactive broken-record boundary defense to proactive boundary setting.",
+      "addedInformation": "Visualizes professional office environment and time context before the traffic light categorization."
+    }
+  },
+  {
+    "i": 204,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "RED YELLOW OR GREEN",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Barry pauses before pitching over the phone to ask if the prospect's time is red, yellow, or green.",
+    "storyboard": {
+      "claim": "Before pitching over the phone, Barry asks if the listener has red, yellow, or green time.",
+      "concreteVisual": "Everyman holding a phone to his ear in the office, pausing to ask the boundary question.",
+      "onScreenText": "RED YELLOW OR GREEN",
+      "relationToPrevious": "Specifies the communication medium (phone call) and the exact three choices offered.",
+      "addedInformation": "Shows the physical act of making a phone call rather than dumping an unsolicited pitch."
+    }
+  },
+  {
+    "i": 205,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "RED STOP",
+        "YELLOW CAUTION",
+        "GREEN GO"
+      ]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "The three time categories define emotional availability: red for overwhelmed, yellow for brief, green for ready.",
+    "storyboard": {
+      "claim": "Red means stop and overwhelmed, yellow means caution and two minutes, green means go.",
+      "concreteVisual": "A 3-part sorter diagram dividing the caller's time into RED STOP, YELLOW CAUTION, and GREEN GO.",
+      "onScreenText": "RED STOP, YELLOW CAUTION, GREEN GO",
+      "relationToPrevious": "Breaks down the three color states named in beat 204 into their operational definitions.",
+      "addedInformation": "Maps each color directly to its behavioral rule without requiring audio comprehension."
+    }
+  },
+  {
+    "i": 206,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CLEARING THE MENTAL CLUTTER",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "The technique empties the listener's stress tank before attempting to fill it with information.",
+    "storyboard": {
+      "claim": "Asking permission clears mental clutter and empties stress tanks before delivering pitches.",
+      "concreteVisual": "Everyman in the office speaking thoughtfully, establishing mutual respect and emotional breathing room.",
+      "onScreenText": "CLEARING THE MENTAL CLUTTER",
+      "relationToPrevious": "Explains the psychological purpose behind the three-color traffic light framework.",
+      "addedInformation": "Frames boundary respect as intentional stress management rather than merely polite etiquette."
+    }
+  },
+  {
+    "i": 207,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BROKEN RECORD EXECUTION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "explainedBy": "Carla challenges the broken-record technique, questioning how robotic repetition feels to the listener.",
+    "storyboard": {
+      "claim": "Carla challenges whether robotic sentence repetition escalates tension instead of diffusing it.",
+      "concreteVisual": "Carla looking skeptical and questioning Everyman in a shared social setting.",
+      "onScreenText": "BROKEN RECORD EXECUTION",
+      "relationToPrevious": "Shifts from the traffic light method back to challenging the previous broken-record technique.",
+      "addedInformation": "Stages the hosts' dialogue directly as an interpersonal tension and critique."
+    }
+  },
+  {
+    "i": 208,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE EXACT SAME SENTENCE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "partnerExpression": "blank",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Hearing the exact same robotic sentence three times feels patronizing and frustrating.",
+    "storyboard": {
+      "claim": "Repeating the exact same words three times feels patronizing and exasperating to the questioner.",
+      "concreteVisual": "Carla showing visible irritation while Everyman maintains a blank, repetitive posture.",
+      "onScreenText": "THE EXACT SAME SENTENCE",
+      "relationToPrevious": "Deepens Carla's critique by demonstrating the awkwardness of exact sentence repetition.",
+      "addedInformation": "Contrasts Carla's rising emotional agitation with Everyman's impassive wall."
+    }
+  },
+  {
+    "i": 209,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LIKE A TODDLER TANTRUM",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "In workplace settings, stonewalling feels like handling a toddler tantrum and threatens to escalate conflict.",
+    "storyboard": {
+      "claim": "Treating someone like a tantrum-throwing toddler risks escalating workplace conflict into outright hostility.",
+      "concreteVisual": "Carla gesturing with concern while Everyman listens, highlighting professional relationship danger.",
+      "onScreenText": "LIKE A TODDLER TANTRUM",
+      "relationToPrevious": "Names the emotional risk of the technique: feeling stonewalled and condescended to.",
+      "addedInformation": "Connects the interpersonal reaction directly to workplace power dynamics and bosses."
+    }
+  },
+  {
+    "i": 210,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A HINT OF SARCASM",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "worried",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Repetition only escalates into conflict if sarcasm, anger, or condescension bleeds into the speaker's tone.",
+    "storyboard": {
+      "claim": "Conflict only occurs if sarcasm, anger, or condescension bleeds into the repeated phrase.",
+      "concreteVisual": "Everyman explaining the boundary principle with a strike-through callout eliminating sarcasm.",
+      "onScreenText": "A HINT OF SARCASM (struck through)",
+      "relationToPrevious": "Refutes Carla's objection by identifying tone contamination as the sole failure mechanism.",
+      "addedInformation": "The strike visualizes the total elimination of vocal edge or condescension."
+    }
+  },
+  {
+    "i": 211,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HER UNNERVING NEUTRALITY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carla"
+    ],
+    "expression": "blank",
+    "action": "talk",
+    "explainedBy": "The technique's success hinges on total emotional neutrality, providing no fuel for escalation.",
+    "storyboard": {
+      "claim": "Unflinching flat neutrality is the critical operating key to making repetition disarm attackers.",
+      "concreteVisual": "Carla embodying absolute deadpan neutrality, devoid of smirk, anger, or apology.",
+      "onScreenText": "HER UNNERVING NEUTRALITY",
+      "relationToPrevious": "Shifts from what to avoid (sarcasm) to what to embody (complete flat neutrality).",
+      "addedInformation": "Shows that neutrality is a deliberate behavioral stance, not a lack of confidence."
+    }
+  },
+  {
+    "i": 212,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE ECHO OF THEIR AGGRESSION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "surprised",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "A flat tone creates an acoustic mirror that forces aggressive interrogators to hear their own hostility.",
+    "storyboard": {
+      "claim": "A completely flat tone reflects the interrogator's aggression back onto themselves without attacking.",
+      "concreteVisual": "Everyman speaking with a calm face while Carla recoils in sudden self-awareness.",
+      "onScreenText": "THE ECHO OF THEIR AGGRESSION",
+      "relationToPrevious": "Reveals the mechanism: calm refusal bounces hostility back to its source.",
+      "addedInformation": "Visualizes the psychological turnaround where the aggressor suddenly feels exposed."
+    }
+  },
+  {
+    "i": 213,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "REFUSING TO YIELD GROUND",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "partnerExpression": "worried",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Calm resistance forces the pushy party to realize they are making the social environment unsafe.",
+    "storyboard": {
+      "claim": "Standing firm without attacking makes intrusive people realize they are the disruptive ones.",
+      "concreteVisual": "Everyman standing protected beside a shield icon, refusing to yield ground to Carla's pressure.",
+      "onScreenText": "REFUSING TO YIELD GROUND",
+      "relationToPrevious": "Consolidates the social boundary outcome: the boundary holder is safe while the pusher looks inept.",
+      "addedInformation": "Uses the shield to emphasize non-violent, grounded self-protection."
+    }
+  },
+  {
+    "i": 214,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DEFENDING YOUR OWN VULNERABILITY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Calmly defending your boundaries choreographs a safe environment without drama.",
+    "storyboard": {
+      "claim": "Calmly defending vulnerability is the ultimate skill in creating safe social space.",
+      "concreteVisual": "Carla nodding with appreciative understanding toward Everyman in their shared conversation.",
+      "onScreenText": "DEFENDING YOUR OWN VULNERABILITY",
+      "relationToPrevious": "Synthesizes the hosts' resolution on how boundary setting protects social safety.",
+      "addedInformation": "Signals agreement and admiration for the counter-intuitive strength of calm boundaries."
+    }
+  },
+  {
+    "i": 215,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REFUSING TO PARTICIPATE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Social peace is maintained not by surrendering personal boundaries, but by refusing to engage in conflict.",
+    "storyboard": {
+      "claim": "Maintaining peace comes from refusing to participate in interpersonal wars, not by surrendering.",
+      "concreteVisual": "Everyman speaking with composed authority, resolving the philosophical core of boundary work.",
+      "onScreenText": "REFUSING TO PARTICIPATE",
+      "relationToPrevious": "Delivers the summary maxim: boundaries succeed through non-engagement, not surrender.",
+      "addedInformation": "Distinguishes genuine boundary-holding from passivity or capitulation."
+    }
+  },
+  {
+    "i": 216,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RESPECT FOR BOUNDARIES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Respect for human dignity and boundaries must extend across the entire organizational ecosystem.",
+    "storyboard": {
+      "claim": "Dignity and boundary respect must extend to every person in an organization, not just leadership.",
+      "concreteVisual": "Everyman in an office setting introducing universal respect across organizational hierarchies.",
+      "onScreenText": "RESPECT FOR BOUNDARIES",
+      "relationToPrevious": "Bridges from interpersonal boundary mechanics to the broader organizational ecosystem.",
+      "addedInformation": "Frames upcoming gatekeeper techniques as rooted in human dignity rather than cynical manipulation."
+    }
+  },
+  {
+    "i": 217,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BUTTERING THE GATEKEEPER",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Introducing the tombstone technique and the operational importance of respecting assistants.",
+    "storyboard": {
+      "claim": "Introduces the tombstone technique and the strategy of honoring executive gatekeepers.",
+      "concreteVisual": "Carla at an office desk introducing the scenario outside a corporate corner office.",
+      "onScreenText": "BUTTERING THE GATEKEEPER",
+      "relationToPrevious": "Sets the scene at a cluttered corporate reception desk outside a corner office.",
+      "addedInformation": "Locates the upcoming case study in real-world corporate hierarchy."
+    }
+  },
+  {
+    "i": 218,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "DESPERATELY TRYING TO REACH",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "A frantic mid-level caller named Laura desperately attempts to reach an executive named Steve Eris.",
+    "storyboard": {
+      "claim": "A frantic caller desperately dials an executive through a corporate phone system.",
+      "concreteVisual": "Everyman holding a phone looking anxious and stressed at his office desk.",
+      "onScreenText": "DESPERATELY TRYING TO REACH",
+      "relationToPrevious": "Introduces the protagonist and the stakes in the gatekeeper scenario.",
+      "addedInformation": "Depicts caller desperation and anxiety before the secretary's interrogation."
+    }
+  },
+  {
+    "i": 219,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RUTHLESS INTERROGATION",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "partnerExpression": "worried",
+    "partnerAction": "talk",
+    "explainedBy": "The secretary ruthlessly interrogates the caller with screening questions about company and reference.",
+    "storyboard": {
+      "claim": "The executive secretary fires aggressive screening questions to block unauthorized access.",
+      "concreteVisual": "Carla acting as the stern gatekeeper interrogating Everyman who clutches his phone nervously.",
+      "onScreenText": "RUTHLESS INTERROGATION",
+      "relationToPrevious": "Depicts the confrontational interaction between secretary and caller.",
+      "addedInformation": "Visualizes the intense power imbalance between corporate gatekeeper and outside caller."
+    }
+  },
+  {
+    "i": 220,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SCREENED AND BLOCKED",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "The caller feels sweating, humiliated, completely screened, and blocked from the executive.",
+    "storyboard": {
+      "claim": "Callers subjected to aggressive screening feel humiliated, defeated, and blocked.",
+      "concreteVisual": "Everyman slumping dejectedly at his desk with the phone lowered, feeling rejected.",
+      "onScreenText": "SCREENED AND BLOCKED",
+      "relationToPrevious": "Shows the painful outcome of traditional cold-calling attempts through gatekeepers.",
+      "addedInformation": "Emphasizes caller defeat to prepare the viewer for the alternative reframe."
+    }
+  },
+  {
+    "i": 221,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "THE ACTUAL VIP",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "explainedBy": "Contrasting the miserable screening experience with treating the gatekeeper as the true VIP.",
+    "storyboard": {
+      "claim": "The strategic breakthrough is treating the executive assistant as the true VIP.",
+      "concreteVisual": "Carla standing beside a trophy icon representing elevated status and prestige for the assistant.",
+      "onScreenText": "THE ACTUAL VIP",
+      "relationToPrevious": "Presents the strategic antidote to caller rejection: elevating the gatekeeper.",
+      "addedInformation": "Connects assistant status directly to high organizational value using the trophy motif."
+    }
+  },
+  {
+    "i": 222,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "OBSTACLES TO BE BYPASSED",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "Professionals mistakenly treat secretaries as obstacles to be bypassed rather than human beings.",
+    "storyboard": {
+      "claim": "Viewing administrative assistants merely as obstacles is a critical professional blind spot.",
+      "concreteVisual": "Everyman discussing the common corporate error with a struck-through callout.",
+      "onScreenText": "OBSTACLES TO BE BYPASSED (struck through)",
+      "relationToPrevious": "Critiques the toxic mindset that undermines networking success.",
+      "addedInformation": "Visualizes the complete rejection of treating support staff as friction points."
+    }
+  },
+  {
+    "i": 223,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ELEVATING THE ASSISTANT",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "happy",
+    "partnerAction": "idle",
+    "explainedBy": "Recognizing the humanity of the gatekeeper elevates the assistant before attempting to reach the boss.",
+    "storyboard": {
+      "claim": "Recognizing the assistant's humanity before asking for the executive builds deep trust.",
+      "concreteVisual": "Everyman addressing Carla respectfully in an office setting, treating her as a key decision maker.",
+      "onScreenText": "ELEVATING THE ASSISTANT",
+      "relationToPrevious": "Demonstrates the positive shift in caller behavior toward administrative staff.",
+      "addedInformation": "Shows peer-level respect in action between professional and assistant."
+    }
+  },
+  {
+    "i": 224,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "ELEVATING ASSISTANT",
+        "STRUCTURAL LOYALTY"
+      ]
+    },
+    "callout": null,
+    "cast": [],
+    "explainedBy": "Elevating the assistant creates long-term structural loyalty where transactional networking fails.",
+    "storyboard": {
+      "claim": "Elevating the assistant creates lasting structural loyalty that outlasts transactional tricks.",
+      "concreteVisual": "A 2-step flow diagram linking ELEVATING ASSISTANT directly to STRUCTURAL LOYALTY.",
+      "onScreenText": "ELEVATING ASSISTANT -> STRUCTURAL LOYALTY",
+      "relationToPrevious": "Formalizes the causal link between assistant respect and organizational access.",
+      "addedInformation": "Shows that loyalty is structural and durable, not merely a single successful transaction."
+    }
+  },
+  {
+    "i": 225,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THEY HAVE NAMES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Assistants, secretaries, and spouses have rich internal lives, personal identities, and names.",
+    "storyboard": {
+      "claim": "Secretaries and administrative professionals have names, personal dignity, and rich internal lives.",
+      "concreteVisual": "Carla speaking thoughtfully about human dignity behind corporate job titles.",
+      "onScreenText": "THEY HAVE NAMES",
+      "relationToPrevious": "Reminds the audience of the human individuality behind administrative job functions.",
+      "addedInformation": "Grounds networking strategy in empathy and ethical interpersonal recognition."
+    }
+  },
+  {
+    "i": 226,
+    "concept": "key",
+    "diagram": null,
+    "callout": {
+      "text": "VETO POWER OVER ACCESS",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "key",
+    "continue": true,
+    "explainedBy": "Most importantly, gatekeepers possess absolute veto power over access to decision makers.",
+    "storyboard": {
+      "claim": "Gatekeepers hold absolute veto power over who enters the executive suite.",
+      "concreteVisual": "Carla holding a key with a confident smirk, symbolizing her power to grant or deny access.",
+      "onScreenText": "VETO POWER OVER ACCESS",
+      "relationToPrevious": "Emphasizes the real organizational authority held by executive assistants.",
+      "addedInformation": "Uses the key motif to make gatekeeper access control concrete and unmistakable."
+    }
+  },
+  {
+    "i": 227,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE HOHAM CAPER",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Lowndes introduces a theatrical technique called The Ho-Hum Caper to navigate gatekeepers.",
+    "storyboard": {
+      "claim": "The book offers a specific theatrical tactic called The Ho-Hum Caper.",
+      "concreteVisual": "Everyman in an office introducing the theatrical technique with a narrative setup.",
+      "onScreenText": "THE HOHAM CAPER",
+      "relationToPrevious": "Transitions from strategic philosophy to a specific tactical phone protocol.",
+      "addedInformation": "Frames the technique as theatrical and intentional calibration."
+    }
+  },
+  {
+    "i": 228,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "IDENTIFIES AS AN OUTSIDER",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Formally asking permission instantly brands the caller as an outsider pleading for favors.",
+    "storyboard": {
+      "claim": "Formally asking 'May I speak to Miss Bigshot?' brands you as an outsider seeking favors.",
+      "concreteVisual": "Everyman holding a phone looking timid, with a struck-through callout rejecting outsider behavior.",
+      "onScreenText": "IDENTIFIES AS AN OUTSIDER (struck through)",
+      "relationToPrevious": "Contrasts formal supplicant phrasing with the peer-level tone of The Ho-Hum Caper.",
+      "addedInformation": "Demonstrates how formal deferential language backfires by signaling low status."
+    }
+  },
+  {
+    "i": 229,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "COMMITTING CORPORATE FRAUD",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Dropping a casual phrase feels uncomfortable to the caller, as if committing corporate fraud.",
+    "storyboard": {
+      "claim": "Asking 'Is she in?' casually feels like committing fraud to an anxious professional.",
+      "concreteVisual": "Everyman holding the phone with nervous guilt, voicing internal ethical resistance.",
+      "onScreenText": "COMMITTING CORPORATE FRAUD",
+      "relationToPrevious": "Captures Everyman's visceral anxiety and objection to the technique.",
+      "addedInformation": "Highlights the psychological friction professionals feel when abandoning deference."
+    }
+  },
+  {
+    "i": 230,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "A DELIBERATE ATTEMPT TO DECEIVE",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "explainedBy": "The caller worries that casual phrasing is a dishonest ploy to spoof social intimacy.",
+    "storyboard": {
+      "claim": "Critics argue dropping casual phrases is a deliberate attempt to deceive the secretary.",
+      "concreteVisual": "Everyman gesturing beside a mask icon representing deception and false pretenses.",
+      "onScreenText": "A DELIBERATE ATTEMPT TO DECEIVE",
+      "relationToPrevious": "Sharpens the objection: casual delivery feels like an intentional lie.",
+      "addedInformation": "The mask icon emphasizes the moral accusation of wearing a false facade."
+    }
+  },
+  {
+    "i": 231,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BYPASS SECURITY PROTOCOLS",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "partnerExpression": "surprised",
+    "partnerAction": "idle",
+    "explainedBy": "Spoofing status to bypass security will backfire the moment the boss asks who is calling.",
+    "storyboard": {
+      "claim": "Spoofing status to bypass security backfires when the executive asks 'Who is this?'.",
+      "concreteVisual": "Everyman warning Carla of the inevitable exposure when the executive answers the call.",
+      "onScreenText": "BYPASS SECURITY PROTOCOLS",
+      "relationToPrevious": "Details the catastrophic failure scenario if the technique is merely fake familiarity.",
+      "addedInformation": "Visualizes the awkward confrontation when social bluffing collapses."
+    }
+  },
+  {
+    "i": 232,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REFUSAL TO SUBMIT",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla",
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "explainedBy": "The technique is not deception, but a principled refusal to submit to an artificial class system.",
+    "storyboard": {
+      "claim": "The technique is not a lie, but a refusal to submit to an artificial corporate hierarchy.",
+      "concreteVisual": "Carla calmly re-educating Everyman on the true sociodynamic purpose of the technique.",
+      "onScreenText": "REFUSAL TO SUBMIT",
+      "relationToPrevious": "Reframes the entire objection from deception to democratic self-respect.",
+      "addedInformation": "Positions peer-level speech as egalitarian confidence rather than trickery."
+    }
+  },
+  {
+    "i": 233,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "GUARD DOG PROGRAMMING",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Acting panicky and deferential activates the secretary's instinctual guard dog programming.",
+    "storyboard": {
+      "claim": "Overly deferential and panicked behavior triggers the secretary's defensive perimeter response.",
+      "concreteVisual": "Carla explaining how subservience provokes protective screening protocols in assistants.",
+      "onScreenText": "GUARD DOG PROGRAMMING",
+      "relationToPrevious": "Explains the animal instinct triggered when callers act like guilty trespassers.",
+      "addedInformation": "Reveals the paradox: submissive pleading actually provokes aggression."
+    }
+  },
+  {
+    "i": 234,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SPEAK TO A PEER",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman",
+      "carla"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "partnerExpression": "neutral",
+    "partnerAction": "idle",
+    "explainedBy": "Normalizing tone and speaking as a peer bypasses artificial corporate walls without threatening anyone.",
+    "storyboard": {
+      "claim": "Speaking calmly as a peer dismantles corporate walls without making anyone feel threatened.",
+      "concreteVisual": "Everyman and Carla in peer-level conversational alignment across an office setting.",
+      "onScreenText": "SPEAK TO A PEER",
+      "relationToPrevious": "Presents the healthy alternative: calm, neutral parity with the gatekeeper.",
+      "addedInformation": "Shows that parity removes defensiveness from both sides of the phone."
+    }
+  },
+  {
+    "i": 235,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REFUSING TO PLAY THE ROLE",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "continue": true,
+    "explainedBy": "You are not lying about who you are, but refusing to play the role of a desperate begging outsider.",
+    "storyboard": {
+      "claim": "You are not misrepresenting identity; you are simply refusing to act like a begging beggar.",
+      "concreteVisual": "Everyman standing with quiet self-assurance, casting aside the posture of the supplicant.",
+      "onScreenText": "REFUSING TO PLAY THE ROLE",
+      "relationToPrevious": "Summarizes the psychological distinction between lying and refusing low-status theater.",
+      "addedInformation": "Reinforces personal dignity as the foundation of effective professional communication."
+    }
+  },
+  {
+    "i": 236,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NO THREAT RESPONSE",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "carla"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "explainedBy": "By not acting like a threat, you do not trigger a defensive response across the chain of command.",
+    "storyboard": {
+      "claim": "Not acting like a threat prevents triggering defensive responses across the chain of command.",
+      "concreteVisual": "Carla concluding with warmth and clarity on how genuine charisma respects all roles.",
+      "onScreenText": "NO THREAT RESPONSE",
+      "relationToPrevious": "Brings the entire gatekeeper sequence to a triumphant psychological conclusion.",
+      "addedInformation": "Unifies boundary respect, status calibration, and charisma into a cohesive principle."
+    }
+  }
+]

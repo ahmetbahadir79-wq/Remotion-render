@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-10-31T07:48:29.212Z",
+  "at": "2026-10-31T07:50:24.682Z",
+  "config": "config.antidote.json",
+  "configSha256": "d8073a6a1dfa661954dbbf6a2c0b90cb89a655140c9b30e2de545ad7884891ac",
+  "inputs": {
+    "storyboard": {
+      "path": "books/how-to-talk-to-anyone/art.json",
+      "sha256": "d4158d9565ab3a0b02b871c455174358f7854d230b848b7c2c703a9a0d4f2a49"
+    },
+    "storyBible": {
+      "path": "books/how-to-talk-to-anyone/story-bible.json",
+      "sha256": "6dfeba59594b0c741e341e5a04e4c408eaab9de18d41961643cfec4fa193183c"
+    },
+    "motifs": {
+      "path": "books/how-to-talk-to-anyone/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/how-to-talk-to-anyone.vtt",
+      "sha256": "71781c247c30c9544049e83241017e88590044264444c23078ee14da6c8c1b9d"
+    },
+    "audio": {
+      "path": "public/audio/how-to-talk-to-anyone.mp3",
+      "sha256": "354aa73dee010dfe9ac82ef8be8a0895e1bc4cffdb4531c3b9c817a4ef22b9df"
+    }
+  },
+  "head": "cb0d03118d1215d3c87721ac7e1d28eca3350633",
+  "previewOnly": true,
+  "skipPack": true
+}

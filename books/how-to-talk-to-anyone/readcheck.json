@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-31T07:47:39.384Z",
+  "n": 253,
+  "total": 253,
+  "sources": [
+    "readcheck",
+    "recheck-1"
+  ],
+  "totals": {
+    "CORRECT": 248,
+    "NEUTRAL": 4,
+    "WRONG": 1
+  },
+  "wrongRate": 0.004,
+  "blame": {
+    "diagram": 4,
+    "words": 1
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 9,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The blank refute diagram leads to a generic guess about conversation techniques rather than specifically addressing the innate nature of charisma.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 10,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The blank refute diagram leads the viewer to guess about clever words instead of debunking charisma as an innate gift.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 182,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess describes refuting face-to-face praise generally rather than the social maturity test of uncredited praise.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 193,
+      "verdict": "WRONG",
+      "blame": "words",
+      "why": "The viewer interpreted scoop the cherry literally as an attack trying to seize secrets rather than Barbara remaining poised.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": "SCOOP THE CHERRY"
+    },
+    {
+      "i": 248,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess interprets the refute diagram as refuting manipulation rather than refuting self-doubt and worrying whether they like you.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    }
+  ],
+  "reviewRequired": {
+    "flagged": 9,
+    "wrong": [],
+    "neutral": [],
+    "cleared": 9,
+    "unread": []
+  }
+}

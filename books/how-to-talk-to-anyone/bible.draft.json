@@ -1,0 +1,173 @@
+{
+  "slug": "how-to-talk-to-anyone",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "The draft's era, cast keys, ages and places are a HEURISTIC and are often wrong. Correcting them from the narration is routine authoring.",
+    "Then: node scripts/plan-bible.js --slug=how-to-talk-to-anyone --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon", "office", "street", "room", "stage", "sky", "abstract",
+    "kitchen", "bedroom", "classroom", "library", "cafe", "hospital",
+    "court", "forest", "shore", "highway", "workstation", "startupGarage",
+    "serverRoom", "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock", "butterfly", "subway", "car", "coffee", "codeWindow", "rocketLaunch",
+    "funnelMetrics", "dollarExchange", "laptopMockup", "crash", "ledge", "water",
+    "grave", "medical", "notes", "phone", "school", "home", "family", "road",
+    "storm", "star", "heart", "fire", "tree", "mask", "mirror", "key", "law",
+    "photo", "war", "game", "work", "city", "food", "coin", "door", "lightbulb",
+    "shadowSelf", "puppeteer", "chains", "compass", "dominoCascade", "icebergDepth",
+    "funnelTrap", "thirtyTyrants", "ringOfGyges", "caveAllegory", "shipOfState",
+    "tripartiteSoul", "kallipolis", "fiveRegimes", "mythOfEr", "boulder", "summit",
+    "ladder", "crack", "clock", "balance", "book", "shield", "trophy", "hourglass",
+    "sword", "target", "magnifier", "wallet", "gift", "inheritance", "zap"
+  ],
+  "bible": {
+    "slug": "how-to-talk-to-anyone",
+    "world": {
+      "era": "2000–2020",
+      "eraEvidence": "Contemporary professional and social networking environments.",
+      "worldId": "contemporary-social",
+      "approxYear": 2010,
+      "setting": "Corporate mixers, cocktail parties, boardrooms, and metropolitan lounges",
+      "register": "analytical and behavioral everyman comedy",
+      "forbid": [
+        "sword", "war", "grave", "thirtyTyrants", "ringOfGyges", "caveAllegory", "shipOfState", "tripartiteSoul", "kallipolis", "fiveRegimes", "mythOfEr"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "how-to-talk-to-anyone",
+      "worldId": "contemporary-social",
+      "allowedMotifs": ["cocktail glass", "handshake", "smile", "eyes", "doorway", "speech bubble", "posture spine", "mirror"],
+      "forbiddenMotifs": ["ancient armor", "sci-fi spaceships", "battlefield weaponry"],
+      "allowedCharacters": ["carla", "everyman"],
+      "allowedLocations": ["office", "cafe", "room", "stage"],
+      "allowedProps": ["phone", "notes", "mask", "mirror", "key", "door", "lightbulb", "balance", "target", "gift"]
+    },
+    "cast": {
+      "carla": {
+        "name": "Carla",
+        "role": "Recently divorced copywriter navigating high-stakes networking events",
+        "look": "A woman in her late 30s with shoulder-length wavy brown hair, observant amber eyes, wearing a sharp navy blazer over a cream blouse in a contemporary social setting.",
+        "variant": {
+          "outfit": "suit",
+          "hairStyle": "long",
+          "hair": "#4a2e18",
+          "height": 1.0,
+          "build": "average"
+        },
+        "mentions": 4
+      },
+      "everyman": {
+        "name": "Everyman Striver",
+        "role": "Socially anxious professional learning micro-calibration techniques",
+        "look": "A relatable man in his early 30s with short neat hair, wearing a fitted collared shirt and slacks, looking self-conscious yet eager in a crowded room.",
+        "variant": {
+          "outfit": "casual",
+          "hairStyle": "short",
+          "hair": "#2b1d0c",
+          "height": 1.05,
+          "build": "slight"
+        },
+        "mentions": 10
+      }
+    },
+    "places": {
+      "office": {
+        "set": "office",
+        "look": "A sleek modern corporate boardroom and reception lobby with glass partitions and recessed ceiling lighting.",
+        "mentions": 2
+      },
+      "cafe": {
+        "set": "cafe",
+        "look": "A warm, ambient metropolitan cocktail lounge with soft amber lighting, low tables, and mingling guests.",
+        "mentions": 2
+      },
+      "room": {
+        "set": "room",
+        "look": "An open networking event hall with high ceilings, cocktail standing tables, and bustling attendee clusters.",
+        "mentions": 5
+      }
+    },
+    "objects": [
+      {
+        "concept": "mirror",
+        "mentions": 15,
+        "why": "Represents interpersonal feedback, matching mood, and conscious self-observation."
+      },
+      {
+        "concept": "mask",
+        "mentions": 12,
+        "why": "Visualizes the tension between performing confidence and projecting genuine warmth."
+      },
+      {
+        "concept": "door",
+        "mentions": 10,
+        "why": "The threshold of entering crowded social rooms and seizing conversational entry points."
+      },
+      {
+        "concept": "target",
+        "mentions": 8,
+        "why": "Directing total physical orientation and focused gaze toward interlocutors."
+      },
+      {
+        "concept": "gift",
+        "mentions": 7,
+        "why": "Bestowing conversational handouts, generous praise, and status affirmations."
+      },
+      {
+        "concept": "shield",
+        "mentions": 6,
+        "why": "Defensive postures, emotional safety, and boundaries against awkward intrusion."
+      },
+      {
+        "concept": "lightbulb",
+        "mentions": 6,
+        "why": "Sudden conversational sparks, memorable trivia hooks, and Whatzit cues."
+      },
+      {
+        "concept": "key",
+        "mentions": 5,
+        "why": "Unlocking rapport, mastering subcultural jargon, and gatekeeper access."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 2,
+        "claim": "Charisma is not an innate genetic gift but an anatomical discipline of micro-calibrations."
+      },
+      {
+        "act": "development",
+        "fromFrame": 14520,
+        "claim": "Non-verbal orientation and eye contact establish psychological safety before speech begins."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 28618,
+        "claim": "Conversational pacing, emotional matching, and conversational trampolines sustain effortless dialogue."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 40709,
+        "claim": "Mastering subcultural vernacular and third-party praise transforms transactional networking into enduring trust."
+      },
+      {
+        "act": "close",
+        "fromFrame": 52925,
+        "claim": "Authentic charisma flourishes when our focus shifts entirely from masking insecurity to making others feel seen."
+      }
+    ]
+  }
+}
