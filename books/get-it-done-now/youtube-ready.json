@@ -1,0 +1,25 @@
+{
+  "slug": "get-it-done-now",
+  "status": "NOT_READY",
+  "at": "2026-11-07T06:30:20.750Z",
+  "metaSha256": "81786e9ec50edec1103578d09c7c6acc12780e397ed1a42294b61369e624a2c1",
+  "mdSha256": "766054fa4322d17d2ac22eb61817df7b43b593db55a08fedc53617db038c96c0",
+  "cleanVttSha256": "40e10c9ee3c749939991ff79634e4004ad498b233e01d0f1b1c6167dd81f5d05",
+  "errors": [
+    "TITLES PLACEHOLDER #3: scaffold/template text \"TODO\" in a title — write the real title — \"Get it Done Now! Explained — TODO counter-narrative angle 1 (lint-titles.js)\"",
+    "TITLES PLACEHOLDER #4: scaffold/template text \"TODO\" in a title — write the real title — \"Get it Done Now! Review — TODO counter-narrative angle 2 (lint-titles.js)\"",
+    "TITLES TOO_FEW_ANGLES: 0 anchored angle title(s), need ≥ 2 (each names THIS book's misread thing — a character, object, event or claim from the narration — or a surprising idea grounded in a titleAngles {kind:\"insight\"} entry)",
+    "TITLES NO_STACKED_TITLE: need ≥ 1 title that stacks book title + search modifier + an anchored counter-narrative angle (e.g. \"<Book> Ending Explained: Why <Character>'s <Act> Isn't <Common Reading>\")",
+    "TITLES SET_REPEATS_ITSELF: #3 and #4 say the same thing — \"Get it Done Now! Explained — TODO counter-narrative angle 1 (lint-titles.js)\" / \"Get it Done Now! Review — TODO counter-narrative angle 2 (lint-titles.js)\"",
+    "TITLES NO_TITLE_ANGLES: youtube-meta.titleAngles needs ≥ 2 entries {myth, book, quote} — the specific belief the book overturns, what it shows instead, and a verbatim narration quote proving it",
+    "NOT_REFINED: youtube-meta.needsClaudeRefine is true — the deterministic scaffold must be hand-refined from the narration (titles, description, chapters, tags, hook), then set to false",
+    "SCAFFOLD_DESCRIPTION: the fallback description is still there (\"the one argument the book quietly proves\") — write it from the narration",
+    "CHAPTER_LABELS_ARE_FRAGMENTS: 8 label(s) end mid-phrase — cut-off narration snippets, not chapter names (\"Let's Set The Stakes For\", \"Me The Most In The\", \"Most Which Was Closing The\")",
+    "STALE_MD: youtube.md still carries scaffold text (\"TODO\") — regenerate it from the refined meta (plan-meta.js / plan-antidote-meta.js --md-only)",
+    "STALE_MD: youtube.md is marked SCAFFOLD"
+  ],
+  "warnings": [
+    "HOOK_LONG: 11 words — a thumbnail hook reads in ≤ 5–7",
+    "HOOK_UNVERIFIED: no books/get-it-done-now/thumbnail-check.json — run render-thumbnails.js (it checks the hook pixels in every variant)"
+  ]
+}

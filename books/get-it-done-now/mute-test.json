@@ -1,0 +1,45 @@
+{
+  "runs": [
+    {
+      "label": "final",
+      "date": "2026-11-07T05:55:02.969Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 28,
+        "ADDS": 28,
+        "EXPLAINS": 9,
+        "NEUTRAL": 2,
+        "TEXT_ONLY": 2
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": false,
+      "evidence": {
+        "status": "EVIDENCE_INVALID",
+        "reasons": [
+          "blind: 24/30 (80%) descriptions give one identical message \"the narrator explains practical techniques for disciplined executio...\"",
+          "blind: 24/30 (80%) \"sees\" follow one template once the on-screen words are removed (\"a man with a focused look is standing in a office setting\")"
+        ],
+        "signals": []
+      },
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "2442374fbc2832fdf4af3f66ea8c97e284676f5b37153106bdbbc87b773a3915",
+      "verdict": false,
+      "dead": 0,
+      "addsTargetMet": true,
+      "evidenceSha256": "79fbeb8a20e0df4cc055ee8bc11a4eea9927a4f196f2f1235a9df95d2d140db0",
+      "binding": "BOUND",
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 93,
+      "configSha256": "81318a897e42349cd0c9084cc6d03077fbfc635f44afc2dd9347bfe3527a468e",
+      "renderInputHash": "3b21d0083b2b312d",
+      "codeHead": "1445f82345191de748d76be292895246ba753bfc",
+      "framesConfigSha": "81318a897e42349c"
+    }
+  ]
+}

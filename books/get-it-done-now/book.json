@@ -1,0 +1,46 @@
+{
+  "slug": "get-it-done-now",
+  "title": "Get it Done Now!: Own Your Time, Take Back Your Life",
+  "author": "Brian Tracy",
+  "genre": "nonfiction",
+  "engine": "antidote",
+  "engineRationale": "Productivity and time management argument about attention, focus, and behavioral friction, staged with icons, diagrams, and everyman relational staging",
+  "engineDecidedBy": "claude-explicit",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "ideas",
+    "realPeople": false,
+    "format": "argument",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "a distracted executive at a cluttered desk",
+      "the ABCDE priority matrix",
+      "momentum gained through single-task execution"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-11-06",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 0.9,
+    "antidoteScore": 30.3,
+    "signals": {
+      "year": 0.1,
+      "history": 0.2,
+      "second": 41.2,
+      "abstract": 19.9,
+      "sensitive": 2.2,
+      "era": 2026,
+      "words": 8273
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 41.2/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)",
+      "idea vocabulary 19.9/1k (habits, decisions, attention, money…) → concepts need icons/diagrams, not photographs (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  },
+  "audioSource": "public/audio/get-it-done-now.mp3"
+}

@@ -1,0 +1,421 @@
+{
+  "slug": "get-it-done-now",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "The draft's era, cast keys, ages and places are a HEURISTIC and are often wrong (Trust Fall: one metaphor gave a",
+    "  sci-fi era; The Art of Strategy: 'lean', 'fred', 'end' as characters). Correcting them from the narration is",
+    "  routine authoring — never a question for the operator. Ages, roles and relations come from what the narration says.",
+    "Then: node scripts/plan-bible.js --slug=get-it-done-now --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "get-it-done-now",
+    "world": {
+      "era": "2026–2026",
+      "eraEvidence": "stated years",
+      "worldId": "",
+      "approxYear": 2026,
+      "setting": "",
+      "register": "",
+      "forbid": []
+    },
+    "visualProvenance": {
+      "bookId": "get-it-done-now",
+      "worldId": "",
+      "allowedMotifs": [],
+      "forbiddenMotifs": [],
+      "allowedCharacters": [],
+      "allowedLocations": [],
+      "allowedProps": []
+    },
+    "cast": {
+      "tracy": {
+        "name": "Tracy",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 2
+      },
+      "which": {
+        "name": "Which",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 2
+      }
+    },
+    "places": {
+      "manuscript": {
+        "set": "manuscript",
+        "look": "",
+        "mentions": 10
+      },
+      "cafe": {
+        "set": "cafe",
+        "look": "",
+        "mentions": 4
+      },
+      "shipDeck": {
+        "set": "shipDeck",
+        "look": "",
+        "mentions": 2
+      },
+      "street": {
+        "set": "street",
+        "look": "",
+        "mentions": 2
+      },
+      "library": {
+        "set": "library",
+        "look": "",
+        "mentions": 1
+      },
+      "kitchen": {
+        "set": "kitchen",
+        "look": "",
+        "mentions": 1
+      }
+    },
+    "objects": [
+      {
+        "concept": "phone",
+        "mentions": 35,
+        "why": ""
+      },
+      {
+        "concept": "work",
+        "mentions": 29,
+        "why": ""
+      },
+      {
+        "concept": "target",
+        "mentions": 28,
+        "why": ""
+      },
+      {
+        "concept": "notes",
+        "mentions": 26,
+        "why": ""
+      },
+      {
+        "concept": "home",
+        "mentions": 16,
+        "why": ""
+      },
+      {
+        "concept": "car",
+        "mentions": 12,
+        "why": ""
+      },
+      {
+        "concept": "coin",
+        "mentions": 10,
+        "why": ""
+      },
+      {
+        "concept": "coffee",
+        "mentions": 8,
+        "why": ""
+      },
+      {
+        "concept": "heart",
+        "mentions": 7,
+        "why": ""
+      },
+      {
+        "concept": "hourglass",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "gift",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "chains",
+        "mentions": 6,
+        "why": ""
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 5,
+        "claim": ""
+      },
+      {
+        "act": "development",
+        "fromFrame": 15586,
+        "claim": ""
+      },
+      {
+        "act": "turn",
+        "fromFrame": 32602,
+        "claim": ""
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 48842,
+        "claim": ""
+      },
+      {
+        "act": "close",
+        "fromFrame": 64586,
+        "claim": ""
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 646,
+    "cast": [
+      {
+        "name": "Tracy",
+        "asSubject": 2,
+        "total": 13,
+        "samples": [
+          "When Tracy writes, he dictates his books rapidly just to get the raw material out into the world.",
+          "Tracy gives examples of consulting with massive Fortune 500 companies and forcing their executives to apply this to their product lines."
+        ]
+      },
+      {
+        "name": "Which",
+        "asSubject": 2,
+        "total": 4,
+        "samples": [
+          "Which is why arrogant people are often the most fragile people in the Wow.",
+          "Yeah. Tracy brought him in, spent three hours with him, and hired him on the Which is crazy because he normally never hires anyone on the first interview."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "manuscript",
+        "mentions": 10,
+        "samples": [
+          "Writing things down on paper just feels like a stubborn refusal to adapt to objectively better I hear you.",
+          "And it feels that way right up until you look at the cognitive science of how the physical act of writing actually affects the brain."
+        ]
+      },
+      {
+        "set": "cafe",
+        "mentions": 4,
+        "samples": [
+          "Exactly. It's one of those anonymous quotes that just gets passed around on social media all the time, usually over like a picture of a mountain or a ",
+          "Think about making a restaurant reservation."
+        ]
+      },
+      {
+        "set": "shipDeck",
+        "mentions": 2,
+        "samples": [
+          "Honestly, because the dark side of all these killer apps is this endless churning sea of notifications.",
+          "And if we're talking about time wasters, meetings can be the ultimate sea task if they aren't managed correctly."
+        ]
+      },
+      {
+        "set": "street",
+        "mentions": 2,
+        "samples": [
+          "They do. I think if you stopped someone on the street and asked them what work is, they'd view it as a punishment.",
+          "If a car is barreling toward you on the street, you don't procrastinate moving out of the way."
+        ]
+      },
+      {
+        "set": "library",
+        "mentions": 1,
+        "samples": [
+          "If you walk into a wealthy, highly productive person's home, the architectural focal point is usually a massive library, books everywhere, right?"
+        ]
+      },
+      {
+        "set": "kitchen",
+        "mentions": 1,
+        "samples": [
+          "You prep the station, you clear the cutting board before you even turn on the stove."
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "phone",
+        "mentions": 35,
+        "sample": "Just yesterday. How many times did you physically flinch because your phone buzzed?"
+      },
+      {
+        "concept": "work",
+        "mentions": 29,
+        "sample": "You deal with the annoying boss just so you can earn enough money to actually live your real life on the weekends."
+      },
+      {
+        "concept": "target",
+        "mentions": 28,
+        "sample": "It's that one that goes uh starve your distraction and feed your focus, right?"
+      },
+      {
+        "concept": "notes",
+        "mentions": 26,
+        "sample": "The realization that successful people actually write down what made them It's like a cheat code."
+      },
+      {
+        "concept": "home",
+        "mentions": 16,
+        "sample": "He deliberately bought a house with what he calls a 10-stroke pool."
+      },
+      {
+        "concept": "car",
+        "mentions": 12,
+        "sample": "He was literally sleeping in his car at one point or on the floors of his friend's one room apartments."
+      },
+      {
+        "concept": "coin",
+        "mentions": 10,
+        "sample": "You deal with the annoying boss just so you can earn enough money to actually live your real life on the weekends."
+      },
+      {
+        "concept": "coffee",
+        "mentions": 8,
+        "sample": "Exactly. It's one of those anonymous quotes that just gets passed around on social media all the time, usually over like a picture of a moun"
+      },
+      {
+        "concept": "heart",
+        "mentions": 7,
+        "sample": "Oh, I love this part."
+      },
+      {
+        "concept": "hourglass",
+        "mentions": 6,
+        "sample": "The supposed urgent news headlines that just relentlessly pull us under."
+      },
+      {
+        "concept": "gift",
+        "mentions": 6,
+        "sample": "Our goal today isn't to give you some like cute little hack to shave four minutes off your commute."
+      },
+      {
+        "concept": "chains",
+        "mentions": 6,
+        "sample": "Yeah. If you view your job as a prison sentence, your brain is naturally going to seek distraction to escape it."
+      }
+    ],
+    "openingLines": [
+      "So, because the quote itself just stops you right in your tracks, doesn't it?",
+      "Oh, absolutely. Yeah.",
+      "It's that one that goes uh starve your distraction and feed your focus, right?",
+      "Which you see everywhere.",
+      "Exactly. It's one of those anonymous quotes that just gets passed around on social media all the time, usually over like a picture of a mountain or a person looking pensively out a coffee shop window.",
+      "Yes, exactly. But I mean when you strip away the cliche of it and really sit with those words, it perfectly captures the core tension of the modern age."
+    ],
+    "closingLines": [
+      "What is the one thing on that list or in your life that knowing what you know right now you wouldn't even agree to take on Find it.",
+      "Be ruthless. Find a way to eliminate it, delegate it, or just consciously drop it.",
+      "And watch how much energy and focus you get back to tackle the frogs that actually matter.",
+      "Keep digging deep and we'll see you next"
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "slug": "get-it-done-now",
+  "world": {
+    "era": "2020s",
+    "worldId": "contemporary-everyday",
+    "approxYear": 2026,
+    "setting": "Contemporary corporate and knowledge-work settings: quiet private offices, cluttered open workstations, morning coffee shops, boardroom strategy tables, and calm home desks. Everyday professionals fighting digital distractions and procrastination.",
+    "register": "contemporary nonfiction, behavioral psychology, executive time management, concrete practical scenes",
+    "forbid": [
+      "quill",
+      "scroll",
+      "sundial",
+      "law",
+      "war",
+      "grave",
+      "sword",
+      "shipOfState",
+      "caveAllegory",
+      "mythOfEr",
+      "kallipolis",
+      "ringOfGyges",
+      "thirtyTyrants",
+      "tripartiteSoul",
+      "fiveRegimes"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "get-it-done-now",
+    "worldId": "contemporary-everyday",
+    "allowedMotifs": [
+      "phone",
+      "notes",
+      "alarmClock",
+      "target",
+      "coin",
+      "road",
+      "shield",
+      "family",
+      "clock",
+      "hourglass",
+      "work",
+      "codeWindow",
+      "funnelTrap",
+      "dominoCascade",
+      "balance",
+      "ladder",
+      "summit",
+      "boulder",
+      "chains",
+      "key",
+      "door",
+      "lightbulb",
+      "magnifier",
+      "coffee"
+    ],
+    "forbiddenMotifs": [
+      "caveAllegory",
+      "mythOfEr",
+      "kallipolis",
+      "ringOfGyges",
+      "thirtyTyrants",
+      "tripartiteSoul",
+      "fiveRegimes",
+      "shipOfState",
+      "sword",
+      "war"
+    ],
+    "allowedCharacters": [
+      "tracy",
+      "executive",
+      "colleague"
+    ],
+    "allowedLocations": [
+      "office",
+      "workstation",
+      "cafe",
+      "street",
+      "library",
+      "kitchen"
+    ],
+    "allowedProps": [
+      "phone",
+      "notes",
+      "coffee",
+      "target",
+      "clock",
+      "hourglass"
+    ]
+  },
+  "cast": {
+    "tracy": {
+      "name": "Brian Tracy",
+      "role": "the author and experienced executive coach delivering principles of disciplined execution",
+      "look": "Brian Tracy, a distinguished man in his early 70s, short neatly combed silver hair, warm yet authoritative expression, wearing a tailored charcoal grey business suit, white dress shirt, and a burgundy silk tie.",
+      "variant": {
+        "gender": "m",
+        "age": "old",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#374151",
+        "shirt": "#F9FAFB",
+        "skin": "#E5C298",
+        "hair": "#D1D5DB",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "tie"
+      },
+      "mentions": 13
+    },
+    "executive": {
+      "name": "Overwhelmed Professional",
+      "role": "an ambitious manager buried under trivial tasks, urgent emails, and chronic procrastination",
+      "look": "A professional in his late 30s, slim athletic build, short dark messy hair, wearing a slightly wrinkled slate blue dress shirt with rolled-up sleeves, loosened tie, dark circles under focused but exhausted eyes.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#1F2937",
+        "shirt": "#4B5563",
+        "skin": "#D1A075",
+        "hair": "#1F2421",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "tie"
+      },
+      "mentions": 25
+    },
+    "colleague": {
+      "name": "Focused Colleague",
+      "role": "a colleague or peer demonstrating the clarity, boundary-setting, and calm of single-handling high-value work",
+      "look": "A sharp woman in her early 40s, composed demeanor, straight shoulder-length brown hair, wearing a crisp cream blazer over a dark top, posture relaxed and attentive.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#4B5563",
+        "shirt": "#F3F4F6",
+        "skin": "#ECCBAE",
+        "hair": "#4A3728",
+        "hairStyle": "ponytail",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": true,
+        "accessory": "none"
+      },
+      "mentions": 10
+    }
+  },
+  "places": {
+    "office": {
+      "set": "office",
+      "look": "A bright executive office with a solid mahogany desk, dual monitors, a white planning board filled with quarterly goals, and large windows overlooking city towers.",
+      "mentions": 20
+    },
+    "workstation": {
+      "set": "workstation",
+      "look": "A modern open-plan workstation, surrounded by digital screens, notification badges glowing, stacked paperwork, and a lukewarm coffee cup.",
+      "mentions": 15
+    },
+    "cafe": {
+      "set": "cafe",
+      "look": "A clean corner coffee shop with natural wood tables, warm pendant lighting, and quiet patrons focused on laptops and physical notebooks.",
+      "mentions": 4
+    },
+    "street": {
+      "set": "street",
+      "look": "A busy metropolitan downtown sidewalk during morning rush hour, pedestrians checking phones on the move.",
+      "mentions": 2
+    },
+    "library": {
+      "set": "library",
+      "look": "A quiet private home study lined with floor-to-ceiling bookshelves, warm leather seating, and zero digital distractions.",
+      "mentions": 2
+    },
+    "kitchen": {
+      "set": "kitchen",
+      "look": "A clean, organized morning kitchen island, mis-en-place prep space embodying structured preparation before action.",
+      "mentions": 1
+    }
+  },
+  "objects": [
+    {
+      "concept": "phone",
+      "mentions": 35,
+      "why": "The prime source of reactive digital distraction and sudden dopamine notifications."
+    },
+    {
+      "concept": "work",
+      "mentions": 29,
+      "why": "The core theme of high-value professional output versus trivial busywork."
+    },
+    {
+      "concept": "target",
+      "mentions": 28,
+      "why": "Clear written goals and priority milestones that focus energy."
+    },
+    {
+      "concept": "notes",
+      "mentions": 26,
+      "why": "Physical paper to-do lists, daily agendas, and the written ABCDE priority matrix."
+    },
+    {
+      "concept": "coffee",
+      "mentions": 8,
+      "why": "The morning work ritual and initial start of the focused workday."
+    },
+    {
+      "concept": "clock",
+      "mentions": 20,
+      "why": "The finite daily block of 24 hours and the ticking urgency of key deadlines."
+    },
+    {
+      "concept": "hourglass",
+      "mentions": 6,
+      "why": "The irreversible passage of focused cognitive energy throughout the day."
+    },
+    {
+      "concept": "chains",
+      "mentions": 6,
+      "why": "The invisible emotional shackles of procrastination, guilt, and perfectionism."
+    },
+    {
+      "concept": "shield",
+      "mentions": 5,
+      "why": "Boundaries protecting deep work blocks from interruptions and endless meetings."
+    },
+    {
+      "concept": "lightbulb",
+      "mentions": 5,
+      "why": "Sudden mental breakthrough when eliminating trivial low-value tasks."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 5,
+      "claim": "Procrastination is not laziness but an emotional defense mechanism against fear and perfectionism, creating the illusion of productive busyness."
+    },
+    {
+      "act": "development",
+      "fromFrame": 15586,
+      "claim": "The ABCDE method and forced efficiency require ruthlessly eliminating lower-tier tasks to protect high-leverage focus hours."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 32602,
+      "claim": "Conquering the single most daunting task ('the frog') first thing in the morning fundamentally rewires mental momentum and self-discipline."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 48842,
+      "claim": "Single-handling major projects without context-switching collapses completion time and exponentially multiplies daily output."
+    },
+    {
+      "act": "close",
+      "fromFrame": 64586,
+      "claim": "Time management is ultimately self-esteem management: taking back your calendar restores self-respect and personal freedom."
+    }
+  ],
+  "authored": true
+}

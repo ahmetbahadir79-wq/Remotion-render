@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06T18:17:49.690Z",
+  "n": 307,
+  "total": 307,
+  "sources": [
+    "readcheck"
+  ],
+  "evidence": {
+    "status": "OK",
+    "signals": [
+      "full run: judges 1: 140 items written 3 s after the input (a fresh reader needs >= 105 s)",
+      "full run: judges 2: 140 items written 2 s after the input (a fresh reader needs >= 105 s)",
+      "full run: judges 3: 27 items written 2 s after the input (a fresh reader needs >= 20.25 s)"
+    ]
+  },
+  "binding": "BOUND",
+  "tallied": {
+    "baseRun": "get-it-done-now-prep-ba265c1a4912",
+    "folders": {
+      "readcheck": {
+        "run": "get-it-done-now-prep-ba265c1a4912",
+        "evidenceSha256": "f7eebabfcbd6a624806a77d2f0068b8310a9360971d9755ca9dccc9fdae11652"
+      }
+    }
+  },
+  "totals": {
+    "CORRECT": 307,
+    "NEUTRAL": 0,
+    "WRONG": 0
+  },
+  "wrongRate": 0,
+  "blame": {},
+  "iconBlame": {},
+  "beats": []
+}

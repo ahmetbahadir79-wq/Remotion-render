@@ -1,0 +1,3683 @@
+{
+  "slug": "get-it-done-now",
+  "totalSequences": 76,
+  "totalScenes": 307,
+  "averageDurationSecs": 36.4,
+  "sequences": [
+    {
+      "id": "seq-01",
+      "source": "engine",
+      "fromFrame": 5,
+      "durationFrames": 1121,
+      "durationSeconds": 37.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "sceneId": "intro",
+          "fromFrame": 5,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "So, because the quote itself just stops you right in your tracks, doesn't it? Oh, absolutely. Yeah. "
+        },
+        {
+          "index": 1,
+          "sceneId": "scene-01",
+          "fromFrame": 266,
+          "durationFrames": 212,
+          "role": "question",
+          "narration": "Which you see everywhere. Exactly. It's one of those anonymous quotes that just gets passed around o"
+        },
+        {
+          "index": 2,
+          "sceneId": "scene-02",
+          "fromFrame": 478,
+          "durationFrames": 314,
+          "role": "complication",
+          "narration": "usually over like a picture of a mountain or a person looking pensively out a coffee shop window. Ye"
+        },
+        {
+          "index": 3,
+          "sceneId": "scene-03",
+          "fromFrame": 792,
+          "durationFrames": 334,
+          "role": "reveal",
+          "narration": "sit with those words, it perfectly captures the core tension of the modern age. It really does. So i"
+        }
+      ]
+    },
+    {
+      "id": "seq-02",
+      "source": "engine",
+      "fromFrame": 1126,
+      "durationFrames": 1116,
+      "durationSeconds": 37.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 4,
+          "sceneId": "scene-04",
+          "fromFrame": 1126,
+          "durationFrames": 247,
+          "role": "setup",
+          "narration": "Just yesterday. How many times did you physically flinch because your phone buzzed? Oh man, probably"
+        },
+        {
+          "index": 5,
+          "sceneId": "scene-05",
+          "fromFrame": 1373,
+          "durationFrames": 273,
+          "role": "question",
+          "narration": "or uh how many times did you open a new tab to do something actually important, see a random notific"
+        },
+        {
+          "index": 6,
+          "sceneId": "scene-06",
+          "fromFrame": 1646,
+          "durationFrames": 368,
+          "role": "complication",
+          "narration": "That is the worst feeling. It happens to all of us because we are living in this bizarre paradox rig"
+        },
+        {
+          "index": 7,
+          "sceneId": "scene-07",
+          "fromFrame": 2014,
+          "durationFrames": 228,
+          "role": "reveal",
+          "narration": "We have killer apps. We have broadband speeds that would just stagger the imagination of someone 20 "
+        }
+      ]
+    },
+    {
+      "id": "seq-03",
+      "source": "engine",
+      "fromFrame": 2242,
+      "durationFrames": 1159,
+      "durationSeconds": 38.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 8,
+          "sceneId": "scene-08",
+          "fromFrame": 2242,
+          "durationFrames": 314,
+          "role": "setup",
+          "narration": "Any piece of data is exactly one click away. And yet actually sitting down and doing meaningful work"
+        },
+        {
+          "index": 9,
+          "sceneId": "scene-09",
+          "fromFrame": 2556,
+          "durationFrames": 310,
+          "role": "question",
+          "narration": "are completely drowning. Well, we really are. It's a profound paradox. Honestly, because the dark si"
+        },
+        {
+          "index": 10,
+          "sceneId": "scene-10",
+          "fromFrame": 2866,
+          "durationFrames": 218,
+          "role": "complication",
+          "narration": "The group chats. Yes, the group chats. The supposed urgent news headlines that just relentlessly pul"
+        },
+        {
+          "index": 11,
+          "sceneId": "scene-11",
+          "fromFrame": 3084,
+          "durationFrames": 317,
+          "role": "reveal",
+          "narration": "We're in a constant state of cognitive triage. Cognitive triage. I like that. Right. And what's fasc"
+        }
+      ]
+    },
+    {
+      "id": "seq-04",
+      "source": "engine",
+      "fromFrame": 3401,
+      "durationFrames": 1207,
+      "durationSeconds": 40.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 12,
+          "sceneId": "scene-12",
+          "fromFrame": 3401,
+          "durationFrames": 309,
+          "role": "setup",
+          "narration": "blame the clock. They think they just don't have enough hours in the day. Exactly. Think it they jus"
+        },
+        {
+          "index": 13,
+          "sceneId": "scene-13",
+          "fromFrame": 3710,
+          "durationFrames": 255,
+          "role": "question",
+          "narration": "The same 24 hours that Michelangelo had or Marie Cury had. So the root cause isn't a lack of time. S"
+        },
+        {
+          "index": 14,
+          "sceneId": "scene-14",
+          "fromFrame": 3965,
+          "durationFrames": 381,
+          "role": "complication",
+          "narration": "It's the hijacking of our neurochemistry. It's what we can call the slot machine effect. Okay. Right"
+        },
+        {
+          "index": 15,
+          "sceneId": "scene-15",
+          "fromFrame": 4346,
+          "durationFrames": 262,
+          "role": "reveal",
+          "narration": "Specifically looking at the insights from Get It Done Now. Yes, exactly. But before we go any furthe"
+        }
+      ]
+    },
+    {
+      "id": "seq-05",
+      "source": "engine",
+      "fromFrame": 4608,
+      "durationFrames": 962,
+      "durationSeconds": 32.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 16,
+          "sceneId": "scene-16",
+          "fromFrame": 4608,
+          "durationFrames": 317,
+          "role": "setup",
+          "narration": "Our goal today isn't to give you some like cute little hack to shave four minutes off your commute. "
+        },
+        {
+          "index": 17,
+          "sceneId": "scene-17",
+          "fromFrame": 4925,
+          "durationFrames": 326,
+          "role": "question",
+          "narration": "we are aiming for a fundamental groundup mindset shift today. A total rewiring, right? We want to he"
+        },
+        {
+          "index": 18,
+          "sceneId": "scene-18",
+          "fromFrame": 5251,
+          "durationFrames": 319,
+          "role": "reveal",
+          "narration": "Actually execute it without your brain fighting you and truly take back control of your Because if w"
+        }
+      ]
+    },
+    {
+      "id": "seq-06",
+      "source": "engine",
+      "fromFrame": 5570,
+      "durationFrames": 1179,
+      "durationSeconds": 39.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 19,
+          "sceneId": "scene-19",
+          "fromFrame": 5570,
+          "durationFrames": 243,
+          "role": "setup",
+          "narration": "are They really are. So talk to me about this slot machine effect. Well, modern distractions aren't "
+        },
+        {
+          "index": 20,
+          "sceneId": "scene-20",
+          "fromFrame": 5813,
+          "durationFrames": 281,
+          "role": "question",
+          "narration": "They are psychologically engineered to derail human focus. They're built that way on purpose. Exactl"
+        },
+        {
+          "index": 21,
+          "sceneId": "scene-21",
+          "fromFrame": 6094,
+          "durationFrames": 278,
+          "role": "complication",
+          "narration": "It is a neurological event. It's a literal slot machine going off in your pocket. Your brain release"
+        },
+        {
+          "index": 22,
+          "sceneId": "scene-22",
+          "fromFrame": 6372,
+          "durationFrames": 377,
+          "role": "reveal",
+          "narration": "Who wants me? Right? What's the new information? And this incessant pinging completely fractures our"
+        }
+      ]
+    },
+    {
+      "id": "seq-07",
+      "source": "engine",
+      "fromFrame": 6749,
+      "durationFrames": 972,
+      "durationSeconds": 32.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 23,
+          "sceneId": "scene-23",
+          "fromFrame": 6749,
+          "durationFrames": 254,
+          "role": "setup",
+          "narration": "work that actually moves the needle in our lives. So the technology that was supposed to liberate us"
+        },
+        {
+          "index": 24,
+          "sceneId": "scene-24",
+          "fromFrame": 7003,
+          "durationFrames": 226,
+          "role": "question",
+          "narration": "Man, I feel that in my bones. It's like we're constantly snacking on mental junk food and wondering "
+        },
+        {
+          "index": 25,
+          "sceneId": "scene-25",
+          "fromFrame": 7229,
+          "durationFrames": 235,
+          "role": "complication",
+          "narration": "Right. You're full but you're Exactly. So if the problem is a fractured mindset, the solution has to"
+        },
+        {
+          "index": 26,
+          "sceneId": "scene-26",
+          "fromFrame": 7464,
+          "durationFrames": 257,
+          "role": "reveal",
+          "narration": "It has to. And the research we are looking at makes a really compelling argument that to solve the d"
+        }
+      ]
+    },
+    {
+      "id": "seq-08",
+      "source": "engine",
+      "fromFrame": 7721,
+      "durationFrames": 1293,
+      "durationSeconds": 43.1,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 27,
+          "sceneId": "scene-27",
+          "fromFrame": 7721,
+          "durationFrames": 314,
+          "role": "setup",
+          "narration": "what work and productivity actually mean because people have a really warped view of it. They do. I "
+        },
+        {
+          "index": 28,
+          "sceneId": "scene-28",
+          "fromFrame": 8035,
+          "durationFrames": 161,
+          "role": "question",
+          "narration": "Oh, for sure. The daily grind. The day. Yeah. It's the toll you pay."
+        },
+        {
+          "index": 29,
+          "sceneId": "scene-29",
+          "fromFrame": 8196,
+          "durationFrames": 206,
+          "role": "partial_answer",
+          "narration": "You suffer through the nineto-five. You deal with the annoying boss just so you can earn enough mone"
+        },
+        {
+          "index": 30,
+          "sceneId": "scene-30",
+          "fromFrame": 8402,
+          "durationFrames": 219,
+          "role": "complication",
+          "narration": "And Tracy argues that this specific mindset, viewing work as a punishment, is exactly the psychologi"
+        },
+        {
+          "index": 31,
+          "sceneId": "scene-31",
+          "fromFrame": 8621,
+          "durationFrames": 393,
+          "role": "reveal",
+          "narration": "At the bottom of the ladder, right, the financial and personal fulfillment ladder. Yeah. If you view"
+        }
+      ]
+    },
+    {
+      "id": "seq-09",
+      "source": "engine",
+      "fromFrame": 9014,
+      "durationFrames": 1071,
+      "durationSeconds": 35.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 32,
+          "sceneId": "scene-32",
+          "fromFrame": 9014,
+          "durationFrames": 243,
+          "role": "setup",
+          "narration": "If it's a prison, you want to break out. Exactly. But productivity isn't just about grinding for mon"
+        },
+        {
+          "index": 33,
+          "sceneId": "scene-33",
+          "fromFrame": 9257,
+          "durationFrames": 309,
+          "role": "question",
+          "narration": "pleasing a boss. It's fundamentally about service. Yes. It's about the ability to get results that h"
+        },
+        {
+          "index": 34,
+          "sceneId": "scene-34",
+          "fromFrame": 9566,
+          "durationFrames": 224,
+          "role": "complication",
+          "narration": "Okay. To really anchor this, there's a brilliant concept brought in from the motivational speaker Ea"
+        },
+        {
+          "index": 35,
+          "sceneId": "scene-35",
+          "fromFrame": 9790,
+          "durationFrames": 295,
+          "role": "reveal",
+          "narration": "He pointed out that your rewards in life will always be in direct proportion to the results that you"
+        }
+      ]
+    },
+    {
+      "id": "seq-10",
+      "source": "engine",
+      "fromFrame": 10085,
+      "durationFrames": 1058,
+      "durationSeconds": 35.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 36,
+          "sceneId": "scene-36",
+          "fromFrame": 10085,
+          "durationFrames": 173,
+          "role": "setup",
+          "narration": "But he looked at the etmology of the word deserve. It comes from the Latin word deserve,"
+        },
+        {
+          "index": 37,
+          "sceneId": "scene-37",
+          "fromFrame": 10258,
+          "durationFrames": 223,
+          "role": "question",
+          "narration": "which literally translates to to serve. You get what you get from serving right? And that feels like"
+        },
+        {
+          "index": 38,
+          "sceneId": "scene-38",
+          "fromFrame": 10481,
+          "durationFrames": 329,
+          "role": "complication",
+          "narration": "It really is because it completely flips the locus of focus. How do you mean? Well, when people are "
+        },
+        {
+          "index": 39,
+          "sceneId": "scene-39",
+          "fromFrame": 10810,
+          "durationFrames": 333,
+          "role": "reveal",
+          "narration": "of the world than they are putting in. Uh they want the reward without the Exactly. They are trying "
+        }
+      ]
+    },
+    {
+      "id": "seq-11",
+      "source": "engine",
+      "fromFrame": 11143,
+      "durationFrames": 1102,
+      "durationSeconds": 36.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 40,
+          "sceneId": "scene-40",
+          "fromFrame": 11143,
+          "durationFrames": 365,
+          "role": "setup",
+          "narration": "They just want to take. Right. But true productivity is a serviceoriented mindset. You are constantl"
+        },
+        {
+          "index": 41,
+          "sceneId": "scene-41",
+          "fromFrame": 11508,
+          "durationFrames": 250,
+          "role": "question",
+          "narration": "follow. The financial rewards and the personal satisfaction naturally follow as a byproduct. You don"
+        },
+        {
+          "index": 42,
+          "sceneId": "scene-42",
+          "fromFrame": 11758,
+          "durationFrames": 211,
+          "role": "complication",
+          "narration": "It takes the focus off me and puts it on them, which ironically benefits me the most in the end."
+        },
+        {
+          "index": 43,
+          "sceneId": "scene-43",
+          "fromFrame": 11969,
+          "durationFrames": 276,
+          "role": "reveal",
+          "narration": "It's the ultimate win-win. And this ties into Ralph Waldo Emerson's old philosophy, right? That you "
+        }
+      ]
+    },
+    {
+      "id": "seq-12",
+      "source": "engine",
+      "fromFrame": 12245,
+      "durationFrames": 1202,
+      "durationSeconds": 40.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 44,
+          "sceneId": "scene-44",
+          "fromFrame": 12245,
+          "durationFrames": 362,
+          "role": "setup",
+          "narration": "Yes. Your outer world is just a mirror reflecting your inner world. So if you were sitting at your d"
+        },
+        {
+          "index": 45,
+          "sceneId": "scene-45",
+          "fromFrame": 12607,
+          "durationFrames": 202,
+          "role": "question",
+          "narration": "5:00 Right. You are literally manifesting a reality of low performance. You're guaranteeing low rewa"
+        },
+        {
+          "index": 46,
+          "sceneId": "scene-46",
+          "fromFrame": 12809,
+          "durationFrames": 367,
+          "role": "complication",
+          "narration": "You're building your own prison. Exactly. But this isn't just abstract woo woo philosophy either. It"
+        },
+        {
+          "index": 47,
+          "sceneId": "scene-47",
+          "fromFrame": 13176,
+          "durationFrames": 271,
+          "role": "reveal",
+          "narration": "really is. If we look at Tracy's own early days, they are startling. We think of him as this massive"
+        }
+      ]
+    },
+    {
+      "id": "seq-13",
+      "source": "engine",
+      "fromFrame": 13447,
+      "durationFrames": 1219,
+      "durationSeconds": 40.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 48,
+          "sceneId": "scene-48",
+          "fromFrame": 13447,
+          "durationFrames": 262,
+          "role": "setup",
+          "narration": "Right. Right. The ultimate professional. But he started out washing dishes in the back of a small ho"
+        },
+        {
+          "index": 49,
+          "sceneId": "scene-49",
+          "fromFrame": 13709,
+          "durationFrames": 242,
+          "role": "question",
+          "narration": "He was literally sleeping in his car at one point or on the floors of his friend's one room apartmen"
+        },
+        {
+          "index": 50,
+          "sceneId": "scene-50",
+          "fromFrame": 13951,
+          "durationFrames": 377,
+          "role": "complication",
+          "narration": "an hour. A12. That's just crazy to think about. Now, it's a crucial origin story to highlight, thoug"
+        },
+        {
+          "index": 51,
+          "sceneId": "scene-51",
+          "fromFrame": 14328,
+          "durationFrames": 338,
+          "role": "reveal",
+          "narration": "It's a learned behavior, highly learned. He was struggling immensely as a door-to-door salesman, mak"
+        }
+      ]
+    },
+    {
+      "id": "seq-14",
+      "source": "engine",
+      "fromFrame": 14666,
+      "durationFrames": 1181,
+      "durationSeconds": 39.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 52,
+          "sceneId": "scene-52",
+          "fromFrame": 14666,
+          "durationFrames": 255,
+          "role": "setup",
+          "narration": "And the turning point for him wasn't some magical manifestation secret. No, he simply looked at a su"
+        },
+        {
+          "index": 53,
+          "sceneId": "scene-53",
+          "fromFrame": 14921,
+          "durationFrames": 288,
+          "role": "question",
+          "narration": "times as much money while seemingly working fewer hours too, right? And he just went up and asked hi"
+        },
+        {
+          "index": 54,
+          "sceneId": "scene-54",
+          "fromFrame": 15209,
+          "durationFrames": 345,
+          "role": "complication",
+          "narration": "He asked, \"Have you ever read any books on selling?\" And that question alone blew his mind. The real"
+        },
+        {
+          "index": 55,
+          "sceneId": "scene-55",
+          "fromFrame": 15554,
+          "durationFrames": 293,
+          "role": "reveal",
+          "narration": "a cheat code. Yeah. and that you can just go to a store, buy the book, read it, and apply It sounds "
+        }
+      ]
+    },
+    {
+      "id": "seq-15",
+      "source": "engine",
+      "fromFrame": 15847,
+      "durationFrames": 1015,
+      "durationSeconds": 33.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 56,
+          "sceneId": "scene-56",
+          "fromFrame": 15847,
+          "durationFrames": 305,
+          "role": "setup",
+          "narration": "But it was a profound realization for him. He bought his first book, Making Sales Faster, and realiz"
+        },
+        {
+          "index": 57,
+          "sceneId": "scene-57",
+          "fromFrame": 16152,
+          "durationFrames": 218,
+          "role": "question",
+          "narration": "Yeah. It wasn't just a random act of knocking on doors and hoping for the Exactly. There are mechani"
+        },
+        {
+          "index": 58,
+          "sceneId": "scene-58",
+          "fromFrame": 16370,
+          "durationFrames": 200,
+          "role": "complication",
+          "narration": "If you learn the rules, you get the results. Right. So he isolated the one skill he needed most whic"
+        },
+        {
+          "index": 59,
+          "sceneId": "scene-59",
+          "fromFrame": 16570,
+          "durationFrames": 292,
+          "role": "reveal",
+          "narration": "Studied it every night and his income just from that one focused effort. But here is where we have t"
+        }
+      ]
+    },
+    {
+      "id": "seq-16",
+      "source": "engine",
+      "fromFrame": 16862,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 60,
+          "sceneId": "scene-60",
+          "fromFrame": 16862,
+          "durationFrames": 224,
+          "role": "setup",
+          "narration": "you know listening to this deep dive right now isn't enough if your internal monologue is actively s"
+        },
+        {
+          "index": 61,
+          "sceneId": "scene-61",
+          "fromFrame": 17086,
+          "durationFrames": 230,
+          "role": "question",
+          "narration": "Yeah. The research points heavily to the concept of self-esteem specifically delineating the differe"
+        },
+        {
+          "index": 62,
+          "sceneId": "scene-62",
+          "fromFrame": 17316,
+          "durationFrames": 278,
+          "role": "complication",
+          "narration": "This part is There's this wild story about a guy who read Tracy's book, The Psychology of Selling. T"
+        },
+        {
+          "index": 63,
+          "sceneId": "scene-63",
+          "fromFrame": 17594,
+          "durationFrames": 233,
+          "role": "reveal",
+          "narration": "The fear of failure and the fear of the twin killers of success. Right? So, he reads a line about bu"
+        }
+      ]
+    },
+    {
+      "id": "seq-17",
+      "source": "engine",
+      "fromFrame": 17827,
+      "durationFrames": 1013,
+      "durationSeconds": 33.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 64,
+          "sceneId": "scene-64",
+          "fromFrame": 17827,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "And the next day, he is sitting in his car in a mall parking lot, literally chanting, \"I like myself"
+        },
+        {
+          "index": 65,
+          "sceneId": "scene-65",
+          "fromFrame": 18072,
+          "durationFrames": 252,
+          "role": "question",
+          "narration": "Out loud in his car. Yes. People are walking by looking at him like he's lost his mind, pointing at "
+        },
+        {
+          "index": 66,
+          "sceneId": "scene-66",
+          "fromFrame": 18324,
+          "durationFrames": 300,
+          "role": "complication",
+          "narration": "It sounds totally unhinged. It does. So, okay, let's unpack this. I have to push back here because I"
+        },
+        {
+          "index": 67,
+          "sceneId": "scene-67",
+          "fromFrame": 18624,
+          "durationFrames": 216,
+          "role": "reveal",
+          "narration": "Isn't sitting in a car chanting, I like myself, essentially just toxic positivity, or even delusiona"
+        }
+      ]
+    },
+    {
+      "id": "seq-18",
+      "source": "engine",
+      "fromFrame": 18840,
+      "durationFrames": 1039,
+      "durationSeconds": 34.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 68,
+          "sceneId": "scene-68",
+          "fromFrame": 18840,
+          "durationFrames": 242,
+          "role": "setup",
+          "narration": "How so? Well, if you are genuinely failing at work, if you are missing your quotas and doing a bad j"
+        },
+        {
+          "index": 69,
+          "sceneId": "scene-69",
+          "fromFrame": 19082,
+          "durationFrames": 255,
+          "role": "question",
+          "narration": "feels like lying to yourself. It absolutely sounds like delusion if you don't understand the neurolo"
+        },
+        {
+          "index": 70,
+          "sceneId": "scene-70",
+          "fromFrame": 19337,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "If we connect this to the bigger picture of how the subconscious mind works, it's not toxic positivi"
+        },
+        {
+          "index": 71,
+          "sceneId": "scene-71",
+          "fromFrame": 19632,
+          "durationFrames": 247,
+          "role": "reveal",
+          "narration": "A system override. To understand why it works, you have to understand the distinction between true a"
+        }
+      ]
+    },
+    {
+      "id": "seq-19",
+      "source": "engine",
+      "fromFrame": 19879,
+      "durationFrames": 1095,
+      "durationSeconds": 36.5,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 72,
+          "sceneId": "scene-72",
+          "fromFrame": 19879,
+          "durationFrames": 209,
+          "role": "setup",
+          "narration": "False self-esteem is arrogance. It's conceit. It's an inflated ego with absolutely zero actual achie"
+        },
+        {
+          "index": 73,
+          "sceneId": "scene-73",
+          "fromFrame": 20088,
+          "durationFrames": 264,
+          "role": "partial_answer",
+          "narration": "We all know people like that, right? And it acts like an overinflated balloon. One tiny pin prick of"
+        },
+        {
+          "index": 74,
+          "sceneId": "scene-74",
+          "fromFrame": 20352,
+          "durationFrames": 199,
+          "role": "question",
+          "narration": "leaving the person completely Exactly. Which is why arrogant people are often the most fragile peopl"
+        },
+        {
+          "index": 75,
+          "sceneId": "scene-75",
+          "fromFrame": 20551,
+          "durationFrames": 214,
+          "role": "complication",
+          "narration": "That is so true. So then what is true self-esteem? True self-esteem on the other hand comes from gen"
+        },
+        {
+          "index": 76,
+          "sceneId": "scene-76",
+          "fromFrame": 20765,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "liking yourself because you do a good job. You have a high standard of excellence and you earn the g"
+        }
+      ]
+    },
+    {
+      "id": "seq-20",
+      "source": "engine",
+      "fromFrame": 20974,
+      "durationFrames": 1015,
+      "durationSeconds": 33.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 77,
+          "sceneId": "scene-77",
+          "fromFrame": 20974,
+          "durationFrames": 309,
+          "role": "setup",
+          "narration": "So why chant in a parking lot if you haven't achieved anything yet? Because most adults are carrying"
+        },
+        {
+          "index": 78,
+          "sceneId": "scene-78",
+          "fromFrame": 21283,
+          "durationFrames": 271,
+          "role": "question",
+          "narration": "like getting yelled at by teachers or Right? When a child is destructively criticized in the first f"
+        },
+        {
+          "index": 79,
+          "sceneId": "scene-79",
+          "fromFrame": 21554,
+          "durationFrames": 286,
+          "role": "complication",
+          "narration": "paralyzing fears of failure and that carries into adulthood. Yes. So chanting is a tool to temporari"
+        },
+        {
+          "index": 80,
+          "sceneId": "scene-80",
+          "fromFrame": 21840,
+          "durationFrames": 149,
+          "role": "reveal",
+          "narration": "You are becoming your own cheerleader to create enough psychological safety to just act."
+        }
+      ]
+    },
+    {
+      "id": "seq-21",
+      "source": "engine",
+      "fromFrame": 21989,
+      "durationFrames": 1269,
+      "durationSeconds": 42.3,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 81,
+          "sceneId": "scene-81",
+          "fromFrame": 21989,
+          "durationFrames": 348,
+          "role": "setup",
+          "narration": "Exactly. By forcing that positive verbalization, you lower the fear just enough to actually open the"
+        },
+        {
+          "index": 82,
+          "sceneId": "scene-82",
+          "fromFrame": 22337,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "No, it is the action, making the sales call, pitching the idea that will eventually lead to the achi"
+        },
+        {
+          "index": 83,
+          "sceneId": "scene-83",
+          "fromFrame": 22591,
+          "durationFrames": 144,
+          "role": "partial_answer",
+          "narration": "I see. The chanting is just the spark plug. It's a catalyst, not a delusion."
+        },
+        {
+          "index": 84,
+          "sceneId": "scene-84",
+          "fromFrame": 22735,
+          "durationFrames": 163,
+          "role": "complication",
+          "narration": "Okay, that actually makes perfect sense. You're jump starting the engine so the car can drive and ge"
+        },
+        {
+          "index": 85,
+          "sceneId": "scene-85",
+          "fromFrame": 22898,
+          "durationFrames": 360,
+          "role": "reveal",
+          "narration": "The chant doesn't do the work. It just gets you out of the car. Beautifully put. So, let's say you'r"
+        }
+      ]
+    },
+    {
+      "id": "seq-22",
+      "source": "engine",
+      "fromFrame": 23258,
+      "durationFrames": 1181,
+      "durationSeconds": 39.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 86,
+          "sceneId": "scene-86",
+          "fromFrame": 23258,
+          "durationFrames": 332,
+          "role": "setup",
+          "narration": "it? How do you make it real? Yeah. How do you take that beautiful philosophy and turn it into a Tues"
+        },
+        {
+          "index": 87,
+          "sceneId": "scene-87",
+          "fromFrame": 23590,
+          "durationFrames": 278,
+          "role": "question",
+          "narration": "And honestly, looking at the research, their routines are surprisingly Very unglamorous. They wake u"
+        },
+        {
+          "index": 88,
+          "sceneId": "scene-88",
+          "fromFrame": 23868,
+          "durationFrames": 290,
+          "role": "complication",
+          "narration": "They study their profession for 60 to 90 minutes every single day before the rest of the world even "
+        },
+        {
+          "index": 89,
+          "sceneId": "scene-89",
+          "fromFrame": 24158,
+          "durationFrames": 281,
+          "role": "reveal",
+          "narration": "Right. It's the consistency that makes it elite, not the glamour. Exactly. And a massive part of tha"
+        }
+      ]
+    },
+    {
+      "id": "seq-23",
+      "source": "engine",
+      "fromFrame": 24439,
+      "durationFrames": 1131,
+      "durationSeconds": 37.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 90,
+          "sceneId": "scene-90",
+          "fromFrame": 24439,
+          "durationFrames": 319,
+          "role": "setup",
+          "narration": "They engineer their physical space to force good habits. Take Tracy's own morning routine for instan"
+        },
+        {
+          "index": 91,
+          "sceneId": "scene-91",
+          "fromFrame": 24758,
+          "durationFrames": 320,
+          "role": "question",
+          "narration": "massive Olympic pool when I read that. But what is a 10stroke pool actually? It's literally just a v"
+        },
+        {
+          "index": 92,
+          "sceneId": "scene-92",
+          "fromFrame": 25078,
+          "durationFrames": 261,
+          "role": "complication",
+          "narration": "get from one side to the other. Oh, so it's tiny. Very small. It's not for leisurely swimming on a S"
+        },
+        {
+          "index": 93,
+          "sceneId": "scene-93",
+          "fromFrame": 25339,
+          "durationFrames": 231,
+          "role": "reveal",
+          "narration": "goes downstairs, jumps into the cold water, and just thrashes back and forth, just going at it. 50 s"
+        }
+      ]
+    },
+    {
+      "id": "seq-24",
+      "source": "engine",
+      "fromFrame": 25570,
+      "durationFrames": 1123,
+      "durationSeconds": 37.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 94,
+          "sceneId": "scene-94",
+          "fromFrame": 25570,
+          "durationFrames": 283,
+          "role": "setup",
+          "narration": "It's violent. It's intense. It takes less than 20 minutes, and it acts as an immediate shock to the "
+        },
+        {
+          "index": 95,
+          "sceneId": "scene-95",
+          "fromFrame": 25853,
+          "durationFrames": 367,
+          "role": "question",
+          "narration": "Yes, he designed his environment so that physical activation is totally And environmental design ext"
+        },
+        {
+          "index": 96,
+          "sceneId": "scene-96",
+          "fromFrame": 26220,
+          "durationFrames": 211,
+          "role": "complication",
+          "narration": "passive entertainment. Oh, this is a huge differentiator. There's a stark contrast highlighted in th"
+        },
+        {
+          "index": 97,
+          "sceneId": "scene-97",
+          "fromFrame": 26431,
+          "durationFrames": 262,
+          "role": "reveal",
+          "narration": "If you walk into a wealthy, highly productive person's home, the architectural focal point is usuall"
+        }
+      ]
+    },
+    {
+      "id": "seq-25",
+      "source": "engine",
+      "fromFrame": 26693,
+      "durationFrames": 1025,
+      "durationSeconds": 34.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 98,
+          "sceneId": "scene-98",
+          "fromFrame": 26693,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "But if you walk into a poor or stagnant person's home, the focal point of the living space is a mass"
+        },
+        {
+          "index": 99,
+          "sceneId": "scene-99",
+          "fromFrame": 26938,
+          "durationFrames": 213,
+          "role": "question",
+          "narration": "Exactly. The average highly productive person watches maybe an hour of TV a day."
+        },
+        {
+          "index": 100,
+          "sceneId": "scene-100",
+          "fromFrame": 27151,
+          "durationFrames": 255,
+          "role": "complication",
+          "narration": "Usually specific documentaries or targeted entertainment. Y'all, the average person watches 5 to sev"
+        },
+        {
+          "index": 101,
+          "sceneId": "scene-101",
+          "fromFrame": 27406,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "That's a part-time It really is. And again, they use environmental friction to enforce this boundary"
+        }
+      ]
+    },
+    {
+      "id": "seq-26",
+      "source": "engine",
+      "fromFrame": 27718,
+      "durationFrames": 1173,
+      "durationSeconds": 39.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 102,
+          "sceneId": "scene-102",
+          "fromFrame": 27718,
+          "durationFrames": 396,
+          "role": "setup",
+          "narration": "Yes. He is a very successful guy. He loves movies and he actually has a beautiful home theater, but "
+        },
+        {
+          "index": 103,
+          "sceneId": "scene-103",
+          "fromFrame": 28114,
+          "durationFrames": 328,
+          "role": "partial_answer",
+          "narration": "a set of stairs. Oh, wow. So, it's a track. You actually have to get up, walk across the entire hous"
+        },
+        {
+          "index": 104,
+          "sceneId": "scene-104",
+          "fromFrame": 28442,
+          "durationFrames": 224,
+          "role": "question",
+          "narration": "Exactly. If the remote was just sitting on his coffee table in the main room, he'd probably watch as"
+        },
+        {
+          "index": 105,
+          "sceneId": "scene-105",
+          "fromFrame": 28666,
+          "durationFrames": 225,
+          "role": "reveal",
+          "narration": "But instead of defaulting to the screen, successful people use that evening time for the hour of pow"
+        }
+      ]
+    },
+    {
+      "id": "seq-27",
+      "source": "engine",
+      "fromFrame": 28891,
+      "durationFrames": 1186,
+      "durationSeconds": 39.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 106,
+          "sceneId": "scene-106",
+          "fromFrame": 28891,
+          "durationFrames": 341,
+          "role": "setup",
+          "narration": "Yes. They come home, put the devices away, and actually talk to their spouses. They ask their kids q"
+        },
+        {
+          "index": 107,
+          "sceneId": "scene-107",
+          "fromFrame": 29232,
+          "durationFrames": 259,
+          "role": "question",
+          "narration": "productive if your home life is falling apart. So true. So they are fiercely almost aggressively pro"
+        },
+        {
+          "index": 108,
+          "sceneId": "scene-108",
+          "fromFrame": 29491,
+          "durationFrames": 324,
+          "role": "complication",
+          "narration": "But when it comes to the work itself, how do they direct that focus? That's the million-dollar quest"
+        },
+        {
+          "index": 109,
+          "sceneId": "scene-109",
+          "fromFrame": 29815,
+          "durationFrames": 262,
+          "role": "reveal",
+          "narration": "Exactly. And this brings us to the incredible power of clarity and the 9010 rule of problem solving."
+        }
+      ]
+    },
+    {
+      "id": "seq-28",
+      "source": "engine",
+      "fromFrame": 30077,
+      "durationFrames": 1017,
+      "durationSeconds": 33.9,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 110,
+          "sceneId": "scene-110",
+          "fromFrame": 30077,
+          "durationFrames": 360,
+          "role": "setup",
+          "narration": "This rule states that you should spend 90% of your time fully understanding and defining the problem"
+        },
+        {
+          "index": 111,
+          "sceneId": "scene-111",
+          "fromFrame": 30437,
+          "durationFrames": 326,
+          "role": "question",
+          "narration": "right? Productive people don't just rush into action to feel busy. They define the target with terri"
+        },
+        {
+          "index": 112,
+          "sceneId": "scene-112",
+          "fromFrame": 30763,
+          "durationFrames": 331,
+          "role": "reveal",
+          "narration": "Think about making a restaurant reservation. Right. The restaurant analogy. You cannot just call up "
+        }
+      ]
+    },
+    {
+      "id": "seq-29",
+      "source": "engine",
+      "fromFrame": 31094,
+      "durationFrames": 1044,
+      "durationSeconds": 34.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 113,
+          "sceneId": "scene-113",
+          "fromFrame": 31094,
+          "durationFrames": 207,
+          "role": "setup",
+          "narration": "They think it was a prank call. Exactly. They need to know exactly what day, what time, how many peo"
+        },
+        {
+          "index": 114,
+          "sceneId": "scene-114",
+          "fromFrame": 31301,
+          "durationFrames": 353,
+          "role": "question",
+          "narration": "Do you want to sit inside or Goals require that exact same level of granular clarity. You have to kn"
+        },
+        {
+          "index": 115,
+          "sceneId": "scene-115",
+          "fromFrame": 31654,
+          "durationFrames": 237,
+          "role": "complication",
+          "narration": "you achieved it or And that clarity has to be externalized. Which brings us to one of the most cruci"
+        },
+        {
+          "index": 116,
+          "sceneId": "scene-116",
+          "fromFrame": 31891,
+          "durationFrames": 247,
+          "role": "reveal",
+          "narration": "Controversial. Yes. You absolutely must write your goals down on paper. On physical paper. Yes. You "
+        }
+      ]
+    },
+    {
+      "id": "seq-30",
+      "source": "engine",
+      "fromFrame": 32138,
+      "durationFrames": 1018,
+      "durationSeconds": 33.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 117,
+          "sceneId": "scene-117",
+          "fromFrame": 32138,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "And critically, you cannot type them. Okay. Here's where it gets really interesting and where I'm go"
+        },
+        {
+          "index": 118,
+          "sceneId": "scene-118",
+          "fromFrame": 32383,
+          "durationFrames": 219,
+          "role": "question",
+          "narration": "I figured you would. In today's digital age, isn't demanding we write things on a legal pad a bit an"
+        },
+        {
+          "index": 119,
+          "sceneId": "scene-119",
+          "fromFrame": 32602,
+          "durationFrames": 232,
+          "role": "complication",
+          "narration": "I mean, I use Notion. I use Obsidian. My notes sync across my phone, my iPad, and my laptop. the who"
+        },
+        {
+          "index": 120,
+          "sceneId": "scene-120",
+          "fromFrame": 32834,
+          "durationFrames": 322,
+          "role": "reveal",
+          "narration": "I can search a digital database in a microscond. Writing things down on paper just feels like a stub"
+        }
+      ]
+    },
+    {
+      "id": "seq-31",
+      "source": "engine",
+      "fromFrame": 33156,
+      "durationFrames": 1092,
+      "durationSeconds": 36.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 121,
+          "sceneId": "scene-121",
+          "fromFrame": 33156,
+          "durationFrames": 307,
+          "role": "setup",
+          "narration": "I hear you. And it feels that way right up until you look at the cognitive science of how the physic"
+        },
+        {
+          "index": 122,
+          "sceneId": "scene-122",
+          "fromFrame": 33463,
+          "durationFrames": 322,
+          "role": "question",
+          "narration": "When you write by hand, you are forced to slow down. You have to synthesize the information because "
+        },
+        {
+          "index": 123,
+          "sceneId": "scene-123",
+          "fromFrame": 33785,
+          "durationFrames": 271,
+          "role": "complication",
+          "narration": "And because you have to physically form the letters, engaging complex fine motor skills, it engages "
+        },
+        {
+          "index": 124,
+          "sceneId": "scene-124",
+          "fromFrame": 34056,
+          "durationFrames": 192,
+          "role": "reveal",
+          "narration": "in a completely different way than pressing uniform plastic keys on a The reticular activating syste"
+        }
+      ]
+    },
+    {
+      "id": "seq-32",
+      "source": "engine",
+      "fromFrame": 34248,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 125,
+          "sceneId": "scene-125",
+          "fromFrame": 34248,
+          "durationFrames": 350,
+          "role": "setup",
+          "narration": "Yes. Studies done on university students consistently show this. Students who type their notes on la"
+        },
+        {
+          "index": 126,
+          "sceneId": "scene-126",
+          "fromFrame": 34598,
+          "durationFrames": 303,
+          "role": "question",
+          "narration": "just transcribing. Exactly. They act as human stenographers, mindlessly transcribing audio to text w"
+        },
+        {
+          "index": 127,
+          "sceneId": "scene-127",
+          "fromFrame": 34901,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "That's exactly it. In contrast, students who handw write their notes, even students with average GPA"
+        }
+      ]
+    },
+    {
+      "id": "seq-33",
+      "source": "engine",
+      "fromFrame": 35213,
+      "durationFrames": 1214,
+      "durationSeconds": 40.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 128,
+          "sceneId": "scene-128",
+          "fromFrame": 35213,
+          "durationFrames": 309,
+          "role": "setup",
+          "narration": "who Really? Yeah. Vastly outperform. Yes. Because the handwriters are actively encoding the informat"
+        },
+        {
+          "index": 129,
+          "sceneId": "scene-129",
+          "fromFrame": 35522,
+          "durationFrames": 327,
+          "role": "question",
+          "narration": "Okay. So, it's a biological hack. By writing it down, you are essentially etching the goal into your"
+        },
+        {
+          "index": 130,
+          "sceneId": "scene-130",
+          "fromFrame": 35849,
+          "durationFrames": 319,
+          "role": "complication",
+          "narration": "Pay attention to anything related to this. Exactly. And when you write it down and then stop writing"
+        },
+        {
+          "index": 131,
+          "sceneId": "scene-131",
+          "fromFrame": 36168,
+          "durationFrames": 259,
+          "role": "reveal",
+          "narration": "Your brain starts working on it 24/7 in the background. It tunes your perception to start drawing th"
+        }
+      ]
+    },
+    {
+      "id": "seq-34",
+      "source": "engine",
+      "fromFrame": 36427,
+      "durationFrames": 1013,
+      "durationSeconds": 33.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 132,
+          "sceneId": "scene-132",
+          "fromFrame": 36427,
+          "durationFrames": 252,
+          "role": "setup",
+          "narration": "into your awareness. And typing completely bypasses this deep encoding process. So while digital too"
+        },
+        {
+          "index": 133,
+          "sceneId": "scene-133",
+          "fromFrame": 36679,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "storage, archiving and searchability, analog writing is the superior technology for cognitive intern"
+        },
+        {
+          "index": 134,
+          "sceneId": "scene-134",
+          "fromFrame": 36955,
+          "durationFrames": 187,
+          "role": "complication",
+          "narration": "And the proof is really in the pudding here. There are two crazy examples of how powerful this writt"
+        },
+        {
+          "index": 135,
+          "sceneId": "scene-135",
+          "fromFrame": 37142,
+          "durationFrames": 298,
+          "role": "reveal",
+          "narration": "The house story is my favorite. Let's do the house story. When Tracy and his wife were young and vir"
+        }
+      ]
+    },
+    {
+      "id": "seq-35",
+      "source": "engine",
+      "fromFrame": 37440,
+      "durationFrames": 998,
+      "durationSeconds": 33.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 136,
+          "sceneId": "scene-136",
+          "fromFrame": 37440,
+          "durationFrames": 283,
+          "role": "setup",
+          "narration": "42 things, not just a big house. They studied architectural magazines to get the details right, the "
+        },
+        {
+          "index": 137,
+          "sceneId": "scene-137",
+          "fromFrame": 37723,
+          "durationFrames": 394,
+          "role": "question",
+          "narration": "They internalized it perfectly. And eventually that is exactly the house they found and bought. But "
+        },
+        {
+          "index": 138,
+          "sceneId": "scene-138",
+          "fromFrame": 38117,
+          "durationFrames": 321,
+          "role": "reveal",
+          "narration": "So he needed a highle executive to head up and sell a new product and it was mostly on commission. R"
+        }
+      ]
+    },
+    {
+      "id": "seq-36",
+      "source": "engine",
+      "fromFrame": 38438,
+      "durationFrames": 977,
+      "durationSeconds": 32.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 139,
+          "sceneId": "scene-139",
+          "fromFrame": 38438,
+          "durationFrames": 228,
+          "role": "setup",
+          "narration": "job ad on a job board, he sat down and wrote a 32 item list describing the perfect candidate in exac"
+        },
+        {
+          "index": 140,
+          "sceneId": "scene-140",
+          "fromFrame": 38666,
+          "durationFrames": 238,
+          "role": "question",
+          "narration": "Their temperament, their background, their communication style, everything. Everything. Two days lat"
+        },
+        {
+          "index": 141,
+          "sceneId": "scene-141",
+          "fromFrame": 38904,
+          "durationFrames": 331,
+          "role": "complication",
+          "narration": "Just out of nowhere. Yeah. Tracy brought him in, spent three hours with him, and hired him on the Wh"
+        },
+        {
+          "index": 142,
+          "sceneId": "scene-142",
+          "fromFrame": 39235,
+          "durationFrames": 180,
+          "role": "reveal",
+          "narration": "But a month later, after the guy had been working and crushing it, Tracy showed him the list."
+        }
+      ]
+    },
+    {
+      "id": "seq-37",
+      "source": "engine",
+      "fromFrame": 39415,
+      "durationFrames": 1080,
+      "durationSeconds": 36,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 143,
+          "sceneId": "scene-143",
+          "fromFrame": 39415,
+          "durationFrames": 257,
+          "role": "setup",
+          "narration": "the executive possessed every single one of those 32 traits, plus half a dozen He was a flawless fit"
+        },
+        {
+          "index": 144,
+          "sceneId": "scene-144",
+          "fromFrame": 39672,
+          "durationFrames": 230,
+          "role": "question",
+          "narration": "Materialized in two days entirely because the time was spent getting ruthlessly clear on paper That "
+        },
+        {
+          "index": 145,
+          "sceneId": "scene-145",
+          "fromFrame": 39902,
+          "durationFrames": 257,
+          "role": "complication",
+          "narration": "It's like writing code for reality. It really is. But this raises a really practical question. Once "
+        },
+        {
+          "index": 146,
+          "sceneId": "scene-146",
+          "fromFrame": 40159,
+          "durationFrames": 336,
+          "role": "reveal",
+          "narration": "what exactly do you do when you sit down at your desk on a Monday morning? Right? How do you execute"
+        }
+      ]
+    },
+    {
+      "id": "seq-38",
+      "source": "engine",
+      "fromFrame": 40495,
+      "durationFrames": 1183,
+      "durationSeconds": 39.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 147,
+          "sceneId": "scene-147",
+          "fromFrame": 40495,
+          "durationFrames": 291,
+          "role": "setup",
+          "narration": "minute-by-minute action? This is where we move from mindset into battlefield tactics. And the very f"
+        },
+        {
+          "index": 148,
+          "sceneId": "scene-148",
+          "fromFrame": 40786,
+          "durationFrames": 376,
+          "role": "question",
+          "narration": "There is a phenomenon we could call the grenade desk. The grenade desk. I love that The research tel"
+        },
+        {
+          "index": 149,
+          "sceneId": "scene-149",
+          "fromFrame": 41162,
+          "durationFrames": 200,
+          "role": "complication",
+          "narration": "full of trash had exploded on it. And it wasn't just a matter of office aesthetics or being neat for"
+        },
+        {
+          "index": 150,
+          "sceneId": "scene-150",
+          "fromFrame": 41362,
+          "durationFrames": 316,
+          "role": "reveal",
+          "narration": "It was a matter of cognitive load. Exactly. A cluttered working environment literally tires the mind"
+        }
+      ]
+    },
+    {
+      "id": "seq-39",
+      "source": "engine",
+      "fromFrame": 41678,
+      "durationFrames": 977,
+      "durationSeconds": 32.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 151,
+          "sceneId": "scene-151",
+          "fromFrame": 41678,
+          "durationFrames": 248,
+          "role": "setup",
+          "narration": "Every loose paper, every coffee cup, every sticky note is a micro decision your brain has to make. D"
+        },
+        {
+          "index": 152,
+          "sceneId": "scene-152",
+          "fromFrame": 41926,
+          "durationFrames": 276,
+          "role": "question",
+          "narration": "You spend half your time just looking for things. And by the time you find the document you need, yo"
+        },
+        {
+          "index": 153,
+          "sceneId": "scene-153",
+          "fromFrame": 42202,
+          "durationFrames": 213,
+          "role": "complication",
+          "narration": "The rule for top performers is simple and brutal. Clear your space. Just clear it all. Put away ever"
+        },
+        {
+          "index": 154,
+          "sceneId": "scene-154",
+          "fromFrame": 42415,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "have absolutely nothing on your desk except the materials for the single task you are working on rig"
+        }
+      ]
+    },
+    {
+      "id": "seq-40",
+      "source": "engine",
+      "fromFrame": 42655,
+      "durationFrames": 1140,
+      "durationSeconds": 38,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 155,
+          "sceneId": "scene-155",
+          "fromFrame": 42655,
+          "durationFrames": 183,
+          "role": "setup",
+          "narration": "You prep the station, you clear the cutting board before you even turn on the stove. That's a great "
+        },
+        {
+          "index": 156,
+          "sceneId": "scene-156",
+          "fromFrame": 42838,
+          "durationFrames": 165,
+          "role": "question",
+          "narration": "And speaking of prep, the philosophy here leans heavily into the checklist manifesto approach."
+        },
+        {
+          "index": 157,
+          "sceneId": "scene-157",
+          "fromFrame": 43003,
+          "durationFrames": 303,
+          "role": "partial_answer",
+          "narration": "Every single task needs a recipe. You don't just dive in and start hammering away. No, you break the"
+        },
+        {
+          "index": 158,
+          "sceneId": "scene-158",
+          "fromFrame": 43306,
+          "durationFrames": 206,
+          "role": "complication",
+          "narration": "because one minute of planning saves 10 minutes of execution. That ratio is so important. 1 to 10. 1"
+        },
+        {
+          "index": 159,
+          "sceneId": "scene-159",
+          "fromFrame": 43512,
+          "durationFrames": 283,
+          "role": "reveal",
+          "narration": "If you spend 10 to 12 minutes planning your day, ideally the night before, so your subconscious can "
+        }
+      ]
+    },
+    {
+      "id": "seq-41",
+      "source": "engine",
+      "fromFrame": 43795,
+      "durationFrames": 1215,
+      "durationSeconds": 40.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 160,
+          "sceneId": "scene-160",
+          "fromFrame": 43795,
+          "durationFrames": 317,
+          "role": "setup",
+          "narration": "But once you have that pristine list, what do you tackle first? This is where we get to the famous a"
+        },
+        {
+          "index": 161,
+          "sceneId": "scene-161",
+          "fromFrame": 44112,
+          "durationFrames": 312,
+          "role": "question",
+          "narration": "circles. It really is. There's a great backstory to it, too. Yeah. A publisher initially rejected a "
+        },
+        {
+          "index": 162,
+          "sceneId": "scene-162",
+          "fromFrame": 44424,
+          "durationFrames": 319,
+          "role": "complication",
+          "narration": "But they loved the core concept based on a quote attributed to Mark which is, \"If the first thing yo"
+        },
+        {
+          "index": 163,
+          "sceneId": "scene-163",
+          "fromFrame": 44743,
+          "durationFrames": 267,
+          "role": "reveal",
+          "narration": "probably the worst thing that is going to happen to you all day.\" It's such a gross but effective im"
+        }
+      ]
+    },
+    {
+      "id": "seq-42",
+      "source": "engine",
+      "fromFrame": 45010,
+      "durationFrames": 1036,
+      "durationSeconds": 34.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 164,
+          "sceneId": "scene-164",
+          "fromFrame": 45010,
+          "durationFrames": 386,
+          "role": "setup",
+          "narration": "and most important It's the task you are most likely to procrastinate on, but also the one that will"
+        },
+        {
+          "index": 165,
+          "sceneId": "scene-165",
+          "fromFrame": 45396,
+          "durationFrames": 365,
+          "role": "question",
+          "narration": "and look at the frog. you can't stew over it. You just have to eat it. Because if you stare at the f"
+        },
+        {
+          "index": 166,
+          "sceneId": "scene-166",
+          "fromFrame": 45761,
+          "durationFrames": 285,
+          "role": "reveal",
+          "narration": "quick before I eat the frog. And then it's noon. So, to figure out which item on your list actually "
+        }
+      ]
+    },
+    {
+      "id": "seq-43",
+      "source": "engine",
+      "fromFrame": 46046,
+      "durationFrames": 1097,
+      "durationSeconds": 36.6,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 167,
+          "sceneId": "scene-167",
+          "fromFrame": 46046,
+          "durationFrames": 185,
+          "role": "setup",
+          "narration": "First is the ABCDE method. The ABCs of right?"
+        },
+        {
+          "index": 168,
+          "sceneId": "scene-168",
+          "fromFrame": 46231,
+          "durationFrames": 204,
+          "role": "question",
+          "narration": "A tasks are your frogs. These are things that you absolutely must do that have major consequences fo"
+        },
+        {
+          "index": 169,
+          "sceneId": "scene-169",
+          "fromFrame": 46435,
+          "durationFrames": 204,
+          "role": "complication",
+          "narration": "If you don't do an A task, things blow up. B tasks are things you should do, but they only have mino"
+        },
+        {
+          "index": 170,
+          "sceneId": "scene-170",
+          "fromFrame": 46639,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "Like maybe someone gets slightly annoyed if you delay it, but nobody dies, right? And the absolute u"
+        },
+        {
+          "index": 171,
+          "sceneId": "scene-171",
+          "fromFrame": 46934,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "when an A task is left undone. That is the rule most people break by 9:05 a.m. including me sometime"
+        }
+      ]
+    },
+    {
+      "id": "seq-44",
+      "source": "engine",
+      "fromFrame": 47143,
+      "durationFrames": 987,
+      "durationSeconds": 32.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 172,
+          "sceneId": "scene-172",
+          "fromFrame": 47143,
+          "durationFrames": 327,
+          "role": "setup",
+          "narration": "Oh, me too. So, continuing the framework, C tasks are things that are nice to do, like having coffee"
+        },
+        {
+          "index": 173,
+          "sceneId": "scene-173",
+          "fromFrame": 47470,
+          "durationFrames": 230,
+          "role": "question",
+          "narration": "career trajectory. None at all. D is for delegate. This is anything someone else can do for a lower "
+        },
+        {
+          "index": 174,
+          "sceneId": "scene-174",
+          "fromFrame": 47700,
+          "durationFrames": 214,
+          "role": "complication",
+          "narration": "If you earn $50 an hour, you should not be doing $10 an hour administrative right? and E is for elim"
+        },
+        {
+          "index": 175,
+          "sceneId": "scene-175",
+          "fromFrame": 47914,
+          "durationFrames": 216,
+          "role": "reveal",
+          "narration": "These are tasks you do out of habit that no longer need to be done at all. Just wipe them out. To su"
+        }
+      ]
+    },
+    {
+      "id": "seq-45",
+      "source": "engine",
+      "fromFrame": 48130,
+      "durationFrames": 1123,
+      "durationSeconds": 37.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 176,
+          "sceneId": "scene-176",
+          "fromFrame": 48130,
+          "durationFrames": 304,
+          "role": "setup",
+          "narration": "Imagine you made a list of everything you do in a month. And you ask yourself, if I could only do on"
+        },
+        {
+          "index": 177,
+          "sceneId": "scene-177",
+          "fromFrame": 48434,
+          "durationFrames": 214,
+          "role": "question",
+          "narration": "You pick that one. Then you ask the question again to find a second and a third. Those three tasks s"
+        },
+        {
+          "index": 178,
+          "sceneId": "scene-178",
+          "fromFrame": 48648,
+          "durationFrames": 302,
+          "role": "complication",
+          "narration": "of the true value you provide. Everything else on your list is just noise. You have to ruthlessly pr"
+        },
+        {
+          "index": 179,
+          "sceneId": "scene-179",
+          "fromFrame": 48950,
+          "durationFrames": 303,
+          "role": "reveal",
+          "narration": "What about those C tasks? Things like getting coffee with co-workers, answering Slack messages in th"
+        }
+      ]
+    },
+    {
+      "id": "seq-46",
+      "source": "engine",
+      "fromFrame": 49253,
+      "durationFrames": 1068,
+      "durationSeconds": 35.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 180,
+          "sceneId": "scene-180",
+          "fromFrame": 49253,
+          "durationFrames": 357,
+          "role": "setup",
+          "narration": "The fun stuff. Yeah, the fun stuff. Aren't those essential for networking and company culture? If I "
+        },
+        {
+          "index": 181,
+          "sceneId": "scene-181",
+          "fromFrame": 49610,
+          "durationFrames": 209,
+          "role": "question",
+          "narration": "It sounds like you'd be a robot, right? In a modern collaborative workplace, if you're not a team pl"
+        },
+        {
+          "index": 182,
+          "sceneId": "scene-182",
+          "fromFrame": 49819,
+          "durationFrames": 255,
+          "role": "complication",
+          "narration": "It is the most common objection to this philosophy, but the research takes a very hard pragmatic lin"
+        },
+        {
+          "index": 183,
+          "sceneId": "scene-183",
+          "fromFrame": 50074,
+          "durationFrames": 247,
+          "role": "reveal",
+          "narration": "The expediency principle. Yeah. Human beings naturally gravitate toward the path of least resistance"
+        }
+      ]
+    },
+    {
+      "id": "seq-47",
+      "source": "engine",
+      "fromFrame": 50321,
+      "durationFrames": 960,
+      "durationSeconds": 32,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 184,
+          "sceneId": "scene-184",
+          "fromFrame": 50321,
+          "durationFrames": 209,
+          "role": "setup",
+          "narration": "easy, and socially rewarding rather than what is hard, complex, and necessary. That's just human nat"
+        },
+        {
+          "index": 185,
+          "sceneId": "scene-185",
+          "fromFrame": 50530,
+          "durationFrames": 271,
+          "role": "question",
+          "narration": "It is. But treating your co-workers primarily as playmates might make the day fly by and feel more e"
+        },
+        {
+          "index": 186,
+          "sceneId": "scene-186",
+          "fromFrame": 50801,
+          "durationFrames": 271,
+          "role": "complication",
+          "narration": "It ruins careers. Yes. The bottom 80% of performers in any industry fail precisely because they allo"
+        },
+        {
+          "index": 187,
+          "sceneId": "scene-187",
+          "fromFrame": 51072,
+          "durationFrames": 209,
+          "role": "reveal",
+          "narration": "to consume their day. They confuse motion with So it's a trap of feeling busy without being producti"
+        }
+      ]
+    },
+    {
+      "id": "seq-48",
+      "source": "engine",
+      "fromFrame": 51281,
+      "durationFrames": 974,
+      "durationSeconds": 32.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 188,
+          "sceneId": "scene-188",
+          "fromFrame": 51281,
+          "durationFrames": 158,
+          "role": "setup",
+          "narration": "Exactly. When you go to work, you carry a childhood conditioning to see the people around you as"
+        },
+        {
+          "index": 189,
+          "sceneId": "scene-189",
+          "fromFrame": 51439,
+          "durationFrames": 240,
+          "role": "question",
+          "narration": "friends on a like recess, right? But in a business hierarchy, your primary function is to deliver ec"
+        },
+        {
+          "index": 190,
+          "sceneId": "scene-190",
+          "fromFrame": 51679,
+          "durationFrames": 372,
+          "role": "complication",
+          "narration": "If you prioritize chatting and culture over executing your a tasks, you are actively sabotaging your"
+        },
+        {
+          "index": 191,
+          "sceneId": "scene-191",
+          "fromFrame": 52051,
+          "durationFrames": 204,
+          "role": "reveal",
+          "narration": "They are the friendly time wasters who pop their head into your office and say, \"Got a minute.\" Oh, "
+        }
+      ]
+    },
+    {
+      "id": "seq-49",
+      "source": "engine",
+      "fromFrame": 52255,
+      "durationFrames": 1006,
+      "durationSeconds": 33.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 192,
+          "sceneId": "scene-192",
+          "fromFrame": 52255,
+          "durationFrames": 298,
+          "role": "setup",
+          "narration": "You have to learn the professional art of saying, \"I'd love to catch up, but I am under a deadline a"
+        },
+        {
+          "index": 193,
+          "sceneId": "scene-193",
+          "fromFrame": 52553,
+          "durationFrames": 338,
+          "role": "question",
+          "narration": "meetings can be the ultimate sea task if they aren't managed correctly. Oh, don't even get me starte"
+        },
+        {
+          "index": 194,
+          "sceneId": "scene-194",
+          "fromFrame": 52891,
+          "durationFrames": 168,
+          "role": "complication",
+          "narration": "spoon in the cup. A literal spoon, a physical cup and spoon."
+        },
+        {
+          "index": 195,
+          "sceneId": "scene-195",
+          "fromFrame": 53059,
+          "durationFrames": 202,
+          "role": "reveal",
+          "narration": "Because a meeting without assigned deadlines and individual accountability is just a It's a social c"
+        }
+      ]
+    },
+    {
+      "id": "seq-50",
+      "source": "engine",
+      "fromFrame": 53261,
+      "durationFrames": 1332,
+      "durationSeconds": 44.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 196,
+          "sceneId": "scene-196",
+          "fromFrame": 53261,
+          "durationFrames": 269,
+          "role": "setup",
+          "narration": "People throw around ideas. Someone says, \"We should really look into this.\" Everyone nods and then e"
+        },
+        {
+          "index": 197,
+          "sceneId": "scene-197",
+          "fromFrame": 53530,
+          "durationFrames": 321,
+          "role": "partial_answer",
+          "narration": "Exactly. So Tracy literally brings a physical cup with a spoon in it to his meetings. When a problem"
+        },
+        {
+          "index": 198,
+          "sceneId": "scene-198",
+          "fromFrame": 53851,
+          "durationFrames": 163,
+          "role": "question",
+          "narration": "magic wand. Yeah. And he essentially asks, \"Okay, who is taking the spoon on this?"
+        },
+        {
+          "index": 199,
+          "sceneId": "scene-199",
+          "fromFrame": 54014,
+          "durationFrames": 202,
+          "role": "complication",
+          "narration": "Who is owning the specific task? And by what exact time and date will it be It forces immediate acco"
+        },
+        {
+          "index": 200,
+          "sceneId": "scene-200",
+          "fromFrame": 54216,
+          "durationFrames": 377,
+          "role": "reveal",
+          "narration": "It turns a vague conversation into a weaponized execution plan. It eliminates the diffusion of respo"
+        }
+      ]
+    },
+    {
+      "id": "seq-51",
+      "source": "engine",
+      "fromFrame": 54593,
+      "durationFrames": 1005,
+      "durationSeconds": 33.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 201,
+          "sceneId": "scene-201",
+          "fromFrame": 54593,
+          "durationFrames": 233,
+          "role": "setup",
+          "narration": "I love that. The spoon assigns the frog. Okay, so let's set the scene. You've done all this. You've "
+        },
+        {
+          "index": 202,
+          "sceneId": "scene-202",
+          "fromFrame": 54826,
+          "durationFrames": 184,
+          "role": "question",
+          "narration": "You've identified your a task, your frog. Your desk is clear. You sit down at your perfectly clean d"
+        },
+        {
+          "index": 203,
+          "sceneId": "scene-203",
+          "fromFrame": 55010,
+          "durationFrames": 351,
+          "role": "complication",
+          "narration": "You take a deep breath to start and your phone buzzes. or an email notification slides into the corn"
+        },
+        {
+          "index": 204,
+          "sceneId": "scene-204",
+          "fromFrame": 55361,
+          "durationFrames": 237,
+          "role": "reveal",
+          "narration": "falls apart for most well-intentioned people because we falsely believe we can handle the interrupti"
+        }
+      ]
+    },
+    {
+      "id": "seq-52",
+      "source": "engine",
+      "fromFrame": 55598,
+      "durationFrames": 1114,
+      "durationSeconds": 37.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 205,
+          "sceneId": "scene-205",
+          "fromFrame": 55598,
+          "durationFrames": 243,
+          "role": "setup",
+          "narration": "We believe in the myth of multitasking. We really do. And the science is unequivocal on this point. "
+        },
+        {
+          "index": 206,
+          "sceneId": "scene-206",
+          "fromFrame": 55841,
+          "durationFrames": 329,
+          "role": "question",
+          "narration": "A total myth. The human brain is simply not capable of focusing on two cognitive tasks simultaneousl"
+        },
+        {
+          "index": 207,
+          "sceneId": "scene-207",
+          "fromFrame": 56170,
+          "durationFrames": 201,
+          "role": "complication",
+          "narration": "think we are multitasking is task shifting. We are rapidly switching our attention back and forth be"
+        },
+        {
+          "index": 208,
+          "sceneId": "scene-208",
+          "fromFrame": 56371,
+          "durationFrames": 341,
+          "role": "reveal",
+          "narration": "And that comes with a penalty. A massive invisible cognitive penalty, which psychologists call trans"
+        }
+      ]
+    },
+    {
+      "id": "seq-53",
+      "source": "engine",
+      "fromFrame": 56712,
+      "durationFrames": 1032,
+      "durationSeconds": 34.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 209,
+          "sceneId": "scene-209",
+          "fromFrame": 56712,
+          "durationFrames": 300,
+          "role": "setup",
+          "narration": "the context of the new task, and then trying to reload the original context into your working memory"
+        },
+        {
+          "index": 210,
+          "sceneId": "scene-210",
+          "fromFrame": 57012,
+          "durationFrames": 338,
+          "role": "question",
+          "narration": "It takes the average person 17 minutes to fully regain their state of deep focus and get back to pea"
+        },
+        {
+          "index": 211,
+          "sceneId": "scene-211",
+          "fromFrame": 57350,
+          "durationFrames": 250,
+          "role": "complication",
+          "narration": "17 minutes. 17 whole minutes. So if you get three emails an hour, you are literally never in a state"
+        },
+        {
+          "index": 212,
+          "sceneId": "scene-212",
+          "fromFrame": 57600,
+          "durationFrames": 144,
+          "role": "reveal",
+          "narration": "Many times if someone is working hard and they get interrupted at 11:00 a.m."
+        }
+      ]
+    },
+    {
+      "id": "seq-54",
+      "source": "engine",
+      "fromFrame": 57744,
+      "durationFrames": 1174,
+      "durationSeconds": 39.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 213,
+          "sceneId": "scene-213",
+          "fromFrame": 57744,
+          "durationFrames": 238,
+          "role": "setup",
+          "narration": "by the time 11:17 rolls around, they just give up. They think, \"Well, it's almost lunch.\" Exactly. A"
+        },
+        {
+          "index": 214,
+          "sceneId": "scene-214",
+          "fromFrame": 57982,
+          "durationFrames": 362,
+          "role": "question",
+          "narration": "The entire morning's momentum is destroyed by one single ping. There's an analogy that really crysta"
+        },
+        {
+          "index": 215,
+          "sceneId": "scene-215",
+          "fromFrame": 58344,
+          "durationFrames": 334,
+          "role": "complication",
+          "narration": "You can aim, fire, move, aim, fire. You might even be able to do it incredibly quickly with practice"
+        },
+        {
+          "index": 216,
+          "sceneId": "scene-216",
+          "fromFrame": 58678,
+          "durationFrames": 240,
+          "role": "reveal",
+          "narration": "millisecond. It is physically impossible. To achieve real productivity, you have to practice what is"
+        }
+      ]
+    },
+    {
+      "id": "seq-55",
+      "source": "engine",
+      "fromFrame": 58918,
+      "durationFrames": 1272,
+      "durationSeconds": 42.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 217,
+          "sceneId": "scene-217",
+          "fromFrame": 58918,
+          "durationFrames": 290,
+          "role": "setup",
+          "narration": "You pick your most important task, you begin, and you work on it continuously with 100% focus until "
+        },
+        {
+          "index": 218,
+          "sceneId": "scene-218",
+          "fromFrame": 59208,
+          "durationFrames": 209,
+          "role": "partial_answer",
+          "narration": "It is. Tracy attributes his own massive output to this exact habit. He writes four books a year."
+        },
+        {
+          "index": 219,
+          "sceneId": "scene-219",
+          "fromFrame": 59417,
+          "durationFrames": 233,
+          "role": "question",
+          "narration": "Four books a year. The industry average for a full-time professional writer is one book every two to"
+        },
+        {
+          "index": 220,
+          "sceneId": "scene-220",
+          "fromFrame": 59650,
+          "durationFrames": 218,
+          "role": "complication",
+          "narration": "By completely isolating himself. He puts his head down, turns off every single input, and writes non"
+        },
+        {
+          "index": 221,
+          "sceneId": "scene-221",
+          "fromFrame": 59868,
+          "durationFrames": 322,
+          "role": "reveal",
+          "narration": "If he were to stop and check email, he'd lose the thread, right? He'd have to reread everything he j"
+        }
+      ]
+    },
+    {
+      "id": "seq-56",
+      "source": "engine",
+      "fromFrame": 60190,
+      "durationFrames": 1240,
+      "durationSeconds": 41.3,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 222,
+          "sceneId": "scene-222",
+          "fromFrame": 60190,
+          "durationFrames": 266,
+          "role": "setup",
+          "narration": "apps as the prime offenders The ultimate slot machines. Yes. The philosophy insists we must treat em"
+        },
+        {
+          "index": 223,
+          "sceneId": "scene-223",
+          "fromFrame": 60456,
+          "durationFrames": 173,
+          "role": "question",
+          "narration": "A work dessert. You do not check it first thing in the morning. That is when you should be eating yo"
+        },
+        {
+          "index": 224,
+          "sceneId": "scene-224",
+          "fromFrame": 60629,
+          "durationFrames": 321,
+          "role": "complication",
+          "narration": "You check email only as a reward after completing a major a That is so hard to do. It is. But you sh"
+        },
+        {
+          "index": 225,
+          "sceneId": "scene-225",
+          "fromFrame": 60950,
+          "durationFrames": 195,
+          "role": "complication",
+          "narration": "finger on the delete button, and refusing to be drawn into miscellaneous low value communications."
+        },
+        {
+          "index": 226,
+          "sceneId": "scene-226",
+          "fromFrame": 61145,
+          "durationFrames": 285,
+          "role": "reveal",
+          "narration": "You have to turn electronic devices off or put them in another room to break that slot machine addic"
+        }
+      ]
+    },
+    {
+      "id": "seq-57",
+      "source": "engine",
+      "fromFrame": 61430,
+      "durationFrames": 1112,
+      "durationSeconds": 37.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 227,
+          "sceneId": "scene-227",
+          "fromFrame": 61430,
+          "durationFrames": 243,
+          "role": "setup",
+          "narration": "If multitasking is a myth, what about everyday things? What about driving a car while listening to a"
+        },
+        {
+          "index": 228,
+          "sceneId": "scene-228",
+          "fromFrame": 61673,
+          "durationFrames": 235,
+          "role": "question",
+          "narration": "Sure. What about folding laundry while watching a Netflix show? Isn't that absolute proof that we ca"
+        },
+        {
+          "index": 229,
+          "sceneId": "scene-229",
+          "fromFrame": 61908,
+          "durationFrames": 298,
+          "role": "complication",
+          "narration": "Actually, you can perform two tasks simultaneously if and only if they utilize completely different "
+        },
+        {
+          "index": 230,
+          "sceneId": "scene-230",
+          "fromFrame": 62206,
+          "durationFrames": 336,
+          "role": "reveal",
+          "narration": "You can drive a car, which for an experienced driver is primarily a deeply ingrained physical, motor"
+        }
+      ]
+    },
+    {
+      "id": "seq-58",
+      "source": "engine",
+      "fromFrame": 62542,
+      "durationFrames": 1204,
+      "durationSeconds": 40.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 231,
+          "sceneId": "scene-231",
+          "fromFrame": 62542,
+          "durationFrames": 326,
+          "role": "setup",
+          "narration": "They use different parts of the Exactly. You can fold laundry, a wte motor skill, while watching TV."
+        },
+        {
+          "index": 232,
+          "sceneId": "scene-232",
+          "fromFrame": 62868,
+          "durationFrames": 252,
+          "role": "question",
+          "narration": "of the brain, like reading and listening to someone Yes, you cannot write a complex analytical repor"
+        },
+        {
+          "index": 233,
+          "sceneId": "scene-233",
+          "fromFrame": 63120,
+          "durationFrames": 233,
+          "role": "complication",
+          "narration": "You cannot read a dense legal document while checking text messages. The brain cannot process two st"
+        },
+        {
+          "index": 234,
+          "sceneId": "scene-234",
+          "fromFrame": 63353,
+          "durationFrames": 393,
+          "role": "reveal",
+          "narration": "It creates a bottleneck in the prefrontal cortex. it has to task shift. And that's where the 17-minu"
+        }
+      ]
+    },
+    {
+      "id": "seq-59",
+      "source": "engine",
+      "fromFrame": 63746,
+      "durationFrames": 965,
+      "durationSeconds": 32.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 235,
+          "sceneId": "scene-235",
+          "fromFrame": 63746,
+          "durationFrames": 231,
+          "role": "setup",
+          "narration": "the phone. We've put it in a drawer. We've cleared the desk. We are ready to singlehandle our Ready "
+        },
+        {
+          "index": 236,
+          "sceneId": "scene-236",
+          "fromFrame": 63977,
+          "durationFrames": 187,
+          "role": "question",
+          "narration": "We stare at the blinking cursor on the screen. Even with zero distractions, we still delay."
+        },
+        {
+          "index": 237,
+          "sceneId": "scene-237",
+          "fromFrame": 64164,
+          "durationFrames": 288,
+          "role": "complication",
+          "narration": "The research points to two main culprits. a lack of urgency and the paralyzing fear of imperfection."
+        },
+        {
+          "index": 238,
+          "sceneId": "scene-238",
+          "fromFrame": 64452,
+          "durationFrames": 259,
+          "role": "reveal",
+          "narration": "No, often it stems from a lack of a forcing function. Think about it. If a car is barreling toward y"
+        }
+      ]
+    },
+    {
+      "id": "seq-60",
+      "source": "engine",
+      "fromFrame": 64711,
+      "durationFrames": 1200,
+      "durationSeconds": 40,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 239,
+          "sceneId": "scene-239",
+          "fromFrame": 64711,
+          "durationFrames": 358,
+          "role": "setup",
+          "narration": "You don't sit there and analyze your priorities or check your calendar. You jump because the urgency"
+        },
+        {
+          "index": 240,
+          "sceneId": "scene-240",
+          "fromFrame": 65069,
+          "durationFrames": 319,
+          "role": "question",
+          "narration": "We tell ourselves, \"I'll start that later this morning, or I'll hit it hard right after lunch.\" And "
+        },
+        {
+          "index": 241,
+          "sceneId": "scene-241",
+          "fromFrame": 65388,
+          "durationFrames": 211,
+          "role": "complication",
+          "narration": "To combat this invisible delay, the strategy is to apply the 8020 rule to the act of starting itself"
+        },
+        {
+          "index": 242,
+          "sceneId": "scene-242",
+          "fromFrame": 65599,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "Yes, perfectionism is the ultimate enemy of productivity. The rule is this. If you have 80% of the k"
+        }
+      ]
+    },
+    {
+      "id": "seq-61",
+      "source": "engine",
+      "fromFrame": 65911,
+      "durationFrames": 1039,
+      "durationSeconds": 34.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 243,
+          "sceneId": "scene-243",
+          "fromFrame": 65911,
+          "durationFrames": 343,
+          "role": "setup",
+          "narration": "Don't wait for 100%. Do not wait until you have 100% of the information because that day may never c"
+        },
+        {
+          "index": 244,
+          "sceneId": "scene-244",
+          "fromFrame": 66254,
+          "durationFrames": 291,
+          "role": "question",
+          "narration": "and feedback of execution. You have to actively resist the tendency toward perfectionism and instead"
+        },
+        {
+          "index": 245,
+          "sceneId": "scene-245",
+          "fromFrame": 66545,
+          "durationFrames": 177,
+          "role": "complication",
+          "narration": "This is a psychological drive to finish what you start to maintain a fast aggressive tempo."
+        },
+        {
+          "index": 246,
+          "sceneId": "scene-246",
+          "fromFrame": 66722,
+          "durationFrames": 228,
+          "role": "reveal",
+          "narration": "To continually tell yourself, \"Do it now. do it now. Back to The writing process is a perfect exampl"
+        }
+      ]
+    },
+    {
+      "id": "seq-62",
+      "source": "engine",
+      "fromFrame": 66950,
+      "durationFrames": 1095,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 247,
+          "sceneId": "scene-247",
+          "fromFrame": 66950,
+          "durationFrames": 286,
+          "role": "setup",
+          "narration": "When Tracy writes, he dictates his books rapidly just to get the raw material out into the world. He"
+        },
+        {
+          "index": 248,
+          "sceneId": "scene-248",
+          "fromFrame": 67236,
+          "durationFrames": 173,
+          "role": "question",
+          "narration": "The first draft is never perfect. It's usually garbage. But the magic happens in the"
+        },
+        {
+          "index": 249,
+          "sceneId": "scene-249",
+          "fromFrame": 67409,
+          "durationFrames": 300,
+          "role": "complication",
+          "narration": "He will rewrite a book five to 10 times until it's right. If he sat there waiting to type out the pe"
+        },
+        {
+          "index": 250,
+          "sceneId": "scene-250",
+          "fromFrame": 67709,
+          "durationFrames": 336,
+          "role": "reveal",
+          "narration": "But there is a concept in this section that really twisted my brain, and I want to spend some time o"
+        }
+      ]
+    },
+    {
+      "id": "seq-63",
+      "source": "engine",
+      "fromFrame": 68045,
+      "durationFrames": 1183,
+      "durationSeconds": 39.4,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 251,
+          "sceneId": "scene-251",
+          "fromFrame": 68045,
+          "durationFrames": 206,
+          "role": "setup",
+          "narration": "procrastination. He cites Nathaniel Brandon's advice to live consciously. Unconscious procrastinatio"
+        },
+        {
+          "index": 252,
+          "sceneId": "scene-252",
+          "fromFrame": 68251,
+          "durationFrames": 173,
+          "role": "question",
+          "narration": "is mindlessly scrolling social media or rearranging your desk instead of doing the work."
+        },
+        {
+          "index": 253,
+          "sceneId": "scene-253",
+          "fromFrame": 68424,
+          "durationFrames": 355,
+          "role": "complication",
+          "narration": "But creative procrastination is the deliberate conscious decision to not do It's a strategic retreat"
+        },
+        {
+          "index": 254,
+          "sceneId": "scene-254",
+          "fromFrame": 68779,
+          "durationFrames": 178,
+          "role": "complication",
+          "narration": "of my time right now. I am intentionally putting this off so I can protect my focus for my a task."
+        },
+        {
+          "index": 255,
+          "sceneId": "scene-255",
+          "fromFrame": 68957,
+          "durationFrames": 271,
+          "role": "reveal",
+          "narration": "You are deliberately choosing what to neglect. But wait, let's be honest here, Isn't creative procra"
+        }
+      ]
+    },
+    {
+      "id": "seq-64",
+      "source": "engine",
+      "fromFrame": 69228,
+      "durationFrames": 1078,
+      "durationSeconds": 35.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 256,
+          "sceneId": "scene-256",
+          "fromFrame": 69228,
+          "durationFrames": 173,
+          "role": "setup",
+          "narration": "A loophole? Yeah. A psychological trick to make yourself feel productive and in control while you ar"
+        },
+        {
+          "index": 257,
+          "sceneId": "scene-257",
+          "fromFrame": 69401,
+          "durationFrames": 357,
+          "role": "question",
+          "narration": "fundamentally putting things off. I mean, if I tell my boss I'm creatively procrastinating on the Q3"
+        },
+        {
+          "index": 258,
+          "sceneId": "scene-258",
+          "fromFrame": 69758,
+          "durationFrames": 226,
+          "role": "complication",
+          "narration": "It absolutely could be a loophole if used dishonestly. But the underlying argument is a matter of ph"
+        },
+        {
+          "index": 259,
+          "sceneId": "scene-259",
+          "fromFrame": 69984,
+          "durationFrames": 322,
+          "role": "reveal",
+          "narration": "Time is finite. You literally cannot do everything that is asked of you. Okay. True. Therefore, you "
+        }
+      ]
+    },
+    {
+      "id": "seq-65",
+      "source": "engine",
+      "fromFrame": 70306,
+      "durationFrames": 1068,
+      "durationSeconds": 35.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 260,
+          "sceneId": "scene-260",
+          "fromFrame": 70306,
+          "durationFrames": 376,
+          "role": "setup",
+          "narration": "procrastinate on, the C tasks, the low value demands, the endless email chains, your brain will unco"
+        },
+        {
+          "index": 261,
+          "sceneId": "scene-261",
+          "fromFrame": 70682,
+          "durationFrames": 219,
+          "role": "question",
+          "narration": "earlier. Exactly. By consciously saying, \"I am actively neglecting this email chain to focus on this"
+        },
+        {
+          "index": 262,
+          "sceneId": "scene-262",
+          "fromFrame": 70901,
+          "durationFrames": 259,
+          "role": "complication",
+          "narration": "you free up the mental RAM required to execute the deep You are weaponizing procrastination to prote"
+        },
+        {
+          "index": 263,
+          "sceneId": "scene-263",
+          "fromFrame": 71160,
+          "durationFrames": 214,
+          "role": "reveal",
+          "narration": "randomly destroy it. And regarding your boss, you don't tell them you're procrastinating. You negoti"
+        }
+      ]
+    },
+    {
+      "id": "seq-66",
+      "source": "engine",
+      "fromFrame": 71374,
+      "durationFrames": 1123,
+      "durationSeconds": 37.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 264,
+          "sceneId": "scene-264",
+          "fromFrame": 71374,
+          "durationFrames": 230,
+          "role": "setup",
+          "narration": "You say I can do the Q3 report or I can land the Smith account which is the A priority for the compa"
+        },
+        {
+          "index": 265,
+          "sceneId": "scene-265",
+          "fromFrame": 71604,
+          "durationFrames": 259,
+          "role": "question",
+          "narration": "That is a massive difference. You are taking control of the neglect. And that leads perfectly into t"
+        },
+        {
+          "index": 266,
+          "sceneId": "scene-266",
+          "fromFrame": 71863,
+          "durationFrames": 281,
+          "role": "complication",
+          "narration": "Zerobased Zerobased thinking. Everything we've talked about so far is micromanaging your minute-by-m"
+        },
+        {
+          "index": 267,
+          "sceneId": "scene-267",
+          "fromFrame": 72144,
+          "durationFrames": 353,
+          "role": "reveal",
+          "narration": "and daily tactics. But productivity isn't just about micromanagement. It's about managing your overa"
+        }
+      ]
+    },
+    {
+      "id": "seq-67",
+      "source": "engine",
+      "fromFrame": 72497,
+      "durationFrames": 1142,
+      "durationSeconds": 38.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 268,
+          "sceneId": "scene-268",
+          "fromFrame": 72497,
+          "durationFrames": 343,
+          "role": "setup",
+          "narration": "eliminate comfortable but useless practices. This is called The core question of zerobased thinking "
+        },
+        {
+          "index": 269,
+          "sceneId": "scene-269",
+          "fromFrame": 72840,
+          "durationFrames": 317,
+          "role": "question",
+          "narration": "start doing this again Oh, that's heavy. If you look at a project, a product line, a relationship, o"
+        },
+        {
+          "index": 270,
+          "sceneId": "scene-270",
+          "fromFrame": 73157,
+          "durationFrames": 197,
+          "role": "complication",
+          "narration": "be, \"How do I get out and how fast?\" It's a ruthless tool for combating the comfort zone of the sunk"
+        },
+        {
+          "index": 271,
+          "sceneId": "scene-271",
+          "fromFrame": 73354,
+          "durationFrames": 285,
+          "role": "reveal",
+          "narration": "Human beings are terrible at quitting We continue doing things just because we've always done them o"
+        }
+      ]
+    },
+    {
+      "id": "seq-68",
+      "source": "engine",
+      "fromFrame": 73639,
+      "durationFrames": 1049,
+      "durationSeconds": 35,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 272,
+          "sceneId": "scene-272",
+          "fromFrame": 73639,
+          "durationFrames": 233,
+          "role": "setup",
+          "narration": "Tracy gives examples of consulting with massive Fortune 500 companies and forcing their executives t"
+        },
+        {
+          "index": 273,
+          "sceneId": "scene-273",
+          "fromFrame": 73872,
+          "durationFrames": 322,
+          "role": "question",
+          "narration": "And inevitably, they find legacy products they are pouring millions of dollars and thousands of man-"
+        },
+        {
+          "index": 274,
+          "sceneId": "scene-274",
+          "fromFrame": 74194,
+          "durationFrames": 218,
+          "role": "complication",
+          "narration": "But this applies just as heavily to the And this brings up one of the most controversial points we f"
+        },
+        {
+          "index": 275,
+          "sceneId": "scene-275",
+          "fromFrame": 74412,
+          "durationFrames": 276,
+          "role": "reveal",
+          "narration": "Oh, the boss thing. Yes. Tracy states unequivocally that in a business your primary job is to please"
+        }
+      ]
+    },
+    {
+      "id": "seq-69",
+      "source": "engine",
+      "fromFrame": 74688,
+      "durationFrames": 1049,
+      "durationSeconds": 35,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 276,
+          "sceneId": "scene-276",
+          "fromFrame": 74688,
+          "durationFrames": 353,
+          "role": "setup",
+          "narration": "He tells a story about a woman at one of his seminars who argued fiercely with him on this. She stoo"
+        },
+        {
+          "index": 277,
+          "sceneId": "scene-277",
+          "fromFrame": 75041,
+          "durationFrames": 228,
+          "role": "question",
+          "narration": "Tracy called that perspective a tragedy. But honestly, telling people their main job is to please th"
+        },
+        {
+          "index": 278,
+          "sceneId": "scene-278",
+          "fromFrame": 75269,
+          "durationFrames": 261,
+          "role": "complication",
+          "narration": "It does sound bad in a modern context, right? In 2026, we talk about flat hierarchies, bringing your"
+        },
+        {
+          "index": 279,
+          "sceneId": "scene-279",
+          "fromFrame": 75530,
+          "durationFrames": 207,
+          "role": "reveal",
+          "narration": "Isn't telling people to just focus on pleasing the boss a recipe for a toxic sickopantic work enviro"
+        }
+      ]
+    },
+    {
+      "id": "seq-70",
+      "source": "engine",
+      "fromFrame": 75737,
+      "durationFrames": 1034,
+      "durationSeconds": 34.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 280,
+          "sceneId": "scene-280",
+          "fromFrame": 75737,
+          "durationFrames": 261,
+          "role": "setup",
+          "narration": "If you view pleasing the boss as fetching coffee and laughing at bad jokes, yes, it's toxic, sick of"
+        },
+        {
+          "index": 281,
+          "sceneId": "scene-281",
+          "fromFrame": 75998,
+          "durationFrames": 185,
+          "role": "question",
+          "narration": "But that is not what is being advocated. This is a purely pragmatic economic argument."
+        },
+        {
+          "index": 282,
+          "sceneId": "scene-282",
+          "fromFrame": 76183,
+          "durationFrames": 255,
+          "role": "complication",
+          "narration": "In any corporate hierarchy, you are hired for one specific reason, to help the people above you do t"
+        },
+        {
+          "index": 283,
+          "sceneId": "scene-283",
+          "fromFrame": 76438,
+          "durationFrames": 333,
+          "role": "reveal",
+          "narration": "Yet to view yourself as a business of one and your boss is your primary If you view it through that "
+        }
+      ]
+    },
+    {
+      "id": "seq-71",
+      "source": "engine",
+      "fromFrame": 76771,
+      "durationFrames": 1143,
+      "durationSeconds": 38.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 284,
+          "sceneId": "scene-284",
+          "fromFrame": 76771,
+          "durationFrames": 355,
+          "role": "setup",
+          "narration": "Can you give an example of what that actually looks like in practice? Tracy illustrates this brillia"
+        },
+        {
+          "index": 285,
+          "sceneId": "scene-285",
+          "fromFrame": 77126,
+          "durationFrames": 348,
+          "role": "question",
+          "narration": "of land was coming up for sale in a distant city. So what did he do? Instead of waiting for a meetin"
+        },
+        {
+          "index": 286,
+          "sceneId": "scene-286",
+          "fromFrame": 77474,
+          "durationFrames": 202,
+          "role": "complication",
+          "narration": "the market, talking to local developers, and doing the math. He secured the land deal before his com"
+        },
+        {
+          "index": 287,
+          "sceneId": "scene-287",
+          "fromFrame": 77676,
+          "durationFrames": 238,
+          "role": "reveal",
+          "narration": "He flew back, walked into his boss's office, and handed him a check for a million dollars in pure pr"
+        }
+      ]
+    },
+    {
+      "id": "seq-72",
+      "source": "engine",
+      "fromFrame": 77914,
+      "durationFrames": 1094,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 288,
+          "sceneId": "scene-288",
+          "fromFrame": 77914,
+          "durationFrames": 379,
+          "role": "setup",
+          "narration": "Because he solved a massive problem and generated huge, undeniable value for his client, he was imme"
+        },
+        {
+          "index": 289,
+          "sceneId": "scene-289",
+          "fromFrame": 78293,
+          "durationFrames": 223,
+          "role": "question",
+          "narration": "He wasn't being subservient. He was maximizing his economic leverage by focusing exactly on what the"
+        },
+        {
+          "index": 290,
+          "sceneId": "scene-290",
+          "fromFrame": 78516,
+          "durationFrames": 298,
+          "role": "complication",
+          "narration": "That reframes it completely. It's about being incredibly proactive, aggressive even in delivering va"
+        },
+        {
+          "index": 291,
+          "sceneId": "scene-291",
+          "fromFrame": 78814,
+          "durationFrames": 194,
+          "role": "reveal",
+          "narration": "And it's crucial to note that this highv value focus doesn't just apply to making money. It applies "
+        }
+      ]
+    },
+    {
+      "id": "seq-73",
+      "source": "engine",
+      "fromFrame": 79008,
+      "durationFrames": 1260,
+      "durationSeconds": 42,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 292,
+          "sceneId": "scene-292",
+          "fromFrame": 79008,
+          "durationFrames": 398,
+          "role": "setup",
+          "narration": "Because if you want to be truly productive over a lifetime, you have to be successful at home, too. "
+        },
+        {
+          "index": 293,
+          "sceneId": "scene-293",
+          "fromFrame": 79406,
+          "durationFrames": 329,
+          "role": "question",
+          "narration": "TV to build transparent, attentive relationships. They don't multitask their family. Exactly. They p"
+        },
+        {
+          "index": 294,
+          "sceneId": "scene-294",
+          "fromFrame": 79735,
+          "durationFrames": 219,
+          "role": "complication",
+          "narration": "the phone stays in the car or goes in a drawer. They give 100% of their focus to their spouse and ki"
+        },
+        {
+          "index": 295,
+          "sceneId": "scene-295",
+          "fromFrame": 79954,
+          "durationFrames": 314,
+          "role": "reveal",
+          "narration": "They remove misunderstandings quickly. And crucially, they find ways to inject humor into the home b"
+        }
+      ]
+    },
+    {
+      "id": "seq-74",
+      "source": "engine",
+      "fromFrame": 80268,
+      "durationFrames": 1135,
+      "durationSeconds": 37.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 296,
+          "sceneId": "scene-296",
+          "fromFrame": 80268,
+          "durationFrames": 326,
+          "role": "setup",
+          "narration": "It brings the entire philosophy completely full circle. It really does. If you were listening to thi"
+        },
+        {
+          "index": 297,
+          "sceneId": "scene-297",
+          "fromFrame": 80594,
+          "durationFrames": 317,
+          "role": "question",
+          "narration": "automaton who just does more work for the sake of No, you are mastering these hardcore productivity "
+        },
+        {
+          "index": 298,
+          "sceneId": "scene-298",
+          "fromFrame": 80911,
+          "durationFrames": 214,
+          "role": "complication",
+          "narration": "You are doing it to free up the time and the mental bandwidth to invest in the things that actually "
+        },
+        {
+          "index": 299,
+          "sceneId": "scene-299",
+          "fromFrame": 81125,
+          "durationFrames": 278,
+          "role": "reveal",
+          "narration": "and your broader contribution to the world. Productivity is ultimately the tool that buys you your l"
+        }
+      ]
+    },
+    {
+      "id": "seq-75",
+      "source": "engine",
+      "fromFrame": 81403,
+      "durationFrames": 1126,
+      "durationSeconds": 37.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 300,
+          "sceneId": "scene-300",
+          "fromFrame": 81403,
+          "durationFrames": 353,
+          "role": "setup",
+          "narration": "When you control your attention, you control your reality. And that is exactly where we want to leav"
+        },
+        {
+          "index": 301,
+          "sceneId": "scene-301",
+          "fromFrame": 81756,
+          "durationFrames": 250,
+          "role": "question",
+          "narration": "By starving your distractions, shutting off that slot machine in your pocket, and feeding your focus"
+        },
+        {
+          "index": 302,
+          "sceneId": "scene-302",
+          "fromFrame": 82006,
+          "durationFrames": 199,
+          "role": "complication",
+          "narration": "So, here is your challenge for today. Look at your current to-do list or look at a project you've be"
+        },
+        {
+          "index": 303,
+          "sceneId": "scene-303",
+          "fromFrame": 82205,
+          "durationFrames": 324,
+          "role": "reveal",
+          "narration": "Apply zerobased thinking right now. What is the one thing on that list or in your life that knowing "
+        }
+      ]
+    },
+    {
+      "id": "seq-76",
+      "source": "engine",
+      "fromFrame": 82529,
+      "durationFrames": 440,
+      "durationSeconds": 14.7,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 304,
+          "sceneId": "scene-304",
+          "fromFrame": 82529,
+          "durationFrames": 201,
+          "role": "setup",
+          "narration": "Find it. Be ruthless. Find a way to eliminate it, delegate it, or just consciously drop it."
+        },
+        {
+          "index": 305,
+          "sceneId": "scene-305",
+          "fromFrame": 82730,
+          "durationFrames": 154,
+          "role": "question",
+          "narration": "And watch how much energy and focus you get back to tackle the frogs that actually matter."
+        },
+        {
+          "index": 306,
+          "sceneId": "scene-306",
+          "fromFrame": 82884,
+          "durationFrames": 85,
+          "role": "reveal",
+          "narration": "Keep digging deep and we'll see you next"
+        }
+      ]
+    }
+  ]
+}
