@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-30T18:41:04.301Z",
+  "n": 258,
+  "total": 258,
+  "sources": [
+    "readcheck",
+    "recheck-1",
+    "recheck-2",
+    "recheck-3"
+  ],
+  "totals": {
+    "CORRECT": 249,
+    "NEUTRAL": 9,
+    "WRONG": 0
+  },
+  "wrongRate": 0,
+  "blame": {
+    "words": 3,
+    "body": 1,
+    "place": 1,
+    "diagram": 2,
+    "face": 1,
+    "people": 1
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 22,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess focuses on the luxury car being useless rather than Trisha shivering in the passenger seat and narrating through internal monologue.",
+      "from": "readcheck",
+      "concept": "storm",
+      "callout": "A USELESS LUXURY CAR"
+    },
+    {
+      "i": 23,
+      "verdict": "NEUTRAL",
+      "blame": "body",
+      "why": "The guess shows the woman standing bowed next to the car instead of shivering inside the passenger seat regretting her boots.",
+      "from": "readcheck",
+      "concept": "storm",
+      "callout": "SHIVERING IN PASSENGER SEAT"
+    },
+    {
+      "i": 24,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess focuses on being trapped in a foot of snow rather than Ethan stubbornly insisting they haven't missed their turn.",
+      "from": "readcheck",
+      "concept": "storm",
+      "callout": "IN A LITERAL FOOT OF SNOW"
+    },
+    {
+      "i": 25,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The guess focuses on staring into a whiteout rather than the specific image and significance of the soaked Manolos.",
+      "from": "readcheck",
+      "concept": "storm",
+      "callout": "STARING INTO A WHITE OUT"
+    },
+    {
+      "i": 139,
+      "verdict": "NEUTRAL",
+      "blame": "place",
+      "why": "The guess places the scene outside in the storm rather than inside the house where sensory degradation dismantles her.",
+      "from": "readcheck",
+      "concept": "storm",
+      "callout": "SENSORY DEGRADATION"
+    },
+    {
+      "i": 185,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess vaguely mentions refuting groundless paranoia rather than refuting the Gothic trope reading of her guilt.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    },
+    {
+      "i": 216,
+      "verdict": "NEUTRAL",
+      "blame": "face",
+      "why": "The guess describes people talking about an act of violence rather than realizing they are two mutual predators hunting each other.",
+      "from": "recheck-1",
+      "concept": "mirror",
+      "callout": "Cold-blooded violence"
+    },
+    {
+      "i": 246,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "The guess sees a woman walking past a stunned man in a casino setting rather than understanding authorities never connected her to luring her victim from a casino.",
+      "from": "recheck-1",
+      "concept": "mirror",
+      "callout": "Camera-filled casino"
+    },
+    {
+      "i": 250,
+      "verdict": "NEUTRAL",
+      "blame": "diagram",
+      "why": "The guess assumes the diagram refutes that contrivances diminish enjoyment rather than refuting the fragility of the physical world versus character logic.",
+      "from": "readcheck",
+      "concept": null,
+      "callout": null
+    }
+  ],
+  "reviewRequired": {
+    "flagged": 5,
+    "wrong": [],
+    "neutral": [],
+    "cleared": 5,
+    "unread": []
+  }
+}

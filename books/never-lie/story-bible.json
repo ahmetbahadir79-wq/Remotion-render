@@ -1,0 +1,311 @@
+{
+  "slug": "never-lie",
+  "world": {
+    "era": "contemporary 2022: upstate New York blizzard estate",
+    "eraEvidence": "Set during a fierce winter blizzard in an isolated upstate New York manor, 2022 contemporary setting with cassette tape analog archives from four years prior.",
+    "worldId": "haleManor",
+    "approxYear": 2022,
+    "setting": "An isolated, snowbound Victorian estate in upstate New York cut off by a blizzard; freezing wood-paneled corridors, psychiatrist's hidden basement archive, dark bedrooms, and cold kitchens.",
+    "register": "claustrophobic psychological thriller, domestic deception, analog psychiatric cassette recordings, unreliable narrator",
+    "forbid": [
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "shadowSelf"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "never-lie",
+    "worldId": "haleManor",
+    "allowedMotifs": [
+      "home",
+      "storm",
+      "key",
+      "door",
+      "medical",
+      "notes",
+      "phone",
+      "puppeteer",
+      "mirror",
+      "car",
+      "road",
+      "grave",
+      "chains",
+      "clock",
+      "mask",
+      "gift",
+      "food",
+      "book",
+      "crack",
+      "shield",
+      "fire",
+      "game",
+      "coin",
+      "target",
+      "crash",
+      "photo",
+      "heart",
+      "trophy",
+      "balance"
+    ],
+    "forbiddenMotifs": [
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "shadowSelf"
+    ],
+    "allowedCharacters": [
+      "tricia",
+      "ethan",
+      "adrienne",
+      "narrator"
+    ],
+    "allowedLocations": [
+      "room",
+      "office",
+      "bedroom",
+      "kitchen",
+      "forest",
+      "abstract"
+    ],
+    "allowedProps": [
+      "key",
+      "notes",
+      "medical",
+      "phone",
+      "mirror",
+      "mask",
+      "door",
+      "book",
+      "crack",
+      "shield",
+      "fire",
+      "game",
+      "coin",
+      "target",
+      "crash",
+      "photo",
+      "heart",
+      "trophy",
+      "balance"
+    ]
+  },
+  "cast": {
+    "tricia": {
+      "name": "Tricia",
+      "role": "newlywed wife appearing vulnerable and frightened who is secretly the calculating orchestrator",
+      "look": "a pale twenty-eight-year-old woman with straight dark brown hair framing an anxious face, guarded eyes, wearing a thick charcoal wool sweater and dark denim",
+      "variant": {
+        "gender": "f",
+        "age": "young",
+        "build": "slight",
+        "outfit": "casual",
+        "suit": "#2B2D42",
+        "shirt": "#8D99AE",
+        "skin": "#F8D7BE",
+        "hair": "#221E1F",
+        "hairStyle": "long",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      },
+      "mentions": 30
+    },
+    "ethan": {
+      "name": "Ethan",
+      "role": "Tricia's newlywed husband whose protective exterior conceals mounting financial strain and hidden motives",
+      "look": "a sharp-featured thirty-year-old man with neat sandy brown hair, tense jawline, wearing a heavy navy winter parka over a heather gray knit sweater",
+      "variant": {
+        "gender": "m",
+        "age": "young",
+        "build": "average",
+        "outfit": "coat",
+        "suit": "#1E2A38",
+        "shirt": "#6C7A89",
+        "skin": "#EDC4B3",
+        "hair": "#5D4037",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "none"
+      },
+      "mentions": 22
+    },
+    "adrienne": {
+      "name": "Dr. Adrienne Hale",
+      "role": "imperious vanished psychiatrist whose taped patient sessions reveal manipulation and danger",
+      "look": "an elegant imposing woman in her early forties with sharp arched eyebrows, dark hair swept back, wearing a tailored dark plum blazer over a silk blouse",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "build": "slight",
+        "outfit": "suit",
+        "suit": "#3A1F2D",
+        "shirt": "#E6D5B8",
+        "skin": "#E8C39E",
+        "hair": "#1C1418",
+        "hairStyle": "bun",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "necklace"
+      },
+      "mentions": 22
+    },
+    "narrator": {
+      "name": "Narrator",
+      "role": "analytic commentary voice dissecting the psychological entrapment and domestic deception",
+      "look": "a thoughtful modern commentator with dark casual jacket and perceptive expression",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#2C3E50",
+        "shirt": "#BDC3C7",
+        "skin": "#E0BB95",
+        "hair": "#2C3E50",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      },
+      "mentions": 10
+    }
+  },
+  "places": {
+    "room": {
+      "set": "room",
+      "look": "a cold, high-ceilinged library room in the isolated estate with dark mahogany wood and a hidden archive door",
+      "mentions": 15
+    },
+    "office": {
+      "set": "office",
+      "look": "Dr. Hale's private psychiatric study lined with bookshelves, filing cabinets, and analog audio playback equipment",
+      "mentions": 10
+    },
+    "bedroom": {
+      "set": "bedroom",
+      "look": "a chilling master bedroom with heavy frozen curtains and an eerie sense of recent abandonment",
+      "mentions": 5
+    },
+    "kitchen": {
+      "set": "kitchen",
+      "look": "a drafty dark country kitchen with bare counters, antique cupboards, and winter frost on windows",
+      "mentions": 4
+    },
+    "forest": {
+      "set": "forest",
+      "look": "a howling blizzard engulfing towering pine trees and impassable snowdrifts around the secluded estate",
+      "mentions": 8
+    },
+    "abstract": {
+      "set": "abstract",
+      "look": "a dark psychological mindspace of cassette tape spools, distorted confessions, and fractured mirrors",
+      "mentions": 12
+    }
+  },
+  "objects": [
+    {
+      "concept": "home",
+      "mentions": 37,
+      "why": "the isolated Victorian estate serving as a snowbound prison and psychological stage"
+    },
+    {
+      "concept": "storm",
+      "mentions": 18,
+      "why": "the relentless blizzard outside cutting off any escape and freezing the house"
+    },
+    {
+      "concept": "notes",
+      "mentions": 15,
+      "why": "clinical patient notes and psychiatric session transcripts"
+    },
+    {
+      "concept": "medical",
+      "mentions": 8,
+      "why": "psychiatric therapy practice, clinical diagnosis, and psychological manipulation"
+    },
+    {
+      "concept": "key",
+      "mentions": 7,
+      "why": "unlocking hidden rooms, locked archive cabinets, and long-buried secrets"
+    },
+    {
+      "concept": "puppeteer",
+      "mentions": 9,
+      "why": "manipulation of narrative, control over patients, and orchestrated traps"
+    },
+    {
+      "concept": "mirror",
+      "mentions": 6,
+      "why": "split identity, dual timelines, and the mask of domestic innocence"
+    },
+    {
+      "concept": "door",
+      "mentions": 6,
+      "why": "secret concealed entrance to the tape archive hidden behind woodwork"
+    },
+    {
+      "concept": "phone",
+      "mentions": 9,
+      "why": "the desperate lack of cellular signal and cut off communication with the outside world"
+    },
+    {
+      "concept": "car",
+      "mentions": 6,
+      "why": "the vehicle trapped in the snowdrift on the secluded driveway"
+    },
+    {
+      "concept": "chains",
+      "mentions": 6,
+      "why": "metaphorical confinement and inescapable psychological entrapment"
+    },
+    {
+      "concept": "grave",
+      "mentions": 5,
+      "why": "the unresolved murder and vanished corpse of Dr. Adrienne Hale"
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 10,
+      "claim": "Newlyweds Tricia and Ethan are trapped by a blizzard in a vanished psychiatrist's secluded estate, where discovery of secret therapy tapes turns a house tour into a psychological autopsy."
+    },
+    {
+      "act": "development",
+      "fromFrame": 15120,
+      "claim": "Listening to Dr. Hale's recorded patient sessions breeds toxic domestic suspicion between the couple as confessions echo Ethan's own concealed background."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 27295,
+      "claim": "The dual timelines merge to reveal Dr. Hale was an imperious puppet master who manipulated vulnerable patients until boundaries turned fatal."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 41664,
+      "claim": "The perspective shatters with the realization that Tricia is not an accidental victim, but the calculated orchestrator hunting down past betrayals."
+    },
+    {
+      "act": "close",
+      "fromFrame": 55356,
+      "claim": "The novel inverts the true-crime voyeur: listening to other people's secrets is an indictment of the audience's own complicity and arrogance."
+    }
+  ],
+  "authored": true
+}

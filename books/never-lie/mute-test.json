@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "label": "final",
+      "date": "2026-10-30T18:37:32.396Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 25,
+        "ADDS": 23,
+        "EXPLAINS": 9,
+        "NEUTRAL": 2,
+        "TEXT_ONLY": 6,
+        "NONE": 1,
+        "WRONG": 3
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": false,
+      "sample": "fresh",
+      "sealed": true,
+      "sealSha256": "112d67368b10891ef3d896fd74503baf5c3712db3c43be442eedc0cd9319e644",
+      "verdict": false,
+      "dead": 1,
+      "addsTargetMet": true,
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 77,
+      "configSha256": "5bfb8daea309eb3440326a25bae7154291b92c66283e116dd75f599ee55a9d46",
+      "renderInputHash": "0fee6b775bc1910e",
+      "codeHead": "cb0d03118d1215d3c87721ac7e1d28eca3350633",
+      "framesConfigSha": "5bfb8daea309eb34"
+    },
+    {
+      "label": "run2",
+      "date": "2026-10-30T18:59:06.413Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 26,
+        "ADDS": 25,
+        "TEXT_ONLY": 5,
+        "NEUTRAL": 3,
+        "WRONG": 1,
+        "EXPLAINS": 10
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "verdict": true,
+      "dead": 0,
+      "addsTargetMet": true,
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 83,
+      "configSha256": "bc6c55ce87dac4ea96557382bde40929119398d6b3aaab31968b81e322ec853e",
+      "renderInputHash": "f824d8cce0aea38b",
+      "codeHead": "cb0d03118d1215d3c87721ac7e1d28eca3350633",
+      "framesConfigSha": "bc6c55ce87dac4ea"
+    }
+  ]
+}

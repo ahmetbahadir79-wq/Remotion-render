@@ -1,0 +1,973 @@
+[
+  {
+    "i": 130,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "CONVENTIONAL FOR A THRILLER",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "narrator"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "holds": null,
+    "explainedBy": "The narrator questions whether the stalker setup feels too conventional for a psychological thriller.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The initial stalker premise seems like a standard genre trope.",
+      "concreteVisual": "The narrator analyzes the classic mystery trope before the mask of convention.",
+      "onScreenText": "CONVENTIONAL FOR A THRILLER",
+      "relationToPrevious": "Pivots from the tapes discussion to questioning the conventional nature of the setup.",
+      "addedInformation": "Visualizes the critical skepticism toward the overt stalker storyline."
+    }
+  },
+  {
+    "i": 131,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DELIBERATE DECOY",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [
+      "adrienne"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "Dr. Adrienne Hale smirks knowingly in her office, having authored a deliberate narrative trap.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The apparent conventionality is an intentional trick designed by the manipulator.",
+      "concreteVisual": "Dr. Adrienne Hale smiling with sinister poise in her office as the orchestrator of the deception.",
+      "onScreenText": "DELIBERATE DECOY",
+      "relationToPrevious": "Explains why the setup felt conventional: it is a deliberate deception.",
+      "addedInformation": "Identifies Dr. Hale as the architect behind the misleading narrative frame."
+    }
+  },
+  {
+    "i": 132,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "THE SURFACE READING",
+        "claim": "EJ is the apex predator",
+        "inputs": [
+          "Volume of rage",
+          "Obsessive threats"
+        ],
+        "hub": "Stalker profile",
+        "output": "Apex predator",
+        "verdict": "A targeted victim",
+        "reason": "Subtext of panic and systematic entrapment",
+        "truth": "Trapped target"
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A refute diagram deconstructs the assumption that EJ is the dangerous predator.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "EJ is not the predator in this dynamic but the targeted victim.",
+      "concreteVisual": "A refute diagram dismantling the predator label into panic and victimhood.",
+      "onScreenText": "none",
+      "relationToPrevious": "Refutes the previous decoy premise by exposing EJ's true role.",
+      "addedInformation": "Contrasts the loud rage with the underlying panic of entrapment."
+    }
+  },
+  {
+    "i": 133,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "THE SURFACE READING",
+        "claim": "EJ is the apex predator",
+        "inputs": [
+          "Manipulated",
+          "Gaslit",
+          "Drugged"
+        ],
+        "hub": "Stalker profile",
+        "output": "Apex predator",
+        "verdict": "Systematically manipulated",
+        "reason": "Controlled and drugged by Dr. Hale",
+        "truth": "Entrapped victim",
+        "cues": {
+          "reason": "systematically manipulated",
+          "truth": "victim"
+        }
+      }
+    },
+    "continue": true,
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The refute diagram continues, specifying how Dr. Hale systematically drugged and manipulated him.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "EJ was systematically gaslit, drugged, and controlled by Dr. Hale.",
+      "concreteVisual": "The refute diagram updates showing the clinical mechanisms of manipulation.",
+      "onScreenText": "none",
+      "relationToPrevious": "Continues the refute diagram from beat 132 detailing the methods of control.",
+      "addedInformation": "Details the concrete psychiatric abuse dismantling his agency."
+    }
+  },
+  {
+    "i": 134,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "SLURRING RAGE ON TAPES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "adrienne"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "Dr. Hale reviews clinical notes in her office while listening to EJ's slurring rage on the recorded tapes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "EJ's rage on the audio tapes reflects drug-induced helplessness rather than a villain origin.",
+      "concreteVisual": "Dr. Adrienne Hale holding clinical session notes with a triumphant smirk.",
+      "onScreenText": "SLURRING RAGE ON TAPES",
+      "relationToPrevious": "Connects the refutation back to the clinical office and the taped sessions.",
+      "addedInformation": "Shows Dr. Hale in possession of the notes and documentation of the manipulation."
+    }
+  },
+  {
+    "i": 135,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "LURED INTO A TRAP",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "narrator",
+      "adrienne"
+    ],
+    "expression": "afraid",
+    "action": "struggling",
+    "partnerExpression": "smirk",
+    "partnerAction": "grabbing",
+    "explainedBy": "The narrator illustrates a captive caught in Dr. Hale's invisible web of control.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The violent outbursts were the desperate flailing of someone helplessly ensnared in a web.",
+      "concreteVisual": "A figure struggling desperately under confinement alongside Dr. Hale.",
+      "onScreenText": "INTO A SPIDERWEB",
+      "relationToPrevious": "Shifts from clinical notes to the visceral physical terror of entrapment.",
+      "addedInformation": "Emphasizes the invisible and inescapable nature of the trap."
+    }
+  },
+  {
+    "i": 136,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "TRAPPED",
+        "LASHING OUT",
+        "IMPOTENCE"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram maps how realization of entrapment directly produces aggressive lashing out as impotence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Aggression heard on the tapes is the direct functional consequence of impotence.",
+      "concreteVisual": "Flow diagram charting Trapped to Lashing Out to Impotence.",
+      "onScreenText": "none",
+      "relationToPrevious": "Formalizes the causal psychological mechanism behind the tape's aggression.",
+      "addedInformation": "Reinterprets outward threats as symptoms of utter helplessness."
+    }
+  },
+  {
+    "i": 137,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "SMOKE SCREEN CONCEALING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "holds": null,
+    "explainedBy": "Tricia fixes her attention on the imagined shadow monster, blind to the true danger close at hand.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Obsessing over the stalker in the tapes acts as a smoke screen hiding domestic deception.",
+      "concreteVisual": "Tricia in the dark wood-paneled room staring anxiously at a looming shadow.",
+      "onScreenText": "SMOKE SCREEN CONCEALING",
+      "relationToPrevious": "Connects the tapes' decoy effect to Tricia's present vulnerability in the estate.",
+      "addedInformation": "Shows how fixating on the past narrative obscures present peril."
+    }
+  },
+  {
+    "i": 138,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WRONG DIRECTION",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "partnerExpression": "blank",
+    "partnerAction": "idle",
+    "explainedBy": "Tricia points fearfully outward while Ethan stands silently behind her in the manor.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Attention is directed away from the actual threat standing in the room.",
+      "concreteVisual": "Tricia pointing toward an unseen exterior threat while Ethan watches blankly.",
+      "onScreenText": "WRONG DIRECTION",
+      "relationToPrevious": "Contrasts Tricia's outward paranoia with Ethan's calm domestic presence.",
+      "addedInformation": "Visualizes the tragic spatial misdirection of her suspicion."
+    }
+  },
+  {
+    "i": 139,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "SENSORY DEGRADATION",
+      "style": "box"
+    },
+    "set": "forest",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "holds": null,
+    "explainedBy": "The freezing blizzard outside hammers the isolated house, wearing down Tricia's resilience.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The physical environment actively works to degrade her cognitive stability.",
+      "concreteVisual": "Tricia slumped against the freezing window framed by the violent snowstorm.",
+      "onScreenText": "SENSORY DEGRADATION",
+      "relationToPrevious": "Transitions from domestic deceit to the hostile environmental siege.",
+      "addedInformation": "Establishes how external cold and isolation begin eroding her senses."
+    }
+  },
+  {
+    "i": 140,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "PITCH BLACK AND COLD",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "worried",
+    "action": "lying",
+    "partnerExpression": "neutral",
+    "partnerAction": "lying",
+    "explainedBy": "Tricia lies awake shivering in the dark, freezing master bedroom at 2:00 a.m. while Ethan sleeps beside her.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Trapped in the freezing dark bedroom at 2 a.m., isolation becomes visceral.",
+      "concreteVisual": "Tricia lying awake and trembling in the dark bedroom beside sleeping Ethan.",
+      "onScreenText": "PITCH BLACK AND COLD",
+      "relationToPrevious": "Establishes the midnight bedroom setting before the shock.",
+      "addedInformation": "Contrasts Tricia's sleepless distress with Ethan's resting neutrality."
+    }
+  },
+  {
+    "i": 141,
+    "concept": "crash",
+    "diagram": null,
+    "callout": {
+      "text": "HEARTPOUNDING PANIC",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "partnerExpression": "neutral",
+    "partnerAction": "lying",
+    "continue": true,
+    "explainedBy": "A deafening crash erupts downstairs and Tricia jolts upright in terror while Ethan remains asleep.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A deafening crash downstairs triggers instant terror in the middle of the night.",
+      "concreteVisual": "Tricia bolt upright in bed, eyes wide with fear beside unmoved Ethan as the crash echoes.",
+      "onScreenText": "HEARTPOUNDING PANIC",
+      "relationToPrevious": "Shatters the quiet bedroom scene with an unexpected violent sound.",
+      "addedInformation": "Shows the immediate physiological shock seizing Tricia."
+    }
+  },
+  {
+    "i": 142,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHARP SCISSORS AS WEAPON",
+      "style": "box"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "afraid",
+    "action": "take",
+    "holds": "wrench",
+    "actionCue": "reaches",
+    "explainedBy": "Tricia desperately snatches a sharp tool to defend herself as she hyperventilates.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Frantic with fear, Tricia arms herself with an improvised sharp weapon.",
+      "concreteVisual": "Tricia reaching out and clutching a sharp tool in the bedroom, eyes wide.",
+      "onScreenText": "SHARP SCISSORS AS WEAPON",
+      "relationToPrevious": "Escalates her reaction from panic into desperate self-defense.",
+      "addedInformation": "Emphasizes her acute perception of mortal danger in the bedroom."
+    }
+  },
+  {
+    "i": 143,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "UTTERLY UNBOTHERED",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "ethan",
+      "tricia"
+    ],
+    "expression": "blank",
+    "action": "talk",
+    "partnerExpression": "afraid",
+    "partnerAction": "hold",
+    "explainedBy": "Ethan casually yawns and dismisses the crash as settling snow, while Tricia clutches her weapon in terror.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan dismisses the frightening sound as mere weather or the house settling.",
+      "concreteVisual": "Ethan rubbing his eyes casually dismissing the sound while Tricia stands armed.",
+      "onScreenText": "UTTERLY UNBOTHERED",
+      "relationToPrevious": "Directly contrasts Ethan's complete lethargy against Tricia's armed panic.",
+      "addedInformation": "Exposes the grotesque mismatch in their emotional responses."
+    }
+  },
+  {
+    "i": 144,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PSYCHOLOGICAL DESTABILIZATION",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "partnerExpression": "neutral",
+    "partnerAction": "lying",
+    "explainedBy": "Ethan rolls over asleep, leaving Tricia psychologically destabilized and completely isolated.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan returning to sleep leaves Tricia feeling profoundly destabilized and disbelieved.",
+      "concreteVisual": "Tricia slumped in defeat at the foot of the bed while Ethan lies peacefully asleep.",
+      "onScreenText": "PSYCHOLOGICAL DESTABILIZATION",
+      "relationToPrevious": "Resolves the bedroom crash sequence with total emotional alienation.",
+      "addedInformation": "Shows how his refusal to react destabilizes her internal reality."
+    }
+  },
+  {
+    "i": 145,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "FREEZING COLD",
+        "ZERO CELL SERVICE",
+        "DISPLACED ITEMS"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A sorter diagram itemizes the tripartite environmental factors systematically breaking down her faculties.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Sensory degradation is enforced through a coordinated triad of environmental pressures.",
+      "concreteVisual": "A sorter diagram sorting the degradation mechanisms into three distinct buckets.",
+      "onScreenText": "none",
+      "relationToPrevious": "Categorizes the environmental forces driving her psychological breakdown.",
+      "addedInformation": "Provides analytical structure to the environmental traps besieging her."
+    }
+  },
+  {
+    "i": 146,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "COMPLETELY CUT OFF",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "afraid",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "Tricia grips her dark phone with no signal, utterly unable to reach the outside world for help.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Zero cellular reception eliminates any lifeline or reality testing with the outside world.",
+      "concreteVisual": "Tricia in the dark room holding a blank, unlit phone screen in desperation.",
+      "onScreenText": "COMPLETELY CUT OFF",
+      "relationToPrevious": "Examines the second factor from beat 145: total communicative isolation.",
+      "addedInformation": "Shows her trapped with no external reference to validate her instincts."
+    }
+  },
+  {
+    "i": 147,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THERE IS NO LIFELINE",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Tricia slumps in isolation, realizing no text or call will save her from the house.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "There is no lifeline or social support to verify her husband's strange behavior.",
+      "concreteVisual": "Tricia slumped in despair, phone hanging loose in her hand.",
+      "onScreenText": "THERE IS NO LIFELINE",
+      "relationToPrevious": "Deepens the despair over the absence of any outside connection.",
+      "addedInformation": "Emphasizes her growing sense of abandonment within the marriage."
+    }
+  },
+  {
+    "i": 148,
+    "concept": "photo",
+    "diagram": null,
+    "callout": {
+      "text": "PORTRAIT BACK ON WALL",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "surprised",
+    "action": "point",
+    "holds": null,
+    "explainedBy": "Tricia discovers Dr. Hale's massive eerie portrait restored to the wall after Ethan had taken it down.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The vanished psychiatrist's portrait mysteriously reappears on the wall hours after removal.",
+      "concreteVisual": "Tricia staring and pointing in disbelief at Dr. Hale's portrait hanging on the wall.",
+      "onScreenText": "PORTRAIT BACK ON WALL",
+      "relationToPrevious": "Illustrates the displaced items factor from the sorter diagram.",
+      "addedInformation": "Provides concrete evidence of unseen manipulation inside the house."
+    }
+  },
+  {
+    "i": 149,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INCONGRUOUS WITH THE THREAT",
+      "style": "box"
+    },
+    "set": "room",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "afraid",
+    "action": "talk",
+    "partnerExpression": "blank",
+    "partnerAction": "idle",
+    "continue": true,
+    "explainedBy": "Tricia confronts Ethan in panic while he stares back with chilling indifference.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan's flat emotional reactions are completely incongruous with the escalating peril.",
+      "concreteVisual": "Tricia frantically speaking to Ethan who meets her alarm with flat apathy.",
+      "onScreenText": "INCONGRUOUS WITH THE THREAT",
+      "relationToPrevious": "Synthesizes the psychological rift created by the portrait and the noises.",
+      "addedInformation": "Highlights the marital estrangement caused by mismatched perceptions."
+    }
+  },
+  {
+    "i": 150,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BOUNDARIES START TO COLLAPSE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "holds": null,
+    "explainedBy": "Shivering and desperate for physical warmth, Tricia crosses the threshold into Dr. Hale's private wardrobe.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Desperation for warmth drives Tricia across personal and moral boundaries.",
+      "concreteVisual": "Tricia walking anxiously across the threshold into the dark walk-in closet.",
+      "onScreenText": "BOUNDARIES START TO COLLAPSE",
+      "relationToPrevious": "Shifts focus from marital friction to Tricia's desperate survival actions.",
+      "addedInformation": "Marks the transition from passive victim to invasive boundary-crosser."
+    }
+  },
+  {
+    "i": 151,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "RAIDS THE WALK-IN CLOSET",
+      "style": "box"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "afraid",
+    "action": "reach",
+    "holds": null,
+    "continue": true,
+    "explainedBy": "Trembling violently from the cold, Tricia reaches into the dead psychiatrist's closet for clothing.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Severe cold forces Tricia to raid the vanished psychiatrist's personal closet.",
+      "concreteVisual": "Tricia shivering, arms outstretched toward the wardrobe garments.",
+      "onScreenText": "RAIDS THE WALK-IN CLOSET",
+      "relationToPrevious": "Advances her entry into the wardrobe into an active search for garments.",
+      "addedInformation": "Depicts the raw physical compulsion overpowering social propriety."
+    }
+  },
+  {
+    "i": 152,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WHITE CASHMERE SWEATER",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "surprised",
+    "action": "take",
+    "holds": "gift",
+    "actionCue": "pulls",
+    "continue": true,
+    "explainedBy": "Tricia pulls Dr. Hale's luxurious cashmere sweater over her head, inhaling the perfume scent.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Tricia puts on Dr. Hale's white cashmere sweater still scented with her perfume.",
+      "concreteVisual": "Tricia pulling the soft garment close, a complex expression on her face.",
+      "onScreenText": "WHITE CASHMERE SWEATER",
+      "relationToPrevious": "Shows the concrete act of donning the dead woman's clothing.",
+      "addedInformation": "Sensory details of luxury and perfume underscore the invasive intimacy."
+    }
+  },
+  {
+    "i": 153,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "A DEAD WOMAN'S CLOTHES",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "tricia"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "gift",
+    "continue": true,
+    "explainedBy": "Tricia stands wrapped in the dead psychiatrist's clothes while conducting her investigation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Tricia wears the dead woman's wardrobe to survive her own investigation into her fate.",
+      "concreteVisual": "Tricia wearing the foreign sweater standing amidst the cold archive room.",
+      "onScreenText": "A DEAD WOMAN'S CLOTHES",
+      "relationToPrevious": "Reflects on the chilling symbolic weight of wearing the victim's clothes.",
+      "addedInformation": "Draws out the irony of inhabiting the disappearance she is probing."
+    }
+  },
+  {
+    "i": 154,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "PHYSICAL SKIN OF VICTIM",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "tricia",
+      "adrienne"
+    ],
+    "expression": "blank",
+    "action": "idle",
+    "partnerExpression": "blank",
+    "partnerAction": "idle",
+    "explainedBy": "Tricia and Dr. Hale stand reflected together, their identities merging as Tricia wears her clothes.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Tricia adopts the physical skin of Dr. Hale to hunt for her killer, blurring identities.",
+      "concreteVisual": "Tricia and Dr. Adrienne Hale side by side in mirror alignment, sharing identical attire.",
+      "onScreenText": "PHYSICAL SKIN OF VICTIM",
+      "relationToPrevious": "Elevates the physical sweater into a profound psychological fusion.",
+      "addedInformation": "Shows how the investigator is becoming consumed by the persona of the vanished woman."
+    }
+  },
+  {
+    "i": 155,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SLEEPING THROUGH THE IMPACT",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "ethan"
+    ],
+    "expression": "neutral",
+    "action": "lying",
+    "holds": null,
+    "explainedBy": "The narrator returns to scrutinize Ethan's unbelievable complacency following the loud crash.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The host circles back to question Ethan's unnatural lethargy during the nocturnal disturbance.",
+      "concreteVisual": "Narrator pointing thoughtfully at the bedroom setting where the incident took place.",
+      "onScreenText": "ETHAN'S REACTION TO CRASH",
+      "relationToPrevious": "Pivots analysis back to the core marital suspicion around Ethan.",
+      "addedInformation": "Focuses the viewer's attention on the unresolved mystery of his non-reaction."
+    }
+  },
+  {
+    "i": 156,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SERIOUSLY SUPPOSED TO BUY THAT",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "ethan"
+    ],
+    "expression": "neutral",
+    "action": "lying",
+    "holds": null,
+    "explainedBy": "Ethan sleeps soundly in the abandoned mansion, raising immediate questions about his authenticity.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "It defies human nature to simply sleep through a thunderous crash in a haunted mansion.",
+      "concreteVisual": "Ethan serenely lying in bed, unbothered by the sinister surroundings.",
+      "onScreenText": "SERIOUSLY SUPPOSED TO BUY THAT",
+      "relationToPrevious": "Challenges the plausibility of Ethan's deep sleep directly.",
+      "addedInformation": "Emphasizes how his stillness contradicts basic survival instincts."
+    }
+  },
+  {
+    "i": 157,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A MASSIVE PLOT HOLE",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "narrator"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "holds": null,
+    "explainedBy": "The narrator considers whether the sleep reaction was merely a clumsy authorial plot convenience.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The reaction initially feels like an author's clumsy excuse to allow Tricia to investigate alone.",
+      "concreteVisual": "Narrator weighing the plot hole hypothesis against narrative logic.",
+      "onScreenText": "A MASSIVE PLOT HOLE",
+      "relationToPrevious": "Voices the viewer's natural suspicion of clumsy storytelling.",
+      "addedInformation": "Sets up the hypothesis that will be overturned in the next beat."
+    }
+  },
+  {
+    "i": 158,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "THE SURFACE READING",
+        "claim": "Ethan is oblivious and lazy",
+        "inputs": [
+          "Heavy sleeper",
+          "Clumsy plot convenience"
+        ],
+        "hub": "Plot hole assumption",
+        "output": "Innocent sleep",
+        "verdict": "It is not a plot hole",
+        "reason": "Concealing foreknowledge",
+        "truth": "Calculated clue"
+      }
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A refute diagram debunks the plot-hole assumption and establishes his sleep as a crucial clue.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dismissing his sleep as a plot hole ignores the deliberate trap planted by the author.",
+      "concreteVisual": "A refute diagram striking the plot hole explanation and establishing it as an intentional clue.",
+      "onScreenText": "none",
+      "relationToPrevious": "Refutes the lazy-writing criticism posed in beat 157.",
+      "addedInformation": "Elevates the detail from bad writing into central thematic evidence."
+    }
+  },
+  {
+    "i": 159,
+    "concept": null,
+    "diagram": {
+      "type": "refute",
+      "labels": [],
+      "scale": 1.3,
+      "refute": {
+        "owner": "THE SURFACE READING",
+        "claim": "Ethan is oblivious and lazy",
+        "inputs": [
+          "Heavy sleeper",
+          "Deep sleeper"
+        ],
+        "hub": "Sleep excuse",
+        "output": "Innocent sleep",
+        "verdict": "Terrifying glaring clue",
+        "reason": "He knows what is inside",
+        "truth": "Intimate complicity"
+      }
+    },
+    "continue": true,
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The refute diagram continues, revealing Ethan's calm is born of intimate knowledge of the house.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan is calm because he already knows exactly what is moving inside the estate.",
+      "concreteVisual": "Refute diagram updating to show his calm stems from hidden complicity.",
+      "onScreenText": "none",
+      "relationToPrevious": "Continues beat 158's refutation with the specific reason behind his calm.",
+      "addedInformation": "Reveals that his indifference is proof of prior knowledge."
+    }
+  },
+  {
+    "i": 160,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "QUIET ADMISSION OF KNOWLEDGE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "ethan"
+    ],
+    "expression": "smirk",
+    "action": "sit",
+    "holds": null,
+    "explainedBy": "Ethan sits upright with a faint smirk, knowing the architecture of the house and the trap perfectly.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan's complete absence of fear constitutes a silent confession of complicity.",
+      "concreteVisual": "Ethan sitting in the dark bedroom with a knowing, composed expression.",
+      "onScreenText": "QUIET ADMISSION OF KNOWLEDGE",
+      "relationToPrevious": "Translates the diagram's insight back into Ethan's living presence.",
+      "addedInformation": "Presents Ethan not as a victim of terror but as its quiet insider."
+    }
+  },
+  {
+    "i": 161,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "CALM BEHAVIOR",
+        "WEAPON",
+        "HER PANIC"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram maps how his deliberate calm functions directly as an offensive weapon against her sanity.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "His displayed calm is weaponized to make her feel irrational and hysterical.",
+      "concreteVisual": "Flow diagram charting Calm Behavior to Weapon to Her Panic.",
+      "onScreenText": "none",
+      "relationToPrevious": "Unpacks the operational psychology of his unbothered posture.",
+      "addedInformation": "Demonstrates how domestic composure can serve as gaslighting aggression."
+    }
+  },
+  {
+    "i": 162,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "DESIGNED TO MAKE HER CRAZY",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "ethan",
+      "tricia"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "partnerExpression": "afraid",
+    "partnerAction": "slump",
+    "explainedBy": "Ethan gestures dismissively at Tricia's terror, manipulating her into feeling crazy and hysterical.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ethan orchestrates his reactions specifically to gaslight Tricia into doubting her sanity.",
+      "concreteVisual": "Ethan smirking as he points at Tricia who is slumped in emotional exhaustion.",
+      "onScreenText": "DESIGNED TO MAKE HER CRAZY",
+      "relationToPrevious": "Dramatizes the causal flow from beat 161 in their marital bedroom.",
+      "addedInformation": "Illustrates the cruel emotional subjugation occurring under the guise of marriage."
+    }
+  },
+  {
+    "i": 163,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PREDATOR UNDER THE DUVET",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "tricia",
+      "ethan"
+    ],
+    "expression": "worried",
+    "action": "lying",
+    "partnerExpression": "smirk",
+    "partnerAction": "lying",
+    "continue": true,
+    "explainedBy": "Tricia lies beside Ethan under the covers, unaware the predator she fears is sharing her bed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Her obsession with distant tape ghosts blinds her to the predator sharing her marriage bed.",
+      "concreteVisual": "Tricia looking anxiously away while Ethan lies beside her under the duvet with a dark smirk.",
+      "onScreenText": "PREDATOR UNDER THE DUVET",
+      "relationToPrevious": "Reaches the climactic revelation of the domestic entrapment thesis.",
+      "addedInformation": "Delivers the shocking inversion of domestic safety into predatory danger."
+    }
+  },
+  {
+    "i": 164,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "TWO TIMELINES RUNNING",
+      "style": "box"
+    },
+    "set": "abstract",
+    "cast": [
+      "narrator"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "holds": "book",
+    "explainedBy": "The narrator discusses the author's structure of dual past and present timelines.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The narrative alternates between past recordings and present peril to construct its trap.",
+      "concreteVisual": "Narrator holding open a volume while explaining the dual timeline structure.",
+      "onScreenText": "TWO TIMELINES RUNNING",
+      "relationToPrevious": "Broadens the scope from the bedroom scene to the overarching dual-track narrative structure.",
+      "addedInformation": "Explains how structural storytelling choices reinforce the themes of blindness and control."
+    }
+  },
+  {
+    "i": 165,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "DARK MIRROR REFLECTING",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "tricia",
+      "adrienne"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "partnerExpression": "smirk",
+    "partnerAction": "idle",
+    "explainedBy": "Tricia and Dr. Hale face opposite ways, a dark mirror reflecting past manipulation against present domestic deceit.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The past patient sessions and present domestic terror form a deliberate dark mirror.",
+      "concreteVisual": "Tricia and Dr. Hale juxtaposed across a dark split mirror reflection.",
+      "onScreenText": "DARK MIRROR REFLECTING",
+      "relationToPrevious": "Provides the visual counterpart to the dual timeline technique.",
+      "addedInformation": "Concludes chunk 4 by cementing the psychological symmetry between the two eras."
+    }
+  }
+]

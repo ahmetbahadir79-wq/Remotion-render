@@ -1,0 +1,32 @@
+{
+  "status": "done",
+  "startedAt": "2026-10-30T18:41:11.914Z",
+  "at": "2026-10-30T18:41:56.772Z",
+  "config": "config.antidote.json",
+  "configSha256": "bc6c55ce87dac4ea96557382bde40929119398d6b3aaab31968b81e322ec853e",
+  "inputs": {
+    "storyboard": {
+      "path": "books/never-lie/art.json",
+      "sha256": "eeb02260ef30ed20e9fb2db4878411f862bf077d1c98e15dfeed1e136839ca6c"
+    },
+    "storyBible": {
+      "path": "books/never-lie/story-bible.json",
+      "sha256": "deeea8bb0f2cfb82fcd818ad734044a18229302cf6ea16d7ee749023b09d20c7"
+    },
+    "motifs": {
+      "path": "books/never-lie/motifs.json",
+      "sha256": null
+    },
+    "vtt": {
+      "path": "public/captions/never-lie.vtt",
+      "sha256": "3a5c7f7fd08ebc1c83a83ac84bd44e636763648551a998ef4e3ae93f7e72dd6f"
+    },
+    "audio": {
+      "path": "public/audio/never-lie.mp3",
+      "sha256": "349a33609af2b2eeab74d31c3a167ce4b0ebbf1885ca219f601d7e793c6e752f"
+    }
+  },
+  "head": "cb0d03118d1215d3c87721ac7e1d28eca3350633",
+  "previewOnly": true,
+  "skipPack": true
+}

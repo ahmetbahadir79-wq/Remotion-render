@@ -1,0 +1,60 @@
+{
+  "slug": "never-lie",
+  "title": "Never Lie",
+  "author": "Freida McFadden",
+  "genre": "thriller",
+  "engine": "antidote",
+  "engineRationale": "Book profile (moderate): contemporary fiction with a cast → staged characters in Antidote (We Were Liars: 0/30 wrong, image adds 70%) RISK: some violence → plan those beats as aftermath/symbol if Vox",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "contemporary",
+    "era": 2022,
+    "realPeople": false,
+    "format": "story",
+    "violence": "some",
+    "minorHarm": false,
+    "mustSee": [
+      "snowbound secluded manor in a blizzard",
+      "hidden cassette tapes of psychiatric sessions",
+      "listening to transcripts and recordings in the dark",
+      "unraveling secrets of Dr. Adrienne Hale",
+      "the deceptive identity twists between Tricia and Ethan"
+    ]
+  },
+  "engineRubric": {
+    "pick": "antidote",
+    "confidence": "moderate",
+    "voxScore": 0,
+    "antidoteScore": 15,
+    "reasons": [
+      "contemporary fiction with a cast → staged characters in Antidote (We Were Liars: 0/30 wrong, image adds 70%)"
+    ],
+    "risks": [
+      "some violence → plan those beats as aftermath/symbol if Vox"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-30",
+    "fit": "antidote",
+    "confidence": "weak",
+    "voxScore": 1.9,
+    "antidoteScore": 7.1,
+    "signals": {
+      "year": 0,
+      "history": 0.8,
+      "second": 12.4,
+      "abstract": 3.5,
+      "sensitive": 5.2,
+      "era": 2022,
+      "words": 6599
+    },
+    "reasons": [
+      "no dominant signal — the story itself decides; contemporary fiction with a cast works in Antidote (WWL), period or documentary worlds in Vox"
+    ],
+    "risks": [],
+    "confirmed": false
+  },
+  "audioSource": "public/audio/never-lie.mp3"
+}

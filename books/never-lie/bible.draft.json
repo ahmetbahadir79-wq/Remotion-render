@@ -1,0 +1,561 @@
+{
+  "slug": "never-lie",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "The draft's era, cast keys, ages and places are a HEURISTIC and are often wrong (Trust Fall: one metaphor gave a",
+    "  sci-fi era; The Art of Strategy: 'lean', 'fred', 'end' as characters). Correcting them from the narration is",
+    "  routine authoring — never a question for the operator. Ages, roles and relations come from what the narration says.",
+    "Then: node scripts/plan-bible.js --slug=never-lie --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "never-lie",
+    "world": {
+      "era": "contemporary 2022: upstate New York blizzard estate",
+      "eraEvidence": "Set during a fierce winter blizzard in an isolated upstate New York manor, 2022 contemporary setting with cassette tape analog archives from four years prior.",
+      "worldId": "haleManor",
+      "approxYear": 2022,
+      "setting": "An isolated, snowbound Victorian estate in upstate New York cut off by a blizzard; freezing wood-paneled corridors, psychiatrist's hidden basement archive, dark bedrooms, and cold kitchens.",
+      "register": "claustrophobic psychological thriller, domestic deception, analog psychiatric cassette recordings, unreliable narrator",
+      "forbid": [
+        "thirtyTyrants",
+        "ringOfGyges",
+        "caveAllegory",
+        "shipOfState",
+        "tripartiteSoul",
+        "kallipolis",
+        "fiveRegimes",
+        "mythOfEr"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "never-lie",
+      "worldId": "haleManor",
+      "allowedMotifs": [
+        "home",
+        "storm",
+        "key",
+        "door",
+        "medical",
+        "notes",
+        "phone",
+        "puppeteer",
+        "mirror",
+        "shadowSelf",
+        "car",
+        "road",
+        "grave",
+        "chains",
+        "clock",
+        "mask",
+        "gift",
+        "food"
+      ],
+      "forbiddenMotifs": [
+        "thirtyTyrants",
+        "ringOfGyges",
+        "caveAllegory",
+        "shipOfState",
+        "tripartiteSoul",
+        "kallipolis",
+        "fiveRegimes",
+        "mythOfEr"
+      ],
+      "allowedCharacters": [
+        "tricia",
+        "ethan",
+        "adrienne",
+        "narrator"
+      ],
+      "allowedLocations": [
+        "room",
+        "office",
+        "bedroom",
+        "kitchen",
+        "forest",
+        "abstract"
+      ],
+      "allowedProps": [
+        "key",
+        "notes",
+        "medical",
+        "phone",
+        "mirror",
+        "mask",
+        "door"
+      ]
+    },
+    "cast": {
+      "tricia": {
+        "name": "Tricia",
+        "role": "newlywed wife appearing vulnerable and frightened who is secretly the calculating orchestrator",
+        "look": "a pale twenty-eight-year-old woman with straight dark brown hair framing an anxious face, guarded eyes, wearing a thick charcoal wool sweater and dark denim",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "build": "slight",
+          "outfit": "casual",
+          "suit": "#2B2D42",
+          "shirt": "#8D99AE",
+          "skin": "#F8D7BE",
+          "hair": "#221E1F",
+          "hairStyle": "long",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 30
+      },
+      "ethan": {
+        "name": "Ethan",
+        "role": "Tricia's newlywed husband whose protective exterior conceals mounting financial strain and hidden motives",
+        "look": "a sharp-featured thirty-year-old man with neat sandy brown hair, tense jawline, wearing a heavy navy winter parka over a heather gray knit sweater",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "build": "average",
+          "outfit": "coat",
+          "suit": "#1E2A38",
+          "shirt": "#6C7A89",
+          "skin": "#EDC4B3",
+          "hair": "#5D4037",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "stubble",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 22
+      },
+      "adrienne": {
+        "name": "Dr. Adrienne Hale",
+        "role": "imperious vanished psychiatrist whose taped patient sessions reveal manipulation and danger",
+        "look": "an elegant imposing woman in her early forties with sharp arched eyebrows, dark hair swept back, wearing a tailored dark plum blazer over a silk blouse",
+        "variant": {
+          "gender": "f",
+          "age": "adult",
+          "build": "slight",
+          "outfit": "suit",
+          "suit": "#3A1F2D",
+          "shirt": "#E6D5B8",
+          "skin": "#E8C39E",
+          "hair": "#1C1418",
+          "hairStyle": "bun",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "necklace"
+        },
+        "mentions": 22
+      },
+      "narrator": {
+        "name": "Narrator",
+        "role": "analytic commentary voice dissecting the psychological entrapment and domestic deception",
+        "look": "a thoughtful modern commentator with dark casual jacket and perceptive expression",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "average",
+          "outfit": "casual",
+          "suit": "#2C3E50",
+          "shirt": "#BDC3C7",
+          "skin": "#E0BB95",
+          "hair": "#2C3E50",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 10
+      }
+    },
+    "places": {
+      "room": {
+        "set": "room",
+        "look": "a cold, high-ceilinged library room in the isolated estate with dark mahogany wood and a hidden archive door",
+        "mentions": 15
+      },
+      "office": {
+        "set": "office",
+        "look": "Dr. Hale's private psychiatric study lined with bookshelves, filing cabinets, and analog audio playback equipment",
+        "mentions": 10
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "a chilling master bedroom with heavy frozen curtains and an eerie sense of recent abandonment",
+        "mentions": 5
+      },
+      "kitchen": {
+        "set": "kitchen",
+        "look": "a drafty dark country kitchen with bare counters, antique cupboards, and winter frost on windows",
+        "mentions": 4
+      },
+      "forest": {
+        "set": "forest",
+        "look": "a howling blizzard engulfing towering pine trees and impassable snowdrifts around the secluded estate",
+        "mentions": 8
+      },
+      "abstract": {
+        "set": "abstract",
+        "look": "a dark psychological mindspace of cassette tape spools, distorted confessions, and fractured mirrors",
+        "mentions": 12
+      }
+    },
+    "objects": [
+      {
+        "concept": "home",
+        "mentions": 37,
+        "why": "the isolated Victorian estate serving as a snowbound prison and psychological stage"
+      },
+      {
+        "concept": "storm",
+        "mentions": 18,
+        "why": "the relentless blizzard outside cutting off any escape and freezing the house"
+      },
+      {
+        "concept": "notes",
+        "mentions": 15,
+        "why": "clinical patient notes and psychiatric session transcripts"
+      },
+      {
+        "concept": "medical",
+        "mentions": 8,
+        "why": "psychiatric therapy practice, clinical diagnosis, and psychological manipulation"
+      },
+      {
+        "concept": "key",
+        "mentions": 7,
+        "why": "unlocking hidden rooms, locked archive cabinets, and long-buried secrets"
+      },
+      {
+        "concept": "puppeteer",
+        "mentions": 9,
+        "why": "manipulation of narrative, control over patients, and orchestrated traps"
+      },
+      {
+        "concept": "mirror",
+        "mentions": 6,
+        "why": "split identity, dual timelines, and the mask of domestic innocence"
+      },
+      {
+        "concept": "door",
+        "mentions": 6,
+        "why": "secret concealed entrance to the tape archive hidden behind woodwork"
+      },
+      {
+        "concept": "phone",
+        "mentions": 9,
+        "why": "the desperate lack of cellular signal and cut off communication with the outside world"
+      },
+      {
+        "concept": "car",
+        "mentions": 6,
+        "why": "the vehicle trapped in the snowdrift on the secluded driveway"
+      },
+      {
+        "concept": "chains",
+        "mentions": 6,
+        "why": "metaphorical confinement and inescapable psychological entrapment"
+      },
+      {
+        "concept": "grave",
+        "mentions": 5,
+        "why": "the unresolved murder and vanished corpse of Dr. Adrienne Hale"
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 10,
+        "claim": "Newlyweds Tricia and Ethan are trapped by a blizzard in a vanished psychiatrist's secluded estate, where discovery of secret therapy tapes turns a house tour into a psychological autopsy."
+      },
+      {
+        "act": "development",
+        "fromFrame": 15120,
+        "claim": "Listening to Dr. Hale's recorded patient sessions breeds toxic domestic suspicion between the couple as confessions echo Ethan's own concealed background."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 27295,
+        "claim": "The dual timelines merge to reveal Dr. Hale was an imperious puppet master who manipulated vulnerable patients until boundaries turned fatal."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 41664,
+        "claim": "The perspective shatters with the realization that Tricia is not an accidental victim, but the calculated orchestrator hunting down past betrayals."
+      },
+      {
+        "act": "close",
+        "fromFrame": 55356,
+        "claim": "The novel inverts the true-crime voyeur: listening to other people's secrets is an indictment of the audience's own complicity and arrogance."
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 500,
+    "cast": [
+      {
+        "name": "Trisha",
+        "asSubject": 11,
+        "total": 30,
+        "samples": [
+          "The physical reaction Trisha has is wild.",
+          "Trisha is freezing.",
+          "Trisha is suffering from extreme bone chilling cold, which medically impairs cognitive function and heightens anxiety."
+        ]
+      },
+      {
+        "name": "Ethan",
+        "asSubject": 9,
+        "total": 22,
+        "samples": [
+          "It is. And meanwhile, Ethan is jaw- clenched, staring into a white out, just stubbornly insisting they haven't missed the turn for Cedar Lane.",
+          "Oh, absolutely. If you step back and look at the actual mechanics of what Ethan is doing, his determination to reach this very specific remote abandoned house i",
+          "Ethan goes into the kitchen to scrunch for supplies, comes back and pours Trisha a glass of Cabernet Svenong from South Africa."
+        ]
+      },
+      {
+        "name": "Hail",
+        "asSubject": 4,
+        "total": 22,
+        "samples": [
+          "Hail is completely She is taking on the physical skin of the victim to hunt for the killer.",
+          "Dr. Hail thinks she holds an unbreakable leash on her patients.",
+          "And suddenly, standing in the dark, she casually thinks, \"Adrien Hail is hardly the first person I have killed."
+        ]
+      },
+      {
+        "name": "Patricia",
+        "asSubject": 2,
+        "total": 8,
+        "samples": [
+          "Dr. Hail observes that Patricia is charming.",
+          "playmates suffering mysterious unexplained She sees exactly what Patricia is."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "manuscript",
+        "mentions": 4,
+        "samples": [
+          "We are dissecting this text as a literal blueprint for psychological Yeah.",
+          "Because if you really pull the text apart, well, the core thesis of Never Lie is that it's not a who done it at all."
+        ]
+      },
+      {
+        "set": "office",
+        "mentions": 3,
+        "samples": [
+          "The office. Because this is where the claustrophobia gets an entirely new layer.",
+          "And you know, the contrast with the rest of the office highlights how weird this is."
+        ]
+      },
+      {
+        "set": "shipDeck",
+        "mentions": 2,
+        "samples": [
+          "Like stepping onto a ghost ship.",
+          "They require the deliberate tactile act of picking one up, sliding it into a deck, and pushing down a heavy plastic play button."
+        ]
+      },
+      {
+        "set": "kitchen",
+        "mentions": 1,
+        "samples": [
+          "Ethan goes into the kitchen to scrunch for supplies, comes back and pours Trisha a glass of Cabernet Svenong from South Africa."
+        ]
+      },
+      {
+        "set": "bedroom",
+        "mentions": 1,
+        "samples": [
+          "Imagine being in that master bedroom."
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "home",
+        "mentions": 37,
+        "sample": "So, we are following these newlyweds, right, Trisha and Ethan, and they are up in Westchester, New York, theoretically on a house hunting tr"
+      },
+      {
+        "concept": "storm",
+        "mentions": 18,
+        "sample": "But it's doing absolutely nothing against the cold that's just seeping through the You can actually see Ethan's knuckles."
+      },
+      {
+        "concept": "gift",
+        "mentions": 10,
+        "sample": "Information gathering, especially illicit information that might give us an advantage or solve a puzzle, is highly addictive."
+      },
+      {
+        "concept": "phone",
+        "mentions": 9,
+        "sample": "We are dissecting this text as a literal blueprint for psychological Yeah."
+      },
+      {
+        "concept": "puppeteer",
+        "mentions": 9,
+        "sample": "She operates as an imperious puppet master."
+      },
+      {
+        "concept": "medical",
+        "mentions": 8,
+        "sample": "Wow. Yeah. The novel uses these therapy confessions to entirely invert the detective role, making the truth seeker the ultimate architect of"
+      },
+      {
+        "concept": "war",
+        "mentions": 7,
+        "sample": "Because I mean, when stepping outside means freezing to death, you can't just walk out of a room to avoid a fight."
+      },
+      {
+        "concept": "work",
+        "mentions": 7,
+        "sample": "The office. Because this is where the claustrophobia gets an entirely new layer."
+      },
+      {
+        "concept": "car",
+        "mentions": 6,
+        "sample": "Well, let's actually just climb into the front seat of that car right now."
+      },
+      {
+        "concept": "road",
+        "mentions": 6,
+        "sample": "Because that drive up to the house is excruciating to read."
+      },
+      {
+        "concept": "chains",
+        "mentions": 6,
+        "sample": "He needs the environment to completely remove all of Trisha's physical escape routes before the psychological pressure can start."
+      },
+      {
+        "concept": "law",
+        "mentions": 6,
+        "sample": "Okay, pause. panopticon architecture like the prison design."
+      }
+    ],
+    "openingLines": [
+      "When you find secret audio tapes of a dead psychiatrist in a blizzard, you think you're eavesdropping on history until you realize the person pressing play is orchestrating your execution.",
+      "I mean, it just completely flips the script on on what it even means to be the one listening, you know?",
+      "Right. And that is the exact thought that hit me like an absolute freight train at uh I don't know about 2:00 in the morning while I was reading this.",
+      "Just terrifying. Oh, totally.",
+      "And honestly, it changes how you consume stories altogether.",
+      "So today we are sinking our teeth into a deep dive on Never Lie by Freda McFaten, which is such a massive, highly requested book for us to cover."
+    ],
+    "closingLines": [
+      "It is an ironic pointed warning directed entirely at you, the reader.",
+      "It is a warning to anyone arrogant enough to believe they are only the listener, safe and insulated on the other side of the audio tape.",
+      "The book tells you that if you are eagerly consuming other people's secrets, you're already part of the It leaves you with a lingering, deeply uncomfortable thought.",
+      "When you listen to true crime, when you analyze other people's darkest secrets, are you actually seeking the truth or are you just enjoying the power of the playback"
+    ]
+  }
+}

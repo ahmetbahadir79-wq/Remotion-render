@@ -1,0 +1,91 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-10-31T05:34:25.831Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "cb0d0311",
+      "configHash": "bc6c55ce87dac4ea",
+      "renderInputHash": "f824d8cce0aea38b",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 490
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "run2",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 25,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "REFUSED",
+        "ok": false,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 42,
+        "goneFindings": 0
+      },
+      "authorization": null,
+      "technical": "NOT_RUN"
+    },
+    {
+      "at": "2026-10-31T06:28:37.696Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "cb0d0311",
+      "configHash": "bc6c55ce87dac4ea",
+      "renderInputHash": "f824d8cce0aea38b",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 490
+      },
+      "preview": {
+        "state": "READY",
+        "covered": false,
+        "mute": {
+          "label": "run2",
+          "sample": "fresh",
+          "n": 30,
+          "wrong": 1,
+          "dead": 0,
+          "adds": 25,
+          "pass": true
+        }
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT (recorded now)",
+        "ok": true,
+        "accepted": true,
+        "reason": "Operator authorized render across all github accounts with accepted quality debt",
+        "covered": 42,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "authorization": {
+        "at": "2026-10-31T06:27:38.725Z",
+        "recordedNow": true,
+        "kind": "render-authorization"
+      },
+      "technical": "NOT_RUN",
+      "credentials": {
+        "ok": true,
+        "source": "main checkout (read in place, not copied)",
+        "active": 10,
+        "usable": 10,
+        "verified": 10,
+        "refused": 0
+      }
+    }
+  ]
+}
