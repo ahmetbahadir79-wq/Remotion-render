@@ -57,8 +57,16 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
   `scripts/apply-breathing-room.js`.
 - **Compat:** all voxkit additions are OPTIONAL/gated on config fields (`chapters`,
   `meta.audioSegments/gaps/gapFrames`) — books without them render exactly as before.
-- **Status:** landed locally (uncommitted). Applied to `books/martyr` (config.vox.json).
-  Audio-sync of the gaps to be spot-checked in Studio.
+- **Breathing-room (audio gaps + gap music) FULLY REMOVED (user call):** inserting
+  silent gaps into gap-less narration sounds broken at chapter transitions; music made
+  it worse. DELETED `scripts/apply-breathing-room.js`; removed `NarrationAudio` slicing
+  + `GapMusic` from voxkit; VoxBook is back to a single continuous `<Audio>`;
+  `ChapterOverlay` no longer takes `gapFrames`. Do NOT reintroduce audio gaps for Vox —
+  the narration has no natural pauses. Chapter cards remain as a non-blocking dark-scrim
+  overlay over the CONTINUOUS audio. (Old book configs untouched per user; only martyr
+  ever had gaps and it was reverted — no other config uses these fields.)
+- **Status:** landed locally (uncommitted). `books/martyr` = emphasis/names/hero
+  phrases/chapter cards, continuous single-`<Audio>`, totalFrames 65317 (36.3 min).
 
 ### 2026-09-02 — antidote-pipeline — GitHub-render pool: security + download/cleanup half
 - **What:** (1) SECURITY: `render-accounts.json` holds live GitHub PATs and was NOT

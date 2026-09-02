@@ -54,7 +54,8 @@ type Beat = {
   };
 };
 type Caption = { text: string; startFrame: number; endFrame: number; words: { w: string; s: number; e: number }[] };
-type VoxConfig = { meta: { audio: string; slug?: string }; captions: Caption[]; beats: Beat[] };
+type Chapter = { index: number; fromFrame: number; label: string; teaser?: string };
+type VoxConfig = { meta: { audio: string; slug?: string; progress?: boolean }; captions: Caption[]; beats: Beat[]; chapters?: Chapter[] };
 
 function hash(s: string) {
   let h = 2166136261;
@@ -257,6 +258,53 @@ const TitleScene: React.FC<{ beat: Beat }> = ({ beat }) => {
 const StatementScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const words = (beat.props.emphasis.length ? beat.props.emphasis : beat.props.keywords.map((k) => k.toUpperCase())).slice(0, 3);
   const size = words.length >= 3 ? 116 : 148;
+  const seed = hash(beat.id);
+  // Statement is ~half of all beats — a single layout is the biggest source of
+  // visual monotony, so pick one of three compositions by DNA (stable per beat).
+  const variant = Math.floor(hash(beat.id + "s") * 3);
+
+  // — v1: left editorial — big flush-left stack, oversized ghost index, accent right —
+  if (variant === 1) {
+    const idx = String((Math.floor(seed * 89) % 9) + 1).padStart(2, "0");
+    return (
+      <Scene beat={beat} accent={false}>
+        <AccentBurst seed={seed} x={74} y={42} />
+        <div style={{ position: "relative", width: "100%", maxWidth: 1360, display: "flex", alignItems: "center", gap: 44, zIndex: 12 }}>
+          <span aria-hidden style={{ fontFamily: HEADLINE, fontWeight: 900, fontSize: 340, lineHeight: 0.8, color: INK, opacity: 0.06, marginTop: -20 }}>{idx}</span>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 6 }}>
+            <KickerChip text={beat.props.kicker || ""} startFrame={2} />
+            {words.map((w, i) => (
+              <KineticWords key={i} text={w} startFrame={10 + i * 9} perWord={3} fontSize={size * 0.92} align="left" maxWidth={980} color={i === 1 ? RED : INK} />
+            ))}
+            <MarkerUnderline startFrame={30} width={340} height={16} />
+          </div>
+        </div>
+      </Scene>
+    );
+  }
+
+  // — v2: banner — centered, middle word reversed out on a red slab —
+  if (variant === 2) {
+    const hot = Math.min(1, words.length - 1);
+    return (
+      <Scene beat={beat}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
+          <KickerChip text={beat.props.kicker || ""} startFrame={2} align="center" />
+          {words.map((w, i) =>
+            i === hot ? (
+              <div key={i} style={{ background: RED, padding: "4px 22px", boxShadow: `10px 10px 0 ${INK}`, transform: "rotate(-1.5deg)" }}>
+                <KineticWords text={w} startFrame={10 + i * 9} perWord={3} fontSize={size * 0.96} color={PAPER} />
+              </div>
+            ) : (
+              <KineticWords key={i} text={w} startFrame={10 + i * 9} perWord={3} fontSize={size} color={INK} />
+            ),
+          )}
+        </div>
+      </Scene>
+    );
+  }
+
+  // — v0: centered stack (original) —
   return (
     <Scene beat={beat}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
@@ -329,7 +377,7 @@ const StatScene: React.FC<{ beat: Beat }> = ({ beat }) => {
 };
 
 const ImageFocusScene: React.FC<{ beat: Beat }> = ({ beat }) => {
-  const label = beat.props.emphasis.slice(0, 2).join(" ") || beat.props.keywords[0]?.toUpperCase() || "";
+  const label = beat.props.emphasis.slice(0, 3).join(" ") || beat.props.keywords[0]?.toUpperCase() || "";
   const img = beat.images[0];
   const seed = hash(beat.id);
   const cut = img && img.style === "cutout" && img.cut ? img.cut : null;
@@ -445,6 +493,64 @@ const SCENES: Record<string, React.FC<{ beat: Beat }>> = {
   stat: StatScene, imagefocus: ImageFocusScene, compare: CompareScene, punchline: PunchlineScene,
 };
 
+// ── chapter card (non-blocking overlay over continuous audio) ───────────────
+// Slides in at each chapter boundary for ~2.6 s over the running scene — the
+// narration is never paused (no audio gaps: inserting silence into gap-less
+// narration reads as broken at the cut). Chapter 0 (cold open) is never carded.
+// The teaser is an open loop (a curiosity question) that plants the next hook.
+const CHAPTER_HOLD = 2.6; // seconds on screen
+const ChapterOverlay: React.FC<{ chapters?: Chapter[] }> = ({ chapters }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  if (!chapters || !chapters.length) return null;
+  const hold = Math.round(CHAPTER_HOLD * fps);
+  const active = chapters.find((c) => c.index > 0 && frame >= c.fromFrame && frame < c.fromFrame + hold);
+  if (!active) return null;
+  const local = frame - active.fromFrame;
+  const inX = interpolate(local, [0, 12], [-620, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const op = Math.min(
+    interpolate(local, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+    interpolate(local, [hold - 12, hold], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
+  );
+  const num = String(active.index).padStart(2, "0");
+  // Sits over a continuous scene (no audio gap), so the whole card rides on one
+  // dark scrim panel with light text — always legible whatever is behind it, and
+  // it never fights the scene's own big words for contrast.
+  return (
+    <AbsoluteFill style={{ zIndex: 56, pointerEvents: "none" }}>
+      {/* faint global scrim so the scene recedes under the card */}
+      <AbsoluteFill style={{ background: "rgba(15,12,9,0.28)", opacity: op }} />
+      <div style={{ position: "absolute", left: 0, top: 150, transform: `translateX(${inX}px)`, opacity: op, maxWidth: 1040 }}>
+        <div style={{ background: "rgba(17,13,9,0.82)", borderLeft: `10px solid ${RED}`, padding: "26px 40px 30px 34px", borderRadius: "0 14px 14px 0", boxShadow: "0 18px 40px rgba(0,0,0,0.4)", display: "flex", flexDirection: "column", gap: 14 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <span style={{ fontFamily: HEADLINE, fontWeight: 900, fontSize: 44, color: PAPER, background: RED, padding: "2px 18px" }}>{num}</span>
+            <span style={{ fontFamily: HEADLINE, fontWeight: 900, fontSize: 32, letterSpacing: 7, color: PAPER, opacity: 0.75 }}>CHAPTER</span>
+          </div>
+          <div style={{ fontFamily: HEADLINE, fontWeight: 900, fontSize: 62, lineHeight: 0.98, color: PAPER, textTransform: "uppercase" }}>{active.label}</div>
+          {active.teaser ? <div style={{ fontFamily: SERIF, fontStyle: "italic", fontSize: 38, color: PAPER, opacity: 0.82 }}>{active.teaser}</div> : null}
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// thin reading-progress rail with a tick per chapter (opt-out via meta.progress:false)
+const ProgressRail: React.FC<{ chapters?: Chapter[]; total: number }> = ({ chapters, total }) => {
+  const frame = useCurrentFrame();
+  if (total <= 0) return null;
+  const pct = Math.max(0, Math.min(1, frame / total));
+  return (
+    <AbsoluteFill style={{ zIndex: 57, pointerEvents: "none" }}>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 6, background: "color-mix(in srgb, var(--vox-ink) 16%, transparent)" }}>
+        <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: `${pct * 100}%`, background: RED }} />
+        {(chapters || []).map((c) => (
+          <div key={c.index} style={{ position: "absolute", top: -2, left: `${(c.fromFrame / total) * 100}%`, width: 2, height: 10, background: INK, opacity: 0.4 }} />
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 // ── karaoke subtitle layer ─────────────────────────────────────────────────
 const CaptionLayer: React.FC<{ captions: Caption[] }> = ({ captions }) => {
   const frame = useCurrentFrame();
@@ -537,6 +643,10 @@ export const VoxBook: React.FC<{ config: VoxConfig }> = ({ config }) => {
       );
     })}
     <CaptionLayer captions={config.captions} />
+    <ChapterOverlay chapters={config.chapters} />
+    {config.meta.progress === false ? null : (
+      <ProgressRail chapters={config.chapters} total={config.beats.reduce((m, b) => Math.max(m, b.fromFrame + b.durationFrames), 0)} />
+    )}
     <Vignette />
     <Grain />
   </AbsoluteFill>

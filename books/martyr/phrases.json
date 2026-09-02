@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero 'phrase-that-pays' beats. Each {t} (seconds into the audio) is mapped to the beat playing then; {phrase} (<=3 words) is locked onto its on-screen emphasis (props.emphasisLocked=true) so apply-emphasis never overwrites it. Applied by scripts/apply-phrases.js. Punchy, book-specific, lands the thesis.",
+  "phrases": [
+    { "t": 44,   "phrase": "ITS HOLIEST MASK" },
+    { "t": 160,  "phrase": "FLIGHT 655" },
+    { "t": 366,  "phrase": "STOLEN AUTHORSHIP" },
+    { "t": 505,  "phrase": "ADDICTION REBRANDS" },
+    { "t": 705,  "phrase": "ANGEL OF DEATH" },
+    { "t": 824,  "phrase": "MANUFACTURED COMFORT" },
+    { "t": 1005, "phrase": "THE QUIET MARTYR" },
+    { "t": 1247, "phrase": "THE ANTI-MARTYR" },
+    { "t": 1481, "phrase": "MEANING BETWEEN VOICES" },
+    { "t": 1695, "phrase": "ORKIDEH IS ROYA" },
+    { "t": 1999, "phrase": "REFUSE THE EXIT" },
+    { "t": 2175, "phrase": "BE A PERSON" }
+  ]
+}
