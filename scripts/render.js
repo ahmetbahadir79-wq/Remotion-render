@@ -348,15 +348,38 @@ async function runGithubActionsRender() {
     } catch {}
   }
 
-  const workerId = args.worker || args.account || accounts?.activeWorker || "worker1";
-  const worker = accounts?.workers?.find((w) => w.id === workerId || w.username === workerId) || accounts?.workers?.[0];
+  const activeWorkers = (accounts?.workers || []).filter((w) => w.active !== false && w.token);
+  if (activeWorkers.length === 0) {
+    console.error(`❌ render-accounts.json içinde aktif bir Render Worker bulunamadı.`);
+    process.exit(1);
+  }
+
+  let worker = null;
+  const requestedWorker = args.worker || args.account;
+
+  if (requestedWorker && requestedWorker !== "auto") {
+    worker = accounts?.workers?.find((w) => w.id === requestedWorker || w.username === requestedWorker || w.email === requestedWorker);
+  } else {
+    // Round-robin otomatik seçim
+    const lastIdx = typeof accounts.lastUsedWorkerIndex === "number" ? accounts.lastUsedWorkerIndex : -1;
+    const nextIdx = (lastIdx + 1) % activeWorkers.length;
+    worker = activeWorkers[nextIdx];
+
+    // Kayıt defterini güncelle
+    accounts.lastUsedWorkerIndex = nextIdx;
+    try {
+      fs.writeFileSync(accountsFile, JSON.stringify(accounts, null, 2), "utf8");
+    } catch {}
+  }
 
   if (!worker || !worker.token) {
-    console.error(`❌ Render Worker bulunamadı ("${workerId}"). render-accounts.json dosyasını kontrol edin.`);
+    console.error(`❌ Geçerli Render Worker seçilemedi. render-accounts.json dosyasını kontrol edin.`);
     process.exit(1);
   }
 
   console.log(`✓ Aktif Render Worker: ${worker.name || worker.id} (@${worker.username})`);
+  console.log(`  Havuzdaki Konum: ${activeWorkers.findIndex(w => w.id === worker.id) + 1} / ${activeWorkers.length} worker`);
+  console.log(`  Aylık Kota: ${worker.monthlyMinutes || 2000} dk`);
   console.log(`  Hedef Depo : https://github.com/${worker.username}/${worker.repo}`);
   console.log(`  Hedef Dal  : ${worker.branch || "god-mode"}\n`);
 

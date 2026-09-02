@@ -19,6 +19,7 @@
 const fs = require("fs");
 const { rel, ensureBookDir } = require("./lib/paths");
 const { MODEL, ENDPOINT, USE_NVIDIA, stripThink } = require("./lib/llm");
+const { phraseEmphasis } = require("./lib/beat-text");
 
 const FPS = 30;
 const args = Object.fromEntries(
@@ -158,20 +159,12 @@ function keywords(text, n = 3) {
   toks.forEach((w) => (freq[w] = (freq[w] || 0) + 1 + w.length * 0.05));
   return [...new Set(toks)].sort((a, b) => freq[b] - freq[a]).slice(0, n);
 }
+// Emphasis = the single most salient contiguous PHRASE (see beat-text.js).
+// Falls back to the top keyword when the beat has nothing phrase-worthy.
 function emphasis(text, n = 2) {
-  const raw = text.replace(/[,.!?;:]/g, "").split(/\s+/);
-  const scored = raw.map((w) => {
-    let sc = w.length;
-    if (/^[A-Z]/.test(w)) sc += 6;
-    if (/[0-9$%]/.test(w)) sc += 12;
-    if (STOP.has(w.toLowerCase())) sc -= 20;
-    if (FILLER.has(w.toLowerCase())) sc -= 25;
-    if (/ly$/.test(w.toLowerCase()) && w.length > 5) sc -= 6;
-    return { w, sc };
-  }).filter((x) => x.w.length > 2).sort((a, b) => b.sc - a.sc);
-  const picks = [];
-  for (const s of scored) { if (picks.length >= n) break; if (!picks.includes(s.w)) picks.push(s.w); }
-  return picks.map((w) => w.toUpperCase());
+  const ph = phraseEmphasis(text, { max: n === 1 ? 2 : 3, want: n === 1 ? 1 : 2 }).slice(0, Math.max(n, 3));
+  if (ph.length) return ph;
+  return keywords(text, n).map((w) => w.toUpperCase());
 }
 function listItems(t) {
   const m = t.match(/([\w-]+(?:\s[\w-]+)?),\s*([\w-]+(?:\s[\w-]+)?),?\s*(?:and|&)\s*([\w-]+(?:\s[\w-]+)?)/i);
