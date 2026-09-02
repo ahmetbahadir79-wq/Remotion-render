@@ -335,45 +335,91 @@ function runLambdaRender() {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// 3. GITHUB ACTIONS RENDERING
+// 3. GITHUB ACTIONS RENDERING (MULTI-WORKER SUPPORT)
 // ═════════════════════════════════════════════════════════════════════════════
-function runGithubActionsRender() {
-  console.log(`[GITHUB ACTIONS] GitHub Actions üzerinden render tetikleniyor...`);
+async function runGithubActionsRender() {
+  console.log(`[GITHUB ACTIONS] Render Worker aranıyor...`);
 
-  let ghAvailable = false;
-  try {
-    const res = spawnSync("gh", ["--version"], { shell: true, timeout: 3000, encoding: "utf8" });
-    if (res.status === 0) ghAvailable = true;
-  } catch {}
-
-  if (ghAvailable) {
-    console.log("✓ GitHub CLI (gh) algılandı. Workflow dispatch gönderiliyor...");
-    const cmd = `gh workflow run render-video.yml -f slug="${slug}" -f composition="${composition}" -f chunk_size="${chunkSize}" -f concurrency="${args.concurrency || 2}"`;
-    console.log(`$ ${cmd}\n`);
+  const accountsFile = path.join(ROOT, "render-accounts.json");
+  let accounts = null;
+  if (fs.existsSync(accountsFile)) {
     try {
-      execSync(cmd, { cwd: ROOT, stdio: "inherit" });
-      console.log(`\n🚀 [TETİKLENDİ] GitHub Actions iş akışı başarıyla başlatıldı!`);
-      console.log(`\nİlerlemeyi takip etmek için:`);
-      console.log(`  • Terminalden : gh run list --workflow=render-video.yml`);
-      console.log(`  • Tarayıcıdan : GitHub Reponuz -> "Actions" sekmesi -> "Render Remotion Video"`);
-      console.log(`\nRender tamamlandığında oluşan video GitHub Artifacts olarak indirilebilir olacaktır.`);
-    } catch (e) {
-      console.warn(`⚠ gh komutu çalıştırılamadı (${e.message}). Manuel tetikleme adımlarını uygulayabilirsiniz.`);
-      printManualGithubInstructions();
-    }
-  } else {
-    printManualGithubInstructions();
+      accounts = JSON.parse(fs.readFileSync(accountsFile, "utf8"));
+    } catch {}
   }
-}
 
-function printManualGithubInstructions() {
-  console.log(`\n📌 GitHub Actions Manuel Çalıştırma Yöntemi:`);
-  console.log(`  1. GitHub reponuza gidin ve "Actions" sekmesini açın.`);
-  console.log(`  2. Sol menüden "Render Remotion Video" iş akışını seçin.`);
-  console.log(`  3. "Run workflow" butonuna tıklayın:`);
-  console.log(`     • slug       : ${slug}`);
-  console.log(`     • composition: ${composition}`);
-  console.log(`     • chunk_size : ${chunkSize}`);
-  console.log(`  4. Render tamamlandığında oluşan video "Artifacts" bölümünden indirilebilir.`);
-  console.log(`\n(İpucu: GitHub CLI kurarak terminalden doğrudan tetiklemek için: \`gh workflow run render-video.yml -f slug=${slug}\`)`);
+  const workerId = args.worker || args.account || accounts?.activeWorker || "worker1";
+  const worker = accounts?.workers?.find((w) => w.id === workerId || w.username === workerId) || accounts?.workers?.[0];
+
+  if (!worker || !worker.token) {
+    console.error(`❌ Render Worker bulunamadı ("${workerId}"). render-accounts.json dosyasını kontrol edin.`);
+    process.exit(1);
+  }
+
+  console.log(`✓ Aktif Render Worker: ${worker.name || worker.id} (@${worker.username})`);
+  console.log(`  Hedef Depo : https://github.com/${worker.username}/${worker.repo}`);
+  console.log(`  Hedef Dal  : ${worker.branch || "god-mode"}\n`);
+
+  // 1. Kodu render worker reposuna push et
+  const remote = worker.remoteName || "render-worker-1";
+  const branch = worker.branch || "god-mode";
+  console.log(`1. Son değişiklikler Render Worker'a (${remote}/${branch}) gönderiliyor...`);
+  try {
+    const curBranch = execSync("git rev-parse --abbrev-ref HEAD", { encoding: "utf8" }).trim();
+    execSync(`git push ${remote} ${curBranch}:${branch} --force`, {
+      cwd: ROOT,
+      stdio: "inherit",
+      env: { ...process.env, GIT_TERMINAL_PROMPT: "0", GCM_INTERACTIVE: "never" },
+    });
+    console.log(`✓ Kodlar başarıyla Render Worker'a aktarıldı.`);
+  } catch (err) {
+    console.warn(`⚠ Git push uyarısı: ${err.message}. Mevcut kodla devam ediliyor...`);
+  }
+
+  // 2. GitHub Actions Workflow Dispatch API çağrısı
+  console.log(`\n2. GitHub Actions render iş akışı tetikleniyor...`);
+  const https = await import("https");
+  
+  const payload = JSON.stringify({
+    ref: branch,
+    inputs: {
+      slug: slug,
+      composition: composition,
+      chunk_size: String(chunkSize),
+      concurrency: String(args.concurrency || 2),
+    },
+  });
+
+  const req = https.default.request({
+    hostname: "api.github.com",
+    path: `/repos/${worker.username}/${worker.repo}/actions/workflows/render-video.yml/dispatches`,
+    method: "POST",
+    headers: {
+      "User-Agent": "Remotion-Render-Orchestrator",
+      Authorization: `Bearer ${worker.token}`,
+      Accept: "application/vnd.github.v3+json",
+      "Content-Type": "application/json",
+      "Content-Length": Buffer.byteLength(payload),
+    },
+  }, (res) => {
+    let body = "";
+    res.on("data", (d) => (body += d));
+    res.on("end", () => {
+      if (res.statusCode === 204) {
+        console.log(`\n🚀 [BAŞARILI] Render iş akışı başarıyla başlatıldı!`);
+        console.log(`\nCanlı İlerleme ve İndirme:`);
+        console.log(`  🔗 https://github.com/${worker.username}/${worker.repo}/actions`);
+        console.log(`\nRender tamamlandığında oluşan video GitHub Actions sekmesinden (Artifacts) indirilebilir.`);
+      } else {
+        console.error(`❌ Workflow tetikleme hatası (HTTP ${res.statusCode}): ${body}`);
+      }
+    });
+  });
+
+  req.on("error", (e) => {
+    console.error(`❌ API Bağlantı hatası: ${e.message}`);
+  });
+
+  req.write(payload);
+  req.end();
 }
