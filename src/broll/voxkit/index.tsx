@@ -12,7 +12,7 @@ import {
 } from "remotion";
 import { z } from "zod";
 import { loadFont as loadDisplay } from "@remotion/google-fonts/PlayfairDisplay";
-import { BOOK_PALETTES } from "../../books.generated";
+import { BOOK_PALETTES, BOOK_BG_TINT } from "../../books.generated";
 
 const { fontFamily: SERIF } = loadDisplay();
 
@@ -66,7 +66,7 @@ function hash(s: string) {
 // ── global texture layers ─────────────────────────────────────────────────
 const BG = "broll-ocean-tanker/mo-photoshop-background.png";
 
-const PaperBackground: React.FC = () => {
+const PaperBackground: React.FC<{ tint?: boolean }> = ({ tint = false }) => {
   const frame = useCurrentFrame();
   const scale = 1.06 + Math.sin(frame / 110) * 0.01;
   const tx = Math.sin(frame / 140) * 10;
@@ -74,6 +74,14 @@ const PaperBackground: React.FC = () => {
     <>
       <Img src={staticFile(BG)} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", transform: `scale(${scale}) translateX(${tx}px)`, zIndex: 0 }} />
       <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(255,255,255,0.05), rgba(63,54,42,0.16)), radial-gradient(circle at 50% 52%, rgba(255,255,255,0.20), transparent 46%)", mixBlendMode: "soft-light", zIndex: 1 }} />
+      {/* per-book palette wash — gives each new book its own background atmosphere
+          without new assets. Subtle (multiply, low opacity) so text stays legible. */}
+      {tint ? (
+        <>
+          <AbsoluteFill style={{ zIndex: 1, mixBlendMode: "multiply", opacity: 0.22, background: `radial-gradient(circle at 26% 22%, ${GOLD}, transparent 55%), radial-gradient(circle at 82% 82%, ${RED}, transparent 60%)` }} />
+          <AbsoluteFill style={{ zIndex: 1, mixBlendMode: "soft-light", opacity: 0.18, background: `linear-gradient(150deg, ${INK}, transparent 70%)` }} />
+        </>
+      ) : null}
     </>
   );
 };
@@ -632,7 +640,7 @@ export const VoxBook: React.FC<{ config: VoxConfig }> = ({ config }) => {
   return (
   <AbsoluteFill style={{ ...paletteVars, backgroundColor: PAPER }}>
     <Audio src={staticFile(config.meta.audio)} />
-    <PaperBackground />
+    <PaperBackground tint={BOOK_BG_TINT[config.meta.slug ?? ""] ?? false} />
     <FloatingSpecks />
     {config.beats.map((beat) => {
       const S = SCENES[beat.type] || StatementScene;

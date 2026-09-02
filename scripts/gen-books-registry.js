@@ -47,6 +47,14 @@ const paletteEntries = allSlugs
   .filter(Boolean)
   .join("\n");
 
+// Per-book background tint opt-in (book.json.bgTint === true). Absent/false → the
+// original plain shared paper background, so existing books look identical. New
+// books get bgTint:true written by make-prompt, so the tint is on going forward.
+const bgTintEntries = allSlugs
+  .filter((slug) => manifestOf(slug).bgTint === true)
+  .map((slug) => `  '${slug}': true,`)
+  .join("\n");
+
 // ── imports ──────────────────────────────────────────────────────────────
 const voxImports = voxBooks
   .map((b) => {
@@ -92,6 +100,11 @@ export type AntidoteBookEntry = {
 // the Antidote thumbnail read this so each book has its own color identity.
 export const BOOK_PALETTES: Record<string, Palette> = {
 ${paletteEntries}
+};
+
+// Books opted into the palette-tinted background (new books; see book.json.bgTint).
+export const BOOK_BG_TINT: Record<string, boolean> = {
+${bgTintEntries}
 };
 
 export const BOOKS: BookEntry[] = [

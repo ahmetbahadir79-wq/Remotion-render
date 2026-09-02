@@ -144,7 +144,10 @@ Make the angle SPECIFIC to this book and non-generic — it should be impossible
   let manifest = {};
   try { manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8")); } catch {}
   manifest = { slug: SLUG, title: TITLE, author: AUTHOR, genre: GENRE, ...manifest,
-    engine: picked.engine, engineRationale: picked.rationale };
+    engine: picked.engine, engineRationale: picked.rationale,
+    // New books get the per-book palette-tinted background by default (Vox). Existing
+    // books lack this field → plain shared background, so they look unchanged.
+    bgTint: manifest.bgTint ?? true };
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
   console.log(`🎬 ENGINE KARARI → ${picked.engine.toUpperCase()}${args.engine ? " (Claude, açık)" : " (heuristik)"}`);
   console.log(`   gerekçe: ${picked.rationale}`);

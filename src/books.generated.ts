@@ -102,6 +102,11 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'unreasonable-hospitality': { paper: '#ECE6D6', ink: '#1C2419', red: '#2F6E4A', gold: '#C89A45' },
 };
 
+// Books opted into the palette-tinted background (new books; see book.json.bgTint).
+export const BOOK_BG_TINT: Record<string, boolean> = {
+
+};
+
 export const BOOKS: BookEntry[] = [
   {
     slug: 'diary-of-a-ceo',
