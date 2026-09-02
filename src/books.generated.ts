@@ -22,6 +22,8 @@ import cfg_little_fires_everywhere from '../books/little-fires-everywhere/config
 import meta_little_fires_everywhere from '../books/little-fires-everywhere/youtube-meta.json';
 import cfg_little_women from '../books/little-women/config.vox.json';
 import meta_little_women from '../books/little-women/youtube-meta.json';
+import cfg_martyr from '../books/martyr/config.vox.json';
+import meta_martyr from '../books/martyr/youtube-meta.json';
 import cfg_outlive from '../books/outlive/config.vox.json';
 import meta_outlive from '../books/outlive/youtube-meta.json';
 import cfg_project_hail_mary from '../books/project-hail-mary/config.vox.json';
@@ -34,6 +36,8 @@ import cfg_slow_productivity from '../books/slow-productivity/config.vox.json';
 import meta_slow_productivity from '../books/slow-productivity/youtube-meta.json';
 import cfg_sway from '../books/sway/config.vox.json';
 import meta_sway from '../books/sway/youtube-meta.json';
+import cfg_the_color_purple from '../books/the-color-purple/config.vox.json';
+import meta_the_color_purple from '../books/the-color-purple/youtube-meta.json';
 import cfg_the_frozen_river from '../books/the-frozen-river/config.vox.json';
 import meta_the_frozen_river from '../books/the-frozen-river/youtube-meta.json';
 import cfg_the_mountain_is_you from '../books/the-mountain-is-you/config.vox.json';
@@ -84,6 +88,7 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'how-to-read-a-person-like-a-book': { paper: '#E0E1E8', ink: '#1B1B24', red: '#4C5BD4', gold: '#D99A3C' },
   'laws-of-human-nature': { paper: '#DAD5CC', ink: '#17130F', red: '#8E2B2B', gold: '#B98F3E' },
   'let-them-theory': { paper: '#F0E7D8', ink: '#26201A', red: '#EE5A3C', gold: '#F0B44A' },
+  'martyr': { paper: '#EFE6D2', ink: '#131722', red: '#B0271C', gold: '#2E8B84' },
   'outlive': { paper: '#DBE7EA', ink: '#142229', red: '#1FA0A6', gold: '#E4A63C' },
   'project-hail-mary': { paper: '#0B1120', ink: '#E8EDF3', red: '#FF6B35', gold: '#00D4AA' },
   'psychology-of-money': { paper: '#DEE4DC', ink: '#17201A', red: '#2F8F5B', gold: '#D9A93A' },
@@ -165,6 +170,12 @@ export const BOOKS: BookEntry[] = [
     meta: meta_little_women as any,
   },
   {
+    slug: 'martyr',
+    engine: 'vox',
+    config: cfg_martyr as any,
+    meta: meta_martyr as any,
+  },
+  {
     slug: 'outlive',
     engine: 'vox',
     config: cfg_outlive as any,
@@ -199,6 +210,12 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_sway as any,
     meta: meta_sway as any,
+  },
+  {
+    slug: 'the-color-purple',
+    engine: 'vox',
+    config: cfg_the_color_purple as any,
+    meta: meta_the_color_purple as any,
   },
   {
     slug: 'the-frozen-river',

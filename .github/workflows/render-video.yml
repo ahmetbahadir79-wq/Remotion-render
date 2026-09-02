@@ -4,31 +4,31 @@ on:
   workflow_dispatch:
     inputs:
       slug:
-        description: 'Kitap / Proje Slug (örn: single-dad-dilemma, sway, clear-thinking)'
+        description: 'Kitap / Proje Slug'
         required: true
         default: 'single-dad-dilemma'
       composition:
-        description: 'Composition ID (Boş bırakılırsa slug ve engine üzerinden otomatik belirlenir, örn: Vox-sway)'
+        description: 'Composition ID'
         required: false
         default: ''
       chunk_size:
-        description: 'Chunk boyutu (frame cinsinden, varsayılan: 400)'
+        description: 'Chunk boyutu'
         required: false
         default: '400'
       concurrency:
-        description: 'Concurrency (Eşzamanlı render iş parçacığı, varsayılan: 2)'
+        description: 'Concurrency'
         required: false
         default: '2'
 
 concurrency:
-  group: render-${{ github.event.inputs.slug }}
+  group: render-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   render:
-    name: Render ${{ github.event.inputs.slug }}
+    name: Render Video
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # 6 saat maks
+    timeout-minutes: 360
 
     steps:
       - name: Checkout Repository
@@ -47,17 +47,13 @@ jobs:
           sudo apt-get install -y ffmpeg chromium-browser
 
       - name: Install NPM Dependencies
-        # No lockfile is committed, so `npm ci` / npm-cache can't be used here.
         run: npm install --no-audit --no-fund
 
       - name: Generate Books Registry
         run: node scripts/gen-books-registry.js
 
-      - name: Master audio (regenerate; mastered .m4a isn't tracked in git)
-        # The mastered audio is a derived file (gitignored) so it never bloats the
-        # repo. Regenerate it here from the committed raw audio and re-point the
-        # config at it. No-op if the config already points at present audio.
-        run: node scripts/master-audio.js --slug="${{ github.event.inputs.slug }}" --update-config || echo "master-audio skipped (no raw audio / already present)"
+      - name: Master audio
+        run: node scripts/master-audio.js --slug="${{ github.event.inputs.slug }}" --update-config || echo "master-audio skipped"
 
       - name: Render Video (Local Chunking on Runner)
         run: |
