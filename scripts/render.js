@@ -389,7 +389,10 @@ async function dispatchSplit(safeMax) {
     state.segments.push({ seg: sg.seg, start: sg.start, end: sg.end, workerId: worker.id, username: worker.username, repo: worker.repo, ref });
   }
 
-  fs.writeFileSync(path.join(ROOT, ".render-github-split.json"), JSON.stringify(state, null, 2) + "\n");
+  // per-slug state file: a single shared .render-github-split.json collides when
+  // two agents dispatch different books at once (seen: the-odyssey clobbered martyr).
+  fs.writeFileSync(path.join(ROOT, `.render-github-split.${slug}.json`), JSON.stringify(state, null, 2) + "\n");
+  fs.writeFileSync(path.join(ROOT, ".render-github-split.json"), JSON.stringify(state, null, 2) + "\n"); // back-comat
   console.log(`\n🚀 ${segs.length} segment paralel render'da. Canlı: her worker'ın Actions sekmesi.`);
   console.log(`   Bitince indir + birleştir + doğrula:\n   node scripts/render-github-assemble.js --slug=${slug}`);
 }

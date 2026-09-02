@@ -19,10 +19,12 @@ const args = parseArgs(process.argv.slice(2));
 const SLUG = args.slug;
 if (!SLUG) { console.error("Kullanım: node scripts/render-github-assemble.js --slug=<slug>"); process.exit(1); }
 
-const splitPath = path.join(ROOT, ".render-github-split.json");
-if (!fs.existsSync(splitPath)) { console.error("❌ .render-github-split.json yok — bu slug bölünmüş bir render değil. Tek-parça için render-github-download.js kullan."); process.exit(1); }
+// Prefer the per-slug state file (multi-agent safe); fall back to the shared one.
+const perSlug = path.join(ROOT, `.render-github-split.${SLUG}.json`);
+const splitPath = fs.existsSync(perSlug) ? perSlug : path.join(ROOT, ".render-github-split.json");
+if (!fs.existsSync(splitPath)) { console.error(`❌ .render-github-split.${SLUG}.json yok — bu slug bölünmüş bir render değil. Tek-parça için render-github-download.js kullan.`); process.exit(1); }
 const split = JSON.parse(fs.readFileSync(splitPath, "utf8"));
-if (split.slug !== SLUG) { console.error(`❌ split state slug'ı '${split.slug}', istenen '${SLUG}'.`); process.exit(1); }
+if (split.slug !== SLUG) { console.error(`❌ split state slug'ı '${split.slug}', istenen '${SLUG}'. (Başka bir agent .render-github-split.json'u ezmiş olabilir — .render-github-split.${SLUG}.json bekleniyordu.)`); process.exit(1); }
 
 const acc = loadAccounts();
 const segsSorted = [...split.segments].sort((a, b) => a.seg - b.seg);
