@@ -338,6 +338,18 @@ function runLambdaRender() {
 // 3. GITHUB ACTIONS RENDERING (MULTI-WORKER SUPPORT)
 // ═════════════════════════════════════════════════════════════════════════════
 async function runGithubActionsRender() {
+  // PRE-FLIGHT (git-aware): the runner does a fresh checkout, so every asset the
+  // composition needs must be COMMITTED (not just on local disk) or it 404s there.
+  // This gate is why a render can no longer be dispatched with missing/uncommitted
+  // assets (the first martyr render died on an untracked shared background PNG).
+  if (slug && fs.existsSync(path.join(ROOT, "scripts/verify-render-assets.js")) && !args["skip-verify"]) {
+    console.log(`[GITHUB ACTIONS] Ön-kontrol (git-aware asset doğrulama)...`);
+    const pf = spawnSync("node", ["scripts/verify-render-assets.js", `--slug=${slug}`], { cwd: ROOT, stdio: "inherit" });
+    if (pf.status !== 0) {
+      console.error(`\n❌ Ön-kontrol başarısız — render TETİKLENMEDİ. Eksik/commit'lenmemiş dosyaları ekleyip tekrar dene (veya --skip-verify).`);
+      process.exit(1);
+    }
+  }
   console.log(`[GITHUB ACTIONS] Render Worker aranıyor...`);
 
   const accountsFile = path.join(ROOT, "render-accounts.json");
