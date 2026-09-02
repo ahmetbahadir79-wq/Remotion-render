@@ -502,16 +502,63 @@ npm run build        # runs: remotion bundle
 
 ---
 
+## Multi-Worker GitHub Actions Render Pool & Sequential Queue Protocol
+
+The project operates a dedicated **Multi-Worker GitHub Actions render pool** (3 independent worker accounts, 6,000 free minutes/month total) to offload all video rendering workloads. The primary codebase repo (`sates52/Remotion-test`) **never** runs render jobs.
+
+### 👥 Active Worker Pool (Round-Robin Rotated)
+- **Worker 1**: `@sates52ko` ➔ `sates52ko/Remotion-render` (2,000 min/mo)
+- **Worker 2**: `@goodbooksummary-a11y` ➔ `goodbooksummary-a11y/Remotion-render` (2,000 min/mo)
+- **Worker 3**: `@ahmetbahadir79-wq` ➔ `ahmetbahadir79-wq/Remotion-render` (2,000 min/mo)
+- **Registry & Rotation**: Stored in `render-accounts.json`. Dispatches automatically rotate across workers (1 ➔ 2 ➔ 3 ➔ 1).
+
+### 🚦 Sequential Render Queue (Kuyruk Yöneticisi)
+When producing multiple books or running batch renders, **always use the sequential queue** so jobs run one-by-one, wait for completion, auto-download the resulting `out/<slug>.mp4`, and proceed cleanly to the next video:
+
+```bash
+# Add one or more videos to the queue:
+node scripts/render-queue.js --add=single-dad-dilemma,the-wedding-people --method=github
+
+# Run the queue sequentially (dispatches, monitors, downloads, rotates workers):
+node scripts/render-queue.js --run
+
+# View live queue status and completion history:
+node scripts/render-queue.js --status
+
+# Add a single video and immediately run until completion:
+node scripts/render-queue.js --slug=single-dad-dilemma --run-now --method=github
+```
+
+### 🎬 Single-Video Direct Render Commands
+```bash
+# GitHub Actions with auto worker rotation and wait + auto-download:
+node scripts/render.js --slug=<slug> --method=github --wait
+
+# GitHub Actions background dispatch only:
+node scripts/render.js --slug=<slug> --method=github
+
+# Specify a specific worker:
+node scripts/render.js --slug=<slug> --method=github --worker=worker2
+
+# Default local micro-chunk render (400-frame chunks):
+node scripts/render.js --slug=<slug> --method=local
+
+# AWS Lambda render:
+node scripts/render.js --slug=<slug> --method=lambda
+```
+
+---
+
 ## Local Rendering & Chunking (Long Form Videos)
 
 For videos >15 minutes (typically 20,000+ frames), Chrome headless will leak memory locally and eventually crash with `Exit Code 1` / `Maximum call stack size exceeded`.
 
 **The Solution: Micro-Chunking**
-1. Use the `local_chunk_renderer.js` script to process the video in chunks of **5000 frames**.
+1. Use the `local_chunk_renderer.js` script to process the video in chunks of **400 frames** (or `node scripts/render.js --method=local`).
 2. **CRITICAL Remotion v4 CLI change**: Do not use `--from` and `--to`. These flags are ignored and will cause OOM crashes! ALWAYS use `--frames=start-end`.
-   - Correct: `npx remotion render MyComp out.mp4 --frames=0-4999 --concurrency=1`
-   - Incorrect: `npx remotion render MyComp out.mp4 --from 0 --to 4999`
-3. Concatenate the segments using a standard `ffmpeg` contact list.
+   - Correct: `npx remotion render MyComp out.mp4 --frames=0-399 --concurrency=1`
+   - Incorrect: `npx remotion render MyComp out.mp4 --from 0 --to 399`
+3. Concatenate the segments using standard `ffmpeg`.
 
 ---
 

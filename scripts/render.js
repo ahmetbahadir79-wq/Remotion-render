@@ -439,12 +439,69 @@ async function runGithubActionsRender() {
   }, (res) => {
     let body = "";
     res.on("data", (d) => (body += d));
-    res.on("end", () => {
+    res.on("end", async () => {
       if (res.statusCode === 204) {
         console.log(`\n🚀 [BAŞARILI] Render iş akışı başarıyla başlatıldı!`);
         console.log(`\nCanlı İlerleme ve İndirme:`);
         console.log(`  🔗 https://github.com/${worker.username}/${worker.repo}/actions`);
         console.log(`\nRender tamamlandığında oluşan video GitHub Actions sekmesinden (Artifacts) indirilebilir.`);
+
+        if (args.wait) {
+          console.log(`\n⏳ [--wait devrede] Render tamamlanana kadar bekleniyor...`);
+          const pollIntervalSec = Number(args["poll-interval"] || 15);
+          await sleep(10000);
+          const startTime = Date.now();
+          const maxTimeoutMs = 120 * 60 * 1000;
+
+          while (Date.now() - startTime < maxTimeoutMs) {
+            try {
+              const runRes = await new Promise((resolve) => {
+                https.default.get({
+                  hostname: "api.github.com",
+                  path: `/repos/${worker.username}/${worker.repo}/actions/runs?per_page=5`,
+                  headers: {
+                    "User-Agent": "Remotion-Render-Orchestrator",
+                    Authorization: `Bearer ${worker.token}`,
+                    Accept: "application/vnd.github.v3+json",
+                  },
+                }, (r) => {
+                  let b = "";
+                  r.on("data", (d) => (b += d));
+                  r.on("end", () => {
+                    try { resolve(JSON.parse(b)); } catch { resolve(null); }
+                  });
+                });
+              });
+
+              if (runRes && runRes.workflow_runs && runRes.workflow_runs.length > 0) {
+                const latest = runRes.workflow_runs[0];
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                const elapsedStr = `${Math.floor(elapsed / 60)}m ${elapsed % 60}s`;
+
+                if (latest.status === "completed") {
+                  if (latest.conclusion === "success") {
+                    console.log(`\n\n🎉 [BAŞARILI] Render tamamlandı (${elapsedStr})!`);
+                    if (fs.existsSync(path.join(ROOT, "scripts", "render-github-download.js"))) {
+                      console.log(`\n3. Video indiriliyor (out/${slug}.mp4)...`);
+                      try {
+                        execSync(`node scripts/render-github-download.js --slug=${slug} --worker=${worker.id}`, { cwd: ROOT, stdio: "inherit" });
+                      } catch (e) {
+                        console.warn(`⚠ İndirme uyarısı: ${e.message}`);
+                      }
+                    }
+                    break;
+                  } else {
+                    console.error(`\n❌ Render başarısız sonuçlandı (${latest.conclusion}). Link: ${latest.html_url}`);
+                    break;
+                  }
+                } else {
+                  process.stdout.write(`\r⏳ Render devam ediyor... (${elapsedStr}) | Durum: ${latest.status} | URL: ${latest.html_url}   `);
+                }
+              }
+            } catch {}
+            await sleep(pollIntervalSec * 1000);
+          }
+        }
       } else {
         console.error(`❌ Workflow tetikleme hatası (HTTP ${res.statusCode}): ${body}`);
       }
@@ -457,4 +514,8 @@ async function runGithubActionsRender() {
 
   req.write(payload);
   req.end();
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
