@@ -42,6 +42,8 @@ import cfg_the_frozen_river from '../books/the-frozen-river/config.vox.json';
 import meta_the_frozen_river from '../books/the-frozen-river/youtube-meta.json';
 import cfg_the_mountain_is_you from '../books/the-mountain-is-you/config.vox.json';
 import meta_the_mountain_is_you from '../books/the-mountain-is-you/youtube-meta.json';
+import cfg_the_odyssey from '../books/the-odyssey/config.vox.json';
+import meta_the_odyssey from '../books/the-odyssey/youtube-meta.json';
 import cfg_the_righteous_mind from '../books/the-righteous-mind/config.vox.json';
 import meta_the_righteous_mind from '../books/the-righteous-mind/youtube-meta.json';
 import cfg_the_unknown from '../books/the-unknown/config.vox.json';
@@ -96,6 +98,7 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'slow-productivity': { paper: '#E6E5DE', ink: '#1C1E22', red: '#3E7CA8', gold: '#C99A48' },
   'sway': { paper: '#E4E1E8', ink: '#1C1822', red: '#7C3AED', gold: '#D9A13C' },
   'the-mountain-is-you': { paper: '#DBE0DE', ink: '#22303C', red: '#E4762B', gold: '#4E93A0' },
+  'the-odyssey': { paper: '#F6F1E5', ink: '#131922', red: '#B33827', gold: '#C89538' },
   'the-righteous-mind': { paper: '#E3E0E6', ink: '#1E1A24', red: '#9B3FA0', gold: '#D8A23E' },
   'the-unknown': { paper: '#DCE2E6', ink: '#14181C', red: '#9B2233', gold: '#B08D4C' },
   'this-is-me': { paper: '#EEE7D9', ink: '#241E16', red: '#DB5B3A', gold: '#E0A94B' },
@@ -233,6 +236,12 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_the_mountain_is_you as any,
     meta: meta_the_mountain_is_you as any,
+  },
+  {
+    slug: 'the-odyssey',
+    engine: 'vox',
+    config: cfg_the_odyssey as any,
+    meta: meta_the_odyssey as any,
   },
   {
     slug: 'the-righteous-mind',
