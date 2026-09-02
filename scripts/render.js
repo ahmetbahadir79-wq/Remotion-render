@@ -357,21 +357,21 @@ async function dispatchSplit(safeMax) {
   }
 
   const curBranch = execSync("git rev-parse --abbrev-ref HEAD", { encoding: "utf8" }).trim();
-  const pushed = new Set();
   const state = { slug, composition, totalFrames, segments: [] };
 
   for (const sg of segs) {
     const worker = workers[(sg.seg - 1) % workers.length];
     const remote = worker.remoteName || `render-worker-${(sg.seg - 1) % workers.length + 1}`;
-    const branch = worker.branch || "god-mode";
-    if (!pushed.has(remote)) {
-      console.log(`\n↑ Kod push → ${worker.username}/${worker.repo} (${remote}/${branch})`);
-      try {
-        execSync(`git push ${remote} ${curBranch}:${branch} --force`, { cwd: ROOT, stdio: "inherit", env: { ...process.env, GIT_TERMINAL_PROMPT: "0", GCM_INTERACTIVE: "never" } });
-      } catch (e) { console.warn(`⚠ push: ${e.message}`); }
-      pushed.add(remote);
-    }
-    const payload = JSON.stringify({ ref: branch, inputs: {
+    // ISOLATED per-render ref (not the shared god-mode) so concurrent renders — even
+    // from another agent on the SAME account — never clobber each other's push and
+    // never queue behind each other (concurrency group is per-ref). Each segment its
+    // own ref → same-worker segments also run in parallel.
+    const ref = `render/${slug}-seg${sg.seg}`;
+    console.log(`\n↑ Kod push → ${worker.username}/${worker.repo} (${remote} → ${ref})`);
+    try {
+      execSync(`git push ${remote} ${curBranch}:refs/heads/${ref} --force`, { cwd: ROOT, stdio: "inherit", env: { ...process.env, GIT_TERMINAL_PROMPT: "0", GCM_INTERACTIVE: "never" } });
+    } catch (e) { console.warn(`⚠ push: ${e.message}`); }
+    const payload = JSON.stringify({ ref, inputs: {
       slug, composition, chunk_size: String(chunkSize), concurrency: String(args.concurrency || 2),
       frames: `${sg.start}-${sg.end}`, seg: String(sg.seg),
     } });
@@ -385,8 +385,8 @@ async function dispatchSplit(safeMax) {
       rq.on("error", (e) => resolve({ code: 0, b: e.message }));
       rq.write(payload); rq.end();
     });
-    console.log(`  seg${sg.seg} [${sg.start}-${sg.end}] → @${worker.username}: HTTP ${r.code}${r.code === 204 ? " ✓" : " " + r.b}`);
-    state.segments.push({ seg: sg.seg, start: sg.start, end: sg.end, workerId: worker.id, username: worker.username, repo: worker.repo });
+    console.log(`  seg${sg.seg} [${sg.start}-${sg.end}] → @${worker.username} (${ref}): HTTP ${r.code}${r.code === 204 ? " ✓" : " " + r.b}`);
+    state.segments.push({ seg: sg.seg, start: sg.start, end: sg.end, workerId: worker.id, username: worker.username, repo: worker.repo, ref });
   }
 
   fs.writeFileSync(path.join(ROOT, ".render-github-split.json"), JSON.stringify(state, null, 2) + "\n");
