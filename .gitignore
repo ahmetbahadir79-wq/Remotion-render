@@ -19,6 +19,9 @@ overnight.*
 *.log
 *.err.log
 *.stackdump
+# committed-by-accident Python virtualenv (was bloating origin with ~1000 files)
+venv/
+.venv/
 
 # multi-worker render pool — HOLDS GITHUB PATs, never commit (would leak to worker repos on push)
 render-accounts.json

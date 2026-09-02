@@ -28,6 +28,38 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-02 — antidote-pipeline — origin/god-mode overwritten with the clean tree
+- **What:** local `god-mode` (worker-orchestrator's clean orphan deploy tree, 252 files)
+  and `origin/god-mode` (old history, 1262 files) had **NO common ancestor**. The extra
+  ~1015 files on origin were a committed Python `venv/` (junk); code was equivalent
+  (books 68=68, src 99=99), local had 3 extra scripts (render-pool). User confirmed "current
+  structure is the real structure, overwrite" → **force-pushed local god-mode to origin**,
+  replacing the old history. Added `venv/`,`.venv/` to `.gitignore` so it can't re-bloat.
+- **Files:** `.gitignore`, this log; force-push of `god-mode`.
+- **Status:** DONE. origin/god-mode is now the clean tree. Old 36-commit history is gone
+  from the branch tip (only reachable via anyone's local reflog). Render worker repos are
+  pushed to from LOCAL by render.js, unaffected.
+
+### 2026-09-02 — vox-onscreen — meaningful on-screen text + engagement enrichment
+- **What:** Fixed the meaningless big emphasis words (was "IT'S LET"). New
+  `phraseEmphasis()` in `lib/beat-text.js` (salient contiguous phrase; proper-noun
+  bonus; meta-word demote) → wired into `plan-vox.js` `emphasis()`. New retrofit
+  scripts (no replan, respect `props.emphasisLocked`): `apply-emphasis.js` (recompute
+  emphasis), `fix-names.js` (ASR name map `books/<slug>/names.json`), `apply-phrases.js`
+  (lock hero "phrase-that-pays" from `books/<slug>/phrases.json`). Engine (voxkit):
+  StatementScene now has 3 seeded layouts; ImageFocus label 2→3 words; **Vox-native
+  ChapterOverlay + ProgressRail**; **breathing-room** = audio SLICED in Remotion
+  (`NarrationAudio` segments) with gaps + `GapMusic` swell + card-in-gap
+  (`apply-breathing-room.js` writes `meta.audioSegments/gaps/gapFrames/gapMusic`,
+  extends `meta.totalFrames`).
+- **Files:** `src/broll/voxkit/index.tsx`, `scripts/plan-vox.js`, `scripts/lib/beat-text.js`,
+  `scripts/apply-emphasis.js`, `scripts/fix-names.js`, `scripts/apply-phrases.js`,
+  `scripts/apply-breathing-room.js`.
+- **Compat:** all voxkit additions are OPTIONAL/gated on config fields (`chapters`,
+  `meta.audioSegments/gaps/gapFrames`) — books without them render exactly as before.
+- **Status:** landed locally (uncommitted). Applied to `books/martyr` (config.vox.json).
+  Audio-sync of the gaps to be spot-checked in Studio.
+
 ### 2026-09-02 — antidote-pipeline — GitHub-render pool: security + download/cleanup half
 - **What:** (1) SECURITY: `render-accounts.json` holds live GitHub PATs and was NOT
   gitignored — added it (+ `render-worker-*.json`, `.render-github-state.json`) to
