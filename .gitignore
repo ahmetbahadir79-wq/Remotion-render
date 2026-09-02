@@ -19,3 +19,8 @@ overnight.*
 *.log
 *.err.log
 *.stackdump
+
+# multi-worker render pool — HOLDS GITHUB PATs, never commit (would leak to worker repos on push)
+render-accounts.json
+render-worker-*.json
+.render-github-state.json
