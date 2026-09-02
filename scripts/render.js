@@ -1,0 +1,379 @@
+#!/usr/bin/env node
+/**
+ * 🎬 UNIFIED REMOTION RENDER ORCHESTRATOR
+ *
+ * Desteklenen Yöntemler (--method):
+ *   1. local  (VARSAYILAN / DEFAULT) -> Yerelde mikro-chunk'lar ile güvenli render + otomatik FFmpeg birleştirme.
+ *   2. lambda                         -> AWS Remotion Lambda üzerinden render (uzun videolarda segmentleme desteği).
+ *   3. github                         -> GitHub Actions workflow'unu tetikler (UI veya `gh` CLI).
+ *
+ * Kullanım:
+ *   node scripts/render.js --slug=sway                                 (Varsayılan: local chunk render)
+ *   node scripts/render.js --slug=sway --method=local --concurrency=5
+ *   node scripts/render.js --slug=sway --method=lambda
+ *   node scripts/render.js --slug=sway --method=github
+ *   node scripts/render.js --config=books/sway/config.vox.json
+ */
+
+const { spawnSync, execSync } = require("child_process");
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = path.resolve(__dirname, "..");
+const ENTRY = "src/index.ts";
+
+// ── Argument Parsing ────────────────────────────────────────────────────────
+const args = {};
+process.argv.slice(2).forEach((arg) => {
+  if (arg.startsWith("--")) {
+    const [k, ...v] = arg.replace(/^--/, "").split("=");
+    args[k] = v.length > 0 ? v.join("=") : true;
+  }
+});
+
+if (args.help || args.h) {
+  printHelp();
+  process.exit(0);
+}
+
+function printHelp() {
+  console.log(`
+🎬 Remotion Unified Render CLI
+
+Kullanım:
+  node scripts/render.js [SEÇENEKLER]
+
+Seçenekler:
+  --slug=<slug>               Kitap / proje slug'ı (örn: sway, single-dad-dilemma)
+  --config=<dosya>            Özel config json yolu (örn: books/sway/config.vox.json)
+  --composition=<id>          Özel composition id (örn: Vox-sway, Antidote-clear-thinking)
+  --method=<yöntem>           Render yöntemi: local | lambda | github (VARSAYILAN: local)
+  --chunk-size=<sayı>         Her chunk'taki frame sayısı (local için, varsayılan: 400)
+  --concurrency=<sayı>        Eşzamanlı render worker sayısı (local için, varsayılan: 4 veya render.concurrency)
+  --frames=<başla-bitir>      Belirli frame aralığını render et (örn: 0-1999)
+  --region=<aws-region>       AWS Lambda region (lambda için, varsayılan: us-east-1)
+  --site-name=<site>          Önceden oluşturulmuş lambda site adı
+  --help, -h                  Bu yardım mesajını gösterir
+`);
+}
+
+// ── Configuration & Metadata Resolution ─────────────────────────────────────
+let slug = args.slug;
+let configFile = args.config;
+let composition = args.composition;
+const method = (args.method || "local").toLowerCase();
+
+// If config path given without slug, extract slug
+if (configFile && !slug) {
+  const match = configFile.match(/books\/([^/]+)/);
+  if (match) slug = match[1];
+}
+
+// If slug given without config, find config
+if (slug && !configFile) {
+  const cands = [
+    `books/${slug}/config.vox.json`,
+    `books/${slug}/config.antidote.json`,
+    `configs/${slug}.json`,
+  ];
+  for (const c of cands) {
+    if (fs.existsSync(path.join(ROOT, c))) {
+      configFile = c;
+      break;
+    }
+  }
+}
+
+// Default fallback if nothing specified
+if (!configFile && !composition) {
+  const defaultSlug = "single-dad-dilemma";
+  const defPath = `books/${defaultSlug}/config.vox.json`;
+  if (fs.existsSync(path.join(ROOT, defPath))) {
+    slug = defaultSlug;
+    configFile = defPath;
+  } else {
+    console.error("❌ Hata: Render edilecek bir --slug veya --config belirtilmedi.");
+    printHelp();
+    process.exit(1);
+  }
+}
+
+let configData = null;
+if (configFile && fs.existsSync(path.join(ROOT, configFile))) {
+  try {
+    configData = JSON.parse(fs.readFileSync(path.join(ROOT, configFile), "utf8"));
+  } catch (e) {
+    console.warn(`⚠ Config dosyası okunamadı: ${configFile} (${e.message})`);
+  }
+}
+
+const meta = configData?.meta || {};
+const engine = configData?.engine || (meta.totalFrames ? "vox" : meta.durationInFrames ? "antidote" : "vox");
+if (!composition) {
+  composition =
+    configData?.compositionId ||
+    (slug ? `${engine === "antidote" ? "Antidote" : "Vox"}-${slug}` : "Generic-Book-Summary");
+}
+if (!slug && meta.slug) slug = meta.slug;
+if (!slug) slug = composition.toLowerCase();
+
+const totalFrames =
+  configData?.totalFrames ||
+  meta.totalFrames ||
+  meta.durationInFrames ||
+  (configData?.beats ? configData.beats.reduce((acc, b) => acc + (b.durationInFrames || b.frames || 0), 0) : 10000);
+
+const chunkSize = Number(args["chunk-size"]) || 400;
+const finalOutPath = path.join(ROOT, "out", `${slug}.mp4`);
+
+// Concurrency resolution
+const CONC_FILE = path.join(ROOT, "render.concurrency");
+function getConcurrency() {
+  try {
+    if (fs.existsSync(CONC_FILE)) {
+      const n = Number(String(fs.readFileSync(CONC_FILE, "utf8")).trim());
+      if (n >= 1) return n;
+    }
+  } catch {}
+  return Number(args.concurrency || process.env.RENDER_CONCURRENCY || 4);
+}
+
+console.log("\n🎬 ═══════════════════════════════════════════════════════════════");
+console.log(`   REMOTION RENDER ORCHESTRATOR`);
+console.log(`   Slug        : ${slug}`);
+console.log(`   Composition : ${composition}`);
+console.log(`   Engine      : ${engine.toUpperCase()}`);
+console.log(`   Toplam Frame: ${totalFrames}`);
+console.log(`   Yöntem      : ${method.toUpperCase()}${!args.method ? " (Varsayılan: local)" : ""}`);
+console.log("═════════════════════════════════════════════════════════════════\n");
+
+// ── Execution Router ────────────────────────────────────────────────────────
+switch (method) {
+  case "local":
+    runLocalRender();
+    break;
+  case "lambda":
+    runLambdaRender();
+    break;
+  case "github":
+  case "actions":
+  case "github-actions":
+    runGithubActionsRender();
+    break;
+  default:
+    console.error(`❌ Geçersiz render yöntemi: "${method}". Seçenekler: local, lambda, github`);
+    process.exit(1);
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// 1. LOCAL CHUNK RENDERING (DEFAULT)
+// ═════════════════════════════════════════════════════════════════════════════
+function runLocalRender() {
+  const outChunksDir = path.join(ROOT, `out_${composition}_chunks`.replace(/ /g, "_"));
+  fs.mkdirSync(outChunksDir, { recursive: true });
+  fs.mkdirSync(path.join(ROOT, "out"), { recursive: true });
+
+  const startFrame = args.frames ? Number(args.frames.split("-")[0]) : 0;
+  const endFrame = args.frames ? Number(args.frames.split("-")[1]) : totalFrames - 1;
+  const numChunks = Math.ceil((endFrame - startFrame + 1) / chunkSize);
+
+  console.log(`[LOCAL] Mikro-chunk render başlıyor...`);
+  console.log(`  Hedef Dizin : ${outChunksDir}`);
+  console.log(`  Chunk Sayısı: ${numChunks} (${chunkSize} frame/chunk)`);
+  console.log(`  Frame Aralığı: ${startFrame} - ${endFrame}`);
+  console.log(`  Concurrency : ${getConcurrency()}\n`);
+
+  let chunkIdx = 1;
+  for (let s = startFrame; s <= endFrame; s += chunkSize) {
+    const e = Math.min(s + chunkSize - 1, endFrame);
+    const chunkFile = path.join(outChunksDir, `chunk-${String(chunkIdx).padStart(4, "0")}.mp4`);
+
+    if (fs.existsSync(chunkFile) && verifyChunkFile(chunkFile)) {
+      // Chunk geçerli ve mevcut -> atla
+    } else {
+      console.log(`[${new Date().toLocaleTimeString()}] Chunk ${chunkIdx}/${numChunks} render ediliyor (Frame ${s} - ${e})...`);
+      const conc = getConcurrency();
+      const isVoxOrAntidote = !!(meta && meta.slug);
+      const propsFlag = isVoxOrAntidote || !configFile ? "" : `--props="${configFile}"`;
+      const cmd = `npx remotion render ${ENTRY} ${composition} "${chunkFile}" --frames=${s}-${e} ${propsFlag} --concurrency=${conc} --puppeteer-timeout=90000 --timeout=180000`;
+
+      let retries = 3;
+      let ok = false;
+      while (!ok && retries > 0) {
+        try {
+          execSync(cmd, { cwd: ROOT, stdio: "inherit" });
+          if (verifyChunkFile(chunkFile)) {
+            ok = true;
+          } else {
+            throw new Error("Chunk dosyası doğrulanamadı (eksik/bozuk video akışı).");
+          }
+        } catch (err) {
+          retries--;
+          console.warn(`\n⚠ Chunk ${chunkIdx} başarısız oldu (${err.message}). Kalan deneme: ${retries}`);
+          if (retries === 0) {
+            console.error(`❌ Chunk ${chunkIdx} render edilemedi. İşlem durduruluyor.`);
+            process.exit(1);
+          }
+          execSync('node -e "new Promise(r => setTimeout(r, 4000))"');
+        }
+      }
+    }
+    chunkIdx++;
+  }
+
+  // FFmpeg Concat
+  console.log("\n[LOCAL] Parçalar birleştiriliyor (FFmpeg Concat)...");
+  const concatList = [];
+  for (let i = 1; i < chunkIdx; i++) {
+    const fileName = `chunk-${String(i).padStart(4, "0")}.mp4`;
+    concatList.push(`file '${fileName}'`);
+  }
+  const partsFile = path.join(outChunksDir, "parts.txt");
+  fs.writeFileSync(partsFile, concatList.join("\n"));
+
+  try {
+    execSync(`ffmpeg -y -f concat -safe 0 -i "${partsFile}" -c copy "${finalOutPath}"`, {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+    console.log(`\n🎉 [BAŞARILI] Video oluşturuldu: ${finalOutPath}`);
+  } catch (err) {
+    console.error(`\n❌ FFmpeg concat birleştirme hatası: ${err.message}`);
+    process.exit(1);
+  }
+}
+
+function verifyChunkFile(filePath) {
+  if (!fs.existsSync(filePath)) return false;
+  if (fs.statSync(filePath).size < 2048) return false;
+  const probe = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", filePath], {
+    encoding: "utf8",
+  });
+  if (probe.status !== 0) return false;
+  const dur = parseFloat((probe.stdout || "").trim());
+  if (!Number.isFinite(dur) || dur <= 0.1) return false;
+
+  // Hızlı ffmpeg decode testi
+  const dec = spawnSync("ffmpeg", ["-v", "error", "-i", filePath, "-f", "null", "-"], { encoding: "utf8" });
+  if (dec.status !== 0 || (dec.stderr && dec.stderr.trim().length > 0)) return false;
+  return true;
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// 2. AWS REMOTION LAMBDA RENDERING
+// ═════════════════════════════════════════════════════════════════════════════
+function runLambdaRender() {
+  console.log(`[LAMBDA] AWS Remotion Lambda render akışı başlatılıyor...`);
+  const region = args.region || "us-east-1";
+  const siteName = args["site-name"] || `${slug}-site-${Date.now().toString().slice(-4)}`;
+
+  // Registry güncelle
+  try {
+    execSync("node scripts/gen-books-registry.js", { cwd: ROOT, stdio: "inherit" });
+  } catch {}
+
+  console.log(`\n1. Lambda Site Deploy ediliyor (${siteName}, region: ${region})...`);
+  try {
+    execSync(`npx remotion lambda sites create ${ENTRY} --site-name=${siteName} --region=${region}`, {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+  } catch (e) {
+    console.error("❌ Lambda site oluşturma başarısız. AWS kimlik bilgilerinizi (.env) kontrol edin.");
+    process.exit(1);
+  }
+
+  // 15 dakikadan (22500 frame) uzun videolar için Lambda'nın 900sn orchestrator limitine takılmamak üzere segmentleme
+  const SEGMENT_FRAMES = 21000;
+  if (totalFrames > SEGMENT_FRAMES && !args.frames) {
+    console.log(`\n2. Video uzun (${totalFrames} frames) -> 900s Lambda timeout'unu önlemek için ${Math.ceil(totalFrames / SEGMENT_FRAMES)} segmente bölünüyor...`);
+    const segDir = path.join(ROOT, "out", `${slug}-segments`);
+    fs.mkdirSync(segDir, { recursive: true });
+
+    let segIndex = 1;
+    const segFiles = [];
+    for (let s = 0; s < totalFrames; s += SEGMENT_FRAMES) {
+      const e = Math.min(s + SEGMENT_FRAMES - 1, totalFrames - 1);
+      const outName = `${slug}-seg${segIndex}.mp4`;
+      const segLocalPath = path.join(segDir, outName);
+      segFiles.push(segLocalPath);
+
+      console.log(`\n── Segment ${segIndex}: Frame ${s} to ${e} ──`);
+      const renderCmd = `npx remotion lambda render ${siteName} ${composition} --region=${region} --codec=h264 --frames=${s}-${e} --out-name=${outName}`;
+      const renderOutput = execSync(renderCmd, { cwd: ROOT, encoding: "utf8" });
+      console.log(renderOutput);
+
+      // Render ID yakala
+      const renderIdMatch = renderOutput.match(/Render ID:\s*([a-zA-Z0-9_-]+)/i) || renderOutput.match(/([a-z0-9]{10,})/i);
+      const renderId = renderIdMatch ? renderIdMatch[1] : null;
+
+      if (renderId && fs.existsSync(path.join(ROOT, "scripts", "dl-render.js"))) {
+        console.log(`  S3'ten indiriliyor (${renderId})...`);
+        execSync(`node scripts/dl-render.js ${renderId} ${outName} "${segLocalPath}"`, {
+          cwd: ROOT,
+          stdio: "inherit",
+        });
+      }
+      segIndex++;
+    }
+
+    // Segmentleri concat et
+    console.log("\n3. Lambda segmentleri birleştiriliyor (FFmpeg)...");
+    const segParts = path.join(segDir, "parts.txt");
+    fs.writeFileSync(segParts, segFiles.map((f) => `file '${f.replace(/\\/g, "/")}'`).join("\n"));
+    execSync(`ffmpeg -y -f concat -safe 0 -i "${segParts}" -c copy "${finalOutPath}"`, {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+    console.log(`\n🎉 [BAŞARILI] Lambda render tamamlandı: ${finalOutPath}`);
+  } else {
+    console.log(`\n2. Lambda render başlatılıyor...`);
+    const framesFlag = args.frames ? `--frames=${args.frames}` : "";
+    const renderCmd = `npx remotion lambda render ${siteName} ${composition} --region=${region} --codec=h264 ${framesFlag}`;
+    execSync(renderCmd, { cwd: ROOT, stdio: "inherit" });
+  }
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// 3. GITHUB ACTIONS RENDERING
+// ═════════════════════════════════════════════════════════════════════════════
+function runGithubActionsRender() {
+  console.log(`[GITHUB ACTIONS] GitHub Actions üzerinden render tetikleniyor...`);
+
+  let ghAvailable = false;
+  try {
+    const res = spawnSync("gh", ["--version"], { shell: true, timeout: 3000, encoding: "utf8" });
+    if (res.status === 0) ghAvailable = true;
+  } catch {}
+
+  if (ghAvailable) {
+    console.log("✓ GitHub CLI (gh) algılandı. Workflow dispatch gönderiliyor...");
+    const cmd = `gh workflow run render-video.yml -f slug="${slug}" -f composition="${composition}" -f chunk_size="${chunkSize}" -f concurrency="${args.concurrency || 2}"`;
+    console.log(`$ ${cmd}\n`);
+    try {
+      execSync(cmd, { cwd: ROOT, stdio: "inherit" });
+      console.log(`\n🚀 [TETİKLENDİ] GitHub Actions iş akışı başarıyla başlatıldı!`);
+      console.log(`\nİlerlemeyi takip etmek için:`);
+      console.log(`  • Terminalden : gh run list --workflow=render-video.yml`);
+      console.log(`  • Tarayıcıdan : GitHub Reponuz -> "Actions" sekmesi -> "Render Remotion Video"`);
+      console.log(`\nRender tamamlandığında oluşan video GitHub Artifacts olarak indirilebilir olacaktır.`);
+    } catch (e) {
+      console.warn(`⚠ gh komutu çalıştırılamadı (${e.message}). Manuel tetikleme adımlarını uygulayabilirsiniz.`);
+      printManualGithubInstructions();
+    }
+  } else {
+    printManualGithubInstructions();
+  }
+}
+
+function printManualGithubInstructions() {
+  console.log(`\n📌 GitHub Actions Manuel Çalıştırma Yöntemi:`);
+  console.log(`  1. GitHub reponuza gidin ve "Actions" sekmesini açın.`);
+  console.log(`  2. Sol menüden "Render Remotion Video" iş akışını seçin.`);
+  console.log(`  3. "Run workflow" butonuna tıklayın:`);
+  console.log(`     • slug       : ${slug}`);
+  console.log(`     • composition: ${composition}`);
+  console.log(`     • chunk_size : ${chunkSize}`);
+  console.log(`  4. Render tamamlandığında oluşan video "Artifacts" bölümünden indirilebilir.`);
+  console.log(`\n(İpucu: GitHub CLI kurarak terminalden doğrudan tetiklemek için: \`gh workflow run render-video.yml -f slug=${slug}\`)`);
+}
