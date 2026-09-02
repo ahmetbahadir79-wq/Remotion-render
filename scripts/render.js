@@ -334,6 +334,66 @@ function runLambdaRender() {
   }
 }
 
+// Split a long video into worker-sized frame segments and dispatch each to a pool
+// worker in parallel. Records .render-github-split.json for the assemble step.
+async function dispatchSplit(safeMax) {
+  const https = await import("https");
+  const accountsFile = path.join(ROOT, "render-accounts.json");
+  const accounts = JSON.parse(fs.readFileSync(accountsFile, "utf8"));
+  const workers = (accounts.workers || []).filter((w) => w.active !== false && w.token);
+  if (!workers.length) { console.error("❌ Aktif Render Worker yok (render-accounts.json)."); process.exit(1); }
+
+  const numSeg = Math.ceil(totalFrames / safeMax);
+  const per = Math.ceil(totalFrames / numSeg);
+  const segs = [];
+  for (let i = 0; i < numSeg; i++) {
+    const s = i * per, e = Math.min((i + 1) * per, totalFrames) - 1;
+    if (s <= e) segs.push({ seg: i + 1, start: s, end: e });
+  }
+
+  console.log(`\n🎬 UZUN VIDEO (${totalFrames} frame > ${safeMax}) → ${segs.length} segment (her biri 6s limitin altında), ${workers.length} worker'a paralel dağıtılıyor.`);
+  if (segs.length > workers.length) {
+    console.warn(`⚠ ${segs.length} segment > ${workers.length} worker: bazı worker'lar 2. segmenti sıraya alır (aynı repo/ref kuyruklanır) — yine de her segment limit altında biter, sadece o worker'da seri.`);
+  }
+
+  const curBranch = execSync("git rev-parse --abbrev-ref HEAD", { encoding: "utf8" }).trim();
+  const pushed = new Set();
+  const state = { slug, composition, totalFrames, segments: [] };
+
+  for (const sg of segs) {
+    const worker = workers[(sg.seg - 1) % workers.length];
+    const remote = worker.remoteName || `render-worker-${(sg.seg - 1) % workers.length + 1}`;
+    const branch = worker.branch || "god-mode";
+    if (!pushed.has(remote)) {
+      console.log(`\n↑ Kod push → ${worker.username}/${worker.repo} (${remote}/${branch})`);
+      try {
+        execSync(`git push ${remote} ${curBranch}:${branch} --force`, { cwd: ROOT, stdio: "inherit", env: { ...process.env, GIT_TERMINAL_PROMPT: "0", GCM_INTERACTIVE: "never" } });
+      } catch (e) { console.warn(`⚠ push: ${e.message}`); }
+      pushed.add(remote);
+    }
+    const payload = JSON.stringify({ ref: branch, inputs: {
+      slug, composition, chunk_size: String(chunkSize), concurrency: String(args.concurrency || 2),
+      frames: `${sg.start}-${sg.end}`, seg: String(sg.seg),
+    } });
+    const r = await new Promise((resolve) => {
+      const rq = https.default.request({
+        hostname: "api.github.com",
+        path: `/repos/${worker.username}/${worker.repo}/actions/workflows/render-video.yml/dispatches`,
+        method: "POST",
+        headers: { "User-Agent": "Remotion-Render-Orchestrator", Authorization: `Bearer ${worker.token}`, Accept: "application/vnd.github.v3+json", "Content-Type": "application/json", "Content-Length": Buffer.byteLength(payload) },
+      }, (res) => { let b = ""; res.on("data", (d) => (b += d)); res.on("end", () => resolve({ code: res.statusCode, b })); });
+      rq.on("error", (e) => resolve({ code: 0, b: e.message }));
+      rq.write(payload); rq.end();
+    });
+    console.log(`  seg${sg.seg} [${sg.start}-${sg.end}] → @${worker.username}: HTTP ${r.code}${r.code === 204 ? " ✓" : " " + r.b}`);
+    state.segments.push({ seg: sg.seg, start: sg.start, end: sg.end, workerId: worker.id, username: worker.username, repo: worker.repo });
+  }
+
+  fs.writeFileSync(path.join(ROOT, ".render-github-split.json"), JSON.stringify(state, null, 2) + "\n");
+  console.log(`\n🚀 ${segs.length} segment paralel render'da. Canlı: her worker'ın Actions sekmesi.`);
+  console.log(`   Bitince indir + birleştir + doğrula:\n   node scripts/render-github-assemble.js --slug=${slug}`);
+}
+
 // ═════════════════════════════════════════════════════════════════════════════
 // 3. GITHUB ACTIONS RENDERING (MULTI-WORKER SUPPORT)
 // ═════════════════════════════════════════════════════════════════════════════
@@ -350,6 +410,18 @@ async function runGithubActionsRender() {
       process.exit(1);
     }
   }
+  // AUTO-SPLIT: one GitHub Actions job hard-caps at 6h, so a long video (a full
+  // Vox book ≈ 36 min ≈ 65k frames ≈ ~7h render) can NEVER finish in a single job
+  // and gets force-cancelled with no artifact. Split it into worker-sized frame
+  // segments (each safely under the cap), dispatch them in PARALLEL across the pool
+  // (one per worker → separate repos → truly parallel), then assemble locally.
+  // Small videos and explicit --frames skip this and use the single-job path.
+  const SAFE_MAX_FRAMES = Number(args["seg-frames"] || 42000); // ~245min render @2.33min/400f + margin
+  if (totalFrames > SAFE_MAX_FRAMES && !args.frames && !args["no-split"]) {
+    await dispatchSplit(SAFE_MAX_FRAMES);
+    return;
+  }
+
   console.log(`[GITHUB ACTIONS] Render Worker aranıyor...`);
 
   const accountsFile = path.join(ROOT, "render-accounts.json");
