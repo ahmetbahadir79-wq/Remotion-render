@@ -28,6 +28,24 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-02 — vox-onscreen — GitHub render: auto-split long videos + git-aware preflight
+- **Why:** a full Vox book (~65k frames ≈ ~7h render) can't finish in one GitHub
+  Actions job (6h hard cap) → force-cancelled, no artifact (hit on martyr).
+- **What:** (1) `render.js --method=github` now AUTO-SPLITS when totalFrames >
+  ~42k: even frame-segments, one per worker (parallel across repos), records
+  `.render-github-split.json`. Override: `--seg-frames=N`, `--no-split`.
+  (2) `render-video.yml` gained `frames` + `seg` inputs (backward-compatible: empty
+  = full render as before); segment output labeled `<slug>-seg<k>.mp4`, artifact
+  `video-<slug>-seg<k>`. (3) NEW `render-github-assemble.js` downloads every segment,
+  verifies each, concats in frame order → `out/<slug>.mp4`, decode-verifies.
+  (4) git-aware `verify-render-assets.js` gates dispatch (asset committed, not just
+  on disk — the untracked shared BG PNG 404'd the first martyr render).
+- **Files:** `scripts/render.js`, `.github/workflows/render-video.yml`,
+  `scripts/render-github-assemble.js`, `scripts/verify-render-assets.js`.
+- **Coordination:** touches the shared `render-video.yml` (worker-orchestrator's) —
+  additive only. Single-job path unchanged for short videos / `--frames`.
+- **Status:** landed locally. martyr re-dispatched as 2 segments (~192min each).
+
 ### 2026-09-02 — antidote-pipeline — origin/god-mode overwritten with the clean tree
 - **What:** local `god-mode` (worker-orchestrator's clean orphan deploy tree, 252 files)
   and `origin/god-mode` (old history, 1262 files) had **NO common ancestor**. The extra
