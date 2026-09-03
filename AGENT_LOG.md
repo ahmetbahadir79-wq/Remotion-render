@@ -28,6 +28,53 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-03 — motion-rate — VISUAL EVENT RATE: sub-beat clock (Vox) + ambient motion (Antidote)
+- **Why:** benchmarked both engines against the reference channels (Vox tier: Johnny Harris,
+  Vox/Missing Chapter; Antidote tier: The School of Life, Kurzgesagt). Measured gap was NOT
+  style — it was **visual event frequency**. `the-color-purple`: 337 beats / 44min, median
+  beat 8.0s, but every archetype fired all of its reveals inside frames 2-36 and then held a
+  frozen frame for ~7s. `all-the-bright-places`: 115 scenes / 29min = ~15s of screen time each,
+  with motifs perfectly static after their draw-in. Reference band is a visual event every
+  ~1.5-2.5s.
+- **VOX — sub-beat event clock (no extra cuts; cuts are bounded by the narration):**
+  - `plan-vox.js` now emits `beat.props.anchors[]` — frames RELATIVE to the beat start at
+    which each on-screen word is actually SPOKEN (searched in the global word stream, same
+    machinery as the existing scene-level SYNC), then PADS the list with up to 3 "late pulses"
+    on content words spoken later in the beat (`PULSE_GAP` 2.2s), because the beat's own
+    fromFrame is already synced to its primary emphasis word so words #1/#2 otherwise cluster
+    in the first second. `null` = word not found → renderer falls back to the old cadence.
+  - `src/engines/vox/shared.tsx`: new `beatAnchors(beat, count, base, step)` helper (clamped to
+    leave 26f of read time). `Scene` gained a real camera — a continuous zoom drift over the
+    whole beat (direction seeded per beat) plus a sharp punch-in on EVERY anchor.
+  - `scenes.tsx`: statement / list / quote / stat / imagefocus / punchline read their reveal
+    frames from `beatAnchors` instead of `10 + i*9`. New `HighlightChip` — the red slab behind
+    a hot statement word now wipes open ON the word's anchor (a statically-mounted box sat on
+    screen empty for seconds once reveals moved later).
+  - **Measured on `educated` (40.9 min):** visual events/beat 1 → **5.06**; median gap between
+    events **8s of dead air → 1.50s**; p90 gap 8.17s → 2.97s; 312 → **1578 events**. Re-plan is
+    byte-identical to the previous config except for the added `anchors` (verified).
+- **ANTIDOTE — nothing on screen is ever frozen:**
+  - `movements.ts`: new `ambient(seed, frame, amp)` — endless deterministic float (three
+    mutually-prime sine periods, phase-offset by seed so nothing pulses in lockstep).
+  - `components/Scene.tsx`: every motif wrapped in the ambient float. NOTE the wrapper is
+    `position:absolute; inset:0` — a transformed wrapper becomes the containing block for the
+    motif's absolute left/top, so a bare `<div>` would snap every prop to the top-left.
+  - `components/Backdrop.tsx`: each parallax depth layer drifts on its own slow cycle, so a
+    locked-off camera no longer freezes the whole set. Far layer moves most.
+  - `plan-antidote.js`: `SCENE_SECS` default **11 → 6.5** (reference band). Affects NEW plans
+    only; existing `config.antidote.json` files are untouched until re-planned.
+- **Render cost:** ~zero. All of it is CSS transforms / existing springs; no new assets, no 3D.
+  The rigs already breathed (bob/blink/gaze) — that was NOT the gap; the props and set were.
+- **Files:** `scripts/plan-vox.js`, `scripts/plan-antidote.js`, `src/engines/vox/{schema.ts,
+  shared.tsx,scenes.tsx}`, `src/engines/antidote/{movements.ts,CastSheet.tsx,
+  components/Scene.tsx,components/Backdrop.tsx}`, `books/educated/config.vox.json` (re-planned).
+- **Also fixed:** `CastSheet.tsx` STILL pose was missing `blink`/`gazeX` (pre-existing tsc error).
+- **Known defect found, NOT fixed:** Antidote `KineticText` can overflow into the reserved
+  caption band (`Antidote-all-the-bright-places` f44630: "MARK" sits behind the subtitle box).
+  Systemic layout bug, own change.
+- **Status:** landed locally, `src/` typechecks clean, verified by stills on `Vox-educated`
+  (f276/300/470) and `Antidote-all-the-bright-places` (f44630/44800). Not committed.
+
 ### 2026-09-03 — vox-onscreen — render-purge.js (per-book disk reclaim, final step)
 - **What:** `scripts/render-purge.js --slug=<slug>` — the pipeline's final step after a
   book is rendered + uploaded. SLUG-SCOPED (never touches shared out/ wholesale or other

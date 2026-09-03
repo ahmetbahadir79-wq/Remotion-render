@@ -258,15 +258,21 @@ export const Backdrop: React.FC<{ bg: BgSpec; cam: { x: number; y: number; scale
             const zoomAmt = Math.max(0, cam.scale - 1); // 0 at rest, grows with zoom
             const farBlur = Math.min(6, zoomAmt * 18);    // up to 6px
             const midBlur = Math.min(2.5, zoomAmt * 7);   // up to 2.5px
+            // AMBIENT PARALLAX — a camera at rest used to freeze the whole
+            // backdrop. Each depth layer now breathes on its own slow, desynced
+            // cycle, so the set keeps depth even in a locked-off shot. Far layer
+            // moves most (it reads as distance), near layer barely at all.
+            const amb = (period: number, phase: number, px: number) =>
+              Math.sin((frame / period) * Math.PI * 2 + phase) * px;
             return (
               <>
-                <Layer dx={cam.x * 0.22} dy={cam.y * 0.22} dz={1 + (cam.scale - 1) * 0.25} blur={farBlur}>
+                <Layer dx={cam.x * 0.22 + amb(263, 0, 14)} dy={cam.y * 0.22 + amb(197, 1.1, 8)} dz={1 + (cam.scale - 1) * 0.25} blur={farBlur}>
                   {React.createElement(layers[0], { ink, accent, frame })}
                 </Layer>
-                <Layer dx={cam.x * 0.55} dy={cam.y * 0.55} dz={1 + (cam.scale - 1) * 0.6} blur={midBlur}>
+                <Layer dx={cam.x * 0.55 + amb(211, 2.3, 8)} dy={cam.y * 0.55 + amb(179, 0.4, 5)} dz={1 + (cam.scale - 1) * 0.6} blur={midBlur}>
                   {React.createElement(layers[1], { ink, accent, frame })}
                 </Layer>
-                <Layer dx={cam.x * 0.88} dy={cam.y * 0.88} dz={1 + (cam.scale - 1) * 0.9}>
+                <Layer dx={cam.x * 0.88 + amb(307, 4.1, 4)} dy={cam.y * 0.88 + amb(233, 3.0, 3)} dz={1 + (cam.scale - 1) * 0.9}>
                   {React.createElement(layers[2], { ink, accent, frame })}
                 </Layer>
               </>

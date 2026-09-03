@@ -469,6 +469,64 @@ function imagePrompt(subject, style) {
     const next = i + 1 < finalBeats.length ? finalBeats[i + 1].fromFrame : b.fromFrame + b.durationFrames;
     b.durationFrames = Math.max(FPS, next - b.fromFrame);
   });
+
+  // ── SUB-BEAT EVENT CLOCK ───────────────────────────────────────────────────
+  // A beat is ~8s but every archetype used to fire all of its reveals inside the
+  // first ~1.3s and then hold a frozen frame for the remaining 7s. That dead air
+  // is the gap between this engine and the reference channels (Harris/Vox cut or
+  // change something every ~2s).
+  //
+  // We do NOT cut more — cutting is bounded by the narration. Instead each of a
+  // beat's on-screen words gets its OWN anchor: the frame at which that word is
+  // actually spoken. The renderer (beatAnchors in src/engines/vox/shared.tsx)
+  // reveals word i at anchors[i] and the camera punches there, so one 8s beat
+  // becomes 2-4 spread visual events. `null` = word not found in the audio →
+  // the renderer falls back to its original fixed cadence for that slot.
+  const SUB_LEAD = 0.1;   // s of lead so the reveal lands ON the word, not after
+  const SUB_GAP = Math.round(0.4 * FPS); // never stack two events on top of each other
+  finalBeats.forEach((b) => {
+    const onScreen = (b.props.items && b.props.items.length ? b.props.items
+      : b.props.emphasis && b.props.emphasis.length ? b.props.emphasis
+      : (b.props.keywords || []).map((k) => String(k).toUpperCase())).slice(0, 4);
+    if (!onScreen.length) return;
+    const startT = b.fromFrame / FPS - OFFSET;              // back into VTT time
+    const endT = (b.fromFrame + b.durationFrames) / FPS - OFFSET;
+    let cursor = startT;
+    let lastFrame = -SUB_GAP;
+    const anchors = onScreen.map((phrase) => {
+      const toks = tokenize([phrase]);
+      const t = toks.length ? firstSpokenAfter(toks, cursor, endT) : null;
+      if (t == null) return null;
+      cursor = t + 0.05;                                     // keep them in order
+      const f = Math.round((t - SUB_LEAD - startT) * FPS);
+      const clamped = Math.max(0, Math.max(f, lastFrame + SUB_GAP));
+      lastFrame = clamped;
+      return clamped;
+    });
+    // ── LATE PULSES ────────────────────────────────────────────────────────
+    // The word anchors alone cluster at the head of the beat: the beat's own
+    // fromFrame is already synced to its primary emphasis word, so word #2 is
+    // usually spoken right behind word #1 and the back 5-7s stays dead.
+    // So we PAD the clock with extra beats-of-attention on content words spoken
+    // later in the beat. Archetypes only read anchors[0..n-1] for their word
+    // reveals, so these extras are consumed by the Scene camera (a punch-in)
+    // and by any trailing element (a marker underline) — which is exactly the
+    // late visual event the reference channels put there.
+    const PULSE_GAP = 2.2; // s — a beat of attention roughly every 2s, Harris-rate
+    let pulseFrom = (anchors.filter((a) => a != null).slice(-1)[0] ?? 0) / FPS + startT;
+    const pulses = [];
+    for (const wd of words) {
+      if (wd.t <= pulseFrom + PULSE_GAP) continue;
+      if (wd.t > endT - 0.9) break;                    // nothing right before the cut
+      if (CLEAN(wd.w).length < 4) continue;            // skip filler; land on a real word
+      pulses.push(Math.round((wd.t - SUB_LEAD - startT) * FPS));
+      pulseFrom = wd.t;
+      if (pulses.length >= 3) break;                   // 4 events max per beat
+    }
+    const full = [...anchors, ...pulses];
+    // all-null adds nothing; keep the config clean
+    if (full.some((a) => a != null)) b.props.anchors = full;
+  });
   // captions keep word-accurate timing; only shifted by the global sync offset
   const offFrames = Math.round(OFFSET * FPS);
   if (offFrames) {

@@ -43,6 +43,30 @@ export function enter(anim: EnterAnim, frame: number, fps: number, delay = 0): T
 // gentle idle bob — every character breathes so nothing looks frozen
 export const bob = (frame: number, amp = 6, period = 90) => Math.sin((frame / period) * Math.PI * 2) * amp;
 
+// ── AMBIENT — the "nothing on screen is ever frozen" rule ───────────────────
+/**
+ * ambient(seed, frame) — a slow, endless, deterministic float applied to props
+ * and backdrop layers.
+ *
+ * The rigs already breathe (bob/blink/gaze), but every MOTIF sat perfectly
+ * still once its draw-in finished, which is what made a 7-15s scene read as a
+ * slide with a person pasted on it. Kurzgesagt's real trick is not fast cuts —
+ * it is that no element is ever static. This is that, for ~0 CPU: two sines
+ * and a cosine per element, desynced by `seed` so nothing pulses in lockstep.
+ *
+ * Periods are mutually prime-ish (211/173/307 frames ≈ 7/5.8/10s at 30fps) so
+ * the combined motion never visibly loops inside a scene.
+ */
+export function ambient(seed: number, frame: number, amp = 1): { ty: number; tx: number; rotate: number; scale: number } {
+  const p = seed * Math.PI * 2; // phase offset — element `seed` is its index/id hash
+  return {
+    ty: Math.sin((frame / 211) * Math.PI * 2 + p) * 9 * amp,
+    tx: Math.cos((frame / 307) * Math.PI * 2 + p * 1.7) * 5 * amp,
+    rotate: Math.sin((frame / 173) * Math.PI * 2 + p * 0.6) * 0.9 * amp,
+    scale: 1 + Math.sin((frame / 251) * Math.PI * 2 + p * 1.3) * 0.012 * amp,
+  };
+}
+
 // ── CHARACTER RIG poses — return part transforms the rig applies ─────────────
 export type Pose = {
   lean: number; // torso rotate deg

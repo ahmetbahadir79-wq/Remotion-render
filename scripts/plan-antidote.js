@@ -38,7 +38,12 @@ const GENRE = (args.genre || "psychology").toLowerCase();
 const SLUG = args.slug || slugify(TITLE);
 const VTT = args.vtt || rel.vtt(SLUG);
 const UNTIL = args.until ? parseFloat(args.until) : Infinity;
-const SCENE_SECS = args["scene-secs"] ? parseFloat(args["scene-secs"]) : 11;
+// Scene tempo. Was 11s -> ~115 scenes for a 29-min book (~15s of screen time
+// each once durations run to the next scene's start), which is roughly double
+// the reference channels (School of Life ~5-8s, Kurzgesagt ~3-5s). 6.5s lands
+// in that band while still breaking on sentence ends. Antidote scenes are pure
+// 2D SVG/CSS, so ~2x the scene count costs almost nothing to render.
+const SCENE_SECS = args["scene-secs"] ? parseFloat(args["scene-secs"]) : 6.5;
 // Claude handoff, mirroring plan-vox's --emit-beats/--designs pair:
 //   --emit-beats=<file>  dump every beat (narration + shot + heuristic callout) and exit
 //   --callouts=<file>    consume that file after Claude has rewritten the callouts

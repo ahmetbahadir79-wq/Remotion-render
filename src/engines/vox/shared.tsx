@@ -13,6 +13,29 @@ import type { Beat } from "./schema";
 import { PAPER, INK, RED, HEADLINE, SERIF, CAPTION_BAND, hash } from "./palette";
 import { AccentBurst } from "./backgrounds";
 
+/**
+ * beatAnchors — the sub-beat event clock for an archetype.
+ *
+ * Returns `count` start-frames for a scene's on-screen words. When the planner
+ * supplied `props.anchors` (frames at which each word is actually SPOKEN) those
+ * win, so the reveal lands on the word — Johnny-Harris style — instead of the
+ * whole scene firing inside its first second and then holding dead for 7s.
+ * Without anchors it falls back to the original fixed cadence, so pre-existing
+ * configs render exactly as before.
+ *
+ * Anchors are clamped to leave `HOLD` frames of read time before the cut.
+ */
+const HOLD = 26; // a word must stay up this long or it just flashes
+export function beatAnchors(beat: Beat, count: number, base: number, step: number): number[] {
+  const a = beat.props.anchors;
+  const latest = Math.max(base, beat.durationFrames - HOLD);
+  return Array.from({ length: count }, (_, i) => {
+    const fallback = base + i * step;
+    const v = a && Number.isFinite(a[i]) ? (a[i] as number) : fallback;
+    return Math.min(Math.max(0, Math.round(v)), latest);
+  });
+}
+
 export const KineticWords: React.FC<{
   text: string; startFrame: number; perWord?: number; fontSize: number; color?: string; fontFamily?: string;
   weight?: number | string; letterSpacing?: number; align?: "left" | "center"; maxWidth?: number; italic?: boolean; uppercase?: boolean;
@@ -111,8 +134,25 @@ export const Scene: React.FC<{ beat: Beat; children: React.ReactNode; accent?: b
   const outOp = interpolate(frame, [beat.durationFrames - 8, beat.durationFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const inY = interpolate(frame, [0, 10], [26, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
   const driftY = Math.sin(frame / 46 + seed * 6) * 4;
+  // ── CAMERA ────────────────────────────────────────────────────────────────
+  // A slow, continuous push across the whole beat (nothing on screen is ever
+  // truly still) plus a sharp punch-in on each spoken anchor word. Static
+  // scenes were the single biggest reason an 8s beat felt like a slide.
+  const dir = seed > 0.5 ? 1 : -1; // half the scenes push in, half pull out
+  const zoom = interpolate(frame, [0, Math.max(1, beat.durationFrames)], dir > 0 ? [1, 1.035] : [1.035, 1], {
+    extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.ease),
+  });
+  const driftX = Math.sin(frame / 62 + seed * 3) * 5;
+  const punchAt = beat.props.anchors && beat.props.anchors.length ? beat.props.anchors : [10];
+  let punch = 0;
+  for (const at of punchAt) {
+    const d = frame - at;
+    if (d >= 0 && d <= 18) {
+      punch += interpolate(d, [0, 3, 18], [0, 0.022, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
+    }
+  }
   return (
-    <AbsoluteFill style={{ opacity: Math.min(inOp, outOp), transform: `translateY(${inY + driftY}px)` }}>
+    <AbsoluteFill style={{ opacity: Math.min(inOp, outOp), transform: `translate(${driftX}px, ${inY + driftY}px) scale(${zoom + punch})`, transformOrigin: "center" }}>
       {bleed}
       {accent ? <AccentBurst seed={seed} x={35 + seed * 30} y={44} /> : null}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: CAPTION_BAND, paddingInline: 130, zIndex: 10 }}>{children}</AbsoluteFill>

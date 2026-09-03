@@ -11,7 +11,7 @@ import type { VariantSpec } from "./schema";
  * composition; not part of any book. Add a combo here when you add a wardrobe
  * option, so the range stays visible at a glance.
  */
-const STILL: Pose = { lean: 0, armL: 8, armR: -8, mouth: 0, browY: 0, headY: 0 };
+const STILL: Pose = { lean: 0, armL: 8, armR: -8, mouth: 0, browY: 0, headY: 0, blink: 0, gazeX: 0 };
 
 type Cell = { label: string; v: Partial<VariantSpec> };
 const D: VariantSpec = {

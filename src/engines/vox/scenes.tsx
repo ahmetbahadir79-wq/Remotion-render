@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } fr
 import type { Beat, VImage } from "./schema";
 import { INK, RED, PAPER, HEADLINE, SERIF, hash } from "./palette";
 import { AccentBurst } from "./backgrounds";
-import { Scene, KineticWords, MarkerUnderline, KickerChip, Cutout, HalftoneCard, BackdropImg } from "./shared";
+import { Scene, KineticWords, MarkerUnderline, KickerChip, Cutout, HalftoneCard, BackdropImg, beatAnchors } from "./shared";
 
 const TitleScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const { title, author, kicker } = beat.props;
@@ -23,11 +23,31 @@ const TitleScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   );
 };
 
+/**
+ * HighlightChip — the red slab behind a hot statement word. It wipes open from
+ * the left on the word's own anchor frame so the box and the text arrive
+ * together (see beatAnchors).
+ */
+const HighlightChip: React.FC<{ startFrame: number; children: React.ReactNode }> = ({ startFrame, children }) => {
+  const frame = useCurrentFrame();
+  const p = interpolate(frame, [startFrame, startFrame + 9], [0, 1], {
+    extrapolateLeft: "clamp", extrapolateRight: "clamp",
+  });
+  return (
+    <div style={{ position: "relative", padding: "4px 22px", transform: "rotate(-1.5deg)" }}>
+      <div aria-hidden style={{ position: "absolute", inset: 0, background: RED, boxShadow: `10px 10px 0 ${INK}`, transformOrigin: "left center", transform: `scaleX(${p})` }} />
+      <div style={{ position: "relative" }}>{children}</div>
+    </div>
+  );
+};
+
 const StatementScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const words = (beat.props.emphasis.length ? beat.props.emphasis : beat.props.keywords.map((k) => k.toUpperCase())).slice(0, 3);
   const size = words.length >= 3 ? 116 : 148;
   const seed = hash(beat.id);
   const variant = Math.floor(hash(beat.id + "s") * 3);
+  // Each emphasis word appears when it is actually spoken (sub-beat clock).
+  const at = beatAnchors(beat, words.length, 10, 9);
 
   if (variant === 1) {
     const idx = String((Math.floor(seed * 89) % 9) + 1).padStart(2, "0");
@@ -39,9 +59,9 @@ const StatementScene: React.FC<{ beat: Beat }> = ({ beat }) => {
           <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 6 }}>
             <KickerChip text={beat.props.kicker || ""} startFrame={2} />
             {words.map((w, i) => (
-              <KineticWords key={i} text={w} startFrame={10 + i * 9} perWord={3} fontSize={size * 0.92} align="left" maxWidth={980} color={i === 1 ? RED : INK} />
+              <KineticWords key={i} text={w} startFrame={at[i]} perWord={3} fontSize={size * 0.92} align="left" maxWidth={980} color={i === 1 ? RED : INK} />
             ))}
-            <MarkerUnderline startFrame={30} width={340} height={16} />
+            <MarkerUnderline startFrame={at[at.length - 1] + 14} width={340} height={16} />
           </div>
         </div>
       </Scene>
@@ -56,11 +76,14 @@ const StatementScene: React.FC<{ beat: Beat }> = ({ beat }) => {
           <KickerChip text={beat.props.kicker || ""} startFrame={2} align="center" />
           {words.map((w, i) =>
             i === hot ? (
-              <div key={i} style={{ background: RED, padding: "4px 22px", boxShadow: `10px 10px 0 ${INK}`, transform: "rotate(-1.5deg)" }}>
-                <KineticWords text={w} startFrame={10 + i * 9} perWord={3} fontSize={size * 0.96} color={PAPER} />
-              </div>
+              // The chip is painted with its word, not before it: once reveals
+              // are word-anchored a statically-mounted box would sit on screen
+              // empty for seconds before its text arrives.
+              <HighlightChip key={i} startFrame={at[i]}>
+                <KineticWords text={w} startFrame={at[i]} perWord={3} fontSize={size * 0.96} color={PAPER} />
+              </HighlightChip>
             ) : (
-              <KineticWords key={i} text={w} startFrame={10 + i * 9} perWord={3} fontSize={size} color={INK} />
+              <KineticWords key={i} text={w} startFrame={at[i]} perWord={3} fontSize={size} color={INK} />
             ),
           )}
         </div>
@@ -74,8 +97,8 @@ const StatementScene: React.FC<{ beat: Beat }> = ({ beat }) => {
         <KickerChip text={beat.props.kicker || ""} startFrame={2} align="center" />
         {words.map((w, i) => (
           <div key={i} style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <KineticWords text={w} startFrame={10 + i * 9} perWord={3} fontSize={size} color={i === 1 ? RED : INK} />
-            {i === Math.min(1, words.length - 1) ? <MarkerUnderline startFrame={10 + i * 9 + 16} width={w.length * size * 0.5} height={18} /> : null}
+            <KineticWords text={w} startFrame={at[i]} perWord={3} fontSize={size} color={i === 1 ? RED : INK} />
+            {i === Math.min(1, words.length - 1) ? <MarkerUnderline startFrame={at[i] + 16} width={w.length * size * 0.5} height={18} /> : null}
           </div>
         ))}
       </div>
@@ -101,11 +124,13 @@ const ListItem: React.FC<{ label: string; startFrame: number; index: number }> =
 };
 const ListScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const items = (beat.props.items?.length ? beat.props.items : beat.props.keywords.map((k) => k.toUpperCase())).slice(0, 4);
+  // list rows land on the item word — a 4-item list now spans the beat
+  const at = beatAnchors(beat, items.length, 22, 15);
   return (
     <Scene beat={beat}>
       <div style={{ display: "flex", flexDirection: "column", gap: 24, alignItems: "flex-start" }}>
         <KickerChip text={beat.props.kicker || "A MASTERCLASS IN"} startFrame={2} />
-        {items.map((label, i) => <ListItem key={i} label={label} startFrame={22 + i * 15} index={i} />)}
+        {items.map((label, i) => <ListItem key={i} label={label} startFrame={at[i]} index={i} />)}
       </div>
     </Scene>
   );
@@ -113,12 +138,13 @@ const ListScene: React.FC<{ beat: Beat }> = ({ beat }) => {
 
 const QuoteScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const phrase = beat.props.emphasis.join(" ") || beat.props.keywords.slice(0, 2).join(" ").toUpperCase();
+  const at = beatAnchors(beat, 1, 8, 0);
   return (
     <Scene beat={beat}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14, maxWidth: 1300 }}>
         <div style={{ fontFamily: SERIF, fontSize: 220, color: RED, lineHeight: 0.4, height: 92 }}>&quot;</div>
-        <KineticWords text={phrase} startFrame={8} perWord={5} fontSize={92} fontFamily={SERIF} weight={700} italic uppercase={false} color={INK} />
-        <MarkerUnderline startFrame={30} width={360} height={12} />
+        <KineticWords text={phrase} startFrame={at[0]} perWord={5} fontSize={92} fontFamily={SERIF} weight={700} italic uppercase={false} color={INK} />
+        <MarkerUnderline startFrame={at[0] + 22} width={360} height={12} />
       </div>
     </Scene>
   );
@@ -128,12 +154,13 @@ const StatScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const m = beat.props.text.match(/\$?\d[\d,\.]*\s?(%|percent|million|billion|trillion|k)?/i);
   const num = m ? m[0].trim() : beat.props.emphasis[0] || "";
   const label = beat.props.emphasis.filter((e) => !/\d/.test(e)).slice(0, 2).join(" ") || beat.props.keywords[0]?.toUpperCase() || "";
+  const at = beatAnchors(beat, 2, 4, 22);
   return (
     <Scene beat={beat}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-        <KineticWords text={num} startFrame={4} perWord={2} fontSize={230} color={RED} uppercase={false} />
-        <MarkerUnderline startFrame={20} width={520} height={20} />
-        <KineticWords text={label} startFrame={26} perWord={3} fontSize={52} color={INK} />
+        <KineticWords text={num} startFrame={at[0]} perWord={2} fontSize={230} color={RED} uppercase={false} />
+        <MarkerUnderline startFrame={at[0] + 16} width={520} height={20} />
+        <KineticWords text={label} startFrame={at[1]} perWord={3} fontSize={52} color={INK} />
       </div>
     </Scene>
   );
@@ -145,6 +172,9 @@ const ImageFocusScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const seed = hash(beat.id);
   const cut = img && img.style === "cutout" && img.cut ? img.cut : null;
   const variant = img ? Math.floor(hash(beat.id + "v") * 3) : -1;
+  // imagefocus is 45%+ of a book's beats: the image lands early, the label
+  // lands on its spoken word, the underline draws after it. Three events.
+  const at = beatAnchors(beat, 2, 16, 18);
 
   if (variant === 1) {
     return (
@@ -160,8 +190,8 @@ const ImageFocusScene: React.FC<{ beat: Beat }> = ({ beat }) => {
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "flex-start", width: "100%", maxWidth: 1400 }}>
           <KickerChip text={beat.props.kicker || ""} startFrame={10} />
-          <KineticWords text={label} startFrame={16} perWord={4} fontSize={110} align="left" maxWidth={1100} color={PAPER} />
-          <MarkerUnderline startFrame={34} width={360} height={16} />
+          <KineticWords text={label} startFrame={at[0]} perWord={4} fontSize={110} align="left" maxWidth={1100} color={PAPER} />
+          <MarkerUnderline startFrame={at[1]} width={360} height={16} />
         </div>
       </Scene>
     );
@@ -171,7 +201,7 @@ const ImageFocusScene: React.FC<{ beat: Beat }> = ({ beat }) => {
     return (
       <Scene beat={beat} accent>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12, zIndex: 12 }}>
-          <KineticWords text={label} startFrame={16} perWord={3} fontSize={92} color={INK} />
+          <KineticWords text={label} startFrame={at[0]} perWord={3} fontSize={92} color={INK} />
           {cut ? <Cutout asset={cut} startFrame={4} height={560} /> : <HalftoneCard asset={img!.path} keyword={beat.props.keywords[0]?.toUpperCase()} startFrame={4} width={780} height={460} />}
         </div>
       </Scene>
@@ -187,8 +217,8 @@ const ImageFocusScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const text = (
     <div style={{ display: "flex", flexDirection: "column", gap: 14, maxWidth: 560, paddingBottom: 20 }}>
       <KickerChip text={beat.props.kicker || ""} startFrame={12} />
-      <KineticWords text={label} startFrame={20} perWord={4} fontSize={86} align="left" maxWidth={560} />
-      <MarkerUnderline startFrame={36} width={320} height={16} />
+      <KineticWords text={label} startFrame={at[0]} perWord={4} fontSize={86} align="left" maxWidth={560} />
+      <MarkerUnderline startFrame={at[1]} width={320} height={16} />
     </div>
   );
   return (
@@ -227,12 +257,13 @@ const CompareScene: React.FC<{ beat: Beat }> = ({ beat }) => {
 const PunchlineScene: React.FC<{ beat: Beat }> = ({ beat }) => {
   const frame = useCurrentFrame();
   const words = (beat.props.emphasis.length ? beat.props.emphasis : beat.props.keywords.map((k) => k.toUpperCase())).slice(0, 3);
+  const at = beatAnchors(beat, words.length, 8, 12);
   const vig = interpolate(frame, [30, 80], [0, 0.45], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <Scene beat={beat} accent={false}>
       <AccentBurst seed={0.7} x={50} y={46} />
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6, zIndex: 12 }}>
-        {words.map((w, i) => <KineticWords key={i} text={w} startFrame={8 + i * 12} perWord={3} fontSize={150} color={i === words.length - 1 ? RED : INK} />)}
+        {words.map((w, i) => <KineticWords key={i} text={w} startFrame={at[i]} perWord={3} fontSize={150} color={i === words.length - 1 ? RED : INK} />)}
       </div>
       <AbsoluteFill style={{ pointerEvents: "none", boxShadow: `inset 0 0 480px rgba(20,15,10,${vig})`, zIndex: 40 }} />
     </Scene>
