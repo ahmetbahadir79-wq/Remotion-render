@@ -350,11 +350,14 @@ async function dispatchSplit(safeMax) {
   const workers = (accounts.workers || []).filter((w) => w.active !== false && w.token);
   if (!workers.length) { console.error("❌ Aktif Render Worker yok (render-accounts.json)."); process.exit(1); }
 
-  // segment count: explicit --segments=N (or =pool = one per worker), else by size.
+  // segment count: default to all active pool workers (maximizing parallel speed)
   let numSeg;
-  if (args.segments === "pool" || args.segments === "auto") numSeg = workers.length;
-  else if (args.segments) numSeg = Math.max(1, Math.min(Number(args.segments), Math.ceil(totalFrames / 4000)));
-  else numSeg = Math.ceil(totalFrames / safeMax);
+  if (args.segments && args.segments !== "pool" && args.segments !== "auto") {
+    numSeg = Math.max(1, Math.min(Number(args.segments), Math.ceil(totalFrames / 4000)));
+  } else {
+    // Varsayılan: Poolda kaç aktif worker varsa hepsine böl (tam paralel)
+    numSeg = Math.min(workers.length, Math.max(1, Math.ceil(totalFrames / 4000)));
+  }
   const per = Math.ceil(totalFrames / numSeg);
   const segs = [];
   for (let i = 0; i < numSeg; i++) {
@@ -362,7 +365,7 @@ async function dispatchSplit(safeMax) {
     if (s <= e) segs.push({ seg: i + 1, start: s, end: e });
   }
 
-  console.log(`\n🎬 UZUN VIDEO (${totalFrames} frame > ${safeMax}) → ${segs.length} segment (her biri 6s limitin altında), ${workers.length} worker'a paralel dağıtılıyor.`);
+  console.log(`\n🎬 VIDEO (${totalFrames} frame) → ${segs.length} segment, ${workers.length} worker havuzuna tam paralel dağıtılıyor.`);
   if (segs.length > workers.length) {
     console.warn(`⚠ ${segs.length} segment > ${workers.length} worker: bazı worker'lar 2. segmenti sıraya alır (aynı repo/ref kuyruklanır) — yine de her segment limit altında biter, sadece o worker'da seri.`);
   }
@@ -485,7 +488,7 @@ async function runGithubActionsRender() {
   // smaller default segment (~1.3h each) means more parallel jobs finish sooner.
   // --seg-frames=N tunes the size; --segments=N (or =pool) forces the split count.
   const SAFE_MAX_FRAMES = Number(args["seg-frames"] || 24000); // ~1.3h render @~1.5min/400f
-  if ((totalFrames > SAFE_MAX_FRAMES || args.segments) && !args.frames && !args["no-split"]) {
+  if ((totalFrames > 4000 || args.segments) && !args.frames && !args["no-split"]) {
     await dispatchSplit(SAFE_MAX_FRAMES);
     return;
   }
