@@ -28,6 +28,23 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-03 — vox-onscreen — worker repos PUBLIC + faster split defaults
+- **What:** (1) All 3 worker repos flipped PRIVATE→PUBLIC (via API) → GitHub-hosted
+  standard-runner Actions minutes are now FREE + effectively unlimited (private repos
+  were on the 2000-min/mo quota — the reason the pool spread across accounts). The 6h
+  PER-JOB cap and ~20 concurrent-jobs/account limit still apply, so auto-split + pool
+  stay useful (for speed/parallelism, no longer for minutes). (2) render.js github
+  split tuned for SPEED now that minutes are free: default `--seg-frames` 42000→24000
+  (a full book → 3 parallel ~82min segments, done ~1.5h instead of 2). New knobs:
+  `--segments=N` (force N-way split) and `--segments=pool` (one per worker).
+- **Files:** `scripts/render.js`. Worker repo visibility (GitHub side).
+- **Note:** committed tree scanned clean of secrets before going public (render-accounts.json
+  + .env gitignored; get_mfa_token.js reads env, no hardcoded keys). Only an AWS account
+  id sits in a code comment (low risk).
+- **Throughput:** multiple books can render concurrently (isolated refs + per-slug state
+  make it collision-safe); add accounts to render-accounts.json workers[] + a git remote
+  for more parallel capacity.
+
 ### 2026-09-02 — vox-onscreen — GitHub render: auto-split long videos + git-aware preflight
 - **Why:** a full Vox book (~65k frames ≈ ~7h render) can't finish in one GitHub
   Actions job (6h hard cap) → force-cancelled, no artifact (hit on martyr).

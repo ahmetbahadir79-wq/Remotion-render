@@ -51,6 +51,10 @@ Seçenekler:
   --chunk-size=<sayı>         Her chunk'taki frame sayısı (local için, varsayılan: 400)
   --concurrency=<sayı>        Eşzamanlı render worker sayısı (local için, varsayılan: 4 veya render.concurrency)
   --frames=<başla-bitir>      Belirli frame aralığını render et (örn: 0-1999)
+  --segments=<N|pool>         (github) Videoyu kaç parçaya bölüp worker'lara dağıtsın (pool=worker sayısı)
+  --seg-frames=<N>            (github) Segment başına max frame (varsayılan 24000 ≈ 1.3s); daha küçük = daha hızlı
+  --no-split                  (github) Bölme; tek job'da render et (kısa videolar için)
+  --worker=<id|auto>          (github) Belirli worker seç (varsayılan: round-robin)
   --region=<aws-region>       AWS Lambda region (lambda için, varsayılan: us-east-1)
   --site-name=<site>          Önceden oluşturulmuş lambda site adı
   --help, -h                  Bu yardım mesajını gösterir
@@ -343,7 +347,11 @@ async function dispatchSplit(safeMax) {
   const workers = (accounts.workers || []).filter((w) => w.active !== false && w.token);
   if (!workers.length) { console.error("❌ Aktif Render Worker yok (render-accounts.json)."); process.exit(1); }
 
-  const numSeg = Math.ceil(totalFrames / safeMax);
+  // segment count: explicit --segments=N (or =pool = one per worker), else by size.
+  let numSeg;
+  if (args.segments === "pool" || args.segments === "auto") numSeg = workers.length;
+  else if (args.segments) numSeg = Math.max(1, Math.min(Number(args.segments), Math.ceil(totalFrames / 4000)));
+  else numSeg = Math.ceil(totalFrames / safeMax);
   const per = Math.ceil(totalFrames / numSeg);
   const segs = [];
   for (let i = 0; i < numSeg; i++) {
@@ -419,8 +427,11 @@ async function runGithubActionsRender() {
   // segments (each safely under the cap), dispatch them in PARALLEL across the pool
   // (one per worker → separate repos → truly parallel), then assemble locally.
   // Small videos and explicit --frames skip this and use the single-job path.
-  const SAFE_MAX_FRAMES = Number(args["seg-frames"] || 42000); // ~245min render @2.33min/400f + margin
-  if (totalFrames > SAFE_MAX_FRAMES && !args.frames && !args["no-split"]) {
+  // Public repos → free unlimited minutes, so we optimize for SPEED per video:
+  // smaller default segment (~1.3h each) means more parallel jobs finish sooner.
+  // --seg-frames=N tunes the size; --segments=N (or =pool) forces the split count.
+  const SAFE_MAX_FRAMES = Number(args["seg-frames"] || 24000); // ~1.3h render @~1.5min/400f
+  if ((totalFrames > SAFE_MAX_FRAMES || args.segments) && !args.frames && !args["no-split"]) {
     await dispatchSplit(SAFE_MAX_FRAMES);
     return;
   }
