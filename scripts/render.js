@@ -56,6 +56,8 @@ Seçenekler:
   --no-split                  (github) Bölme; tek job'da render et (kısa videolar için)
   --worker=<id|auto>          (github) Belirli worker seç (varsayılan: round-robin)
   --region=<aws-region>       AWS Lambda region (lambda için, varsayılan: us-east-1)
+  --wait                      (github) Render bitene kadar bekle, otomatik indir + birleştir + doğrula + YouTube-ready check
+  --poll-interval=<sn>        (github --wait) Kaç saniyede bir kontrol et (varsayılan: 15/30)
   --site-name=<site>          Önceden oluşturulmuş lambda site adı
   --help, -h                  Bu yardım mesajını gösterir
 `);
@@ -78,7 +80,6 @@ if (slug && !configFile) {
   const cands = [
     `books/${slug}/config.vox.json`,
     `books/${slug}/config.antidote.json`,
-    `configs/${slug}.json`,
   ];
   for (const c of cands) {
     if (fs.existsSync(path.join(ROOT, c))) {
@@ -241,6 +242,7 @@ function runLocalRender() {
       stdio: "inherit",
     });
     console.log(`\n🎉 [BAŞARILI] Video oluşturuldu: ${finalOutPath}`);
+    runPostRender();
   } catch (err) {
     console.error(`\n❌ FFmpeg concat birleştirme hatası: ${err.message}`);
     process.exit(1);
@@ -330,6 +332,7 @@ function runLambdaRender() {
       stdio: "inherit",
     });
     console.log(`\n🎉 [BAŞARILI] Lambda render tamamlandı: ${finalOutPath}`);
+    runPostRender();
   } else {
     console.log(`\n2. Lambda render başlatılıyor...`);
     const framesFlag = args.frames ? `--frames=${args.frames}` : "";
@@ -402,7 +405,58 @@ async function dispatchSplit(safeMax) {
   fs.writeFileSync(path.join(ROOT, `.render-github-split.${slug}.json`), JSON.stringify(state, null, 2) + "\n");
   fs.writeFileSync(path.join(ROOT, ".render-github-split.json"), JSON.stringify(state, null, 2) + "\n"); // back-comat
   console.log(`\n🚀 ${segs.length} segment paralel render'da. Canlı: her worker'ın Actions sekmesi.`);
-  console.log(`   Bitince indir + birleştir + doğrula:\n   node scripts/render-github-assemble.js --slug=${slug}`);
+
+  if (args.wait) {
+    console.log(`\n⏳ [--wait devrede] Tüm segmentler bitene kadar bekleniyor...`);
+    const pollSec = Number(args["poll-interval"] || 30);
+    const maxMs = 180 * 60 * 1000; // 3 hours
+    const startTime = Date.now();
+    await sleep(15000);
+    const { loadAccounts: la } = require("./lib/render-pool");
+
+    while (Date.now() - startTime < maxMs) {
+      const acc = la();
+      let allDone = true;
+      let anyFailed = false;
+      for (const sg of state.segments) {
+        const w = (acc.workers || []).find((x) => x.id === sg.workerId || x.username === sg.username);
+        if (!w) continue;
+        try {
+          const runs = JSON.parse(require("child_process").execFileSync("gh", [
+            "run", "list", "--repo", `${w.username}/${w.repo}`,
+            "--workflow", "render-video.yml", "-L", "10",
+            "--json", "databaseId,status,conclusion,headBranch",
+          ], { encoding: "utf8", env: { ...process.env, GH_TOKEN: w.token, GITHUB_TOKEN: w.token, NO_COLOR: "1" } }) || "[]");
+          const segRun = runs.find((r) => r.headBranch === sg.ref || r.headBranch === sg.ref.replace("refs/heads/", ""));
+          if (!segRun || segRun.status !== "completed") { allDone = false; }
+          else if (segRun.conclusion !== "success") { anyFailed = true; }
+        } catch { allDone = false; }
+      }
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      const elapsedStr = `${Math.floor(elapsed / 60)}m ${elapsed % 60}s`;
+      if (allDone || anyFailed) {
+        if (anyFailed) {
+          console.error(`\n❌ Bir veya daha fazla segment başarısız oldu (${elapsedStr}).`);
+          process.exit(1);
+        }
+        console.log(`\n✅ Tüm ${state.segments.length} segment tamamlandı (${elapsedStr}).`);
+        console.log(`\n4. Otomatik birleştirme başlatılıyor...`);
+        try {
+          execSync(`node scripts/render-github-assemble.js --slug=${slug}`, { cwd: ROOT, stdio: "inherit" });
+        } catch (e) {
+          console.error(`❌ Birleştirme hatası: ${e.message}`);
+          process.exit(1);
+        }
+        return;
+      }
+      process.stdout.write(`\r⏳ Bekleniyor... (${elapsedStr}) | Segmentler render ediliyor...   `);
+      await sleep(pollSec * 1000);
+    }
+    console.error(`\n⏰ Zaman aşımı (${maxMs / 60000} dk). Manuel birleştir: node scripts/render-github-assemble.js --slug=${slug}`);
+  } else {
+    console.log(`   Bitince indir + birleştir + doğrula:\n   node scripts/render-github-assemble.js --slug=${slug}`);
+    console.log(`   Veya bekle (otomatik): node scripts/render.js --slug=${slug} --method=github --wait`);
+  }
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -571,6 +625,7 @@ async function runGithubActionsRender() {
                       console.log(`\n3. Video indiriliyor (out/${slug}.mp4)...`);
                       try {
                         execSync(`node scripts/render-github-download.js --slug=${slug} --worker=${worker.id}`, { cwd: ROOT, stdio: "inherit" });
+                        runPostRender();
                       } catch (e) {
                         console.warn(`⚠ İndirme uyarısı: ${e.message}`);
                       }
@@ -600,6 +655,15 @@ async function runGithubActionsRender() {
 
   req.write(payload);
   req.end();
+}
+
+function runPostRender() {
+  if (!slug) return;
+  const postScript = path.join(ROOT, "scripts", "post-render.js");
+  if (!fs.existsSync(postScript)) return;
+  try {
+    spawnSync("node", [postScript, `--slug=${slug}`], { cwd: ROOT, stdio: "inherit" });
+  } catch {}
 }
 
 function sleep(ms) {
