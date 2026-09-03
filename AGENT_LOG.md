@@ -28,6 +28,50 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-03 — motion-rate — Vox annotation layer + 5 narrative archetypes; Antidote caption-band fix
+- **Annotation layer (`src/engines/vox/annotations.tsx`, NEW):** the reference channels'
+  signature move is a red marker stroke thrown around the word that matters. `Annotation`
+  draws a seeded hand-wobbled `circle` / `box` / `arrow` / `strike` as one SVG path via
+  `strokeDashoffset`; `annotationFor(beatId)` hands one out to ~1 beat in 3 (every beat
+  would be noise); `Annotated` wraps a callout with it. Wired into `statement` (variants 0
+  and 1) and all three `imagefocus` variants, firing on the beat's first LATE pulse — so it
+  is a genuine second event seconds after the words, not more decoration at frame 10.
+  Geometry is seeded, never random, so chunked renders stay frame-identical at the seams.
+- **5 narrative archetypes (`src/engines/vox/scenes-narrative.tsx`, NEW):** `question`
+  (open loop — oversized serif mark + marker loop), `timeline` (rail whose nodes light on
+  the beat's own anchors), `place` (procedural contour map + dropping pin; costs no Flux
+  image and can't be CONTENT_FILTERED), `duo` (two NAMED subjects held together — the
+  relation `compare` doesn't cover), `reveal` (phrase wiped in behind a marker edge).
+- **Planner routing (`plan-vox.js`):** detectors return the PAYLOAD they found rather than a
+  boolean, and each archetype is fed that payload. **This mattered more than the histogram:**
+  a loose first pass scored better on archetype spread and much worse on screen — "front of
+  the room" became a `place` captioned PROFESSOR, "and then he looks at his children" became
+  a `timeline` whose stops were PSYCHOLOGICAL/TRANSMISSION/HAPPENING. A wrong scene is worse
+  than a repeated one, so the detectors are now strict: questions must END on one (tag
+  questions like "right?" excluded), timelines need real time markers (years/ages, not "and
+  then"), places need a proper noun behind a STRONG locative, and `duoPair` captures whole
+  name phrases. `buildPersonSet()` learns the book's characters from the narration (a person
+  is a grammatical SUBJECT somewhere; a place never is) and rejects them as places — that
+  took place accuracy from ~50% to 10/11 on `educated`.
+- **Monotony breaker now uses a WINDOW:** the planner's natural output is a strict
+  statement/imagefocus alternation, so "is the previous one the same" never fired. Rotation
+  is applied only among `statement`/`reveal`/`quote`, which all render nothing but the beat's
+  emphasis words — swapping between them can never show the wrong thing. Content-dependent
+  archetypes are never chosen this way.
+- **Measured on `educated`:** statement+imagefocus **88% → 70%** of beats; largest single
+  archetype 41% (imagefocus, which has 3 seeded variants). Real variety is still meant to
+  come from Claude-first authoring (`--emit-beats`); these are the `--no-llm` fallback.
+- **Antidote caption-band fix (`components/KineticText.tsx`):** a callout that wrapped to two
+  lines grew down into the reserved subtitle band and read through the box ("SHE LEAVES HER /
+  MARK"). Text can't be measured in Remotion, so instead of estimating the height we changed
+  which edge is pinned: a callout staged below y=640 is BOTTOM-anchored and grows upward.
+  One-line callouts land exactly where they did; extra lines can only move away from the band.
+- **Files:** `src/engines/vox/{annotations.tsx,scenes-narrative.tsx}` (new), `scenes.tsx`,
+  `scripts/plan-vox.js`, `src/engines/antidote/components/KineticText.tsx`, `SKILL.md`,
+  `books/educated/config.vox.json` (re-planned).
+- **Status:** landed locally, `src/` typechecks clean, verified by stills on `Vox-educated`
+  (annotation f6640, place f7610, reveal f1488) and `Antidote-all-the-bright-places` (f44630).
+
 ### 2026-09-03 — motion-rate — VISUAL EVENT RATE: sub-beat clock (Vox) + ambient motion (Antidote)
 - **Why:** benchmarked both engines against the reference channels (Vox tier: Johnny Harris,
   Vox/Missing Chapter; Antidote tier: The School of Life, Kurzgesagt). Measured gap was NOT

@@ -20,6 +20,21 @@ export const ANTIDOTE_FONT = `${fontFamily}, 'Arial Black', Arial, sans-serif`;
 /** Staging is resolved by the shot before it reaches here (see shots.ts). */
 export type ResolvedTextSpec = Omit<TextSpec, "x" | "y" | "size"> & { x: number; y: number; size: number };
 
+/**
+ * The bottom band belongs to the subtitles (CaptionLayer sits at bottom:64 and
+ * can run to three lines). Kinetic copy is centered on its `y`, so a callout
+ * that wrapped to two lines grew straight down into that band and ended up
+ * reading through the subtitle box ("SHE LEAVES HER / MARK").
+ *
+ * Text cannot be measured in Remotion, so rather than guess the block height we
+ * change which edge is pinned: a callout staged LOW is anchored by its BOTTOM
+ * and grows UPWARD. A one-line callout lands where it always did; extra lines
+ * can only ever move away from the band, whatever the wrap turns out to be.
+ * Callouts staged high keep the original centered behaviour.
+ */
+const LOW_ZONE = 640;      // below this y the callout is bottom-anchored
+const CAPTION_SAFE_TOP = 800; // conservative: the scene camera can zoom ~1.05 about center
+
 /** Phrases need to breathe: shrink very long copy so a callout never wraps to three lines. */
 const fitSize = (text: string, size: number) => {
   const len = text.replace(/\s+/g, " ").trim().length;
@@ -40,11 +55,18 @@ export const KineticText: React.FC<{ spec: ResolvedTextSpec }> = ({ spec }) => {
   if (frame < spec.at) return null;
   if (!staggered && t.opacity <= 0) return null;
 
+  // Keep the callout clear of the subtitle band however many lines it wraps to.
+  const low = spec.y > LOW_ZONE;
+  // bottom-anchored: `top` becomes the block's BOTTOM edge. Adding half a line
+  // keeps a single-line callout exactly where centering used to put it.
+  const y = low ? Math.min(spec.y + size * 0.5, CAPTION_SAFE_TOP) : spec.y;
+  const anchorY = low ? "-100%" : "-50%";
+
   const common: React.CSSProperties = {
     position: "absolute",
     left: spec.x,
-    top: spec.y,
-    transform: `translate(-50%, -50%) translate(${t.tx}px, ${t.ty}px) scale(${t.scale}) rotate(${t.rotate}deg)`,
+    top: y,
+    transform: `translate(-50%, ${anchorY}) translate(${t.tx}px, ${t.ty}px) scale(${t.scale}) rotate(${t.rotate}deg)`,
     opacity: t.opacity,
     fontFamily: ANTIDOTE_FONT,
     fontWeight: 800,
@@ -66,7 +88,7 @@ export const KineticText: React.FC<{ spec: ResolvedTextSpec }> = ({ spec }) => {
         style={{
           ...common,
           opacity: 1,
-          transform: "translate(-50%, -50%)",
+          transform: `translate(-50%, ${anchorY})`,
           display: "flex",
           flexDirection: column ? "column" : "row",
           flexWrap: column ? "nowrap" : "wrap",
@@ -203,7 +225,7 @@ export const KineticText: React.FC<{ spec: ResolvedTextSpec }> = ({ spec }) => {
               position: "absolute",
               left: "50%",
               top: "50%",
-              transform: "translate(-50%, -50%)",
+              transform: "translate(-50%, -50%)", // centered INSIDE the span, not stage-anchored
               overflow: "visible",
               zIndex: -1,
             }}

@@ -180,14 +180,127 @@ function cleanItems(list) {
   }
   return out.slice(0, 4);
 }
+// ── NARRATIVE DETECTORS ─────────────────────────────────────────────────────
+// 88% of beats used to resolve to imagefocus/statement. These recognise the
+// shapes a BOOK makes so the narrative archetypes (scenes-narrative.tsx) have
+// something to fire on.
+//
+// They are deliberately STRICT, and each returns the PAYLOAD it found rather
+// than a boolean. A loose version scored better on the archetype histogram and
+// much worse on screen: "front of the room" became a `place` captioned
+// PROFESSOR, "and then he looks at his children" became a `timeline` whose
+// stops were PSYCHOLOGICAL / TRANSMISSION / HAPPENING. A wrong scene is worse
+// than a repeated one, so a detector that cannot name its own subject declines.
+//
+// The real driver is meant to be the art-direction pass (`d.type`, Claude or
+// the LLM); these are the fallback for --no-llm and for beats the model skips.
+
+/** Tag questions ("right?", "you know?") are discourse, not a question beat. */
+const TAG_Q = /\b(right|yeah|you know|okay|ok|huh|no)\s*\?\s*$/i;
+/**
+ * A beat whose PAYLOAD is a question: it ends on one, and not a verbal tic.
+ */
+const isQuestion = (t) => {
+  const s = String(t).trim();
+  if (!/\?$/.test(s)) return false;
+  if (TAG_Q.test(s)) return false;
+  return s.split(/\s+/).length <= 30;
+};
+
+/**
+ * Chronology, and the stops to hang on the rail. Only explicit time markers
+ * count — years and ages. "And then" is a narrative connective, not a timeline.
+ */
+const timelineStops = (t) => {
+  const stops = [];
+  for (const m of String(t).matchAll(/\b(1[6-9]\d{2}|20[0-4]\d)\b/g)) stops.push(m[1]);
+  for (const m of String(t).matchAll(/\bat (?:the age of )?(\d{1,2})\b/gi)) stops.push("AGE " + m[1]);
+  for (const m of String(t).matchAll(/\b(\d{1,2})\s+years\s+later\b/gi)) stops.push("+" + m[1] + " YRS");
+  const uniq = [...new Set(stops)];
+  return uniq.length >= 2 ? uniq.slice(0, 4) : null;
+};
+
+/**
+ * A named setting. The place has to be a proper noun sitting behind a
+ * locative preposition — no common-noun lexicon, which is what produced
+ * "room" / "home" / "school" false positives on nearly every memoir beat.
+ */
+/**
+ * People, learned from the narration itself.
+ *
+ * A locative preposition takes a person as happily as a place ("back at Gene
+ * Westover's shop"), and half the detected "places" in a memoir were actually
+ * characters — rendered as a map pin with their name under it. There is no NER
+ * here, but there is a strong positional signal: a PERSON is a grammatical
+ * SUBJECT somewhere in the transcript ("Shawn said", "Tara was"), while a place
+ * essentially never is. Built once over the whole narration, reused per beat.
+ */
+const PERSON_VERB = /^(was|is|were|are|had|has|said|says|told|went|goes|did|does|would|could|will|thought|knew|knows|looked|looks|walked|walks|came|comes|took|takes|started|starts|felt|feels|believed|decided|wanted|wants|grabbed|screamed|yelled|drove|climbed|worked|works|calls|called)$/i;
+function buildPersonSet(allTexts) {
+  const hits = Object.create(null);
+  for (const t of allTexts) {
+    const toks = String(t).split(/\s+/);
+    for (let i = 0; i < toks.length - 1; i++) {
+      const w = toks[i].replace(/[^A-Za-z']/g, "");
+      const next = toks[i + 1].replace(/[^A-Za-z']/g, "");
+      if (!/^[A-Z][a-z]{2,}$/.test(w)) continue;
+      if (PERSON_VERB.test(next)) hits[w] = (hits[w] || 0) + 1;
+    }
+  }
+  return new Set(Object.keys(hits).filter((w) => hits[w] >= 2)); // 1 is noise, 2 is a pattern
+}
+/** Filled in once the beats are parsed; empty until then (detectors degrade safely). */
+let PERSONS = new Set();
+
+// Pronouns, sentence openers, and TIME names — "at Thanksgiving" / "in June"
+// are locative in grammar only; a map pin under them reads as a mistake.
+const NOT_PLACE = /^(I|He|She|They|We|You|It|And|But|So|Then|The|A|An|Mom|Dad|God|English|American|Mormon|January|February|March|April|May|June|July|August|September|October|November|December|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Christmas|Thanksgiving|Easter|Halloween)$/;
+const placeName = (t) => {
+  // STRONG locatives only. "to" and "from" take people just as readily as
+  // places ("talked to Gene Westover"), which is how a character's name ended
+  // up rendered as a map pin.
+  const m = String(t).match(/\b(?:in|at|out in|up on|down in|across|near|outside|inside)\s+([A-Z][a-z]{2,}(?:'s)?(?:\s+[A-Z][a-z]{2,}){0,2})\b/);
+  if (!m) return null;
+  const name = m[1].trim();
+  const head = name.split(/\s+/)[0];
+  if (NOT_PLACE.test(head)) return null;
+  if (PERSONS.has(head.replace(/'s$/, ""))) return null;   // a character, not a setting
+  if (/^[A-Za-z]+'s$/.test(name)) return null;             // "Tara's" on its own is possession
+  return name;
+};
+
+/**
+ * Two NAMED subjects held together. Captures whole name phrases so
+ * "John Stewart Mill and Mary Wollstonecraft" does not come back as
+ * ["Mill", "Mary"].
+ */
+const duoPair = (t) => {
+  const m = String(t).match(/\b([A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,}){0,2})\s+and\s+([A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,}){0,2})\b/);
+  if (!m || /\bvs\b/i.test(t)) return null;
+  const [a, b] = [m[1].trim(), m[2].trim()];
+  if (NOT_PLACE.test(a.split(/\s+/)[0]) || NOT_PLACE.test(b.split(/\s+/)[0])) return null;
+  return [a, b];
+};
+
+/**
+ * A turn: the sentence reverses what came before it. `reveal` wipes these in
+ * rather than springing them, which lands the reversal harder.
+ */
+const isReveal = (t) =>
+  /\b(but then|until|instead|turns out|in fact|no longer|the truth is|never again|everything changed)\b/i.test(t) &&
+  String(t).split(/\s+/).length <= 24;
+
 function heuristicDesign(text, i, total) {
   const li = listItems(text);
   let type = "statement";
   if (i === 0) type = "title";
   else if (i === total - 1) type = "punchline";
+  else if (isQuestion(text)) type = "question";
   else if (li) type = "list";
+  else if (timelineStops(text)) type = "timeline";
   else if (/(\$?\d[\d,\.]*\s?(%|percent|million|billion|trillion))/i.test(text)) type = "stat";
   else if (/["“”]/.test(text)) type = "quote";
+  else if (placeName(text)) type = "place";
   else if (text.split(/\s+/).length <= 8) type = "statement";
   else type = i % 2 === 0 ? "imagefocus" : "statement";
   const kw = keywords(text, 3);
@@ -225,7 +338,10 @@ async function llmDesign(beatTexts) {
     const slice = idxs.map((i) => beatTexts[i]);
     const sys = `You are the art director for a Vox / Johnny-Harris-style motion-graphics book-summary video about the ${GENRE} book "${TITLE}"${AUTHOR ? " by " + AUTHOR : ""}.
 For each narration beat, design ONE scene. Output STRICT JSON: an array (same length & order as input) of objects with keys:
-- "type": one of "title","statement","list","quote","stat","imagefocus","compare","punchline".
+- "type": one of "title","statement","list","quote","stat","imagefocus","compare","punchline",
+  "question" (the beat asks something), "timeline" (a chronology - also fill "items" with 2-4 stops),
+  "place" (a setting - put the place name first in "emphasis"), "duo" (two subjects held TOGETHER,
+  as opposed to "compare" which sets them against each other), "reveal" (a turn or reversal).
 - "kicker": 2-4 word ALL-CAPS label or "" (a section tag, not a sentence).
 - "emphasis": 1-3 SHORT punchy ALL-CAPS words/phrases that will appear big on screen. NEVER a full sentence.
 - "items": for "list" only, 2-4 SHORT ALL-CAPS items, else [].
@@ -286,6 +402,9 @@ function imagePrompt(subject, style) {
   const captions = buildCaptions(words);
   const rawBeats = buildBeats(words);
   const texts = rawBeats.map((b) => b.words.map((w) => w.w).join(" "));
+  // The person profile needs the WHOLE narration, so it is built here, before
+  // any beat is classified (see buildPersonSet).
+  PERSONS = buildPersonSet(texts);
 
   // ── DESIGN SOURCE (Claude-first) ──────────────────────────────────────────
   // Author's manual (--emit-beats → author → --designs) beats the model; the
@@ -347,19 +466,56 @@ function imagePrompt(subject, style) {
     // ── deterministic archetype assignment (LLM content + code variety) ──
     let type;
     const textList = cleanItems(listItems(texts[i]) || []);
+    const list2 = items.length >= 2 ? items : textList;
+    // detector payloads, computed once: each archetype is fed the thing the
+    // detector actually FOUND, never a recycled emphasis word
+    const stops = timelineStops(texts[i]);
+    const place = placeName(texts[i]);
+    let duoLabels = duoPair(texts[i]);
     if (i === 0) type = "title";
     else if (i === texts.length - 1) type = "punchline";
+    // A question owns the frame before anything else claims the beat: it is the
+    // one shape that buys retention on its own (QuestionScene).
+    else if (d.type === "question" || isQuestion(texts[i])) type = "question";
     else if (/\bVS\b/i.test(blob) || d.type === "compare") type = "compare";
-    else if (items.length >= 2 || textList.length >= 2) {
+    // a chronology cue WITH labels to hang on the rail beats a plain list
+    // a chronology, with real time markers to hang on the rail
+    else if (d.type === "timeline" || stops) {
+      type = "timeline";
+      // the stops ARE the nodes; LLM-authored items only fill in when it asked
+      // for a timeline itself and supplied its own labels
+      items = stops || (list2.length >= 2 ? list2 : emphasis.slice(0, 3));
+    } else if (items.length >= 2 || textList.length >= 2) {
       type = "list";
       if (items.length < 2) items = textList;
     } else if (d.type === "stat" || /(\$?\d[\d,\.]*\s?(%|percent|million|billion|trillion))/i.test(texts[i])) type = "stat";
     else if (d.type === "quote") type = "quote";
+    // two NAMED subjects held together; compare covers the opposition case
+    else if (d.type === "duo" || duoLabels) type = "duo";
+    else if (d.type === "reveal" || isReveal(texts[i])) type = "reveal";
+    else if (d.type === "place" || place) type = "place";
     else if (d.image && d.image.subject) type = "imagefocus";
     else type = "statement";
-    // break up monotony: no 3 of the same image/text archetype in a row
-    if (type === "statement" && usedTypes.slice(-2).every((t) => t === "statement")) type = "quote";
-    if (type === "imagefocus" && usedTypes.slice(-2).every((t) => t === "imagefocus")) type = "statement";
+    // ── MONOTONY BREAKER ───────────────────────────────────────────────────
+    // The content detectors above are strict on purpose, so they stay rare and
+    // most beats still land on statement/imagefocus. This rotation is what
+    // actually spreads the histogram, and it is SAFE to apply anywhere:
+    // statement, reveal and quote all render nothing but the beat's emphasis
+    // words, so swapping between them can never show the wrong thing — only a
+    // different treatment of the same words (spring / wipe / serif pull-quote).
+    // Content-dependent archetypes (question, place, timeline, duo) are never
+    // chosen here; being wrong about those is worse than being repetitive.
+    // A WINDOW, not just the previous beat: the planner's natural output is a
+    // strict statement/imagefocus alternation, so an "is the last one the same"
+    // check never fires and the viewer still sees two frames for forty minutes.
+    const TEXT_ROTATION = ["statement", "reveal", "quote"];
+    const win = usedTypes.slice(-4);
+    if (type === "statement" && win.filter((t) => t === "statement").length >= 2) {
+      const count = (t) => usedTypes.filter((u) => u === t).length;
+      type = TEXT_ROTATION.slice().sort((a, b) => count(a) - count(b))[0];
+    }
+    // imagefocus keeps its image — it just stops being every other beat
+    if (type === "imagefocus" && win.filter((t) => t === "imagefocus").length >= 3) type = "statement";
     usedTypes.push(type);
 
     const images = [];
@@ -392,6 +548,17 @@ function imagePrompt(subject, style) {
       props.compareLabels = [left, right];
       addImg("-a", ls, "cutout");
       addImg("-b", rs, "cutout");
+    } else if (type === "place") {
+      // PlaceScene reads emphasis[0] as the place name, so put the detected
+      // name there rather than whatever the emphasis extractor happened to pick
+      if (place) props.emphasis = [place.toUpperCase(), ...emphasis.filter((e) => e !== place.toUpperCase())].slice(0, 2);
+    } else if (type === "duo") {
+      // same two-image staging as compare; the connector differs, not the assets
+      const la = (duoLabels && duoLabels[0]) || emphasis[0] || kws[0] || "HER";
+      const lb = (duoLabels && duoLabels[1]) || emphasis[1] || kws[1] || "HIM";
+      props.compareLabels = [la.toUpperCase(), lb.toUpperCase()];
+      addImg("-a", (d.compare && d.compare.left && d.compare.left.subject) || `${la.toLowerCase()}, ${GENRE} story`, "cutout");
+      addImg("-b", (d.compare && d.compare.right && d.compare.right.subject) || `${lb.toLowerCase()}, ${GENRE} story`, "cutout");
     } else if (type === "title") {
       if (d.image && d.image.subject) addImg("", d.image.subject, d.image.style === "cutout" ? "cutout" : "card");
       else addImg("", `evocative ${GENRE} book cover mood for "${TITLE}"`, "card");

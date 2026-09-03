@@ -335,6 +335,26 @@ events **1.50 s** (was ~8 s of dead air), 312 → 1578 events.
 backdrop parallax layer float endlessly on desynced sine cycles, so a locked-off camera never
 freezes the set. Scene tempo (`plan-antidote.js --scene-secs`) defaults to **6.5 s**.
 
+### 9.3c The annotation layer & the narrative archetypes
+
+- **`src/engines/vox/annotations.tsx`** — the hand-drawn marker layer. `Annotation` draws a
+  seeded, wobbled `circle` / `box` / `arrow` / `strike` as one SVG path via `strokeDashoffset`.
+  `annotationFor(beatId)` gives one to ~1 beat in 3; `Annotated` wraps a callout with it.
+  Strokes fire on a **late pulse**, so they are a second event, not more frame-10 decoration.
+  Geometry is seeded, never random — chunked renders must stay frame-identical at the seams.
+- **`src/engines/vox/scenes-narrative.tsx`** — `question` · `timeline` · `place` · `duo` ·
+  `reveal`. `place` is fully procedural (contour map + pin): no Flux image, no CONTENT_FILTERED.
+
+**The detector rule (`plan-vox.js`):** each detector returns the *payload* it found and the
+archetype is fed that payload — never a recycled emphasis word. They are deliberately strict;
+a detector that cannot name its own subject declines. A loose version scored better on the
+archetype histogram and much worse on screen. `buildPersonSet()` learns the book's characters
+from the narration and keeps them out of `place`.
+
+**Monotony breaker:** rotation over a 4-beat WINDOW, and only among `statement`/`reveal`/
+`quote` — all three render just the beat's emphasis words, so the swap can never be *wrong*.
+Content-dependent archetypes are never chosen this way.
+
 ### 9.4 Archetypes (`voxkit`)
 
 `title` · `statement` · `list` · `quote` · `stat` · `imagefocus` · `compare` · `punchline`.
