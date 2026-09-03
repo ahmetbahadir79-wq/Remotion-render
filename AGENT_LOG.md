@@ -28,6 +28,51 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-03 — vox-onscreen — render-purge.js (per-book disk reclaim, final step)
+- **What:** `scripts/render-purge.js --slug=<slug>` — the pipeline's final step after a
+  book is rendered + uploaded. SLUG-SCOPED (never touches shared out/ wholesale or other
+  books). Default deletes generated/gitignored files (the ~7GB out/<slug>.mp4, chunk dirs,
+  <slug>.mastered.m4a, gh-dl/gh-asm/segments temp, .render-github-split.<slug>.json).
+  `--source` also `git rm`s the committed source (raw audio, public/scenes/<slug>, captions,
+  books/<slug>) and regenerates the registry. `--dry` previews; a done-check refuses if
+  out/<slug>.mp4 is absent unless `--force`.
+- **Files:** `scripts/render-purge.js`.
+- **Why scoped matters:** out/ is shared across concurrent agents/books — a blunt cleanup
+  nukes another render's master. Always purge by slug.
+
+### 2026-09-03 — refactor-agent — post-render automation (auto verify + YouTube-ready check)
+- **What:** New `scripts/post-render.js`: after ANY render method produces `out/<slug>.mp4`,
+  automatically (1) verifies MP4 (ffprobe duration + head/tail decode check), (2) checks
+  YouTube pack completeness (thumbnail, clean.vtt, youtube-meta.json, youtube.md), (3) prints
+  clear YOUTUBE-READY or missing-assets summary. Wired into ALL render paths:
+  - `render.js` local → auto-runs after FFmpeg concat
+  - `render.js` lambda → auto-runs after segment concat
+  - `render.js` github --wait (single-job) → auto-runs after download
+  - `render.js` github --wait (split) → NEW: polls all workers, auto-runs `render-github-assemble.js`, then post-render
+  - `render-github-assemble.js` → auto-runs after split-segment verify+concat
+  - `render-github-download.js` → auto-runs after single-job download+verify
+- **New --wait on split renders:** `render.js --method=github --wait` now works for split
+  renders too — polls all segment workers until complete, then auto-assembles + post-render.
+- **Files:** `scripts/post-render.js` (NEW), `scripts/render.js`, `scripts/render-github-assemble.js`,
+  `scripts/render-github-download.js`, `scripts/README.md`.
+- **Status:** landed locally. Tested against existing `martyr` render (36.4min → YOUTUBE-READY).
+
+### 2026-09-03 — refactor-agent — codebase structure cleanup & Vox engine modularization
+- **What:** (1) Archived ~70% dead src/ code to `src/_archive/` (components, compositions,
+  utils, types, themes, animations, data, 7 Broll demo scenes) — tsconfig excludes it.
+  (2) Moved Vox engine from `src/broll/voxkit/index.tsx` to `src/engines/vox/` and split
+  the 663-line monolith into 8 modules (schema, palette, backgrounds, shared, scenes,
+  captions, overlays, thumbnail). (3) Cleaned Root.tsx: removed 3 hardcoded demo
+  compositions (EmpireDownfall, SingleDadDilemma, CastSheet); only auto-registered books
+  remain. (4) Archived 11 dead/one-off scripts + 5 root orphans to `scripts/_archive/`.
+  Removed legacy `configs/` directory and render.js fallback. (5) Added `scripts/README.md`
+  categorized index. Updated SKILL.md + `.agents/skills/remotion/SKILL.md` refs.
+- **Files:** `src/engines/vox/*`, `src/Root.tsx`, `src/_archive/`, `scripts/_archive/`,
+  `scripts/README.md`, `scripts/render.js`, `scripts/verify-render-assets.js`,
+  `tsconfig.json`, `SKILL.md`, `.agents/skills/remotion/SKILL.md`
+- **Risk:** None — all archived code was transitively dead (verified by grep). Live
+  imports updated (2 files). Registry + tsc + render.js validated.
+
 ### 2026-09-03 — vox-onscreen — worker repos PUBLIC + faster split defaults
 - **What:** (1) All 3 worker repos flipped PRIVATE→PUBLIC (via API) → GitHub-hosted
   standard-runner Actions minutes are now FREE + effectively unlimited (private repos
