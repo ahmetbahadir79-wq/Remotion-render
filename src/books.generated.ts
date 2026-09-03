@@ -40,6 +40,8 @@ import cfg_the_color_purple from '../books/the-color-purple/config.vox.json';
 import meta_the_color_purple from '../books/the-color-purple/youtube-meta.json';
 import cfg_the_frozen_river from '../books/the-frozen-river/config.vox.json';
 import meta_the_frozen_river from '../books/the-frozen-river/youtube-meta.json';
+import cfg_the_iliad from '../books/the-iliad/config.vox.json';
+import meta_the_iliad from '../books/the-iliad/youtube-meta.json';
 import cfg_the_mountain_is_you from '../books/the-mountain-is-you/config.vox.json';
 import meta_the_mountain_is_you from '../books/the-mountain-is-you/youtube-meta.json';
 import cfg_the_odyssey from '../books/the-odyssey/config.vox.json';
@@ -97,6 +99,7 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'single-dad-dilemma': { paper: '#F1E4E1', ink: '#2A1D22', red: '#D64A6B', gold: '#E0A25C' },
   'slow-productivity': { paper: '#E6E5DE', ink: '#1C1E22', red: '#3E7CA8', gold: '#C99A48' },
   'sway': { paper: '#E4E1E8', ink: '#1C1822', red: '#7C3AED', gold: '#D9A13C' },
+  'the-iliad': { paper: '#F4EFE6', ink: '#141312', red: '#9E2A2B', gold: '#C28833' },
   'the-mountain-is-you': { paper: '#DBE0DE', ink: '#22303C', red: '#E4762B', gold: '#4E93A0' },
   'the-odyssey': { paper: '#F6F1E5', ink: '#131922', red: '#B33827', gold: '#C89538' },
   'the-righteous-mind': { paper: '#E3E0E6', ink: '#1E1A24', red: '#9B3FA0', gold: '#D8A23E' },
@@ -230,6 +233,12 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_the_frozen_river as any,
     meta: meta_the_frozen_river as any,
+  },
+  {
+    slug: 'the-iliad',
+    engine: 'vox',
+    config: cfg_the_iliad as any,
+    meta: meta_the_iliad as any,
   },
   {
     slug: 'the-mountain-is-you',
