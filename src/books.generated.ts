@@ -6,6 +6,8 @@ import cfg_discipline_is_destiny from '../books/discipline-is-destiny/config.vox
 import meta_discipline_is_destiny from '../books/discipline-is-destiny/youtube-meta.json';
 import cfg_east_of_eden from '../books/east-of-eden/config.vox.json';
 import meta_east_of_eden from '../books/east-of-eden/youtube-meta.json';
+import cfg_educated from '../books/educated/config.vox.json';
+import meta_educated from '../books/educated/youtube-meta.json';
 import cfg_enders_game from '../books/enders-game/config.vox.json';
 import meta_enders_game from '../books/enders-game/youtube-meta.json';
 import cfg_glass_castle from '../books/glass-castle/config.vox.json';
@@ -22,8 +24,6 @@ import cfg_little_fires_everywhere from '../books/little-fires-everywhere/config
 import meta_little_fires_everywhere from '../books/little-fires-everywhere/youtube-meta.json';
 import cfg_little_women from '../books/little-women/config.vox.json';
 import meta_little_women from '../books/little-women/youtube-meta.json';
-import cfg_martyr from '../books/martyr/config.vox.json';
-import meta_martyr from '../books/martyr/youtube-meta.json';
 import cfg_outlive from '../books/outlive/config.vox.json';
 import meta_outlive from '../books/outlive/youtube-meta.json';
 import cfg_project_hail_mary from '../books/project-hail-mary/config.vox.json';
@@ -83,6 +83,7 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'diary-of-a-ceo': { paper: '#E7E3DC', ink: '#141414', red: '#E4322A', gold: '#C9A24B' },
   'discipline-is-destiny': { paper: '#DED9CF', ink: '#211E1A', red: '#B5462B', gold: '#B58A4B' },
   'east-of-eden': { paper: '#F4EBDA', ink: '#1C1712', red: '#9C2B1B', gold: '#C99A3B' },
+  'educated': { paper: '#F5EFE6', ink: '#1A1817', red: '#BA4A2B', gold: '#C8963E' },
   'fruit-fly': { paper: '#F0DFD4', ink: '#1A1018', red: '#B81E4A', gold: '#9AA83C' },
   'glass-castle': { paper: '#F4ECDD', ink: '#1E1A16', red: '#C24A21', gold: '#E0A73E' },
   'happiness-trap': { paper: '#DCE7E4', ink: '#1E2B2B', red: '#2E9E8F', gold: '#E0A94B' },
@@ -90,7 +91,6 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'how-to-read-a-person-like-a-book': { paper: '#E0E1E8', ink: '#1B1B24', red: '#4C5BD4', gold: '#D99A3C' },
   'laws-of-human-nature': { paper: '#DAD5CC', ink: '#17130F', red: '#8E2B2B', gold: '#B98F3E' },
   'let-them-theory': { paper: '#F0E7D8', ink: '#26201A', red: '#EE5A3C', gold: '#F0B44A' },
-  'martyr': { paper: '#EFE6D2', ink: '#131722', red: '#B0271C', gold: '#2E8B84' },
   'outlive': { paper: '#DBE7EA', ink: '#142229', red: '#1FA0A6', gold: '#E4A63C' },
   'project-hail-mary': { paper: '#0B1120', ink: '#E8EDF3', red: '#FF6B35', gold: '#00D4AA' },
   'psychology-of-money': { paper: '#DEE4DC', ink: '#17201A', red: '#2F8F5B', gold: '#D9A93A' },
@@ -128,6 +128,12 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_east_of_eden as any,
     meta: meta_east_of_eden as any,
+  },
+  {
+    slug: 'educated',
+    engine: 'vox',
+    config: cfg_educated as any,
+    meta: meta_educated as any,
   },
   {
     slug: 'enders-game',
@@ -176,12 +182,6 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_little_women as any,
     meta: meta_little_women as any,
-  },
-  {
-    slug: 'martyr',
-    engine: 'vox',
-    config: cfg_martyr as any,
-    meta: meta_martyr as any,
   },
   {
     slug: 'outlive',
