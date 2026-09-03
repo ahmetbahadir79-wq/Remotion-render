@@ -28,6 +28,41 @@ _(clear your row when you stop; move the summary into the Changelog below.)_
 
 ## Changelog (newest first)
 
+### 2026-09-03 — motion-rate — Antidote metaphor arcs + act passthrough; Vox SFX layer (opt-in)
+- **Antidote metaphor arcs (Phase 2 of the concept-icon work).** Phase 1 put the beat's
+  literal subject on screen; the subject was then INERT — a stone meaning "shame" just sat
+  there. `arcOf()` (`movements.ts`) gives a motif a one-shot movement across the beat
+  (`grow` / `shrink` / `rise` / `fall` / `closein` / `tilt`), composed on top of `ambient()`.
+  The director assigns it from the beat's own class: negative → `closein` (the problem crowds
+  the frame), crowd → `grow`, positive → `rise`, time → `fall`, contrast/question → `tilt`.
+  Motifs that already animate a quantity (counter/bars/ladder/clock/lineChart) are excluded —
+  scaling them fights their own read. Field is `props[].arc`, defaults `"none"`, so **existing
+  configs render unchanged** until re-planned.
+- **`bg.act` passthrough.** The director's colour script (setup → tension → turn → resolution)
+  was already built and verified working — cream → progressively dimmer grey → red-tinted →
+  gold across a book. It just wasn't recording WHICH act produced a field; now it does, so the
+  arc is auditable in the config and act-aware features don't have to re-derive position.
+- **Vox SFX layer (`src/engines/vox/sfx.tsx`, NEW) — OPT-IN.** Whoosh on scene cuts, tick on a
+  beat's late events. Assets are procedurally generated filtered-noise bursts
+  (`public/sfx/{whoosh,tick}.wav`, made with ffmpeg — no licensed library).
+  - **Off unless `plan-vox.js --sfx` (or `VOX_SFX=1`) wrote `meta.sfx`.** This narration is
+    ~98.5% speech with no gaps, so every effect lands ON a voice rather than in an edited
+    channel's pause. Whether that reads as texture is a judgement for ears, so no existing
+    book changes until someone turns it on and listens.
+  - **Gains were MEASURED, not guessed.** The first pass (0.085/0.055) put the loudest effect
+    at **-35.4 dBFS** against speech peaking at -6.8 — a layer that renders, costs render
+    time, and cannot be heard. At 0.4/0.26 the effect peak is **-23.5 dBFS**, i.e. 16.7 dB
+    under dialogue (the normal 12-18 dB band); full-mix integrated loudness moves -23.9 →
+    -23.8 LUFS and the peak is unchanged, so mastering is unaffected and nothing clips.
+  - **Method (reuse this):** render the same frame range twice, with and without, then
+    `ffmpeg -i on.mp4 -i off.mp4 -filter_complex "[1:a]volume=-1[inv];[0:a][inv]amix=inputs=2:normalize=0[d];[d]volumedetect"`
+    and read `max_volume` — that is the effect layer on its own.
+- **Files:** `src/engines/antidote/{schema.ts,movements.ts,components/Scene.tsx}`,
+  `scripts/lib/antidote-director.js`, `src/engines/vox/{sfx.tsx,index.tsx,schema.ts}`,
+  `scripts/plan-vox.js`, `public/sfx/*.wav`.
+- **Status:** landed locally, `src/` typechecks clean. SFX verified by a 301-frame render of
+  `Vox-educated` with and without; `books/educated/config.vox.json` left with SFX OFF.
+
 ### 2026-09-03 — motion-rate — Vox annotation layer + 5 narrative archetypes; Antidote caption-band fix
 - **Annotation layer (`src/engines/vox/annotations.tsx`, NEW):** the reference channels'
   signature move is a red marker stroke thrown around the word that matters. `Annotation`

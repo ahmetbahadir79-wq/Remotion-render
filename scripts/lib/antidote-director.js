@@ -331,6 +331,33 @@ function createDirector({ palette, genre, slug }) {
     return { type: pick, frames: transFrames(pick), color: PAL.red };
   }
 
+// ── THE METAPHOR'S ARC ──────────────────────────────────────────────────────
+// Phase 1 put the beat's literal SUBJECT on screen (CONCEPT_LEXICON), which
+// stopped every beat being a talking head. But the subject was inert: a stone
+// that means "shame" just sat there being a stone. The arc is what the object
+// DOES across the beat, taken from the beat's own valence — the burden grows,
+// the doubt drains away, the breakthrough rises. That is the difference between
+// naming an idea and showing it.
+//
+// Motifs that ARE a quantity (counter/bars/ladder) animate their own value, so
+// scaling them on top would fight their own read; they stay still.
+const SELF_ANIMATING = new Set(["counter", "barChart", "stack", "ladder", "clock", "lineChart"]);
+const ARC_FOR_CLASS = {
+  negative: "closein",   // the problem crowds the frame
+  crowd: "grow",         // "everyone" gets bigger than you
+  positive: "rise",
+  stat: "grow",
+  time: "fall",          // time running out, dropping through the frame
+  contrast: "tilt",
+  question: "tilt",
+  story: "none",
+  neutral: "none",
+};
+function arcFor(cls, motif) {
+  if (SELF_ANIMATING.has(motif)) return "none";
+  return ARC_FOR_CLASS[cls] || "none";
+}
+
   function pickMotif(cls, shot, i, text) {
     const isMoney = /\$|\bmoney|dollars?|wealth|income|salary|cost|price|invest/i.test(text);
     let menu = isMoney ? MONEY_MOTIFS : MOTIF_MENU[cls] || MOTIF_MENU.neutral;
@@ -348,6 +375,7 @@ function createDirector({ palette, genre, slug }) {
       else if (/\$/.test(text)) spec.label = "DOLLARS";
     }
     if (motif === "barChart" || motif === "stack" || motif === "ladder") spec.value = 4 + (i % 3);
+    spec.arc = arcFor(cls, motif);
     return spec;
   }
 
@@ -419,6 +447,11 @@ function createDirector({ palette, genre, slug }) {
       set,
       texture: TEXTURE_FOR[set] || "grain",
       accent: PAL.ink,
+      // Which act of the color script this field came from. Nothing renders it
+      // today; it lands in the config so the arc is legible when auditing a
+      // book by eye and so act-aware features (chapter cards, thumbnails) have
+      // it without re-deriving position.
+      act: field.act,
     };
     if (shot === "split") {
       bg.split = [lighten(PAL.paper, 0.34), lighten(PAL.red, 0.58)];

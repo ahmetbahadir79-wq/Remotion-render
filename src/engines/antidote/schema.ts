@@ -170,8 +170,21 @@ export const propSchema = z.object({
    *  illustrates — a counter that finishes before the number is spoken is worse
    *  than no counter at all. */
   at: z.number().default(0),
+  /**
+   * The metaphor's ARC — what the motif DOES across the scene.
+   *
+   * Concept icons (Phase 1) put the beat's literal subject on screen, which
+   * fixed "every beat is a talking head" but left the subject inert: a stone
+   * that means "shame" just sat there. An arc gives the object the beat's own
+   * movement — the stone GROWS, the wall CLOSES IN, the light RISES — so the
+   * picture carries the meaning instead of merely naming it.
+   *
+   * Runs once over the scene, on top of the endless `ambient()` float.
+   */
+  arc: z.enum(["none", "grow", "shrink", "rise", "fall", "closein", "tilt"]).default("none"),
 });
 export type PropSpec = z.infer<typeof propSchema>;
+export type PropArc = PropSpec["arc"];
 
 // ── KINETIC COPY ────────────────────────────────────────────────────────────
 // `box` / `outline` / `plain` are the original one-word stamps. The rest are
@@ -217,6 +230,9 @@ export const bgSchema = z.object({
   texture: textureName.default("none"),
   accent: z.string().optional(), // set-furniture ink; defaults to a shade of colors[0]
   split: z.array(z.string()).optional(), // split shot: [leftColor, rightColor]
+  // Which act of the director's color script produced this field. Metadata:
+  // nothing renders it, but it makes the arc auditable in the config.
+  act: z.enum(["setup", "tension", "turn", "resolution"]).optional(),
 });
 export type BgSpec = z.infer<typeof bgSchema>;
 
@@ -268,6 +284,7 @@ export const antidoteThumbnailSchema = z.object({
   action: charAction.default("celebrate"),
   expression: expression.default("happy"),
   motif: thumbMotif.default("risingBars"),
+  layout: z.string().optional(),
 });
 export type AntidoteThumbnailBrief = z.infer<typeof antidoteThumbnailSchema>;
 

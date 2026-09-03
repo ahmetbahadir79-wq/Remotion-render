@@ -38,6 +38,10 @@ const UNTIL = args.until ? parseFloat(args.until) : Infinity;
 // VTT sits ~0.5s ahead of the audio for this project (legacy captionOffset).
 // Shift beats + captions later by OFFSET seconds to lock visuals to the voice.
 const OFFSET = args.offset !== undefined ? parseFloat(args.offset) : 0.5;
+// Opt-in transition sound layer (src/engines/vox/sfx.tsx). Off unless asked
+// for: the narration is continuous speech, so every effect lands on a voice —
+// worth having, but only after someone has listened to it.
+const SFX = "sfx" in args || process.env.VOX_SFX === "1";
 const OUT = args.out || rel.voxConfig(SLUG);
 // Claude-first art-direction. Model path (llama) is dormant unless opted in.
 //   --designs=<file>    consume Claude-authored designs (highest quality)
@@ -706,7 +710,7 @@ function imagePrompt(subject, style) {
 
   const totalFrames = finalBeats.length ? finalBeats[finalBeats.length - 1].fromFrame + finalBeats[finalBeats.length - 1].durationFrames : 0;
   const config = {
-    meta: { title: TITLE, author: AUTHOR, genre: GENRE, slug: SLUG, audio: AUDIO, fps: FPS, width: 1920, height: 1080, totalFrames, until: UNTIL === Infinity ? null : UNTIL, planner: USE_LLM ? "llm" : "heuristic", generatedAt: new Date().toISOString() },
+    meta: { title: TITLE, author: AUTHOR, genre: GENRE, slug: SLUG, audio: AUDIO, fps: FPS, width: 1920, height: 1080, totalFrames, until: UNTIL === Infinity ? null : UNTIL, planner: USE_LLM ? "llm" : "heuristic", ...(SFX ? { sfx: true } : {}), generatedAt: new Date().toISOString() },
     captions,
     beats: finalBeats,
   };

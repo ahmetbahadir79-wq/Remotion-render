@@ -355,6 +355,20 @@ from the narration and keeps them out of `place`.
 `quote` — all three render just the beat's emphasis words, so the swap can never be *wrong*.
 Content-dependent archetypes are never chosen this way.
 
+### 9.3d Sound (opt-in) and the Antidote metaphor arc
+
+- **`src/engines/vox/sfx.tsx`** — whoosh on scene cuts, tick on a beat's late events; assets
+  are procedurally generated noise bursts in `public/sfx/`. **Off unless the config says
+  `meta.sfx`** (`plan-vox.js --sfx`), because this narration is ~98.5% speech with no gaps, so
+  every effect lands on a voice. Gains are measured, not guessed: the effect peak sits ~16.7 dB
+  under dialogue. To re-measure, render the same frame range with and without and diff the two
+  audio tracks (`amix` one against the inverted other → `volumedetect`); `max_volume` is the
+  effect layer alone.
+- **`arcOf()` in `src/engines/antidote/movements.ts`** — a motif's one-shot movement across its
+  beat (`grow`/`shrink`/`rise`/`fall`/`closein`/`tilt`), on top of `ambient()`. Concept icons
+  name the idea; the arc *shows* it. Assigned by the director from the beat class; motifs that
+  already animate a quantity are excluded. Defaults to `"none"`, so old configs are unchanged.
+
 ### 9.4 Archetypes (`voxkit`)
 
 `title` · `statement` · `list` · `quote` · `stat` · `imagefocus` · `compare` · `punchline`.

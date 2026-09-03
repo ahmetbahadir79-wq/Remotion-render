@@ -7,7 +7,7 @@ import { transitionRender } from "./Transition";
 import { Motif } from "../motifs";
 import { shotPreset, stageChar, stageText } from "../shots";
 import { DEFAULT_TRANSITION, DEFAULT_VARIANT } from "../schema";
-import { enter, pose, ambient } from "../movements";
+import { enter, pose, ambient, arcOf } from "../movements";
 import { camera } from "../movements";
 import type { SceneSpec, CharacterSpec, ShotName, VariantSpec, CastBible } from "../schema";
 
@@ -159,12 +159,18 @@ export const Scene: React.FC<{ scene: SceneSpec; transIn?: number; cast?: CastBi
           // makes a long scene read as a still. Seeded by index so no two
           // props on the same stage drift in phase.
           const amb = ambient((i * 0.37 + 0.11) % 1, local);
+          // The metaphor's arc: what this object DOES over the beat. Runs from
+          // the motif's own entrance to the end of the scene, composed on top
+          // of the ambient float (ambient keeps it alive, the arc gives it
+          // meaning). See movements.arcOf.
+          const from = (p.at ?? 0);
+          const arc = arcOf(p.arc, local - from, Math.max(1, scene.durationFrames - from));
           return (
-            <Sequence key={`p${i}`} from={(p.at ?? 0) + transIn} layout="none" name={`motif-${p.type}`}>
+            <Sequence key={`p${i}`} from={from + transIn} layout="none" name={`motif-${p.type}`}>
               {/* inset:0 — a transformed wrapper becomes the containing block for the
                   motif's absolute left/top, so it must cover the full stage or
                   every prop snaps to the top-left. */}
-              <div style={{ position: "absolute", inset: 0, transform: `translate(${amb.tx}px, ${amb.ty}px) rotate(${amb.rotate}deg) scale(${amb.scale})`, transformOrigin: "center" }}>
+              <div style={{ position: "absolute", inset: 0, opacity: arc.opacity, transform: `translate(${amb.tx}px, ${amb.ty + arc.ty}px) rotate(${amb.rotate + arc.rotate}deg) scale(${amb.scale * arc.scale})`, transformOrigin: "center" }}>
                 <Motif
                   spec={{ ...p, x: p.x ?? preset.motif.x, y: p.y ?? preset.motif.y, scale: s * (s === 1 ? preset.motif.scale : 1) }}
                   accent={accent}

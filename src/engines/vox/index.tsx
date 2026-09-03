@@ -7,6 +7,7 @@ import { PaperBackground, FloatingSpecks, Grain, Vignette } from "./backgrounds"
 import { SCENES, StatementScene } from "./scenes";
 import { CaptionLayer } from "./captions";
 import { ChapterOverlay, ProgressRail } from "./overlays";
+import { SfxLayer } from "./sfx";
 
 export { voxBookSchema } from "./schema";
 export { VoxThumbnail, thumbnailSchema } from "./thumbnail";
@@ -22,6 +23,7 @@ export const VoxBook: React.FC<{ config: VoxConfig }> = ({ config }) => {
   return (
   <AbsoluteFill style={{ ...paletteVars, backgroundColor: PAPER }}>
     <Audio src={staticFile(config.meta.audio)} />
+    <SfxLayer beats={config.beats} enabled={config.meta.sfx === true} />
     <PaperBackground tint={BOOK_BG_TINT[config.meta.slug ?? ""] ?? false} />
     <FloatingSpecks />
     {config.beats.map((beat) => {

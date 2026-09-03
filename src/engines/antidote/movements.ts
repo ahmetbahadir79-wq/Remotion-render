@@ -67,6 +67,41 @@ export function ambient(seed: number, frame: number, amp = 1): { ty: number; tx:
   };
 }
 
+/**
+ * arcOf — the metaphor's one-shot movement across a scene.
+ *
+ * `ambient()` keeps a motif alive; this makes it MEAN something. The curve runs
+ * once over the scene's own length (eased, so it is a movement rather than a
+ * slide) and composes multiplicatively with the ambient float.
+ *
+ * `local` is frames since the motif appeared; `span` is how long it has.
+ */
+export function arcOf(
+  arc: "none" | "grow" | "shrink" | "rise" | "fall" | "closein" | "tilt" | undefined,
+  local: number,
+  span: number,
+): { ty: number; scale: number; rotate: number; opacity: number } {
+  const rest = { ty: 0, scale: 1, rotate: 0, opacity: 1 };
+  if (!arc || arc === "none" || span <= 1) return rest;
+  const t = interpolate(local, [0, span], [0, 1], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+    easing: Easing.inOut(Easing.ease),
+  });
+  switch (arc) {
+    // the thing the beat is about becomes bigger than the person
+    case "grow": return { ...rest, scale: 1 + t * 0.34 };
+    // ...or drains away to nothing
+    case "shrink": return { ...rest, scale: 1 - t * 0.3, opacity: 1 - t * 0.25 };
+    case "rise": return { ...rest, ty: -t * 130, opacity: 0.75 + t * 0.25 };
+    case "fall": return { ...rest, ty: t * 130, opacity: 1 - t * 0.2 };
+    // the walls come in: bigger AND lower, so it crowds the frame
+    case "closein": return { ...rest, scale: 1 + t * 0.42, ty: t * 46 };
+    case "tilt": return { ...rest, rotate: t * 9 };
+    default: return rest;
+  }
+}
+
 // ── CHARACTER RIG poses — return part transforms the rig applies ─────────────
 export type Pose = {
   lean: number; // torso rotate deg

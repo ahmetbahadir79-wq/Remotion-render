@@ -32,4 +32,4 @@ export type Beat = {
 };
 export type Caption = { text: string; startFrame: number; endFrame: number; words: { w: string; s: number; e: number }[] };
 export type Chapter = { index: number; fromFrame: number; label: string; teaser?: string };
-export type VoxConfig = { meta: { audio: string; slug?: string; progress?: boolean }; captions: Caption[]; beats: Beat[]; chapters?: Chapter[] };
+export type VoxConfig = { meta: { audio: string; slug?: string; progress?: boolean; /** Opt-in transition sound layer — see sfx.tsx for why it is not on by default. */ sfx?: boolean }; captions: Caption[]; beats: Beat[]; chapters?: Chapter[] };
