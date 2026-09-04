@@ -6,8 +6,6 @@ import cfg_discipline_is_destiny from '../books/discipline-is-destiny/config.vox
 import meta_discipline_is_destiny from '../books/discipline-is-destiny/youtube-meta.json';
 import cfg_east_of_eden from '../books/east-of-eden/config.vox.json';
 import meta_east_of_eden from '../books/east-of-eden/youtube-meta.json';
-import cfg_educated from '../books/educated/config.vox.json';
-import meta_educated from '../books/educated/youtube-meta.json';
 import cfg_enders_game from '../books/enders-game/config.vox.json';
 import meta_enders_game from '../books/enders-game/youtube-meta.json';
 import cfg_glass_castle from '../books/glass-castle/config.vox.json';
@@ -85,7 +83,6 @@ export const BOOK_PALETTES: Record<string, Palette> = {
   'diary-of-a-ceo': { paper: '#E7E3DC', ink: '#141414', red: '#E4322A', gold: '#C9A24B' },
   'discipline-is-destiny': { paper: '#DED9CF', ink: '#211E1A', red: '#B5462B', gold: '#B58A4B' },
   'east-of-eden': { paper: '#F4EBDA', ink: '#1C1712', red: '#9C2B1B', gold: '#C99A3B' },
-  'educated': { paper: '#F5EFE6', ink: '#1A1817', red: '#BA4A2B', gold: '#C8963E' },
   'fruit-fly': { paper: '#F0DFD4', ink: '#1A1018', red: '#B81E4A', gold: '#9AA83C' },
   'glass-castle': { paper: '#F4ECDD', ink: '#1E1A16', red: '#C24A21', gold: '#E0A73E' },
   'happiness-trap': { paper: '#DCE7E4', ink: '#1E2B2B', red: '#2E9E8F', gold: '#E0A94B' },
@@ -131,12 +128,6 @@ export const BOOKS: BookEntry[] = [
     engine: 'vox',
     config: cfg_east_of_eden as any,
     meta: meta_east_of_eden as any,
-  },
-  {
-    slug: 'educated',
-    engine: 'vox',
-    config: cfg_educated as any,
-    meta: meta_educated as any,
   },
   {
     slug: 'enders-game',
