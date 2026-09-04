@@ -1,4 +1,8 @@
-# CLAUDE.md — read me first
+## 🇺🇸 US Market & Language Invariant (STRICT)
+
+- **Target Audience:** This YouTube channel strictly targets the **US market / English-speaking audience**.
+- **All Content in English:** Every YouTube Publishing Kit (`youtube.md`, `youtube-meta.json`), video title, description, chapter timestamp, tag list, pinned comment, and thumbnail hook **MUST BE 100% IN ENGLISH**.
+- **Never translate YouTube assets to Turkish:** Even when interacting with the operator in Turkish, **always provide and format the YouTube Publishing Kit in English**. Never output Turkish titles, descriptions, or chapter names.
 
 ## ⚠️ Multiple agents work on this repo at once — coordinate
 

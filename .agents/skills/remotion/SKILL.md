@@ -92,6 +92,10 @@ src/
 
 The full flow to turn a book title into a preview-ready Vox video. All content is authored in **English (US market)**.
 
+> **CRITICAL LANGUAGE INVARIANT (STRICT):**
+> This channel exclusively targets the **US / English-speaking market**.
+> Every asset in the YouTube Publishing Kit (`youtube.md`, `youtube-meta.json`), video title, description, chapter timestamp, tag, pinned comment, and chat summary of the publishing pack **MUST BE 100% IN ENGLISH**. Never generate or translate YouTube publishing metadata to Turkish.
+
 ```
 Step 0  make-prompt.js   → books/<slug>/prompt.notebooklm.md   (bespoke NotebookLM "Audio Overview" prompt)
         └─ [manual] paste into NotebookLM → generate audio → save public/audio/<slug>.m4a
@@ -112,7 +116,7 @@ Step 3  render (local chunk OR Amazon Lambda-segmented) → out/<slug>.mp4  (see
 ### Thumbnail identity & variation (YPP originality — don't ship look-alike thumbnails)
 Near-identical thumbnails across the channel read as templated/mass-produced (a secondary YPP "reused content" signal) and cannibalize CTR in the browse feed. Two mechanisms keep every book visually distinct **without** losing a coherent channel identity:
 
-1. **Per-book palette (`books/<slug>/book.json` → `palette{paper,ink,red,gold}`).** `paper`=light bg, `ink`=near-black text, **`red`=the saturated ACCENT (the main hue lever)**, `gold`=secondary. Claude authors a genre/mood-specific palette per book (same Claude-first lane as the meta). `gen-books-registry.js` reads every book.json and emits `BOOK_PALETTES` into `src/books.generated.ts`; both `resolvePalette()` in `src/broll/voxkit/index.tsx` (Vox video **and** thumbnail) and the Antidote thumbnail read it. **Legibility rule:** keep `paper` light + `ink` near-black + `red` saturated/mid-dark (white text on the accent box must stay readable) — vary the HUE, not the value structure. Missing palette → `DEFAULT_PALETTE` fallback. (One-time backfill of all existing books lives in the scratchpad `inject-palettes.js`; new books get theirs at art-direction.)
+1. **Per-book palette (`books/<slug>/book.json` → `palette{paper,ink,red,gold}`).** `paper`=light bg, `ink`=near-black text, **`red`=the saturated ACCENT (the main hue lever)**, `gold`=secondary. Claude authors a genre/mood-specific palette per book (same Claude-first lane as the meta). `gen-books-registry.js` reads every book.json and emits `BOOK_PALETTES` into `src/books.generated.ts`; both `resolvePalette()` in `src/engines/vox/index.tsx` (Vox video **and** thumbnail) and the Antidote thumbnail read it. **Legibility rule:** keep `paper` light + `ink` near-black + `red` saturated/mid-dark (white text on the accent box must stay readable) — vary the HUE, not the value structure. Missing palette → `DEFAULT_PALETTE` fallback. (One-time backfill of all existing books lives in the scratchpad `inject-palettes.js`; new books get theirs at art-direction.)
 2. **Two engine thumbnail styles = built-in bimodal channel look.** `Thumb-<slug>` is registered **once per book, by `book.json.engine`** (registry emits `engine` per entry; Root picks the component — no id collision even when a slug has both configs):
    - **Vox** → `VoxThumbnail` — photoreal Flux hero cut-out (right) + red marker-stroke + kinetic hook (left). `gen-thumbnail.py` makes the hero from the meta `thumbnail.subject`.
    - **Antidote** → `AntidoteThumbnail` (`src/engines/antidote/Thumbnail.tsx`) — **flat-vector**: palette ground + growth **motif** (`risingBars|arrowUp|summit|spark|ring`) + the **Everyman rig** in a confident pose + kinetic hook. Brief lives in `config.antidote.json` → `meta.thumbnail{hook,variant,action,expression,motif}` (scaffolded by `plan-antidote.js` with `_needsClaudeRefine`; Claude writes the ≤4-word original `hook`). Palette comes from `book.json`, not the brief. Preview the style standalone at composition `Antidote-thumb-sample`. Everyman viewBox is 400×600 so rendered **height = width×1.5** — keep `width ≤ ~450` or the waist-up figure clips the 720 frame.
@@ -504,13 +508,14 @@ npm run build        # runs: remotion bundle
 
 ## Multi-Worker GitHub Actions Render Pool & Sequential Queue Protocol
 
-The project operates a dedicated **Multi-Worker GitHub Actions render pool** (3 independent worker accounts, 6,000 free minutes/month total) to offload all video rendering workloads. The primary codebase repo (`sates52/Remotion-test`) **never** runs render jobs.
+The project operates a dedicated **Multi-Worker GitHub Actions render pool** (4 independent worker accounts, 8,000 free minutes/month total) to offload all video rendering workloads. The primary codebase repo (`sates52/Remotion-test`) **never** runs render jobs.
 
 ### 👥 Active Worker Pool (Round-Robin Rotated)
 - **Worker 1**: `@sates52ko` ➔ `sates52ko/Remotion-render` (2,000 min/mo)
 - **Worker 2**: `@goodbooksummary-a11y` ➔ `goodbooksummary-a11y/Remotion-render` (2,000 min/mo)
 - **Worker 3**: `@ahmetbahadir79-wq` ➔ `ahmetbahadir79-wq/Remotion-render` (2,000 min/mo)
-- **Registry & Rotation**: Stored in `render-accounts.json`. Dispatches automatically rotate across workers (1 ➔ 2 ➔ 3 ➔ 1).
+- **Worker 4**: `@berilasal099-byte` ➔ `berilasal099-byte/Remotion-render` (2,000 min/mo)
+- **Registry & Rotation**: Stored in `render-accounts.json`. Dispatches automatically rotate across workers (1 ➔ 2 ➔ 3 ➔ 4 ➔ 1).
 
 ### 🚦 Sequential Render Queue (Kuyruk Yöneticisi)
 When producing multiple books or running batch renders, **always use the sequential queue** so jobs run one-by-one, wait for completion, auto-download the resulting `out/<slug>.mp4`, and proceed cleanly to the next video:
@@ -760,4 +765,27 @@ src/
 2. Edit `defaultProps` in `Root.tsx` for the new composition (or create a new `<Composition>`).
 3. Set segment `type`, `videoFile`, and `book` data.
 4. Duration is auto-calculated from video metadata via `calculateMetadata`.
+
+---
+
+## Render Orchestration & Multi-Worker GitHub Pool
+
+To prevent burning personal GitHub Actions quotas and maintain a dedicated codebase, rendering is decoupled into a dedicated 7-worker cluster:
+
+### Cluster Architecture (14,000 min/mo)
+- **Codebase Repository**: `sates52/Remotion-test` (`god-mode` branch) — Pure code, zero Actions render workload.
+- **Worker 1**: `@sates52ko` ➔ `sates52ko/Remotion-render` (2,000 min/mo)
+- **Worker 2**: `@goodbooksummary-a11y` ➔ `goodbooksummary-a11y/Remotion-render` (2,000 min/mo)
+- **Worker 3**: `@ahmetbahadir79-wq` ➔ `ahmetbahadir79-wq/Remotion-render` (2,000 min/mo)
+- **Worker 4**: `@berilasal099-byte` ➔ `berilasal099-byte/Remotion-render` (2,000 min/mo)
+- **Worker 5**: `@canek65` ➔ `canek65/Remotion-render` (2,000 min/mo)
+- **Worker 6**: `@cansukilic134-cyber` ➔ `cansukilic134-cyber/Remotion-render` (2,000 min/mo)
+- **Worker 7**: `@konusarakogrenduru-web` ➔ `konusarakogrenduru-web/Remotion-render` (2,000 min/mo)
+
+### Workflow & Rotation
+- Configuration: `render-accounts.json`
+- Dispatch & Monitor: `node scripts/render.js --slug=<slug> --method=github [--wait]`
+- Sequential Multi-Video Queue: `node scripts/render-queue.js --add=<slug1>,<slug2> --run --method=github`
+- Automatic Round-Robin worker selection rotates `worker1` ➔ `worker2` ➔ `worker3` ➔ `worker4` ➔ `worker5` ➔ `worker6` ➔ `worker7`.
+
 
