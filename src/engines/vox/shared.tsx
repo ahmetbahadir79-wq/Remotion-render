@@ -82,10 +82,9 @@ export const Cutout: React.FC<{ asset: string; startFrame: number; height: numbe
   const rise = interpolate(s, [0, 1], [120, 0]);
   const op = interpolate(frame, [startFrame, startFrame + 12], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const url = staticFile(asset);
-  const bob = Math.sin(frame / 26) * 5;
   const box = { position: "absolute" as const, bottom: 0, left: "50%", height, width: "auto", objectFit: "contain" as const };
   return (
-    <div style={{ position: "relative", height, width: height, transform: `translateY(${rise + bob}px)`, opacity: op, zIndex: 12 }}>
+    <div style={{ position: "relative", height, width: height, transform: `translateY(${rise}px)`, opacity: op, zIndex: 12 }}>
       <div aria-hidden style={{ ...box, aspectRatio: "1", width: height, height, backgroundColor: tint, WebkitMaskImage: `url(${url})`, maskImage: `url(${url})`, WebkitMaskSize: "contain", maskSize: "contain", WebkitMaskRepeat: "no-repeat", maskRepeat: "no-repeat", WebkitMaskPosition: "center bottom", maskPosition: "center bottom", transform: `translate(calc(-50% + ${strokeX}px), ${strokeY}px)`, opacity: 0.92 }} />
       <Img src={url} alt="" style={{ ...box, width: height, transform: "translateX(-50%)", filter: "drop-shadow(0 26px 24px rgba(40,30,20,0.32))" }} />
     </div>
@@ -105,7 +104,7 @@ export const HalftoneCard: React.FC<{ asset?: string; keyword?: string; startFra
       <div style={{ position: "absolute", inset: 0, overflow: "hidden", border: `5px solid ${INK}`, background: "#c9c8c3", boxShadow: "0 18px 30px rgba(40,30,20,0.28)" }}>
         {asset ? (
           <>
-            <Img src={staticFile(asset)} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(1) contrast(1.35) brightness(1.03)", transform: `scale(${1.06 + frame * 0.0004}) translate(${Math.sin(frame / 120) * 8}px, ${Math.cos(frame / 150) * 6}px)` }} />
+            <Img src={staticFile(asset)} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(1) contrast(1.35) brightness(1.03)", transform: "scale(1.06)" }} />
             <div style={{ position: "absolute", inset: 0, background: tint, mixBlendMode: "multiply", opacity: 0.2 }} />
             <div style={{ position: "absolute", inset: 0, backgroundImage: `radial-gradient(${INK} 1px, transparent 1.4px)`, backgroundSize: "5px 5px", mixBlendMode: "overlay", opacity: 0.35 }} />
           </>
@@ -133,26 +132,8 @@ export const Scene: React.FC<{ beat: Beat; children: React.ReactNode; accent?: b
   const inOp = interpolate(frame, [0, 8], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const outOp = interpolate(frame, [beat.durationFrames - 8, beat.durationFrames], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const inY = interpolate(frame, [0, 10], [26, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const driftY = Math.sin(frame / 46 + seed * 6) * 4;
-  // ── CAMERA ────────────────────────────────────────────────────────────────
-  // A slow, continuous push across the whole beat (nothing on screen is ever
-  // truly still) plus a sharp punch-in on each spoken anchor word. Static
-  // scenes were the single biggest reason an 8s beat felt like a slide.
-  const dir = seed > 0.5 ? 1 : -1; // half the scenes push in, half pull out
-  const zoom = interpolate(frame, [0, Math.max(1, beat.durationFrames)], dir > 0 ? [1, 1.035] : [1.035, 1], {
-    extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.ease),
-  });
-  const driftX = Math.sin(frame / 62 + seed * 3) * 5;
-  const punchAt = beat.props.anchors && beat.props.anchors.length ? beat.props.anchors : [10];
-  let punch = 0;
-  for (const at of punchAt) {
-    const d = frame - at;
-    if (d >= 0 && d <= 18) {
-      punch += interpolate(d, [0, 3, 18], [0, 0.022, 0], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
-    }
-  }
   return (
-    <AbsoluteFill style={{ opacity: Math.min(inOp, outOp), transform: `translate(${driftX}px, ${inY + driftY}px) scale(${zoom + punch})`, transformOrigin: "center" }}>
+    <AbsoluteFill style={{ opacity: Math.min(inOp, outOp), transform: `translateY(${inY}px)`, transformOrigin: "center" }}>
       {bleed}
       {accent ? <AccentBurst seed={seed} x={35 + seed * 30} y={44} /> : null}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", paddingBottom: CAPTION_BAND, paddingInline: 130, zIndex: 10 }}>{children}</AbsoluteFill>
