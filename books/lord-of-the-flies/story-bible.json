@@ -1,0 +1,207 @@
+{
+  "slug": "lord-of-the-flies",
+  "world": {
+    "era": "mid-20th century",
+    "approxYear": 1930,
+    "setting": "",
+    "register": "",
+    "forbid": [
+      "phone",
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "car",
+      "alarmClock",
+      "medical",
+      "coffee"
+    ]
+  },
+  "cast": {
+    "jack": {
+      "name": "Jack",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 11
+    },
+    "ralph": {
+      "name": "Ralph",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 11
+    },
+    "piggy": {
+      "name": "Piggy",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 7
+    },
+    "golding": {
+      "name": "Golding",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 5
+    },
+    "kunch": {
+      "name": "Kunch",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 3
+    },
+    "roger": {
+      "name": "Roger",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 3
+    },
+    "simon": {
+      "name": "Simon",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 2
+    },
+    "king": {
+      "name": "King",
+      "role": "",
+      "look": "",
+      "variant": {},
+      "mentions": 2
+    }
+  },
+  "places": {
+    "shipDeck": {
+      "set": "shipDeck",
+      "look": "",
+      "mentions": 9
+    },
+    "manuscript": {
+      "set": "manuscript",
+      "look": "",
+      "mentions": 7
+    },
+    "shore": {
+      "set": "shore",
+      "look": "",
+      "mentions": 6
+    },
+    "cave": {
+      "set": "cave",
+      "look": "",
+      "mentions": 5
+    },
+    "agora": {
+      "set": "agora",
+      "look": "",
+      "mentions": 4
+    },
+    "forest": {
+      "set": "forest",
+      "look": "",
+      "mentions": 3
+    },
+    "street": {
+      "set": "street",
+      "look": "",
+      "mentions": 1
+    }
+  },
+  "objects": [
+    {
+      "concept": "fire",
+      "mentions": 20,
+      "why": ""
+    },
+    {
+      "concept": "war",
+      "mentions": 14,
+      "why": ""
+    },
+    {
+      "concept": "notes",
+      "mentions": 9,
+      "why": ""
+    },
+    {
+      "concept": "storm",
+      "mentions": 9,
+      "why": ""
+    },
+    {
+      "concept": "phone",
+      "mentions": 8,
+      "why": ""
+    },
+    {
+      "concept": "school",
+      "mentions": 6,
+      "why": ""
+    },
+    {
+      "concept": "tree",
+      "mentions": 6,
+      "why": ""
+    },
+    {
+      "concept": "shield",
+      "mentions": 6,
+      "why": ""
+    },
+    {
+      "concept": "crash",
+      "mentions": 5,
+      "why": ""
+    },
+    {
+      "concept": "rocketLaunch",
+      "mentions": 4,
+      "why": ""
+    },
+    {
+      "concept": "fiveRegimes",
+      "mentions": 4,
+      "why": ""
+    },
+    {
+      "concept": "target",
+      "mentions": 4,
+      "why": ""
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 5,
+      "claim": ""
+    },
+    {
+      "act": "development",
+      "fromFrame": 12509,
+      "claim": ""
+    },
+    {
+      "act": "turn",
+      "fromFrame": 24041,
+      "claim": ""
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 34812,
+      "claim": ""
+    },
+    {
+      "act": "close",
+      "fromFrame": 46630,
+      "claim": ""
+    }
+  ],
+  "authored": false
+}
