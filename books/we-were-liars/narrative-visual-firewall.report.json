@@ -1,0 +1,1254 @@
+{
+  "version": "P2.0",
+  "slug": "we-were-liars",
+  "status": "PASS",
+  "counts": {
+    "scenes": 195,
+    "violations": 0,
+    "diagnostics": 138
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-01",
+      "index": 1,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "became just another secret they politely smiled through. Right. I mean to understand how a family even reaches that level of like emotional sociopathy,\nbecame j"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-02",
+      "index": 2,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "you have to look at the whole architecture of how they It's not just denial. It is an entire ecosystem built entirely on aesthetics.\nyou have to look at the who"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-04",
+      "index": 4,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "Lockheart's novel, We Were And right out of the gate, we really need to completely reframe how we look at the source material.\nLockheart's novel, We Were And ri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-06",
+      "index": 6,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "Yeah, we are discarding that framing entirely. Instead, we are treating this text as what it actually is, which is a brutal, unflinching autopsy of American ari"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-08",
+      "index": 8,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "we have to establish who the Sinclair's actually are. Because the author paints them with a very specific\nwe have to establish who the Sinclair's actually are. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-09",
+      "index": 9,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "historically loaded brush. Right. They are the absolute epitome of old money Boston Brahmans. Exactly. And if you aren't familiar with that term, Boston Brahman"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-10",
+      "index": 10,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "subculture. It's an entire identity. It really is. It refers to these historically elite,\nsubculture. It's an entire identity. It really is. It refers to these "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'tree' is not grounded in this segment's narration",
+      "sceneId": "scene-11",
+      "index": 11,
+      "concept": "tree",
+      "severity": "diagnostic",
+      "segment": "fiercely insular WSP families of New England. The text notes, these are families who trace their lineage back to the earliest colonists who funnel their kids th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-12",
+      "index": 12,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "Harvard. They view themselves as the unofficial aristocracy of the United States. Right. They aren't, you know, newly rich tech billionaires showing up in hoodi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-13",
+      "index": 13,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "No. The text highlights that they are inherited wealth democrats. And physically, they are described in a way that feels almost genetically engineered for domin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-14",
+      "index": 14,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "right? with these wide smiles and aggressively square chins. I mean, they look like they stepped right out of a Ralph Lauren catalog from 1985 and just never le"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-15",
+      "index": 15,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "clan retreats to Beachwood, which is their privately owned island off the coast of Massachusetts. It's basically their own sovereign It really is.\nclan retreats"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-17",
+      "index": 17,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "He is the source of all the wealth and therefore the source of all the power. He literally looks down on his family from Claremont, which is the grandest, most "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-18",
+      "index": 18,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "beautiful daughters, Penny, Carrie, and who on the surface are these perfect sun-kissed Aeryses.\nbeautiful daughters, Penny, Carrie, and who on the surface are "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-19",
+      "index": 19,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "But beneath that sunny surface, these three women are locked in this savage lifelong competition for his favor and crucially for his fortune.\nBut beneath that s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-20",
+      "index": 20,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Which brings us to the next generation down, the ones who are actually going to suffer the consequences of this whole The liars, right?\nWhich brings us to the n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-21",
+      "index": 21,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "The liars. You have Cadence, who is Penny's daughter, the eldest grandchild, and the heir, a parent to the Sinclair legacy.\nThe liars. You have Cadence, who is "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-23",
+      "index": 23,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "you have Got Yeah, Got is the outsider. He's the Indian-American nephew of Aunt Car's partner, Ed. Now, I want you listening to really think about this. We all "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'food' is not grounded in this segment's narration",
+      "sceneId": "scene-24",
+      "index": 24,
+      "concept": "food",
+      "severity": "diagnostic",
+      "segment": "right? Oh, absolutely. Like the stories we tell at Thanksgiving about who we are or the embarrassing things we sweep under the rug just to keep the peace. Total"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-26",
+      "index": 26,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "demands human sacrifice to keep the illusion alive. And the foundational theology of that Sinclair religion is this concept that we can call compulsory stoicism"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-27",
+      "index": 27,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "Compulsory stoicism. Yeah. The rules of engagement on Beachwood Island are laid out so explicitly in the text.\nCompulsory stoicism. Yeah. The rules of engagemen"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-28",
+      "index": 28,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "I mean, the family motto is literally be a little kinder than you have to be. Which sounds nice on the surface. It does. But the internal unspoken mandate is so"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-29",
+      "index": 29,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "The text states, \"No one is a criminal. No one is an addict.\nThe text states, \"No one is a criminal. No one is an addict."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-30",
+      "index": 30,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "No one is a failure.\" They are required basically upon pain of exile to completely ignore anything that taints the pristine brand of the family.\nNo one is a fai"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-31",
+      "index": 31,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "I want to pause on that because it's just so insidious. Silence here is marketed to the outside world as right? It is framed as having good manners or a stiff u"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-32",
+      "index": 32,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "But it functions as an emotional slaughterhouse. It operates like a financial gag order. If you want your trust fund or if you want your summer house, you sign "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-35",
+      "index": 35,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "Yes. Out of nowhere, her father announces he's leaving the family. He's running off with another woman, packing up his Mercedes. And Cadence, our narrator, she "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-36",
+      "index": 36,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "No, she describes the emotional trauma in these incredibly visceral physical She says it's like her father taking out a handgun and shooting her in the chest. S"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-39",
+      "index": 39,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "But what absolutely shatters you is Penny's The mother's reaction to this psychological hemorrhage. Her daughter is metaphorically bleeding out on the driveway\n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-40",
+      "index": 40,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "and Penny doesn't drop to her knees. She doesn't hold her. No, she snaps at her. The specific chilling instructions are, \"Get hold of yourself, be normal, and d"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-41",
+      "index": 41,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "a scene.\" It's that be normal that really gets to the core of it because what do they do next? The father drives away.\na scene.\" It's that be normal that really"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-42",
+      "index": 42,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "Penny and Katie's go inside and they methodically, ruthlessly purge every single piece of evidence that this man ever existed.\nPenny and Katie's go inside and t"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-43",
+      "index": 43,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "They trash every gift, every piece of furniture he ever bought. They throw away the wedding china, the silver, the photographs. And then, and this is just the q"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-44",
+      "index": 44,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "here. They hire a decorator. Of course they do. They purchase expensive new art to cover the empty spaces on the walls where his things used to be. And they buy"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-45",
+      "index": 45,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "the mechanics of that for a second. They're completely overwriting his existence, his memory, and the trauma of his departure with expensive objects.\nthe mechan"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-46",
+      "index": 46,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "They're using capital to pave over a gaping emotional crater. Yes. And this is where I think a lot of people misread the book as just being about, you know, sno"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-47",
+      "index": 47,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "But this compulsory stoicism, this absolute mandate to repress all negative emotion and replace it with Tiffany Silver is actually the ultimate tool of patriarc"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-49",
+      "index": 49,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "Oh, wow. Yeah. Harris rules his entire family by completely controlling the emotional reality of the island. By demanding absolute perfection and silence, he cr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-50",
+      "index": 50,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "a legitimate complaint against him or against the toxic ecosystem he sits right on top of. That's a sharp raid because if you do complain, if you do cry or dema"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-51",
+      "index": 51,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "ethos itself. You are instantly categorized as crazy or unstable. Exactly. You cease to be a true Sinclair. It isolates the daughters and the grandchildren comp"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-52",
+      "index": 52,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "leaving them entirely dependent on his financial and emotional approval. It's an an incredibly sophisticated form of control because, as you noted, it masquerad"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-53",
+      "index": 53,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "The daughters police themselves and each other, so Harris doesn't even have to lift a finger, right? Be normal now. It's terrifying.\nThe daughters police themse"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'food' is not grounded in this segment's narration",
+      "sceneId": "scene-54",
+      "index": 54,
+      "concept": "food",
+      "severity": "diagnostic",
+      "segment": "I mean, you might not have a private island, but think about the last time you sat at a Thanksgiving table and everyone silently agreed, not to mention an uncle"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-55",
+      "index": 55,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "Everyone does it on some level. The Sinclair's just execute that dynamic with\nEveryone does it on some level. The Sinclair's just execute that dynamic with"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-56",
+      "index": 56,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "millions of dollars and lethal Yeah, lethal is the word. But here's the thing about a family built on a foundation of total denial.\nmillions of dollars and leth"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-57",
+      "index": 57,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "It is a powder keg. Oh, absolutely. You cannot pack down that much repressed human emotion, that much grief and anger without building up catastrophic pressure."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-58",
+      "index": 58,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "keg needs a spark. And for the Sinclair's, that spark arrives on a motorboat in summer 8.\nkeg needs a spark. And for the Sinclair's, that spark arrives on a mot"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-59",
+      "index": 59,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Enter Gat Patil. Gat is the foreign contaminant introduced to a sterile lab environment, and he changes the entire chemical makeup of Beachwood Island.\nEnter Ga"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-60",
+      "index": 60,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "He is the nephew of Car's partner, Ed. And from the very moment he steps off the boat, dwarfed in this oversized orange life vest,\nHe is the nephew of Car's par"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-63",
+      "index": 63,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "almost feral, brooding energy to the island. He literally compares himself to Heathcliffe from Emily Bronty's Weathering Heights. I love that detail.\nalmost fer"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-64",
+      "index": 64,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "He tells Cadence outright that he is the brute taken in by a pristine family who will never truly accept him, no matter how much he educates himself. No matter "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-66",
+      "index": 66,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Mhm. He exposes Harrison Sinclair's polite, insidious brand of racism. Let's talk about that because the text makes a point of framing Harris as a wealthy\nMhm. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-67",
+      "index": 67,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "northern Democrat, right? He considers himself liberal, enlightened, progressive. Yeah. But look at his actions as the source material lays them out.\nnorthern D"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-70",
+      "index": 70,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "that the only people of color on this entire island are himself, Jenny the housekeeper, and Paulo the groundskeeper. And that realization is such a massive turn"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-72",
+      "index": 72,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "exactly where inheritance begins. Yes, Harris might support progressive policies in the abstract, but the moment a brown boy is kissing the white air apparent i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-73",
+      "index": 73,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "The tolerance is entirely performative. It's actually worse than performative. It's conditional. Gat is constantly questioning the unearned privilege of the Sin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-74",
+      "index": 74,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "He points out the discrepancy in how the staff is treated. He highlights the wildly sheltered nature of their existence. You know, the fact that they live in th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-76",
+      "index": 76,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "but I'd actually argue that Gat only exposes the cracks that were already there. Okay. Like it's not his presence that causes the family illusion to utterly col"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-77",
+      "index": 77,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "It's an actual physical absence. Oh, you're talking about Granny Tipper. Yes. The foundation doesn't shatter because of a philosophical debate about privilege. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-78",
+      "index": 78,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "Protocol. The death of Granny Tipper. Tipper dies in October just before the fateful summer 15. And you realize very quickly reading this that Tipper was the st"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-79",
+      "index": 79,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "integrity of the entire family myth. She was the buffer. She was the one who smoothed over the rough edges, who distracted everyone from the harshness of Harris"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-80",
+      "index": 80,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "When you remove her from the equation, the three daughters, Penny, Carrie, and Bess, they have nothing left to temper their panic.\nWhen you remove her from the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'war' is not grounded in this segment's narration",
+      "sceneId": "scene-81",
+      "index": 81,
+      "concept": "war",
+      "severity": "diagnostic",
+      "segment": "They instantly devolve into outright psychological trench warfare. Trench warfare is the exact right term. It is brutal. It's undignified and it is exhausting. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-83",
+      "index": 83,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "estate. Specifically, that $4 million Boston house and the ultimate division of the Beachwood properties. This is where we see the absolute mercenary leverage o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-84",
+      "index": 84,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Harris is grieving his wife, yes, but he is also a man who only knows how to interact with the world through So, he uses his massive wealth to explicitly contro"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-85",
+      "index": 85,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "other. The text outlines how he threatens to leave his entire estate to Harvard to build a student center just to keep them begging and dancing for him.\nother. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-86",
+      "index": 86,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "He explicitly tells them, \"I can't leave the estate to crazy people.\" Think about that line.\nHe explicitly tells them, \"I can't leave the estate to crazy people"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-87",
+      "index": 87,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "I can't leave the estate to crazy people. He is weaponizing the very mental instability that his compulsory stoicism created.\nI can't leave the estate to crazy "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-89",
+      "index": 89,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "forcing them to perform this grotesque pantomime of obedience while they're actively trying to destroy each other behind his back. And this is where the sociolo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-92",
+      "index": 92,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "She explicitly instructs Cadence to remind the grandfather that she is the future of the family, implying that her cousins are lesser just to secure the deed to"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-93",
+      "index": 93,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "desperate for the Boston house. She forces Mirren to parade the younger kids.\ndesperate for the Boston house. She forces Mirren to parade the younger kids."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-96",
+      "index": 96,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "It is being mutated by proximity to extreme wealth. The mothers are no longer protecting their teenagers. No, they are pimping them out to the grandfather's ego"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-97",
+      "index": 97,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Exactly. I mean, imagine being 15 years old and watching the adults you're supposed to look up to, the women who taught you to be a little kinder than you have "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-98",
+      "index": 98,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "The hypocrisy is just staggering. The pressure of this proxy war of constantly being evaluated for your inheritance value rather than your human value. It deepl"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-99",
+      "index": 99,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "And we see this trauma manifest not just in Cadence's actions, but in how her brain\nAnd we see this trauma manifest not just in Cadence's actions, but in how he"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-100",
+      "index": 100,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "literally attempts to process the horror through fantasy. Let's get into the fairy tales. Yes. Throughout the text, interlaced with the narrative,\nliterally att"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-101",
+      "index": 101,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "Cadence writes these distorted, intensely dark fairy tales. She writes about a king with three beautiful daughters who demands they prove their love to him. She"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-102",
+      "index": 102,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "blood sacrifice, a tiny princess kept in a pocket, three billy goats, three little pigs, and it would be very easy for a reader to just gloss over these section"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-103",
+      "index": 103,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "Just a stylistic choice to break up the pacing. But they are actually the most vital psychological clues in the entire book. They absolutely are. Fairy tales ar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-104",
+      "index": 104,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "dangerous to name directly. Cadence cannot look at her grandfather, the man who buys her boats and pays for her life, and consciously admit, \"You are a manipula"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-106",
+      "index": 106,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "The dragon is such a perfect metaphor for Harris and the estate. It hoards gold.\nThe dragon is such a perfect metaphor for Harris and the estate. It hoards gold"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-108",
+      "index": 108,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "That is the manifestation of the destructive greed tearing the ants These stories are Cadence's mind desperately,\nThat is the manifestation of the destructive g"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-110",
+      "index": 110,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "Cadence is actively dissociating from reality. She literally has to turn her family into a mythical pantheon just to process the emotional violence of the Inher"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-111",
+      "index": 111,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "But writing dark little fairy tales in a notebook doesn't stop the trauma. No, it doesn't stop the ants from drinking white wine and screaming at each other on "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-112",
+      "index": 112,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "It doesn't stop Gat from feeling like he is going to be completely erased from the island if his uncle doesn't marry into the money. Disgusted by the entire sys"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-116",
+      "index": 116,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "they convince themselves that they have found the ultimate solution. They are going to burn Claremont, the grandfather's massive house, to the ground.\nthey conv"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-117",
+      "index": 117,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "The ideology behind this decision is fascinating, deeply romantic, and ultimately fatally flawed. Gat explicitly calls Claremont the seat of the patriarchy.\nThe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-119",
+      "index": 119,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "They convince themselves that if the physical house is gone, if the paperwork, the legal documents, the deeds, and all those coveted objects like the tablecloth"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-121",
+      "index": 121,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "burning the patriarch's literal castle, they will lance the boil. They believe it will cure the poison running through the family's veins and force everyone to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-123",
+      "index": 123,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "You cannot burn down a system of generational rot with a can of gasoline. No, you cannot incinerate an ideology just by destroying the building where it lives.\n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-124",
+      "index": 124,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "They confuse a symbol of power with the actual mechanism of power. The romance of their ideological rebellion, this idea that they are the brave heroes\nThey con"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-125",
+      "index": 125,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "slaying the dragon from Cadence's fairy tales is about to slam face first into the unforgiving brutal reality of The execution of this fire is where the true vi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-126",
+      "index": 126,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "lies. Because the mismatch between their poetic, high-minded idealism and the actual physical logistics of arson is They wait for the adults to leave the island"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-127",
+      "index": 127,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "to a movie off island on Martha's The liars gather gasoline jugs from the boat house. They build piles of cardboard and newspapers in the mudroom. The logistics"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-128",
+      "index": 128,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "If you read the text closely, it's a masterclass in impending doom. They assign floors.\nIf you read the text closely, it's a masterclass in impending doom. They"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-130",
+      "index": 130,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "They're spread across this massive sprawling Victorian style mansion. But they have no communication system.\nThey're spread across this massive sprawling Victor"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-134",
+      "index": 134,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "And this isn't a Hollywood movie. This is the moment romantic allegory collides with flesh, smoke, and screaming. I want to really emphasize the horror of this "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-137",
+      "index": 137,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "She lit the exits. She realizes that the top two floors are already glowing with heat. The mudroom is a solid wall of flames. And then the kitchen literally exp"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-139",
+      "index": 139,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "Marin Gat and the family's two golden retrievers upstairs in an absolute inferno. There was no way out for them.\nMarin Gat and the family's two golden retriever"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-140",
+      "index": 140,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "The stairs were gone. The windows were too high. She sealed them inside a bomb. She murdered them. She murdered the love of her life and her two best friends.\nT"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-141",
+      "index": 141,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "It was an accident born of immense hubris. But the result is exactly the same. And the trauma of this realization, the sheer unadulterated\nIt was an accident bo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-142",
+      "index": 142,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "horror of knowing that her righteous crusade resulted in her cousins burning to death is so absolute, so fundamentally worldbreaking that Cadence's brain\nhorror"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-143",
+      "index": 143,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "physically cannot process it. Her mind completely shuts down to protect itself from the guilt. This psychological break leads directly into the bizarre, uncanny"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-144",
+      "index": 144,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "later. When she comes back in summer 17, Cadence is a ghost of her former self. She has complete amnesia regarding the fire.\nlater. When she comes back in summe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-145",
+      "index": 145,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "She has dyed her signature Sinclair blonde hair stark black, almost as if she is in mourning, but doesn't quite know why.\nShe has dyed her signature Sinclair bl"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-147",
+      "index": 147,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "habit of giving away almost all of her personal possessions. During this entire summer, she spends her time exclusively isolated in Cuddle Down House with Gat,\n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-148",
+      "index": 148,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Johnny, and Mirren. Now, if you are reading the book for the first time, you might just think, \"Okay, the cousins are hanging out in the guest\nJohnny, and Mirre"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-149",
+      "index": 149,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "But if you look closely at the source text for Summer 17, the author leaves massive, incredibly unsettling clues for the reader that something is terribly, deep"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-150",
+      "index": 150,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "The atmosphere is entirely uncanny. The liars never leave Cuddle Down. They never go down to the main house. They never interact with the adults or the younger "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-153",
+      "index": 153,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "a massive clue. her compulsion to give away all her things, her books, her clothes, her On the surface, she tells herself she's just living a minimalist, anti-m"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-154",
+      "index": 154,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "thinks she is rebelling against her family's toxic obsession with objects and ownership.\nthinks she is rebelling against her family's toxic obsession with objec"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-155",
+      "index": 155,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "But subconsciously, she is actively trying to erase herself. She is trying to strip her identity down to nothing because the crushing weight of what she has don"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-157",
+      "index": 157,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "from hitting her head in the water like the family I think it is a highly sophisticated defensive firewall that her mind deliberately erected.\nfrom hitting her "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-158",
+      "index": 158,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "It was built specifically to delay confronting the fact that she is a killer. And get Johnny and Mirren, the ghosts in Cuddle Down are a psychological holding E"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-159",
+      "index": 159,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "They are a manifestation of her own shattered psyche, giving her the necessary time and space she needs\nThey are a manifestation of her own shattered psyche, gi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-163",
+      "index": 163,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "Oh, wow. The amnesia protects her from her own hubris just as much as her guilt. If she remembers the fire, she has to remember why they said it.\nOh, wow. The a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-165",
+      "index": 165,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "The firewall is protecting her from the utter futility of their sacrifice. But a firewall can only hold back that level of repressed trauma for so long before i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-166",
+      "index": 166,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "mechanisms of denial fail, and everything is exposed. The dam finally breaks at the end of summer 17. Cadence goes to the scene of the fire and the memories rus"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-167",
+      "index": 167,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "She remembers the gasoline. She remembers striking the matches. She remembers the explosion, the heat, the streaming of the dogs, and the absolute reality that "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-171",
+      "index": 171,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "programming, they rebuilt. They literally constructed a new cold, hard architectural modernist version of Claremont on the exact same ashes of the old one. They"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-172",
+      "index": 172,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "their own children with sterile modernism. This brings us all the way back to our very first point about compulsory stoicism.\ntheir own children with sterile mo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-174",
+      "index": 174,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "handle the shock. But that is a convenient lie. It's a massive rationalization. The Sinclair family doesn't hide their grief just to protect Cadence. They erase"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-176",
+      "index": 176,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "never existed so they can continue to summer on their private island without having to face their own reflection. Look at how the mothers act during summer 17. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-177",
+      "index": 177,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "suddenly over. The proxy war has ended. The mothers are finally together again, leaning on each other, walking arm in-armm on the beach.\nsuddenly over. The prox"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-179",
+      "index": 179,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "their polite racism, their relentless demands for perfection. And now the children are ash. So what do they do?\ntheir polite racism, their relentless demands fo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-180",
+      "index": 180,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "They sit on the manicured lawn drinking expensive wine, smiling through the secret of three dead kids.\nThey sit on the manicured lawn drinking expensive wine, s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-181",
+      "index": 181,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "The compulsory stoicism has reached its final grotesque logical conclusion. It's the ultimate chilling realization of the text. When you attempt to burn down th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-182",
+      "index": 182,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "only thing that actually burns is the children. The sister itself, the money, the privilege, the silence, the racism, it survives completely intact. It just bui"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-183",
+      "index": 183,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "top of your ashes. The ideology was completely untouched by the flames. The tragedy didn't purify the Sinclair's.\ntop of your ashes. The ideology was completely"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-184",
+      "index": 184,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "It didn't teach them a lesson about love or humanity. It just forced them to bury their darkness even deeper under the pristine lawns of Beachwood Island.\nIt di"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-185",
+      "index": 185,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "They learned nothing except how to hide the bodies better. So, we have journeyed from the pristine curated myth of the Boston Brahman through the toxic mercenar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-187",
+      "index": 187,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "and finally crashed into the horrific silent reality of total family denial.\nand finally crashed into the horrific silent reality of total family denial."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-188",
+      "index": 188,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "The ghosts of Cuddle Down vanish and Cadence is left completely alone, trapped in a family that absolutely refuses to speak the truth.\nThe ghosts of Cuddle Down"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-189",
+      "index": 189,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "It is a brilliant, terrifying autopsy of what happens when a family values its aesthetic and its wealth over the humanity of its own members. The true monster i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-190",
+      "index": 190,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "No, the monster is the silence. I want you to think about the mythologies in your own families. Think about the rules of engagement at your own dinner tables.\nN"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-192",
+      "index": 192,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "be ugly, to be broken, to be angry in the light of day, would those kids still be alive? It leaves you wondering what is the true human cost of maintaining a pe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-193",
+      "index": 193,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "But taking it even further, I want to leave you with this final thought. If Cadence eventually inherits the island, as she's positioned to do, what happens when"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-194",
+      "index": 194,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "become its next enforcer just to protect the property? Keep diving deep and keep questioning the narratives around you. We'll see you next time.\nbecome its next"
+    }
+  ]
+}
