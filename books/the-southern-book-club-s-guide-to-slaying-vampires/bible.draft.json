@@ -1,0 +1,255 @@
+{
+  "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=the-southern-book-club-s-guide-to-slaying-vampires --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon", "office", "street", "room", "stage", "sky", "abstract",
+    "kitchen", "bedroom", "classroom", "library", "cafe", "hospital",
+    "court", "forest", "shore", "highway", "workstation", "startupGarage",
+    "serverRoom", "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock", "butterfly", "subway", "car", "coffee", "codeWindow",
+    "rocketLaunch", "funnelMetrics", "dollarExchange", "laptopMockup",
+    "crash", "ledge", "water", "grave", "medical", "notes", "phone",
+    "school", "home", "family", "road", "storm", "star", "heart", "fire",
+    "tree", "mask", "mirror", "key", "law", "photo", "war", "game",
+    "work", "city", "food", "coin", "door", "lightbulb", "shadowSelf",
+    "puppeteer", "chains", "compass", "dominoCascade", "icebergDepth",
+    "funnelTrap", "thirtyTyrants", "ringOfGyges", "caveAllegory",
+    "shipOfState", "tripartiteSoul", "kallipolis", "fiveRegimes",
+    "mythOfEr", "boulder", "summit", "ladder", "crack", "clock",
+    "balance", "book", "shield", "trophy", "hourglass", "sword",
+    "target", "magnifier", "wallet", "gift", "inheritance", "zap"
+  ],
+  "bible": {
+    "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+    "world": {
+      "era": "1990s",
+      "worldId": "suburban-south-carolina",
+      "approxYear": 1993,
+      "setting": "Mount Pleasant, South Carolina — an affluent, segregated 1990s suburb with manicured lawns, carpool routes, and a historically Black community (Six Mile) just across the highway",
+      "register": "domestic horror — the menace hides behind Southern gentility and HOA respectability",
+      "forbid": [
+        "codeWindow", "laptopMockup", "rocketLaunch", "funnelMetrics",
+        "dollarExchange", "subway", "serverRoom", "startupGarage",
+        "thirtyTyrants", "ringOfGyges", "caveAllegory", "shipOfState",
+        "tripartiteSoul", "kallipolis", "fiveRegimes", "mythOfEr"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "the-southern-book-club-s-guide-to-slaying-vampires",
+      "worldId": "suburban-south-carolina",
+      "allowedMotifs": [
+        "home", "family", "road", "door", "key", "mask", "mirror",
+        "chains", "shield", "grave", "fire", "shadowSelf", "puppeteer",
+        "magnifier", "law", "book", "heart", "medical", "phone",
+        "car", "food", "tree", "storm", "balance", "sword", "target",
+        "icebergDepth", "dominoCascade", "hourglass", "clock"
+      ],
+      "forbiddenMotifs": [
+        "codeWindow", "laptopMockup", "rocketLaunch", "funnelMetrics",
+        "dollarExchange", "subway", "ringOfGyges", "caveAllegory"
+      ],
+      "allowedCharacters": [
+        "patricia", "james", "carter", "mrs-green", "slick", "grace", "everyman"
+      ],
+      "allowedLocations": [
+        "kitchen", "room", "street", "highway", "hospital", "library",
+        "bedroom", "forest", "horizon", "abstract"
+      ],
+      "allowedProps": [
+        "casserole", "trueCrimeBook", "snake"
+      ]
+    },
+    "cast": {
+      "patricia": {
+        "name": "Patricia Campbell",
+        "role": "protagonist — suburban housewife, book club founder, the one who sees the monster first",
+        "look": "White woman in her late thirties, medium build, shoulder-length brown hair pinned back, wearing a floral print dress with an apron, tired eyes, 1990s suburban mother",
+        "variant": {
+          "gender": "f", "age": "adult", "build": "average",
+          "outfit": "apron", "suit": "#6B8E6B", "shirt": "#F5E6D3",
+          "skin": "#E8C4A0", "hair": "#7B5B3A",
+          "hairStyle": "long", "headwear": "none",
+          "beard": "none", "glasses": false,
+          "accessory": "none"
+        }
+      },
+      "james": {
+        "name": "James Harris",
+        "role": "antagonist — the vampire, a charming Southern gentleman who feeds on the invisible",
+        "look": "Tall, lean white man in his early forties, dark slicked-back hair, sharp jaw, immaculate navy blazer over a crisp white shirt, unsettlingly polished smile, 1990s real estate investor look",
+        "variant": {
+          "gender": "m", "age": "adult", "build": "slight",
+          "outfit": "suit", "suit": "#1B2A4A", "shirt": "#FFFFFF",
+          "skin": "#D4B896", "hair": "#1A1A1A",
+          "hairStyle": "short", "headwear": "none",
+          "beard": "none", "glasses": false,
+          "accessory": "tie"
+        }
+      },
+      "carter": {
+        "name": "Carter Campbell",
+        "role": "Patricia's husband — ambitious psychiatrist, sides with James over his own wife",
+        "look": "White man in his early forties, tall athletic build, neat sandy-brown hair parted to the side, wire-rimmed glasses, wearing a button-down shirt with rolled sleeves, doctor's confidence",
+        "variant": {
+          "gender": "m", "age": "adult", "build": "average",
+          "outfit": "casual", "suit": "#4A6B8A", "shirt": "#E8E0D4",
+          "skin": "#E0B890", "hair": "#8B7355",
+          "hairStyle": "short", "headwear": "none",
+          "beard": "none", "glasses": true,
+          "accessory": "none"
+        }
+      },
+      "mrs-green": {
+        "name": "Mrs. Green",
+        "role": "moral center — elderly Black domestic worker who sees the truth and has survived real monsters",
+        "look": "Elderly Black woman in her late sixties, small sturdy build, short gray hair under a headscarf, wearing a simple housedress, weathered hands, fierce clear eyes",
+        "variant": {
+          "gender": "f", "age": "old", "build": "slight",
+          "outfit": "dress", "suit": "#5C4033", "shirt": "#C9B8A3",
+          "skin": "#6B4226", "hair": "#A0A0A0",
+          "hairStyle": "short", "headwear": "headscarf",
+          "beard": "none", "glasses": false,
+          "accessory": "none"
+        }
+      },
+      "slick": {
+        "name": "Slick Paley",
+        "role": "book club member — terrified of her husband finding out what they read, dies in hospital",
+        "look": "White woman in her late thirties, slim build, highlighted blonde bob, wearing a pastel polo shirt and khaki shorts, tennis bracelet, country club suburban wife",
+        "variant": {
+          "gender": "f", "age": "adult", "build": "slight",
+          "outfit": "casual", "suit": "#D4A6C4", "shirt": "#F0E8DC",
+          "skin": "#F0D4B8", "hair": "#E3C87A",
+          "hairStyle": "short", "headwear": "none",
+          "beard": "none", "glasses": false,
+          "accessory": "necklace"
+        }
+      },
+      "grace": {
+        "name": "Grace",
+        "role": "book club member — called out by Mrs. Green for protecting herself but not the children of Six Mile",
+        "look": "White woman in her early forties, stocky build, reddish-brown curly hair, wearing a cardigan over a blouse, reading glasses on a chain around her neck",
+        "variant": {
+          "gender": "f", "age": "adult", "build": "heavy",
+          "outfit": "casual", "suit": "#8B4513", "shirt": "#F5E6D3",
+          "skin": "#E0C0A0", "hair": "#A0522D",
+          "hairStyle": "curly", "headwear": "none",
+          "beard": "none", "glasses": true,
+          "accessory": "necklace"
+        }
+      },
+      "everyman": {
+        "name": "Everyman",
+        "role": "generic stand-in for unnamed people, neighbors, children",
+        "look": "Nondescript adult, neutral clothing, used when no specific character is on screen",
+        "variant": {
+          "gender": "m", "age": "adult", "build": "average",
+          "outfit": "casual", "suit": "#708090", "shirt": "#D0D0D0",
+          "skin": "#D4B896", "hair": "#6B6B6B",
+          "hairStyle": "short", "headwear": "none",
+          "beard": "none", "glasses": false,
+          "accessory": "none"
+        }
+      }
+    },
+    "places": {
+      "patriciaKitchen": {
+        "set": "kitchen",
+        "look": "1990s suburban kitchen — floral wallpaper, microwave, stacked pizza boxes, wet bathing suits on chairs, a car engine on the table, casserole dishes everywhere"
+      },
+      "livingRoom": {
+        "set": "room",
+        "look": "Marjorie Fretwell's living room — chintz sofas, doilies, a circle of women reading true-crime paperbacks amid sweet tea glasses"
+      },
+      "sixMileRoad": {
+        "set": "highway",
+        "look": "Rifle Range Road heading toward Six Mile — the highway divides the affluent white suburb from the invisible Black community"
+      },
+      "hospital": {
+        "set": "hospital",
+        "look": "Small-town hospital room — fluorescent lights, thin curtains, Slick Paley dying in a sterile bed"
+      },
+      "mountPleasantStreet": {
+        "set": "street",
+        "look": "Manicured Mount Pleasant suburb — white picket fences, lush lawns, minivans in driveways, total respectability"
+      },
+      "abstract": {
+        "set": "abstract",
+        "look": "Abstract backdrop for thematic analysis beats — the economics of invisibility, systemic exploitation"
+      }
+    },
+    "objects": [
+      { "concept": "home", "mentions": 18, "why": "Mount Pleasant homes — the domestic prison the women maintain and the vampire infiltrates" },
+      { "concept": "road", "mentions": 19, "why": "Rifle Range Road / the highway that separates white Mount Pleasant from Black Six Mile — geography as moral architecture" },
+      { "concept": "shield", "mentions": 15, "why": "Southern gentility as protective armor — the social contract that shields predators" },
+      { "concept": "family", "mentions": 9, "why": "The family unit the women serve endlessly — carpools, casseroles, mother-in-law care" },
+      { "concept": "mask", "mentions": 4, "why": "James Harris's charming facade; the women's polite Southern facade hiding their true-crime knowledge" },
+      { "concept": "chains", "mentions": 3, "why": "The invisible labor that binds these women — domestic servitude disguised as love" },
+      { "concept": "law", "mentions": 7, "why": "Municipal police who won't investigate Six Mile; the legal system that protects the affluent" },
+      { "concept": "medical", "mentions": 7, "why": "Carter's psychiatric credentials weaponized against Patricia; the threat of institutionalization" },
+      { "concept": "grave", "mentions": 5, "why": "Missing children of Six Mile — deaths no one investigates" },
+      { "concept": "book", "mentions": 4, "why": "The true-crime paperbacks the book club reads — their subversive training manual for seeing predators" },
+      { "concept": "magnifier", "mentions": 4, "why": "The women's growing investigative attention — Patricia building a case against James" },
+      { "concept": "door", "mentions": 3, "why": "Carter literally inviting the vampire in, using his authority as husband to crush Patricia's resistance" }
+    ],
+    "signatureObjects": [
+      {
+        "key": "casserole",
+        "name": "Casserole Dish",
+        "why": "The casserole is the book's central symbol of invisible domestic labor — it's what Patricia delivers endlessly, what the neighborhood runs on, and ultimately the logistics network the women weaponize against the vampire. No shared icon depicts a baking dish."
+      },
+      {
+        "key": "trueCrimeBook",
+        "name": "True-Crime Paperback",
+        "why": "The trashy true-crime books are the book club's subversive training — they teach the women to recognize predator patterns that James Harris embodies. The 'book' icon is too generic; this needs a blood-splattered pulp cover."
+      },
+      {
+        "key": "snake",
+        "name": "Snake",
+        "why": "Patricia beats a snake to death with a rake in the garage bathroom — the book's first literal monster, foreshadowing the real one. Also: James as the serpent invited into paradise. No shared icon depicts a snake."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 5,
+        "claim": "Patricia's daily life is already a horror movie — the invisible labor of carpools, casseroles, and senile mother-in-law care drains her before any vampire arrives."
+      },
+      {
+        "act": "development",
+        "fromFrame": 12614,
+        "claim": "James Harris doesn't break Mount Pleasant's rules — he exploits the infrastructure the suburb already built: racial invisibility, male authority, and women's silence."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 23950,
+        "claim": "When Patricia sees the truth, her own husband weaponizes his credentials to silence her — the social contract that was supposed to protect the family protects the predator instead."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 36221,
+        "claim": "Mrs. Green names the cowardice aloud — the white women protected themselves but never the children of Six Mile — and the book confronts its own racial blind spot."
+      },
+      {
+        "act": "close",
+        "fromFrame": 48286,
+        "claim": "The casserole network, carpool logistics, and gossip channels the suburb never valued become the tactical infrastructure that kills the predator."
+      }
+    ]
+  }
+}

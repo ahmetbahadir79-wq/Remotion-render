@@ -1,0 +1,2193 @@
+{
+  "book": {
+    "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+    "title": "The Southern Book Club's Guide to Slaying Vampires",
+    "author": "Grady Hendrix",
+    "genre": "horror"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "What if the scariest thing about a vampire moving next door isn't the blood, it's that your husband thinks you're hysterical for noticing?",
+      "callout": {
+        "text": "MOVING NEXT DOOR",
+        "style": "box"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is honestly the exact chilling reality we are examining today in this deep dive. Because the real horror of Grady Hendricks's novel, The Southern Book Club's Guide to Slaying Vampires.",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Isn't that a literal monster moves into the pristine neighborhood of Mount Right.",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The true terror for you as the reader is realizing that the neighborhood's entire social contract depends absolutely on women's labor being utterly invisible.",
+      "callout": {
+        "text": "TRUE TERROR",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 4,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The vampire James Harris doesn't break the rules. He doesn't have to. He simply exploits an infrastructure that was already built for exploitation. Wow. Yeah.",
+      "callout": {
+        "text": "BREAK THE RULES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 5,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And when you really look at the mechanics of this world, you realize we aren't dealing with like a standard Gothic Dracula story where a monster descends on a misty castle.",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, not at all. We are firmly planted in Mount Pleasant, South Carolina, right on the cusp of the late 1980s bleeding into the 90s. I mean, we are looking at a world of perfectly manicured lawns, blooming aelia bushes,",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "and just this devastatingly polite society. Oh, it is aggressively polite.",
+      "callout": null
+    },
+    {
+      "i": 8,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. And our protagonist is Patricia Campbell. She lives in the affluent old village with her husband Carter, who is, you know, an ambitious psychiatrist",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "rapidly climbing the career ladder. And they have two kids. And Patricia's life is just defined by a never-ending loop of car pools, casserole deliveries,",
+      "callout": {
+        "text": "CAREER LADDER",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 10,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and managing her increasingly senile mother-in-law, Miss Mary. And to escape this suffocating perfection, Patricia joins a local women's book club.",
+      "callout": null
+    },
+    {
+      "i": 11,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Originally, they gather under the pretense of reading the great books of the Western world. You know, your heavy, obscure, respectable literary classics. The really boring stuff that makes you look smart. Exactly. But they quickly and gleefully abandon",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "that facade in favor of trashy, blood soaked true crime paperbacks. And it's precisely into this environment of bored, overworked, socially invisible housewives that a charming, parasitic stranger named",
+      "callout": {
+        "text": "BLOOD SOAKED TRUE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 13,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "James Harris arrives. But okay, to understand why James Harris is so successful, you really have to drop yourself right into the middle of Patricia's life before the supernatural even enters the picture.",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, imagine sitting on Marjorie Fretwell's living room sofa. Oh, that sofa, right? It is this enormous suffocating pink and white monstrosity. Patricia is sitting there",
+      "callout": {
+        "text": "LIVING ROOM",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 15,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "literally sweating right through her floral dress, absolutely paralyzed with dread. She is supposed to lead a highly scholarly discussion on Ellen Payton's a cry of the beloved country, but she hasn't",
+      "callout": null
+    },
+    {
+      "i": 16,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "read a single page. Not one. Because her life is just a relentless cascade of invisible domestic crisis.",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, in just one single month, her son, Blue, shoved 24 raisins up his nose.",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "requiring frantic medical attention. Her mother-in-law moved in, requiring this constant, grueling, unglamorous care like uh finding someone to install safety bars in the bathtub.",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Her daughter Corey rode her bike off the dock into the harbor. And Patricia literally had to beat a snake to death with a rake in the toilet of the garage room.",
+      "callout": {
+        "text": "GARAGE ROOM",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 20,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is exhausting just listening to it, right? So, she is sitting on that pink sofa feeling like a hollowedout shell, completely drained of her own identity before she even takes a sip of iced tea. Think about the psychology of that moment, though.",
+      "callout": null
+    },
+    {
+      "i": 21,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here's what that means for you as you're reading. Hris is establishing that the systemic, exhausting, entirely unagnowledged domestic grind is the baseline horror of this world.",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Long before a literal vampire shows up to drain Patricia's blood, her environment, her family, and her society have already drained her drive.",
+      "callout": null
+    },
+    {
+      "i": 23,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She's already a victim. Exactly. Her life force is consumed daily, drop by drop, just to keep the machinery of the old village running. The horror isn't the supernatural entity. The horror is the crushing weight of a",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "life where beating a snake to death in a toilet is just considered another Tuesday. Yeah. And despite the adrenaline and the terror of that, she's still expected to elegantly discuss South African",
+      "callout": {
+        "text": "SNAKE TO DEATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 25,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "apartheid over perfectly baked cheese straws. The domestic space is already a sight of intense unagnowledged violence and exhaustion.",
+      "callout": null
+    },
+    {
+      "i": 26,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's just relentless. And it's not isolated to Patricia either. I mean, look at Slick Paley, one of the other book club members. Slick is such a great example.",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is so overwhelmed by the sheer volume of maternal expectations that she methodically",
+      "callout": null
+    },
+    {
+      "i": 28,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "makes and freezes 60 sandwiches on the first Monday of every single month. 60 sandwiches. 60. She freezes them in this manic",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "burst of energy so she can just blindly throw one into her kids lunch boxes every morning.",
+      "callout": null
+    },
+    {
+      "i": 30,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's like watching someone trapped on a sinking ship furiously bailing water with a thimble. Yeah, that's exactly what it is. She is desperately building this bizarre hyperefficient",
+      "callout": null
+    },
+    {
+      "i": 31,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "assembly line just to survive the crushing weight of what modern motherhood demands of her. It's a survival tactic masquerading as domestic efficiency. She is trying to buy back fragments",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "of her own time and sanity. Okay, wait. Let me challenge this framing for a second because if I'm looking at this objectively, isn't this just normal chaotic '9s parenting?",
+      "callout": {
+        "text": "OWN TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 33,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, everyone stresses over packed lunches, chaotic school mornings, and aging parents. It's like a computer CPU running at 99% capacity.",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It bogged down. It frustrating, but it used just the operating system doing what it is designed to do. I see what you're saying.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But you could argue this isn't horror. It's just the mundane reality of raising a family in the suburbs. It's stressful, sure, but it's not uniquely malicious. Well, the distinction between",
+      "callout": null
+    },
+    {
+      "i": 36,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "normal stress and malicious eraser is exactly where the true horror lies. It crosses the line into eraser because of how this labor is perceived and categorized by the men who benefit from it.",
+      "callout": {
+        "text": "TRUE HORROR LIES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 37,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Her husband Carter actively refers to Patricia's life as doing nothing. Ah yes he does. He genuinely believes that.",
+      "callout": null
+    },
+    {
+      "i": 38,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He jokes others that she lives her life like a mystery novel titled Patricia Campbell and The Secret of Cooking. Three meals a day, seven days a week without losing your mind.",
+      "callout": {
+        "text": "LOSING YOUR MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 39,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So condescending. It is. He leverages her invisible labor to build his prestigious career and keep his home flawless while simultaneously mocking the immense bone deep effort it takes to maintain it. It's a social contract demanding her",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "absolute invisibility. Her suffering and exhaustion are structural required for his success yet culturally dismissed as frivolous women's work.",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So when James Harris arrives, he's just sucking into an ecosystem where draining a woman dry is already the neighborhood pastime.",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It oes like a corporate raider finding a company where the books are already cooked. He's thriving on this exact infrastructure of exploitation.",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Precisely. The system is perfectly primed for a parasite. Which naturally brings us to the book club itself and why their reading choices are so significant. When we look at their pivot to true",
+      "callout": {
+        "text": "PIVOT TO TRUE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "crime, we see something deeply profound happening under the surface. The contrast here is incredible and you can practically smell the difference in the room.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We leave Marjorie Fretwell's pristine, judgmental pink sofa and go over to Kitty Scrugs house. Talk about a change of scenery.",
+      "callout": {
+        "text": "CHANGE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 46,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is wild. Kitty lives in this decaying, chaotic former plantation house out on Seaweed Farms. The kitchen is an absolute disaster zone.",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "There are empty pizza boxes stacked up, wet bathing suits draped over chairs, and literally a disassembled car engine sitting right on the kitchen table.",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And they love it there. They do. The women are drinking cheap wine out of whatever mismatched mugs they can find. and they are enthusiastically, almost surgically",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "dissecting the axe murder of Betty Gore from the book Evidence of Love. It's chaotic. It's messy. It's unladylike. And it's incredibly vital.",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you observe this dynamic, it's crucial to understand what this space represents for them.",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here is what this means for you. These women aren't just reading trashy airport paperbacks for a cheap thrill.",
+      "callout": null
+    },
+    {
+      "i": 52,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are actively, albeit unconsciously, training themselves to see predators, right? They are studying blood spatter, behavioral patterns, the psychology of killers, and the mechanics of deception.",
+      "callout": null
+    },
+    {
+      "i": 53,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The true crime book club operates as their only tactical survival school in a world that actively demands they remain blind, polite, and compliant.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are reading Helter Skelter, the stranger beside me in cold blood. All the heavy hitters. Yes. They are studying the exact type of charming drifter monsters that James Harris represents.",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are learning how the monster gets into the house. And the men in their lives find this utterly hilarious. I mean, they treat it with such immense condescension, like children playing with muddy sticks. It's so bad that Slick Paley is",
+      "callout": null
+    },
+    {
+      "i": 56,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "terrified to tell her husband, Leland, the truth about what they're actually reading. Does she have to hide it? She literally lies to his face and says they are a Bible study group because he wouldn't allow",
+      "callout": {
+        "text": "LIES TO HIS FACE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "her to read such morbid things. The husbands fundamentally believe that women's brains are too delicate or too simple to handle complex dark material. They assume the women are just gathering to",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "gossip about recipes and scriptures. It's like watching a security guard mock the people installing an alarm system, which is a deeply dangerous irony because the women are studying the exact",
+      "callout": null
+    },
+    {
+      "i": 59,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "violence that the men are completely blissfully oblivious to. The men feel safe. The women do not. Okay, but hold on. I have a hard time buying that they are tactical geniuses here. Let me push back on this.",
+      "callout": {
+        "text": "FEEL SAFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 60,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are just reading mass market paperbacks for escapism, aren't they? I mean, it's not like Patricia and Slick sat down and consciously drafted a syllabus for urban Well, no, not conscious, right?",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are bored housewives looking for a thrill, trading boring classic literature for the equivalent of a soap opera with blood.",
+      "callout": null
+    },
+    {
+      "i": 62,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you ask them, they'd probably just say they like the And the conscious intent truly doesn't matter when you analyze the sociological function of the group.",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The subconscious need for survival is exactly why they abandon Jude the Obscure for stories of real world slaughter. They live in a society where they're fundamentally vulnerable. They're economically dependent on",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "their husband's bank accounts. They're physically smaller. They're culturally silenced. Yeah, that makes sense. So, they instinctively gravitate toward true crime because they subconsciously know they are prey.",
+      "callout": {
+        "text": "TOWARD TRUE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 65,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They studied Ted Bundy not for fun, but because Bundy prayed on women exactly like them, hiding behind a facade of charm, a handsome smile, and social respectability. Their fascination isn't a hobby.",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a defense mechanism built directly in response to that infrastructure of exploitation.",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "[snorts] They know the monster wears a nice suit. It's like they're subconsciously inoculating themselves.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are learning the language of the predator because they know the pristine white fence around their perfect suburb won't actually keep the wolves out.",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And speaking of that fence, we have to talk about the literal physical layout of this world.",
+      "callout": null
+    },
+    {
+      "i": 70,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because James Harris doesn't just exploit marriages and gender roles. He uses the geographical design of the town as a hunting ground.",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is a critical element of the narrative architecture. Mhm. Predators don't need to reinvent the wheel when the town planners have already done the work for them. Oh, absolutely. So, picture this drive because it's a journey you can physically feel while you're reading.",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Patricia leaves the safety of the old village. She drives past the perfect chameleia bushes, the immaculate manicured lawns, the million-dollar homes with their wraparound porches. She turns down Rifle Range",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Road heading toward a neighboring community called Six Mile. And it changes instantly. Instantly. The smooth pavement just vanishes.",
+      "callout": null
+    },
+    {
+      "i": 74,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Suddenly, her tires are jouncing over heavily potholed sandy dirt roads. The manicured trees are replaced by woods choked with wild vines.",
+      "callout": null
+    },
+    {
+      "i": 75,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The yards are just bare dirt. And she finally arrives at a small unpainted cinder block church. It is a completely different universe. it is physically cut off from the",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "wealth of Mount Pleasant and it is populated entirely by black families who have been forced into systemic poverty. The jarring contrast of that drive highlights the profound intentionality of urban design.",
+      "callout": null
+    },
+    {
+      "i": 77,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, here's why this matters for you. The suburb of Mount Pleasant was geographically, economically, and socially designed to make the black residents of Six Mile completely invisible to the wealthy white residents of the old village.",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Out of sight, out of mind. Exactly. James Harris doesn't have to painstakingly create an isolated hunting ground. He targets the children of Six Mile because the town's blueprint practically hands them to him on a silver platter.",
+      "callout": {
+        "text": "OUT OF MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 79,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. He knows with absolute certainty that when children go missing in Six Mile, the municipal police won't care. The local newspapers won't report it, and the wealthy white folks sitting in their air conditioned homes",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "just across the highway won't even notice. The town's apathy is his camouflage. The invisibility is so absolute, it's nauseating.",
+      "callout": null
+    },
+    {
+      "i": 81,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "There's this incredibly chilling detail in the book. An elderly black woman who works in the old village, Mrs. Green, actually spots James Harris's white van. It has tinted windows and",
+      "callout": {
+        "text": "WOMAN WHO WORKS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 82,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "it's lurking around six mile right when a child goes missing. She tells Patricia a huge risk on her part. Huge. And when Patricia brings this deeply",
+      "callout": {
+        "text": "HUGE RISK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 83,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "alarming piece of information up to her wealthy white friends in the book club, specifically Grace, the reaction is just pure unadulterated apathy.",
+      "callout": null
+    },
+    {
+      "i": 84,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Grace literally tells Patricia not to worry about it because crimes in Six Mile don't It's horrific. Think about that. A creepy white van acting like a textbook child snatcher is completely ignored purely",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "because of the zip code it's parked in. It is the weaponization of segregation. The geography dictates who is afforded humanity and who is treated as Wait, but doesn't that ignore the fact that James Harris is an ancient immortal",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "vampire? I mean, he's been alive for who knows how long, drifting across continents. He's an opportunist looking for a meal.",
+      "callout": null
+    },
+    {
+      "i": 87,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's like a bear wandering into a campsite, you know? Whoa. Bear didn't design the national park system. James Harris didn't design South Carolina's",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "racial segregation or its economic disparities. Isn't he just a monster acting like a monster? Entirely separate from human politics.",
+      "callout": null
+    },
+    {
+      "i": 89,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "I have to sharply disagree with that separation actually because it fundamentally misunderstands how systemic power works. He didn't have to design it.",
+      "callout": {
+        "text": "POWER WORKS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 90,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that is exactly the horror Hendrix is exposing. James Harris is the ultimate perfect employee of a racist system. The perfect employee.",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "I like that. Right. A vampire operates by finding the path of least resistance to blood. In the American South, that path is paved by systemic racism.",
+      "callout": {
+        "text": "SOUTH THAT PATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 92,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He exploits the blind spots that white society intentionally built to protect its own comfort and wealth. He doesn't need to use supernatural hypnosis to hide his horrific crimes in Six Miles.",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He just relies on white apathy. The system does the heavy lifting for him. He looked at a map of the town's prejudices and realized it was a menu.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He thrives on this geographic infrastructure of exploitation. And when Patricia finally pieces this together, when she connects the van, the missing kids, the strange behavior,",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "wide",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "she finally sees the monster for what he is. She doesn't decide to face him alone, though. She goes to her And this is where it gets really bad. And this leads to a scene that is without a doubt the most devastating moment",
+      "callout": {
+        "text": "DECIDE TO FACE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 96,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "in the entire book. It's worse than any bloodrinking scene. It is arguably the true climax of the psychological horror because it is the moment the safety net she thought she had completely disintegrates.",
+      "callout": null
+    },
+    {
+      "i": 97,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Imagine standing in Slick Pale's living room. It's been framed as an intervention. Patricia has spent weeks meticulously building a real case against James Harris.",
+      "callout": {
+        "text": "PALE'S LIVING ROOM",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 98,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She's sitting there on the sofa, her hands trembling, clutching detailed handwritten notes, linking his trackmarks, his license plates, the financial anomalies, and the missing children. She has the receipts.",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "She does, and she expects her friends, her community, to support her. Instead, she finds herself surrounded by the husbands of the book club. And her own husband, Carter, leans forward. Using his calm, professional,",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "deeply patronizing psychiatric voice, he tells his wife in front of everyone that she is suffering from group hysteria. It's infuriating.",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He publicly pathizes her fear. It's like watching a corporate PR firm flawlessly",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "gaslight a whistleblower into thinking they're insane. You realize in that exact moment that the true horror beat isn't a jump scare.",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here's what this means for the narrative. It isn't a vampire bearing his fangs in the dark woods. The horror is the profound isolating realization that your own partner, the person you",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "trust most in the world, will happily sacrifice your sanity and actively threaten to institutionalize you. Institutionalize her? Yes. Just to protect his financial investments and his social capital within the community.",
+      "callout": null
+    },
+    {
+      "i": 105,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He uses his professional credentials as a weapon against his own wife. It is an absolute gut punch.",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Carter doesn't just dismiss her with words. He forces Patricia to physically stand up in that room. He forces her to look at James Harris,",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the man she knows in her bones is a predator, and formally apologize to him. And then Carter warmly shakes James Harris's hand,",
+      "callout": null
+    },
+    {
+      "i": 108,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "smiles that polished southern smile, and invites the vampire to become a full permanent member of their women's book club. He literally invites the monster into their only safe space, using his authority as",
+      "callout": {
+        "text": "THEIR ONLY SAFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 109,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "a husband and a doctor to crush his wife's resistance and force her into submission. It's a masterclass in patriarchal gaslighting.",
+      "callout": null
+    },
+    {
+      "i": 110,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He completely neutralizes her by rendering her testimony clinically insane. Okay, but let's look at Carter's perspective for just a second just to play devil's advocate.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, Carter is a man of science, right? He's a medical doctor who deals in facts and diagnosis. To him, Patricia's evidence, a partial license plate, a sick child, some neighborhood rumors, it is entirely Sure.",
+      "callout": {
+        "text": "SICK CHILD",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 112,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "On the surface, from his point of view, she is leaping to wild, lielist conclusions about a wealthy, respected investor.",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Isn't Carter just acting rationally based on the logical empirical evidence he sees in front of him? Absolutely not. Because he actively and aggressively",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "refuses to look at the evidence she is trying to present. When Patricia tries to show him the patterns, he shuts her down.",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He leverages his medical authority to diagnose her with hysteria, [snorts] which let's remember is a deeply sexist historical weapon used for centuries",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "to silence women who become inconvenient. Oh, for sure. He does this because acknowledging she might be right with threaten the massive real estate deal he and the other husbands have going with James Harris. His supposed rationalism is just",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "a polite smokec screen for his greed and it's complete structural disregard for his wife's autonomy and intellect. He maintains the infrastructure of exploitation by ensuring the one woman who sees the truth is branded as",
+      "callout": {
+        "text": "SEES THE TRUTH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "crazy and safely locked away in the prison of a diagnosis. It's terrifying because Carter isn't under a vampire spell. There's no supernatural mind control happening here. He's just acting like a patriarchal jerk protecting",
+      "callout": {
+        "text": "MIND CONTROL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 119,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "his wallet and his ego. And the collateral damage of his denial is catastrophic.",
+      "callout": null
+    },
+    {
+      "i": 120,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us back to the children of Six Mile because they aren't just background details. They are the true moral engine of this entire",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "narrative. They are the undeniable tragic proof of the town's underlying rot.",
+      "callout": {
+        "text": "TRAGIC PROOF",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 122,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They represent the ultimate cost of this social contract. There is this blindingly intense scene that you just cannot shake once you read it.",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Patricia is locked in the back of a police cruiser. The blinding white light of the police spotlight is panning across the dark sandy woods near Six Mile. Patricia is screaming, throwing herself",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "against the glass, desperate, telling the officers that James Harris is out there in a van hurting a young black girl named Destiny Taylor.",
+      "callout": null
+    },
+    {
+      "i": 125,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She knows what she saw. She knows it. And the police officers look at this frantic, wealthy white woman, then look at the impoverished black neighborhood and dismissively suggest",
+      "callout": null
+    },
+    {
+      "i": 126,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the abuser is probably just the mother's boyfriend. They turn off the spotlight, pack up, and drive away, leaving a child to a monster.",
+      "callout": null
+    },
+    {
+      "i": 127,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's like watching two completely different atmospheric pressures collide. The urgent terror of the truth crashing against the immovable wall of systemic What Hendrix is doing here is forcing you to confront the",
+      "callout": {
+        "text": "URGENT TERROR",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 128,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "absolute moral bankruptcy of this community. An entire neighborhood of marginalized children is being actively hunted, prayed upon, and murdered with zero media attention, zero police investigation, and zero",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "outrage from the surrounding society. The children are treated as disposable by the very institutions designed to protect the public.",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The contrast is absolutely sickening when you lay it out. Let's look at what happens when something incredibly minor happens to a white woman in the old village. The horrible neighbor, Mrs.",
+      "callout": null
+    },
+    {
+      "i": 131,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Savage, suffers from dementia, goes feral one afternoon, and bites Patricia's earlobe in her front yard. A tiny bite. It is a minor injury, but what happens? It triggers a neighborhoodwide crisis.",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "There are immediate hospital visits, endless phone chains of gossip, neighborhood watch meetings, and a mountain of casserole deliveries to support poor Patricia.",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But over in Six Mile, a young boy named Orville Reed kills himself. Another boy, Shawn Brown, is violently murdered.",
+      "callout": null
+    },
+    {
+      "i": 134,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Destiny Taylor is assaulted. And the women of Mount Pleasant literally do not blink. It doesn't even register as real to them.",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The discrepancy in whose pain matters is staggering. The disparity in empathy isn't an accident. It is the point of the entire societal structure.",
+      "callout": null
+    },
+    {
+      "i": 136,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Wait, wait. Let's be totally honest about the book club women here, though. Do they actually care about these kids in Six Mile, or are they just bored housewives projecting their true crime obsession onto a real life mystery to give their sterile lives some That's a very fair question.",
+      "callout": {
+        "text": "REAL LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 137,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are they actually activists or just tourists in someone else's tragedy? That is the incredibly uncomfortable truth the novel refuses to hide or sugarcoat.",
+      "callout": null
+    },
+    {
+      "i": 138,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Early on, they absolutely do not care. Grace, who is the ultimate avatar of old village respectability and manners, explicitly refuses to help Patricia investigate.",
+      "callout": null
+    },
+    {
+      "i": 139,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "[snorts] She states flat out that those children aren't worthwhile to her. God, that line is so harsh. It is. The book club is absolutely complicit in the violence. Their silence, their adherence to social",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "boundaries, and their refusal to look across the highway allow the vampire to feed for years with impunity.",
+      "callout": {
+        "text": "FEED FOR YEARS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 141,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are entirely insulated by the infrastructure of exploitation and they are perfectly happy to remain so right up until the moment the violence finally crosses the highway and enters their own pristine And the person",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "who forces them to finally see this, the character who serves as the true radical center of this book is Mrs. Green. She is the ghost in the machine that the wealthy white characters completely overlook.",
+      "callout": null
+    },
+    {
+      "i": 143,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Mrs. Green is without exaggeration one of the most compelling characters in modern horror literature. Her strength is rooted entirely in reality, not",
+      "callout": null
+    },
+    {
+      "i": 144,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is an elderly black woman who works as a home health aid and a house cleaner for these wealthy white families.",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She cleans their toilets. She tends to their dying parents. Let's drop into this pivotal heartbreaking scene.",
+      "callout": {
+        "text": "THEIR DYING PARENTS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 146,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Slick Paley is dying in the hospital. The book club is gathered around weeping, focused entirely on their own tragedy.",
+      "callout": null
+    },
+    {
+      "i": 147,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Mrs. Green walks into the room. The tension in that room, oh, it's palpable. She is furious. She is dignified. And she stares down these wealthy white women who utterly abandoned her community when she begged for their",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "help with the missing children. She looks right at Grace, whose house she has cleaned meticulously for years, and asks the most devastating question you could possibly ask.",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Do you even know my children's names? And Grace, who prides herself on her perfect manners, her etiquette, and knowing everything about everyone in the old village, is speechless.",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She doesn't know. If you are analyzing the text, here is what you realize in that hospital room.",
+      "callout": null
+    },
+    {
+      "i": 151,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Mrs. Green is the undisputed moral center of the universe Hendrix has built. She's a woman who has survived real historical monsters, systemic poverty, generational racism, the",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "historical trauma of her past living in the American South. She becomes the book club's most potent weapon",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "exactly because society has deemed her invisible. She can see the monster clearly because she's been forced to look at monsters her entire life just to And she uses that invisibility.",
+      "callout": {
+        "text": "ENTIRE LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 154,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's brilliant. Even after Patricia temporarily abandons her, retreating back into the safety of her white privilege and her suffocating marriage, Mrs.",
+      "callout": null
+    },
+    {
+      "i": 155,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Green keeps working. She doesn't She bites her time. She quietly dusts Grace's house, keeping her head down, acting exactly like the invisible, compliant help they expect her to be. But she whispers to Patricia, \"I'm",
+      "callout": {
+        "text": "BITES HER TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 156,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "on your side.\" And it's Mrs. Green, who uses her access to James Harris's house as a cleaner to snoop around and find the crucial physical evidence, Francine's uncollected letters from Kmart that proves beyond a shadow of a doubt",
+      "callout": null
+    },
+    {
+      "i": 157,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "that he is a killer. She weaponizes her own erasure. She turns their blind spot into a tactical She does, and it is a brilliant subversive act,",
+      "callout": {
+        "text": "TURNS THEIR BLIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 158,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But we must also acknowledge the tragic limitations placed upon her by the world she lives in. Right? Okay. Let me ask the obvious question then.",
+      "callout": null
+    },
+    {
+      "i": 159,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "If Mrs. Green is so radical. If she sees the truth so clearly and she literally has the physical evidence in her hands, why doesn't she just destroy James Harris herself?",
+      "callout": null
+    },
+    {
+      "i": 160,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why does she need these weak, compromised, cowardly white women to do it for her? Because of the grim, unforgiving reality of the American South in the '90s, she physically, legally, and",
+      "callout": {
+        "text": "NEED THESE WEAK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 161,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "socially cannot act against him. Think about the power dynamics. A black domestic worker murdering a wealthy, highly connected white real estate investor in Mount Pleasant would end in her immediate Yeah, that makes grim",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "sense. The police wouldn't look for a supernatural explanation. They wouldn't care about missing kids in six miles. They would lock her away forever or worse.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She needs Patricia's white privilege. She needs the insulation and the social capital of the old village to act as a shield.",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is surviving within the infrastructure of exploitation by carefully directing its own resources against the predator.",
+      "callout": null
+    },
+    {
+      "i": 165,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is incredibly bleak, but tactically brilliant. It's like hacking the system from the inside. And to finally break that infrastructure, to finally get these compliant white women to act, Patricia has to tap into a rage that maps perfectly onto how",
+      "callout": {
+        "text": "BREAK",
+        "style": "box"
+      }
+    },
+    {
+      "i": 166,
+      "shot": "insert",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "MOMENT",
+          "PICTURE THIS SCENE"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "women's anger is policed and treated in the real world. The escalation of Patricia's anger is meticulously plotted, mirroring the sociological reality of female rage. Picture this scene because it's the moment",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the polite facade finally shatters. Patricia goes to Grace's house, desperate to convince her that James Harris is a monster, that the evidence is real. Grace is standing at her kitchen table,",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "meticulously washing her grandmother's antique china. Of course, she is. She is dipping fragile, expensive saucers into soapy water, then into clean water.",
+      "callout": null
+    },
+    {
+      "i": 169,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "obsessively focusing on the delicate etiquette of cleaning while children in Six Mile are literally dying.",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's like pulling a fire alarm in a burning building and watching someone complain about the noise. Patricia finally snaps. She erupts, screaming at Grace, forcefully calling out the hollow, cowardly perfection",
+      "callout": {
+        "text": "FIRE ALARM",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 171,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "of her life, shattering the polite southern facade right there in the kitchen. The metaphor playing out here is vital for you to understand. To be heard in a society that demands quiet compliance, a woman must embrace",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the exact hysteria she is constantly accused of. Polite concern achieves absolutely nothing.",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Handing over wellorganized notes achieves nothing. To get anyone to take the threat seriously, Patricia has to literally burn down her own social standing.",
+      "callout": null
+    },
+    {
+      "i": 174,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She has to scream. She has to face a psychiatric hold arranged by her own husband. And she must embrace absolute",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "unladylike destructive fury. And it goes to terrifying, deeply visceral extremes. I mean, to finally trap James Harris, Patricia has to offer herself as literal bait.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She kneels before him in an empty house, offering up her own body, allowing this monster to bite deeply into her thigh and feed on her blood. It's hard to read.",
+      "callout": {
+        "text": "OWN BODY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 177,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She has to suffer the intoxicating, horrific drain of his bite, feeling her life slip away just to get him close enough and distracted enough for the other women to strike.",
+      "callout": {
+        "text": "CLOSE ENOUGH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 178,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She has to utilize her own physical subjugation as a weapon. It is the ultimate horrifying sacrifice of the self to destroy the abuser.",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "[snorts] She uses the fact that he views her as nothing more than a resource to trap him. Wait, wait. Let's step back and look at this from the outside for a minute.",
+      "callout": null
+    },
+    {
+      "i": 180,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Patricia jumping straight to my charming neighbor is a literal blood sucking vampire. I crazy. From the outside, looking at this objectively, she looks like she's completely lost her mind.",
+      "callout": {
+        "text": "LOST HER MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 181,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why wouldn't society reject that? If your neighbor started screaming about Dracula, you'd call a doctor, too. Well, yeah, but that's the genius of the narrative. She doesn't jump to vampires.",
+      "callout": null
+    },
+    {
+      "i": 182,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is the tragedy of her arc. She doesn't start with the supernatural. She builds a meticulous, grounded, entirely secular case",
+      "callout": {
+        "text": "START",
+        "style": "box"
+      }
+    },
+    {
+      "i": 183,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "of trackmarks, license plates, financial anomalies, and missing persons. She acts like a forensic",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's true. She had the folder. She only resorts to the supernatural explanation when the logical criminal truth is aggressively and violently rejected by the men in power.",
+      "callout": {
+        "text": "THAT'S TRUE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 185,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "She tries to use the master's tools, you know, logic, evidence, law, and they refuse to work for her. When human justice fundamentally fails her,",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "she is forced to confront the monster on supernatural terms. Her unhinged anger is the only force capable of breaking the infrastructure of exploitation that protects him so perfectly. She realizes you can't politely",
+      "callout": null
+    },
+    {
+      "i": 187,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "debate a parasite, which brings us to the grand finale, the absolute genius of how this book ends. It completely radically inverts the domesticity trap that has suffocated these women for hundreds of",
+      "callout": null
+    },
+    {
+      "i": 188,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is a phenomenal subversion of classic horror tropes where the final girl usually defeats the monster with a magical artifact or brute strength.",
+      "callout": null
+    },
+    {
+      "i": 189,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's look at the visceral bloody reality of this climax. James Harris lies paralyzed on the floor of the house. The women of the book club surround him, but they aren't wielding wooden stakes carved from a holy tree.",
+      "callout": {
+        "text": "JAMES HARRIS LIES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 190,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They don't have garlic or flasks of holy water. They calmly, methodically slip on green gardening knee pads to protect their joints.",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Such a great detail, right? They open a plastic cooler, the exact kind you take to a neighborhood soccer game or a PTA picnic, but it's not filled with orange slices and juice boxes. It is filled with heavy duty bow",
+      "callout": {
+        "text": "SOCCER GAME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 192,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "saws, hacksaws, and metal chain mail gloves. It is a slaughterhouse kit packed in Tupperware. What Hendrix is demonstrating here is that the master's tools can in fact dismantle the master's house",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "if repurposed correctly. The genius of the ending is that the book club weaponizes their own oppression. They don't suddenly become martial arts experts.",
+      "callout": null
+    },
+    {
+      "i": 194,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They use the exact domestic tools, the intense logistical coordination required to plan school events, and the sterile, efficient cleaning skills that kept them trapped for decades,",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "using them now to literally dismember the predator. It is chillingly efficient. It's like repurposing a factory line.",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They chop him to pieces, clean up a truly massive amount of blood, and dispose of his body parts with the exact same ruthless, invisible efficiency they used to run neighborhood car pools and deliver",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "bereavement casserles. The precise skills they honed over a lifetime of maintaining the illusion of the perfect suburb are the exact skills required to execute a perfect untraceable murder.",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "They monetize their own invisibility to get away with it. No one suspects them of this brutal act because society fundamentally believes they are incapable",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "of meaningful violent action. Their erasure becomes their alibi. Wait, but let's be real about the aftermath here.",
+      "callout": null
+    },
+    {
+      "i": 200,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Does chopping up one vampire actually solve anything if they just wash their hands, bleach the floors, and go back to their oppressive marriages and their invisible lives? Doesn't the infrastructure just reset itself",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the next morning? Carter is still a jerk. The town is still segregated. Did they actually win?",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But they don't go back. Yeah, that is the triumph of the novel. The extreme violence transforms them irrevocably.",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Patricia divorces Carter, finally freeing herself from his psychiatric gaslighting and his control.",
+      "callout": null
+    },
+    {
+      "i": 204,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Slick ultimately passes away from her illness, but she does so having reclaimed her agency and her truth. The women are forever radically changed.",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They stopped asking for permission to exist on their own terms. By killing James Harris, they completely dismantle their personal infrastructure of exploitation.",
+      "callout": null
+    },
+    {
+      "i": 206,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They refuse to be resources anymore. It is a phenomenal character arc that takes them from victims to warriors without ever leaving the suburbs.",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But as much as we are analyzing and praising this book, we need to pause and raise a genuine honest counterpoint about how Hendrix handles the racial dynamics of the story because it is a point of contention for many It is",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "a necessary and valid literary critique that we have to address The question is this. By using the extreme exploitation and literal consumption of black children in Six Mile as the catalyst for",
+      "callout": null
+    },
+    {
+      "i": 209,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "wealthy white women's empowerment, does the novel instrumentalize black suffering? Does Hendrix earn that parallel?",
+      "callout": null
+    },
+    {
+      "i": 210,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Or does the book accidentally replicate the very invisibility it is trying to critique by making Patricia, a wealthy white woman, the ultimate hero who slays the dragon while the black characters suffer the most horrific",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "losses. It is a highly complex narrative issue and the text definitely strains under this weight. To his credit, Hendrix does attempt to address it directly within the text.",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "As we discussed earlier, Mrs. Green is given incredible agency and explicitly calls out the white women's hypocrisy.",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She tells Grace to her face, \"You protected yourself, but you didn't do a thing for the children of Six Mile.\" She names their cowardice out loud.",
+      "callout": {
+        "text": "YOU PROTECTED YOURSELF",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 214,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. However, structurally, the narrative still undeniably centers the white women's emotional and physical awakening at the direct cost of black trauma.",
+      "callout": null
+    },
+    {
+      "i": 215,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The black characters lose their lives and their children so that the white characters can learn a profound lesson about their own strength and It's a messy, deeply uncomfortable tension that the book",
+      "callout": null
+    },
+    {
+      "i": 216,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "doesn't fully resolve, leaving you to wrestle with the implications of who gets to be the hero in stories that are built on foundations of systemic inequality.",
+      "callout": null
+    },
+    {
+      "i": 217,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a heavy critique and it is one that lingers long after you close the book and process the ending. But as we look back at the entirety of Patricia Campbell's journey, from the paralyzed,",
+      "callout": null
+    },
+    {
+      "i": 218,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "sweating housewife sitting on that pink sofa to the blood soaked divorced survivor holding a",
+      "callout": null
+    },
+    {
+      "i": 219,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "What What is the ultimate takeaway here? When we look at all these pieces, what does this all mean? It means that the true power in this story was never supernatural.",
+      "callout": {
+        "text": "TRUE POWER",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 220,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The book club doesn't defeat the vampire with ancient magic, silver crosses, or wooden stakes. They defeat him with the one thing the suburb never valued, never saw, and totally took for granted.",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The organized furious labor of women who finally stopped asking permission.",
+      "callout": null
+    }
+  ]
+}

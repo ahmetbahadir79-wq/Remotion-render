@@ -1,0 +1,723 @@
+{
+  "version": "P2.0",
+  "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+  "status": "PASS",
+  "counts": {
+    "scenes": 222,
+    "violations": 0,
+    "diagnostics": 79
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-02",
+      "index": 2,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Isn't that a literal monster moves into the pristine neighborhood of Mount Right.\nIsn't that a literal monster moves into the pristine neighborhood of Mount Rig"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-04",
+      "index": 4,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "The vampire James Harris doesn't break the rules. He doesn't have to. He simply exploits an infrastructure that was already built for exploitation. Wow. Yeah.\nT"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-06",
+      "index": 6,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Oh, not at all. We are firmly planted in Mount Pleasant, South Carolina, right on the cusp of the late 1980s bleeding into the 90s. I mean, we are looking at a "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-07",
+      "index": 7,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "and just this devastatingly polite society. Oh, it is aggressively polite.\nand just this devastatingly polite society. Oh, it is aggressively polite."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trueCrimeBook' is not grounded in this segment's narration",
+      "sceneId": "scene-12",
+      "index": 12,
+      "concept": "trueCrimeBook",
+      "severity": "diagnostic",
+      "segment": "that facade in favor of trashy, blood soaked true crime paperbacks. And it's precisely into this environment of bored, overworked, socially invisible housewives"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-16",
+      "index": 16,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "read a single page. Not one. Because her life is just a relentless cascade of invisible domestic crisis.\nread a single page. Not one. Because her life is just a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-17",
+      "index": 17,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "I mean, in just one single month, her son, Blue, shoved 24 raisins up his nose.\nI mean, in just one single month, her son, Blue, shoved 24 raisins up his nose."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-18",
+      "index": 18,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "requiring frantic medical attention. Her mother-in-law moved in, requiring this constant, grueling, unglamorous care like uh finding someone to install safety b"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-23",
+      "index": 23,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "She's already a victim. Exactly. Her life force is consumed daily, drop by drop, just to keep the machinery of the old village running. The horror isn't the sup"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-28",
+      "index": 28,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "makes and freezes 60 sandwiches on the first Monday of every single month. 60 sandwiches. 60. She freezes them in this manic\nmakes and freezes 60 sandwiches on "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-39",
+      "index": 39,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "So condescending. It is. He leverages her invisible labor to build his prestigious career and keep his home flawless while simultaneously mocking the immense bo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-42",
+      "index": 42,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "It oes like a corporate raider finding a company where the books are already cooked. He's thriving on this exact infrastructure of exploitation.\nIt oes like a c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-43",
+      "index": 43,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Precisely. The system is perfectly primed for a parasite. Which naturally brings us to the book club itself and why their reading choices are so significant. Wh"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-45",
+      "index": 45,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "We leave Marjorie Fretwell's pristine, judgmental pink sofa and go over to Kitty Scrugs house. Talk about a change of scenery.\nWe leave Marjorie Fretwell's pris"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-52",
+      "index": 52,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "They are actively, albeit unconsciously, training themselves to see predators, right? They are studying blood spatter, behavioral patterns, the psychology of ki"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-53",
+      "index": 53,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "The true crime book club operates as their only tactical survival school in a world that actively demands they remain blind, polite, and compliant.\nThe true cri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-56",
+      "index": 56,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "terrified to tell her husband, Leland, the truth about what they're actually reading. Does she have to hide it? She literally lies to his face and says they are"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-63",
+      "index": 63,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "The subconscious need for survival is exactly why they abandon Jude the Obscure for stories of real world slaughter. They live in a society where they're fundam"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-64",
+      "index": 64,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "their husband's bank accounts. They're physically smaller. They're culturally silenced. Yeah, that makes sense. So, they instinctively gravitate toward true cri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-65",
+      "index": 65,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "They studied Ted Bundy not for fun, but because Bundy prayed on women exactly like them, hiding behind a facade of charm, a handsome smile, and social respectab"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-66",
+      "index": 66,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "It's a defense mechanism built directly in response to that infrastructure of exploitation.\nIt's a defense mechanism built directly in response to that infrastr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-68",
+      "index": 68,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "They are learning the language of the predator because they know the pristine white fence around their perfect suburb won't actually keep the wolves out.\nThey a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-69",
+      "index": 69,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "And speaking of that fence, we have to talk about the literal physical layout of this world.\nAnd speaking of that fence, we have to talk about the literal physi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-70",
+      "index": 70,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "Because James Harris doesn't just exploit marriages and gender roles. He uses the geographical design of the town as a hunting ground.\nBecause James Harris does"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-72",
+      "index": 72,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "Patricia leaves the safety of the old village. She drives past the perfect chameleia bushes, the immaculate manicured lawns, the million-dollar homes with their"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-75",
+      "index": 75,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "The yards are just bare dirt. And she finally arrives at a small unpainted cinder block church. It is a completely different universe. it is physically cut off "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-77",
+      "index": 77,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "So, here's why this matters for you. The suburb of Mount Pleasant was geographically, economically, and socially designed to make the black residents of Six Mil"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-78",
+      "index": 78,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "Out of sight, out of mind. Exactly. James Harris doesn't have to painstakingly create an isolated hunting ground. He targets the children of Six Mile because th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-79",
+      "index": 79,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "Yeah. He knows with absolute certainty that when children go missing in Six Mile, the municipal police won't care. The local newspapers won't report it, and the"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-80",
+      "index": 80,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "just across the highway won't even notice. The town's apathy is his camouflage. The invisibility is so absolute, it's nauseating.\njust across the highway won't "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-81",
+      "index": 81,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "There's this incredibly chilling detail in the book. An elderly black woman who works in the old village, Mrs. Green, actually spots James Harris's white van. I"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-84",
+      "index": 84,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Grace literally tells Patricia not to worry about it because crimes in Six Mile don't It's horrific. Think about that. A creepy white van acting like a textbook"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-85",
+      "index": 85,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "because of the zip code it's parked in. It is the weaponization of segregation. The geography dictates who is afforded humanity and who is treated as Wait, but "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-94",
+      "index": 94,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "He thrives on this geographic infrastructure of exploitation. And when Patricia finally pieces this together, when she connects the van, the missing kids, the s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-102",
+      "index": 102,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "gaslight a whistleblower into thinking they're insane. You realize in that exact moment that the true horror beat isn't a jump scare.\ngaslight a whistleblower i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-104",
+      "index": 104,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "trust most in the world, will happily sacrifice your sanity and actively threaten to institutionalize you. Institutionalize her? Yes. Just to protect his financ"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-105",
+      "index": 105,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "He uses his professional credentials as a weapon against his own wife. It is an absolute gut punch.\nHe uses his professional credentials as a weapon against his"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-108",
+      "index": 108,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "smiles that polished southern smile, and invites the vampire to become a full permanent member of their women's book club. He literally invites the monster into"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-110",
+      "index": 110,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "He completely neutralizes her by rendering her testimony clinically insane. Okay, but let's look at Carter's perspective for just a second just to play devil's "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-117",
+      "index": 117,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "a polite smokec screen for his greed and it's complete structural disregard for his wife's autonomy and intellect. He maintains the infrastructure of exploitati"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-123",
+      "index": 123,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "Patricia is locked in the back of a police cruiser. The blinding white light of the police spotlight is panning across the dark sandy woods near Six Mile. Patri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-128",
+      "index": 128,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "absolute moral bankruptcy of this community. An entire neighborhood of marginalized children is being actively hunted, prayed upon, and murdered with zero media"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-132",
+      "index": 132,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "There are immediate hospital visits, endless phone chains of gossip, neighborhood watch meetings, and a mountain of casserole deliveries to support poor Patrici"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-133",
+      "index": 133,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "But over in Six Mile, a young boy named Orville Reed kills himself. Another boy, Shawn Brown, is violently murdered.\nBut over in Six Mile, a young boy named Orv"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-134",
+      "index": 134,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Destiny Taylor is assaulted. And the women of Mount Pleasant literally do not blink. It doesn't even register as real to them.\nDestiny Taylor is assaulted. And "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-140",
+      "index": 140,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "boundaries, and their refusal to look across the highway allow the vampire to feed for years with impunity.\nboundaries, and their refusal to look across the hig"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-141",
+      "index": 141,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "They are entirely insulated by the infrastructure of exploitation and they are perfectly happy to remain so right up until the moment the violence finally cross"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-145",
+      "index": 145,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "She cleans their toilets. She tends to their dying parents. Let's drop into this pivotal heartbreaking scene.\nShe cleans their toilets. She tends to their dying"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-152",
+      "index": 152,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "historical trauma of her past living in the American South. She becomes the book club's most potent weapon\nhistorical trauma of her past living in the American "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-153",
+      "index": 153,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "exactly because society has deemed her invisible. She can see the monster clearly because she's been forced to look at monsters her entire life just to And she "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-155",
+      "index": 155,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Green keeps working. She doesn't She bites her time. She quietly dusts Grace's house, keeping her head down, acting exactly like the invisible, compliant help t"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-159",
+      "index": 159,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "If Mrs. Green is so radical. If she sees the truth so clearly and she literally has the physical evidence in her hands, why doesn't she just destroy James Harri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-160",
+      "index": 160,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "Why does she need these weak, compromised, cowardly white women to do it for her? Because of the grim, unforgiving reality of the American South in the '90s, sh"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-162",
+      "index": 162,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "sense. The police wouldn't look for a supernatural explanation. They wouldn't care about missing kids in six miles. They would lock her away forever or worse.\ns"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-169",
+      "index": 169,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "obsessively focusing on the delicate etiquette of cleaning while children in Six Mile are literally dying.\nobsessively focusing on the delicate etiquette of cle"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-171",
+      "index": 171,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "of her life, shattering the polite southern facade right there in the kitchen. The metaphor playing out here is vital for you to understand. To be heard in a so"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-173",
+      "index": 173,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "Handing over wellorganized notes achieves nothing. To get anyone to take the threat seriously, Patricia has to literally burn down her own social standing.\nHand"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-174",
+      "index": 174,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "She has to scream. She has to face a psychiatric hold arranged by her own husband. And she must embrace absolute\nShe has to scream. She has to face a psychiatri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-175",
+      "index": 175,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "unladylike destructive fury. And it goes to terrifying, deeply visceral extremes. I mean, to finally trap James Harris, Patricia has to offer herself as literal"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'snake' is not grounded in this segment's narration",
+      "sceneId": "scene-177",
+      "index": 177,
+      "concept": "snake",
+      "severity": "diagnostic",
+      "segment": "She has to suffer the intoxicating, horrific drain of his bite, feeling her life slip away just to get him close enough and distracted enough for the other wome"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-178",
+      "index": 178,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "She has to utilize her own physical subjugation as a weapon. It is the ultimate horrifying sacrifice of the self to destroy the abuser.\nShe has to utilize her o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-179",
+      "index": 179,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "[snorts] She uses the fact that he views her as nothing more than a resource to trap him. Wait, wait. Let's step back and look at this from the outside for a mi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-181",
+      "index": 181,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Why wouldn't society reject that? If your neighbor started screaming about Dracula, you'd call a doctor, too. Well, yeah, but that's the genius of the narrative"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-182",
+      "index": 182,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "That is the tragedy of her arc. She doesn't start with the supernatural. She builds a meticulous, grounded, entirely secular case\nThat is the tragedy of her arc"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-183",
+      "index": 183,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "of trackmarks, license plates, financial anomalies, and missing persons. She acts like a forensic\nof trackmarks, license plates, financial anomalies, and missin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-185",
+      "index": 185,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "She tries to use the master's tools, you know, logic, evidence, law, and they refuse to work for her. When human justice fundamentally fails her,\nShe tries to u"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-189",
+      "index": 189,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "Let's look at the visceral bloody reality of this climax. James Harris lies paralyzed on the floor of the house. The women of the book club surround him, but th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-190",
+      "index": 190,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "They don't have garlic or flasks of holy water. They calmly, methodically slip on green gardening knee pads to protect their joints.\nThey don't have garlic or f"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-191",
+      "index": 191,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Such a great detail, right? They open a plastic cooler, the exact kind you take to a neighborhood soccer game or a PTA picnic, but it's not filled with orange s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'casserole' is not grounded in this segment's narration",
+      "sceneId": "scene-194",
+      "index": 194,
+      "concept": "casserole",
+      "severity": "diagnostic",
+      "segment": "They use the exact domestic tools, the intense logistical coordination required to plan school events, and the sterile, efficient cleaning skills that kept them"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'casserole' is not grounded in this segment's narration",
+      "sceneId": "scene-197",
+      "index": 197,
+      "concept": "casserole",
+      "severity": "diagnostic",
+      "segment": "bereavement casserles. The precise skills they honed over a lifetime of maintaining the illusion of the perfect suburb are the exact skills required to execute "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-198",
+      "index": 198,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "They monetize their own invisibility to get away with it. No one suspects them of this brutal act because society fundamentally believes they are incapable\nThey"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-200",
+      "index": 200,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "Does chopping up one vampire actually solve anything if they just wash their hands, bleach the floors, and go back to their oppressive marriages and their invis"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-201",
+      "index": 201,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "the next morning? Carter is still a jerk. The town is still segregated. Did they actually win?\nthe next morning? Carter is still a jerk. The town is still segre"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-203",
+      "index": 203,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "Patricia divorces Carter, finally freeing herself from his psychiatric gaslighting and his control.\nPatricia divorces Carter, finally freeing herself from his p"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-204",
+      "index": 204,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "Slick ultimately passes away from her illness, but she does so having reclaimed her agency and her truth. The women are forever radically changed.\nSlick ultimat"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-206",
+      "index": 206,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "They refuse to be resources anymore. It is a phenomenal character arc that takes them from victims to warriors without ever leaving the suburbs.\nThey refuse to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-215",
+      "index": 215,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "The black characters lose their lives and their children so that the white characters can learn a profound lesson about their own strength and It's a messy, dee"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'casserole' is not grounded in this segment's narration",
+      "sceneId": "scene-221",
+      "index": 221,
+      "concept": "casserole",
+      "severity": "diagnostic",
+      "segment": "The organized furious labor of women who finally stopped asking permission.\nThe organized furious labor of women who finally stopped asking permission."
+    }
+  ]
+}

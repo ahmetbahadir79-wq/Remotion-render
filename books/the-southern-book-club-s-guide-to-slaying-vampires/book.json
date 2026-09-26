@@ -1,0 +1,38 @@
+{
+  "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+  "title": "The Southern Book Club's Guide to Slaying Vampires",
+  "author": "Grady Hendrix",
+  "genre": "horror",
+  "engine": "antidote",
+  "engineRationale": "Horror fiction with suburban everywoman protagonists — no real historical figures to depict; Antidote's flat-vector rigged characters + kinetic typography capture the domesticity-vs-horror tension better than photoreal, and the genre's psychological dread suits expressive character rigs with symbolic motifs (blood, books, suburbia).",
+  "bgTint": true,
+  "palette": {
+    "paper": "#FAF7F2",
+    "ink": "#1A1412",
+    "red": "#8B1A1A",
+    "gold": "#C4973B"
+  },
+  "engineCheck": {
+    "at": "2026-09-26",
+    "fit": "antidote",
+    "confidence": "weak",
+    "voxScore": 1.9,
+    "antidoteScore": 6,
+    "signals": {
+      "year": 0,
+      "history": 0.8,
+      "second": 8.3,
+      "abstract": 3.5,
+      "sensitive": 6.2,
+      "era": 1993,
+      "words": 6001
+    },
+    "reasons": [
+      "no dominant signal — the story itself decides; contemporary fiction with a cast works in Antidote (WWL), period or documentary worlds in Vox"
+    ],
+    "risks": [
+      "violence/death 6.2/1k (> 6) → Flux will refuse many Vox images of the key scenes (CONTENT_FILTERED); Antidote draws them symbolically"
+    ],
+    "confirmed": false
+  }
+}

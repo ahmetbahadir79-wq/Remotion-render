@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-25T10:59:01.614Z",
+  "n": 13,
+  "totals": {
+    "CORRECT": 10,
+    "NEUTRAL": 2,
+    "WRONG": 1
+  },
+  "wrongRate": 0.077,
+  "blame": {
+    "face": 1,
+    "icon": 1,
+    "words": 1
+  },
+  "iconBlame": {
+    "mask": 1
+  },
+  "beats": [
+    {
+      "i": 2,
+      "verdict": "NEUTRAL",
+      "blame": "face",
+      "why": "The happy, non-threatening face and casual walk read as a normal new neighbor, so the viewer dropped the 'monster' framing entirely.",
+      "concept": "home",
+      "callout": "A MONSTER MOVES IN"
+    },
+    {
+      "i": 140,
+      "verdict": "WRONG",
+      "blame": "icon",
+      "why": "The theatre mask reads as interpersonal pretense between the two women, not the narration's point about willful social blindness letting the vampire feed unimpeded.",
+      "concept": "mask",
+      "callout": null
+    },
+    {
+      "i": 141,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "With no on-screen text, the house/highway imagery only describes the setting and misses the narration's point that violence is finally crossing into their own neighborhood.",
+      "concept": "home",
+      "callout": null
+    }
+  ]
+}

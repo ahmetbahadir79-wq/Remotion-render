@@ -1,0 +1,499 @@
+[
+  {
+    "i": 200,
+    "concept": "balance",
+    "diagram": null,
+    "callout": {
+      "text": "JUST WASH THEIR HANDS",
+      "style": "highlight"
+    },
+    "set": "kitchen",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Killing the vampire may change nothing if the women return to the same oppressive domestic lives.",
+      "concreteVisual": "Patricia alone in the kitchen again — the domestic cage she might walk right back into.",
+      "onScreenText": "JUST WASH THEIR HANDS",
+      "relationToPrevious": "After the triumph of the murder: the hosts question whether it actually matters.",
+      "addedInformation": "The kitchen — not the crime scene — is the real prison; the worry on Patricia's face says she might be trapped again."
+    }
+  },
+  {
+    "i": 201,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "NOTHING STRUCTURAL HAS CHANGED",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Carter is still a jerk, the town is still segregated — nothing structural has changed.",
+      "concreteVisual": "Carter standing unchanged and indifferent beside Patricia — the same man, the same dynamic.",
+      "onScreenText": "NOTHING STRUCTURAL HAS CHANGED",
+      "relationToPrevious": "Extends the doubt: the kitchen was the cage, now the husband is still the jailer.",
+      "addedInformation": "Carter's neutral, unbothered expression says he hasn't changed at all — the win is in question."
+    }
+  },
+  {
+    "i": 202,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TRANSFORMS THEM IRREVOCABLY",
+      "style": "reveal"
+    },
+    "set": "horizon",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "happy",
+    "action": "walk",
+    "storyboard": {
+      "claim": "But they don't go back — the violence transforms them permanently.",
+      "concreteVisual": "Patricia walking toward the horizon — she is moving forward, not returning to the kitchen.",
+      "onScreenText": "TRANSFORMS THEM IRREVOCABLY",
+      "relationToPrevious": "Answers the doubt of the previous two beats: she does NOT go back.",
+      "addedInformation": "The horizon set and forward walk say 'new beginning' — contrasts the kitchen and the room she just left."
+    }
+  },
+  {
+    "i": 203,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "DIVORCES CARTER",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia",
+      "carter"
+    ],
+    "expression": "happy",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Patricia divorces Carter, freeing herself from his gaslighting and control.",
+      "concreteVisual": "A door — she opens it and walks through, leaving Carter behind. Patricia walking away from Carter.",
+      "onScreenText": "DIVORCES CARTER",
+      "relationToPrevious": "The first concrete proof that the transformation is real: she leaves her husband.",
+      "addedInformation": "The door reads as an exit; Patricia's back is to Carter — she is walking through and leaving the marriage."
+    }
+  },
+  {
+    "i": 204,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "RECLAIMED HER TRUTH",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "slick"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "shield",
+    "storyboard": {
+      "claim": "Slick dies from her illness, but dies having reclaimed her agency.",
+      "concreteVisual": "Grave icon — she does pass away. But Slick holds a shield: she died protected by her own reclaimed truth.",
+      "onScreenText": "RECLAIMED HER TRUTH",
+      "relationToPrevious": "Second proof of transformation: even Slick, who dies, dies changed.",
+      "addedInformation": "The shield in her hand says she chose to hold onto something — her truth — rather than die passive."
+    }
+  },
+  {
+    "i": 205,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STOPPED ASKING PERMISSION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "They stopped asking permission to exist on their own terms.",
+      "concreteVisual": "Patricia pointing outward — asserting, not asking. No icon: the concept is refusal, not a drawable object.",
+      "onScreenText": "STOPPED ASKING PERMISSION",
+      "relationToPrevious": "Generalises from Patricia's divorce and Slick's death to all the women.",
+      "addedInformation": "The pointing gesture is directive, not pleading — her body language has flipped from the worried idle of beat 200."
+    }
+  },
+  {
+    "i": 206,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "VICTIMS TO WARRIORS",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "patricia",
+      "grace"
+    ],
+    "expression": "happy",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Their arc takes them from victims to warriors without ever leaving the suburbs.",
+      "concreteVisual": "Fire icon — the transformation burns away their old selves. Patricia and Grace standing in the suburban street: forged by fury, never left home.",
+      "onScreenText": "VICTIMS TO WARRIORS",
+      "relationToPrevious": "Caps the transformation arc: from caged housewife to warrior.",
+      "addedInformation": "The street set grounds them in the suburb — the fire says transformation and fury, the street says they never left."
+    }
+  },
+  {
+    "i": 207,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RACIAL DYNAMICS",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The hosts pivot to a genuine counterpoint about how Hendrix handles race in the novel.",
+      "concreteVisual": "No icon — this is a meta-critical pivot, not a story event. Everyman stands in for the hosts raising the issue.",
+      "onScreenText": "RACIAL DYNAMICS",
+      "relationToPrevious": "Hard cut from celebration to critique — the tone shifts from triumph to discomfort.",
+      "addedInformation": "The worried expression and abstract set signal that the mood has changed; this is a serious caveat."
+    }
+  },
+  {
+    "i": 208,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LITERAL CONSUMPTION OF CHILDREN",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The critique: Black children in Six Mile are literally consumed as the catalyst for white women's empowerment.",
+      "concreteVisual": "No icon — grave would soften the horror to generic death; the callout names the specific exploitation.",
+      "onScreenText": "LITERAL CONSUMPTION OF CHILDREN",
+      "relationToPrevious": "Deepens the critique just raised: names what is at stake — children's bodies.",
+      "addedInformation": "weak: the everyman stand-in is generic, but no specific character is speaking this critique — it is the hosts' analysis."
+    }
+  },
+  {
+    "i": 209,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DOES HENDRIX EARN IT",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia",
+      "mrs-green"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Does the novel instrumentalize Black suffering for white women's empowerment?",
+      "concreteVisual": "Patricia and Mrs. Green side by side — the two poles of the question. Patricia worried, Mrs. Green present.",
+      "onScreenText": "DOES HENDRIX EARN IT",
+      "relationToPrevious": "The critique sharpens into a direct question, now showing the two characters it is about.",
+      "addedInformation": "Placing Patricia and Mrs. Green together forces the viewer to see the asymmetry the hosts are naming."
+    }
+  },
+  {
+    "i": 210,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REPLICATE THE INVISIBILITY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia",
+      "mrs-green"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The book may accidentally replicate the invisibility it tries to critique — Patricia is the hero, Black characters suffer most.",
+      "concreteVisual": "Patricia in front, Mrs. Green behind — the visual hierarchy mirrors the narrative hierarchy the hosts criticise.",
+      "onScreenText": "REPLICATE THE INVISIBILITY",
+      "relationToPrevious": "Same two characters, but now their placement enacts the problem: Patricia dominant, Mrs. Green behind.",
+      "addedInformation": "The staging IS the argument: Mrs. Green is literally less visible on screen, the way she is in the novel."
+    }
+  },
+  {
+    "i": 211,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STRAINS UNDER THE WEIGHT",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The text strains under this tension, though Hendrix does try to address it directly.",
+      "concreteVisual": "No icon — the thinking pose carries the intellectual effort of wrestling with the problem.",
+      "onScreenText": "STRAINS UNDER THE WEIGHT",
+      "relationToPrevious": "Steps back from the two characters to acknowledge the difficulty is real but not ignored.",
+      "addedInformation": "The thinking gesture says this is unresolved — the host is genuinely wrestling, not pronouncing."
+    }
+  },
+  {
+    "i": 212,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INCREDIBLE AGENCY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "mrs-green"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Mrs. Green is given real agency and explicitly calls out the white women's hypocrisy.",
+      "concreteVisual": "Mrs. Green pointing — she is the one speaking, the one with authority in this moment.",
+      "onScreenText": "INCREDIBLE AGENCY",
+      "relationToPrevious": "Hendrix's defense: he gave Mrs. Green the power to name the problem.",
+      "addedInformation": "Her pointing gesture says she is accusing, not pleading — she holds moral authority."
+    }
+  },
+  {
+    "i": 213,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CHILDREN OF SIX MILE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "mrs-green",
+      "grace"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Mrs. Green tells Grace to her face: you protected yourself but not the children of Six Mile.",
+      "concreteVisual": "Mrs. Green pointing directly at Grace — the accusation is face to face, not behind her back.",
+      "onScreenText": "CHILDREN OF SIX MILE",
+      "relationToPrevious": "From Mrs. Green's general agency to her most specific, devastating line.",
+      "addedInformation": "Grace's presence on screen matters — she is the one being accused, and the viewer sees both the accuser and the accused."
+    }
+  },
+  {
+    "i": 214,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "AT THE DIRECT COST",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia",
+      "mrs-green"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Structurally, the narrative still centers white women's awakening at the direct cost of Black trauma.",
+      "concreteVisual": "Patricia and Mrs. Green side by side — Patricia sad, acknowledging the cost. No icon: balance would read as fairness/justice, but the point is unfairness.",
+      "onScreenText": "AT THE DIRECT COST",
+      "relationToPrevious": "Despite Mrs. Green's agency (previous beats), the structural problem remains.",
+      "addedInformation": "Patricia's sadness is not self-pity but acknowledgment; the abstract set strips away the comforting suburb."
+    }
+  },
+  {
+    "i": 215,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "LOSE THEIR CHILDREN",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "mrs-green"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The Black characters lose their lives and children so the white characters can learn about their own strength.",
+      "concreteVisual": "Grave icon — children literally die. Mrs. Green slumped in grief: she bears the cost.",
+      "onScreenText": "LOSE THEIR CHILDREN",
+      "relationToPrevious": "Names the specific cost from the previous beat: not abstract suffering but dead children.",
+      "addedInformation": "Mrs. Green alone on screen (no Patricia) — the beat is about what Black characters lose, not what white characters gain."
+    }
+  },
+  {
+    "i": 216,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WHO GETS TO BE THE HERO",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia",
+      "mrs-green"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The book doesn't resolve who gets to be the hero in stories built on systemic inequality.",
+      "concreteVisual": "Patricia and Mrs. Green facing the viewer — the question is left open for the audience.",
+      "onScreenText": "WHO GETS TO BE THE HERO",
+      "relationToPrevious": "Distills the last four beats of critique into one unanswered question.",
+      "addedInformation": "Neither character looks triumphant; both look uneasy — the book offers no clean answer."
+    }
+  },
+  {
+    "i": 217,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LINGERS AFTER THE BOOK",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "sad",
+    "action": "think",
+    "storyboard": {
+      "claim": "The racial critique lingers long after the book ends, but now the hosts turn back to Patricia's full arc.",
+      "concreteVisual": "Patricia thinking — processing both the critique and her journey. The transition from analysis back to her story.",
+      "onScreenText": "LINGERS AFTER THE BOOK",
+      "relationToPrevious": "Closes the critique section and pivots to the final summation of Patricia's journey.",
+      "addedInformation": "The thinking pose bridges two modes: the unresolved critique she sits with and the personal arc about to be summarised."
+    }
+  },
+  {
+    "i": 218,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BLOOD-SOAKED SURVIVOR",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "beforeAfter",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "storyboard": {
+      "claim": "Patricia's journey: from the paralysed housewife on the pink sofa to the blood-soaked divorced survivor.",
+      "concreteVisual": "Before/after split — the transformation made visible in one frame.",
+      "onScreenText": "BLOOD-SOAKED SURVIVOR",
+      "relationToPrevious": "The thinking gives way to the summary image: here is who she became.",
+      "addedInformation": "The beforeAfter shot does the work: the viewer sees the distance between housewife and survivor without needing the narration."
+    }
+  },
+  {
+    "i": 219,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "POWER WAS ALWAYS HUMAN",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The true power in the story was never supernatural — the strike crosses out the expected genre answer.",
+      "concreteVisual": "No icon — the strike-through on SUPERNATURAL does the negation visually.",
+      "onScreenText": "POWER WAS ALWAYS HUMAN",
+      "relationToPrevious": "From who Patricia became to WHY — and the answer is not magic.",
+      "addedInformation": "The strike style tells the muted viewer that the supernatural reading is being rejected."
+    }
+  },
+  {
+    "i": 220,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE SUBURB NEVER VALUED",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "patricia",
+      "grace"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "They defeat the vampire with the one thing the suburb never valued or saw.",
+      "concreteVisual": "Patricia and Grace standing in the suburban street — the setting that dismissed them is now their battlefield.",
+      "onScreenText": "THE SUBURB NEVER VALUED",
+      "relationToPrevious": "Having crossed out 'supernatural', the narration builds to what the real weapon was.",
+      "addedInformation": "The street set returns: the suburb is both the thing that ignored them and the place they won."
+    }
+  },
+  {
+    "i": 221,
+    "concept": "casserole",
+    "diagram": null,
+    "callout": {
+      "text": "STOPPED ASKING PERMISSION",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "patricia",
+      "grace"
+    ],
+    "expression": "happy",
+    "action": "walk",
+    "storyboard": {
+      "claim": "The organised furious labour of women who finally stopped asking permission.",
+      "concreteVisual": "The casserole icon — the book's central symbol of domestic labour weaponised. Patricia and Grace walking forward together.",
+      "onScreenText": "STOPPED ASKING PERMISSION",
+      "relationToPrevious": "The final answer: the suburb never valued their labour, and that labour killed the monster.",
+      "addedInformation": "The casserole is the book's signature object — domestic labour made visible — and the walking action says they are still moving forward, not stopping."
+    }
+  }
+]

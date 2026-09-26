@@ -1,0 +1,915 @@
+[
+  {
+    "i": 80,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "APATHY IS HIS CAMOUFLAGE",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "james",
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The town's willful blindness hides the predator better than any supernatural power.",
+      "concreteVisual": "James standing calmly among oblivious neighbors on the highway dividing the two communities — the mask icon says the apathy is a false face the town wears.",
+      "onScreenText": "APATHY IS HIS CAMOUFLAGE",
+      "relationToPrevious": "Continues from context: the wealthy white residents across the highway will not notice.",
+      "addedInformation": "The mask icon tells a muted viewer the town is pretending not to see."
+    }
+  },
+  {
+    "i": 81,
+    "concept": "road",
+    "diagram": null,
+    "callout": {
+      "text": "SPOTS THE WHITE VAN",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "mrs-green"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Mrs. Green spots James Harris's suspicious van near Six Mile when a child goes missing.",
+      "concreteVisual": "Mrs. Green pointing at something off-screen — the car icon is the van she sees.",
+      "onScreenText": "SPOTS THE WHITE VAN",
+      "relationToPrevious": "From the abstract apathy to a specific person who actually sees the danger.",
+      "addedInformation": "The car icon literalizes the van; Mrs. Green's worried expression says this is a threat."
+    }
+  },
+  {
+    "i": 82,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A HUGE RISK",
+      "style": "highlight"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "mrs-green",
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Mrs. Green tells Patricia about the van — a huge personal risk for her.",
+      "concreteVisual": "Mrs. Green leaning close to Patricia, speaking urgently — no icon needed, the two women and the callout carry it.",
+      "onScreenText": "A HUGE RISK",
+      "relationToPrevious": "From seeing the van to telling someone about it.",
+      "addedInformation": "The two-shot shows the interpersonal stakes: an elderly Black woman risking herself to warn a white neighbor."
+    }
+  },
+  {
+    "i": 83,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PURE UNADULTERATED APATHY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "grace",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Grace's reaction to the warning is complete apathy.",
+      "concreteVisual": "Grace sitting unmoved, arms folded, expression blank — Patricia beside her with a pleading posture. No icon: the apathy is carried by Grace's neutral idle body.",
+      "onScreenText": "PURE UNADULTERATED APATHY",
+      "relationToPrevious": "Mrs. Green risked everything to share information; now that information hits a wall of indifference.",
+      "addedInformation": "Grace's neutral idle face reads as disinterest even on mute."
+    }
+  },
+  {
+    "i": 84,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "DON'T WORRY ABOUT IT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "grace"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Grace literally tells Patricia not to worry because crimes in Six Mile don't matter to them.",
+      "concreteVisual": "Grace talking dismissively — the callout delivers her actual words.",
+      "onScreenText": "DON'T WORRY ABOUT IT",
+      "relationToPrevious": "From the abstract label of apathy to Grace's specific dismissive words.",
+      "addedInformation": "The callout puts Grace's own words on screen so a muted viewer reads the dismissal."
+    }
+  },
+  {
+    "i": 85,
+    "concept": "road",
+    "diagram": null,
+    "callout": {
+      "text": "WEAPONIZATION OF SEGREGATION",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "everyman",
+      "james"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Segregation is weaponized — geography dictates who is afforded humanity.",
+      "concreteVisual": "Everyman and James standing on the highway that divides the communities — the road icon literalizes the geographic weapon: the highway itself is the dividing line.",
+      "onScreenText": "WEAPONIZATION OF SEGREGATION",
+      "relationToPrevious": "From one woman's dismissal to the systemic thesis: the zip code determines who matters.",
+      "addedInformation": "The road icon says geography IS the weapon; the highway set reinforces the divide."
+    }
+  },
+  {
+    "i": 86,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "JUST AN OPPORTUNIST",
+      "style": "highlight"
+    },
+    "set": "horizon",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Counterpoint: James is an ancient drifter, an opportunist looking for a meal, not a political actor.",
+      "concreteVisual": "James walking alone against an open horizon — he's a wanderer, not a strategist.",
+      "onScreenText": "JUST AN OPPORTUNIST",
+      "relationToPrevious": "The other host pushes back on the systemic reading with a simpler animal explanation.",
+      "addedInformation": "The horizon set and walking action say 'drifter' to a muted viewer."
+    }
+  },
+  {
+    "i": 87,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DIDN'T DESIGN THE SYSTEM",
+      "style": "highlight"
+    },
+    "set": "forest",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Like a bear wandering into a campsite, James didn't design the segregation he exploits.",
+      "concreteVisual": "James walking through a forest — the bear-in-a-campsite analogy placed in a natural setting.",
+      "onScreenText": "DIDN'T DESIGN THE SYSTEM",
+      "relationToPrevious": "Extends the opportunist framing: the predator found the system, he didn't build it.",
+      "addedInformation": "The forest set echoes the national park analogy the narrator uses."
+    }
+  },
+  {
+    "i": 88,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "JUST A MONSTER",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Isn't he just a monster acting like a monster, entirely separate from human politics?",
+      "concreteVisual": "James standing still in an abstract space — stripped of context, just a figure.",
+      "onScreenText": "JUST A MONSTER",
+      "relationToPrevious": "The counterpoint's final reduction: a monster is a monster, nothing more.",
+      "addedInformation": "The abstract set removes the social context the other host just built, visually matching the argument."
+    }
+  },
+  {
+    "i": 89,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HE DIDN'T HAVE TO DESIGN IT",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "james",
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Sharp disagreement: not designing the system doesn't excuse exploiting it — that misunderstands systemic power.",
+      "concreteVisual": "James beside an everyman figure in abstract space — the system exists around them whether James built it or not.",
+      "onScreenText": "HE DIDN'T HAVE TO DESIGN IT",
+      "relationToPrevious": "Direct rebuttal of the 'just a monster' framing.",
+      "addedInformation": "The callout carries the host's key counter-argument on screen."
+    }
+  },
+  {
+    "i": 90,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE PERFECT EMPLOYEE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "James Harris is the ultimate perfect employee of a racist system.",
+      "concreteVisual": "James standing composed in abstract space — his stillness reads as someone fulfilling a role, not raging.",
+      "onScreenText": "THE PERFECT EMPLOYEE",
+      "relationToPrevious": "The rebuttal lands on its thesis: not a rogue monster but a functionary.",
+      "addedInformation": "The callout names the key metaphor; James's neutral idle body says 'employee doing his job.'"
+    }
+  },
+  {
+    "i": 91,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Systemic racism",
+        "Blind spots",
+        "Hunting ground"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "storyboard": {
+      "claim": "The path of least resistance to blood is paved by systemic racism.",
+      "concreteVisual": "A flow diagram: Systemic racism creates blind spots which become a hunting ground — James walking through the abstract space.",
+      "onScreenText": "Flow: Systemic racism -> Blind spots -> Hunting ground",
+      "relationToPrevious": "Structures the 'perfect employee' thesis into a causal chain.",
+      "addedInformation": "The diagram makes the system's mechanics visible without sound."
+    }
+  },
+  {
+    "i": 92,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "EXPLOITS THE BLIND SPOTS",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "james",
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "James exploits blind spots white society built for its own comfort — no hypnosis needed.",
+      "concreteVisual": "James standing on a manicured street beside an oblivious everyman — the blind spot is the neighbor's turned back.",
+      "onScreenText": "EXPLOITS THE BLIND SPOTS",
+      "relationToPrevious": "Follows the flow diagram's logic: now we see what the blind spots look like on the ground.",
+      "addedInformation": "The everyman's idle posture reads as obliviousness."
+    }
+  },
+  {
+    "i": 93,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REALIZED IT WAS A MENU",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "James looked at the town's map of prejudices and realized it was a menu.",
+      "concreteVisual": "James holding notes — the 'map' he is reading as a menu. No food icon: the metaphor is about selection, not dining.",
+      "onScreenText": "REALIZED IT WAS A MENU",
+      "relationToPrevious": "From blind spots in general to James reading the town's layout as a selection guide.",
+      "addedInformation": "The notes in his hand literalize the 'map' the narrator describes."
+    }
+  },
+  {
+    "i": 94,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "PIECES THIS TOGETHER",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Patricia finally connects the van, the missing kids, and the strange behavior.",
+      "concreteVisual": "Patricia holding notes in a room — the magnifier icon says investigation, close examination.",
+      "onScreenText": "PIECES THIS TOGETHER",
+      "relationToPrevious": "From James reading a menu to Patricia reading the evidence against him.",
+      "addedInformation": "The magnifier literalizes the detective work; notes in hand are her evidence."
+    }
+  },
+  {
+    "i": 95,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE MOST DEVASTATING MOMENT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Patricia goes to her community for help — leading to the book's most devastating scene.",
+      "concreteVisual": "Patricia walking forward, determined but afraid — heading toward what the narrator calls the worst moment.",
+      "onScreenText": "THE MOST DEVASTATING MOMENT",
+      "relationToPrevious": "She has the evidence; now she goes to present it.",
+      "addedInformation": "The callout primes the viewer that something terrible is coming."
+    }
+  },
+  {
+    "i": 96,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE SAFETY NET DISINTEGRATES",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The safety net Patricia thought she had completely falls apart — worse than any vampire scene.",
+      "concreteVisual": "Patricia slumping, defeated — her body says the support she expected is gone.",
+      "onScreenText": "THE SAFETY NET DISINTEGRATES",
+      "relationToPrevious": "The devastating moment named in the previous beat now begins to take shape.",
+      "addedInformation": "Her slumped posture tells the muted viewer she has been broken before the scene even starts."
+    }
+  },
+  {
+    "i": 97,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FRAMED AS AN INTERVENTION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia",
+      "slick"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "The scene is Slick Paley's living room, staged as an intervention against Patricia.",
+      "concreteVisual": "Patricia sitting with notes in hand, Slick beside her — a living room that feels like a trap.",
+      "onScreenText": "FRAMED AS AN INTERVENTION",
+      "relationToPrevious": "From the abstract collapse to the specific room where it happens.",
+      "addedInformation": "The callout tells the muted viewer this gathering is staged against Patricia, not for her."
+    }
+  },
+  {
+    "i": 98,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHE HAS THE RECEIPTS",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "closeUp",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Patricia sits trembling, clutching handwritten notes with all the evidence — she has the receipts.",
+      "concreteVisual": "Close-up of Patricia holding notes tightly — her worried face and trembling body say how much rides on this.",
+      "onScreenText": "SHE HAS THE RECEIPTS",
+      "relationToPrevious": "From the room's setup to Patricia's prepared evidence.",
+      "addedInformation": "The close-up and the notes make the evidence physically visible."
+    }
+  },
+  {
+    "i": 99,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SURROUNDED BY THE HUSBANDS",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "overShoulder",
+    "cast": [
+      "patricia",
+      "carter"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Instead of her friends, Patricia is surrounded by the husbands — Carter leans forward with his professional voice.",
+      "concreteVisual": "Over-shoulder from Carter leaning toward Patricia — his calm neutral face against her vulnerability.",
+      "onScreenText": "SURROUNDED BY THE HUSBANDS",
+      "relationToPrevious": "The expected support turns into an ambush.",
+      "addedInformation": "The over-shoulder shot puts the viewer behind Carter, feeling his power over Patricia."
+    }
+  },
+  {
+    "i": 100,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "GROUP HYSTERIA",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "happy",
+    "action": "point",
+    "storyboard": {
+      "claim": "Carter tells Patricia in front of everyone that she is suffering from group hysteria.",
+      "concreteVisual": "Carter pointing at Patricia — the pointing gesture says accusation, not care. His neutral face is the patronizing calm.",
+      "onScreenText": "GROUP HYSTERIA",
+      "relationToPrevious": "Carter's approach revealed: he uses a diagnosis as a weapon.",
+      "addedInformation": "The pointing action makes the power dynamic visible: he is accusing, not examining."
+    }
+  },
+  {
+    "i": 101,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PATHOLOGIZES HER FEAR",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Carter publicly pathologizes her legitimate fear.",
+      "concreteVisual": "Carter speaking with composed authority, Patricia beside him diminished — his calm talk reads as professional dismissal.",
+      "onScreenText": "PATHOLOGIZES HER FEAR",
+      "relationToPrevious": "From the diagnosis label to the act of publicly turning her fear into a symptom.",
+      "addedInformation": "The callout names the tactic the muted viewer needs to understand."
+    }
+  },
+  {
+    "i": 102,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "GASLIGHT A WHISTLEBLOWER",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "It is like watching a corporate PR firm gaslight a whistleblower into thinking they are insane.",
+      "concreteVisual": "Carter still talking smoothly, Patricia shrinking — the dynamic of a gaslighter and his target.",
+      "onScreenText": "GASLIGHT A WHISTLEBLOWER",
+      "relationToPrevious": "The narrator names the pattern: pathologizing becomes gaslighting.",
+      "addedInformation": "The callout gives the muted viewer the analogy they need."
+    }
+  },
+  {
+    "i": 103,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "YOUR OWN PARTNER",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "patricia",
+      "carter"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The real horror is that your own partner will sacrifice your sanity to protect himself.",
+      "concreteVisual": "Patricia and Carter side by side — but she is sad and isolated while he is composed. The two-shot makes the distance between them visible.",
+      "onScreenText": "YOUR OWN PARTNER",
+      "relationToPrevious": "From the gaslighting tactic to what it means: betrayal by the closest person.",
+      "addedInformation": "Patricia is first in cast now — the beat is about her devastation, not his power."
+    }
+  },
+  {
+    "i": 104,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "INSTITUTIONALIZE HER",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Carter threatens to institutionalize Patricia to protect his financial investments and social capital.",
+      "concreteVisual": "Carter pointing at Patricia — the chains icon says imprisonment, being locked away. His neutral face is the calm of a man who holds all the power.",
+      "onScreenText": "INSTITUTIONALIZE HER",
+      "relationToPrevious": "From emotional betrayal to an explicit threat of confinement.",
+      "addedInformation": "Chains reads as bound/imprisoned — the literal threat of institutionalization."
+    }
+  },
+  {
+    "i": 105,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "CREDENTIALS AS A WEAPON",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Carter uses his professional credentials as a weapon against his own wife.",
+      "concreteVisual": "Carter pointing authoritatively — the medical icon shows his PSYCHIATRIC credentials are the weapon he wields.",
+      "onScreenText": "CREDENTIALS AS A WEAPON",
+      "relationToPrevious": "From the threat of institutionalization to the tool he wields: his medical authority.",
+      "addedInformation": "The medical icon reads as clinical authority; a muted viewer sees a man weaponizing his professional credentials."
+    }
+  },
+  {
+    "i": 106,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FORCES HER TO STAND",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Carter forces Patricia to physically stand up in the room and face James Harris.",
+      "concreteVisual": "Carter pointing forcefully at Patricia — the command to stand is physical control.",
+      "onScreenText": "FORCES HER TO STAND",
+      "relationToPrevious": "From the abstract weapon of credentials to a physical act of domination.",
+      "addedInformation": "The pointing action reads as a command on mute."
+    }
+  },
+  {
+    "i": 107,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FORMALLY APOLOGIZE TO HIM",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia",
+      "james"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Patricia is forced to look at James — the predator she identified — and formally apologize.",
+      "concreteVisual": "Patricia standing stiffly, sad, facing James — her body says forced compliance, his composure says he has won.",
+      "onScreenText": "FORMALLY APOLOGIZE TO HIM",
+      "relationToPrevious": "From being forced to stand to the humiliation that follows.",
+      "addedInformation": "Patricia's sad idle posture reads as someone doing something against her will."
+    }
+  },
+  {
+    "i": 108,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "INVITES THE MONSTER IN",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Carter shakes James's hand, smiles, and invites the vampire into the book club — their only safe space.",
+      "concreteVisual": "Carter and James side by side — Carter's polished smile is a social performance, not genuine joy (the narration calls it 'that polished southern smile'). The door icon says: the way in has been opened.",
+      "onScreenText": "INVITES THE MONSTER IN",
+      "relationToPrevious": "From Patricia's humiliation to Carter literally welcoming the predator.",
+      "addedInformation": "Door reads as a way in — Carter opens it. His happy expression is the fake Southern smile the narrator describes."
+    }
+  },
+  {
+    "i": 109,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PATRIARCHAL GASLIGHTING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Carter uses his authority as husband and doctor to crush Patricia's resistance — a masterclass in patriarchal gaslighting.",
+      "concreteVisual": "Carter talking with authority, Patricia diminished beside him — the dynamic of domination.",
+      "onScreenText": "PATRIARCHAL GASLIGHTING",
+      "relationToPrevious": "The narrator names the pattern that the last several beats demonstrated.",
+      "addedInformation": "The callout gives the thesis label to the sequence the viewer just watched."
+    }
+  },
+  {
+    "i": 110,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "CLINICALLY INSANE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Carter neutralizes Patricia by rendering her testimony clinically insane — then the host shifts to devil's advocate.",
+      "concreteVisual": "Carter speaking with clinical calm — his neutral expression IS the weapon.",
+      "onScreenText": "CLINICALLY INSANE",
+      "relationToPrevious": "Summarizes what Carter achieved before the host pivots to consider his perspective.",
+      "addedInformation": "The callout puts Carter's diagnosis on screen for the muted viewer."
+    }
+  },
+  {
+    "i": 111,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A MAN OF SCIENCE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "carter"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Devil's advocate: Carter is a medical doctor who deals in facts and diagnosis.",
+      "concreteVisual": "Carter in a thinking pose — the host is momentarily granting him the benefit of rational consideration.",
+      "onScreenText": "A MAN OF SCIENCE",
+      "relationToPrevious": "Pivot from condemnation to the other host's attempt to steelman Carter.",
+      "addedInformation": "The think action and callout frame Carter as a reasonable professional — the steelman the narrator is about to demolish."
+    }
+  },
+  {
+    "i": 112,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WILD CONCLUSIONS",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "patricia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "From Carter's perspective, Patricia is leaping to wild conclusions about a respected investor.",
+      "concreteVisual": "Carter speaking with concern directed at Patricia — his worried expression frames her claims as alarming to him.",
+      "onScreenText": "WILD CONCLUSIONS",
+      "relationToPrevious": "Continues the steelman: what Patricia's evidence looks like from the other side.",
+      "addedInformation": "weak: Carter's worried expression could read as genuine concern rather than patronizing dismissal."
+    }
+  },
+  {
+    "i": 113,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CARTER IS NOT BEING RATIONAL",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "carter"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The host sharply rejects the steelman: Carter is absolutely not acting rationally.",
+      "concreteVisual": "Carter standing still in abstract space — the callout delivers the emphatic rejection of his defense.",
+      "onScreenText": "CARTER IS NOT BEING RATIONAL",
+      "relationToPrevious": "The steelman is demolished in two words.",
+      "addedInformation": "The highlight style emphasizes the sharp rebuttal."
+    }
+  },
+  {
+    "i": 114,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REFUSES TO LOOK",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "patricia",
+      "carter"
+    ],
+    "expression": "worried",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Carter actively refuses to look at the evidence Patricia tries to show him — he shuts her down.",
+      "concreteVisual": "Patricia reaching out with evidence, Carter turned away — her reaching body and his refusal are visible without sound.",
+      "onScreenText": "REFUSES TO LOOK",
+      "relationToPrevious": "The proof that Carter is not rational: he will not even examine the evidence.",
+      "addedInformation": "Patricia reaching toward someone who won't engage reads as rejection on mute."
+    }
+  },
+  {
+    "i": 115,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DIAGNOSE HER WITH HYSTERIA",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "carter"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Carter leverages medical authority to diagnose Patricia with hysteria — a sexist weapon used for centuries to silence inconvenient women.",
+      "concreteVisual": "Carter pointing in abstract space — the gesture reads as accusation, and the abstract set signals the historical scope of the weapon.",
+      "onScreenText": "DIAGNOSE HER WITH HYSTERIA",
+      "relationToPrevious": "From refusing to look at evidence to deploying a centuries-old tool of silencing.",
+      "addedInformation": "The abstract set lifts the beat from this living room to the historical pattern."
+    }
+  },
+  {
+    "i": 116,
+    "concept": "coin",
+    "diagram": null,
+    "callout": {
+      "text": "THE REAL ESTATE DEAL",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "carter",
+      "james"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Carter does this because acknowledging Patricia would threaten the massive real estate deal he and the husbands have with James.",
+      "concreteVisual": "Carter and James side by side in the room — the coin icon says money, finance. Their business relationship is the real motive.",
+      "onScreenText": "THE REAL ESTATE DEAL",
+      "relationToPrevious": "From the weapon (hysteria) to the motive (money).",
+      "addedInformation": "Coin reads as money/finance — the viewer sees the financial interest binding Carter to James."
+    }
+  },
+  {
+    "i": 117,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "A POLITE SMOKESCREEN",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "carter"
+    ],
+    "expression": "happy",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Carter's supposed rationalism is just a polite smokescreen for his greed and disregard for his wife.",
+      "concreteVisual": "Carter standing in abstract space — the mask icon says his public rationalism is a false face hiding greed.",
+      "onScreenText": "A POLITE SMOKESCREEN",
+      "relationToPrevious": "From the financial motive to the facade that covers it.",
+      "addedInformation": "Mask reads as false public face, pretending — exactly what Carter's 'rationalism' is."
+    }
+  },
+  {
+    "i": 118,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT UNDER A VAMPIRE SPELL",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "carter"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Carter is not under any supernatural spell — he is just acting like a patriarchal jerk protecting himself.",
+      "concreteVisual": "Carter standing alone, ordinary, unremarkable — the horror is that nothing supernatural is needed to explain his behavior.",
+      "onScreenText": "NOT UNDER A VAMPIRE SPELL",
+      "relationToPrevious": "The final nail: no supernatural excuse exists for Carter.",
+      "addedInformation": "The callout makes the absence of magic the point — his cruelty is entirely human."
+    }
+  },
+  {
+    "i": 119,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "COLLATERAL DAMAGE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "carter"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "wallet",
+    "storyboard": {
+      "claim": "Carter protects his wallet and ego — the collateral damage of his denial is catastrophic.",
+      "concreteVisual": "Carter holding a wallet in abstract space — the object literalizes 'his wallet' and the callout names what his protection costs others.",
+      "onScreenText": "COLLATERAL DAMAGE",
+      "relationToPrevious": "From no supernatural excuse to the concrete thing he is protecting: money.",
+      "addedInformation": "The wallet in hand makes the greed physical; the callout names the cost."
+    }
+  }
+]
