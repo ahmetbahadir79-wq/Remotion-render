@@ -1,0 +1,865 @@
+[
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "JOY AT THIRTY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "happy",
+    "holds": "wallet",
+    "i": 200,
+    "storyboard": {
+      "addedInformation": "The wallet and coin name what buys the joy — dollars, not health.",
+      "claim": "A million dollars buys enormous joy at 30.",
+      "concreteVisual": "A coin — the million dollars that buys adventure and mobility at 30.",
+      "onScreenText": "JOY AT THIRTY",
+      "relationToPrevious": "Continues the healthspan-as-wallet argument: money converts best while young."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "VERY LITTLE JOY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 201,
+    "set": "hospital",
+    "storyboard": {
+      "addedInformation": "The hospital bed shows why the money fails — the body, not the bank account.",
+      "claim": "The same million buys almost nothing at 85 with a bad hip.",
+      "concreteVisual": "None — no icon; an old patient slumped in a hospital bed, the body that cannot spend.",
+      "onScreenText": "VERY LITTLE JOY",
+      "relationToPrevious": "Same money, opposite outcome: youth celebrated, age slumps."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": null,
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": {
+      "labels": [
+        "Time",
+        "Health",
+        "Money"
+      ],
+      "type": "sorter"
+    },
+    "expression": "neutral",
+    "i": 202,
+    "storyboard": {
+      "addedInformation": "Shows the three resources as buckets the narrator then deals out across life stages.",
+      "claim": "Life is a balancing act between time, health, and money.",
+      "concreteVisual": "Three buckets — time, health, money — the triangle the hosts describe.",
+      "onScreenText": "TIME / HEALTH / MONEY",
+      "relationToPrevious": "From the 85-year-old's empty wallet to the system behind it."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "highlight",
+      "text": "IN MIDDLE AGE, NO TIME"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "clock",
+    "diagram": null,
+    "expression": "worried",
+    "i": 203,
+    "storyboard": {
+      "addedInformation": "The clock makes the missing resource visible: midlife has money and health, not hours.",
+      "claim": "In middle age you have money and health but no time.",
+      "concreteVisual": "A clock — the time consumed by career and children.",
+      "onScreenText": "IN MIDDLE AGE, NO TIME",
+      "relationToPrevious": "Deals out the triangle's middle stage after naming its three buckets."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "HEALTH IS GONE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "hourglass",
+    "diagram": null,
+    "expression": "sad",
+    "i": 204,
+    "storyboard": {
+      "addedInformation": "The hourglass marks this as the last stage — sand out, health out.",
+      "claim": "In old age you have money and time, but health is gone.",
+      "concreteVisual": "An hourglass run out beside a slumped old saver with money and hours left.",
+      "onScreenText": "HEALTH IS GONE",
+      "relationToPrevious": "The triangle's third stage, staged to visualize as promised."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "DREAM TUSCAN VILLA"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "home",
+    "diagram": null,
+    "expression": "happy",
+    "holds": "key",
+    "i": 205,
+    "storyboard": {
+      "addedInformation": "The key names the price paid — $25,000 saved over twenty years for this door.",
+      "claim": "You save $25,000 for the dream Tuscan villa pinned for decades.",
+      "concreteVisual": "The villa itself — the house from the vision board, key in hand.",
+      "onScreenText": "DREAM TUSCAN VILLA",
+      "relationToPrevious": "From the abstract third stage to its concrete example."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "KNEES CANNOT HANDLE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 206,
+    "set": "street",
+    "storyboard": {
+      "addedInformation": "Sitting (not strolling Florence) shows the knees failing that the audio only describes.",
+      "claim": "Bad knees strand you on the porch instead of walking Florence.",
+      "concreteVisual": "None — no icon reads as knees; a traveler sitting out the trip on a porch above cobblestone streets.",
+      "onScreenText": "KNEES CANNOT HANDLE",
+      "relationToPrevious": "The villa dream collapses into two weeks on the porch."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "highlight",
+      "text": "MONEY AND TIME, NO HEALTH"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 207,
+    "storyboard": {
+      "addedInformation": "Slumped shoulders say which wallet is empty — the health one, though cash is full.",
+      "claim": "Money and time mean nothing with the health wallet empty.",
+      "concreteVisual": "None — a wallet icon would read as 'no money', the opposite of the claim.",
+      "onScreenText": "MONEY AND TIME, NO HEALTH",
+      "relationToPrevious": "Names the mechanism behind the ruined villa trip."
+    },
+    "set": "room"
+  },
+  {
+    "action": "walk",
+    "callout": {
+      "style": "reveal",
+      "text": "SPEND ON YOUR HEALTH"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "heart",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 208,
+    "storyboard": {
+      "addedInformation": "Pointing at the trainer plan stages health spending as a deliberate purchase.",
+      "claim": "Trainers, sleep, food, sabbaticals are health spending, not luxury.",
+      "concreteVisual": "Everyman mid-stride on a walk, heart strong: the trainer-sleep-food prescription in motion.",
+      "onScreenText": "SPEND ON YOUR HEALTH",
+      "relationToPrevious": "From the empty wallet to how to fill it midlife."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "strike",
+      "text": "LUXURY COSTS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 209,
+    "storyboard": {
+      "addedInformation": "The strike rejects the 'luxury cost' framing the narrator refuses.",
+      "claim": "These are not luxury costs but structural investments in the exchange rate.",
+      "concreteVisual": "None — the struck-through phrase carries the rejection.",
+      "onScreenText": "LUXURY COSTS (STRUCK THROUGH)",
+      "relationToPrevious": "Rejects the label the previous beat's spending is usually given."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "BIOLOGICAL VERSUS CHRONOLOGICAL"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 210,
+    "storyboard": {
+      "addedInformation": "Perkins himself introduces the comparison the hosts then unpack.",
+      "claim": "Perkins illustrates biological versus chronological age with Ann and Betty.",
+      "concreteVisual": "None — the author presenting his comparison, no drawable object.",
+      "onScreenText": "BIOLOGICAL VERSUS CHRONOLOGICAL",
+      "relationToPrevious": "From health investing to the comparison that proves it."
+    }
+  },
+  {
+    "action": "walk",
+    "callout": {
+      "style": "reveal",
+      "text": "PRIORITIZED HER HEALTH"
+    },
+    "cast": [
+      "ann"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "i": 211,
+    "storyboard": {
+      "addedInformation": "Walking fit at 50 shows the diet-and-fitness priority in her body.",
+      "claim": "Ann, 50, prioritized health, diet, and fitness.",
+      "concreteVisual": "None — Ann herself mid-stride, the fit 50-year-old.",
+      "onScreenText": "PRIORITIZED HER HEALTH",
+      "relationToPrevious": "First half of the comparison: the woman who invested."
+    }
+  },
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "BIOLOGICALLY FORTY"
+    },
+    "cast": [
+      "ann"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "i": 212,
+    "storyboard": {
+      "addedInformation": "Celebrating ten years younger makes the cellular age visible on her face.",
+      "claim": "Ann's biological age is 40.",
+      "concreteVisual": "None — a clock would read as schedule time, not cellular age.",
+      "onScreenText": "BIOLOGICALLY FORTY",
+      "relationToPrevious": "The payoff of Ann's priority: a decade younger inside."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "NEGLECTED HER HEALTH"
+    },
+    "cast": [
+      "betty"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 213,
+    "storyboard": {
+      "addedInformation": "The slump and sedentary body stage the neglect the narration lists.",
+      "claim": "Betty neglected her health with a sedentary job and poor diet.",
+      "concreteVisual": "None — a food icon would read as dining, missing the neglect.",
+      "onScreenText": "NEGLECTED HER HEALTH",
+      "relationToPrevious": "Second half of the comparison: the woman who did not invest."
+    }
+  },
+  {
+    "action": "idle",
+    "callout": {
+      "style": "reveal",
+      "text": "HER PEAK COMES LATER"
+    },
+    "cast": [
+      "betty",
+      "ann"
+    ],
+    "concept": "heart",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 214,
+    "storyboard": {
+      "addedInformation": "The target marks the peak net-worth date each woman aims at differently.",
+      "claim": "Biologically 65, Betty peaks earlier; Ann's peak date comes later.",
+      "concreteVisual": "Ann vibrant beside a strong heart, Betty tired: healthspan sets each peak date.",
+      "onScreenText": "HER PEAK COMES LATER",
+      "relationToPrevious": "The comparison resolves into different drawdown dates."
+    }
+  },
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "AN EXTRA DECADE"
+    },
+    "cast": [
+      "ann"
+    ],
+    "concept": "heart",
+    "diagram": null,
+    "expression": "happy",
+    "i": 215,
+    "storyboard": {
+      "addedInformation": "Celebration stages what the decade buys — years of convertible experiences.",
+      "claim": "Ann's larger healthspan wallet buys an extra decade of experiences.",
+      "concreteVisual": "Ann vibrant and striding, heart strong: the larger healthspan wallet in motion.",
+      "onScreenText": "AN EXTRA DECADE",
+      "relationToPrevious": "Ann's later peak restated as time bought, not money kept."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "CAN MONEY BUY HEALTH BACK"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "neutral",
+    "holds": "coin",
+    "i": 216,
+    "storyboard": {
+      "addedInformation": "Clutching the coin stages the seductive question — can the pile buy it back?",
+      "claim": "Can I hoard wealth, grind, and buy health back later?",
+      "concreteVisual": "A coin clutched while thinking — the hoarded pile offered against aging.",
+      "onScreenText": "CAN MONEY BUY HEALTH BACK",
+      "relationToPrevious": "Pushback against the invest-early moral: why not just pay later?"
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "$5,000 FOR YOUR KNEES"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 217,
+    "storyboard": {
+      "addedInformation": "Pointing at his own knees names what the $5,000 actually protects.",
+      "claim": "$5,000 on a trainer at 50 buys more life quality per dollar.",
+      "concreteVisual": "Coins stacked against a trainer whistle and a knee brace: five thousand buying future mobility.",
+      "onScreenText": "$5,000 FOR YOUR KNEES",
+      "relationToPrevious": "Answers the buy-it-later question with the asymmetry."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "TITANIUM JOINT REPLACEMENT"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "hourglass",
+    "diagram": null,
+    "expression": "sad",
+    "i": 218,
+    "set": "hospital",
+    "storyboard": {
+      "addedInformation": "The hospital bed stages the expensive, diminished recovery cash actually buys.",
+      "claim": "Twice the savings at 70 buys a titanium joint and a hard recovery.",
+      "concreteVisual": "An hourglass running out beside the pricey surgery: decay no cash reverses.",
+      "onScreenText": "TITANIUM JOINT REPLACEMENT",
+      "relationToPrevious": "The other side of the asymmetry: what late money buys."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "AN OUNCE OF PREVENTION"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "shield",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 219,
+    "storyboard": {
+      "addedInformation": "The shield makes prevention literal — protection bought in your 40s.",
+      "claim": "Prevention in your 40s beats ten pounds of cure later.",
+      "concreteVisual": "A shield — protection bought early for the biological wallet.",
+      "onScreenText": "AN OUNCE OF PREVENTION",
+      "relationToPrevious": "The asymmetry compressed into the proverb."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "highlight",
+      "text": "THE FINAL CRESCENDO"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 220,
+    "storyboard": {
+      "addedInformation": "The host turn signals the summation — commentary, not story.",
+      "claim": "All of temporal economics builds to one final crescendo.",
+      "concreteVisual": "None — pure show transition; the host gathers the threads.",
+      "onScreenText": "THE FINAL CRESCENDO",
+      "relationToPrevious": "Pivot from the health proof to the book's closing mandate."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "SPEND WITH AUDACITY"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "i": 221,
+    "storyboard": {
+      "addedInformation": "The author's pointed finger delivers his own mandate, not the hosts'.",
+      "claim": "Memory dividends, buckets, drawdown, healthspan compress into: spend with audacity.",
+      "concreteVisual": "None — the mandate is a command, and Perkins gives it.",
+      "onScreenText": "SPEND WITH AUDACITY",
+      "relationToPrevious": "The crescendo lands as a single imperative."
+    }
+  },
+  {
+    "action": "reach",
+    "callout": {
+      "style": "reveal",
+      "text": "LIFETIME FULFILLMENT POINTS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "i": 222,
+    "storyboard": {
+      "addedInformation": "Reaching past the money stages fulfillment as the thing to grab.",
+      "claim": "Maximize lifetime fulfillment points, not net worth.",
+      "concreteVisual": "None — a trophy would read as status, the opposite of the reframe.",
+      "onScreenText": "LIFETIME FULFILLMENT POINTS",
+      "relationToPrevious": "The mandate's goal named: points, not dollars."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "PAY ME TO DELAY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 223,
+    "storyboard": {
+      "addedInformation": "The worried calculation on his face is the personal interest rate at work.",
+      "claim": "The older you get, the more delaying an experience must pay you.",
+      "concreteVisual": "None — survival odds dropping yearly live in the worried weighing, not an icon.",
+      "onScreenText": "PAY ME TO DELAY",
+      "relationToPrevious": "Prices the fulfillment goal against shrinking survival odds."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "highlight",
+      "text": "A FASCINATING SHIFT"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 224,
+    "storyboard": {
+      "addedInformation": "Host commentary marks the investing-world contrast before the finance examples.",
+      "claim": "This is a fascinating shift from traditional investing thought.",
+      "concreteVisual": "None — banter bridge; the host reacts before the return-on-equity beat.",
+      "onScreenText": "A FASCINATING SHIFT",
+      "relationToPrevious": "A breath between the interest-rate idea and its finance foil."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "OBSESS OVER RETURN"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "target",
+    "diagram": null,
+    "expression": "worried",
+    "holds": "coin",
+    "i": 225,
+    "storyboard": {
+      "addedInformation": "The exchange icon plus the clutched coin stage the yield-obsession being described.",
+      "claim": "Finance trains obsession over yields and cap rates.",
+      "concreteVisual": "Everyman fixated on a target of yields and rates: return chased, life unmeasured.",
+      "onScreenText": "OBSESS OVER RETURN",
+      "relationToPrevious": "The old lens: returns on money, about to be replaced."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "RETURN ON EXPERIENCE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "holds": "phone",
+    "i": 226,
+    "set": "kitchen",
+    "storyboard": {
+      "addedInformation": "The phone shows the booking page; the kitchen island anchors the late-night scene.",
+      "claim": "Stop calculating return on equity; calculate return on experience.",
+      "concreteVisual": "None — the man at his kitchen island staring at the New Zealand booking page.",
+      "onScreenText": "RETURN ON EXPERIENCE",
+      "relationToPrevious": "The replacement lens, staged at the island where the choice happens."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "highlight",
+      "text": "HOVERING OVER BUY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "holds": "phone",
+    "i": 227,
+    "set": "kitchen",
+    "storyboard": {
+      "addedInformation": "The hovering finger over the phone is the $10k-versus-index-fund sweat.",
+      "claim": "Ten grand for New Zealand or into the S&P 500?",
+      "concreteVisual": "None — a coin would pick a side; the hovering indecision is the beat.",
+      "onScreenText": "HOVERING OVER BUY",
+      "relationToPrevious": "The new lens tested on one sweating finger."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "BUY THE TICKET"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "i": 228,
+    "storyboard": {
+      "addedInformation": "Perkins's jabbing finger is the scream — bet while youth favors you.",
+      "claim": "Buy the ticket; bet on experience while youth and health favor you.",
+      "concreteVisual": "None — the command lands through the author's pointed insistence.",
+      "onScreenText": "BUY THE TICKET",
+      "relationToPrevious": "The hovering resolves: Perkins shouts the answer."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "PAULIE'S VACATION PROPERTY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "home",
+    "diagram": null,
+    "expression": "neutral",
+    "holds": "notes",
+    "i": 229,
+    "storyboard": {
+      "addedInformation": "The notes in hand are the cap-rate spreadsheets Paulie tortures himself with.",
+      "claim": "Paulie agonizes over buying a Central American vacation property.",
+      "concreteVisual": "The property itself — the house under analysis.",
+      "onScreenText": "PAULIE'S VACATION PROPERTY",
+      "relationToPrevious": "The book's proof story for buying the ticket."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "highlight",
+      "text": "OBSESSING OVER THREE PERCENT"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "holds": "notes",
+    "i": 230,
+    "storyboard": {
+      "addedInformation": "Poring over the notes stages analysis paralysis no finance icon could.",
+      "claim": "Paulie paralyzes himself over a measly 3% rental yield.",
+      "concreteVisual": "None — the man buried in his own yield math.",
+      "onScreenText": "OBSESSING OVER THREE PERCENT",
+      "relationToPrevious": "The property narrows to the 3% he cannot stop analyzing."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "highlight",
+      "text": "PARALYZED BY THREE PERCENT"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 231,
+    "storyboard": {
+      "addedInformation": "The slump shows paralysis winning — the return studied, the life unlived.",
+      "claim": "The 3% obsession paralyzes him.",
+      "concreteVisual": "None — paralysis is a body state, staged slumped over the numbers.",
+      "onScreenText": "PARALYZED BY THREE PERCENT",
+      "relationToPrevious": "Obsession hardens into paralysis."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "strike",
+      "text": "FORGET THE MONEY"
+    },
+    "cast": [
+      "billperkins",
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 232,
+    "storyboard": {
+      "addedInformation": "Perkins jabbing at the smaller man stages the grab the narration describes.",
+      "claim": "Perkins grabs him: forget the money.",
+      "concreteVisual": "None — a coin would stage the money plainly, defying the rejection.",
+      "onScreenText": "FORGET THE MONEY (STRUCK THROUGH)",
+      "relationToPrevious": "Perkins interrupts the paralysis with both hands."
+    }
+  },
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "BEFORE THE KIDS LEAVE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "family",
+    "diagram": null,
+    "expression": "happy",
+    "i": 233,
+    "set": "shore",
+    "storyboard": {
+      "addedInformation": "The shoreline plus the family mark the beach memories the property exists for.",
+      "claim": "The property buys family beach memories before the kids grow up.",
+      "concreteVisual": "A family on the beach — the memories Perkins demands he count.",
+      "onScreenText": "BEFORE THE KIDS LEAVE",
+      "relationToPrevious": "What to count instead of the 3%: the beach years."
+    }
+  },
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "300% IN MEMORY DIVIDENDS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "family",
+    "diagram": null,
+    "expression": "happy",
+    "i": 234,
+    "storyboard": {
+      "addedInformation": "The cascade shows dividends compounding — one trip toppling into decades of stories.",
+      "claim": "3% cash means nothing beside 300% in memory dividends.",
+      "concreteVisual": "The children at the center of the asset: the property paying its 300 percent in family memory.",
+      "onScreenText": "300% IN MEMORY DIVIDENDS",
+      "relationToPrevious": "The 3% versus 300% verdict, visualized as compounding."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "A TOTAL DISASTER"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 235,
+    "storyboard": {
+      "addedInformation": "The worried second-guess after booking stages the leap-of-faith fear.",
+      "claim": "I booked New Zealand — but what if the trip is a disaster?",
+      "concreteVisual": "None — the fear is hypothetical; staging plain disaster would endorse it.",
+      "onScreenText": "A TOTAL DISASTER",
+      "relationToPrevious": "The leap taken, the fear arrives after."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "highlight",
+      "text": "WHAT IF IT RAINS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "storm",
+    "diagram": null,
+    "expression": "worried",
+    "i": 236,
+    "storyboard": {
+      "addedInformation": "The storm plus the broken-ankle slump stage the worst case the host fears.",
+      "claim": "Rain for 28 days, a broken ankle, miserable kids, regretted cash.",
+      "concreteVisual": "The imagined disaster reel: storm clouds over the planned New Zealand trip, a fear voiced not a forecast.",
+      "onScreenText": "WHAT IF IT RAINS",
+      "relationToPrevious": "The disaster spelled out: weather, injury, misery."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "highlight",
+      "text": "FEAR OF BAD INVESTMENT"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 237,
+    "storyboard": {
+      "addedInformation": "The host's level tone pulls back from the disaster to the macro frame.",
+      "claim": "The fear of a bad investment is real — but pull back to a lifetime.",
+      "concreteVisual": "None — commentary beat; the host reframes before answering.",
+      "onScreenText": "FEAR OF BAD INVESTMENT",
+      "relationToPrevious": "From the worst case to naming the fear behind it."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "GRAVE WITH UNSPENT MONEY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "grave",
+    "diagram": null,
+    "expression": "sad",
+    "i": 238,
+    "set": "horizon",
+    "storyboard": {
+      "addedInformation": "The cemetery hill makes the grave literal — unspent money beside an unspent life.",
+      "claim": "The only irredeemable regret is the grave with unspent money.",
+      "concreteVisual": "A grave — the arrival point where unspent dollars accuse.",
+      "onScreenText": "GRAVE WITH UNSPENT MONEY",
+      "relationToPrevious": "The macro answer: one regret outweighs every bad trip."
+    }
+  },
+  {
+    "action": "celebrate",
+    "callout": {
+      "style": "reveal",
+      "text": "THE FUNNIEST STORIES"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "happy",
+    "holds": "cup",
+    "i": 239,
+    "storyboard": {
+      "addedInformation": "Raising a cup at the party stages where worst trips end up — retold laughing.",
+      "claim": "The worst trips become the funniest dinner-party stories.",
+      "concreteVisual": "None — a food icon would read as dining, but the beat is about storytelling.",
+      "onScreenText": "THE FUNNIEST STORIES",
+      "relationToPrevious": "Even the disaster beat is redeemed as future comedy."
+    }
+  }
+]

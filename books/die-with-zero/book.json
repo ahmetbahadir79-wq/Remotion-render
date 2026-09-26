@@ -1,0 +1,31 @@
+{
+  "slug": "die-with-zero",
+  "title": "Die with Zero: Getting All You Can from Your Money and Your Life",
+  "author": "Bill Perkins",
+  "genre": "nonfiction",
+  "engine": "antidote",
+  "engineRationale": "Nonfiction personal-finance / life-optimization with abstract everyman concepts (memory dividends, time buckets, drawdown curve) and no specific real people to depict — Antidote flat-vector rig + kinetic type fits; Vox photoreal cut-outs not needed.",
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-09-25",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 2.2,
+    "antidoteScore": 34.8,
+    "signals": {
+      "year": 0.3,
+      "history": 0.4,
+      "second": 54.5,
+      "abstract": 19.7,
+      "sensitive": 3,
+      "era": 2020,
+      "words": 7345
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 54.5/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)",
+      "idea vocabulary 19.7/1k (habits, decisions, attention, money…) → concepts need icons/diagrams, not photographs (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

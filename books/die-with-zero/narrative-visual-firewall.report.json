@@ -1,0 +1,795 @@
+{
+  "version": "P2.0",
+  "slug": "die-with-zero",
+  "status": "PASS",
+  "counts": {
+    "scenes": 264,
+    "violations": 0,
+    "diagnostics": 87
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-02",
+      "index": 2,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "fact that the currency has a biological expiration date. Exactly. And I want to jump straight into the deep end today because the ideas we're exploring complete"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-07",
+      "index": 7,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "We're talking about temporal economics. Temporal economics, right? So in traditional economics, you evaluate your life through the lens of currency.\nWe're talki"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-08",
+      "index": 8,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "You know, dollars, euros, stock portfolios. But temporal economics forces you to look at money as frozen Oh wow.\nYou know, dollars, euros, stock portfolios. But"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-09",
+      "index": 9,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "Frozen lifetime. Yeah, that's what it actually is. It is stored human energy. You literally traded your finite time on this planet to acquire it. And it comes w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-13",
+      "index": 13,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "savant when it comes to calculating risk and reward. And his motivation for all this didn't come from a spreadsheet. It came from looking around at his social c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-16",
+      "index": 16,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "And that observation is what drives the core thesis of this deep dive. The concept of dying with zero. And we have to clear something up Oh, definitely.\nAnd tha"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-19",
+      "index": 19,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "Perks is arguing that you must optimize your life for fulfillment points rather than net worth points. I love that. Fulfillment points over net worth points.\nPe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-24",
+      "index": 24,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "dying with millions isn't discipline. It is a massive structural miscalculation of your life's equation. Every single unspent dollar you leave behind is a fract"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-28",
+      "index": 28,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "wealth out so that it reaches exactly zero by the exact date of their death. Maximize utility. Exactly. In economics,\nwealth out so that it reaches exactly zero"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'wallet' is not grounded in this segment's narration",
+      "sceneId": "scene-39",
+      "index": 39,
+      "concept": "wallet",
+      "severity": "diagnostic",
+      "segment": "a year, solid median income. She works her entire life, retires at 65 with a net worth of which includes her home equity and her right?\na year, solid median inc"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-41",
+      "index": 41,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "But here is the kicker. She leaves behind And this is where the math gets tragic.\nBut here is the kicker. She leaves behind And this is where the math gets trag"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-43",
+      "index": 43,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "an hour. That means that leftover 130,000 represents 6,646 hours of manual labor, which translates to over 2 1/2 years\nan hour. That means that leftover 130,000"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-45",
+      "index": 45,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "middle managers, skipped lunches with friends, and ground herself down for absolutely The money was never utilized. It just sat there until she stopped breathin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-47",
+      "index": 47,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Because my immediate reaction to Elizabeth's story is, wait, but leaving a buffer is just being a functioning adult, right?\nBecause my immediate reaction to Eli"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-48",
+      "index": 48,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "You want a safety net. Exactly. Nobody has a crystal ball. You don't want to be 84 years old, realize you miscalculated by a year, and suddenly you're eating ca"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'work' is not grounded in this segment's narration",
+      "sceneId": "scene-52",
+      "index": 52,
+      "concept": "work",
+      "severity": "diagnostic",
+      "segment": "If you die with hundreds of thousands of dollars in the bank, you didn't buy safety. You bought a wasted decade in a cubicle. Man, that is harsh.\nIf you die wit"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-54",
+      "index": 54,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "memory before the window closes. Precisely. You cannot let the currency expire in your hands, which logically leads us to the next massive shift in thinking, ri"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-55",
+      "index": 55,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "If dying with unspent money is a literal waste of your life energy, the core question becomes\nIf dying with unspent money is a literal waste of your life energy"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-60",
+      "index": 60,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "It pays you a dividend at 40, at 50, at 60. The story compounds every single time you retrieve it.\nIt pays you a dividend at 40, at 50, at 60. The story compoun"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-66",
+      "index": 66,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "Exactly. A memory created on a luxury cruise at age 80 only has a few years to pay dividends before your cognitive decline or death.\nExactly. A memory created o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-71",
+      "index": 71,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "But the temporal yield, the memory dividend, it's astronomical. What this practically means for your budget and your calendar is that you desperately need to fr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-73",
+      "index": 73,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "Totally backwards. A cheap, chaotic month backpacking in your 20s vastly outs a $20,000\nTotally backwards. A cheap, chaotic month backpacking in your 20s vastly"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-77",
+      "index": 77,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "That's zero dollars, right? He didn't have a wealthy uncle. He didn't have a trust fund. So Jason borrowed $10,000 from a literal actual lone shark to fund the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-80",
+      "index": 80,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "on a lone shark's interest rate is ruinous. It's financial suicide. It is financially incredibly dangerous without question. But Perkins uses this extreme examp"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-81",
+      "index": 81,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Yes, the financial interest Jason paid upon returning was astronomically high. Insanely high. But the memory compounding interest was actually higher.\nYes, the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-82",
+      "index": 82,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Jason survived the debt he paid the lone shark off. And now decades later, he explicitly states he wouldn't trade the compounding memory dividends of that speci"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-84",
+      "index": 84,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "pack. The biological window for that specific dividend is closed forever. Exactly. He cashed in before the window It's such a radical way to view risk.\npack. Th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-85",
+      "index": 85,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "The financial risk was huge, but the risk of missing the memory compounding was actually greater to him. That's the temporal economics lens.\nThe financial risk "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-88",
+      "index": 88,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "let's talk about time buckets. It is a complete systemic rejection of the traditional bucket list. I'm so glad he attacks the bucket list because the bucket lis"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-93",
+      "index": 93,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "I love Yeah. And every single experience you want to have has an invisible expiry date based on those physiological Give me an example.\nI love Yeah. And every s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-101",
+      "index": 101,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "And the tragic part is that you assumed there would always be a next weekend to watch it. Always. What this means for your planning is that you must ruthlessly "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-103",
+      "index": 103,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "You want to do the magical Disney trip where your kid actually believes the princess is real. You have to do it at 8, not 18.\nYou want to do the magical Disney "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-116",
+      "index": 116,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "peak net worth and the draw down Oh man, the draw down. This is where Perkins takes a sledgehammer to traditional retirement planning.\npeak net worth and the dr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-119",
+      "index": 119,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "Your fortune should rise, yes, but it should crest around middle age and then you must deliberately, intentionally force it to fall towards You have to accumula"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-120",
+      "index": 120,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "And he emphasizes that your peak net worth is a biological date. It is not a financial Wait, so you not need to hit $2 million?\nAnd he emphasizes that your peak"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-125",
+      "index": 125,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Oh, okay. You watch the numbers tick past 2.5 million. You feel a quick rush of dopamine, a little pat on the back for a life well saved, But then you look out "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-128",
+      "index": 128,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "score in a video game. Once you hit your actual survival threshold, which is the mathematically calculated amount you need to cover your basic living and medica"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-131",
+      "index": 131,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Yeah. Arnold was a legendary energy trader, a guy Perkins actually worked with. Arnold originally promised Perkins, \"Listen, if I ever hit $15 million, I'm done"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-133",
+      "index": 133,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "He didn't quit until he was 38 years old and had accumulated over $4 billion.\nHe didn't quit until he was 38 years old and had accumulated over $4 billion."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-135",
+      "index": 135,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "Even a literal billionaire got caught on the treadmill. The goalposts just constantly recede.\nEven a literal billionaire got caught on the treadmill. The goalpo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-142",
+      "index": 142,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "It doesn't matter if you love your job. If you die with billions unspent, you still wasted the potential energy that money represented.\nIt doesn't matter if you"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-143",
+      "index": 143,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "You could have funded hospitals, built schools, or taken your extended family on a world tour. But by leaving it in the bank, you let the energy die with you.\nY"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-144",
+      "index": 144,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "Exactly. You have to find your peak and convert money into memory before the window closes. But let's be real. If the math so clearly shows we should start spen"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'wallet' is not grounded in this segment's narration",
+      "sceneId": "scene-147",
+      "index": 147,
+      "concept": "wallet",
+      "severity": "diagnostic",
+      "segment": "In behavioral economics, there is a term called precautionary saving. We hoard cash like doomsday preppers because we are terrified of running out of money befo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-148",
+      "index": 148,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Precautionary saving is natural, but Perkins points out that oversaving is essentially buying insurance at a brutal\nPrecautionary saving is natural, but Perkins"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-149",
+      "index": 149,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "mathematically irrational markup. How so? You are pricing the localized fear of running out of money against the absolute biological certainty of running out of"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'wallet' is not grounded in this segment's narration",
+      "sceneId": "scene-152",
+      "index": 152,
+      "concept": "wallet",
+      "severity": "diagnostic",
+      "segment": "It's a haunting reality. And what this implies for how you design your financial life is that you have to ask yourself a very difficult question, which is at wh"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-157",
+      "index": 157,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "you can buy a financial product. You hand an insurance company a chunk of cash and they guarantee you a set monthly payout until the day you die, completely eli"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-159",
+      "index": 159,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "There is a financial insurance product for almost every tangible fear. You can ensure your house against fire, your car against crashes, and your life against o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-169",
+      "index": 169,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "No, we know too the kids. Yes. Whenever we talk about not dying with a huge pile of money, the immediate defense,\nNo, we know too the kids. Yes. Whenever we tal"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-170",
+      "index": 170,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "the absolute knee-jerk justification for hoarding wealth is, I'm not saving it for me. I'm leaving it for my kids or I'm leaving it to charity. Right?\nthe absol"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-171",
+      "index": 171,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "Mhm. We need to completely dismantle this because the book argues that waiting until you die to give your money away is objectively terrible timing.\nMhm. We nee"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-180",
+      "index": 180,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "Statistically, economically, and biologically, that is the absolute sweet spot of utility. That money buys a down payment on a first house when they are drownin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-181",
+      "index": 181,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "It funds a business risk they wouldn't otherwise have the safety net to take. It relieves the crippling, sleepd destroying anxiety during their most stressful w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-184",
+      "index": 184,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "She's been decades stressed out of her mind, just trying to keep the lights on. Then when she was 49 years old, her mother died and left her $130,000.\nShe's bee"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-187",
+      "index": 187,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "And we see the exact same inefficiency with charitable Tell me about Sylvia Bloom. Yeah, Perkins highlights the famous case of Sylvia Bloom.\nAnd we see the exac"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-188",
+      "index": 188,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "She was a legal secretary in New York who lived incredibly frugally, took the subway every day, and died at age 96 with over $8 million, which she generously le"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-190",
+      "index": 190,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "Those charities needed that money 30 years ago. The compounding social good of funding a scholarship or a community center in 1990 vastly\nThose charities needed"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-196",
+      "index": 196,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "You are just dead. The government and the legal system are forcing the transfer of assets that you can no longer legally hold because you are a corpse.\nYou are "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-197",
+      "index": 197,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "Dead people cannot be generous. Generosity requires agency. Dead people cannot be generous. That is intense. You have to give it when it matters and convert mon"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-200",
+      "index": 200,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "utility of your money drops exponentially. A million dollars buys an unbelievable amount of joy, adventure, and mobility when you are 30.\nutility of your money "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-203",
+      "index": 203,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "money, In middle age, you finally have some money and you still have health, but you have no time because you are consumed by your career and raising children. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-204",
+      "index": 204,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "And in old age, you finally have money and time, but your health is gone. Let's visualize that third stage.\nAnd in old age, you finally have money and time, but"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-205",
+      "index": 205,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "You finally saved up the $25,000 to rent the absolute dream Tuscan villa that you've been pinning on vision boards for two decades.\nYou finally saved up the $25"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-208",
+      "index": 208,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "spending money on your health like hiring a premium personal trainer, investing in high quality sleep optimization, eating incredibly well, or even taking a mas"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-214",
+      "index": 214,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "So, she is biologically 65. Wow. Because of this, Anne's peak net worth date should actually be later than Betty's.\nSo, she is biologically 65. Wow. Because of "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-215",
+      "index": 215,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "Anne's health span wallet is physically larger. She has bought herself an extra decade to convert her money into experiences. But hold on. If we are talking abo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-216",
+      "index": 216,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "50s, and then used that massive pile of money to just buy better health later. You mean like pay for the absolute best concierge doctors, the best joint replace"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-217",
+      "index": 217,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "there is a massive biological asymmetry there. A 50-year-old who invests $5,000 in a trainer and physical therapy to protect their natural knees buys vastly mor"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-218",
+      "index": 218,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "70-year-old with twice the savings trying to buy a titanium joint replacement and recover from major Yeah, you cannot easily reverse biological decay with cash."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-219",
+      "index": 219,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "You can only delay it, right? an ounce of prevention in your 40s is worth 10 pounds of cure in your You have to invest in the biological wallet so you can actua"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-225",
+      "index": 225,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "In finance, we are trained to obsess over return on Like what is the yield on this mutual fund? What is the cap rate on this real\nIn finance, we are trained to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-229",
+      "index": 229,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "heavily in your favor. There's a perfect story in the book about a guy named Paulie. Paulie was in the process of buying a vacation property in Central America."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'family' is not grounded in this segment's narration",
+      "sceneId": "scene-234",
+      "index": 234,
+      "concept": "family",
+      "severity": "diagnostic",
+      "segment": "meaningless compared to a 300% return in memory dividends with his children. The property wasn't an asset to generate cash. It was an asset to generate Okay, bu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'inheritance' is not grounded in this segment's narration",
+      "sceneId": "scene-241",
+      "index": 241,
+      "concept": "inheritance",
+      "severity": "diagnostic",
+      "segment": "still becomes part of the permanent fabric of your life. Unspent money, on the other hand, just goes to a probate lawyer. It generates zero stories.\nstill becom"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-242",
+      "index": 242,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "You have to convert money into memory before the window closes. Okay. But before we wrap this massive paradigm shift up, we have to address the elephant in the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-245",
+      "index": 245,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Does the die with zero curve assume too much privilege? Because at first glance, it very clearly caters to those operating with a significant financial surplus,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-248",
+      "index": 248,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "adversity? Perkins does acknowledge this reality. If you are genuinely struggling just to make ends meet living paycheck to paycheck, your sole focus is\nadversi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-251",
+      "index": 251,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "is this. Our culture vastly overindexes the risk of absolute financial ruin compared to the absolute biological certainty of death.\nis this. Our culture vastly "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-252",
+      "index": 252,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "So, even if you aren't a billionaire, even if you only have $10,000 in discretionary savings sitting in a bank account, you must actively deliberately choose ho"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-255",
+      "index": 255,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "unpack everything we've done today because this has been a massive rewiring of how to look at money. It really is a complete paradigm shift.\nunpack everything w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-256",
+      "index": 256,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "We started with the autopsy of the rich corpse. We've shown how optimizing a life for maximum net worth at death is tragically optimizing for maximum wasted lif"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-257",
+      "index": 257,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "compounding over time, the absolute necessity of mapping experiences to physical time buckets, and the psychological hurdle of embracing the draw down curve.\nco"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-258",
+      "index": 258,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "And the ultimate takeaway, the synthesis of all this temporal economics is that wealth is not what you die with in your bank account.\nAnd the ultimate takeaway,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-259",
+      "index": 259,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "It is what you manage to successfully convert into memory before your physical body revoked the currency. You can die with exactly zero dollars and a full overf"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-260",
+      "index": 260,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "Or you can die incredibly rich and quietly admit to yourself that you never really spent your life at all. That's the choice.\nOr you can die incredibly rich and"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-261",
+      "index": 261,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "I want to leave you with a challenge. Look at your bank account right now. What is the precise dollar amount sitting in there that represents a dream, a trip, a"
+    }
+  ]
+}

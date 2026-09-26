@@ -1,0 +1,419 @@
+{
+  "slug": "die-with-zero",
+  "world": {
+    "era": "1990-2020 contemporary USA",
+    "worldId": "contemporary_usa",
+    "approxYear": 2020,
+    "setting": "Modern American middle-class life: trading offices, suburban homes, sterile hospital beds, cruise ships and highways — where a generation told to save and compound must learn to spend money and health before both expire",
+    "register": "personal-finance life-optimization polemic",
+    "forbid": [
+      "sword",
+      "war",
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "boulder",
+      "puppeteer",
+      "shadowSelf",
+      "funnelTrap"
+    ]
+  },
+  "signatureObjects": [],
+  "visualProvenance": {
+    "bookId": "die-with-zero",
+    "worldId": "contemporary_usa",
+    "allowedMotifs": [
+      "coin",
+      "wallet",
+      "gift",
+      "inheritance",
+      "grave",
+      "clock",
+      "hourglass",
+      "alarmClock",
+      "balance",
+      "target",
+      "compass",
+      "road",
+      "shield",
+      "heart",
+      "family",
+      "home",
+      "work",
+      "game",
+      "key",
+      "lightbulb",
+      "book",
+      "notes",
+      "phone",
+      "coffee",
+      "star",
+      "city"
+    ],
+    "forbiddenMotifs": [
+      "sword",
+      "war",
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "boulder",
+      "puppeteer",
+      "shadowSelf",
+      "funnelTrap"
+    ],
+    "allowedCharacters": [
+      "billperkins",
+      "jasonrufo",
+      "elizabeth",
+      "virginia",
+      "ann",
+      "betty",
+      "johnarnold",
+      "everyman",
+      "narrator"
+    ],
+    "allowedLocations": [
+      "office",
+      "room",
+      "kitchen",
+      "hospital",
+      "shore",
+      "highway",
+      "street",
+      "cafe",
+      "abstract",
+      "horizon"
+    ],
+    "allowedProps": [
+      "coin",
+      "wallet",
+      "gift",
+      "inheritance",
+      "hourglass"
+    ]
+  },
+  "cast": {
+    "billperkins": {
+      "name": "Bill Perkins",
+      "role": "mentor",
+      "look": "A confident American man in his mid-50s with short graying hair and sharp blue eyes, clean-shaven, wearing a navy blazer over an open-collar white shirt.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#6B7280",
+        "outfit": "suit",
+        "suit": "#1F3A5F",
+        "shirt": "#F5F2EB",
+        "skin": "#E8B98F",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 36
+    },
+    "jasonrufo": {
+      "name": "Jason Rufo",
+      "role": "extra",
+      "look": "A broke cheerful American man in his mid-20s with messy brown hair and light stubble, wearing a faded green t-shirt, jeans and a worn backpack.",
+      "variant": {
+        "gender": "m",
+        "age": "young",
+        "hairStyle": "messy",
+        "hair": "#4A3728",
+        "outfit": "casual",
+        "suit": "#4D7C0F",
+        "shirt": "#F5F2EB",
+        "skin": "#E2B895",
+        "beard": "stubble",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 12
+    },
+    "elizabeth": {
+      "name": "Elizabeth",
+      "role": "foil",
+      "look": "A neat ordinary American woman in her late 60s with short gray hair in a bob and wire glasses, wearing a beige cardigan over a white blouse.",
+      "variant": {
+        "gender": "f",
+        "age": "old",
+        "hairStyle": "short",
+        "hair": "#D6D3D1",
+        "outfit": "coat",
+        "suit": "#D6C7A8",
+        "shirt": "#FFFFFF",
+        "skin": "#F0D9C8",
+        "build": "slight",
+        "height": 0.95,
+        "glasses": true
+      },
+      "mentions": 14
+    },
+    "virginia": {
+      "name": "Virginia",
+      "role": "extra",
+      "look": "An American woman near 50 with shoulder-length auburn hair, wearing a teal blouse and dark slacks.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "hairStyle": "long",
+        "hair": "#9A3412",
+        "outfit": "casual",
+        "suit": "#0F766E",
+        "shirt": "#0F766E",
+        "skin": "#E8B98F",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 6
+    },
+    "ann": {
+      "name": "Ann",
+      "role": "extra",
+      "look": "A fit energetic American woman in her early 50s with a blonde ponytail, wearing a red track jacket and white sneakers.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "hairStyle": "ponytail",
+        "hair": "#E3B34A",
+        "outfit": "hoodie",
+        "suit": "#DC2626",
+        "shirt": "#F5F2EB",
+        "skin": "#F5D0B5",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 8
+    },
+    "betty": {
+      "name": "Betty",
+      "role": "extra",
+      "look": "A weary American woman in her early 50s with short dark hair and a heavier build, wearing a loose gray sweatshirt.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#262626",
+        "outfit": "hoodie",
+        "suit": "#6B7280",
+        "shirt": "#E5E7EB",
+        "skin": "#D9A07A",
+        "build": "heavy",
+        "height": 1
+      },
+      "mentions": 8
+    },
+    "johnarnold": {
+      "name": "John Arnold",
+      "role": "foil",
+      "look": "A wealthy intense American man in his late 40s with receding dark hair, clean-shaven, wearing a charcoal tailored suit with a burgundy tie.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "receding",
+        "hair": "#171514",
+        "outfit": "suit",
+        "suit": "#1F2328",
+        "shirt": "#7F1D1D",
+        "skin": "#D9A07A",
+        "build": "average",
+        "height": 1.02,
+        "accessory": "tie"
+      },
+      "mentions": 9
+    },
+    "everyman": {
+      "name": "Everyman",
+      "role": "protagonist",
+      "look": "An ordinary American adult with short brown hair, wearing a plain slate-blue hoodie and jeans.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#3F3F46",
+        "outfit": "casual",
+        "suit": "#3B82F6",
+        "shirt": "#DBEAFE",
+        "skin": "#E2B895",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 5
+    },
+    "narrator": {
+      "name": "Narrator",
+      "role": "dialogue_host",
+      "look": "The voice of the deep dive: dark modern blazer, open collar, auditing a lifetime of saved-but-unspent money.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "hairStyle": "short",
+        "hair": "#2A1F18",
+        "outfit": "suit",
+        "suit": "#0F172A",
+        "shirt": "#E2E8F0",
+        "skin": "#E2B895",
+        "build": "average",
+        "height": 1
+      },
+      "mentions": 300
+    }
+  },
+  "places": {
+    "office": {
+      "set": "office",
+      "look": "A modern trading office with glowing monitors showing a Vanguard balance climbing while a life is spent earning it.",
+      "mentions": 6
+    },
+    "room": {
+      "set": "room",
+      "look": "An ordinary suburban living room where a saver adds to accounts that will outlive their body's ability to enjoy them.",
+      "mentions": 5
+    },
+    "kitchen": {
+      "set": "kitchen",
+      "look": "A home kitchen island where the return on a lifetime is calculated in dollars instead of memories.",
+      "mentions": 3
+    },
+    "hospital": {
+      "set": "hospital",
+      "look": "A sterile hospital bed where the terrifying image lands: a body that can no longer cash the checks its savings wrote.",
+      "mentions": 4
+    },
+    "shore": {
+      "set": "shore",
+      "look": "A bright surf beach with rolling waves — the trip that must happen while knees still work.",
+      "mentions": 4
+    },
+    "highway": {
+      "set": "highway",
+      "look": "An open American highway for the road trip funded by borrowed money and paid back in lifelong memory.",
+      "mentions": 3
+    },
+    "street": {
+      "set": "street",
+      "look": "A quiet suburban street of median-income homes where Elizabeth saved her whole life.",
+      "mentions": 3
+    },
+    "cafe": {
+      "set": "cafe",
+      "look": "A corner cafe table where two people argue about fear, buffers and the price of caution.",
+      "mentions": 2
+    },
+    "abstract": {
+      "set": "abstract",
+      "look": "A dark chart-space where the net-worth curve rises, crests in middle age and deliberately falls toward zero.",
+      "mentions": 8
+    },
+    "horizon": {
+      "set": "horizon",
+      "look": "A cemetery hill at dusk — the richest corpse won nothing.",
+      "mentions": 5
+    }
+  },
+  "objects": [
+    {
+      "concept": "coin",
+      "mentions": 83,
+      "why": "Every unspent dollar, the Vanguard balance, the $130,000 left behind."
+    },
+    {
+      "concept": "wallet",
+      "mentions": 32,
+      "why": "The save-save-save doctrine and the net worth that outlives its owner."
+    },
+    {
+      "concept": "grave",
+      "mentions": 17,
+      "why": "The richest corpse in the cemetery — dying rich as failure."
+    },
+    {
+      "concept": "gift",
+      "mentions": 10,
+      "why": "Inheritance given while it can still change a life, not mailed from the grave."
+    },
+    {
+      "concept": "inheritance",
+      "mentions": 6,
+      "why": "The $130,000 bequest that arrived at 49 instead of 30."
+    },
+    {
+      "concept": "clock",
+      "mentions": 9,
+      "why": "The biological clock on the currency — time buckets with expiry dates."
+    },
+    {
+      "concept": "hourglass",
+      "mentions": 5,
+      "why": "Go-go, slow-go, no-go years running out."
+    },
+    {
+      "concept": "balance",
+      "mentions": 5,
+      "why": "Pricing the fear of running out against the certainty of running out of time."
+    },
+    {
+      "concept": "target",
+      "mentions": 6,
+      "why": "The peak net-worth date every saver should plan, not drift past."
+    },
+    {
+      "concept": "road",
+      "mentions": 9,
+      "why": "The life journey and the deliberate drawdown curve toward zero."
+    },
+    {
+      "concept": "shield",
+      "mentions": 9,
+      "why": "The safety net, annuity and insurance — protection priced against living."
+    },
+    {
+      "concept": "heart",
+      "mentions": 5,
+      "why": "The healthspan wallet: knees, energy and the body that sets the exchange rate."
+    },
+    {
+      "concept": "dominoCascade",
+      "mentions": 11,
+      "why": "Memory dividends compounding — early experiences paying interest for decades."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "Dying rich is not discipline but miscalculation: every dollar left at death is an experience refused while the body could still feel it."
+    },
+    {
+      "act": "development",
+      "fromFrame": 14695,
+      "claim": "Money buys lifetime fulfillment only inside health windows — memory dividends compound from early experiences, and every adventure carries a biological expiry date."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 28157,
+      "claim": "The net-worth curve should crest in middle age and deliberately fall toward zero; oversaving is fear insurance bought at an irrational markup."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 41215,
+      "claim": "Inheritance delayed is inheritance destroyed — money must move to children and causes while it can still change a life, and health itself is the wallet that sets the exchange rate."
+    },
+    {
+      "act": "close",
+      "fromFrame": 57437,
+      "claim": "Spend with audacity while youth, energy and health favor you, or admit at the grave that you hoarded tickets and never went to the carnival."
+    }
+  ],
+  "authored": true
+}

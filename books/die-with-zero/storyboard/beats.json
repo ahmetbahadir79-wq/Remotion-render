@@ -1,0 +1,2720 @@
+{
+  "book": {
+    "slug": "die-with-zero",
+    "title": "Die with Zero: Getting All You Can from Your Money and Your Life",
+    "author": "Bill Perkins",
+    "genre": "nonfiction"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "The richest corpse in the cemetery won I mean, every dollar you die with is a surf trip or a sbatical or like a dinner with your kid at age nine that you just refused to buy while your knees still actually worked.",
+      "callout": {
+        "text": "YOUR KID",
+        "style": "box"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's uh it's a really brutal realization when you look at it that way. We spend decades hoarding this abstract concept of wealth and we just completely ignore the",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "fact that the currency has a biological expiration date. Exactly. And I want to jump straight into the deep end today because the ideas we're exploring completely shatter what I kind of call the retirement industrial",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "complex. Oh yeah, totally. Think about it, right? We have this entire generation of people, and if you're listening right now, that's probably you, who have been relentlessly programmed from the exact moment they got their first paycheck, right?",
+      "callout": {
+        "text": "THEIR FIRST",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 4,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The whole doctrine of save, save, Yes. Save, compound your interest, delay gratification, squirrel away every spare scent, and just ensure you die quote unquote responsibly.",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. which sounds great on paper, right? But when you actually stress test that philosophy, you realize millions of us are sleepwalking into the only bankruptcy that actually matters, which is outliving",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "your physical health while stubbornly holding on to a completely full bank account. And to really understand why that's a tragedy, we have to look at this through a completely different paradigm. Okay, lay it on me.",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We're talking about temporal economics. Temporal economics, right? So in traditional economics, you evaluate your life through the lens of currency.",
+      "callout": {
+        "text": "YOUR LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You know, dollars, euros, stock portfolios. But temporal economics forces you to look at money as frozen Oh wow.",
+      "callout": {
+        "text": "LOOK AT MONEY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 9,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Frozen lifetime. Yeah, that's what it actually is. It is stored human energy. You literally traded your finite time on this planet to acquire it. And it comes with an invisible expiry date printed directly on your physical body.",
+      "callout": {
+        "text": "YOUR FINITE TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 10,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That reframing is just wild. It changes everything. If you do not thaw that energy out and use it while your biological machine still operates, it simply evaporates.",
+      "callout": null
+    },
+    {
+      "i": 11,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like it goes to So money isn't just paper or like a digital zero on a screen. It's a piece of my actual lifespan that I traded Which perfectly sets",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "up the architect of this entire philosophy, Bill Perkins. Yeah, Perkins is such a fascinating He really is. I mean, he's an energy trader, uh, high stakes poker player, basically a",
+      "callout": {
+        "text": "STAKES POKER PLAYER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 13,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "savant when it comes to calculating risk and reward. And his motivation for all this didn't come from a spreadsheet. It came from looking around at his social circle, He was watching his ultra rich",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "hedge fund friends, guys who had literally tens of millions of dollars hitting their 60s and 70s",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "and dying with completely starved memory banks, which is just so common in that world. Yeah. They had decisively won the money game, but they had utterly and tragically lost the life game.",
+      "callout": {
+        "text": "WON THE MONEY GAME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 16,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that observation is what drives the core thesis of this deep dive. The concept of dying with zero. And we have to clear something up Oh, definitely.",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because that phrase is so aggressively People hear die with zero and they assume it's some reckless, nihilistic right? They think it means maxing out your credit cards in Vegas because nothing matters.",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. But it is the exact opposite. It is a highly analytical mathematical autopsy of wasted life energy.",
+      "callout": {
+        "text": "WASTED LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 19,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Perks is arguing that you must optimize your life for fulfillment points rather than net worth points. I love that. Fulfillment points over net worth points.",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, let's start where the journey ends. Let's just do the autopsy of a rich Let's do it. Because our society has this bizarre",
+      "callout": {
+        "text": "START",
+        "style": "stack"
+      }
+    },
+    {
+      "i": 21,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "psychological wiring where we treat a massive estate at the time of Den as like the ultimate badge of discipline.",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, yeah. We worship it, right? If a guy dies with $4 million in his Vanguard account, people are whispering at his funeral about how responsible he was.",
+      "callout": {
+        "text": "$4 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 23,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Meanwhile, if someone hits a zero balance at age 90, the collective reaction is pity. Total pity. But Perkins comes in and says, \"No,",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "dying with millions isn't discipline. It is a massive structural miscalculation of your life's equation. Every single unspent dollar you leave behind is a fraction of your actual",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "life that you worked for free.\" Wait, I just want to sit with that for a second. You work for free. You did. And this isn't just a rogue theory from some millionaire poker player trying to be edgy.",
+      "callout": {
+        "text": "YOU WORK FOR FREE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 26,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "There is serious heavyweight economic theory backing this up. The Mediglani stuff, right? Yeah. We should look at the Franco Modiglani life cycle hypothesis. He actually won the Nobel Prize",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "in economics for this exact concept. Oh, wow. A literal Nobel Prize. Literally. He posited that a perfectly rational person operating with perfect information should aim to spread their",
+      "callout": null
+    },
+    {
+      "i": 28,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "wealth out so that it reaches exactly zero by the exact date of their death. Maximize utility. Exactly. In economics,",
+      "callout": {
+        "text": "THEIR DEATH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 29,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "money's only intrinsic value is its utility. Its ability to be converted into something If you die with a massive surplus, you mathematically",
+      "callout": null
+    },
+    {
+      "i": 30,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "failed to maximize the utility of the money you spent your limited precious time on Earth accumulating. Okay, let's make that visceral for a second for the listener. Go for it.",
+      "callout": null
+    },
+    {
+      "i": 31,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Imagine you are sitting in this gray cubicle. It's like 7.15 p.m. on a Tuesday. The hum of the fluorescent lights is buzzing over you.",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your lower back is throbbing. And you are staring at an Excel spreadsheet just trying to hit some arbitrary savings goal. A goal for a future version of yourself.",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. A version of you who honestly might be too tired or too sick to even spend it. You are literally trading a vibrant Tuesday evening of your fleeting youth",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "for a digital number on a screen that you will never ever convert into an That image right there is exactly what the Mod Diglani hypothesis warns It's so depressing.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is. When you look at your calendar and your budget through this lens, every single hour you work to earn money that ultimately goes unspent is life energy thrown into a black hole.",
+      "callout": {
+        "text": "HOUR YOU WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 36,
+      "shot": "medium",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You process food into energy. You exerted physical effort. You gave up time with your family for a medium of exchange that you never actually You hoarded the tickets, but you never went to the carnival.",
+      "callout": {
+        "text": "YOU GAVE UP TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 37,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, that's a perfect way to put it. There was this concrete case from the book that just punched me in the gut.",
+      "callout": null
+    },
+    {
+      "i": 38,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes, Elizabeth. She represents the absolute perfect responsible American So, she makes 60,000",
+      "callout": {
+        "text": "000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 39,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "a year, solid median income. She works her entire life, retires at 65 with a net worth of which includes her home equity and her right?",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And she lives this very cautious, frugal retirement. She's terrified of running out of money like most people. Yeah. And she dies at age 85.",
+      "callout": {
+        "text": "OUT OF MONEY",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 41,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But here is the kicker. She leaves behind And this is where the math gets tragic.",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It does because Perkins reverse engineers her net hourly rate after taxes across her entire career. It comes out to roughly $19.56",
+      "callout": {
+        "text": "$19.56",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 43,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "an hour. That means that leftover 130,000 represents 6,646 hours of manual labor, which translates to over 2 1/2 years",
+      "callout": {
+        "text": "130,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "of solid 50hour work weeks. 2 and 1/2 years. that is 2 and 1/2 years. She sat in rush hour traffic, dealt with annoying",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "middle managers, skipped lunches with friends, and ground herself down for absolutely The money was never utilized. It just sat there until she stopped breathing.",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It had a tragedy dressed up as financial responsibility. It really is. But this is usually where people interject with a very reasonable Oh, absolutely.",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because my immediate reaction to Elizabeth's story is, wait, but leaving a buffer is just being a functioning adult, right?",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You want a safety net. Exactly. Nobody has a crystal ball. You don't want to be 84 years old, realize you miscalculated by a year, and suddenly you're eating canned cat food in the dark because you spit",
+      "callout": {
+        "text": "NOBODY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 49,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "your last dime at 83. You want psychological armor. Yes. The buffer is armor. And that psychological armor is exactly what Perkins is trying to dismantle. How so?",
+      "callout": {
+        "text": "YOUR LAST",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 50,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, he acknowledges the fear of running out of money, but he fiercely attacks the math behind the traditional buffer. If you are blindly saving a massive pile of cash without calculating your",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "actual actuarial survival threshold, you aren't building a buffer. What are you doing then? You are allowing fear to dictate your life's equation.",
+      "callout": {
+        "text": "YOU ARE ALLOWING FEAR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 52,
+      "shot": "wide",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you die with hundreds of thousands of dollars in the bank, you didn't buy safety. You bought a wasted decade in a cubicle. Man, that is harsh.",
+      "callout": null
+    },
+    {
+      "i": 53,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is, but it's true. You sacrifice the known, your youth, and your present energy to protect against an extreme, statistically unlikely edge case in the So the mandate here is clear. You have to convert that money into",
+      "callout": {
+        "text": "IT'S TRUE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 54,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "memory before the window closes. Precisely. You cannot let the currency expire in your hands, which logically leads us to the next massive shift in thinking, right?",
+      "callout": {
+        "text": "YOUR HANDS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 55,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If dying with unspent money is a literal waste of your life energy, the core question becomes",
+      "callout": null
+    },
+    {
+      "i": 56,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "when is the optimal time to actually spend it? And this is where Perkins totally blew my mind. He makes the mathematical case for why early spending is vastly superior to late spending.",
+      "callout": {
+        "text": "BLEW MY MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Memory dividend. Yes, the memory dividend. It completely changed how I view every vacation I've ever taken. This is brilliant borrowing of financial It really is. Think about a traditional stock market investment,",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "right? You buy a dividend paying stock and every quarter it kicks back a percentage to right? You get a little check. Exactly. Well, experiences work the exact same way.",
+      "callout": null
+    },
+    {
+      "i": 59,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "But the currency is human joy. Oh, I love that. An experience you have at age 30 doesn't just evaporate when your flight lands back home.",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It pays you a dividend at 40, at 50, at 60. The story compounds every single time you retrieve it.",
+      "callout": {
+        "text": "EVERY SINGLE TIME",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 61,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is like the brain literally pays interest on early memories. you get the initial visceral rush of the experience itself.",
+      "callout": null
+    },
+    {
+      "i": 62,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You know, the adrenaline, the novelty, but then you get the dividend every time you look at a photo on your phone or every time you tell the story at a dinner party and everyone laughs,",
+      "callout": {
+        "text": "TELL THE STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 63,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "right? You get it every time you bond with your spouse over that crazy disastrous road trip you took in your 20s.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The yield on that one initial investment is staggering over a Exactly. Now, flip the equation.",
+      "callout": null
+    },
+    {
+      "i": 65,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why does the brain pay almost zero interest on late in life memories? Because you simply do not have enough runway left to compound the interest.",
+      "callout": {
+        "text": "LATE IN LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 66,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. A memory created on a luxury cruise at age 80 only has a few years to pay dividends before your cognitive decline or death.",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "A memory created backpacking at 25 has half a century to pay out. The compounding horizon is fundamentally Okay, let me paint a picture of what this actually looks like for the listener. Imagine you're 23.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're huddled in this drafty, freezing youth hostel in Berlin.",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're eating a $2 stale baguette with three absolute strangers from different continents who somehow become your best friends by I can picture it perfectly, right? And your back aches from the",
+      "callout": {
+        "text": "$2",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 70,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "terrible sunken mattress, but you are laughing so hard in the common room that you literally cannot breathe. The cost of that experience might be what, a few hundred? Barely anything.",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But the temporal yield, the memory dividend, it's astronomical. What this practically means for your budget and your calendar is that you desperately need to frontload your",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "which goes against everything we're completely. The traditional advice is to save the big trips for retirement. That is mathematically backwards.",
+      "callout": {
+        "text": "SAVE THE BIG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 73,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Totally backwards. A cheap, chaotic month backpacking in your 20s vastly outs a $20,000",
+      "callout": {
+        "text": "$20,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 74,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "luxury cruise at age 75. By the time you're 75, you might not even have the physical stamina to leave the ship at the ports, right? You are buying time for the memory to compound. Speaking of chaotic, there",
+      "callout": null
+    },
+    {
+      "i": 75,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "is a story in the book that is going to make traditional finance people just hyperventilate. Oh, Jason Rufo. Jason Rufo.",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So Perkins talks about his former roommate, Jason. Back in their 20s, Jason desperately wanted to backpack through Europe, but he was completely broke.",
+      "callout": null
+    },
+    {
+      "i": 77,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's zero dollars, right? He didn't have a wealthy uncle. He didn't have a trust fund. So Jason borrowed $10,000 from a literal actual lone shark to fund the trip.",
+      "callout": {
+        "text": "$10,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 78,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are talking about a guy who charges userious interest and could theoretically break your legs. From a traditional Dave Ramsey style financial perspective, that is the most horrifying thing you could possibly",
+      "callout": null
+    },
+    {
+      "i": 79,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "do. Oh my gosh, yes. I read that and my immediate thought was, wait, this is objectively terrible advice. You were advocating going into toxic high interest debt just to take a I mean, the financial math",
+      "callout": {
+        "text": "HIGH INTEREST DEBT",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 80,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "on a lone shark's interest rate is ruinous. It's financial suicide. It is financially incredibly dangerous without question. But Perkins uses this extreme example to make a brilliant counterintuitive observation.",
+      "callout": null
+    },
+    {
+      "i": 81,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes, the financial interest Jason paid upon returning was astronomically high. Insanely high. But the memory compounding interest was actually higher.",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Jason survived the debt he paid the lone shark off. And now decades later, he explicitly states he wouldn't trade the compounding memory dividends of that specific trip for any amount of money today.",
+      "callout": {
+        "text": "AMOUNT OF MONEY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 83,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why? Because he cannot replicate that experience at age 50. Even if he has $10 million now, he cannot go sleep in a hostel with 20 random backpackers and hike the Alps with a 60 lb",
+      "callout": {
+        "text": "$10 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 84,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "pack. The biological window for that specific dividend is closed forever. Exactly. He cashed in before the window It's such a radical way to view risk.",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "The financial risk was huge, but the risk of missing the memory compounding was actually greater to him. That's the temporal economics lens.",
+      "callout": {
+        "text": "RISK WAS HUGE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 86,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But this brings up a logistical nightmare, right? If early experiences compound so heavily and we're supposed to frontload our lives, how do we systematically organize this?",
+      "callout": null
+    },
+    {
+      "i": 87,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "We can't do literally everything at 25. You have a job, you have entry- level salaries, you have limitations. And that logistical challenge is exactly why Perkins developed the framework of time Okay,",
+      "callout": {
+        "text": "YOU HAVE A JOB",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 88,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "let's talk about time buckets. It is a complete systemic rejection of the traditional bucket list. I'm so glad he attacks the bucket list because the bucket list has always felt so depressing to me. It really is.",
+      "callout": null
+    },
+    {
+      "i": 89,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's usually this panicked, desperate list of things you scribble down on a napkin when you have a midlife crisis or a health scare and you just try to cram it all in before you kick the bucket. It's entirely reactive.",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. It's reactive and often biologically impossible by the time you write it. Right? So Perkins argues for proactive",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "5 to 10year time buckets because human life is not a straight unending plateau of capability.",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, it definitely isn't. It is divided into three distinct health windows. The go- go years, the slowgo years, and the no-go years. The go-go slowgo and no-go years.",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I love Yeah. And every single experience you want to have has an invisible expiry date based on those physiological Give me an example.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, Perkins uses a phenomenal analogy of a giant resort pool. Imagine a massive luxury resort. There is a shallow kiddie pool, a chaotic teen pool with a massive steep",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "water slide, and a serene, quiet senior pool. Okay, I'm picturing it. If you stubbornly refuse to use the teen pool when you are actually a teenager because you're busy saving your energy for the future, you cannot go",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "back and use it when you are 65. Oh man, it doesn't matter how rich you are at 65. The lifeguards won't let you on the water slide. Your body can't handle it.",
+      "callout": {
+        "text": "YOUR BODY",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 97,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The opportunity is gone. There's a moment in the book that beautifully and tragically illustrates how quietly these windows close.",
+      "callout": null
+    },
+    {
+      "i": 98,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "A Huffleup movie. Yes. Perkins talks about his own realization with his daughter. Yeah. So imagine you're holding a worn out DVD of Pooh's Hefflip movie.",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "For years it was your weekend ritual. You'd smuggle on the couch, watch the movie, and it was just pure magic. A core memory, right? And one day you ask your 10-year-old if they want to watch it, and they just shrug, roll their eyes, and look back down at their iPad.",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, it hurts. That's it. The window snap shut. And you didn't even hear it close. There was no warning.",
+      "callout": {
+        "text": "NO WARNING",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 101,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the tragic part is that you assumed there would always be a next weekend to watch it. Always. What this means for your planning is that you must ruthlessly map your adventures to the specific biological bucket where your body and the",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "bodies of your loved ones can still cash the check. Right. You have to convert money into memory before the window closes. Exactly. You want to ski the back country in Japan. Do it at 35.",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "split",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You want to do the magical Disney trip where your kid actually believes the princess is real. You have to do it at 8, not 18.",
+      "callout": {
+        "text": "18",
+        "style": "box"
+      }
+    },
+    {
+      "i": 104,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You can't delay the Disney trip to save money because by the time you have the money, the magic is dead to them. You do not get a push notification on your iPhone saying, \"Alert! Today is the last day your kid will ever want to play hideand-sek with you.",
+      "callout": {
+        "text": "LAST DAY YOUR KID",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 105,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Things don't announce their departure.\" They really don't. But I have to push back here because when you lay it out like this, creating a spreadsheet of my life divided into five-year buckets of declining",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "capability. Wait, isn't this incredibly I get that a lot. We are basically sitting down on a Sunday afternoon and scheduling our own decay.",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We're mapping out our physical obsolescence. It absolutely feels morbid at first glance.",
+      "callout": {
+        "text": "MORBID AT FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 108,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The human brain resists thinking about its own decay. But the reality is the decay is happening whether you schedule it or not.",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a fair point. By refusing to acknowledge it, you aren't stopping time. You are just blinding yourself to the passing of opportunity. It is not about decay.",
+      "callout": null
+    },
+    {
+      "i": 110,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is about deliberate aggressive maximization. Acknowledging that the window is finite is the exact psychological mechanism that creates the urgency to live right now. Oh, that makes sense.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you pretend you have forever, you do nothing. You say, \"Oh, we'll go to Italy next year.\" When you look at your time bucket and realize you only have two more summers where your kids actually want to travel with you before they leave for college, you book the damn ticket today.",
+      "callout": {
+        "text": "LOOK AT YOUR TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 112,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The mortality creates the meaning. You have to convert the cache to memory before the biological window boards itself up.",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay. So, we've established the buckets. We know we need to frontload these experiences and map them to our health spans.",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But now we crash into the harsh reality of math. Here we go. How on earth do we fund this front-loaded lifestyle",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "without going completely broke by age 50? And this brings us to perhaps the most controversial economic concept in the book.",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "peak net worth and the draw down Oh man, the draw down. This is where Perkins takes a sledgehammer to traditional retirement planning.",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The conventional wisdom perpetuated by every financial adviser on earth is that your wealth should just climb and climb and compound continuously until the day your heart Right? The chart should always go up and",
+      "callout": {
+        "text": "DAY YOUR HEART",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "to the right. The goal is to die on the absolute summit of your financial But Perkins argues that is a structural failure.",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your fortune should rise, yes, but it should crest around middle age and then you must deliberately, intentionally force it to fall towards You have to accumulate. You have to de accumulate.",
+      "callout": null
+    },
+    {
+      "i": 120,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he emphasizes that your peak net worth is a biological date. It is not a financial Wait, so you not need to hit $2 million?",
+      "callout": {
+        "text": "$2 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 121,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, it is I need to peak at a specific age. For most people, based on actuarial tables and health data, Perkins",
+      "callout": null
+    },
+    {
+      "i": 122,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "calculates this peak should happen somewhere between ages 45 and 60. The reasoning behind that specific window is fascinating and it goes back to the time buckets. Right. Exactly.",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Why peak at 50? Because after 60, your physical health begins to decline in a way that fundamentally restricts how much money you can actually enjoy spending.",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let me set a scene. Picture this. You're 58 years old. You're sitting in your home office sipping coffee, logging into your brokerage account on your laptop.",
+      "callout": {
+        "text": "YOU'RE 58 YEARS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 125,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, okay. You watch the numbers tick past 2.5 million. You feel a quick rush of dopamine, a little pat on the back for a life well saved, But then you look out the window and your expensive custom fitted golf clubs are gathering",
+      "callout": {
+        "text": "2.5 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 126,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "dust in the garage because your lumbar spine is totally shot and your doctor told you to stop swinging. Your bank account is at its absolute maximum power, but your physical vessel",
+      "callout": null
+    },
+    {
+      "i": 127,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "can no longer deploy that power. That is the tragedy of missing your peak net worth date. What this means structurally is that you have to view your net worth as a tool to fund your calendar, not as a high",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "score in a video game. Once you hit your actual survival threshold, which is the mathematically calculated amount you need to cover your basic living and medical expenses until death,",
+      "callout": {
+        "text": "VIDEO GAME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 129,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "continuing to hoard wealth, doesn't buy you more experiences. It just buys you abstract numbers on a Yes. Because your declining physical health prevents you from converting that surplus money into joy.",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The psychology of this is so hard to break though. There is an insane case study in the book about John Arnold, the billionaire.",
+      "callout": {
+        "text": "BREAK",
+        "style": "box"
+      }
+    },
+    {
+      "i": 131,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. Arnold was a legendary energy trader, a guy Perkins actually worked with. Arnold originally promised Perkins, \"Listen, if I ever hit $15 million, I'm done.\" Right.",
+      "callout": {
+        "text": "$15 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 132,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He said, \"I'll quit trading. I'll walk away and I'll go enjoy my life.\" Yeah. He even said, \"If I'm still trading at 15 million, I want you to literally punch me in the face.\" And did he walk away at 15 million? Of course not.",
+      "callout": {
+        "text": "15 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 133,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He didn't quit until he was 38 years old and had accumulated over $4 billion.",
+      "callout": {
+        "text": "$4 BILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 134,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Billion with a B? It is the ultimate example of the accumulation trap.",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Even a literal billionaire got caught on the treadmill. The goalposts just constantly recede.",
+      "callout": null
+    },
+    {
+      "i": 136,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. 15 million became a h 100red million which became a billion. The human brain is wired to acquire, not to de accumulate. But wait, let me play devil's advocate for John Arnold here.",
+      "callout": {
+        "text": "HUMAN BRAIN",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 137,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Go for it. What if you just like working, right? What if making the money is your video For a guy like Arnold, the thrill of the deal, outsmarting the market, the intellectual combat,",
+      "callout": null
+    },
+    {
+      "i": 138,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "that is his joy. So why should he quit at 15 million if trading is the thing that brings him the most fulfillment? That is a very common defense of the ultra wealthy or the hyperworkaholic.",
+      "callout": {
+        "text": "QUIT",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 139,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Perkins addresses it head on. What does he say? He says, \"If work is your chosen game and you genuinely derive your primary life satisfaction from the act of working, that is fantastic.",
+      "callout": {
+        "text": "YOUR CHOSEN GAME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 140,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Play the game. But the money that work generates is merely a byproduct. It's like the sawdust left over from carving a beautiful piece of Oh, I like that analogy.",
+      "callout": {
+        "text": "PLAY THE GAME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 141,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you keep playing the game, but you don't spend the surplus money it generates, you are literally throwing away the extra lives you earned.",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "It doesn't matter if you love your job. If you die with billions unspent, you still wasted the potential energy that money represented.",
+      "callout": {
+        "text": "YOU LOVE YOUR JOB",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 143,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You could have funded hospitals, built schools, or taken your extended family on a world tour. But by leaving it in the bank, you let the energy die with you.",
+      "callout": null
+    },
+    {
+      "i": 144,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. You have to find your peak and convert money into memory before the window closes. But let's be real. If the math so clearly shows we should start spending down our wealth between 45 and 60, why",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "is it so incredibly hard to actually do it? Why do we freeze? It comes down to one primal emotion, Fear.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Cure unadulterated terror of the unknown. Which brings us to the concept of pricing fear.",
+      "callout": null
+    },
+    {
+      "i": 147,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "In behavioral economics, there is a term called precautionary saving. We hoard cash like doomsday preppers because we are terrified of running out of money before we run out of breath.",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Precautionary saving is natural, but Perkins points out that oversaving is essentially buying insurance at a brutal",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "mathematically irrational markup. How so? You are pricing the localized fear of running out of money against the absolute biological certainty of running out of time. Let me put a terrifying image",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "in your imagine you are lying in a sterile hospital bed. There are IV tubes taped to your forearm. The heart monitor is rhythmically beeping in the background. And you are spending the last $200,000",
+      "callout": {
+        "text": "$200,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 151,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "of your hard-earned, meticulously saved life fortune just to buy three extra weeks of lying there staring at a beige ceiling tile, completely incapacitated.",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a haunting reality. And what this implies for how you design your financial life is that you have to ask yourself a very difficult question, which is at what point does caution stop protecting you and start robbing you?",
+      "callout": {
+        "text": "ASK YOURSELF",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 153,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are consciously trading vibrant, healthy, capable years of your life, say grinding through stressful 60-hour weeks in your 50s just to hyperinsure a highly unlikely bedridden",
+      "callout": {
+        "text": "YEARS OF YOUR LIFE",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 154,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "95year-old version of A version of yourself who, statistically speaking, might not even exist.",
+      "callout": null
+    },
+    {
+      "i": 155,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Perkins offers a mechanical solution to this fear. Right. He talks extensively about annuities to cover that survival threshold.",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He does. Instead of hoarding an extra million dollars just in case you miraculously live to be 104,",
+      "callout": {
+        "text": "104",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 157,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "you can buy a financial product. You hand an insurance company a chunk of cash and they guarantee you a set monthly payout until the day you die, completely eliminating your longevity",
+      "callout": null
+    },
+    {
+      "i": 158,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "risk. Yes. You transfer the risk. You don't have to use your own precious life energy as a crude DIY insurance Exactly.",
+      "callout": {
+        "text": "YOUR OWN PRECIOUS LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 159,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "There is a financial insurance product for almost every tangible fear. You can ensure your house against fire, your car against crashes, and your life against outliving your money. But you cannot buy insurance against lost",
+      "callout": null
+    },
+    {
+      "i": 160,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "time. Nobody sells a policy that refunds your Okay, but wait. I have a major issue with capping your savings like this, especially today.",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's hear it. What if medical science makes a massive leap? I mean, we have billionaires pouring money into longevity research stem cells nanobots.",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "What if I drastically extend my life and suddenly I am 90 years old, completely spry,",
+      "callout": {
+        "text": "90 YEARS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 163,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "and I need a ton of cash to go travel to a colony on Mars, but I spent it all at 50 because Bill Perkins told me to. It's a fair question, especially with modern biotech,",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "overShoulder",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "but Perkins Years's response to this is delightfully blunt and grounded in statistical reality. What does he say?",
+      "callout": null
+    },
+    {
+      "i": 165,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He asks, \"Are you seriously going to sacrifice the absolute best guaranteed decades of your mobility, your 30s, 40s, and 50s, just to save up for the extreme science fiction privilege of being 90 on a",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "ventilator hoping a nanobot cures That's a good point. The overwhelming statistical probability is that you will die right around your demographic's life expectancy.",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "As Perkins says, \"If you sacrifice your prime years for that tiny fraction of a probability, I'll see you at the grave.\" Wow, it's a mic drop.",
+      "callout": {
+        "text": "YOUR PRIME YEARS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 168,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Stop paying the fear tax. convert money into memory before the window closes. now, I know exactly what everyone listening is screaming at their steering wheels right now.",
+      "callout": {
+        "text": "STOP PAYING THE FEAR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 169,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, we know too the kids. Yes. Whenever we talk about not dying with a huge pile of money, the immediate defense,",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "overShoulder",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the absolute knee-jerk justification for hoarding wealth is, I'm not saving it for me. I'm leaving it for my kids or I'm leaving it to charity. Right?",
+      "callout": null
+    },
+    {
+      "i": 171,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Mhm. We need to completely dismantle this because the book argues that waiting until you die to give your money away is objectively terrible timing.",
+      "callout": {
+        "text": "GIVE YOUR MONEY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 172,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "The core insight Perkins offers here is devastatingly simple. An inheritance received at age 60 is essentially a financial refund on a life that has already been lived. Perkins critiques the traditional method of",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "leaving money in a will by calling it the three Rs. You are giving random amounts of money at a random time to random people because you literally don't know when you're going to die. So, you don't know how much of the",
+      "callout": {
+        "text": "RANDOM TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 174,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "pile will be left after end of life care. And you don't even know which of your heirs will still be alive to receive it. Imagine this. You're 62 years old.",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your knees pop when you walk up the stairs. Your kids are already grown and out of the house. Suddenly, a massive check for",
+      "callout": {
+        "text": "YOUR KIDS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 176,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "$250,000 clears in your bank account from your deceased mother's estate. Okay, that's a nice gesture, sure.",
+      "callout": {
+        "text": "$250,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 177,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "But you already paid off your mortgage a decade ago. You already survived your most stressful earning years. And you physically can't go on that rugged backpacking trip you wanted to take when you were 25.",
+      "callout": null
+    },
+    {
+      "i": 178,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The money arrives completely decoupled from its maximum utility. And that is the tragedy of the delayed",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "What this means fundamentally for family wealth transfer is that the optimal time to give money to your kids is when they are between the ages of 26 and 35. Why that specific window?",
+      "callout": {
+        "text": "MONEY TO YOUR KIDS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 180,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Statistically, economically, and biologically, that is the absolute sweet spot of utility. That money buys a down payment on a first house when they are drowning in rent.",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It funds a business risk they wouldn't otherwise have the safety net to take. It relieves the crippling, sleepd destroying anxiety during their most stressful wealthb buildinging and child rearing years.",
+      "callout": {
+        "text": "CHILD REARING YEARS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 182,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "There is an incredible poignant story in the book about a woman named Virginia Oh, I remember that one. She raised four kids, mostly",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "as a single mother, constantly living right at the terrifying, bleeding edge of poverty.",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "She's been decades stressed out of her mind, just trying to keep the lights on. Then when she was 49 years old, her mother died and left her $130,000.",
+      "callout": {
+        "text": "$130,000.",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 185,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Virginia says flatly in the book, \"If you get it when you are 30, you don't have to scramble the way I did.\" Her mother had that money all along. Yes, but she kept it logged away while her daughter actively suffered just to",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "hand it over when the worst of the struggle was already over. It was heartbreaking because the intention was good, but the timing destroyed the value.",
+      "callout": null
+    },
+    {
+      "i": 187,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And we see the exact same inefficiency with charitable Tell me about Sylvia Bloom. Yeah, Perkins highlights the famous case of Sylvia Bloom.",
+      "callout": null
+    },
+    {
+      "i": 188,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "She was a legal secretary in New York who lived incredibly frugally, took the subway every day, and died at age 96 with over $8 million, which she generously left to educational charities.",
+      "callout": {
+        "text": "$8 MILLION",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 189,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a beautiful, selfless gesture on On paper, yes. But think about the temporal economics.",
+      "callout": null
+    },
+    {
+      "i": 190,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Those charities needed that money 30 years ago. The compounding social good of funding a scholarship or a community center in 1990 vastly",
+      "callout": {
+        "text": "1990",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 191,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "outweighs handing them a lump sum in 2020. But wait, let me push back on the kids aspect because handing a 26-year-old a massive check",
+      "callout": {
+        "text": "2020",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 192,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "sounds like a guaranteed recipe for ruining their drive. You were just breeding trust fund monsters who have no work ethic because they never had to struggle.",
+      "callout": {
+        "text": "NO WORK",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 193,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Isn't the struggle part of building character? It is a valid concern, but it assumes wealth transfer has to be a giant string-free lump sum,",
+      "callout": null
+    },
+    {
+      "i": 194,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You do not have to hand a 26-year-old a million-doll blank check. You can structure a trust. You can specifically pay off their student loans.",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "you can help fund a specific down payment. Yeah, it makes sense. But the broader philosophical point Perkins makes is this. If you wait until you die to transfer your wealth, you aren't actually being generous.",
+      "callout": {
+        "text": "YOUR WEALTH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 196,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are just dead. The government and the legal system are forcing the transfer of assets that you can no longer legally hold because you are a corpse.",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Dead people cannot be generous. Generosity requires agency. Dead people cannot be generous. That is intense. You have to give it when it matters and convert money into memory before the window closes.",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay. So, we've established when to spend and who to give it to. But now we have to look at the ultimate currency that makes any of this temporal economics possible in the first place because none of this matters",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "without Health span is the wallet. That is the foundational concept that underlines everything we've talked about. Health is literally the exchange rate between dollars and joy. As your health declines, the",
+      "callout": null
+    },
+    {
+      "i": 200,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "utility of your money drops exponentially. A million dollars buys an unbelievable amount of joy, adventure, and mobility when you are 30.",
+      "callout": {
+        "text": "YOUR MONEY",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 201,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "A million dollars buys very little joy when you are 85, you have bad hip, and you can't digest solid Perkins outlines this tragic",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "systemic balancing act we all navigate throughout our lives. It is a triangle of Walk us through it. When you are young, you have abundant time and you have abundant health, but you have absolutely no",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "money, In middle age, you finally have some money and you still have health, but you have no time because you are consumed by your career and raising children. So true.",
+      "callout": {
+        "text": "YOU HAVE NO TIME",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 204,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "And in old age, you finally have money and time, but your health is gone. Let's visualize that third stage.",
+      "callout": {
+        "text": "MONEY AND TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 205,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You finally saved up the $25,000 to rent the absolute dream Tuscan villa that you've been pinning on vision boards for two decades.",
+      "callout": {
+        "text": "$25,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 206,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, this is a tough one. You fly to Italy. You get to the villa and you end up sitting on the porch the entire two weeks because your knees physically cannot handle walking on the uneven cobblestone streets of Florence.",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You had the money, you had the time, but the wallet was empty. And what this implies for how you allocate your resources midlife is radical.",
+      "callout": {
+        "text": "WALLET WAS EMPTY",
+        "style": "box"
+      }
+    },
+    {
+      "i": 208,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "spending money on your health like hiring a premium personal trainer, investing in high quality sleep optimization, eating incredibly well, or even taking a massive unpaid midlife sbatical to reduce cortisol",
+      "callout": null
+    },
+    {
+      "i": 209,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and stress. These are not costs. We are trained to view them as luxury They are not. They are structural investments that extend the exchange rate of your wealth.",
+      "callout": {
+        "text": "NOT COSTS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 210,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Perkins illustrates this with a biological comparison. He talks about biological age versus chronological age. The Anen Betty example.",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. He compares two hypothetical 50-year-old women, Ann and Betty. Chronologically, on their driver's licenses, they are both 50, But Anne has relentlessly prioritized her health, her diet, and her",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "fitness. So, her cellular biological age is that of a 40-year-old.",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Betty has neglected her health, worked a sedentary job, and eaten poorly.",
+      "callout": {
+        "text": "HEALTH WORKED",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 214,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, she is biologically 65. Wow. Because of this, Anne's peak net worth date should actually be later than Betty's.",
+      "callout": null
+    },
+    {
+      "i": 215,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Anne's health span wallet is physically larger. She has bought herself an extra decade to convert her money into experiences. But hold on. If we are talking about the power of money, can I just hoard my wealth, work super hard, and grind through my 40s and",
+      "callout": {
+        "text": "WEALTH WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 216,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "50s, and then used that massive pile of money to just buy better health later. You mean like pay for the absolute best concierge doctors, the best joint replacements, the most cutting edge medicine? It is a seductive idea, but",
+      "callout": null
+    },
+    {
+      "i": 217,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "there is a massive biological asymmetry there. A 50-year-old who invests $5,000 in a trainer and physical therapy to protect their natural knees buys vastly more life quality per dollar than a",
+      "callout": {
+        "text": "$5,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 218,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "70-year-old with twice the savings trying to buy a titanium joint replacement and recover from major Yeah, you cannot easily reverse biological decay with cash.",
+      "callout": null
+    },
+    {
+      "i": 219,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You can only delay it, right? an ounce of prevention in your 40s is worth 10 pounds of cure in your You have to invest in the biological wallet so you can actually convert money into memory before the window closes.",
+      "callout": null
+    },
+    {
+      "i": 220,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to the final crescendo of temporal economics. Taking all of this,",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the memory dividends, the time buckets, the draw down curve, the health span, and turning it into a single mandate spend with audacity.",
+      "callout": null
+    },
+    {
+      "i": 222,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This brings the entire framework together into a final call to action. The ultimate goal of human life under this model is to maximize lifetime fulfillment points,",
+      "callout": {
+        "text": "GOAL OF HUMAN LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 223,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "not to maximize your net worth. Perkins introduces this concept of an inherent personal interest rate. The older you get, the more someone should have to pay you to delay an experience because the statistical chances of you actually surviving",
+      "callout": null
+    },
+    {
+      "i": 224,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "to have that experience drop drastically with every single passing year. Just a fascinating shift in perspective from traditional investing.",
+      "callout": null
+    },
+    {
+      "i": 225,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "In finance, we are trained to obsess over return on Like what is the yield on this mutual fund? What is the cap rate on this real",
+      "callout": null
+    },
+    {
+      "i": 226,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. But Perkins argues we must stop looking exclusively at return on equity and start calculating our return on Imagine you're sitting at your kitchen island late at night. You're staring at an online booking page",
+      "callout": {
+        "text": "STOP",
+        "style": "box"
+      }
+    },
+    {
+      "i": 227,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "for a month-long trip to New Zealand with your family. Okay? Your finger is hovering over the buy button and you are just sweating over the price tag, doing the math in your head, wondering if you should take that 10 grand and dump it",
+      "callout": {
+        "text": "YOUR FAMILY",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 228,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "into an S&amp;P 500 index fund instead. The Perkins philosophy screams buy the ticket. Take the sabbatical. Bet on the experience while your youth, your energy, and your physical health are still",
+      "callout": {
+        "text": "500",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 229,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "heavily in your favor. There's a perfect story in the book about a guy named Paulie. Paulie was in the process of buying a vacation property in Central America.",
+      "callout": null
+    },
+    {
+      "i": 230,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh yeah, I love this story. He was driving himself absolutely crazy, analyzing the cap rates, the rental yields, obsessing",
+      "callout": {
+        "text": "LOVE THIS STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 231,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "over a measly 3% financial return on the real estate he was paralyzing himself with",
+      "callout": null
+    },
+    {
+      "i": 232,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And what did Perkins tell him? Perkins grabbed him and essentially said, \"Forget the money.",
+      "callout": {
+        "text": "FORGET THE MONEY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 233,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "How much you're going to use this property to invest in your own personal experiences? How many memories are you going to build with your family on that beach before your kids grow up and leave? Perkins was trying to show him that a 3% financial return is utterly",
+      "callout": {
+        "text": "YOUR KIDS GROW",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 234,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "meaningless compared to a 300% return in memory dividends with his children. The property wasn't an asset to generate cash. It was an asset to generate Okay, but let's take the leap of faith.",
+      "callout": {
+        "text": "300",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 235,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "I booked the New Zealand trip. I spend the 10 grand. What if the trip is a total disaster? What do you mean?",
+      "callout": null
+    },
+    {
+      "i": 236,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like what if I spend all this money? I go to New Zealand. It rains for 28 straight days. I slip on a rock and break my ankle. The kids are miserable and I deeply regret spending the cash I could have saved.",
+      "callout": null
+    },
+    {
+      "i": 237,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a very real fear. The fear of a bad investment. But if we pull back and look at the macro picture of a human life, the only",
+      "callout": {
+        "text": "REAL FEAR",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 238,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "true irredeemable regret is arriving at the grave with unspent Even a bad trip yields a memory Exactly.",
+      "callout": null
+    },
+    {
+      "i": 239,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Think about the worst trips you've ever taken. Over time, they usually become the most hilarious stories you tell at dinner parties.",
+      "callout": {
+        "text": "OVER TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 240,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's true. You bond with your family over the adversity. Remember when dad broke his ankle in the rain in Auckland? The experience, even if flawed,",
+      "callout": null
+    },
+    {
+      "i": 241,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "still becomes part of the permanent fabric of your life. Unspent money, on the other hand, just goes to a probate lawyer. It generates zero stories.",
+      "callout": null
+    },
+    {
+      "i": 242,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have to convert money into memory before the window closes. Okay. But before we wrap this massive paradigm shift up, we have to address the elephant in the room. The counterpoint.",
+      "callout": null
+    },
+    {
+      "i": 243,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah, we need to talk about privilege. We've been talking a lot about luxury trips, sbaticals, and buying property in Central America.",
+      "callout": null
+    },
+    {
+      "i": 244,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Is this philosophy actually applicable to It's a critical necessary question.",
+      "callout": null
+    },
+    {
+      "i": 245,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Does the die with zero curve assume too much privilege? Because at first glance, it very clearly caters to those operating with a significant financial surplus,",
+      "callout": null
+    },
+    {
+      "i": 246,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "right? What about the median earner? What if you are making 50,000 a year? What if you have a severely disabled child who will need lifelong care long after",
+      "callout": null
+    },
+    {
+      "i": 247,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "you are gone? Or what if your parents go broke and you are forced to support them financially in your 40s? Does this whole spend with audacity framework just completely fall apart when it hits realworld",
+      "callout": {
+        "text": "YOUR PARENTS GO BROKE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 248,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "adversity? Perkins does acknowledge this reality. If you are genuinely struggling just to make ends meet living paycheck to paycheck, your sole focus is",
+      "callout": null
+    },
+    {
+      "i": 249,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "survival. Right. The hierarchy of needs. Exactly. The hierarchy of needs dictates that you must secure your base first.",
+      "callout": {
+        "text": "YOUR BASE FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 250,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "This framework of audacious deumulation is not for you in that specific season of life. But what about people who are just kind of in the middle? Well, for anyone with discretionary income, even a relatively small amount, the synthesis",
+      "callout": null
+    },
+    {
+      "i": 251,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "is this. Our culture vastly overindexes the risk of absolute financial ruin compared to the absolute biological certainty of death.",
+      "callout": null
+    },
+    {
+      "i": 252,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, even if you aren't a billionaire, even if you only have $10,000 in discretionary savings sitting in a bank account, you must actively deliberately choose how to spend it to maximize your life",
+      "callout": null
+    },
+    {
+      "i": 253,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "right now rather than just letting it sit there out of blind inertia and fear of a hypothetical future. Exactly. The principles of temporal economics scale down just as effectively as they scale up.",
+      "callout": null
+    },
+    {
+      "i": 254,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Whether you are deciding to spend $10,000 on a cross-country road trip or $100,000 on a luxury villa, the underlying math of the memory dividend and the closing biological window remains exactly the Okay, let's",
+      "callout": null
+    },
+    {
+      "i": 255,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "unpack everything we've done today because this has been a massive rewiring of how to look at money. It really is a complete paradigm shift.",
+      "callout": null
+    },
+    {
+      "i": 256,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We started with the autopsy of the rich corpse. We've shown how optimizing a life for maximum net worth at death is tragically optimizing for maximum wasted life energy. Yeah, we looked at memory dividends",
+      "callout": null
+    },
+    {
+      "i": 257,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "compounding over time, the absolute necessity of mapping experiences to physical time buckets, and the psychological hurdle of embracing the draw down curve.",
+      "callout": null
+    },
+    {
+      "i": 258,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the ultimate takeaway, the synthesis of all this temporal economics is that wealth is not what you die with in your bank account.",
+      "callout": null
+    },
+    {
+      "i": 259,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is what you manage to successfully convert into memory before your physical body revoked the currency. You can die with exactly zero dollars and a full overflowing ledger of memory dividends.",
+      "callout": {
+        "text": "YOUR PHYSICAL BODY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 260,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Or you can die incredibly rich and quietly admit to yourself that you never really spent your life at all. That's the choice.",
+      "callout": {
+        "text": "SPENT YOUR LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 261,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I want to leave you with a challenge. Look at your bank account right now. What is the precise dollar amount sitting in there that represents a dream, a trip, a sbatical,",
+      "callout": null
+    },
+    {
+      "i": 262,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "a passion project that you are secretly waiting for permission to live? Give yourself the permission today",
+      "callout": {
+        "text": "GIVE YOURSELF",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 263,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because the clock is ticking and the cemetery doesn't take",
+      "callout": null
+    }
+  ]
+}

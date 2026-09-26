@@ -1,0 +1,893 @@
+[
+  {
+    "action": "slump",
+    "callout": {
+      "style": "highlight",
+      "text": "RICHEST CORPSE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "grave",
+    "diagram": null,
+    "expression": "sad",
+    "i": 0,
+    "set": "horizon",
+    "shotOverride": "wide",
+    "storyboard": {
+      "addedInformation": "Names the price of dying rich before the hosts explain it: refused surf trips, sabbaticals, dinners at age nine.",
+      "claim": "The richest corpse won nothing; every dollar left at death is an experience refused while the body still worked.",
+      "concreteVisual": "A cemetery hill at dusk with a headstone; Everyman slumped beside the grave.",
+      "onScreenText": "RICHEST CORPSE",
+      "relationToPrevious": "Cold open."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "HOARDING ABSTRACT WEALTH"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "holds": "wallet",
+    "i": 1,
+    "storyboard": {
+      "addedInformation": "Shows the hoarding as a physical clutching the narration only describes as an abstract habit.",
+      "claim": "We spend decades hoarding abstract wealth while ignoring what it costs.",
+      "concreteVisual": "Everyman in a suburban living room clutching a wallet, worried, mid-realization.",
+      "onScreenText": "HOARDING ABSTRACT WEALTH",
+      "relationToPrevious": "From the grave to the habit that fills it: the hoarding behind the corpse."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "BIOLOGICAL EXPIRATION DATE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "clock",
+    "diagram": null,
+    "expression": "worried",
+    "holds": "hourglass",
+    "i": 2,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Gives the expiry date a physical form: the clock on the wall and the hourglass running in hand.",
+      "claim": "Money has a biological expiration date printed on the body.",
+      "concreteVisual": "A clock looming over Everyman, who holds an hourglass in dark chart-space.",
+      "onScreenText": "BIOLOGICAL EXPIRATION DATE",
+      "relationToPrevious": "Names what the hoarder ignores: the deadline on the currency."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "FROM THE FIRST PAYCHECK"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 3,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Stages the programming as a young worker receiving the doctrine at his desk.",
+      "claim": "A whole generation was programmed from the first paycheck to save and never spend.",
+      "concreteVisual": "Everyman seated at a trading-office desk at career start, absorbing the doctrine.",
+      "onScreenText": "FROM THE FIRST PAYCHECK",
+      "relationToPrevious": "From the deadline to who was never told about it: the programmed generation."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "strike",
+      "text": "DIE RESPONSIBLY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "holds": "coin",
+    "i": 4,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "The strike marks the doctrine as rejected: the coin is clutched, not celebrated.",
+      "claim": "The doctrine says save, compound, delay gratification, die responsibly.",
+      "concreteVisual": "Everyman clutching a coin fearfully in the living room, reciting the saver doctrine he obeys.",
+      "onScreenText": "DIE RESPONSIBLY",
+      "relationToPrevious": "Spells out the programming introduced in the previous beat."
+    }
+  },
+  {
+    "action": "walk",
+    "callout": {
+      "style": "reveal",
+      "text": "THE ONLY BANKRUPTCY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 5,
+    "set": "street",
+    "storyboard": {
+      "addedInformation": "Stages the sleepwalk literally: a worried man walking a quiet suburban street toward the wrong bankruptcy.",
+      "claim": "Millions sleepwalk into the only bankruptcy that matters: outliving their health, not their money.",
+      "concreteVisual": "Everyman walking a suburban street, worried, sleepwalking into the health bankruptcy.",
+      "onScreenText": "THE ONLY BANKRUPTCY",
+      "relationToPrevious": "Stress-tests the doctrine: the saver doctrine leads here."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "THE ACCOUNT STAYED FULL"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "holds": "wallet",
+    "i": 6,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Holds the contradiction in one frame: a full wallet gripped by a failing body.",
+      "claim": "Holding a full bank account past the point the body can spend it is tragedy, not discipline.",
+      "concreteVisual": "Everyman gripping a full wallet, worried, body spent.",
+      "onScreenText": "THE ACCOUNT STAYED FULL",
+      "relationToPrevious": "Completes the bankruptcy image: full account, spent body."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "box",
+      "text": "TEMPORAL ECONOMICS"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 7,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Frames the term as show commentary: the host names the new paradigm in chart-space.",
+      "claim": "Temporal economics replaces the currency lens: evaluate life through time, not dollars.",
+      "concreteVisual": "The host holding a coin up against a fading clock: currency weighed against time.",
+      "onScreenText": "TEMPORAL ECONOMICS",
+      "relationToPrevious": "Pivots from the tragedy to the paradigm that explains it."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "MONEY IS FROZEN TIME"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "surprised",
+    "holds": "coin",
+    "i": 8,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Freezes the abstraction: the coin in hand is literally the traded hours.",
+      "claim": "Dollars, euros and portfolios are frozen lifetime: traded hours made solid.",
+      "concreteVisual": "Everyman surprised, holding a coin that reads as frozen time in chart-space.",
+      "onScreenText": "MONEY IS FROZEN TIME",
+      "relationToPrevious": "Defines the new paradigm's unit: money as stored hours."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "highlight",
+      "text": "STORED HUMAN ENERGY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "hourglass",
+    "diagram": null,
+    "expression": "worried",
+    "holds": "hourglass",
+    "i": 9,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Adds the body's stamp: the hourglass shows the stored energy draining with the body.",
+      "claim": "Money is stored human energy with an invisible expiry date on the body.",
+      "concreteVisual": "Everyman holding an hourglass draining in chart-space.",
+      "onScreenText": "STORED HUMAN ENERGY",
+      "relationToPrevious": "Stamps the frozen time with its expiry: the body sets the date."
+    }
+  },
+  {
+    "action": "reach",
+    "callout": {
+      "style": "reveal",
+      "text": "THAW THE ENERGY OUT"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 10,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Stages the thaw as a reach: unspent energy evaporates if never grabbed in time.",
+      "claim": "Unthawed life energy evaporates: use it while the machine still runs.",
+      "concreteVisual": "Everyman reaching for the draining energy before it evaporates.",
+      "onScreenText": "THAW THE ENERGY OUT",
+      "relationToPrevious": "The consequence of the expiry: spend it or watch it vanish."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "PIECE OF MY LIFESPAN"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "surprised",
+    "i": 11,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Points at the self: the money was never paper, it was traded days of life.",
+      "claim": "Money is not paper or screen zeros; it is pieces of lifespan traded away.",
+      "concreteVisual": "Everyman pointing at himself in the living room, realizing the trade.",
+      "onScreenText": "PIECE OF MY LIFESPAN",
+      "relationToPrevious": "Restates the reframe as identity: your money is your days."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "MEET BILL PERKINS"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 12,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Introduces the mentor on screen: the energy trader turned life optimizer, not just a name.",
+      "claim": "Bill Perkins, energy trader and poker player, architected this philosophy.",
+      "concreteVisual": "Bill Perkins in a navy blazer in the trading office, presenting himself.",
+      "onScreenText": "MEET BILL PERKINS",
+      "relationToPrevious": "Introduces the architect after the philosophy he built."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "CALCULATING RISK AND REWARD"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": "balance",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 13,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Shows the savant at work: risk-reward calculation turned from markets to mortality.",
+      "claim": "A risk-reward savant motivated not by spreadsheets but by watching his circle.",
+      "concreteVisual": "Perkins weighing risk against reward on a balance: calculation beyond the spreadsheet.",
+      "onScreenText": "CALCULATING RISK AND REWARD",
+      "relationToPrevious": "From who he is to how he thinks: the calculating eye turns to friends."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "reveal",
+      "text": "TENS OF MILLIONS"
+    },
+    "cast": [
+      "billperkins",
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 14,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Puts the hedge-fund friend on screen: wealthy, intense, seated among his millions at 60-plus.",
+      "claim": "Ultra-rich friends hit their 60s and 70s with tens of millions intact.",
+      "concreteVisual": "Perkins pointing out his wealthy friends: tens of millions intact in their 60s and 70s, the watcher not the owner.",
+      "onScreenText": "TENS OF MILLIONS",
+      "relationToPrevious": "Shows what Perkins watched: the rich friends aging beside their money."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "LOST THE LIFE GAME"
+    },
+    "cast": [
+      "johnarnold"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 15,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Slumps the winner: the money game won, the life game lost, memory banks empty.",
+      "claim": "They won the money game and lost the life game, dying with starved memory banks.",
+      "concreteVisual": "The wealthy man slumped, sad, amid comfort he never converted to memory.",
+      "onScreenText": "LOST THE LIFE GAME",
+      "relationToPrevious": "The verdict on the rich friends: victory in money, defeat in life."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "box",
+      "text": "DYING WITH ZERO"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": "grave",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 16,
+    "set": "horizon",
+    "storyboard": {
+      "addedInformation": "Boxes the thesis at the cemetery: the grave is the frame the whole dive argues against.",
+      "claim": "The core thesis is dying with zero: plan the curve, not the pile.",
+      "concreteVisual": "The host at the cemetery hill naming the thesis over the grave.",
+      "onScreenText": "DYING WITH ZERO",
+      "relationToPrevious": "Names the thesis the tragedy demands: the alternative to the rich corpse."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "strike",
+      "text": "MAX OUT IN VEGAS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 17,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Strikes the misreading: the worried face rejects the Vegas caricature, not the book.",
+      "claim": "Die with zero is not reckless Vegas nihilism; that reading is rejected.",
+      "concreteVisual": "Everyman worried in chart-space, pushing away the reckless caricature.",
+      "onScreenText": "MAX OUT IN VEGAS",
+      "relationToPrevious": "Clears the aggressive phrase before defining what it really means."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "AUTOPSY OF WASTED ENERGY"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 18,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Reframes the book as analysis: a clinical audit of life energy, not a spending spree.",
+      "claim": "It is the opposite: an analytical autopsy of wasted life energy.",
+      "concreteVisual": "The host dissecting the waste clinically in chart-space.",
+      "onScreenText": "AUTOPSY OF WASTED ENERGY",
+      "relationToPrevious": "Replaces the struck caricature with the real definition."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "box",
+      "text": "FULFILLMENT OVER NET WORTH"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "target",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 19,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Aims the viewer: the target is fulfillment points, with net worth demoted to fuel.",
+      "claim": "Optimize for fulfillment points, not net worth points.",
+      "concreteVisual": "Everyman pointing at the target: fulfillment aimed at, net worth beside it.",
+      "onScreenText": "FULFILLMENT OVER NET WORTH",
+      "relationToPrevious": "States the optimization rule the autopsy prescribes."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "START AT THE END"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 20,
+    "set": "horizon",
+    "storyboard": {
+      "addedInformation": "Returns to the grave as method: the autopsy starts at the ending on purpose.",
+      "claim": "Start where the journey ends: autopsy the rich death first.",
+      "concreteVisual": "The host at the cemetery, beginning the audit at its endpoint.",
+      "onScreenText": "START AT THE END",
+      "relationToPrevious": "Turns the thesis into method: back to the grave, deliberately."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "reveal",
+      "text": "BADGE OF DISCIPLINE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "trophy",
+    "diagram": null,
+    "expression": "neutral",
+    "holds": "coin",
+    "i": 21,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Shows the worshipped object: the estate held up like a prize for discipline.",
+      "claim": "Society treats a massive estate at death as the ultimate badge of discipline.",
+      "concreteVisual": "Everyman holding up the estate-coin like a trophy in the living room.",
+      "onScreenText": "BADGE OF DISCIPLINE",
+      "relationToPrevious": "Names the wiring the autopsy attacks: the praised estate."
+    }
+  },
+  {
+    "action": "idle",
+    "callout": {
+      "style": "reveal",
+      "text": "WHISPERS AT THE FUNERAL"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 22,
+    "set": "horizon",
+    "storyboard": {
+      "addedInformation": "Mourns the irony: the funeral whispers praise over a $4M Vanguard balance nobody enjoyed.",
+      "claim": "A $4M Vanguard balance at the funeral draws whispers of responsibility.",
+      "concreteVisual": "Mourners whispering admiration over the casket: the four-million saver praised, the irony intact.",
+      "onScreenText": "WHISPERS AT THE FUNERAL",
+      "relationToPrevious": "Concretizes the badge: the $4M funeral everyone admires."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "strike",
+      "text": "TOTAL PITY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 23,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Strikes the pity: the sad slump is the judged zero-balance elder the crowd pities.",
+      "claim": "Hitting zero at 90 draws pity, but Perkins says that pity is misplaced.",
+      "concreteVisual": "An elder Everyman slumped under the crowd's misplaced pity.",
+      "onScreenText": "TOTAL PITY",
+      "relationToPrevious": "Flips the funeral irony: the pitied zero-balance elder."
+    }
+  },
+  {
+    "action": "point",
+    "callout": {
+      "style": "highlight",
+      "text": "STRUCTURAL MISCALCULATION"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": "coin",
+    "diagram": null,
+    "expression": "worried",
+    "i": 24,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Points at the error: the unspent dollars are exhibit A of the miscalculated equation.",
+      "claim": "Dying with millions is not discipline but a structural miscalculation of life's equation.",
+      "concreteVisual": "Perkins pointing at the unspent coin-evidence in the office.",
+      "onScreenText": "STRUCTURAL MISCALCULATION",
+      "relationToPrevious": "Perkins overturns both verdicts: millions left is the real failure."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "highlight",
+      "text": "YOU WORKED FOR FREE"
+    },
+    "cast": [
+      "billperkins"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 25,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Lands the charge personally: every unspent dollar is unpaid labor, from the mentor's mouth.",
+      "claim": "Every unspent dollar is life worked for free, and this is not a rogue edgy theory.",
+      "concreteVisual": "Perkins leveling the charge, face grave: years of labor banked for nothing.",
+      "onScreenText": "YOU WORKED FOR FREE",
+      "relationToPrevious": "Prices the miscalculation: the dollars cost unpaid life."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "NOBEL FOR THE LIFE CYCLE"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 26,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Adds the heavyweight backing: a Nobel-winning hypothesis behind the poker player's claim.",
+      "claim": "Serious economics backs this: Modigliani's life-cycle hypothesis won the Nobel.",
+      "concreteVisual": "The host presenting the prize-winning theory in chart-space.",
+      "onScreenText": "NOBEL FOR THE LIFE CYCLE",
+      "relationToPrevious": "Armors the charge with authority: economics agrees."
+    }
+  },
+  {
+    "action": "think",
+    "callout": null,
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": {
+      "labels": [
+        "Spread wealth",
+        "Die with zero"
+      ],
+      "type": "flow"
+    },
+    "expression": "neutral",
+    "i": 27,
+    "set": "abstract",
+    "storyboard": {
+      "addedInformation": "Diagrams the rational life: wealth spread deliberately so the curve lands on zero at death.",
+      "claim": "A perfectly rational person spreads wealth to reach exactly zero at death.",
+      "concreteVisual": "A cause-effect flow in chart-space: spread wealth across life toward zero at death, Everyman thinking it through.",
+      "onScreenText": "SPREAD WEALTH -> DIE WITH ZERO",
+      "relationToPrevious": "Formalizes the Nobel rule as the video's structural diagram."
+    }
+  },
+  {
+    "action": "think",
+    "callout": {
+      "style": "reveal",
+      "text": "UTILITY IS THE VALUE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": "target",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 28,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Internalizes the economics: money's worth is only what it converts into.",
+      "claim": "Money's only intrinsic value is utility: what it converts into.",
+      "concreteVisual": "Everyman aiming at a zero-date target: utility, not pile.",
+      "onScreenText": "UTILITY IS THE VALUE",
+      "relationToPrevious": "Defines money's worth after the zero-target rule: conversion, not pile."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "FAILED TO MAXIMIZE UTILITY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 29,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Slumps under the math: the surplus is proof of utility never claimed.",
+      "claim": "Dying with surplus mathematically fails to maximize the utility of limited Earth time.",
+      "concreteVisual": "Everyman slumped worried beside the unmaximized surplus.",
+      "onScreenText": "FAILED TO MAXIMIZE UTILITY",
+      "relationToPrevious": "Scores the surplus: the math of the failure."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": null,
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 30,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "weak: transitional banter beat, staging only; the visceral scene it cues carries the meaning.",
+      "claim": "The hosts pivot to making the math visceral for the listener.",
+      "concreteVisual": "The host bridging from theory to the cubicle scene.",
+      "onScreenText": "MAXIMIZE THE UTILITY",
+      "relationToPrevious": "Breathes between the theorem and its visceral staging."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "7:15 PM ON TUESDAY"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 31,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Seats the viewer in the cubicle: fluorescent hum, late Tuesday, the traded evening made visible.",
+      "claim": "Picture the gray cubicle at 7:15 PM on a Tuesday under buzzing fluorescents.",
+      "concreteVisual": "Everyman seated sad in the gray cubicle at night under fluorescent light.",
+      "onScreenText": "7:15 PM ON TUESDAY",
+      "relationToPrevious": "Opens the visceral scene: the traded evening itself."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "ARBITRARY SAVINGS GOAL"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "holds": "notes",
+    "i": 32,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Shows the spreadsheet as notes in hand: throbbing back, arbitrary goal, future self as payee.",
+      "claim": "A throbbing back over a spreadsheet, chasing a savings goal for a future self.",
+      "concreteVisual": "Everyman seated with spreadsheet notes, aching, chasing the arbitrary goal.",
+      "onScreenText": "ARBITRARY SAVINGS GOAL",
+      "relationToPrevious": "Zooms into the cubicle: the spreadsheet and the sore back."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "TOO SICK TO SPEND"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "worried",
+    "i": 33,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Ages the saver in place: the vibrant Tuesday traded to a self too tired or sick to spend it.",
+      "claim": "That future self may be too tired or sick to spend what youth traded away.",
+      "concreteVisual": "Everyman worried at the desk, facing the frail future self who inherits the number.",
+      "onScreenText": "TOO SICK TO SPEND",
+      "relationToPrevious": "Reveals the payee: a future self who cannot spend it."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "reveal",
+      "text": "NEVER CONVERT IT"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 34,
+    "set": "office",
+    "storyboard": {
+      "addedInformation": "Slumps at the screen: the digital number stays a number, the warning confirmed.",
+      "claim": "A digital number never converted into anything: exactly what Modigliani warned.",
+      "concreteVisual": "Everyman slumped before the glowing unconverted number on screen.",
+      "onScreenText": "NEVER CONVERT IT",
+      "relationToPrevious": "Closes the cubicle scene: the number that never became life."
+    }
+  },
+  {
+    "action": "slump",
+    "callout": {
+      "style": "highlight",
+      "text": "ENERGY INTO A BLACK HOLE"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "i": 35,
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "storyboard": {
+      "addedInformation": "Visualizes the black hole: worked hours and family time vanishing into unspent money.",
+      "claim": "Every hour worked for unspent money is life energy thrown into a black hole.",
+      "concreteVisual": "Everyman slumped in dark space as life energy drains into a black hole.",
+      "onScreenText": "ENERGY INTO A BLACK HOLE",
+      "relationToPrevious": "Generalizes the cubicle: every unspent hour is the same hole."
+    }
+  },
+  {
+    "action": "hold",
+    "callout": {
+      "style": "highlight",
+      "text": "HOARDED THE TICKETS"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "sad",
+    "holds": "wallet",
+    "i": 36,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Clutches the tickets: food processed, effort spent, family time traded for a medium never used.",
+      "claim": "You hoarded the tickets but never went to the carnival.",
+      "concreteVisual": "Everyman sad in the living room clutching the wallet of unused tickets.",
+      "onScreenText": "HOARDED THE TICKETS",
+      "relationToPrevious": "Punchlines the waste: tickets hoarded, carnival missed."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "PUNCHED ME IN THE GUT"
+    },
+    "cast": [
+      "narrator"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "surprised",
+    "i": 37,
+    "set": "room",
+    "storyboard": {
+      "addedInformation": "Bridges to the case study: the host's gut-punch cues Elizabeth's story.",
+      "claim": "A concrete case from the book punches the hosts in the gut.",
+      "concreteVisual": "The surprised host introducing the case that proves the carnival line.",
+      "onScreenText": "PUNCHED ME IN THE GUT",
+      "relationToPrevious": "Tees up the proof: from metaphor to a real life."
+    }
+  },
+  {
+    "action": "talk",
+    "callout": {
+      "style": "reveal",
+      "text": "MEET ELIZABETH"
+    },
+    "cast": [
+      "elizabeth"
+    ],
+    "concept": null,
+    "diagram": null,
+    "expression": "neutral",
+    "i": 38,
+    "set": "street",
+    "storyboard": {
+      "addedInformation": "Introduces the foil on her street: the neat, ordinary, perfectly responsible American saver.",
+      "claim": "Elizabeth is the perfectly responsible American: median income, lifelong saver.",
+      "concreteVisual": "Elizabeth, neat in cardigan and glasses, on her quiet suburban street.",
+      "onScreenText": "MEET ELIZABETH",
+      "relationToPrevious": "Meets the case study: responsibility personified."
+    }
+  },
+  {
+    "action": "sit",
+    "callout": {
+      "style": "reveal",
+      "text": "RETIRED AT 65"
+    },
+    "cast": [
+      "elizabeth"
+    ],
+    "concept": "wallet",
+    "diagram": null,
+    "expression": "neutral",
+    "i": 39,
+    "set": "street",
+    "storyboard": {
+      "addedInformation": "Shows the lifetime balance: decades of median-income work converted to home equity and savings at 65.",
+      "claim": "She works her whole life on median income and retires at 65 with full net worth.",
+      "concreteVisual": "Elizabeth seated with her lifetime wallet: home equity and savings at retirement.",
+      "onScreenText": "RETIRED AT 65",
+      "relationToPrevious": "Builds Elizabeth's ledger before the next chunk reveals its tragic remainder."
+    }
+  }
+]
