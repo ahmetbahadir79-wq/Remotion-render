@@ -1,0 +1,54 @@
+{
+  "slug": "all-the-light-we-cannot-see",
+  "title": "All the Light We Cannot See",
+  "author": "Anthony Doerr",
+  "genre": "historical fiction",
+  "engine": "vox",
+  "engineRationale": "Operator switch 2026-09-24 after the audio was recorded (from an Antidote-shaped prompt): a WWII period world (1944 Saint-Malo, the model town, radios, the Sea of Flames) is the book's visual core → photoreal period realism (Vox). Narration check on the recorded VTT agrees: Vox 17 vs Antidote 9.2 (moderate), violence 2/1k (no Flux-filter risk). The bombing is shown as aftermath.",
+  "bgTint": true,
+  "engineDecidedBy": "operator-switch-after-audio",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "period",
+    "era": 1944,
+    "realPeople": false,
+    "format": "story",
+    "violence": "some",
+    "minorHarm": false,
+    "mustSee": [
+      "walled city of Saint-Malo",
+      "the scale model of the town",
+      "a boy fixing radios",
+      "the Sea of Flames diamond",
+      "the 1944 siege and its ruins"
+    ]
+  },
+  "engineSwitch": {
+    "from": "antidote",
+    "at": "2026-09-24",
+    "audioPromptEngine": "antidote",
+    "reRecorded": false
+  },
+  "engineCheck": {
+    "at": "2026-09-25",
+    "fit": "vox",
+    "confidence": "moderate",
+    "voxScore": 17,
+    "antidoteScore": 9.2,
+    "signals": {
+      "year": 0.4,
+      "history": 3.9,
+      "second": 10.5,
+      "abstract": 6.9,
+      "sensitive": 2,
+      "era": 1944,
+      "words": 5622
+    },
+    "reasons": [
+      "real-world / dated references (0.4 years, 3.9 history terms per 1k words) → photoreal shows the actual world (Vox)",
+      "set around 1944 → period realism favours Vox"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

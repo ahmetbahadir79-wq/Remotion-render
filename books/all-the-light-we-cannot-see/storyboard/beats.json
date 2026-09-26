@@ -1,0 +1,4124 @@
+{
+  "slug": "all-the-light-we-cannot-see",
+  "title": "All the Light We Cannot See",
+  "author": "Anthony Doerr",
+  "genre": "historical fiction",
+  "count": 249,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "A blind girl in occupied France builds a miniature city with her fingers so she can navigate streets she will never see. And a German orphan builds radios that will track",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "OCCUPIED",
+          "FRANCE",
+          "BUILDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "builds, will, miniature",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "down the people trying to save her. Same invisible waves, opposite moral universes. It's just it is the ultimate collision of trajectories,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OPPOSITE",
+          "MORAL",
+          "UNIVERSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 2,
+      "text": "right? Like happening entirely in the vertical space of this one burning city because up in the attic she is broadcasting, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VERTICAL",
+          "SPACE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "And down in the cellar he is listening. And the architecture of that convergence is exactly what we are tearing apart today.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEARING",
+          "APART",
+          "TODAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "We are doing a deep dive into Anthony Doerr. All the light we cannot see. And if you've",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANTHONY",
+          "DOERR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "anthony, doerr., cannot",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 5,
+      "text": "read the book, you know this isn't a story that like slowly eases you into the stakes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SLOWLY",
+          "EASES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "Doerr drops us immediately into the inferno. Right into it. August 1944. Exactly. It's August 1944. The walled historic citadel of St.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AUGUST",
+          "1944"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "august, 1944., immediately",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 7,
+      "text": "Malo on the Britany coast of France. And there are these American bombers flying overhead with these deceptively breezy names like Stardust.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMERICAN",
+          "BOMBERS",
+          "FLYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deceptively, stardust., american",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 8,
+      "text": "Yeah, stardust, stormy weather, and they're releasing thousands of leaflets. First, it ascends this terrifying paper snow warning of",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "RELEASING",
+          "THOUSANDS"
+        ],
+        "items": [
+          "STARDUST",
+          "STORMY WEATHER",
+          "THEY"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 9,
+      "text": "imminent destruction, which is immediately followed by incendiary rounds. We're talking about thermite and white phosphorus, which is I mean, that's designed to burn",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IMMINENT",
+          "DESTRUCTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 10,
+      "text": "at temperatures that literally melt the Yeah. Melt them. 72,000 pounds of explosives systematically erasing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "000",
+          "POUNDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "centuries of human history in what a matter of hours. It's incomprehensible. And the physics of a firestorm like that actually create their own",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 12,
+      "text": "weather systems, you know, sucking the oxygen out of the air, which is so intense. And right in the center of that oxygen vacuum, we have our two focal",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEATHER",
+          "SYSTEMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "points. In this tall, very narrow house on the Ru Aberell, you have right? She's 16 years old, completely blind,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "16",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, points., aberell",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 14,
+      "text": "and she is sheltering under her bed with a wooden puzzle box that contains this mythical diamond, which we'll get into because wow. Oh, absolutely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MYTHICAL",
+          "DIAMOND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "Meanwhile, literally just blocks away, you have Werner Pfennig. He's an 18-year-old German radio operator with this stark white hair, and he is trapped",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "18-YEAR-OLD",
+          "GERMAN",
+          "RADIO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "18-year-old, meanwhile, literally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 16,
+      "text": "beneath the rubble of the Hotel of Bees. Lut is a bee. Yeah. Right. And his entire purpose in that city, the only reason he is there was to operate",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOTEL",
+          "OF",
+          "BEES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "beneath, purpose, operate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 17,
+      "text": "a directional transceiver to triangulate her exact position and eliminate her. Exactly. Their entire lives have just bent toward this single intersection.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIRECTIONAL",
+          "TRANSCEIVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "And Derer spends, you know, 500 pages proving that this intersection was never",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DERER",
+          "SPENDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intersection, proving, spends",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 19,
+      "text": "accidental. Which brings us to the actual thesis Doerr is presenting to you,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "THESIS",
+          "DOERR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "accidental., presenting, brings",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 20,
+      "text": "the reader, because it is incredibly easy to read this book and just categorize it as, you know, a beautifully written World War II survival epic.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WRITTEN",
+          "WORLD",
+          "WAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "beautifully, incredibly, categorize",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 21,
+      "text": "Oh, for sure. The pros is gorgeous. It is. But that is such a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROS",
+          "IS",
+          "GORGEOUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "surface level reading. The underlying architecture of this narrative is actually a massive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SURFACE",
+          "LEVEL",
+          "READING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "intricate argument about epistemology. Epistemology meaning like how we know what we know. Exactly. Dur is basically arguing that the most dangerous",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTRICATE",
+          "ARGUMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 24,
+      "text": "potent weapon in any theater of war isn't a mortar shell. It's not a phosphorus bomb. It is the transmission of knowledge.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POTENT",
+          "WEAPON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 25,
+      "text": "It's the data itself. A radio signal, um, a bedtime story, a lecture recorded on a wax cylinder, a coded",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LECTURE",
+          "RECORDED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 26,
+      "text": "string of numbers baked into a loaf of bread. A piece of information can be a weapon of mass destruction or a tool of total liberation.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTAL",
+          "LIBERATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "And it depends entirely on who controls the frequency. Totally. And he takes that argument a step further to make this really profound moral claim.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "MORAL",
+          "CLAIM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 28,
+      "text": "He says that blindness and sight are not biological conditions of the optic nerve. Wait, say that again. Sight and blindness are not physical conditions.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "CONDITIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "They are moral choices. The true casualties in this narrative, the ones who actually commit the most horrific acts are the people who possess perfectly functioning",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POSSESS",
+          "PERFECTLY",
+          "FUNCTIONING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "eyes but make the conscious calculated choice to just tune out the suffering around them. Wow. Okay. So, to you listening right now, I want you to keep",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSCIOUS",
+          "CALCULATED",
+          "CHOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "that framework in mind as we go through this deep dive. Think about the invisible waves passing through your own physical space at this very second.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVISIBLE",
+          "WAVES",
+          "PASSING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 32,
+      "text": "Right. The Wi-Fi. The Wi-Fi. The cellular signals. The targeted algorithmic feeds. Are you actively choosing which frequencies to decode?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "TARGETED",
+          "ALGORITHMIC",
+          "FEEDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 33,
+      "text": "Or are you just passively letting the noise wash over you? Because the difference between those two states of being is literally everything. It is.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIFFERENCE",
+          "BETWEEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "So, let's start with how you even learn to actively perceive things. Let's look at Maria Lur's education.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "MARIA",
+          "LUR",
+          "EDUCATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 35,
+      "text": "Yes. Because to understand what active perception actually requires, we have to examine how a child who loses her sight to congenital cataracts at",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONGENITAL",
+          "CATARACTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "age six is taught to map reality without visual which is such a fascinating process in the book because her father, Daniel",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FASCINATING",
+          "PROCESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fascinating, reality, without",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 37,
+      "text": "Leblanc, fundamentally rejects the idea that blindness is a barrier to understanding",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUNDAMENTALLY",
+          "REJECTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "the world. Right. He's the principal locksmith at the museum national dysel",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MUSEUM",
+          "NATIONAL",
+          "DYSEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 39,
+      "text": "in Paris. The Museum of Natural History. Yeah. Yeah. and he is a man whose entire existence revolves around mechanisms, tumblers, and really the philosophy of",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "NATURAL",
+          "HISTORY"
+        ],
+        "items": [
+          "AROUND MECHANISMS",
+          "TUMBLERS",
+          "REALLY THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 40,
+      "text": "He understands that a lock is just a mechanical puzzle designed to restrict knowledge or restrict value. Exactly. So when his daughter goes blind, he doesn't just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MECHANICAL",
+          "PUZZLE",
+          "DESIGNED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 41,
+      "text": "wrap her in cottonwool. He doesn't hide her away. He builds a ridiculously intricate wooden scale model of their entire Paris And we really",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENTIRE",
+          "PARIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ridiculously, cottonwool., intricate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 42,
+      "text": "have to pause and consider the sheer mechanical genius of this model. It isn't a toy. No, not at all.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHEER",
+          "MECHANICAL",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "It is a highly accurate topographical map rendered in three dimensions. It has tiny wooden storm drains, textured facades on",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACCURATE",
+          "TOPOGRAPHICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 44,
+      "text": "the houses, miniature He is basically taking the massive chaotic macro world of Paris and compressing it down into",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "CHAOTIC",
+          "MACRO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "compressing, miniature, basically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 45,
+      "text": "a micro environment that her fingertips can actually process. And then he forces her to memorize it through tactile repetition.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THROUGH",
+          "TACTILE",
+          "REPETITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 46,
+      "text": "She runs her fingers over the miniature intersections until she builds a cognitive map. And then the crazy part, he takes her out into the actual city, spins her",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MINIATURE",
+          "INTERSECTIONS",
+          "UNTIL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 47,
+      "text": "around to completely disorient her, and forces her to navigate the massive, terrifying real world equivalent of the puzzle she just memorized.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "REAL",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 48,
+      "text": "One centimeter at a time, one centimeter at a time. He follows her, letting her trip, letting her cry, letting her drop her cane until she successfully counts the storm drains and finds her",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STORM",
+          "DRAINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 49,
+      "text": "way back to their door. And the radical philosophical argument here is really about the nature of perception itself. Doerr is suggesting that these cited people",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RADICAL",
+          "PHILOSOPHICAL",
+          "ARGUMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 50,
+      "text": "in Paris, the ones with working eyes, are actually the blind Right. Because they walk down their streets on complete autopilot.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "COMPLETE",
+          "AUTOPILOT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "Exactly. They rely on heristic processing. They let their brains take shortcuts because the visual data is just so overwhelming and assumed.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HERISTIC",
+          "PROCESSING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 52,
+      "text": "Like they don't know the exact distance between the bakery and the curb. We don't know the texture of the bark on the chestnut trees. No.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "DISTANCE",
+          "BETWEEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "Sightedness allows you to skim It's exactly like using a GPS to navigate a new city. When you use the GPS, you might reach your destination",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SIGHTEDNESS",
+          "ALLOWS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "super efficiently, but you remain completely ignorant of the terrain. Yes, you have no mental map of the underlying systems. You just follow the blue line.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERLYING",
+          "SYSTEMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 55,
+      "text": "But because Marie-Laure is denied that easy visual shortcut, she has to actually understand the environment. She has to draw the map in her mind by physically measuring",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARIE-LAURE",
+          "IS",
+          "DENIED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "the world with her own body. So blindness is reframed here",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BLINDNESS",
+          "IS",
+          "REFRAMED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "as a profound intellectual advantage. It forces rigorous active attention.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "INTELLECTUAL",
+          "ADVANTAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "She perceives the architecture of reality far more deeply than anyone with working eyes because her survival literally depends on absolute",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WORKING",
+          "EYES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "comprehension, not just passive observation. Okay, but let me play devil's advocate here for a second. Let's look at the father's motivation.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PASSIVE",
+          "OBSERVATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 60,
+      "text": "Is Daniel Leblanc actually trying to instill a profound philosophical lesson about the nature of perception?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "DANIEL",
+          "LEBLANC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 61,
+      "text": "Or is he just a desperate guy applying the only framework he knows locksmithing to a biological tragedy? Like he's hammering friction strips into the floorboard",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HAMMERING",
+          "FRICTION",
+          "STRIPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "so she doesn't trip. He's running string through the apartment to lead her to the bathroom. To me, that reads like a mechanical mind trying to engineer a solution to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MECHANICAL",
+          "MIND",
+          "TRYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "fear rather than a philosopher trying to teach a new way of seeing. That's a really fair push back. It absolutely begins as a desperate engineering solution to a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATE",
+          "ENGINEERING",
+          "SOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 64,
+      "text": "biological problem. But, and this is the crucial part, the result transcends the intention. By treating her environment as a puzzle to be solved rather than just a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGICAL",
+          "PROBLEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 65,
+      "text": "tragedy to be mourned, he accidentally teaches her the science of attention. Right. Right. Think about the moment she finally navigates those six blocks",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACCIDENTALLY",
+          "TEACHES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 66,
+      "text": "home flawlessly in Paris. While the snow is falling, she identifies her exact location by feeling the specific bark of a chestnut",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "LOCATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "tree. Yeah, that scene is incredible. In that moment, she isn't just surviving the city. She has mastered it in a way her sighted father never could.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SIGHTED",
+          "FATHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "He engineered a reality where her primary mode of existence is just this state of hyper awareness. Which is an incredible setup for what happens next",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HYPER",
+          "AWARENESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "because the skills she develops to read the physical world through touch are directly tied to the concept of hidden value. Right. Because of her dad's job.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "WORLD",
+          "THROUGH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "Exactly. Her father's whole life is about securing valuable things. And that brings us to the ultimate locked box of the novel, the sea of flames.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SECURING",
+          "VALUABLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "Oh man, the sea of flames. We really need to look at how Derer uses this mythical diamond as a proxy for the burden of forbidden knowledge.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DERER",
+          "USES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "knowledge., forbidden, mythical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 72,
+      "text": "Yeah. The mythology surrounding the stone is essential to understanding the narrative stance on human greed and the hoarding of power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MYTHOLOGY",
+          "SURROUNDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "So the legend states that the goddess of the earth created this massive 133 karat blue diamond with a red center for the god",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "133",
+          "KARAT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "of the sea. And a prince of Borneo finds it. Right. Yes. A prince finds it. He gets attacked and he survives a fatal wound because he is holding the stone, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BORNEO",
+          "FINDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "prince, finds, attacked",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 75,
+      "text": "It basically grants the possessor a form of immortality or But there's a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRANTS",
+          "THE",
+          "POSSESSOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 76,
+      "text": "catch. There's always a catch. The curse is the ultimate monkey paw.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "MONKEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 77,
+      "text": "As long as you keep the stone, tragic misfortunes will rain down on everyone you love. And the only way to break the curse is to surrender the power you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRAGIC",
+          "MISFORTUNES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 78,
+      "text": "have to throw the diamond back into the sea. But when the war breaks out, the museum director decides to make three perfect decoys.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THREE",
+          "PERFECT",
+          "DECOYS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 79,
+      "text": "Yeah. Three fakes. And he places the real one and the fakes in four identical wooden puzzle boxes shaped like little houses.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IDENTICAL",
+          "WOODEN",
+          "PUZZLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "And he gives one to Daniel Leblanc to carry out of And nobody knows which one is real. The Damon operates as this brilliant metaphor for dangerous knowledge",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DANIEL",
+          "LEBLANC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brilliant, dangerous, knowledge",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 81,
+      "text": "or honestly even unchecked technological Like what? Well, think about the dawn of the nuclear age which is happening concurrently",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNCHECKED",
+          "TECHNOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "in the historical background of this novel. Possessing atomic knowledge grants a nation immense godlike power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POSSESSING",
+          "ATOMIC",
+          "KNOWLEDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 83,
+      "text": "A form of geopolitical immortality. Right. Right. Mutually assured destruction. Exactly. But the mere possession of that knowledge poisons the entire globe with",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GEOPOLITICAL",
+          "IMMORTALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "a constant threat of annihilation. The sea of flames is the physical embodiment of information that humans are simply not morally equipped to possess.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "EMBODIMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "I really love that comparison to nuclear fishision because look at Daniel Leblanc's reaction to carrying the Oh, he completely changes.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "DANIEL",
+          "LEBLANC",
+          "REACTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 86,
+      "text": "He does. He is a staunch rationalist. He constantly tells Marie-Laure that curses are just stories invented by the wealthy to deter thieves.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARIE-LAURE",
+          "THAT",
+          "CURSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "He insists the universe is governed only by chance and Chance and physics. Yes. And yet the longer he carries this puzzle box in his rucks sack, the more paranoid",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CHANCE",
+          "AND",
+          "PHYSICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "chance, universe, governed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 88,
+      "text": "he becomes. The weight of the object and what it represents, it just begins to distort his reality. Because that is the insidious nature of possessing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INSIDIOUS",
+          "NATURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "disproportionate power. You can tell yourself you are a rational actor, that you're completely immune to superstition, but the psychological burden of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOLOGICAL",
+          "BURDEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 90,
+      "text": "carrying something that has the potential to alter reality fundamentally changes your behavior. He starts checking the box constantly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALTER",
+          "REALITY",
+          "FUNDAMENTALLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "Constantly he isolates himself. He begins to filter every negative event through the lens of the curse. Even a man of pure science cannot withstand",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SCIENCE",
+          "CANNOT",
+          "WITHSTAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 92,
+      "text": "the gravity of that much concentrated power. And it really highlights the absurdity of human greed. Like when Marie-Laure first hears the legend of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARIE-LAURE",
+          "FIRST",
+          "HEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 93,
+      "text": "curse as a child on a museum tour, she asks the most logical innocent question What was it again?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "LOGICAL",
+          "INNOCENT",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "She says, \"Why not just take the diamond and throw it into the sea?\" She instantly identifies the solution. If the power is destroying you, relinquish the power.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "INSTANTLY",
+          "IDENTIFIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 95,
+      "text": "And the older kids on the tour just laugh at her. They say, \"When is the last time",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "OLDER",
+          "KIDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "you saw someone throw five Eiffel Towers into the sea?\" Right? Because the adult world is entirely seduced",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "FIVE",
+          "EIFFEL",
+          "TOWERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 97,
+      "text": "by the valuation of the object. They cannot comprehend destroying something of immense financial or strategic value, even if keeping it practically",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "COMPREHEND",
+          "DESTROYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "guarantees their own destruction. It is a profound failure of moral imagination. They choose the prestige of possession over the safety of the Which brings us",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "FAILURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "destruction., imagination., guarantees",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 99,
+      "text": "perfectly to the other side of the invisible spectrum. While Marie-Laure is carrying this ancient",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARIE-LAURE",
+          "IS",
+          "CARRYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 100,
+      "text": "mythical knowledge in her pocket and learning to see the world through tactile attention,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MYTHICAL",
+          "KNOWLEDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 101,
+      "text": "a boy in Germany is being sedued by modern scientific Yes. Let's look at Werner Pfennig and the mechanics of his seduction.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "PFENNIG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "scientific, seduction., mechanics",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 102,
+      "text": "Werner's environment in the coal mining complex of Zolverine in Germany is just defined by physical darkness and inevitable suffocation.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ZOLVERINE",
+          "IN",
+          "GERMANY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "suffocation., environment, inevitable",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 103,
+      "text": "It's grim. So grim his father died in the mines. Werner and his sister Jutta are orphans living on rations of mustard powder and water.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SISTER",
+          "JUTTA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "orphans, rations, mustard",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 104,
+      "text": "And he is mathematically guaranteed to be sent down into the pitch black shafts the absolute moment he turns 15. The environment is utterly devoid of hope or",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TURNS",
+          "15"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 105,
+      "text": "light. But Werner has this relentlessly inquisitive mechanical mind. He doesn't just look at the world. He wants to know the underlying physics of it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RELENTLESSLY",
+          "INQUISITIVE",
+          "MECHANICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "relentlessly, inquisitive, mechanical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 106,
+      "text": "Yeah. He wants to know how it all works. And this curiosity finds its ultimate outlet",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "OUTLET"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "when he's like 10 years old. And he pulls a ruined radio out of an alleyway",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "10",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "trash can. There's a pile of garbage, right? And he painstakingly splices the broken copper wire. He repairs the coils.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROKEN",
+          "COPPER",
+          "WIRE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "And suddenly he pulls a voice out of the thin air. We really have to appreciate the pure magic of electromagnetism from the perspective of an impoverished",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURE",
+          "MAGIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 110,
+      "text": "child in the 1930s. He takes a piece of dead wire, strings it up,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "1930S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "and catches a skywave, a radio frequency that is bounced off the ionosphere,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RADIO",
+          "FREQUENCY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 112,
+      "text": "and translates that invisible oscillation into the sound of a piano playing in another country. It is a literal defiance of his physical It's a miracle of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVISIBLE",
+          "OSCILLATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "physics. and they tune into a shortwave broadcast from a mysterious Frenchman who explains that coal is just ancient sunlight trapped in the earth.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MYSTERIOUS",
+          "FRENCHMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "mysterious, shortwave, broadcast",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 114,
+      "text": "Oh, I love that line. It's so good. The Frenchman says this incredibly vital line. The brain is locked in total darkness and yet the world it constructs",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCHMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "line., incredibly, constructs",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 115,
+      "text": "in the mind is full of light. And he finishes by telling his listeners to open your eyes and see what you can with them before they close And that",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LISTENERS",
+          "TO",
+          "OPEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "specific frequency saves Werner's mind. It gives him a framework for understanding the universe that extends way beyond the suit of Zolverine.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREQUENCY",
+          "SAVES",
+          "WERNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "understanding, zolverine., frequency",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 117,
+      "text": "But and this is a massive but Doer is setting up a devastating trap Oh, for sure. Because Werner's mechanical genius in repairing these radios makes",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "MECHANICAL",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "devastating, mechanical, repairing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 118,
+      "text": "him incredibly valuable to the local Nazi officials. Her Sidler, this Nazi official,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LOCAL",
+          "NAZI",
+          "OFFICIALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "nazi, incredibly, officials.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 119,
+      "text": "sees Werner fix a radio and realizes this kid can be weaponized.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SEES",
+          "WERNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "weaponized., realizes, werner",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 120,
+      "text": "So he offers Werner a spot at Schulpforta, an elite military academy. But the entrance fee for this escape is deeply symbolic.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "OFFERS",
+          "WERNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 121,
+      "text": "To prove his allegiance to the new regime, Werner has to sever his ties to his unauthorized past. The brick scene.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "UNAUTHORIZED",
+          "PAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unauthorized, allegiance, regime",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 122,
+      "text": "The brick scene. He takes the beloved radio he built, the physical mechanism that brought the Frenchman's voice and the light into his life and he crushes it with the brick in the alley.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCHMAN",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brick, frenchmans, mechanism",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 123,
+      "text": "He smashes it. Oh wow. Just completely obliterates it. He destroys the receiver of truth to ensure his physical survival.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "SURVIVAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "This is what we can call the fallacy of pure science. Werner desperately wants to believe that his work is morally neutral.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "DESPERATELY",
+          "WANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "When he goes to Schulfora and studies Hinrich Herz's principles of mechanics, he falls in love with the clean, elegant mathematics of trigonometry and circuitry.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HINRICH",
+          "HERZ",
+          "PRINCIPLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "trigonometry, mathematics, principles",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 126,
+      "text": "He thinks the math is safe. Exactly. He convinces himself that because a radio wave is just an oscillating electromagnetic field completely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OSCILLATING",
+          "ELECTROMAGNETIC",
+          "FIELD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "agnostic to human morality, his manipulation that wave is also morally neutral. It is the ultimate cognitive dissonance.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "COGNITIVE",
+          "DISSONANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 128,
+      "text": "Like when you look at the physics of radio triangulation, having two or three directional antennas measuring the signal strength of a broadcast to find intersecting lines",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIRECTIONAL",
+          "ANTENNAS",
+          "MEASURING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "of bearing and locate the transmitter. The math is beautiful. It is it's a flawless geometry, right? But Werner focuses on solving for X.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "FOCUSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transmitter., beautiful., flawless",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 130,
+      "text": "So he doesn't have to think about what happens to the human being standing at X once the military finds them. And it is the exact same moral compartmentalization we see in modern technology",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "TECHNOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 131,
+      "text": "sectors. Oh, absolutely. Like a modern tech developer building an You say they just write the code. Exactly. Like I'm not responsible for what the algorithm",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TECH",
+          "DEVELOPER",
+          "BUILDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 132,
+      "text": "does. I just wrote it to maximize user engagement. Right. They view it as a pure mathematical challenge. They divorce themselves from the reality that their algorithm is being",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAXIMIZE",
+          "USER",
+          "ENGAGEMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 133,
+      "text": "used to, you know, manipulate elections, spread disinformation, or radicalize populations. Werner is the historical",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANIPULATE",
+          "ELECTIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 134,
+      "text": "prototype of the engineer who builds the machine but claims absolutely no responsibility for what the machine His sister Jutta is",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SISTER",
+          "JUTTA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "machine, responsibility, absolutely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 135,
+      "text": "the only one who refuses to separate the math from the She sees right through it. She listens to the foreign broadcasts.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FOREIGN",
+          "BROADCASTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 136,
+      "text": "She knows about the atrocities Germany is committing. She is his moral anchor. And when he chooses to go to the Nazi school to escape the mines, she looks at",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ATROCITIES",
+          "GERMANY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "committing., atrocities, germany",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 137,
+      "text": "him with utter betrayal. She understands that he is willfully putting on blinders. He is choosing to become morally blind to save his own life.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UTTER",
+          "BETRAYAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "And that willful blindness is systematically reinforced and institutionalized once he arrives at Schaorda.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ARRIVES",
+          "AT",
+          "SCHAORDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "We have to examine how this environment actively dismantles the individual conscience. Yeah. Let's talk about the National Political Institute of Education at Schaordo because it",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "NATIONAL",
+          "POLITICAL",
+          "INSTITUTE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "is essentially a factory designed to burn the empathy out of children. It really is. its phronology exams where they're measuring skulls, its brutal physical conditioning",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRUTAL",
+          "PHYSICAL",
+          "CONDITIONING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 141,
+      "text": "in the snow and constant ideological indoctrination. The commonant bastion operates on this twisted Darwinian logic where the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TWISTED",
+          "DARWINIAN",
+          "LOGIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "indoctrination., ideological, commonant",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 142,
+      "text": "absolute worst thing a human being can be is soft or merciful. So Deler uses Schultford to dissect the anatomy of complicity.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DELER",
+          "USES",
+          "SCHULTFORD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "complicity., schultford, merciful.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 143,
+      "text": "Like how do you take a boy who is moved to tears by a piano conerto on a radio and turn him into a literal component of a genocidal machine?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "COMPONENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 144,
+      "text": "How do you do it? You do it through the systematic punishment of empathy. And this is perfectly crystallized in Werner's bunkmate, Frederick.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "BUNKMATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "crystallized, systematic, punishment",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 145,
+      "text": "Poor Frederick. Frederick is everything Schulpforta is designed to destroy. He is a frail, wealthy kid from Berlin who only cares about Ottabon",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EVERYTHING",
+          "SCHULPFORTA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "schulpforta, frederick., everything",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 146,
+      "text": "bird books. Yeah, he's just looking at birds, right? He is entirely focused on the gentle patient science of observation which contrasts",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GENTLE",
+          "PATIENT",
+          "SCIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 147,
+      "text": "so sharply with Werner's science of targeting and triangulation. And the turning point for both of them is that horrifying scene with the water God, that scene.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "SCIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "triangulation., horrifying, targeting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 148,
+      "text": "Come on up. Bastion tethers a prisoner to a post in the freezing snow and he lines up all the cadets and mandates that each boy throw a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BASTION",
+          "TETHERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "bucket of ice water onto this freezing helpless human being. It",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREEZING",
+          "HELPLESS",
+          "HUMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "is a deliberate exercise in overriding the innate human aversion to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INNATE",
+          "HUMAN",
+          "AVERSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "And every single boy does it. Werner does it. He tells himself, \"It's just water. It's just a ritual. It's what he has to do to But then Frederick steps up.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "FREDERICK",
+          "STEPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 152,
+      "text": "Frederick takes the bucket, looks at the prisoner, and deliberately pours the water onto the ground. Just dumps it out. Baskin screams at him, forces him to refill it, and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FREDERICK",
+          "TAKES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "Frederick refuses again. He dumps it again. Because Frederick possesses the true sight Door is writing about.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREDERICK",
+          "POSSESSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "frederick, again., possesses",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 154,
+      "text": "Despite his terrible physical eyesight, I mean, he wears these really thick glasses, Frederick is the only one who actually sees the prisoner as a human being.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TERRIBLE",
+          "PHYSICAL",
+          "EYESIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "frederick, terrible, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 155,
+      "text": "He refuses to participate in the collective blindness. But the consequences of this moral clarity are catastrophic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COLLECTIVE",
+          "BLINDNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "The system cannot tolerate a glitch in its machinery of obedience. No. So, the other cadetses systematically hunt Frederick down during field exercises.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SYSTEMATICALLY",
+          "HUNT",
+          "FREDERICK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "systematically, obedience., exercises.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 157,
+      "text": "They beat him relentlessly night after night. And here is where Werner's complicity becomes just suffocating.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "COMPLICITY",
+          "BECOMES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "relentlessly, suffocating., complicity",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 158,
+      "text": "Werner shines Frederick's boots to help him pass inspection. He tries to offer quiet, hidden support. But when the beatings happen, when the beatings happen, Werner",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "SHINES",
+          "FREDERICK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "beatings, werner, happen",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 159,
+      "text": "looks up at the sky. He recites equations in his head. He does absolutely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RECITES",
+          "EQUATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "nothing to stop This is Dur's core argument about the nature of evil.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DUR",
+          "CORE",
+          "ARGUMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "argument, nothing, nature",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 161,
+      "text": "Totalitarianism does not sustain itself through a populace of psychotic monsters. It sustains itself through the calculus of a thousand tiny A thousand",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOTIC",
+          "MONSTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "tiny silences. Runner calculates that intervening will result in his own destruction. So, he just looks away. He retreats into the sterile safety of his laboratory with Dr.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUNNER",
+          "CALCULATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "Hman, building transceivers, pretending the violence outside the window has absolutely nothing to do with Right before Frederick is beaten so severely that he suffers",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEFORE",
+          "FREDERICK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transceivers, pretending, absolutely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 164,
+      "text": "permanent catastrophic brain damage. I mean, he loses his memory, his personality. He's reduced to just drawing endless spirals",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERMANENT",
+          "CATASTROPHIC",
+          "BRAIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "on paper. It's heartbreaking. It is. But before that happens, he says something to Werner that completely shatters that illusion of neutrality.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOMETHING",
+          "TO",
+          "WERNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "heartbreaking., neutrality., completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 166,
+      "text": "Werner asks him why he doesn't just leave, why he doesn't use his wealthy parents to escape. And Frederick looks at him and says, \"Your problem, Werner, is",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "FREDERICK",
+          "LOOKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "that you still believe you own your It is a devastating indictment. Totally. Frederick understands that in a totalitarian system, you are either a victim, a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEVASTATING",
+          "INDICTMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "perpetrator, or a corpse. There is no neutral ground. Fern's belief that he can just be an engineer, that he can just do the math and keep his soul intact",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NEUTRAL",
+          "GROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "is a childish fantasy. His silence during Frederick's destruction is the final severing of his moral vision. I think this forces you, the listener, into a highly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FREDERICK",
+          "DESTRUCTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "destruction, fredericks, childish",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 170,
+      "text": "uncomfortable position. It is incredibly easy for us sitting in the comfort of the 21st century to confidently declare that we would be We all want",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "21ST",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "to think we're Frederick, right? We like to think we would pour the water on the ground. But to puts us so intimately inside Werner's terror, a 15-year-old orphan",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INSIDE",
+          "WERNER",
+          "TERROR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "think, 15-year-old, intimately",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 172,
+      "text": "who knows that speaking up means being sent to the frozen meat grinder of the Russian front or being beaten to death by his peers.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RUSSIAN",
+          "FRONT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "being, speaking, grinder",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 173,
+      "text": "Exactly. The novel forces us to ask, is Werner inherently evil, or is the architecture of the system so flawlessly designed that it renders individual",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "INHERENTLY",
+          "EVIL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "architecture, inherently, flawlessly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 174,
+      "text": "morality statistically impossible? It demonstrates how the system weaponizes the biological instinct for self-preservation against the moral instincts",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MORALITY",
+          "STATISTICALLY",
+          "IMPOSSIBLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 175,
+      "text": "for justice. Werner survives, but he survives as a blind mechanism of the state, using his brilliant radios to hunt down enemy broadcasts",
+      "design": {
+        "type": "flow",
+        "kicker": "",
+        "emphasis": [
+          "WERNER",
+          "SURVIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "across which provides the perfect thematic bridge back to France, because the exact same technology is being used not to hunt, but to resist.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PERFECT",
+          "THEMATIC",
+          "BRIDGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "technology, provides, thematic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 177,
+      "text": "Yes. Let's move to Samalo and look at Marie-Laure's great uncle, Etienne. Etienne. So, after fleeing Paris, Marie Etienne.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "MARIE-LAURE",
+          "GREAT",
+          "UNCLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "So, after fleeing Paris, Marie-Laure and her father take refuge in Etienne's incredibly tall, narrow",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FLEEING",
+          "PARIS"
+        ],
+        "items": [
+          "FLEEING PARIS",
+          "MARIE-LAURE",
+          "HER FATHER"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "house. Now, Etion is a World War I veteran, and he is profoundly psychologically",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WORLD",
+          "WAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "psychologically, profoundly, veteran",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 180,
+      "text": "completely paralyzed by agorophobia. He hasn't stepped foot outside his front door in over 20 years. He hallucinates the ghosts of his dead comrades,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "20",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 181,
+      "text": "shambling through the hallways. He's a man imprisoned by his own trauma. But hidden inside this physical and psychological prison, specifically up",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOLOGICAL",
+          "PRISON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 182,
+      "text": "in the Garrett, behind a false back in a wardrobe, is a massive, immensely powerful shortwave radio transmitter.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "POWERFUL",
+          "SHORTWAVE",
+          "RADIO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transmitter., immensely, shortwave",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 183,
+      "text": "The physics of this setup are wild to me. The antenna is telescoped all the way up the chimney. Right. And to push a shortwave signal across the English Channel and all the way out",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENGLISH",
+          "CHANNEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "telescoped, shortwave, chimney.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 184,
+      "text": "into the Atlantic requires a massive amount of voltage. It requires immense power to bounce those waves off the ionosphere so they can be picked up by Allied intelligence.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ATLANTIC",
+          "REQUIRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "requires, intelligence., ionosphere",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 185,
+      "text": "And Etienne is using this machine to broadcast intelligence for the French We have this brilliant paradox.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BROADCAST",
+          "INTELLIGENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intelligence, broadcast, brilliant",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 186,
+      "text": "The man who is too terrified to cross his own threshold possesses a voice",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THRESHOLD",
+          "POSSESSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 187,
+      "text": "that spans His physical body is trapped, but his electromagnetic reach is boundless.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ELECTROMAGNETIC",
+          "REACH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "And the mechanics of the resistance cell are so tactile, too. The local baker, Madame Manec, baked slips of paper containing coded coordinates",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MADAME",
+          "MANEC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "coordinates, resistance, containing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 189,
+      "text": "of German anti-air guns into loaves of bread. Literal pieces of bread. Yeah. And Marie-Laure, the blind girl, navigating the occupied",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GERMAN",
+          "ANTI-AIR",
+          "GUNS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bread., marie-laure, navigating",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 190,
+      "text": "streets by counting storm drains and using her mental map, picks up the bread and brings it back to the house. Etienne takes those numbers and transmits them into the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COUNTING",
+          "STORM",
+          "DRAINS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "ether. Derer is totally subverting our expectations of what a hero looks like.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUBVERTING",
+          "OUR",
+          "EXPECTATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "He is arguing that trauma does not disqualify a person from resistance.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISQUALIFY",
+          "A",
+          "PERSON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "In fact, knowing the horrors of the world, having seen the ghosts of the previous war might be the exact precondition required to understand the stakes of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "PRECONDITION",
+          "REQUIRED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "current one. Etienne understands that the transmission of knowledge is literally a matter of And he doesn't just broadcast raw tactical data.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROADCAST",
+          "RAW",
+          "TACTICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "This is like my favorite detail in the entire novel. Oh, the music. Yes. He wraps the coded numbers inside old wax cylinder recordings of his deceased brother's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CYLINDER",
+          "RECORDINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 196,
+      "text": "science lectures, which by the way are the exact same lectures Werner listened to as a child in the orphanage. The invisible connections are just right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LECTURES",
+          "WERNER",
+          "LISTENED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lectures, connections, orphanage.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 197,
+      "text": "And he plays classical music, too, like DBC's Claire DeLoon and By transmitting art and science alongside the military intelligence,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DBC",
+          "CLAIRE",
+          "DELOON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transmitting, intelligence, classical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 198,
+      "text": "Eten is doing something incredibly profound. He is sending out the very",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOMETHING",
+          "INCREDIBLY",
+          "PROFOUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "essence of human culture. He is reminding the listeners and himself",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "CULTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 200,
+      "text": "why they are resisting in the first place. He is fighting the totalitarian erasure of culture by blasting culture back into the sky.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BLASTING",
+          "CULTURE",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 201,
+      "text": "It's like operating a dark web server, but instead of using it for illicit commerce, you're using it to distribute the light of human achievement into a total blackout.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ILLICIT",
+          "COMMERCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "That's a great way to put it. And there's that beautiful psychological shift in Etienne. Once he begins broadcasting, once he starts projecting his voice into the darkness,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEAUTIFUL",
+          "PSYCHOLOGICAL",
+          "SHIFT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "once, psychological, broadcasting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 203,
+      "text": "the ghosts of the dead soldiers stop appearing in his house. Taking action, engaging in the transmission of truth actually cures his He's using knowledge",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOLDIERS",
+          "STOP",
+          "APPEARING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transmission, appearing, knowledge",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 204,
+      "text": "to save humanity. But Derer needs a counterwe to this. He needs to show us what it looks like when knowledge and culture are pursued entirely for extraction",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DERER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "needs, extraction, humanity.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 205,
+      "text": "and Which brings us to the most chilling figure in the narrative, Sergeant Major Reinhold von Rumpel.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SERGEANT",
+          "MAJOR",
+          "REINHOLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "narrative, chilling, sergeant",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 206,
+      "text": "Vonrumple. He is a gemologist by trade, but in the context of the war, he is an evaluator of plundered wealth for the Reich.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PLUNDERED",
+          "WEALTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "vonrumple., gemologist, evaluator",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 207,
+      "text": "He travels across occupied Europe, systematically cataloging the unimaginable loot the Nazis are extracting from conquered nations.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ACROSS",
+          "OCCUPIED",
+          "EUROPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "systematically, unimaginable, cataloging",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 208,
+      "text": "But his motivation isn't purely ideological. He has a terminal tumor, a literal swelling in his groin that is slowly, inevitably killing him.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "SWELLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 209,
+      "text": "The tumor functions as a biological manifestation of the fascist pathology. Just as the Reich is consuming Europe like a cancer, von Rumpel is being consumed",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CONSUMING",
+          "EUROPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "manifestation, biological, pathology.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 210,
+      "text": "from within. And this drives him to become singularly obsessed with finding the sea of flames. He doesn't want to deliver it to the furer for a museum.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGULARLY",
+          "OBSESSED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "No, he wants it for himself. He actually believes the mythology. He believes the diamond will cheat his own death. So he tracks down the lapidary who made the decoys",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BELIEVES",
+          "THE",
+          "MYTHOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "in Paris. He systematically ruthlessly hunts down the fakes, examining them and discarding them until his search leads him directly to St.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "PARIS"
+        ],
+        "items": [
+          "FAKES",
+          "EXAMINING THEM",
+          "DISCARDING THEM"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 213,
+      "text": "Melo right as the Americans are preparing to bomb it. His patience is terrifying. It",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMERICANS",
+          "ARE",
+          "PREPARING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrifying., americans, preparing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 214,
+      "text": "really is. He sits inside Etchen's house while the city is being vaporized outside,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INSIDE",
+          "ETCHEN",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "vaporized, etchens, outside",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 215,
+      "text": "calmly listening to the dust fall, waiting for the blind girl to reveal where the real stone is hidden. von Rumpel represents the ultimate corruption of perception.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RUMPEL",
+          "REPRESENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "perception., represents, corruption",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 216,
+      "text": "If we contrast his relationship to physical objects with Marie Lor's, the thematic genius of the novel just becomes crystal clear.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARIE",
+          "LOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "relationship, contrast, physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 217,
+      "text": "How so? Well, think back to Marie-Laure in Dr. Gard's laboratory in Paris. She handles murk shells in spider cotch.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "LABORATORY",
+          "IN",
+          "PARIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 218,
+      "text": "She runs her fingers over the riged whirls in the deep entrances. She knows the object because she seeks to understand the life that once inhabited it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIGED",
+          "WHIRLS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "Her touch is driven by empathy and curiosity. But does one",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMPATHY",
+          "AND",
+          "CURIOSITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "actually appreciate beauty? Like he handles exquisite centuries old items,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HANDLES",
+          "EXQUISITE",
+          "CENTURIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "but doesn't he completely miss the point of art? Exactly. When Varimple handles an object, he handles it with sterile cotton gloves.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "VARIMPLE",
+          "HANDLES"
+        ],
+        "items": [
+          "OBJECT",
+          "HE H",
+          "LES IT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "He uses his loop to measure the clarity, to calculate the carrots, to assess the financial and mythical value. He doesn't see the art.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MYTHICAL",
+          "VALUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 223,
+      "text": "He only sees the power it represents. He mistakes possession for comprehension. He believes that if he can own the diamond, he can own the life it promises.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MISTAKES",
+          "POSSESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "He is entirely blind to the beauty of the world because he views everything and everyone merely as resources to be extracted for his own It is the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VIEWS",
+          "EVERYTHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "absolute zenith of moral and all of these",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "ZENITH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "invisible frequencies. Etienne's broadcasts, Werner's triangulation, von Rumpel's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VON",
+          "RUMPEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "greed, Marie triangulation, von Rumpel's greed, Marie-Laure's tactile map, they all collide in the climax in Saint-Malo. The convergence.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "RUMPEL",
+          "GREED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "The American bombs have collapsed the city. Marie-Laure is trapped in the attic with the radio and von Rumpel is creeping through the house below her.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMERICAN",
+          "BOMBS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "marie-laure, collapsed, american",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 229,
+      "text": "In a desperate attempt to be heard, she turns on the transmitter and begins reading from a braille copy of Jules Werner's 20,000 Leagues under the sea, just broadcasting",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JULES",
+          "WERNER",
+          "20"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "broadcasting, transmitter, desperate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 230,
+      "text": "her voice out into the And buried under the rubble of the hotel of bees, trapped in the pitch black with his radio equipment, Werner hears her.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RADIO",
+          "EQUIPMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "equipment, trapped, buried",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 231,
+      "text": "He fixes a broken transceiver in the dark and through the static, he hears the voice of a young girl reading a story. and then he hears the piano music of his",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROKEN",
+          "TRANSCEIVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 232,
+      "text": "childhood. It is the ultimate full circle moment of the narrative. The exact radio frequency that Werner is tasked by the Nazi war machine to triangulate",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAZI",
+          "WAR",
+          "MACHINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "triangulate, childhood., narrative.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 233,
+      "text": "and destroy is the same frequency that delivered the Frenchman's voice and saved his mind when he was a child in the coal mines.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCHMAN",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "frenchmans, frequency, delivered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 234,
+      "text": "He is sitting in the dark and the broadcast brings the light back into his This convergence totally answers the philosophical question Door",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHILOSOPHICAL",
+          "QUESTION",
+          "DOOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "philosophical, convergence, broadcast",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 235,
+      "text": "posed at the beginning. We revisit that quote from the old science broadcasts, right? The brain is locked in total darkness inside the skull.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTAL",
+          "DARKNESS",
+          "INSIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "It floats in silence and yet it can see, hear and feel the world. So when we strip away the historical setting, when we look past the physical",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "HISTORICAL",
+          "SETTING"
+        ],
+        "items": [
+          "CAN SEE",
+          "HEAR",
+          "FEEL THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 237,
+      "text": "destruction of the war, what is Derer actually proving with this massive He is proving that sight has absolutely nothing to do with the physical properties of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "PROPERTIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "proving, destruction, absolutely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 238,
+      "text": "the eye at all. True sight is the rigorous science of attention. It is the active moral choice to look at the world, to see the suffering of others,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIGOROUS",
+          "SCIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "and to refuse to look away. The great tragedy of the war was engineered by millions of people who had perfectly functioning eyes, but chose moral blindness.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHOSE",
+          "MORAL",
+          "BLINDNESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 240,
+      "text": "They tuned out the atrocities because it was easier. Werner tried to do it, but Marie Lord lived in physical darkness.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARIE",
+          "LORD",
+          "LIVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "atrocities, darkness., physical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 241,
+      "text": "And because she rigorously attended to the truth of her environment, she saw the world with perfect clarity. So the ultimate weapon is not the incendiary bomb.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERFECT",
+          "CLARITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "It is the frequency we choose to listen to, the stories we choose to believe, and the knowledge we either hoard for ourselves or broadcast to save others.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EITHER",
+          "HOARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 243,
+      "text": "The transmission of knowledge is the eternal battlefield. And our perception of it dictates our morality.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ETERNAL",
+          "BATTLEFIELD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "I want to leave you, the listener, with a thought to mull over long after this deep dive ends. Doer beautifully extrapolates this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DOER",
+          "BEAUTIFULLY",
+          "EXTRAPOLATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 245,
+      "text": "idea to the modern day at the very end of the novel. Look around your physical space right now. Just look around. You are swimming in an ocean of invisible waves.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "SPACE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "Wi-Fi networks, cell towers, targeted advertising algorithms, millions of texts and emails and data points flying invisibly through the air around your head.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TARGETED",
+          "ADVERTISING",
+          "ALGORITHMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 247,
+      "text": "Are you passively letting these frequencies wash over you? Walking on autopilot like the cited people in Paris? Who is controlling the transmitter in your life?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "IN",
+          "PARIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 248,
+      "text": "And what are they convincing you to ignore? And when the time comes when the system demands your silence, will you have the courage to open your eyes before they close",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "SYSTEM",
+          "DEMANDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}
