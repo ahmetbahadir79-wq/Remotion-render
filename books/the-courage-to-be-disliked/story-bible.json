@@ -1,0 +1,413 @@
+{
+  "slug": "the-courage-to-be-disliked",
+  "world": {
+    "era": "Contemporary, 2010s–2020s",
+    "worldId": "kishimi-courage",
+    "approxYear": 2020,
+    "setting": "A present-day dialogue between a philosopher and a young man — staged study, office, street and kitchen — arguing Adler's claim that people can change now; classical Athens and 1900s Vienna appear only as references.",
+    "register": "self-help dialogue",
+    "forbid": [
+      "chariot",
+      "phalanx",
+      "steamship"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "the-courage-to-be-disliked",
+    "worldId": "kishimi-courage",
+    "allowedMotifs": [
+      "arrow",
+      "balance",
+      "boulder",
+      "book",
+      "car",
+      "cave",
+      "chains",
+      "check",
+      "circle",
+      "city",
+      "clock",
+      "coin",
+      "compass",
+      "crack",
+      "crash",
+      "cross",
+      "door",
+      "eye",
+      "family",
+      "fire",
+      "food",
+      "game",
+      "gift",
+      "grave",
+      "heart",
+      "home",
+      "hourglass",
+      "inheritance",
+      "key",
+      "knife",
+      "ladder",
+      "law",
+      "ledge",
+      "lightbulb",
+      "lock",
+      "mask",
+      "mirror",
+      "notes",
+      "paper",
+      "phone",
+      "photo",
+      "puppeteer",
+      "puzzle",
+      "ripple",
+      "school",
+      "shield",
+      "star",
+      "storm",
+      "sword",
+      "target",
+      "tree",
+      "trophy",
+      "typewriter",
+      "war",
+      "warning",
+      "water",
+      "work"
+    ],
+    "forbiddenMotifs": [
+      "barChart",
+      "lineGrowth",
+      "shadowSelf",
+      "cardinalVirtues",
+      "caveAllegory",
+      "civicPolis",
+      "fiveRegimes",
+      "historicalAthens",
+      "kallipolis",
+      "mythOfEr",
+      "ringOfGyges",
+      "shipOfState",
+      "socraticInquiry",
+      "thirtyTyrants",
+      "thrasymachusDebate",
+      "tripartiteSoul"
+    ],
+    "allowedCharacters": [
+      "philosopher",
+      "young-man",
+      "adler",
+      "narrator",
+      "protagonist",
+      "foil",
+      "mentor",
+      "extra"
+    ],
+    "allowedLocations": [
+      "horizon",
+      "office",
+      "street",
+      "room",
+      "stage",
+      "sky",
+      "abstract",
+      "kitchen",
+      "bedroom",
+      "classroom",
+      "library",
+      "cafe",
+      "hospital",
+      "court",
+      "forest",
+      "shore",
+      "highway",
+      "workstation",
+      "startupGarage",
+      "serverRoom",
+      "pitchStage",
+      "agora",
+      "colonnade",
+      "cave",
+      "shipDeck",
+      "manuscript",
+      "mountainSlope",
+      "none"
+    ],
+    "allowedProps": [
+      "arrow",
+      "balance",
+      "boulder",
+      "book",
+      "car",
+      "cave",
+      "chains",
+      "check",
+      "circle",
+      "city",
+      "clock",
+      "coin",
+      "compass",
+      "crack",
+      "crash",
+      "cross",
+      "door",
+      "eye",
+      "family",
+      "fire",
+      "food",
+      "game",
+      "gift",
+      "grave",
+      "heart",
+      "home",
+      "hourglass",
+      "inheritance",
+      "key",
+      "knife",
+      "ladder",
+      "law",
+      "ledge",
+      "lightbulb",
+      "lock",
+      "mask",
+      "mirror",
+      "notes",
+      "paper",
+      "phone",
+      "photo",
+      "puppeteer",
+      "puzzle",
+      "ripple",
+      "school",
+      "shield",
+      "star",
+      "storm",
+      "sword",
+      "target",
+      "tree",
+      "trophy",
+      "typewriter",
+      "war",
+      "warning",
+      "water",
+      "work"
+    ]
+  },
+  "cast": {
+    "philosopher": {
+      "name": "Philosopher",
+      "role": "protagonist",
+      "look": "A composed philosophy professor in his sixties, silver hair swept back, wire-rim glasses, charcoal two-piece suit over a cream shirt, steady posture and calm measured authority.",
+      "variant": {
+        "gender": "m",
+        "age": "old",
+        "skin": "#E8B98E",
+        "hair": "#B9BDC4",
+        "hairStyle": "receding",
+        "beard": "none",
+        "glasses": true,
+        "outfit": "suit",
+        "suit": "#31405A",
+        "shirt": "#F4F1EA",
+        "headwear": "none",
+        "accessory": "none",
+        "build": "average",
+        "height": 1.02,
+        "headScale": 0.97,
+        "expression": "neutral"
+      },
+      "aliases": [
+        "the philosopher",
+        "professor"
+      ],
+      "mentions": 120
+    },
+    "young-man": {
+      "name": "Young Man",
+      "role": "foil",
+      "look": "A restless young man in his mid-twenties, dark curly hair, light stubble, rust cardigan over a plain tee, always leaning forward mid-objection.",
+      "variant": {
+        "gender": "m",
+        "age": "young",
+        "skin": "#D8A375",
+        "hair": "#241C17",
+        "hairStyle": "curly",
+        "beard": "stubble",
+        "glasses": false,
+        "outfit": "casual",
+        "suit": "#C4602F",
+        "shirt": "#EDE7DA",
+        "headwear": "none",
+        "accessory": "none",
+        "build": "slight",
+        "height": 0.96,
+        "headScale": 1,
+        "expression": "worried"
+      },
+      "aliases": [
+        "the young man",
+        "young man"
+      ],
+      "mentions": 96
+    },
+    "adler": {
+      "name": "Alfred Adler",
+      "role": "mentor",
+      "look": "Alfred Adler as the book evokes him: an early-1900s Viennese thinker with a neat full beard, dark three-piece suit and high collar, thoughtful direct gaze.",
+      "variant": {
+        "gender": "m",
+        "age": "old",
+        "skin": "#E3B189",
+        "hair": "#4A3B30",
+        "hairStyle": "short",
+        "beard": "full",
+        "glasses": false,
+        "outfit": "suit",
+        "suit": "#3A3128",
+        "shirt": "#F2EFE6",
+        "headwear": "none",
+        "accessory": "none",
+        "build": "slight",
+        "height": 0.98,
+        "headScale": 0.98,
+        "expression": "neutral"
+      },
+      "aliases": [
+        "adler",
+        "alfred adler"
+      ],
+      "mentions": 15
+    }
+  },
+  "places": {
+    "office": {
+      "set": "office",
+      "look": "A contemporary office with a glass wall and two chairs angled toward each other under a warm lamp.",
+      "mentions": 1
+    },
+    "room": {
+      "set": "room",
+      "look": "A book-lined study with a low table and one armchair — the quiet room the dialogue keeps returning to.",
+      "mentions": 3
+    },
+    "stage": {
+      "set": "stage",
+      "look": "A bare spotlit stage with two stools, the debate performed in front of an unseen audience.",
+      "mentions": 2
+    },
+    "cafe": {
+      "set": "cafe",
+      "look": "A corner cafe with big windows and two cups, when the argument loosens into conversation.",
+      "mentions": 1
+    },
+    "street": {
+      "set": "street",
+      "look": "A dusk city sidewalk with passers-by crossing behind the speakers.",
+      "mentions": 1
+    },
+    "kitchen": {
+      "set": "kitchen",
+      "look": "A family kitchen with the table still set — where separation of tasks gets lived at home.",
+      "mentions": 2
+    },
+    "bedroom": {
+      "set": "bedroom",
+      "look": "A small bedroom with a closed door and a made bed — private space for the book's family examples.",
+      "mentions": 2
+    }
+  },
+  "objects": [
+    {
+      "concept": "work",
+      "mentions": 24,
+      "why": "One of Adler's three life tasks — work is where contribution is measured."
+    },
+    {
+      "concept": "gift",
+      "mentions": 23,
+      "why": "The book's language of encouragement given and received."
+    },
+    {
+      "concept": "family",
+      "mentions": 18,
+      "why": "Where separation of tasks is most contested — parents, children, approval."
+    },
+    {
+      "concept": "target",
+      "mentions": 15,
+      "why": "Teleology: behavior aimed at a purpose, not pushed by a cause."
+    },
+    {
+      "concept": "school",
+      "mentions": 14,
+      "why": "The recurring example: whose task is the child's studying?"
+    },
+    {
+      "concept": "phone",
+      "mentions": 12,
+      "why": "Modern interruption of the here-and-now."
+    },
+    {
+      "concept": "sword",
+      "mentions": 9,
+      "why": "Conflict imagery the narration uses when the young man attacks."
+    },
+    {
+      "concept": "heart",
+      "mentions": 9,
+      "why": "Feelings are tools in Adler's reading, not forces."
+    },
+    {
+      "concept": "home",
+      "mentions": 6,
+      "why": "The household where tasks get separated."
+    },
+    {
+      "concept": "compass",
+      "mentions": 6,
+      "why": "Choosing one's own path instead of following expectations."
+    },
+    {
+      "concept": "ladder",
+      "mentions": 6,
+      "why": "Vertical relationships — rank and praise the book wants flattened."
+    },
+    {
+      "concept": "law",
+      "mentions": 5,
+      "why": "The rules and shoulds inherited from other people's expectations."
+    },
+    {
+      "concept": "key",
+      "mentions": 1,
+      "why": "The one word the book itself calls key — drawn as the unlock motif for the tool that fixes friction (separation of tasks) and the cure the stuck reader finds."
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "The young man rejects the opening dare: if you can change now, your past is no excuse."
+    },
+    {
+      "act": "development",
+      "fromFrame": 14772,
+      "claim": "Adler's teleology turns every symptom into a chosen tool — inferiority is an interpretation, not a fact."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 31870,
+      "claim": "All problems are people problems, so the escape route the young man wants is the one thing that cannot work."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 47856,
+      "claim": "Separation of tasks and community feeling replace approval with contribution — freedom you practice with others."
+    },
+    {
+      "act": "close",
+      "fromFrame": 62995,
+      "claim": "Happiness is not a finish line: it is made here and now, which is why the courage required is simply courage."
+    }
+  ],
+  "authored": true
+}

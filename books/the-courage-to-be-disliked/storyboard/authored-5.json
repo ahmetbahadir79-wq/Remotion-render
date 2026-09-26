@@ -1,0 +1,693 @@
+[
+  {
+    "i": 160,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "secure our parents approval", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "We carry other people's tasks because we are desperate for their approval.",
+      "concreteVisual": "The philosopher naming the motive while the youth sags under a load of borrowed tasks.",
+      "onScreenText": "secure our parents approval",
+      "relationToPrevious": "Picks up the teetering stack of other people's tasks from the previous beat and names why we grab it.",
+      "addedInformation": "weak: the picture adds only the weighed-down listener; the reason itself is spoken.",
+      "staging": "The philosopher counts off the reason on his fingers while the young man droops under an unseen weight."
+    }
+  },
+  {
+    "i": 161,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the master trap", "style": "reveal" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler calls the desire for recognition the master trap of human psychology.",
+      "concreteVisual": "Adler himself stepping forward to name the trap before the example begins.",
+      "onScreenText": "the master trap",
+      "relationToPrevious": "Names the trap behind the approval-seeking just described.",
+      "addedInformation": "weak: the frame marks whose diagnosis this is; the trap itself is spoken.",
+      "staging": "Adler lifts one finger: this is the trap people fall into without noticing."
+    }
+  },
+  {
+    "i": 162,
+    "concept": "clock",
+    "diagram": null,
+    "callout": { "text": "a glowing empty office", "style": "reveal" },
+    "set": "office",
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Picture the modern corporate climber: alone in a glowing office at midnight, exhausted over a presentation.",
+      "concreteVisual": "One lit desk in a dark office while a clock marks the late hour.",
+      "onScreenText": "a glowing empty office",
+      "relationToPrevious": "Cuts from Adler's named trap to the person living inside it.",
+      "addedInformation": "The clock and the dark surroundings make 'midnight, alone, exhausted' readable without sound.",
+      "staging": "The young man slumps over the only bright desk while every cubicle behind him is dark."
+    }
+  },
+  {
+    "i": 163,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": { "text": "pat them on the back", "style": "reveal" },
+    "set": "office",
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "trophy",
+    "storyboard": {
+      "claim": "His personal life is a mess and his friends are gone, but all he wants is tomorrow's pat from the VP.",
+      "concreteVisual": "The trophy of recognition glowing on the dark desk while his own life goes untended.",
+      "onScreenText": "pat them on the back",
+      "relationToPrevious": "Shows what the exhausted climber in the empty office is actually working for.",
+      "addedInformation": "The trophy names the prize as status, and the sad face prices what it costs him.",
+      "staging": "The young man stares hollowly at the trophy: weeks without friends, one line of praise pending."
+    }
+  },
+  {
+    "i": 164,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "takes a sledgehammer", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adlerian psychology smashes this whole scenario of earning recognition.",
+      "concreteVisual": "Adler arriving to demolish the office picture rather than explain it.",
+      "onScreenText": "takes a sledgehammer",
+      "relationToPrevious": "Breaks the scene the last two beats built instead of continuing it.",
+      "addedInformation": "Makes the theory's arrival visible as destruction of the premise, not an addition to it.",
+      "staging": "Adler swings his arm down as if smashing the trophy scene to pieces."
+    }
+  },
+  {
+    "i": 165,
+    "concept": "target",
+    "diagram": null,
+    "callout": { "text": "the desire for recognition", "style": "strike" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The philosopher states it unequivocally: you must deny the desire for recognition.",
+      "concreteVisual": "A target of recognition crossed out the moment the command is given.",
+      "onScreenText": "the desire for recognition",
+      "relationToPrevious": "Answers the sledgehammer by naming the exact thing it destroys.",
+      "addedInformation": "The struck target shows the aim itself must be dropped, not only its result.",
+      "staging": "The philosopher cuts his hand across the air: deny this want outright."
+    }
+  },
+  {
+    "i": 166,
+    "concept": "sword",
+    "diagram": null,
+    "callout": { "text": "no way", "style": "box" },
+    "cast": ["young-man"],
+    "expression": "surprised",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth explodes: no way — recognition is the fundamental universal human drive.",
+      "concreteVisual": "The young man erupting mid-argument, the objection drawn like a blade.",
+      "onScreenText": "no way",
+      "relationToPrevious": "Rejects the philosopher's command from the previous beat head-on.",
+      "addedInformation": "The sword marks this as a genuine clash, not a polite clarifying question.",
+      "staging": "The young man shoots to his feet and slashes the air with one hand: no way."
+    }
+  },
+  {
+    "i": 167,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "why do we seek it", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The philosopher turns the argument into a mechanism: why do we seek recognition at all?",
+      "concreteVisual": "The philosopher pausing the quarrel to examine the machinery behind the want.",
+      "onScreenText": "why do we seek it",
+      "relationToPrevious": "Meets the youth's outburst with the question underneath it.",
+      "addedInformation": "Shifts the frame from assertion to examination so the viewer knows a mechanism is coming.",
+      "staging": "The philosopher tilts his head, hand at his chin: why does anyone want it?"
+    }
+  },
+  {
+    "i": 168,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": { "text": "your life no longer belongs", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Live to satisfy other people's expectations and your life belongs to whoever set them.",
+      "concreteVisual": "The young man hanging limp from another hand's strings, boss, parents and society holding the cross.",
+      "onScreenText": "your life no longer belongs",
+      "relationToPrevious": "Answers the 'why do we seek it' question with the cost of seeking it.",
+      "addedInformation": "The strings make ownership literal: someone else's hand now moves him.",
+      "staging": "The young man sags in mid-air under a control bar, too tired to fight the strings."
+    }
+  },
+  {
+    "i": 169,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "constant paralyzing fear of judgment", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "mask",
+    "storyboard": {
+      "claim": "Chasing recognition means gauging everyone's feelings, repressing your own desires and living in fear of judgment.",
+      "concreteVisual": "A polite mask held up in front of a face that is tight with dread.",
+      "onScreenText": "constant paralyzing fear of judgment",
+      "relationToPrevious": "Details what life under someone else's strings feels like from the inside.",
+      "addedInformation": "The mask shows the repression as a performance worn over fear rather than a mood.",
+      "staging": "The young man holds the smiling mask away from his own worried face, checking it before he wears it."
+    }
+  },
+  {
+    "i": 170,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "slave to the yard stick", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "You become a slave to other people's measuring stick, so being disliked is no accidental side effect.",
+      "concreteVisual": "A chain of other people's yardsticks hefted across the speaker's shoulders.",
+      "onScreenText": "slave to the yard stick",
+      "relationToPrevious": "Names the condition of the masked, string-pulled youth from the last two beats.",
+      "addedInformation": "The chains show the slavery is carried and imposed, not freely chosen.",
+      "staging": "The philosopher hauls the chain up onto one shoulder: enslaved to everyone else's measure."
+    }
+  },
+  {
+    "i": 171,
+    "concept": "door",
+    "diagram": null,
+    "callout": { "text": "price tag of freedom", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Being disliked is not a unfortunate accident of living your own life — it is the price tag of freedom.",
+      "concreteVisual": "An open door with a scowling young man behind it — the exit that costs their approval.",
+      "onScreenText": "price tag of freedom",
+      "relationToPrevious": "Flips the chains of the last beat: what looks like a penalty is the cost of leaving them.",
+      "addedInformation": "The door makes freedom a way out that other people visibly disapprove of.",
+      "staging": "The philosopher points at the open door while the young man glowers behind him at the choice."
+    }
+  },
+  {
+    "i": 172,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "God and nihilism", "style": "box" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The book adds a theological angle — God and nihilism — to explain why this trap is everywhere today.",
+      "concreteVisual": "The philosopher opening a new thread of the argument, hands spread wide.",
+      "onScreenText": "God and nihilism",
+      "relationToPrevious": "Widens the trap from one person's office to an entire era's belief structure.",
+      "addedInformation": "weak: the frame only marks the topic change; the theology arrives in the audio.",
+      "staging": "The philosopher spreads both hands: the argument now reaches beyond psychology."
+    }
+  },
+  {
+    "i": 173,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "God is watching me", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "In religious societies recognition was aimed upward at God, so the neighbors' approval was not strictly needed.",
+      "concreteVisual": "The philosopher pointing up at the old divine audience that used to do the watching.",
+      "onScreenText": "God is watching me",
+      "relationToPrevious": "Supplies the historical half of the God-and-nihilism angle just introduced.",
+      "addedInformation": "The upward gesture shows where judgment used to come from and who was already pleased.",
+      "staging": "The philosopher lifts his eyes and one finger heavenward: the old gaze ran upward."
+    }
+  },
+  {
+    "i": 174,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a massive psychological void", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "In a secular modern world where many have dropped God, a massive psychological void opens up.",
+      "concreteVisual": "The philosopher holding his hands around empty air where the old audience used to be.",
+      "onScreenText": "a massive psychological void",
+      "relationToPrevious": "States the consequence of the secular shift the previous beat described.",
+      "addedInformation": "Makes the void a visible absence instead of an abstract term.",
+      "staging": "The philosopher shapes an empty gap in front of his chest: something used to sit there."
+    }
+  },
+  {
+    "i": 175,
+    "concept": null,
+    "diagram": { "type": "flow", "labels": ["god-shaped hole", "society's recognition"] },
+    "callout": null,
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "With no one watching from above, we substitute society's recognition to fill the god-shaped hole.",
+      "concreteVisual": "A two-step flow: god-shaped hole -> society's recognition.",
+      "onScreenText": "god-shaped hole -> society's recognition",
+      "relationToPrevious": "Turns the stated void into the substitution people make to close it.",
+      "addedInformation": "Shows the swap as cause and effect: the hole is what gets filled.",
+      "staging": "The philosopher gestures from the empty gap outward to the crowd: that is what replaces it."
+    }
+  },
+  {
+    "i": 176,
+    "concept": "phone",
+    "diagram": null,
+    "callout": { "text": "validate our existence", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "We demand that bosses and Instagram followers validate our existence — and Adler says deny that need entirely.",
+      "concreteVisual": "A phone stacked with follower likes, which Adler indicates and then refuses.",
+      "onScreenText": "validate our existence",
+      "relationToPrevious": "Names what society's recognition looks like on a screen in the present day.",
+      "addedInformation": "The phone dates the hunger: followers now supply the approval the divine used to supply.",
+      "staging": "Adler points at the glowing wall of likes, then cuts it away with one flat hand."
+    }
+  },
+  {
+    "i": 177,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "find our worth without anyone else", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "We must find our worth without anyone else to validate it — and the youth immediately pushes the claim to its limit.",
+      "concreteVisual": "The philosopher holding the self-sufficient ideal out while the young man leans in to break it.",
+      "onScreenText": "find our worth without anyone else",
+      "relationToPrevious": "Gives the answer to the validation hunger shown on the phone.",
+      "addedInformation": "The youth's forward lean signals the coming objection before he voices it.",
+      "staging": "The philosopher offers the idea with an open palm; the young man is already coiled to test it."
+    }
+  },
+  {
+    "i": 178,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "just become a tyrant", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "If I totally stop caring what people think, don't I just become a tyrant?",
+      "concreteVisual": "The young man pressing the objection: total indifference must produce a monster.",
+      "onScreenText": "just become a tyrant",
+      "relationToPrevious": "Takes the self-worth prescription of the last beat to its logical extreme.",
+      "addedInformation": "Frames the objection as a moral danger rather than a technical quibble.",
+      "staging": "The young man leans in, palm upturned: doesn't that turn me into a tyrant?"
+    }
+  },
+  {
+    "i": 179,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "modern billionaire dictator", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "reach",
+    "storyboard": {
+      "claim": "His example of the tyrant: King Lear, or a modern billionaire dictator who destroys everything for his own whims.",
+      "concreteVisual": "The youth sweeping an invisible table clean as he impersonates the self-centered despot.",
+      "onScreenText": "modern billionaire dictator",
+      "relationToPrevious": "Gives the tyrant raised in the last beat a recognizable face.",
+      "addedInformation": "Updates Lear into a current image so the objection lands without a literature lesson.",
+      "staging": "The young man rears up impersonating a raging strongman, arm sweeping everything aside."
+    }
+  },
+  {
+    "i": 180,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "aren't I just giving myself permission", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "key",
+    "storyboard": {
+      "claim": "Not caring whether people dislike me sounds like handing myself philosophical permission to be awful.",
+      "concreteVisual": "The young man staring at his own open palm — permission he would be granting himself.",
+      "onScreenText": "aren't I just giving myself permission",
+      "relationToPrevious": "Sharpens the tyrant worry of the earlier beats into its underlying logic.",
+      "addedInformation": "The key makes permission something he hands himself rather than receives from anyone.",
+      "staging": "The young man stares at the key in his hand, uneasy about what it unlocks."
+    }
+  },
+  {
+    "i": 181,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the most brilliant twist", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "The twist: obsessing over how others see you is actually the most self-centered way to live.",
+      "concreteVisual": "The philosopher turning one hand over the other, flipping the premise while the youth freezes.",
+      "onScreenText": "the most brilliant twist",
+      "relationToPrevious": "Answers the permission worry by reversing who is really the selfish one.",
+      "addedInformation": "Marks the reversal as the pivot so the viewer knows the argument has turned around.",
+      "staging": "The philosopher rotates his open hand over and the whole argument inside out."
+    }
+  },
+  {
+    "i": 182,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "trying to please people", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "surprised",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth objects: how can trying to please people possibly be self-centered, when you are doing things for them?",
+      "concreteVisual": "The young man cutting in with the obvious objection, brows up, hands spread.",
+      "onScreenText": "trying to please people",
+      "relationToPrevious": "Voices the confusion the twist just created in the previous beat.",
+      "addedInformation": "weak: the frame only stages the objection; the reasoning arrives in the audio.",
+      "staging": "The young man throws both hands up: I am literally doing things for them."
+    }
+  },
+  {
+    "i": 183,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "only looking at yourself", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "You appear to be looking at other people, but you are actually only looking at yourself.",
+      "concreteVisual": "The philosopher tracing the youth's outward gaze away and then straight back into his own chest.",
+      "onScreenText": "only looking at yourself",
+      "relationToPrevious": "Explains the self-centeredness the youth doubted in the last beat.",
+      "addedInformation": "Makes the reversal spatial: the looking-out was always looking-in.",
+      "staging": "The philosopher's finger travels from the young man's eyes out to the room and back to himself."
+    }
+  },
+  {
+    "i": 184,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": { "text": "mirrors reflecting your own worth", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "mirror",
+    "storyboard": {
+      "claim": "Other people become mirrors that reflect only your own worth back at you.",
+      "concreteVisual": "A mirror held up where the boss should be — others reduced to reflection.",
+      "onScreenText": "mirrors reflecting your own worth",
+      "relationToPrevious": "Names the mechanism behind the self-directed looking described in the previous beat.",
+      "addedInformation": "The mirror shows others have become props for self-assessment instead of people.",
+      "staging": "The young man holds a mirror toward the room and looks into it instead of at anyone."
+    }
+  },
+  {
+    "i": 185,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "the boss's opinion", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "You don't care about the boss; you care about the boss's opinion of you.",
+      "concreteVisual": "A mask angled at the boss's chair — the performance matters, the person does not.",
+      "onScreenText": "the boss's opinion",
+      "relationToPrevious": "Applies the mirror point to the concrete case of the boss.",
+      "addedInformation": "The mask shows the relationship runs through performance rather than through the other person.",
+      "staging": "The young man talks past the empty chair, adjusting his face for the verdict instead of the man."
+    }
+  },
+  {
+    "i": 186,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "fundamentally self-centered", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The tyrant who forces his will and the people-pleaser who twists herself into knots are both fundamentally self-centered.",
+      "concreteVisual": "The two men side by side — one pushing out, one folding in — under a single verdict.",
+      "onScreenText": "fundamentally self-centered",
+      "relationToPrevious": "Merges the tyrant of the earlier beats with the people-pleaser just shown.",
+      "addedInformation": "Delivers the reversal's punchline: opposite behaviors, identical obsession with the self.",
+      "staging": "The philosopher sets one hand high and one low, then brings them level: the same thing."
+    }
+  },
+  {
+    "i": 187,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "Whose task is it", "style": "box" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "True freedom is asking whose task it is to like me — theirs — and handing it back.",
+      "concreteVisual": "The philosopher lifting the question off his own chest and holding it out to be returned.",
+      "onScreenText": "Whose task is it",
+      "relationToPrevious": "Applies the book's separation-of-tasks test to the approval just discussed.",
+      "addedInformation": "The hand-back gesture turns the remedy into an action instead of a feeling.",
+      "staging": "The philosopher mimes picking something off his own chest and offering it to the young man."
+    }
+  },
+  {
+    "i": 188,
+    "concept": "gift",
+    "diagram": null,
+    "callout": { "text": "what you can contribute", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "gift",
+    "storyboard": {
+      "claim": "Focus on what you can contribute to them, not on whether they applaud you for it.",
+      "concreteVisual": "A gift offered forward — contribution given for its own sake, with no applause attached.",
+      "onScreenText": "what you can contribute",
+      "relationToPrevious": "Replaces the handed-back task of the last beat with what is actually yours to give.",
+      "addedInformation": "The gift flips the direction of the exchange: outward giving instead of inward collecting.",
+      "staging": "The philosopher holds the gift out with both hands, expecting nothing back in return."
+    }
+  },
+  {
+    "i": 189,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "rethink how we give applause", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "If we are not supposed to seek applause, we must rethink how we give it — the subject becomes praise.",
+      "concreteVisual": "The argument turning outward: the philosopher's open palm now aimed at handing praise out.",
+      "onScreenText": "rethink how we give applause",
+      "relationToPrevious": "Pivots from the applause we seek to the applause we give.",
+      "addedInformation": "Marks the chapter turn so the viewer knows the critique now targets the giver.",
+      "staging": "The philosopher turns his palm outward: now this question belongs to us."
+    }
+  },
+  {
+    "i": 190,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the most counterintuitive part", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "surprised",
+    "action": "think",
+    "storyboard": {
+      "claim": "This may be the most counterintuitive part of the whole framework — especially for a parent, teacher or manager.",
+      "concreteVisual": "The young man taken aback, hand at his chin, bracing before the example opens.",
+      "onScreenText": "the most counterintuitive part",
+      "relationToPrevious": "Warns that the praise rethink will feel wrong to anyone who supervises others.",
+      "addedInformation": "Names the audience this will hit — parents, teachers, managers — before the scene begins.",
+      "staging": "The young man blinks and leans back: the warning lands before the example does."
+    }
+  },
+  {
+    "i": 191,
+    "concept": "food",
+    "diagram": null,
+    "callout": { "text": "set the dinner table", "style": "reveal" },
+    "set": "kitchen",
+    "cast": ["young-man"],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "cup",
+    "storyboard": {
+      "claim": "The scene: a mother and her young child, who has just helped set the dinner table.",
+      "concreteVisual": "A dinner plate on the family table as the child carries a cup into place.",
+      "onScreenText": "set the dinner table",
+      "relationToPrevious": "Paints the domestic example on which the praise argument will be tested.",
+      "addedInformation": "Puts the claim in a real kitchen so the critique lands on something familiar.",
+      "staging": "The young man carries a cup to the set table, pleased with his own help."
+    }
+  },
+  {
+    "i": 192,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "such a good helper", "style": "box" },
+    "set": "kitchen",
+    "cast": ["philosopher", "young-man"],
+    "expression": "happy",
+    "action": "reach",
+    "storyboard": {
+      "claim": "The mother pats the child's head and sings 'such a good helper' — and would never do that for her husband doing the same job.",
+      "concreteVisual": "A hand coming down onto an upturned head while the praiser beams in a raised voice.",
+      "onScreenText": "such a good helper",
+      "relationToPrevious": "Follows the child's help from the last beat with the praise it earns.",
+      "addedInformation": "The downward hand and the sing-song quote make the tone visible: praise descends from above.",
+      "staging": "The philosopher reaches down to pat an upturned head, face beaming; the young man below takes it."
+    }
+  },
+  {
+    "i": 193,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a subtle hidden hierarchy", "style": "highlight" },
+    "set": "kitchen",
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "With her husband she only says thank you — and the tone of voice still carries a subtle hidden hierarchy.",
+      "concreteVisual": "The same two now level, an even look exchanged — no hand comes down this time.",
+      "onScreenText": "a subtle hidden hierarchy",
+      "relationToPrevious": "Contrasts the adult thank-you with the child's head-pat of the previous beat.",
+      "addedInformation": "The level gaze beside the earlier downward pat exposes the ranking without needing the audio.",
+      "staging": "The two men stand level and exchange a plain thank-you, eyes straight across."
+    }
+  },
+  {
+    "i": 194,
+    "concept": "ladder",
+    "diagram": null,
+    "callout": { "text": "praise is inherently toxic", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler's quiet, devastating claim: praise is inherently toxic because it comes from a vertical relationship.",
+      "concreteVisual": "A ladder between two levels — praise passed down from above, never across.",
+      "onScreenText": "praise is inherently toxic",
+      "relationToPrevious": "Names the hidden hierarchy the kitchen scene just exposed.",
+      "addedInformation": "The ladder shows praise as a downward transaction instead of a warm exchange.",
+      "staging": "Adler indicates the rung above and the rung below: praise only travels one direction."
+    }
+  },
+  {
+    "i": 195,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "she is above the child", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Praise is judgment passed from someone of supposed ability and authority down to someone of no ability — she is above the child.",
+      "concreteVisual": "The philosopher standing a head taller, palm held high over the young man's head.",
+      "onScreenText": "she is above the child",
+      "relationToPrevious": "Shows who occupies which rung of the ladder just drawn.",
+      "addedInformation": "Makes the vertical relationship physical: one hand speaks down, the other can only receive.",
+      "staging": "The philosopher holds a flat palm above the young man's head: judgment is issued from up here."
+    }
+  },
+  {
+    "i": 196,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "compares it to animal training", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "She judges the child's action against her own yardstick of what is good — and the book compares it to animal training.",
+      "concreteVisual": "The philosopher delivering the book's bluntest comparison without softening it.",
+      "onScreenText": "compares it to animal training",
+      "relationToPrevious": "Escalates the judgment critique into the book's harshest analogy.",
+      "addedInformation": "The analogy reframes praise as behavioral control rather than encouragement.",
+      "staging": "The philosopher lowers his hand and says it flat: this is training, not respect."
+    }
+  },
+  {
+    "i": 197,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "give a dog a treat", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Giving a dog a treat for sitting is not respect for its autonomy — it is a reward for compliance.",
+      "concreteVisual": "The treat held up where the dog must look to earn it.",
+      "onScreenText": "give a dog a treat",
+      "relationToPrevious": "Supplies the concrete example of the animal-training comparison just made.",
+      "addedInformation": "The raised treat shows the reward steering the behavior instead of respecting a choice.",
+      "staging": "The young man lifts the treat high; the dog sits and follows it upward."
+    }
+  },
+  {
+    "i": 198,
+    "concept": "school",
+    "diagram": null,
+    "callout": { "text": "reward and punishment education", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Reward and punishment education — how the entire school system and corporate HR operate — is just the carrot and the stick.",
+      "concreteVisual": "A school standing over the exchange: rewards and penalties handed out at scale.",
+      "onScreenText": "reward and punishment education",
+      "relationToPrevious": "Extends the single dog treat of the last beat to whole institutions.",
+      "addedInformation": "The school icon scales the trick from one animal to an entire system.",
+      "staging": "The philosopher points at the school: this is where the carrot and the stick are issued."
+    }
+  },
+  {
+    "i": 199,
+    "concept": null,
+    "diagram": { "type": "flow", "labels": ["praising them", "people pleasers"] },
+    "callout": null,
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Grading people and praising them trains people pleasers who only act to get the carrot.",
+      "concreteVisual": "A two-step flow: praising them -> people pleasers.",
+      "onScreenText": "praising them -> people pleasers",
+      "relationToPrevious": "Shows the result of the carrot-and-stick system named in the previous beat.",
+      "addedInformation": "Turns the accusation into a causal chain: the training produces the personality.",
+      "staging": "The philosopher traces the chain from the raised reward across to the waiting people-pleaser."
+    }
+  }
+]

@@ -1,0 +1,894 @@
+{
+  "version": "P2.0",
+  "slug": "the-courage-to-be-disliked",
+  "status": "PASS",
+  "counts": {
+    "scenes": 285,
+    "violations": 0,
+    "diagnostics": 98
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'boulder' is not grounded in this segment's narration",
+      "sceneId": "scene-01",
+      "index": 1,
+      "concept": "boulder",
+      "severity": "diagnostic",
+      "segment": "thought, isn't it? Suddenly realize that this heavy backpack of expectations you've been, you know, lugging around your entire life. It isn't actually yours.\nth"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-04",
+      "index": 4,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "to be disliked by Ichiro the courage to be disliked by Ichiro Kishimi and Fumitake Koga. And right out of the gate, I want to clarify something for anyone who h"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-08",
+      "index": 8,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "They named Carl Jung. But Alfred Adler is widely considered the third giant of that exact same era. Right. He was right there with them.\nThey named Carl Jung. B"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'city' is not grounded in this segment's narration",
+      "sceneId": "scene-09",
+      "index": 9,
+      "concept": "city",
+      "severity": "diagnostic",
+      "segment": "Exactly. He was actually a core foundational member of the Vienna Psychoanalytic Society alongside Freud\nExactly. He was actually a core foundational member of "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'war' is not grounded in this segment's narration",
+      "sceneId": "scene-10",
+      "index": 10,
+      "concept": "war",
+      "severity": "diagnostic",
+      "segment": "right up until they fundamentally and catastrophically split over well how human beings operate. Huge falling out. Yeah.\nright up until they fundamentally and c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-17",
+      "index": 17,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "And the narrative tension they build with that structure is brilliant because the youth acts as a standin for every single doubt you, the reader, might\nAnd the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-20",
+      "index": 20,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "staged, rigged trial. Oh, he's completely rigged. Yeah. The philosopher holds all the cards. He is methodically, systematically dismantling the youth's worldvie"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'sword' is not grounded in this segment's narration",
+      "sceneId": "scene-23",
+      "index": 23,
+      "concept": "sword",
+      "severity": "diagnostic",
+      "segment": "If you've heard of this book in passing, you've almost certainly heard about its famous, highly controversial attack on the concept of trauma.\nIf you've heard o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-24",
+      "index": 24,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "Oh yeah, people get very heated about it on social media. They really do. But we are going to argue that this attack on trauma is actually just the marketing ho"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-26",
+      "index": 26,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "The real engine of this book, the actual psychological mechanism that makes everything else work is a concept Adler calls the separation of tasks.\nThe real engi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'boulder' is not grounded in this segment's narration",
+      "sceneId": "scene-27",
+      "index": 27,
+      "concept": "boulder",
+      "severity": "diagnostic",
+      "segment": "Most of what you are carrying right now is someone else's expectation. And the courage in the title is simply the courage to hand those expectations back.\nMost "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-28",
+      "index": 28,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "To get to that engine though, the book has to demolish the house you are currently living in. It has to clear the foundation. And it does that by picking a mass"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'war' is not grounded in this segment's narration",
+      "sceneId": "scene-29",
+      "index": 29,
+      "concept": "war",
+      "severity": "diagnostic",
+      "segment": "fight with Freud. Right. So, let's drop right into the philosopher study to see how this fight Imagine this scene.\nfight with Freud. Right. So, let's drop right"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-31",
+      "index": 31,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "And the youth describes it vividly. If this friend tries to take even one single step outside his house, he suffers violent palpitations.\nAnd the youth describe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-38",
+      "index": 38,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "Because the youth's friend is literally shaking at the door. he is having a real physiological response. Teleology is the study of the purpose of a given phenom"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-40",
+      "index": 40,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "actively recruit the past to serve a purpose that we have already chosen in the present moment. So for the friend locked in his room, Adler would say he doesn't"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-41",
+      "index": 41,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "anxiety and fear as a biological means to achieve his prior goal of not going out. Yeah, I have to stop you there because that sounds incredibly dismissive. I k"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-46",
+      "index": 46,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "The reason you have a fever today is because yesterday you went outside in the freezing rain without a jacket.\" I mean, medically speaking, that tracks.\nThe rea"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-49",
+      "index": 49,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "You'd say, \"I don't care about yesterday. I have a fever now. I need you to give me medicine and treat the symptoms now.\" Staring endlessly at the past cause do"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-51",
+      "index": 51,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "now. So it's almost like treating your own life like a true crime podcast. Oh, that's a good way to put it.\nnow. So it's almost like treating your own life like"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-54",
+      "index": 54,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "The shut-in friend feels real fear. But what is the purpose of that fear? The teological view suggests the purpose is to stay safely inside. Perhaps to avoid th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-55",
+      "index": 55,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "unpredictable judgment of the outside Or maybe to keep his parents worried attention focused entirely on him. Precisely. By declaring, \"I am a victim of my past"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-61",
+      "index": 61,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "Yeah. Nowhere to hide. Which naturally forces us to look at our current flaws and that brings us to the next major pillar of the book.\nYeah. Nowhere to hide. Wh"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-65",
+      "index": 65,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "He feels he is drowning in objective worthlessness. He tells the philosopher, \"Look, this isn't a teological\nHe feels he is drowning in objective worthlessness."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'ladder' is not grounded in this segment's narration",
+      "sceneId": "scene-66",
+      "index": 66,
+      "concept": "ladder",
+      "severity": "diagnostic",
+      "segment": "excuse. I am factually undeniably inferior to that And this is where the philosopher introduces Adler's incredibly nuanced view on feelings of inferiority.\nexcu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-67",
+      "index": 67,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "First, Adler points out that feelings of inferiority are entirely universal. In fact, Adler himself is the one who coined the term feeling of inferiority in thi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'school' is not grounded in this segment's narration",
+      "sceneId": "scene-69",
+      "index": 69,
+      "concept": "school",
+      "severity": "diagnostic",
+      "segment": "I struggle with that. How can a lack of money or, I don't know, being significantly shorter than average or lacking a college degree, not be an objective fact?\n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-72",
+      "index": 72,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "But if you draw that water and drink it in the blazing heat of a summer afternoon, it feels refreshingly cool. If you draw that exact same 60° water in the dead"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-74",
+      "index": 74,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "or your physical appearance are exactly like the 60° wellwater. The inferiority you attach to them is just the summer or winter lens you are choosing to apply b"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-75",
+      "index": 75,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "yourself to. It's like an algorithm on social media. The objective fact is just you sitting in your room. But if you actively curate a feed of fitness models an"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'ladder' is not grounded in this segment's narration",
+      "sceneId": "scene-78",
+      "index": 78,
+      "concept": "ladder",
+      "severity": "diagnostic",
+      "segment": "It's a launchpad. You feel you're lacking, so you strive to improve. The chef who thinks his cooking isn't good enough works harder to refine his pallet.\nIt's a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'boulder' is not grounded in this segment's narration",
+      "sceneId": "scene-79",
+      "index": 79,
+      "concept": "boulder",
+      "severity": "diagnostic",
+      "segment": "But the danger is when that feeling rots and hardens into an inferiority complex. Precisely. And complex is a word we throw around very casually today, but Adle"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'boulder' is not grounded in this segment's narration",
+      "sceneId": "scene-85",
+      "index": 85,
+      "concept": "boulder",
+      "severity": "diagnostic",
+      "segment": "But Adler is not denying that tangible obstacles exist in the world. He is differentiating between encountering a real obstacle and adopting a permanent Yes,\nBu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-87",
+      "index": 87,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "But when you internalize it and say, \"I am uneducated. Therefore, I cannot succeed in life whatsoever,\" you have taken a situational obstacle and turned it into"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-89",
+      "index": 89,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "complex. The superiority complex is fascinating because it's not what you think it is. It's not just arrogant people acting tough. Explain how feeling deeply in"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-91",
+      "index": 91,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "They want the status without the work. They might start bragging about their past glories or wearing aggressively expensive branded clothing to artificially inf"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'sword' is not grounded in this segment's narration",
+      "sceneId": "scene-93",
+      "index": 93,
+      "concept": "sword",
+      "severity": "diagnostic",
+      "segment": "Like you don't know how hard I've had it. Exactly. that it is the person who uses their trauma, their difficult upbringing, or even their physical ailments as a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'ladder' is not grounded in this segment's narration",
+      "sceneId": "scene-95",
+      "index": 95,
+      "concept": "ladder",
+      "severity": "diagnostic",
+      "segment": "They place themselves on a pedestal above everyone else. They become the special untouchable center of attention.\nThey place themselves on a pedestal above ever"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-96",
+      "index": 96,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "They use their woundedness to control the people around them, forcing others to walk on eggshells. So whether you are aggressively saying, \"I'm too ugly to be l"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-97",
+      "index": 97,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "subjective interpretation to avoid the vulnerability of real engagement. Tying it back to our engine, when you use your circumstances as an excuse not to try, y"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-105",
+      "index": 105,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "of being excluded from a community that exists around you. Exactly. To feel excluded, there must be others to exclude you. Adler asserts that even our most inte"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-106",
+      "index": 106,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "our guilt, our late night self-hatred are actually arguments we are having in our heads with someone who is not in the Wow. You only feel shame about your body "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-107",
+      "index": 107,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "standard set by other people. This is where the youth has a massive painful breakthrough. The philosopher corners him into realizing why he actively chose to di"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-109",
+      "index": 109,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "actively chose to hate himself. He hyperfocused on his own flaws, his pimples, his awkwardness. M why? Because disliking himself was a highly effective armor.\na"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-110",
+      "index": 110,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "If he dislikes himself, he stays safely in his shell. And more importantly, when people inevitably snub him or reject him, he has a readym made justification. H"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-113",
+      "index": 113,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "But what about existential dread? What if I am sitting entirely alone in a room contemplating the biological fact that I'm going to die one day?\nBut what about "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-118",
+      "index": 118,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "Who will remember me? Will I be a burden as I decline? Have I made a meaningful contribution to my community while I was alive?\nWho will remember me? Will I be "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-122",
+      "index": 122,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "Are we carrying the fear of how we will be remembered? Because how someone remembers you is entirely out of your control.\nAre we carrying the fear of how we wil"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'key' is not grounded in this segment's narration",
+      "sceneId": "scene-124",
+      "index": 124,
+      "concept": "key",
+      "severity": "diagnostic",
+      "segment": "and that all friction involves others. Now, we introduce the tool to actually fix it, the separation of tasks.\nand that all friction involves others. Now, we in"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'food' is not grounded in this segment's narration",
+      "sceneId": "scene-125",
+      "index": 125,
+      "concept": "food",
+      "severity": "diagnostic",
+      "segment": "The core engine. Okay, let's build a scene that I think almost everyone listening has either experienced or witnessed. It is a suffocatingly tense dinner table."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'war' is not grounded in this segment's narration",
+      "sceneId": "scene-128",
+      "index": 128,
+      "concept": "war",
+      "severity": "diagnostic",
+      "segment": "thick with resentment, fear, and control. It's a classic power struggle and the Adlerian approach cuts right through the emotional fog with one piercing questio"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-131",
+      "index": 131,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "When the parents yell, threaten, confiscate the phone, or bribe the child to study, they are intruding on the child's task. And Adler says that literally all in"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-140",
+      "index": 140,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "on this project. So, I will focus entirely on my awful boss's temper as my excuse.\non this project. So, I will focus entirely on my awful boss's temper as my ex"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-148",
+      "index": 148,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "The point is that some interpersonal tangles are so complex and historical, like the relationship with an abusive boss or an overbearing parent, that you cannot"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-151",
+      "index": 151,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "of tasks just sound like a highly intellectualized way to justify abandonment and selfishness? It definitely sounds like that if you confuse separation with aba"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-154",
+      "index": 154,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "you need to calm down. Assistance is horizontal. It's standing side by side. You tell the child, \"I see you are struggling with your studies. That is your task "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-155",
+      "index": 155,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "I have resources and if you ask for help, I will support you in any way I can. You lead the horse to water, but you do not force it to drink.\nI have resources a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'boulder' is not grounded in this segment's narration",
+      "sceneId": "scene-159",
+      "index": 159,
+      "concept": "boulder",
+      "severity": "diagnostic",
+      "segment": "When you feel that crushing weight in your chest, you have to stop and ask whose task is it? Identify what is yours and hand the rest\nWhen you feel that crushin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-162",
+      "index": 162,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "It's midnight. They are sitting in a glowing empty office surrounded by dark cubicles, sweating over a PowerPoint presentation. They are exhausted.\nIt's midnigh"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-163",
+      "index": 163,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "Their personal life is a complete mess. They haven't seen their friends in weeks. But they are absolutely desperate to deliver this perfect presentation so that"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-165",
+      "index": 165,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "The philosopher states unequivocally and you must deny the desire for recognition.\nThe philosopher states unequivocally and you must deny the desire for recogni"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'sword' is not grounded in this segment's narration",
+      "sceneId": "scene-166",
+      "index": 166,
+      "concept": "sword",
+      "severity": "diagnostic",
+      "segment": "You must not seek to be recognized by others. Which makes the youth explode. He says no way. The desire for recognition is the fundamental universal\nYou must no"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-168",
+      "index": 168,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "When you live your life trying to satisfy the expectations of others, whether it's your boss, your parents, or a vague societal standard, your life no longer be"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-169",
+      "index": 169,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "expectations. If your primary goal is to be recognized, you will constantly gauge other people's feelings. You will repress your own desires, and you will live "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-170",
+      "index": 170,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "You become a slave to the yard stick of others. Therefore, the philosopher concludes being disliked by some people is not an unfortunate accidental side effect "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-171",
+      "index": 171,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "It is the exact price tag of freedom. If you aren't being disliked by someone, you aren't living free. That is the line. That is where the title of the book com"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-176",
+      "index": 176,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "We demand that other people, our bosses, our Instagram followers validate our existence. Adler argues that to truly overcome nihilism and find peace, we must de"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-184",
+      "index": 184,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "You are utterly obsessed with the eye. You view other people merely as mirrors reflecting your own worth back to you.\nYou are utterly obsessed with the eye. You"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-185",
+      "index": 185,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "You don't care about the boss. You care about the boss's opinion of you. That is wow, right? The tyrant who forces his will on others and the peopleleaser who t"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'gift' is not grounded in this segment's narration",
+      "sceneId": "scene-188",
+      "index": 188,
+      "concept": "gift",
+      "severity": "diagnostic",
+      "segment": "You focus on what you can contribute to them, not on whether they applaud you for it. That distinction between contributing and seeking applause transitions us "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'food' is not grounded in this segment's narration",
+      "sceneId": "scene-191",
+      "index": 191,
+      "concept": "food",
+      "severity": "diagnostic",
+      "segment": "It goes against everything we are taught about positive reinforcement. Let's paint the scene. You have a mother and her young child has just helped set the dinn"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'ladder' is not grounded in this segment's narration",
+      "sceneId": "scene-194",
+      "index": 194,
+      "concept": "ladder",
+      "severity": "diagnostic",
+      "segment": "Exactly. Adler makes a quiet, devastating claim here. Praise is inherently toxic because it comes from a vertical relationship.\nExactly. Adler makes a quiet, de"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-201",
+      "index": 201,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "We must interact with everyone, children, subordinates, bosses, elderly parents as equals. Different in role perhaps different in knowledge or responsibility\nWe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'trophy' is not grounded in this segment's narration",
+      "sceneId": "scene-206",
+      "index": 206,
+      "concept": "trophy",
+      "severity": "diagnostic",
+      "segment": "I have to admit, getting a good job from a mentor or a boss feels biologically amazing. A dopamine hit is a dopamine hit. We literally evolved as apac\nI have to"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-208",
+      "index": 208,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Won't they just feel unappreciated and unmotivated? If I don't tell my team they did a great job, they're going to think I hate them. It goes right back to the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-210",
+      "index": 210,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "motivation. You feel worthless. You become dependent on an external supply of dopamine. That's a dangerous dependency. Exactly. When you rely on praise, you car"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-213",
+      "index": 213,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "Which brings us to the ultimate existential question. If we aren't striving for recognition and we aren't climbing a vertical ladder to get praise, what is the "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-215",
+      "index": 215,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "of Imagine the visceral anxiety of modern life for a second. You are checking a leaderboard at work or you are swiping through LinkedIn or Instagram,\nof Imagine"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-216",
+      "index": 216,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "agonizing over where you rank among your peers. You look at someone's vacation photos or their promotion announcement or their perfect wedding and you feel a fr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'sword' is not grounded in this segment's narration",
+      "sceneId": "scene-218",
+      "index": 218,
+      "concept": "sword",
+      "severity": "diagnostic",
+      "segment": "Other people are essentially enemies standing in your way. But Adler says the ultimate destination isn't climbing higher, and it isn't even happiness in the tra"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'compass' is not grounded in this segment's narration",
+      "sceneId": "scene-220",
+      "index": 220,
+      "concept": "compass",
+      "severity": "diagnostic",
+      "segment": "It's less about a physical community and more about an internal orientation. True worth, true fulfillment comes solely from a subjective feeling of contribution"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-223",
+      "index": 223,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "freedom. You are still chained to their reaction. Community feeling means your sense of contribution must be entirely internal and subjective.\nfreedom. You are "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'game' is not grounded in this segment's narration",
+      "sceneId": "scene-226",
+      "index": 226,
+      "concept": "game",
+      "severity": "diagnostic",
+      "segment": "subjectively in my own head is enough, what's to stop me from just sitting on my couch all day playing video games and deluding myself that my high score is con"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-232",
+      "index": 232,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "Which leads us perfectly to the final philosophical pillar of the book. And this is the one that really challenges how we view time itself.\nWhich leads us perfe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'photo' is not grounded in this segment's narration",
+      "sceneId": "scene-240",
+      "index": 240,
+      "concept": "photo",
+      "severity": "diagnostic",
+      "segment": "greatest lifel. The greatest lifelie is living in the past or the future. It is shining a dim, blurry light on your entire life, squinting at past traumas or st"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-241",
+      "index": 241,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "Adler argues that we must shine a bright, intense spotlight on the here and now. We must give meaning to a seemingly meaningless life in this exact second becau"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'food' is not grounded in this segment's narration",
+      "sceneId": "scene-246",
+      "index": 246,
+      "concept": "food",
+      "severity": "diagnostic",
+      "segment": "for anything? Why save for retirement? Why endure 10 years of grueling study and debt to go to med school? If I'm only living in the here and now, isn't that ju"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'compass' is not grounded in this segment's narration",
+      "sceneId": "scene-248",
+      "index": 248,
+      "concept": "compass",
+      "severity": "diagnostic",
+      "segment": "The philosopher explains that you can have a guiding star, a general direction you want to travel, going to med school as a guiding star, but the act of studyin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'school' is not grounded in this segment's narration",
+      "sceneId": "scene-249",
+      "index": 249,
+      "concept": "school",
+      "severity": "diagnostic",
+      "segment": "You don't study today merely as a miserable, soulcrushing sacrifice for 10 years from now. You find the meaning and the contribution in the act of learning toda"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-256",
+      "index": 256,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "real world messy variables. When you control both sides of the dialogue, you can ensure your theory never cracks. And that neatness leads to the most significan"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-259",
+      "index": 259,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "is whose task is it? Still a valid ethical answer when the other person literally cannot walk away from you.\nis whose task is it? Still a valid ethical answer w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'balance' is not grounded in this segment's narration",
+      "sceneId": "scene-267",
+      "index": 267,
+      "concept": "balance",
+      "severity": "diagnostic",
+      "segment": "Ah, okay. That's an important The separation of tasks still applies to the abuser.\nAh, okay. That's an important The separation of tasks still applies to the ab"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'sword' is not grounded in this segment's narration",
+      "sceneId": "scene-268",
+      "index": 268,
+      "concept": "sword",
+      "severity": "diagnostic",
+      "segment": "The abuser's actions, their violence, their cruelty are the abuser's horrific failure of their own tasks. You do not carry the blame for their actions.\nThe abus"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-272",
+      "index": 272,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "It demands that you drop the narrative of being a victim even when you factually, legally, and morally were one. Because the narrative of the victim, in Adler's"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-273",
+      "index": 273,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "It only offers a reason to stay stuck. It's a bitter medicine. It's asking someone who has been deeply wronged\nIt only offers a reason to stay stuck. It's a bit"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'key' is not grounded in this segment's narration",
+      "sceneId": "scene-275",
+      "index": 275,
+      "concept": "key",
+      "severity": "diagnostic",
+      "segment": "But for millions of people who feel permanently stuck in the aftermath of their past, it has also been the sudden shocking cure they couldn't find anywhere else"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-279",
+      "index": 279,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "It certainly wasn't about being a self-centered jerk who ignores other people's feelings or acts like a tyrant. It is simply about establishing profound boundar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'compass' is not grounded in this segment's narration",
+      "sceneId": "scene-281",
+      "index": 281,
+      "concept": "compass",
+      "severity": "diagnostic",
+      "segment": "Whose task is this? You figure out what is yours. You handle it with earnestness, with horizontal ambition, and with community feeling in the here and now.\nWhos"
+    }
+  ]
+}

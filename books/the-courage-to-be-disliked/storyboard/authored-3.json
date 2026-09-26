@@ -1,0 +1,698 @@
+[
+  {
+    "i": 80,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a permanent structural excuse", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "An inferiority complex is using a subjective feeling of inferiority as a permanent structural excuse.",
+      "concreteVisual": "The philosopher laying out Adler's definition in the study — no icon reads literally as an excuse, so the speaker and the phrase carry it.",
+      "onScreenText": "a permanent structural excuse",
+      "relationToPrevious": "Gives Adler's definition of the inferiority complex the previous beat said he would define.",
+      "addedInformation": "weak: the frame adds only the speaker and the phrase; the definition itself is the audio.",
+      "staging": "The philosopher holds up a hand mid-explanation: the feeling is being built into an excuse."
+    }
+  },
+  {
+    "i": 81,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "a titanium shield", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "shield",
+    "storyboard": {
+      "claim": "You harden the worldview settled in childhood into a titanium shield you hide behind.",
+      "concreteVisual": "A shield — the defensive armor the narration names literally.",
+      "onScreenText": "a titanium shield",
+      "relationToPrevious": "From the definition of the complex to what it does for you: it protects.",
+      "addedInformation": "Makes the defense literal — a shield held up instead of an argument offered.",
+      "staging": "The philosopher raises a shield: an old childhood worldview hardened into armor."
+    }
+  },
+  {
+    "i": 82,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "play devil's advocate", "style": "box" },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth interrupts to test the theory with a hard case: no degree, real rejection.",
+      "concreteVisual": "The young man leaning in, finger up, raising his counter-example.",
+      "onScreenText": "play devil's advocate",
+      "relationToPrevious": "Cuts from the philosopher's definition to the objection it provokes.",
+      "addedInformation": "Signals the interruption is an adversarial test of the claim, not agreement.",
+      "staging": "The young man leans forward, hand raised: he is playing devil's advocate."
+    }
+  },
+  {
+    "i": 83,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a cold hard societal fact", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "letter",
+    "storyboard": {
+      "claim": "The rejection was a cold hard societal fact — an objective block, not a subjective interpretation.",
+      "concreteVisual": "The young man facing a closed door, holding the rejection letter that names the missing degree.",
+      "onScreenText": "a cold hard societal fact",
+      "relationToPrevious": "Supplies the concrete evidence behind the devil's-advocate case just raised.",
+      "addedInformation": "The shut door shows the block is external and dated — a letter in his hand, not a feeling.",
+      "staging": "The young man holds a rejection letter at a closed door: society turned him away."
+    }
+  },
+  {
+    "i": 84,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a valid push back", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The objection — structural inequality is real — is a valid push back.",
+      "concreteVisual": "The young man pressing the objection home, still holding the floor.",
+      "onScreenText": "a valid push back",
+      "relationToPrevious": "Names the objection as legitimate instead of brushing it aside.",
+      "addedInformation": "The concession is visible: the challenger keeps the floor rather than being talked over.",
+      "staging": "The young man points mid-argument: his push back lands and is accepted."
+    }
+  },
+  {
+    "i": 85,
+    "concept": "boulder",
+    "diagram": null,
+    "callout": { "text": "a real obstacle", "style": "reveal" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler does not deny that tangible obstacles exist; he separates meeting one from adopting a permanent excuse.",
+      "concreteVisual": "A boulder sitting in the path — the tangible obstacle Adler concedes is real.",
+      "onScreenText": "a real obstacle",
+      "relationToPrevious": "Answers the valid objection by granting its premise: the barriers are real.",
+      "addedInformation": "The boulder makes the concession concrete — Adler's claim is not that obstacles are imaginary.",
+      "staging": "Adler gestures at the boulder in the path: yes, the obstacle is there."
+    }
+  },
+  {
+    "i": 86,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "that specific job", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The missing degree blocks one job on one particular day — a situational fact.",
+      "concreteVisual": "The philosopher conceding the narrow, dated consequence with a measured shrug.",
+      "onScreenText": "that specific job",
+      "relationToPrevious": "Narrows the boulder down to the single case the youth described.",
+      "addedInformation": "Marks the barrier as bounded in scope and time — not a lifelong condition.",
+      "staging": "The philosopher counts the point off on one finger: only that job, only that Tuesday."
+    }
+  },
+  {
+    "i": 87,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": { "text": "an identity level excuse", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "mirror",
+    "storyboard": {
+      "claim": "Internalizing the block turns a situational obstacle into an identity-level excuse.",
+      "concreteVisual": "A mirror — the obstacle now written onto who he is instead of what happened to him.",
+      "onScreenText": "an identity level excuse",
+      "relationToPrevious": "From the situational barrier to the story he tells about himself.",
+      "addedInformation": "The mirror shows the obstacle moved inside and became self-image.",
+      "staging": "The young man frowns at his reflection: I am uneducated becomes who he is."
+    }
+  },
+  {
+    "i": 88,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "justify giving up", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The cause-and-effect story is used to justify giving up on your own growth — and the complex then mutates into its opposite.",
+      "concreteVisual": "Adler naming the mechanism, one hand sweeping toward the reversal it sets up.",
+      "onScreenText": "justify giving up",
+      "relationToPrevious": "States the purpose of the identity excuse just shown: it exists in order to stop.",
+      "addedInformation": "Names the teleological move — the excuse is chosen for the quitting it permits.",
+      "staging": "Adler points outward: the apparent cause and effect licenses giving up."
+    }
+  },
+  {
+    "i": 89,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": { "text": "the superiority complex", "style": "box" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "trophy",
+    "storyboard": {
+      "claim": "The opposite pole is a superiority complex — not simply arrogant people acting tough.",
+      "concreteVisual": "A trophy — the inflated status the complex performs rather than earns.",
+      "onScreenText": "the superiority complex",
+      "relationToPrevious": "Names the opposite the previous beat just announced.",
+      "addedInformation": "The trophy shows the complex is about performed rank, not strength.",
+      "staging": "The philosopher holds up a trophy he has not won: the superiority complex on display."
+    }
+  },
+  {
+    "i": 90,
+    "concept": null,
+    "diagram": { "type": "flow", "labels": ["Psychological pain", "Easy way out"] },
+    "callout": null,
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Unable to tolerate the pain of inferiority and lacking the courage for real effort, people take an easy way out.",
+      "concreteVisual": "A two-step flow: psychological pain -> easy way out.",
+      "onScreenText": "Psychological pain -> Easy way out",
+      "relationToPrevious": "Explains how the inferiority feeling produces the superiority performance.",
+      "addedInformation": "Shows cause and effect as one chain out of a single long sentence.",
+      "staging": "The philosopher traces the chain in the air as the two steps appear."
+    }
+  },
+  {
+    "i": 91,
+    "concept": "mask",
+    "diagram": null,
+    "callout": { "text": "status without the work", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "They want the status without the work — bragging about past glories and wearing expensive brands to inflate importance.",
+      "concreteVisual": "A mask — importance worn over an empty track record.",
+      "onScreenText": "status without the work",
+      "relationToPrevious": "Gives the first example of the easy way out.",
+      "addedInformation": "The mask says the status is worn, not earned.",
+      "staging": "The young man boasts with a hollow swagger: the pride is a costume."
+    }
+  },
+  {
+    "i": 92,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "boasting about one's misfortune", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The subtlest form of the superiority complex is boasting about one's own misfortune.",
+      "concreteVisual": "The young man advertising his wounds outward while a sad face stays fixed — suffering sold as status.",
+      "onScreenText": "boasting about one's misfortune",
+      "relationToPrevious": "Escalates from bragging about glories to bragging about pain.",
+      "addedInformation": "The sad face over a boasting posture shows the misery is being performed, not shared.",
+      "staging": "The young man lifts his chin and broadcasts his grievance: misfortune worn as a badge."
+    }
+  },
+  {
+    "i": 93,
+    "concept": "sword",
+    "diagram": null,
+    "callout": { "text": "a weapon of superiority", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "point",
+    "storyboard": {
+      "claim": "Trauma, difficult upbringing and physical ailments become a weapon of superiority.",
+      "concreteVisual": "A sword — the wound swung at other people.",
+      "onScreenText": "a weapon of superiority",
+      "relationToPrevious": "Names the function of the misfortune just shown.",
+      "addedInformation": "Turns the passive victim into an aggressor: the pain is wielded.",
+      "staging": "The young man brandishes his suffering like a blade: it puts everyone else below him."
+    }
+  },
+  {
+    "i": 94,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "pain is entirely unique", "style": "stack" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The claim is that this pain is entirely unique, profoundly deep and incomprehensible to anyone else.",
+      "concreteVisual": "The young man alone at the center, others held outside a circle he says they cannot enter.",
+      "onScreenText": "pain is entirely unique",
+      "relationToPrevious": "States the belief that makes the weapon work.",
+      "addedInformation": "The isolation is staged as a wall of specialness, not a plea for help.",
+      "staging": "The young man holds others at arm's length: nobody could understand this pain."
+    }
+  },
+  {
+    "i": 95,
+    "concept": "ladder",
+    "diagram": null,
+    "callout": { "text": "on a pedestal above everyone", "style": "highlight" },
+    "set": "stage",
+    "shotOverride": "crowd",
+    "cast": ["young-man"],
+    "expression": "happy",
+    "action": "celebrate",
+    "storyboard": {
+      "claim": "On the pedestal they become the special, untouchable center of attention.",
+      "concreteVisual": "A ladder beside the elevated young man while every face in the room turns to him.",
+      "onScreenText": "on a pedestal above everyone",
+      "relationToPrevious": "The payoff of the unique-pain claim: position above others.",
+      "addedInformation": "The ladder shows the superiority is a climbed position, not a fact about him.",
+      "staging": "The young man preens above the onlookers: he has made himself the center."
+    }
+  },
+  {
+    "i": 96,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": { "text": "control the people around them", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Woundedness is used to control the people around them, forcing others to walk on eggshells.",
+      "concreteVisual": "A puppeteer's cross above the others — one hand on everyone's strings.",
+      "onScreenText": "control the people around them",
+      "relationToPrevious": "From the position on the pedestal to what that position is used for.",
+      "addedInformation": "The strings make the manipulation literal: everyone else moves carefully now.",
+      "staging": "The young man works the strings while others freeze mid-step."
+    }
+  },
+  {
+    "i": 97,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "carrying the world's supposed judgments", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Using your circumstances as an excuse means carrying the world's supposed judgments as if they were objective truths.",
+      "concreteVisual": "Chains of other people's verdicts draped over the speaker's shoulders.",
+      "onScreenText": "carrying the world's supposed judgments",
+      "relationToPrevious": "Ties the superiority tricks back to the book's engine of borrowed judgments.",
+      "addedInformation": "The chains show the judgments are carried and never handed back.",
+      "staging": "The philosopher hauls a chain of other people's verdicts across his shoulders."
+    }
+  },
+  {
+    "i": 98,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "Whose task is it", "style": "box" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The question to ask is whose task the validation is — and it is yours, not society's.",
+      "concreteVisual": "The philosopher turning the book's core question on the youth, palm open.",
+      "onScreenText": "Whose task is it",
+      "relationToPrevious": "Reframes the borrowed judgments as a task that belongs to someone.",
+      "addedInformation": "Introduces the separation-of-tasks test the rest of the book applies.",
+      "staging": "The philosopher holds the question out: whose job is validating you?"
+    }
+  },
+  {
+    "i": 99,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the most absolute sweeping claim", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "That fear of real engagement leads into the most sweeping claim in the entire book.",
+      "concreteVisual": "The philosopher pausing before the big statement while the youth braces for it.",
+      "onScreenText": "the most absolute sweeping claim",
+      "relationToPrevious": "Signals the turn from personal neurosis to our place in the universe.",
+      "addedInformation": "weak: the picture only marks the gear-change; the claim itself arrives in the audio.",
+      "staging": "The philosopher lifts a finger before the sentence: the biggest claim is coming."
+    }
+  },
+  {
+    "i": 100,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "floating completely alone", "style": "reveal" },
+    "set": "abstract",
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The listener is asked to imagine floating completely alone in the dark silent void of the universe.",
+      "concreteVisual": "The philosopher opens the thought experiment as a dark empty field spreads behind them.",
+      "onScreenText": "floating completely alone",
+      "relationToPrevious": "Begins the visualization the sweeping claim needs.",
+      "addedInformation": "Establishes the void stage that the next beats strip bare.",
+      "staging": "The philosopher gestures into the darkness: picture yourself alone out there."
+    }
+  },
+  {
+    "i": 101,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "utter emptiness", "style": "reveal" },
+    "set": "abstract",
+    "shotOverride": "silhouette",
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The void is total emptiness — no language, no logic, no one to hear you, no stars, no planets, no history.",
+      "concreteVisual": "A lone silhouetted figure in pure black — deliberately no stars or planets, because the narration denies them.",
+      "onScreenText": "utter emptiness",
+      "relationToPrevious": "Strips the void of everything, item by item.",
+      "addedInformation": "Honest negation: showing nothing instead of drawing the stars the narrator says are absent.",
+      "staging": "The young man hangs alone in blackness, arms drawn in: nothing exists around him."
+    }
+  },
+  {
+    "i": 102,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "would evaporate instantly", "style": "highlight" },
+    "set": "abstract",
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Truly existing in that state would make every problem you currently have evaporate instantly.",
+      "concreteVisual": "The same black void — there is nothing left in it to hold a problem.",
+      "onScreenText": "would evaporate instantly",
+      "relationToPrevious": "States the consequence of the emptiness just established.",
+      "addedInformation": "weak: the void adds only absence; the verb does all the work.",
+      "staging": "The philosopher speaks into the emptiness: a problem cannot survive this much nothing."
+    }
+  },
+  {
+    "i": 103,
+    "concept": null,
+    "diagram": { "type": "flow", "labels": ["Take people away", "Problem vanishes"] },
+    "callout": null,
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "All problems are interpersonal relationship problems: take other people away and the very concept of a problem vanishes.",
+      "concreteVisual": "A two-step flow: take people away -> problem vanishes.",
+      "onScreenText": "Take people away -> Problem vanishes",
+      "relationToPrevious": "Names the rule behind the void's problem-free state.",
+      "addedInformation": "Shows the removal and the disappearance as one causal chain.",
+      "staging": "The philosopher makes a sweeping gesture: remove everyone and the problem goes too."
+    }
+  },
+  {
+    "i": 104,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "what about loneliness", "style": "reveal" },
+    "set": "abstract",
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The obvious objection: floating in a void, surely you would be lonely.",
+      "concreteVisual": "The young man raising the objection from inside the void, hand to his chin.",
+      "onScreenText": "what about loneliness",
+      "relationToPrevious": "Challenges the void claim with the first human counter-example.",
+      "addedInformation": "Voices the doubt the viewer is likely having at exactly this moment.",
+      "staging": "The young man frowns in the dark: alone must mean lonely."
+    }
+  },
+  {
+    "i": 105,
+    "concept": "door",
+    "diagram": null,
+    "callout": { "text": "excluded from a community", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Loneliness is not being objectively alone — it is being excluded from a community that exists around you.",
+      "concreteVisual": "A closed door with the young man outside it and a group gathered on the far side.",
+      "onScreenText": "excluded from a community",
+      "relationToPrevious": "Answers the loneliness objection by relocating it among other people.",
+      "addedInformation": "The door shows exclusion needs both sides — someone inside has to shut you out.",
+      "staging": "The young man stands shut out while voices gather behind the closed door."
+    }
+  },
+  {
+    "i": 106,
+    "concept": "law",
+    "diagram": null,
+    "callout": { "text": "standard set by other people", "style": "reveal" },
+    "set": "bedroom",
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "think",
+    "storyboard": {
+      "claim": "Shame and late-night self-hatred are arguments in your head with someone who is not in the room — a standard set by other people.",
+      "concreteVisual": "A law tablet — the rule other people wrote — beside a youth arguing with an empty chair.",
+      "onScreenText": "standard set by other people",
+      "relationToPrevious": "Shows where the excluded person's real interlocutor lives: inside his own head.",
+      "addedInformation": "The empty chair makes someone who is not in the room literal; the law icon names whose rule is being enforced.",
+      "staging": "The young man argues late at night with an empty chair: the judge already left."
+    }
+  },
+  {
+    "i": 107,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": { "text": "a massive painful breakthrough", "style": "highlight" },
+    "set": "room",
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth breaks through to why he actively chose to dislike himself.",
+      "concreteVisual": "A lightbulb over the cornered youth as the realization lands painfully.",
+      "onScreenText": "a massive painful breakthrough",
+      "relationToPrevious": "From the hidden argument to the moment he finally sees it.",
+      "addedInformation": "Marks this as the emotional pivot of the dialogue, not one more point in the debate.",
+      "staging": "The philosopher stands over the stricken youth as the lightbulb lands: he chose this."
+    }
+  },
+  {
+    "i": 108,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the pain of interpersonal relationships", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "He is terrified of being judged and of the pain of interpersonal relationships.",
+      "concreteVisual": "The young man folding in on himself, backing away from any contact.",
+      "onScreenText": "the pain of interpersonal relationships",
+      "relationToPrevious": "Names the fear behind the self-dislike just uncovered.",
+      "addedInformation": "Turns the abstract breakthrough into a bodily flinch a mute viewer can read.",
+      "staging": "The young man curls inward, arms tight: relationships are the thing he dreads."
+    }
+  },
+  {
+    "i": 109,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": { "text": "he chose to hate himself", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "mirror",
+    "storyboard": {
+      "claim": "He actively chose to hate himself, hyperfocusing on his own flaws — pimples, awkwardness.",
+      "concreteVisual": "A mirror — the flaws chosen into close focus rather than discovered.",
+      "onScreenText": "he chose to hate himself",
+      "relationToPrevious": "The content of the breakthrough: the dislike was chosen, not assigned.",
+      "addedInformation": "The mirror makes hyperfocusing an action he performs, not a fact he uncovers.",
+      "staging": "The young man leans into the mirror, hunting pimples and awkwardness."
+    }
+  },
+  {
+    "i": 110,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "stays safely in his shell", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Self-dislike keeps him safely in his shell and pre-writes his justification when people reject him.",
+      "concreteVisual": "A shield — protection that doubles as the ready-made excuse for every rejection.",
+      "onScreenText": "stays safely in his shell",
+      "relationToPrevious": "Explains what the chosen self-hatred buys him.",
+      "addedInformation": "The shield shows safety first, so the excuse that follows reads as its dividend.",
+      "staging": "The young man shrinks behind the shield, already rehearsing: of course they rejected me."
+    }
+  },
+  {
+    "i": 111,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a preemptive strike", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Self-hatred is a preemptive strike against the unpredictable pain of interpersonal rejection.",
+      "concreteVisual": "The young man jabs a finger at his own chest — the first blow aimed at himself before anyone moves.",
+      "onScreenText": "a preemptive strike",
+      "relationToPrevious": "Names the defense mechanism the shell just demonstrated.",
+      "addedInformation": "The staging shows the direction of the attack: himself, first, on purpose.",
+      "staging": "The young man strikes before anyone can speak: he rejects himself first."
+    }
+  },
+  {
+    "i": 112,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "I'm struggling to square that", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The youth pushes back: some things lie outside human control, so not every problem is interpersonal.",
+      "concreteVisual": "The young man holding up a hand to stop the theory mid-flow.",
+      "onScreenText": "I'm struggling to square that",
+      "relationToPrevious": "Turns the armor argument into the objection it cannot yet answer.",
+      "addedInformation": "Marks the boundary the next beats must defend — mortality, illness, dread.",
+      "staging": "The young man cuts in: what about what nobody controls?"
+    }
+  },
+  {
+    "i": 113,
+    "concept": "hourglass",
+    "diagram": null,
+    "callout": { "text": "existential dread", "style": "reveal" },
+    "set": "room",
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The hard case: sitting alone in a room, contemplating the biological fact of dying one day.",
+      "concreteVisual": "An hourglass — his own time running out while he sits alone with it.",
+      "onScreenText": "existential dread",
+      "relationToPrevious": "States the first concrete case outside human control.",
+      "addedInformation": "The hourglass turns mortality into a countdown instead of an abstraction.",
+      "staging": "The young man sits alone watching the sand: one day he dies."
+    }
+  },
+  {
+    "i": 114,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "is this just an interpersonal problem?", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "point",
+    "storyboard": {
+      "claim": "And a person suffering alone from a terminal illness — is even that only an interpersonal problem?",
+      "concreteVisual": "The young man presses the hardest case directly at the philosopher: a life ending alone.",
+      "onScreenText": "is this just an interpersonal problem?",
+      "relationToPrevious": "Adds the second hard case: suffering in a body, alone.",
+      "addedInformation": "Grounds the abstraction in a real patient, so the challenge is about dying, not a thought experiment.",
+      "staging": "The young man presses the question: is dying alone a people problem?"
+    }
+  },
+  {
+    "i": 115,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "loftier philosophical problems", "style": "reveal" },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth argues that human beings have loftier philosophical problems than getting along with co-workers.",
+      "concreteVisual": "The young man raising the objection straight to the philosopher's face.",
+      "onScreenText": "loftier philosophical problems",
+      "relationToPrevious": "Generalizes the two hard cases into one philosophical challenge.",
+      "addedInformation": "Names what is at stake — dignity above mere social comfort.",
+      "staging": "The young man lifts his chin: philosophy is bigger than coworker harmony."
+    }
+  },
+  {
+    "i": 116,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "defined by the individual", "style": "strike" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler's response: there is no such thing as a worry completely defined by the individual in a vacuum.",
+      "concreteVisual": "Adler cutting the phrase out of the air as the words are struck through on screen.",
+      "onScreenText": "defined by the individual",
+      "relationToPrevious": "Answers the loftier-problems objection by dissolving the individual in a vacuum.",
+      "addedInformation": "The strike makes the rejection visible without sound — even a solitary worry contains other people.",
+      "staging": "Adler sweeps the phrase aside: no worry stands alone."
+    }
+  },
+  {
+    "i": 117,
+    "concept": "family",
+    "diagram": null,
+    "callout": { "text": "How will my family survive", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "photo",
+    "storyboard": {
+      "claim": "Even in sickness or facing death, other people's shadows are present — how will my family survive without me?",
+      "concreteVisual": "A family icon beside a photograph the young man holds with both hands.",
+      "onScreenText": "How will my family survive",
+      "relationToPrevious": "Supplies the first people who remain inside a supposedly private fear.",
+      "addedInformation": "The photograph makes the others concrete: faces that outlive the questioner.",
+      "staging": "The young man looks down at the family photo: even dying is done among them."
+    }
+  },
+  {
+    "i": 118,
+    "concept": "grave",
+    "diagram": null,
+    "callout": { "text": "Who will remember me", "style": "stack" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "think",
+    "storyboard": {
+      "claim": "The questions that haunt death are social: who remembers me, will I be a burden, did I contribute?",
+      "concreteVisual": "A grave marker — the death itself — standing in front of the man asking who will remember it.",
+      "onScreenText": "Who will remember me",
+      "relationToPrevious": "Extends the family question to the whole community and to legacy.",
+      "addedInformation": "The grave grounds the abstraction in the one fact all these questions assume: he dies.",
+      "staging": "The young man stands at a grave, asking the questions out loud."
+    }
+  },
+  {
+    "i": 119,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the web of human connection", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Even the language you use to process your own death was given to you by a society — existence cannot be untangled from human connection.",
+      "concreteVisual": "The two men facing each other mid-sentence, passing the shared language between them — no single icon reads as a web of connection.",
+      "onScreenText": "the web of human connection",
+      "relationToPrevious": "Closes the objection: even the tools of solitary thought are borrowed from others.",
+      "addedInformation": "Turns the void sequence back into a two-person dialogue — connection is the frame after all.",
+      "staging": "The philosopher and the young man face each other, still arguing: the language itself is shared."
+    }
+  }
+]

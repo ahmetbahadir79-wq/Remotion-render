@@ -1,0 +1,30 @@
+{
+  "slug": "the-courage-to-be-disliked",
+  "title": "The Courage to Be Disliked",
+  "author": "Ichiro Kishimi, Fumitake Koga",
+  "genre": "self-help",
+  "engine": "antidote",
+  "engineRationale": "Genre \"self-help\" → Antidote: flat-vector rigged characters + kinetic typography (higher conversion, cheaper render). Override with --engine=vox if the book needs photoreal depictions of real people.",
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-09-25",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 2.1,
+    "antidoteScore": 20,
+    "signals": {
+      "year": 0.1,
+      "history": 0.7,
+      "second": 38.7,
+      "abstract": 8.1,
+      "sensitive": 2.3,
+      "era": 2020,
+      "words": 8104
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 38.7/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

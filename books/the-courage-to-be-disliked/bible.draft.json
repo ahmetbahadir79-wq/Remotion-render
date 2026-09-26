@@ -1,0 +1,442 @@
+{
+  "slug": "the-courage-to-be-disliked",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=the-courage-to-be-disliked --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "the-courage-to-be-disliked",
+    "world": {
+      "era": "1995–1995",
+      "worldId": "",
+      "approxYear": 1995,
+      "setting": "",
+      "register": "",
+      "forbid": []
+    },
+    "visualProvenance": {
+      "bookId": "the-courage-to-be-disliked",
+      "worldId": "",
+      "allowedMotifs": [],
+      "forbiddenMotifs": [],
+      "allowedCharacters": [],
+      "allowedLocations": [],
+      "allowedProps": []
+    },
+    "cast": {
+      "adler": {
+        "name": "Adler",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 15
+      },
+      "life": {
+        "name": "Life",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 4
+      }
+    },
+    "places": {
+      "manuscript": {
+        "set": "manuscript",
+        "look": "",
+        "mentions": 5
+      },
+      "bedroom": {
+        "set": "bedroom",
+        "look": "",
+        "mentions": 2
+      },
+      "kitchen": {
+        "set": "kitchen",
+        "look": "",
+        "mentions": 2
+      },
+      "cafe": {
+        "set": "cafe",
+        "look": "",
+        "mentions": 1
+      },
+      "agora": {
+        "set": "agora",
+        "look": "",
+        "mentions": 1
+      },
+      "office": {
+        "set": "office",
+        "look": "",
+        "mentions": 1
+      },
+      "cave": {
+        "set": "cave",
+        "look": "",
+        "mentions": 1
+      },
+      "street": {
+        "set": "street",
+        "look": "",
+        "mentions": 1
+      }
+    },
+    "objects": [
+      {
+        "concept": "work",
+        "mentions": 24,
+        "why": ""
+      },
+      {
+        "concept": "gift",
+        "mentions": 23,
+        "why": ""
+      },
+      {
+        "concept": "family",
+        "mentions": 18,
+        "why": ""
+      },
+      {
+        "concept": "target",
+        "mentions": 15,
+        "why": ""
+      },
+      {
+        "concept": "school",
+        "mentions": 14,
+        "why": ""
+      },
+      {
+        "concept": "phone",
+        "mentions": 12,
+        "why": ""
+      },
+      {
+        "concept": "sword",
+        "mentions": 9,
+        "why": ""
+      },
+      {
+        "concept": "heart",
+        "mentions": 9,
+        "why": ""
+      },
+      {
+        "concept": "home",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "compass",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "ladder",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "law",
+        "mentions": 5,
+        "why": ""
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 2,
+        "claim": ""
+      },
+      {
+        "act": "development",
+        "fromFrame": 14772,
+        "claim": ""
+      },
+      {
+        "act": "turn",
+        "fromFrame": 31870,
+        "claim": ""
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 47856,
+        "claim": ""
+      },
+      {
+        "act": "close",
+        "fromFrame": 62995,
+        "claim": ""
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 586,
+    "cast": [
+      {
+        "name": "Adler",
+        "asSubject": 15,
+        "total": 31,
+        "samples": [
+          "But Alfred Adler is widely considered the third giant of that exact same era.",
+          "So for the friend locked in his room, Adler would say he doesn't refuse to go out because he has anxiety.",
+          "No. No. Adler is absolutely not saying the physical symptoms are faked."
+        ]
+      },
+      {
+        "name": "Life",
+        "asSubject": 4,
+        "total": 4,
+        "samples": [
+          "Life feels like a brutal endless competition where you are always losing because you are living in a vertical worldview.",
+          "Life is a series of points, not a line.",
+          "The present moment is always treated as a mere stepping stone, a temporary sacrifice you make for the But Adler says, \"Life is not a line."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "manuscript",
+        "mentions": 5,
+        "samples": [
+          "M we're looking at a text that has quietly and then very loudly become just a massive global phenomenon.",
+          "They wrote it as a Socratic dialogue."
+        ]
+      },
+      {
+        "set": "bedroom",
+        "mentions": 2,
+        "samples": [
+          "He's telling the philosopher about a friend of his who has shut himself in his room for years.",
+          "So for the friend locked in his room, Adler would say he doesn't refuse to go out because he has anxiety."
+        ]
+      },
+      {
+        "set": "kitchen",
+        "mentions": 2,
+        "samples": [
+          "It is a suffocatingly tense dinner table.",
+          "You have a mother and her young child has just helped set the dinner table."
+        ]
+      },
+      {
+        "set": "cafe",
+        "mentions": 1,
+        "samples": [
+          "He describes sitting in a cafe looking at a newspaper article about a guy his exact same age who is wildly successful, wealthy, and thriving."
+        ]
+      },
+      {
+        "set": "agora",
+        "mentions": 1,
+        "samples": [
+          "I'm struggling to square that with things outside of human control, though."
+        ]
+      },
+      {
+        "set": "office",
+        "mentions": 1,
+        "samples": [
+          "Let's take it out of the home and into the office because the book gives a great workplace equivalent."
+        ]
+      },
+      {
+        "set": "cave",
+        "mentions": 1,
+        "samples": [
+          "You are still chained to their reaction."
+        ]
+      },
+      {
+        "set": "street",
+        "mentions": 1,
+        "samples": [
+          "Yes. You do the work, you help the colleague, you care for the child, you pick up the trash on the street, and you decide that you have contributed."
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "work",
+        "mentions": 24,
+        "sample": "If someone has zero formal education and they apply for a high-paying corporate job and they get rejected specifically because they don't ha"
+      },
+      {
+        "concept": "gift",
+        "mentions": 23,
+        "sample": "And the way Kashimi and Koga present this, it isn't through some dry academic textbook."
+      },
+      {
+        "concept": "family",
+        "mentions": 18,
+        "sample": "Yours or your father's disappointment?"
+      },
+      {
+        "concept": "target",
+        "mentions": 15,
+        "sample": "Rather, he manufactures the state of anxiety and fear as a biological means to achieve his prior goal of not going out."
+      },
+      {
+        "concept": "school",
+        "mentions": 14,
+        "sample": "You know, the bad teacher, the absent parent, the embarrassing moment in middle school that we forget finding the killer doesn't actually re"
+      },
+      {
+        "concept": "phone",
+        "mentions": 12,
+        "sample": "M we're looking at a text that has quietly and then very loudly become just a massive global phenomenon."
+      },
+      {
+        "concept": "sword",
+        "mentions": 9,
+        "sample": "It's called the courage to be disliked by Ichiro Kushimi and Fuma Takoga."
+      },
+      {
+        "concept": "heart",
+        "mentions": 9,
+        "sample": "We love a good origin story."
+      },
+      {
+        "concept": "home",
+        "mentions": 6,
+        "sample": "To get to that engine though, the book has to demolish the house you are currently living in."
+      },
+      {
+        "concept": "compass",
+        "mentions": 6,
+        "sample": "Teology is the study of the purpose of a given phenomenon rather than its historical cause."
+      },
+      {
+        "concept": "ladder",
+        "mentions": 6,
+        "sample": "If we aren't striving for recognition and we aren't climbing a vertical ladder to get praise, what is the point?"
+      },
+      {
+        "concept": "law",
+        "mentions": 5,
+        "sample": "But, and this is key, if we are truly analyzing the structure of this text, we have to acknowledge right up front that it is essentially a s"
+      }
+    ],
+    "openingLines": [
+      "Whose task was that?",
+      "Yours or your father's disappointment?",
+      "Half your obligations just walked out of the room.",
+      "It is um a profoundly unsettling thought, isn't it?",
+      "Suddenly realize that this heavy backpack of expectations you've been, you know, lugging around your entire life.",
+      "It isn't actually yours."
+    ],
+    "closingLines": [
+      "Look at the biggest source of stress in your life right now.",
+      "The thing keeping you awake at night, making your chest tight.",
+      "If you mentally handed back every single task that actually belongs to someone else's judgment, what would actually be left for you to carry?",
+      "Keep diving deep."
+    ]
+  }
+}

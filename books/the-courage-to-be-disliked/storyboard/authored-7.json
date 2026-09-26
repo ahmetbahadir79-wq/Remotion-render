@@ -1,0 +1,653 @@
+[
+  {
+    "i": 240,
+    "concept": "photo",
+    "diagram": null,
+    "callout": { "text": "leaving the present moment in shadow", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "photo",
+    "storyboard": {
+      "claim": "The greatest life-lie is living in the past or the future: the light stays on old wounds and future goals while the present moment sits in shadow.",
+      "concreteVisual": "The philosopher holds an old photograph up toward the lamp and reads by its light, while the space directly in front of him stays dark.",
+      "onScreenText": "leaving the present moment in shadow",
+      "relationToPrevious": "Picks up the previous beat's claim that life is only the here and now, and names what looking away from it costs.",
+      "addedInformation": "Turns 'dim, blurry light' into stage lighting — the past is lit, the present is not."
+    }
+  },
+  {
+    "i": 241,
+    "concept": "clock",
+    "diagram": null,
+    "callout": { "text": "the here and now", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler's demand: shine a bright, intense spotlight on the here and now and give meaning to this exact second, because this second is all that exists.",
+      "concreteVisual": "Adler stands inside a hard spotlight and points down at the clock at his feet — the second he says is the only one there is.",
+      "onScreenText": "the here and now",
+      "relationToPrevious": "Answers the shadow of the last beat with the light Adler insists on shining.",
+      "addedInformation": "Puts Adler himself on screen for his own instruction and makes 'this exact second' a physical clock in the room."
+    }
+  },
+  {
+    "i": 242,
+    "concept": "book",
+    "diagram": null,
+    "callout": { "text": "the destination", "style": "strike" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The book promises to teach happiness, yet it ends by deleting the destination that every other self-help book sells.",
+      "concreteVisual": "The philosopher presents the self-help book while the phrase above it prints struck through — the finish line removed.",
+      "onScreenText": "the destination",
+      "relationToPrevious": "From Adler's single second to what this book does with the goal waiting at the end of the line.",
+      "addedInformation": "The strike shows the deletion instead of describing it: this book cancels the destination."
+    }
+  },
+  {
+    "i": 243,
+    "concept": null,
+    "diagram": { "type": "flow", "labels": ["Meaning at destination", "Life meaningless"] },
+    "callout": null,
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "If meaning is only found at the destination, then the vast majority of a life lived on the way there is meaningless.",
+      "concreteVisual": "A two-step flow: meaning at destination -> life meaningless.",
+      "onScreenText": "Meaning at destination -> Life meaningless",
+      "relationToPrevious": "Spells out the consequence of deleting the destination in the previous beat.",
+      "addedInformation": "Shows the conditional as the causal chain the narrator states but never draws."
+    }
+  },
+  {
+    "i": 244,
+    "concept": "ladder",
+    "diagram": null,
+    "callout": { "text": "was your life a failure?", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Twenty years up the corporate ladder, a heart attack a week before CEO: the line-view calls that life a failure, the dancer's view calls it complete.",
+      "concreteVisual": "A career ladder standing beside the slumped young man, the question printed over him — the climb and its cost in one frame.",
+      "onScreenText": "was your life a failure?",
+      "relationToPrevious": "Stress-tests the chain of the last beat on the most expensive life imaginable.",
+      "addedInformation": "The ladder makes the twenty-year climb literal; the slump carries the failure verdict without ever showing death."
+    }
+  },
+  {
+    "i": 245,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "complete at every single moment", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "happy",
+    "action": "celebrate",
+    "storyboard": {
+      "claim": "If you are dancing earnestly in the here and now, your life is complete at every single moment — nothing waits for the end.",
+      "concreteVisual": "The philosopher stands light-footed with arms open, caught mid-gesture of a dance: joy with no finish line in sight.",
+      "onScreenText": "complete at every single moment",
+      "relationToPrevious": "Reverses the verdict of the last beat by moving from the line to the dance.",
+      "addedInformation": "The open, moving body shows completion as a state happening now rather than a reward deferred."
+    }
+  },
+  {
+    "i": 246,
+    "concept": "food",
+    "diagram": null,
+    "callout": { "text": "a recipe for chaos and hedonism", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The objection: with no destination, why save for retirement or endure a decade of study — is that not just a recipe for chaos and hedonism?",
+      "concreteVisual": "A dinner plate icon beside the young man as he fires the objection across the table at the philosopher.",
+      "onScreenText": "a recipe for chaos and hedonism",
+      "relationToPrevious": "Attacks the completeness claimed in the previous beat with its practical consequences.",
+      "addedInformation": "Makes hedonism literal — the eating-and-spending life the objection imagines when nothing is owed to the future."
+    }
+  },
+  {
+    "i": 247,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the future doesn't matter", "style": "strike" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The caricature — eat cake, go bankrupt, the future doesn't matter — is cut down mid-sentence: the narrator is not rejecting goals.",
+      "concreteVisual": "The young man shrugs out the caricature while the sentence he is quoting prints crossed out above him; no party imagery survives the strike.",
+      "onScreenText": "the future doesn't matter",
+      "relationToPrevious": "Voices the hedonist reading built up in the last beat, then strikes it down.",
+      "addedInformation": "The strike resolves the irony: the hedonistic premise is shown only so it can be cancelled."
+    }
+  },
+  {
+    "i": 248,
+    "concept": "compass",
+    "diagram": null,
+    "callout": { "text": "a general direction", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "You may keep a guiding star — a general direction you want to travel — while the act of studying today is the dance.",
+      "concreteVisual": "A compass beside the philosopher as he points down the road: the direction is allowed, but it is not where meaning lives.",
+      "onScreenText": "a general direction",
+      "relationToPrevious": "Answers the hedonism objection by separating direction from destination.",
+      "addedInformation": "Splits the two ideas in one frame — the aim stays, today's step carries the meaning."
+    }
+  },
+  {
+    "i": 249,
+    "concept": "school",
+    "diagram": null,
+    "callout": { "text": "the act of learning today", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "You don't study today as a miserable, soul-crushing sacrifice for ten years from now — meaning and contribution are found in the act of learning today.",
+      "concreteVisual": "The young man reads with interest, book in hand, next to the school icon: engaged now, not paying a debt.",
+      "onScreenText": "the act of learning today",
+      "relationToPrevious": "Applies the direction-versus-dance split to the exact example the objection raised.",
+      "addedInformation": "Turns studying from a price into an activity someone is visibly absorbed in right now."
+    }
+  },
+  {
+    "i": 250,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "carrying a task that doesn't exist", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "briefcase",
+    "storyboard": {
+      "claim": "Planning for the future is a necessary practical action, but suffering today over a future that hasn't happened yet is carrying a task that doesn't exist.",
+      "concreteVisual": "The young man lugs a briefcase with both hands, hunched under it — a load belonging to a working day that hasn't arrived.",
+      "onScreenText": "carrying a task that doesn't exist",
+      "relationToPrevious": "Concedes the planning half of the objection and isolates the half that is pure weight.",
+      "addedInformation": "The briefcase makes carrying a task physical while the line says the task itself has no existence yet."
+    }
+  },
+  {
+    "i": 251,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "hand them back to the future", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "The future's challenges are the future's tasks — hand them back to the future instead of hauling them around today.",
+      "concreteVisual": "The philosopher extends both palms and pushes an unseen load away toward the horizon line of the room.",
+      "onScreenText": "hand them back to the future",
+      "relationToPrevious": "Gives the action that puts down the briefcase of the previous beat.",
+      "addedInformation": "Makes 'hand back' a physical gesture, so the resolution reads as a return rather than a suppression."
+    }
+  },
+  {
+    "i": 252,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a rigorous honest critique", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "magnifier",
+    "storyboard": {
+      "claim": "The tour through teleology, separation of tasks and community feeling ends here, and the rigorous, honest critique promised at the start begins.",
+      "concreteVisual": "The young man lifts a magnifier to the argument itself — the framework is now the object under examination.",
+      "onScreenText": "a rigorous honest critique",
+      "relationToPrevious": "Closes the recap of everything already covered and opens the counterpoint section.",
+      "addedInformation": "The magnifier marks a genre change from exposition to scrutiny."
+    }
+  },
+  {
+    "i": 253,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "extreme friction points", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The courage to be disliked is powerful, but it is not without extreme friction points, and the counterpoint must be addressed properly.",
+      "concreteVisual": "The philosopher lays the rough edges out on open fingers while the young man waits to press the counterpoint.",
+      "onScreenText": "extreme friction points",
+      "relationToPrevious": "Names what the critique opened in the last beat will actually concentrate on.",
+      "addedInformation": "Turns a general critique into a countable list of pressure points the viewer can expect next."
+    }
+  },
+  {
+    "i": 254,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the form of the book is rigged", "style": "highlight" },
+    "set": "room",
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Two complaints: living this perfectly is much harder than a philosopher in a study makes it sound, and the form of the book is rigged.",
+      "concreteVisual": "In the book-lined study, the philosopher already holds the written answer while the objection is still being formed.",
+      "onScreenText": "the form of the book is rigged",
+      "relationToPrevious": "Moves from the general friction list to the first specific complaint about the book itself.",
+      "addedInformation": "The pre-written notes show what rigged means concretely: one side owns the answers in advance."
+    }
+  },
+  {
+    "i": 255,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a closed loop", "style": "box" },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth raises good points but never actually lands a blow, the philosopher always has an airtight response, and the dialogue reads as a closed loop.",
+      "concreteVisual": "The young man leans in mid-objection while the philosopher stands untouched behind one raised palm — no swing gets through.",
+      "onScreenText": "a closed loop",
+      "relationToPrevious": "Explains why the rigging of the last beat matters: the opposition never connects.",
+      "addedInformation": "The untouched posture makes 'never lands a blow' visible instead of metaphorical."
+    }
+  },
+  {
+    "i": 256,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "your theory never cracks", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Control both sides of the dialogue and the theory never has to crack against messy real-world variables — that neatness breeds the biggest criticism.",
+      "concreteVisual": "A shield standing between the philosopher and everything outside the argument: the theory is protected from reality.",
+      "onScreenText": "your theory never cracks",
+      "relationToPrevious": "Names the mechanism behind the closed loop of the previous beat: the outcome is authored.",
+      "addedInformation": "The shield reads as the immunity the narration describes in words."
+    }
+  },
+  {
+    "i": 257,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "slides dangerously close to victim blaming", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "target",
+    "storyboard": {
+      "claim": "Teleology says we choose our symptoms to serve our goals, and saying we are not defined by our past slides dangerously close to victim blaming.",
+      "concreteVisual": "The young man holds a target — the goal a symptom is said to serve — while the accusation prints above him.",
+      "onScreenText": "slides dangerously close to victim blaming",
+      "relationToPrevious": "Names the exact concept under attack right after the critique section opened.",
+      "addedInformation": "Keeps teleology's goal-aiming visible while the text states the danger that aim creates."
+    }
+  },
+  {
+    "i": 258,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "throw the book against the wall", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "reach",
+    "holds": "book",
+    "storyboard": {
+      "claim": "This is the question where a lot of readers throw the book against the wall.",
+      "concreteVisual": "The young man raises the book overhead, ready to hurl it — the reader's rage at the hardest question.",
+      "onScreenText": "throw the book against the wall",
+      "relationToPrevious": "Follows the victim-blaming accusation with the reader reaction it provokes.",
+      "addedInformation": "Makes the idiom literal, so the objection's temperature reads without sound."
+    }
+  },
+  {
+    "i": 259,
+    "concept": "balance",
+    "diagram": null,
+    "callout": { "text": "a valid ethical answer", "style": "box" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Whose task is it? remains a valid ethical answer even when the other person literally cannot walk away from you.",
+      "concreteVisual": "A balance scale weighing beside the philosopher, who does not retreat from the question the youth pressed.",
+      "onScreenText": "a valid ethical answer",
+      "relationToPrevious": "Answers the hard cases by holding the separation of tasks as ethics rather than evasion.",
+      "addedInformation": "The scale says the rule survives the trap because it is about fairness, not escape."
+    }
+  },
+  {
+    "i": 260,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a genuinely abusive parent", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The easy cases — an annoying boss, parents nagging about homework — break against a dependent child facing a genuinely abusive parent, or systemic oppression as a violent threat.",
+      "concreteVisual": "The young man presses the hardest counter-example across the table while the philosopher draws back slightly.",
+      "onScreenText": "a genuinely abusive parent",
+      "relationToPrevious": "Escalates from the ethical claim of the last beat to the situation where it looks impossible.",
+      "addedInformation": "Names the two situations the book's easy examples never staged, so the critique has concrete targets."
+    }
+  },
+  {
+    "i": 261,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "Doesn't this framework strain and break", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Asked plainly: does the framework of you choose your reaction strain and even break under inescapable systemic or familial trauma?",
+      "concreteVisual": "The young man leans over the table with both hands flat, pushing the objection to its limit.",
+      "onScreenText": "Doesn't this framework strain and break",
+      "relationToPrevious": "Generalizes the abusive-parent case of the last beat into a direct challenge to the whole framework.",
+      "addedInformation": "Holds the objection at full strength before any defense is offered."
+    }
+  },
+  {
+    "i": 262,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "ruthless level of self-responsibility", "style": "highlight" },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "It is the most urgent question of the text: Adlerian psychology demands a radical, almost ruthless level of self-responsibility that does not easily accommodate the language of victimization.",
+      "concreteVisual": "Adler states the demand without softening it, one finger raised and no cushioning gesture anywhere in the frame.",
+      "onScreenText": "ruthless level of self-responsibility",
+      "relationToPrevious": "Answers the strain question of the last beat: yes, and the price is ruthless self-responsibility.",
+      "addedInformation": "Puts the harsh demand in Adler's own posture so it reads as doctrine rather than the host's opinion."
+    }
+  },
+  {
+    "i": 263,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "take ownership of your interpretation", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "It asks you to take ownership of your interpretation of reality, no matter how profoundly unjust or violent the reality itself was.",
+      "concreteVisual": "The philosopher extends the reading of events palm-up toward the young man: reality itself stays fixed, its interpretation is handed over.",
+      "onScreenText": "take ownership of your interpretation",
+      "relationToPrevious": "Repeats the demand of the last beat as a concrete transfer of ownership.",
+      "addedInformation": "Separates the two objects the narration separates — the event stays, the interpretation moves into his hands."
+    }
+  },
+  {
+    "i": 264,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a secondary trauma", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "For readers in situations of genuine severe victimization, the argument feels deeply alienating — like a secondary trauma.",
+      "concreteVisual": "The young man stands apart with his arms closed while the conversation continues without him.",
+      "onScreenText": "a secondary trauma",
+      "relationToPrevious": "Switches from stating the demand to its cost on the reader who cannot meet it.",
+      "addedInformation": "Shows alienation as physical distance: he is no longer inside the conversation judging him."
+    }
+  },
+  {
+    "i": 265,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the fear: excuses you manufacture", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The fear: being told the deep bleeding wounds of abuse are excuses you manufacture to avoid present challenges — which feels like letting the abuser off.",
+      "concreteVisual": "The young man folds in on himself, hand pressed to his chest, as the objection is named a fear.",
+      "onScreenText": "the fear: excuses you manufacture",
+      "relationToPrevious": "Deepens the alienation of the last beat into the exact accusation readers hear.",
+      "addedInformation": "Names the objection as the reader's fear the moment it lands, before the next beat answers it."
+    }
+  },
+  {
+    "i": 266,
+    "concept": null,
+    "diagram": { "type": "sorter", "labels": ["Adult trying to function", "Victim actively enduring"] },
+    "callout": null,
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler's framework is designed almost entirely for the aftermath — the adult trying to function in the present — not for the victim actively enduring inescapable harm.",
+      "concreteVisual": "Two labelled buckets standing side by side; Adler indicates the first as the framework's true home and withholds the second.",
+      "onScreenText": "Adult trying to function -> Victim actively enduring",
+      "relationToPrevious": "Answers the fear of the previous beat by bounding exactly where the framework applies.",
+      "addedInformation": "Converts 'Adler is not doing that' from an assertion into two visible categories."
+    }
+  },
+  {
+    "i": 267,
+    "concept": "balance",
+    "diagram": null,
+    "callout": { "text": "still applies to the abuser", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The separation of tasks still applies to the abuser: their violence and cruelty are the abuser's own failure of tasks.",
+      "concreteVisual": "The philosopher lifts a finger and the balance tips to one side — the weight lands where the actions did.",
+      "onScreenText": "still applies to the abuser",
+      "relationToPrevious": "Follows the scope diagram with the sharpest consequence of that scope.",
+      "addedInformation": "The scale returns to show the same rule now sorting the abuser's behaviour to the abuser."
+    }
+  },
+  {
+    "i": 268,
+    "concept": "sword",
+    "diagram": null,
+    "callout": { "text": "You do not carry the blame", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The abuser's actions, their violence and cruelty are the abuser's horrific failure of their own tasks — you do not carry the blame for them.",
+      "concreteVisual": "A sword lying between the two men, and the philosopher pushes it back toward its owner rather than letting it travel further.",
+      "onScreenText": "You do not carry the blame",
+      "relationToPrevious": "Applies the rule of the last beat to the violent act itself.",
+      "addedInformation": "Direction carries the meaning: the blade moves away from the young man, so blame visibly stops transferring."
+    }
+  },
+  {
+    "i": 269,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "must remain in your hands", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Even in the wake of terrible injustice, the power to define the rest of your life must remain in your hands, not in the hands of your past.",
+      "concreteVisual": "The philosopher folds the young man's own hand shut around the decision to define what comes next.",
+      "onScreenText": "must remain in your hands",
+      "relationToPrevious": "Converts the non-transfer of blame from the last beat into an affirmative transfer of authorship.",
+      "addedInformation": "Swaps the object: the sword that leaves for the hand that stays — blame out, authorship in."
+    }
+  },
+  {
+    "i": 270,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "healing from it your responsibility", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "What happened to you was not your fault, but healing from it is your responsibility — a common therapeutic phrase that Adler takes to an absolute extreme.",
+      "concreteVisual": "The philosopher sets the two halves apart in the air: the past pushed to one side, healing placed in front of the young man.",
+      "onScreenText": "healing from it your responsibility",
+      "relationToPrevious": "Names the principle behind the authorship the previous beat handed over.",
+      "addedInformation": "Renders the famous split as two separate objects — fault and task never touch."
+    }
+  },
+  {
+    "i": 271,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "refusal to offer comforting sympathy", "style": "highlight" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "It is an empowering philosophy if you are ready for it, but its absolute refusal to offer comforting sympathy can make it feel incredibly harsh.",
+      "concreteVisual": "The philosopher speaks evenly with his hands still, offering none of the reassurance the narration says is withheld.",
+      "onScreenText": "refusal to offer comforting sympathy",
+      "relationToPrevious": "Gives the emotional price of the responsibility the last beat assigned.",
+      "addedInformation": "Stages the absence itself: the soothing gesture this philosophy refuses never arrives in the frame."
+    }
+  },
+  {
+    "i": 272,
+    "concept": "notes",
+    "diagram": null,
+    "callout": { "text": "drop the narrative of being a victim", "style": "highlight" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "It demands that you drop the narrative of being a victim even when you factually, legally and morally were one, because that narrative offers no pathway forward.",
+      "concreteVisual": "The young man holds the written pages of his own story at arm's length, deciding whether to let them go.",
+      "onScreenText": "drop the narrative of being a victim",
+      "relationToPrevious": "States what the harsh philosophy of the previous beat actually demands of someone who was wronged.",
+      "addedInformation": "Makes the narrative an object he can release, so the demand is a choice in his hands."
+    }
+  },
+  {
+    "i": 273,
+    "concept": "chains",
+    "diagram": null,
+    "callout": { "text": "a reason to stay stuck", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The victim narrative only offers a reason to stay stuck — which is why the medicine tastes so bitter.",
+      "concreteVisual": "Chains pooling around the slumped young man's feet: the story he keeps is the thing holding him in place.",
+      "onScreenText": "a reason to stay stuck",
+      "relationToPrevious": "Gives the reason behind the demand of the last beat: that story leads nowhere.",
+      "addedInformation": "Names the cost of keeping the narrative — stuck is a present state, not a memory."
+    }
+  },
+  {
+    "i": 274,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the acute phase of trauma", "style": "box" },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "It is entirely fair to say that Adlerian psychology might not be the right tool for someone in the acute phase of trauma.",
+      "concreteVisual": "The young man voices the concession quietly, one hand raised to mark the limit of the advice.",
+      "onScreenText": "the acute phase of trauma",
+      "relationToPrevious": "Balances the bitter demand of the last beat with the boundary where it should not be applied.",
+      "addedInformation": "Marks the framework's failure line explicitly, so the criticism stays fair rather than total."
+    }
+  },
+  {
+    "i": 275,
+    "concept": "key",
+    "diagram": null,
+    "callout": { "text": "the keys to the future", "style": "reveal" },
+    "cast": ["young-man"],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "key",
+    "storyboard": {
+      "claim": "For people stuck in the aftermath of their past, this framework has been the sudden shocking cure they couldn't find anywhere else — it forces the keys to the future back into your hands.",
+      "concreteVisual": "The young man closes his hand around a key and lifts his head: the future is his to open again.",
+      "onScreenText": "the keys to the future",
+      "relationToPrevious": "Counters the acute-phase concession with what the framework has done for people already in the aftermath.",
+      "addedInformation": "Turns the metaphor into possession — a key physically in the hand instead of an idea in the audio."
+    }
+  },
+  {
+    "i": 276,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "the fight with Freud", "style": "stack" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The final payoff opens by inventorying what has been unpacked: the fight with Freud, the subjectivity of inferiority, the illusion of solitary problems, the trap of recognition.",
+      "concreteVisual": "The philosopher counts the chapters of the debate off on his fingers while the young man follows the tally.",
+      "onScreenText": "the fight with Freud",
+      "relationToPrevious": "Opens the closing recap by inventorying everything the video has already covered.",
+      "addedInformation": "Finger-counting turns a spoken list into visible progress through the argument."
+    }
+  },
+  {
+    "i": 277,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "a series of moments", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The recap closes on the book's last reframe: the toxicity of praise, the destination of community feeling, and life itself as a series of moments.",
+      "concreteVisual": "The philosopher marks out separate beats in the air, one after another — spaced dots instead of a line.",
+      "onScreenText": "a series of moments",
+      "relationToPrevious": "Continues the recap list of the last beat to the idea the whole video has been building toward.",
+      "addedInformation": "Makes 'a series of moments' seen as well as heard through spaced, discrete gestures."
+    }
+  },
+  {
+    "i": 278,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "growing a thick skin", "style": "strike" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The core engine of the book was never about growing a thick skin against criticism.",
+      "concreteVisual": "The philosopher waves an open palm at the crossed-out phrase: no armor, no toughness, because that is the definition being cancelled.",
+      "onScreenText": "growing a thick skin",
+      "relationToPrevious": "Strips the first false definition immediately after the recap named the core engine.",
+      "addedInformation": "The strike shows a rejection a mute viewer would otherwise miss: courage is being defined by what it is not."
+    }
+  },
+  {
+    "i": 279,
+    "concept": "shield",
+    "diagram": null,
+    "callout": { "text": "establishing profound boundaries", "style": "reveal" },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "shield",
+    "storyboard": {
+      "claim": "It certainly wasn't about being a self-centered jerk who ignores other people's feelings or acts like a tyrant — it is about establishing profound boundaries in a world that demands you erase them.",
+      "concreteVisual": "The philosopher plants a shield and stands behind it, calm: a held line without hostility.",
+      "onScreenText": "establishing profound boundaries",
+      "relationToPrevious": "Supplies the positive definition immediately after the previous beat crossed out the false one.",
+      "addedInformation": "Makes a boundary a visible object while the calm posture keeps it from reading as aggression."
+    }
+  }
+]

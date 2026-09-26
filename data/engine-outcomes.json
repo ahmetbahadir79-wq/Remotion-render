@@ -1,0 +1,721 @@
+{
+  "note": "one row per mute-test run; see scripts/lib/engine-fit.js",
+  "runs": [
+    {
+      "slug": "we-were-liars",
+      "engine": "antidote",
+      "genre": "young adult",
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.2,
+          "history": 1.8,
+          "second": 13.8,
+          "abstract": 8.4,
+          "sensitive": 3.5,
+          "era": 2014,
+          "words": 5452
+        }
+      },
+      "label": "faz1-full",
+      "date": "2026-09-24",
+      "n": 30,
+      "correct": 28,
+      "wrong": 0,
+      "adds": 10,
+      "pass": false
+    },
+    {
+      "slug": "we-were-liars",
+      "engine": "antidote",
+      "genre": "young adult",
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.2,
+          "history": 1.8,
+          "second": 13.8,
+          "abstract": 8.4,
+          "sensitive": 3.5,
+          "era": 2014,
+          "words": 5452
+        }
+      },
+      "label": "faz2b",
+      "date": "2026-09-24",
+      "n": 30,
+      "correct": 27,
+      "wrong": 0,
+      "adds": 21,
+      "pass": true
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "run1",
+      "date": "2026-09-24",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": null,
+      "n": 30,
+      "correct": 21,
+      "wrong": 9,
+      "adds": 16,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "run2",
+      "date": "2026-09-24",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": null,
+      "n": 30,
+      "correct": 27,
+      "wrong": 3,
+      "adds": 25,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "run3",
+      "date": "2026-09-24",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": null,
+      "n": 30,
+      "correct": 29,
+      "wrong": 0,
+      "adds": 25,
+      "pass": true
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run1",
+      "date": "2026-09-24",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 25,
+      "wrong": 2,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run2",
+      "date": "2026-09-24",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 25,
+      "wrong": 2,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run3",
+      "date": "2026-09-24",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 26,
+      "wrong": 0,
+      "adds": 22,
+      "pass": true
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run3-fresh",
+      "date": "2026-09-24",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 25,
+      "wrong": 3,
+      "adds": 7,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "holdout2",
+      "date": "2026-09-25",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": null,
+      "n": 30,
+      "correct": 23,
+      "wrong": 5,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "holdout1",
+      "date": "2026-09-25",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": null,
+      "n": 30,
+      "correct": 21,
+      "wrong": 7,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "holdout3",
+      "date": "2026-09-25",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.1,
+          "history": 1.9,
+          "second": 13.9,
+          "abstract": 5.3,
+          "sensitive": 5.1,
+          "era": 2050,
+          "words": 7478
+        }
+      },
+      "n": 30,
+      "correct": 20,
+      "wrong": 8,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "fahrenheit-451",
+      "label": "holdout4",
+      "date": "2026-09-25",
+      "engine": "antidote",
+      "genre": "dystopian",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.1,
+          "history": 1.9,
+          "second": 13.9,
+          "abstract": 5.3,
+          "sensitive": 5.1,
+          "era": 2050,
+          "words": 7478
+        }
+      },
+      "n": 30,
+      "correct": 29,
+      "wrong": 1,
+      "adds": 19,
+      "pass": true
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run4",
+      "date": "2026-09-25",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 27,
+      "wrong": 2,
+      "adds": 6,
+      "pass": false
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run5",
+      "date": "2026-09-25",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 25,
+      "wrong": 0,
+      "adds": 14,
+      "pass": true
+    },
+    {
+      "slug": "unhinged",
+      "label": "run1",
+      "date": "2026-09-25",
+      "engine": "antidote",
+      "genre": "dark-romance",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "strong",
+        "signals": {
+          "year": 0.2,
+          "history": 0.5,
+          "second": 27.4,
+          "abstract": 8.8,
+          "sensitive": 3.3,
+          "era": 2024,
+          "words": 6127
+        }
+      },
+      "n": 30,
+      "correct": 21,
+      "wrong": 9,
+      "adds": 15,
+      "pass": false
+    },
+    {
+      "slug": "all-the-light-we-cannot-see",
+      "label": "run6",
+      "date": "2026-09-25",
+      "engine": "vox",
+      "genre": "historical fiction",
+      "engineDecidedBy": "operator-switch-after-audio",
+      "engineProfile": {
+        "kind": "fiction",
+        "world": "period",
+        "era": 1944,
+        "realPeople": false,
+        "format": "story",
+        "violence": "some",
+        "minorHarm": false,
+        "mustSee": [
+          "walled city of Saint-Malo",
+          "the scale model of the town",
+          "a boy fixing radios",
+          "the Sea of Flames diamond",
+          "the 1944 siege and its ruins"
+        ]
+      },
+      "engineCheck": {
+        "fit": "vox",
+        "confidence": "moderate",
+        "signals": {
+          "year": 0.4,
+          "history": 3.9,
+          "second": 10.5,
+          "abstract": 6.9,
+          "sensitive": 2,
+          "era": 1944,
+          "words": 5622
+        }
+      },
+      "n": 30,
+      "correct": 26,
+      "wrong": 1,
+      "adds": 18,
+      "pass": true
+    },
+    {
+      "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+      "label": "run1",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "horror",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "weak",
+        "signals": {
+          "year": 0,
+          "history": 0.8,
+          "second": 8.3,
+          "abstract": 3.5,
+          "sensitive": 6.2,
+          "era": 1993,
+          "words": 6001
+        }
+      },
+      "n": 30,
+      "correct": 27,
+      "wrong": 2,
+      "adds": 14,
+      "pass": false
+    },
+    {
+      "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+      "label": "run2",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "horror",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "weak",
+        "signals": {
+          "year": 0,
+          "history": 0.8,
+          "second": 8.3,
+          "abstract": 3.5,
+          "sensitive": 6.2,
+          "era": 1993,
+          "words": 6001
+        }
+      },
+      "n": 30,
+      "correct": 13,
+      "wrong": 5,
+      "adds": 13,
+      "pass": false
+    },
+    {
+      "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+      "label": "run3",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "horror",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "weak",
+        "signals": {
+          "year": 0,
+          "history": 0.8,
+          "second": 8.3,
+          "abstract": 3.5,
+          "sensitive": 6.2,
+          "era": 1993,
+          "words": 6001
+        }
+      },
+      "n": 30,
+      "correct": 22,
+      "wrong": 3,
+      "adds": 19,
+      "pass": false
+    },
+    {
+      "slug": "die-with-zero",
+      "label": "run1",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "nonfiction",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "strong",
+        "signals": {
+          "year": 0.3,
+          "history": 0.4,
+          "second": 54.5,
+          "abstract": 19.7,
+          "sensitive": 3,
+          "era": 2020,
+          "words": 7345
+        }
+      },
+      "n": 30,
+      "correct": 27,
+      "wrong": 3,
+      "adds": 16,
+      "pass": false
+    },
+    {
+      "slug": "die-with-zero",
+      "label": "run2",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "nonfiction",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "strong",
+        "signals": {
+          "year": 0.3,
+          "history": 0.4,
+          "second": 54.5,
+          "abstract": 19.7,
+          "sensitive": 3,
+          "era": 2020,
+          "words": 7345
+        }
+      },
+      "n": 30,
+      "correct": 24,
+      "wrong": 2,
+      "adds": 17,
+      "pass": false
+    },
+    {
+      "slug": "die-with-zero",
+      "label": "run3",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "nonfiction",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "strong",
+        "signals": {
+          "year": 0.3,
+          "history": 0.4,
+          "second": 54.5,
+          "abstract": 19.7,
+          "sensitive": 3,
+          "era": 2020,
+          "words": 7345
+        }
+      },
+      "n": 30,
+      "correct": 28,
+      "wrong": 1,
+      "adds": 13,
+      "pass": false
+    },
+    {
+      "slug": "the-courage-to-be-disliked",
+      "label": "run1",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "self-help",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "strong",
+        "signals": {
+          "year": 0.1,
+          "history": 0.7,
+          "second": 38.7,
+          "abstract": 8.1,
+          "sensitive": 2.3,
+          "era": 2020,
+          "words": 8104
+        }
+      },
+      "n": 30,
+      "correct": 25,
+      "wrong": 1,
+      "adds": 22,
+      "pass": true
+    },
+    {
+      "slug": "the-southern-book-club-s-guide-to-slaying-vampires",
+      "label": "run4",
+      "date": "2026-09-26",
+      "engine": "antidote",
+      "genre": "horror",
+      "engineDecidedBy": null,
+      "engineProfile": null,
+      "engineCheck": {
+        "fit": "antidote",
+        "confidence": "weak",
+        "signals": {
+          "year": 0,
+          "history": 0.8,
+          "second": 8.3,
+          "abstract": 3.5,
+          "sensitive": 6.2,
+          "era": 1993,
+          "words": 6001
+        }
+      },
+      "n": 30,
+      "correct": 24,
+      "wrong": 0,
+      "adds": 14,
+      "pass": false
+    }
+  ]
+}

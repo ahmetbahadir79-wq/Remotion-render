@@ -1,0 +1,777 @@
+[
+  {
+    "i": 0,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "YOURS",
+        "YOUR FATHER'S DISAPPOINTMENT"
+      ]
+    },
+    "callout": null,
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The episode opens on the book's first question: whose task was that — yours or your father's disappointment?",
+      "concreteVisual": "Two labelled buckets, YOURS and YOUR FATHER'S DISAPPOINTMENT, while the young man stands burdened beside them.",
+      "onScreenText": "YOURS -> YOUR FATHER'S DISAPPOINTMENT",
+      "relationToPrevious": "Cold open: the video starts on the separation-of-tasks question itself.",
+      "addedInformation": "Turns a rhetorical question into a visible either/or, so a mute viewer sees the split before any explanation."
+    }
+  },
+  {
+    "i": 1,
+    "concept": "boulder",
+    "diagram": null,
+    "callout": {
+      "text": "lugging around your entire life",
+      "style": "reveal"
+    },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The heavy backpack of expectations you have carried your whole life is not actually yours.",
+      "concreteVisual": "A boulder crushing the young man's shoulders — the 'backpack of expectations' made literal.",
+      "onScreenText": "lugging around your entire life",
+      "relationToPrevious": "Answers the opening question: this is the load being asked about.",
+      "addedInformation": "The boulder gives the invisible burden real weight; the narration only calls it a backpack."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "You just volunteered",
+      "style": "reveal"
+    },
+    "cast": ["young-man"],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Nobody forced the burden on you — you volunteered to put it on.",
+      "concreteVisual": "A surprised reaction shot of the young man as the narrator says he chose the load himself.",
+      "onScreenText": "You just volunteered",
+      "relationToPrevious": "From the weight itself to its origin: you put it on.",
+      "addedInformation": "weak: the startled face carries the vertigo of the realization; the choice itself stays in the words."
+    }
+  },
+  {
+    "i": 3,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a massive global phenomenon",
+      "style": "highlight"
+    },
+    "cast": ["philosopher"],
+    "expression": "happy",
+    "action": "talk",
+    "storyboard": {
+      "claim": "This deep dive targets a text that quietly then loudly became a massive global phenomenon.",
+      "concreteVisual": "The philosopher introducing the topic straight to camera, no icon.",
+      "onScreenText": "a massive global phenomenon",
+      "relationToPrevious": "From the personal hook to the subject of the episode.",
+      "addedInformation": "weak: a talking head plus the callout; the scale of the phenomenon lives only in the text."
+    }
+  },
+  {
+    "i": 4,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "The Courage to Be Disliked",
+      "style": "box"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "The book is The Courage to Be Disliked by Ichiro Kishimi and Fumitake Koga.",
+      "concreteVisual": "The philosopher holding up the book itself — the episode's title object.",
+      "onScreenText": "The Courage to Be Disliked",
+      "relationToPrevious": "Names the phenomenon introduced in the previous beat.",
+      "addedInformation": "Puts the exact title on screen while the narrator gives the authors, and the book prop fixes the object of study."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a radical almost aggressive translation",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "This is not your typical soft, feel-good self-help book — it is a radical, almost aggressive translation of Adler's theories.",
+      "concreteVisual": "No cozy book imagery at all: the philosopher speaking straight, while the screen carries only the counter-description.",
+      "onScreenText": "a radical almost aggressive translation",
+      "relationToPrevious": "Immediately corrects the expectation the title just created.",
+      "addedInformation": "Stages the contrast instead of the negation — nothing soft appears on screen, so the picture never says the wrong thing."
+    }
+  },
+  {
+    "i": 6,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Alfred Adler",
+      "style": "reveal"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The book is a radical translation of the theories of Alfred Adler, a 20th-century Austrian psychiatrist.",
+      "concreteVisual": "Adler himself in period dress — the thinker behind the book, making his first appearance.",
+      "onScreenText": "Alfred Adler",
+      "relationToPrevious": "From what the book is not to whose thinking it delivers.",
+      "addedInformation": "Gives the spoken name a face and introduces the only historical figure in the cast."
+    }
+  },
+  {
+    "i": 7,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Sigmund Freud",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The first titan everyone instantly names in early psychology is Sigmund Freud.",
+      "concreteVisual": "The philosopher counting off the first name to camera; Freud's name on screen, no portrait.",
+      "onScreenText": "Sigmund Freud",
+      "relationToPrevious": "Establishes the establishment figure Adler will be measured against.",
+      "addedInformation": "weak: only the name and its spelling are carried; the picture adds the host's emphasis."
+    }
+  },
+  {
+    "i": 8,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "the third giant",
+      "style": "highlight"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "trophy",
+    "storyboard": {
+      "claim": "Alfred Adler is widely considered the third giant of that exact same era, right there with Freud and Jung.",
+      "concreteVisual": "Adler with a trophy — standing status among the period's giants.",
+      "onScreenText": "the third giant",
+      "relationToPrevious": "From Freud and Jung to the man this episode is really about.",
+      "addedInformation": "The trophy turns 'giant' into visible status; the callout supplies the ranking the icon cannot."
+    }
+  },
+  {
+    "i": 9,
+    "concept": "city",
+    "diagram": null,
+    "callout": {
+      "text": "Vienna Psychoanalytic Society",
+      "style": "reveal"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Adler was a core foundational member of the Vienna Psychoanalytic Society alongside Freud.",
+      "concreteVisual": "A city icon for Vienna with Adler standing as its member.",
+      "onScreenText": "Vienna Psychoanalytic Society",
+      "relationToPrevious": "From his rank beside Freud to his actual seat inside the society.",
+      "addedInformation": "The city gives the society a place, so the membership is not a floating name."
+    }
+  },
+  {
+    "i": 10,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "Huge falling out",
+      "style": "reveal"
+    },
+    "cast": ["adler"],
+    "expression": "sad",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Adler stayed in the society until he and Freud split fundamentally and catastrophically over how human beings operate.",
+      "concreteVisual": "A war icon for the scale of the break, Adler walking away from it.",
+      "onScreenText": "Huge falling out",
+      "relationToPrevious": "From founding membership to the rupture that ended it.",
+      "addedInformation": "The war icon reads instantly as a big fight, and staging only Adler walking keeps the two men from looking identical."
+    }
+  },
+  {
+    "i": 11,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Freud and Jung became household names",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "While Freud and Jung became household names whose terms are embedded in our daily language.",
+      "concreteVisual": "The philosopher naming their fame to camera — no portraits, no icons.",
+      "onScreenText": "Freud and Jung became household names",
+      "relationToPrevious": "Contrasts the split with who emerged famous from it.",
+      "addedInformation": "weak: the phrase alone carries their fame; the picture adds only emphasis."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the marquee credit",
+      "style": "strike"
+    },
+    "cast": ["adler"],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Adler's theory quietly permeated the culture while he himself never got the marquee credit.",
+      "concreteVisual": "Adler slumped and uncredited as 'the marquee credit' is struck through above him.",
+      "onScreenText": "the marquee credit",
+      "relationToPrevious": "Directly answers the last beat: the others got the fame, Adler did not.",
+      "addedInformation": "The strike shows a credit withheld, and his deflated posture keeps the beat from reading as praise."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "dry academic textbook",
+      "style": "strike"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Kishimi and Koga do not present Adler's ideas through some dry academic textbook.",
+      "concreteVisual": "The philosopher speaking while 'dry academic textbook' is crossed out — deliberately no textbook on screen.",
+      "onScreenText": "dry academic textbook",
+      "relationToPrevious": "From Adler's obscurity to how this particular book chooses to deliver him.",
+      "addedInformation": "The strike carries the negation; drawing a textbook plainly would have said the opposite."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a literal continuous conversation",
+      "style": "reveal"
+    },
+    "shotOverride": "twoShot",
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The book is written as a Socratic dialogue — a literal continuous conversation between two characters, led by an endlessly patient philosopher.",
+      "concreteVisual": "A two-shot of the philosopher and the youth facing each other mid-conversation.",
+      "onScreenText": "a literal continuous conversation",
+      "relationToPrevious": "Replaces the rejected textbook with the book's actual form.",
+      "addedInformation": "Shows the structure instead of naming it: two opposed people are the whole text."
+    }
+  },
+  {
+    "i": 15,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "insecure young man",
+      "style": "reveal"
+    },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Opposite him is a cynical, deeply insecure young man the book refers to simply as the youth.",
+      "concreteVisual": "The young man introduced alone, slouched with his guard up.",
+      "onScreenText": "insecure young man",
+      "relationToPrevious": "Introduces the second voice of the dialogue just described.",
+      "addedInformation": "His posture performs the insecurity the narrator only states."
+    }
+  },
+  {
+    "i": 16,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "storms into the philosopher study",
+      "style": "reveal"
+    },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth thinks the world is a chaotic, miserable mass of contradictions, hates himself and society, and storms into the philosopher's study to prove the old man wrong.",
+      "concreteVisual": "The youth jabbing a finger at the unmoving philosopher.",
+      "onScreenText": "storms into the philosopher study",
+      "relationToPrevious": "From who the youth is to what he does in the opening scene.",
+      "addedInformation": "The attack pose shows the confrontation the narration only describes as 'storms in'."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "every single doubt",
+      "style": "reveal"
+    },
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "mirror",
+    "storyboard": {
+      "claim": "The youth acts as a stand-in for every single doubt the reader might have.",
+      "concreteVisual": "A mirror — the young man studying his own reflection, the reader seeing themselves in him.",
+      "onScreenText": "every single doubt",
+      "relationToPrevious": "Explains the structural job of the character just introduced.",
+      "addedInformation": "The mirror makes 'stand-in for you' literal, which the narration never says outright as an image."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "outrageous, counterintuitive claims",
+      "style": "reveal"
+    },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "When the philosopher makes outrageous, counterintuitive claims, the youth yells at him.",
+      "concreteVisual": "The youth mid-shout with a raised finger while the philosopher stays calm.",
+      "onScreenText": "outrageous, counterintuitive claims",
+      "relationToPrevious": "Turns the reader's doubts into open combat.",
+      "addedInformation": "The yelling-versus-calm staging is the book's engine, readable without a word of audio."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "dangerous academic sophistry",
+      "style": "reveal"
+    },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "He pushes back hard, even calling the philosopher's argument dangerous academic sophistry.",
+      "concreteVisual": "The youth leaning in with the accusation while the philosopher listens, unbothered.",
+      "onScreenText": "dangerous academic sophistry",
+      "relationToPrevious": "Names the sharpest charge the youth levels in the exchange.",
+      "addedInformation": "Puts the exact insult on screen so the stakes of the argument survive muting."
+    }
+  },
+  {
+    "i": 20,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "the philosopher holds all the cards",
+      "style": "highlight"
+    },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Analysed honestly, the dialogue is essentially a staged, rigged trial where the philosopher holds all the cards.",
+      "concreteVisual": "A law icon for the courtroom framing, the philosopher gesturing like a man who already has the verdict.",
+      "onScreenText": "the philosopher holds all the cards",
+      "relationToPrevious": "Steps back from the fight to judge the structure of the whole text.",
+      "addedInformation": "The law icon makes 'trial' literal; the callout carries 'rigged', which no icon can honestly draw."
+    }
+  },
+  {
+    "i": 21,
+    "concept": "game",
+    "diagram": null,
+    "callout": {
+      "text": "a rigged game",
+      "style": "highlight"
+    },
+    "cast": ["young-man"],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The youth never actually wins a single round in the debate — it is a rigged game.",
+      "concreteVisual": "A game icon over the defeated youth: the contest was fixed before it started.",
+      "onScreenText": "a rigged game",
+      "relationToPrevious": "Restates the trial verdict in the narrator's blunter words.",
+      "addedInformation": "Icon plus slumped loser shows the fix even to a viewer with the sound off."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the trap snap shut",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Watching the trap snap shut around the youth's arguments is mesmerizing, and it leads into the episode's core thesis.",
+      "concreteVisual": "The philosopher making a closing gesture as the youth's objection is dismantled.",
+      "onScreenText": "the trap snap shut",
+      "relationToPrevious": "Turns the rigged structure into the reason we keep watching.",
+      "addedInformation": "weak: no icon reads 'trap' literally, so the closing gesture and the callout carry the metaphor."
+    }
+  },
+  {
+    "i": 23,
+    "concept": "sword",
+    "diagram": null,
+    "callout": {
+      "text": "the concept of trauma",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The book is famous for its highly controversial attack on the concept of trauma.",
+      "concreteVisual": "A sword — the attack itself, aimed at the phrase on screen.",
+      "onScreenText": "the concept of trauma",
+      "relationToPrevious": "Names the thesis the previous beat promised.",
+      "addedInformation": "The weapon makes 'attack' visible while the callout states exactly what is being attacked."
+    }
+  },
+  {
+    "i": 24,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "get very heated about it",
+      "style": "reveal"
+    },
+    "shotOverride": "insert",
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "storyboard": {
+      "claim": "People get very heated about this attack on trauma on social media.",
+      "concreteVisual": "An insert on a phone in the young man's hands — the feed where the arguments flare up.",
+      "onScreenText": "get very heated about it",
+      "relationToPrevious": "From the book's claim to the public reaction it triggers.",
+      "addedInformation": "The smartphone grounds a modern controversy in a place every viewer recognizes."
+    }
+  },
+  {
+    "i": 25,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "get you in the door",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The attack on trauma is only the shiny provocative object — the marketing hook that gets you in the door and gets you defensive.",
+      "concreteVisual": "A door — the entrance the provocation is designed to open.",
+      "onScreenText": "get you in the door",
+      "relationToPrevious": "Reframes the heated reaction of the last beat as marketing, not argument.",
+      "addedInformation": "The door turns the idiom into a picture: the controversy is a way in."
+    }
+  },
+  {
+    "i": 26,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "the separation of tasks",
+      "style": "highlight"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "lightbulb",
+    "storyboard": {
+      "claim": "The real engine of the book — the mechanism that makes everything else work — is a concept Adler calls the separation of tasks.",
+      "concreteVisual": "Adler holding up a lightbulb: the concept he is naming.",
+      "onScreenText": "the separation of tasks",
+      "relationToPrevious": "From the hook to the machinery underneath it.",
+      "addedInformation": "Adler on screen with his own idea marks it as the book's core rather than its marketing."
+    }
+  },
+  {
+    "i": 27,
+    "concept": "boulder",
+    "diagram": null,
+    "callout": {
+      "text": "someone else's expectation",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Most of what you are carrying right now is someone else's expectation, and the title's courage is simply the courage to hand those expectations back.",
+      "concreteVisual": "The boulder from the opening returns — the weight that turns out to belong to other people.",
+      "onScreenText": "someone else's expectation",
+      "relationToPrevious": "Defines what the separation of tasks actually separates.",
+      "addedInformation": "Reusing the cold-open boulder ties the core concept back to the burden the viewer was shown first."
+    }
+  },
+  {
+    "i": 28,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "demolish the house you live in",
+      "style": "reveal"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Before that engine can run, the book has to demolish the house you are currently living in and clear the foundation.",
+      "concreteVisual": "A home icon — the house you are currently living in, the worldview up for demolition.",
+      "onScreenText": "demolish the house you live in",
+      "relationToPrevious": "From the engine to the demolition work required before it can run.",
+      "addedInformation": "Makes the metaphor drawable; the words clarify the house is a belief system, not a building."
+    }
+  },
+  {
+    "i": 29,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "fight with Freud",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "That demolition begins with a massive, unapologetic fight with Freud, staged inside the philosopher's study.",
+      "concreteVisual": "A war icon for the scale of the clash, now dropped into the study scene.",
+      "onScreenText": "fight with Freud",
+      "relationToPrevious": "Names the opponent and moves the episode from essay into scene.",
+      "addedInformation": "The set change marks the shift into the book's dialogue; the war icon shows a battle, not a lecture."
+    }
+  },
+  {
+    "i": 30,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a friend shut in his room",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "In the study the youth sits slouched with his arms crossed, totally defensive, telling the philosopher about a friend who has shut himself in his room for years.",
+      "concreteVisual": "The youth sunk in a chair with his arms crossed, talking; the philosopher opposite him.",
+      "onScreenText": "a friend shut in his room",
+      "relationToPrevious": "From the frame of the fight to the case the youth opens with.",
+      "addedInformation": "His posture matches the narration exactly, and the friend stays off screen so the story can build."
+    }
+  },
+  {
+    "i": 31,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "one single step outside his house",
+      "style": "reveal"
+    },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "If that friend tries to take even one single step outside his house, he suffers violent palpitations.",
+      "concreteVisual": "A door — the threshold the friend cannot cross without his body rebelling.",
+      "onScreenText": "one single step outside his house",
+      "relationToPrevious": "Zooms from years shut in to the moment of attempted exit.",
+      "addedInformation": "Puts the phobia at a specific, visible place; the symptom itself stays in the narration."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "PAST TRAUMA",
+        "PRESENT REALITY"
+      ]
+    },
+    "callout": null,
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The youth reads the symptom as undeniable proof: past trauma dictates our present reality.",
+      "concreteVisual": "A two-step chain, PAST TRAUMA -> PRESENT REALITY, while the youth makes the case to the philosopher.",
+      "onScreenText": "PAST TRAUMA -> PRESENT REALITY",
+      "relationToPrevious": "Turns the friend's symptom into the argument built on top of it.",
+      "addedInformation": "Draws the causal arrow the narrator only speaks, so the model is visible before it is named."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "cause and effect model",
+      "style": "reveal"
+    },
+    "cast": ["young-man", "philosopher"],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Something terrible in childhood leaving him permanently broken is the classic cause and effect model we all intuitively accept.",
+      "concreteVisual": "The youth spelling out the model; the philosopher listening without conceding.",
+      "onScreenText": "cause and effect model",
+      "relationToPrevious": "Gives the chain from the previous beat its name.",
+      "addedInformation": "weak: the diagram already drew the chain; this beat only supplies its label."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Freud called etiology",
+      "style": "highlight"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Freud called this model etiology: the present effect is strictly determined by occurrences in the past — a psychic wound from childhood causes present unhappiness.",
+      "concreteVisual": "The philosopher naming the term to camera — no icon, since etiology has no literal picture.",
+      "onScreenText": "Freud called etiology",
+      "relationToPrevious": "From the model's shape to its technical name.",
+      "addedInformation": "weak: a talking beat; the callout is the only place the term exists on screen."
+    }
+  },
+  {
+    "i": 35,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Adler drops a bomb",
+      "style": "reveal"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "We have embraced that linear narrative as a culture — we love a good origin story — until Adler drops a bomb on the youth's worldview.",
+      "concreteVisual": "Adler stepping forward as the narrator announces the bomb about to hit that worldview.",
+      "onScreenText": "Adler drops a bomb",
+      "relationToPrevious": "From the accepted model to the challenger about to break it.",
+      "addedInformation": "Puts the disruptor on screen before he acts, so the next beat lands as his move."
+    }
+  },
+  {
+    "i": 36,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "entirely rejects etiology",
+      "style": "highlight"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Adler entirely rejects etiology and champions something called teleology.",
+      "concreteVisual": "Adler waving the old model aside, the highlighted phrase carrying both the rejection and the replacement.",
+      "onScreenText": "entirely rejects etiology",
+      "relationToPrevious": "Delivers the bomb promised in the previous beat.",
+      "addedInformation": "The dismissive gesture keeps the negation visible without drawing the rejected model as true."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "how Teleology applies",
+      "style": "reveal"
+    },
+    "cast": ["young-man"],
+    "expression": "surprised",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The youth demands to know how teleology applies to the shut-in friend who is literally shaking at the door.",
+      "concreteVisual": "The youth pressing the objection, unconvinced, while the philosopher prepares to answer.",
+      "onScreenText": "how Teleology applies",
+      "relationToPrevious": "Forces the new term back onto the concrete case from the study.",
+      "addedInformation": "Keeps the challenge visible: a theory is being tested against a body that really shakes."
+    }
+  },
+  {
+    "i": 38,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "study of the purpose",
+      "style": "highlight"
+    },
+    "cast": ["philosopher"],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Teleology is the study of the purpose of a given phenomenon rather than its historical cause — and the friend's physiological response is still real.",
+      "concreteVisual": "A target — purpose as the thing the behaviour is aimed at — beside the explaining philosopher.",
+      "onScreenText": "study of the purpose",
+      "relationToPrevious": "Answers the youth's demand with the definition of teleology.",
+      "addedInformation": "The target gives 'purpose' a literal image, and the claim records that the symptom itself is still accepted as real."
+    }
+  },
+  {
+    "i": 39,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "we do not break",
+      "style": "highlight"
+    },
+    "cast": ["adler"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Adler argues that we do not break because of our past — we are not fragile machines where a broken gear in 1995 causes a malfunction now.",
+      "concreteVisual": "Adler rejecting the machine metaphor outright — no broken machine is ever shown as fact.",
+      "onScreenText": "we do not break",
+      "relationToPrevious": "Applies the purpose-first definition to the deepest claim about human durability.",
+      "addedInformation": "The claim lands as a clean reversal of the model the video spent the last beats building."
+    }
+  }
+]

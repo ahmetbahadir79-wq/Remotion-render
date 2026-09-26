@@ -1,0 +1,2855 @@
+{
+  "book": {
+    "slug": "the-courage-to-be-disliked",
+    "title": "The Courage to Be Disliked",
+    "author": "Ichiro Kishimi, Fumitake Koga",
+    "genre": "self-help"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "Whose task was that? Yours or your father's disappointment? Half your obligations just walked out of the room. It is um a profoundly unsettling",
+      "callout": {
+        "text": "THE COURAGE TO BE DISLIKED",
+        "style": "plain"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "thought, isn't it? Suddenly realize that this heavy backpack of expectations you've been, you know, lugging around your entire life. It isn't actually yours.",
+      "callout": {
+        "text": "YOUR ENTIRE LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 2,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You just volunteered to put it on. And that sudden sort of vertigoinducing realization",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "is exactly what we are plunging into for this deep dive. M we're looking at a text that has quietly and then very loudly become just a massive global phenomenon. It's called the courage",
+      "callout": null
+    },
+    {
+      "i": 4,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to be disliked by Ichiro the courage to be disliked by Ichiro Kishimi and Fumitake Koga. And right out of the gate, I want to clarify something for anyone who hasn't read this yet.",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is not uh your typical soft feel-good self-help book. No, not at all. It's a radical almost aggressive translation",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "of the theories of a 20th century Austrian psychiatrist named Alfred Adler which is I mean a fascinating historical anomaly in itself.",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "When we talk about the absolute titans of early psychology, everyone instantly named Sigmund Freud.",
+      "callout": {
+        "text": "TITANS OF EARLY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They named Carl Jung. But Alfred Adler is widely considered the third giant of that exact same era. Right. He was right there with them.",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. He was actually a core foundational member of the Vienna Psychoanalytic Society alongside Freud",
+      "callout": null
+    },
+    {
+      "i": 10,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "right up until they fundamentally and catastrophically split over well how human beings operate. Huge falling out. Yeah.",
+      "callout": null
+    },
+    {
+      "i": 11,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yet while Freud and Jung became household names, I mean their terms are embedded in our daily language.",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adler's theory sort of quietly permeated the culture without him getting the marquee credit. and his ideas actually turned almost everything we think we know about human trauma, human motivation and happiness",
+      "callout": null
+    },
+    {
+      "i": 13,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "completely upside down. Completely upside down. And the way Kishimi and Koga present this, it isn't through some dry academic textbook.",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They wrote it as a Socratic dialogue. It's a literal continuous conversation between two characters. You have this endlessly patient, calm philosopher who lives on the outskirts of an ancient city.",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And then you have this incredibly cynical, deeply insecure young man who they refer to simply as the youth, right? The youth.",
+      "callout": null
+    },
+    {
+      "i": 16,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the youth thinks the world is a chaotic, miserable mass of contradictions. He hates himself. He hates society. And he essentially storms into the philosopher study to just prove the old man wrong.",
+      "callout": {
+        "text": "OLD MAN WRONG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 17,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the narrative tension they build with that structure is brilliant because the youth acts as a standin for every single doubt you, the reader, might",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, totally. When the philosopher makes these outrageous, counterintuitive claims, the youth yells at him.",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He pushes back hard. He calls it dangerous academic sophistry. But, and this is key, if we are truly analyzing the structure of this text, we have to acknowledge right up front that it is essentially a",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "staged, rigged trial. Oh, he's completely rigged. Yeah. The philosopher holds all the cards. He is methodically, systematically dismantling the youth's worldview piece by piece.",
+      "callout": null
+    },
+    {
+      "i": 21,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the youth never actually wins a single round in the debate. It's a rigged game, absolutely.",
+      "callout": {
+        "text": "RIGGED GAME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 22,
+      "shot": "medium",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "But watching the trap snap shut around the youth's arguments is honestly mesmerizing. And that brings us to the core thesis of our deep dive today.",
+      "callout": null
+    },
+    {
+      "i": 23,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you've heard of this book in passing, you've almost certainly heard about its famous, highly controversial attack on the concept of trauma.",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh yeah, people get very heated about it on social media. They really do. But we are going to argue that this attack on trauma is actually just the marketing hook.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the shiny provocative object to get you in the door. and well get you defensive.",
+      "callout": {
+        "text": "YOU IN THE DOOR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 26,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The real engine of this book, the actual psychological mechanism that makes everything else work is a concept Adler calls the separation of tasks.",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Most of what you are carrying right now is someone else's expectation. And the courage in the title is simply the courage to hand those expectations back.",
+      "callout": null
+    },
+    {
+      "i": 28,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "To get to that engine though, the book has to demolish the house you are currently living in. It has to clear the foundation. And it does that by picking a massive unapologetic",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "fight with Freud. Right. So, let's drop right into the philosopher study to see how this fight Imagine this scene.",
+      "callout": {
+        "text": "SEE HOW THIS FIGHT",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 30,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The youth is sitting there slouched in a leather chair, arms crossed, totally defensive. He's telling the philosopher about a friend of his who has shut himself in his room for years.",
+      "callout": {
+        "text": "ROOM FOR YEARS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 31,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the youth describes it vividly. If this friend tries to take even one single step outside his house, he suffers violent palpitations.",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "His legs literally shake. Exactly. The physical terror is visceral. It is real. And the youth says, \"Look, this is undeniable proof that past trauma dictates our",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "present reality. Something terrible happened to him in his childhood and now he is permanently broken.\" It is the classic cause and effect model that we all intuitively almost biologically accept.",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's what Freud called etiology. The idea that who I am now, the present effect is strictly determined by occurrences in the past, the causes. Right? If you have a psychic wound from childhood, that trauma causes your present unhappiness.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a very linear, very dramatic narrative that we've entirely embraced as a culture. We love a good origin story. We really do. But here is where Adler drops a bomb on the youth's worldview.",
+      "callout": {
+        "text": "GOOD ORIGIN STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 36,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adler entirely rejects etiology. He champions something called teleology.",
+      "callout": null
+    },
+    {
+      "i": 37,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay. Right. Teleology. Walk me through how Teleology applies to this shut-in friend.",
+      "callout": {
+        "text": "SHUT-IN FRIEND",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 38,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because the youth's friend is literally shaking at the door. he is having a real physiological response. Teleology is the study of the purpose of a given phenomenon rather than its historical cause.",
+      "callout": null
+    },
+    {
+      "i": 39,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adler argues that we do not break because of our past. We are not fragile machines where a broken gear in say 1995 causes a malfunction in Instead, we",
+      "callout": {
+        "text": "1995",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 40,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "actively recruit the past to serve a purpose that we have already chosen in the present moment. So for the friend locked in his room, Adler would say he doesn't refuse to go out because he has anxiety. Rather, he manufactures the state of",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "anxiety and fear as a biological means to achieve his prior goal of not going out. Yeah, I have to stop you there because that sounds incredibly dismissive. I know it does.",
+      "callout": {
+        "text": "STOP",
+        "style": "box"
+      }
+    },
+    {
+      "i": 42,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are you telling me that if someone has genuine crippling panic attacks, they are just running a manipulative strategy on themselves that they're faking it?",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "No. No. Adler is absolutely not saying the physical symptoms are faked. The palpitations are very real. The shaking legs are real.",
+      "callout": {
+        "text": "LEGS ARE REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The sweat, the nausea, the pain. It is all deeply felt. What Adler is challenging is the direction of the causality. To illustrate this, the philosopher uses a really clarifying Let's hear it.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Imagine you have a terrible cold with a dangerously high fever and you go to the doctor. The doctor examines you, looks at your history, and says, \"Ah, I see the problem.",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The reason you have a fever today is because yesterday you went outside in the freezing rain without a jacket.\" I mean, medically speaking, that tracks.",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It might be factually true as a sequence of events, but if the doctor just stops there, pats your shoulder, and says, \"So, you see, it's not your fault you feel terrible today.",
+      "callout": {
+        "text": "NOT YOUR FAULT",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 48,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's simply the result of yesterday's lack of a jacket.\" You would be furious, right? I'd be like, \"Give me some Exactly.",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You'd say, \"I don't care about yesterday. I have a fever now. I need you to give me medicine and treat the symptoms now.\" Staring endlessly at the past cause doesn't cure the present suffering.",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Etiology dwelling on the past trauma is exactly like the doctor just telling you why you got sick and offering no medicine. Teleology on the other hand asks you to look at what you are doing with the illness right",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "now. So it's almost like treating your own life like a true crime podcast. Oh, that's a good way to put it.",
+      "callout": {
+        "text": "YOUR OWN LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 52,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We're so obsessed with finding the killer in our past. You know, the bad teacher, the absent parent, the embarrassing moment in middle school that we forget",
+      "callout": null
+    },
+    {
+      "i": 53,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "finding the killer doesn't actually resurrect the victim. It doesn't fix the present. That is a perfect analogy.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The shut-in friend feels real fear. But what is the purpose of that fear? The teological view suggests the purpose is to stay safely inside. Perhaps to avoid the harsh",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "unpredictable judgment of the outside Or maybe to keep his parents worried attention focused entirely on him. Precisely. By declaring, \"I am a victim of my past,\" he gets a permanent socially acceptable hall pass",
+      "callout": {
+        "text": "KEEP HIS PARENTS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 56,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "from having to face the terrifying vulnerability of trying to succeed in society and potentially failing. The fear is the bodyguard protecting his goal of avoiding failure. Which means the fear comes first",
+      "callout": {
+        "text": "FEAR COMES FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "as a strategy and the excuse of the past follows to justify it. So if we tie this back to our main engine, when we blame our past, when we say my trauma made me this way, we are",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "essentially refusing to ask the hard question, whose task is it to change today? Exactly. You are using the past as an unchangeable,",
+      "callout": {
+        "text": "CHANGE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 59,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "untouchable excuse to avoid the terrifying task of changing your present. It's a harsh pill to swallow and it's why Adler's psychology is often called a psychology of courage. He insists that no experience",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "is in itself a cause of our success or failure. We give the experience meaning based on what suits our current Okay. Well, if we are dropping the excuse of our past, we are left totally exposed in the present.",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. Nowhere to hide. Which naturally forces us to look at our current flaws and that brings us to the next major pillar of the book.",
+      "callout": {
+        "text": "NOWHERE TO HIDE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 62,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's set the scene again. The youth is trying to explain to the philosopher why he feels so terrible about himself.",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He describes sitting in a cafe looking at a newspaper article about a guy his exact same age who is wildly successful, wealthy, and thriving.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the youth is sitting there feeling this hot, heavy flush of envy. And he's physically touching his own face, which is covered in pimples. He is overwhelmed by his lack of education, his looks, his low income.",
+      "callout": {
+        "text": "OWN FACE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 65,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He feels he is drowning in objective worthlessness. He tells the philosopher, \"Look, this isn't a teological",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "excuse. I am factually undeniably inferior to that And this is where the philosopher introduces Adler's incredibly nuanced view on feelings of inferiority.",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "First, Adler points out that feelings of inferiority are entirely universal. In fact, Adler himself is the one who coined the term feeling of inferiority in this psychological context. Really? I didn't know he coined it.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He did. But he makes a crucial lifealtering distinction. Feelings of inferiority are entirely subjective. They are interpretations, not objective",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "I struggle with that. How can a lack of money or, I don't know, being significantly shorter than average or lacking a college degree, not be an objective fact?",
+      "callout": {
+        "text": "LACK OF MONEY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 70,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "To explain this, the book uses the analogy of wellwater. Do you happen to know the temperature of groundwater from a deep well? The book mentions it stays at a constant 60°",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "F year round. Right. The objective fact is that the water is precisely 60°. It does not change.",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "But if you draw that water and drink it in the blazing heat of a summer afternoon, it feels refreshingly cool. If you draw that exact same 60° water in the dead of a freezing",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "winter, it feels warm. The objective fact hasn't changed by a single decimal point. Only your subjective lens, your environmental context has changed. Your lack of a college degree",
+      "callout": null
+    },
+    {
+      "i": 74,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "or your physical appearance are exactly like the 60° wellwater. The inferiority you attach to them is just the summer or winter lens you are choosing to apply based on who you are comparing",
+      "callout": null
+    },
+    {
+      "i": 75,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "yourself to. It's like an algorithm on social media. The objective fact is just you sitting in your room. But if you actively curate a feed of fitness models and billionaires, your",
+      "callout": {
+        "text": "YOUR ROOM",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 76,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "brain interprets your average life as intensely, painfully inferior. The algorithm didn't create your reality.",
+      "callout": {
+        "text": "YOUR AVERAGE LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 77,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It just supplied the lens through which you chose to judge yourself. And Adler says that a simple feeling of inferiority is actually a healthy thing, right?",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a launchpad. You feel you're lacking, so you strive to improve. The chef who thinks his cooking isn't good enough works harder to refine his pallet.",
+      "callout": {
+        "text": "GOOD ENOUGH WORKS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 79,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But the danger is when that feeling rots and hardens into an inferiority complex. Precisely. And complex is a word we throw around very casually today, but Adler has a specific definition.",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "An inferiority complex is when you start using your subjective feeling of inferiority as a permanent structural excuse. You adopt the twisted logic of A",
+      "callout": {
+        "text": "START",
+        "style": "box"
+      }
+    },
+    {
+      "i": 81,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "is the situation, therefore B cannot be Like I'm not well educated, therefore I can never succeed. Exactly. You take the worldview settled on in childhood and you harden it into a titanium shield.",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, let me play devil's advocate for a second. If someone has zero formal education and they apply for a high-paying corporate job and they get rejected specifically because they don't have a degree that is",
+      "callout": null
+    },
+    {
+      "i": 83,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "not a subjective interpretation. That is a cold hard societal fact. They were objectively blocked from success.",
+      "callout": null
+    },
+    {
+      "i": 84,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are we just supposed to pretend structural inequality doesn't exist? It is a totally valid push back and the youth raises similar points.",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Adler is not denying that tangible obstacles exist in the world. He is differentiating between encountering a real obstacle and adopting a permanent Yes,",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the lack of a degree might mean you do not get that specific job on that specific Tuesday.",
+      "callout": null
+    },
+    {
+      "i": 87,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "But when you internalize it and say, \"I am uneducated. Therefore, I cannot succeed in life whatsoever,\" you have taken a situational obstacle and turned it into an identity level excuse",
+      "callout": {
+        "text": "CANNOT SUCCEED IN LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 88,
+      "shot": "insert",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "to stop trying You are using the apparent cause and effect to justify giving up on your own growth. And paradoxically, Adler notes this complex often mutates into its exact opposite, a superiority",
+      "callout": {
+        "text": "YOUR OWN GROWTH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 89,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "complex. The superiority complex is fascinating because it's not what you think it is. It's not just arrogant people acting tough. Explain how feeling deeply inferior actually turns into feeling",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "When someone cannot tolerate the psychological pain of their inferiority complex, but they also lack the courage to make real vulnerable efforts to improve, they look for an easy way out.",
+      "callout": {
+        "text": "MAKE REAL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 91,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They want the status without the work. They might start bragging about their past glories or wearing aggressively expensive branded clothing to artificially inflate their importance. But the most insidious,",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "subtle form of the superiority complex is boasting about one's misfortune. Bragging about misfortune. You mean like trauma dumping as a status symbol?",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like you don't know how hard I've had it. Exactly. that it is the person who uses their trauma, their difficult upbringing, or even their physical ailments as a weapon of superiority.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "By claiming their pain is entirely unique, profoundly deep and completely incomprehensible to anyone else.",
+      "callout": {
+        "text": "THEIR PAIN",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 95,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "They place themselves on a pedestal above everyone else. They become the special untouchable center of attention.",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "They use their woundedness to control the people around them, forcing others to walk on eggshells. So whether you are aggressively saying, \"I'm too ugly to be loved,\" or, \"My trauma is too complex for you to ever understand,\" you are using a",
+      "callout": null
+    },
+    {
+      "i": 97,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "subjective interpretation to avoid the vulnerability of real engagement. Tying it back to our engine, when you use your circumstances as an excuse not to try, you are carrying the world's supposed judgments",
+      "callout": null
+    },
+    {
+      "i": 98,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "as if they are ultimate objective truths rather than handing them back. You are forgetting to ask, \"Whose task is it to validate you?\" It's not society's",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "task, it's yours. And that profound fear of real vulnerable engagement brings us to what might be the most absolute sweeping claim in the entire book. Yes, this is where the book shifts from",
+      "callout": {
+        "text": "FEAR OF REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 100,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "personal neurosis to our place in the universe. For this, the philosopher asks the youth and I want you the listener to actually visualize this to imagine floating completely alone in the dark silent void",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "of the universe. Just utter emptiness. There's no language. There's no logic. There's no one to hear your breath. There are no stars, no planets, no history.",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "just you in a literal infinite And the philosopher says if you could truly exist in that state, every single problem you currently have would evaporate instantly. Because according to Ed Larian psychology,",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "all problems are interpersonal relationship problems. Take other people away and the very concept of a problem vanishes. I remember reading that and thinking, well, what about loneliness?",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Surely, if I'm floating in a void, I'd be lonely. But the book points out that you can't feel lonely if you are the only thing that exists. Loneliness doesn't come from being objectively alone. Loneliness is the deep aching sensation",
+      "callout": {
+        "text": "YOU CAN'T FEEL LONELY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 105,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "of being excluded from a community that exists around you. Exactly. To feel excluded, there must be others to exclude you. Adler asserts that even our most internal private agonies, our deep-seated shame,",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "our guilt, our late night self-hatred are actually arguments we are having in our heads with someone who is not in the Wow. You only feel shame about your body or your income or your mistakes because you have internalized a",
+      "callout": {
+        "text": "YOU ONLY FEEL SHAME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 107,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "standard set by other people. This is where the youth has a massive painful breakthrough. The philosopher corners him into realizing why he actively chose to dislike himself. The youth finally it's",
+      "callout": null
+    },
+    {
+      "i": 108,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "he's terrified being judged, terrified of the pain of interpersonal relationships. And he",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "actively chose to hate himself. He hyperfocused on his own flaws, his pimples, his awkwardness. M why? Because disliking himself was a highly effective armor.",
+      "callout": {
+        "text": "CHOSE TO HATE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 110,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If he dislikes himself, he stays safely in his shell. And more importantly, when people inevitably snub him or reject him, he has a readym made justification. He can tell himself, \"Of course they rejected me. I'm full of shortcomings.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "If I didn't have these flaws, I would be It is a brilliant tragic defense mechanism. He uses self-hatred as a preemptive strike against the unpredictable pain of interpersonal rejection.",
+      "callout": null
+    },
+    {
+      "i": 112,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "If he rejects himself first, no one else can hurt him as badly. I'm struggling to square that with things outside of human control, though. I mean, all problems are interpersonal problems. Sounds great for social anxiety.",
+      "callout": {
+        "text": "ELSE CAN HURT",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 113,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But what about existential dread? What if I am sitting entirely alone in a room contemplating the biological fact that I'm going to die one day?",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "medium",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "What about a person suffering alone from a terminal illness? Is this philosopher honestly telling me that my fear of my own mortality is just an interpersonal problem? It is a profound objection",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and it's the exact one the youth raises. He says human beings have loftier philosophical problems than just getting along with their co-workers.",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Adler's response is that there is no such thing as a worry that is completely defined by the individual in a vacuum.",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Even in sickness or in the face of death, the shadows of other people are always present. How will my family survive without me?",
+      "callout": {
+        "text": "FACE OF DEATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Who will remember me? Will I be a burden as I decline? Have I made a meaningful contribution to my community while I was alive?",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Even the very language and concepts you use to philosophically process your own death were given to you by a society. You cannot untangle your existence or your dread from the web of human connection.",
+      "callout": {
+        "text": "YOUR OWN DEATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 120,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So even in our most solitary dark nights of the soul, the ghosts of our social connections are hovering right there with us.",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And to find any kind of peace, we have to identify which of those ghosts we are arguing with and ask whose task is this judgment?",
+      "callout": null
+    },
+    {
+      "i": 122,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Are we carrying the fear of how we will be remembered? Because how someone remembers you is entirely out of your control.",
+      "callout": {
+        "text": "YOUR CONTROL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 123,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which perfectly sets the stage for the true mechanism of the entire book. We've cleared the ground. We understand that we use the past for present goals, that inferiority is a subjective lens,",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "and that all friction involves others. Now, we introduce the tool to actually fix it, the separation of tasks.",
+      "callout": null
+    },
+    {
+      "i": 125,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The core engine. Okay, let's build a scene that I think almost everyone listening has either experienced or witnessed. It is a suffocatingly tense dinner table.",
+      "callout": {
+        "text": "TENSE DINNER TABLE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 126,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have parents glaring across a table at their teenager. The teenager is slouching, refusing to do their homework, totally apathetic, playing with their phone.",
+      "callout": null
+    },
+    {
+      "i": 127,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "A familiar scene. The parents chests are tight with anxiety. They are terrified the kid is going to fail out of school, ruin their future, and end up destitute. The air is incredibly",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "thick with resentment, fear, and control. It's a classic power struggle and the Adlerian approach cuts right through the emotional fog with one piercing question. Who lives with the Who",
+      "callout": {
+        "text": "FEAR AND CONTROL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 129,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "lives with the consequences? Yes. If the child does not study, who ultimately bears the direct lifelong consequence of not getting into a good school or struggling in a career?",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The child. Therefore, studying is the child's task. It is not the parents task.",
+      "callout": {
+        "text": "NOT THE PARENTS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 131,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "When the parents yell, threaten, confiscate the phone, or bribe the child to study, they are intruding on the child's task. And Adler says that literally all interpersonal relationship troubles are caused by one of two",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "things. Either intruding on other people's tasks or allowing your own tasks to be intruded upon. Let me push back on that because as a parent that sounds like a dereliction of duty.",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The parents are anxious because they love the kid. They have life experience the kid doesn't have. Of course they do. But we have to look teologically at the parents anxiety. The parents anxiety about the child's future and",
+      "callout": {
+        "text": "LOVE THE KID",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 134,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "if we are being brutally honest, their anxiety about how society and their peers will judge them if their child is a failure.",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is the parents Oh wow. They are taking their own task, managing their parental anxiety and social standing and trying to resolve it by forcing the child to complete the child's",
+      "callout": null
+    },
+    {
+      "i": 136,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "task. It is a massive boundary violation and it guarantees interpersonal friction because you cannot force someone to change. It's like sitting in the passenger seat of a car and continuously trying to grab",
+      "callout": null
+    },
+    {
+      "i": 137,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the steering wheel from the driver. You're going to cause a crash. Let's take it out of the home and into the office because the book gives a great workplace equivalent. Imagine you have a boss who is completely",
+      "callout": {
+        "text": "YOU HAVE A BOSS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 138,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "unreasonable. They yell, they demean you, they change the goalpost constantly. Every single day you commute to work, your stomach is in The etiology view,",
+      "callout": null
+    },
+    {
+      "i": 139,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "the Freudian view is I have an awful boss, therefore I cannot do good work and my career is miserable. The teological view reverses it. I don't actually want to work or I don't want to face my own potential for failure",
+      "callout": {
+        "text": "CANNOT DO GOOD WORK",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 140,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "on this project. So, I will focus entirely on my awful boss's temper as my excuse.",
+      "callout": null
+    },
+    {
+      "i": 141,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But if you apply the separation of tasks, you ask whose task is the boss's It's the boss's task. It's his blood Exactly.",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The unreasonable emotions, the yelling, the bad management style. Those are the boss's tasks to deal with. They are his problem.",
+      "callout": null
+    },
+    {
+      "i": 143,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Your task is simply to do your work to the best of your ability without lying to yourself. If you shrink yourself, if you constantly try to cozy up to him, or if you walk on eggshells to meticulously manage his mood, you are",
+      "callout": {
+        "text": "YOUR WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 144,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "intruding on his task. You are trying to control his emotions, which you literally cannot do. The book says you must cut the Gordian knot of these tangled relationships.",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "I love that phrase, but for anyone who doesn't know the myth, what does cutting the Gordian knot actually mean in this context? It's an ancient legend about Alexander the Great.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He arrived in a city where there was an impossibly complex tangled knot tied to an ox cart. An oracle had prophesied that whoever could untie the knot would rule all of Asia.",
+      "callout": {
+        "text": "KNOT WOULD RULE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 147,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Many men spent days trying to painstakingly untangle the ropes. Alexander walked up, looked at the tangled mess, drew his sword, and sliced right through it in one swing.",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The point is that some interpersonal tangles are so complex and historical, like the relationship with an abusive boss or an overbearing parent, that you cannot slowly untangle them with more logic or more people pleasing,",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "you have to take a radically new approach. You slice through it by firmly separating the Hold on, I need to really challenge this.",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "If I just let my kid fail out of school without intervening, or if I totally ignore my angry boss and just stare blankly at my spreadsheet while he's screaming, isn't that just being a cold, irresponsible, unfeilling jerk? Doesn't the separation",
+      "callout": {
+        "text": "IGNORE MY ANGRY BOSS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 151,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "of tasks just sound like a highly intellectualized way to justify abandonment and selfishness? It definitely sounds like that if you confuse separation with abandonment. And the philosopher is very",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "careful to make the distinction here. He says, \"Separation of tasks does not mean pushing people away, isolating yourself, or ignoring them when they suffer. It means moving your behavioral model",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "from intervention to assistance.\" What's the practical difference? Intervention is commanding from a position of authority above you must study or",
+      "callout": null
+    },
+    {
+      "i": 154,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "you need to calm down. Assistance is horizontal. It's standing side by side. You tell the child, \"I see you are struggling with your studies. That is your task to figure out, but I am here.",
+      "callout": {
+        "text": "TELL THE CHILD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 155,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "I have resources and if you ask for help, I will support you in any way I can. You lead the horse to water, but you do not force it to drink.",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You only have the power to control your side of the ledger. You offer support, but you absolutely do not carry their burden for them.",
+      "callout": null
+    },
+    {
+      "i": 157,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because when you carry adult stress, it is almost always a massive teetering stack of other people's tasks that you've voluntarily picked up.",
+      "callout": null
+    },
+    {
+      "i": 158,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A teetering stack of other people's tasks, which brings us right back to the phrase that pays.",
+      "callout": null
+    },
+    {
+      "i": 159,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you feel that crushing weight in your chest, you have to stop and ask whose task is it? Identify what is yours and hand the rest",
+      "callout": null
+    },
+    {
+      "i": 160,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the reason we are so desperate to carry other people's tasks, the biological reason we tie ourselves in knots trying to manage our boss's mood or secure our parents approval is because we have fallen",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "into what Adler considers the master trap of human psychology. This is the desire for Picture this. A modern corporate climber.",
+      "callout": {
+        "text": "MASTER TRAP",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 162,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's midnight. They are sitting in a glowing empty office surrounded by dark cubicles, sweating over a PowerPoint presentation. They are exhausted.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Their personal life is a complete mess. They haven't seen their friends in weeks. But they are absolutely desperate to deliver this perfect presentation so that the VP will pat them on the back tomorrow and say, \"You are vital to this company. They're literally starving for society to",
+      "callout": {
+        "text": "THEIR PERSONAL LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 164,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "acknowledge them as important.\" And Adlerian psychology takes a sledgehammer to this exact scenario.",
+      "callout": null
+    },
+    {
+      "i": 165,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The philosopher states unequivocally and you must deny the desire for recognition.",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You must not seek to be recognized by others. Which makes the youth explode. He says no way. The desire for recognition is the fundamental universal",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "human drive. It's why we build societies. But the philosopher asks why do we seek it? Let's look at the mechanism.",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "medium",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you live your life trying to satisfy the expectations of others, whether it's your boss, your parents, or a vague societal standard, your life no longer belongs to you. It belongs to whoever set the",
+      "callout": {
+        "text": "BOSS YOUR PARENTS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 169,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "expectations. If your primary goal is to be recognized, you will constantly gauge other people's feelings. You will repress your own desires, and you will live in constant paralyzing fear of judgment.",
+      "callout": {
+        "text": "YOUR PRIMARY GOAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 170,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You become a slave to the yard stick of others. Therefore, the philosopher concludes being disliked by some people is not an unfortunate accidental side effect of living your life.",
+      "callout": {
+        "text": "LIVING YOUR LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 171,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is the exact price tag of freedom. If you aren't being disliked by someone, you aren't living free. That is the line. That is where the title of the book comes from. The courage to be Yes.",
+      "callout": {
+        "text": "YOU AREN'T LIVING FREE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 172,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the book weaves in a fascinating theological and philosophical angle here regarding God and nihilism, which explains why this trap is so prevalent today.",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Historically, in highly religious societies, the desire for recognition was directed upward at the divine. God is watching me, so I must do good deeds. You didn't strictly need your neighbors approval if",
+      "callout": null
+    },
+    {
+      "i": 174,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "you felt you had God's Right. Because the ultimate judge was already pleased. Exactly. But in a secular modern world where many people have dropped the concept of God, there is a massive psychological void.",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "We face nihilism, the terrifying fear that nothing matters and no one is watching. And so we desperately substitute society's recognition to fill that god-shaped hole.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We demand that other people, our bosses, our Instagram followers validate our existence. Adler argues that to truly overcome nihilism and find peace, we must deny the need for recognition entirely.",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "We must find our worth without needing anyone else to validate it. I hear that, but let's take that to its logical extreme.",
+      "callout": null
+    },
+    {
+      "i": 178,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "If I totally stop caring what people think, if I completely deny the desire for recognition, don't I just become a tyrant?",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The youth brings up Shakespeare's King Lair. Or you could think of any modern billionaire dictator, completely self-centered, destroying everything around them because they only care about their own whims.",
+      "callout": null
+    },
+    {
+      "i": 180,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If I don't care if people dislike me, aren't I just giving myself philosophical permission to be a",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is the most brilliant twist in Adler's logic. It turns the whole premise inside out. The philosopher points out that obsessing over how others see you is actually the most self-centered way to",
+      "callout": null
+    },
+    {
+      "i": 182,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "live. Wait, how is trying to please people self-centered? You're literally doing things for them. Because when you are constantly worrying, what do they think of me? Do they like me?",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Am I meeting their You appear to be looking at other people, but you are actually only looking at yourself.",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are utterly obsessed with the eye. You view other people merely as mirrors reflecting your own worth back to you.",
+      "callout": null
+    },
+    {
+      "i": 185,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't care about the boss. You care about the boss's opinion of you. That is wow, right? The tyrant who forces his will on others and the peopleleaser who twists themselves into knots for approval",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "are both fundamentally self-centered. They both operate from an obsession with the self.",
+      "callout": null
+    },
+    {
+      "i": 187,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "True freedom, true lack of self-centeredness is asking whose task is it to like me? It's their task. Hand it back.",
+      "callout": null
+    },
+    {
+      "i": 188,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You focus on what you can contribute to them, not on whether they applaud you for it. That distinction between contributing and seeking applause transitions us beautifully into the next concept.",
+      "callout": null
+    },
+    {
+      "i": 189,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because if we are not supposed to seek applause, we also have to completely rethink how we give applause. We have to talk about praise.",
+      "callout": null
+    },
+    {
+      "i": 190,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This might be the most counterintuitive part of the entire Ed Laran framework for modern listeners, especially if you are a parent, a teacher, or a manager.",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It goes against everything we are taught about positive reinforcement. Let's paint the scene. You have a mother and her young child has just helped set the dinner table.",
+      "callout": {
+        "text": "YOUNG CHILD",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 192,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The mother pats the child on the head. Her voice goes up an octave and she says, \"Oh, you're such a good helper. Good job.\" Now, imagine that same woman's husband sets the table. She does not pat him on the head, change her pitch and say, \"You're such a",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "good helper.\" She looks him in the eye and says, \"Thank you. That was a big help.\" There's a subtle hidden hierarchy in the tone of voice.",
+      "callout": {
+        "text": "SUBTLE HIDDEN",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 194,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. Adler makes a quiet, devastating claim here. Praise is inherently toxic because it comes from a vertical relationship.",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is a judgment passed from someone of supposed ability and authority down to someone of no ability. When the mother praises the child, she is unconsciously establishing that she is above the child and she",
+      "callout": {
+        "text": "ABOVE THE CHILD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 196,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "is judging the child's action against her own yard stick of what is good. The book explicitly compares it to animal training.",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you give a dog a treat for sitting, you aren't respecting the dog's autonomy.",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "you are manipulating it with a reward to get the behavior you want. Adler says that reward and punishment education, which is basically how our entire global school system and corporate HR systems operate, is just the carrot and",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the stick. Grading people and praising them trains people pleasers who only act to get the carrot. Yes. Why do schools use vertical relationships?",
+      "callout": null
+    },
+    {
+      "i": 200,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because it is efficient for control. But Adlerian psychology demands that if we want to be free, we must abandon vertical relationships entirely and replace them with horizontal relationships.",
+      "callout": {
+        "text": "WANT TO BE FREE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 201,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "We must interact with everyone, children, subordinates, bosses, elderly parents as equals. Different in role perhaps different in knowledge or responsibility",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "certainly, but equal in human value. And in a horizontal relationship, you do not praise, you encourage. And the mechanism for encouragement, according to the book, is gratitude.",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's saying thank you. It's expressing genuine joy. I'm glad you did that. Because thank you doesn't judge the person's worth. It just acknowledges a contribution between two equals.",
+      "callout": null
+    },
+    {
+      "i": 204,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right? When a friend helps you clean your house after a party, you don't say, \"Good boy. You cleaned well.\" You say, \"Thank you so much.",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That was a huge help.\" By shifting from praise to gratitude, you help the other person feel they have made a meaningful contribution without making them permanently dependent on your ongoing evaluation of their worth.",
+      "callout": null
+    },
+    {
+      "i": 206,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I have to admit, getting a good job from a mentor or a boss feels biologically amazing. A dopamine hit is a dopamine hit. We literally evolved as apac",
+      "callout": {
+        "text": "GOOD JOB",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 207,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "species to seek social approval. Are we really supposed to just completely eliminate praising our kids or our employees?",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Won't they just feel unappreciated and unmotivated? If I don't tell my team they did a great job, they're going to think I hate them. It goes right back to the trap of recognition.",
+      "callout": {
+        "text": "TELL MY TEAM",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 209,
+      "shot": "medium",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "If your motivation is tied to receiving praise, what happens when the praise stops? What happens if you do a brilliant job, you save the company money, and the boss simply doesn't notice? If you rely on praise, you lose your",
+      "callout": {
+        "text": "PRAISE YOU LOSE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 210,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "motivation. You feel worthless. You become dependent on an external supply of dopamine. That's a dangerous dependency. Exactly. When you rely on praise, you carry the task of meeting their arbitrary yard stick.",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adler is trying to build a psychology of absolute self-reliance. You separate the tasks. Your contribution is your task.",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Their judgment, whether they praise it, ignore it, or criticize it, is their task. You act out of a desire to contribute, not a desire to be evaluated.",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to the ultimate existential question. If we aren't striving for recognition and we aren't climbing a vertical ladder to get praise, what is the point? Where are we going?",
+      "callout": null
+    },
+    {
+      "i": 214,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "What is the meaning of all this effort? This brings us to what Adler redefineses as the end goal of human Community feeling over happiness. This is a radical redefinition",
+      "callout": {
+        "text": "END GOAL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 215,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "of Imagine the visceral anxiety of modern life for a second. You are checking a leaderboard at work or you are swiping through LinkedIn or Instagram,",
+      "callout": null
+    },
+    {
+      "i": 216,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "agonizing over where you rank among your peers. You look at someone's vacation photos or their promotion announcement or their perfect wedding and you feel a fresh hot wave of inferiority every single time",
+      "callout": {
+        "text": "EVERY SINGLE TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 217,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "someone climbs past you on the ladder. Life feels like a brutal endless competition where you are always losing because you are living in a vertical worldview. If life is a ladder, then everyone else is a competitor.",
+      "callout": null
+    },
+    {
+      "i": 218,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Other people are essentially enemies standing in your way. But Adler says the ultimate destination isn't climbing higher, and it isn't even happiness in the traditional self-satisfying",
+      "callout": null
+    },
+    {
+      "i": 219,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "hedonic sense. The goal is community feeling. Break down community feeling for me because it sounds a bit like a utopian commune.",
+      "callout": {
+        "text": "BREAK",
+        "style": "box"
+      }
+    },
+    {
+      "i": 220,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's less about a physical community and more about an internal orientation. True worth, true fulfillment comes solely from a subjective feeling of contribution. It is the internal deeply felt",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "sense of I am of use to someone. But hold on. Didn't we just spend the last 20 minutes saying we shouldn't care what other people think? How can we be of use to others without caring about their recognition?",
+      "callout": {
+        "text": "LAST 20 MINUTES",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 222,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is the crucial needle threading distinction. If your feeling of contribution relies on visible recognition, if you only feel useful when someone explicitly thanks you or praises you, then you still have no",
+      "callout": null
+    },
+    {
+      "i": 223,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "freedom. You are still chained to their reaction. Community feeling means your sense of contribution must be entirely internal and subjective.",
+      "callout": null
+    },
+    {
+      "i": 224,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. You do the work, you help the colleague, you care for the child, you pick up the trash on the street, and you decide that you have contributed. You don't wait for the applause.",
+      "callout": {
+        "text": "CHILD YOU PICK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 225,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are fulfilled simply by the act of participating horizontally in the Okay. I have a major problem with subjective feeling of contribution. If just feeling useful",
+      "callout": null
+    },
+    {
+      "i": 226,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "subjectively in my own head is enough, what's to stop me from just sitting on my couch all day playing video games and deluding myself that my high score is contributing to the gaming community?",
+      "callout": {
+        "text": "HEAD IS ENOUGH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 227,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Doesn't this philosophy completely kill ambition? If there's no ladder to climb, why strive for greatness? or cure diseases or build Adler",
+      "callout": {
+        "text": "THERE'S NO LADDER",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 228,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "is not anti- ambition. He is anti-vertical ambition. Striving to be better than others, striving to conquer your peers is just carrying other people's tasks.",
+      "callout": null
+    },
+    {
+      "i": 229,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The task of being judged as the best. Adler encourages horizontal ambition, striving to be better than your own present self. Better than yourself, not others.",
+      "callout": {
+        "text": "OTHERS",
+        "style": "box"
+      }
+    },
+    {
+      "i": 230,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Precisely. The ambition is directed toward improving your contribution to the whole, not elevating yourself above the whole. The freedom is found in the courage to hand the ranking back.",
+      "callout": {
+        "text": "NOT ELEVATING YOURSELF",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 231,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Step off the ladder entirely and focus purely on your task of contributing right here, right now to the people around you.",
+      "callout": null
+    },
+    {
+      "i": 232,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which leads us perfectly to the final philosophical pillar of the book. And this is the one that really challenges how we view time itself.",
+      "callout": {
+        "text": "VIEW TIME",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 233,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Life is a series of points, not a line. This is perhaps the most poetic and profound shift in perspective the philosopher offers the youth, drawing heavily on Greek philosophy.",
+      "callout": null
+    },
+    {
+      "i": 234,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Drop yourself onto a brightly lit stage. There is a dancer spinning, leaping, completely consumed by the music in this single intense moment.",
+      "callout": null
+    },
+    {
+      "i": 235,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are not dancing in order to arrive at a specific spot on the far side of the stage. They're not concerned with the coordinates of a finish line. The dancing itself is the point.",
+      "callout": null
+    },
+    {
+      "i": 236,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are conditioned to view life as a kinetic line, a continuous journey toward a specific destination.",
+      "callout": {
+        "text": "VIEW LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 237,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You study hard to get into a good college. You go to college to get a good job. You get a job to save for retirement. You retire to finally relax.",
+      "callout": {
+        "text": "YOU GET A JOB",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 238,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The present moment is always treated as a mere stepping stone, a temporary sacrifice you make for the",
+      "callout": null
+    },
+    {
+      "i": 239,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Adler says, \"Life is not a line. Life is a series of unconnected dots, a series of moments. There is only ever the here and now. There is no grand finish line where meaning suddenly The book calls out what it terms the",
+      "callout": null
+    },
+    {
+      "i": 240,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "greatest lifel. The greatest lifelie is living in the past or the future. It is shining a dim, blurry light on your entire life, squinting at past traumas or stressing about future goals while leaving the present moment in shadow.",
+      "callout": null
+    },
+    {
+      "i": 241,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Adler argues that we must shine a bright, intense spotlight on the here and now. We must give meaning to a seemingly meaningless life in this exact second because this second is all that actually exists. It's wild because this is a",
+      "callout": null
+    },
+    {
+      "i": 242,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "book that promises to teach you how to be happy and it ends by completely deleting the destination that every other self-help book sells.",
+      "callout": null
+    },
+    {
+      "i": 243,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It says there is no there to get to. Because if you only find meaning at the destination, then the vast majority of your life is meaningless.",
+      "callout": null
+    },
+    {
+      "i": 244,
+      "shot": "split",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you spend 20 years climbing the corporate ladder and die of a heart attack a week before you make CEO, was your life a failure? The kinetic view says yes, but the energetic view, the dancer's view, says no.",
+      "callout": {
+        "text": "ENERGETIC VIEW",
+        "style": "box"
+      }
+    },
+    {
+      "i": 245,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you are dancing earnestly in the here and now, your life is complete at every single moment. I am still highly skeptical of the practicality of this. If there is no destination, why bother planning",
+      "callout": {
+        "text": "YOUR LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 246,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "for anything? Why save for retirement? Why endure 10 years of grueling study and debt to go to med school? If I'm only living in the here and now, isn't that just a recipe for chaos and hedonism?",
+      "callout": null
+    },
+    {
+      "i": 247,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I'll just eat cake and go bankrupt because the future doesn't matter. It's not that the future doesn't matter or that you shouldn't have goals.",
+      "callout": null
+    },
+    {
+      "i": 248,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The philosopher explains that you can have a guiding star, a general direction you want to travel, going to med school as a guiding star, but the act of studying today is the dance.",
+      "callout": null
+    },
+    {
+      "i": 249,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't study today merely as a miserable, soulcrushing sacrifice for 10 years from now. You find the meaning and the contribution in the act of learning today.",
+      "callout": {
+        "text": "10 YEARS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 250,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Planning for the future is a necessary practical action. But suffering today over a future that hasn't happened yet is carrying a task that doesn't exist.",
+      "callout": null
+    },
+    {
+      "i": 251,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The future's challenges are the future's tasks. hand them back to the future. Okay, we have journeyed through these massive shifts in perspective. We've talked about teleology, inferiority, the void",
+      "callout": null
+    },
+    {
+      "i": 252,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "of space, the separation of tasks, the trap of recognition, horizontal praise, community feeling, and the dancing moment. But now, as we promised at the start, we have to step back and offer a rigorous honest critique of this framework.",
+      "callout": null
+    },
+    {
+      "i": 253,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because the courage to be disliked is powerful, but it is not without its extreme friction points. And we need to spend some real time on this. We absolutely must address the counterpoint",
+      "callout": {
+        "text": "SOME REAL TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 254,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because applying this perfectly in a messy reality is much harder than a philosopher in a study makes it sound. First of all, as we noted at the beginning, the form of the book is rigged.",
+      "callout": null
+    },
+    {
+      "i": 255,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The young man is passionate. He raises good points, but he never actually lands a blow. The philosopher always has a perfect airtight response. It can make the philosophy feel a bit like a closed loop, completely immune to",
+      "callout": null
+    },
+    {
+      "i": 256,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "real world messy variables. When you control both sides of the dialogue, you can ensure your theory never cracks. And that neatness leads to the most significant and frankly most disturbing criticism of Adlerian psychology,",
+      "callout": {
+        "text": "YOU CONTROL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 257,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "particularly the concept of teleology. Teleology saying that we choose our symptoms to serve our goals. That we are not defined by our past slides dangerously close to victim blaming.",
+      "callout": null
+    },
+    {
+      "i": 258,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes, I need to ask you this straight as the expert here because this is where a lot of readers throw the book against the wall.",
+      "callout": null
+    },
+    {
+      "i": 259,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "is whose task is it? Still a valid ethical answer when the other person literally cannot walk away from you.",
+      "callout": null
+    },
+    {
+      "i": 260,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "We talked about the annoying boss. We talked about parents nagging about homework. But what about a dependent child facing a genuinely abusive parent? What about systemic oppression where the obstacle is a violent threat to your existence?",
+      "callout": null
+    },
+    {
+      "i": 261,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Doesn't this framework of you choose your reaction strain and even break under the weight of inescapable systemic or familial trauma? Can we really look at a child who was abused and say you are using the memory of that abuse as a teological excuse",
+      "callout": {
+        "text": "CHOOSE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 262,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "not to succeed in life? It is the most vital urgent question to ask of this text and adarian psychology requires a radical almost ruthless level of self- responsibility that does not easily accommodate the language of victimization.",
+      "callout": null
+    },
+    {
+      "i": 263,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It asks you to take ownership of your interpretation of reality no matter how profoundly unjust or violent the reality itself was.",
+      "callout": null
+    },
+    {
+      "i": 264,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "For many readers, particularly in situations of genuine severe victimization, this feels deeply alienating. I can imagine it can feel like a secondary trauma being told by a philosopher that the deep",
+      "callout": null
+    },
+    {
+      "i": 265,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "bleeding psychic wounds of abuse are just excuses you are manufacturing to avoid present challenges. Feels like it lets the abuser off the That is the fear. But structurally, Adler is not doing",
+      "callout": null
+    },
+    {
+      "i": 266,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "that. Impartially speaking, Adler's framework is designed almost entirely for the aftermath, for the adult trying to function in the present, not for the victim actively enduring inescapable harm.",
+      "callout": null
+    },
+    {
+      "i": 267,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Ah, okay. That's an important The separation of tasks still applies to the abuser.",
+      "callout": null
+    },
+    {
+      "i": 268,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The abuser's actions, their violence, their cruelty are the abuser's horrific failure of their own tasks. You do not carry the blame for their actions.",
+      "callout": {
+        "text": "NOT CARRY THE BLAME",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 269,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Adler insists that even in the wake of terrible injustice, the power to define the rest of your life must remain in your hands, not in the hands of your past.",
+      "callout": null
+    },
+    {
+      "i": 270,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "So it's saying what happened to you was not your fault, but healing from it your responsibility, which is a very common therapeutic phrase today, but Adler",
+      "callout": null
+    },
+    {
+      "i": 271,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "takes it to an absolute extreme. He does. It is an empowering philosophy if you are ready for it. But its absolute refusal to offer comforting sympathy can make it feel incredibly harsh.",
+      "callout": null
+    },
+    {
+      "i": 272,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It demands that you drop the narrative of being a victim even when you factually, legally, and morally were one. Because the narrative of the victim, in Adler's view, offers no pathway forward.",
+      "callout": null
+    },
+    {
+      "i": 273,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It only offers a reason to stay stuck. It's a bitter medicine. It's asking someone who has been deeply wronged",
+      "callout": {
+        "text": "STAY STUCK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 274,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "to say, \"I am not going to weaponize my pain, and I'm not going to let it be my Very bitter. And it is entirely fair to say that Adlerian psychology might not be the right tool for someone in the acute phase of trauma.",
+      "callout": null
+    },
+    {
+      "i": 275,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "But for millions of people who feel permanently stuck in the aftermath of their past, it has also been the sudden shocking cure they couldn't find anywhere else. It forces the keys to the future back into your And that brings us to our final",
+      "callout": {
+        "text": "FEEL PERMANENTLY STUCK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 276,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "payoff. We have unpacked the fight with Freud. The subjectivity of inferiority, the illusion of solitary problems, the master trap of recognition, the toxicity",
+      "callout": null
+    },
+    {
+      "i": 277,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "of praise, the true destination of community feeling, and the reality of life is a series of moments. And woven through all of it",
+      "callout": {
+        "text": "PRAISE THE TRUE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 278,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "is that core engine. The courage to be disliked was never about growing a thick skin against criticism.",
+      "callout": null
+    },
+    {
+      "i": 279,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It certainly wasn't about being a self-centered jerk who ignores other people's feelings or acts like a tyrant. It is simply about establishing profound boundaries in a world that constantly demands you erase them.",
+      "callout": null
+    },
+    {
+      "i": 280,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is about one repeated quiet question. Ask calmly in the face of all social pressure, all parental expectations, all workplace anxiety.",
+      "callout": null
+    },
+    {
+      "i": 281,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Whose task is this? You figure out what is yours. You handle it with earnestness, with horizontal ambition, and with community feeling in the here and now.",
+      "callout": null
+    },
+    {
+      "i": 282,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And everything that isn't yours, you hand back. You hand it back. So, we leave you with a final lingering question to mull over. Look at the biggest source of stress in your life right now.",
+      "callout": null
+    },
+    {
+      "i": 283,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The thing keeping you awake at night, making your chest tight. If you mentally handed back every single task that actually belongs to someone else's judgment, what would actually be left for you to carry?",
+      "callout": null
+    },
+    {
+      "i": 284,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Keep diving deep.",
+      "callout": null
+    }
+  ]
+}

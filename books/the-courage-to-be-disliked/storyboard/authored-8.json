@@ -1,0 +1,85 @@
+[
+  {
+    "i": 280,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "One quiet question", "style": "reveal" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The book's whole method comes down to one quiet question, asked calmly even as pressure piles up.",
+      "concreteVisual": "The philosopher speaks in an even, unhurried stance while the young man beside him shrugs and worries under other people's expectations.",
+      "onScreenText": "One quiet question",
+      "relationToPrevious": "From the boundary the narration just defined to the quiet tool that holds it.",
+      "addedInformation": "Splits 'calmly in the face of pressure' across two faces — one composed, one visibly buckling; the contrast carries the beat."
+    }
+  },
+  {
+    "i": 281,
+    "concept": "compass",
+    "diagram": null,
+    "callout": { "text": "Whose task is this?", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "compass",
+    "storyboard": {
+      "claim": "The question sorts your life: work out which task is actually yours, then handle that one yourself.",
+      "concreteVisual": "The philosopher holds out a compass as he speaks, offering the young man a way to tell his own task from everyone else's.",
+      "onScreenText": "Whose task is this?",
+      "relationToPrevious": "Answers the quiet question the previous beat announced — it is a sorting question about whose task this is.",
+      "addedInformation": "Turns 'figure out what is yours' into a visible act of choosing a direction; earnestness and community feeling read through his steady posture."
+    }
+  },
+  {
+    "i": 282,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "Hand it back", "style": "box" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "neutral",
+    "action": "reach",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Everything that is not yours gets handed back to the person it belongs to — then the question turns on you.",
+      "concreteVisual": "The philosopher reaches out and passes a stack of borrowed notes back to the young man, emptying his own hands before the closing question.",
+      "onScreenText": "Hand it back",
+      "relationToPrevious": "Follows the sorting of tasks (whose task) with the disposal of everything that failed the test.",
+      "addedInformation": "Makes 'hand back' literal — a physical return a muted viewer reads as giving someone else's load back."
+    }
+  },
+  {
+    "i": 283,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "if you handed back every task", "style": "reveal" },
+    "set": "bedroom",
+    "cast": ["young-man"],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Picture your worst current stress: if you handed back every task judged by someone else, what weight would be left for you?",
+      "concreteVisual": "Night bedroom: the young man sits awake on the edge of the bed, hand pressed to his chest — the question that will not let him sleep.",
+      "onScreenText": "if you handed back every task",
+      "relationToPrevious": "Applies the handing-back from the philosopher's hands to the viewer's own sleepless source of stress.",
+      "addedInformation": "Gives 'biggest source of stress' a measurable size (the boulder) and grounds 'keeping you awake at night' in a real dark room."
+    }
+  },
+  {
+    "i": 284,
+    "concept": null,
+    "diagram": null,
+    "callout": { "text": "Keep diving deep", "style": "highlight" },
+    "cast": ["philosopher", "young-man"],
+    "expression": "happy",
+    "action": "point",
+    "storyboard": {
+      "claim": "The episode ends with an open invitation: keep exploring these ideas for yourself.",
+      "concreteVisual": "Closing two-shot: the philosopher and the young man face the viewer, the argument settled into a shared sign-off.",
+      "onScreenText": "Keep diving deep",
+      "relationToPrevious": "Hands the lingering question of the last beat over to the audience as a farewell.",
+      "addedInformation": "weak: the picture only warms the goodbye; the line itself carries the whole message."
+    }
+  }
+]
