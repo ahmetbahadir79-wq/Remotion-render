@@ -1,0 +1,904 @@
+[
+  {
+    "i": 120,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "INVISIBLE IN PLAIN SIGHT",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "An abused child can be completely invisible across an entire continent — the constant movement is itself the cage.",
+      "concreteVisual": "Chains icon — bound, imprisoned. Dolores sits trapped on the endless highway.",
+      "onScreenText": "INVISIBLE IN PLAIN SIGHT",
+      "relationToPrevious": "From the road's surface freedom (context: picturesque road trip) to its real function as a prison.",
+      "addedInformation": "Chains make the captivity visible; the highway alone could read as freedom."
+    }
+  },
+  {
+    "i": 121,
+    "concept": "car",
+    "diagram": null,
+    "callout": {
+      "text": "NEVER PLANT ROOTS",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [
+      "dolores",
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "She is trapped in the passenger seat, moving so fast she can never build a life anywhere.",
+      "concreteVisual": "The car — the literal vehicle of her captivity.",
+      "onScreenText": "NEVER PLANT ROOTS",
+      "relationToPrevious": "Zooms in from the abstract cage to the physical car she cannot leave.",
+      "addedInformation": "The car icon makes the trap concrete: she is a passenger, not a traveler."
+    }
+  },
+  {
+    "i": 122,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NO ALLIES",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "She has no friends, no teacher to confide in, no money, no one to call.",
+      "concreteVisual": "Dolores alone and slumped — total isolation with no icon, because no single icon captures the breadth of what she lacks.",
+      "onScreenText": "NO ALLIES",
+      "relationToPrevious": "From the car that traps her to what the car denies her: any human connection.",
+      "addedInformation": "Her slumped body alone on the highway says isolation more honestly than any icon could."
+    }
+  },
+  {
+    "i": 123,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "LEGAL MACHINERY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humbert actively engineers her isolation — he uses the legal system as a weapon of terror to control her.",
+      "concreteVisual": "Puppeteer icon — one person controlling another. Humbert pointing at Dolores, pulling strings.",
+      "onScreenText": "LEGAL MACHINERY",
+      "relationToPrevious": "From Dolores's isolation to its architect: Humbert deliberately designs this.",
+      "addedInformation": "The puppeteer makes the control relationship visible — he is the active engineer, not just a bystander."
+    }
+  },
+  {
+    "i": 124,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE MANN ACT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "surprised",
+    "action": "talk",
+    "storyboard": {
+      "claim": "When she threatens to expose him, he threatens her with the Mann Act — a law the audience needs unpacked.",
+      "concreteVisual": "Humbert speaking calmly — the threat delivered as casual conversation.",
+      "onScreenText": "THE MANN ACT",
+      "relationToPrevious": "From abstract control to its specific legal instrument.",
+      "addedInformation": "Naming the law on screen anchors the legal jargon the hosts are about to explain."
+    }
+  },
+  {
+    "i": 125,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "A FEDERAL CRIME",
+      "style": "highlight"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The Mann Act of 1910 made it a federal crime to transport women or girls across state lines for immoral purposes.",
+      "concreteVisual": "Law icon in a courtroom — the federal statute being explained.",
+      "onScreenText": "A FEDERAL CRIME",
+      "relationToPrevious": "The hosts define the law they just named.",
+      "addedInformation": "The law icon and courtroom set place the viewer in a legal register; 'A FEDERAL CRIME' signals the gravity."
+    }
+  },
+  {
+    "i": 126,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ANY IMMORAL PURPOSE",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The law criminalizes transporting girls across state lines for prostitution, debauchery, or any immoral purpose.",
+      "concreteVisual": "Dolores in the courtroom — she is the girl the law was written to protect.",
+      "onScreenText": "ANY IMMORAL PURPOSE",
+      "relationToPrevious": "Continues the legal definition; shifts focus from the statute to its victim.",
+      "addedInformation": "Showing Dolores instead of Humbert reminds the viewer whose safety this law exists for."
+    }
+  },
+  {
+    "i": 127,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHE'S THE ONE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humbert twists the law to convince Dolores that if caught, SHE is the one who will be punished.",
+      "concreteVisual": "Humbert pointing at Dolores — accusing her, reversing the blame.",
+      "onScreenText": "SHE'S THE ONE",
+      "relationToPrevious": "From what the law says to how Humbert weaponizes it against the very person it protects.",
+      "addedInformation": "The pointing gesture makes the blame reversal physical — he aims the law at her like a weapon."
+    }
+  },
+  {
+    "i": 128,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WARD OF THE STATE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "He tells her he might go to jail, but she will become a permanent ward of the state.",
+      "concreteVisual": "Humbert speaking calmly to Dolores — delivering the threat as a rational explanation.",
+      "onScreenText": "WARD OF THE STATE",
+      "relationToPrevious": "Specifies the punishment he threatens her with.",
+      "addedInformation": "The legal phrase on screen makes the institutional threat concrete for the viewer."
+    }
+  },
+  {
+    "i": 129,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WARD DORMITORY THREAT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "surprised",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humbert's exact threat: she will live with 39 other girls in a dirty dormitory under hideous matrons.",
+      "concreteVisual": "Humbert pointing — delivering his threat with cold precision, quoting himself.",
+      "onScreenText": "WARD DORMITORY THREAT",
+      "relationToPrevious": "The exact words of the threat previewed in the previous beat.",
+      "addedInformation": "His own contemptuous word 'dopes' on screen shows how he dehumanizes the girls."
+    }
+  },
+  {
+    "i": 130,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STICK TO HER OLD MAN",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "His ultimatum: Dolores had better stick to her old man — framing himself as the lesser evil.",
+      "concreteVisual": "Humbert pointing at Dolores, presenting the false choice.",
+      "onScreenText": "STICK TO HER OLD MAN",
+      "relationToPrevious": "The conclusion of the threat: stay with me or face the institution.",
+      "addedInformation": "His phrase 'her old man' on screen exposes the grotesque possessiveness — he calls himself her guardian."
+    }
+  },
+  {
+    "i": 131,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A WORSE PUNISHMENT",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The threat makes a 12-year-old believe that the authorities are not her rescue but a worse punishment — her abuser becomes the safe option.",
+      "concreteVisual": "Dolores slumped and worried — she has internalized the trap. No shield icon because the point is protection DENIED.",
+      "onScreenText": "A WORSE PUNISHMENT",
+      "relationToPrevious": "The psychological result of the threat: she now fears rescue itself.",
+      "addedInformation": "weak: the visual mainly repeats her distress; the callout carries the inversion (authorities = punishment)."
+    }
+  },
+  {
+    "i": 132,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "GRIM INSTITUTIONS",
+        "ABUSER AS PROTECTOR"
+      ]
+    },
+    "callout": null,
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "holds": "key",
+    "storyboard": {
+      "claim": "He uses the real bleakness of 1940s welfare institutions to convince her that her abuser is her only protector.",
+      "concreteVisual": "Flow diagram: GRIM INSTITUTIONS leads to ABUSER AS PROTECTOR — the twisted logic made structural.",
+      "onScreenText": "Flow: GRIM INSTITUTIONS → ABUSER AS PROTECTOR",
+      "relationToPrevious": "Crystallizes the mechanism the last three beats described into a single cause-effect diagram.",
+      "addedInformation": "The flow makes the manipulation's logic legible at a glance — the real bleakness funnels her back to him."
+    }
+  },
+  {
+    "i": 133,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BRIBES HER COMPLIANCE",
+      "style": "highlight"
+    },
+    "set": "cafe",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "coin",
+    "storyboard": {
+      "claim": "When terror is not enough, he bribes her compliance with the cheapest American treats.",
+      "concreteVisual": "Humbert holding a coin beside Dolores in a diner — the bribe made visible.",
+      "onScreenText": "BRIBES HER COMPLIANCE",
+      "relationToPrevious": "From the stick (institutional terror) to the carrot (cheap bribes).",
+      "addedInformation": "The coin in his hand makes the transaction literal: compliance has a price."
+    }
+  },
+  {
+    "i": 134,
+    "concept": "coin",
+    "diagram": null,
+    "callout": {
+      "text": "NICKELS FOR THE JUKEBOX",
+      "style": "reveal"
+    },
+    "set": "cafe",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "coin",
+    "storyboard": {
+      "claim": "Sundaes, comic books, nickels for the jukebox — he buys her silence with loose change.",
+      "concreteVisual": "Coin icon — literal money. The cheapness of the bribe.",
+      "onScreenText": "NICKELS FOR THE JUKEBOX",
+      "relationToPrevious": "Itemizes the bribes named abstractly in the previous beat.",
+      "addedInformation": "The coin icon makes the viewer see the pathetic smallness of what he pays for her captivity."
+    }
+  },
+  {
+    "i": 135,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "BUYING HER SILENCE",
+      "style": "highlight"
+    },
+    "set": "cafe",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "He is buying her silence with loose change and milkshakes while holding the threat of institutionalization over her head.",
+      "concreteVisual": "Chains icon — she is still bound. Dolores slumped in the diner, controlled.",
+      "onScreenText": "BUYING HER SILENCE",
+      "relationToPrevious": "Pulls back from the jukebox nickels to the full picture: bribes + threat = captivity.",
+      "addedInformation": "Chains return from beat 120: the diner is just another form of the same imprisonment."
+    }
+  },
+  {
+    "i": 136,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "SWEPT UP IN THE SCENERY",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "surprised",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Because of the lyrical prose, the reader gets swept up in the scenery instead of seeing the captive.",
+      "concreteVisual": "Mask icon — false face. Humbert performing charm, his prose is the mask over reality.",
+      "onScreenText": "SWEPT UP IN THE SCENERY",
+      "relationToPrevious": "From the actual cage (bribes + threats) to how the prose hides it from the reader.",
+      "addedInformation": "Humbert's happy expression beside the mask icon tells the muted viewer: this charm is a performance, not genuine joy."
+    }
+  },
+  {
+    "i": 137,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE HOSTAGE",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "dolores",
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "We look at the red bluffs and junipers instead of looking at the hostage in the passenger seat.",
+      "concreteVisual": "Dolores sitting sadly beside Humbert on the highway — the hostage the reader overlooks.",
+      "onScreenText": "THE HOSTAGE",
+      "relationToPrevious": "The contrast to the previous beat's charming mask: here is what it hides.",
+      "addedInformation": "The narrator's word 'hostage' on screen forces the viewer to see Dolores as a captive, not a passenger."
+    }
+  },
+  {
+    "i": 138,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "AN OPAQUE VEIL",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert's prose acts as an opaque veil over the reality of the car.",
+      "concreteVisual": "Humbert speaking neutrally — the veil is his calm, composed narration.",
+      "onScreenText": "AN OPAQUE VEIL",
+      "relationToPrevious": "Names the mechanism shown across beats 136–137: the prose is a veil.",
+      "addedInformation": "weak: the visual mostly repeats Humbert talking; the callout phrase carries the metaphor."
+    }
+  },
+  {
+    "i": 139,
+    "concept": "magnifier",
+    "diagram": null,
+    "callout": {
+      "text": "THE REAL GIRL",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "storyboard": {
+      "claim": "To truly read the novel, we must rip the veil away and excavate the real girl trapped inside.",
+      "concreteVisual": "Magnifier icon — close examination. The hosts urge us to look closely at who Dolores actually is.",
+      "onScreenText": "THE REAL GIRL",
+      "relationToPrevious": "From the veil that hides her to the act of looking past it.",
+      "addedInformation": "The magnifier tells the muted viewer: we are now examining something closely. Dolores's sad face is what the examination reveals."
+    }
+  },
+  {
+    "i": 140,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BURY HER REAL IDENTITY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert spends the entire novel trying to bury the real Dolores under an ornamental mythological idea of a nymph.",
+      "concreteVisual": "Humbert talking past Dolores — he narrates over her, burying her in words.",
+      "onScreenText": "BURY HER REAL IDENTITY",
+      "relationToPrevious": "From the call to find the real girl to the force working against it: Humbert's narration.",
+      "addedInformation": "weak: the staging is abstract; the callout's violence ('bury') does the work."
+    }
+  },
+  {
+    "i": 141,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DEMON CHILD",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert wants us to see a demon child, a fatal creature who seduces him — but that is not true.",
+      "concreteVisual": "Dolores standing ordinary and neutral — NOT staged as a demonic figure. The struck-through callout rejects Humbert's framing.",
+      "onScreenText": "DEMON CHILD (struck through)",
+      "relationToPrevious": "Names Humbert's false version of Dolores so the next beat can demolish it.",
+      "addedInformation": "The strike through tells the muted viewer this label is REJECTED. Dolores's neutral, ordinary posture is the visual counter-argument."
+    }
+  },
+  {
+    "i": 142,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PAST THE ADJECTIVES",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "dolores",
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Nabokov plants the reality of Dolores in front of us if we care to look past the adjectives.",
+      "concreteVisual": "Dolores standing plain beside Nabokov — the author placed her truth in the text.",
+      "onScreenText": "PAST THE ADJECTIVES",
+      "relationToPrevious": "After rejecting the myth, the hosts credit Nabokov for embedding the reality.",
+      "addedInformation": "Showing Nabokov beside Dolores distinguishes the author's intent from Humbert's narration — Nabokov planted what Humbert tries to hide."
+    }
+  },
+  {
+    "i": 143,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HEARTBREAKINGLY ORDINARY",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Strip away the poetry and Dolores is desperately, heartbreakingly ordinary — a typical, somewhat awkward American kid.",
+      "concreteVisual": "Dolores standing neutrally in a classroom — an ordinary schoolgirl, nothing mythological.",
+      "onScreenText": "HEARTBREAKINGLY ORDINARY",
+      "relationToPrevious": "The answer to 'who is Dolores?' — the opposite of the demon child just struck through.",
+      "addedInformation": "Her neutral expression and classroom setting ARE the point: she looks like any kid in any school."
+    }
+  },
+  {
+    "i": 144,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A NORMAL TEENAGER",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "She reads comic books, chews gum, loves jazz and movies — she just wants to be a normal teenager.",
+      "concreteVisual": "Dolores happy and holding a book (comic books) in her bedroom — a kid with her interests.",
+      "onScreenText": "A NORMAL TEENAGER",
+      "relationToPrevious": "Itemizes the ordinariness named in the previous beat.",
+      "addedInformation": "Her happy face holding a book is the clearest visual of a kid being a kid — the life Humbert stole."
+    }
+  },
+  {
+    "i": 145,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DISGUSTINGLY CONVENTIONAL",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert finds her disgustingly conventional — he hates her teenage slang, her real personality.",
+      "concreteVisual": "Humbert standing coldly beside Dolores — his contempt for her ordinariness.",
+      "onScreenText": "DISGUSTINGLY CONVENTIONAL",
+      "relationToPrevious": "Humbert's response to the ordinary girl the viewer just saw: contempt.",
+      "addedInformation": "The strike rejects Humbert's framing — 'disgustingly conventional' is HIS contempt, not the truth about her."
+    }
+  },
+  {
+    "i": 146,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ENCHANTED HUNTER HOTEL",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "dolores",
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Her reality bleeds through his control — especially at the Enchanted Hunter Hotel, their first night together.",
+      "concreteVisual": "Dolores worried, sitting in a bedroom with Humbert — the hotel room where the truth breaks through.",
+      "onScreenText": "ENCHANTED HUNTER HOTEL",
+      "relationToPrevious": "From Humbert's contempt for her ordinariness to the place where her trauma surfaces.",
+      "addedInformation": "Naming the hotel on screen anchors the scene for viewers who know the novel."
+    }
+  },
+  {
+    "i": 147,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MUTUAL PASSION",
+      "style": "strike"
+    },
+    "set": "bedroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert portrays these nights as mutual passion, but the text betrays him completely — he is lying awake waiting to assault her.",
+      "concreteVisual": "Humbert standing blank-faced — NOT staged as romantic. The struck-through phrase rejects his false framing.",
+      "onScreenText": "MUTUAL PASSION (struck through)",
+      "relationToPrevious": "Inside the hotel: Humbert's version of events, immediately rejected.",
+      "addedInformation": "The strike prevents any muted viewer from reading this beat as a romance scene."
+    }
+  },
+  {
+    "i": 148,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NIGHTMARES EVERY NIGHT",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "She sits up gasping, muttering about boats — her arm strikes him across the face in her sleep. Night terrors.",
+      "concreteVisual": "Dolores sitting up in the bedroom, distressed — a child having nightmares.",
+      "onScreenText": "NIGHTMARES EVERY NIGHT",
+      "relationToPrevious": "The text's betrayal: what the mutual-passion claim actually looks like.",
+      "addedInformation": "Humbert's own words on screen — he records the violence of her sleep without understanding what it means."
+    }
+  },
+  {
+    "i": 149,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CRIES EVERY NIGHT",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "He casually mentions she cries every night when she thinks he is asleep.",
+      "concreteVisual": "Dolores slumped and sad in the bedroom — sobbing into her pillow.",
+      "onScreenText": "CRIES EVERY NIGHT",
+      "relationToPrevious": "Another detail the text lets slip: from one night's terror to the nightly pattern.",
+      "addedInformation": "Her slumped posture and sad face make the crying visible without sound."
+    }
+  },
+  {
+    "i": 150,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REFUSES TO SEE HER PAIN",
+      "style": "highlight"
+    },
+    "set": "bedroom",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert cannot engage with her pain because acknowledging it would destroy his fantasy of a willing participant.",
+      "concreteVisual": "Humbert standing idle with a blank expression beside Dolores — deliberately not seeing her suffering.",
+      "onScreenText": "REFUSES TO SEE HER PAIN",
+      "relationToPrevious": "Why Humbert ignores what beats 148–149 just showed: her pain threatens his delusion.",
+      "addedInformation": "His blank neutrality beside her suffering is the visual contrast — he cannot afford to look."
+    }
+  },
+  {
+    "i": 151,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FAIL TO SEE",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "When they settle in Beardsley and she interacts with the adult world, the institutions completely fail to see her suffering.",
+      "concreteVisual": "Dolores slumped in a classroom — suffering in plain sight while the school misses it.",
+      "onScreenText": "FAIL TO SEE",
+      "relationToPrevious": "From Humbert's private blindness to the public institutions' identical failure.",
+      "addedInformation": "The classroom set shifts the scene from the private bedroom to the public sphere — same invisibility."
+    }
+  },
+  {
+    "i": 152,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INSTITUTIONAL BLINDNESS",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The Beardsley school psychologists represent a devastating critique of 1950s institutional psychiatry — they are useless.",
+      "concreteVisual": "Dolores standing anxiously in the classroom — surrounded by an institution that cannot help her.",
+      "onScreenText": "INSTITUTIONAL BLINDNESS",
+      "relationToPrevious": "Specifies which institution fails: the school's own psychological apparatus.",
+      "addedInformation": "weak: the visual is similar to the previous beat; the callout's bluntness does the emotional work."
+    }
+  },
+  {
+    "i": 153,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DOLORES IS STRUGGLING",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "The headmistress calls Humbert in because Dolores is struggling — but they misread the cause.",
+      "concreteVisual": "Humbert walking into the classroom with Dolores present — the abuser summoned as the concerned parent.",
+      "onScreenText": "DOLORES IS STRUGGLING",
+      "relationToPrevious": "The institution's attempt to intervene: they call in the wrong person.",
+      "addedInformation": "Showing Humbert entering the school makes the irony visible: the predator walks into the rescue meeting."
+    }
+  },
+  {
+    "i": 154,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "OBVIOUS SIGNS",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Instead of recognizing the obvious signs of a traumatized, abused child, they hide behind mid-century Freudian jargon.",
+      "concreteVisual": "Dolores sitting sadly — the signs are right there on her face, and the school cannot read them.",
+      "onScreenText": "OBVIOUS SIGNS",
+      "relationToPrevious": "What the school sees but cannot interpret correctly.",
+      "addedInformation": "Her visible sadness IS the obvious sign — the viewer can see what the institution misses."
+    }
+  },
+  {
+    "i": 155,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BIOLOGIC DRIVES",
+      "style": "strike"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "surprised",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Miss Pratt tells Humbert that Dolores is shuttling between anal and genital zones of development — absurd Freudian jargon over a kidnapped child.",
+      "concreteVisual": "Humbert sitting with a surprised expression — even the abuser finds the jargon absurd.",
+      "onScreenText": "BIOLOGIC DRIVES (struck through)",
+      "relationToPrevious": "The school's actual language, struck through to show the hosts reject it as absurd.",
+      "addedInformation": "The strike through tells the muted viewer this clinical phrase is being mocked, not endorsed."
+    }
+  },
+  {
+    "i": 156,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ALL THE RED FLAGS",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "They note all the red flags — constant sighing, defiance, dropping grades — but cannot connect them to abuse.",
+      "concreteVisual": "Dolores slumped and sad in the classroom — every flag is visible on her body.",
+      "onScreenText": "ALL THE RED FLAGS",
+      "relationToPrevious": "From the jargon they use to the symptoms they document but cannot read.",
+      "addedInformation": "Her slumped posture embodies the red flags: the viewer sees what the school catalogues but ignores."
+    }
+  },
+  {
+    "i": 157,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE FACTS OF LIFE",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Their solution: have Humbert — the man raping her — get the family doctor to tell her the facts of life.",
+      "concreteVisual": "Humbert sitting calmly in the school — the institution hands authority back to the predator.",
+      "onScreenText": "THE FACTS OF LIFE",
+      "relationToPrevious": "The school's solution to the red flags: astonishingly wrong.",
+      "addedInformation": "The phrase on screen is devastating in context — 'the facts of life' for a child whose life is being destroyed."
+    }
+  },
+  {
+    "i": 158,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A KIDNAPPED HOSTAGE",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "They have a kidnapped hostage in their classroom and think she just has a bad attitude and needs more group singing.",
+      "concreteVisual": "Dolores sitting sadly in the classroom — a hostage they think is merely difficult.",
+      "onScreenText": "A KIDNAPPED HOSTAGE",
+      "relationToPrevious": "The narrator's reframing of everything the school has missed: this child is a hostage.",
+      "addedInformation": "The harsh phrase 'kidnapped hostage' against the classroom set forces the viewer to see the absurd gap between what she is and how the school reads her."
+    }
+  },
+  {
+    "i": 159,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "HIS RESPECTABLE PERSONA",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "blank",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert's respectable, educated European persona completely blinds the American authorities to the monster underneath.",
+      "concreteVisual": "Mask icon — false face. Humbert charming and talking with a happy expression in the school — his facade works on everyone.",
+      "onScreenText": "HIS RESPECTABLE PERSONA",
+      "relationToPrevious": "Why the institution fails: Humbert's persona is the mask they cannot see through.",
+      "addedInformation": "The mask icon tells the muted viewer his charm is a performance; his happy expression is the lie the school buys."
+    }
+  }
+]

@@ -1,0 +1,901 @@
+[
+  {
+    "i": 40,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "Not a Crime",
+      "style": "strike"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "By invoking Dante and Petrarch, Humbert reframes his obsession as literary destiny, not crime.",
+      "concreteVisual": "Humbert addresses the jury with the shield icon — literary allusions used as armor against conviction.",
+      "onScreenText": "NOT A CRIME",
+      "relationToPrevious": "Continues from the Dante/Petrarch strategy (context beats 37-39): now the payoff of that alignment.",
+      "addedInformation": "Shield makes the defensive purpose visible; the strike-through rejects the claim for the viewer."
+    }
+  },
+  {
+    "i": 41,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Grand Romantic Destiny",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert positions himself as a victim of the same poetic fate as Dante — a grand romantic destiny.",
+      "concreteVisual": "Humbert alone against an abstract backdrop, performing the grand claim the struck-through text rejects.",
+      "onScreenText": "GRAND ROMANTIC DESTINY",
+      "relationToPrevious": "Elaborates beat 40's shield defense: the specific phrase he hides behind.",
+      "addedInformation": "The strike-through tells the muted viewer this phrase is a lie the hosts are dismantling."
+    }
+  },
+  {
+    "i": 42,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Point of All This",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "storyboard": {
+      "claim": "A host pauses: if Humbert knows he is doomed and will die in prison, what is the actual point of the confession?",
+      "concreteVisual": "Humbert sits in the prison cell — the confined man whose motive for writing is the question.",
+      "onScreenText": "THE POINT OF ALL THIS",
+      "relationToPrevious": "Interrupts the analysis of Humbert's strategy to ask why he bothers at all.",
+      "addedInformation": "Placing him in the cell grounds the question: he is already caught, so what does the confession serve?"
+    }
+  },
+  {
+    "i": 43,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Con Artist",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Is the confession sincere or is it the ultimate arrogant brag from a con artist proving he is the smartest in the courtroom?",
+      "concreteVisual": "Humbert smirks in the courtroom — the arrogant face of a man enjoying his own performance.",
+      "onScreenText": "CON ARTIST",
+      "relationToPrevious": "Answers beat 42's question with a hypothesis: this is vanity, not remorse.",
+      "addedInformation": "The smirk tells the muted viewer this man is pleased with himself, not contrite."
+    }
+  },
+  {
+    "i": 44,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "Performing Remorse",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The confession is entirely a brag disguised as a confession — he performs remorse but the performance is purely aesthetic.",
+      "concreteVisual": "Humbert wears a sad face beside the mask icon — the grief is worn, not felt.",
+      "onScreenText": "PERFORMING REMORSE",
+      "relationToPrevious": "Confirms beat 43's hypothesis: this IS a con artist's brag.",
+      "addedInformation": "Mask + performed sadness together tell the muted viewer the emotion is fake — a costume, not a feeling."
+    }
+  },
+  {
+    "i": 45,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Admired for the Way",
+      "style": "highlight"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert does not want forgiveness — he wants to be admired for the beauty of how he confesses.",
+      "concreteVisual": "Humbert's vain, pleased expression as he addresses the court — admiration is the real goal.",
+      "onScreenText": "ADMIRED FOR THE WAY",
+      "relationToPrevious": "From the fake remorse (44) to his true motive: applause, not absolution.",
+      "addedInformation": "The happy face after the sad mask of beat 44 shows the real emotion underneath the performance."
+    }
+  },
+  {
+    "i": 46,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "Write So Beautifully",
+      "style": "highlight"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "He dares the jury to convict a man who can write so beautifully — the prose IS the defense.",
+      "concreteVisual": "Humbert holds the manuscript, his weapon: the beautiful writing that dares the jury to convict.",
+      "onScreenText": "WRITE SO BEAUTIFULLY",
+      "relationToPrevious": "The logical conclusion of beats 43-45: what his performance actually demands from the jury.",
+      "addedInformation": "The notes in hand make the manuscript visible as the instrument of his defense."
+    }
+  },
+  {
+    "i": 47,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "Smoke Bomb",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "nabokov",
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Every literary allusion and poetic rhythm is a smoke bomb to disorient the reader — and Nabokov is actively testing you.",
+      "concreteVisual": "Mask icon — the literary allusions are a disguise. Nabokov stands beside a worried Humbert, pointing: the deception is exposed.",
+      "onScreenText": "SMOKE BOMB",
+      "relationToPrevious": "Shifts from Humbert's motive (45-46) to Nabokov's design: the game is the author's, not just the character's.",
+      "addedInformation": "Mask icon + worried expression tells the muted viewer someone is hiding behind a false face, not celebrating."
+    }
+  },
+  {
+    "i": 48,
+    "concept": "road",
+    "diagram": null,
+    "callout": {
+      "text": "More Susceptible",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The more educated you are, the more susceptible you become — recognizing the references creates kinship with the narrator.",
+      "concreteVisual": "Nabokov points at the funnel-trap icon: education funnels the reader into the trap.",
+      "onScreenText": "MORE SUSCEPTIBLE",
+      "relationToPrevious": "Explains the mechanism of beat 47's game: how exactly the smoke bomb works.",
+      "addedInformation": "The funnel-trap makes the mechanism visible — the reader's knowledge is what pulls them in."
+    }
+  },
+  {
+    "i": 49,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Already on His Side",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "If you get the Dante reference, you feel smart — and then you are already on Humbert's side.",
+      "concreteVisual": "Humbert's satisfied face in the courtroom: he has won the educated reader over without them noticing.",
+      "onScreenText": "ALREADY ON HIS SIDE",
+      "relationToPrevious": "The result of beat 48's funnel: the reader lands on the predator's side.",
+      "addedInformation": "His pleased expression shows the trap has closed — the reader's complicity is secured."
+    }
+  },
+  {
+    "i": 50,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Aesthetic Beauty",
+        "Moral Override"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The central question: will you allow aesthetic beauty to override your basic moral judgment?",
+      "concreteVisual": "A flow diagram showing aesthetic beauty leading to moral override — the mechanism of the novel distilled.",
+      "onScreenText": "Aesthetic Beauty → Moral Override",
+      "relationToPrevious": "Crystallizes the trap described in beats 47-49 into a single structural diagram.",
+      "addedInformation": "The diagram makes the cause-and-effect explicit: beauty is not a neutral quality, it is a weapon aimed at your judgment."
+    }
+  },
+  {
+    "i": 51,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Annabel Lee",
+      "style": "reveal"
+    },
+    "set": "shore",
+    "shotOverride": "twoShot",
+    "cast": [
+      "humbert",
+      "annabel"
+    ],
+    "expression": "sad",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Humbert needs a sympathetic origin story, and he constructs one around his childhood sweetheart Annabel Lee.",
+      "concreteVisual": "Humbert reaches toward Annabel on the shore — the manufactured romantic origin made visible.",
+      "onScreenText": "ANNABEL LEE",
+      "relationToPrevious": "Beat 50 asked why he needs beauty as a weapon; this answers with his first move: a tragic backstory.",
+      "addedInformation": "Showing both characters together introduces Annabel and stages the 'lost love' narrative Humbert constructs."
+    }
+  },
+  {
+    "i": 52,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Riviera Setup",
+      "style": "highlight"
+    },
+    "set": "shore",
+    "cast": [
+      "humbert",
+      "annabel"
+    ],
+    "expression": "smirk",
+    "action": "walk",
+    "storyboard": {
+      "claim": "They met in 1919 on the Riviera — an elaborately staged romantic setting.",
+      "concreteVisual": "Humbert and Annabel walk along the shore, happy — the nostalgic scene Humbert paints for the jury.",
+      "onScreenText": "THE RIVIERA SETUP",
+      "relationToPrevious": "Continues beat 51: the origin story unfolds in its picturesque setting.",
+      "addedInformation": "weak: the visual stages Humbert's version faithfully; the word 'setup' in the callout hints it is constructed."
+    }
+  },
+  {
+    "i": 53,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "Dies of Typhus",
+      "style": "reveal"
+    },
+    "set": "shore",
+    "cast": [
+      "annabel",
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Before they consummate the relationship, Annabel dies of typhus — and Humbert blames his entire adult life on this tragedy.",
+      "concreteVisual": "Annabel collapses on the shore beside the grave icon; Humbert slumps in performed grief.",
+      "onScreenText": "DIES OF TYPHUS",
+      "relationToPrevious": "The Riviera romance (52) ends in death — the pivot of Humbert's origin story.",
+      "addedInformation": "Grave icon + the death callout make the tragedy literal for a muted viewer."
+    }
+  },
+  {
+    "i": 54,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "LOLITA BEGAN WITH ANNABEL",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Humbert claims 'Lolita began with Annabel' and borrows Edgar Allan Poe's poem Annabel Lee to frame the connection.",
+      "concreteVisual": "Humbert holds a book in the library — literally borrowing from literature to make his case.",
+      "onScreenText": "LOLITA BEGAN WITH ANNABEL",
+      "relationToPrevious": "After Annabel's death (53), Humbert draws the line to Dolores — the hosts reject this with a strike.",
+      "addedInformation": "The book icon makes the literary borrowing concrete; the strike-through tells viewers the claim is false."
+    }
+  },
+  {
+    "i": 55,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "Borrowing Poe's Grief",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Humbert borrows Poe's grief to dress up his own predation — he wants the jury to pity him.",
+      "concreteVisual": "Humbert holds the book with a sad face beside the mask icon — the grief is borrowed, the sadness performed.",
+      "onScreenText": "BORROWING POE'S GRIEF",
+      "relationToPrevious": "Deepens beat 54: not just citing Poe but wearing his grief as a disguise.",
+      "addedInformation": "Mask + performed sadness together show the muted viewer that this grief is a costume, not genuine feeling."
+    }
+  },
+  {
+    "i": 56,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Frozen in Time",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humbert frames his condition as eternal arrested development — a man frozen in time by teenage heartbreak.",
+      "concreteVisual": "Humbert stands motionless in an abstract void, performing the paralysis he claims defines him.",
+      "onScreenText": "FROZEN IN TIME",
+      "relationToPrevious": "The emotional conclusion of the Annabel strategy (51-55): what the origin story is supposed to prove.",
+      "addedInformation": "His idle stance and sad expression stage the claim physically — a man who appears stuck."
+    }
+  },
+  {
+    "i": 57,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Not a Predator",
+      "style": "strike"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert's narrative: 'I am not a predator making active choices — I am just a man with a broken heart trying to recapture lost love.'",
+      "concreteVisual": "Humbert addresses the court with a sad face, performing innocence — the strike-through rejects the claim.",
+      "onScreenText": "NOT A PREDATOR",
+      "relationToPrevious": "States the full version of the defense beats 51-56 have built up.",
+      "addedInformation": "The strike-through does the critical work: without sound, the viewer reads the words being explicitly rejected."
+    }
+  },
+  {
+    "i": 58,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Tragic Origin Story",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "It is like a comic-book villain writing their own tragic origin story — a defense attorney tampering with emotional evidence.",
+      "concreteVisual": "Humbert in the prison cell holding his manuscript, performing vulnerability as he writes his own myth.",
+      "onScreenText": "TRAGIC ORIGIN STORY",
+      "relationToPrevious": "Reframes beats 51-57 in a single dismissive comparison: this is a villain's self-authored myth.",
+      "addedInformation": "The strike-through tells the muted viewer: even 'tragic origin story' is rejected — it is pure fabrication."
+    }
+  },
+  {
+    "i": 59,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Don't Look at the Foundation",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humbert builds a beautiful facade over a structurally condemned building and begs the reader not to examine the foundation.",
+      "concreteVisual": "Humbert points away from something — directing attention elsewhere, the con artist's misdirection.",
+      "onScreenText": "DON'T LOOK AT THE FOUNDATION",
+      "relationToPrevious": "Transitions from the fabricated origin (51-58) to the structural metaphor: what holds it up is rotten.",
+      "addedInformation": "His pointing gesture makes the misdirection physical — he is literally directing the viewer's gaze away."
+    }
+  },
+  {
+    "i": 60,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Foundation Is Rotten",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The foundation of the Annabel defense is rotten — the beautiful arch is built on something that cannot hold.",
+      "concreteVisual": "Humbert in the abstract void, no icon — the callout alone carries the revelation.",
+      "onScreenText": "FOUNDATION IS ROTTEN",
+      "relationToPrevious": "Completes beat 59's metaphor: what he told you not to look at is exactly what is wrong.",
+      "addedInformation": "weak: staging is minimal — the callout does the work, echoing the previous beat's warning."
+    }
+  },
+  {
+    "i": 61,
+    "concept": "magnifier",
+    "diagram": null,
+    "callout": {
+      "text": "Leaves the Receipts",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Nabokov leaves the receipts lying around — evidence that the origin story is fabricated, hidden in plain sight for the careful reader.",
+      "concreteVisual": "Nabokov points at the magnifier icon: close examination reveals what Humbert tries to hide.",
+      "onScreenText": "LEAVES THE RECEIPTS",
+      "relationToPrevious": "Shifts credit from the rotten foundation (60) to the architect who planted the evidence: Nabokov.",
+      "addedInformation": "Magnifier makes 'close reading' visual; Nabokov's presence names the author as the one leaving clues."
+    }
+  },
+  {
+    "i": 62,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "He Slips Up",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "nabokov",
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Nabokov allows Humbert to spin the romantic yarn but forces the careful reader to notice where Humbert slips up.",
+      "concreteVisual": "Nabokov stands behind Humbert, pointing at him — the architect catching his own character in a lie.",
+      "onScreenText": "HE SLIPS UP",
+      "relationToPrevious": "From Nabokov's planted evidence (61) to the specific moment: Humbert's mask fails.",
+      "addedInformation": "The two-character staging shows author and character in the same frame — the puppeteer and his creation."
+    }
+  },
+  {
+    "i": 63,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Paralyzed by Grief",
+      "style": "strike"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Humbert claims he was paralyzed by grief, incapable of adult romance — the hosts reject this.",
+      "concreteVisual": "Humbert slumps in the courtroom performing paralysis — the strike-through brands the claim a lie.",
+      "onScreenText": "PARALYZED BY GRIEF",
+      "relationToPrevious": "Restates the specific claim (from 56-57) that Nabokov's evidence (61-62) will now dismantle.",
+      "addedInformation": "The strike-through paired with performed grief tells the muted viewer: this sadness is an act being exposed."
+    }
+  },
+  {
+    "i": 64,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Mask Slips",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "During Humbert's European period, the mask slips completely — long before America or Dolores, his true nature shows.",
+      "concreteVisual": "Humbert on a European street with a caught expression — the mask slipping off.",
+      "onScreenText": "THE MASK SLIPS",
+      "relationToPrevious": "Beat 63 stated the false claim; this beat shows the moment Nabokov lets it crack.",
+      "addedInformation": "The surprised expression stages the 'slip' — Humbert's composure breaks and the truth shows through."
+    }
+  },
+  {
+    "i": 65,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Stalking Children",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "walk",
+    "storyboard": {
+      "claim": "During his supposed grief period, Humbert was actively stalking children in Paris parks.",
+      "concreteVisual": "Humbert walks a European street with a cold, calculating expression — not frozen in grief but on the prowl.",
+      "onScreenText": "STALKING CHILDREN",
+      "relationToPrevious": "The first piece of Nabokov's evidence (from 61-62): what 'paralyzed by grief' actually looked like.",
+      "addedInformation": "His neutral, focused face contrasts beat 63's performed sadness — the same man, unmasked."
+    }
+  },
+  {
+    "i": 66,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Pretending to Read",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "holds": "book",
+    "storyboard": {
+      "claim": "He describes sitting on a park bench pretending to read a book while watching children.",
+      "concreteVisual": "Humbert sits holding a book — not reading it, using it as a prop to disguise what he is doing.",
+      "onScreenText": "PRETENDING TO READ",
+      "relationToPrevious": "Zooms into the park scene from beat 65: the specific image Nabokov gives us.",
+      "addedInformation": "The book in hand makes 'pretending' concrete — the intellectual prop is physically visible."
+    }
+  },
+  {
+    "i": 67,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "Book for Fig Leaf",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Humbert's own words: 'my book for fig leaf' — literature literally and metaphorically covering his predation.",
+      "concreteVisual": "Humbert sits with the book held in front of him — the book icon reinforces the physical object as a shield.",
+      "onScreenText": "BOOK FOR FIG LEAF",
+      "relationToPrevious": "The damning punchline of beat 66's park-bench scene: the book is not intellectual, it is a cover.",
+      "addedInformation": "The book icon makes the object central; the callout names its function — a fig leaf, not literature."
+    }
+  },
+  {
+    "i": 68,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Literature to Cover",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "That phrase dismantles his entire defense — he uses literature to literally and metaphorically cover his predation in public parks.",
+      "concreteVisual": "Humbert standing, holding the book as an instrument — literature reduced to a covering device.",
+      "onScreenText": "LITERATURE TO COVER",
+      "relationToPrevious": "Expands beat 67's quote into the systemic insight: literature is always his cover story.",
+      "addedInformation": "weak: similar staging to 67; the callout shift from 'fig leaf' to 'literature to cover' widens the meaning."
+    }
+  },
+  {
+    "i": 69,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Calculated Predatory",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "walk",
+    "storyboard": {
+      "claim": "There is no romantic destiny here — only calculated predatory behavior.",
+      "concreteVisual": "Humbert walks the street with a cold, purposeful face — no trace of the grieving romantic.",
+      "onScreenText": "CALCULATED PREDATORY",
+      "relationToPrevious": "The verdict on the park-bench evidence (65-68): what he is, stripped of the prose.",
+      "addedInformation": "His neutral, deliberate walk visually opposes the slumping grief of beat 63 — the contrast is the proof."
+    }
+  },
+  {
+    "i": 70,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Monique Scene",
+      "style": "reveal"
+    },
+    "set": "cafe",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Humbert casually mentions interactions with a young Parisian street walker named Monique.",
+      "concreteVisual": "Humbert in a Parisian cafe setting — the European backdrop where a second piece of evidence surfaces.",
+      "onScreenText": "THE MONIQUE SCENE",
+      "relationToPrevious": "A new receipt after the park bench (65-69): another incident that dismantles the Annabel defense.",
+      "addedInformation": "Naming the scene gives the muted viewer a landmark in the evidence chain."
+    }
+  },
+  {
+    "i": 71,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Sadistic Pleasure",
+      "style": "reveal"
+    },
+    "set": "cafe",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Monique claims she is 18, but Humbert deduces she is younger and takes immense sadistic pleasure in that realization.",
+      "concreteVisual": "Humbert with a satisfied, sinister expression — this is not joy but the pleasure of a predator confirmed.",
+      "onScreenText": "SADISTIC PLEASURE",
+      "relationToPrevious": "The detail from the Monique scene (70): what Humbert actually feels is predatory satisfaction.",
+      "addedInformation": "His pleased face is deliberately unsettling: the muted viewer sees a man happy about something the callout names as sadistic."
+    }
+  },
+  {
+    "i": 72,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Imitation of a Little Girl",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert marries his first wife Valeria but admits he only tolerated her because she gave an imitation of a little girl.",
+      "concreteVisual": "Humbert in a domestic bedroom, cold and detached — the marriage was never about the woman.",
+      "onScreenText": "IMITATION OF A LITTLE GIRL",
+      "relationToPrevious": "Third receipt after the park bench (65-69) and Monique (70-71): the pattern is now undeniable.",
+      "addedInformation": "The bedroom set makes the domestic context real; his neutral expression shows he feels nothing for the wife."
+    }
+  },
+  {
+    "i": 73,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Stole from an Orphanage",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "storyboard": {
+      "claim": "He stole a child's nightgown from an orphanage and forced his adult wife to wear it so he could pretend.",
+      "concreteVisual": "Humbert holds an unseen object in the bedroom — the cruelty of the detail staged through his cold composure.",
+      "onScreenText": "STOLE FROM AN ORPHANAGE",
+      "relationToPrevious": "Deepens beat 72: not just a psychological preference but a concrete, planned act of cruelty.",
+      "addedInformation": "His casual holding gesture and flat expression make the calculated cruelty visible — no remorse, no hesitation."
+    }
+  },
+  {
+    "i": 74,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Annabel Story",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert",
+      "annabel"
+    ],
+    "expression": "sad",
+    "action": "point",
+    "storyboard": {
+      "claim": "The Annabel story is nothing more than a convenient fiction — the evidence proves he was a predator long before any lost love.",
+      "concreteVisual": "Humbert and the ghost of Annabel in abstract space — the strike-through crosses out the entire origin story.",
+      "onScreenText": "THE ANNABEL STORY",
+      "relationToPrevious": "Verdict on all the evidence (65-73): the origin story is definitively debunked.",
+      "addedInformation": "Showing Annabel one last time with the strike-through makes the dismissal visual: she was never the reason."
+    }
+  },
+  {
+    "i": 75,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "Fully Formed Predator",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "angry",
+    "action": "hold",
+    "storyboard": {
+      "claim": "He was a fully formed, active predator in Europe — not waiting for a ghost but actively seeking victims.",
+      "concreteVisual": "Humbert walks with cold purpose on a European street — a predator in motion, not a grieving man frozen in time.",
+      "onScreenText": "FULLY FORMED PREDATOR",
+      "relationToPrevious": "The summary of beats 64-74: this is who he was the entire time.",
+      "addedInformation": "His deliberate stride directly contradicts the frozen-in-time claim from beat 56."
+    }
+  },
+  {
+    "i": 76,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WOMEN AS TEMPORARY FIXES",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "He used adult women as 'palliative agents' — a temporary fix — and by the time he reaches America, his pathology is a finely tuned engine.",
+      "concreteVisual": "Humbert on the highway heading toward America — his pathology travels with him.",
+      "onScreenText": "WOMEN AS TEMPORARY FIXES",
+      "relationToPrevious": "Bridge from Europe (64-75) to America: his predation is not a crisis but a system.",
+      "addedInformation": "The highway set signals transit — the predator is on the move to new territory."
+    }
+  },
+  {
+    "i": 77,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "Infiltrate a Host Family",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "In America, he needs a host family to infiltrate — a place to stay and a target to access.",
+      "concreteVisual": "Humbert walking toward a suburban street beside the funnel-trap icon: he is setting a trap, not seeking a home.",
+      "onScreenText": "INFILTRATE A HOST FAMILY",
+      "relationToPrevious": "Arrives in America (76) and immediately seeks a target — the predator's method continues.",
+      "addedInformation": "The funnel-trap icon makes the infiltration strategy visible: the family is being funneled into his plan."
+    }
+  },
+  {
+    "i": 78,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Brightly Lit Suburbs",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Instead of hiding in shadows, he walks into the brightly lit postwar American suburbs — the cynical European predator meets naive America.",
+      "concreteVisual": "Humbert strides confidently into a suburban street — the collision between predator and open, trusting landscape.",
+      "onScreenText": "BRIGHTLY LIT SUBURBS",
+      "relationToPrevious": "The surprise of beat 77: he does the opposite of hiding.",
+      "addedInformation": "The street set stages the American suburb; his confident walk shows he feels no need to conceal himself here."
+    }
+  },
+  {
+    "i": 79,
+    "concept": "home",
+    "diagram": null,
+    "callout": {
+      "text": "342 Lawn Street",
+      "style": "reveal"
+    },
+    "set": "room",
+    "shotOverride": "twoShot",
+    "cast": [
+      "charlotte",
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The collision gives us Charlotte Haze and 342 Lawn Street in Ramsdale — some of the most masterful and disturbing chapters in the novel.",
+      "concreteVisual": "Charlotte greets Humbert in the boarding-house parlor — the home icon marks the specific address.",
+      "onScreenText": "342 LAWN STREET",
+      "relationToPrevious": "The predator (75-78) finds his target: a specific house, a specific woman, a specific child inside.",
+      "addedInformation": "Charlotte's eager, happy expression introduces her character immediately — trying too hard to impress the European lodger."
+    }
+  }
+]

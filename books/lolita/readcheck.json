@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-26T13:08:42.168Z",
+  "n": 9,
+  "totals": {
+    "CORRECT": 8,
+    "NEUTRAL": 0,
+    "WRONG": 1
+  },
+  "wrongRate": 0.111,
+  "blame": {
+    "words": 1
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 81,
+      "verdict": "WRONG",
+      "blame": "words",
+      "why": "The viewer takes 'WHITE FRAME HORROR' literally as something horrific happening inside the house, whereas the narration is Humbert scornfully insulting the house and Charlotte herself.",
+      "concept": "home",
+      "callout": "WHITE FRAME HORROR"
+    }
+  ]
+}

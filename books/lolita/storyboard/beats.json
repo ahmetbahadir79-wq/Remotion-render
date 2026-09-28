@@ -1,0 +1,2146 @@
+{
+  "book": {
+    "slug": "lolita",
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "genre": "classics"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "Here's what nobody tells you about Lolita. The most disturbing thing in this novel is not what Humbert does to that 12-year-old girl.",
+      "callout": {
+        "text": "HERE'S WHAT NOBODY",
+        "style": "box"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the moment, maybe 30 pages in when you realize his pros is so beautiful that you almost forgot to be horrified.",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that's exactly the track Nabokov built for you. Yeah, it really is the ultimate literary ambush. I mean, you are walking into this meticulously constructed snare and the bait is just oh well, it's",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the sheer breathtaking aesthetics of the English right? Which is why we're doing this deep dive today. Welcome in. By the way, we are looking at a text that has fundamentally misunderstood",
+      "callout": null
+    },
+    {
+      "i": 4,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "itself, or rather pop culture has misunderstood it for decades. Oh, absolutely. Decades of complete Exactly.",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, if you walk down the street right now and ask people what this book is about, you'll hear words like scandalous or, you know, forbidden romance, maybe even tragic love, which is wild when you actually read it.",
+      "callout": {
+        "text": "TRAGIC LOVE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 6,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is because based on the stack of original excerpts we're pouring over today, that is a complete misread. So, our mission, the thesis we have to prove to you today is much darker.",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is not a love story. Not even close. It's really literature's most elaborate crime scene. And the murder weapon is language itself. I love that way of framing it",
+      "callout": {
+        "text": "NOT A LOVE STORY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because to even begin to understand the mechanics of this crime, we really have to look closely at the setup Nabokov gives us.",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "So set the scene for us. Where and when are we right? So the temporal setting is the late 1940s primarily 1947 slipping into 48.",
+      "callout": {
+        "text": "1947",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 10,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are deeply immersed in post-war small town America. Picket fences, diners, that whole vibe. Exactly. But the critical piece of the puzzle, the thing you have to keep in mind is that we are never allowed to see this world objectively.",
+      "callout": {
+        "text": "KEEP IN MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 11,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Not for a second. We are trapped entirely behind the eyes of our narrator, Humbert Humbert, who is um quite the character, to say the least.",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's a European emigr, a literature professor. He possesses this impeccable diction,",
+      "callout": null
+    },
+    {
+      "i": 13,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "a vast encyclopedic knowledge of Western literature, and of course, a deeply monstrous secret fixation. And the context of where he's speaking from",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "changes literally everything because he isn't writing a memoir from some cozy academic study. No, not at all.",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's writing from a prison cell. He's awaiting trial for murder. And he explicitly addresses the text to the",
+      "callout": null
+    },
+    {
+      "i": 16,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "ladies and gentlemen of the jury, which is such a brilliant, terrifying twist, right? Because there is no literal jury, The reader is the jury. You are the jury.",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "His entire goal from the very first syllable of the manuscript is to manufacture our consent for his inexcusable acts because he knows he's a monster.",
+      "callout": {
+        "text": "ENTIRE GOAL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 18,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, he's acutely aware of it. And he knows that we know he is a monster. So, he doesn't try to deny the events. That would be too easy, right?",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Instead, he constructs this entire aesthetic architecture to house his abuse. He wants to use the most dazzling hypnotic pros of the 20th century to make us just sort of nod To make us say, \"Well,",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "it's a tragedy, but I understand the artist's soul.\" Exactly. He wants you to excuse the inexcusable",
+      "callout": {
+        "text": "YOU TO EXCUSE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 21,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "because he phrased it so I want to talk about how he actually executes that trap because he doesn't waste any time. He goes for the psychological jugular right on page one. Oh, the opening line.",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. The opening incantation of this book is famous for a reason. He writes, and I have to quote this because it's just so wild.",
+      "callout": null
+    },
+    {
+      "i": 23,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lolita, light of my life, fire of my loins, my sin, my soul.",
+      "callout": {
+        "text": "LIFE FIRE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 24,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lolita, the tip of the tongue, taking a trip of three steps down the pallet to tap at three on the teeth.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lol. It's pure poetry. I mean, I read that and I immediately feel the rhythm pulling me in. It's almost musical. It is entirely musical.",
+      "callout": null
+    },
+    {
+      "i": 26,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And more importantly, it is entirely manipulative. Look at what he is doing to you physically as a reader in that exact moment. What do you mean physically?",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, he is forcing your mouth, your tongue, your vocal cords to move in the exact way he dictates. The tip of the tongue taking a trip of three steps. Oh, wow.",
+      "callout": {
+        "text": "MOVE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 28,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "I didn't even think about that. You literally have to mouth the words to read it properly. Right before you have even begun to process the moral reality of the confession, he has cast a hypnotic spell over your body.",
+      "callout": {
+        "text": "OVER YOUR BODY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 29,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are vibrating at his That is so creepy. It is. He is establishing absolute dominance over the narrative right out of the gate.",
+      "callout": null
+    },
+    {
+      "i": 30,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he's so arrogant about it. That's what really gets me. He knows he's playing us. Just a little further down. He openly admits his capacity for He lays it all out. He literally says to the reader, \"You",
+      "callout": null
+    },
+    {
+      "i": 31,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "can always count on a murderer for a fancy pros style.\" It's the ultimate confidence trick.",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "By winking at the audience in pointing out his own unreliability, he paradoxically makes us trust him more because we think, \"Oh, well, he's being honest with us.\" Exactly.",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He disarms our skepticism. But what's truly fascinating is the mechanism he uses to build his defense He doesn't just say, \"I",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "suffer from a terrible localized pathology.\" Right? He elevates it. Yes. He historicalizes his predation by wrapping himself in the cloak of the great tragic romantic poets.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He drops these massive high literary illusions constantly. He brings in Virgil.",
+      "callout": null
+    },
+    {
+      "i": 36,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He references King Aetton's He's showing off his education. Yeah. Yeah. And then he brings in the heavy hitters to justify his specific fixation.",
+      "callout": null
+    },
+    {
+      "i": 37,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He argues that well, you know, Dante fell madly in love with Beatatrice when she was just 9 years old, a sparkling gerene, as he calls her,",
+      "callout": {
+        "text": "9 YEARS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 38,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And then he points out that when Petro fell madly in love with his Lorine, she was a 12-year-old nymph running in the If we unpack that strategy, it really reveals the core of his",
+      "callout": null
+    },
+    {
+      "i": 39,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "manipulation. Why, Dante and Petrarch? Because they're untouchable. Exactly. They are the untouchable pillars of western romantic literature.",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "By aligning himself with them, Humbert is telling the jury, meaning us, that his obsession is not a crime. It's a destiny, right?",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "A grand historical romantic destiny. If Dante can fall in love with a 9-year-old, and we rever Dante as a genius, then Humbert is suggesting he is merely a victim of the exact same poetic Wait, I'm stuck on something here.",
+      "callout": {
+        "text": "WAIT I'M STUCK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 42,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "What's up? If he knows he's doomed, I mean, he's in prison. He's going to die there one way or another. What is the actual point of all this? That is the million-dollar question, right?",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Like, is this actually a confession or is it just the ultimate arrogant brag from a con artist who needs to prove he's the smartest guy in the courtroom before the lights go out?",
+      "callout": null
+    },
+    {
+      "i": 44,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "I would argue it is entirely a brag disguised as a confession. He is performing remorse, but the performance is purely aesthetic.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So he doesn't actually care about being forgiven. Not really. He wants to be admired for the way he confesses.",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Not forgiven for the crime itself. He is effectively daring the jury to convict a man who can write so beautifully.",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's like a game to him. It is. Every literary illusion, every French phrase, every poetic rhythm is a smoke bomb designed to disorient you. Nabalov is actively testing you,",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the listener. Right here. Testing is how? Well, the more educated you are, the more susceptible you become because you recognize the references and you feel a kinship with the narrator's",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, man. So, if you get the Dante reference, you feel smart and then you're already on his side. Exactly. The trap is asking,",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "will you allow aesthetic beauty to override your basic moral judgment? That perfectly explains why he needs an origin story. Because if you're going to build a sympathetic defense, you can't just be a spontaneous",
+      "callout": {
+        "text": "ORIGIN STORY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 51,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "monster. No, you need a genesis, right? You need a reason for the trauma. And that brings us to his childhood sweetheart, Annabelle Lee. He constructs this incredibly",
+      "callout": null
+    },
+    {
+      "i": 52,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "elaborate tragic The whole Riviera setup. Yeah. He tells us they met in 1919 on the Riviera in a Princeton by the Sea.",
+      "callout": {
+        "text": "1919",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 53,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They fall madly in love as teenagers, but it's doomed, right? Before they can fully consummate the relationship, she dies of typhus and Corfu, and he lays the blame for his entire adult life at the",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "feet of this tragedy. He literally claims in a certain magic and fateful way, Lolita began with Annabelle. The echo of Eden Poe there is entirely Oh, Annabelle Lee. Exactly. Annabelle Lee, the Princeton by the",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Sea. Humbert is quite literally borrowing Po's grief to dress up his own He wants us to feel sorry for him.",
+      "callout": null
+    },
+    {
+      "i": 56,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He wants the jury to pity him. He is framing his condition as a state of eternal arrested development. Like he's just frozen in time.",
+      "callout": {
+        "text": "FROZEN IN TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. The narrative he is selling is I am not a predator making active calculating choices to harm children. I am just a man with a broken heart frozen in time trying to recapture",
+      "callout": {
+        "text": "BROKEN HEART FROZEN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 58,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "my lost childhood love. It's like a comic book villain writing their own tragic origin story to gain or like a defense attorney tampering with the jury's emotional",
+      "callout": {
+        "text": "LOST CHILDHOOD LOVE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 59,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "evidence. That's a great way to put it. He's trying to build a beautiful facade over a structurally condemned building. Don't look at the foundation.",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Look at this lovely tragic arch. That the foundation is rotten. Exactly. If you actually pay attention to the text,",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Nabokov leaves the receipts lying around to prove the foundation is rotten. Humbert's origin story is entirely",
+      "callout": null
+    },
+    {
+      "i": 62,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. Nabokov allows Humbert to spin this romantic yarn, but he forces the careful reader to notice the terrifying He slips up.",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He does. Hrich claims he was paralyzed by grief, incapable of adult romance.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yet, when he describes his adult life during the European period, the mask slips completely. What's he actually doing during that Long before he ever sets foot in America or meets Dolores Hayes,",
+      "callout": {
+        "text": "ADULT LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 65,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "he is actively stalking children in Paris parks. Yeah, there's this chilling image he gives us right in the middle of his supposed grief period.",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He describes sitting on a hard park bench pretending to read a book. I know exactly the quote you're talking It's so gross. He says, \"Once a perfect little beauty and a tartan frock with a clatter put her heavily",
+      "callout": null
+    },
+    {
+      "i": 67,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "armed foot near me upon the bench to dip her slim bare arms into me and right in the strap of a roller skate, and I dissolved in the sun with my book for fig leaf.\"",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A book for a fig leaf. That phrase alone dismantles his entire He's using literature to literally and metaphorically cover his physical arousal while he prays on children in There's no",
+      "callout": {
+        "text": "PHRASE ALONE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 69,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "romantic destiny there. None at all. There is only calculated predatory behavior.",
+      "callout": null
+    },
+    {
+      "i": 70,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He also casually mentions his interactions with a young Parisian street walker named Mon'nique. Oh, right. The Monique scene.",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "She tells him she is 18, but Humbert deduces from her immature body that she is much younger and he takes immense sadistic pleasure in that realization.",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And what about his first wife, Valyria? He marries an adult woman, but he explicitly admits he only tolerated her because she gave an imitation of a little girl.",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's completely twisted. He made her wear a plain night shirt that he stole from an orphanage. I mean, the cruelty of that detail is It really highlights his true nature.",
+      "callout": null
+    },
+    {
+      "i": 74,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He goes to an orphanage, steals a child's night gown, and forces his adult wife to wear it so he can pretend. So, you see, the Annabel story is nothing more than a convenient fiction.",
+      "callout": {
+        "text": "SEE THE ANNABEL STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 75,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The reality is that he was a fully formed active predator in Europe. He wasn't waiting around for a ghost. No, he wasn't waiting for the ghost of Annabel to reappear. He was actively seeking out victims",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and using adult women as, in his own clinical words, paliotative agents, just a temporary fix. Right? By the time he arrives in America, his pathology is not a tragic accident.",
+      "callout": null
+    },
+    {
+      "i": 77,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a finely tuned engine. But when he arrives in America, he needs a place to stay. He needs a host family to infiltrate. You'd think a predator like this would hide in the shadows. You would assume so.",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But he does the exact opposite. He walks right into the brightly lit postwar American suburbs. And that collision between the cynical European predator and the naive American",
+      "callout": null
+    },
+    {
+      "i": 79,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "landscape gives us the tragic comedy of Charlotte Hayes. The chapters detailing his time as a lodger at 342 Lawn Street in Ramsdale are some of the most masterful and disturbing in the entire novel.",
+      "callout": {
+        "text": "342",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 80,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because of how he treats her. Exactly. Humbert's descriptions of Charlotte and her home are dripping with relentless aristocratic condescension.",
+      "callout": null
+    },
+    {
+      "i": 81,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's brutal to her. I mean, he calls her house a white frame horror. He describes Charlotte herself as a weak solution of Marlene Dietrich. He hates everything about her.",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He really does. He mocks absolutely everything. Her shiny forehead, her plucked eyebrows, her terrible attempts at speaking French. Her book club, yes, her obsession with her book club and her functional modern furniture.",
+      "callout": null
+    },
+    {
+      "i": 83,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He views 1950s American consumerism as this incredibly go pathetic thing. And this is where Napokov's genius truly weaponizes",
+      "callout": null
+    },
+    {
+      "i": 84,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "our own reactions against us. How so? Because on the surface, these scenes read like brilliant screwball comedy.",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Humbert plays the suave, cynical, worldweary European rolling his eyes. And Charlotte is the desperate, pretentious, overbearing American widow. And we laugh.",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "We do. We, the readers, laugh along with him. We chuckle at her clumsy attempts to seduce him. Oh, the letter, right? We laugh when she writes him that intensely dramatic, aggressive letter demanding he either leave her house or",
+      "callout": null
+    },
+    {
+      "i": 87,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "marry her. I completely admit to this. Reading through those early excerpts, I laughed out loud. Her letter is so over the top. It's pure melodrama. She tells him to scram to departe but then in the next breath says she",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "has built up a world of love for him. And how does Humbert react? Humbert's internal monologue is just him coldly calculating how he can use her desperation to get permanent access to her daughter.",
+      "callout": {
+        "text": "WORLD OF LOVE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 89,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that's where the laughter stops exactly because you realize what you're actually laughing at. You have to step back and look at what the comedy is hiding.",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Charlotte Hayes is not a cartoon character. She is a profoundly lonely,",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "vulnerable single mother who genuinely falls in love with this man and he uses her. He marries her solely to gain access to her 12-year-old child. The comedy is a form of",
+      "callout": {
+        "text": "FALLS IN LOVE",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 92,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "moral anesthesia. Moral anesthesia, that's the perfect term for it. Nabukov makes Humbert witty and charming, specifically to make us complicit in his profound cruelty toward",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "this woman. That anesthesia is terrifying when you see how easily he pivots from mocking her to plotting her murder. The scene at Hourglass Lake.",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. They are swimming together and Humbert vividly clinically imagines drowning his new wife.",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He says, \"I knew that all I had to do was to drop back, take a deep breath, then grab her by the ankle and rapidly dive with my captive corpse.",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "I might come up for a mouthful of air while still holding her down. It's so premeditated.\" And he calculates all the logistics. He notices a retired policeman and a plumber building a wararf in the distance.",
+      "callout": null
+    },
+    {
+      "i": 97,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he figures out that they are just far enough away not to see the murder, but close enough to hear him yell for help afterward.",
+      "callout": {
+        "text": "CLOSE ENOUGH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 98,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "And why does he ultimately decide not to drown her? I mean, surely he has a conscience. Not at all. It isn't out of any moral revelation. It isn't a sudden surge of empathy.",
+      "callout": null
+    },
+    {
+      "i": 99,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is purely because he is afraid of the mechanical logistics of getting away with it. He's just scared of getting caught. Exactly. And look at the defense.",
+      "callout": {
+        "text": "HE'S JUST SCARED",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 100,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He offers the jury in that moment. He says, \"Nowadays, you have to be a scientist if you want to be a killer. We are not sex fiends.",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "We do not rape as good soldiers do. We are unhappy, mild, dogeeyed gentlemen.\" Emphatically, no killers, are we?",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "medium",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Poets never kill. Poets never kill. There it is again. The aesthetic defense. He's leaning right back into it.",
+      "callout": {
+        "text": "POETS NEVER KILL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 103,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is literally telling us, \"Look how gentle and sensitive my soul is. I couldn't even bring myself to murder my wife in cold blood.\" even though he just spent five pages planning it, right?",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But then a stroke of incredibly dark fate does the job for him anyway. Charlotte discovers his secret diary.",
+      "callout": null
+    },
+    {
+      "i": 105,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The illusion shatters completely. She realizes he is a monster coveting her child. She runs out of the house in hysterics to mail letters exposing him to the town.",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And she is violently struck and killed by a car. And pay very close attention to how Humbert describes her death because this really shook me.",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He doesn't describe the tragedy of a life cut short or the horror of a sudden accident. He does care. He reduces her physical destruction to",
+      "callout": null
+    },
+    {
+      "i": 108,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "pure aesthetics. Pure poetic alliteration. He calls her remains a porridge of bone, brains,",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "bronze hair, and blood. Bone brains, bronze hair, and blood. It is so cold. It's just a string of bees sounds to him. A literary exercise. He has entirely dehumanized",
+      "callout": null
+    },
+    {
+      "i": 110,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "her. To Humbert, she was never a person. She was merely an obstacle blocking his path to Dolores. And now the obstacle is gone.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And now the obstacle has been removed by the universe. The screw ball comedy abruptly ends. And the true horror of the novel begins.",
+      "callout": null
+    },
+    {
+      "i": 112,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because with Charlotte eliminated, Humbert now has total unquestioned control over a 12-year-old girl, which changes the entire geography of the book.",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Charlotte is dead. Humbert goes to Camp Q to pick up Dolores, who doesn't yet know her mother has been She has no idea.",
+      "callout": {
+        "text": "CAMP Q TO PICK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 114,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "And instead of staying in Ramsdale, he initiates a year-long cross-country drive. We're talking from August 1947 to August 1948.",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A massive journey. Yeah. And on the surface, he writes this section like a classic expansive American adventure. It reads almost like a precursor to Jack Carowaks",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "on the It really does have that feel. They visit comfy cabins. They drive through the sagebrush wilderness of the west. They see the 10,759 ft Milner",
+      "callout": {
+        "text": "759",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 117,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Pass in Colorado. Endless neon signs, roadside diners, motor courts. It sounds incredibly expansive and free, doesn't it?",
+      "callout": null
+    },
+    {
+      "i": 118,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "The great American road Yeah, a real pickerque. But what is actually happening? In reality, it is a kidnapping in perpetual",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Nabokov is utilizing the sheer massive scale of mid-century America to demonstrate something chilling. He's showing that an abused child",
+      "callout": {
+        "text": "ABUSED CHILD",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 120,
+      "shot": "insert",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "MOVEMENT ITSELF",
+          "CAGE"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "can be completely invisible in plain sight across an entire continent. That blew my mind when I realized what was happening. The movement itself becomes the cage.",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is trapped in the passenger seat of this car moving so fast across so many state lines that she can never plant roots.",
+      "callout": {
+        "text": "MOVING SO FAST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 122,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She can't make a friend. She can't confide in a teacher. She has no money, no allies, no phone to call for help. And Humbert actively, psychologically",
+      "callout": {
+        "text": "ALLIES NO PHONE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 123,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "engineers this isolation. He doesn't just rely on the geography to trap her. He uses the legal machinery of the state as a weapon of terror.",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "What do you mean? Well, when she acts out or when she threatens to expose him, he explicitly threatens her with the man act. Okay. Can we pause and unpack the Man Act for a second because an audience today might just hear that as legal jargon.",
+      "callout": null
+    },
+    {
+      "i": 125,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "But in the 1940s, that carried immense weight. Absolutely. The Man Act, originally the White Sleeve Traffic Act of 1910, made it a federal crime",
+      "callout": {
+        "text": "1910",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 126,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to transport women or girls across state lines for the purpose of prostitution or debauchery or for any other immoral purpose.",
+      "callout": null
+    },
+    {
+      "i": 127,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, it's exactly what he's doing, right? But Humbert twists this law to convince Dolores that if they are caught, she's the one who will be That is so twisted.",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He tells her that while he might go to jail, she will become a permanent ward of the state. I have his exact threat right here.",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "closeUp",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He says to her, \"You will dwell with 39 other dopes in a dirty dormatory under the supervision of hideous matrons. This is the situation.",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is the choice.\" Don't you think that under the circumstances, Dolores Hayes had better stick to her old man? Consider the psychological devastation of that.",
+      "callout": null
+    },
+    {
+      "i": 131,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "It makes the 12-year-old girl believe that the police and the authorities are not her rescue, but a worse punishment. He makes himself the safe option.",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The Department of Public Welfare in the 1940s was known for bleak institutional He uses the reality of those grim institutions to",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "convince her that her abuser is her only protector. And then when the terror isn't quite enough to keep her docel, he bribes her compliance with the cheapest of American It's sickening.",
+      "callout": {
+        "text": "QUITE ENOUGH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 134,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He buys her Sundays. He buys her comic books. Nickels for the jukebox. Yes. He gives her nickels to play songs on diner juke boxes. songs by singers he dismissively refers to as Sammy and Joe and Eddie.",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is literally buying her silence with loose change and milkshakes while he holds the thread of institutionalization",
+      "callout": {
+        "text": "CHANGE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 136,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "over her head. And yet, because of the lyrical pros, the reader gets swept up in the scenery.",
+      "callout": null
+    },
+    {
+      "i": 137,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "We are looking out the window at the red bluffs ink blotted with junipers instead of looking at the hostage sitting right next to him in the passenger seat. The pros is just blinding us.",
+      "callout": null
+    },
+    {
+      "i": 138,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Humbert's pros acts as an opaque veil over the reality of the car. But if we want to truly read this novel,",
+      "callout": null
+    },
+    {
+      "i": 139,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "we have to rip that veil away. We have to look at who is actually trapped inside. And that requires us to do the hardest work in the book, excavating the real girl,",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the real Dolores Hayes. Because Humbert spends the entire novel trying to bury her. He does. He tries to bury her under this ornamental mythological idea of a nymph.",
+      "callout": null
+    },
+    {
+      "i": 141,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He wants us to see this demon child, this fa grace, this elusive, souls shattering creature who seduces him.",
+      "callout": {
+        "text": "SEE THIS DEMON CHILD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 142,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But that's just not true. Not at all. Nabokov plants the reality of Dolores right in front of us if we care to look past the adjectives.",
+      "callout": {
+        "text": "NOT TRUE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 143,
+      "shot": "split",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you strip away the poetry, who is Dolores Hayes? Tell us. She is desperately, heartbreakingly ordinary. She is a typical, somewhat awkward American kid. She plays tennis superbly, but her concentration",
+      "callout": {
+        "text": "CONCENTRATION",
+        "style": "box"
+      }
+    },
+    {
+      "i": 144,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "is poor. She reads green, red, blue comic books. He chews gum vehemently. she loves sweet hot jazz and movie She just wants to be a normal teenager and Humbert hates that about her. He is constantly annoyed by her",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "real He finds her disgustingly conventional. He hates her teenage slang.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But her reality bleeds through his control, especially behind closed doors. Think about the nightmare scene at the Enchanted Hunter Hotel. Their very first night together, right?",
+      "callout": {
+        "text": "THEIR VERY FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 147,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Humbert tries to portray these nights as scenes of mutual passion, but the text betrays him completely. Yes, he is lying awake, waiting to assault her, and she is asleep.",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But she isn't peacefully resting. \"What happens?\" he writes. She sat up, gasped, muttered with insane rapidity, something about boats, tugged at the sheets, and lapsed back into her rich, dark, young unconsciousness.",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Her arm struck me across the face. \"Oh, man.\" And later in the novel, he casually mentions, almost as an aside, that she cries every night when she thinks he is asleep.",
+      "callout": {
+        "text": "ACROSS THE FACE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 150,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She is a deeply traumatized child, having night terrors and sobbing into her pillow. But Humbert cannot engage with her pain because acknowledging her pain would destroy his fantasy of the willing",
+      "callout": null
+    },
+    {
+      "i": 151,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He has to ignore it to maintain his delusion. And what's even more infuriating is that when they finally stop moving, when they settle down in Beardsley and she interacts with the adult world, the institutions",
+      "callout": {
+        "text": "STOP",
+        "style": "box"
+      }
+    },
+    {
+      "i": 152,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "completely fail to see her suffering. Oh, the Beardsley school psychologist represent a devastating critique of 1950s institutional psychiatry.",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "insert",
+      "beat": "negative",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "DOLORES IS STRUGGLING",
+          "CALLS"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "They are so useless. Humbert enrolls her in school and the head mistress, Miss Pratt, calls him in because Dolores is struggling.",
+      "callout": null
+    },
+    {
+      "i": 154,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But instead of recognizing the obvious signs of a traumatized, abused child, they hide behind mid-century Freudian psycho Miss Pratt",
+      "callout": {
+        "text": "CHILD THEY HIDE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 155,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "literally tells Humbert that Dolores is shuttling between the anal and genital zones of development. It's absurd. She says her biologic drives",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "do not fall, so to speak, into a rounded pattern. I mean, they note all the red flags. They note that she size constantly in class, that she is defiant, that her grades are dropping.",
+      "callout": null
+    },
+    {
+      "i": 157,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But what is their solution? Their solution, they suggest that Humbert, the man actively raping her, should have the family doctor, tell her the facts of life.",
+      "callout": {
+        "text": "FACTS OF LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 158,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the ultimate failure of They have a kidnapped hostage sitting in their classroom. And they think she just has a bad attitude and needs to participate more in group singing.",
+      "callout": null
+    },
+    {
+      "i": 159,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It highlights how perfectly Humbert's facade works, not just on the reader, but on the world around him. His respectable, educated European persona completely blinds the American authorities",
+      "callout": {
+        "text": "FACADE WORKS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 160,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "to the monster underneath. It's terrifying. And notice how Humbert exercises his power over her in the text itself.",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He rarely records a full continuous conversation with her. He doesn't let her speak. Exactly. He almost never lets her speak in paragraphs.",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He quotes her only in slang fragments that he can aestheticize or mock. She says things are revolting. Super goon drip. He consumes her personality just as thoroughly as he consumes her body.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Her actual voice is the agonizing silence of the novel. One of the most devastating lines in the entire book is when he acknowledges why she stays. He just plainly states she had absolutely",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "nowhere else to go. That is the grand romance. If we only see her as Lolita, light of my life, if we accept his nickname for her,",
+      "callout": null
+    },
+    {
+      "i": 165,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "aren't we committing the exact same crime as Humbert? We're ignoring the real suffering Dolores Hayes",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "and just enjoying the pretty words. That is precisely the trap. The moment you accept the name Lolita, you're accepting the world on Humbert's terms.",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have to fight the pros to see But Humbert isn't the only one pulling strings in this universe. He thinks he is the master manipulator, the brilliant director of this tragic play.",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But he is actually being shadowed by someone who exposes his true nature. Right. We have to talk about Claire Yes.",
+      "callout": null
+    },
+    {
+      "i": 169,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Claire Quilty. Quilty is the dark mirror of the novel. He is a playwright, a pornographer, and the man who shadows Humbert and Dolores across America in an Aztec red convertible.",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He leaves these incredibly taunting, mocking pseudonyms in the motel registers to drive Humbert slowly insane. Humbert will check the guest books and find names like GT Trap, Geneva, New York,",
+      "callout": {
+        "text": "GT TRAP",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 171,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "or Aubrey Beardsley, Kilkart or my personal favorite, Will Brown, Dolores Colo. Quilty is playing a cat-and- mouse game with him.",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Humbert presents Quilty to us, the jury, as the true villain of the piece. He points the finger. He says, \"Look at this decadent monster who eventually lures Dolores away from me.",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's the bad guy.\" He wants us to blame Quilty, so we absolve Humbert. But Quilty serves a very specific structural literary function for Nabokov, doesn't he?",
+      "callout": null
+    },
+    {
+      "i": 174,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, absolutely. Quilty is simply Humbert without the mask of literary genius. Wait, expand on that. What do you mean by the mask?",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, Humbert dresses up his own use in Dante patriarch and beautiful French phrases.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He needs the aesthetic justification to feel good about himself. Quilty doesn't Quilty just doesn't care.",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Quilty is blunt, cynical, and openly transactional about his depravity. He represents the ugly truth of what Humbert actually is.",
+      "callout": {
+        "text": "UGLY TRUTH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 178,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Stripped of the poetic That makes perfect sense. And this dynamic becomes incredibly clear in the bizarre slapspick murder scene at the end of the text. Oh man, the murder scene.",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Humbert tracks Quilty down to execute him. He builds this moment up in his mind as the climax of a dstyfkian tragedy.",
+      "callout": null
+    },
+    {
+      "i": 180,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He imagines himself as this dark romantic avenger coming to exact He even writes a self-important dramatic death sentence poem that he plans to read to Quilty before he pulls the But look at how",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Nabokov achieves the linguistic breakdown of this scene. The beautiful hypnotic pros from the first page",
+      "callout": null
+    },
+    {
+      "i": 182,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "literally disintegrates into clumsy, fragmented, pathetic sentences. It all falls apart. The reality descends into total farce.",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Humbert arrives and Quilty is drunk or high or both. He isn't intimidated at all. He treats Humbert with total Humbert pulls out the gun and Quilty just looks at it",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "and says, \"Is that a real gun? I'm not responsible for the rapes of others.\" Absurd. He's just annoyed by him. And then Humbert forces him to read the execution poem out loud. The poem starts, \"Because you took",
+      "callout": null
+    },
+    {
+      "i": 185,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "advantage of a sinner because you took advantage.\" And Quil Quilty literally critiques the poem while staring down the barrel of a loaded gun.",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's giving him notes. Humbert gets to a line about lads play with erector sets. And Quilty chuckles and says, \"Getting smutty, eh?\" It completely deflates Humbert's",
+      "callout": null
+    },
+    {
+      "i": 187,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "grandiose self-image. And the actual shooting is pathetic. The physical impetence of the gun mirrors Humbert's moral impetence. Right. The gun jams or misfires, doesn't Yes. Humbert fires, but the bullets just feebly",
+      "callout": {
+        "text": "BULLETS JUST FEEBLY",
+        "style": "box"
+      }
+    },
+    {
+      "i": 188,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "drop out. He writes, \"I pressed the trigger, all right, but one bullet after another feebly drops on the floor from the sheepish muzzle. Even his gun is pathetic.\" When he finally manages to shoot Quilty, it's not a clean tragic death.",
+      "callout": {
+        "text": "CLEAN TRAGIC DEATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 189,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Quilty stumbles around complaining about his pain, wrestling with Humbert on the floor in a messy, undignified brawl. The sheer absurdity of it demolishes him.",
+      "callout": null
+    },
+    {
+      "i": 190,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He can't even kill cleanly. He thinks he's acting in a Shakespearean tragedy, but Quilty forces him into a slapstick comedy.",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It proves he's not a tragic hero. He's pathetic, bumbling, and weak. And this pathetic reality forces us to look at the very end of Humbert's manuscript with clear eyes.",
+      "callout": null
+    },
+    {
+      "i": 192,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because after Cruy is dead, Humbert sits down in his prison cell to finish his confession. In those final pages, he appears to express deep",
+      "callout": {
+        "text": "CRUY IS DEAD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 193,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "genuine remorse. He writes this line, \"I was despicable and brutal, interpreted in everything.",
+      "callout": null
+    },
+    {
+      "i": 194,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But I loved you. I loved you.\" And later he writes, \"Every now and then I have to remind myself to believe in my own confession.\" Even in his supposed repentance, he is unreliable. He's performing guilt for the jury.",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He wants a cookie for saying he's sorry. He wants the gold star for realizing he was bad. But look at the language he uses.",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He says, \"And this is the only immortality you and I may share, my Let's unpack the word my in that sentence.",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "My Lolita. That single pronoun carries the entire moral weight of the novel.",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Even in his confession, even when he admits he deprived a child of her childhood, he still claims ownership over her. He never relinquishes his grip.",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Never. He says he is nature's faithful hound and a pentapod monster, but he still demands that his love was real and that she belongs to him in art. So by giving her this immortality",
+      "callout": {
+        "text": "LOVE WAS REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 200,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "in art, he is basically locking her in a literary prison forever. The physical road trip is over, but the artistic cage remains.",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Is this entire confession just one last act of seduction aimed at us, the reader, to make us forgive him because he wrote a pretty book about it? Exactly. The confession is the final most dangerous smoke bomb. The moment you catch yourself",
+      "callout": {
+        "text": "YOU CATCH YOURSELF",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 202,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "feeling sorry for Humbert Humbert, the moment you think, \"Well, his actions were monstrous, but his love is profound.\" The book has successfully proven its thesis about",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's the trap. It proves that seductive rhetoric can manufacture consent for the inexcusable.",
+      "callout": {
+        "text": "THAT'S THE TRAP",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 204,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, if we synthesize this entire journey, we started with Humbert casting a physiological spell.",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lolita, light of my life. We've seen how he used Dante Petrarch and Edgar Ellen Poe to build a fake origin story to hide his predatory past in the parks of Paris.",
+      "callout": {
+        "text": "FAKE ORIGIN STORY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 206,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The book for a fig leaf. We saw him use the vast geography of mid-century America to turn a kidnapping into a road trip,",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "trapping a 12-year-old by threatening her with the man act and state reformatories. The 39 dopes. We saw him silence the real Dolores Hayes, the girl who cried in her sleep, burying her under the myth of a nymph.",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "And finally, the fake confession. right? Performing remorse to lock her in a literary cage forever. Which brings us to why this text is so essential to grapple with today.",
+      "callout": null
+    },
+    {
+      "i": 209,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Lolita is not just a controversial novel from the 1950s. It is a grueling, brilliant masterclass in critical thinking and media literacy.",
+      "callout": null
+    },
+    {
+      "i": 210,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Media literacy is exactly what this is It trains you to look past beautiful delivery and interrogate the horrific truths that rhetoric can hide.",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It forces you to realize how easily you, the intelligent, well-meaning reader, can become complicit in a narrative if it's a packaged attractively enough.",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Think about the narratives you consume every day in the news, in history books, in the media. How many other beautiful stories are actually elaborate crime scenes hiding in plain sight just waiting for you to look past the silk sentences and see the",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "victim underneath?",
+      "callout": null
+    }
+  ]
+}

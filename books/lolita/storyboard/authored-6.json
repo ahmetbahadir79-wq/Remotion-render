@@ -1,0 +1,321 @@
+[
+  {
+    "i": 200,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "THE ARTISTIC CAGE REMAINS",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert",
+      "dolores"
+    ],
+    "expression": "blank",
+    "action": "sit",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Humbert's art is a literary prison — the road trip ended but the artistic cage keeps Dolores trapped forever.",
+      "concreteVisual": "Chains icon — she is imprisoned, locked in his writing. Humbert sits writing at a desk while Dolores stands behind, bound by the art he creates.",
+      "onScreenText": "THE ARTISTIC CAGE REMAINS",
+      "relationToPrevious": "From 'my Lolita' (ownership) to the mechanism of that ownership: the manuscript itself.",
+      "addedInformation": "The chains make the 'cage' concrete — without sound, a viewer reads imprisonment. Humbert holds the notes (the confession) that keep her locked."
+    }
+  },
+  {
+    "i": 201,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "SEDUCTION OF THE READER",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The confession is one last act of seduction — Humbert is controlling the reader through his pretty book.",
+      "concreteVisual": "Puppeteer icon — one person controlling others. Humbert addresses the reader-jury from the courtroom, pulling strings.",
+      "onScreenText": "SEDUCTION OF THE READER",
+      "relationToPrevious": "From the cage (what the art does to Dolores) to what the art does to the reader.",
+      "addedInformation": "The puppeteer makes visible who is being manipulated: us."
+    }
+  },
+  {
+    "i": 202,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "HIS LOVE IS PROFOUND",
+      "style": "strike"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "blank",
+    "action": "sit",
+    "storyboard": {
+      "claim": "If you feel sorry for Humbert and think his love was profound, the trap has worked on you.",
+      "concreteVisual": "No icon — the struck-through phrase carries the rejection. Humbert slumps looking pitiable; the strike tells the viewer this sympathy is the wrong reading.",
+      "onScreenText": "HIS LOVE IS PROFOUND (struck through)",
+      "relationToPrevious": "From Humbert as puppeteer to the specific thought he plants: pity.",
+      "addedInformation": "Strike rejects the sympathetic reading. His sad posture is the seduction itself — he LOOKS pitiable on purpose."
+    }
+  },
+  {
+    "i": 203,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "MANUFACTURE CONSENT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "blank",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The trap: seductive rhetoric can manufacture consent for the inexcusable.",
+      "concreteVisual": "Funnel-trap icon — the narrator literally says 'That's the trap.' The icon shows the reader being funneled into consenting.",
+      "onScreenText": "MANUFACTURE CONSENT",
+      "relationToPrevious": "From the struck-out sympathetic reading to the thesis it proves: consent can be manufactured.",
+      "addedInformation": "The trap icon literalises the narrator's own word. The thesis statement lands visually."
+    }
+  },
+  {
+    "i": 204,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Spell",
+        "Fake origin",
+        "Road-trip cage",
+        "Silenced Dolores",
+        "Fake confession"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Synthesis: Humbert's con followed a chain — spell, fake backstory, road-trip kidnapping, silencing, confession.",
+      "concreteVisual": "A flow diagram showing the five stages of Humbert's seduction strategy, the hosts' own recap structure.",
+      "onScreenText": "None — the diagram labels carry the recap.",
+      "relationToPrevious": "The thesis has landed; now the hosts walk back through the whole journey.",
+      "addedInformation": "The diagram compresses the entire arc into one visible chain so the muted viewer sees the shape of the argument."
+    }
+  },
+  {
+    "i": 205,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "FAKE ORIGIN STORY",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humbert used Dante, Petrarch, and Poe as a literary shield to build a fake origin story.",
+      "concreteVisual": "Mask icon in the courtroom — the origin story is a fabrication, a false face. Humbert stands alone, worried, caught.",
+      "onScreenText": "FAKE ORIGIN STORY",
+      "relationToPrevious": "First item in the recap: the Annabel backstory and its literary shielding.",
+      "addedInformation": "Mask + courtroom + worried expression reads as exposure/fabrication, not romance."
+    }
+  },
+  {
+    "i": 206,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "KIDNAPPING INTO A ROAD TRIP",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Humbert used the geography of America to disguise a kidnapping as a road trip.",
+      "concreteVisual": "Chains icon on the highway — the road trip is imprisonment. Dolores slumps alone, sad, trapped.",
+      "onScreenText": "KIDNAPPING INTO A ROAD TRIP",
+      "relationToPrevious": "Second recap item: the road-trip kidnapping, after the fake origin.",
+      "addedInformation": "Chains + sad slumping Dolores alone on highway reads as captivity, not a romantic journey."
+    }
+  },
+  {
+    "i": 207,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CRIED IN HER SLEEP",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "He silenced the real Dolores — the girl who cried in her sleep — and buried her under the myth of a nymph.",
+      "concreteVisual": "No icon — the image is Dolores herself, the silenced victim. She slumps alone in the bedroom, crying.",
+      "onScreenText": "CRIED IN HER SLEEP",
+      "relationToPrevious": "Third recap item: from the road that trapped her to the girl it silenced.",
+      "addedInformation": "Dolores alone with no icon is the point — her real self is the thing Humbert erased. The bedroom makes 'in her sleep' literal."
+    }
+  },
+  {
+    "i": 208,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "THE FAKE CONFESSION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "The confession is fake — performing remorse to lock Dolores in a literary cage forever.",
+      "concreteVisual": "Mask icon — Humbert's performed remorse is a false face. He sits writing in his cell, looking sad, but the mask tells the viewer the sadness is worn, not felt.",
+      "onScreenText": "THE FAKE CONFESSION",
+      "relationToPrevious": "Final recap item: from the silenced Dolores to the confession that pretends to mourn her.",
+      "addedInformation": "The mask over his sad expression says: this grief is a performance. He holds the notes — the weapon."
+    }
+  },
+  {
+    "i": 209,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "MASTERCLASS IN CRITICAL THINKING",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Lolita is not just controversial — it is a masterclass in critical thinking and media literacy.",
+      "concreteVisual": "Book icon — the beat is literally about the novel itself. Nabokov holds the book he built.",
+      "onScreenText": "MASTERCLASS IN CRITICAL THINKING",
+      "relationToPrevious": "From Humbert's fake confession to why the whole novel matters: Nabokov built a teaching tool.",
+      "addedInformation": "Nabokov appears for the first time in the chunk — the architect behind the trap, shifting credit from character to author."
+    }
+  },
+  {
+    "i": 210,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "INTERROGATE THE NARRATIVE",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "holds": "magnifier",
+    "storyboard": {
+      "claim": "The novel trains you to look past beautiful delivery and interrogate the horrific truths rhetoric can hide.",
+      "concreteVisual": "Magnifier icon — close examination. Nabokov holds a magnifier, training the reader to scrutinise.",
+      "onScreenText": "INTERROGATE THE NARRATIVE",
+      "relationToPrevious": "From the book as masterclass to the specific skill it teaches: close examination.",
+      "addedInformation": "The magnifier makes 'interrogate' visual — the lesson is about seeing through surfaces."
+    }
+  },
+  {
+    "i": 211,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BECOME COMPLICIT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "You, the intelligent reader, can become complicit in a narrative if it is packaged attractively enough.",
+      "concreteVisual": "No icon — the accusation is aimed at the viewer. Nabokov points outward with a worried expression: you are not safe from this.",
+      "onScreenText": "BECOME COMPLICIT",
+      "relationToPrevious": "From the skill the novel teaches to the warning: even you can be fooled.",
+      "addedInformation": "Nabokov's worried face and pointing gesture say this is a warning, not a lecture. No icon because the subject is the viewer, not an object."
+    }
+  },
+  {
+    "i": 212,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CRIME SCENES IN PLAIN SIGHT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "How many beautiful stories in news, history, media are actually crime scenes hiding in plain sight?",
+      "concreteVisual": "No icon — the beat is about narratives beyond the book, and no single icon covers 'all media.' Nabokov points outward, extending the lesson.",
+      "onScreenText": "CRIME SCENES IN PLAIN SIGHT",
+      "relationToPrevious": "From your complicity in this novel to every narrative you consume.",
+      "addedInformation": "The callout carries the beat — 'crime scenes in plain sight' is the narrator's own reframing of all media. weak: two consecutive Nabokov-pointing beats, but the subject broadens from 'you' to 'everything you read.'"
+    }
+  },
+  {
+    "i": 213,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE VICTIM UNDERNEATH",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "dolores"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Look past the silk sentences and see the victim underneath.",
+      "concreteVisual": "Dolores alone, standing still — the real person the entire novel buried. No icon because she IS the answer.",
+      "onScreenText": "THE VICTIM UNDERNEATH",
+      "relationToPrevious": "From 'crime scenes in plain sight' to the specific victim of this one: Dolores.",
+      "addedInformation": "The final image is the girl herself — quiet, sad, present. After 213 beats of Humbert's rhetoric, she is the last thing you see."
+    }
+  }
+]

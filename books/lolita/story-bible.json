@@ -1,0 +1,350 @@
+{
+  "slug": "lolita",
+  "world": {
+    "era": "1947–1952",
+    "worldId": "midcentury-america",
+    "approxYear": 1950,
+    "setting": "Mid-century small-town America; boarding houses, motels, diners, highways, courtrooms",
+    "register": "literary analysis of a novel — two hosts dissecting a narrator's unreliable confession",
+    "forbid": [
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "workstation",
+      "startupGarage",
+      "serverRoom",
+      "pitchStage"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "lolita",
+    "worldId": "midcentury-america",
+    "allowedMotifs": [
+      "mask",
+      "mirror",
+      "chains",
+      "road",
+      "notes",
+      "book",
+      "law",
+      "door",
+      "key",
+      "home",
+      "heart",
+      "car",
+      "shield",
+      "puppeteer",
+      "lightbulb",
+      "water",
+      "fire",
+      "family",
+      "grave",
+      "game",
+      "magnifier",
+      "hourglass",
+      "crack",
+      "target"
+    ],
+    "forbiddenMotifs": [
+      "codeWindow",
+      "laptopMockup",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "subway",
+      "trophy",
+      "star",
+      "sword",
+      "boulder",
+      "summit",
+      "war",
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr"
+    ],
+    "allowedCharacters": [
+      "humbert",
+      "dolores",
+      "charlotte",
+      "quilty",
+      "annabel",
+      "nabokov"
+    ],
+    "allowedLocations": [
+      "room",
+      "court",
+      "highway",
+      "bedroom",
+      "cafe",
+      "classroom",
+      "street",
+      "shore",
+      "stage",
+      "abstract",
+      "library",
+      "forest"
+    ],
+    "allowedProps": [
+      "manuscript",
+      "suitcase",
+      "car-keys",
+      "jukebox-nickels",
+      "diary"
+    ]
+  },
+  "cast": {
+    "humbert": {
+      "name": "Humbert Humbert",
+      "role": "The narrator — a European émigré literature professor in his late 30s, writing a confession from a prison cell. Suave, erudite, manipulative; weaponizes beautiful prose to disguise predation.",
+      "look": "Late-30s European man, tall lean build, dark swept-back hair, sharp angular face, wearing a tailored charcoal suit with white shirt and silk tie, professorial air",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "slight",
+        "outfit": "suit",
+        "suit": "#2C2C2C",
+        "shirt": "#F5F0E8",
+        "skin": "#E8C8A0",
+        "hair": "#2A1F14",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "tie"
+      }
+    },
+    "dolores": {
+      "name": "Dolores Haze",
+      "role": "The real victim — a 12-year-old American girl whom Humbert kidnaps and abuses. Chews gum, reads comics, plays tennis. Her actual voice is the silence Humbert's prose buries.",
+      "look": "12-year-old American girl, slight build, brown hair in a ponytail, wearing a plaid cotton dress and white sneakers, freckled face, looks like an ordinary schoolgirl",
+      "variant": {
+        "gender": "f",
+        "age": "child",
+        "build": "slight",
+        "outfit": "dress",
+        "suit": "#8B4513",
+        "shirt": "#E8D4B8",
+        "skin": "#F0D0A8",
+        "hair": "#6B4226",
+        "hairStyle": "ponytail",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "charlotte": {
+      "name": "Charlotte Haze",
+      "role": "Dolores's mother — a lonely, pretentious small-town widow who falls for Humbert. Humbert marries her solely to access Dolores. The comedy Humbert spins around her is the reader's moral anesthetic.",
+      "look": "Mid-40s American woman, average build, blonde permed hair, wearing a floral print dress with pearl necklace, trying too hard to look sophisticated",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "build": "average",
+        "outfit": "dress",
+        "suit": "#6B8E6B",
+        "shirt": "#FFF8DC",
+        "skin": "#F0D0A8",
+        "hair": "#D4A843",
+        "hairStyle": "curly",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "necklace"
+      }
+    },
+    "quilty": {
+      "name": "Clare Quilty",
+      "role": "The dark mirror — a playwright-pornographer who shadows Humbert across America and eventually lures Dolores away. Simply Humbert without the literary talent to disguise himself.",
+      "look": "Late-40s American man, heavy build, thinning dark hair, rumpled linen suit, dissolute appearance, cigarette-stained fingers, smirking face",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "heavy",
+        "outfit": "suit",
+        "suit": "#8B7D6B",
+        "shirt": "#D4C9B0",
+        "skin": "#E0C090",
+        "hair": "#3C3024",
+        "hairStyle": "receding",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "annabel": {
+      "name": "Annabel Leigh",
+      "role": "Humbert's manufactured origin story — a childhood sweetheart on the Riviera who died of typhus. He uses her memory to frame his obsession as romantic fate rather than predation.",
+      "look": "Young girl around 13, slight build, light brown hair loose to shoulders, wearing a white summer dress, Mediterranean seaside setting",
+      "variant": {
+        "gender": "f",
+        "age": "child",
+        "build": "slight",
+        "outfit": "dress",
+        "suit": "#FFFFFF",
+        "shirt": "#F8F0E0",
+        "skin": "#F0D8B8",
+        "hair": "#A0784C",
+        "hairStyle": "long",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "nabokov": {
+      "name": "Vladimir Nabokov",
+      "role": "The author — discussed as the architect behind the trap. Built the novel so that the reader experiences how seductive rhetoric manufactures consent for the inexcusable.",
+      "look": "50s Russian-American man, stocky build, receding gray hair, round face, wearing a tweed jacket with bow tie, butterfly-collector air",
+      "variant": {
+        "gender": "m",
+        "age": "old",
+        "build": "heavy",
+        "outfit": "suit",
+        "suit": "#5C4A3A",
+        "shirt": "#F0E8D8",
+        "skin": "#E0C8A0",
+        "hair": "#9C9488",
+        "hairStyle": "receding",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": true,
+        "accessory": "bowtie"
+      }
+    }
+  },
+  "places": {
+    "prisonCell": {
+      "set": "room",
+      "look": "Bare gray room with a small desk and a window with bars — Humbert's cell where he writes the confession"
+    },
+    "ramsdale": {
+      "set": "room",
+      "look": "Cluttered American boarding-house parlor with floral wallpaper, overstuffed furniture, Charlotte's pretentious decorations"
+    },
+    "highway": {
+      "set": "highway",
+      "look": "Endless mid-century American highway, motels, diners, neon signs, Humbert's car carrying Dolores with nowhere to go"
+    },
+    "riviera": {
+      "set": "shore",
+      "look": "Bright Mediterranean seaside, 1919 Riviera — Humbert's manufactured romantic origin"
+    },
+    "courtroom": {
+      "set": "court",
+      "look": "The metaphorical courtroom: the reader is the jury, Humbert addresses 'ladies and gentlemen'"
+    },
+    "school": {
+      "set": "classroom",
+      "look": "American small-town school where Dolores is enrolled; teachers fail to see the abuse"
+    },
+    "quiltyMansion": {
+      "set": "room",
+      "look": "Quilty's chaotic, messy mansion — the scene of the slapstick murder"
+    },
+    "miningTown": {
+      "set": "street",
+      "look": "Mountain mining town, distant sounds of children playing — Humbert's final moment of recognition"
+    }
+  },
+  "objects": [
+    {
+      "concept": "notes",
+      "mentions": 19,
+      "why": "The confession manuscript itself — Humbert's prose is the weapon, and the 'notes' represent his literary seduction of the reader"
+    },
+    {
+      "concept": "mask",
+      "mentions": 8,
+      "why": "Humbert's literary persona concealing his true nature; the beautiful prose is a mask over monstrosity"
+    },
+    {
+      "concept": "road",
+      "mentions": 8,
+      "why": "The cross-country drives are a kidnapping in motion — geography as prison"
+    },
+    {
+      "concept": "chains",
+      "mentions": 7,
+      "why": "Dolores's captivity — no money, no allies, nowhere to go; invisible chains across a continent"
+    },
+    {
+      "concept": "law",
+      "mentions": 20,
+      "why": "The courtroom frame — Humbert addresses 'ladies and gentlemen of the jury' but the real jury is the reader"
+    },
+    {
+      "concept": "mirror",
+      "mentions": 4,
+      "why": "Quilty as Humbert's dark mirror; the novel itself as a mirror for the reader's complicity"
+    },
+    {
+      "concept": "puppeteer",
+      "mentions": 3,
+      "why": "Humbert as the con artist puppeteer controlling both Dolores and the reader through rhetoric"
+    },
+    {
+      "concept": "shield",
+      "mentions": 6,
+      "why": "Humbert's literary allusions (Dante, Petrarch, Poe) used as a defensive shield for his crimes"
+    },
+    {
+      "concept": "home",
+      "mentions": 5,
+      "why": "The boarding house as infiltration target; the stolen childhood home Dolores can never return to"
+    },
+    {
+      "concept": "game",
+      "mentions": 3,
+      "why": "Quilty's cat-and-mouse game trailing Humbert; the novel itself as a game Nabokov plays with the reader"
+    },
+    {
+      "concept": "shadowSelf",
+      "mentions": 3,
+      "why": "Quilty as Humbert's shadow self — what predation looks like without the literary disguise"
+    },
+    {
+      "concept": "magnifier",
+      "mentions": 2,
+      "why": "Close reading: the hosts examine Humbert's prose under a magnifying glass to find what he hides"
+    }
+  ],
+  "signatureObjects": [],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "Humbert's opening prose is a spell — the most dangerous weapon in the novel is not violence but language that seduces the reader into complicity."
+    },
+    {
+      "act": "development",
+      "fromFrame": 11662,
+      "claim": "Every structural choice Humbert makes — the Annabel backstory, the Charlotte comedy, the road-trip picaresque — is an elaborate con designed to prevent the reader from seeing Dolores as a real child."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 23532,
+      "claim": "The institutional failure and Quilty's mirror reveal that Humbert's literary talent is the ONLY thing distinguishing him from any other predator — strip the prose and there is nothing underneath."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 32808,
+      "claim": "Even Humbert's remorse is unreliable — his confession performs guilt while never relinquishing ownership ('my Lolita'), making the reader's sympathy the final trap."
+    },
+    {
+      "act": "close",
+      "fromFrame": 45084,
+      "claim": "The novel is an inoculation: it trains you to recognize how beautiful language can hide monstrous truths — the trap Nabokov built extends beyond the book into every narrative you consume."
+    }
+  ],
+  "authored": true
+}

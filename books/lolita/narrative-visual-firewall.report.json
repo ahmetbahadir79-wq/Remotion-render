@@ -1,0 +1,642 @@
+{
+  "version": "P2.0",
+  "slug": "lolita",
+  "status": "PASS",
+  "counts": {
+    "scenes": 214,
+    "violations": 0,
+    "diagnostics": 70
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-01",
+      "index": 1,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "It's the moment, maybe 30 pages in when you realize his pros is so beautiful that you almost forgot to be horrified.\nIt's the moment, maybe 30 pages in when you"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-02",
+      "index": 2,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "And that's exactly the track Nabokov built for you. Yeah, it really is the ultimate literary ambush. I mean, you are walking into this meticulously constructed "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-03",
+      "index": 3,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "the sheer breathtaking aesthetics of the English right? Which is why we're doing this deep dive today. Welcome in. By the way, we are looking at a text that has"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-06",
+      "index": 6,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "It is because based on the stack of original excerpts we're pouring over today, that is a complete misread. So, our mission, the thesis we have to prove to you "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-10",
+      "index": 10,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "We are deeply immersed in post-war small town America. Picket fences, diners, that whole vibe. Exactly. But the critical piece of the puzzle, the thing you have"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-11",
+      "index": 11,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Not for a second. We are trapped entirely behind the eyes of our narrator, Humbert Humbert, who is um quite the character, to say the least.\nNot for a second. W"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-12",
+      "index": 12,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "He's a European emigr, a literature professor. He possesses this impeccable diction,\nHe's a European emigr, a literature professor. He possesses this impeccable"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-13",
+      "index": 13,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "a vast encyclopedic knowledge of Western literature, and of course, a deeply monstrous secret fixation. And the context of where he's speaking from\na vast encyc"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'key' is not grounded in this segment's narration",
+      "sceneId": "scene-15",
+      "index": 15,
+      "concept": "key",
+      "severity": "diagnostic",
+      "segment": "He's writing from a prison cell. He's awaiting trial for murder. And he explicitly addresses the text to the\nHe's writing from a prison cell. He's awaiting tria"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-16",
+      "index": 16,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "ladies and gentlemen of the jury, which is such a brilliant, terrifying twist, right? Because there is no literal jury, The reader is the jury. You are the jury"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-17",
+      "index": 17,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "His entire goal from the very first syllable of the manuscript is to manufacture our consent for his inexcusable acts because he knows he's a monster.\nHis entir"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-19",
+      "index": 19,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "Instead, he constructs this entire aesthetic architecture to house his abuse. He wants to use the most dazzling hypnotic pros of the 20th century to make us jus"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'game' is not grounded in this segment's narration",
+      "sceneId": "scene-30",
+      "index": 30,
+      "concept": "game",
+      "severity": "diagnostic",
+      "segment": "And he's so arrogant about it. That's what really gets me. He knows he's playing us. Just a little further down. He openly admits his capacity for He lays it al"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-35",
+      "index": 35,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "He drops these massive high literary illusions constantly. He brings in Virgil.\nHe drops these massive high literary illusions constantly. He brings in Virgil."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-38",
+      "index": 38,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "And then he points out that when Petro fell madly in love with his Lorine, she was a 12-year-old nymph running in the If we unpack that strategy, it really reve"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-40",
+      "index": 40,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "By aligning himself with them, Humbert is telling the jury, meaning us, that his obsession is not a crime. It's a destiny, right?\nBy aligning himself with them,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-44",
+      "index": 44,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "I would argue it is entirely a brag disguised as a confession. He is performing remorse, but the performance is purely aesthetic.\nI would argue it is entirely a"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-46",
+      "index": 46,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "Not forgiven for the crime itself. He is effectively daring the jury to convict a man who can write so beautifully.\nNot forgiven for the crime itself. He is eff"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-47",
+      "index": 47,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "It's like a game to him. It is. Every literary illusion, every French phrase, every poetic rhythm is a smoke bomb designed to disorient you. Nabalov is actively"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-48",
+      "index": 48,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "the listener. Right here. Testing is how? Well, the more educated you are, the more susceptible you become because you recognize the references and you feel a k"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'grave' is not grounded in this segment's narration",
+      "sceneId": "scene-53",
+      "index": 53,
+      "concept": "grave",
+      "severity": "diagnostic",
+      "segment": "They fall madly in love as teenagers, but it's doomed, right? Before they can fully consummate the relationship, she dies of typhus and Corfu, and he lays the b"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-54",
+      "index": 54,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "feet of this tragedy. He literally claims in a certain magic and fateful way, Lolita began with Annabelle. The echo of Eden Poe there is entirely Oh, Annabelle "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-55",
+      "index": 55,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Sea. Humbert is quite literally borrowing Po's grief to dress up his own He wants us to feel sorry for him.\nSea. Humbert is quite literally borrowing Po's grief"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-61",
+      "index": 61,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "Nabokov leaves the receipts lying around to prove the foundation is rotten. Humbert's origin story is entirely\nNabokov leaves the receipts lying around to prove"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-75",
+      "index": 75,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "The reality is that he was a fully formed active predator in Europe. He wasn't waiting around for a ghost. No, he wasn't waiting for the ghost of Annabel to rea"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-77",
+      "index": 77,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "It's a finely tuned engine. But when he arrives in America, he needs a place to stay. He needs a host family to infiltrate. You'd think a predator like this wou"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-79",
+      "index": 79,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "landscape gives us the tragic comedy of Charlotte Hayes. The chapters detailing his time as a lodger at 342 Lawn Street in Ramsdale are some of the most masterf"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'home' is not grounded in this segment's narration",
+      "sceneId": "scene-81",
+      "index": 81,
+      "concept": "home",
+      "severity": "diagnostic",
+      "segment": "He's brutal to her. I mean, he calls her house a white frame horror. He describes Charlotte herself as a weak solution of Marlene Dietrich. He hates everything "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-88",
+      "index": 88,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "has built up a world of love for him. And how does Humbert react? Humbert's internal monologue is just him coldly calculating how he can use her desperation to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-89",
+      "index": 89,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "And that's where the laughter stops exactly because you realize what you're actually laughing at. You have to step back and look at what the comedy is hiding.\nA"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-94",
+      "index": 94,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "Yes. They are swimming together and Humbert vividly clinically imagines drowning his new wife.\nYes. They are swimming together and Humbert vividly clinically im"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-95",
+      "index": 95,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "He says, \"I knew that all I had to do was to drop back, take a deep breath, then grab her by the ankle and rapidly dive with my captive corpse.\nHe says, \"I knew"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-100",
+      "index": 100,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "He offers the jury in that moment. He says, \"Nowadays, you have to be a scientist if you want to be a killer. We are not sex fiends.\nHe offers the jury in that "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-101",
+      "index": 101,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "We do not rape as good soldiers do. We are unhappy, mild, dogeeyed gentlemen.\" Emphatically, no killers, are we?\nWe do not rape as good soldiers do. We are unha"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-103",
+      "index": 103,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "He is literally telling us, \"Look how gentle and sensitive my soul is. I couldn't even bring myself to murder my wife in cold blood.\" even though he just spent "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-108",
+      "index": 108,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "pure aesthetics. Pure poetic alliteration. He calls her remains a porridge of bone, brains,\npure aesthetics. Pure poetic alliteration. He calls her remains a po"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-112",
+      "index": 112,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Because with Charlotte eliminated, Humbert now has total unquestioned control over a 12-year-old girl, which changes the entire geography of the book.\nBecause w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-114",
+      "index": 114,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "And instead of staying in Ramsdale, he initiates a year-long cross-country drive. We're talking from August 1947 to August 1948.\nAnd instead of staying in Ramsd"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-118",
+      "index": 118,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "The great American road Yeah, a real pickerque. But what is actually happening? In reality, it is a kidnapping in perpetual\nThe great American road Yeah, a real"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-120",
+      "index": 120,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "can be completely invisible in plain sight across an entire continent. That blew my mind when I realized what was happening. The movement itself becomes the cag"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-123",
+      "index": 123,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "engineers this isolation. He doesn't just rely on the geography to trap her. He uses the legal machinery of the state as a weapon of terror.\nengineers this isol"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-125",
+      "index": 125,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "But in the 1940s, that carried immense weight. Absolutely. The Man Act, originally the White Sleeve Traffic Act of 1910, made it a federal crime\nBut in the 1940"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-135",
+      "index": 135,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "He is literally buying her silence with loose change and milkshakes while he holds the thread of institutionalization\nHe is literally buying her silence with lo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-136",
+      "index": 136,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "over her head. And yet, because of the lyrical pros, the reader gets swept up in the scenery.\nover her head. And yet, because of the lyrical pros, the reader ge"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-139",
+      "index": 139,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "we have to rip that veil away. We have to look at who is actually trapped inside. And that requires us to do the hardest work in the book, excavating the real g"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-159",
+      "index": 159,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "It highlights how perfectly Humbert's facade works, not just on the reader, but on the world around him. His respectable, educated European persona completely b"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-160",
+      "index": 160,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "to the monster underneath. It's terrifying. And notice how Humbert exercises his power over her in the text itself.\nto the monster underneath. It's terrifying. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'road' is not grounded in this segment's narration",
+      "sceneId": "scene-164",
+      "index": 164,
+      "concept": "road",
+      "severity": "diagnostic",
+      "segment": "nowhere else to go. That is the grand romance. If we only see her as Lolita, light of my life, if we accept his nickname for her,\nnowhere else to go. That is th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-166",
+      "index": 166,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "and just enjoying the pretty words. That is precisely the trap. The moment you accept the name Lolita, you're accepting the world on Humbert's terms.\nand just e"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-167",
+      "index": 167,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "You have to fight the pros to see But Humbert isn't the only one pulling strings in this universe. He thinks he is the master manipulator, the brilliant directo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-168",
+      "index": 168,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "But he is actually being shadowed by someone who exposes his true nature. Right. We have to talk about Claire Yes.\nBut he is actually being shadowed by someone "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'game' is not grounded in this segment's narration",
+      "sceneId": "scene-170",
+      "index": 170,
+      "concept": "game",
+      "severity": "diagnostic",
+      "segment": "He leaves these incredibly taunting, mocking pseudonyms in the motel registers to drive Humbert slowly insane. Humbert will check the guest books and find names"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'law' is not grounded in this segment's narration",
+      "sceneId": "scene-172",
+      "index": 172,
+      "concept": "law",
+      "severity": "diagnostic",
+      "segment": "And Humbert presents Quilty to us, the jury, as the true villain of the piece. He points the finger. He says, \"Look at this decadent monster who eventually lure"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-175",
+      "index": 175,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "Well, Humbert dresses up his own use in Dante patriarch and beautiful French phrases.\nWell, Humbert dresses up his own use in Dante patriarch and beautiful Fren"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-177",
+      "index": 177,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "Quilty is blunt, cynical, and openly transactional about his depravity. He represents the ugly truth of what Humbert actually is.\nQuilty is blunt, cynical, and "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-180",
+      "index": 180,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "He imagines himself as this dark romantic avenger coming to exact He even writes a self-important dramatic death sentence poem that he plans to read to Quilty b"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-182",
+      "index": 182,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "literally disintegrates into clumsy, fragmented, pathetic sentences. It all falls apart. The reality descends into total farce.\nliterally disintegrates into clu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-192",
+      "index": 192,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "Because after Cruy is dead, Humbert sits down in his prison cell to finish his confession. In those final pages, he appears to express deep\nBecause after Cruy i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'game' is not grounded in this segment's narration",
+      "sceneId": "scene-194",
+      "index": 194,
+      "concept": "game",
+      "severity": "diagnostic",
+      "segment": "But I loved you. I loved you.\" And later he writes, \"Every now and then I have to remind myself to believe in my own confession.\" Even in his supposed repentanc"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'magnifier' is not grounded in this segment's narration",
+      "sceneId": "scene-196",
+      "index": 196,
+      "concept": "magnifier",
+      "severity": "diagnostic",
+      "segment": "He says, \"And this is the only immortality you and I may share, my Let's unpack the word my in that sentence.\nHe says, \"And this is the only immortality you and"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'key' is not grounded in this segment's narration",
+      "sceneId": "scene-197",
+      "index": 197,
+      "concept": "key",
+      "severity": "diagnostic",
+      "segment": "My Lolita. That single pronoun carries the entire moral weight of the novel.\nMy Lolita. That single pronoun carries the entire moral weight of the novel."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-200",
+      "index": 200,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "in art, he is basically locking her in a literary prison forever. The physical road trip is over, but the artistic cage remains.\nin art, he is basically locking"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-201",
+      "index": 201,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Is this entire confession just one last act of seduction aimed at us, the reader, to make us forgive him because he wrote a pretty book about it? Exactly. The c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-202",
+      "index": 202,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "feeling sorry for Humbert Humbert, the moment you think, \"Well, his actions were monstrous, but his love is profound.\" The book has successfully proven its thes"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-203",
+      "index": 203,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "That's the trap. It proves that seductive rhetoric can manufacture consent for the inexcusable.\nThat's the trap. It proves that seductive rhetoric can manufactu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-205",
+      "index": 205,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Lolita, light of my life. We've seen how he used Dante Petrarch and Edgar Ellen Poe to build a fake origin story to hide his predatory past in the parks of Pari"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-206",
+      "index": 206,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "The book for a fig leaf. We saw him use the vast geography of mid-century America to turn a kidnapping into a road trip,\nThe book for a fig leaf. We saw him use"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-208",
+      "index": 208,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "And finally, the fake confession. right? Performing remorse to lock her in a literary cage forever. Which brings us to why this text is so essential to grapple "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-209",
+      "index": 209,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "Lolita is not just a controversial novel from the 1950s. It is a grueling, brilliant masterclass in critical thinking and media literacy.\nLolita is not just a c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-210",
+      "index": 210,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Media literacy is exactly what this is It trains you to look past beautiful delivery and interrogate the horrific truths that rhetoric can hide.\nMedia literacy "
+    }
+  ]
+}

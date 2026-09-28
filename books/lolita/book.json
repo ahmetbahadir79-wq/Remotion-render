@@ -1,0 +1,32 @@
+{
+  "slug": "lolita",
+  "title": "Lolita",
+  "author": "Vladimir Nabokov",
+  "genre": "classics",
+  "engine": "antidote",
+  "engineRationale": "Genre \"classics\" → Antidote: flat-vector rigged characters + kinetic typography (higher conversion, cheaper render). Override with --engine=vox if the book needs photoreal depictions of real people.",
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-09-28",
+    "fit": "antidote",
+    "confidence": "weak",
+    "voxScore": 7,
+    "antidoteScore": 8.8,
+    "signals": {
+      "year": 0.9,
+      "history": 1.4,
+      "second": 12.4,
+      "abstract": 3,
+      "sensitive": 7.4,
+      "era": 1950,
+      "words": 5711
+    },
+    "reasons": [
+      "no dominant signal — the story itself decides; contemporary fiction with a cast works in Antidote (WWL), period or documentary worlds in Vox"
+    ],
+    "risks": [
+      "violence/death 7.4/1k (> 6) → Flux will refuse many Vox images of the key scenes (CONTENT_FILTERED); Antidote draws them symbolically"
+    ],
+    "confirmed": true
+  }
+}

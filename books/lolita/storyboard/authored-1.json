@@ -1,0 +1,893 @@
+[
+  {
+    "i": 0,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE MOST DISTURBING THING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The most disturbing thing about the novel is not Humbert's acts themselves.",
+      "concreteVisual": "Humbert sitting alone in a bare room — the cold open teases that the real horror is elsewhere.",
+      "onScreenText": "THE MOST DISTURBING THING",
+      "relationToPrevious": "Cold open.",
+      "addedInformation": "Sets up a mystery: if not his acts, then what? The next beat answers."
+    }
+  },
+  {
+    "i": 1,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "FORGOT TO BE HORRIFIED",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "His prose is so beautiful you forget to be horrified.",
+      "concreteVisual": "The manuscript in Humbert's hand — the writing IS the weapon.",
+      "onScreenText": "FORGOT TO BE HORRIFIED",
+      "relationToPrevious": "Answers beat 0: the disturbing thing is the prose itself.",
+      "addedInformation": "The notes icon makes the prose physically visible as an object Humbert wields."
+    }
+  },
+  {
+    "i": 2,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "THE TRAP NABOKOV BUILT",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Nabokov built a meticulously constructed snare for the reader.",
+      "concreteVisual": "Nabokov gesturing at the funnel trap — the architect showing his design.",
+      "onScreenText": "THE TRAP NABOKOV BUILT",
+      "relationToPrevious": "Zooms out from Humbert's prose to Nabokov's master plan.",
+      "addedInformation": "Separates author from narrator — Nabokov designed the trap, Humbert is the bait."
+    }
+  },
+  {
+    "i": 3,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "BREATHTAKING AESTHETICS",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "The bait of the trap is the breathtaking beauty of the English prose.",
+      "concreteVisual": "Humbert holding the book — the beautiful text is the bait.",
+      "onScreenText": "BREATHTAKING AESTHETICS",
+      "relationToPrevious": "From the trap's architect to its bait.",
+      "addedInformation": "The book in hand makes the text a tangible lure."
+    }
+  },
+  {
+    "i": 4,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MISUNDERSTOOD FOR DECADES",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Pop culture has misunderstood Lolita for decades.",
+      "concreteVisual": "Humbert standing in an ordinary street — the novel has been misread in the everyday world.",
+      "onScreenText": "MISUNDERSTOOD FOR DECADES",
+      "relationToPrevious": "From the text itself to how the world received it.",
+      "addedInformation": "weak: no icon reads right for cultural misunderstanding; the callout carries it."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FORBIDDEN ROMANCE",
+      "style": "strike"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "People wrongly call it forbidden romance or tragic love — the narrator rejects this.",
+      "concreteVisual": "No romance imagery — a heart icon would reinforce the wrong reading. The struck-through phrase does the rejection.",
+      "onScreenText": "FORBIDDEN ROMANCE (struck through)",
+      "relationToPrevious": "Specifies the misunderstanding: the romance label.",
+      "addedInformation": "The strike tells a muted viewer the phrase is being crossed out, not endorsed."
+    }
+  },
+  {
+    "i": 6,
+    "concept": "magnifier",
+    "diagram": null,
+    "callout": {
+      "text": "A COMPLETE MISREAD",
+      "style": "highlight"
+    },
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "magnifier",
+    "storyboard": {
+      "claim": "Based on close reading of the excerpts, the popular reading is a complete misread.",
+      "concreteVisual": "Humbert examined under a magnifier — close reading reveals what casual reading missed.",
+      "onScreenText": "A COMPLETE MISREAD",
+      "relationToPrevious": "After striking forbidden romance, names it formally: a complete misread.",
+      "addedInformation": "The magnifier makes pouring over excerpts visible."
+    }
+  },
+  {
+    "i": 7,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE MURDER WEAPON IS LANGUAGE",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "This is not a love story — it is literature's most elaborate crime scene, and the murder weapon is language.",
+      "concreteVisual": "Humbert in the courtroom holding the book — the weapon is in his hand.",
+      "onScreenText": "THE MURDER WEAPON IS LANGUAGE",
+      "relationToPrevious": "The thesis statement, replacing the crossed-out forbidden romance.",
+      "addedInformation": "The courtroom set frames it as a crime; the book in hand IS the weapon."
+    }
+  },
+  {
+    "i": 8,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE MECHANICS OF THE CRIME",
+      "style": "highlight"
+    },
+    "set": "stage",
+    "cast": [
+      "nabokov"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "To understand the crime, we must examine Nabokov's setup closely.",
+      "concreteVisual": "Nabokov thinking — the architect contemplating his design.",
+      "onScreenText": "THE MECHANICS OF THE CRIME",
+      "relationToPrevious": "From the thesis to the method: how was the crime built?",
+      "addedInformation": "Nabokov on screen distinguishes the author's design from Humbert's performance."
+    }
+  },
+  {
+    "i": 9,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "1947 AMERICA",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "The setting is late 1940s America, primarily 1947-48.",
+      "concreteVisual": "Humbert arriving on an American highway — the time and place.",
+      "onScreenText": "1947 AMERICA",
+      "relationToPrevious": "From the analytical frame to the story world: where and when are we?",
+      "addedInformation": "The highway places us in mid-century America — motels, diners, the road."
+    }
+  },
+  {
+    "i": 10,
+    "concept": "crack",
+    "diagram": null,
+    "callout": {
+      "text": "NEVER SEE OBJECTIVELY",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "We are never allowed to see this world objectively — only through Humbert's eyes.",
+      "concreteVisual": "The iceberg — we see only Humbert's curated surface, never the objective depths beneath.",
+      "onScreenText": "NEVER SEE OBJECTIVELY",
+      "relationToPrevious": "The small-town world looks quaint, but we only see what Humbert shows us.",
+      "addedInformation": "The iceberg makes hidden reality below the surface visible without sound."
+    }
+  },
+  {
+    "i": 11,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "TRAPPED BEHIND HIS EYES",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "sit",
+    "storyboard": {
+      "claim": "We are trapped entirely behind Humbert's eyes — he is an unreliable narrator.",
+      "concreteVisual": "The mask — Humbert's public persona is a false face over his true nature.",
+      "onScreenText": "TRAPPED BEHIND HIS EYES",
+      "relationToPrevious": "From never objectively to the reason: Humbert's mask controls what we see.",
+      "addedInformation": "The mask makes unreliable narrator visible — a false face is literally what he presents."
+    }
+  },
+  {
+    "i": 12,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "IMPECCABLE DICTION",
+      "style": "highlight"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Humbert is a European emigre, a literature professor with impeccable diction.",
+      "concreteVisual": "Humbert in a classroom holding a book — the professor with his credentials.",
+      "onScreenText": "IMPECCABLE DICTION",
+      "relationToPrevious": "Character introduction: who is behind the mask.",
+      "addedInformation": "The classroom and book ground his identity as a professor — the education he will weaponize."
+    }
+  },
+  {
+    "i": 13,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "MONSTROUS SECRET",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Behind the encyclopedic knowledge is a deeply monstrous secret fixation.",
+      "concreteVisual": "The shadow self — Humbert's dark inner nature lurking behind the scholar.",
+      "onScreenText": "MONSTROUS SECRET",
+      "relationToPrevious": "Same scene, new information: beneath the professor is a predator.",
+      "addedInformation": "The shadow self icon makes the hidden predator visible alongside the respectable exterior."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT A COZY MEMOIR",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "storyboard": {
+      "claim": "He is NOT writing from a cozy academic study — that framing is rejected.",
+      "concreteVisual": "Humbert sitting in a bare room — the struck-through phrase rejects the comfortable image.",
+      "onScreenText": "NOT A COZY MEMOIR (struck through)",
+      "relationToPrevious": "Transition: where he writes matters, and it is not where you think.",
+      "addedInformation": "The strike tells a muted viewer the comfortable assumption is being crossed out."
+    }
+  },
+  {
+    "i": 15,
+    "concept": "key",
+    "diagram": null,
+    "callout": {
+      "text": "FROM A PRISON CELL",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "He is writing from a prison cell, awaiting trial for murder.",
+      "concreteVisual": "Chains — Humbert is literally imprisoned. The icon reads as confinement.",
+      "onScreenText": "FROM A PRISON CELL",
+      "relationToPrevious": "Answers beat 14: not cozy — a prison cell.",
+      "addedInformation": "The chains make the imprisonment physical; the reveal lands the correction."
+    }
+  },
+  {
+    "i": 16,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "YOU ARE THE JURY",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "He addresses ladies and gentlemen of the jury — but the reader IS the jury.",
+      "concreteVisual": "Humbert in court, pointing outward — the law icon frames the trial, his finger names the reader as juror.",
+      "onScreenText": "YOU ARE THE JURY",
+      "relationToPrevious": "From prison cell to courtroom: he is on trial, and we are judging.",
+      "addedInformation": "The pointing gesture breaks the fourth wall — you is the viewer."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "MANUFACTURE OUR CONSENT",
+      "style": "reveal"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "His goal from the first syllable is to manufacture the reader's consent for his inexcusable acts.",
+      "concreteVisual": "The puppeteer — Humbert controlling the reader through rhetoric.",
+      "onScreenText": "MANUFACTURE OUR CONSENT",
+      "relationToPrevious": "Now that we know we are the jury, this is his strategy: puppet us into agreement.",
+      "addedInformation": "The puppeteer icon makes the manipulation mechanism visible — he is pulling strings."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HE DOESN'T DENY IT",
+      "style": "highlight"
+    },
+    "set": "court",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "He does not try to deny the events — that would be too easy.",
+      "concreteVisual": "Humbert talking openly in court — he confesses the acts, which makes his strategy more insidious.",
+      "onScreenText": "HE DOESN'T DENY IT",
+      "relationToPrevious": "Specifies the manipulation: not denial but reframing.",
+      "addedInformation": "weak: no icon reads right for confessing while reframing; staging carries it."
+    }
+  },
+  {
+    "i": 19,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "AESTHETIC ARCHITECTURE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "think",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "He constructs an entire aesthetic architecture of prose to house his abuse.",
+      "concreteVisual": "Humbert holding his manuscript — the writing is the architecture.",
+      "onScreenText": "AESTHETIC ARCHITECTURE",
+      "relationToPrevious": "From he doesn't deny to what he does instead: builds a literary fortress.",
+      "addedInformation": "The notes make the prose tangible — the architecture is literally the manuscript."
+    }
+  },
+  {
+    "i": 20,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "EXCUSE THE INEXCUSABLE",
+      "style": "highlight"
+    },
+    "set": "stage",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "He wants the reader to say I understand the artist's soul and excuse the inexcusable.",
+      "concreteVisual": "Humbert on stage performing — he is giving a performance, not a confession.",
+      "onScreenText": "EXCUSE THE INEXCUSABLE",
+      "relationToPrevious": "The goal of the aesthetic architecture: audience forgiveness.",
+      "addedInformation": "The stage set frames his confession as theater — he is performing remorse."
+    }
+  },
+  {
+    "i": 21,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE PSYCHOLOGICAL JUGULAR",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "He goes for the psychological jugular right on page one.",
+      "concreteVisual": "Humbert with the book — the weapon aimed at the reader from the first page.",
+      "onScreenText": "THE PSYCHOLOGICAL JUGULAR",
+      "relationToPrevious": "Transition to how the trap works in practice: page one.",
+      "addedInformation": "weak: the book in hand echoes beat 7, but the callout narrows to page one."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE OPENING INCANTATION",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The opening incantation of the book is famous for a reason.",
+      "concreteVisual": "Humbert sitting at his desk — about to write the famous opening.",
+      "onScreenText": "THE OPENING INCANTATION",
+      "relationToPrevious": "Zooms into page one: the specific passage.",
+      "addedInformation": "The word incantation signals this is a spell, not just prose."
+    }
+  },
+  {
+    "i": 23,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LIGHT OF MY LIFE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert's opening: Lolita, light of my life, fire of my loins, my sin, my soul.",
+      "concreteVisual": "Humbert speaking the words — no fire icon (not literal fire), no heart (not romance). The man reciting is the visual.",
+      "onScreenText": "LIGHT OF MY LIFE",
+      "relationToPrevious": "The incantation itself, first half.",
+      "addedInformation": "The words are Humbert's — hearing them from HIS mouth reframes them as manipulation, not poetry."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TIP OF THE TONGUE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The phonetic passage: the tip of the tongue taking a trip of three steps down the palate.",
+      "concreteVisual": "Humbert speaking — the words themselves are the subject.",
+      "onScreenText": "TIP OF THE TONGUE",
+      "relationToPrevious": "Continues the incantation — the second, phonetic half.",
+      "addedInformation": "weak: pure recitation; the next beats will decode what the passage does."
+    }
+  },
+  {
+    "i": 25,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PURE POETRY",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "It reads as pure poetry — the rhythm pulls you in, almost musical.",
+      "concreteVisual": "Humbert speaking with calm confidence — the seduction is working.",
+      "onScreenText": "PURE POETRY",
+      "relationToPrevious": "The reader's first reaction to the incantation: it is beautiful.",
+      "addedInformation": "weak: staging mirrors beats 23-24; the callout shifts from quoting to reacting."
+    }
+  },
+  {
+    "i": 26,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ENTIRELY MANIPULATIVE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "More importantly, it is entirely manipulative — it controls you physically.",
+      "concreteVisual": "Humbert pointing in abstract space — the analysis shifts from admiration to accusation.",
+      "onScreenText": "ENTIRELY MANIPULATIVE",
+      "relationToPrevious": "Reversal: the pure poetry is actually a manipulation tool.",
+      "addedInformation": "The switch to abstract set signals we are now inside the analysis, not the story."
+    }
+  },
+  {
+    "i": 27,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HE DICTATES YOUR BODY",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "He forces your mouth, tongue, vocal cords to move exactly as he dictates.",
+      "concreteVisual": "Humbert pointing outward — dictating, commanding the reader's physical response.",
+      "onScreenText": "HE DICTATES YOUR BODY",
+      "relationToPrevious": "Specifies the manipulation: physical control through phonetics.",
+      "addedInformation": "The pointing gesture makes dictating visible — he is directing the reader."
+    }
+  },
+  {
+    "i": 28,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A HYPNOTIC SPELL",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Before you process the moral reality, he has cast a hypnotic spell over your body.",
+      "concreteVisual": "Humbert reaching toward the viewer — casting the spell, drawing us in.",
+      "onScreenText": "A HYPNOTIC SPELL",
+      "relationToPrevious": "From physical control to its effect: hypnosis.",
+      "addedInformation": "The reaching gesture visualizes the spell being cast toward the audience."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ABSOLUTE DOMINANCE",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "He establishes absolute dominance over the narrative from the very first line.",
+      "concreteVisual": "Humbert standing dominant in abstract space — he owns the narrative.",
+      "onScreenText": "ABSOLUTE DOMINANCE",
+      "relationToPrevious": "The result of the spell: total control.",
+      "addedInformation": "weak: staging is minimal; the callout carries the idea after four analytical beats."
+    }
+  },
+  {
+    "i": 30,
+    "concept": "game",
+    "diagram": null,
+    "callout": {
+      "text": "HE KNOWS HE'S PLAYING US",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "He is so arrogant — he openly knows he is playing the reader.",
+      "concreteVisual": "Humbert with an arrogant smirk and the game icon — he treats this as a game he is winning.",
+      "onScreenText": "HE KNOWS HE'S PLAYING US",
+      "relationToPrevious": "From dominance to arrogance: he is enjoying the manipulation.",
+      "addedInformation": "The game icon makes playing us literal. The smirk is real arrogance, not fake happiness."
+    }
+  },
+  {
+    "i": 31,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A MURDERER'S FANCY PROSE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "talk",
+    "storyboard": {
+      "claim": "You can always count on a murderer for a fancy prose style — the ultimate confidence trick.",
+      "concreteVisual": "Humbert speaking calmly — delivering the famous self-aware confession.",
+      "onScreenText": "A MURDERER'S FANCY PROSE",
+      "relationToPrevious": "The specific quote that proves beat 30: he openly names himself a murderer.",
+      "addedInformation": "The narrator's exact words, corrected from ASR."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WE TRUST HIM MORE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "By admitting his unreliability, he paradoxically makes us trust him more.",
+      "concreteVisual": "Humbert smiling — the con artist's charm. The wink that disarms us.",
+      "onScreenText": "WE TRUST HIM MORE",
+      "relationToPrevious": "The paradox: confessing manipulation increases trust.",
+      "addedInformation": "The happy expression is the con: he smiles because the trick is working."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DISARMS OUR SKEPTICISM",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "He disarms our skepticism by performing honesty about his dishonesty.",
+      "concreteVisual": "Humbert standing calmly — skepticism disarmed, he has won this round.",
+      "onScreenText": "DISARMS OUR SKEPTICISM",
+      "relationToPrevious": "The mechanism behind trust him more: our guard drops.",
+      "addedInformation": "weak: staging is minimal after several abstract beats; the callout carries it."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Cite the poets",
+        "Claim destiny",
+        "Predation excused"
+      ]
+    },
+    "callout": null,
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "sad",
+    "action": "point",
+    "storyboard": {
+      "claim": "He historicizes his predation by wrapping himself in the cloak of the great romantic poets.",
+      "concreteVisual": "Flow diagram: Cite the poets -> Claim destiny -> Predation excused.",
+      "onScreenText": "Flow: Cite the poets -> Claim destiny -> Predation excused",
+      "relationToPrevious": "New section: the specific defense mechanism using literary allusions.",
+      "addedInformation": "The diagram makes the strategy's logic visible as a chain the viewer can follow without sound."
+    }
+  },
+  {
+    "i": 35,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "HIGH LITERARY ALLUSIONS",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "He drops massive high literary allusions constantly — Virgil and others — as a shield.",
+      "concreteVisual": "The shield icon — literature is his armor. Humbert holds a book as defense.",
+      "onScreenText": "HIGH LITERARY ALLUSIONS",
+      "relationToPrevious": "Step 1 of the flow diagram enacted: citing the poets.",
+      "addedInformation": "The shield makes defensive use of literature visible — he hides behind great names."
+    }
+  },
+  {
+    "i": 36,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE HEAVY HITTERS",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "He brings in the heavy hitters to justify his specific fixation.",
+      "concreteVisual": "Humbert pointing toward shelves — invoking the great literary names.",
+      "onScreenText": "THE HEAVY HITTERS",
+      "relationToPrevious": "Deepens the allusion strategy: not just any references, the biggest names.",
+      "addedInformation": "weak: the library setting and pointing gesture suggest citing authorities without an icon."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DANTE AND BEATRICE",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Humbert argues Dante fell in love with Beatrice when she was 9 years old.",
+      "concreteVisual": "Humbert speaking — quoting Dante as precedent. No heart icon: the love is Humbert's spin, not real romance.",
+      "onScreenText": "DANTE AND BEATRICE",
+      "relationToPrevious": "First named example of the heavy hitters: Dante.",
+      "addedInformation": "Names the historical figure Humbert weaponizes — the viewer sees who he hides behind."
+    }
+  },
+  {
+    "i": 38,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "PETRARCH AND LAURA",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Petrarch fell in love with his Laura, a 12-year-old — revealing the core of his manipulation.",
+      "concreteVisual": "Humbert still speaking — second precedent. The repetition makes the pattern visible.",
+      "onScreenText": "PETRARCH AND LAURA",
+      "relationToPrevious": "Second example parallels the first — the pattern is now clear.",
+      "addedInformation": "Two names in two beats makes the viewer see a strategy, not an anecdote."
+    }
+  },
+  {
+    "i": 39,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "UNTOUCHABLE PILLARS",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "humbert"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Dante and Petrarch are untouchable pillars of Western literature — that is exactly why Humbert chose them.",
+      "concreteVisual": "Humbert standing among books — sheltered by the untouchable names.",
+      "onScreenText": "UNTOUCHABLE PILLARS",
+      "relationToPrevious": "Explains WHY those two: their status makes them unassailable shields.",
+      "addedInformation": "Connects to the flow diagram at beat 34 — this is claim destiny in action."
+    }
+  }
+]
