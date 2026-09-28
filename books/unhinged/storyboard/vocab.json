@@ -1,0 +1,173 @@
+{
+  "icons": [
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "puppeteer",
+    "chains",
+    "compass",
+    "boulder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "gift",
+    "inheritance",
+    "skinnerBox",
+    "tattooNeedle",
+    "slotMachine",
+    "dopamineHook",
+    "nerveFray",
+    "cageShrink"
+  ],
+  "ownIcons": [
+    "skinnerBox",
+    "tattooNeedle",
+    "slotMachine",
+    "dopamineHook",
+    "nerveFray",
+    "cageShrink"
+  ],
+  "sets": [
+    "street",
+    "room",
+    "abstract",
+    "bedroom",
+    "library",
+    "hospital",
+    "court"
+  ],
+  "shots": [
+    "wide",
+    "medium",
+    "closeUp",
+    "twoShot",
+    "overShoulder",
+    "insert",
+    "split",
+    "silhouette",
+    "lowAngle",
+    "crowd",
+    "illustration",
+    "diorama",
+    "beforeAfter"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "sad",
+    "surprised",
+    "worried",
+    "angry",
+    "smirk",
+    "blank",
+    "afraid"
+  ],
+  "actions": [
+    "idle",
+    "talk",
+    "point",
+    "celebrate",
+    "slump",
+    "think",
+    "walk",
+    "sit",
+    "hold",
+    "reach"
+  ],
+  "holds": [
+    "book",
+    "phone",
+    "key",
+    "notes",
+    "letter",
+    "coin",
+    "cup",
+    "lightbulb",
+    "mask",
+    "photo",
+    "mirror",
+    "flower",
+    "compass",
+    "briefcase",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift"
+  ],
+  "cast": [
+    {
+      "key": "avery",
+      "name": "Avery",
+      "role": "Protagonist — young woman with severe PTSD and BPD, placed in Lilyale after killing her father. Burn scars on her arm, scarred back from a bottle attack. Hypervigilant, flinches at touch. Her nervous system has been rewired by chronic trauma.",
+      "look": "Early 20s woman, slight build, long dark hair often falling over her face, pale skin with visible burn scars on her forearm, wears institutional grey clothing — loose sweatshirt and joggers, haunted watchful eyes"
+    },
+    {
+      "key": "gray",
+      "name": "Gray",
+      "role": "Antagonist/love interest — calculating predator who reads Avery's trauma like a blueprint. Uses intermittent reinforcement: alternates devastating tenderness with violent control. Called 'demon boy'. Possessive, witty, dangerous.",
+      "look": "Mid 20s man, tall and imposing, sharp angular features, dark intense eyes, dark hair pushed back, wears fitted dark clothing — black henley and dark trousers, a scar or tattoo visible on his hands, radiates controlled menace"
+    },
+    {
+      "key": "theo",
+      "name": "Theo",
+      "role": "Another dangerous inmate who offers Avery a genuine, non-transactional connection. Tattoos over her burn scars as an act of reclaiming her bodily autonomy. Catalyst for the breaking point — his presence fractures Gray's control.",
+      "look": "Mid 20s man, massive imposing build, dark skin, close-cropped hair, tattoos covering both arms, wears institutional clothing but with rolled-up sleeves showing ink, gentle eyes contrasting his intimidating frame"
+    },
+    {
+      "key": "drsmith",
+      "name": "Dr. Smith",
+      "role": "Avery's assigned psychiatrist. Sterile clinical approach — asks textbook BPD questions, reads off a clipboard. His polite structured method is a language Avery's nervous system does not speak. Contrast to Gray's intuitive predatory reading of her.",
+      "look": "Middle-aged man, average build, neat grey-streaked hair, wire-rimmed glasses, wears a white lab coat over a dress shirt and tie, carries a clipboard, professional and detached demeanor"
+    },
+    {
+      "key": "sam",
+      "name": "Sam",
+      "role": "Hostile inmate at Lilyale. Inherently aggressive. Gray violently defends Avery from him. Theo permanently tattoos a fist onto his face as punishment.",
+      "look": "Young man, stocky aggressive build, shaved head, scarred knuckles, wears stained institutional clothes, perpetual sneer"
+    },
+    {
+      "key": "saoon",
+      "name": "Saoon",
+      "role": "Inmate dealing with extreme bipolar swings and the recent suicide of her brother. Part of the hostile environment that pushes Avery toward isolation.",
+      "look": "Young woman, thin and fragile, dark circles under her eyes, dark curly hair often unkempt, wears oversized institutional clothing, alternates between manic energy and hollow stillness"
+    },
+    {
+      "key": "everyman",
+      "name": "Everyman",
+      "role": "Abstract stand-in for the reader/viewer — the one rooting for the villain, the one whose nervous system is being hacked by the narrative.",
+      "look": "Androgynous figure, average build, neutral features, muted earth-tone clothing"
+    }
+  ]
+}

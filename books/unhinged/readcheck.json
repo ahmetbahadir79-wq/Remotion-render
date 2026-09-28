@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-25T10:55:22.000Z",
+  "n": 11,
+  "totals": {
+    "CORRECT": 8,
+    "NEUTRAL": 3,
+    "WRONG": 0
+  },
+  "wrongRate": 0,
+  "blame": {
+    "words": 3
+  },
+  "iconBlame": {},
+  "beats": [
+    {
+      "i": 94,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The on-screen text only says 'hostile environment', so the viewer misses that the environment is doing the isolating work for Gray.",
+      "concept": null,
+      "callout": "HOSTILE ENVIRONMENT"
+    },
+    {
+      "i": 119,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The on-screen text 'biology breaks the package' jumps ahead of the narration, which at this moment is still describing the desired simplistic belief rather than its breakdown.",
+      "concept": null,
+      "callout": "BIOLOGY BREAKS THE PACKAGE"
+    },
+    {
+      "i": 141,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "The on-screen 'hacks YOUR chemistry' leads the viewer to think it's the reader's chemistry being affected, when the narration means the character Avery's internal chemical reaction.",
+      "concept": "mirror",
+      "callout": "THE PROSE HACKS YOUR CHEMISTRY"
+    }
+  ]
+}

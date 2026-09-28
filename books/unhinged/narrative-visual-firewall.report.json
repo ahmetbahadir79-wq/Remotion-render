@@ -1,0 +1,795 @@
+{
+  "version": "P2.0",
+  "slug": "unhinged",
+  "status": "PASS",
+  "counts": {
+    "scenes": 231,
+    "violations": 0,
+    "diagnostics": 87
+  },
+  "violations": [
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-03",
+      "index": 3,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "Yeah. I know, like why do we enjoy watching someone walk into a trap? So, if you're joining us for this deep dive,\nYeah. I know, like why do we enjoy watching s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-05",
+      "index": 5,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "And our mission today is to take this massive stack of source material, specifically Steph Macca's dark romance novel, Unhinged, and run it through a completely"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-06",
+      "index": 6,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "We are definitely not treating this as just a piece of edgy fiction. No, not at all. We're treating it as a meticulously constructed psychological case study, w"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-07",
+      "index": 7,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "we need to look at the environment and the subject. So, the subject is Avery, a young woman who has just been placed in a Lilyale Foundation Center. And on pape"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-08",
+      "index": 8,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "psychiatric rehabilitation facility. Yeah, on paper. But in reality, it operates much more like a gilded prison. And Avery, she is not just a typical struggling"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'water' is not grounded in this segment's narration",
+      "sceneId": "scene-09",
+      "index": 9,
+      "concept": "water",
+      "severity": "diagnostic",
+      "segment": "I mean, her emotional architecture has been completely hollowed out by this catastrophic prior\nI mean, her emotional architecture has been completely hollowed o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-14",
+      "index": 14,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "system is rewired. Rewired completely. Yeah. We are going to examine how trauma, isolation,\nsystem is rewired. Rewired completely. Yeah. We are going to examine"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-15",
+      "index": 15,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "and um a very specific behavioral conditioning tactic called intermittent reinforcement can literally alter a person's biological It's wild. We are talking abou"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-18",
+      "index": 18,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "You know the floor is going to give out. And yet you walk inside and step on them anyway. You do every single time. But I mean, if we want to understand how Ave"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-21",
+      "index": 21,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "is brutal. It really is. She has extensive physical scars. The text mentions burn marks that were severe enough to require a skin And\nis brutal. It really is. S"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-25",
+      "index": 25,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "Oh, constantly. Usually, a diagnosis in a novel is just an excuse for a character to act erratically or the author delivers it in this lazy expositionheavy\nOh, "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-30",
+      "index": 30,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "their amygdala, the brain's threat detection center, becomes hyperreactive. It just stays on all the time. Exactly. It essentially gets stuck in the on position"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-31",
+      "index": 31,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "So, she is perpetually scanning for a threat that isn't necessarily even Right. Because her nervous system equates hypervigilance with normaly.\nSo, she is perpe"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'tattooNeedle' is not grounded in this segment's narration",
+      "sceneId": "scene-34",
+      "index": 34,
+      "concept": "tattooNeedle",
+      "severity": "diagnostic",
+      "segment": "I remember that. Later, she is alone with Theo, another massive imposing inmate, and he reaches for her bandaged wrist to help cover her scars with a tattoo. an"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-36",
+      "index": 36,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "a very common critique of dark romance. Okay, let's hear it. A lot of people argue that these books just use trauma as a cheap accessory.\na very common critique"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-39",
+      "index": 39,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "She is using it as the foundational architecture of the trap. Oh, interesting. She is establishing the exact combination code to Avery's vault. In the real worl"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-40",
+      "index": 40,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "They read the body language. They do. They learn a victim's damage by watching what makes them freeze.\nThey read the body language. They do. They learn a victim"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-42",
+      "index": 42,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "with Dr. Smith, the clinical psychiatrist, right? Dr. Smith is supposed to be the one actually helping her. And I mean, he tries, but he approaches her from a c"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-43",
+      "index": 43,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "which doesn't work for her at all. Not even a little. He asks her textbook questions. He asks if she has a favorite person, which is a classic clinical marker f"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-46",
+      "index": 46,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "but silence and politeness make her incredibly anxious, which really explains this massive paradox in the first act of the book. What paradox? Well, Avery feels"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-51",
+      "index": 51,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "She responds to the exact mechanism Gray uses to hack her system. He realizes that the key to Avery isn't kindness. And it isn't pure cruelty\nShe responds to th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-52",
+      "index": 52,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "either. It's unpredictability. unpredictability. Okay, we need to talk about the slot Yes. Let's dive into intermittent because this is so crucial. It really is"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-53",
+      "index": 53,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "To understand why Avery becomes so hopelessly addicted to Gray, you have to understand the behavioral psychology of BF Skinner. Back to Psych 101, right?\nTo und"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-57",
+      "index": 57,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "trying. But that's not what gray does. No. Skinner discovered a third option called a variable ratio reward schedule. Oh, this is where it gets dark. Extremely."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-58",
+      "index": 58,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "got food sometimes completely unpredictably, the rat would become It would press the lever compulsively,\ngot food sometimes completely unpredictably, the rat wo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-59",
+      "index": 59,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "ignoring sleep, ignoring other stimuli, just constantly chasing that unpredictable reward. So, it's just mashing the button.\nignoring sleep, ignoring other stim"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-60",
+      "index": 60,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "Yes. In neuroscience, this is tied to something called a dopamine prediction Wait, a prediction error? How does that work?\nYes. In neuroscience, this is tied to"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-61",
+      "index": 61,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "Well, your brain releases dopamine not just when you get a reward, but when you anticipate a reward, okay, the buildup, right?\nWell, your brain releases dopamin"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-62",
+      "index": 62,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "If a reward is 100% predictable, the dopamine spike actually flattens out over time because your brain has already solved the puzzle.\nIf a reward is 100% predic"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-63",
+      "index": 63,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "Oh, cuz there's no mystery anymore. Exactly. But if the reward is unpredictable, the brain cannot adapt. So the dopamine spike when you finally do get the rewar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-64",
+      "index": 64,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "it's a surprise. That makes so much sense. The brain becomes hyperfocused on trying to crack a pattern that doesn't actually exist.\nit's a surprise. That makes "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-75",
+      "index": 75,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "Wow. I'm trying to picture this for you listening. Think of it like a broken vending machine. Okay. I like this. You put a dollar in and nothing happens.\nWow. I"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-76",
+      "index": 76,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "You stop trying. You put a dollar in and you get a candy bar every single time. It's nice, but it's just a transaction, right?\nYou stop trying. You put a dollar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-77",
+      "index": 77,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "It's predictable. But if you put a dollar in and sometimes you get a candy bar and sometimes a live hornet flies out and stings you in the face. Oh my gosh, you"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-78",
+      "index": 78,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "You keep pulling the lever just to see what happens. The anticipation alone completely rewires your focus. That is a brilliant way to put it. But to take your v"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-82",
+      "index": 82,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "Trying to guess if it's a candy bar or a hornet day. Yes. And when she finally gets the tender gray, the dopamine spike is because of the contrast.\nTrying to gu"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-83",
+      "index": 83,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "Because the dopamine spike is proportionate to the anxiety that preceded it. Relief from intense fear is the most potent high a human being can experience. That"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-84",
+      "index": 84,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "It is. Gray is incredibly calculating. He is creating a trauma bond where Avery\nIt is. Gray is incredibly calculating. He is creating a trauma bond where Avery"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'cageShrink' is not grounded in this segment's narration",
+      "sceneId": "scene-87",
+      "index": 87,
+      "concept": "cageShrink",
+      "severity": "diagnostic",
+      "segment": "So why doesn't Avery Ah, because Gray knows that to keep a gambler at the table, you have to board up the windows.\nSo why doesn't Avery Ah, because Gray knows t"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'cageShrink' is not grounded in this segment's narration",
+      "sceneId": "scene-91",
+      "index": 91,
+      "concept": "cageShrink",
+      "severity": "diagnostic",
+      "segment": "and Gray builds it step by step. We see him begin to isolate Avery from the very few other connections she might Right.\nand Gray builds it step by step. We see "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-95",
+      "index": 95,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "escape this overwhelming environment? She retreats to the library, her safe space. It's described as this dusty abandoned space that smells like mold. But she s"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-103",
+      "index": 103,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "caused a little friction with your partner and it was just easier to avoid the argument? Yeah. You just adapt to keep the peace and it feels like romance at fir"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'cageShrink' is not grounded in this segment's narration",
+      "sceneId": "scene-104",
+      "index": 104,
+      "concept": "cageShrink",
+      "severity": "diagnostic",
+      "segment": "It feels like you're just catering to their preferences because you care. But it's It is the slow beaming of a wall.\nIt feels like you're just catering to their"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'cageShrink' is not grounded in this segment's narration",
+      "sceneId": "scene-106",
+      "index": 106,
+      "concept": "cageShrink",
+      "severity": "diagnostic",
+      "segment": "So true. By retreating from the overt obvious threats of the asylum, like the screaming inmates, the armed guards, the clinical staff, Avery willingly steps int"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-108",
+      "index": 108,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "Her emotional vault is unlocked. Yes. And this leads us to a part of the source material that makes a lot of people deeply uncomfortable. It's a really tough se"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-110",
+      "index": 110,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "It happens at a physiological level. Avery's logical mind screams danger, but her body starts telling a completely different story.\nIt happens at a physiologica"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-113",
+      "index": 113,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "He penetrates her with the handle of the blade. And the dialogue he uses while doing this is chilling. He says to her, \"I'm your god now, little killer, and I'm"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-114",
+      "index": 114,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "variable reinforcement we just Right. The hornet and the ice pack at the exact same time. Exactly. He is simultaneously the threat of lethal violence and the pr"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-116",
+      "index": 116,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "She knows the bleed could kill her. Yet, her body responds with overwhelming physical pleasure. The text explicitly reads, \"My\nShe knows the bleed could kill he"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-119",
+      "index": 119,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "We want it to be simple. Yeah. A single morally clean package. If you are consenting, you are aroused.\nWe want it to be simple. Yeah. A single morally clean pac"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-122",
+      "index": 122,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "your sympathetic nervous system is activated. Your body prepares for fight or flight. The adrenaline rush, right?\nyour sympathetic nervous system is activated. "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-129",
+      "index": 129,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "report sexual Wait, really? Why? Because of the misattribution of arousal. Oh, their bodies were flooded with fearinduced adrenaline from the scary bridge.\nrepo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-130",
+      "index": 130,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "But when they saw the attractive researcher, their brains misinterpreted that physiological fear response as intense sexual attraction.\nBut when they saw the at"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-132",
+      "index": 132,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "Yes. He is hijacking her terrorinduced adrenaline spike and cross-wiring it directly with sexual arousal. He weaponizes her own anatomy\nYes. He is hijacking her"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-133",
+      "index": 133,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "against her logical mind. That's a perfect way to put it. It's a total hostile takeover of her biology.\nagainst her logical mind. That's a perfect way to put it"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-134",
+      "index": 134,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "And Macca forces us to sit inside this horrible, agonizing gap between what the body is doing and what the rational brain desires.\nAnd Macca forces us to sit in"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-142",
+      "index": 142,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "Let's look at the trigger warnings at the very beginning of the source Oh yeah, the trigger warnings. They don't just clinically list the themes like warning, v"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-145",
+      "index": 145,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "hey, you're about to enjoy something objectively terrible. I want you to consent to it. Because the pros is calibrated so that you run the exact same intermitte"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-152",
+      "index": 152,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "you know, he is objectively a monster. He is the villain. The fourth wall in this book isn't a window you look through to watch a story.\nyou know, he is objecti"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-155",
+      "index": 155,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "You are the one turning the pages. You are seeking the same dopamine hit she It's probably the most subversive move in the entire dark romance genre. The author"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'puppeteer' is not grounded in this segment's narration",
+      "sceneId": "scene-156",
+      "index": 156,
+      "concept": "puppeteer",
+      "severity": "diagnostic",
+      "segment": "real time how easily our own biology can be manipulated by narrative pacing and variable reinforcement.\nreal time how easily our own biology can be manipulated "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-158",
+      "index": 158,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Okay. What do you mean? Well, how does Gray sustain this illusion? If he is so dangerous, how does he keep both Avery and the reader on his side while doing mon"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-160",
+      "index": 160,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "He disguises absolute control as profound devotion. Yes. Every single act of possession, every boundary violation\nHe disguises absolute control as profound devo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-166",
+      "index": 166,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "These are words that exist in normal, healthy, romantic devotion. Yes, they do.\nThese are words that exist in normal, healthy, romantic devotion. Yes, they do."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-167",
+      "index": 167,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "But they are also the exact vocabulary of toxic possession. And the fact that they share a vocabulary is what makes it incredibly because it's confusing.\nBut th"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'nerveFray' is not grounded in this segment's narration",
+      "sceneId": "scene-169",
+      "index": 169,
+      "concept": "nerveFray",
+      "severity": "diagnostic",
+      "segment": "But we have to remember Avery's physical state, right? The adrenaline. Her nervous system is constantly flooded with adrenaline from the hostile environment of "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-176",
+      "index": 176,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "We fall for the Trojan horse, too. We do. As you read, you find yourself thinking, \"Well, maybe he really does care about her in his own twisted way.\nWe fall fo"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-177",
+      "index": 177,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "Maybe he's just misunderstood.\" Yeah, he just had a hard childhood, right? But that hesitation is the trap. The book knows it's a trap, and it waits for you to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-178",
+      "index": 178,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "But you can't maintain a highwire act of psychological manipulation forever. No, eventually it has to snap, right? Eventually an outside force is going to test "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'tattooNeedle' is not grounded in this segment's narration",
+      "sceneId": "scene-182",
+      "index": 182,
+      "concept": "tattooNeedle",
+      "severity": "diagnostic",
+      "segment": "She is deeply ashamed of them. And Theo, without demanding anything in return, without playing any mind games, carefully and meticulously\nShe is deeply ashamed "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-183",
+      "index": 183,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "tattoos over the scars. It is an act of reclaiming her bodily Yes. And the key here is that he doesn't ask her to submit to him to get it.\ntattoos over the scar"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'slotMachine' is not grounded in this segment's narration",
+      "sceneId": "scene-191",
+      "index": 191,
+      "concept": "slotMachine",
+      "severity": "diagnostic",
+      "segment": "it was Oh, like he was buying her. Yes. He believed he was inserting coins into the Avery vending machine. [snorts] He says he did everything right, which in hi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-194",
+      "index": 194,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "Someone might say, \"Look, jealousy is a totally normal standard trope in romance like look at Beauty and the Beast. The beast rages.\nSomeone might say, \"Look, j"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-195",
+      "index": 195,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "He gets possessive. He traps her in a castle. But we consider that a classic romance. Why are we diagnosing Gray as a narcissist\nHe gets possessive. He traps he"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-203",
+      "index": 203,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "Uh, he knows. The illusion completely shatters and she is left looking at the actual monster she's been sleeping next to, which leaves Avery completely exposed "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-206",
+      "index": 206,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "the exit, or rather the stark absence of one. Yeah, a dark romance usually lives or dies on its ending, right? Like, does the author offer a rescue?\nthe exit, o"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'crack' is not grounded in this segment's narration",
+      "sceneId": "scene-211",
+      "index": 211,
+      "concept": "crack",
+      "severity": "diagnostic",
+      "segment": "She doesn't vow to fight back. She just concludes, \"I'm already in trouble. I've killed my father. I nearly died. And now I'm in a damn asylum with a bunch of l"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mask' is not grounded in this segment's narration",
+      "sceneId": "scene-213",
+      "index": 213,
+      "concept": "mask",
+      "severity": "diagnostic",
+      "segment": "Assimilation into the darkness. Yes. Macca does not validate the dynamic between Avery and Gray is healthy, but she also refuses to offer a fairy tale rescue.\nA"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-214",
+      "index": 214,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "Instead, she forces us to look at the terminal cost of a completely rewired nervous system. Right. Dr. Smith offered Avery a path to healthy\nInstead, she forces"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'door' is not grounded in this segment's narration",
+      "sceneId": "scene-218",
+      "index": 218,
+      "concept": "door",
+      "severity": "diagnostic",
+      "segment": "She couldn't fix it. The polite doctors couldn't fix it. Then Gray comes along and he is a broken, jagged key. But against all odds, his broken edges fit her br"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'chains' is not grounded in this segment's narration",
+      "sceneId": "scene-220",
+      "index": 220,
+      "concept": "chains",
+      "severity": "diagnostic",
+      "segment": "That is exactly what happens. The lock and the key are both damaged, but they interlock flawlessly, sealing her inside the house. So, let's recap the journey we"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'book' is not grounded in this segment's narration",
+      "sceneId": "scene-221",
+      "index": 221,
+      "concept": "book",
+      "severity": "diagnostic",
+      "segment": "just a toxic love story masquerading as romance. It's far more than that. It is a meticulous step-by-step manual on how trauma, intermittent reinforcement, and "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-223",
+      "index": 223,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "Because understanding these behavioral loops, whether you encounter them in literature, in a toxic friendship, in a romantic relationship, or even in the way ce"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'shield' is not grounded in this segment's narration",
+      "sceneId": "scene-225",
+      "index": 225,
+      "concept": "shield",
+      "severity": "diagnostic",
+      "segment": "Understanding the variable ratio reward schedule and the misattribution of arousal is your only defense against intermittent reinforcement.\nUnderstanding the va"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'skinnerBox' is not grounded in this segment's narration",
+      "sceneId": "scene-226",
+      "index": 226,
+      "concept": "skinnerBox",
+      "severity": "diagnostic",
+      "segment": "It really makes you evaluate the media you consume and the relationships you tolerate in a completely different light. It absolutely does.\nIt really makes you e"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-228",
+      "index": 228,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "hold the door shut so they can't get out. Next time you find yourself rooting for the villain, whether on the page or in real life, I want you to ask yourself, "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-229",
+      "index": 229,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "nervous system, too? A vital question to keep asking long after you close the book. Thank you for joining us on this custom deep dive. Keep questioning what you"
+    }
+  ]
+}

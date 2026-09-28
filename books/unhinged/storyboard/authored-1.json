@@ -1,0 +1,907 @@
+[
+  {
+    "i": 0,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "ROOT FOR HIM",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Dark romance makes you root for the dangerous man; your heartbeat sinks with the protagonist.",
+      "concreteVisual": "Gray beside Avery, a heart marking the physiological pull the narration names.",
+      "onScreenText": "ROOT FOR HIM",
+      "relationToPrevious": "Cold open.",
+      "addedInformation": "Names who 'him' is before the narration finishes making the point."
+    }
+  },
+  {
+    "i": 1,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Afraid",
+        "Aroused"
+      ],
+      "values": [
+        0.5,
+        0.5
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "By page 50 you can't tell if you're afraid or aroused, and that's the point.",
+      "concreteVisual": "A spectrum balanced dead-center between the two named feelings.",
+      "onScreenText": "AFRAID / AROUSED",
+      "relationToPrevious": "Makes the confusion from beat 0 literal and measurable.",
+      "addedInformation": "Shows the two poles as equally weighted, not one bleeding into the other."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A DIFFICULT QUESTION",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The book forces an uncomfortable question right out of the gate.",
+      "concreteVisual": "Avery caught mid-thought, unresolved.",
+      "onScreenText": "A DIFFICULT QUESTION",
+      "relationToPrevious": "Restates beat 1's confusion as a question instead of a feeling.",
+      "addedInformation": "weak: mostly host filler ('right', 'incredibly uncomfortable') with no new content yet."
+    }
+  },
+  {
+    "i": 3,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "WHY DO WE WATCH",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery",
+      "gray"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Why do we enjoy watching someone walk into a trap?",
+      "concreteVisual": "The mirror reflecting the viewer back — a meta question about why audiences enjoy watching someone walk into a trap.",
+      "onScreenText": "WHY DO WE WATCH",
+      "relationToPrevious": "Turns the difficult question into its concrete image: a trap being walked into.",
+      "addedInformation": "Gives the abstract 'question' a literal shape the viewer can see."
+    }
+  },
+  {
+    "i": 4,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PULLING APART THE MACHINERY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "magnifier",
+    "storyboard": {
+      "claim": "The viewer is someone who likes examining how captivating things actually work.",
+      "concreteVisual": "The reader-stand-in holding a magnifier over the material.",
+      "onScreenText": "PULLING APART THE MACHINERY",
+      "relationToPrevious": "Names the viewer's own analytical stance after setting up the trap.",
+      "addedInformation": "weak: describes the show's own approach, not the book's content."
+    }
+  },
+  {
+    "i": 5,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "A DIFFERENT FILTER",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Today's mission: run Steph Macca's Unhinged through a different analytical filter.",
+      "concreteVisual": "The reader-stand-in holding the novel itself.",
+      "onScreenText": "UNHINGED",
+      "relationToPrevious": "Names the specific book the machinery-pulling-apart from beat 4 will be applied to.",
+      "addedInformation": "weak: pure show-framing, no plot or claim content yet."
+    }
+  },
+  {
+    "i": 6,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "A PSYCHOLOGICAL CASE STUDY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "We're not treating this as edgy fiction — it's a meticulously constructed psychological case study.",
+      "concreteVisual": "A clinical case file standing in for the book's proposed treatment.",
+      "onScreenText": "A PSYCHOLOGICAL CASE STUDY",
+      "relationToPrevious": "Declares the analytical frame that beat 5's book will be read through.",
+      "addedInformation": "Sets the clinical register the rest of the video will use."
+    }
+  },
+  {
+    "i": 7,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "HIGH SECURITY FACILITY",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Avery has just been placed in the Lilyale Foundation Center, marketed as a high-society psychiatric facility.",
+      "concreteVisual": "Avery arriving at the psychiatric facility.",
+      "onScreenText": "LILYALE",
+      "relationToPrevious": "Moves from the show's framing to the actual story: the subject and the environment.",
+      "addedInformation": "Grounds the case study in a physical place before the 'gilded prison' reveal."
+    }
+  },
+  {
+    "i": 8,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "A GILDED PRISON",
+      "style": "highlight"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Marketed as luxury treatment on paper, Lilyale actually operates like a gilded prison.",
+      "concreteVisual": "Avery bound within the institution's walls.",
+      "onScreenText": "A GILDED PRISON",
+      "relationToPrevious": "Corrects the 'high security facility' label from beat 7 with what it really is.",
+      "addedInformation": "Makes the contrast between marketing and reality visible, not just stated."
+    }
+  },
+  {
+    "i": 9,
+    "concept": "water",
+    "diagram": null,
+    "callout": {
+      "text": "HOLLOWED OUT",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Avery's emotional architecture has been completely hollowed out by catastrophic prior trauma.",
+      "concreteVisual": "Avery with a vast hidden depth beneath her surface.",
+      "onScreenText": "HOLLOWED OUT",
+      "relationToPrevious": "Moves from the prison setting to what the prison holds: an already-damaged person.",
+      "addedInformation": "Signals there is more beneath Avery than the setting alone shows."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "OBJECTIVELY TERRIFYING",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "reach",
+    "storyboard": {
+      "claim": "The architect who steps into that hollowed-out space is a fellow inmate, Gray, who is deeply dangerous.",
+      "concreteVisual": "Gray reaching toward Avery's hollowed-out space from beat 9.",
+      "onScreenText": "OBJECTIVELY TERRIFYING",
+      "relationToPrevious": "Fills the hollow space named in beat 9 with the person who will exploit it.",
+      "addedInformation": "Puts a face on the threat instead of leaving it abstract."
+    }
+  },
+  {
+    "i": 11,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DESPITE HER WOUNDS",
+      "style": "strike"
+    },
+    "set": "hospital",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Gray doesn't seduce Avery despite her wounds — that's the wrong reading, corrected next beat.",
+      "concreteVisual": "Gray reaching toward Avery's scars.",
+      "onScreenText": "DESPITE HER WOUNDS",
+      "relationToPrevious": "Sets up the thesis promised in beat 10 as a claim about to be corrected.",
+      "addedInformation": "Struck through to flag it as the framing the next beat rejects."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NEVER SYMMETRICAL",
+      "style": "highlight"
+    },
+    "set": "hospital",
+    "shotOverride": "lowAngle",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "He seduces her through her wounds, not despite them — the power dynamic is never symmetrical.",
+      "concreteVisual": "Gray towering over Avery in a low angle, sized to their imbalance.",
+      "onScreenText": "THROUGH THEM",
+      "relationToPrevious": "Corrects the struck 'despite her wounds' from beat 11 with the real mechanism.",
+      "addedInformation": "The camera angle itself shows the asymmetry, not just the caption."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A PRECISION STUDY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Macca never pretends the dynamic is equal — this is a precision study of the nervous system, not a love story.",
+      "concreteVisual": "Avery held in the same clinical, examined framing as the case-study beats.",
+      "onScreenText": "A PRECISION STUDY",
+      "relationToPrevious": "Names the genre label ('love story') the book is refusing, after showing why in beat 12.",
+      "addedInformation": "weak: restates the case-study framing from beat 6 rather than adding new content."
+    }
+  },
+  {
+    "i": 14,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "REWIRED COMPLETELY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The book examines how trauma, isolation, and behavioral conditioning rewire a person's nervous system.",
+      "concreteVisual": "Avery marked with the electric rewiring the narration names.",
+      "onScreenText": "REWIRED",
+      "relationToPrevious": "Turns 'precision study' from beat 13 into its specific subject: the rewired nervous system.",
+      "addedInformation": "Makes 'rewired' a visible event on her, not just a phrase."
+    }
+  },
+  {
+    "i": 15,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "INTERMITTENT REINFORCEMENT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A specific behavioral conditioning tactic, intermittent reinforcement, can alter a person's biological survival instincts.",
+      "concreteVisual": "The Skinner box — the exact mechanism the narration names.",
+      "onScreenText": "INTERMITTENT REINFORCEMENT",
+      "relationToPrevious": "Names the specific mechanism behind the 'rewiring' introduced in beat 14.",
+      "addedInformation": "Gives the abstract conditioning tactic its literal experimental apparatus."
+    }
+  },
+  {
+    "i": 16,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HANDS YOU THE BLUEPRINTS",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "The book is like a haunted house where the architect hands you the blueprints himself.",
+      "concreteVisual": "Gray holding out the blueprint-like documents.",
+      "onScreenText": "HANDS YOU THE BLUEPRINTS",
+      "relationToPrevious": "Reframes the Skinner-box mechanism from beat 15 as a haunted-house metaphor.",
+      "addedInformation": "Casts Gray as the one openly showing his own trap."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "BLUEPRINTS OF THE TRAP",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "You're handed the blueprints right at the front door — you see the trap doors, the trip wires.",
+      "concreteVisual": "Avery examining the visible blueprint of the trap she is about to walk into anyway.",
+      "onScreenText": "BLUEPRINTS OF THE TRAP",
+      "relationToPrevious": "Places the blueprints from beat 16 at their literal delivery point, the door.",
+      "addedInformation": "Anchors the metaphor to one concrete threshold instead of staying abstract."
+    }
+  },
+  {
+    "i": 18,
+    "concept": "crack",
+    "diagram": null,
+    "callout": {
+      "text": "WALK INTO THE TRAP",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "You know the floor will give out, and you walk inside and step on the trip wires anyway.",
+      "concreteVisual": "The floor fracturing under Avery's steps.",
+      "onScreenText": "WALK INTO THE TRAP",
+      "relationToPrevious": "Pays off the trip wires named at the door in beat 17 with the floor actually giving way.",
+      "addedInformation": "Shows the breaking point is walked into knowingly, not by accident."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT A BLANK SLATE",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "To understand how Avery is dismantled, look at how she was built first — she is not a blank slate.",
+      "concreteVisual": "Avery alone, already carrying weight before Gray enters.",
+      "onScreenText": "NOT A BLANK SLATE",
+      "relationToPrevious": "Shifts from the haunted-house metaphor of beats 16-18 back to Avery's own history.",
+      "addedInformation": "Struck through: the narration explicitly rejects the 'blank slate' framing."
+    }
+  },
+  {
+    "i": 20,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "ALARMING LEVEL OF CASUALNESS",
+      "style": "highlight"
+    },
+    "set": "hospital",
+    "cast": [
+      "drsmith",
+      "avery"
+    ],
+    "expression": "afraid",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Her medical file, discussed by staff with alarming casualness, outlines a massive history of damage.",
+      "concreteVisual": "Dr. Smith reading Avery's file with clinical detachment.",
+      "onScreenText": "ALARMING LEVEL OF CASUALNESS",
+      "relationToPrevious": "Gives the 'not a blank slate' claim from beat 19 its documented proof: the file.",
+      "addedInformation": "The staff's detachment is shown, not just described."
+    }
+  },
+  {
+    "i": 21,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "BURN MARKS",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "idle",
+    "storyboard": {
+      "claim": "She has extensive physical scars — burn marks severe enough to require a skin graft.",
+      "concreteVisual": "The burn scars on Avery's arm, named directly by the narration.",
+      "onScreenText": "BURN MARKS",
+      "relationToPrevious": "Specifies the first item in the file opened in beat 20.",
+      "addedInformation": "Puts the exact physical evidence on screen instead of a generic file."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "REQUIRED SURGERY",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Her back is heavily scarred from a beer bottle attack that required surgery to remove the glass.",
+      "concreteVisual": "Avery slumped, carrying the second, older injury named in the file.",
+      "onScreenText": "REQUIRED SURGERY",
+      "relationToPrevious": "Adds a second, separate wound to the burn scars named in beat 21.",
+      "addedInformation": "Confirms the damage is plural and pre-existing, not a single incident."
+    }
+  },
+  {
+    "i": 23,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DIAGNOSED WITH BPD",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "drsmith",
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Beyond broken bones, Dr. Smith confirms she's been formally diagnosed with borderline personality disorder.",
+      "concreteVisual": "Dr. Smith delivering the formal diagnosis from her file.",
+      "onScreenText": "DIAGNOSED WITH BPD",
+      "relationToPrevious": "Moves from physical scars (beats 21-22) to the psychiatric diagnosis in the same file.",
+      "addedInformation": "weak: mostly a list item ('broken bones') folded into the surrounding diagnosis beat."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FICTION GETS THIS WRONG",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The hosts pause: fiction often gets a diagnosis like this wrong.",
+      "concreteVisual": "The reader-stand-in stepping back from Avery's file to comment on the genre.",
+      "onScreenText": "FICTION GETS THIS WRONG",
+      "relationToPrevious": "Breaks from Avery's specific diagnosis in beat 23 to a genre-wide critique.",
+      "addedInformation": "Flags that a meta-commentary segment is starting before the payoff in beat 27."
+    }
+  },
+  {
+    "i": 25,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "A LAZY BACKSTORY DUMP",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Usually a diagnosis is just an excuse for erratic behavior or a lazy exposition-heavy backstory dump.",
+      "concreteVisual": "The reader-stand-in continuing the genre critique from beat 24.",
+      "onScreenText": "A LAZY BACKSTORY DUMP",
+      "relationToPrevious": "Names the specific bad habit the critique in beat 24 was pointing at.",
+      "addedInformation": "Gives the vague 'gets this wrong' a concrete named failure mode."
+    }
+  },
+  {
+    "i": 26,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SITS IN A CHAIR AND MONOLOGUES",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "The cliché: a character just sits in a chair and monologues about their sad past like a therapy session.",
+      "concreteVisual": "Avery seated, staged as the cliché therapy-monologue scene being described.",
+      "onScreenText": "SITS IN A CHAIR",
+      "relationToPrevious": "Dramatizes the 'lazy backstory dump' named in beat 25 as a literal scene.",
+      "addedInformation": "Shows exactly what the criticized cliché looks like, set up to be contrasted next."
+    }
+  },
+  {
+    "i": 27,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THROUGH AVERY'S BODY",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Macca avoids the cliché — she writes the trauma somatically, entirely through Avery's bodily responses.",
+      "concreteVisual": "Avery's physical reaction standing in for the monologue that isn't given.",
+      "onScreenText": "THROUGH AVERY'S BODY",
+      "relationToPrevious": "Answers the chair-and-monologue cliché from beat 26 with what Macca does instead.",
+      "addedInformation": "Corrects the cliché rather than just naming the alternative in the abstract."
+    }
+  },
+  {
+    "i": 28,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT JUST LABELS ON HER CHART",
+      "style": "strike"
+    },
+    "set": "hospital",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "BPD and PTSD aren't just labels on her chart — they're the lens her nervous system processes everything through.",
+      "concreteVisual": "Avery's file from beat 20, now struck through as an incomplete explanation.",
+      "onScreenText": "NOT JUST LABELS",
+      "relationToPrevious": "Circles back to the chart from beat 20 to reject reading it as the whole story.",
+      "addedInformation": "Struck through: the narration explicitly negates 'just labels on her chart'."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NEUROBIOLOGY OF TRAUMA",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "drsmith"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "Let's unpack the neurobiology of chronic, inescapable trauma like Avery's.",
+      "concreteVisual": "Dr. Smith pointing into the abstract nervous-system space.",
+      "onScreenText": "NEUROBIOLOGY OF TRAUMA",
+      "relationToPrevious": "Turns the 'lens' claim from beat 28 into the specific science segment that follows.",
+      "addedInformation": "weak: a transition line promising detail delivered in the next beat."
+    }
+  },
+  {
+    "i": 30,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "STUCK IN THE ON POSITION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Chronic trauma leaves the amygdala, the brain's threat detector, stuck in the on position.",
+      "concreteVisual": "Avery marked with the same electric charge as the earlier 'rewired' beat.",
+      "onScreenText": "STUCK IN THE ON POSITION",
+      "relationToPrevious": "Names the specific brain structure behind the neurobiology promised in beat 29.",
+      "addedInformation": "Gives 'rewired' (beat 14) its specific mechanism: an amygdala that won't switch off."
+    }
+  },
+  {
+    "i": 31,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "SCANNING FOR A THREAT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "She's perpetually scanning for a threat that isn't necessarily there — hypervigilance feels like normal to her.",
+      "concreteVisual": "Avery scanning her surroundings under the magnifier's focus.",
+      "onScreenText": "SCANNING FOR A THREAT",
+      "relationToPrevious": "Shows the behavior the 'stuck on' amygdala from beat 30 actually produces.",
+      "addedInformation": "Makes hypervigilance a visible, constant activity rather than a diagnosis word."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DOESN'T MAKE YOU RELAXED",
+      "style": "strike"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Live in a war zone long enough, and the sudden absence of gunfire doesn't make you feel relaxed.",
+      "concreteVisual": "Avery tense even in stillness, contradicting the expected calm.",
+      "onScreenText": "DOESN'T MAKE YOU RELAXED",
+      "relationToPrevious": "Explains why the scanning in beat 31 never stops, even without a visible threat.",
+      "addedInformation": "Struck through: the narration explicitly negates the expected relief."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHE FLINCHES VIOLENTLY",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "gray"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "storyboard": {
+      "claim": "When Gray casually touches her leg, she flinches violently — her brain assumes the predator is just hiding.",
+      "concreteVisual": "Avery recoiling the instant Gray touches her.",
+      "onScreenText": "SHE FLINCHES VIOLENTLY",
+      "relationToPrevious": "Gives the abstract paranoia from beat 32 its first concrete scene in the story.",
+      "addedInformation": "Turns the theory of hypervigilance into an actual moment between the two leads."
+    }
+  },
+  {
+    "i": 34,
+    "concept": "tattooNeedle",
+    "diagram": null,
+    "callout": {
+      "text": "TREMBLING AT A TOUCH",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "theo"
+    ],
+    "expression": "afraid",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Alone with Theo, when he reaches for her wrist to cover her scars with a tattoo, she is absolutely terrified.",
+      "concreteVisual": "Theo's tattoo machine reaching toward Avery's bandaged wrist.",
+      "onScreenText": "TREMBLING AT A TOUCH",
+      "relationToPrevious": "Repeats the flinch pattern from beat 33 with a different, gentler man.",
+      "addedInformation": "Shows the fear reaction isn't specific to Gray — it's her baseline with anyone."
+    }
+  },
+  {
+    "i": 35,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHE TREMBLES",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "She trembles because her baseline assumption is that violence is always coming.",
+      "concreteVisual": "Avery trembling, the aftermath of Theo's approach in beat 34.",
+      "onScreenText": "SHE TREMBLES",
+      "relationToPrevious": "Names the physical detail underneath the terror shown in beat 34.",
+      "addedInformation": "weak: restates 'terrified' from beat 34 with a slightly more specific physical word."
+    }
+  },
+  {
+    "i": 36,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "A CHEAP ACCESSORY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "A common critique of dark romance: these books use trauma as a cheap accessory.",
+      "concreteVisual": "The reader-stand-in raising the genre critique, echoing beats 24-25.",
+      "onScreenText": "A CHEAP ACCESSORY",
+      "relationToPrevious": "Pivots from Avery's own scenes back to the genre-level pushback promised earlier.",
+      "addedInformation": "Sets up the specific criticism beat 38 will go on to refute."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SOMETHING TO FIX",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "sad",
+    "action": "sit",
+    "storyboard": {
+      "claim": "Give the female lead a tragic backstory just to make her edgy and give the bad boy something to fix.",
+      "concreteVisual": "Avery staged as the object of the trope being described.",
+      "onScreenText": "SOMETHING TO FIX",
+      "relationToPrevious": "Names the exact mechanism behind the 'cheap accessory' critique from beat 36.",
+      "addedInformation": "Makes the trope's condescension visible by staging Avery as its object."
+    }
+  },
+  {
+    "i": 38,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT AN ACCESSORY",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "gray"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The 'I can fix her' trope doesn't apply here — Macca isn't using the trauma as an accessory.",
+      "concreteVisual": "Avery and Gray together, rejecting the fix-her trope named in beat 37.",
+      "onScreenText": "NOT AN ACCESSORY",
+      "relationToPrevious": "Directly refutes the critique staged in beats 36-37.",
+      "addedInformation": "Struck through: the narration explicitly negates 'as an accessory'."
+    }
+  },
+  {
+    "i": 39,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "THE COMBINATION CODE",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "Trauma is the foundational architecture of the trap — Gray is establishing the exact combination code to Avery's vault.",
+      "concreteVisual": "Gray reading Avery like a lock he's learning to open.",
+      "onScreenText": "THE COMBINATION CODE",
+      "relationToPrevious": "Reframes the refuted 'accessory' critique (beat 38) as what trauma actually is: the trap's architecture.",
+      "addedInformation": "Turns 'trauma as accessory' into 'trauma as the exact mechanism of the trap', setting up beat 40's predator payoff."
+    }
+  }
+]

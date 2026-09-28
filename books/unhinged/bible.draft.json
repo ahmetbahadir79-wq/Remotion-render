@@ -1,0 +1,355 @@
+{
+  "slug": "unhinged",
+  "instructions": ["AUTHORED — do not overwrite"],
+  "validSets": [
+    "horizon","office","street","room","stage","sky","abstract","kitchen","bedroom",
+    "classroom","library","cafe","hospital","court","forest","shore","highway",
+    "workstation","startupGarage","serverRoom","pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock","butterfly","subway","car","coffee","codeWindow","rocketLaunch",
+    "funnelMetrics","dollarExchange","laptopMockup","crash","ledge","water","grave",
+    "medical","notes","phone","school","home","family","road","storm","star","heart",
+    "fire","tree","mask","mirror","key","law","photo","war","game","work","city",
+    "food","coin","door","lightbulb","shadowSelf","puppeteer","chains","compass",
+    "dominoCascade","icebergDepth","funnelTrap","thirtyTyrants","ringOfGyges",
+    "caveAllegory","shipOfState","tripartiteSoul","kallipolis","fiveRegimes",
+    "mythOfEr","boulder","summit","ladder","crack","clock","balance","book",
+    "shield","trophy","hourglass","sword","target","magnifier","wallet","gift",
+    "inheritance","zap"
+  ],
+  "bible": {
+    "slug": "unhinged",
+    "world": {
+      "era": "2020s",
+      "worldId": "lilyale",
+      "approxYear": 2024,
+      "setting": "Lilyale Foundation Center — a high-security psychiatric rehabilitation facility marketed as luxury treatment but operating as a gilded prison. Huge black metal gates, armed guards, keypad-locked doors, dusty library.",
+      "register": "clinical-psychological analysis of dark romance mechanics",
+      "forbid": [
+        "rocketLaunch",
+        "funnelMetrics",
+        "dollarExchange",
+        "laptopMockup",
+        "subway",
+        "codeWindow",
+        "startupGarage",
+        "serverRoom",
+        "pitchStage",
+        "trophy",
+        "coin",
+        "wallet"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "unhinged",
+      "worldId": "lilyale",
+      "allowedMotifs": [
+        "chains", "mask", "mirror", "door", "key", "heart", "shield",
+        "medical", "storm", "shadowSelf", "puppeteer", "funnelTrap",
+        "icebergDepth", "fire", "target", "crack", "hourglass", "magnifier", "zap"
+      ],
+      "forbiddenMotifs": [
+        "rocketLaunch", "funnelMetrics", "dollarExchange", "laptopMockup",
+        "subway", "codeWindow", "trophy", "coin", "wallet",
+        "caveAllegory", "shipOfState", "tripartiteSoul", "ringOfGyges",
+        "thirtyTyrants", "kallipolis", "fiveRegimes", "mythOfEr"
+      ],
+      "allowedCharacters": ["avery", "gray", "theo", "drsmith", "sam", "saoon"],
+      "allowedLocations": ["hospital", "library", "bedroom", "room", "abstract", "street", "court"],
+      "allowedProps": ["chains", "mask", "mirror", "door", "key", "medical", "shield"]
+    },
+    "cast": {
+      "avery": {
+        "name": "Avery",
+        "role": "Protagonist — young woman with severe PTSD and BPD, placed in Lilyale after killing her father. Burn scars on her arm, scarred back from a bottle attack. Hypervigilant, flinches at touch. Her nervous system has been rewired by chronic trauma.",
+        "look": "Early 20s woman, slight build, long dark hair often falling over her face, pale skin with visible burn scars on her forearm, wears institutional grey clothing — loose sweatshirt and joggers, haunted watchful eyes",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "build": "slight",
+          "outfit": "hoodie",
+          "suit": "#6B7280",
+          "shirt": "#9CA3AF",
+          "skin": "#E8CCAF",
+          "hair": "#2C1810",
+          "hairStyle": "long",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 39
+      },
+      "gray": {
+        "name": "Gray",
+        "role": "Antagonist/love interest — calculating predator who reads Avery's trauma like a blueprint. Uses intermittent reinforcement: alternates devastating tenderness with violent control. Called 'demon boy'. Possessive, witty, dangerous.",
+        "look": "Mid 20s man, tall and imposing, sharp angular features, dark intense eyes, dark hair pushed back, wears fitted dark clothing — black henley and dark trousers, a scar or tattoo visible on his hands, radiates controlled menace",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "build": "heavy",
+          "outfit": "casual",
+          "suit": "#1A1A2E",
+          "shirt": "#0F0F1A",
+          "skin": "#D4A574",
+          "hair": "#1A1A1A",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "stubble",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 30
+      },
+      "theo": {
+        "name": "Theo",
+        "role": "Another dangerous inmate who offers Avery a genuine, non-transactional connection. Tattoos over her burn scars as an act of reclaiming her bodily autonomy. Catalyst for the breaking point — his presence fractures Gray's control.",
+        "look": "Mid 20s man, massive imposing build, dark skin, close-cropped hair, tattoos covering both arms, wears institutional clothing but with rolled-up sleeves showing ink, gentle eyes contrasting his intimidating frame",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "build": "heavy",
+          "outfit": "vest",
+          "suit": "#4A4A5A",
+          "shirt": "#5C5C6E",
+          "skin": "#8B6F47",
+          "hair": "#1A1A1A",
+          "hairStyle": "buzz",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 9
+      },
+      "drsmith": {
+        "name": "Dr. Smith",
+        "role": "Avery's assigned psychiatrist. Sterile clinical approach — asks textbook BPD questions, reads off a clipboard. His polite structured method is a language Avery's nervous system does not speak. Contrast to Gray's intuitive predatory reading of her.",
+        "look": "Middle-aged man, average build, neat grey-streaked hair, wire-rimmed glasses, wears a white lab coat over a dress shirt and tie, carries a clipboard, professional and detached demeanor",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "average",
+          "outfit": "suit",
+          "suit": "#FFFFFF",
+          "shirt": "#4A6FA5",
+          "skin": "#E0C8A8",
+          "hair": "#7A7A7A",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": true,
+          "accessory": "tie"
+        },
+        "mentions": 5
+      },
+      "sam": {
+        "name": "Sam",
+        "role": "Hostile inmate at Lilyale. Inherently aggressive. Gray violently defends Avery from him. Theo permanently tattoos a fist onto his face as punishment.",
+        "look": "Young man, stocky aggressive build, shaved head, scarred knuckles, wears stained institutional clothes, perpetual sneer",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "build": "heavy",
+          "outfit": "casual",
+          "suit": "#5A4A3A",
+          "shirt": "#8B7355",
+          "skin": "#D4B896",
+          "hair": "#4A3728",
+          "hairStyle": "buzz",
+          "headwear": "none",
+          "beard": "stubble",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 3
+      },
+      "saoon": {
+        "name": "Saoon",
+        "role": "Inmate dealing with extreme bipolar swings and the recent suicide of her brother. Part of the hostile environment that pushes Avery toward isolation.",
+        "look": "Young woman, thin and fragile, dark circles under her eyes, dark curly hair often unkempt, wears oversized institutional clothing, alternates between manic energy and hollow stillness",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "build": "slight",
+          "outfit": "casual",
+          "suit": "#7B6F83",
+          "shirt": "#A89BB2",
+          "skin": "#C8A882",
+          "hair": "#2C1810",
+          "hairStyle": "curly",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 2
+      },
+      "everyman": {
+        "name": "Everyman",
+        "role": "Abstract stand-in for the reader/viewer — the one rooting for the villain, the one whose nervous system is being hacked by the narrative.",
+        "look": "Androgynous figure, average build, neutral features, muted earth-tone clothing",
+        "variant": {
+          "gender": "f",
+          "age": "young",
+          "build": "average",
+          "outfit": "casual",
+          "suit": "#6B7280",
+          "shirt": "#8B95A3",
+          "skin": "#DDB892",
+          "hair": "#5C4033",
+          "hairStyle": "long",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 0
+      }
+    },
+    "places": {
+      "lilyale": {
+        "set": "hospital",
+        "look": "High-security psychiatric facility — huge black metal gates, armed guards, keypad-coded doors, clinical fluorescent hallways, institutional grey walls",
+        "mentions": 8
+      },
+      "library": {
+        "set": "library",
+        "look": "Dusty, dimly lit library inside Lilyale — Avery's only safe space, wooden shelves, worn armchairs, diffused amber light filtering through frosted windows",
+        "mentions": 6
+      },
+      "averyRoom": {
+        "set": "bedroom",
+        "look": "Sparse institutional bedroom — single metal bed, barred window, grey blanket, harsh overhead light with no personal belongings",
+        "mentions": 4
+      },
+      "commonArea": {
+        "set": "room",
+        "look": "Lilyale common room — plastic furniture bolted to the floor, buzzing fluorescent lights, tension-heavy atmosphere, other inmates scattered",
+        "mentions": 3
+      },
+      "therapyOffice": {
+        "set": "office",
+        "look": "Dr. Smith's sterile consultation room — a desk, two chairs, clipboard on the table, neutral art on the wall, impersonal and clinical",
+        "mentions": 3
+      },
+      "gates": {
+        "set": "street",
+        "look": "Lilyale exterior — imposing black metal gates, guard booth, gravel driveway, institutional building looming behind, grey sky",
+        "mentions": 1
+      },
+      "psyche": {
+        "set": "abstract",
+        "look": "Abstract psychological space — representing the inner workings of the nervous system, intermittent reinforcement loops, the Skinner box",
+        "mentions": 10
+      }
+    },
+    "objects": [
+      {
+        "concept": "chains",
+        "mentions": 7,
+        "why": "Recurring metaphor: the gilded prison of Lilyale, psychological bondage, trauma trapping Avery"
+      },
+      {
+        "concept": "mask",
+        "mentions": 6,
+        "why": "Gray's constructed persona — devotion masking possession. 'The mask cracks' is a pivotal narrative moment"
+      },
+      {
+        "concept": "mirror",
+        "mentions": 5,
+        "why": "The fourth wall as a mirror: reader's own reactions reflected back. Self-recognition"
+      },
+      {
+        "concept": "heart",
+        "mentions": 19,
+        "why": "Central to the body-vs-mind conflict: heart racing from fear AND arousal, the physiological betrayal"
+      },
+      {
+        "concept": "medical",
+        "mentions": 5,
+        "why": "Avery's medical file, Dr. Smith's clinical approach, BPD/PTSD diagnoses, the asylum setting"
+      },
+      {
+        "concept": "shield",
+        "mentions": 12,
+        "why": "Avery's defense mechanisms, her safe space (library), her walls against intimacy"
+      },
+      {
+        "concept": "door",
+        "mentions": 4,
+        "why": "Keypad-locked doors at Lilyale, the exits being systematically removed, 'boarding up the windows'"
+      },
+      {
+        "concept": "puppeteer",
+        "mentions": 3,
+        "why": "Gray as the puppet master — pulling strings through intermittent reinforcement"
+      },
+      {
+        "concept": "shadowSelf",
+        "mentions": 3,
+        "why": "The dark reflection — who Gray really is beneath the charm, the monster behind the mask"
+      },
+      {
+        "concept": "fire",
+        "mentions": 3,
+        "why": "Avery's burn scars — the literal marks of her prior trauma, the fire of desire"
+      },
+      {
+        "concept": "zap",
+        "mentions": 4,
+        "why": "The dopamine spike — unpredictable reward creating compulsive fixation, the nervous system being zapped"
+      },
+      {
+        "concept": "funnelTrap",
+        "mentions": 4,
+        "why": "The systematic narrowing of Avery's world — isolation architecture funneling her toward Gray"
+      }
+    ],
+    "signatureObjects": [
+      {
+        "key": "skinnerBox",
+        "name": "Skinner Box",
+        "why": "The variable ratio reward schedule is THE central metaphor — a lever-and-pellet mechanism that explains Gray's intermittent reinforcement strategy. The narration spends 5+ minutes on Skinner's rat experiment. No shared icon depicts an experimental box with a lever."
+      },
+      {
+        "key": "tattooNeedle",
+        "name": "Tattoo Needle",
+        "why": "Theo's tattoo machine is the instrument of bodily autonomy reclamation — he covers Avery's burn scars without demanding anything. It's the pivotal non-transactional act that fractures Gray's control. No shared icon depicts a tattoo gun."
+      },
+      {
+        "key": "slotMachine",
+        "name": "Slot Machine",
+        "why": "The narration explicitly compares Gray's intermittent reinforcement to a slot machine — the gambler who can't leave because the casino has 'boarded up the windows'. Used alongside the Skinner box as the human-scale version of the same trap."
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 0,
+        "claim": "Avery arrives at Lilyale already wired for danger — her chronic trauma has rebuilt her nervous system so that hypervigilance feels like safety and calm feels like a predator hiding."
+      },
+      {
+        "act": "development",
+        "fromFrame": 12500,
+        "claim": "Gray exploits the most addictive behavioral loop in existence — intermittent reinforcement — alternating devastating tenderness with violent control so Avery's dopamine system locks onto him."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 25000,
+        "claim": "The isolation architecture is complete: physical quarantine plus psychological dependence plus the body's betrayal of arousal mean Avery cannot distinguish captivity from intimacy."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 37500,
+        "claim": "The reader discovers they are inside the same Skinner box — rooting for the villain, turning pages compulsively, unable to judge Avery without judging their own pleasure."
+      },
+      {
+        "act": "close",
+        "fromFrame": 50000,
+        "claim": "There is no clean rescue or redemption — Macca refuses the genre's comfortable exit, leaving the nervous system permanently entangled with the predator."
+      }
+    ]
+  }
+}

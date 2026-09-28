@@ -1,0 +1,904 @@
+[
+  {
+    "i": 40,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "what makes them freeze",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "think",
+    "storyboard": {
+      "claim": "Predators like Gray read body language to learn a victim's damage.",
+      "concreteVisual": "Gray studying Avery closely, clocking her reaction.",
+      "onScreenText": "WHAT MAKES THEM FREEZE",
+      "relationToPrevious": "Continues the predator's search for the flinch from beat 39.",
+      "addedInformation": "Makes the watching literal and puts Avery in frame as the one being read."
+    }
+  },
+  {
+    "i": 41,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Gray's predatory observation",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "think",
+    "storyboard": {
+      "claim": "Gray does exactly what was just described.",
+      "concreteVisual": "Gray alone, watchful.",
+      "onScreenText": "GRAY'S PREDATORY OBSERVATION",
+      "relationToPrevious": "Confirms the previous beat applies specifically to Gray.",
+      "addedInformation": "weak: a short confirming beat, sets up the coming contrast with Dr. Smith."
+    }
+  },
+  {
+    "i": 42,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "sterile clinical approach",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "drsmith",
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Dr. Smith is the clinical psychiatrist meant to be helping her.",
+      "concreteVisual": "Dr. Smith in his clinical role, addressing Avery.",
+      "onScreenText": "STERILE CLINICAL APPROACH",
+      "relationToPrevious": "The promised contrast: Gray's predatory read versus Dr. Smith's clinical one.",
+      "addedInformation": "Puts an actual clinician on screen so the contrast has two real bodies, not just an idea."
+    }
+  },
+  {
+    "i": 43,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "textbook questions",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "drsmith",
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Dr. Smith asks textbook BPD questions off a clipboard.",
+      "concreteVisual": "Dr. Smith reading questions from his notes while Avery sits across from him.",
+      "onScreenText": "TEXTBOOK QUESTIONS",
+      "relationToPrevious": "Specifies what the sterile approach actually looks like.",
+      "addedInformation": "Shows the questions are scripted and read, not felt."
+    }
+  },
+  {
+    "i": 44,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "completely alien to her",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "drsmith"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "storyboard": {
+      "claim": "His polite structured approach is a language Avery's nervous system does not speak.",
+      "concreteVisual": "Avery, uneasy, forcing out the words to him.",
+      "onScreenText": "COMPLETELY ALIEN TO HER",
+      "relationToPrevious": "From what he does (textbook questions) to how it lands on her.",
+      "addedInformation": "Centers her discomfort rather than his method."
+    }
+  },
+  {
+    "i": 45,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a business transaction",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "drsmith"
+    ],
+    "expression": "sad",
+    "action": "point",
+    "storyboard": {
+      "claim": "Avery tells him it feels like a business transaction, not human beings.",
+      "concreteVisual": "Avery, pained, calling him out directly.",
+      "onScreenText": "A BUSINESS TRANSACTION",
+      "relationToPrevious": "Her own quoted words, finishing the thought from beat 44.",
+      "addedInformation": "Her exact accusation, in her own words."
+    }
+  },
+  {
+    "i": 46,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "silence and politeness",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Silence and politeness make Avery incredibly anxious.",
+      "concreteVisual": "Avery alone, tense in the quiet.",
+      "onScreenText": "SILENCE AND POLITENESS",
+      "relationToPrevious": "Sets up the paradox the hosts are about to name.",
+      "addedInformation": "Isolates the exact trigger before the paradox is spelled out."
+    }
+  },
+  {
+    "i": 47,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Violent chaos of Lilyale",
+        "Dr. Smith's calm office"
+      ],
+      "values": [
+        0.8,
+        0.2
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Avery feels more grounded around Lilyale's chaos than in Dr. Smith's calm, flower-filled office.",
+      "concreteVisual": "A spectrum weighted toward chaos as where Avery actually feels steady.",
+      "onScreenText": "CHAOS FEELS SAFER THAN CALM",
+      "relationToPrevious": "Names the paradox flagged in beat 46.",
+      "addedInformation": "Makes the counterintuitive weighting visible: chaos, not calm, is where she lands."
+    }
+  },
+  {
+    "i": 48,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "matches her internal frequency",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "blank",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Chaos matches her internal frequency; a healthy relationship wouldn't register as real.",
+      "concreteVisual": "Avery standing still amid the facility's noise, unbothered by it.",
+      "onScreenText": "MATCHES HER INTERNAL FREQUENCY",
+      "relationToPrevious": "Explains why the chaos side of the spectrum reads as safety to her.",
+      "addedInformation": "Reframes chaos from threat to the only register her brain trusts."
+    }
+  },
+  {
+    "i": 49,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "waiting for the catch",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Her hyperreactive amygdala would reject a healthy dynamic as a trick.",
+      "concreteVisual": "Avery, guarded, bracing for something to go wrong.",
+      "onScreenText": "WAITING FOR THE CATCH",
+      "relationToPrevious": "Explains the mechanism behind the previous beat's claim.",
+      "addedInformation": "Shows suspicion as her default posture, not an occasional reaction."
+    }
+  },
+  {
+    "i": 50,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "numb anxiety",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "blank",
+    "action": "slump",
+    "storyboard": {
+      "claim": "She needs extreme stimuli just to feel anything besides numb anxiety.",
+      "concreteVisual": "Avery slumped, flat, unreachable.",
+      "onScreenText": "NUMB ANXIETY",
+      "relationToPrevious": "Names the baseline state that only intensity can break through.",
+      "addedInformation": "Shows the numbness itself, not just the craving for intensity."
+    }
+  },
+  {
+    "i": 51,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "the key to Avery",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "key",
+    "storyboard": {
+      "claim": "Gray realizes the key to Avery is neither kindness nor pure cruelty.",
+      "concreteVisual": "Gray holding a key, having worked out how to open her.",
+      "onScreenText": "THE KEY TO AVERY",
+      "relationToPrevious": "Answers what she does respond to, raised in beat 50.",
+      "addedInformation": "Makes 'the key' a literal object Gray now possesses."
+    }
+  },
+  {
+    "i": 52,
+    "concept": "slotMachine",
+    "diagram": null,
+    "callout": {
+      "text": "it's unpredictability",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The mechanism is unpredictability, the same logic as a slot machine.",
+      "concreteVisual": "A slot machine beside Gray, naming the mechanism before Skinner is introduced.",
+      "onScreenText": "IT'S UNPREDICTABILITY",
+      "relationToPrevious": "Names the answer to the key from beat 51.",
+      "addedInformation": "Bridges to the Skinner explainer with the book's own slot-machine image."
+    }
+  },
+  {
+    "i": 53,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "hopelessly addicted to Gray",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [
+      "avery",
+      "gray"
+    ],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Understanding Avery's addiction to Gray requires B.F. Skinner's behavioral psychology.",
+      "concreteVisual": "The Skinner box, with Avery reaching toward Gray as the addiction it explains.",
+      "onScreenText": "HOPELESSLY ADDICTED TO GRAY",
+      "relationToPrevious": "Names the science behind the unpredictability just introduced.",
+      "addedInformation": "Grounds the abstract 'behavioral psychology' claim in the specific box that explains it."
+    }
+  },
+  {
+    "i": 54,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "operant conditioning",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Skinner ran operant conditioning experiments using a lever-and-pellet box.",
+      "concreteVisual": "The Skinner box itself, with its lever.",
+      "onScreenText": "OPERANT CONDITIONING",
+      "relationToPrevious": "Explains the mechanism named a beat earlier.",
+      "addedInformation": "Shows the actual apparatus the whole analogy rests on."
+    }
+  },
+  {
+    "i": 55,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Press lever",
+        "Food every time"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A predictable reward schedule: press the lever, get food every time, the animal learns the association.",
+      "concreteVisual": "A flow from lever press to guaranteed food.",
+      "onScreenText": "PREDICTABLE REWARD",
+      "relationToPrevious": "Shows the first, simplest reward schedule before the twist.",
+      "addedInformation": "Makes the baseline case concrete before it's complicated in the next beats."
+    }
+  },
+  {
+    "i": 56,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "stopped trying",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "When the food stops coming entirely, the rat learns the machine is broken and stops trying.",
+      "concreteVisual": "The Skinner box, lever untouched now.",
+      "onScreenText": "STOPPED TRYING",
+      "relationToPrevious": "The second, opposite case: zero reward extinguishes the behavior.",
+      "addedInformation": "Establishes the case that will contrast with Gray's actual behavior."
+    }
+  },
+  {
+    "i": 57,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "variable ratio reward",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Skinner's third option, the variable ratio reward schedule, is where it gets dark.",
+      "concreteVisual": "The Skinner box again, now for the schedule that actually applies to Gray.",
+      "onScreenText": "VARIABLE RATIO REWARD",
+      "relationToPrevious": "The third case, after all-the-time and none-of-the-time.",
+      "addedInformation": "Names the exact schedule the rest of the chapter is built on."
+    }
+  },
+  {
+    "i": 58,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "press the lever compulsively",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "With unpredictable reward, the animal presses the lever compulsively.",
+      "concreteVisual": "The lever being hit again and again.",
+      "onScreenText": "PRESS THE LEVER COMPULSIVELY",
+      "relationToPrevious": "Shows the behavioral result of the schedule just named.",
+      "addedInformation": "Makes 'compulsively' a repeated physical action, not a mood."
+    }
+  },
+  {
+    "i": 59,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "mashing the button",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "shotOverride": "illustration",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Ignoring sleep and every other stimulus, just mashing the button.",
+      "concreteVisual": "The lever, hit without pause.",
+      "onScreenText": "MASHING THE BUTTON",
+      "relationToPrevious": "Restates the compulsion in the plainer, funnier terms the host reaches for.",
+      "addedInformation": "weak: mostly restates beat 58, but sharpens it to the host's own summary phrase."
+    }
+  },
+  {
+    "i": 60,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "dopamine prediction error",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "surprised",
+    "action": "think",
+    "storyboard": {
+      "claim": "The behavior ties to dopamine prediction error in neuroscience.",
+      "concreteVisual": "Avery, thinking it through, as the science is named.",
+      "onScreenText": "DOPAMINE PREDICTION ERROR",
+      "relationToPrevious": "Moves from the animal experiment to the brain science behind it.",
+      "addedInformation": "Puts a human face on the neuroscience term before it's explained."
+    }
+  },
+  {
+    "i": 61,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "anticipate a reward",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The brain releases dopamine not just on reward, but on anticipating one.",
+      "concreteVisual": "Avery, caught mid-anticipation.",
+      "onScreenText": "ANTICIPATE A REWARD",
+      "relationToPrevious": "Defines the prediction-error term just introduced.",
+      "addedInformation": "Separates anticipation from the reward itself, the key distinction for what follows."
+    }
+  },
+  {
+    "i": 62,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "flattens out over time",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A 100% predictable reward makes the dopamine spike flatten out over time.",
+      "concreteVisual": "Avery, unmoved, as the predictable case is described.",
+      "onScreenText": "FLATTENS OUT OVER TIME",
+      "relationToPrevious": "Shows what happens to anticipation when the puzzle is already solved.",
+      "addedInformation": "Establishes the predictable baseline the unpredictable case will be measured against."
+    }
+  },
+  {
+    "i": 63,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "the brain cannot adapt",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "surprised",
+    "action": "think",
+    "storyboard": {
+      "claim": "When the reward is unpredictable, the brain cannot adapt, and the dopamine spike is massive.",
+      "concreteVisual": "Avery, alert, unable to settle.",
+      "onScreenText": "THE BRAIN CANNOT ADAPT",
+      "relationToPrevious": "The unpredictable case, contrasted directly with beat 62.",
+      "addedInformation": "Names the failure to adapt as the actual mechanism, not just 'surprise.'"
+    }
+  },
+  {
+    "i": 64,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "a pattern that doesn't exist",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The brain becomes hyperfocused trying to crack a pattern that doesn't actually exist.",
+      "concreteVisual": "Avery, straining to find a logic that isn't there.",
+      "onScreenText": "A PATTERN THAT DOESN'T EXIST",
+      "relationToPrevious": "The payoff of the dopamine explainer: a mind chasing a phantom pattern.",
+      "addedInformation": "Makes the futility explicit rather than leaving it implied."
+    }
+  },
+  {
+    "i": 65,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the most addictive loop",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "This is the most addictive behavioral loop in existence, applied to Gray and Avery.",
+      "concreteVisual": "Gray and Avery together, the theory now returning to them.",
+      "onScreenText": "THE MOST ADDICTIVE LOOP",
+      "relationToPrevious": "Closes the Skinner detour and returns to the two people it's about.",
+      "addedInformation": "Reconnects the abstract science back to the actual couple."
+    }
+  },
+  {
+    "i": 66,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "wildly erratic",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "gray"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Gray's behavior is intentionally, wildly erratic.",
+      "concreteVisual": "Gray, unreadable, before the two extremes are shown.",
+      "onScreenText": "WILDLY ERRATIC",
+      "relationToPrevious": "Sets up the two poles of his behavior described next.",
+      "addedInformation": "weak: a short setup beat naming the trait before the concrete examples land."
+    }
+  },
+  {
+    "i": 67,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "knuckles bleed",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "gray",
+      "sam"
+    ],
+    "expression": "angry",
+    "action": "reach",
+    "storyboard": {
+      "claim": "One moment he's the epicenter of violence, slamming people against walls, punching bricks until his knuckles bleed.",
+      "concreteVisual": "Gray, mid-violence, against another inmate.",
+      "onScreenText": "KNUCKLES BLEED",
+      "relationToPrevious": "The violent extreme of the erratic behavior just named.",
+      "addedInformation": "Shows the physical cost of the violence, not just the act."
+    }
+  },
+  {
+    "i": 68,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "hyperfocused devotion",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "storyboard": {
+      "claim": "He pivots instantly from violence to hyperfocused devotion toward Avery.",
+      "concreteVisual": "Gray turning gentle, attentive to Avery.",
+      "onScreenText": "HYPERFOCUSED DEVOTION",
+      "relationToPrevious": "The tender extreme, immediately after the violent one.",
+      "addedInformation": "The pivot itself, right after beat 67, is the whiplash the chapter is about."
+    }
+  },
+  {
+    "i": 69,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "tucks her into bed",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "storyboard": {
+      "claim": "He calls her little killer and baby girl and physically tucks her into bed.",
+      "concreteVisual": "Gray tucking Avery in.",
+      "onScreenText": "TUCKS HER INTO BED",
+      "relationToPrevious": "A concrete instance of the devotion just named.",
+      "addedInformation": "Grounds 'devotion' in a specific tender, domestic action."
+    }
+  },
+  {
+    "i": 70,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "more on the table",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "happy",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Gray tells her there's more on the table to offer than what she knows.",
+      "concreteVisual": "Gray speaking gently to Avery.",
+      "onScreenText": "MORE ON THE TABLE",
+      "relationToPrevious": "A direct quote continuing the tender scene from beat 69.",
+      "addedInformation": "His exact words, quoted rather than paraphrased."
+    }
+  },
+  {
+    "i": 71,
+    "concept": null,
+    "diagram": {
+      "type": "matchWave",
+      "labels": [
+        "Tenderness",
+        "Violence"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [
+      "gray"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Reading the tenderness right after the threatened murder gives you whiplash.",
+      "concreteVisual": "Two rhythms, tenderness and violence, jarring out of sync.",
+      "onScreenText": "TENDERNESS AFTER TERROR",
+      "relationToPrevious": "Makes the whiplash between beats 67-70 visible as a single clash.",
+      "addedInformation": "Shows the mismatch structurally rather than only describing it as a feeling."
+    }
+  },
+  {
+    "i": 72,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "whiplash is the trap",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "That whiplash is the trap; consistent cruelty would have let her survival instincts win.",
+      "concreteVisual": "Avery, caught in the confusion the whiplash creates.",
+      "onScreenText": "WHIPLASH IS THE TRAP",
+      "relationToPrevious": "Names why the clash just diagrammed is the mechanism, not an accident.",
+      "addedInformation": "States the thesis: the inconsistency itself is the trap, not either extreme alone."
+    }
+  },
+  {
+    "i": 73,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "run and hide",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "If he were consistently cruel, she'd recognize it as a threat and run and hide.",
+      "concreteVisual": "Avery, poised to flee, the instinct that consistency would trigger.",
+      "onScreenText": "RUN AND HIDE",
+      "relationToPrevious": "The counterfactual: what her instincts would do if he weren't erratic.",
+      "addedInformation": "Shows the healthy instinct that unpredictability specifically disables."
+    }
+  },
+  {
+    "i": 74,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "locks onto him",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "avery",
+      "gray"
+    ],
+    "expression": "worried",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Because she can never predict which version of him she'll get, her dopamine system locks onto him.",
+      "concreteVisual": "Avery reaching toward Gray, unable to stop.",
+      "onScreenText": "LOCKS ONTO HIM",
+      "relationToPrevious": "The actual outcome, replacing the run-and-hide counterfactual just shown.",
+      "addedInformation": "Closes the loop: unpredictability produces fixation instead of flight."
+    }
+  },
+  {
+    "i": 75,
+    "concept": "slotMachine",
+    "diagram": null,
+    "callout": {
+      "text": "a broken vending machine",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Picture it like a broken vending machine: put a dollar in, nothing happens.",
+      "concreteVisual": "The everyman viewer facing a vending-machine-style reward device.",
+      "onScreenText": "A BROKEN VENDING MACHINE",
+      "relationToPrevious": "Translates the whole Skinner mechanism into an everyday image for the listener.",
+      "addedInformation": "Moves the abstraction from a lab rat to the viewer's own experience."
+    }
+  },
+  {
+    "i": 76,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "just a transaction",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A dollar that always gets a candy bar is nice, but it's just a transaction.",
+      "concreteVisual": "The everyman, unmoved by the guaranteed reward.",
+      "onScreenText": "JUST A TRANSACTION",
+      "relationToPrevious": "The predictable version of the vending machine, before the unpredictable twist.",
+      "addedInformation": "Shows predictability as boring, setting up the contrast with what's coming."
+    }
+  },
+  {
+    "i": 77,
+    "concept": "slotMachine",
+    "diagram": null,
+    "callout": {
+      "text": "a live hornet stings",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Sometimes the dollar gets a candy bar, sometimes a live hornet stings you in the face.",
+      "concreteVisual": "The everyman recoiling as the machine turns unpredictable and violent.",
+      "onScreenText": "A LIVE HORNET STINGS",
+      "relationToPrevious": "The twist that turns the predictable machine into the addictive one.",
+      "addedInformation": "The payoff image of the whole vending-machine analogy."
+    }
+  },
+  {
+    "i": 78,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "rewires your focus",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "reach",
+    "storyboard": {
+      "claim": "You keep pulling the lever; the anticipation alone completely rewires your focus.",
+      "concreteVisual": "The everyman still pulling, unable to stop despite the sting.",
+      "onScreenText": "REWIRES YOUR FOCUS",
+      "relationToPrevious": "Shows the compulsion continuing even after the hornet sting just landed.",
+      "addedInformation": "Confirms the obsession outlasts the pain, the point of the whole analogy."
+    }
+  },
+  {
+    "i": 79,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "after the sting",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The real twist isn't the hornet, it's what happens right after the sting.",
+      "concreteVisual": "The everyman, bracing, as the analogy is pushed one step further.",
+      "onScreenText": "AFTER THE STING",
+      "relationToPrevious": "A cliffhanger that withholds the next beat's reveal (Gray handing her the ice pack).",
+      "addedInformation": "weak: sets up the next chunk's reveal without yet showing it."
+    }
+  }
+]

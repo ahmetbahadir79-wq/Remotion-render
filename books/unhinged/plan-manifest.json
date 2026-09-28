@@ -1,0 +1,2343 @@
+{
+  "version": 1,
+  "slug": "unhinged",
+  "generatedAt": "2026-09-28T11:16:10.666Z",
+  "history": [
+    {
+      "at": "2026-09-25T10:55:36.707Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-25T11:03:55.086Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-25T11:05:36.634Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-25T11:06:10.814Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-25T11:13:06.835Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-26T12:48:54.322Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-28T04:55:43.058Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-28T07:14:26.676Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-28T09:52:44.575Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-28T10:14:04.324Z",
+      "reason": "pipeline",
+      "scenes": 231
+    },
+    {
+      "at": "2026-09-28T11:16:10.662Z",
+      "reason": "pipeline",
+      "scenes": 231
+    }
+  ],
+  "scenes": {
+    "intro": {
+      "fp": "057374aef6",
+      "props": [
+        "heart"
+      ],
+      "texts": 2,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-01": {
+      "fp": "8f4f4c1d21",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-02": {
+      "fp": "3ca472ac3a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-03": {
+      "fp": "2839d96322",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "puppeteer",
+      "set": "abstract"
+    },
+    "scene-04": {
+      "fp": "74968a0736",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-05": {
+      "fp": "e090cd7cd3",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "abstract"
+    },
+    "scene-06": {
+      "fp": "51a70160cc",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "abstract"
+    },
+    "scene-07": {
+      "fp": "27d1598cd6",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "hospital"
+    },
+    "scene-08": {
+      "fp": "943bf43ecb",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "hospital"
+    },
+    "scene-09": {
+      "fp": "5fc6e696db",
+      "props": [
+        "water"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "water",
+      "set": "hospital"
+    },
+    "scene-10": {
+      "fp": "4597c16c8b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-11": {
+      "fp": "67f04e052b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-12": {
+      "fp": "70f489063c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-13": {
+      "fp": "39d646f01f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-14": {
+      "fp": "69083b2238",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-15": {
+      "fp": "bb4ea9d1a3",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-16": {
+      "fp": "74f73f928b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-17": {
+      "fp": "743284f6d7",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "abstract"
+    },
+    "scene-18": {
+      "fp": "472e605da5",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "abstract"
+    },
+    "scene-19": {
+      "fp": "2c57487b69",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-20": {
+      "fp": "719e8c10b1",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "medical",
+      "set": "hospital"
+    },
+    "scene-21": {
+      "fp": "7ade4daa22",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "hospital"
+    },
+    "scene-22": {
+      "fp": "1eb8bc55bb",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-23": {
+      "fp": "96202e7b35",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-24": {
+      "fp": "a10917115e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-25": {
+      "fp": "37b1c216f8",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "abstract"
+    },
+    "scene-26": {
+      "fp": "329e1d8d36",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-27": {
+      "fp": "a1d161c199",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-28": {
+      "fp": "f6f1af0c1e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-29": {
+      "fp": "2323644c7d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-30": {
+      "fp": "339463583b",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-31": {
+      "fp": "4deda19ef3",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-32": {
+      "fp": "c079ceb135",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-33": {
+      "fp": "1b4f984b13",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-34": {
+      "fp": "82ed0296e3",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "tattooNeedle",
+      "set": "room"
+    },
+    "scene-35": {
+      "fp": "291c7e5458",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-36": {
+      "fp": "01027e0488",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "abstract"
+    },
+    "scene-37": {
+      "fp": "1b7df66f0e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-38": {
+      "fp": "baac86d97f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-39": {
+      "fp": "f7b01f67b6",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "abstract"
+    },
+    "scene-40": {
+      "fp": "3ff2e8fe4e",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "puppeteer",
+      "set": "room"
+    },
+    "scene-41": {
+      "fp": "16b759d308",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-42": {
+      "fp": "c6fc750b38",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "medical",
+      "set": "room"
+    },
+    "scene-43": {
+      "fp": "ac2687e37a",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "notes",
+      "set": "room"
+    },
+    "scene-44": {
+      "fp": "877be1694d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-45": {
+      "fp": "a4c690b82b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-46": {
+      "fp": "6727619ea7",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "room"
+    },
+    "scene-47": {
+      "fp": "804c1c455a",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-48": {
+      "fp": "1f8e720fa4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-49": {
+      "fp": "7b02be2f59",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-50": {
+      "fp": "2eebebe9ef",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-51": {
+      "fp": "294642503a",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "room"
+    },
+    "scene-52": {
+      "fp": "2fd1df724e",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "abstract"
+    },
+    "scene-53": {
+      "fp": "1418f753a3",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-54": {
+      "fp": "4361c1d58f",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-55": {
+      "fp": "9ce46642da",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-56": {
+      "fp": "3896c62f82",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-57": {
+      "fp": "25579c9b8e",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-58": {
+      "fp": "efd492c9da",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-59": {
+      "fp": "7f3a70673f",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-60": {
+      "fp": "a3db103665",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-61": {
+      "fp": "1a5a68f0b0",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-62": {
+      "fp": "cd1e3a978b",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-63": {
+      "fp": "920bfb387f",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-64": {
+      "fp": "42bbd5467c",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-65": {
+      "fp": "3b150c5f9a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-66": {
+      "fp": "0810f5d1c4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-67": {
+      "fp": "ee29c4868c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-68": {
+      "fp": "da37e813f4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-69": {
+      "fp": "16d52bfef5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-70": {
+      "fp": "b356245b7c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-71": {
+      "fp": "3a6add4d08",
+      "props": [],
+      "texts": 0,
+      "diagram": "matchWave",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-72": {
+      "fp": "9be7a18373",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-73": {
+      "fp": "204b863598",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-74": {
+      "fp": "93f4a94ea6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-75": {
+      "fp": "121aaf5c28",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "abstract"
+    },
+    "scene-76": {
+      "fp": "60879515fc",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-77": {
+      "fp": "99613ab95c",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "abstract"
+    },
+    "scene-78": {
+      "fp": "26e6859c45",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-79": {
+      "fp": "b874434c63",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-80": {
+      "fp": "47658fa909",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-81": {
+      "fp": "f2f2b07d6c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-82": {
+      "fp": "b5c4f86ebe",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "abstract"
+    },
+    "scene-83": {
+      "fp": "dbb82e7673",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-84": {
+      "fp": "29e1e4c53e",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "puppeteer",
+      "set": "abstract"
+    },
+    "scene-85": {
+      "fp": "e737e5d4d7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-86": {
+      "fp": "b2201b0585",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "abstract"
+    },
+    "scene-87": {
+      "fp": "9bee2911b7",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "cageShrink",
+      "set": "room"
+    },
+    "scene-88": {
+      "fp": "4b6c872775",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-89": {
+      "fp": "bcadee9c5b",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "street"
+    },
+    "scene-90": {
+      "fp": "879dccff8d",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-91": {
+      "fp": "de7b79adbf",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "cageShrink",
+      "set": "room"
+    },
+    "scene-92": {
+      "fp": "422d1e4e13",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-93": {
+      "fp": "4fb6988c96",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-94": {
+      "fp": "b85b39acb0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-95": {
+      "fp": "92c2b2770b",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "library"
+    },
+    "scene-96": {
+      "fp": "a0734b4e06",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-97": {
+      "fp": "e8a40a9efc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-98": {
+      "fp": "2687d0dd17",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-99": {
+      "fp": "3de6b60975",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-100": {
+      "fp": "4a9c444c3b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-101": {
+      "fp": "c122279835",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-102": {
+      "fp": "1217718534",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-103": {
+      "fp": "7282eba3dc",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "abstract"
+    },
+    "scene-104": {
+      "fp": "81f4fe7f6e",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "cageShrink",
+      "set": "abstract"
+    },
+    "scene-105": {
+      "fp": "a797d3a949",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "abstract"
+    },
+    "scene-106": {
+      "fp": "3f0367c3ea",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "cageShrink",
+      "set": "abstract"
+    },
+    "scene-107": {
+      "fp": "e7edd4bb37",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-108": {
+      "fp": "00960d79a6",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "room"
+    },
+    "scene-109": {
+      "fp": "2defe90b1f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-110": {
+      "fp": "2c2808146e",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "room"
+    },
+    "scene-111": {
+      "fp": "ea3b226070",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-112": {
+      "fp": "27d0c926ee",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-113": {
+      "fp": "5760b60fc3",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "mask",
+      "set": "library"
+    },
+    "scene-114": {
+      "fp": "aaf9239bf8",
+      "props": [
+        "storm"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "storm",
+      "set": "abstract"
+    },
+    "scene-115": {
+      "fp": "66c87c3ccd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-116": {
+      "fp": "248b35c997",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "abstract"
+    },
+    "scene-117": {
+      "fp": "8ea5010ddd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-118": {
+      "fp": "99cfdfe895",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-119": {
+      "fp": "5224bf636b",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "abstract"
+    },
+    "scene-120": {
+      "fp": "808814f3e0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-121": {
+      "fp": "6465f7ba4f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-122": {
+      "fp": "79aee7603b",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-123": {
+      "fp": "05536e7af1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-124": {
+      "fp": "fa0251e256",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-125": {
+      "fp": "e860436dfa",
+      "props": [],
+      "texts": 0,
+      "diagram": "matchWave",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-126": {
+      "fp": "44c257b950",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-127": {
+      "fp": "5b47c4a599",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-128": {
+      "fp": "dd7b8ffbd6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-129": {
+      "fp": "6918ae2358",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "abstract"
+    },
+    "scene-130": {
+      "fp": "cd3eb6c978",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "abstract"
+    },
+    "scene-131": {
+      "fp": "b93ee6c036",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-132": {
+      "fp": "35b5fe618d",
+      "props": [
+        "storm"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "storm",
+      "set": "abstract"
+    },
+    "scene-133": {
+      "fp": "bca29ed87d",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "puppeteer",
+      "set": "abstract"
+    },
+    "scene-134": {
+      "fp": "bc9448d7ee",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "abstract"
+    },
+    "scene-135": {
+      "fp": "12e358056b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-136": {
+      "fp": "52cb713eb0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-137": {
+      "fp": "eb0b9bfebe",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-138": {
+      "fp": "9359594c37",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-139": {
+      "fp": "dbaa11f4d9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-140": {
+      "fp": "25d196c48c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-141": {
+      "fp": "cf18c3a69f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-142": {
+      "fp": "017433586f",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "library"
+    },
+    "scene-143": {
+      "fp": "2f5509c411",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-144": {
+      "fp": "dfcb3ad999",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-145": {
+      "fp": "e48c17accf",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "library"
+    },
+    "scene-146": {
+      "fp": "11f257433b",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "library"
+    },
+    "scene-147": {
+      "fp": "1eb682eae5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-148": {
+      "fp": "4c4b402855",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-149": {
+      "fp": "40263164dc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-150": {
+      "fp": "0e8b2ab9de",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-151": {
+      "fp": "253af6e63f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-152": {
+      "fp": "2fcb1fc1c7",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-153": {
+      "fp": "adda8dddc0",
+      "props": [
+        "mirror"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mirror",
+      "set": "bedroom"
+    },
+    "scene-154": {
+      "fp": "cdfeb4b37f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-155": {
+      "fp": "5d345fb4ce",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "bedroom"
+    },
+    "scene-156": {
+      "fp": "30beadbfac",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "bedroom"
+    },
+    "scene-157": {
+      "fp": "90f35f8ad7",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "bedroom"
+    },
+    "scene-158": {
+      "fp": "db7c5f159c",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "bedroom"
+    },
+    "scene-159": {
+      "fp": "7b036ed27c",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-160": {
+      "fp": "882bd418ad",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-161": {
+      "fp": "c4c683e420",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-162": {
+      "fp": "a7e136f265",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-163": {
+      "fp": "cfc662d802",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "library"
+    },
+    "scene-164": {
+      "fp": "0b2fd78d59",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-165": {
+      "fp": "77f7b9f2e5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-166": {
+      "fp": "8ee2104b20",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "heart",
+      "set": "room"
+    },
+    "scene-167": {
+      "fp": "1638aefce4",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-168": {
+      "fp": "62cd82a2f0",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-169": {
+      "fp": "eeecc7d9ce",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "nerveFray",
+      "set": "abstract"
+    },
+    "scene-170": {
+      "fp": "99dc14c0a2",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-171": {
+      "fp": "434fb008ed",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-172": {
+      "fp": "6c764c34e5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-173": {
+      "fp": "d8d4c7b4af",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-174": {
+      "fp": "3c8a6924c5",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "street"
+    },
+    "scene-175": {
+      "fp": "861359f79c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-176": {
+      "fp": "ea89543866",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "abstract"
+    },
+    "scene-177": {
+      "fp": "bc12f774a1",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "abstract"
+    },
+    "scene-178": {
+      "fp": "160ed97f1d",
+      "props": [
+        "storm"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "storm",
+      "set": "room"
+    },
+    "scene-179": {
+      "fp": "71a31937e6",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-180": {
+      "fp": "b7294539b5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-181": {
+      "fp": "8d156bc392",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-182": {
+      "fp": "de71d5c234",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "tattooNeedle",
+      "set": "room"
+    },
+    "scene-183": {
+      "fp": "4ca1452985",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "heart",
+      "set": "room"
+    },
+    "scene-184": {
+      "fp": "b99ffaaf19",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-185": {
+      "fp": "acbd9d5f61",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-186": {
+      "fp": "8686dff0d7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-187": {
+      "fp": "7c2c77e083",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-188": {
+      "fp": "71a963eed1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-189": {
+      "fp": "3b75af1a0c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-190": {
+      "fp": "e3a477fcb5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "bedroom"
+    },
+    "scene-191": {
+      "fp": "6698d92910",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "room"
+    },
+    "scene-192": {
+      "fp": "ad8221d2ae",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-193": {
+      "fp": "0e55506c8d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-194": {
+      "fp": "0723668453",
+      "props": [
+        "heart"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "heart",
+      "set": "abstract"
+    },
+    "scene-195": {
+      "fp": "ee4fca7add",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-196": {
+      "fp": "00582cb252",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-197": {
+      "fp": "59ad8e3ba6",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-198": {
+      "fp": "f665e73495",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-199": {
+      "fp": "506320e026",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-200": {
+      "fp": "bea97d4314",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-201": {
+      "fp": "b562452021",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-202": {
+      "fp": "43b978004e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-203": {
+      "fp": "179b75dd82",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "crack",
+      "set": "room"
+    },
+    "scene-204": {
+      "fp": "21569d5c2d",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-205": {
+      "fp": "8b9b9f579a",
+      "props": [],
+      "texts": 0,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-206": {
+      "fp": "fdefecaacf",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-207": {
+      "fp": "f49cced82b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-208": {
+      "fp": "f86e579aff",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-209": {
+      "fp": "137ac04990",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-210": {
+      "fp": "cc8e4607b8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-211": {
+      "fp": "b0add293e0",
+      "props": [
+        "crack"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "crack",
+      "set": "room"
+    },
+    "scene-212": {
+      "fp": "851cfae199",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-213": {
+      "fp": "332a988f5d",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "abstract"
+    },
+    "scene-214": {
+      "fp": "4639ffc490",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "medical",
+      "set": "hospital"
+    },
+    "scene-215": {
+      "fp": "78f8444bd4",
+      "props": [],
+      "texts": 0,
+      "diagram": "spectrum",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-216": {
+      "fp": "7691a6dba9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-217": {
+      "fp": "3faa48a3f1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-218": {
+      "fp": "1f6ceac6ae",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "abstract"
+    },
+    "scene-219": {
+      "fp": "fe78dcfb78",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-220": {
+      "fp": "90efb583ea",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-221": {
+      "fp": "920cf3ad5f",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "abstract"
+    },
+    "scene-222": {
+      "fp": "62af1fe1a3",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-223": {
+      "fp": "53628dd479",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-224": {
+      "fp": "444cea16fe",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "slotMachine",
+      "set": "abstract"
+    },
+    "scene-225": {
+      "fp": "86e3276e95",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "abstract"
+    },
+    "scene-226": {
+      "fp": "27828c28c1",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "skinnerBox",
+      "set": "abstract"
+    },
+    "scene-227": {
+      "fp": "f6d6b496e2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-228": {
+      "fp": "d3f800071a",
+      "props": [
+        "mirror"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mirror",
+      "set": "abstract"
+    },
+    "scene-229": {
+      "fp": "5c6aaf9b53",
+      "props": [
+        "storm"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "storm",
+      "set": "abstract"
+    },
+    "scene-230": {
+      "fp": "c411c2fd7b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    }
+  }
+}

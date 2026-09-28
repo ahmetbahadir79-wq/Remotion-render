@@ -1,0 +1,99 @@
+{
+  "skinnerBox": {
+    "title": "Skinner Box",
+    "reads": "an experimental box with a lever and pellet dispenser",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M80 140 L80 440 L440 440 L440 140 Z", "fill": "none", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M80 140 L180 60 L540 60 L440 140", "fill": "none", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M440 140 L540 60 L540 360 L440 440", "fill": "none", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M140 280 L140 380 L180 380 L180 240 L140 240 Z", "fill": "accent", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M320 180 L320 220 L380 220 L380 180 Z", "fill": "ink" },
+      { "d": "M350 140 L350 180", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M340 230 C340 260 360 260 360 280 L340 280 L340 260", "fill": "accent", "stroke": "ink", "strokeWidth": 4 },
+      { "d": "M340 290 A8 8 0 1 0 360 290 A8 8 0 1 0 340 290", "fill": "accent" }
+    ]
+  },
+  "tattooNeedle": {
+    "title": "Tattoo Needle",
+    "reads": "a tattoo machine with needle tip",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M260 40 L260 200", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M220 200 L220 360 C220 380 240 400 260 400 C280 400 300 380 300 360 L300 200 Z", "fill": "none", "stroke": "ink", "strokeWidth": 10 },
+      { "d": "M240 220 L280 220 M240 260 L280 260 M240 300 L280 300", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M260 400 L260 490", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M250 490 L260 520 L270 490", "fill": "accent" },
+      { "d": "M200 200 L320 200", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M180 240 L200 240 L200 320 L180 320", "stroke": "ink", "strokeWidth": 6, "fill": "none" },
+      { "d": "M320 240 L340 240 L340 320 L320 320", "stroke": "ink", "strokeWidth": 6, "fill": "none" }
+    ]
+  },
+  "slotMachine": {
+    "title": "Slot Machine",
+    "reads": "a slot machine with a pull lever",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M100 80 C100 60 420 60 420 80 L420 420 C420 440 100 440 100 420 Z", "fill": "none", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M140 140 L240 140 L240 320 L140 320 Z", "fill": "none", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M280 140 L380 140 L380 320 L280 320 Z", "fill": "none", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M170 200 L210 200 M170 230 L210 230 M170 260 L210 260", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M310 200 L350 200 M310 230 L350 230 M310 260 L350 260", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M440 160 L480 160 L480 200 A20 20 0 1 1 440 200 Z", "fill": "accent", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M460 200 L460 300", "stroke": "ink", "strokeWidth": 10 },
+      { "d": "M160 380 L360 380 L360 400 L160 400 Z", "fill": "accent" },
+      { "d": "M200 420 A15 15 0 1 0 230 420 A15 15 0 1 0 200 420 M290 420 A15 15 0 1 0 320 420 A15 15 0 1 0 290 420", "fill": "ink" }
+    ]
+  },
+  "dopamineHook": {
+    "title": "Dopamine Hook",
+    "reads": "a fishing hook with a dangling lure",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M260 40 L260 200", "stroke": "ink", "strokeWidth": 8 },
+      { "d": "M260 200 C260 320 160 360 160 400 C160 460 220 480 260 440 C300 400 300 340 260 200", "fill": "none", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M260 440 L280 470 L240 470 Z", "fill": "accent" },
+      { "d": "M220 60 L260 40 L300 60", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M240 470 C220 490 200 490 190 480", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M280 470 C300 490 320 490 330 480", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M250 470 L250 510 M270 470 L270 510", "stroke": "accent", "strokeWidth": 3 }
+    ]
+  },
+  "nerveFray": {
+    "title": "Frayed Nerve",
+    "reads": "a frayed sparking wire or exposed nerve ending",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M100 260 L200 260", "stroke": "ink", "strokeWidth": 14 },
+      { "d": "M200 260 L220 240 L240 280 L260 240 L280 280 L300 240 L320 280 L340 260", "fill": "none", "stroke": "ink", "strokeWidth": 10 },
+      { "d": "M340 260 L440 260", "stroke": "ink", "strokeWidth": 14 },
+      { "d": "M340 260 L360 220 L350 200", "stroke": "accent", "strokeWidth": 5 },
+      { "d": "M340 260 L370 240 L380 210", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M340 260 L360 300 L350 320", "stroke": "accent", "strokeWidth": 5 },
+      { "d": "M340 260 L370 280 L380 310", "stroke": "accent", "strokeWidth": 4 },
+      { "d": "M345 195 A6 6 0 1 0 357 195 A6 6 0 1 0 345 195", "fill": "accent" },
+      { "d": "M375 205 A5 5 0 1 0 385 205 A5 5 0 1 0 375 205", "fill": "accent" },
+      { "d": "M345 325 A6 6 0 1 0 357 325 A6 6 0 1 0 345 325", "fill": "accent" }
+    ]
+  },
+  "cageShrink": {
+    "title": "Shrinking Cage",
+    "reads": "a cage with walls closing inward",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M120 100 L120 420 L400 420 L400 100 Z", "fill": "none", "stroke": "ink", "strokeWidth": 10 },
+      { "d": "M160 100 L160 420", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M200 100 L200 420", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M320 100 L320 420", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M360 100 L360 420", "stroke": "ink", "strokeWidth": 6 },
+      { "d": "M60 140 L120 180", "stroke": "accent", "strokeWidth": 8 },
+      { "d": "M60 340 L120 300", "stroke": "accent", "strokeWidth": 8 },
+      { "d": "M460 140 L400 180", "stroke": "accent", "strokeWidth": 8 },
+      { "d": "M460 340 L400 300", "stroke": "accent", "strokeWidth": 8 },
+      { "d": "M40 130 L60 140 L40 150", "fill": "accent" },
+      { "d": "M40 330 L60 340 L40 350", "fill": "accent" },
+      { "d": "M480 130 L460 140 L480 150", "fill": "accent" },
+      { "d": "M480 330 L460 340 L480 350", "fill": "accent" }
+    ]
+  }
+}

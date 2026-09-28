@@ -1,0 +1,870 @@
+[
+  {
+    "i": 120,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "COMPLETELY DISTINCT PROCESSES",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Consent and arousal feel like they should be the same signal, but biologically they are not.",
+      "concreteVisual": "Avery, tense, caught between what her mind wants and what her body is doing.",
+      "onScreenText": "COMPLETELY DISTINCT PROCESSES",
+      "relationToPrevious": "Answers the moral-expectation setup from the prior beat with the biological claim.",
+      "addedInformation": "Names that this is a biological split, not a moral one, before the mechanism is explained."
+    }
+  },
+  {
+    "i": 121,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A PHYSIOLOGICAL RESPONSE",
+      "style": "highlight"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Arousal is a physiological response, not a conscious green light, and the mechanism starts with extreme terror.",
+      "concreteVisual": "Avery holding still, body reacting before her mind can weigh in.",
+      "onScreenText": "A PHYSIOLOGICAL RESPONSE",
+      "relationToPrevious": "Unpacks 'distinct processes' into the specific claim: arousal is body, not permission.",
+      "addedInformation": "weak: mostly restates the narration's own framing before the nervous-system detail lands."
+    }
+  },
+  {
+    "i": 122,
+    "concept": "nerveFray",
+    "diagram": null,
+    "callout": {
+      "text": "FIGHT OR FLIGHT",
+      "style": "highlight"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "In extreme terror the sympathetic nervous system fires and the body preps for fight or flight.",
+      "concreteVisual": "A jolt through Avery's body as her nervous system activates.",
+      "onScreenText": "FIGHT OR FLIGHT",
+      "relationToPrevious": "Moves from the abstract claim to the actual nervous-system trigger.",
+      "addedInformation": "Makes the activation a felt jolt rather than a textbook phrase."
+    }
+  },
+  {
+    "i": 123,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HEART RATE SPIKES",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Adrenaline, noradrenaline and cortisol flood the body; heart rate spikes, blood vessels dilate.",
+      "concreteVisual": "Avery's body under a flood of stress hormones — visibly keyed up.",
+      "onScreenText": "HEART RATE SPIKES",
+      "relationToPrevious": "Lists the first physical symptoms of the fight-or-flight state just named.",
+      "addedInformation": "weak: itemizes symptoms the narration already lists explicitly."
+    }
+  },
+  {
+    "i": 124,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE EXACT SAME SYMPTOMS",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "surprised",
+    "action": "think",
+    "storyboard": {
+      "claim": "Breath quickens, pupils dilate, blood is redirected — the exact same symptoms as sexual arousal.",
+      "concreteVisual": "Avery's surprised realization as fear-symptoms and arousal-symptoms turn out identical.",
+      "onScreenText": "THE EXACT SAME SYMPTOMS",
+      "relationToPrevious": "The pivot: the symptom list from the last two beats turns out to double as arousal's own list.",
+      "addedInformation": "Flags this as the beat's actual reveal, not just another symptom."
+    }
+  },
+  {
+    "i": 125,
+    "concept": null,
+    "diagram": {
+      "type": "matchWave",
+      "labels": [
+        "Fear",
+        "Lust"
+      ]
+    },
+    "callout": null,
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Fear and lust are systemically identical — the body cannot tell a racing heart from terror apart from a racing heart from lust.",
+      "concreteVisual": "Two rhythms — fear and lust — tracing the exact same waveform.",
+      "onScreenText": "FEAR AND LUST ARE IDENTICAL",
+      "relationToPrevious": "Turns the prior beat's 'exact same symptoms' claim into the structural diagram.",
+      "addedInformation": "Shows the two states as literally synchronized signals, not just a verbal comparison."
+    }
+  },
+  {
+    "i": 126,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HIGHLY STIMULATED",
+      "style": "highlight"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The body doesn't know the difference — it just registers that it's highly stimulated.",
+      "concreteVisual": "Avery, overloaded, no longer able to name what she's feeling.",
+      "onScreenText": "HIGHLY STIMULATED",
+      "relationToPrevious": "Closes the matchWave point with the plain-language summary line.",
+      "addedInformation": "weak: restates the diagram's point in words rather than adding new content."
+    }
+  },
+  {
+    "i": 127,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SHAKY BRIDGE EXPERIMENT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "walk",
+    "storyboard": {
+      "claim": "The 1974 Dutton and Aaron shaky bridge experiment: an attractive researcher approached men on a bridge.",
+      "concreteVisual": "A man crossing an unsteady high bridge, approached mid-crossing.",
+      "onScreenText": "SHAKY BRIDGE EXPERIMENT",
+      "relationToPrevious": "Brings in outside evidence for the fear/arousal overlap just established.",
+      "addedInformation": "Grounds the abstract claim in a named, dated real study."
+    }
+  },
+  {
+    "i": 128,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MORE LIKELY TO CALL",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Men on the terrifying swaying bridge, versus a solid one, were far more likely to call the researcher afterward.",
+      "concreteVisual": "The same man, visibly rattled, still shaken from the crossing.",
+      "onScreenText": "MORE LIKELY TO CALL",
+      "relationToPrevious": "Delivers the experiment's actual result after the setup.",
+      "addedInformation": "Names the surprising outcome — fear predicted later contact, not comfort."
+    }
+  },
+  {
+    "i": 129,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "MISATTRIBUTION OF AROUSAL",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The result is explained by misattribution of arousal: fear-induced adrenaline from the scary bridge.",
+      "concreteVisual": "The man, still flooded with adrenaline, unaware of its true source.",
+      "onScreenText": "MISATTRIBUTION OF AROUSAL",
+      "relationToPrevious": "Names the psychological mechanism behind the surprising call-back result.",
+      "addedInformation": "Gives the phenomenon its technical name before applying it to Gray."
+    }
+  },
+  {
+    "i": 130,
+    "concept": "heart",
+    "diagram": null,
+    "callout": {
+      "text": "READ AS ATTRACTION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "think",
+    "storyboard": {
+      "claim": "Their brains misread the physiological fear response as intense sexual attraction.",
+      "concreteVisual": "The man's confused double-take, mistaking his own fear signal.",
+      "onScreenText": "READ AS ATTRACTION",
+      "relationToPrevious": "Specifies exactly what the brain misattributes fear to.",
+      "addedInformation": "weak: restates the mechanism from the previous beat with a sharper label."
+    }
+  },
+  {
+    "i": 131,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MISATTRIBUTION OF AROUSAL",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "reach",
+    "storyboard": {
+      "claim": "The brain tricks itself into reading a pounding heart as arousal — and Gray is doing exactly this to Avery.",
+      "concreteVisual": "Gray reaching toward a tense Avery, applying the bridge-experiment mechanism in person.",
+      "onScreenText": "MISATTRIBUTION OF AROUSAL",
+      "relationToPrevious": "Snaps the outside research straight back onto the book's own relationship.",
+      "addedInformation": "Turns an abstract psychology finding into a specific, named act by Gray."
+    }
+  },
+  {
+    "i": 132,
+    "concept": "storm",
+    "diagram": null,
+    "callout": {
+      "text": "CROSS-WIRED WITH AROUSAL",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Gray hijacks her terror-induced adrenaline spike and cross-wires it directly with sexual arousal.",
+      "concreteVisual": "A jolt running through Avery's body under Gray's control, rerouted rather than felt cleanly.",
+      "onScreenText": "CROSS-WIRED WITH AROUSAL",
+      "relationToPrevious": "Names the exact mechanism Gray is running on Avery's nervous system.",
+      "addedInformation": "Makes the hijack visible as a rerouted jolt, not just a verbal claim."
+    }
+  },
+  {
+    "i": 133,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "A HOSTILE TAKEOVER",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray",
+      "avery"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "He weaponizes her own anatomy against her logical mind — a total hostile takeover of her biology.",
+      "concreteVisual": "Gray controlling Avery's reactions like strings, her body no longer her own to direct.",
+      "onScreenText": "A HOSTILE TAKEOVER",
+      "relationToPrevious": "Escalates the cross-wiring claim into full control of her body.",
+      "addedInformation": "Frames it as total control, not just a single misfired signal."
+    }
+  },
+  {
+    "i": 134,
+    "concept": "crack",
+    "diagram": null,
+    "callout": {
+      "text": "THE AGONIZING GAP",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Macca forces the reader to sit inside the agonizing gap between what the body does and what the mind desires.",
+      "concreteVisual": "A visible split running through Avery — body pulling one way, mind another.",
+      "onScreenText": "THE AGONIZING GAP",
+      "relationToPrevious": "Names the emotional cost of the hostile takeover just described.",
+      "addedInformation": "Makes the internal split a visible fracture rather than an abstract phrase."
+    }
+  },
+  {
+    "i": 135,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HER MIND WANTS SAFETY",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "It's a brave authorial choice: Avery's mind wants safety.",
+      "concreteVisual": "Avery pulling inward, seeking safety with her mind alone.",
+      "onScreenText": "HER MIND WANTS SAFETY",
+      "relationToPrevious": "States the mind's half of the gap just diagrammed.",
+      "addedInformation": "Isolates the mind's want before the body's betrayal is shown next."
+    },
+    "set": "abstract"
+  },
+  {
+    "i": 136,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "COMPLETELY BETRAYING HER",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "reach",
+    "storyboard": {
+      "claim": "She wants to be far from the bloodied shiv, but her body stretches and reacts, completely betraying her.",
+      "concreteVisual": "Avery's body reaching toward what her mind is recoiling from.",
+      "onScreenText": "COMPLETELY BETRAYING HER",
+      "relationToPrevious": "Gives the body's half of the gap, contradicting the mind's want from the prior beat.",
+      "addedInformation": "Shows the betrayal as a physical reach, the opposite of what her mind wants."
+    }
+  },
+  {
+    "i": 137,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BRAVELY PULLS AWAY",
+      "style": "strike"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Macca refuses a clean ending — Avery never has the scene where she realizes it's a mistake and bravely pulls away.",
+      "concreteVisual": "Avery staying put, not pulling back, refusing the tidy exit the narration rejects.",
+      "onScreenText": "BRAVELY PULLS AWAY",
+      "relationToPrevious": "Names what does NOT happen, staged as absence rather than the rejected resolution.",
+      "addedInformation": "Marks this as a refused outcome, not a real story beat."
+    }
+  },
+  {
+    "i": 138,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE DISCOMFORT IS THE TEXT",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Nor does Gray become a gentle romance hero — the discomfort isn't a flaw, the discomfort is the text.",
+      "concreteVisual": "Gray, unmoved and unsoftened, exactly as controlled and dangerous as before.",
+      "onScreenText": "THE DISCOMFORT IS THE TEXT",
+      "relationToPrevious": "Pairs with the prior beat's refusal: neither character gets the genre's usual resolution.",
+      "addedInformation": "States the essay's thesis line directly, not just the negated cliche."
+    }
+  },
+  {
+    "i": 139,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "IT GETS INCREDIBLY META",
+      "style": "reveal"
+    },
+    "cast": [
+      "avery"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "It isn't just Avery whose nervous system is being hijacked — the argument is about to widen.",
+      "concreteVisual": "Avery still caught in her own reaction, on the edge of the scene that reframes her as an example.",
+      "onScreenText": "IT GETS INCREDIBLY META",
+      "relationToPrevious": "Signals the turn from Avery's body to the reader's, before the reader is named.",
+      "addedInformation": "weak: a pure transition line flagging a widening argument, no new claim yet."
+    }
+  },
+  {
+    "i": 140,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TO YOU, THE READER",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Macca is doing the exact same thing to the person holding the physical book — to you, the reader.",
+      "concreteVisual": "A reader-stand-in caught holding the very book being discussed.",
+      "onScreenText": "TO YOU, THE READER",
+      "relationToPrevious": "Delivers the 'meta' turn promised in the previous beat by naming the reader directly.",
+      "addedInformation": "Puts a concrete figure on screen for 'the reader' instead of leaving it abstract."
+    }
+  },
+  {
+    "i": 141,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE PROSE HACKS YOUR CHEMISTRY",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman",
+      "avery"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The structure of the narrative itself is designed to mirror the chemical reaction happening inside Avery.",
+      "concreteVisual": "The mirror shows Avery on one side and the reader on the other — both experiencing the same chemical spike, the narrative designed to sync them.",
+      "onScreenText": "THE PROSE HACKS YOUR CHEMISTRY",
+      "relationToPrevious": "Makes literal the claim that the reader and Avery run the same reaction.",
+      "addedInformation": "Gives the abstract 'mirrors' claim a literal reflecting image."
+    }
+  },
+  {
+    "i": 142,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "TRIGGER WARNINGS",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "The trigger warnings at the book's opening don't just clinically list themes — they boldly state something else.",
+      "concreteVisual": "The reader-stand-in reading a printed page of warnings, about to be surprised by its tone.",
+      "onScreenText": "TRIGGER WARNINGS",
+      "relationToPrevious": "Moves the mirror claim into concrete evidence: the book's own opening page.",
+      "addedInformation": "Sets up the specific text that follows as evidence, not just a claim."
+    }
+  },
+  {
+    "i": 143,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "UNHINGED, DEPRAVED DARKNESS",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "The trigger warning itself, quoted: an invitation into 'unhinged, depraved darkness.'",
+      "concreteVisual": "The reader-stand-in reacting to the book's own provocative language.",
+      "onScreenText": "UNHINGED, DEPRAVED DARKNESS",
+      "relationToPrevious": "Quotes the actual line the previous beat set up.",
+      "addedInformation": "Gives the book's own words rather than a paraphrase."
+    }
+  },
+  {
+    "i": 144,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE AUTHOR TELLS YOU",
+      "style": "highlight"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "That's an explicit invitation — the author is literally telling the reader what's coming.",
+      "concreteVisual": "The reader-stand-in, addressed head-on rather than reading privately.",
+      "onScreenText": "AN EXPLICIT INVITATION",
+      "relationToPrevious": "Names the quoted line as a direct address rather than mere warning.",
+      "addedInformation": "Reframes the trigger warning as an invitation, not a disclaimer."
+    },
+    "set": "abstract"
+  },
+  {
+    "i": 145,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "INTERMITTENT REINFORCEMENT LOOP",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The author wants the reader's consent because the prose is calibrated to run the same intermittent reinforcement loop as the protagonist's.",
+      "concreteVisual": "The Skinner box mechanism, its lever and pellet dispenser standing in for the reader's own experience.",
+      "onScreenText": "INTERMITTENT REINFORCEMENT LOOP",
+      "relationToPrevious": "Names the exact mechanism the invitation is actually asking the reader to enter.",
+      "addedInformation": "Introduces the book's central experimental metaphor by name, applied directly to the reader."
+    }
+  },
+  {
+    "i": 146,
+    "concept": "skinnerBox",
+    "diagram": null,
+    "callout": {
+      "text": "YOU'RE IN THE SKINNER BOX",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "You're in the Skinner box too, right alongside the protagonist.",
+      "concreteVisual": "The reader-stand-in inside the same box mechanism just described.",
+      "onScreenText": "YOU'RE IN THE SKINNER BOX",
+      "relationToPrevious": "Confirms the mechanism named in the previous beat applies to the reader specifically.",
+      "addedInformation": "weak: restates the previous beat's claim as direct address."
+    }
+  },
+  {
+    "i": 147,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DOPAMINE HIT OF CHARM",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "When Gray calls himself demon boy and cracks a witty joke, the reader gets a dopamine hit of charm.",
+      "concreteVisual": "Gray, charming and self-aware, delivering the joke straight to the audience.",
+      "onScreenText": "DOPAMINE HIT OF CHARM",
+      "relationToPrevious": "Gives the first concrete example of the reinforcement loop just named: a reward.",
+      "addedInformation": "Names the specific reward (charm/humor) rather than the mechanism in the abstract."
+    }
+  },
+  {
+    "i": 148,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "YOUR PULSE SPIKES",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The reader becomes invested in Gray being good — then when he threatens to destroy someone, the reader's own pulse spikes.",
+      "concreteVisual": "The reader-stand-in tensing at the threat, invested despite knowing better.",
+      "onScreenText": "YOUR PULSE SPIKES",
+      "relationToPrevious": "Gives the punishment/threat half of the loop, following the reward beat before it.",
+      "addedInformation": "Shows the loop's variable-ratio swing: reward, then threat, on the same reader."
+    }
+  },
+  {
+    "i": 149,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DEFENDING AVERY FROM SAM",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray",
+      "sam"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Reflect on the scene where Gray defends Avery from Sam.",
+      "concreteVisual": "Gray squaring off against Sam, the confrontation about to begin.",
+      "onScreenText": "DEFENDING AVERY FROM SAM",
+      "relationToPrevious": "Sets up the specific scene the reader is asked to recall as a worked example.",
+      "addedInformation": "Names the scene and both characters before the specific actions are shown."
+    }
+  },
+  {
+    "i": 150,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "VIOLENTLY POSSESSIVE",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray",
+      "sam"
+    ],
+    "expression": "angry",
+    "action": "reach",
+    "storyboard": {
+      "claim": "Gray slams his fist into the wall, demands to know where her boyfriend is — violently possessive.",
+      "concreteVisual": "Gray lunging, fist near the wall, demanding answers from Sam.",
+      "onScreenText": "VIOLENTLY POSSESSIVE",
+      "relationToPrevious": "Delivers the concrete action of the scene just set up.",
+      "addedInformation": "Shows the specific violent act rather than summarizing it as 'a confrontation.'"
+    }
+  },
+  {
+    "i": 151,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CHEERING FOR GRAY",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Reading it, you are internally cheering for Gray — wanting him to beat Sam up and protect her.",
+      "concreteVisual": "The reader-stand-in genuinely cheering the violence just witnessed.",
+      "onScreenText": "CHEERING FOR GRAY",
+      "relationToPrevious": "Shows the reader's actual reaction to the violent scene just staged.",
+      "addedInformation": "Names the reader's real, uncomfortable response rather than the scene's content again."
+    },
+    "set": "room"
+  },
+  {
+    "i": 152,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "HE IS THE VILLAIN",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Even so, he is objectively a monster — he is the villain, and the fourth wall isn't a window here.",
+      "concreteVisual": "The monster beneath Gray's charm, visible for a moment underneath him.",
+      "onScreenText": "HE IS THE VILLAIN",
+      "relationToPrevious": "Corrects the cheering from the previous beat with the plain moral fact.",
+      "addedInformation": "Surfaces what the reader's cheering was obscuring: the villain underneath."
+    }
+  },
+  {
+    "i": 153,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "REFLECTING YOUR OWN REACTIONS",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The fourth wall is a mirror reflecting the reader's own reactions back, forcing an uncomfortable recognition.",
+      "concreteVisual": "The reader-stand-in facing their own reflection instead of the story.",
+      "onScreenText": "REFLECTING YOUR OWN REACTIONS",
+      "relationToPrevious": "Names the mechanism (mirror, not window) behind the discomfort just revealed.",
+      "addedInformation": "Makes the reader the actual subject of the reflection, not the story."
+    }
+  },
+  {
+    "i": 154,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "JUDGING YOUR OWN PLEASURE",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "By the midpoint, judging Avery for letting a man with a knife touch her means hypocritically judging your own reading pleasure.",
+      "concreteVisual": "The reader-stand-in caught mid-read, unable to separate judgment of Avery from judgment of themselves.",
+      "onScreenText": "JUDGING YOUR OWN PLEASURE",
+      "relationToPrevious": "Extends the mirror claim into its practical consequence: you can no longer judge her cleanly.",
+      "addedInformation": "Spells out the specific hypocrisy the mirror produces."
+    }
+  },
+  {
+    "i": 155,
+    "concept": "slotMachine",
+    "diagram": null,
+    "callout": {
+      "text": "SEEKING THE DOPAMINE HIT",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "You are the one turning the pages, seeking the same dopamine hit she is — the genre's most subversive move.",
+      "concreteVisual": "The reader-stand-in still turning pages, chasing the same reward Avery chases.",
+      "onScreenText": "SEEKING THE DOPAMINE HIT",
+      "relationToPrevious": "Names the reader's own compulsion in the same terms used for Avery's loop earlier.",
+      "addedInformation": "Ties the reader's page-turning directly back to the reinforcement mechanism, not just empathy."
+    }
+  },
+  {
+    "i": 156,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "BIOLOGY CAN BE MANIPULATED",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "In real time, the author proves how easily our own biology can be manipulated by pacing and variable reinforcement.",
+      "concreteVisual": "The reader-stand-in's reactions pulled by unseen strings from the pacing of the prose.",
+      "onScreenText": "BIOLOGY CAN BE MANIPULATED",
+      "relationToPrevious": "Generalizes the reader's own compulsion into the essay's demonstrated proof.",
+      "addedInformation": "Names narrative pacing itself as the controlling hand, not just the content."
+    }
+  },
+  {
+    "i": 157,
+    "concept": "slotMachine",
+    "diagram": null,
+    "callout": {
+      "text": "SUSCEPTIBLE TO THE SLOT MACHINE",
+      "style": "reveal"
+    },
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "We like to think we're rational, but Macca proves we're just as susceptible to the slot machine as Avery.",
+      "concreteVisual": "The reader-stand-in pulling the lever of the same slot machine trapping Avery.",
+      "onScreenText": "SUSCEPTIBLE TO THE SLOT MACHINE",
+      "relationToPrevious": "Names the human-scale version of the Skinner box the reader has just been shown to be inside.",
+      "addedInformation": "Gives the manipulation claim its second, plainer-language metaphor."
+    }
+  },
+  {
+    "i": 158,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "SUSTAIN THIS ILLUSION",
+      "style": "reveal"
+    },
+    "cast": [
+      "gray"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The next question: how does Gray sustain the illusion, keeping both Avery and the reader on his side over time?",
+      "concreteVisual": "Gray's composed public face, the illusion he maintains for everyone watching.",
+      "onScreenText": "SUSTAIN THIS ILLUSION",
+      "relationToPrevious": "Turns from 'we are susceptible' to the mechanics of how Gray keeps it running.",
+      "addedInformation": "Poses the maintenance question the next section will answer."
+    }
+  },
+  {
+    "i": 159,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Hornet stings",
+        "Candy bars"
+      ],
+      "values": [
+        0.35,
+        0.65
+      ]
+    },
+    "callout": null,
+    "cast": [
+      "gray"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "You'd expect the hornet stings to outweigh the candy bars, but Gray uses cognitive reframing to keep the balance tipped his way.",
+      "concreteVisual": "A scale weighing the relationship's cruelty against its rewards, still tipped toward the rewards.",
+      "onScreenText": "COGNITIVE REFRAMING",
+      "relationToPrevious": "Answers the maintenance question with the actual mechanism: reframing the balance itself.",
+      "addedInformation": "Shows numerically why the abuse doesn't outweigh the reward in Avery's (and the reader's) experience."
+    }
+  }
+]
