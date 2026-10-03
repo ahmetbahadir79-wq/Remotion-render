@@ -1,0 +1,918 @@
+[
+ {
+  "i": 200,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The second one, every time",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "storyboard": {
+   "claim": "Buyers choose the relaxed, helpful salesperson.",
+   "concreteVisual": "everyman point, happy",
+   "onScreenText": "The second one, every time",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 201,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Losing your edge",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Dropping anxiety frees you rather than dulls you.",
+   "concreteVisual": "everyman celebrate, happy",
+   "onScreenText": "Losing your edge",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  }
+ },
+ {
+  "i": 202,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Glorifying our own self-sabotage",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Burnout as a badge of honor is self-sabotage.",
+   "concreteVisual": "everyman slump, worried",
+   "onScreenText": "Glorifying our own self-sabotage",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  }
+ },
+ {
+  "i": 203,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "What is left after all that?",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "storyboard": {
+   "claim": "Question after dropping affirmations, labels, desperation.",
+   "concreteVisual": "Everyman thinking, face at peace in the abstract void",
+   "onScreenText": "What is left after all that?",
+   "relationToPrevious": "continues",
+   "addedInformation": "Everyman thinking, face at peace in the abstract void"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 204,
+  "concept": "muddyGlass",
+  "diagram": null,
+  "callout": {
+   "text": "Opaque brown",
+   "style": "highlight"
+  },
+  "set": "kitchen",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "hold",
+  "storyboard": {
+   "claim": "A glass of muddy puddle water.",
+   "concreteVisual": "everyman hold, neutral",
+   "onScreenText": "Opaque brown",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 205,
+  "concept": "muddyGlass",
+  "diagram": null,
+  "callout": {
+   "text": "I need to fix this",
+   "style": "strike"
+  },
+  "set": "kitchen",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "hold",
+  "storyboard": {
+   "claim": "The ego wants to pick the dirt out by hand.",
+   "concreteVisual": "everyman reach, angry",
+   "onScreenText": "I need to fix this",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon shows the subject"
+  }
+ },
+ {
+  "i": 206,
+  "concept": "muddyGlass",
+  "diagram": null,
+  "callout": {
+   "text": "Shaking the glass",
+   "style": "strike"
+  },
+  "set": "kitchen",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Leave the glass alone, no shaking.",
+   "concreteVisual": "everyman idle, neutral",
+   "onScreenText": "Shaking the glass",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon shows the subject"
+  }
+ },
+ {
+  "i": 207,
+  "concept": "muddyGlass",
+  "diagram": null,
+  "callout": {
+   "text": "Any effort",
+   "style": "strike"
+  },
+  "set": "kitchen",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Left alone, the water clears itself.",
+   "concreteVisual": "everyman idle, happy",
+   "onScreenText": "Any effort",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon shows the subject"
+  }
+ },
+ {
+  "i": 208,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Peace is not a VIP room",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Peace is not earned after fixing your life.",
+   "concreteVisual": "Everyman seated, relaxed and smiling: peace available right now",
+   "onScreenText": "Peace is not a VIP room",
+   "relationToPrevious": "continues",
+   "addedInformation": "Everyman seated, relaxed and smiling: peace available right now"
+  }
+ },
+ {
+  "i": 209,
+  "concept": "muddyGlass",
+  "diagram": null,
+  "callout": {
+   "text": "The thinking is the stirring",
+   "style": "reveal"
+  },
+  "set": "kitchen",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Thinking is what stirs the mud.",
+   "concreteVisual": "everyman think, surprised",
+   "onScreenText": "The thinking is the stirring",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 210,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Nature of heaven and hell",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "samurai",
+   "zenmaster"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "The samurai demands an answer from the tiny master.",
+   "concreteVisual": "Angry samurai faces the tiny Zen master",
+   "onScreenText": "Nature of heaven and hell",
+   "relationToPrevious": "continues",
+   "addedInformation": "Angry samurai faces the tiny Zen master"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 211,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Get out of my sight",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "zenmaster",
+   "samurai"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "The master insults the samurai.",
+   "concreteVisual": "Zen master scowls in disgust at the samurai",
+   "onScreenText": "Get out of my sight",
+   "relationToPrevious": "continues",
+   "addedInformation": "Zen master scowls in disgust at the samurai"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 212,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Turns purple with rage",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "samurai",
+   "zenmaster"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "The enraged samurai threatens the master.",
+   "concreteVisual": "Enraged samurai towers over the master",
+   "onScreenText": "Turns purple with rage",
+   "relationToPrevious": "continues",
+   "addedInformation": "Enraged samurai towers over the master"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 213,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Open the gates of hell",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "zenmaster",
+   "samurai"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Calm master speaks as the samurai freezes.",
+   "concreteVisual": "Zen master calmly smiles at the samurai",
+   "onScreenText": "Open the gates of hell",
+   "relationToPrevious": "continues",
+   "addedInformation": "Zen master calmly smiles at the samurai"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 214,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "That is hell",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "samurai"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "The samurai sees his rage and humbles himself.",
+   "concreteVisual": "Samurai slumped in humility",
+   "onScreenText": "That is hell",
+   "relationToPrevious": "continues",
+   "addedInformation": "Samurai slumped in humility"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 215,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Open the gates of heaven",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "zenmaster",
+   "samurai"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Master smiles; instant shift.",
+   "concreteVisual": "Zen master smiles, gates of heaven",
+   "onScreenText": "Open the gates of heaven",
+   "relationToPrevious": "continues",
+   "addedInformation": "Zen master smiles, gates of heaven"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 216,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "States of mind",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "samurai"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Heaven and hell were mental states.",
+   "concreteVisual": "Muddy glass settling clear with a calm samurai-free Everyman",
+   "onScreenText": "States of mind",
+   "relationToPrevious": "continues",
+   "addedInformation": "Muddy glass settling clear with a calm samurai-free Everyman"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 217,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "It feels too simple",
+   "style": "reveal"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "The ego protests that this is too simple.",
+   "concreteVisual": "everyman think, worried",
+   "onScreenText": "It feels too simple",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 218,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A 10-step framework",
+   "style": "highlight"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "hold",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "Wanting a framework and spreadsheet.",
+   "concreteVisual": "everyman hold, smirk",
+   "onScreenText": "A 10-step framework",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 219,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Selling you complexity",
+   "style": "strike"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "storyboard": {
+   "claim": "The mind as a salesman of complexity.",
+   "concreteVisual": "Smirking Everyman points at notes: the mind selling complexity",
+   "onScreenText": "Selling you complexity",
+   "relationToPrevious": "continues",
+   "addedInformation": "Smirking Everyman points at notes: the mind selling complexity"
+  }
+ },
+ {
+  "i": 220,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The ego stays in charge",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "hold",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "A spreadsheet keeps the ego in charge.",
+   "concreteVisual": "everyman hold, smirk",
+   "onScreenText": "The ego stays in charge",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 221,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "It gets a job",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "Ego ruminating on step four.",
+   "concreteVisual": "everyman think, worried",
+   "onScreenText": "It gets a job",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 222,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The ego needs a job",
+   "style": "reveal"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Ego justifies itself with a job.",
+   "concreteVisual": "Smirking Everyman holding a briefcase: the ego needs a job",
+   "onScreenText": "The ego needs a job",
+   "relationToPrevious": "continues",
+   "addedInformation": "Smirking Everyman holding a briefcase: the ego needs a job"
+  },
+  "shotOverride": "diorama",
+  "holds": "briefcase"
+ },
+ {
+  "i": 223,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Truth is always simple",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Truth is simple; ego complicates.",
+   "concreteVisual": "Happy Everyman with a lightbulb: truth is simple",
+   "onScreenText": "Truth is always simple",
+   "relationToPrevious": "continues",
+   "addedInformation": "Happy Everyman with a lightbulb: truth is simple"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 224,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "One honest criticism",
+   "style": "reveal"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Host pauses to raise a serious criticism.",
+   "concreteVisual": "everyman think, worried",
+   "onScreenText": "One honest criticism",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 225,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Just stop believing your thoughts",
+   "style": "strike"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Criticism: deceptively simple advice.",
+   "concreteVisual": "Worried Everyman slumped doubting the advice",
+   "onScreenText": "Just stop believing your thoughts",
+   "relationToPrevious": "continues",
+   "addedInformation": "Worried Everyman slumped doubting the advice"
+  }
+ },
+ {
+  "i": 226,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Deep clinical trauma",
+   "style": "reveal"
+  },
+  "set": "hospital",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "What about trauma and life-or-death tasks?",
+   "concreteVisual": "everyman slump, worried",
+   "onScreenText": "Deep clinical trauma",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging and callout carry it"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 227,
+  "concept": "medical",
+  "diagram": null,
+  "callout": {
+   "text": "Alarms are blaring",
+   "style": "reveal"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "afraid",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Surgeon facing a crashing patient.",
+   "concreteVisual": "Medical icon with an afraid surgeon: alarms, crashing patient",
+   "onScreenText": "Alarms are blaring",
+   "relationToPrevious": "continues",
+   "addedInformation": "Medical icon with an afraid surgeon: alarms, crashing patient"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 228,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Blissful non-thinking",
+   "style": "strike"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "angry",
+  "action": "think",
+  "storyboard": {
+   "claim": "Rigorous thinking is required in the OR.",
+   "concreteVisual": "Angry surgeon with a magnifier: rigorous analysis",
+   "onScreenText": "Blissful non-thinking",
+   "relationToPrevious": "continues",
+   "addedInformation": "Angry surgeon with a magnifier: rigorous analysis"
+  },
+  "holds": "magnifier"
+ },
+ {
+  "i": 229,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Stopping all thinking",
+   "style": "strike"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "Stakes of stopping thought in the OR.",
+   "concreteVisual": "Afraid surgeon thinking hard: stop thinking and somebody dies",
+   "onScreenText": "Stopping all thinking",
+   "relationToPrevious": "continues",
+   "addedInformation": "Afraid surgeon thinking hard: stop thinking and somebody dies"
+  }
+ },
+ {
+  "i": 230,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Professional tools required",
+   "style": "highlight"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Acute crisis needs technical cognition.",
+   "concreteVisual": "Surgeon holding a magnifier: tools required",
+   "onScreenText": "Professional tools required",
+   "relationToPrevious": "continues",
+   "addedInformation": "Surgeon holding a magnifier: tools required"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 231,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Not a magic wand",
+   "style": "strike"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon",
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "storyboard": {
+   "claim": "Book is not a passive observer approach.",
+   "concreteVisual": "Smirking Everyman points at a book: not a magic wand",
+   "onScreenText": "Not a magic wand",
+   "relationToPrevious": "continues",
+   "addedInformation": "Smirking Everyman points at a book: not a magic wand"
+  },
+  "holds": "book"
+ },
+ {
+  "i": 232,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Rejecting your brain",
+   "style": "strike"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Brain used as a tool for a task.",
+   "concreteVisual": "Surgeon holding a magnifier as a tool",
+   "onScreenText": "Rejecting your brain",
+   "relationToPrevious": "continues",
+   "addedInformation": "Surgeon holding a magnifier as a tool"
+  }
+ },
+ {
+  "i": 233,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Save the patient",
+   "style": "highlight"
+  },
+  "set": "hospital",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "storyboard": {
+   "claim": "Surgeon uses trained cognition.",
+   "concreteVisual": "Surgeon thinking, saving the patient",
+   "onScreenText": "Save the patient",
+   "relationToPrevious": "continues",
+   "addedInformation": "Surgeon thinking, saving the patient"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 234,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Rerunning the surgery",
+   "style": "reveal"
+  },
+  "set": "kitchen",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "holds": "cup",
+  "storyboard": {
+   "claim": "Surgeon at dinner ruminating, not tasting food.",
+   "concreteVisual": "Surgeon slumped at dinner holding a cup",
+   "onScreenText": "Rerunning the surgery",
+   "relationToPrevious": "continues",
+   "addedInformation": "Surgeon slumped at dinner holding a cup"
+  }
+ },
+ {
+  "i": 235,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A nightmare in the dining room",
+   "style": "strike"
+  },
+  "set": "kitchen",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "Projecting failure at the dinner table.",
+   "concreteVisual": "Afraid surgeon thinking at the dinner table",
+   "onScreenText": "A nightmare in the dining room",
+   "relationToPrevious": "continues",
+   "addedInformation": "Afraid surgeon thinking at the dinner table"
+  }
+ },
+ {
+  "i": 236,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The tool runs your identity",
+   "style": "reveal"
+  },
+  "set": "kitchen",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Voluntary suffering of the tool running 24/7.",
+   "concreteVisual": "Sad slumped surgeon at home",
+   "onScreenText": "The tool runs your identity",
+   "relationToPrevious": "continues",
+   "addedInformation": "Sad slumped surgeon at home"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 237,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A scalpel at dinner",
+   "style": "strike"
+  },
+  "set": "kitchen",
+  "cast": [
+   "surgeon"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Put the tool down when done.",
+   "concreteVisual": "Relaxed surgeon at dinner with a cup, tool put down",
+   "onScreenText": "A scalpel at dinner",
+   "relationToPrevious": "continues",
+   "addedInformation": "Relaxed surgeon at dinner with a cup, tool put down"
+  }
+ },
+ {
+  "i": 238,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Believing everything you think",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Transition to the ultimate takeaway.",
+   "concreteVisual": "Happy Everyman with a book: the final takeaway",
+   "onScreenText": "Believing everything you think",
+   "relationToPrevious": "continues",
+   "addedInformation": "Happy Everyman with a book: the final takeaway"
+  }
+ },
+ {
+  "i": 239,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Controlling your mind",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Core takeaway.",
+   "concreteVisual": "Happy Everyman seated with a flower, no need to control the mind",
+   "onScreenText": "Controlling your mind",
+   "relationToPrevious": "continues",
+   "addedInformation": "Happy Everyman seated with a flower, no need to control the mind"
+  }
+ }
+]

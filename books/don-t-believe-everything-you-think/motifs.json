@@ -1,0 +1,174 @@
+{
+ "twoArrows": {
+  "title": "The Two Arrows",
+  "reads": "a person with two arrows stuck in their body, one dark and one red",
+  "viewBox": "0 0 520 520",
+  "paths": [
+   {
+    "d": "M215 235 A45 45 0 1 0 305 235 A45 45 0 1 0 215 235",
+    "fill": "none",
+    "stroke": "ink",
+    "strokeWidth": 10
+   },
+   {
+    "d": "M120 480 C120 280 400 280 400 480 Z",
+    "fill": "none",
+    "stroke": "ink",
+    "strokeWidth": 10
+   },
+   {
+    "d": "M30 330 L255 330",
+    "stroke": "ink",
+    "strokeWidth": 11
+   },
+   {
+    "d": "M255 306 L300 330 L255 354 Z",
+    "fill": "ink"
+   },
+   {
+    "d": "M30 330 L12 312 M30 330 L12 348 M55 330 L37 312 M55 330 L37 348",
+    "stroke": "ink",
+    "strokeWidth": 8
+   },
+   {
+    "d": "M495 395 L275 395",
+    "stroke": "accent",
+    "strokeWidth": 11
+   },
+   {
+    "d": "M275 371 L230 395 L275 419 Z",
+    "fill": "accent"
+   },
+   {
+    "d": "M495 395 L512 377 M495 395 L512 413 M470 395 L487 377 M470 395 L487 413",
+    "stroke": "accent",
+    "strokeWidth": 8
+   }
+  ]
+ },
+ "thoughtGauge": {
+  "title": "Thoughts-per-minute gauge",
+  "reads": "a speedometer gauge with the needle in the red zone",
+  "viewBox": "0 0 520 520",
+  "paths": [
+   {
+    "d": "M70 400 A190 190 0 0 1 450 400",
+    "fill": "none",
+    "stroke": "ink",
+    "strokeWidth": 14
+   },
+   {
+    "d": "M395 265 A190 190 0 0 1 450 400",
+    "fill": "none",
+    "stroke": "accent",
+    "strokeWidth": 26
+   },
+   {
+    "d": "M85 340 L110 350 M110 245 L130 262 M200 190 L210 215 M320 190 L310 215 M410 245 L390 262",
+    "fill": "none",
+    "stroke": "ink",
+    "strokeWidth": 9
+   },
+   {
+    "d": "M260 400 L385 300",
+    "stroke": "ink",
+    "strokeWidth": 12
+   },
+   {
+    "d": "M236 400 A24 24 0 1 0 284 400 A24 24 0 1 0 236 400",
+    "fill": "ink"
+   },
+   {
+    "d": "M50 430 L470 430",
+    "stroke": "ink",
+    "strokeWidth": 10
+   }
+  ]
+ },
+ "muddyGlass": {
+  "title": "Glass of muddy water",
+  "reads": "a tall glass of water with brown mud settled at the bottom and the water above it clearing",
+  "viewBox": "0 0 520 520",
+  "paths": [
+   {
+    "d": "M176 160 L344 160 L336 330 L184 330 Z",
+    "fill": "#BFE3F2"
+   },
+   {
+    "d": "M184 330 L336 330 L329 440 L191 440 Z",
+    "fill": "#7A5230"
+   },
+   {
+    "d": "M200 215 A8 8 0 1 0 216 215 A8 8 0 1 0 200 215 M290 260 A7 7 0 1 0 304 260 A7 7 0 1 0 290 260 M235 290 A6 6 0 1 0 247 290 A6 6 0 1 0 235 290",
+    "fill": "#7A5230"
+   },
+   {
+    "d": "M165 110 L355 110 L338 440 C336 462 184 462 182 440 Z",
+    "fill": "none",
+    "stroke": "ink",
+    "strokeWidth": 12
+   },
+   {
+    "d": "M170 160 L350 160",
+    "stroke": "ink",
+    "strokeWidth": 6
+   }
+  ]
+ },
+ "checkEngine": {
+  "title": "Check-engine light",
+  "reads": "a car dashboard check-engine warning light in amber",
+  "viewBox": "0 0 520 520",
+  "paths": [
+   {
+    "d": "M50 110 L470 110 L470 410 L50 410 Z",
+    "fill": "ink"
+   },
+   {
+    "d": "M150 235 L205 235 L222 205 L285 205 L285 235 L320 235 L340 258 L375 258 L375 320 L340 320 L320 350 L185 350 L165 322 L135 322 L135 270 L150 270 Z",
+    "fill": "#F5A623"
+   },
+   {
+    "d": "M95 275 L135 275 L135 318 L95 318 Z",
+    "fill": "#F5A623"
+   },
+   {
+    "d": "M398 245 L418 245 L414 305 L402 305 Z",
+    "fill": "#F5A623"
+   },
+   {
+    "d": "M396 330 A11 11 0 1 0 418 330 A11 11 0 1 0 396 330",
+    "fill": "#F5A623"
+   }
+  ]
+ },
+ "thoughtCloud": {
+  "title": "The sky and the clouds",
+  "reads": "a wide blue sky with white clouds drifting across it",
+  "viewBox": "0 0 520 520",
+  "paths": [
+   {
+    "d": "M50 100 L470 100 L470 420 L50 420 Z",
+    "fill": "#8EC5EE",
+    "stroke": "ink",
+    "strokeWidth": 10
+   },
+   {
+    "d": "M80 190 A32 32 0 1 0 144 190 A32 32 0 1 0 80 190",
+    "fill": "accent"
+   },
+   {
+    "d": "M110 340 A38 38 0 0 1 150 300 A55 55 0 0 1 255 295 A42 42 0 0 1 335 340 Z",
+    "fill": "#FFFFFF",
+    "stroke": "ink",
+    "strokeWidth": 7
+   },
+   {
+    "d": "M290 225 A24 24 0 0 1 316 200 A34 34 0 0 1 382 205 A26 26 0 0 1 405 245 L290 245 Z",
+    "fill": "#FFFFFF",
+    "stroke": "ink",
+    "strokeWidth": 7
+   }
+  ]
+ }
+}

@@ -1,0 +1,920 @@
+[
+ {
+  "i": 160,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The emotional friction",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "office",
+  "storyboard": {
+   "claim": "Calm mind reads a mortgage as plain numbers",
+   "concreteVisual": "Everyman calmly reads the mortgage notes, relaxed face",
+   "onScreenText": "The emotional friction",
+   "relationToPrevious": "contrast with the terrified mortgage reader",
+   "addedInformation": "Everyman calmly reads the mortgage notes, relaxed face"
+  }
+ },
+ {
+  "i": 161,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Being mindless",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "room",
+  "storyboard": {
+   "claim": "Clear the static so real intelligence shines",
+   "concreteVisual": "Everyman at ease, thinking, holding a lightbulb: clear mind, intelligence shines",
+   "onScreenText": "Being mindless",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman at ease, thinking, holding a lightbulb: clear mind, intelligence shines"
+  }
+ },
+ {
+  "i": 162,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "We sabotage our brilliance",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "set": "room",
+  "storyboard": {
+   "claim": "Forcing results out of fear sabotages brilliance",
+   "concreteVisual": "Everyman slumped holding a lightbulb",
+   "onScreenText": "We sabotage our brilliance",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman slumped holding a lightbulb"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 163,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The most philosophical part",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "stage",
+  "storyboard": {
+   "claim": "Transition to the philosophical part",
+   "concreteVisual": "Everyman thoughtful holding a book: the philosophical part",
+   "onScreenText": "The most philosophical part",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman thoughtful holding a book: the philosophical part"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 164,
+  "concept": "coin",
+  "diagram": null,
+  "callout": {
+   "text": "You hold up a $100 bill",
+   "style": "box"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "point",
+  "set": "stage",
+  "holds": "coin",
+  "storyboard": {
+   "claim": "Holding up a $100 bill before a room, asking what it is",
+   "concreteVisual": "Everyman on stage holding a coin up",
+   "onScreenText": "You hold up a $100 bill",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman on stage holding a coin up"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 165,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Relief and survival",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "set": "stage",
+  "storyboard": {
+   "claim": "A debtor sees the bill as relief",
+   "concreteVisual": "Everyman clutching an empty wallet",
+   "onScreenText": "Relief and survival",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "weak: wallet not bill"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 166,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Chump change",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "hold",
+  "set": "stage",
+  "storyboard": {
+   "claim": "A wealthy banker feels condescension",
+   "concreteVisual": "Smirking banker holds a wallet, condescending",
+   "onScreenText": "Chump change",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Smirking banker holds a wallet, condescending"
+  },
+  "shotOverride": "diorama",
+  "holds": "wallet"
+ },
+ {
+  "i": 167,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Same piece of paper",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "set": "stage",
+  "storyboard": {
+   "claim": "Different readings, one identical paper",
+   "concreteVisual": "Everyman pointing at the held-up coin",
+   "onScreenText": "Same piece of paper",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman pointing at the held-up coin"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 168,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A hundred realities",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Same ink, same portrait, a hundred emotional realities",
+   "concreteVisual": "Everyman puzzling over a portrait photo",
+   "onScreenText": "A hundred realities",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman puzzling over a portrait photo"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 169,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Inherently neutral",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "hold",
+  "set": "room",
+  "holds": "phone",
+  "storyboard": {
+   "claim": "Paper, text message, balance are neutral",
+   "concreteVisual": "Everyman holding a phone with a blank-neutral face",
+   "onScreenText": "Inherently neutral",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman holding a phone with a blank-neutral face"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 170,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "We superimpose our labels",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "think",
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Labels and narratives create the devastation",
+   "concreteVisual": "Everyman holding a mask, adding a label",
+   "onScreenText": "We superimpose our labels",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman holding a mask, adding a label"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 171,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "We construct emotions",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "stage",
+  "storyboard": {
+   "claim": "Constructivism and the piano analogy",
+   "concreteVisual": "Everyman holding notes, working out how we construct emotions",
+   "onScreenText": "We construct emotions",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman holding notes, working out how we construct emotions"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 172,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "88 keys",
+   "style": "highlight"
+  },
+  "cast": [
+   "baby"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "set": "room",
+  "storyboard": {
+   "claim": "A toddler slams one key, just a vibration",
+   "concreteVisual": "A toddler slamming a hand on a piano key, delighted",
+   "onScreenText": "88 keys",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "A toddler slamming a hand on a piano key, delighted"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 173,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A wrong note",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "room",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "Wrong only against the Mozart sheet music",
+   "concreteVisual": "Everyman frowning at sheet-music notes",
+   "onScreenText": "A wrong note",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman frowning at sheet-music notes"
+  }
+ },
+ {
+  "i": 174,
+  "concept": "storm",
+  "diagram": null,
+  "callout": {
+   "text": "Just weather or logistics",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "set": "sky",
+  "storyboard": {
+   "claim": "Rainstorm, delayed flight, flat tire are just notes",
+   "concreteVisual": "Storm icon with a slumped, worried Everyman: the rainstorm on the wedding day",
+   "onScreenText": "Just weather or logistics",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Storm icon with a slumped, worried Everyman: the rainstorm on the wedding day"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 175,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "How life is supposed to go",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "hold",
+  "set": "room",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "We clutch the sheet music and scream wrong note",
+   "concreteVisual": "Everyman gripping notes, angry",
+   "onScreenText": "How life is supposed to go",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman gripping notes, angry"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 176,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Getting fired",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "office",
+  "holds": "briefcase",
+  "storyboard": {
+   "claim": "Surely some notes are universally bad: fired",
+   "concreteVisual": "Everyman slumped holding a briefcase",
+   "onScreenText": "Getting fired",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman slumped holding a briefcase"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 177,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Just neutral vibrations",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "sit",
+  "set": "hospital",
+  "storyboard": {
+   "claim": "A terrible illness diagnosis is not neutral",
+   "concreteVisual": "Everyman afraid holding medical notes",
+   "onScreenText": "Just neutral vibrations",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman afraid holding medical notes"
+  }
+ },
+ {
+  "i": 178,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Pleasant events",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Distinguishing pain from suffering",
+   "concreteVisual": "Two arrows icon beside Everyman",
+   "onScreenText": "Pleasant events",
+   "relationToPrevious": "recalls the pain vs suffering distinction",
+   "addedInformation": "Two arrows icon beside Everyman"
+  }
+ },
+ {
+  "i": 179,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "My life is a tragedy",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "Sick body is pain, the tragedy label is added",
+   "concreteVisual": "Everyman lying in bed, sad",
+   "onScreenText": "My life is a tragedy",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman lying in bed, sad"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 180,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The sheet music again",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "room",
+  "storyboard": {
+   "claim": "The imposed label is the sheet music again",
+   "concreteVisual": "Everyman slumped holding notes",
+   "onScreenText": "The sheet music again",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman slumped holding notes"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 181,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Liberation",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "set": "office",
+  "holds": "briefcase",
+  "storyboard": {
+   "claim": "Fired: destroyed for a decade or liberated",
+   "concreteVisual": "Everyman celebrating with a briefcase",
+   "onScreenText": "Liberation",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman celebrating with a briefcase"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 182,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The event itself is neutral",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "hold",
+  "set": "office",
+  "storyboard": {
+   "claim": "Same termination; devastation comes from the label",
+   "concreteVisual": "Everyman holding a termination letter",
+   "onScreenText": "The event itself is neutral",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman holding a termination letter"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 183,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Friction of voluntary thinking",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Suffering is the friction of voluntary thinking",
+   "concreteVisual": "Thought gauge in red with Everyman",
+   "onScreenText": "Friction of voluntary thinking",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Thought gauge in red with Everyman"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 184,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "2 a.m., fourth coffee",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "sit",
+  "set": "office",
+  "holds": "cup",
+  "storyboard": {
+   "claim": "Picture one: desperate grinding at 2 a.m.",
+   "concreteVisual": "Everyman hunched at desk with coffee, worried",
+   "onScreenText": "2 a.m., fourth coffee",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman hunched at desk with coffee, worried"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 185,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Powered by cortisol",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "sit",
+  "set": "office",
+  "storyboard": {
+   "claim": "Hustle born of desperation, hating the day job",
+   "concreteVisual": "Everyman afraid at desk with clock",
+   "onScreenText": "Powered by cortisol",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman afraid at desk with clock"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 186,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking about the money",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "set": "office",
+  "storyboard": {
+   "claim": "Picture two: same desk, fascinated by creating",
+   "concreteVisual": "Happy Everyman holding a flower, absorbed in creating for its own sake",
+   "onScreenText": "Thinking about the money",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Happy Everyman holding a flower, absorbed in creating for its own sake"
+  }
+ },
+ {
+  "i": 187,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Night and day",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "set": "office",
+  "shotOverride": "diorama",
+  "storyboard": {
+   "claim": "Same actions, very different internal energy",
+   "concreteVisual": "Everyman celebrating, joyful at the same desk",
+   "onScreenText": "Night and day",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman celebrating, joyful at the same desk"
+  }
+ },
+ {
+  "i": 188,
+  "concept": "hourglass",
+  "diagram": null,
+  "callout": {
+   "text": "Time disappears",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "office",
+  "storyboard": {
+   "claim": "Unconditional creation makes time disappear",
+   "concreteVisual": "Everyman happy with hourglass",
+   "onScreenText": "Time disappears",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman happy with hourglass"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 189,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Means goals",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "set": "room",
+  "storyboard": {
+   "claim": "Means goals come from scarcity",
+   "concreteVisual": "Everyman reaching anxiously for a wallet",
+   "onScreenText": "Means goals",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman reaching anxiously for a wallet"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 190,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Lose 20 pounds",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "point",
+  "set": "room",
+  "storyboard": {
+   "claim": "A goal as a means to an end driven by lack",
+   "concreteVisual": "Everyman sadly pointing at a target",
+   "onScreenText": "Lose 20 pounds",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman sadly pointing at a target"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 191,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The myth of arrival",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "slump",
+  "set": "room",
+  "storyboard": {
+   "claim": "Achieving the goal, the emptiness returns",
+   "concreteVisual": "Everyman blank holding a trophy",
+   "onScreenText": "The myth of arrival",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman blank holding a trophy"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 192,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The goal fixes the lack",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "set": "room",
+  "storyboard": {
+   "claim": "A million gained, by Tuesday terrified of losing it",
+   "concreteVisual": "Everyman afraid clutching a wallet",
+   "onScreenText": "The goal fixes the lack",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman afraid clutching a wallet"
+  }
+ },
+ {
+  "i": 193,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Desperation as an edge",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "walk",
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Still on the treadmill, a bigger goal",
+   "concreteVisual": "Everyman walking tired and worried",
+   "onScreenText": "Desperation as an edge",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman walking tired and worried"
+  }
+ },
+ {
+  "i": 194,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The chip on the shoulder",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "set": "stage",
+  "storyboard": {
+   "claim": "We idolize those running from fear of failure",
+   "concreteVisual": "Angry driven warrior pointing ahead",
+   "onScreenText": "The chip on the shoulder",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Angry driven warrior pointing ahead"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 195,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Would I get lazy?",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "room",
+  "storyboard": {
+   "claim": "The fear of losing drive",
+   "concreteVisual": "Everyman worried, thinking",
+   "onScreenText": "Would I get lazy?",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman worried, thinking"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 196,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Anxiety is the fuel",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "talk",
+  "storyboard": {
+   "claim": "We think the anxiety is the fuel",
+   "concreteVisual": "Check-engine light with Everyman",
+   "onScreenText": "Anxiety is the fuel",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Check-engine light with Everyman"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 197,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Calling it an edge",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "set": "room",
+  "storyboard": {
+   "claim": "The brain rationalizes suffering as an edge",
+   "concreteVisual": "Joyful Everyman celebrating with a lightbulb: productive in joy",
+   "onScreenText": "Calling it an edge",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Joyful Everyman celebrating with a lightbulb: productive in joy"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 198,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Pushing and pulling",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "hold",
+  "set": "office",
+  "holds": "wallet",
+  "storyboard": {
+   "claim": "The desperate salesperson's frantic grasping",
+   "concreteVisual": "Everyman reaching hard for a wallet, angry",
+   "onScreenText": "Pushing and pulling",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "weak: pushing vs pulling implied"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 199,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Genuinely passionate",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "set": "office",
+  "storyboard": {
+   "claim": "Secure, passionate salesperson",
+   "concreteVisual": "Everyman happy holding a car key",
+   "onScreenText": "Genuinely passionate",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "Everyman happy holding a car key"
+  },
+  "shotOverride": "diorama"
+ }
+]

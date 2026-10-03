@@ -1,0 +1,45 @@
+{
+  "slug": "don-t-believe-everything-you-think",
+  "title": "Don't Believe Everything You Think",
+  "author": "Joseph Nguyen",
+  "genre": "self-help",
+  "engine": "antidote",
+  "engineRationale": "Book profile (strong): an ideas/advice book → concepts are drawn as icons, diagrams and an everyman (Antidote)",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "ideas",
+    "realPeople": false,
+    "format": "argument",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "a person overwhelmed by a spiral of racing thoughts",
+      "the distinction between thought as an event vs thinking as rumination",
+      "the cycle of psychological suffering created by believing internal narratives",
+      "a calm, clear mind operating in flow and intuition"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-03",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 0.5,
+    "antidoteScore": 21.9,
+    "signals": {
+      "year": 0,
+      "history": 0.2,
+      "second": 41.9,
+      "abstract": 9.1,
+      "sensitive": 1.7,
+      "era": 2024,
+      "words": 6343
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 41.9/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

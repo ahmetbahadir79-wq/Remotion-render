@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-03T06:04:31.323Z",
+  "n": 248,
+  "totals": {
+    "CORRECT": 236,
+    "NEUTRAL": 11,
+    "WRONG": 1
+  },
+  "wrongRate": 0.004,
+  "blame": {
+    "icon": 1,
+    "words": 8,
+    "people": 2,
+    "nothing-fits": 1
+  },
+  "iconBlame": {
+    "notes": 1
+  },
+  "beats": [
+    {
+      "i": 27,
+      "verdict": "NEUTRAL",
+      "blame": "icon",
+      "why": "Guess gets raw data but not the second-arrow suffering story contrast.",
+      "concept": "notes",
+      "callout": "Raw data"
+    },
+    {
+      "i": 29,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess is only a generic cafe setup, missing the move from the woods to everyday life.",
+      "concept": null,
+      "callout": "Everyday life"
+    },
+    {
+      "i": 32,
+      "verdict": "WRONG",
+      "blame": "people",
+      "why": "Narration contrasts a different person at the next table, but the screen shows the same person, so the viewer reads it as the same person on another day.",
+      "concept": null,
+      "callout": "Blissfully at peace"
+    },
+    {
+      "i": 84,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess captures 3 a.m. wakefulness but not the obsessing over worthiness as the contrast.",
+      "concept": null,
+      "callout": "lying awake at 3:00 a.m."
+    },
+    {
+      "i": 132,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess is garbled and misses that the boss is toxic yet the living room mechanics matter.",
+      "concept": null,
+      "callout": "Your living room, Friday night"
+    },
+    {
+      "i": 147,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess casts the narrator as the speaker admitting slowness, not the inner voice being too slow.",
+      "concept": "thoughtGauge",
+      "callout": "The narrator is too slow"
+    },
+    {
+      "i": 155,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess captures not-a-fight but misses the worry about needing rigorous thinking.",
+      "concept": null,
+      "callout": "A mortgage isn't a fist"
+    },
+    {
+      "i": 172,
+      "verdict": "NEUTRAL",
+      "blame": "people",
+      "why": "Baby exploring is read but not that the single note is neutral.",
+      "concept": null,
+      "callout": "88 keys"
+    },
+    {
+      "i": 190,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Only the example goal is read; the means-to-an-end lack is missing.",
+      "concept": null,
+      "callout": "Lose 20 pounds"
+    },
+    {
+      "i": 198,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Guess is vague and misses the desperate salesperson repelling buyers.",
+      "concept": null,
+      "callout": "Pushing and pulling"
+    },
+    {
+      "i": 199,
+      "verdict": "NEUTRAL",
+      "blame": "nothing-fits",
+      "why": "Passion is read but not the contrast with the desperate salesperson.",
+      "concept": null,
+      "callout": "Genuinely passionate"
+    },
+    {
+      "i": 205,
+      "verdict": "NEUTRAL",
+      "blame": "words",
+      "why": "Reads the ego impulse but not clearly that you should not intervene.",
+      "concept": "muddyGlass",
+      "callout": "I need to fix this"
+    }
+  ]
+}

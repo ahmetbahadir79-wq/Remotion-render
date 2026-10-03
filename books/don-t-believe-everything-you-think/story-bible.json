@@ -1,0 +1,399 @@
+{
+ "slug": "don-t-believe-everything-you-think",
+ "world": {
+  "era": "contemporary",
+  "worldId": "dont-believe-everything-you-think",
+  "approxYear": 2024,
+  "setting": "Joseph Nguyen's 2022 self-help book explained as a deep dive \u00e2\u20ac\u201d an everyman's 3 a.m. spiral, a coffee shop, a forest arrow, a Zen parable \u00e2\u20ac\u201d all in the modern day",
+  "register": "warm, clear, conversational, gently provocative",
+  "forbid": [
+   "caveAllegory",
+   "ringOfGyges",
+   "thirtyTyrants",
+   "shipOfState",
+   "tripartiteSoul",
+   "kallipolis",
+   "fiveRegimes",
+   "mythOfEr",
+   "boulder",
+   "summit",
+   "war",
+   "sword",
+   "grave",
+   "rocketLaunch",
+   "funnelMetrics",
+   "dollarExchange",
+   "subway",
+   "car",
+   "law",
+   "trophy"
+  ]
+ },
+ "visualProvenance": {
+  "bookId": "don-t-believe-everything-you-think",
+  "worldId": "dont-believe-everything-you-think",
+  "allowedMotifs": [
+   "customSvg",
+   "twoArrows",
+   "thoughtGauge",
+   "muddyGlass",
+   "checkEngine",
+   "thoughtCloud",
+   "phone",
+   "notes",
+   "lightbulb",
+   "fire",
+   "water",
+   "heart",
+   "target",
+   "coffee",
+   "home",
+   "work",
+   "chains",
+   "mirror",
+   "clock",
+   "storm",
+   "star",
+   "tree",
+   "door",
+   "key",
+   "balance",
+   "book",
+   "hourglass",
+   "compass",
+   "coin",
+   "family",
+   "food",
+   "medical",
+   "magnifier",
+   "zap",
+   "laptopMockup",
+   "crack",
+   "game"
+  ],
+  "forbiddenMotifs": [
+   "caveAllegory",
+   "ringOfGyges",
+   "thirtyTyrants",
+   "shipOfState",
+   "tripartiteSoul",
+   "kallipolis",
+   "fiveRegimes",
+   "mythOfEr",
+   "boulder",
+   "summit",
+   "war",
+   "sword",
+   "grave",
+   "rocketLaunch",
+   "funnelMetrics",
+   "dollarExchange",
+   "subway",
+   "car",
+   "law",
+   "trophy"
+  ],
+  "allowedCharacters": [
+   "everyman",
+   "sensei",
+   "samurai",
+   "zenmaster",
+   "surgeon",
+   "baby"
+  ],
+  "allowedLocations": [
+   "bedroom",
+   "cafe",
+   "forest",
+   "room",
+   "kitchen",
+   "stage",
+   "office",
+   "hospital",
+   "abstract",
+   "sky"
+  ],
+  "allowedProps": []
+ },
+ "cast": {
+  "everyman": {
+   "name": "Everyman",
+   "role": "the listener's stand-in: the 3 a.m. insomniac, the coffee-shop worrier, the person who stops stirring the mud",
+   "look": "a tired adult in their early thirties with medium-length dark hair, wearing a grey hoodie and jeans, modern day",
+   "variant": {
+    "gender": "f",
+    "age": "adult",
+    "build": "average",
+    "outfit": "hoodie",
+    "suit": "#6B7280",
+    "shirt": "#9CA3AF",
+    "skin": "#E8B98F",
+    "hair": "#3B2A20",
+    "hairStyle": "long",
+    "headwear": "none",
+    "beard": "none",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 0
+  },
+  "sensei": {
+   "name": "The Karate Sensei",
+   "role": "the master martial artist who slips the punch with no mind (mushin)",
+   "look": "a lean middle-aged Japanese karate master with a short grey crew cut, wearing a white gi with a black belt",
+   "variant": {
+    "gender": "m",
+    "age": "adult",
+    "build": "slight",
+    "outfit": "uniform",
+    "suit": "#F2F2EE",
+    "shirt": "#1F2328",
+    "skin": "#D9A66F",
+    "hair": "#6B6B6B",
+    "hairStyle": "buzz",
+    "headwear": "none",
+    "beard": "none",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 3
+  },
+  "samurai": {
+   "name": "The Samurai",
+   "role": "the enraged warrior in the Zen parable of heaven and hell",
+   "look": "a broad battle-hardened samurai with a topknot and a thick moustache, wearing a dark indigo kimono and armour, feudal Japan",
+   "variant": {
+    "gender": "m",
+    "age": "adult",
+    "build": "heavy",
+    "outfit": "armor",
+    "suit": "#2C3E70",
+    "shirt": "#8B2E2E",
+    "skin": "#D9A66F",
+    "hair": "#1A1A1A",
+    "hairStyle": "bun",
+    "headwear": "none",
+    "beard": "mustache",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 4
+  },
+  "zenmaster": {
+   "name": "The Zen Master",
+   "role": "the tiny calm master who says 'open the gates of hell'",
+   "look": "a small elderly bald Zen master with a gentle smile, wearing a saffron-and-brown monk's robe, feudal Japan",
+   "variant": {
+    "gender": "m",
+    "age": "old",
+    "build": "slight",
+    "outfit": "robe",
+    "suit": "#C58B2B",
+    "shirt": "#7A4B22",
+    "skin": "#D9A66F",
+    "hair": "#CFCFCF",
+    "hairStyle": "bald",
+    "headwear": "none",
+    "beard": "none",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 3
+  },
+  "surgeon": {
+   "name": "The Trauma Surgeon",
+   "role": "uses analytical thinking as a tool in the OR, then ruminates at the dinner table",
+   "look": "a woman in her forties with hair tied back under a surgical cap, wearing teal scrubs and a mask pushed down, modern hospital",
+   "variant": {
+    "gender": "f",
+    "age": "adult",
+    "build": "average",
+    "outfit": "uniform",
+    "suit": "#1E8C8C",
+    "shirt": "#CFE8E8",
+    "skin": "#C98B63",
+    "hair": "#2B1D14",
+    "hairStyle": "bun",
+    "headwear": "beanie",
+    "beard": "none",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 2
+  },
+  "baby": {
+   "name": "The Baby",
+   "role": "the ultimate non-thinker, absorbed in the texture of a blanket",
+   "look": "a chubby baby with wisps of light hair in a pale yellow onesie, wide curious eyes",
+   "variant": {
+    "gender": "m",
+    "age": "child",
+    "build": "heavy",
+    "outfit": "casual",
+    "suit": "#F4D35E",
+    "shirt": "#FBEAA6",
+    "skin": "#F1C9A5",
+    "hair": "#C9A66B",
+    "hairStyle": "messy",
+    "headwear": "none",
+    "beard": "none",
+    "glasses": false,
+    "accessory": "none"
+   },
+   "mentions": 1
+  }
+ },
+ "places": {
+  "bedroom": {
+   "set": "bedroom",
+   "look": "a quiet dark bedroom at 3 a.m., a bed and a bedside clock",
+   "mentions": 1
+  },
+  "cafe": {
+   "set": "cafe",
+   "look": "a cozy coffee shop with small tables and espresso machines, modern",
+   "mentions": 1
+  },
+  "forest": {
+   "set": "forest",
+   "look": "a dense pine forest trail",
+   "mentions": 1
+  },
+  "room": {
+   "set": "room",
+   "look": "a modern living room with a sofa and a TV, Friday night",
+   "mentions": 1
+  },
+  "kitchen": {
+   "set": "kitchen",
+   "look": "a home dinner table and kitchen, evening",
+   "mentions": 1
+  },
+  "stage": {
+   "set": "stage",
+   "look": "a bare stage with an audience in the dark, for the $100-bill demonstration",
+   "mentions": 1
+  },
+  "office": {
+   "set": "office",
+   "look": "a desk at 2 a.m. lit by a lamp, a laptop and coffee cups",
+   "mentions": 1
+  },
+  "hospital": {
+   "set": "hospital",
+   "look": "an operating room with monitors and surgical lights",
+   "mentions": 1
+  },
+  "abstract": {
+   "set": "abstract",
+   "look": "a calm flat backdrop for diagrams of the mind",
+   "mentions": 1
+  },
+  "sky": {
+   "set": "sky",
+   "look": "a wide open sky with drifting clouds",
+   "mentions": 1
+  }
+ },
+ "objects": [
+  {
+   "concept": "twoArrows",
+   "why": "SIGNATURE: the first arrow (pain) and the second arrow (suffering) \u00e2\u20ac\u201d the book's core distinction; no shared icon draws it"
+  },
+  {
+   "concept": "thoughtGauge",
+   "why": "SIGNATURE: the mind's speedometer/dashboard redlining at thoughts per minute"
+  },
+  {
+   "concept": "muddyGlass",
+   "why": "SIGNATURE: muddy water settling clear when left alone \u00e2\u20ac\u201d the peace metaphor"
+  },
+  {
+   "concept": "checkEngine",
+   "why": "SIGNATURE: the emotion as a dashboard check-engine light, not a verdict on your life"
+  },
+  {
+   "concept": "thoughtCloud",
+   "why": "SIGNATURE: the self as the vast sky, thoughts as passing weather"
+  },
+  {
+   "concept": "phone",
+   "why": "the email/text that triggers the spiral"
+  },
+  {
+   "concept": "fire",
+   "why": "the house fire: pain vs the story that keeps burning"
+  },
+  {
+   "concept": "water",
+   "why": "the glass of muddy water"
+  },
+  {
+   "concept": "lightbulb",
+   "why": "a thought as a spark: 'I should start a bakery'"
+  },
+  {
+   "concept": "laptopMockup",
+   "why": "50 browser tabs / the crashing system"
+  },
+  {
+   "concept": "coin",
+   "why": "the $100 bill, means goals vs inspiration goals"
+  }
+ ],
+ "signatureObjects": [
+  {
+   "key": "twoArrows",
+   "name": "The Two Arrows",
+   "why": "the first arrow (pain) and the second arrow (suffering) \u00e2\u20ac\u201d the book's core distinction; no shared icon draws it"
+  },
+  {
+   "key": "thoughtGauge",
+   "name": "The Thoughts-Per-Minute Gauge",
+   "why": "the mind's speedometer/dashboard redlining at thoughts per minute"
+  },
+  {
+   "key": "muddyGlass",
+   "name": "The Glass of Muddy Water",
+   "why": "muddy water settling clear when left alone \u00e2\u20ac\u201d the peace metaphor"
+  },
+  {
+   "key": "checkEngine",
+   "name": "The Check-Engine Light",
+   "why": "the emotion as a dashboard check-engine light, not a verdict on your life"
+  },
+  {
+   "key": "thoughtCloud",
+   "name": "The Sky and the Clouds",
+   "why": "the self as the vast sky, thoughts as passing weather"
+  }
+ ],
+ "spine": [
+  {
+   "act": "setup",
+   "fromFrame": 0,
+   "claim": "Suffering is not caused by life events but by believing the voice in your head: pain is the first arrow, suffering the second."
+  },
+  {
+   "act": "development",
+   "fromFrame": 12286,
+   "claim": "A thought is a spark that arrives free; thinking is the effortful, ego-driven rumination \u00e2\u20ac\u201d and emotions are just a check-engine light for it."
+  },
+  {
+   "act": "turn",
+   "fromFrame": 26047,
+   "claim": "Positive thinking is another fire; flow and mushin show intelligence works best with the thinker out of the way."
+  },
+  {
+   "act": "consequence",
+   "fromFrame": 38568,
+   "claim": "Circumstances are neutral until labelled; goals driven by desperation burn out while inspiration attracts."
+  },
+  {
+   "act": "close",
+   "fromFrame": 54036,
+   "claim": "Peace is the default \u00e2\u20ac\u201d let the mud settle; you are the sky, not the weather. Use thinking as a tool, then put it down."
+  }
+ ],
+ "authored": true
+}

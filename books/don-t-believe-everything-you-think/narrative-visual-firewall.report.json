@@ -1,0 +1,409 @@
+{
+  "version": "P2.0",
+  "slug": "don-t-believe-everything-you-think",
+  "status": "PASS",
+  "counts": {
+    "scenes": 248,
+    "violations": 0,
+    "diagnostics": 44
+  },
+  "violations": [
+    {
+      "reasonCode": "STRATEGY_REQUIREMENT_UNMET",
+      "message": "representation requirement 'fallback' is not satisfied by the scene: shot 'lowAngle' is not the measured-safe fallback lever 'diorama'",
+      "sceneId": "intro",
+      "index": 0,
+      "kind": "fallback",
+      "unmet": "shot 'lowAngle' is not the measured-safe fallback lever 'diorama'",
+      "severity": "diagnostic",
+      "reason": "title card: no authorable lever (fixed callout style, no motif arc)"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtGauge' is not grounded in this segment's narration",
+      "sceneId": "scene-02",
+      "index": 2,
+      "concept": "thoughtGauge",
+      "severity": "diagnostic",
+      "segment": "Your palms are sweating. Your stomach is in this huge knot. And your whole nervous system is in full-blown fight orflight mode. Just absolutely redlinining.\nYou"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'phone' is not grounded in this segment's narration",
+      "sceneId": "scene-04",
+      "index": 4,
+      "concept": "phone",
+      "severity": "diagnostic",
+      "segment": "I don't know, an email you might have to send It's wild when you actually step back and look at it. It is. Which brings us to this deep dive.\nI don't know, an e"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'target' is not grounded in this segment's narration",
+      "sceneId": "scene-15",
+      "index": 15,
+      "concept": "target",
+      "severity": "diagnostic",
+      "segment": "We convince ourselves like, \"If I just get a better job or if I just reach this revenue goal, right? or if I just fix this one annoying flaw in my partner, then"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'mirror' is not grounded in this segment's narration",
+      "sceneId": "scene-16",
+      "index": 16,
+      "concept": "mirror",
+      "severity": "diagnostic",
+      "segment": "my chest will finally go But when argues, we're trying to fix the mirrors in the room instead of looking at the projector.\nmy chest will finally go But when arg"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-17",
+      "index": 17,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "Yes, exactly. We're trying to engineer a frictionless world, which is impossible instead of just turning off the friction engine in our own minds.\nYes, exactly."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'tree' is not grounded in this segment's narration",
+      "sceneId": "scene-20",
+      "index": 20,
+      "concept": "tree",
+      "severity": "diagnostic",
+      "segment": "Imagine you're walking through this dense, beautiful forest. You're enjoying the hike, smelling the pine needles, hearing the leaves crunch. Sounds great so far"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'twoArrows' is not grounded in this segment's narration",
+      "sceneId": "scene-22",
+      "index": 22,
+      "concept": "twoArrows",
+      "severity": "diagnostic",
+      "segment": "right? Your nervous system lights up instantly. You feel the sharp, unavoidable agony of metal and wood breaking your skin. That's biological reality. Exactly.\n"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'twoArrows' is not grounded in this segment's narration",
+      "sceneId": "scene-23",
+      "index": 23,
+      "concept": "twoArrows",
+      "severity": "diagnostic",
+      "segment": "The nerve endings are screaming, sending signals up to your brain. But almost instantly, before you even have a chance to process the blood, a second arrow hits"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'twoArrows' is not grounded in this segment's narration",
+      "sceneId": "scene-24",
+      "index": 24,
+      "concept": "twoArrows",
+      "severity": "diagnostic",
+      "segment": "Yeah. This one is an emotional arrow. Your brain just starts screaming, \"Why did this happen to me? Who is out to get me? Am I going to lose my arm?\nYeah. This "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-27",
+      "index": 27,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "of being a biological organism. It's raw data. Exactly. Raw data. But that second arrow, the narrative, the spiraling, projecting all that catastrophic stuff in"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-40",
+      "index": 40,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "Everything you own, the baby photos, the shelter you worked decades to afford, just ash.\nEverything you own, the baby photos, the shelter you worked decades to "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'twoArrows' is not grounded in this segment's narration",
+      "sceneId": "scene-44",
+      "index": 44,
+      "concept": "twoArrows",
+      "severity": "diagnostic",
+      "segment": "The pain of that loss is natural. The grief, the shock to your nervous system, the sheer logistical nightmare of not having a bed tonight.\nThe pain of that loss"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'twoArrows' is not grounded in this segment's narration",
+      "sceneId": "scene-45",
+      "index": 45,
+      "concept": "twoArrows",
+      "severity": "diagnostic",
+      "segment": "That's the first arrow. So, the pain is entirely real. Yes. But let's look at what happens the next day or the next year.\nThat's the first arrow. So, the pain i"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-51",
+      "index": 51,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "now because ultimately suffering is the friction of voluntary thinking. So the mind creates its own resistance. We burn ourselves with the story.\nnow because ul"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-55",
+      "index": 55,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "totally zoned out. Suddenly, an idea flashes into your mind out of absolutely nowhere. Just a spark. Yeah, like a light bulb.\ntotally zoned out. Suddenly, an id"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'notes' is not grounded in this segment's narration",
+      "sceneId": "scene-59",
+      "index": 59,
+      "concept": "notes",
+      "severity": "diagnostic",
+      "segment": "So thought used as a noun is raw, fleeting, impersonal data. It takes zero effort. It just arrives, right?\nSo thought used as a noun is raw, fleeting, impersona"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtCloud' is not grounded in this segment's narration",
+      "sceneId": "scene-61",
+      "index": 61,
+      "concept": "thoughtCloud",
+      "severity": "diagnostic",
+      "segment": "It's the manual labor of the It's the difference between like noticing a cloud pass overhead and trying to grab the cloud, wrestle it to the ground, dissect it,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtGauge' is not grounded in this segment's narration",
+      "sceneId": "scene-63",
+      "index": 63,
+      "concept": "thoughtGauge",
+      "severity": "diagnostic",
+      "segment": "which is massive, right? Huge. Our subconscious can process roughly 11 million bits of information per second. It synthesizes our environment, our memories, our"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-64",
+      "index": 64,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "silver platter. That's the spark. That's the spark. But thinking, the verb,\nsilver platter. That's the spark. That's the spark. But thinking, the verb,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'clock' is not grounded in this segment's narration",
+      "sceneId": "scene-73",
+      "index": 73,
+      "concept": "clock",
+      "severity": "diagnostic",
+      "segment": "It consumes so much metabolic energy. Which is why you can sit completely still at a desk for 8 hours doing zero physical labor\nIt consumes so much metabolic en"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtGauge' is not grounded in this segment's narration",
+      "sceneId": "scene-97",
+      "index": 97,
+      "concept": "thoughtGauge",
+      "severity": "diagnostic",
+      "segment": "You're still feeding the combustion. The book uses this incredible analogy of a speedometer.\nYou're still feeding the combustion. The book uses this incredible "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtGauge' is not grounded in this segment's narration",
+      "sceneId": "scene-98",
+      "index": 98,
+      "concept": "thoughtGauge",
+      "severity": "diagnostic",
+      "segment": "Imagine your mind has a dashboard and instead of miles hour, it measures thoughts per minute.\nImagine your mind has a dashboard and instead of miles hour, it me"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtGauge' is not grounded in this segment's narration",
+      "sceneId": "scene-99",
+      "index": 99,
+      "concept": "thoughtGauge",
+      "severity": "diagnostic",
+      "segment": "When you're stressed or panicking, those RPMs are redlinining. The needle is buried in the red zone.\nWhen you're stressed or panicking, those RPMs are redlinini"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-101",
+      "index": 101,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "Swap out the anxiety about bankruptcy for aggressive affirmations about But the engine is still overheating. The needle is still in the red zone. You don't fix "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'heart' is not grounded in this segment's narration",
+      "sceneId": "scene-116",
+      "index": 116,
+      "concept": "heart",
+      "severity": "diagnostic",
+      "segment": "It is joy. It is love. its boundless creativity. So, we don't have to manufacture those No, we don't have to build them out of positive affirmations.\nIt is joy."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-126",
+      "index": 126,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "My job must be terrible. My partner must be failing me.\" Yeah. But the radar isn't telling you your life is bad. The alarm system is flashing red simply to tell"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-127",
+      "index": 127,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "destructive act of thinking. It's a brilliant biological reframe. We usually treat emotions as deep philosophical truths about our identity. But Nuen says, \"No,"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-129",
+      "index": 129,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "It just means the engine is running too hot. The emotion isn't a commentary on your worth. It's just an indicator that you're caught in a thought loop.\" Okay, h"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'fire' is not grounded in this segment's narration",
+      "sceneId": "scene-135",
+      "index": 135,
+      "concept": "fire",
+      "severity": "diagnostic",
+      "segment": "of the boss is creating it. That is wild to think about. The boss isn't the source of the heat.\nof the boss is creating it. That is wild to think about. The bos"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-141",
+      "index": 141,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "smoothly. Which brings us to the practical power of Let's vividly picture how this looks in action.\nsmoothly. Which brings us to the practical power of Let's vi"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-150",
+      "index": 150,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "Hours felt like minutes and it was precisely because you had stopped analyzing yourself.\nHours felt like minutes and it was precisely because you had stopped an"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'lightbulb' is not grounded in this segment's narration",
+      "sceneId": "scene-157",
+      "index": 157,
+      "concept": "lightbulb",
+      "severity": "diagnostic",
+      "segment": "Right. Exactly. But wind shows that non-thinking actually connects us to that infinite intelligence, that deep subconscious processing. When you clear the noisy"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'coin' is not grounded in this segment's narration",
+      "sceneId": "scene-164",
+      "index": 164,
+      "concept": "coin",
+      "severity": "diagnostic",
+      "segment": "Imagine you're standing on a stage in front of a hundred people. You hold up a crisp new $100 bill. You ask the room, \"What is this?\"\nImagine you're standing on"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'storm' is not grounded in this segment's narration",
+      "sceneId": "scene-174",
+      "index": 174,
+      "concept": "storm",
+      "severity": "diagnostic",
+      "segment": "match, you call it a mistake. And we do this with our lives every single day. The universe plays a note like a sudden rainstorm on your wedding day, a delayed f"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'hourglass' is not grounded in this segment's narration",
+      "sceneId": "scene-188",
+      "index": 188,
+      "concept": "hourglass",
+      "severity": "diagnostic",
+      "segment": "Yeah. Wuen details how acting from pure inspiration, which he calls unconditional creation, produces effortless results. When you're in that second state, time "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'checkEngine' is not grounded in this segment's narration",
+      "sceneId": "scene-196",
+      "index": 196,
+      "concept": "checkEngine",
+      "severity": "diagnostic",
+      "segment": "We think the anxiety is the fuel. It feels like the fuel, but the brain simply craves familiar suffering and rationalizes it by\nWe think the anxiety is the fuel"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'muddyGlass' is not grounded in this segment's narration",
+      "sceneId": "scene-205",
+      "index": 205,
+      "concept": "muddyGlass",
+      "severity": "diagnostic",
+      "segment": "If you want that water to be clear, what do you do? Well, the instinct of the ego is to take right? The ego says, \"I need to fix this.\" But you don't stick your"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'muddyGlass' is not grounded in this segment's narration",
+      "sceneId": "scene-206",
+      "index": 206,
+      "concept": "muddyGlass",
+      "severity": "diagnostic",
+      "segment": "You don't shake the glass. You don't shout affirmations at it. You just set it down. You leave it entirely alone.\nYou don't shake the glass. You don't shout aff"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'muddyGlass' is not grounded in this segment's narration",
+      "sceneId": "scene-207",
+      "index": 207,
+      "concept": "muddyGlass",
+      "severity": "diagnostic",
+      "segment": "And over time, without any effort, the dirt settles to the bottom and the water becomes perfectly clear. It is arguably the perfect metaphor for the human mind."
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'muddyGlass' is not grounded in this segment's narration",
+      "sceneId": "scene-209",
+      "index": 209,
+      "concept": "muddyGlass",
+      "severity": "diagnostic",
+      "segment": "The exact moment the frantic stirring of thinking ceases. The water is naturally clear. The thinking is the stirring.\nThe exact moment the frantic stirring of t"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'medical' is not grounded in this segment's narration",
+      "sceneId": "scene-227",
+      "index": 227,
+      "concept": "medical",
+      "severity": "diagnostic",
+      "segment": "Say you're a trauma surgeon operating on a patient. Suddenly the patients heart rate plummets. Alarms are blaring. They start crashing on the table.\nSay you're "
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtCloud' is not grounded in this segment's narration",
+      "sceneId": "scene-242",
+      "index": 242,
+      "concept": "thoughtCloud",
+      "severity": "diagnostic",
+      "segment": "You are the space watching it. Oh. I love that. To use one last metaphor, you are the sky\nYou are the space watching it. Oh. I love that. To use one last metaph"
+    },
+    {
+      "reasonCode": "VISUAL_NOT_GROUNDED_IN_SEGMENT",
+      "message": "visual subject 'thoughtCloud' is not grounded in this segment's narration",
+      "sceneId": "scene-243",
+      "index": 243,
+      "concept": "thoughtCloud",
+      "severity": "diagnostic",
+      "segment": "and the thoughts are just the weather. You don't have to fix the clouds. You just have to know that you are the vast, unshakable sky behind them.\nand the though"
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+[
+ {
+  "i": 40,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "Everything you own, ash",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "House fire destroys everything",
+   "concreteVisual": "burning house icon, sad person",
+   "onScreenText": "Everything you own, ash",
+   "relationToPrevious": "follows fire question",
+   "addedInformation": "shows the loss literally"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 41,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Just a manufactured story?",
+   "style": "box"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Host challenges: is suffering just a story",
+   "concreteVisual": "sad slumped person holding a photo: the lingering story after loss",
+   "onScreenText": "Just a manufactured story?",
+   "relationToPrevious": "challenge",
+   "addedInformation": "object and face carry it: sad slumped person holding a photo: the lingering story after loss"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 42,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A natural human reaction",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "Listeners get defensive",
+   "concreteVisual": "angry person raising a shield: defensive reaction",
+   "onScreenText": "A natural human reaction",
+   "relationToPrevious": "defense",
+   "addedInformation": "object and face carry it: angry person raising a shield: defensive reaction"
+  },
+  "set": "room",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 43,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Denying the pain",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Distinguish biological pain from cognitive suffering",
+   "concreteVisual": "sad person holding a flower: grief is real, not denied",
+   "onScreenText": "Denying the pain",
+   "relationToPrevious": "sets up distinction",
+   "addedInformation": "object and face carry it: sad person holding a flower: grief is real, not denied"
+  },
+  "set": "room",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 44,
+  "concept": "twoArrows",
+  "diagram": null,
+  "callout": {
+   "text": "Pretending it does not hurt",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Grief and shock are natural pain",
+   "concreteVisual": "person with one arrow in body",
+   "onScreenText": "Pretending it does not hurt",
+   "relationToPrevious": "defines first pain",
+   "addedInformation": "one arrow shown"
+  }
+ },
+ {
+  "i": 45,
+  "concept": "twoArrows",
+  "diagram": null,
+  "callout": {
+   "text": "The first arrow",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Loss is the first arrow",
+   "concreteVisual": "two-arrow figure",
+   "onScreenText": "The first arrow",
+   "relationToPrevious": "names first arrow",
+   "addedInformation": "names the metaphor"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 46,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "My life is permanently over",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Looping despair narrative",
+   "concreteVisual": "sad person reading a letter, despair looping",
+   "onScreenText": "My life is permanently over",
+   "relationToPrevious": "the second arrow",
+   "addedInformation": "object and face carry it: sad person reading a letter, despair looping"
+  },
+  "set": "room",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 47,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "You build that story every day",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Building the unsafe-world story",
+   "concreteVisual": "worried person with a thick book: story built page by page",
+   "onScreenText": "You build that story every day",
+   "relationToPrevious": "continues narrative",
+   "addedInformation": "object and face carry it: worried person with a thick book: story built page by page"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 48,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "Keeping the fire burning",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Fire lasted 4 hours, rumination 10 years",
+   "concreteVisual": "fire icon with brooding person",
+   "onScreenText": "Keeping the fire burning",
+   "relationToPrevious": "contrasts fire vs thinking",
+   "addedInformation": "contrast of durations"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 49,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "Blaming the fire",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Admitting I am the arsonist",
+   "concreteVisual": "fire icon with an afraid person: blaming the fire",
+   "onScreenText": "Blaming the fire",
+   "relationToPrevious": "follows",
+   "addedInformation": "icon: fire icon with an afraid person: blaming the fire"
+  },
+  "set": "room",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 50,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Drop it right now",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "If thinking causes suffering you can drop it now",
+   "concreteVisual": "relieved person, clock for time machine",
+   "onScreenText": "Drop it right now",
+   "relationToPrevious": "liberation",
+   "addedInformation": "contrast fire vs thinking fix"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 51,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "The friction of voluntary thinking",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Mind creates its own resistance",
+   "concreteVisual": "fire icon over a slumped person: burning themselves with the story",
+   "onScreenText": "The friction of voluntary thinking",
+   "relationToPrevious": "explains",
+   "addedInformation": "icon: fire icon over a slumped person: burning themselves with the story"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 52,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "What's the alternative?",
+   "style": "box"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "Transition to mechanics of story",
+   "concreteVisual": "person holding a compass: searching for the alternative",
+   "onScreenText": "What's the alternative?",
+   "relationToPrevious": "transition",
+   "addedInformation": "object and face carry it: person holding a compass: searching for the alternative"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 53,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A passing idea or a narrative machine",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "How to distinguish idea from narrative machine",
+   "concreteVisual": "person inspecting through a magnifier: telling idea from narrative",
+   "onScreenText": "A passing idea or a narrative machine",
+   "relationToPrevious": "sets up distinction",
+   "addedInformation": "object and face carry it: person inspecting through a magnifier: telling idea from narrative"
+  },
+  "shotOverride": "diorama",
+  "set": "office"
+ },
+ {
+  "i": 54,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A thought vs. thinking",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "sit",
+  "set": "room",
+  "storyboard": {
+   "claim": "Scene: person on train gazing out window",
+   "concreteVisual": "blank-faced person seated, zoned out like on a train",
+   "onScreenText": "A thought vs. thinking",
+   "relationToPrevious": "new scene",
+   "addedInformation": "object and face carry it: blank-faced person seated, zoned out like on a train"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 55,
+  "concept": "lightbulb",
+  "diagram": null,
+  "callout": {
+   "text": "A spark of an idea",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Idea flashes from nowhere",
+   "concreteVisual": "lightbulb over surprised person",
+   "onScreenText": "A spark of an idea",
+   "relationToPrevious": "follows scene",
+   "addedInformation": "shows the spark"
+  }
+ },
+ {
+  "i": 56,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "I should start a bakery",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Idea arrives fully formed: bakery",
+   "concreteVisual": "happy person holding a briefcase: the bakery idea",
+   "onScreenText": "I should start a bakery",
+   "relationToPrevious": "bakery idea",
+   "addedInformation": "object and face carry it: happy person holding a briefcase: the bakery idea"
+  },
+  "shotOverride": "diorama",
+  "set": "cafe"
+ },
+ {
+  "i": 57,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The fear of bankruptcy",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "walk",
+  "storyboard": {
+   "claim": "Mind pacing, listing failures",
+   "concreteVisual": "afraid person pacing with a wallet: fear of bankruptcy",
+   "onScreenText": "The fear of bankruptcy",
+   "relationToPrevious": "spiral begins",
+   "addedInformation": "object and face carry it: afraid person pacing with a wallet: fear of bankruptcy"
+  },
+  "set": "office",
+  "holds": "wallet",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 58,
+  "concept": null,
+  "diagram": {
+   "type": "flow",
+   "labels": [
+    "Spark",
+    "Wildfire"
+   ]
+  },
+  "callout": null,
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Spark becomes wildfire: hinge distinction",
+   "concreteVisual": "flow diagram Spark to Wildfire",
+   "onScreenText": "Spark / Wildfire",
+   "relationToPrevious": "hinge",
+   "addedInformation": "structural beat"
+  }
+ },
+ {
+  "i": 59,
+  "concept": "notes",
+  "diagram": null,
+  "callout": {
+   "text": "Thought: a noun",
+   "style": "box"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Thought is raw, effortless data",
+   "concreteVisual": "notes icon: a thought as raw data arriving",
+   "onScreenText": "Thought: a noun",
+   "relationToPrevious": "defines noun",
+   "addedInformation": "icon: notes icon: a thought as raw data arriving"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 60,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking: a verb",
+   "style": "box"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Thinking is voluntary attachment, rumination",
+   "concreteVisual": "worried person clutching a lightbulb tightly: holding on to a thought",
+   "onScreenText": "Thinking: a verb",
+   "relationToPrevious": "defines verb",
+   "addedInformation": "object and face carry it: worried person clutching a lightbulb tightly: holding on to a thought"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 61,
+  "concept": "thoughtCloud",
+  "diagram": null,
+  "callout": {
+   "text": "Notice the cloud pass",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Noticing a cloud vs grabbing it",
+   "concreteVisual": "sky and clouds",
+   "onScreenText": "Notice the cloud pass",
+   "relationToPrevious": "analogy",
+   "addedInformation": "visualizes analogy"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 62,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Subconscious processing",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "storyboard": {
+   "claim": "Brain has huge subconscious capacity",
+   "concreteVisual": "clouds drifting behind a calm person: processing below awareness",
+   "onScreenText": "Subconscious processing",
+   "relationToPrevious": "biology",
+   "addedInformation": "icon: clouds drifting behind a calm person: processing below awareness"
+  },
+  "shotOverride": "diorama",
+  "set": "sky"
+ },
+ {
+  "i": 63,
+  "concept": "thoughtGauge",
+  "diagram": null,
+  "callout": {
+   "text": "It handles 11 million bits per second",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Subconscious processes 11 million bits/sec",
+   "concreteVisual": "gauge in red zone",
+   "onScreenText": "It handles 11 million bits per second",
+   "relationToPrevious": "number",
+   "addedInformation": "number visual"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 64,
+  "concept": "lightbulb",
+  "diagram": null,
+  "callout": {
+   "text": "That's the spark",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Spark comes from subconscious",
+   "concreteVisual": "lightbulb",
+   "onScreenText": "That's the spark",
+   "relationToPrevious": "recap",
+   "addedInformation": "weak"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 65,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "40 to 50 bits",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Conscious thinking handles only 40-50 bits",
+   "concreteVisual": "strained person squinting through a magnifier: tiny conscious capacity",
+   "onScreenText": "40 to 50 bits",
+   "relationToPrevious": "contrast",
+   "addedInformation": "object and face carry it: strained person squinting through a magnifier: tiny conscious capacity"
+  },
+  "shotOverride": "diorama",
+  "set": "office"
+ },
+ {
+  "i": 66,
+  "concept": null,
+  "diagram": {
+   "type": "spectrum",
+   "labels": [
+    "Conscious 40 bits",
+    "Subconscious 11 million"
+   ],
+   "values": [
+    0.05
+   ]
+  },
+  "callout": null,
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "talk",
+  "storyboard": {
+   "claim": "11 million versus 40 to 50 bits",
+   "concreteVisual": "spectrum subconscious vs conscious",
+   "onScreenText": "Conscious 40 bits / Subconscious 11 million",
+   "relationToPrevious": "contrast",
+   "addedInformation": "shows scale gap"
+  }
+ },
+ {
+  "i": 67,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thoughts come from something larger",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "storyboard": {
+   "claim": "Thoughts come from a larger source",
+   "concreteVisual": "happy person pointing up at a lightbulb: thoughts come from something larger",
+   "onScreenText": "Thoughts come from something larger",
+   "relationToPrevious": "source claim",
+   "addedInformation": "object and face carry it: happy person pointing up at a lightbulb: thoughts come from something larger"
+  },
+  "set": "sky",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 68,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking comes from the ego",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Thoughts light, thinking restrictive from ego",
+   "concreteVisual": "chains icon above a slumped person: ego restricts",
+   "onScreenText": "Thinking comes from the ego",
+   "relationToPrevious": "contrast",
+   "addedInformation": "icon: chains icon above a slumped person: ego restricts"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 69,
+  "concept": "boulder",
+  "diagram": null,
+  "callout": {
+   "text": "Pushing a boulder uphill",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Thinking feels laborious",
+   "concreteVisual": "boulder icon in front of a straining person",
+   "onScreenText": "Pushing a boulder uphill",
+   "relationToPrevious": "follows",
+   "addedInformation": "icon: boulder icon in front of a straining person"
+  },
+  "shotOverride": "diorama",
+  "set": "abstract"
+ },
+ {
+  "i": 70,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A tiny fear-based filter",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "Data forced through fear filter",
+   "concreteVisual": "afraid person squeezed into thinking, fear on the face",
+   "onScreenText": "A tiny fear-based filter",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: afraid person squeezed into thinking, fear on the face"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 71,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking is exhausting",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Thought energizes, thinking exhausts",
+   "concreteVisual": "exhausted sad person with a cup",
+   "onScreenText": "Thinking is exhausting",
+   "relationToPrevious": "contrast",
+   "addedInformation": "object and face carry it: exhausted sad person with a cup"
+  },
+  "shotOverride": "diorama",
+  "set": "room"
+ },
+ {
+  "i": 72,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Focused on an external task",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "think",
+  "storyboard": {
+   "claim": "DMN drags us to past and future",
+   "concreteVisual": "sad person with a photo: past regrets",
+   "onScreenText": "Focused on an external task",
+   "relationToPrevious": "DMN",
+   "addedInformation": "object and face carry it: sad person with a photo: past regrets"
+  },
+  "set": "bedroom",
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 73,
+  "concept": "clock",
+  "diagram": null,
+  "callout": {
+   "text": "Eight hours of sitting still",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "sit",
+  "set": "office",
+  "storyboard": {
+   "claim": "Sitting still yet energy drained",
+   "concreteVisual": "clock icon beside a still seated person at a desk",
+   "onScreenText": "Eight hours of sitting still",
+   "relationToPrevious": "energy",
+   "addedInformation": "icon: clock icon beside a still seated person at a desk"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 74,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Drained by 5 p.m.",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "office",
+  "storyboard": {
+   "claim": "Brain marathon, drained by evening",
+   "concreteVisual": "drained sad person slumped with a briefcase",
+   "onScreenText": "Drained by 5 p.m.",
+   "relationToPrevious": "follows",
+   "addedInformation": "object and face carry it: drained sad person slumped with a briefcase"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 75,
+  "concept": "trophy",
+  "diagram": null,
+  "callout": {
+   "text": "Critical thinking: the virtue",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Society praises critical thinking",
+   "concreteVisual": "trophy held up",
+   "onScreenText": "Critical thinking: the virtue",
+   "relationToPrevious": "society view",
+   "addedInformation": "weak"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 76,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Hired to overthink",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "talk",
+  "storyboard": {
+   "claim": "We hire people for overthinking",
+   "concreteVisual": "smirking person with a briefcase: hired to overthink",
+   "onScreenText": "Hired to overthink",
+   "relationToPrevious": "follows",
+   "addedInformation": "object and face carry it: smirking person with a briefcase: hired to overthink"
+  },
+  "shotOverride": "diorama",
+  "set": "office"
+ },
+ {
+  "i": 77,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Practical task vs. your existence",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "storyboard": {
+   "claim": "Sharp line between task and self-evaluation",
+   "concreteVisual": "person pointing at notes: a practical task",
+   "onScreenText": "Practical task vs. your existence",
+   "relationToPrevious": "answer",
+   "addedInformation": "object and face carry it: person pointing at notes: a practical task"
+  },
+  "shotOverride": "diorama",
+  "set": "office"
+ },
+ {
+  "i": 78,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Fixing a pipe under your sink",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "think",
+  "set": "kitchen",
+  "storyboard": {
+   "claim": "Analytical mind used for tasks",
+   "concreteVisual": "happy person working a problem at a kitchen sink",
+   "onScreenText": "Fixing a pipe under your sink",
+   "relationToPrevious": "examples",
+   "addedInformation": "object and face carry it: happy person working a problem at a kitchen sink"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 79,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "You put the tool down",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "set": "kitchen",
+  "storyboard": {
+   "claim": "Pick up tool, fix, put it down",
+   "concreteVisual": "relieved person sitting down in a kitchen: tool put down",
+   "onScreenText": "You put the tool down",
+   "relationToPrevious": "conclusion",
+   "addedInformation": "object and face carry it: relieved person sitting down in a kitchen: tool put down"
+  },
+  "shotOverride": "diorama"
+ }
+]

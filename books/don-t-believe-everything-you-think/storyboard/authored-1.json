@@ -1,0 +1,925 @@
+[
+ {
+  "i": 0,
+  "concept": "clock",
+  "diagram": null,
+  "callout": {
+   "text": "3:00 a.m.",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "slump",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "lying awake at 3am",
+   "concreteVisual": "everyman awake in bed",
+   "onScreenText": "3:00 a.m.",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 1,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Completely safe",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "slump",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "safe yet heart pounding",
+   "concreteVisual": "amber check-engine light glowing while a frightened person lies in a calm bedroom",
+   "onScreenText": "Completely safe",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: amber check-engine light glowing while a frightened person lies in a calm bedroom"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 2,
+  "concept": "thoughtGauge",
+  "diagram": null,
+  "callout": {
+   "text": "Fight-or-flight mode",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "idle",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "nervous system redlining",
+   "concreteVisual": "gauge needle in red",
+   "onScreenText": "Fight-or-flight mode",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 3,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Just invisible words",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "sit",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "a sentence triggers it",
+   "concreteVisual": "worried person in bed holding a letter: a few words on paper",
+   "onScreenText": "Just invisible words",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: worried person in bed holding a letter: a few words on paper"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 4,
+  "concept": "phone",
+  "diagram": null,
+  "callout": {
+   "text": "An email to send",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "the sentence is about an email",
+   "concreteVisual": "smartphone icon: the email waiting, person worried",
+   "onScreenText": "An email to send",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: smartphone icon: the email waiting, person worried"
+  }
+ },
+ {
+  "i": 5,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Not caused by life",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "think",
+  "set": "room",
+  "storyboard": {
+   "claim": "what if life is not the cause",
+   "concreteVisual": "sad person facing a mirror, looking at their own mind not the world",
+   "onScreenText": "Not caused by life",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: sad person facing a mirror, looking at their own mind not the world"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 6,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Believing the voice in your head",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "set": "bedroom",
+  "storyboard": {
+   "claim": "believing the inner voice",
+   "concreteVisual": "afraid person reading a note: the voice in the head believed",
+   "onScreenText": "Believing the voice in your head",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: afraid person reading a note: the voice in the head believed"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 7,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The world happens to us",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "sky",
+  "storyboard": {
+   "claim": "circumstances dictate state",
+   "concreteVisual": "storm icon over a slumped sad person: circumstances raining down",
+   "onScreenText": "The world happens to us",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: storm icon over a slumped sad person: circumstances raining down"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 8,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Feelings are the receipt",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "hold",
+  "set": "abstract",
+  "storyboard": {
+   "claim": "feelings as receipt",
+   "concreteVisual": "receipt in hand",
+   "onScreenText": "Feelings are the receipt",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 9,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Under the microscope",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "set": "office",
+  "holds": "magnifier",
+  "storyboard": {
+   "claim": "thesis examined",
+   "concreteVisual": "person points at a magnifier: the thesis under scrutiny",
+   "onScreenText": "Under the microscope",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: person points at a magnifier: the thesis under scrutiny"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 10,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The events of our lives",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "walk",
+  "storyboard": {
+   "claim": "suffering is manufactured by thinking",
+   "concreteVisual": "person walking away with a briefcase: events of life carried",
+   "onScreenText": "The events of our lives",
+   "relationToPrevious": "thesis",
+   "addedInformation": "object and face carry it: person walking away with a briefcase: events of life carried"
+  },
+  "set": "office"
+ },
+ {
+  "i": 11,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Upgrading your thoughts",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "set": "room",
+  "storyboard": {
+   "claim": "freedom is not fixing thoughts",
+   "concreteVisual": "person points at a lightbulb: upgrading thoughts",
+   "onScreenText": "Upgrading your thoughts",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: person points at a lightbulb: upgrading thoughts"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 12,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Managing your thoughts",
+   "style": "strike"
+  },
+  "cast": [
+   "baby",
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "set": "room",
+  "storyboard": {
+   "claim": "non-thinking peace is default",
+   "concreteVisual": "baby first, happy and absorbed, beside the adult: peace without thinking",
+   "onScreenText": "Managing your thoughts",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: baby first, happy and absorbed, beside the adult: peace without thinking"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 13,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Our entire waking existence",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "office",
+  "storyboard": {
+   "claim": "the stakes",
+   "concreteVisual": "worried person holding an hourglass: waking life at stake",
+   "onScreenText": "Our entire waking existence",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: worried person holding an hourglass: waking life at stake"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 14,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Manipulating our circumstances",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "walk",
+  "set": "office",
+  "storyboard": {
+   "claim": "trying to fix externals",
+   "concreteVisual": "afraid person hurrying with a briefcase: manipulating circumstances",
+   "onScreenText": "Manipulating our circumstances",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: afraid person hurrying with a briefcase: manipulating circumstances"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 15,
+  "concept": "target",
+  "diagram": null,
+  "callout": {
+   "text": "If I just reach the goal",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "office",
+  "storyboard": {
+   "claim": "if I just get X, relief",
+   "concreteVisual": "goal target",
+   "onScreenText": "If I just reach the goal",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 16,
+  "concept": "mirror",
+  "diagram": null,
+  "callout": {
+   "text": "Fixing the mirrors",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "room",
+  "storyboard": {
+   "claim": "fix mirrors not projector",
+   "concreteVisual": "mirror icon",
+   "onScreenText": "Fixing the mirrors",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  }
+ },
+ {
+  "i": 17,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "The friction engine",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "set": "office",
+  "storyboard": {
+   "claim": "friction engine in our minds",
+   "concreteVisual": "check-engine light: the friction engine running in the mind",
+   "onScreenText": "The friction engine",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: check-engine light: the friction engine running in the mind"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 18,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A crisis PR firm",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "set": "office",
+  "storyboard": {
+   "claim": "managing a crisis inside the brain",
+   "concreteVisual": "mask icon over an exhausted person: managing a public face in a crisis",
+   "onScreenText": "A crisis PR firm",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: mask icon over an exhausted person: managing a public face in a crisis"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 19,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Break down this illusion",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "set": "stage",
+  "storyboard": {
+   "claim": "flip how you relate to mind",
+   "concreteVisual": "person points at a mask held up: the illusion being broken",
+   "onScreenText": "Break down this illusion",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: person points at a mask held up: the illusion being broken"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 20,
+  "concept": "tree",
+  "diagram": null,
+  "callout": {
+   "text": "A dense, beautiful forest",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "walk",
+  "set": "forest",
+  "storyboard": {
+   "claim": "hiking in the forest",
+   "concreteVisual": "happy walker",
+   "onScreenText": "A dense, beautiful forest",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  }
+ },
+ {
+  "i": 21,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A stray arrow",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "walk",
+  "set": "forest",
+  "storyboard": {
+   "claim": "arrow pierces arm",
+   "concreteVisual": "startled afraid person in the forest clutching their arm",
+   "onScreenText": "A stray arrow",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: startled afraid person in the forest clutching their arm"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 22,
+  "concept": "twoArrows",
+  "diagram": null,
+  "callout": {
+   "text": "Sharp, unavoidable agony",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "slump",
+  "set": "forest",
+  "storyboard": {
+   "claim": "raw biological pain",
+   "concreteVisual": "figure pierced by an arrow: the sharp first hit of pain",
+   "onScreenText": "Sharp, unavoidable agony",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: figure pierced by an arrow: the sharp first hit of pain"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 23,
+  "concept": "twoArrows",
+  "diagram": null,
+  "callout": {
+   "text": "A second arrow",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "idle",
+  "set": "forest",
+  "storyboard": {
+   "claim": "second arrow hits",
+   "concreteVisual": "two arrows icon",
+   "onScreenText": "A second arrow",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 24,
+  "concept": "twoArrows",
+  "diagram": null,
+  "callout": {
+   "text": "Why did this happen to me?",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "forest",
+  "storyboard": {
+   "claim": "emotional arrow",
+   "concreteVisual": "second arrow icon beside a spiralling worried person",
+   "onScreenText": "Why did this happen to me?",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: second arrow icon beside a spiralling worried person"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 25,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "How will I pay rent?",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "set": "forest",
+  "holds": "wallet",
+  "storyboard": {
+   "claim": "catastrophizing about money",
+   "concreteVisual": "afraid person gripping an empty wallet: rent worries",
+   "onScreenText": "How will I pay rent?",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: afraid person gripping an empty wallet: rent worries"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 26,
+  "concept": null,
+  "diagram": {
+   "type": "sorter",
+   "labels": [
+    "Pain",
+    "Suffering"
+   ]
+  },
+  "callout": null,
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "idle",
+  "storyboard": {
+   "claim": "pain versus suffering",
+   "concreteVisual": "sorter",
+   "onScreenText": "Pain / Suffering",
+   "relationToPrevious": "distinction",
+   "addedInformation": "names the two buckets"
+  }
+ },
+ {
+  "i": 27,
+  "concept": "notes",
+  "diagram": null,
+  "callout": {
+   "text": "Raw data",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "hold",
+  "set": "abstract",
+  "holds": "notes",
+  "storyboard": {
+   "claim": "pain is raw data",
+   "concreteVisual": "notes icon",
+   "onScreenText": "Raw data",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  }
+ },
+ {
+  "i": 28,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A cinematic universe",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "set": "room",
+  "storyboard": {
+   "claim": "story looped around pain",
+   "concreteVisual": "worried person staring at a still photo: the film built around the pain",
+   "onScreenText": "A cinematic universe",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: worried person staring at a still photo: the film built around the pain"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 29,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Everyday life",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "set": "cafe",
+  "storyboard": {
+   "claim": "moving to everyday example",
+   "concreteVisual": "relaxed person with a cup in a cafe: everyday life",
+   "onScreenText": "Everyday life",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: relaxed person with a cup in a cafe: everyday life"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 30,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Quarterlife crisis",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "set": "cafe",
+  "holds": "cup",
+  "storyboard": {
+   "claim": "crisis in coffee shop",
+   "concreteVisual": "sad slumped person with a cup in a cafe",
+   "onScreenText": "Quarterlife crisis",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: sad slumped person with a cup in a cafe"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 31,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Falling behind",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "slump",
+  "set": "cafe",
+  "storyboard": {
+   "claim": "panic about future",
+   "concreteVisual": "gauge needle in red above a panicked person in a cafe",
+   "onScreenText": "Falling behind",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: gauge needle in red above a panicked person in a cafe"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 32,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A calm stranger at the next table",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "set": "cafe",
+  "shotOverride": "diorama",
+  "storyboard": {
+   "claim": "neighbor is at peace",
+   "concreteVisual": "worried person hunched over a phone in a cafe: in agony",
+   "onScreenText": "A calm stranger at the next table",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: worried person hunched over a phone in a cafe: in agony"
+  }
+ },
+ {
+  "i": 33,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The exact same beans",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "set": "cafe",
+  "shotOverride": "diorama",
+  "storyboard": {
+   "claim": "identical environment",
+   "concreteVisual": "calm smiling person with a cup in a cafe: blissfully at peace",
+   "onScreenText": "The exact same beans",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: calm smiling person with a cup in a cafe: blissfully at peace"
+  }
+ },
+ {
+  "i": 34,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Sipping, reading a book",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "set": "cafe",
+  "holds": "book",
+  "storyboard": {
+   "claim": "neighbor just sips and reads",
+   "concreteVisual": "calm reader",
+   "onScreenText": "Sipping, reading a book",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 35,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "An inside job",
+   "style": "highlight"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "set": "cafe",
+  "storyboard": {
+   "claim": "suffering self-generated",
+   "concreteVisual": "sky of clouds above a person pointing at themselves: projecting inner weather",
+   "onScreenText": "An inside job",
+   "relationToPrevious": "continues",
+   "addedInformation": "icon: sky of clouds above a person pointing at themselves: projecting inner weather"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 36,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The environment is inert",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "point",
+  "set": "cafe",
+  "storyboard": {
+   "claim": "circumstances not radioactive",
+   "concreteVisual": "blank-faced person with a cup: the room has no charge",
+   "onScreenText": "The environment is inert",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: blank-faced person with a cup: the room has no charge"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 37,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Writing the tragedy",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "sit",
+  "set": "stage",
+  "storyboard": {
+   "claim": "you write, direct, and cry at it",
+   "concreteVisual": "sad person on a stage holding a script, crying at their own tragedy",
+   "onScreenText": "Writing the tragedy",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: sad person on a stage holding a script, crying at their own tragedy"
+  },
+  "shotOverride": "diorama",
+  "holds": "notes"
+ },
+ {
+  "i": 38,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Pretty low stakes",
+   "style": "reveal"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "set": "cafe",
+  "storyboard": {
+   "claim": "pushback",
+   "concreteVisual": "smirking person pushing back, coffee cup in hand",
+   "onScreenText": "Pretty low stakes",
+   "relationToPrevious": "continues",
+   "addedInformation": "object and face carry it: smirking person pushing back, coffee cup in hand"
+  },
+  "shotOverride": "diorama",
+  "holds": "cup"
+ },
+ {
+  "i": 39,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "Just a manufactured story?",
+   "style": "strike"
+  },
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "idle",
+  "set": "room",
+  "storyboard": {
+   "claim": "house lost to fire",
+   "concreteVisual": "fire icon",
+   "onScreenText": "Just a manufactured story?",
+   "relationToPrevious": "continues",
+   "addedInformation": "weak: staging carries the claim"
+  }
+ }
+]

@@ -1,0 +1,907 @@
+[
+ {
+  "i": 120,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A Friday night on the sofa",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Wonderful safe environment on the sofa",
+   "concreteVisual": "Content everyman on the sofa with a cup, Friday night",
+   "onScreenText": "A Friday night on the sofa",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 121,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Your hands are clenched",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Fuming despite safety",
+   "concreteVisual": "Everyman on the sofa with clenched fists and a furious face, nothing around him wrong",
+   "onScreenText": "Your hands are clenched",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 122,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The face of your boss",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "hold",
+  "holds": "phone",
+  "storyboard": {
+   "claim": "A boss's email triggers anger",
+   "concreteVisual": "Everyman fuming at a phone showing the boss's email",
+   "onScreenText": "The face of your boss",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 123,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Feelings reflect your surroundings",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Calm environment, internal war zone",
+   "concreteVisual": "Furious everyman seated on a cosy sofa with a cup: calm room, stormy inside",
+   "onScreenText": "Feelings reflect your surroundings",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 124,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Feelings report your thoughts",
+   "style": "box"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Feelings report thoughts not surroundings",
+   "concreteVisual": "Everyman thinking, a worried face: the feeling follows the thought",
+   "onScreenText": "Feelings report your thoughts",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 125,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Emotion is a check engine light",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "Emotions are a check engine light",
+   "concreteVisual": "Check-engine icon with worried Everyman",
+   "onScreenText": "Emotion is a check engine light",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 126,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Your life is bad",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Alarm says you are thinking, not that life is bad",
+   "concreteVisual": "Check-engine light over Everyman",
+   "onScreenText": "Your life is bad",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 127,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Not deep truths about identity",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Emotion is not truth about identity",
+   "concreteVisual": "Check-engine icon",
+   "onScreenText": "Not deep truths about identity",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 128,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "A bad driver",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "point",
+  "storyboard": {
+   "claim": "Light does not mean bad driver or evil road",
+   "concreteVisual": "Check-engine icon with Everyman",
+   "onScreenText": "A bad driver",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 129,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "A verdict on your worth",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Emotion signals a thought loop",
+   "concreteVisual": "Check-engine light glowing",
+   "onScreenText": "A verdict on your worth",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 130,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Ignoring the behavior",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "Objection: abusive boss makes anger accurate",
+   "concreteVisual": "Angry everyman pointing at notes documenting a toxic boss",
+   "onScreenText": "Ignoring the behavior",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 131,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Becoming a doormat",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Fear of becoming a doormat",
+   "concreteVisual": "Slumped sad everyman, a doormat feeling",
+   "onScreenText": "Becoming a doormat",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 132,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Your living room, Friday night",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Boss may be toxic, but look at the living room mechanics",
+   "concreteVisual": "Everyman on the sofa holding a phone, the boss's email in mind",
+   "onScreenText": "Your living room, Friday night",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 133,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The anger evaporates",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Attention shifts to the TV and anger fades",
+   "concreteVisual": "Everyman laughing at the TV, the anger gone",
+   "onScreenText": "The anger evaporates",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 134,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The boss stopped being toxic",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "point",
+  "storyboard": {
+   "claim": "Memory engagement creates the anger",
+   "concreteVisual": "Everyman pointing away at the distant boss, realising the boss has not changed",
+   "onScreenText": "The boss stopped being toxic",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 135,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "The boss is the source",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Boss is not the source of heat",
+   "concreteVisual": "Fire icon beside surprised Everyman",
+   "onScreenText": "The boss is the source",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 136,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "I'm striking the match",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "I strike the match by holding the thought",
+   "concreteVisual": "Everyman holding a target: he picks the boss to aim his thoughts at",
+   "onScreenText": "I'm striking the match",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 137,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A ten-year narrative",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "Clarity does not need anger",
+   "concreteVisual": "Everyman pointing down at his foot, firm but plain",
+   "onScreenText": "A ten-year narrative",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 138,
+  "concept": "shield",
+  "diagram": null,
+  "callout": {
+   "text": "State the fact",
+   "style": "box"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "talk",
+  "storyboard": {
+   "claim": "A calm boundary is powerful",
+   "concreteVisual": "Everyman calm with a shield icon",
+   "onScreenText": "State the fact",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 139,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The anger is the boss",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "Reactive anger creates more drama",
+   "concreteVisual": "Angry everyman pointing at himself: the anger is his own",
+   "onScreenText": "The anger is the boss",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 140,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Burning the clutch",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Suffering is friction of thinking",
+   "concreteVisual": "Worn-out everyman holding an hourglass, the clutch burned out",
+   "onScreenText": "Burning the clutch",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 141,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Engine runs smoothly",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Smooth engine intro",
+   "concreteVisual": "Check-engine light off with calm Everyman",
+   "onScreenText": "Engine runs smoothly",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 142,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A karate sensei in a match",
+   "style": "reveal"
+  },
+  "set": "stage",
+  "cast": [
+   "sensei"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Karate sensei in a high-stakes match",
+   "concreteVisual": "Sensei in a ready stance on the mat, eyes on a coming strike",
+   "onScreenText": "A karate sensei in a match",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 143,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "No time to calculate",
+   "style": "strike"
+  },
+  "set": "stage",
+  "cast": [
+   "sensei"
+  ],
+  "expression": "afraid",
+  "action": "point",
+  "storyboard": {
+   "claim": "They do not analyze the punch",
+   "concreteVisual": "Sensei pointing ahead at the incoming strike, no time to think",
+   "onScreenText": "No time to calculate",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 144,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Too slow, knocked out cold",
+   "style": "highlight"
+  },
+  "set": "stage",
+  "cast": [
+   "sensei",
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "Slipping the punch instinctively",
+   "concreteVisual": "Knocked-out-cold warning: sensei thinks, everyman beside him afraid",
+   "onScreenText": "Too slow, knocked out cold",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 145,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Mushin, or no mind",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "sensei"
+  ],
+  "expression": "blank",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Mind completely blank, mushin",
+   "concreteVisual": "Own icon thoughtCloud: an empty open sky, no mind, beside the blank sensei",
+   "onScreenText": "Mushin, or no mind",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 146,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The analytical mind",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "sensei"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Peak performance needs analytical mind aside",
+   "concreteVisual": "Sensei holding a trophy for peak performance",
+   "onScreenText": "The analytical mind",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 147,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The narrator is too slow",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Inner narrator too slow",
+   "concreteVisual": "Gauge in red with Everyman",
+   "onScreenText": "The narrator is too slow",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 148,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thought without control",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Anxiety versus flow quote",
+   "concreteVisual": "Anxious everyman thinking hard, thought with no control",
+   "onScreenText": "Thought without control",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 149,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Painting, writing code",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Lost in creative work",
+   "concreteVisual": "Absorbed happy everyman writing in notes, lost in the work",
+   "onScreenText": "Painting, writing code",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 150,
+  "concept": "hourglass",
+  "diagram": null,
+  "callout": {
+   "text": "Hours felt like minutes",
+   "style": "reveal"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Time passes unnoticed",
+   "concreteVisual": "Hourglass with happy Everyman",
+   "onScreenText": "Hours felt like minutes",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 151,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Transient hypofrontality",
+   "style": "box"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Term transient hypofrontality",
+   "concreteVisual": "Everyman with a book, puzzling over a hard scientific term",
+   "onScreenText": "Transient hypofrontality",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 152,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Switching off the inner critic",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Brain downregulates the inner critic",
+   "concreteVisual": "Everyman setting down a mask, the inner critic quiet",
+   "onScreenText": "Switching off the inner critic",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 153,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The self-conscious thinker",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Flow is absence of self-conscious thinker",
+   "concreteVisual": "Everyman moving freely with joy, becoming the action",
+   "onScreenText": "The self-conscious thinker",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 154,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Acting purely on instinct",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "holds": "wallet",
+  "storyboard": {
+   "claim": "Skepticism about big money decisions",
+   "concreteVisual": "Afraid everyman holding a wallet, fearing a money decision",
+   "onScreenText": "Acting purely on instinct",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 155,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A mortgage is a fist",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "Mortgage requires weighing pros and cons",
+   "concreteVisual": "Everyman pointing at long pro-and-con notes",
+   "onScreenText": "A mortgage is a fist",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 156,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Worrying is not intelligence",
+   "style": "strike"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Culture confuses worry with intelligence",
+   "concreteVisual": "Everyman at a cafe table, agonising over a decision as time drags",
+   "onScreenText": "Worrying is not intelligence",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 157,
+  "concept": "lightbulb",
+  "diagram": null,
+  "callout": {
+   "text": "Infinite intelligence",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Non-thinking connects to deep intelligence",
+   "concreteVisual": "Lightbulb with calm Everyman",
+   "onScreenText": "Infinite intelligence",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 158,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Better financial decisions",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "holds": "wallet",
+  "storyboard": {
+   "claim": "Clear mind makes better financial decisions",
+   "concreteVisual": "Clear-headed smiling everyman pointing at a wallet: a good money decision",
+   "onScreenText": "Better financial decisions",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 159,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "What if the market crashes?",
+   "style": "reveal"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Terrified overthinking hijacks the amygdala",
+   "concreteVisual": "Terrified everyman clutching a wallet and notes, imagining the worst",
+   "onScreenText": "What if the market crashes?",
+   "relationToPrevious": "continues the thread",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ }
+]

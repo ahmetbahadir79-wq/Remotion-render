@@ -1,0 +1,178 @@
+[
+ {
+  "i": 240,
+  "concept": "mirror",
+  "diagram": null,
+  "callout": {
+   "text": "exhausting daily affirmations",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "hold",
+  "storyboard": {
+   "claim": "no need to control the mind",
+   "concreteVisual": "mirror icon; tired man, sad",
+   "onScreenText": "exhausting daily affirmations",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the mirror icon shows the affirmation ritual"
+  }
+ },
+ {
+  "i": 241,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The voice in your head",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "you are not the voice",
+   "concreteVisual": "thought gauge in the red; man pointing at his head",
+   "onScreenText": "The voice in your head",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the gauge shows racing thoughts"
+  }
+ },
+ {
+  "i": 242,
+  "concept": "thoughtCloud",
+  "diagram": null,
+  "callout": {
+   "text": "you are the sky",
+   "style": "highlight"
+  },
+  "set": "sky",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "you are the space watching",
+   "concreteVisual": "blue sky with clouds",
+   "onScreenText": "you are the sky",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the icon shows the subject"
+  }
+ },
+ {
+  "i": 243,
+  "concept": "thoughtCloud",
+  "diagram": null,
+  "callout": {
+   "text": "Fixing the clouds",
+   "style": "strike"
+  },
+  "set": "sky",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "idle",
+  "storyboard": {
+   "claim": "thoughts are weather, you are sky",
+   "concreteVisual": "clouds across the sky",
+   "onScreenText": "Fixing the clouds",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the icon shows the subject"
+  }
+ },
+ {
+  "i": 244,
+  "concept": "storm",
+  "diagram": null,
+  "callout": {
+   "text": "every storm blows over",
+   "style": "highlight"
+  },
+  "set": "sky",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "storms pass on their own",
+   "concreteVisual": "storm icon, calm man",
+   "onScreenText": "every storm blows over",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the icon shows the subject"
+  }
+ },
+ {
+  "i": 245,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Solving what the voice yells",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "slump",
+  "storyboard": {
+   "claim": "do not dive into the anxiety",
+   "concreteVisual": "amber check-engine light; afraid man",
+   "onScreenText": "Solving what the voice yells",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the warning light is the voice yelling"
+  }
+ },
+ {
+  "i": 246,
+  "concept": "thoughtCloud",
+  "diagram": null,
+  "callout": {
+   "text": "Answering the frantic questions",
+   "style": "strike"
+  },
+  "set": "sky",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "think",
+  "storyboard": {
+   "claim": "step back and watch the thought",
+   "concreteVisual": "man watching clouds",
+   "onScreenText": "Answering the frantic questions",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the icon shows the subject"
+  }
+ },
+ {
+  "i": 247,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Believing this thought",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "think",
+  "storyboard": {
+   "claim": "closing question",
+   "concreteVisual": "muddy glass settling; man questioning",
+   "onScreenText": "Believing this thought",
+   "relationToPrevious": "continues the closing takeaway",
+   "addedInformation": "the glass shows thoughts settling"
+  }
+ }
+]

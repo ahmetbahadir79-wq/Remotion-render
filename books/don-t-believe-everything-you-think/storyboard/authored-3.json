@@ -1,0 +1,916 @@
+[
+ {
+  "i": 80,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the same analytical tool",
+   "style": "box"
+  },
+  "set": "office",
+  "cast": [
+   "surgeon",
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "holds": "magnifier",
+  "storyboard": {
+   "claim": "The analytical tool is misused on emotional existence",
+   "concreteVisual": "Surgeon holding a magnifier over a worried everyman: the scalpel-tool aimed at a person's feelings",
+   "onScreenText": "the same analytical tool",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "closeUp"
+ },
+ {
+  "i": 81,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "turn the wrench inward",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Turning analysis inward on self-worth",
+   "concreteVisual": "Worried everyman gripping a mirror, dissecting his own reflection",
+   "onScreenText": "turn the wrench inward",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 82,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking your way out",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Thinking cannot solve a crisis it causes",
+   "concreteVisual": "Slumped sad everyman with a page of scribbled thoughts, stuck in a crisis he cannot think out of",
+   "onScreenText": "Thinking your way out",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 83,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the bakery's business model",
+   "style": "box"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "point",
+  "storyboard": {
+   "claim": "Critical thinking for a business is fine",
+   "concreteVisual": "Calm, smiling everyman pointing at business-plan notes: thinking used well",
+   "onScreenText": "the bakery's business model",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 84,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "lying awake at 3:00 a.m.",
+   "style": "highlight"
+  },
+  "set": "bedroom",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Night rumination about worthiness",
+   "concreteVisual": "Worried everyman lying awake in bed at night",
+   "onScreenText": "lying awake at 3:00 a.m.",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 85,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "an instrument of self-torture",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "angry",
+  "action": "slump",
+  "storyboard": {
+   "claim": "The tool becomes self-torture",
+   "concreteVisual": "Own icon twoArrows: a person pierced by arrows, beside an angry everyman: self-torture",
+   "onScreenText": "an instrument of self-torture",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 86,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the self-help industry's solution",
+   "style": "box"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Question of what self-help offers",
+   "concreteVisual": "Everyman holding a self-help book, uneasy about its promise",
+   "onScreenText": "the self-help industry's solution",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 87,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the trap of positive thinking",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "smirk",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Positive thinking is a trap",
+   "concreteVisual": "Everyman smirking at a self-help book: the positivity trap",
+   "onScreenText": "the trap of positive thinking",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 88,
+  "concept": "book",
+  "diagram": null,
+  "callout": {
+   "text": "a self-help book",
+   "style": "box"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "hold",
+  "holds": "book",
+  "storyboard": {
+   "claim": "Everyone knows the self-help scene",
+   "concreteVisual": "Book icon, everyman holding book",
+   "onScreenText": "a self-help book",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 89,
+  "concept": "mirror",
+  "diagram": null,
+  "callout": {
+   "text": "a wide fake smile",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "holds": "mirror",
+  "storyboard": {
+   "claim": "Forced fake smile at the bathroom mirror (staged as a forced smile)",
+   "concreteVisual": "Everyman grinning stiffly at a mirror, forced smile",
+   "onScreenText": "a wide fake smile",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 90,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "I am a magnet for success",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "talk",
+  "storyboard": {
+   "claim": "Loud affirmations over a forced smile",
+   "concreteVisual": "Everyman grinning stiffly into a hand mirror, reciting affirmations",
+   "onScreenText": "I am a magnet for success",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 91,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "your stomach is in knots",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Body anxious beneath the smile",
+   "concreteVisual": "Slumped worried everyman clutching his stomach under a forced smile's aftermath",
+   "onScreenText": "your stomach is in knots",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 92,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "cognitive dissonance",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Exhausting dissonance",
+   "concreteVisual": "Exhausted sad everyman holding a smiling mask: the face says one thing, the body another",
+   "onScreenText": "cognitive dissonance",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 93,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "a bumper sticker slogan",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Body screams danger, mind recites slogan",
+   "concreteVisual": "Afraid everyman holding a smiling mask over his fear: the slogan overwriting the body's alarm",
+   "onScreenText": "a bumper sticker slogan",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 94,
+  "concept": null,
+  "diagram": {
+   "type": "flow",
+   "labels": [
+    "Positive thoughts",
+    "Still thinking"
+   ]
+  },
+  "callout": null,
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Replacing thoughts still requires thinking",
+   "concreteVisual": "Flow diagram",
+   "onScreenText": "Positive thoughts -> Still thinking",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 95,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Better thinking",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "walk",
+  "storyboard": {
+   "claim": "Brute force is still ego labor",
+   "concreteVisual": "Worried everyman walking in tired circles: still pushing, still working at it",
+   "onScreenText": "Better thinking",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 96,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "a different color of fire",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Fighting fire with another fire",
+   "concreteVisual": "Fire icon",
+   "onScreenText": "a different color of fire",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 97,
+  "concept": "thoughtGauge",
+  "diagram": null,
+  "callout": {
+   "text": "a speedometer",
+   "style": "box"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "point",
+  "storyboard": {
+   "claim": "Speedometer analogy",
+   "concreteVisual": "Gauge icon",
+   "onScreenText": "a speedometer",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 98,
+  "concept": "thoughtGauge",
+  "diagram": null,
+  "callout": {
+   "text": "thoughts per minute",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "Dashboard measures thoughts per minute",
+   "concreteVisual": "Gauge icon",
+   "onScreenText": "thoughts per minute",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 99,
+  "concept": "thoughtGauge",
+  "diagram": null,
+  "callout": {
+   "text": "needle in the red zone",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Panic buries the needle in red",
+   "concreteVisual": "Gauge icon",
+   "onScreenText": "needle in the red zone",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 100,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "redline with positive thoughts",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "Self-help says redline with positive thoughts (forced cheer)",
+   "concreteVisual": "Everyman with a book pointing hopefully but with an uneasy face: more revving, positive this time",
+   "onScreenText": "redline with positive thoughts",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 101,
+  "concept": "checkEngine",
+  "diagram": null,
+  "callout": {
+   "text": "Swapping the type of fuel",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Swapping fuel does not cool the engine",
+   "concreteVisual": "Check-engine light",
+   "onScreenText": "Swapping the type of fuel",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 102,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "foot off the gas",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Take foot off the gas, let it idle",
+   "concreteVisual": "Relaxed smiling everyman seated with a cup, foot off the gas, letting it idle",
+   "onScreenText": "foot off the gas",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 103,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Fifty tabs open in your browser",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Too many tabs, one screaming",
+   "concreteVisual": "Everyman with a phone crammed with open tabs, wincing at the noise",
+   "onScreenText": "Fifty tabs open in your browser",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 104,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "50 more tabs",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Adding more tabs to drown it out",
+   "concreteVisual": "Afraid everyman with a phone, piling on more tabs and getting more rattled",
+   "onScreenText": "50 more tabs",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 105,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Opening more tabs",
+   "style": "strike"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Overload crashes the system",
+   "concreteVisual": "Everyman slumped over a frozen phone, the system crashed",
+   "onScreenText": "Opening more tabs",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 106,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "maxing out our cognitive RAM",
+   "style": "highlight"
+  },
+  "set": "office",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Burnout is the crash",
+   "concreteVisual": "Burned-out sad everyman slumped with a drained phone: cognitive RAM maxed out",
+   "onScreenText": "maxing out our cognitive RAM",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 107,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the closed browser state",
+   "style": "box"
+  },
+  "set": "bedroom",
+  "cast": [
+   "baby"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Babies show the closed-browser state",
+   "concreteVisual": "Happy baby sitting calmly, nothing open in its mind",
+   "onScreenText": "the closed browser state",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 108,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the ultimate non-thinkers",
+   "style": "highlight"
+  },
+  "set": "bedroom",
+  "cast": [
+   "baby"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Babies live in wonder and presence",
+   "concreteVisual": "Baby delighted and wide-eyed, simply present",
+   "onScreenText": "the ultimate non-thinkers",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 109,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Reciting affirmations",
+   "style": "strike"
+  },
+  "set": "bedroom",
+  "cast": [
+   "baby"
+  ],
+  "expression": "happy",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Baby absorbed in texture",
+   "concreteVisual": "Baby happily holding a mirror, no affirmations needed",
+   "onScreenText": "Reciting affirmations",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "holds": "mirror"
+ },
+ {
+  "i": 110,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "worthy of love",
+   "style": "strike"
+  },
+  "set": "bedroom",
+  "cast": [
+   "baby"
+  ],
+  "expression": "happy",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Babies need no affirmations (stage: unbothered baby)",
+   "concreteVisual": "Baby happily seated with a gift, content with nothing to prove",
+   "onScreenText": "worthy of love",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 111,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Stop thinking entirely",
+   "style": "strike"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "Host pushes back",
+   "concreteVisual": "Afraid everyman at a cafe table, dreading to stop thinking",
+   "onScreenText": "Stop thinking entirely",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 112,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "an empty shell",
+   "style": "highlight"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "slump",
+  "storyboard": {
+   "claim": "Fear of being an empty shell",
+   "concreteVisual": "Hollowed-out everyman slumped, blank-faced like an empty shell",
+   "onScreenText": "an empty shell",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 113,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Staring at a blank wall",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "blank",
+  "action": "sit",
+  "storyboard": {
+   "claim": "Sitting doing nothing sounds like a lobotomy",
+   "concreteVisual": "Blank-faced everyman sitting stiffly, staring at nothing",
+   "onScreenText": "Staring at a blank wall",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ },
+ {
+  "i": 114,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "it thinks you'll die",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "afraid",
+  "action": "hold",
+  "storyboard": {
+   "claim": "Ego believes worrying keeps you alive",
+   "concreteVisual": "Everyman clutching his own chest in fear that stopping will be deadly",
+   "onScreenText": "it thinks you'll die",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 115,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "An empty screen",
+   "style": "strike"
+  },
+  "set": "sky",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "neutral",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Beneath the noise is not a void",
+   "concreteVisual": "Clear sky with clouds",
+   "onScreenText": "An empty screen",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 116,
+  "concept": "heart",
+  "diagram": null,
+  "callout": {
+   "text": "Manufacturing joy",
+   "style": "strike"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "celebrate",
+  "storyboard": {
+   "claim": "Default state is joy and love",
+   "concreteVisual": "Heart icon, happy everyman",
+   "onScreenText": "Manufacturing joy",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 117,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "the joy is already there",
+   "style": "reveal"
+  },
+  "set": "room",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "happy",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Joy surfaces as engine slows",
+   "concreteVisual": "Muddy glass clearing",
+   "onScreenText": "the joy is already there",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  },
+  "shotOverride": "diorama"
+ },
+ {
+  "i": 118,
+  "concept": null,
+  "diagram": {
+   "type": "flow",
+   "labels": [
+    "Forced positivity",
+    "More burn"
+   ]
+  },
+  "callout": null,
+  "set": "abstract",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Forcing positivity adds to burn",
+   "concreteVisual": "Flow diagram",
+   "onScreenText": "Forced positivity -> More burn",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "icon/diagram shows the subject"
+  }
+ },
+ {
+  "i": 119,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Thinking without realizing it",
+   "style": "strike"
+  },
+  "set": "cafe",
+  "cast": [
+   "everyman"
+  ],
+  "expression": "worried",
+  "action": "point",
+  "storyboard": {
+   "claim": "How to notice automatic thinking",
+   "concreteVisual": "Everyman peering through a magnifier, trying to spot his own thoughts",
+   "onScreenText": "Thinking without realizing it",
+   "relationToPrevious": "continues the argument",
+   "addedInformation": "person+object+face carry the claim"
+  }
+ }
+]
