@@ -1,0 +1,6482 @@
+{
+  "slug": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+  "title": "Trillion Dollar Coach: The Leadership Playbook of Silicon Valley's Bill Campbell",
+  "author": "Eric Schmidt, Jonathan Rosenberg, Alan Eagle",
+  "genre": "business",
+  "count": 393,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "Picture this. A former college football coach is sitting in a room with the most powerful uh brilliant",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "FORMER",
+          "COLLEGE",
+          "FOOTBALL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brilliant, football, powerful",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "and arguably arrogant founders in Silicon Valley. We are talking about spaces where billions of dollars are literally on the Right.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "SILICON",
+          "VALLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 2,
+      "text": "Where revolutionary new products are about to ship and the tension is so thick you could cut it with a knife. Oh, absolutely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REVOLUTIONARY",
+          "NEW",
+          "PRODUCTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "And this guy sitting at the head of the table, he looks at these technical geniuses and asks absolutely nothing about the software.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TECHNICAL",
+          "GENIUSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "Nothing at all. He doesn't ask about the hardware specs or you know the market penetration or the code base. He looks at them and asks about their people",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARKET",
+          "PENETRATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 5,
+      "text": "because that is the central argument of everything we are unpacking today in this deep dive. I mean if you study the legacy of Bill Campbell, he is almost universally remembered as",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "universally, everything, remembered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 6,
+      "text": "this mythic shadowy legend who somehow mentored all these tech geniuses. Yeah, the trillion dollar coach. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MYTHIC",
+          "SHADOWY",
+          "LEGEND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 7,
+      "text": "But that framing is actually a fundamental misunderstanding of his life's work. He was not a mentor of talent.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUNDAMENTAL",
+          "MISUNDERSTANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 8,
+      "text": "He wasn't there to teach Steve Jobs how to design a phone, right? Or Larry Pageige how to uh optimize a search algorithm.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LARRY",
+          "PAGEIGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "algorithm., optimize, pageige",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 9,
+      "text": "He was a builder of A builder of Teams. Yeah. His real product wasn't software and it wasn't hardware.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRODUCT",
+          "WASN",
+          "SOFTWARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "builder, wasnt, hardware.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 10,
+      "text": "His true product, the thing he manufactured better than anyone else on earth was the invisible architecture of trust between founders",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INVISIBLE",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "and managers. And look, we are not here today to just read a biography of a legend. No, definitely not. Or just, you know, gaze at the Mount Rushmore of Silicon Valley.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MOUNT",
+          "RUSHMORE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "definitely, managers., biography",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 12,
+      "text": "The mission of this deep dive is to extract the exact actionable playbook for how you, yes you, listening to this right now on your commute",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "ACTIONABLE",
+          "PLAYBOOK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "or sitting at your desk can become that essential builder of trust in your own organization. We're basically treating this as an operational manual.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ESSENTIAL",
+          "BUILDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "An operational manual. Exactly. But to understand the mechanics of the playbook, you really have to understand the specific raw material of the man who wrote it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "RAW",
+          "MATERIAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "You have to ground yourself in exactly who Bill Campbell was, right? because it explains why these brilliant, often entirely",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brilliant, yourself, campbell",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 16,
+      "text": "unmanageable founders actually listen to him. Yeah, we're talking about a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNMANAGEABLE",
+          "FOUNDERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 17,
+      "text": "scrappy, undersized kid from the western Pennsylvania steel town of Homestead.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WESTERN",
+          "PENNSYLVANIA",
+          "STEEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "pennsylvania, undersized, homestead.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 18,
+      "text": "You really have to picture the contrast here. You have these elite Stanford and Harvard computer science PhDs, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HARVARD",
+          "COMPUTER",
+          "SCIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "have, contrast, stanford",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 19,
+      "text": "And then you have Bill Campbell. His dad taught physical education and moonlighted at the local steel mill just to make ends meet.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "moonlighted, campbell., education",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 20,
+      "text": "Bill was maybe 5' 10, maybe 165 lbs, soaking wet, completely undersized for the sport he Completely.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "5",
+          "10"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "maybe, completely., completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 21,
+      "text": "Yet against all physical odds, he became the football captain at Columbia University, which is wild.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "COLUMBIA",
+          "UNIVERSITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "It is wild. He played almost every single minute of every game as a linebacker and a guard, which is just physically punishing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PLAYED",
+          "ALMOST",
+          "EVERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "Oh, brutal. He literally helped lead Colombia to their only Ivy League title in 1961. After that, he had a stint as a college coach",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "IVY",
+          "LEAGUE",
+          "TITLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "literally, colombia, brutal.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 24,
+      "text": "where he actually admitted to having too much compassion for his Too much compassion. Yeah. A trait that ironically ended his football coaching career, but launched his",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FOOTBALL",
+          "COACHING",
+          "CAREER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "compassion., compassion, ironically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 25,
+      "text": "corporate one. So, he transitioned into the business world going to the ad agency J. Walter Thompson, then to Kodak, and eventually",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WALTER",
+          "THOMPSON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "transitioned, eventually, corporate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 26,
+      "text": "landing in the boardrooms of Apple, into it, and Google. So, we have this guy with the grit of a 1960s steel town.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "1960S",
+          "STEEL"
+        ],
+        "items": [
+          "APPLE",
+          "INTO IT",
+          "GOOGLE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "Exactly. and the physical bruises of a collegiate linebacker, you know, walking into like the sleek Herman Miller furnished offices of the late '9s tech",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HERMAN",
+          "MILLER",
+          "FURNISHED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "collegiate, linebacker, furnished",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 28,
+      "text": "boom. I mean, it it feels like a massive culture It was but but that that was precisely his value.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "CULTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "So, the authors of our source material, Eric Schmidt, uh Jonathan Rosenberg, Alan Eagle,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONATHAN",
+          "ROSENBERG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rosenberg, material, jonathan",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 30,
+      "text": "they make it very clear that his journey matters so immensely because of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "JOURNEY",
+          "MATTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "the sheer caliber of the people he ended up coaching. Right. Right. Give us the roster. We are talking about Steve Jobs.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "JOBS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "right., coaching., caliber",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 32,
+      "text": "Larry Page, Sergey Brin, Sundar Pachai, Cheryl Sandberg. The authors document how Bill Campbell literally",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [
+          "SUNDAR PACHAI",
+          "CHERYL S",
+          "BERG"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 33,
+      "text": "saved executive teams from ripping themselves apart under the pressure of hyperrowth. He took the foundational grit, that team first mentality of the grid iron",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIPPING",
+          "THEMSELVES",
+          "APART"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "and applied it to the most complex, highstakes, intellectually arrogant corporate environments in the world. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARROGANT",
+          "CORPORATE",
+          "ENVIRONMENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 35,
+      "text": "So let's start breaking down that playbook. And we need to start at the absolute structural foundation of a Okay, let's do it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "STRUCTURAL",
+          "FOUNDATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "If the ultimate goal is manufacturing trust out of thin air in an ego-driven environment, we have to look at the people ostensibly in charge of that environment.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EGO-DRIVEN",
+          "ENVIRONMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 37,
+      "text": "We have to prove why managers even need to exist in the first Right. Because in a lot of creative or engineering heavy fields, management is viewed as",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENGINEERING",
+          "HEAVY",
+          "FIELDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "a disease. Yeah. A total friction point. There is no better illustration of that disdain for management than Google in 2001.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOOGLE",
+          "IN",
+          "2001"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illustration, management, disease.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 39,
+      "text": "So let's drop right into the hallway of their early offices. Larry Page and Sergey Brin are running things. The founders. The founders. They are brilliant academic minds who came",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SERGEY",
+          "BRIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "founders., brilliant, offices.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 40,
+      "text": "out of the Stanford PhD program and they fundamentally despise corporate They look at middle management and they just see friction.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STANFORD",
+          "PHD",
+          "PROGRAM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fundamentally, management, corporate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 41,
+      "text": "They see non-technical people slowing down brilliant engineers with status updates and bureaucratic red tape. So what do they do?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "NON-TECHNICAL",
+          "PEOPLE",
+          "SLOWING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 42,
+      "text": "So they initiate what they proudly called a disorg. A disorg like they just blew up the org They literally fired all the engineering",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROUDLY",
+          "CALLED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "managers. Gone. Everyone reports directly to an engineering VP. The theory",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERYONE",
+          "REPORTS",
+          "DIRECTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 44,
+      "text": "was that free flowing academic structures foster the most disruptive innovation",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLOWING",
+          "ACADEMIC",
+          "STRUCTURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 45,
+      "text": "and managers just get in the way. Okay. So where does Bill come in? Well, Bill Campbell is wandering these halls walking alongside Larry Page debating this exact",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WALKING",
+          "ALONGSIDE",
+          "LARRY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bill, wandering, alongside",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 46,
+      "text": "philosophy. the company starting to experience the chaos of this flat structure. And finally, Bill stops a software engineer right in the middle",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOFTWARE",
+          "ENGINEER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "philosophy., experience, structure.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 47,
+      "text": "of writing code. Just interrupts him. Just interrupts him. He looks at him and asks point blank, \"Do you want a And you'd think the engineer would say",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "WRITING",
+          "CODE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 48,
+      "text": "no, right? I mean, if you buy the myth of the lone tech genius, they want to be left alone in a dark room with their Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LONE",
+          "TECH",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "exactly., genius, right",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 49,
+      "text": "But the engineer says yes. He looks at Bill and Larry and says he actually wants a manager, but not for the reasons you might think.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "AND",
+          "LARRY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "says, engineer, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 50,
+      "text": "He says he wants someone to break ties when the team can't agree on a technical direction. And he wants someone to learn I love this.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TECHNICAL",
+          "DIRECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "I love this because it completely redefineses the role of a How so? Well, if management is a network and the employees are the nodes generating the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NODES",
+          "GENERATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 52,
+      "text": "data, the old school view of a manager is someone who hoards the data and takes credit for it. Right. The boss.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKES",
+          "CREDIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "Yeah, but this engineer is saying, \"No, I need a router.\" Your job isn't to write the code. It's to make sure the data packets don't collide and crash the system.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "DATA",
+          "PACKETS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "I mean, your title is completely irrelevant if you aren't operationalizing excellence for the people below you. That is the exact takeaway for the listener",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OPERATIONALIZING",
+          "EXCELLENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 55,
+      "text": "here. The Disorg experiment at Google highlights a profound misunderstanding that plagues so many which is that your job on Monday morning is",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "DISORG",
+          "EXPERIMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "to dictate the work. It's not. Your job is not to stand over someone's shoulder and micromanage their code or their marketing copy or their sales pitch, Your job",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOMEONE",
+          "SHOULDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "is to break ties, resolve conflicts, and remove the operational roadblocks for the people who are actually doing the work.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "OPERATIONAL",
+          "ROADBLOCKS"
+        ],
+        "items": [
+          "BREAK TIES",
+          "RESOLVE CONFLICTS",
+          "REMOVE THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "You are there to facilitate their success. If you aren't doing that, you are just enforcing a hierarchy for the sake of your own ego.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENFORCING",
+          "A",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "Exactly. And the sources actually give a fantastic concrete example of Bill Campbell having to learn this lesson Oh, really?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "HAVING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 60,
+      "text": "So, it wasn't just something he preached from day one. No, it was something he had to be confronted with. It's the Donna Dubinsky story.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DONNA",
+          "DUBINSKY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "something, confronted, preached",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 61,
+      "text": "It's a foundational moment for Let's hear it. So, this happened when he was the CEO of ClariS, which was a software spin-off from Apple.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CEO",
+          "OF",
+          "CLARIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "foundational, happened, software",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 62,
+      "text": "Bill was coming off some major successes at Apple, and he was feeling the pressure to make ClariS a massive hit. High stakes, very high stakes.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUCCESSES",
+          "AT",
+          "APPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "high, successes, pressure",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 63,
+      "text": "As a result, he became incredibly detailoriented. He was essentially acting as a dictatorial manager, getting into the weeds, telling everyone exactly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DICTATORIAL",
+          "MANAGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 64,
+      "text": "what to do and how to do it, which is the classic trap. You get promoted because you're good at the work. So when you become the manager, you just try to do everyone's work for Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EVERYONE",
+          "WORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "everyones, promoted, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 65,
+      "text": "And Donna Dubinsky, who was a brilliant executive in her own right, was not having it. She walks into Bill's office late one afternoon, closes the door,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DONNA",
+          "DUBINSKY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brilliant, executive, afternoon",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 66,
+      "text": "and delivers the ultimate reality What does she say? She tells him directly to his face that if he keeps telling everyone what to do, they are all",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "going to quit. Oh wow. Yeah. She says, \"Bill, your title makes you a manager. Your people make you a Your title makes",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "you a manager. Your people make you a leader.\" That is heavy. That shifts the entire locus of It struck a massive chord with him.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "CHORD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "It solidified the idea that authority in a modern knowledge-based economy isn't granted by an organizational chart that HR prints out, It is granted",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "KNOWLEDGE-BASED",
+          "ECONOMY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "by the team. If you operate as a dictator, the most talented people, the ones who actually have options in the job market, they will simply leave.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TALENTED",
+          "PEOPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "They don't have to put up with it. No, they don't. A manager's authority only truly emerges when they establish credibility with their subordinates by making those",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER",
+          "AUTHORITY",
+          "ONLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 72,
+      "text": "subordinates lives easier. Okay, but I'm struggling with this part a little bit because if we look back at Larry Page's original argument for the Disorg, didn't",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "LARRY",
+          "PAGE",
+          "ORIGINAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "he have a valid point? In what sense? Well, if you look at pure",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VALID",
+          "POINT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "creative fields, academic models without strict bosses usually foster the most disruptive innovation",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISRUPTIVE",
+          "INNOVATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 75,
+      "text": "by inserting a management layer, aren't you inherently killing that smart creative vibe? How do you reconcile the need for a manager with the need for unbridled",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SMART",
+          "CREATIVE",
+          "VIBE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 76,
+      "text": "creativity? You're touching on a tension that the authors actually address by pointing to specific organizational research.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "ORGANIZATIONAL",
+          "RESEARCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 77,
+      "text": "The study showed that in highly creative ideiationheavy environments like you know",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CREATIVE",
+          "IDEIATIONHEAVY",
+          "ENVIRONMENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 78,
+      "text": "writing a Broadway show or brainstorming a new product category oriented",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRODUCT",
+          "CATEGORY",
+          "ORIENTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brainstorming, broadway, category",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 79,
+      "text": "flat structures absolutely do foster more creativity because nobody is shooting down the bad ideas too early. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLAT",
+          "STRUCTURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "You want that free flow of ideas without a boss stepping in.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BOSS",
+          "STEPPING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 81,
+      "text": "when a company moves from the ideation stage to the implementation",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IDEATION",
+          "STAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "stage, which Google absolutely was doing with Adwords at the time trying to scale it globally, they desperately need managers because implementation",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DOING",
+          "WITH",
+          "ADWORDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "implementation, desperately, absolutely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 83,
+      "text": "requires coordination, not just brainstorming. Yes, without managers during the implementation phase, there is no resource coordination.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REQUIRES",
+          "COORDINATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "There's no one to decide which server rack gets allocated to which team, right? There is no tiebreaking when two engineers have totally different solutions to a scaling",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIFFERENT",
+          "SOLUTIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "problem. The tension between raw creativity and operational efficiency is a tight rope. You can't just have chaos and you can't have a rigid",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OPERATIONAL",
+          "EFFICIENCY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 86,
+      "text": "dictatorship. You require a coach to balance the two. So that brings us right back to the thesis. Campbell wasn't walking the halls at Google to mentor that software",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "CAMPBELL",
+          "WASN",
+          "WALKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "engineer specific coding talent. He didn't even know how to code. No, not at all. He was there to force founders like Larry Page to realize that building teams requires",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENGINEER",
+          "SPECIFIC",
+          "CODING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "engineer, specific, founders",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 88,
+      "text": "actual functioning management. But it has to be management built on trust, not just And once you cross that bridge,",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FUNCTIONING",
+          "MANAGEMENT"
+        ],
+        "items": [
+          "ON TRUST",
+          "NOT JUST",
+          "ONCE YOU"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "once you and your company accept that management is fundamentally necessary for scaling, you run into the very next obstacle, which is you have to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPANY",
+          "ACCEPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 90,
+      "text": "destroy the ego that usually comes attached to that management title. Oh man. which is incredibly difficult because we culturally worship",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMES",
+          "ATTACHED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "the ego-driven manager. We have this archetype of the screaming tech tyrant, the visionary who berates their staff but changes the world.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SCREAMING",
+          "TECH",
+          "TYRANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 92,
+      "text": "How did Bill Campbell actually tackle that? The book gives a perfect vivid scene for this. It's August 2008.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "campbell, actually, perfect",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 93,
+      "text": "Jonathan Rosenberg, one of the top executives at Google, walks into Bill Campbell's conference room. Okay, picture it.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "CONFERENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "Jonathan is grinning from ear to ear. He is holding a physically printed copy of an article from the blog Gawker.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BLOG",
+          "GAWKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "physically, jonathan, grinning",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 95,
+      "text": "The title of the article is the 10 most terrible tyrants of tech. Wait, he actually printed it out. And he's smiling about this.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIBLE",
+          "TYRANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "And he's smiling about this. He's absolutely thrilled. The article is this parody of the famous Apple think different ad, but instead of praising the crazy",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FAMOUS",
+          "APPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolutely, thrilled., different",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 97,
+      "text": "ones, it's praising the chair throwers, the imperious gazers, the demanding dictators of Silicon Valley. And let me guess, Jonathan is on the list.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "SILICON",
+          "VALLEY"
+        ],
+        "items": [
+          "IMPERIOUS GAZERS",
+          "DEM",
+          "ING DICTATORS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "He made the list. He is on there alongside people like Steve Jobs and Steve Balmer. He thinks this is a massive badge of honor.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "BALMER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "steve, alongside, balmer.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 99,
+      "text": "He thinks it proves he is a tough, serious executive pushing his team to the limit. He thinks he's arrived. He's officially a Silicon Valley So, he",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SILICON",
+          "VALLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "thinks, officially, executive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 100,
+      "text": "slides this piece of paper across the table to Bill. And what does Bill do? Bill does not smile. He looks at it and he unleashes a string of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TABLE",
+          "TO",
+          "BILL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "does, bill, unleashes",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 101,
+      "text": "expletives just cutting right through Jonathan's pride. And then Bill looks at him and asks the ultimate grounding question.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THROUGH",
+          "JONATHAN",
+          "PRIDE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "expletives, jonathans, grounding",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 102,
+      "text": "What if I were to send this to your mother? What would she think? Wow, that is brutal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MOTHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 103,
+      "text": "it completely strips away the corporate Yeah, it cuts right to the core of the issue. The lesson here is about where your priorities lie as a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRIORITIES",
+          "LIE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 104,
+      "text": "leader. Your top priority has to be the well-being of your people, right? You have to stop idolizing this toxic screaming tech tyrant archetype",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SCREAMING",
+          "TECH",
+          "TYRANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 105,
+      "text": "that the industry often inadvertently Ask yourself if your daily behavior creates an environment of support, respect, and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INADVERTENTLY",
+          "ASK",
+          "YOURSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "inadvertently, environment, industry",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 106,
+      "text": "trust. If your mother wouldn't be proud of how you speak to your employees, you're failing as a manager. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MOTHER",
+          "WOULDN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "Bill fundamentally understood that great people flourish in an environment that liberates their energy. Fear does not liberate energy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GREAT",
+          "PEOPLE",
+          "FLOURISH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "Fear stifles it. It makes people play it I completely agree with the philosophy, but practically speaking, how do you institutionalize that",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRACTICALLY",
+          "SPEAKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "kind of humanization? You can't just tell a bunch of hard charging type A executives to be nicer. No, you can't.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HARD",
+          "CHARGING",
+          "TYPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 110,
+      "text": "They need a system. They need a process to force that empathy into the room. And Bill Campbell gave them one. Look at Eric Schmidt's Monday 1 p.m.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ERIC",
+          "SCHMIDT",
+          "MONDAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "executive staff meetings at Google. This was the most important meeting of the week, gathering the most powerful people in the company.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "EXECUTIVE",
+          "STAFF",
+          "MEETINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 112,
+      "text": "Bill coached Eric on exactly how to start these meetings. Eric wouldn't walk in, sit down, and immediately demand the quarterly revenue numbers or the",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "COACHED",
+          "ERIC"
+        ],
+        "items": [
+          "WALK IN",
+          "SIT DOWN",
+          "IMMEDIATELY DEMAND"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "latest bug reports. What would he do? Instead, he would pull up a Google map on the screen. He would drop pins on the cities he had visited over the weekend",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOOGLE",
+          "MAP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "would, reports., instead",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 114,
+      "text": "or that other executives had visited, and they would give what they called trip reports. trip reports. So, they are literally just talking about their",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CALLED",
+          "TRIP",
+          "REPORTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "weekends. Yes. The meeting started with weekend kiteboarding stories from the founders or an engineering lead talking about their golf score or an",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENGINEERING",
+          "LEAD",
+          "TALKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "update on a manager's kids playing in a soccer Let's play devil's advocate here for a second. Go for it. Because if I do that at my job, especially during a stressful",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER",
+          "KIDS",
+          "PLAYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "especially, stressful, managers",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 117,
+      "text": "period, it's going to backfire. If the company's bleeding cash or there's a massive product crisis or we're facing layoffs, taking 10 minutes to ask about someone's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKING",
+          "10",
+          "MINUTES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "weekend trip to Napa feels like a toxic level of denial. Sure, I can see that it feels completely tonedeaf to the reality of the business.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAPA",
+          "FEELS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "feels, completely, business.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 119,
+      "text": "It might feel that way to an amateur manager who thinks every second must be spent staring at a spreadsheet. But this is actually a highly calculated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THINKS",
+          "EVERY",
+          "SECOND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 120,
+      "text": "tactical move. It is what organizational academics refer to as socioeotional communication.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ORGANIZATIONAL",
+          "ACADEMICS",
+          "REFER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 121,
+      "text": "It is not denial. Walk me through the mechanics of that. Why does talking about soccer prevent a corporate meltdown?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "MELTDOWN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "Because of what happens 10 minutes later. When the brutal highstakes business debate inevitably starts when you are arguing over budget cuts or resource",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "10",
+          "MINUTES",
+          "LATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 123,
+      "text": "allocation and tensions start to spike, the humanization has already occurred. Ah, because you just connected with",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALREADY",
+          "OCCURRED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "your colleague over their kids' soccer game or laughed about a terrible flight they had. The professional disagreement is far less likely to become a personal",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFESSIONAL",
+          "DISAGREEMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "You are laying a foundation of rapport. Exactly. You are reminding everyone in the room that they are sitting across from complex human beings with",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLEX",
+          "HUMAN",
+          "BEINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 126,
+      "text": "families, stress, and lives outside of the office. It forces empathy into",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FORCES",
+          "EMPATHY"
+        ],
+        "items": [
+          "FAMILIES",
+          "STRESS",
+          "LIVES OUTSIDE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "the room before the tension even has a chance to ignite.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHANCE",
+          "TO",
+          "IGNITE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 128,
+      "text": "That makes total sense. It's preventative maintenance for team It really is. You cannot build a cohesive team if people are terrified of the tyrant",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PREVENTATIVE",
+          "MAINTENANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "at the head of the table or if they view their colleagues merely as obstacles to their own promotion. Trust is built when the tyrant is humanized and when",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OWN",
+          "PROMOTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 130,
+      "text": "colleagues see each other as humans Precisely. So, we've established that you need to humanize the manager in the public boardroom.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HUMANS",
+          "PRECISELY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "established, colleagues, precisely.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 131,
+      "text": "You need to dismantle the ego in a group setting, but the boardroom is performative. Everyone is How does that dynamic change",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GROUP",
+          "SETTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 132,
+      "text": "when the door closes and it's just a manager and one single employee",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "EMPLOYEE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 133,
+      "text": "sitting alone in an office? The one-on-one meeting is where the actual granular",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ONE-ON-ONE",
+          "MEETING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 134,
+      "text": "coaching happens. And Bill had a very specific playbook for this as well. This is where we step into Bill's actual environment.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "ACTUAL",
+          "ENVIRONMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "environment., coaching, happens.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 135,
+      "text": "He had this nondescript unmarked office on California Avenue in PaloAlto. No fancy signage, just a room with a desk and a whiteboard.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CALIFORNIA",
+          "AVENUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "nondescript, whiteboard., california",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 136,
+      "text": "We have Jonathan Rosenberg walking in for his scheduled one-on-one with Bill. Now, normally when an employee walks into a one-on-one, they expect the manager, the coach",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONATHAN",
+          "ROSENBERG",
+          "WALKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "one-on-one, rosenberg, scheduled",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 137,
+      "text": "to dictate the meeting. They expect to be told what they are doing wrong and what they need to focus on, which is standard, right? And Bill always had his five topics written on a whiteboard",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FIVE",
+          "TOPICS",
+          "WRITTEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "whiteboard, meeting., standard",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 138,
+      "text": "prepared in advance. But this time, Jonathan sits down and Bill refuses to show him the He",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "REFUSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "prepared, advance., jonathan",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 139,
+      "text": "just covers it up. He covers it up or points to a blank section of the board.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BLANK",
+          "SECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "He looks at Jonathan and forces Jonathan to put his top five items on the whiteboard first. This is an absolute master class in management that any listener can",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FORCES",
+          "JONATHAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "jonathan, whiteboard, management",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 141,
+      "text": "apply immediately, like on Monday morning. The fundamental mistake most managers make is using their one-on- ons to give top-down",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MONDAY",
+          "MORNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "immediately, fundamental, morning.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 142,
+      "text": "updates. Just reading off a list of demands. Exactly. A one-on-one is not a status report for the manager's benefit.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER",
+          "BENEFIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 143,
+      "text": "If you just want a status report, send an email. You use the one-on-one to see how your employee prioritizes their own time and mental energy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMPLOYEE",
+          "PRIORITIZES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 144,
+      "text": "It's a diagnostic tool. It is a diagnostic tool. By asking them to put their list on the board first, you are forcing them to reveal their",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIAGNOSTIC",
+          "TOOL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 145,
+      "text": "hand. You then merge your list with And what does that tell you? This instantly exposes the cognitive gaps between what",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COGNITIVE",
+          "GAPS",
+          "BETWEEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 146,
+      "text": "they think matters and what you with your broader strategic view know matters. If the employee leads with a minor operational hiccup",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MINOR",
+          "OPERATIONAL",
+          "HICCUP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 147,
+      "text": "about the cafeteria food or a tiny bug fix and your top item is a massive strategic pivot regarding a competitor that they haven't even",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRATEGIC",
+          "PIVOT",
+          "REGARDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 148,
+      "text": "considered. Oh wow. You have just diagnosed a critical blind spot in their prioritization. You now know exactly what you need to coach them on.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRITICAL",
+          "BLIND",
+          "SPOT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "And the sources break down Bill's specific framework for these one-on- ones, which is fascinating because",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "SPECIFIC",
+          "FRAMEWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fascinating, framework, specific",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 150,
+      "text": "it goes way beyond just a list of ongoing What else was on his list?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "WAY",
+          "BEYOND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "Well, his framework obviously covered performance on job requirements. Are you hitting your sales numbers? Are you shipping the code on time?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "COVERED",
+          "PERFORMANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 152,
+      "text": "But it also heavily emphasized things most managers ignore. For instance, peer All right. He would constantly ask, \"Are you getting along with the engineering",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "PEER",
+          "ALL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "lead? How is your relationship with the marketing director?\" Yeah. He covered management and leadership, asking the employee how they were coaching their own direct reports.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "MARKETING",
+          "DIRECTOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 154,
+      "text": "And finally, innovation, asking them how they are constantly evaluating systems to get better. That focus on peer relationships is a crucial differentiator in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSTANTLY",
+          "EVALUATING",
+          "SYSTEMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 155,
+      "text": "Bill's playbook. Most corporate structures assume the most important relationship is vertical between the employee and the like a ladder, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "STRUCTURES",
+          "ASSUME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "But Bill believed that your relationships with your peers, the horizontal bonds across the company, are actually more important. Why is that?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "BELIEVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 157,
+      "text": "because that's where the real crossunctional work gets done. In a one-on-one, a good coach is constantly probing to ensure those lateral bonds are strong.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "CROSSUNCTIONAL",
+          "WORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 158,
+      "text": "If the marketing VP hates the product VP, the company will eventually fail, regardless of how much they both like the CEO.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CEO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "I'm putting myself in the shoes of a new manager trying to implement this whiteboard strategy. If I never lead the agenda and I am always sitting back waiting for my",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHITEBOARD",
+          "STRATEGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "employee to tell me what they want to talk about, don't I look completely passive? How do you mean? Well, if I just sit there asking what's on their mind, doesn't that make me look like a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMPLOYEE",
+          "TO",
+          "TELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 161,
+      "text": "weak leader who doesn't have a firm grasp on the department's direction, like I'm just letting them steer the ship? It's entirely counterintuitive, but it's the exact opposite",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEPARTMENT",
+          "DIRECTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "of passive. The ultimate display of power and control in a one-on-one isn't dominating the conversation. It's listening.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "DISPLAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "Listening is power. Yes, it is what Bill's colleagues called free form listening. By forcing the employee to generate the agenda first,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "COLLEAGUES",
+          "CALLED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "colleagues, listening., listening",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 164,
+      "text": "you are actively evaluating their strategic capability. You aren't being passive. You are holding a mirror up to their thought process.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRATEGIC",
+          "CAPABILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "You are forcing them to take ownership of their role. You are coaching them on how to think and prioritize rather than just handing them a to-do list like a Which",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRIORITIZE",
+          "RATHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "prioritize, ownership, coaching",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 166,
+      "text": "ties perfectly back to our core thesis. You aren't in that one-on-one to mentor their specific coding skills or tweak their marketing copy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "CODING",
+          "SKILLS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "You are building their capacity to operate autonomously within the broader context of the team. You are building the team member, not just managing the work.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROADER",
+          "CONTEXT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "And while the one-on-one is the perfect environment for coaching individuals and diagnosing their blind spots, a business ultimately moves forward through collective",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COACHING",
+          "INDIVIDUALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "decisions, group dynamics, right? You have to bring all these highly coached, highly opinionated individuals together into one room to decide the future of the company.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OPINIONATED",
+          "INDIVIDUALS",
+          "TOGETHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 170,
+      "text": "So, what happens when you assemble this team and they are completely deadlocked on a critical issue? The book provides an incredibly tense",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRITICAL",
+          "ISSUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "scene that illustrates exactly how to handle this. We are back in Eric Schmidt's conference room at Google. The tension is palpable.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ERIC",
+          "SCHMIDT",
+          "CONFERENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 172,
+      "text": "Okay, set the scene. A bitter, deeply entrenched turf war has broken out between two senior executives.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SENIOR",
+          "EXECUTIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 173,
+      "text": "They are fighting over who gets to own the development of a massive new mobile app for their users. It's a classic corporate power struggle.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "POWER",
+          "STRUGGLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "Two big egos colliding. Yes. Eric Schmidt as the CEO is trying to manage this diplomatically. He uses his famous rule of two.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ERIC",
+          "SCHMIDT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "diplomatically., colliding., schmidt",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 175,
+      "text": "He forces the two feuding executives to go off in a room together, gather all the data, and come back with a compromise.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FEUDING",
+          "EXECUTIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "But it is failing miserably because neither one wants to give up Exactly. They are entirely dug in prioritizing the growth of their own individual",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NEITHER",
+          "ONE",
+          "WANTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "prioritizing, individual, miserably",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 177,
+      "text": "thiefs over what is best for the overall company. The debate in the conference room is turning acrimonious and personal. And Bill is there.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TURNING",
+          "ACRIMONIOUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "acrimonious, conference, personal.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 178,
+      "text": "Bill Campbell is sitting in the room watching this drag on. And finally, he looks at Eric Schmidt, cuts through all the diplomatic maneuvering and says, \"Either you two break",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ERIC",
+          "SCHMIDT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "that tie or I will cut the [&nbsp;__&nbsp;] Done.\" That moment defines the manager's role in decision-m.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER",
+          "ROLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 180,
+      "text": "You are not running a Wait, but we're always taught that getting everyone to agree is the hallmark of great leadership.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RUNNING",
+          "A",
+          "WAIT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "leadership., everyone, hallmark",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 181,
+      "text": "Yes, you absolutely want an ensemble approach to gather ideas. You want everyone to feel heard, but your ultimate job is not to find consensus.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENSEMBLE",
+          "APPROACH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 182,
+      "text": "In fact, Bill Campbell explicitly hated consensus. Hated it. Why? Because consensus usually leads to watered down",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAMPBELL",
+          "EXPLICITLY",
+          "HATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hated, explicitly, consensus.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 183,
+      "text": "group think and mediocre compromises. If you are trying to make a decision that offends the fewest number of people, you are rarely making the optimal,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MEDIOCRE",
+          "COMPROMISES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 184,
+      "text": "most innovative decision. You're just finding the lowest common Exactly. Your job as a manager is to run a rigorous process.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INNOVATIVE",
+          "DECISION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "innovative, decision., exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 185,
+      "text": "You surface all dissent. You get every conflicting perspective on the table. You let them debate fiercely. And then if the team",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERY",
+          "CONFLICTING",
+          "PERSPECTIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 186,
+      "text": "cannot align organically based on the data, you the manager break the tie without hesitation. You do not let it fester. And there is a specific mechanical rule for",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "MECHANICAL",
+          "RULE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 187,
+      "text": "how to run that process effectively, right? to make sure you actually get all those dissenting ideas on the table before you break the tie.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROCESS",
+          "EFFECTIVELY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "Yes, there is a fantastic story about Marissa Meyer. When she was a a rising executive, Bill gave her a very strict non-negotiable rule for",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARISSA",
+          "MEYER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "non-negotiable, fantastic, executive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 189,
+      "text": "running her team What was it? As the leader, she must always speak Oh, wow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUNNING",
+          "HER",
+          "TEAM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "Always last. Always last. Marissa was incredibly brilliant. She had a habit of knowing the right answer or the best solution immediately when a problem was",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEST",
+          "SOLUTION",
+          "IMMEDIATELY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "presented. But Bill told her that even if she is 100% correct, blurting out the answer at the start of the meeting is because it shuts down the",
+      "design": {
+        "type": "stat",
+        "kicker": "",
+        "emphasis": [
+          "100%",
+          "CORRECT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "conversation. Exactly. It robs the entire team of the process of arriving there together. By speaking last, she was allowing the team",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPEAKING",
+          "LAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "to exercise their own decision-making muscles. They had to debate, they had to analyze, they had to argue their points. That makes sense.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECISION-MAKING",
+          "MUSCLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "If the leader always supplies the answer immediately, the team never learns how to surface dissent or advocate for an idea. They just sit around passively waiting for the oracle",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SURFACE",
+          "DISSENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "at the head of the table to speak. They become Let's challenge this though, Because in a fast-paced environment, speed is everything.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FAST-PACED",
+          "ENVIRONMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "environment, everything., fast-paced",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 196,
+      "text": "If my team is trying to fix a critical bug that is crashing our servers, I'm not going to sit quietly at the conference table and let them debate the most optimal solution for an hour",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OPTIMAL",
+          "SOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "just so they can build their decision-making If I know the answer, isn't speaking last just wasting precious time and bleeding revenue?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "WASTING",
+          "PRECIOUS",
+          "TIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "Like the building is on fire? You're operating under the false assumption that your daily tasks are emergencies. They aren't.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FALSE",
+          "ASSUMPTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "Okay, fair. Yes. An absolute literal crisis. The servers are down, the building is on fire, a massive PR disaster is unfolding right this second,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "LITERAL",
+          "CRISIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 200,
+      "text": "that requires command and control leadership. You give orders and execute, But if you treat every single product feature debate or marketing strategy session or hiring",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARKETING",
+          "STRATEGY",
+          "SESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 201,
+      "text": "decision like a burning building, your team will atrophy. Most corporate decisions are not literal fires. They are structural choices.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "DECISIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "The time you spend letting them debate isn't wasted time. It is a long-term investment in their capability to solve the next complex problem when you aren't in the room.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LONG-TERM",
+          "INVESTMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 203,
+      "text": "It's about preserving the integrity of the process. Building a team means trusting the process to yield the best result rather than relying on the isolated genius",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ISOLATED",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 204,
+      "text": "of the manager making all the calls. The trust comes from knowing that all voices will be heard before the tie is broken. Precisely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANAGER",
+          "MAKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "But that naturally leads to the most difficult scenario a manager will face. What happens when that rigorous process is hijacked?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "DIFFICULT",
+          "SCENARIO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 206,
+      "text": "Hijacked by who? What happens when one of the members of this carefully constructed team is an absolute visionary?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "VISIONARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "Someone who produces incredible results but is a complete and utter nightmare to work with. Ah the aberrant genius.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRODUCES",
+          "INCREDIBLE",
+          "RESULTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "The aberant genius. We have all seen this person. They are",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABERANT",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 209,
+      "text": "the 10X developer, the rain maker salesperson, the brilliant creative We",
+      "design": {
+        "type": "stat",
+        "kicker": "",
+        "emphasis": [
+          "10X",
+          "DEVELOPER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 210,
+      "text": "have a scene in the book where a frustrated Google manager is sitting with Bill completely exhausting themselves trying to defend an employee exactly like this.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRUSTRATED",
+          "GOOGLE",
+          "MANAGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "frustrated, completely, exhausting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 211,
+      "text": "This employee is a massive differentiator for the company producing brilliant work, but they are deeply toxic to the people around them.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPANY",
+          "PRODUCING",
+          "BRILLIANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "And Bill is listening to this manager. Bill is listening to the manager bend over",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "IS",
+          "LISTENING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "listening, bill, manager.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 213,
+      "text": "backward trying to justify keeping this person on the team because of their Bill",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BACKWARD",
+          "TRYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "backward, justify, keeping",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 214,
+      "text": "acknowledges the brilliance of the work, but then he delivers the reality check. He says, \"How can we capture the good and dismiss the bad?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "REALITY",
+          "CHECK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 215,
+      "text": "You can't be with him 18 hours a day.\" And eventually, despite their incredible, undeniable talent, that genius was let go.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "18",
+          "HOURS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 216,
+      "text": "This is a definitive rule in the Campbell playbook for managing the aberant genius. You absolutely tolerate the quirky, the eccentric, the difficult,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAMPBELL",
+          "PLAYBOOK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "definitive, absolutely, eccentric",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 217,
+      "text": "socially awkward geniuses because they are often the engine of true innovation. Give them space. You give them space. But the second they cross the line into toxicity,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIALLY",
+          "AWKWARD",
+          "GENIUSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 218,
+      "text": "the second they break team communication, the second they start making colleagues afraid to speak up in meetings, the second they suck up all of your management time and endless damage control",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAKING",
+          "COLLEAGUES",
+          "AFRAID"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "and apologies, you have to cut them loose. Bill actually had a very specific fascinating warning sign for when an aberant genius had gone too",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "FASCINATING",
+          "WARNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "far. What was it? It wasn't just about being mean in meetings. It was about when they put their own fame above the company.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FAME",
+          "ABOVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "He had a deep visceral hatred for executives who actively sought out their own PR. Oh, interesting. Yeah.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "VISCERAL",
+          "HATRED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "Even if the aberant genius nominally praises the team in public or uses the word we in interviews, if they are constantly hogging the media spotlight,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABERANT",
+          "GENIUS",
+          "NOMINALLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 223,
+      "text": "angling for magazine covers, and making the narrative all about their individual brilliance, it's a fatal sign because it goes back to narcissism.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDIVIDUAL",
+          "BRILLIANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "And narcissism destroys the invisible architecture of trust. Research actually shows that",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NARCISSISM",
+          "DESTROYS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "narcissists often emerge as group leaders initially because they exude confidence.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXUDE",
+          "CONFIDENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "So a certain amount of ego is expected at the executive level. But when the team begins to suspect that the star player is more interested in building their own",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXECUTIVE",
+          "LEVEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "personal brand than achieving the team's shared success, cohesion collapses because everyone else is doing the real The team knows who's actually doing the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEAM",
+          "SHARED",
+          "SUCCESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "hard work behind the scenes. If the genius is stealing the credit, resentment builds instantly. Oh, hold on. Hold on. I have to push back hard on this rule.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RESENTMENT",
+          "BUILDS",
+          "INSTANTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "Go for it. Because there is a massive glaring contradiction in Bill Campbell's life regarding this exact point.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "LIFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "contradiction, campbells, regarding",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 230,
+      "text": "Didn't Bill Campbell idolize Steve Jobs? They were incredibly close friends. They walked",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAMPBELL",
+          "IDOLIZE",
+          "STEVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incredibly, campbell, friends.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 231,
+      "text": "around the neighborhood together constantly. And Steve Jobs was the ultimate undisputed",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "JOBS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "neighborhood, constantly., undisputed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 232,
+      "text": "aberrant genius. He famously broke communication channels. He was known for being incredibly difficult and demanding and he absolutely unequivocally hog the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROKE",
+          "COMMUNICATION",
+          "CHANNELS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 233,
+      "text": "The entire narrative of Apple was built around his singular visionary genius. If you strictly follow Bill's rule about firing aberant geniuses, you",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STRICTLY",
+          "FOLLOW",
+          "BILL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "narrative, visionary, singular",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 234,
+      "text": "fire Steve Jobs and the world loses the iPhone, the iPad, and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FIRE",
+          "STEVE",
+          "JOBS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "iphone, steve, world",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 235,
+      "text": "modern computing. Doesn't his own best friend disprove his most rigid It's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEST",
+          "FRIEND",
+          "DISPROVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "the most common criticism of this framework. But the source material makes a very specific vital historical distinction that resolves this What",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "VITAL",
+          "HISTORICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 237,
+      "text": "is it? Bill Campbell actually believed that Steve Jobs was not a great leader during his first stint at Apple. the period in the early 80s that ultimately ended with him being",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "JOBS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ultimately, campbell, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 238,
+      "text": "ousted from his own company in During that time, Jobs was the classic toxic aberrant genius and he was",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "CLASSIC",
+          "TOXIC",
+          "ABERRANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "correctly removed because he was tearing the company apart. So what changed? Why did Bill support him later? Because Bill observed that Jobs only truly succeeded upon",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "OBSERVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "because, bill, correctly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 240,
+      "text": "his return to Apple in 1997. Because he had evolved during his years away at Next and Pixar. He grew up.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "APPLE",
+          "IN",
+          "1997"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "He transformed from a rogue, aberrant visionary into a meticulous,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABERRANT",
+          "VISIONARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "detail-oriented manager who built an incredibly disciplined operational That's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "DISCIPLINED",
+          "OPERATIONAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "detail-oriented, disciplined, operational",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 243,
+      "text": "a great point. The 1997 Steve Jobs learned how to run finance, logistics, and supply chains. He surrounded himself with operational",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "1997",
+          "STEVE"
+        ],
+        "items": [
+          "RUN FINANCE",
+          "LOGISTICS",
+          "SUPPLY CHAINS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "geniuses like Tim Cook. He was still demanding. He still had a massive ego, but he had become a team builder.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TIM",
+          "COOK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "still, demanding., geniuses",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 245,
+      "text": "He was running a coordinated system, not just throwing tantrums. That is a fascinating reframing of tech history, isn't it?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "THROWING",
+          "TANTRUMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "So, the playbook dictates that the trust and cohesion of the team as a functioning unit are infinitely more valuable than the raw unbridled talent of any",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PLAYBOOK",
+          "DICTATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 247,
+      "text": "one individual, no matter how worldchanging their ideas might be. If they destroy the team, they destroy the product eventually.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ONE",
+          "INDIVIDUAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 248,
+      "text": "Exactly. Which brings us to the ultimate question of selection and recruitment. If you are ruthlessly cutting the toxic geniuses loose",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 249,
+      "text": "to protect the team, who exactly do you invest your precious management time in? How do you pick them? Right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRECIOUS",
+          "MANAGEMENT",
+          "TIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 250,
+      "text": "How do you select the specific individuals who will actually build the team alongside you and absorb this We have a great scene to illustrate this selection",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "INDIVIDUALS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 251,
+      "text": "process. The Intu IT boardroom is deadlocked. The company is having a really rough quarter, missing their targets, and the stock is taking a hit.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INTU",
+          "IT",
+          "BOARDROOM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deadlocked., boardroom, process.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 252,
+      "text": "And Bill is the CEO at this point. Bill Campbell is sitting in the CEO chair at this time. His instinct is to cut costs, get lean, enforce strict operational",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bill, operational, campbell",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 253,
+      "text": "discipline, and weather the storm. But the entire board of directors fundamentally disagrees with his financial strategy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIRECTORS",
+          "FUNDAMENTALLY",
+          "DISAGREES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 254,
+      "text": "What do they want to do? They want to spend their way out of the crisis. They want to invest heavily in marketing and future development regardless of the short-term financial hit.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUTURE",
+          "DEVELOPMENT",
+          "REGARDLESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 255,
+      "text": "It is a classic tense standoff between a CEO and a board. Okay. Finally, the legendary venture capitalist John Door, who is on the board,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAPITALIST",
+          "JOHN",
+          "DOOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "capitalist, legendary, standoff",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 256,
+      "text": "speaks up. He looks around the room, acknowledges the strategic disagreement, and says, \"I think we should back the coach.\" And that single moment is the pure",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "STRATEGIC",
+          "DISAGREEMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 257,
+      "text": "definition of trust in a corporate Back the coach. Trust isn't about agreeing on the spreadsheet.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "trust, spreadsheet., definition",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 258,
+      "text": "The board didn't agree with Bill's financial strategy at all. They thought his numbers were wrong. But they trusted Bill as a human being and as a right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "FINANCIAL",
+          "STRATEGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "financial, strategy, thought",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 259,
+      "text": "They knew he had the integrity to pivot if he was wrong and the grit to execute if he was right. Your job as a manager is to look at your team and ask, \"Are",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "INTEGRITY",
+          "TO",
+          "PIVOT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 260,
+      "text": "you cultivating people who you can fundamentally back even when their metrics look terrifying or their strategy differs from yours?\" And according to Campbell, the key",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ACCORDING",
+          "TO",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 261,
+      "text": "indicator of someone you should back, the raw material you are looking for, is whether they have the humility to be Yes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RAW",
+          "MATERIAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 262,
+      "text": "And there's an amazing story about Jonathan Rosenberg's final interview before he joined Google that highlights how strictly Bill screened for this Tell me about the interview.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONATHAN",
+          "ROSENBERG",
+          "FINAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rosenbergs, highlights, interview.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 263,
+      "text": "So Jonathan sits down with Bill Campbell. And Jonathan is feeling very confident. He has a great resume. He thinks the job is basically a lock.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "jonathan, confident., campbell.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 264,
+      "text": "Bill doesn't ask him about his technical skills or his marketing strategy. He just stares at him and asks one simple question.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARKETING",
+          "STRATEGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 265,
+      "text": "Are you coachable? And Jonathan, full of typical executive ego,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JONATHAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "coachable, executive, jonathan",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 266,
+      "text": "arrogantly replies, \"It depends on the Which is a terrible,",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ARROGANTLY",
+          "REPLIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 267,
+      "text": "terrible answer. It's the worst possible answer you could give to Bill Campbell. Exactly. But Bill doesn't just let the arrogance slide.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bill, campbell., arrogance",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 268,
+      "text": "He leans in and forces Jonathan to actually define what a coach is, putting him completely on the spot.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FORCES",
+          "JONATHAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, jonathan, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 269,
+      "text": "He makes him sweat. Oh, yeah. Jonathan stumbles a bit but manages to pull out a quote from the legendary football coach Tom Landry saying something about how a coach makes",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TOM",
+          "LANDRY",
+          "SAYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "makes, coach, legendary",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 270,
+      "text": "you see what you don't want to see so you can be who you want to be. Nice save. Jonathan barely saved himself.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SAVED",
+          "HIMSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 271,
+      "text": "But the broader lesson is crystal clear. Bill only invested his time and political capital in people who possessed underlying humility.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POSSESSED",
+          "UNDERLYING",
+          "HUMILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 272,
+      "text": "If you weren't coachable, he had absolutely no use for you regardless of your resume. I have to question the definition of coachability Go on.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEREN",
+          "COACHABLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 273,
+      "text": "Because in a lot of corporate cultures, coachability is just a polite, weaponized code word for obedience. Oh, I see what you mean.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "CULTURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 274,
+      "text": "It means do what you're told and don't argue with the boss. Did Bill just want a room full of yesmen who would fall in line with his exact philosophy and never",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "PHILOSOPHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "philosophy, yesmen, means",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 275,
+      "text": "challenge his authority? If he hated disscent, that contradicts the earlier point about breaking ties. I would reject that interpretation entirely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HATED",
+          "DISSCENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 276,
+      "text": "And the evidence from the book backs me up. How so? Look at the specific people Bill embraced and championed. Steve Jobs, Larry Page, Sherge",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "PEOPLE",
+          "BILL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "championed., evidence, specific",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 277,
+      "text": "Brin. None of these men were ever known for being obedient, compliant, or submissive. That's true. They were fiercely independent, prickly,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIERCELY",
+          "INDEPENDENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 278,
+      "text": "difficult founders who constantly push back. Coachability in Bill Campbell's framework isn't obedience. It is the absence of BS.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "FRAMEWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "coachability, constantly, obedience.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 279,
+      "text": "Explain that. What does the absence of BS look like in practice? It means honesty. It is the capacity to look at a massive failure, a product launch",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "FAILURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "that tanked, a revenue target you missed, check your ego at the door, and look your",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REVENUE",
+          "TARGET"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "manager in the eye and say, \"I don't know what went wrong, and I need",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "WENT",
+          "WRONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "Right? Rather than dancing around the truth with corporate spin and Exactly. Humility in this context means recognizing that you are in service",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DANCING",
+          "AROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "recognizing, corporate, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 283,
+      "text": "to something larger than your own career trajectory. You are in service to the company and the team. You can be argumentative and loud, but if you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CAREER",
+          "TRAJECTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 284,
+      "text": "are honest about your shortcomings, you are So Campbell's true product was trust. And trust can only be manufactured using",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAMPBELL",
+          "TRUE",
+          "PRODUCT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "shortcomings, manufactured, campbells",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 285,
+      "text": "raw materials that include deep uncomfortable honesty and humility. That's it. You cannot",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCLUDE",
+          "DEEP",
+          "UNCOMFORTABLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 286,
+      "text": "build a durable architecture of trust with someone who is constantly performing,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DURABLE",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 287,
+      "text": "hiding their flaws or protecting their ego at all costs. Exactly. And once you have done the hard work of building that profound trust, once you have assembled",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "TRUST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 288,
+      "text": "this humble, coachable team and you've established rigorous decision-making processes, how does this unit actually perform when an existential",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ESTABLISHED",
+          "RIGOROUS"
+        ],
+        "items": [
+          "THIS HUMBLE",
+          "COACHABLE TEAM",
+          "YOU"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 289,
+      "text": "crisis hits? When the pressure is dialed up to the absolute maximum, the ultimate stress test.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "MAXIMUM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 290,
+      "text": "It is 2010. Apple is suing Google's Android hardware Oh man, this was huge.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOOGLE",
+          "ANDROID",
+          "HARDWARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hardware, googles, android",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 291,
+      "text": "This isn't just a standard run-of-the-mill business dispute over a patent. It is deeply, painfully personal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STANDARD",
+          "RUN-OF-THE-MILL",
+          "BUSINESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 292,
+      "text": "Steve Jobs feels betrayed by Google entering the phone market. He is at war threatening thermonuclear destruction against",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOOGLE",
+          "ENTERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "thermonuclear, threatening, destruction",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 293,
+      "text": "And Bill is right in the middle. Bill Campbell is caught directly in the middle of the blast zone. As a close personal friend to Jobs, an adviser to Apple, and a mentor",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bill, campbell, directly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 294,
+      "text": "to the Google executives, Eric Schmidt comes to Bill with this absolute legal and business Okay.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOOGLE",
+          "EXECUTIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "executives, absolute, business",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 295,
+      "text": "So, what does Bill do? Well, the instinct of any CEO or high level executive in this moment would be to dive into the details, pull up the patents, read the legal briefs,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANY",
+          "CEO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "executive, instinct, details",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 296,
+      "text": "call the lawyers, and formulate a technical defense strategy. But Bill doesn't do any of that. he doesn't look at a single patent. He doesn't read a single legal brief.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TECHNICAL",
+          "DEFENSE",
+          "STRATEGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "doesnt, single, formulate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 297,
+      "text": "He looks at Eric and tells him to put Alan Eustace in charge of the diplomacy between the two companies. What is the psychological mechanism here?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "ALAN",
+          "EUSTACE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 298,
+      "text": "Why ignore the details of the biggest threat to the company? Because this is the ultimate operational pivot for a master manager.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "OPERATIONAL",
+          "PIVOT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 299,
+      "text": "When a massive crisis hits your desk, your first panicked instinct will always be to ask, \"How do we solve this problem?\" Right?",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "FIRST",
+          "PANICKED",
+          "INSTINCT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 300,
+      "text": "You want to fix it. You have to train yourself to stop. The correct question",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORRECT",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 301,
+      "text": "is not how. The correct question is who is the right team to handle this?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "CORRECT",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 302,
+      "text": "You work with the team not the problem. We see this exact same philosophy applied on a smaller scale with Marissa Mayor.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARISSA",
+          "MAYOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "philosophy, problem., applied",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 303,
+      "text": "She was managing the associate product managers, the APMs at Google. This is a brilliant group of young very sharp kids.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "APMS",
+          "AT",
+          "GOOGLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 304,
+      "text": "She's in a meeting with them and they are just complaining, getting stuck on all these minor bureaucratic problems and technical roadblocks.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MINOR",
+          "BUREAUCRATIC",
+          "PROBLEMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 305,
+      "text": "Marissa's instinct, because she is brilliant and experienced, is to jump in, roll up her sleeves, and fix their problems for them. She knows the answers.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MARISSA",
+          "INSTINCT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 306,
+      "text": "But Bill is observing this, and he pulls her aside. He tells her",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "IS",
+          "OBSERVING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "observing, aside., pulls",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 307,
+      "text": "that she is entirely the wrong person to help them, which sounds crazy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WRONG",
+          "PERSON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 308,
+      "text": "She's their boss, and she knows the answer, but she knows too much. She has too much institutional power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INSTITUTIONAL",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 309,
+      "text": "She can't relate to their specific roadblocks anymore. Bill tells her she needs to create a peer forum so the APMs can get in a room together",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "ROADBLOCKS",
+          "ANYMORE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 310,
+      "text": "and help each other figure out the next steps without her hovering over It's a brilliant move because it forces peer-to-peer vulnerability by creating a peer",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FORCES",
+          "PEER-TO-PEER",
+          "VULNERABILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 311,
+      "text": "forum. She is building the team's internal capacity to solve issues rather than just acting as a vending machine for solutions where they punch a button and she dispenses",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEAM",
+          "INTERNAL",
+          "CAPACITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 312,
+      "text": "the answer. Exactly. I know we talked about this a bit with the burning",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BURNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 313,
+      "text": "building analogy earlier, but let's push back on the optics of this specific tactic.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUILDING",
+          "ANALOGY",
+          "EARLIER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 314,
+      "text": "What's the issue? Well, if my team is actively failing and a crisis is happening and my response is just to tell them to talk to each other or delegate",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTIVELY",
+          "FAILING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 315,
+      "text": "it entirely without looking at the details myself, it looks dangerously like passing the buck. I hear that. Shouldn't a true leader roll up their sleeves and get in the trenches",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUE",
+          "LEADER",
+          "ROLL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 316,
+      "text": "with their people to show solidarity? It's a very common misconception that getting in the trenches equates to good leadership.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRENCHES",
+          "EQUATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 317,
+      "text": "It feels good to your ego to solve the problem, but at the executive level, grabbing the fire hose is actually micromanaging the fire Oh,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXECUTIVE",
+          "LEVEL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 318,
+      "text": "that's a great way to phrase it. If you are constantly jumping into the trenches to solve the technical problems, you are abandoning your actual which is what?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "TECHNICAL",
+          "PROBLEMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 319,
+      "text": "Managing the ecosystem. Your job at that level is assessing whether the fire chief is capable, ensuring they have the water pressure and resources they need and managing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ASSESSING",
+          "WHETHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 320,
+      "text": "the perimeter so the fire doesn't spread. If you push the chief aside and fight the fire yourself, you undermine the very architecture you spent years building.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPENT",
+          "YEARS",
+          "BUILDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 321,
+      "text": "The team learns that when things get tough, they don't have to step up because you will always swoop in and save them. So, a true builder of teams fundamentally trusts the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEAMS",
+          "FUNDAMENTALLY",
+          "TRUSTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 322,
+      "text": "architecture they built. They don't try to mentor the talent out of a crisis. They step back, hold the perimeter, and let the team operate the way they were trained to.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TEAM",
+          "OPERATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 323,
+      "text": "Yes. And that brings us to the final and arguably the most unexpected element of Bill Campbell's playbook.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "PLAYBOOK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unexpected, campbells, playbook.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 324,
+      "text": "We've talked about strict rules, firing toxic people, demanding humility, and rigorous process. Right.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "DEMANDING",
+          "HUMILITY"
+        ],
+        "items": [
+          "TOXIC PEOPLE",
+          "DEMANDING HUMILITY",
+          "RIGOROUS PROCESS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 325,
+      "text": "But the glue that holds all of this high pressure, cutthroat Silicon Valley business logic together is shockingly, unapologetically emotional.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CUTTHROAT",
+          "SILICON",
+          "VALLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unapologetically, shockingly, emotional.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 326,
+      "text": "We are near the end of Steve Jobs's life. He is severely incapacitated by It's a really difficult time.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "JOBS",
+          "LIFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incapacitated, difficult, severely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 327,
+      "text": "Despite the absolute chaos of the tech world, the billions of dollars",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "CHAOS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 328,
+      "text": "in motion, the fierce competitive battles, and the myriad companies he advises,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIERCE",
+          "COMPETITIVE",
+          "BATTLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 329,
+      "text": "Bill Campbell is walking into Steve's hospital room or his home to visit him. And he isn't doing this once a month to check the box of being a good friend.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STEVE",
+          "HOSPITAL",
+          "ROOM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "campbell, hospital, walking",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 330,
+      "text": "he is showing up every single day. He just shows up and sits with him. And that is the ultimate profound lesson of this entire playbook.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "PROFOUND",
+          "LESSON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 331,
+      "text": "You simply cannot separate the professional from the We spent decades in corporate America trying to build a wall between work and life, pretending we are just",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "AMERICA",
+          "TRYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "professional, pretending, corporate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 332,
+      "text": "rational economic actors. Bill Campbell proved that is a lie. It is a lie. If you want to actually care about your people, if you want to build that indestructible",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "PROVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lie., want, indestructible",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 333,
+      "text": "trust, you have to care about them. It sounds redundant, but it's incredibly rare in practice. It is profound because it requires vulnerability from",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REQUIRES",
+          "VULNERABILITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 334,
+      "text": "the manager. Your job isn't just to track OKRs, those objectives and key results that map out a company's strict logical goals.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "TRACK",
+          "OKRS"
+        ],
+        "items": [
+          "TRACK OKRS",
+          "THOSE OBJECTIVES",
+          "KEY RESULTS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 335,
+      "text": "Everyone can track an OKR, right? Any software can do that. Your job is to provide the human element that allows those goals to be reached.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "ELEMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 336,
+      "text": "Your job is to legitimate empathy within your organization. Legitimate empathy. Ask them about their lives.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LEGITIMATE",
+          "EMPATHY",
+          "WITHIN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 337,
+      "text": "Understand their families. know what stresses them out outside of the office. And when things get rough in their personal lives, you drop the spreadsheets.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSONAL",
+          "LIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 338,
+      "text": "You drop the quarterly targets and you show up for them. We see exactly how this emotional philosophy scales at a corporate level with a story from",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMOTIONAL",
+          "PHILOSOPHY",
+          "SCALES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 339,
+      "text": "Into It. The Mary Baker story. Yes. When an executive named Mari Baker was suddenly hospitalized while on a business trip on the East Coast, Bill didn't just tell",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAMED",
+          "MARI",
+          "BAKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "baker, hospitalized, executive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 340,
+      "text": "HR to send a nice bouquet of flowers from the management That would be the normal response. He literally chartered a private jet to fly her husband",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NORMAL",
+          "RESPONSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 341,
+      "text": "from the West Coast to be by her side in the hospital and eventually to bring her home comfortably. Think about the psychological impact of that.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WEST",
+          "COAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "psychological, comfortably., eventually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 342,
+      "text": "That act of radical organizational compassion sends a shock wave through a It changes everything. It signals to every single employee, not",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RADICAL",
+          "ORGANIZATIONAL",
+          "COMPASSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 343,
+      "text": "just the executive who got the jet, but everyone who hears the story, that the leadership is fiercely, protectively devoted to them as human beings, not just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "BEINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 344,
+      "text": "as line items on a payroll. It generates a level of fierce loyalty and psychological safety that no bonus structure or stock option package could ever buy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STOCK",
+          "OPTION",
+          "PACKAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 345,
+      "text": "Let's get very real here because this is where the average listener might How so?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "AVERAGE",
+          "LISTENER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 346,
+      "text": "This sounds like a luxury strictly reserved for the ultra rich. Oh, right. Sure. If I'm the CEO of a multi-billion dollar tech giant or I have",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LUXURY",
+          "STRICTLY",
+          "RESERVED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 347,
+      "text": "massive venture capital backing, I can charter private jets for my sick employees. I can buy out whole bars in Boston for college grads like Bill did.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "VENTURE",
+          "CAPITAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 348,
+      "text": "I can afford grand gestures, right? But how does a middle manager working at a midsize company with a completely frozen budget",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MIDDLE",
+          "MANAGER",
+          "WORKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 349,
+      "text": "and a tiny expense account show this kind of profound compassion? Is this just billionaire empathy that doesn't apply to the rest of us?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "COMPASSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 350,
+      "text": "That is the most important question and it is where the true genius of Bill's approach shines because the scale of the money doesn't matter at all.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "APPROACH",
+          "SHINES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "important, question, approach",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 351,
+      "text": "What matters is the scale of the attention. The attention. You don't need a private jet to prove you care. Look at the BCC.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRIVATE",
+          "JET"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 352,
+      "text": "The Bill Campbell clap. The clapping. Yes. When someone on the team achieved something significant or even just made a really great insightful point in a routine",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "CLAP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "significant, insightful, clapping.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 353,
+      "text": "meeting, Bill wouldn't just nod and move on. He would stop the meeting, lean forward, and give them five loud percussive claps.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "PERCUSSIVE",
+          "CLAPS"
+        ],
+        "items": [
+          "MEETING",
+          "LEAN FORWARD",
+          "GIVE THEM"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 354,
+      "text": "Just right in the meeting. Bam, bam, bam, bam, bam. He was so effective and motivating that a manager named Klay Beavor actually institutionalized it in his own",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAMED",
+          "KLAY",
+          "BEAVOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "institutionalized, motivating, effective",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 355,
+      "text": "team's It's the democratization of recognition. It costs absolutely zero dollars to cheer demonstrabably for your team.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEMOCRATIZATION",
+          "OF",
+          "RECOGNITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 356,
+      "text": "It costs $0 to remember the name of an employees kid and ask how their soccer tournament went like we discussed with the trip reports, It cost zero dollars to notice that a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COSTS",
+          "$0"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 357,
+      "text": "junior employee is quiet in a meeting and pull them aside later to check on them. The compassion isn't in the jet. The jet is just a vehicle.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "JUNIOR",
+          "EMPLOYEE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 358,
+      "text": "The compassion is in the hyperfocused, undivided attention. It is genuine companionate love in a corporate setting.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDIVIDED",
+          "ATTENTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 359,
+      "text": "That is wild to say out loud. The ultimate tool for building trust between founders and managers. The secret sauce of Silicon Valley's most cutthroat",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SILICON",
+          "VALLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "managers., cutthroat, ultimate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 360,
+      "text": "era isn't a massive stock option package or a ruthless firing strategy. It's love. It is love and rigorous standards.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUTHLESS",
+          "FIRING",
+          "STRATEGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 361,
+      "text": "But before we close the book on this playbook and send everyone off to implement it, we have an obligation to look critically at the dark side of this We do.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SEND",
+          "EVERYONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 362,
+      "text": "Because as beautiful and effective as it sounds in these stories, it has a massive structural flaw. It does.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "STRUCTURAL",
+          "FLAW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 363,
+      "text": "We have to raise the essential criticism of the entire trillion dollar coach",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRILLION",
+          "DOLLAR",
+          "COACH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 364,
+      "text": "philosophy. The playbook, as we've outlined it, relying on socio emotional communication,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIO",
+          "EMOTIONAL",
+          "COMMUNICATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 365,
+      "text": "reading the room to break ties, diagnosing cognitive gaps and unstructured one-on- ones, relies on a massive single point of failure.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIAGNOSING",
+          "COGNITIVE",
+          "GAPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 366,
+      "text": "Bill Campbell himself. Bill Campbell himself, he acted as the oracle of Silicon Valley, right? He sat in the back of the room during Eric Schmidt's staff meetings.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ERIC",
+          "SCHMIDT",
+          "STAFF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "campbell, bill, meetings.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 367,
+      "text": "He read the subtle shifts in body language. He sensed the simmering tensions between executives. He pulled people aside in the hallways to smooth things over.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SIMMERING",
+          "TENSIONS",
+          "BETWEEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 368,
+      "text": "He filled the communication gaps and he broke the ties using his decades of emotional intelligence. He was the magic ingredient that made the system work.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMOTIONAL",
+          "INTELLIGENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 369,
+      "text": "He was You've hit on the exact vulnerability. What happens when a company scales from 500 people to 10,000 or a 100,000 employees",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "000",
+          "EMPLOYEES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "vulnerability., employees, happens",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 370,
+      "text": "and Bill Campbell cannot physically be in the room to read the body language?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "CANNOT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 371,
+      "text": "It breaks down. A culture that is built entirely on one man's hypercalibrated once",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAN",
+          "HYPERCALIBRATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 372,
+      "text": "in a generation gut judgment is incredibly fragile. You cannot systemize his innate intuition. You can't write an algorithm to replicate the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GENERATION",
+          "GUT",
+          "JUDGMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 373,
+      "text": "envelope of trust he personally manufactured just by walking into a room and giving someone a bear hug. It is the danger of relying on a guru.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSONALLY",
+          "MANUFACTURED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 374,
+      "text": "If your entire management structure depends on an exceptionally empathetic genius noticing that a VP is slightly annoyed during a presentation, that structure",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MANAGEMENT",
+          "STRUCTURE",
+          "DEPENDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 375,
+      "text": "will collapse the second the guru retires or in Bill's case",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CASE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "collapse, retires, second",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 376,
+      "text": "passes away. So, bringing this all back to the listener,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PASSES",
+          "AWAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 377,
+      "text": "can this playbook actually be scaled by average everyday managers? people who are stressed, tired, and maybe not naturally gifted empaths,",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "EVERYDAY",
+          "MANAGERS"
+        ],
+        "items": [
+          "ARE STRESSED",
+          "TIRED",
+          "MAYBE NOT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 378,
+      "text": "or does this system fundamentally require a level of emotional intelligence that most people just don't possess? You cannot clone Bill Campbell's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CLONE",
+          "BILL",
+          "CAMPBELL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fundamentally, intelligence, emotional",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 379,
+      "text": "That's a given. But you can institutionalize the frameworks he used, the structures. The frameworks force the empathy into the corporate structure, even if the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORPORATE",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 380,
+      "text": "manager lacks the natural intuition. You can mandate the Monday 1pm trip reports, forcing people to connect as humans before they fight over budgets,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MONDAY",
+          "1PM",
+          "TRIP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intuition., manager, natural",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 381,
+      "text": "You can strictly enforce the rule that managers speak last, ensuring all voices are heard. You can standardize the whiteboard one-on- ones where the employee",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHITEBOARD",
+          "ONE-ON",
+          "ONES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 382,
+      "text": "is required to lead the agenda, forcing the manager to listen rather than dictate. So, you're hacking the empathy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LISTEN",
+          "RATHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 383,
+      "text": "You can't guarantee every manager will be a brilliant empath, but you can build a rigid system that requires them to act like one.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GUARANTEE",
+          "EVERY",
+          "MANAGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 384,
+      "text": "You build the scaffolding and the trust grows on it. And that brings us to the payoff to the core of why this entire analysis Why does it matter?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "TRUST",
+          "GROWS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 385,
+      "text": "Bill Campbell wasn't the greatest executive coach in history because he knew how to write elegant C++ code or design groundbreaking mobile hardware.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CAMPBELL",
+          "WASN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "groundbreaking, executive, hardware.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 386,
+      "text": "He was the greatest because he knew that in an industry utterly obsessed",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDUSTRY",
+          "UTTERLY",
+          "OBSESSED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 387,
+      "text": "with what is being built, the only thing that actually determines long-term success",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DETERMINES",
+          "LONG-TERM",
+          "SUCCESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 388,
+      "text": "is who is building it. and crucially whether those people trust the person sitting next to them. The playbook we've extracted today isn't about you becoming",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PLAYBOOK",
+          "WE",
+          "EXTRACTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 389,
+      "text": "a legend. It isn't about you getting a magazine cover or being feared by your competitors. It is about how you make everyone else in the room feel",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAGAZINE",
+          "COVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 390,
+      "text": "legendary. Think about the most difficult aberant genius on your team right",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIFFICULT",
+          "ABERANT",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 391,
+      "text": "now. Now think about the quietest, most diligent worker you manage.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DILIGENT",
+          "WORKER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 392,
+      "text": "Tomorrow morning when you walk into the office, don't ask yourself how to squeeze more productivity out of them. Ask yourself what invisible gap of trust exists between them and what are you going to do to fill",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "TOMORROW",
+          "MORNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}

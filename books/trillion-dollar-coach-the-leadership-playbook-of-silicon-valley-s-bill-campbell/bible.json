@@ -1,0 +1,93 @@
+{
+  "slug": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+  "world": {
+    "era": "1990-2016",
+    "worldId": "silicon-valley-boardroom",
+    "approxYear": 2001,
+    "setting": "Silicon Valley offices and boardrooms, where a former football coach coaches tech founders on people, trust and team management",
+    "register": "documentary business explainer, grounded and specific",
+    "forbid": ["battlefield", "medieval armour", "ancient ruins", "gore", "children in danger"]
+  },
+  "visualProvenance": {
+    "bookId": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+    "worldId": "silicon-valley-boardroom",
+    "allowedMotifs": ["game", "work", "codeWindow", "lightbulb", "rocketLaunch", "gift", "coin", "phone", "funnelMetrics", "wallet", "fire", "notes", "trophy", "target", "compass", "ladder", "chains", "door", "mirror", "magnifier"],
+    "forbiddenMotifs": ["cave", "agora", "gore", "war"],
+    "allowedCharacters": ["campbell", "jobs", "page", "brin", "schmidt", "rosenberg", "everyman"],
+    "allowedLocations": ["office", "room", "stage", "workstation", "startupGarage", "pitchStage", "classroom", "horizon"],
+    "allowedProps": ["whiteboard", "laptop", "football", "conference table", "phone"]
+  },
+  "cast": {
+    "campbell": {
+      "name": "Bill Campbell",
+      "role": "the coach: former Columbia football coach who became a mentor to tech founders",
+      "look": "a stocky white-haired man in his sixties, warm and direct, wearing a plain open-collar shirt and a sport jacket, the posture of a football coach",
+      "variant": { "gender": "m", "age": "old", "build": "heavy", "outfit": "coat", "hairStyle": "short", "headwear": "none", "beard": "none", "glasses": false, "accessory": "collar" },
+      "mentions": 16
+    },
+    "jobs": {
+      "name": "Steve Jobs",
+      "role": "Apple co-founder, the demanding product perfectionist",
+      "look": "a slim man in his forties with a black mock turtleneck, jeans and sneakers, intense focused gaze",
+      "variant": { "gender": "m", "age": "adult", "build": "slight", "outfit": "casual", "hairStyle": "short", "headwear": "none", "beard": "stubble", "glasses": false, "accessory": "none" },
+      "mentions": 4
+    },
+    "page": {
+      "name": "Larry Page",
+      "role": "Google co-founder",
+      "look": "a young man in his late twenties with tousled brown hair and a casual sweater, thoughtful expression",
+      "variant": { "gender": "m", "age": "young", "build": "average", "outfit": "hoodie", "hairStyle": "messy", "headwear": "none", "beard": "none", "glasses": false, "accessory": "none" },
+      "mentions": 3
+    },
+    "brin": {
+      "name": "Sergey Brin",
+      "role": "Google co-founder",
+      "look": "a young man in his late twenties with curly dark hair and a casual open shirt, animated expression",
+      "variant": { "gender": "m", "age": "young", "build": "slight", "outfit": "casual", "hairStyle": "curly", "headwear": "none", "beard": "none", "glasses": false, "accessory": "none" },
+      "mentions": 2
+    },
+    "schmidt": {
+      "name": "Eric Schmidt",
+      "role": "former Google CEO and co-author",
+      "look": "a man in his fifties with short graying hair and a dark blazer over an open-collar shirt, measured and attentive",
+      "variant": { "gender": "m", "age": "adult", "build": "average", "outfit": "suit", "hairStyle": "short", "headwear": "none", "beard": "none", "glasses": false, "accessory": "collar" },
+      "mentions": 8
+    },
+    "rosenberg": {
+      "name": "Jonathan Rosenberg",
+      "role": "former Google product leader and co-author",
+      "look": "a man in his fifties with short dark hair and a light blazer, engaged and conversational",
+      "variant": { "gender": "m", "age": "adult", "build": "average", "outfit": "suit", "hairStyle": "short", "headwear": "none", "beard": "none", "glasses": true, "accessory": "none" },
+      "mentions": 15
+    },
+    "everyman": {
+      "name": "A manager",
+      "role": "the everyday reader: a manager at a desk with a team member",
+      "look": "a woman in her thirties with shoulder-length brown hair and a cardigan, sitting across a desk from a colleague",
+      "variant": { "gender": "f", "age": "adult", "build": "average", "outfit": "casual", "hairStyle": "long", "headwear": "none", "beard": "none", "glasses": false, "accessory": "none" },
+      "mentions": 5
+    }
+  },
+  "places": {
+    "office": { "set": "office", "look": "a glass-walled Silicon Valley office with a long conference table and whiteboards", "mentions": 4 },
+    "boardroom": { "set": "room", "look": "a tech company boardroom with a wooden table and a projector screen", "mentions": 3 },
+    "workstation": { "set": "workstation", "look": "an engineer's desk with two monitors and a code editor", "mentions": 2 },
+    "pitchStage": { "set": "pitchStage", "look": "a product launch stage in front of a dark auditorium", "mentions": 2 }
+  },
+  "objects": [
+    { "concept": "codeWindow", "mentions": 24, "why": "the engineering teams the founders run and the software they build" },
+    { "concept": "work", "mentions": 39, "why": "the daily management work of one-on-ones and team building" },
+    { "concept": "lightbulb", "mentions": 17, "why": "the insight a leader gives a founder" },
+    { "concept": "rocketLaunch", "mentions": 13, "why": "product launches and the stakes of a ship date" },
+    { "concept": "funnelMetrics", "mentions": 8, "why": "OKRs and measurement of team goals" },
+    { "concept": "trophy", "mentions": 4, "why": "the coach's championship football past and the teams he built" },
+    { "concept": "notes", "mentions": 6, "why": "the playbook itself, written from many sessions" }
+  ],
+  "spine": [
+    { "act": "setup", "fromFrame": 0, "claim": "Bill Campbell, a former football coach, sat with the most powerful founders in tech and asked about their people, not their product." },
+    { "act": "development", "fromFrame": 19186, "claim": "His method was concrete: one-on-one meetings, honest feedback and a focus on the team's trust." },
+    { "act": "turn", "fromFrame": 35813, "claim": "The hardest lesson: a brilliant founder can wreck a company, and the coach must confront him directly." },
+    { "act": "consequence", "fromFrame": 53450, "claim": "Teams that trust each other outperform teams that only chase products." },
+    { "act": "close", "fromFrame": 71359, "claim": "Any manager can become that coach by asking about the people in front of them." }
+  ]
+}

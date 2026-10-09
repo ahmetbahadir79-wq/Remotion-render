@@ -1,0 +1,462 @@
+{
+  "slug": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+    "world": {
+      "era": "1961–2010",
+      "worldId": "",
+      "approxYear": 2001,
+      "setting": "",
+      "register": "",
+      "forbid": []
+    },
+    "visualProvenance": {
+      "bookId": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+      "worldId": "",
+      "allowedMotifs": [],
+      "forbiddenMotifs": [],
+      "allowedCharacters": [],
+      "allowedLocations": [],
+      "allowedProps": []
+    },
+    "cast": {
+      "bill": {
+        "name": "Bill",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 16
+      },
+      "campbell": {
+        "name": "Campbell",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 7
+      },
+      "jobs": {
+        "name": "Jobs",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 4
+      },
+      "jonathan": {
+        "name": "Jonathan",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 3
+      },
+      "apple": {
+        "name": "Apple",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 3
+      },
+      "everyone": {
+        "name": "Everyone",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 2
+      }
+    },
+    "places": {
+      "office": {
+        "set": "office",
+        "look": "",
+        "mentions": 4
+      },
+      "shipDeck": {
+        "set": "shipDeck",
+        "look": "",
+        "mentions": 2
+      },
+      "manuscript": {
+        "set": "manuscript",
+        "look": "",
+        "mentions": 2
+      },
+      "hospital": {
+        "set": "hospital",
+        "look": "",
+        "mentions": 2
+      }
+    },
+    "objects": [
+      {
+        "concept": "game",
+        "mentions": 57,
+        "why": ""
+      },
+      {
+        "concept": "work",
+        "mentions": 39,
+        "why": ""
+      },
+      {
+        "concept": "codeWindow",
+        "mentions": 24,
+        "why": ""
+      },
+      {
+        "concept": "lightbulb",
+        "mentions": 17,
+        "why": ""
+      },
+      {
+        "concept": "rocketLaunch",
+        "mentions": 13,
+        "why": ""
+      },
+      {
+        "concept": "gift",
+        "mentions": 11,
+        "why": ""
+      },
+      {
+        "concept": "coin",
+        "mentions": 9,
+        "why": ""
+      },
+      {
+        "concept": "phone",
+        "mentions": 9,
+        "why": ""
+      },
+      {
+        "concept": "funnelMetrics",
+        "mentions": 8,
+        "why": ""
+      },
+      {
+        "concept": "wallet",
+        "mentions": 8,
+        "why": ""
+      },
+      {
+        "concept": "fire",
+        "mentions": 8,
+        "why": ""
+      },
+      {
+        "concept": "notes",
+        "mentions": 6,
+        "why": ""
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 0,
+        "claim": ""
+      },
+      {
+        "act": "development",
+        "fromFrame": 19186,
+        "claim": ""
+      },
+      {
+        "act": "turn",
+        "fromFrame": 35813,
+        "claim": ""
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 53450,
+        "claim": ""
+      },
+      {
+        "act": "close",
+        "fromFrame": 71359,
+        "claim": ""
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 612,
+    "cast": [
+      {
+        "name": "Bill",
+        "asSubject": 16,
+        "total": 72,
+        "samples": [
+          "Bill was maybe 5' 10, maybe 165 lbs, soaking wet, completely undersized for the sport he Completely.",
+          "Okay. So where does Bill come in?",
+          "Bill was coming off some major successes at Apple, and he was feeling the pressure to make ClariS a massive hit."
+        ]
+      },
+      {
+        "name": "Campbell",
+        "asSubject": 7,
+        "total": 26,
+        "samples": [
+          "You have to ground yourself in exactly who Bill Campbell was, right?",
+          "Well, Bill Campbell is wandering these halls walking alongside Larry Page debating this exact philosophy.",
+          "And Bill Campbell gave them one."
+        ]
+      },
+      {
+        "name": "Jobs",
+        "asSubject": 4,
+        "total": 13,
+        "samples": [
+          "And Steve Jobs was the ultimate undisputed aberrant genius.",
+          "Bill Campbell actually believed that Steve Jobs was not a great leader during his first stint at Apple.",
+          "the period in the early 80s that ultimately ended with him being ousted from his own company in During that time, Jobs was the classic toxic aberrant genius and"
+        ]
+      },
+      {
+        "name": "Jonathan",
+        "asSubject": 3,
+        "total": 15,
+        "samples": [
+          "Jonathan is grinning from ear to ear.",
+          "And let me guess, Jonathan is on the list.",
+          "And Jonathan is feeling very confident."
+        ]
+      },
+      {
+        "name": "Apple",
+        "asSubject": 3,
+        "total": 9,
+        "samples": [
+          "The article is this parody of the famous Apple think different ad, but instead of praising the crazy ones, it's praising the chair throwers, the imperious gazer",
+          "He was known for being incredibly difficult and demanding and he absolutely unequivocally hog the The entire narrative of Apple was built around his singular vi",
+          "Apple is suing Google's Android hardware Oh man, this was huge."
+        ]
+      },
+      {
+        "name": "Everyone",
+        "asSubject": 2,
+        "total": 3,
+        "samples": [
+          "Everyone is How does that dynamic change when the door closes and it's just a manager and one single employee sitting alone in an office?",
+          "Everyone can track an OKR, right?"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "office",
+        "mentions": 4,
+        "samples": [
+          "Exactly. You are reminding everyone in the room that they are sitting across from complex human beings with families, stress, and lives outside of the",
+          "You need to dismantle the ego in a group setting, but the boardroom is performative."
+        ]
+      },
+      {
+        "set": "shipDeck",
+        "mentions": 2,
+        "samples": [
+          "Where revolutionary new products are about to ship and the tension is so thick you could cut it with a knife.",
+          "Well, if I just sit there asking what's on their mind, doesn't that make me look like a weak leader who doesn't have a firm grasp on the department's "
+        ]
+      },
+      {
+        "set": "manuscript",
+        "mentions": 2,
+        "samples": [
+          "And finally, Bill stops a software engineer right in the middle of writing code.",
+          "The study showed that in highly creative ideiationheavy environments like you know writing a Broadway show or brainstorming a new product category ori"
+        ]
+      },
+      {
+        "set": "hospital",
+        "mentions": 2,
+        "samples": [
+          "Despite the absolute chaos of the tech world, the billions of dollars in motion, the fierce competitive battles, and the myriad companies he advises, ",
+          "He literally chartered a private jet to fly her husband from the West Coast to be by her side in the hospital and eventually to bring her home comfort"
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "game",
+        "mentions": 57,
+        "sample": "Picture this. A former college football coach is sitting in a room with the most powerful uh brilliant and arguably arrogant founders in Sil"
+      },
+      {
+        "concept": "work",
+        "mentions": 39,
+        "sample": "Yeah. A trait that ironically ended his football coaching career, but launched his corporate one."
+      },
+      {
+        "concept": "codeWindow",
+        "mentions": 24,
+        "sample": "Oh, absolutely. And this guy sitting at the head of the table, he looks at these technical geniuses and asks absolutely nothing about the so"
+      },
+      {
+        "concept": "lightbulb",
+        "mentions": 17,
+        "sample": "I mean, if you buy the myth of the lone tech genius, they want to be left alone in a dark room with their Exactly."
+      },
+      {
+        "concept": "rocketLaunch",
+        "mentions": 13,
+        "sample": "Picture this. A former college football coach is sitting in a room with the most powerful uh brilliant and arguably arrogant founders in Sil"
+      },
+      {
+        "concept": "gift",
+        "mentions": 11,
+        "sample": "Right. Right. Give us the roster."
+      },
+      {
+        "concept": "coin",
+        "mentions": 9,
+        "sample": "We are talking about spaces where billions of dollars are literally on the Right."
+      },
+      {
+        "concept": "phone",
+        "mentions": 9,
+        "sample": "He wasn't there to teach Steve Jobs how to design a phone, right?"
+      },
+      {
+        "concept": "funnelMetrics",
+        "mentions": 8,
+        "sample": "Oh, brutal. He literally helped lead Colombia to their only Ivy League title in 1961."
+      },
+      {
+        "concept": "wallet",
+        "mentions": 8,
+        "sample": "If the company's bleeding cash or there's a massive product crisis or we're facing layoffs, taking 10 minutes to ask about someone's weekend"
+      },
+      {
+        "concept": "fire",
+        "mentions": 8,
+        "sample": "Like the building is on fire?"
+      },
+      {
+        "concept": "notes",
+        "mentions": 6,
+        "sample": "Exactly. But to understand the mechanics of the playbook, you really have to understand the specific raw material of the man who wrote it."
+      }
+    ],
+    "openingLines": [
+      "Picture this. A former college football coach is sitting in a room with the most powerful uh brilliant and arguably arrogant founders in Silicon Valley.",
+      "We are talking about spaces where billions of dollars are literally on the Right.",
+      "Where revolutionary new products are about to ship and the tension is so thick you could cut it with a knife.",
+      "Oh, absolutely. And this guy sitting at the head of the table, he looks at these technical geniuses and asks absolutely nothing about the software.",
+      "Nothing at all.",
+      "He doesn't ask about the hardware specs or you know the market penetration or the code base."
+    ],
+    "closingLines": [
+      "Think about the most difficult aberant genius on your team right now.",
+      "Now think about the quietest, most diligent worker you manage.",
+      "Tomorrow morning when you walk into the office, don't ask yourself how to squeeze more productivity out of them.",
+      "Ask yourself what invisible gap of trust exists between them and what are you going to do to fill"
+    ]
+  }
+}

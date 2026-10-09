@@ -1,0 +1,47 @@
+{
+  "slug": "trillion-dollar-coach-the-leadership-playbook-of-silicon-valley-s-bill-campbell",
+  "title": "Trillion Dollar Coach: The Leadership Playbook of Silicon Valley's Bill Campbell",
+  "author": "Eric Schmidt, Jonathan Rosenberg, Alan Eagle",
+  "genre": "business",
+  "engine": "vox",
+  "engineRationale": "Book profile (strong): the subject is real people / real events → photoreal shows the actual world (Vox); mixed story + argument → leans Antidote for the ideas",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "real-historical",
+    "era": 2000,
+    "realPeople": true,
+    "format": "mixed",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "Bill Campbell, the coach, in a one-on-one session",
+      "Silicon Valley boardrooms of Apple, Google and Intuit",
+      "Steve Jobs and the product war room",
+      "Larry Page and Sergey Brin at Google",
+      "a whiteboard of management principles"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-09",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 4,
+    "antidoteScore": 15.2,
+    "signals": {
+      "year": 0.7,
+      "history": 0.5,
+      "second": 26.3,
+      "abstract": 7.5,
+      "sensitive": 2.9,
+      "era": 2001,
+      "words": 8825
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 26.3/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": true
+  }
+}
