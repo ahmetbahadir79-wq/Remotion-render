@@ -1,0 +1,6039 @@
+{
+  "slug": "the-square-and-the-tower-networks-and-power-from-the-freemasons-to-facebook",
+  "title": "The Square and the Tower: Networks and Power, from the Freemasons to Facebook",
+  "author": "Niall Ferguson",
+  "genre": "history",
+  "count": 365,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "Picture it. It's 1776. We're in Bavaria and this uh this university professor starts a secret club with just a handful of his",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "UNIVERSITY",
+          "PROFESSOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "university, professor, picture",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "students, And they call themselves the Illuminati. A very dramatic name. Very.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THEMSELVES",
+          "THE",
+          "ILLUMINATI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati., themselves, students",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 2,
+      "text": "But within a decade, the government completely crushes them. Like totally wiped out. They are gone. Yeah. Wiped off the map.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GOVERNMENT",
+          "COMPLETELY",
+          "CRUSHES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "But centuries later, I mean, even today, presidents, popes, the general public, they are still utterly convinced that this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CENTURIES",
+          "LATER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "exact group is somehow running the world from the shadows, which really forces us to ask, you know, the core question of modern history,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOMEHOW",
+          "RUNNING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 5,
+      "text": "How does a dead network, literally a few dozen college students, manage to cast a shadow over global empires for 200 years?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "200",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "I mean, what is it about their specific structure that just absolutely terrifies the establishment, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 7,
+      "text": "And to answer that, we are doing a deep dive today into an argument that honestly completely rewrites how we view human history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VIEW",
+          "HUMAN",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 8,
+      "text": "It really does. The premise is basically this. For most of human history, power was wielded violently, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 9,
+      "text": "And it was wielded from the top down through incredibly rigid hierarchies like a tower. Exactly. Think of it as the tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "RIGID",
+          "HIERARCHIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 10,
+      "text": "But horizontal networks, so you know the town square, the secret lodge, a guy on a horse carrying a letter or like a digital platform today,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIGITAL",
+          "PLATFORM",
+          "TODAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "right? The square, right? These horizontal networks have constantly risen up from the ground to blindside, to undermine and ultimately just beat those",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "HORIZONTAL",
+          "NETWORKS"
+        ],
+        "items": [
+          "BLINDSIDE",
+          "UNDERMINE",
+          "ULTIMATELY JUST"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 12,
+      "text": "towers. Completely beat them because we are so conditioned like by our textbooks to just focus on the kings, right? The presidents, the CEOs, the guys with the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CEOS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "statues. Exactly. the people sitting comfortably at the very top of those towers. But the real force of historical change, like the actual engine of disruption is",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "SITTING",
+          "COMFORTABLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "usually found way down below in the networks. The people just, you know, trading information in the dark. Okay, let's really unpack this because to actually",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRADING",
+          "INFORMATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "see this dynamic to make it physical for you listening right now, you have to go to Sienna, Italy. Oh, beautiful city. Incredible.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SIENNA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incredible., listening, beautiful",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 16,
+      "text": "So, imagine you were standing right in the middle of the city. Looming over you is the Tor Delangia. It's this massive imposing 14th century",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TOR",
+          "DELANGIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "delangia., standing, imposing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 17,
+      "text": "brick tower reaching right into the sky. Right. And it was built specifically to project raw secular power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRICK",
+          "TOWER",
+          "REACHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "It's literally designed to make you feel Mission accomplished. Yeah. Truly. But then look down at your feet and you're standing in the Piaza del Compo",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PIAZA",
+          "DEL",
+          "COMPO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "accomplished., literally, designed",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 19,
+      "text": "and it's this gorgeous wide shell-shaped public square and it was built entirely for horizontal human Right.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHELL-SHAPED",
+          "PUBLIC",
+          "SQUARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 20,
+      "text": "For the people. Yeah. people trading, people talking, forming connections, spreading rumors. So you have the tower and the square right there.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FORMING",
+          "CONNECTIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 21,
+      "text": "Two completely different ways of organizing human beings and they just exist right next to each other locked in this constant physical tension.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSTANT",
+          "PHYSICAL",
+          "TENSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "And today we are charting this ultimate battle across history. I mean, we're going to look at concrete factions, real people.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "BATTLE",
+          "ACROSS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "Yeah. We're talking about Adam Wishop's Illuminati in Bavaria. We're looking at the Rothschild banking dynasty just completely reshaping Europe.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ADAM",
+          "WISHOP",
+          "ILLUMINATI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 24,
+      "text": "Oh, that's a crazy story. It is uh the British Imperial Round Table all the way up to, you know, Mark Zuckerberg's tech platforms.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BRITISH",
+          "IMPERIAL",
+          "ROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "zuckerbergs, platforms., imperial",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 25,
+      "text": "Because if you don't understand that tension, the tower versus the square, you really cannot understand who holds power today, how they actually got it,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "UNDERSTAND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 26,
+      "text": "or why they are just so terrified of losing it, right? So, let's start by dropping into the 11th century just to see how the tower was actually built in the first Let's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "11TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lets, terrified, dropping",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 27,
+      "text": "do it. I want you to imagine you're walking inside the Cathedral of Santa Maria Asunda. This is on the island of Torchello, just near Venice.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "SANTA",
+          "MARIA",
+          "ASUNDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 28,
+      "text": "You step through the heavy wooden doors. You immediately smell the ancient damp stone, right? The centuries of just heavy incense completely baked into the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "WOODEN",
+          "DOORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "I can picture it. And you look up and there is this absolutely massive terrifying mosaic of the last judgment.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "TERRIFYING",
+          "MOSAIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "I mean, it dominates the entire space. And the way it's structured, it's in five very distinct, rigid tiers. it is an absolute masterpiece of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "MASTERPIECE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "psychological engineering. It really is. At the very top, you have Christ in glory. And then below him, you have these tears of angels.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOLOGICAL",
+          "ENGINEERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "have, psychological, engineering.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 32,
+      "text": "Perfectly ordered, perfectly ranked. Nobody is stepping out of line. Exactly. Then you have the saints and all the way at the agonizing bottom",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGONIZING",
+          "BOTTOM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 33,
+      "text": "tier, you have the fires of hell. Just demons, the damned, pure chaotic right? And it is the ultimate visual",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "VISUAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 34,
+      "text": "representation of a hierarchy. I mean, even the word itself, hierarchy, it literally means the rule of a high Oh, wow.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WORD",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 35,
+      "text": "I didn't know that. Yeah. So, that mosaic, it wasn't just, you know, nice art for the wall. It was political technology, right? It was explicitly designed to tell every",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL",
+          "TECHNOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "single illiterate peasant who walked into that cathedral exactly where they stood in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "ILLITERATE",
+          "PEASANT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 37,
+      "text": "the grand scheme of the which is to say completely at the And",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRAND",
+          "SCHEME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "think about what this means for you. how you operate every day because human beings are biologically wired to right? Evolutionary biology.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVOLUTIONARY",
+          "BIOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 39,
+      "text": "Yeah. Our brains, our social habits, we evolved as hunter gatherers, right? We are naturally horizontal creatures.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NATURALLY",
+          "HORIZONTAL",
+          "CREATURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 40,
+      "text": "We want to connect. Exactly. We want to form webs of connection, trade ideas, share gossip around a fire.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHARE",
+          "GOSSIP",
+          "AROUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 41,
+      "text": "We absolutely did not evolve to take orders from one guy sitting on a throne. No, not at all. But to survive war, to build agriculture on a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUILD",
+          "AGRICULTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 42,
+      "text": "massive scale, elites basically forced us into these rigid vertical towers. And they used imagery like that terrifying torchello mosaic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "TORCHELLO",
+          "MOSAIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "to convince the helotss at the bottom that this suffering, this intense stratification was divinely ordained, Basically, the message was",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INTENSE",
+          "STRATIFICATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "stratification, suffering, basically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 44,
+      "text": "you dig the dirt while the guy at the top holds the sword. And hey, God wants it that way. And this wasn't just, you know, a medieval European thing.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MEDIEVAL",
+          "EUROPEAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "medieval, european, sword.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 45,
+      "text": "This was the default mode of civilization for millennia all across the globe because initially it solved a massive logistical How to manage people.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "LOGISTICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 46,
+      "text": "Exactly. To manage a huge population to coordinate labor for agriculture or you know to raise an army for defense. You needed command and control.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COORDINATE",
+          "LABOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 47,
+      "text": "Yeah. You can't just crowdsource a defensive wall when a literal invading army is marching towards you, right? You need a guy to say put the rocks here.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "INVADING",
+          "ARMY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 48,
+      "text": "But that structure, it comes with a fatal flaw specifically regarding",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FATAL",
+          "FLAW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 49,
+      "text": "how information travels. Okay, so hierarchies create an information bottleneck.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INFORMATION",
+          "BOTTLENECK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 50,
+      "text": "A massive one. But surely this isn't a new problem, right? Hasn't this been happening since like the dawn of civilization? Literally the dawn.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HAPPENING",
+          "SINCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "Let's look at the third dynasty of this is around 2100 BC in southern Mesopotamia. They built this incredible, highly",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOUTHERN",
+          "MESOPOTAMIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "mesopotamia., incredible, southern",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 52,
+      "text": "hierarchical, massive irrigation system. A total marvel of ancient It was it it allowed them to cultivate this incredibly harsh environment.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "IRRIGATION",
+          "SYSTEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 53,
+      "text": "But as we know, empires fall and or eventually completely collapsed. Why?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "EMPIRES",
+          "FALL"
+        ],
+        "items": [
+          "WE KNOW",
+          "EMPIRES FALL",
+          "OR EVENTUALLY"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 54,
+      "text": "Because in a strict hierarchy, information only flows down. It's completely unidirectional. The ruling nodes at the top issue commands.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRICT",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 55,
+      "text": "But when the soil started suffering from salinization, so when the salt levels rose and the crop yields just started plummeting, the peasants at the bottom",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOIL",
+          "STARTED",
+          "SUFFERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "knew it instantly. They're standing in the dirt, right? The network at the base of the tower understood the ecological disaster that was unfolding right in front of their eyes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ECOLOGICAL",
+          "DISASTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 57,
+      "text": "But the top node, the king, he never heard the warnings. The tower was completely blind to the reality on the ground because a hierarchy just doesn't allow",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEARD",
+          "THE",
+          "WARNINGS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "information to flow efficiently upward. No, a peasant doesn't get an audience with a regional governor.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REGIONAL",
+          "GOVERNOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 59,
+      "text": "And let's be honest, a regional governor doesn't want to bring bad news to the king because they might lose their head, literally. So, the structure itself choked off",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRUCTURE",
+          "ITSELF",
+          "CHOKED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 60,
+      "text": "the very data it desperately needed to survive. The king kept demanding the exact same grain quotas. The system broke down and the whole empire",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KING",
+          "KEPT",
+          "DEMANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 61,
+      "text": "starved. So, the hierarchy basically prioritized obedience over truth. Precisely. Okay, I",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PRIORITIZED",
+          "OBEDIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "hear what you're saying, but I have to push back a little",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PUSH",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "Because hierarchy clearly works. I mean, it built, it built armies, it built the Roman Empire.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROMAN",
+          "EMPIRE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "built, hierarchy, because",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 64,
+      "text": "It is incredibly It is. If you want to build a pyramid or an aqueduct, you do not want a horizontal network debating the blueprints, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HORIZONTAL",
+          "NETWORK",
+          "DEBATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 65,
+      "text": "Or voting on where every single stone No, that would be chaos, right? You",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERY",
+          "SINGLE",
+          "STONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 66,
+      "text": "want a boss, you want middle managers, and you want workers executing the vision.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WORKERS",
+          "EXECUTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "You're right that it builds things, but look at how those things inevitably fall apart. A pure hierarchy is actually terribly fragile precisely",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PURE",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "because of that efficiency you're talking about. How so? Because it strips out all the redundant communication channels to make command faster.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REDUNDANT",
+          "COMMUNICATION",
+          "CHANNELS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "And that creates an absolute information bottleneck at the top. The network below knows the truth. They know the crops are failing or the enemies are matsing on the border, but the tower",
+      "design": {
+        "type": "map",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "INFORMATION",
+          "BOTTLENECK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 70,
+      "text": "is blind to it. And when the environment changes or a brand new threat emerges, the tower cannot adapt fast enough because the brain of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOWER",
+          "CANNOT",
+          "ADAPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "the operation is totally starved of data. So the people at the bottom just suffer the consequences of the top's ignorance. Not always.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOP",
+          "IGNORANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 72,
+      "text": "Because the square is always trying to survive under the heavy stone of the The natural human urge to connect horizontally.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NATURAL",
+          "HUMAN",
+          "URGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "It doesn't just magically disappear because a king declares himself a god, right? Or a CEO puts out a new org chart.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KING",
+          "DECLARES",
+          "HIMSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "It just goes underground. The networks adapt which brings us to a very specific underground network. Let's drop into",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "UNDERGROUND",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 75,
+      "text": "English Bavaria. Ah yes the date is May 1st 1776. A very interesting year for revolutions.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1ST",
+          "1776"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolutions., interesting, bavaria.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 76,
+      "text": "Very so imagine this dimly lit room in a university town. Adam Vishop who is a professor of canon",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ADAM",
+          "VISHOP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "university, professor, imagine",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 77,
+      "text": "law operating under the highly dramatic slightly ridiculous code name brother Spartacus. Naturally, naturally, he",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAME",
+          "BROTHER",
+          "SPARTACUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "naturally, ridiculous, spartacus.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 78,
+      "text": "is leaning across a wooden table and he is whispering to a handful of young eager student initiates and they are taking this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EAGER",
+          "STUDENT",
+          "INITIATES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 79,
+      "text": "gruesome, terrifying oath of secrecy, right? And violating the oath supposedly meant",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "OATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "like the most gruesome death, surrendering your life to the unseen",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRUESOME",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 81,
+      "text": "hands of the order. It was intense. And what was their actual master plan? Their goal was to overthrow superstition and the existing monarchical",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OVERTHROW",
+          "SUPERSTITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "power structures with what they called the son of reason, the enlightenment, right? They called themselves the order of the Illuminati.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "called, enlightenment, illuminati.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 83,
+      "text": "Vishop's ultimate objective was wildly ambitious. I mean, he literally wanted to make the human race one family, dispensing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VISHOP",
+          "ULTIMATE",
+          "OBJECTIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "with princes, nations, and organized religion entirely. No small feat, right? He was a radical product of the Enlightenment, but he knew",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ENLIGHTENMENT"
+        ],
+        "items": [
+          "WITH PRINCES",
+          "NATIONS",
+          "ORGANIZED RELIGION"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 85,
+      "text": "he was living in a deeply conservative Catholic state. Exactly. So, think about what it actually takes to pull something like that off.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CONSERVATIVE",
+          "CATHOLIC",
+          "STATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "conservative, something, catholic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 86,
+      "text": "If you want to spread a highly dangerous, disruptive idea like the total overthrow of the monarchy and the church in 18th century Europe, you absolutely",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "18TH",
+          "CENTURY",
+          "EUROPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "disruptive, absolutely, dangerous",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 87,
+      "text": "cannot broadcast it from a No, you'd be dead, right? You can't stand in the public square and just shout it. You'd be arrested and executed instantly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "BROADCAST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 88,
+      "text": "You must route it through an encrypted decentralized network. And Weiss was remarkably effective at designing this initial network to survive in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ENCRYPTED",
+          "DECENTRALIZED",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "decentralized, remarkably, encrypted",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 89,
+      "text": "such a hostile environment. But you know, it started incredibly How small? Well, by December 1779, so that's 3 years",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DECEMBER",
+          "1779"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "environment., incredibly, december",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 90,
+      "text": "in, the Illuminati still only had 60 members. Oh wow. Yeah. They were a tiny clique, mostly just confined to a few Bavarian university",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BAVARIAN",
+          "UNIVERSITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, university, members.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 91,
+      "text": "towns. So, how on earth did they become the boogeyman of global This is where the actual mechanics of networks come into play.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "MECHANICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 92,
+      "text": "It's about how viral spread kicks in. Thanks to a sociological concept called weak ties and the resulting network contagion, their",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RESULTING",
+          "NETWORK",
+          "CONTAGION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 93,
+      "text": "growth just exploded. By the early 1780s, the Illuminati had roughly 1300 members.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1300",
+          "MEMBERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, exploded., members.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 94,
+      "text": "That's a massive jump. And they weren't just poor college students anymore. They were infiltrating the actual ranks of the elite.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COLLEGE",
+          "STUDENTS",
+          "ANYMORE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 95,
+      "text": "Wait, let's pause on weak ties for a second because this is crucial for you to understand how your own life works.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LIFE",
+          "WORKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "Think about your five best friends, right? You all read the same news, you know the same people, you probably go to the same places. You're in a bubble.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FIVE",
+          "BEST",
+          "FRIENDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 97,
+      "text": "Exactly. If you share a secret, it stays trapped right in that little bubble. But a weak tie, say, you know, the barista you talk to maybe once a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STAYS",
+          "TRAPPED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "week or a guy you play tennis with but you don't really know well, an acquaintance, right? That person connects you to a completely different cluster",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSON",
+          "CONNECTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 99,
+      "text": "of humans. Vichelp didn't just recruit his best friends. He leveraged these weak ties to jump from one social cluster to another.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIAL",
+          "CLUSTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 100,
+      "text": "Exactly. Mark Granaveter wrote a really famous sociological paper on this in the 1970s called the strength of weak ties.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARK",
+          "GRANAVETER",
+          "WROTE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sociological, granaveter, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 101,
+      "text": "Oh, right. Ideas don't spread globally through tight-knit families. They spread across the bridges between different communities.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THROUGH",
+          "TIGHT-KNIT",
+          "FAMILIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 102,
+      "text": "And Vice intuitively understood this. He used weak ties to jump",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VICE",
+          "INTUITIVELY",
+          "UNDERSTOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intuitively, understood, this.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 103,
+      "text": "from university students into the broader pre-existing networks of Freemasonry",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BROADER",
+          "PRE-EXISTING",
+          "NETWORKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "pre-existing, freemasonry, university",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 104,
+      "text": "and those enlightenment salons. That's how they brought in the literary giant Ga. That's how they snagged the Duke of Sax Weimar.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SAX",
+          "WEIMAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "thats, enlightenment, literary",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 105,
+      "text": "It's incredible. He understood the mechanics of a viral social network centuries before the internet even He really did. He knew exactly how to seed an idea and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIAL",
+          "NETWORK",
+          "CENTURIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 106,
+      "text": "just let it propagate through human nodes. I mean, he sounds like an absolute evil genius architect of society.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "EVIL",
+          "GENIUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "You'd think so, right? But if you look at his actual private letters, the reality is much funnier and honestly a lot less",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "PRIVATE",
+          "LETTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "sinister. We have to admit it was a total bluff. Wait, what do you mean a bluff? I thought he designed this elaborate encrypted machine.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ELABORATE",
+          "ENCRYPTED",
+          "MACHINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "He designed the idea of one. Oh. Vice actually confessed to a new recruit that the ancient sprawling order he kept",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANCIENT",
+          "SPRAWLING",
+          "ORDER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 110,
+      "text": "hyping up, and I quote, only existed in his mind. You're kidding. No, there was no grand ancient architecture to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GRAND",
+          "ANCIENT",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "the Illuminati. It wasn't a master plan plotted out over decades by shadowy elders. He essentially faked it until he made it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati., essentially, plotted",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 112,
+      "text": "That is amazing. He was an 18th century vaporware salesman. He convinced a bunch of bored intellectuals that they were part of a massive ancient conspiracy",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "18TH",
+          "CENTURY",
+          "VAPORWARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "and by believing it, they actually built it. That is hilarious.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BELIEVING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 114,
+      "text": "He literally just manifested it through sheer confidence pretty much.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THROUGH",
+          "SHEER",
+          "CONFIDENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "But it worked. Even as a bluff, it functioned exactly as the hidden square, tunneling directly beneath the monarchical tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TUNNELING",
+          "DIRECTLY",
+          "BENEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 116,
+      "text": "It bypassed the government sensors. It bypassed the state police. And it moved radical ideas really rapidly among the elite.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GOVERNMENT",
+          "SENSORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 117,
+      "text": "It did. But to actually wield power to move from just sharing cool ideas in a pub to actually changing society, the network",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHANGING",
+          "SOCIETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "had to undergo a fundamental paradoxical mutation. And this is where the story of the Illuminati gets really fascinating and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FUNDAMENTAL",
+          "PARADOXICAL",
+          "MUTATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fundamental, paradoxical, fascinating",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 119,
+      "text": "where it teaches us a vital lesson about how networks actually operate in the real world when they bump up against existing power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AGAINST",
+          "EXISTING",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 120,
+      "text": "Which brings us to a guy named Adolf Fry Kiga. Code name Pho. Yes. the year 1782 and Kenga is sitting",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ADOLF",
+          "FRY",
+          "KIGA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sitting, brings, named",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 121,
+      "text": "at a desk furiously scratching his quill and parchment. He is drafting what he calls the new plan for the order.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESK",
+          "FURIOUSLY",
+          "SCRATCHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "And what he's doing, like physically crossing out lines of text, is deliberately destroying Weissop's flat egalitarian ideals.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DELIBERATELY",
+          "DESTROYING",
+          "WEISSOP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deliberately, egalitarian, physically",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 123,
+      "text": "Because Weissop wanted a network of absolute equals, no kings, no princes, just brothers in reason. Very utopian.",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "WEISSOP",
+          "WANTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 124,
+      "text": "Very. But Keniga looked at that flat structure and realized it was",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KENIGA",
+          "LOOKED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "structure, realized, keniga",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 125,
+      "text": "a recipe for total irrelevance. So Kenneka writes in highly stratified,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KENNEKA",
+          "WRITES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "irrelevance., stratified, kenneka",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 126,
+      "text": "completely fake ranks. He creates a rigid hierarchy out of thin air to lay right over the network. You don't just join as a brother anymore.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BROTHER",
+          "ANYMORE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "You start as a manurval. Then if you prove yourself, you become an Illuminatus minor, then a Scottish knight, then a magus.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SCOTTISH",
+          "KNIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminatus, manurval., yourself",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 128,
+      "text": "And here is the crucial takeaway about how the world actually works. A pure flat network is mostly useless for wielding actual power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WIELDING",
+          "ACTUAL",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 129,
+      "text": "It's great for sharing ideas. It's great for organizing a street protest, but it cannot sustain coordinated action.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "SUSTAIN",
+          "COORDINATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 130,
+      "text": "To conquer a hierarchy, a network almost always has to disguise itself as one. It has to adopt the geometry of its enemy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISGUISE",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 131,
+      "text": "Let's look at the broader Freemason network that [&nbsp;__&nbsp;] was essentially hijacking to build",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BROADER",
+          "FREEMASON",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "essentially, freemason, hijacking",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 132,
+      "text": "his Illuminati ranks. Because if you look at 19th century lithographs of George Washington,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GEORGE",
+          "WASHINGTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lithographs, illuminati, washington",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 133,
+      "text": "proudly wearing his Masonic apron, you start to really see the appeal, right? George Washington, the ultimate The man who violently rejected the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GEORGE",
+          "WASHINGTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "washington, violently, ultimate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 134,
+      "text": "British monarchy. The man who voluntarily walked away from being a king in America. Exactly. So why did this horizontal fraternal network lure",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "HORIZONTAL",
+          "FRATERNAL",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 135,
+      "text": "incredibly powerful men like Washington or the Duke of Saxar",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DUKE",
+          "OF",
+          "SAXAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incredibly, washington, powerful",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 136,
+      "text": "over in Europe? because it offered them exclusive hierarchical Yes,",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "EXCLUSIVE",
+          "HIERARCHICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 137,
+      "text": "it gave them a brand new ladder to climb, a secret status that elevated them above the uninitiated masses. Men who were already at the top of the societal tower",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNINITIATED",
+          "MASSES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "were perfectly happy to join an underground network as long as that network made them feel like they were at the top of a different cooler secret tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERGROUND",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "That makes so much sense. Kiga understood human ego. He knew a duke wasn't going to sit in a circle as a perfect equal with a shoe maker.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KIGA",
+          "UNDERSTOOD",
+          "HUMAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 140,
+      "text": "I actually want to push back on Kiga Go for it. Didn't he just ruin it? I mean, he took a beautiful flat network built on the pure ideals of reason and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEAUTIFUL",
+          "FLAT",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "beautiful, actually, network",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 141,
+      "text": "human equality and he synically turned it into just another elite tower. He completely corrupted Weiss Hop's vision of a society without ranks.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CORRUPTED",
+          "WEISS",
+          "HOP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "completely, synically, corrupted",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 142,
+      "text": "Well, the idealism was corrupted. Yes. But here's the harsh reality of history. Without Kiga's fake hierarchy, the aristocrats never",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KIGA",
+          "FAKE",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "aristocrats, corrupted., hierarchy",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 143,
+      "text": "would have joined in the first place. You don't think so? Not a chance. A purely flat network of radical egalitarian college students would have just died out",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "EGALITARIAN",
+          "COLLEGE",
+          "STUDENTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 144,
+      "text": "in a Bavarian pub. They would have drank beer, complained about the church, and vanished from history. The structure, the fake ranks, the mysteries, the initiation rights",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BAVARIAN",
+          "PUB"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "complained, initiation, structure",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 145,
+      "text": "that Kiga invented is exactly what turned a drinking club into a weapon. It",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KIGA",
+          "INVENTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "invented, drinking, exactly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 146,
+      "text": "allowed the Illuminati to interface directly with the existing power structures of the state.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI",
+          "TO",
+          "INTERFACE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, structures, interface",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 147,
+      "text": "That is such a wild paradox. To destroy the tower, the square has to disguise itself as a tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISGUISE",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 148,
+      "text": "It has to create a shadow hierarchy just to get the attention of the real one. And that geometry allowed the Illuminati to punch way above their weight class.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALLOWED",
+          "THE",
+          "ILLUMINATI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, hierarchy, attention",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 149,
+      "text": "At least until the Bavarian authorities found out, panicked, and outlawed them in 1784. But this pattern, the square needing to",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "BAVARIAN",
+          "AUTHORITIES"
+        ],
+        "items": [
+          "FOUND OUT",
+          "PANICKED",
+          "OUTLAWED THEM"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "interface with the tower to achieve true power, brings us to perhaps the most successful network in all of modern history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUCCESSFUL",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "Which takes us to the Congress of Vienna. The year is 1815. The Napoleonic Wars have finally ended after decades of bloodshed.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NAPOLEONIC",
+          "WARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "napoleonic, bloodshed., congress",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 152,
+      "text": "So, picture the room. It is opulent. You have emperors, kings, and diplomats covered in gold, braid, and metals.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "DIPLOMATS",
+          "COVERED"
+        ],
+        "items": [
+          "HAVE EMPERORS",
+          "KINGS",
+          "DIPLOMATS COVERED"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "And they're standing over a giant sweeping map of Europe, right? Drawing lines. They are casually redrawing borders, slicing up territories, trading",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CASUALLY",
+          "REDRAWING",
+          "BORDERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "territories, redrawing, standing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 154,
+      "text": "millions of lives. They literally called it the cake of kings. Wow. It is the ultimate display of top- down hierarchical monarchical power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HIERARCHICAL",
+          "MONARCHICAL",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 155,
+      "text": "That's the official historical But just outside that room down the street, picture a completely different kind of power operating simultaneously.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OFFICIAL",
+          "HISTORICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "A frantic Rothschild counting house. Exactly. Couriers covered in mud or rushing in and out of the doors with coated letters in their leather pouches.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRANTIC",
+          "ROTHSCHILD",
+          "COUNTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rothschild, counting, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 157,
+      "text": "They are moving information. And much more importantly, they are moving money far faster than any of those king's armies can march.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MOVING",
+          "INFORMATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 158,
+      "text": "Because the Rothschilds operated a decentralized horizontal family network that spanned the entire continent. You had Nathan Rothschild in London, James in Paris,",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "NATHAN",
+          "ROTHSCHILD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "Solomon in Vienna, Carl in Naples, and Amsel back in Frankfurt. Five brothers. Five brothers, five nodes constantly communicating,",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "AMSEL",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 160,
+      "text": "trading on information disparities across all those borders. So think about what this means for the nature of power today.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INFORMATION",
+          "DISPARITIES",
+          "ACROSS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 161,
+      "text": "Hierarchies like the kings at Vienna. They might hold the expensive pens that draw the borders on the map. but horizontal financial networks",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "HORIZONTAL",
+          "FINANCIAL",
+          "NETWORKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "hold the purse strings that dictate if those borders actually survive the winter. The kings of the Congress of Vienna honestly thought they were in charge of the world.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CONGRESS",
+          "OF",
+          "VIENNA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "actually, congress, honestly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 163,
+      "text": "But to fund their states, to pay their massive standing armies, to keep the peace, to build their infrastructure, they had a major Cash",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "STANDING",
+          "ARMIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "infrastructure, standing, massive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 164,
+      "text": "flow. Exactly. Taxes are collected slowly, usually once a year. Armies need to be paid every single day.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PAID",
+          "EVERY",
+          "SINGLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "To bridge that gap, the empires had to issue bonds. They had to borrow money, And the Rothschild network completely dominated the European sovereign",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EUROPEAN",
+          "SOVEREIGN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rothschild, completely, dominated",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 166,
+      "text": "bond If you jump forward a few decades to 1894,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECADES",
+          "TO",
+          "1894"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "look at the famous anti-rothschild political cartoon called The English",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANTI-ROTHSCHILD",
+          "POLITICAL",
+          "CARTOON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "anti-rothschild, political, cartoon",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 168,
+      "text": "Oh, I've seen that. It is a terrifying image. It depicts this giant menacing creature feeding on gold coins, wrapping its sprawling tentacles",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MENACING",
+          "CREATURE",
+          "FEEDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "around the entire globe, touching every single continent. That cartoon is incredibly revealing about the psychology of the era.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOUCHING",
+          "EVERY",
+          "SINGLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 170,
+      "text": "It shows exactly how terrifying a decentralized horizontal financial network looked to the traditional vertical towers of because they couldn't control it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECENTRALIZED",
+          "HORIZONTAL",
+          "FINANCIAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "Right? The Rothschilds didn't have a standing army. They didn't have a king. They didn't have a geographical country. Yet they seem to touch everything.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROTHSCHILDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "didnt, have, geographical",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 172,
+      "text": "They could ruin a nation's economy just by refusing to buy its debt. So there it is. The Rothschilds were the ultimate subversive network.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "SUBVERSIVE",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "rothschilds, subversive, refusing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 173,
+      "text": "They completely outmaneuvered the kings and the emperors. They proved the square could absolutely dominate and control the tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DOMINATE",
+          "AND",
+          "CONTROL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "That's the popular myth. But look at the historical record of what they actually did with that immense financial power. They didn't overthrow the empires.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IMMENSE",
+          "FINANCIAL",
+          "POWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 175,
+      "text": "They didn't fund republican revolutions to bring down the kings. They didn't. No, they financed the empires.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUND",
+          "REPUBLICAN",
+          "REVOLUTIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "They ended up desperately propping up the towers. Wait, why? If you have the power to break the king, why wouldn't you?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATELY",
+          "PROPPING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 177,
+      "text": "Because of how sovereign debt works. If the empires fell, if the kings were overthrown by radical democratic networks or violent revolutions, the new",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RADICAL",
+          "DEMOCRATIC",
+          "NETWORKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "governments would inevitably default on the old royal debts. Oh, wow. Right. Who would pay back the bonds? The Rothschilds became the ultimate stabilizers",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ROTHSCHILDS",
+          "BECAME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "would, governments, rothschilds",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 179,
+      "text": "of the monarchical hierarchy because their financial network survival was inextricably tied to the survival of the state towers.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINANCIAL",
+          "NETWORK",
+          "SURVIVAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 180,
+      "text": "That makes perfect sense. They needed the kings to stay on the thrones so the interest payments would keep arriving in Frankfurt and London.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "FRANKFURT",
+          "AND",
+          "LONDON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 181,
+      "text": "So they weren't subversive revolutionaries at all. They were the ultimate status quo. This is how the square ended up financing the tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEREN",
+          "SUBVERSIVE",
+          "REVOLUTIONARIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 182,
+      "text": "The network became the vital life support system for the hierarchy. The kings got to keep their crowns and the network got rich off the Precisely.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LIFE",
+          "SUPPORT",
+          "SYSTEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "network, hierarchy., precisely.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 183,
+      "text": "The tower needs the square to function. And to really understand how these hidden networks actually govern the visible structures of our world, like",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VISIBLE",
+          "STRUCTURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 184,
+      "text": "how they dictate everyday behavior, we need to leave the grand royal courts of Europe and step into a much smaller, seemingly mundane setting.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DICTATE",
+          "EVERYDAY",
+          "BEHAVIOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "seemingly, everyday, behavior",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 185,
+      "text": "Okay, let's go to a chalkboard at the New York Training School for Girls. The setting is Hudson, New York. The year is 1932.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "YORK",
+          "TRAINING",
+          "SCHOOL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "chalkboard, training, setting",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 186,
+      "text": "We are looking at the groundbreaking work of Jacob Mareno. He was a brilliant, highly idiosyncratic psychiatrist who basically invented the sociological",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JACOB",
+          "MARENO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "groundbreaking, idiosyncratic, psychiatrist",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 187,
+      "text": "study of networks. So Moreno is standing at this dusty chalkboard and he is drawing these intense, tangled, chaotic webs of lines and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MORENO",
+          "IS",
+          "STANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "chalkboard, networks., standing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 188,
+      "text": "circles. He called them sociograms, He's trying to map the hidden social dynamics of the teenage girls living in this reformatory.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HIDDEN",
+          "SOCIAL",
+          "DYNAMICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "reformatory., sociograms, circles.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 189,
+      "text": "He draws red lines between the circles to represent hate and rejection. He draws blue lines to represent friendship, attraction, and The",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "REPRESENT",
+          "FRIENDSHIP"
+        ],
+        "items": [
+          "REPRESENT FRIENDSHIP",
+          "ATTRACTION",
+          "THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "context here is that the school was experiencing a massive epidemic of girls running away. It was a complete crisis. And the administration, the tower, couldn't figure it",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "EPIDEMIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "out. They were clueless, right? Because they were looking at the problem purely through the lens of the official structure. They looked at the physical layout of the cottages, the written rules,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OFFICIAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "the disciplinary records of the house mothers. They were basically looking at the org chart. But Marina wasn't looking at the org chart.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARINA",
+          "WASN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "looking, chart., disciplinary",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 193,
+      "text": "He knew the official rules didn't matter. He was looking at the invisible And by mapping those red and blue lines by actually asking the girls",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OFFICIAL",
+          "RULES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "who they liked and who they hated, he found the exact hidden social web that explained the runaways. He could physically see the hidden",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "HIDDEN",
+          "SOCIAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "hubs of influence, the isolated girls who were being bullied, the secret channels where rumors traveled. And this has a massive direct application",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "DIRECT",
+          "APPLICATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 196,
+      "text": "to you listening right now. Think about your own office, your life, your workplace. Your success is completely governed by these invisible",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OWN",
+          "OFFICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "It's never about the official org chart. It doesn't matter who is officially the vice president or the regional director.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REGIONAL",
+          "DIRECTOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "Who is the person everyone actually goes to when they need it help or when they want the real story on the upcoming It's almost never the person at",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSON",
+          "EVERYONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "the top. No, it is about your betweenness centrality in the hidden network. Betweenness centrality that is a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BETWEENNESS",
+          "CENTRALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 200,
+      "text": "foundational concept in network theory. What does it mean exactly? It mathematically measures the extent to which information must pass through a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FOUNDATIONAL",
+          "CONCEPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 201,
+      "text": "particular node to get to other nodes. You might not have the highest title on the door, but if you are the single person who connects the introverted engineering",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTROVERTED",
+          "ENGINEERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "cluster to the highly extroverted marketing cluster, you hold immense informal power. You are the It's the invisible square that dictates",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXTROVERTED",
+          "MARKETING",
+          "CLUSTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 203,
+      "text": "how the tower actually functions on a daily basis. And what's wild is that we can",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DAILY",
+          "BASIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 204,
+      "text": "trace the pure math of this all the way back to a puzzle in 1735.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PUZZLE",
+          "IN",
+          "1735"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "Ah, the famous Koigber bridge problem. Yes. Okay. So the city of Koenigingsburg in Prussia was built around the Pragal River.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "PRAGAL",
+          "RIVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 206,
+      "text": "It had two large islands connected to each other and to the mainland by exactly seven bridges, The locals had this long-standing puzzle.",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "LARGE",
+          "ISLANDS",
+          "CONNECTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "Could you plan a walking route through the city that crossed all seven bridges exactly once? People tried for years.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WALKING",
+          "ROUTE",
+          "THROUGH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "They walked in circles. And then enter the genius mathematician Leonard Oiler. He proved definitively that it was impossible.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MATHEMATICIAN",
+          "LEONARD",
+          "OILER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "mathematician, definitively, impossible.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 209,
+      "text": "But what's really fascinating for our purposes is how he proved it. He basically invented a whole new branch of mathematics to do it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WHOLE",
+          "NEW",
+          "BRANCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 210,
+      "text": "He didn't look at a physical map of the city, did he? He didn't care about the size of the islands or how long the bridges were or what they were made of.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "MAP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "He stripped away all the distracting physical reality and abstracted the entire city into just two conceptual things.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISTRACTING",
+          "PHYSICAL",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "Nodes, which were the land masses, and edges, which were the bridges connecting them. He revealed the fundamental mathematical structure of the network.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FUNDAMENTAL",
+          "MATHEMATICAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 213,
+      "text": "He proved logically that for such a continuous walk to be possible, a network graph must have either exactly two nodes with an odd number of edges connecting",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EDGES",
+          "CONNECTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 214,
+      "text": "to them or Okay, wait, explain that a bit more. Basically, you have to enter a node and leave it, which requires an even number of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENTER",
+          "A",
+          "NODE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 215,
+      "text": "edges, unless it's your starting or ending point. Got it. Koenigburg had four land masses and every single one of them had an odd number of bridges connected",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRIDGES",
+          "CONNECTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 216,
+      "text": "to it. Therefore, mathematically the walk was completely impossible. So wait, if it's all just math, if human behavior boils",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "BEHAVIOR",
+          "BOILS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 217,
+      "text": "down to nodes and edges, this means human behavior is totally You'd think. I mean, once Mareno maps the girls in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARENO",
+          "MAPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "behavior, totally, think.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 218,
+      "text": "the reformatory or Oiler maps the bridges or Facebook maps your friends, you can perfectly control the network.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FACEBOOK",
+          "MAPS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "maps, reformatory, perfectly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 219,
+      "text": "You just engineer the links. You change the edges. Here's where the math contradicts that assumption. If it's perfectly predictable, why are social networks",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIAL",
+          "NETWORKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "so notoriously unstable? Why do revolutions happen overnight? What do you mean? We have the sociograms. We have the You can map the nodes.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REVOLUTIONS",
+          "HAPPEN",
+          "OVERNIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "Yes, you can draw the current structure. But the math of networks also shows us what are called emergent properties.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CALLED",
+          "EMERGENT",
+          "PROPERTIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "Emergent properties. Yeah. A human social network isn't a static bridge made of stone. It's dynamic. It's constantly shifting.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMERGENT",
+          "PROPERTIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 223,
+      "text": "And the math shows us that a single seemingly random new connection between two previously unconnected clusters can cause a massive phase transition.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "PHASE",
+          "TRANSITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "Okay, let's ground that. Think about being at a quiet dinner party. Good analogy. You have a dozen people and everyone is having separate polite low volume side",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HAVING",
+          "SEPARATE",
+          "POLITE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "conversations. You have multiple disconnected clusters of notes, right? Then someone drops a massive piece of shocking gossip loudly enough for",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MULTIPLE",
+          "DISCONNECTED",
+          "CLUSTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "two groups to hear. Instantly, every single person stops what they are doing and is pulled into one single highly charged unified conversation.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHARGED",
+          "UNIFIED",
+          "CONVERSATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "The entire structure of the room changed in 1 second based on one new piece of information crossing a gap. That's a phase transition.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "1",
+          "SECOND",
+          "BASED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "Exactly. You think you understand the network. The tower thinks it perfectly controls the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOWER",
+          "THINKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "environment and then one rumor spreads across a weak tie and the entire",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RUMOR",
+          "SPREADS",
+          "ACROSS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 230,
+      "text": "structure collapses into chaos overnight. The Arab Spring is a perfect modern example of a massive phase Oh wow.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ARAB",
+          "SPRING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "overnight., structure, collapses",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 231,
+      "text": "Yes. You cannot neatly engineer a human network the way you engineer a hierarchy because networks are inherently Which",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "NEATLY",
+          "ENGINEER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "engineer, inherently, hierarchy",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 232,
+      "text": "explains exactly why hierarchies are so terrified of them. The tower looks down at the square, sees this unpredictable, mathematically chaotic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOWER",
+          "LOOKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 233,
+      "text": "web of shifting alliances, and completely panics. And that institutional panic leads us directly to our next beat, the myth of the",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "SHIFTING",
+          "ALLIANCES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 234,
+      "text": "omnipotent network. When the tower gets scared, it starts seeing ghosts. Let's go to the early 1900s to see this in action.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EARLY",
+          "1900S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 235,
+      "text": "We're in a quiet, smoke-filled club in London. Very posh. Very sinking into deep leather armchairs sipping expensive port",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ARMCHAIRS",
+          "SIPPING",
+          "EXPENSIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "is Lord Alfred Milner and his so-called kindergarten a group that later evolved into the infamous round table.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LORD",
+          "ALFRED",
+          "MILNER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "kindergarten, so-called, infamous",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 237,
+      "text": "These were young, ambitious, highly educated British imperialists. Men like the prominent writer John Buchanan.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WRITER",
+          "JOHN",
+          "BUCHANAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "imperialists., ambitious, prominent",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 238,
+      "text": "They were the absolute intellectual elite of the Eduardian era. They are sitting around taking notes and dreaming out loud about creating a massive",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EDUARDIAN",
+          "ERA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "intellectual, eduardian, absolute",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 239,
+      "text": "federal English-speaking world empire. Modest goals, right? They wanted a global superstate run essentially from London, uniting",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FEDERAL",
+          "ENGLISH-SPEAKING",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "english-speaking, essentially, superstate",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 240,
+      "text": "the UK, America, and the Dominions. Now, why should you care about a",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "DOMINIONS"
+        ],
+        "items": [
+          "UK",
+          "AMERICA",
+          "DOMINIONS"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "bunch of Edwardian elites drinking port and talking politics in a private club?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "EDWARDIAN",
+          "ELITES",
+          "DRINKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "Because of how the rest of the world reacted to them, When a traditional hierarchy feels insecure. So when the British Empire started feeling its grip",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BRITISH",
+          "EMPIRE",
+          "STARTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "traditional, hierarchy, insecure.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 243,
+      "text": "slipping in a rapidly changing world, it will invariably project its own massive existential fears onto a small bounded It",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "EXISTENTIAL",
+          "FEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 244,
+      "text": "takes a group of ambitious, slightly arrogant nerds talking theory and it turns them into a sinister omnipotent global cabal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINISTER",
+          "OMNIPOTENT",
+          "GLOBAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 245,
+      "text": "People genuinely believed the round table was a secret honta actively running the world. Politicians in France, in Canada, in America were terrified",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "AMERICA",
+          "WERE",
+          "TERRIFIED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 246,
+      "text": "of them. They really were. They thought these guys were pulling all the strings of global finance and war. And this connects perfectly back to the Illuminati paranoia we started with.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI",
+          "PARANOIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, perfectly, connects",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 247,
+      "text": "It's the exact same psychological mechanism. In 1797, over a decade after the Illuminati had been completely destroyed and outlawed by the Bavarian",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SAME",
+          "PSYCHOLOGICAL",
+          "MECHANISM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "psychological, mechanism., illuminati",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 248,
+      "text": "government, a massive panic erupted across Europe. Two writers, Augustine Deber and John Robersonson, published these incredibly",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "JOHN",
+          "ROBERSONSON"
+        ],
+        "items": [
+          "TWO WRITERS",
+          "AUGUSTINE DEBER",
+          "JOHN ROBERSONSON"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 249,
+      "text": "popular, completely sensationalized books, claiming that the Illuminati hadn't died at all. Not even a little bit. They claimed the Illuminati had just gone further",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI",
+          "HADN",
+          "DIED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illuminati, sensationalized, completely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 250,
+      "text": "underground and had actually engineered the entire French Revolution. They blamed the fall of the French monarchy on Weissup's dead book The",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCH",
+          "REVOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "french, underground, revolution.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 251,
+      "text": "network was literally dead. Most of its members were in exile or hiding. But the tower's paranoia made it immortal.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOWER",
+          "PARANOIA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 252,
+      "text": "It's crazy. The established order, the remaining monarchs of Europe, they needed a boogeyman. They needed an explanation for the chaos of the French Revolution",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRENCH",
+          "REVOLUTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "needed, established, explanation",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 253,
+      "text": "that wasn't just, \"Hey, the peasants hate us and we mismanaged the economy.\" Right? That's too",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "PEASANTS",
+          "HATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 254,
+      "text": "hard to admit. So, they inflated the ghost of Weissop's little club into a global menace.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WEISSOP",
+          "LITTLE",
+          "CLUB"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "inflated, weissops, menace.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 255,
+      "text": "But wait, let me interrupt here because we can't just dismiss all of this as pure paranoia. Why not? Well, historians like Carol Quigley, who was hugely",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CAROL",
+          "QUIGLEY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "historians, interrupt, paranoia.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 256,
+      "text": "influential. I mean, Bill Clinton even quoted him in his inauguration speech.Wigley swore",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BILL",
+          "CLINTON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "speech.wigley, influential., inauguration",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 257,
+      "text": "the round table actually did run British foreign policy from the shadows.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BRITISH",
+          "FOREIGN",
+          "POLICY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "actually, shadows., british",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 258,
+      "text": "He spent his entire career claiming that he had immense secret power and fundamentally shaped the 20th century. They were a real threat.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "20TH",
+          "CENTURY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 259,
+      "text": "Quigley certainly believed that. But look at the actual historical record. Look at what happened to their grand plans. They failed completely.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "HISTORICAL",
+          "RECORD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 260,
+      "text": "They did utterly and completely. Did Britain form a unified federal English-speaking world Well, no.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "UNIFIED",
+          "FEDERAL",
+          "ENGLISH-SPEAKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "english-speaking, completely., utterly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 261,
+      "text": "No. The exact opposite happened. The British Empire violently fell apart. They lost control of their dominions. They lost their economic supremacy.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BRITISH",
+          "EMPIRE",
+          "VIOLENTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "lost, dominions., supremacy.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 262,
+      "text": "They endured two world wars that absolutely bankrupted them. The round table so-called supreme power over global affairs was an absolute",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TABLE",
+          "SO-CALLED",
+          "SUPREME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 263,
+      "text": "illusion. It was an illusion inflated by their own arrogance. Sure, but mostly it was inflated by paranoid politicians who were desperately looking for a scapegoat",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ILLUSION",
+          "INFLATED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 264,
+      "text": "for their own geopolitical failures. That is fascinating. It is the tower having a literal nightmare about the square.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GEOPOLITICAL",
+          "FAILURES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 265,
+      "text": "The hierarchy is so scared of what it can't control and so incapable of admitting its own flaws that it just invents a monster in the shadows.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCAPABLE",
+          "OF",
+          "ADMITTING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 266,
+      "text": "Exactly. But we have to be careful here. Just because networks aren't omnipotent global cabals doesn't mean they don't wield incredible targeted power.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WIELD",
+          "INCREDIBLE",
+          "TARGETED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 267,
+      "text": "Especially when that network is concentrated in a single highly connected individual who actually knows how to manipulate the math.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONNECTED",
+          "INDIVIDUAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 268,
+      "text": "Which brings us to the individual hub of power. Let's go to the White House early 1970s. Richard Nixon is the president, but we are",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOUSE",
+          "EARLY",
+          "1970S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "individual, president, richard",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 269,
+      "text": "looking closely at his national security adviser Henry A very interesting note. He is sitting at his desk and he",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SECURITY",
+          "ADVISER",
+          "HENRY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "interesting, national, security",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 270,
+      "text": "is surrounded by ringing phones. He is operating a foreign policy machine entirely out of his own office and he is aggressively not going through",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FOREIGN",
+          "POLICY",
+          "MACHINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 271,
+      "text": "the official hierarchy of the state Right? He is completely bypassing the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OFFICIAL",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 272,
+      "text": "traditional diplomatic tower. He's back channeling directly with the Soviet ambassador Anatoli",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOVIET",
+          "AMBASSADOR",
+          "ANATOLI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "traditional, diplomatic, channeling",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 273,
+      "text": "de Brinion. He's joking with powerful journalists on the private line. He's chatting up Hollywood producers and foreign dignitaries.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HOLLYWOOD",
+          "PRODUCERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dignitaries., journalists, hollywood",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 274,
+      "text": "Kissinger wasn't just using a network. He was the network. He was a one-man So, here is the stake for you thinking",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KISSINGER",
+          "WASN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 275,
+      "text": "about how power actually works today. In modern history, you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 276,
+      "text": "don't actually need a massive organization to wield immense you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "ORGANIZATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 277,
+      "text": "don't need a standing army and you don't need a sprawling, slowmoving bureaucracy. A single individual who acts as a highly connected hub",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SLOWMOVING",
+          "BUREAUCRACY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 278,
+      "text": "can hold more influence than a bureaucratic tower with thousands of employees. We see this exact same dynamic in the corporate world, too.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUREAUCRATIC",
+          "TOWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 279,
+      "text": "Look at Vernon Jordan Jr. in the 1970s and 80s. he started his career as a civil rights lawyer in Georgia, totally outside the corporate establishment.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "VERNON",
+          "JORDAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "But look at how he built his network over time. It's a masterclass in network building. He joined the board of selonies.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NETWORK",
+          "BUILDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "Meeting people there led to a seat at Bankers Trust. That led to JC Penney, then Xerox, then American Express.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "AMERICAN",
+          "EXPRESS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "He was on the board of RJR Nabiscoco during the biggest leveraged buyout in history. He became what network scientists technically call a super node.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RJR",
+          "NABISCOCO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "technically, scientists, nabiscoco",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 283,
+      "text": "His career perfectly illustrates a sociological concept known as the Matthew effect, which comes from the Gospel of Matthew, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOSPEL",
+          "OF",
+          "MATTHEW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "matthew, sociological, illustrates",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 284,
+      "text": "For unto everyone that hath shall be given, and he shall have abundance. The rich get richer. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNTO",
+          "EVERYONE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 285,
+      "text": "But in network terms, it means the connected get more connected. It operates on a principle called preferential Preferential attachment.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PREFERENTIAL",
+          "PREFERENTIAL",
+          "ATTACHMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "preferential, attachment., connected.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 286,
+      "text": "Yeah. When a new node joins a network, say a new company is looking for a powerful board member. It doesn't attach randomly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POWERFUL",
+          "BOARD",
+          "MEMBER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 287,
+      "text": "It prefers to attach to a node that already has a lot of connections",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PREFERS",
+          "TO",
+          "ATTACH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 288,
+      "text": "because that hub offers the most value. So once Vernon Jordan became a hub,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VERNON",
+          "JORDAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "because, offers, value.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 289,
+      "text": "new edges naturally gravitated towards him. Yes, he became an indispensable broker of information across the entire American corporate landscape.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMERICAN",
+          "CORPORATE",
+          "LANDSCAPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "indispensable, information, gravitated",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 290,
+      "text": "He knew what the banks were doing, what the tech companies were doing, what retail was doing. And Kissinger did the exact same thing in geopolitics.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KISSINGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "doing, geopolitics., companies",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 291,
+      "text": "He was a strategic genius. He saw that the State Department hierarchy was sluggish. It was prone to leaks and it was bogged down in ideological battles.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "DEPARTMENT",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ideological, department, strategic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 292,
+      "text": "So, he completely bypassed the tower to get things done. He centralized the network in himself, right? And look at the results.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CENTRALIZED",
+          "THE",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 293,
+      "text": "I mean, he negotiated an end to the Vietnam War. He secretly opened relations with communist China. He negotiated data and arms control with the Soviets.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VIETNAM",
+          "WAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "negotiated, relations, communist",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 294,
+      "text": "He was the ultimate successful square operating inside the tower. He was incredibly effective at first. I'll give you that.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "SUCCESSFUL",
+          "SQUARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 295,
+      "text": "But here's where the structure turns on What do you mean? His entire system eventually fell apart. Really? He's considered one of the most effective diplomats in history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EFFECTIVE",
+          "DIPLOMATS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 296,
+      "text": "Effective, yes. But sustainable? No. Because his system became a victim of the crisis of complexity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SYSTEM",
+          "BECAME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 297,
+      "text": "when you rely entirely on a personal ego network where all the vital connections, all the secrets, all the negotiations run exclusively through you as the single central",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSONAL",
+          "EGO",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 298,
+      "text": "hub, the structure is incredibly fragile. Also, if he controls everything, isn't it more secure? The opposite.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONTROLS",
+          "EVERYTHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 299,
+      "text": "Because the moment a single weak tie phrase or one secret conversation leaks to the press, you don't have the institutional shock absorbers of a hierarchy",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INSTITUTIONAL",
+          "SHOCK",
+          "ABSORBERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 300,
+      "text": "to protect you. Right. There's no bureaucracy to blame. Exactly. Kissinger's extreme secrecy and his total reliance on his personal network bred intense",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "KISSINGER",
+          "EXTREME",
+          "SECRECY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 301,
+      "text": "distrust everywhere else. It created a massive bottleneck. The State Department was alienated and angry. Congress was entirely suspicious cuz they were locked",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "DEPARTMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "bottleneck., everywhere, department",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 302,
+      "text": "out. And the whole delicate, highly personalized structure eventually descended into the profound paranoia and chaos that ultimately consumed the Nixon",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PERSONALIZED",
+          "STRUCTURE",
+          "EVENTUALLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "personalized, eventually, ultimately",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 303,
+      "text": "administration. Wow. The hub became the bottleneck. He built a network to escape the hierarchy.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ESCAPE",
+          "THE",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 304,
+      "text": "But by making himself the only node, he created all the flaws of a hierarchy with none of the stability. It's one man acting as",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAKING",
+          "HIMSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 305,
+      "text": "the square to bypass the tower, but ultimately collapsing under the weight of his own connections. Precisely. And that fragility of the centralized network",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CENTRALIZED",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 306,
+      "text": "is a perfect segue into our final beat. Because today we aren't just dealing with individual human hubs like Kissinger or Jordan.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KISSINGER",
+          "OR",
+          "JORDAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "individual, kissinger, perfect",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 307,
+      "text": "we are dealing with algorithmic architectures that operate on a scale Henry Kissinger could barely comprehend the modern algorithmic square.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SCALE",
+          "HENRY",
+          "KISSINGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "algorithmic, architectures, comprehend",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 308,
+      "text": "And to really analyze this, we need to look at the defining political event of our era. The year is 2016.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEFINING",
+          "POLITICAL",
+          "EVENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 309,
+      "text": "And just a quick but vital note to our listeners. We are analyzing this purely from the perspective of network mechanics and structural dynamics exactly as",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRUCTURAL",
+          "DYNAMICS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 310,
+      "text": "the source material lays it out. We aren't taking political sides here. We are strictly looking at the architecture of the events and how information flowed.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKING",
+          "POLITICAL",
+          "SIDES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 311,
+      "text": "Picture Donald Trump. He is literally sitting in his 58tory Fifth Avenue tower. But he isn't acting like a traditional hierarchical political",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "58TORY",
+          "FIFTH",
+          "AVENUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hierarchical, traditional, literally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 312,
+      "text": "Not at all. He isn't holding press conferences to issue memos. He",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HOLDING",
+          "PRESS",
+          "CONFERENCES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 313,
+      "text": "is holding a smartphone actively bypassing the traditional media gatekeepers and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRADITIONAL",
+          "MEDIA",
+          "GATEKEEPERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 314,
+      "text": "tapping out a tweet directly to millions of followers instantly. And at the exact same time, half a world away, a network of Russian intelligence",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "RUSSIAN",
+          "INTELLIGENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 315,
+      "text": "agents is executing a highly sophisticated cyber operation. Right? They are quietly breaching the servers of the Democratic National Committee.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEMOCRATIC",
+          "NATIONAL",
+          "COMMITTEE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sophisticated, operation., democratic",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 316,
+      "text": "They extract stolen emails and they route them through Wikileaks which is a stateless horizontal publishing network to ensure maximum viral spread across",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STATELESS",
+          "HORIZONTAL",
+          "PUBLISHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "horizontal, publishing, wikileaks",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 317,
+      "text": "the globe. So think about what this means for your digital life and the promises we were all sold because in the '9s and early 2000s",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EARLY",
+          "2000S"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 318,
+      "text": "we were all promised that the internet was going to be this beautiful egalitarian utopian public right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEAUTIFUL",
+          "EGALITARIAN",
+          "UTOPIAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 319,
+      "text": "a place where everyone had an equal voice, where hierarchies would just melt away. It was the digital equivalent of Adam Weissop's original flat",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ADAM",
+          "WEISSOP",
+          "ORIGINAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "where, hierarchies, equivalent",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 320,
+      "text": "Illuminati ideal, a world connected by reason, entirely free",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI",
+          "IDEAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 321,
+      "text": "of gatekeepers. But instead, it became a chaotic, hyperacelerated",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BECAME",
+          "A",
+          "CHAOTIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 322,
+      "text": "battleground, a place where viral contagion and weaponized algorithmic networks can entirely upend, blindside, and humiliate established",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "WEAPONIZED",
+          "ALGORITHMIC"
+        ],
+        "items": [
+          "ENTIRELY UPEND",
+          "BLINDSIDE",
+          "HUMILIATE ESTABLISHED"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 323,
+      "text": "vertical political towers. The structural contrast in the 2016 election was just stark. Look at the Hillary Clinton campaign.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HILLARY",
+          "CLINTON",
+          "CAMPAIGN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "structural, political, campaign.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 324,
+      "text": "It operated as a classic, highly rigid traditional hierarchical structure. It was the ultimate political tower, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRADITIONAL",
+          "HIERARCHICAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 325,
+      "text": "It had flowcharts, clear chains of command, heavily vetted messaging, focus groups, and a deep reliance on established institutional networks and traditional",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ESTABLISHED",
+          "INSTITUTIONAL"
+        ],
+        "items": [
+          "VETTED MESSAGING",
+          "FOCUS GROUPS",
+          "DEEP"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 326,
+      "text": "media endorsements. Against that, you had Trump's massive, wildly decentralized online social network.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TRUMP",
+          "MASSIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "endorsements., decentralized, network.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 327,
+      "text": "His campaign didn't rely on vetting or focus groups. It fed on sheer virality and the raw mechanics of preferential attachment that we just",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PREFERENTIAL",
+          "ATTACHMENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 328,
+      "text": "talked about. The algorithm didn't care about truth or institutional approval. It cared about engagement.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INSTITUTIONAL",
+          "APPROVAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 329,
+      "text": "The more attention a node got, no matter how controversial, the more edges attached to it. The algorithm actively amplified outrage over institutional",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALGORITHM",
+          "ACTIVELY",
+          "AMPLIFIED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 330,
+      "text": "vetting. And that decentralized network, aided by the exogenous shock of the Russian hacking network pumping raw data into the system, completely outmaneuvered",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RUSSIAN",
+          "HACKING",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "network, decentralized, outmaneuvered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 331,
+      "text": "the traditional political hierarchy. It did. The tower couldn't move fast enough to counter the square. So there it is.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRADITIONAL",
+          "POLITICAL",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 332,
+      "text": "The ultimate victory of the flat network over the establishment hierarchy. The internet did exactly what it promised. The square finally beat the tower for good.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ESTABLISHMENT",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 333,
+      "text": "We live in the era of the network. I would strongly caution against that Look deeper at who actually owns",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STRONGLY",
+          "CAUTION",
+          "AGAINST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "network., strongly, actually",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 334,
+      "text": "the architecture of these new networks. Look at the underlying physical structure of the internet. What do you mean? It's the worldwide web.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERLYING",
+          "PHYSICAL",
+          "STRUCTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 335,
+      "text": "It's decentralized by definition. The users are decentralized. The infrastructure is not.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DECENTRALIZED",
+          "BY",
+          "DEFINITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 336,
+      "text": "Facebook, Google X, the server farms, the literal fiber optic cables at the bottom of the ocean.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LITERAL",
+          "FIBER",
+          "OPTIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "facebook, literal, google",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 337,
+      "text": "These are not flat democratic public squares owned by the people. not at all. They are massive, highly concentrated, profoundly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEMOCRATIC",
+          "PUBLIC",
+          "SQUARES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 338,
+      "text": "unequal corporate towers. Oh wow. They are run by incredibly small boards of directors or in some cases single",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNEQUAL",
+          "CORPORATE",
+          "TOWERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 339,
+      "text": "CEOs with near absolute authority over the algorithm that dictates what billions of people see every single day.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NEAR",
+          "ABSOLUTE",
+          "AUTHORITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 340,
+      "text": "Mark Zuckerberg or Elon Musk can literally flip a switch and change the flow of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ELON",
+          "MUSK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "zuckerberg, literally, switch",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 341,
+      "text": "information globally. They dictate the rules of the square from the penthouse of an invisible,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INFORMATION",
+          "GLOBALLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 342,
+      "text": "heavily guarded tower. That is deeply unsettling. It is the square being completely swallowed by the new tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GUARDED",
+          "TOWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 343,
+      "text": "We think we are in a horizontal network arguing is absolute equals, but we are actually just data points generating ad revenue in a vertical corporate",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HORIZONTAL",
+          "NETWORK",
+          "ARGUING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 344,
+      "text": "hierarchy. The illusion of the square is the most effective tool for masking the reality of the tower.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EFFECTIVE",
+          "TOOL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 345,
+      "text": "Okay, we really need to step back here because we've just spent the last hour tracking this epic sweeping battle between networks and hierarchies across a thousand years of history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EPIC",
+          "SWEEPING",
+          "BATTLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 346,
+      "text": "And I have to admit, it is an incredibly seductive frame. It is. It makes everything make sense. You look at the world and suddenly you see towers and squares",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "SEDUCTIVE",
+          "FRAME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 347,
+      "text": "everywhere. It's a very elegant lens for reading history. But we have to offer an honest, rigorous critique of the book's fundamental premise.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIGOROUS",
+          "CRITIQUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 348,
+      "text": "Because this lens has a very dangerous flaw if you apply it too universally. Yet strains under the weight of reality. It does.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DANGEROUS",
+          "FLAW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 349,
+      "text": "When we start trying to force every single human connection, every historical event into this neat little network versus hierarchy box, we run a massive",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NETWORK",
+          "VERSUS",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 350,
+      "text": "intellectual risk. We accidentally validate the paranoid style of politics we were literally just right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PARANOID",
+          "STYLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 351,
+      "text": "We start equating a messy chaotic group of friends like say the Bloomsbury group of writers in London just hanging out and talking about art or Voltater writing",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "VOLTATER",
+          "WRITING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 352,
+      "text": "letters to his intellectual pen pals across Europe. Right? We equate that with the sinister omnipotent cabals imagined by internet truthers or the John Burch",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "JOHN",
+          "BURCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 353,
+      "text": "society because not every network is a conspiracy. Sometimes a group of people writing letters is literally just a group of people writing letters.",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "WRITING",
+          "LETTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 354,
+      "text": "They aren't tunneling under the tower to destroy society. They're just chatting in the square because they have similar If we aren't careful, reading history this way turns",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESTROY",
+          "SOCIETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 355,
+      "text": "every listener into an amateur conspiracy theorist. You start seeing the Illuminati behind every coincidence. You see a secret round table behind every confusing",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "ILLUMINATI",
+          "BEHIND",
+          "EVERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 356,
+      "text": "policy When the truth is, usually it's just chaotic, flawed, stressed out people making things up as they go along and just trying to survive the day.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "MAKING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 357,
+      "text": "History is very often less about grand network strategies executed with flawless precision and much more about stumbling through the dark and dealing with the unintended consequences.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NETWORK",
+          "STRATEGIES",
+          "EXECUTED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 358,
+      "text": "So where does that leave us? If the framework is flawed, but the history is real, what is the actual takeaway from all of this?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "ACTUAL",
+          "TAKEAWAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 359,
+      "text": "It leaves us with this final structural truth. We are not moving from a dark age of hierarchical towers into some beautiful utopian",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINAL",
+          "STRUCTURAL",
+          "TRUTH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 360,
+      "text": "egalitarian age of horizontal squares. That is a techno optimist fantasy that the early internet age sold us.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TECHNO",
+          "OPTIMIST",
+          "FANTASY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 361,
+      "text": "The real history of the world reveals a much darker, much more mechanical cycle. The network is never the end state.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MECHANICAL",
+          "CYCLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 362,
+      "text": "The network is simply the incubator for the next hierarchy. That square isn't where you go to escape the tower. The square is just where you go to recruit the people",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "NEXT",
+          "HIERARCHY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 363,
+      "text": "you need to build a taller one. The next time you log into your favorite social network, feeling like you are part of a global community of equals, ask",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FAVORITE",
+          "SOCIAL",
+          "NETWORK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 364,
+      "text": "yourself, are you actually standing in the town square, or are you just a brick in someone else's tower?",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "SOMEONE",
+          "ELSE",
+          "TOWER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "the-square-and-the-tower-networks-and-power-from-the-freemasons-to-facebook",
+  "title": "The Square and the Tower: Networks and Power, from the Freemasons to Facebook",
+  "author": "Niall Ferguson",
+  "genre": "history",
+  "engine": "vox",
+  "engineRationale": "Operator choice: real people and real places are the subject (Rothschilds, Freemason lodges, Zuckerberg); photoreal Vox beats, like Just Mercy.",
+  "engineDecidedBy": "claude-explicit",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "real-historical",
+    "era": 1717,
+    "realPeople": true,
+    "format": "argument",
+    "violence": "some",
+    "minorHarm": false,
+    "mustSee": [
+      "a Masonic lodge meeting in 18th-century London",
+      "the Rothschild family counting house and courier network",
+      "revolutionary crowds in a 19th-century European square",
+      "a Facebook data centre and Mark Zuckerberg"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-12",
+    "fit": "vox",
+    "confidence": "strong",
+    "voxScore": 27.4,
+    "antidoteScore": 9.9,
+    "signals": {
+      "year": 1.5,
+      "history": 6.4,
+      "second": 17.3,
+      "abstract": 4.8,
+      "sensitive": 2.2,
+      "era": 1717,
+      "words": 7764
+    },
+    "reasons": [
+      "real-world / dated references (1.5 years, 6.4 history terms per 1k words) → photoreal shows the actual world (Vox)",
+      "set around 1717 → period realism favours Vox"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

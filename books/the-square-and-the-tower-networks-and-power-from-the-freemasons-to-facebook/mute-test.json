@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "label": "run1",
+      "date": "2026-10-12T18:40:16.948Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 23,
+        "ADDS": 15,
+        "EXPLAINS": 3,
+        "NEUTRAL": 6,
+        "TEXT_ONLY": 14,
+        "WRONG": 1,
+        "NONE": 1
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": true,
+      "sample": "fresh",
+      "verdict": true,
+      "dead": 1,
+      "addsTargetMet": false,
+      "imageBeats": 19,
+      "imageAdds": 15,
+      "addsAll": 50
+    }
+  ]
+}

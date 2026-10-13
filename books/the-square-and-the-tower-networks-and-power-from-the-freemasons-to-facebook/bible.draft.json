@@ -1,0 +1,95 @@
+{
+  "slug": "the-square-and-the-tower-networks-and-power-from-the-freemasons-to-facebook",
+  "bible": {
+    "slug": "the-square-and-the-tower-networks-and-power-from-the-freemasons-to-facebook",
+    "world": {
+      "era": "1700s to today",
+      "worldId": "real-history-1700-2020s",
+      "approxYear": 1717,
+      "setting": "18th-century European lodges, courts and counting houses, through 19th-century revolutionary squares, to a 21st-century data centre",
+      "register": "documentary, sober, real places and real people",
+      "forbid": ["codeWindow", "laptopMockup", "rocketLaunch", "funnelMetrics", "dollarExchange", "subway", "alarmClock", "medical"]
+    },
+    "visualProvenance": {
+      "bookId": "the-square-and-the-tower-networks-and-power-from-the-freemasons-to-facebook",
+      "worldId": "real-history-1700-2020s",
+      "allowedMotifs": ["lodge", "courier", "square", "ledger", "letter", "crowd", "server"],
+      "forbiddenMotifs": ["laptopMockup", "rocketLaunch"],
+      "allowedCharacters": ["weishaupt", "knigge", "rothschild", "zuckerberg", "kissinger", "host"],
+      "allowedLocations": ["library", "room", "street", "stage", "horizon"],
+      "allowedProps": ["letter", "ledger", "candle", "map"]
+    },
+    "cast": {
+      "host": {
+        "name": "Niall Ferguson",
+        "role": "author and narrator",
+        "look": "a British historian in his fifties, short greying hair, dark sport jacket over an open-collar shirt, seated at a wooden desk with books",
+        "variant": {"gender": "m", "age": "adult", "build": "average", "outfit": "suit", "suit": "#2B2F36", "shirt": "#F4F1EA", "skin": "#E8B98F", "hair": "#8A8F96", "hairStyle": "short", "headwear": "none", "beard": "none", "glasses": false, "accessory": "none"},
+        "mentions": 40
+      },
+      "weishaupt": {
+        "name": "Adam Weishaupt",
+        "role": "Bavarian professor who founded the Illuminati lodge in 1776",
+        "look": "a late-18th-century Bavarian university professor in his late twenties, slim, powdered-hair style, dark frock coat with a white cravat",
+        "variant": {"gender": "m", "age": "young", "build": "slight", "outfit": "coat", "suit": "#3A2F2A", "shirt": "#F4F1EA", "skin": "#F0C9A4", "hair": "#D9D4C7", "hairStyle": "long", "headwear": "none", "beard": "none", "glasses": false, "accessory": "collar"},
+        "mentions": 16
+      },
+      "knigge": {
+        "name": "Adolph Knigge",
+        "role": "aristocrat who organised the lodge network",
+        "look": "a German baron in his thirties, well-fed, embroidered dark-green court coat, powdered hair, a lace jabot",
+        "variant": {"gender": "m", "age": "adult", "build": "heavy", "outfit": "coat", "suit": "#2E4A3A", "shirt": "#F4F1EA", "skin": "#F0C9A4", "hair": "#E6E1D3", "hairStyle": "long", "headwear": "none", "beard": "none", "glasses": false, "accessory": "collar"},
+        "mentions": 4
+      },
+      "rothschild": {
+        "name": "Mayer Amschel Rothschild",
+        "role": "Frankfurt banker who placed his five sons in five European capitals",
+        "look": "an 18th-century Frankfurt merchant-banker in his fifties, stout, dark wool coat, round spectacles, ledger in hand",
+        "variant": {"gender": "m", "age": "old", "build": "heavy", "outfit": "coat", "suit": "#3B3430", "shirt": "#EDE8DC", "skin": "#E8B98F", "hair": "#B8B4AD", "hairStyle": "receding", "headwear": "none", "beard": "full", "glasses": true, "accessory": "none"},
+        "mentions": 24
+      },
+      "zuckerberg": {
+        "name": "Mark Zuckerberg",
+        "role": "founder of Facebook",
+        "look": "a 21st-century American tech founder in his thirties, short brown hair, plain grey T-shirt under a dark hoodie, no tie",
+        "variant": {"gender": "m", "age": "young", "build": "slight", "outfit": "hoodie", "suit": "#2A2F36", "shirt": "#8C9095", "skin": "#E8B98F", "hair": "#5A3E2B", "hairStyle": "short", "headwear": "none", "beard": "stubble", "glasses": false, "accessory": "none"},
+        "mentions": 6
+      },
+      "kissinger": {
+        "name": "Henry Kissinger",
+        "role": "statesman who invoked networks in geopolitics",
+        "look": "an elderly American statesman in a dark suit, white hair combed back, heavy-framed glasses",
+        "variant": {"gender": "m", "age": "old", "build": "slight", "outfit": "suit", "suit": "#1E2430", "shirt": "#F4F1EA", "skin": "#E8B98F", "hair": "#EDEDED", "hairStyle": "receding", "headwear": "none", "beard": "none", "glasses": true, "accessory": "tie"},
+        "mentions": 4
+      },
+      "everyman": {
+        "name": "Everyman",
+        "role": "an ordinary reader or citizen seen in the crowd",
+        "look": "an ordinary person of any era in plain clothes, mid-thirties, seen from behind",
+        "variant": {"gender": "m", "age": "adult", "build": "average", "outfit": "casual", "suit": "#4A5563", "shirt": "#C9CDD2", "skin": "#D9A87C", "hair": "#2B2118", "hairStyle": "short", "headwear": "none", "beard": "none", "glasses": false, "accessory": "none"},
+        "mentions": 10
+      }
+    },
+    "places": {
+      "lodge": {"set": "library", "look": "a candle-lit 18th-century lodge room with a wooden table, books and a map", "mentions": 14},
+      "counting-house": {"set": "room", "look": "a Frankfurt counting house with tall ledgers, a brass scale and letters", "mentions": 10},
+      "square": {"set": "street", "look": "a crowded 19th-century European town square at dusk, revolutionary banners, cobblestones", "mentions": 28},
+      "data-centre": {"set": "horizon", "look": "a long, cold server hall at night, rows of humming racks, blue light", "mentions": 6}
+    },
+    "objects": [
+      {"concept": "book", "mentions": 16, "why": "the printed lodge rulebooks and the ledgers"},
+      {"concept": "war", "mentions": 12, "why": "the revolutions and wars the networks fed"},
+      {"concept": "notes", "mentions": 9, "why": "the letters and couriers carrying messages"},
+      {"concept": "road", "mentions": 8, "why": "the courier routes between capitals"},
+      {"concept": "city", "mentions": 6, "why": "the European capitals the Rothschild sons held"},
+      {"concept": "key", "mentions": 4, "why": "the hidden access to a closed circle"}
+    ],
+    "spine": [
+      {"act": "setup", "fromFrame": 2, "claim": "A hierarchy is not the only way power travels; secret networks have quietly run it for centuries."},
+      {"act": "development", "fromFrame": 16570, "claim": "The Illuminati and the Freemason lodges show how a network spreads ideas faster than any state can crush them."},
+      {"act": "turn", "fromFrame": 33413, "claim": "The Rothschild family turned a courier and letter network into a banking empire across Europe."},
+      {"act": "consequence", "fromFrame": 50690, "claim": "Revolutions and wars followed when networks outran the old towers of power."},
+      {"act": "close", "fromFrame": 67118, "claim": "Facebook is the modern square, and it too is becoming the next tower."}
+    ]
+  }
+}
