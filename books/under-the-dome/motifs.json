@@ -1,0 +1,17 @@
+{
+  "theDome": {
+    "title": "The Dome",
+    "reads": "a town sealed under a glass dome",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M30 440 H490 V490 H30 Z", "fill": "ink" },
+      { "d": "M120 440 V370 L150 335 L180 370 V440 Z", "fill": "ink" },
+      { "d": "M200 440 V355 L240 312 L280 355 V440 Z", "fill": "ink" },
+      { "d": "M300 440 V372 L330 340 L360 372 V440 Z", "fill": "ink" },
+      { "d": "M380 440 V360 L405 335 L430 360 V440 Z", "fill": "ink" },
+      { "d": "M60 440 A200 200 0 0 1 460 440", "stroke": "accent", "strokeWidth": 22 },
+      { "d": "M70 440 H450", "stroke": "accent", "strokeWidth": 12 },
+      { "d": "M110 370 A160 160 0 0 1 190 250", "stroke": "accent", "strokeWidth": 8 }
+    ]
+  }
+}

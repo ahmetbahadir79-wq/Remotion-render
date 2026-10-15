@@ -1,0 +1,49 @@
+{
+  "slug": "under-the-dome",
+  "title": "Under the Dome",
+  "author": "Stephen King",
+  "genre": "horror",
+  "engine": "antidote",
+  "engineRationale": "Book profile (strong): contemporary fiction with a cast → staged characters in Antidote (We Were Liars: 0/30 wrong, image adds 70%) RISK: violence/death is central to the key scenes → Flux refuses many of those images (CONTENT_FILTERED); Antidote draws them symbolically",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "contemporary",
+    "era": 2009,
+    "realPeople": false,
+    "format": "story",
+    "violence": "central",
+    "minorHarm": false,
+    "mustSee": [
+      "the Dome slicing through a small town",
+      "Big Jim Rennie in the town hall",
+      "the propane plant",
+      "the sealed edge of the Dome",
+      "the town turning on itself"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-15",
+    "fit": "antidote",
+    "confidence": "weak",
+    "voxScore": 6.5,
+    "antidoteScore": 8.3,
+    "signals": {
+      "year": 0,
+      "history": 2.7,
+      "second": 7.2,
+      "abstract": 3.5,
+      "sensitive": 8,
+      "era": 2009,
+      "words": 6286
+    },
+    "reasons": [
+      "real-world / dated references (0 years, 2.7 history terms per 1k words) → photoreal shows the actual world (Vox)"
+    ],
+    "risks": [
+      "violence/death 8/1k (> 6) → Flux will refuse many Vox images of the key scenes (CONTENT_FILTERED); Antidote draws them symbolically"
+    ],
+    "confirmed": false
+  }
+}

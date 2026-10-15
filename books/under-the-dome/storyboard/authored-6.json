@@ -1,0 +1,810 @@
+[
+  {
+    "i": 200,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "They tear each other apart",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim",
+      "barbie"
+    ],
+    "expression": "angry",
+    "action": "fighting",
+    "storyboard": {
+      "claim": "Humans tear each other apart inside the sealed town.",
+      "concreteVisual": "Big Jim and Barbie locked in a fight.",
+      "onScreenText": "They tear each other apart",
+      "relationToPrevious": "Opens the closing chunk on the town turning on itself.",
+      "addedInformation": "Makes the 'shadow of the dome' into people fighting under it."
+    }
+  },
+  {
+    "i": 201,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Eliminate the impossible",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Marty applies the Sherlock rule: eliminate the impossible.",
+      "concreteVisual": "Andy frowning in thought, weighing options.",
+      "onScreenText": "Eliminate the impossible",
+      "relationToPrevious": "Shifts from inside the town to the outside investigation.",
+      "addedInformation": "Names the deduction method; the figure is a stand-in thinker, weak on identity."
+    }
+  },
+  {
+    "i": 202,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The technology does not exist",
+      "style": "reveal"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Human technology cannot produce the barrier, so it must be alien.",
+      "concreteVisual": "Julia pondering the impossibility.",
+      "onScreenText": "The technology does not exist",
+      "relationToPrevious": "Follows the deduction to its conclusion.",
+      "addedInformation": "Callout carries the claim; the face is neutral, so the words do the work."
+    }
+  },
+  {
+    "i": 203,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a government experiment",
+      "style": "strike"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Big Jim blames a government experiment on Barbie; the narrator calls it a lie.",
+      "concreteVisual": "Big Jim talking to the town with a smirk.",
+      "onScreenText": "a government experiment",
+      "relationToPrevious": "Switches from the outside to Big Jim inside the town.",
+      "addedInformation": "Strike marks the claim as the narrator's rejected lie."
+    }
+  },
+  {
+    "i": 204,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The town blames heaven",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Big Jim believes the dome is God's will blessing his rule.",
+      "concreteVisual": "Big Jim speaking with a self-satisfied smirk.",
+      "onScreenText": "The town blames heaven",
+      "relationToPrevious": "Continues Big Jim's self-serving story.",
+      "addedInformation": "Smirk shows the manipulative certainty, not warmth."
+    }
+  },
+  {
+    "i": 205,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "bend the incomprehensible",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "Humans bend the incomprehensible to serve their own agendas.",
+      "concreteVisual": "Big Jim pointing with a sly smile, bending the mystery to his use.",
+      "onScreenText": "bend the incomprehensible",
+      "relationToPrevious": "Explains why Jim's story is self-serving.",
+      "addedInformation": "Callout states the general claim; the figure is Jim as the example."
+    }
+  },
+  {
+    "i": 206,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "make it about us",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "We assign the incomprehensible a narrative that benefits us.",
+      "concreteVisual": "Big Jim with a self-centered smirk.",
+      "onScreenText": "make it about us",
+      "relationToPrevious": "Continues the point about self-serving narratives.",
+      "addedInformation": "Staging keeps the focus on Jim's self-centred framing."
+    }
+  },
+  {
+    "i": 207,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The center of the universe",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "celebrate",
+    "storyboard": {
+      "claim": "Big Jim makes himself the center of the universe.",
+      "concreteVisual": "Big Jim raising his arms, pleased with himself.",
+      "onScreenText": "The center of the universe",
+      "relationToPrevious": "Narrows the previous point onto Jim alone.",
+      "addedInformation": "Celebrating gesture shows his self-regard."
+    }
+  },
+  {
+    "i": 208,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a distracting sci-fi trope",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The alien purple box is a distracting sci-fi trope.",
+      "concreteVisual": "Julia thinking, sceptical.",
+      "onScreenText": "a distracting sci-fi trope",
+      "relationToPrevious": "Turns to the critical debate about the alien element.",
+      "addedInformation": "Callout names the critique; face is doubtful."
+    }
+  },
+  {
+    "i": 209,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Fascism",
+        "Environmental collapse",
+        "Town psychology"
+      ]
+    },
+    "callout": null,
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The book's real analysis covers fascism, environmental collapse and town psychology.",
+      "concreteVisual": "Three buckets of the book's analytic topics.",
+      "onScreenText": "Fascism, collapse and town psychology",
+      "relationToPrevious": "Lists what the analysis should focus on instead of the aliens.",
+      "addedInformation": "Sorter shows three separate topics, not one story."
+    }
+  },
+  {
+    "i": 210,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "It feels like a cheat",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The alien answer feels like a cheat.",
+      "concreteVisual": "Andy slumped in disappointment.",
+      "onScreenText": "It feels like a cheat",
+      "relationToPrevious": "Voices the critic's complaint about the ending.",
+      "addedInformation": "Slump shows disappointment with the reveal."
+    }
+  },
+  {
+    "i": 211,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "cosmic indifference",
+      "style": "highlight"
+    },
+    "cast": [
+      "barbie"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "The alien element is vital because it represents cosmic indifference.",
+      "concreteVisual": "Barbie pointing, arguing against the critic.",
+      "onScreenText": "cosmic indifference",
+      "relationToPrevious": "Opposes the previous complaint.",
+      "addedInformation": "Angry confrontation marks the disagreement."
+    }
+  },
+  {
+    "i": 212,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "a glass jar over ants",
+      "style": "reveal"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "storyboard": {
+      "claim": "The dome is like a cruel child's glass jar over ants.",
+      "concreteVisual": "The sealed dome drawn as a glass jar over the town.",
+      "onScreenText": "a glass jar over ants",
+      "relationToPrevious": "Gives the metaphor King uses.",
+      "addedInformation": "The dome icon is literal: a sealed glass enclosure."
+    }
+  },
+  {
+    "i": 213,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Big Jim's thirst for power",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "blank",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The alien frame shows how pathetic Big Jim's power grab is.",
+      "concreteVisual": "Big Jim slumped and diminished.",
+      "onScreenText": "Big Jim's thirst for power",
+      "relationToPrevious": "Applies the jar metaphor to Jim.",
+      "addedInformation": "Blank apathy and slump show him diminished, not triumphant."
+    }
+  },
+  {
+    "i": 214,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "thinks he is a god",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Big Jim thinks he is a god in Chester's Mill.",
+      "concreteVisual": "Big Jim talking with a self-regarding smirk.",
+      "onScreenText": "thinks he is a god",
+      "relationToPrevious": "Continues on Jim's self-image.",
+      "addedInformation": "Smirk marks the arrogance."
+    }
+  },
+  {
+    "i": 215,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "an ant fighting over a crumb",
+      "style": "highlight"
+    },
+    "cast": [
+      "jim",
+      "barbie"
+    ],
+    "expression": "angry",
+    "action": "fighting",
+    "storyboard": {
+      "claim": "Big Jim is just an ant fighting over a crumb in a glass jar.",
+      "concreteVisual": "Two men fighting, the scale of the struggle small.",
+      "onScreenText": "an ant fighting over a crumb",
+      "relationToPrevious": "Shrinks Jim to the jar's scale.",
+      "addedInformation": "Fighting pose carries the ant-scale conflict; second figure is the rival."
+    }
+  },
+  {
+    "i": 216,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "humbles the dictator",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "surprised",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The cosmic view humbles the dictator by ignoring him.",
+      "concreteVisual": "Julia reacting with surprise.",
+      "onScreenText": "humbles the dictator",
+      "relationToPrevious": "Responds to the ant metaphor.",
+      "addedInformation": "Surprised reads as realisation, not fear."
+    }
+  },
+  {
+    "i": 217,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The dome is a pressure cooker",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The dome is a pressure cooker; the humans make the terrarium a slaughterhouse.",
+      "concreteVisual": "Andy slumped under the pressure.",
+      "onScreenText": "The dome is a pressure cooker",
+      "relationToPrevious": "Turns the jar metaphor into the human pressure cause.",
+      "addedInformation": "Callout carries the pressure-cooker image; face is worried."
+    }
+  },
+  {
+    "i": 218,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "take a step back",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The critic pauses to look at the whole book.",
+      "concreteVisual": "Julia thinking, stepping back from the story.",
+      "onScreenText": "take a step back",
+      "relationToPrevious": "Pivots from the ant metaphor to a critique of the book.",
+      "addedInformation": "Think pose signals reflection."
+    }
+  },
+  {
+    "i": 219,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "stacking the deck",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Does the narrative structure hold, or is the deck stacked?",
+      "concreteVisual": "Andy frowning, weighing the structure.",
+      "onScreenText": "stacking the deck",
+      "relationToPrevious": "Opens the structural critique.",
+      "addedInformation": "Callout names the critique precisely."
+    }
+  },
+  {
+    "i": 220,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "too perfectly rigged for disaster",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The stage set may be too perfectly rigged for disaster.",
+      "concreteVisual": "Julia frowning in doubt.",
+      "onScreenText": "too perfectly rigged for disaster",
+      "relationToPrevious": "Continues the structural question.",
+      "addedInformation": "Worried face shows doubt, a question not an accusation."
+    }
+  },
+  {
+    "i": 221,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The biggest meth lab",
+      "style": "reveal"
+    },
+    "cast": [
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Chester's Mill just happens to host one of the biggest meth labs in the country.",
+      "concreteVisual": "Big Jim thinking, unsettled by the discovery.",
+      "onScreenText": "The biggest meth lab",
+      "relationToPrevious": "First of three coincidences.",
+      "addedInformation": "Callout names the coincidence."
+    }
+  },
+  {
+    "i": 222,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Brain tumor",
+        "Murder",
+        "Dome falls"
+      ]
+    },
+    "callout": null,
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Junior's undiagnosed brain tumor drives him to murder on the day the dome falls.",
+      "concreteVisual": "Three steps: brain tumor, murder, dome falls.",
+      "onScreenText": "A brain tumor drives Junior to murder",
+      "relationToPrevious": "Second coincidence, as a cause chain.",
+      "addedInformation": "Flow makes the causal chain explicit."
+    }
+  },
+  {
+    "i": 223,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "a pacemaker dies instantly",
+      "style": "reveal"
+    },
+    "cast": [
+      "rusty"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The old police chief with a pacemaker dies instantly, leaving a vacuum.",
+      "concreteVisual": "A grave icon beside the sad figure, the death of the moral police chief.",
+      "onScreenText": "a pacemaker dies instantly",
+      "relationToPrevious": "Third coincidence, the death.",
+      "addedInformation": "Grave reads as death; rusty stands in for the medical world, weak identity match."
+    }
+  },
+  {
+    "i": 224,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Brilliant narrative acceleration",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Is the coincidence brilliant narrative acceleration or a contrived experiment?",
+      "concreteVisual": "Julia thinking, weighing the question.",
+      "onScreenText": "Brilliant narrative acceleration",
+      "relationToPrevious": "Turns the critique into a question.",
+      "addedInformation": "Callout frames the first possible reading."
+    }
+  },
+  {
+    "i": 225,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a contrived laboratory experiment",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The town may feel like a contrived laboratory experiment.",
+      "concreteVisual": "Julia frowning at the question.",
+      "onScreenText": "a contrived laboratory experiment",
+      "relationToPrevious": "Second side of the question.",
+      "addedInformation": "Callout states the alternative reading."
+    }
+  },
+  {
+    "i": 226,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a loaded deck in a casino",
+      "style": "reveal"
+    },
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The story is a loaded casino deck: Duke's pacemaker decides the outcome.",
+      "concreteVisual": "Barbie thinking, uneasy about the rigged game.",
+      "onScreenText": "a loaded deck in a casino",
+      "relationToPrevious": "Gives the casino image for the stacking.",
+      "addedInformation": "Casino image is literal enough to read as rigged."
+    }
+  },
+  {
+    "i": 227,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a scapegoat",
+      "style": "reveal"
+    },
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Without these coincidences the town would have no scapegoat; Barbie is framed.",
+      "concreteVisual": "Barbie slumped, the framed man.",
+      "onScreenText": "a scapegoat",
+      "relationToPrevious": "Lists how the coincidences set up the frame.",
+      "addedInformation": "Slump shows the burden on Barbie."
+    }
+  },
+  {
+    "i": 228,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Every single domino",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Every domino is placed to guarantee the worst outcome.",
+      "concreteVisual": "Andy thinking through the chain of events.",
+      "onScreenText": "Every single domino",
+      "relationToPrevious": "Continues the chain argument.",
+      "addedInformation": "Callout names the domino image."
+    }
+  },
+  {
+    "i": 229,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Not every town is this one",
+      "style": "strike"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Chester's Mill is not meant to be Every Town USA.",
+      "concreteVisual": "Julia thinking.",
+      "onScreenText": "Not every town is this one",
+      "relationToPrevious": "Rejects the generic-town reading.",
+      "addedInformation": "Strike marks the narrator rejecting Every Town."
+    }
+  },
+  {
+    "i": 230,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a narrative pressure chamber",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The town is a narrative pressure chamber built to yield human combustion.",
+      "concreteVisual": "Andy thinking about the engineered setting.",
+      "onScreenText": "a narrative pressure chamber",
+      "relationToPrevious": "Gives the chamber image.",
+      "addedInformation": "Callout states the engineered-setting claim."
+    }
+  },
+  {
+    "i": 231,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "accept the premise",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "You have to accept the lab-experiment premise to enjoy the results.",
+      "concreteVisual": "Julia pointing, making a point to the viewer.",
+      "onScreenText": "accept the premise",
+      "relationToPrevious": "Concludes the coincidence argument.",
+      "addedInformation": "Point gesture addresses the viewer."
+    }
+  },
+  {
+    "i": 232,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "buy the ticket, take the ride",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "afraid",
+    "action": "think",
+    "storyboard": {
+      "claim": "You buy the ticket and take the ride: the unsettling experience of the book.",
+      "concreteVisual": "Julia, afraid, reflecting on the ride.",
+      "onScreenText": "buy the ticket, take the ride",
+      "relationToPrevious": "Shifts to the book's overall experience.",
+      "addedInformation": "Afraid face reads as the unsettling tone."
+    }
+  },
+  {
+    "i": 233,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "All in one town",
+      "style": "highlight"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The book packs tyrants, scapegoats, the complicit and cosmic horror into one town.",
+      "concreteVisual": "Julia, thinking, reviewing the list.",
+      "onScreenText": "All in one town",
+      "relationToPrevious": "Summarises the book's roster of types.",
+      "addedInformation": "Callout states the single-town claim."
+    }
+  },
+  {
+    "i": 234,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "We lock our doors",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "We build walls and lock our doors seeking security.",
+      "concreteVisual": "A door icon, locked, beside the worried figure.",
+      "onScreenText": "We lock our doors",
+      "relationToPrevious": "Opens the closing thesis about security.",
+      "addedInformation": "Door reads as an entry barred shut."
+    }
+  },
+  {
+    "i": 235,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "a terrarium designed to trap",
+      "style": "reveal"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "afraid",
+    "action": "point",
+    "storyboard": {
+      "claim": "The dome was a terrarium designed to trap the poison inside.",
+      "concreteVisual": "The dome drawn as a sealed enclosure over the town.",
+      "onScreenText": "a terrarium designed to trap",
+      "relationToPrevious": "Reveals the dome's purpose.",
+      "addedInformation": "Dome icon is literal: sealed inside, not keeping things out."
+    }
+  },
+  {
+    "i": 236,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "to consume itself",
+      "style": "highlight"
+    },
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The rot is forced to consume itself inside the sealed town.",
+      "concreteVisual": "Andy slumped, the town's decay.",
+      "onScreenText": "to consume itself",
+      "relationToPrevious": "Completes the sentence from the previous beat.",
+      "addedInformation": "Slump shows the decay, not a literal fire."
+    }
+  },
+  {
+    "i": 237,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "We are all under the dome",
+      "style": "reveal"
+    },
+    "cast": [
+      "julia"
+    ],
+    "expression": "sad",
+    "action": "think",
+    "storyboard": {
+      "claim": "Every one of us lives in a closed system: we are all under the dome.",
+      "concreteVisual": "The dome icon over the sad, reflective figure.",
+      "onScreenText": "We are all under the dome",
+      "relationToPrevious": "Closing line of the chunk.",
+      "addedInformation": "Dome icon makes the closing metaphor literal."
+    }
+  }
+]

@@ -1,0 +1,320 @@
+{
+  "slug": "under-the-dome",
+  "bible": {
+    "slug": "under-the-dome",
+    "world": {
+      "era": "contemporary",
+      "worldId": "under-the-dome",
+      "approxYear": 2009,
+      "setting": "Chester's Mill, a small Maine town sealed under an invisible dome, with a riot at Food City, the town office, the hospital and the highway edge",
+      "register": "small-town horror: a community turning on itself under pressure",
+      "forbid": [
+        "toga",
+        "ancientGreek",
+        "ancientTemple",
+        "chariot"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "under-the-dome",
+      "worldId": "under-the-dome",
+      "allowedMotifs": [
+        "law",
+        "grave",
+        "phone",
+        "family",
+        "fire",
+        "food",
+        "war",
+        "water",
+        "road",
+        "theDome",
+        "book",
+        "tree",
+        "puppeteer",
+        "chains",
+        "clock",
+        "mask",
+        "coin",
+        "target",
+        "shield",
+        "medical",
+        "photo",
+        "notes",
+        "balance",
+        "hourglass",
+        "door"
+      ],
+      "forbiddenMotifs": [
+        "toga",
+        "ancientGreek",
+        "ancientTemple",
+        "chariot"
+      ],
+      "allowedCharacters": [
+        "jim",
+        "barbie",
+        "andy",
+        "julia",
+        "junior",
+        "rusty"
+      ],
+      "allowedLocations": [
+        "office",
+        "street",
+        "room",
+        "hospital",
+        "cafe",
+        "highway",
+        "sky"
+      ],
+      "allowedProps": []
+    },
+    "cast": {
+      "jim": {
+        "name": "Big Jim Rennie",
+        "role": "second selectman, used car salesman, the town's self-appointed strongman",
+        "look": "a heavy middle-aged man in a dark suit and tie, close-cropped gray hair, florid face, a gold baseball on his desk",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "heavy",
+          "outfit": "suit",
+          "suit": "#3A3F47",
+          "shirt": "#E8E8E8",
+          "skin": "#D9A77C",
+          "hair": "#B8B8B8",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "tie"
+        },
+        "mentions": 7
+      },
+      "barbie": {
+        "name": "Dale Barbara (Barbie)",
+        "role": "Iraq war veteran, drifter, short-order cook, framed for murder",
+        "look": "a lean man in his thirties, unshaven, in a worn olive army-surplus shirt and jeans, short dark hair",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "average",
+          "outfit": "casual",
+          "suit": "#3B4A3A",
+          "shirt": "#6B7A5A",
+          "skin": "#C98E65",
+          "hair": "#2E2119",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "stubble",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 6
+      },
+      "andy": {
+        "name": "Andy Sanders",
+        "role": "first selectman, the town's nominal leader, slow to act",
+        "look": "a tired middle-aged man in a rumpled brown suit, thinning sandy hair, pale and anxious",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "average",
+          "outfit": "suit",
+          "suit": "#5B4636",
+          "shirt": "#F2EFE9",
+          "skin": "#E6BE9A",
+          "hair": "#9C8A6E",
+          "hairStyle": "receding",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": true,
+          "accessory": "tie"
+        },
+        "mentions": 4
+      },
+      "julia": {
+        "name": "Julia Shumway",
+        "role": "editor of the local newspaper, resists the town leadership",
+        "look": "a woman in her forties with shoulder-length auburn hair, practical blouse, a notebook in hand",
+        "variant": {
+          "gender": "f",
+          "age": "adult",
+          "build": "average",
+          "outfit": "casual",
+          "suit": "#2E6F8E",
+          "shirt": "#2E6F8E",
+          "skin": "#E8B98F",
+          "hair": "#7A4A2B",
+          "hairStyle": "long",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 3
+      },
+      "junior": {
+        "name": "Junior Rennie",
+        "role": "Big Jim's unstable son, a young man with a grudge and a gun",
+        "look": "a young man in his twenties, skinny, messy dark hair, a grey hooded sweatshirt, restless eyes",
+        "variant": {
+          "gender": "m",
+          "age": "young",
+          "build": "slight",
+          "outfit": "hoodie",
+          "suit": "#4B5563",
+          "shirt": "#4B5563",
+          "skin": "#E8B98F",
+          "hair": "#2B1D14",
+          "hairStyle": "messy",
+          "headwear": "none",
+          "beard": "none",
+          "glasses": false,
+          "accessory": "none"
+        },
+        "mentions": 5
+      },
+      "rusty": {
+        "name": "Rusty Everett",
+        "role": "physician's assistant at the hospital, keeps the town alive",
+        "look": "a man in his fifties in blue hospital scrubs, grey beard, reading glasses on a cord",
+        "variant": {
+          "gender": "m",
+          "age": "adult",
+          "build": "average",
+          "outfit": "uniform",
+          "suit": "#7FB8C9",
+          "shirt": "#7FB8C9",
+          "skin": "#D9A77C",
+          "hair": "#8A8A8A",
+          "hairStyle": "short",
+          "headwear": "none",
+          "beard": "full",
+          "glasses": true,
+          "accessory": "none"
+        },
+        "mentions": 3
+      }
+    },
+    "places": {
+      "townOffice": {
+        "set": "office",
+        "look": "the town office with a big desk, a gold baseball and framed town seals on the wall",
+        "mentions": 1
+      },
+      "foodCity": {
+        "set": "street",
+        "look": "the Food City supermarket after the riot: busted shelves, spilled wine, glass everywhere",
+        "mentions": 4
+      },
+      "cell": {
+        "set": "room",
+        "look": "a bare jail cell with a bunk and a steel door",
+        "mentions": 2
+      },
+      "hospital": {
+        "set": "hospital",
+        "look": "the Chester's Mill hospital corridor, fluorescent light, a small generator-run ward",
+        "mentions": 2
+      },
+      "diner": {
+        "set": "cafe",
+        "look": "a small-town diner counter where the short-order cook works",
+        "mentions": 1
+      },
+      "routeEdge": {
+        "set": "highway",
+        "look": "Route 119 running straight into the invisible wall of the Dome",
+        "mentions": 2
+      },
+      "sealedSky": {
+        "set": "sky",
+        "look": "an ordinary blue sky over the town, sealed by a dome that bends the light",
+        "mentions": 2
+      }
+    },
+    "objects": [
+      {
+        "concept": "law",
+        "mentions": 14,
+        "why": "no state police: the town's own law is whatever Big Jim says it is"
+      },
+      {
+        "concept": "grave",
+        "mentions": 10,
+        "why": "people dying: the cost of the sealed town"
+      },
+      {
+        "concept": "phone",
+        "mentions": 8,
+        "why": "the phone lines cut, the outside world silent"
+      },
+      {
+        "concept": "family",
+        "mentions": 8,
+        "why": "who belongs to the town and who is an outsider"
+      },
+      {
+        "concept": "fire",
+        "mentions": 7,
+        "why": "the planes that burn against the Dome and the riots' flames"
+      },
+      {
+        "concept": "food",
+        "mentions": 5,
+        "why": "scarcity at Food City turns neighbours into a mob"
+      },
+      {
+        "concept": "war",
+        "mentions": 5,
+        "why": "Barbie's combat past and the town's war footing"
+      },
+      {
+        "concept": "water",
+        "mentions": 5,
+        "why": "a man drowning, clinging to the one person with a plan"
+      },
+      {
+        "concept": "road",
+        "mentions": 4,
+        "why": "you can't drive in, you can't fly out"
+      }
+    ],
+    "signatureObjects": [
+      {
+        "key": "theDome",
+        "name": "The Dome",
+        "why": "the invisible barrier that seals Chester's Mill: no shared icon shows a transparent dome cut into a town, so it must be drawn"
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 7,
+        "claim": "A small town is sealed off from the world by an invisible wall, and its second selectman sees his chance."
+      },
+      {
+        "act": "development",
+        "fromFrame": 13637,
+        "claim": "Scarcity turns neighbours into a mob at Food City while Big Jim hands badges and guns to his own people."
+      },
+      {
+        "act": "turn",
+        "fromFrame": 25675,
+        "claim": "Barbie is framed for the murders, and the crowd believes the town's leaders over the outsider."
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 38746,
+        "claim": "The hospital and the town's resources are held back by greed, and the people who could stop it do nothing."
+      },
+      {
+        "act": "close",
+        "fromFrame": 51350,
+        "claim": "The town was a terrarium: sooner or later every one of us realises we are already living under a closed dome."
+      }
+    ]
+  }
+}

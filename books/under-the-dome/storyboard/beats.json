@@ -1,0 +1,2405 @@
+{
+  "book": {
+    "slug": "under-the-dome",
+    "title": "Under the Dome",
+    "author": "Stephen King",
+    "genre": "horror"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "Think about this. A town is suddenly sealed off from the rest of the universe by an indestructible, invisible barrier. Airplanes are exploding against it.",
+      "callout": {
+        "text": "UNDER THE DOME",
+        "style": "plain"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "People are dying. The air is literally turning toxic. And the town's second selectman, this used car salesman named Big Jim Rennie, is sitting in his office clutching a gold baseball.",
+      "callout": {
+        "text": "NAMED BIG",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 2,
+      "shot": "insert",
+      "beat": "story",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "FIRST TIME IN HIS LIFE",
+          "SMILING"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "And he is smiling because for the first time in his life, there are no outside auditors. There is no state police. There is only him and his flock.",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. It it captures the absolute definition of a waking nightmare because you realize in that exact moment, the true monster in this scenario isn't outside trying to get in. The monster has just been locked",
+      "callout": null
+    },
+    {
+      "i": 4,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "inside with the right? I think most people look at Stephen King's Under the Dome and they immediately like categorize it.",
+      "callout": null
+    },
+    {
+      "i": 5,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They see the cover, they hear the premise, and they think, \"Oh, okay. This is a sci-fi monster story about a mysterious glass Right. They think it's a be movie.",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. You naturally think of it as an external threat narrative, you know, humanity versus the unknown. But if you read the text closely, that's entirely",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Completely backward. I mean, the barrier is just it's just the plot device.",
+      "callout": null
+    },
+    {
+      "i": 8,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The actual horror here is the town's own social order. The dome doesn't create the cruelty in Chester's Mill. It simply removes the outside world that was holding it in check.",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It strips away the consequences. And by doing so, it just shows the town exactly what it already was. So, we need to establish the board here and",
+      "callout": null
+    },
+    {
+      "i": 10,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "drop you, the listener, right into Chester's Millm Main because the contrast between the ordinary and the impossible is is what makes this work so well.",
+      "callout": {
+        "text": "MAKES THIS WORK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 11,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's an ordinary crystal clear autumn day, October 21st. The leaves are turning. People are doing their mundane Saturday chores.",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Just a normal weekend. Just a completely normal weekend. And then we get the sheer brutal",
+      "callout": null
+    },
+    {
+      "i": 13,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "abruptness of the event. At the edge of town, there's a dog, a golden retriever, and this fat old woodchuck just bumbling along Route 119.",
+      "callout": {
+        "text": "119",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 14,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh man. Yeah. Suddenly, both animals are perfectly cleanly sliced into. Just instantly. Instantly. Seconds later, a Piperica airplane, which was just flying overhead",
+      "callout": null
+    },
+    {
+      "i": 15,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "on a sightseeing run, disintegrates in midair against nothing but blue sky. It just hits a solid wall of nothing and rains fire and body parts down on the It's horrific. And simultaneously, this is the craziest",
+      "callout": {
+        "text": "FIRE AND BODY",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 16,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "part, down on the ground, Chief of Police Duke Perkins, who is just outside raking his lawn,",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "has his pacemaker literally explode inside his chest because of the electromagnetic surge of the barrier coming down. Right. Well, and notice what is functionally happening in those first few like",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "critical seconds. It is a brilliant terrifying mechanism because the dome isolates the town physically. Obviously, you can't drive in, you can't fly out, But more importantly, it isolates the town",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "legally and morally. This little community, which is shaped like an old boot, is instantly severed from federal law, from supply chains, from oversight, and from social That's",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the big one. You take away the threat of consequence and you instantly remove the thin, fragile veneer of civilization. Because if you take away the state police, the FBI, the IRS, the EPA,",
+      "callout": null
+    },
+    {
+      "i": 21,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "what are you actually left with? You are left with human nature in a vacuum. And historically, human nature in a vacuum is not kind. No, it is not.",
+      "callout": null
+    },
+    {
+      "i": 22,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which is why we have to look first at the people who step into that vacuum. The people who take charge. Yeah. This is where it gets really dark.",
+      "callout": {
+        "text": "LOOK FIRST",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 23,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's drop right into Food City, the local supermarket. It's a few days into the dome. The supermarket is a chaotic apocalyptic mess.",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "There are busted shelves, spilled wine pooling sticky on the lenolium, glass everywhere, and panicked people literally fighting over canned goods.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Total panic. And the new acting chief of police, Pete Randolph, is standing there just letting the looting happen. He's doing nothing.",
+      "callout": {
+        "text": "TOTAL PANIC",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 26,
+      "shot": "closeUp",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He actually laughs this choppy, cruel laugh as an old man is pushed violently to the floor. It is a perfect micro study of crisis opportunism. And we all have this comforting myth that",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "crises forge heroic right? Like we all come together. Exactly. We like to tell ourselves that when the chips are down, the best among us will rise to the occasion, roll up their sleeves, and organize",
+      "callout": {
+        "text": "DOWN THE BEST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 28,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the community. But sociologically, crises do something much darker. They really do. They create power vacuums that empower opportunists. Big Jim Rennie is watching this Food",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "City riot, and he doesn't lift a finger to stop it. He wants it to happen. He needs it to happen. Yes. He allows the chaos to unfold so he can use it to justify strict draconian rationing.",
+      "callout": {
+        "text": "STOP",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 30,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He seizes control of the food supply under the guise of quote unquote It is chapter one of the authoritarian playbook.",
+      "callout": null
+    },
+    {
+      "i": 31,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Allow a crisis to escalate, let the people feel genuine terror, and then step in as the only savior who can restore order.",
+      "callout": {
+        "text": "FEEL GENUINE TERROR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 32,
+      "shot": "diorama",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. Provided, of course, the citizens surrender all their autonomy. Exactly. You trade freedom for bread.",
+      "callout": {
+        "text": "YOU TRADE FREEDOM",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 33,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he doesn't just seize the food. He seizes the monopoly on violence, which is the cornerstone of any dictatorship.",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Big Jim immediately deputizes local teenage thugs. Oh, this part is so messed up. It is. We're talking about kids from the high school. Carter Thibido, Frankie Dlesps.",
+      "callout": null
+    },
+    {
+      "i": 35,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He gives these boys actual firearms, real badges, and these blue solidarity armbands to replace the actual trained police force, which is just a recipe for disaster. Think about that for a second.",
+      "callout": null
+    },
+    {
+      "i": 36,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Put yourself there. If you've ever been in a community where the rules suddenly stop applying, notice who takes advantage of that vacuum first.",
+      "callout": {
+        "text": "PUT YOURSELF",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 37,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Big Jim knows these specific teenagers won't ask constitutional questions. No, they don't care about the They won't care about due process.",
+      "callout": null
+    },
+    {
+      "i": 38,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "They just want the power, the thrill, and the ability to bully the people who used to look down on them. You're touching on the institutionalization of",
+      "callout": {
+        "text": "WANT THE POWER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 39,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "the high school Yeah, that's exactly what it is. By handing badges and guns to the worst elements of the local hierarchy, Rennie is bypassing anyone who might have a moral compass or a lingering",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "loyalty to the old laws. These teenagers do not care about civil rights. They care about the absolute authority that the blue armband grants them. They become his personal",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "shafel But okay, wait. I want to challenge the timeline of this a bit because does the text imply that the dome",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "actually drove Big Jim crazy with power? Like did the absolute isolation fundamentally break his mind and turn a petty small town politician into a megalomaniacal See, I",
+      "callout": {
+        "text": "BREAK HIS MIND",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 43,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "look at that completely differently. And this is a crucial distinction if we really want to understand the sociology of the town.",
+      "callout": null
+    },
+    {
+      "i": 44,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Big Jim was already running a massive methamphetamine lab, right? Operation Vader, right out of the local Jesus radio station. This wasn't a guy cooking meth in a bathtub. This was the largest meth operation on",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the eastern seabboard. He was hoarding massive amounts of propane, stealing money, trafficking and narcotics, and running a massive criminal empire right under the town's Yeah, he was already doing all of that before the",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "dome fell. He was always a tyrant. He was always a monster. The dome didn't alter his character or drive him insane. It merely removed the threat of the DEA,",
+      "callout": null
+    },
+    {
+      "i": 47,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the IRS, and the state attorney general. It gave him the impunity he had always secretly",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, the dome is essentially a catalyst. It's a pressure cooker. It takes the rot that was already hidden in the walls of the town and just it accelerates it. Precisely. In a pressure cooker, whatever ingredients",
+      "callout": null
+    },
+    {
+      "i": 49,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "you put inside just get hotter, more concentrated, and ultimately they break down. Right. But if Big Jim is the one taking charge, authoritarians always need a",
+      "callout": {
+        "text": "BREAK",
+        "style": "box"
+      }
+    },
+    {
+      "i": 50,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, absolutely. Someone has to be blamed for the pressure. So, let's look at the ones who get blamed. I want to drop into the dim basement cell of the police department.",
+      "callout": null
+    },
+    {
+      "i": 51,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Dale Barbara Barbie, who is a drifter, an Iraq war veteran, and a short order cook at the local diner, is sitting on his bunk.",
+      "callout": {
+        "text": "IRAQ WAR",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 52,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Next to him is a forced confession for multiple murders he absolutely did not commit. Such a grim scene. He takes a drink from a glass of water the police gave him, and he tastes the heavy,",
+      "callout": null
+    },
+    {
+      "i": 53,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "sickening flavor of salt seated in it. The police literally salted his drinking water. Just petty cruelty. Pure cruelty.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And in that quiet terrible moment, Barbie realizes the town leadership isn't just framing him.",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They are salulting the earth of his entire life. They are engaged in psychological torture just because they can. It perfectly illustrates the mechanism of scapegoating.",
+      "callout": {
+        "text": "ENTIRE LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 56,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You know, when a society panics, people don't look for the truth. the truth is usually complex, nuanced, and unsatisfying. They look for a target.",
+      "callout": null
+    },
+    {
+      "i": 57,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The easiest scapegoat in any closed system is always the outsider. Barbie is the perfect sacrificial lamb for Chester's Mill because he's not from there.",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. He's a transient. He doesn't have deep family roots in the community. His past is a bit of a mystery and he's already had physical friction with Big Jim's son.",
+      "callout": {
+        "text": "DEEP FAMILY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 59,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Societal panic requires a focal point to burn off the collective anxiety. An outsider is a designated target that the inroup can sacrifice without feeling any collective guilt. And Big Jim plays the crowd like",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "a fiddle to make that happen. Look at his speech from the town hall steps. He whips the citizens into an absolute frenzy.",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "He stands up there and officially brands Barbie a terrorist. Uses that word very deliberately. Very deliberately. He tells the crowd that Barbie murdered the women of the town, which Big Jim's own",
+      "callout": {
+        "text": "TOWN WHICH BIG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 62,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "son actually did and claims Barbie is conducting a government experiment on them.",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's define what that actually looks like on the ground. Big Jim is engaging in the weaponization of grief. Yeah, it's exactly what it is. He takes Mrs. McCain's actual sorrow over her murdered daughter, Angie, and redirects that raw",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "screaming trauma like a laser right at Barbie. It is a masterclass in manipulation.",
+      "callout": null
+    },
+    {
+      "i": 65,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But, and we have to dissect this critically, we also have to examine Barbie's role in his own downfall. Okay, what do you mean?",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Initially, Barbie practices a deeply flawed strategy of avoidance. Colonel Cox, the military commander on the outside of the dome, actually begged Barbie to take military command of the town early on.",
+      "callout": {
+        "text": "TOWN EARLY",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 67,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, right. over the phone. Yeah. He told him the president of the United States authorized it and Barbie refused. He wanted to lay low.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "He wanted to just be the short order cook and not get involved. That initial inaction is what allowed Rennie to solidify his false I have to stop you there because I think you're being way too hard on Barbie.",
+      "callout": null
+    },
+    {
+      "i": 69,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Really? How so? Asserting federal military authority as an outsider in a paranoid, heavily armed small town. That would have gotten him killed even faster. Well, I don't know about that.",
+      "callout": {
+        "text": "ARMED SMALL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 70,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, seriously. Imagine if Barbie had walked out on day two, stood on the hood of a car, and said, \"Attention citizens. I am now the martial law commander of Chester's Mill by order of the president.\" Big Jim's thugs",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "would have shot him in an alley 5 minutes later and claimed he was violently resisting They might have. They absolutely would have.",
+      "callout": {
+        "text": "ALLEY 5 MINUTES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 72,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Barbie laying low wasn't moral abdication. It was basic tactical survival instincts.",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "I understand the tactical argument. Mhm. It might have been a survival instinct, but it abdicated the moral responsibility that the unprecedented",
+      "callout": null
+    },
+    {
+      "i": 74,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "moment required. By the time Barbie realizes he absolutely has to act, it's too late. Yeah, that's true. The narrative has been completely hijacked by Rennie. The machinery of the scapegoat is already",
+      "callout": {
+        "text": "ACT IT'S TOO LATE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 75,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "fully operational, and Barbie is strapped to the altar. I still say his hesitation was deeply human, but you're right about the result.",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The hesitation was fatal. But again, to look at our core thesis, the dome didn't create the town's No, not at all. It didn't invent their willingness to blindly hate",
+      "callout": {
+        "text": "AGAIN",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 77,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "an outsider instead of asking hard questions. It just cooked it to a boiling point. The dome is a pressure cooker.",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. But a fascist takeover requires more than just a tyrant and a scapegoat. It requires an audience.",
+      "callout": null
+    },
+    {
+      "i": 79,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Requires fuel. Which brings us to arguably the most unsettling group of people in Chester's Mill.",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The ones who go quiet. Let's talk about first select man Andy Sanders.",
+      "callout": {
+        "text": "TALK ABOUT FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 81,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The imagery in the scene is chilling. The glowing orange glare of the burning Democrat newspaper offices filling the window of the room.",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The free press of the town is literally being reduced to ash outside. A literal book burning, right? And Andy sits on Barbie's bed in the holding cell, listening to Big Jim spin this transparent,",
+      "callout": null
+    },
+    {
+      "i": 83,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "absolute web of lies about Barbie being the mastermind behind the dome, the murders, the drugs.",
+      "callout": {
+        "text": "WEB OF LIES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 84,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Andy, an elected official, a man who knows Big Jim is lying, he just nods That scene is the embodiment of the benality of evil.",
+      "callout": {
+        "text": "BIG JIM IS LYING",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 85,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Hannah Aren's concept is so perfectly applied here. We focus so much on the villains who light the match, but the true horror of a collapsing society is the complicity of the good people.",
+      "callout": null
+    },
+    {
+      "i": 86,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The people who just stand by. The people who watch the fire burn and say absolutely nothing because it's easier and safer",
+      "callout": {
+        "text": "WATCH THE FIRE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 87,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to obey. Andy Sanders represents that silent complicity in its purest form.",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "insert",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "ANDY KNOWS",
+          "DEEPLY DISTURBING"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "He's a local politician, a pharmacist, a man people trust. By standing next to Big Jim, Andy provides the veneer of civic legitimacy to outright fascism. It's so deeply disturbing because Andy knows",
+      "callout": null
+    },
+    {
+      "i": 89,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "better. This isn't a case of someone being fooled. His own wife, Claudet, died in the plane crash on day one. He knows Big Jim is completely out of control. He knows the teenage deputies are volatile and dangerous. He knows all of it.",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He knows the town is suffocating. But as Big Jim privately gloats in his own internal monologue, Andy is his idiot.",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Andy intentionally trades his morality, his actual soul, for the illusion of safety and proximity to power. It's a tragic abdication of duty.",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Andy watches the civic infrastructure of his own town be systematically dismantled. He watches the newspaper burn. He watches the legitimate police force be replaced by sociopathic teenagers. He watches the food",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "supply be hoarded. And he rationalizes every single step of it to avoid confrontation. But okay, wait. Aren't we ignoring the psychological context here? What context? I just feel a profound",
+      "callout": null
+    },
+    {
+      "i": 94,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "sense of pity for Andy. Look at what happened to him on the very first day. The dome comes down and instantly his wife is blown to pieces in the sky while he watches. He is a broken man.",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He is profoundly traumatized by a sudden violent death. I don't think he's acting out of malice. I think he's acting out of profound shock.",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's a man drowning and he's clinging to the one person, Big Jim, who seems to have a confident plan. See, trauma is a context, but it is not an excuse.",
+      "callout": {
+        "text": "NOT AN EXCUSE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 97,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is where we have to draw a hard ethical line. Trauma does not absolve you of enabling a fascist That's harsh.",
+      "callout": null
+    },
+    {
+      "i": 98,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is, but it's true. When Andy sits in that room and allows Big Jim to give firearms and legal immunity to teenagers who he knows are mentally unstable, that is a conscious choice. When he nods long to framing",
+      "callout": {
+        "text": "ROOM AND ALLOWS BIG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 99,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "an innocent man for a double homicide, that is a conscious choice. His silence makes him just as dangerous as Rennie, if not more so,",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "because he could have stopped it. Exactly. Andy is the one person who could have stopped him early on by simply standing up, using his authority as first selectman, and refusing to go",
+      "callout": null
+    },
+    {
+      "i": 101,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's a brutal assessment, but it's entirely fair. The dome didn't invent Andy's cowardice or his malleability.",
+      "callout": {
+        "text": "FAIR",
+        "style": "box"
+      }
+    },
+    {
+      "i": 102,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It just put him in a situation where that cowardice had a body count. The dome is a pressure cooker.",
+      "callout": null
+    },
+    {
+      "i": 103,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "And if we're talking about a body count, that pressure cooker reveals the absolute darkest parts of the human psyche when we look at the violence of the privileged.",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh man. Yes. We have to talk about Junior Rennie, Big Jim's son. This is tough to read. It is. We need to drop right into this blindingly bright, sundrenched kitchen.",
+      "callout": {
+        "text": "JUNIOR RENNIE BIG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 105,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Junior's brain is absolutely boiling with a migraine. He is standing there and he suddenly",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "violently slams Angie McCain into a cold spot refrigerator just out of nowhere. Why? What was her crime? She simply smiled and called him Junior instead of James. Her head hits the tile.",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The little fridge magnets rain down all around her dead body. It's shockingly fast and brutal. We have to analyze this critically and I want to be careful not to glamorize the gore here",
+      "callout": {
+        "text": "DEAD BODY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 108,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because what this scene reveals about power is Entitlement when it is mixed with total isolation and an absolute lack of consequence breeds lethal violence",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "specifically against women. Junior kills Angie and later he kills Dodie because he fundamentally feels untouchable because of who his dad is.",
+      "callout": null
+    },
+    {
+      "i": 110,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. He is the selectman's son in a world that suddenly has no outside laws.",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The dome communicates to him that his actions will never be audited by the state police. There will be no DNA testing by the FBI",
+      "callout": null
+    },
+    {
+      "i": 112,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and there will be no trial. He is free to act on his darkest And he operates with this terrifying cold calculation afterward. It's not just a crime of blind",
+      "callout": {
+        "text": "CRIME OF BLIND",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 113,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "passion. After he murders Angie, he calmly hides Barbie's dog tags in his own dresser drawer to frame him for the murders.",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So premeditated. Yeah. He he thinks of it as putting Barbie in the frame. He genuinely believes the town is his personal playground.",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And the women in it, they're just props for his ego, his pleasure, and his rage. It is the ultimate expression of patriarchal violence,",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "completely untethered from any societal restraint. Look at his internal monologue. He views women as breeding farms.",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is the exact phrase he uses in his head. It's disgusting. It's a horrific reduction of human beings to objects of disgust, which perfectly justifies his violence in his own mind.",
+      "callout": {
+        "text": "OWN MIND",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 118,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If they aren't fully human, killing them doesn't matter. But we have to address the medical reality of Junior's situation, right? Junior has an undiagnosed",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "glyopblastoma. He has a massive brain tumor. It's causing these blinding migraines, these auditory hallucinations, these fugue states.",
+      "callout": null
+    },
+    {
+      "i": 120,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's physically pressing on the impulse control centers of his brain. So, doesn't the tumor absolve him of the Isn't he just a victim of a",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "biological short circuit that he has no control Absolutely not. And the text is very careful to make this distinction. We can look at the neuroscience of it. The tumor lowered his impulse control.",
+      "callout": {
+        "text": "NO CONTROL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 122,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes, it made him irritable, paranoid, and prone to violent outbursts. Okay. But the deep sea of misogyny,",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "the fundamental belief that women were beneath him, the resentful entitlement he felt when a woman didn't submit to him, that was fundamentally who he already was.",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The tumor didn't plant the idea of framing Dale Barbara in his head. The tumor didn't create his visceral hatred of Angie McCain. The tumor just removed the brakes",
+      "callout": null
+    },
+    {
+      "i": 125,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "from a vehicle that was already heavily armed and deliberately pointed at the women in his life. Wow. So, biology accelerates the sociology,",
+      "callout": null
+    },
+    {
+      "i": 126,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "but it doesn't rewrite it. The dome, just like the tumor, didn't teach Junior to hate. It just trapped everyone in a room with a monster who was no longer bothering to hide. The dome is a pressure cooker.",
+      "callout": {
+        "text": "JUNIOR TO HATE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 127,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Precisely. Now, we spent a lot of time analyzing the collapse of the social order on the inside of the dome. But what is happening on the outside? Cuz the contrast is equally damning.",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, right. We get to see the illusion of outside rescue. Let's look at Colonel Cox and the United States military. Picture the western border of the town out by Little [&nbsp;__&nbsp;] Road.",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A blinding white flash suddenly rocks the earth. And when the glare fades, the military's cruise missile, a highly advanced bunker buster designed to penetrate deep",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "underground fortifications, has done absolutely nothing to the dome. Nothing at all. Nothing except leave a massive black scorch mark on the invisible glass and set the outside woods on fire.",
+      "callout": {
+        "text": "WOODS ON FIRE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 131,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a profound moment of impotence for the military-industrial complex. It shows us that technology and brute military might are utterly useless against systemic",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "fundamental traps. You cannot bomb your way out of a social Exactly. The military throws its most advanced destructive weaponry at the barrier and it just bounces off. It is a perfect metaphor for how",
+      "callout": null
+    },
+    {
+      "i": 133,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "illequipped traditional power structures are when faced with an unprecedented paradigm And because they can't break it with force, what do they do?",
+      "callout": null
+    },
+    {
+      "i": 134,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They pivot to Yeah, PR. They pivot to optics. Look at the incredibly hollow PR stunt of visitors day. Colonel Cox organizes this highly controlled press event. Families are lined up in designated zones to",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "press their hands against the glass while the media takes photos. It's so manipulative. It's entirely theatrical. It's designed specifically to make it look like the federal government is doing something, anything, to manage the crisis.",
+      "callout": {
+        "text": "PRESS THEIR HANDS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 136,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Big Jim completely ignores Cox's threats because he knows the military has no actual jurisdiction inside the bubble. Big Jim literally laughs at Cox",
+      "callout": null
+    },
+    {
+      "i": 137,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "over the because Cox is operating under the old rules. In Cox's world, the threat of federal force guarantees compliance.",
+      "callout": {
+        "text": "OLD RULES",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 138,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Rennie realizes instantly that the old rules are dead. The dome is a new reality.",
+      "callout": {
+        "text": "RULES ARE DEAD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 139,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "And in this reality, a cruise missile is just a loud noise. But okay, I look at Cox differently here. I always read Cox as a genuine hero who is just trying to navigate an impossible",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "situation to save Barbie and the town. A hero? Yeah. He's working the problem from the outside as best he can. He's dealing with the president.",
+      "callout": null
+    },
+    {
+      "i": 141,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's dealing with the media. He's trying to establish lines of communication. I think that's a very generous reading of Cox. And frankly, I see him as far more cynical.",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Cox cares deeply about optics and what he explicitly calls maintaining viability. Okay, fair.",
+      "callout": null
+    },
+    {
+      "i": 143,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "When Cox gets frustrated with Big Jim, what does he do? He threatens to shut down the town's cell service and internet just to punish Rennie.",
+      "callout": null
+    },
+    {
+      "i": 144,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "By doing that, he proves he is willing to plunge the innocent citizens of Chester's Mill into complete darkness and absolute isolation just to win a political pissing match with a small town selectman.",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's true. He operates with the exact same callous disregard for collateral damage as Randy does. He just does it from a sanitized tent on the outside. That is a chilling parallel.",
+      "callout": {
+        "text": "THAT'S TRUE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 146,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The government on the outside is just as flawed, just as driven by ego and control as the leadership on the inside.",
+      "callout": null
+    },
+    {
+      "i": 147,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The barrier didn't make the government ineffective. It just exposed the limits of their methodology.",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The dome is a pressure cooker. It accelerates the flaws in every system it touches. But crucially, it doesn't just accelerate the bad.",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "We have to look at the other side of the coin, right? The ones who see the chance, the people who find their courage.",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's look at Julia Shamway and Brenda Perkins. Drop into Brenda Perkins's quiet living room. She is a widow freshly mourning her husband, Duke, who died when his pacemaker exploded.",
+      "callout": {
+        "text": "QUIET LIVING ROOM",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 151,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Such a sad situation. But she isn't just weeping. She is sitting there reading the printed pages of the VA file. She is finally putting the pieces together, understanding her dead husband's secret long-term",
+      "callout": null
+    },
+    {
+      "i": 152,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "investigation into the massive methamphetamine lab operating right under the town's nose. Bankrolled by Big This is where we see how extreme isolation forces the complacent to become",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "radicalized. When the systems you relied on disappear, when the police are suddenly corrupt and the federal government can't physically reach you, you have no choice. You have to step up.",
+      "callout": {
+        "text": "YOU HAVE NO CHOICE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 154,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have to save yourself and your community. Brenda Perkins realizes that she cannot simply wait for the gears of justice to turn.",
+      "callout": null
+    },
+    {
+      "i": 155,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She has to become the mechanism of justice herself. And Julia Shamway is right there with her. Julia is the Republican newspaper editor.",
+      "callout": null
+    },
+    {
+      "i": 156,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She has actually supported Big Jim Reny's political campaigns in the Yeah, she liked him. She liked his pro business stance, but she is sharp. She realizes that his immediate grab for",
+      "callout": {
+        "text": "SHARP",
+        "style": "box"
+      }
+    },
+    {
+      "i": 157,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "power, confiscating the guns on day two, shutting down the local businesses, deputizing the high school kids, was way too fast, too coordinated.",
+      "callout": {
+        "text": "HIGH SCHOOL KIDS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 158,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It was too orchestrated. She sees he is using the crisis of the dome to cover his criminal tracks. And she pivots beautifully.",
+      "callout": null
+    },
+    {
+      "i": 159,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She doesn't cower. She starts organizing an underground resistance. She literally prepares to publish the truth in the Democrat despite the very real",
+      "callout": null
+    },
+    {
+      "i": 160,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "physical danger to her own life. They are the moral counterweight to Andy Sanders. Where Andy goes quiet to survive.",
+      "callout": {
+        "text": "OWN LIFE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 161,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Brenda and Julia speak up at their own peril. They recognize that silence is a death sentence for the soul of the town.",
+      "callout": null
+    },
+    {
+      "i": 162,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "I agree with their courage, but I have to push back on Brenda's tactical execution here.",
+      "callout": null
+    },
+    {
+      "i": 163,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She waits to confront Rennie. She has the Vader file. She has the absolute proof of his criminality. But she wants to wait and see if the cruise missile will work before revealing it.",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She holds on to the evidence, right? She hides it. If she had acted immediately, maybe she could have stopped Rennie before he fully consolidated power and armed those kids.",
+      "callout": {
+        "text": "ARMED THOSE KIDS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 165,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's a highly valid critique of her timing. She had the silver bullet and she kept it in her pocket. But think about her humanity.",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "She's a newly grieving widow. She just lost her husband of decades to a bizarre, violent technological anomaly.",
+      "callout": null
+    },
+    {
+      "i": 167,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The entire town is losing its collective mind. She was trying to calculate the safest route in an incredibly dangerous game of chess and a man she now knows is a ruthless drug lord.",
+      "callout": {
+        "text": "TOWN IS LOSING",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 168,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah, the stakes were life and death. She knew if she missed, if she played the file too early, Rennie would murder her.",
+      "callout": {
+        "text": "LIFE AND DEATH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 169,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "She was waiting for the federal cavalry to break the glass, which is a perfectly logical human response. It is deeply logical.",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But as we see throughout the text, under the dome, the logical delay is fatal. The old rules of pacing don't apply.",
+      "callout": null
+    },
+    {
+      "i": 171,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "However, their ultimate bravery is undeniable. The dome didn't create their It demanded it. Exactly. It forced them to access reserves of fortitude they never knew they had.",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's the ultimate crucible. And speaking of crucibles, we have to talk about the physical environment itself. The environmental collapse of Chester's Mill.",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The town itself becomes a character in its own demise. The geography and the ecology are",
+      "callout": null
+    },
+    {
+      "i": 174,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "completely intertwined with the sociology. Listen to this scene. Rusty Everett, the physician's assistant, steps outside the hospital and just smells the air.",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's flat. It's incredibly heavy. It has this smoky undertang, a greasy feel, and a swampy stench rising from the drying bed of the prestige stream.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The water is dying. The water isn't flowing. No dew falls in the morning anymore. The smog from the cars and the generators is trapped against the glass ceiling.",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The town is literally physically choking on its own It is the ultimate allegory for a closed system rapidly poisoning itself.",
+      "callout": null
+    },
+    {
+      "i": 178,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The physical and environmental collapse of Chester's Mill perfectly mirrors the moral collapse of its citizens. Oh, for sure. As the air turns toxic and the water dries up, the social fabric shreds.",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "You cannot separate the health of the environment from the health of the society living within it.",
+      "callout": null
+    },
+    {
+      "i": 180,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "When the air goes bad, the people go mad. It's visceral. You can feel the grime on your skin when you read it.",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And look at how the resources are managed in the face of this environmental death. The hoarding of the propane.",
+      "callout": null
+    },
+    {
+      "i": 182,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "While the town suffocates and loses power, the Bowie brothers, the local undertakers, are secretly hoarding massive tanks of propane for themselves out of pure selfish paranoia. Right? They're just looking out for number one.",
+      "callout": {
+        "text": "LOSES POWER",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 183,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And Big Jim Rennie is hoarding massive industrial amounts of it for his meth lab and his own generators. The resources to keep the town running, to keep the hospital powered are actually there,",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "but human greed restricts them. It is an accelerated microcosm of global resource depletion and climate change in action.",
+      "callout": {
+        "text": "CHANGE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 185,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The few hoard the life-saving resources at the expense of the many, accelerating the death of the entire",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yep. They are prioritizing their immediate short-term comfort and power over the long-term survival of the biome they live in.",
+      "callout": {
+        "text": "COMFORT AND POWER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 187,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But let me ask you this. What is the actual primary threat to Chester's Mill? I mean, structurally, the toxic air, the buildup of pollutants, and the lack of rain will kill",
+      "callout": null
+    },
+    {
+      "i": 188,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "everyone in weeks anyway. The dome is mathematically a death sentence. There is no sustainable ecology under that glass.",
+      "callout": null
+    },
+    {
+      "i": 189,
+      "shot": "closeUp",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "Mathematically, yes. Mhm. If left alone, they would suffocate. But practically, the environment won't get the chance to be the primary killer.",
+      "callout": {
+        "text": "PRACTICALLY",
+        "style": "box"
+      }
+    },
+    {
+      "i": 190,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The human reaction to the scarcity, the riots at the supermarket, the hoarding of the propane, the paranoid teenage thugs being given guns and authority, that rapid social collapse will slaughter the town long",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "before the oxygen actually runs out. We are far more dangerous to ourselves than the toxic areas. The environment is the setting,",
+      "callout": null
+    },
+    {
+      "i": 192,
+      "shot": "closeUp",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "but humanity is the weapon. That is incredibly bleak, but it maps perfectly to the events. The dome didn't invent the greed that ruins the environment. It just trapped everyone in the exhaust pipe. The dome is a pressure",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which brings us to the final most existential beat of the narrative. The search for the why,",
+      "callout": null
+    },
+    {
+      "i": 194,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the origin of the The kids in the generator. we are deep in the ruined McCoy Apple Orchard.",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "insert",
+      "beat": "story",
+      "concept": null,
+      "diagram": {
+        "type": "flow",
+        "title": null,
+        "labels": [
+          "TOXIC AIR",
+          "FALLING EARLY"
+        ],
+        "values": [],
+        "at": 4,
+        "scale": 1
+      },
+      "narration": "The leaves are dead and dry, falling early because of the toxic air. Scarecrow, Joe, Nory, and Benny are walking through the trees. Suddenly, their geer counter spikes wildly. The radiation. They follow the radiation",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "and find the source of the dome, a glowing purple box covered in strange symbols, radiating a field that literally knocks them unconscious when they get too close. It is the abrupt insertion of",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the cosmic into the mundane. And what it does is fascinating because even when faced with the incomprehensible, the extraterrestrial",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "or the divine, the human drama completely dwarfs the Right. It doesn't change how they treat each other. Exactly. The purple box is just a device.",
+      "callout": null
+    },
+    {
+      "i": 199,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a literal black box or purple in this case. The real story isn't the mechanics of the box or the aliens who built it.",
+      "callout": {
+        "text": "REAL STORY",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 200,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's how the humans tear each other apart in its shadow. It's amazing how everyone projects their own meaning onto it. Look at the absolute disconnect between the inside and the outside.",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Outside, the military scientist Marty uses the Sherlock rule, eliminating the impossible. So, whatever remains, however improbable, must be the truth.",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "And he deduces the barrier must be extraterrestrial, right? Because human tech just can't do The technology simply does not exist on Earth.",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But inside, Big Jim confidently tells the town it's a nefarious government experiment orchestrated by Dale Barbara. The lies, right?",
+      "callout": {
+        "text": "INSIDE BIG",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 204,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, privately in his own twisted megalomaniacal mind, Big Jim believes it is quote unquote God's will. He believes the Almighty placed the dome there specifically to bless his dictatorship and",
+      "callout": {
+        "text": "MIND BIG",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 205,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "cleanse the town of It proves that human beings will always bend the incomprehensible to serve their own immediate terrestrial agendas. We cannot handle the concept of cosmic indifference.",
+      "callout": null
+    },
+    {
+      "i": 206,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, we assign it a narrative that benefits us. Yeah, we have to make it about us.",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Big Jim needs to be the center of the universe so the dome becomes an act of divine intervention just for him.",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But honestly, I have to be critical here. I kind of feel like the alien purple box element is a distracting sci-fi trope.",
+      "callout": null
+    },
+    {
+      "i": 209,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. It pulls away from the incredible grounded human drama. We spend all this time analyzing the mechanics of fascism, the environmental collapse, the psychology of the town, the benality of evil, and then",
+      "callout": {
+        "text": "ALL THIS TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 210,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the grand answer is just leatherhead aliens did it as a prank. You think it's a cheat? It feels like a cheat. It feels like the author didn't know how to end the sociological experiment.",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "illustration",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "See, I vehemently disagree with that interpretation. I think the alien element is vital precisely because it represents absolute indifferent cosmic Okay, tell me why. Think about the metaphor King uses.",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is the exact equivalent of a cruel human child placing a glass jar over a colony of ants just to watch them panic and fight.",
+      "callout": {
+        "text": "WATCH THEM PANIC",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 213,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It highlights the pathetic, tragic insignificance of Big Jim's thirst for power.",
+      "callout": null
+    },
+    {
+      "i": 214,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Big Jim thinks he is a god in Chester's Mill. He thinks his maneuvers and his murders are of biblical importance, but on the cosmic scale,",
+      "callout": null
+    },
+    {
+      "i": 215,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "he's just an ant fighting over a crumb inside a dirty glass jar. The aliens don't care about his meth lab. They don't care about his politics.",
+      "callout": null
+    },
+    {
+      "i": 216,
+      "shot": "split",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, wow. I never thought of it that way. It scales down his tyranny by showing how small he really is. It humbles the dictator not by defeating him, but by ignoring him.",
+      "callout": {
+        "text": "IGNORING",
+        "style": "box"
+      }
+    },
+    {
+      "i": 217,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "The aliens didn't make the ants kill each other. They just provided the jar. The dome is a pressure cooker. Exactly. The human element is the variable that turns a simple terrarium into a slaughter house.",
+      "callout": {
+        "text": "MAKE THE ANTS KILL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 218,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But let's take a step back and look at the book as a whole. We need to introduce one honest critical push back against the text itself.",
+      "callout": null
+    },
+    {
+      "i": 219,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "We've praised the sociological mechanics, but does the structure hold We have to question the structural integrity of the narrative, the stacking of the deck, right?",
+      "callout": null
+    },
+    {
+      "i": 220,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Does a stage set feel a bit, I don't know, too perfectly rigged for disaster? Does the book strain under the weight of its own coincidences? It's a fair question.",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, think about the timeline of October 21st. Chester's Mill just happens to have one of the biggest meth labs in the country hidden inside it.",
+      "callout": null
+    },
+    {
+      "i": 222,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The antagonist's son just happens to have an undiagnosed brain tumor that drives him to murder on the exact same day the dome falls.",
+      "callout": null
+    },
+    {
+      "i": 223,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The town's old moral police chief, the one guy who could have arrested Big Jim just happens to be the one guy with a pacemaker who dies instantly, leaving a convenient vacuum for the corrupt cops to fill. It is a highly valid critique.",
+      "callout": null
+    },
+    {
+      "i": 224,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "You have to ask yourself, is this brilliant narrative acceleration where King is intentionally stacking the deck with volatile elements to get to the core conflict faster, or does it make the town feel like",
+      "callout": {
+        "text": "ASK YOURSELF",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 225,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "a contrived laboratory experiment rather than a real breathing place? Does it shatter the suspension of",
+      "callout": null
+    },
+    {
+      "i": 226,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It feels like a loaded deck in a casino. You know, if Duke Perkins doesn't have a pacemaker, he arrests Big Jim on day two.",
+      "callout": null
+    },
+    {
+      "i": 227,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The story ends, right? If Junior doesn't have a tumor, he doesn't murder Angie, he doesn't frame Barbie, and the town doesn't have a scapegoat. If there's no meth lab, Big Jim doesn't have the massive stockpile of propane to hold the town hostage when the power grid fails.",
+      "callout": null
+    },
+    {
+      "i": 228,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Every single domino is perfectly placed to guarantee the worst possible outcome. You could argue the king is operating in the strict tradition of the crucible.",
+      "callout": null
+    },
+    {
+      "i": 229,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "A crucible requires specific, highly volatile chemical components to achieve the desired reaction. Okay, that makes sense. Chester's Mill isn't meant to be Every Town USA.",
+      "callout": null
+    },
+    {
+      "i": 230,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is a specifically engineered environment, a narrative pressure chamber designed to yield the maximum possible human combustion when the dome drops.",
+      "callout": null
+    },
+    {
+      "i": 231,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The coincidences are the necessary catalyst for the sociological experiment to run at hyper speed. So, it's the difference between stark realism and heightened allegory. You have to accept the premise of the lab experiment to enjoy the results of the Exactly.",
+      "callout": null
+    },
+    {
+      "i": 232,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You buy the ticket, you take the ride. And what a deeply unsettling ride it is. We've unpacked the opportunistic tyrants, the tragic scapegoats, the silently complicit,",
+      "callout": null
+    },
+    {
+      "i": 233,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the unlikely heroes, the suffocating environment, and the indifferent cosmic horror. All in one town.",
+      "callout": null
+    },
+    {
+      "i": 234,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We walk through life assuming that barriers are built to protect us from the horrors outside. We build walls. We lock our doors.",
+      "callout": {
+        "text": "WALK THROUGH LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 235,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "We seek security in isolation, believing that the danger is always external. But the dome wasn't built to keep anything out. It was a terrarium designed to trap the poison inside, forcing the rot",
+      "callout": null
+    },
+    {
+      "i": 236,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "to consume itself. The scariest thing about Chester's Mill isn't that they were trapped under the dome.",
+      "callout": null
+    },
+    {
+      "i": 237,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's that sooner or later, every single one of us realizes we are already living in a closed system. We are all under the dome.",
+      "callout": null
+    }
+  ]
+}

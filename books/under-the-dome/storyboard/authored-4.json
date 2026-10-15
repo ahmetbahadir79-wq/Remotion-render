@@ -1,0 +1,849 @@
+[
+  {
+    "i": 120,
+    "concept": "medical",
+    "diagram": null,
+    "callout": {
+      "text": "Doesn't the tumor absolve him",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Does Junior's brain tumor excuse his violence?",
+      "concreteVisual": "Junior, worried and thinking, beside a medical symbol for the tumor.",
+      "onScreenText": "Doesn't the tumor absolve him",
+      "relationToPrevious": "Follows the dome's trapped-in-a-room framing into Junior's medical reality.",
+      "addedInformation": "Frames the tumor as the defence being tested, not as a fact."
+    }
+  },
+  {
+    "i": 121,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The tumor lowered his impulse control",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The tumor lowered impulse control but did not cause the violence.",
+      "concreteVisual": "Junior stares ahead, thinking, in a bare room.",
+      "onScreenText": "The tumor lowered his impulse control",
+      "relationToPrevious": "Answers the excuse question from the previous beat.",
+      "addedInformation": "Splits the claim: impulse control is biology, the violence is his own."
+    }
+  },
+  {
+    "i": 122,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Irritable, paranoid, prone to violence",
+      "style": "stack"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "storyboard": {
+      "claim": "The tumor made Junior irritable, paranoid and prone to violent outbursts.",
+      "concreteVisual": "Junior shouting in anger, the threat of his outbursts on his face.",
+      "onScreenText": "Irritable, paranoid, prone to violence",
+      "relationToPrevious": "Concedes the biological effect before the narrator turns to character.",
+      "addedInformation": "Lists the symptoms as traits of his behaviour."
+    }
+  },
+  {
+    "i": 123,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The deep sea of misogyny",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Junior's misogyny and sense of entitlement were already who he was.",
+      "concreteVisual": "Junior, angry, jabbing a finger accusingly at an unseen woman.",
+      "onScreenText": "The deep sea of misogyny",
+      "relationToPrevious": "The turn: the tumor is set aside for who he already was.",
+      "addedInformation": "Shows the belief as an accusation aimed at women, not a mood."
+    }
+  },
+  {
+    "i": 124,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The tumor just removed the brakes",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The tumor removed the brakes; it did not plant the hatred or the plan.",
+      "concreteVisual": "Junior, troubled and thinking, alone in a room.",
+      "onScreenText": "The tumor just removed the brakes",
+      "relationToPrevious": "Extends the argument that the tumor only removed restraint.",
+      "addedInformation": "Clarifies that the plan and the hatred came before the tumor."
+    }
+  },
+  {
+    "i": 125,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Biology",
+        "Sociology"
+      ]
+    },
+    "callout": null,
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Biology accelerates the sociology; it does not rewrite it.",
+      "concreteVisual": "A two-step flow: biology pushes sociology forward.",
+      "onScreenText": "Biology, Sociology",
+      "relationToPrevious": "Turns the tumor argument into a cause and effect.",
+      "addedInformation": "Shows that the tumor speeds up a pre-existing social pattern."
+    }
+  },
+  {
+    "i": 126,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "A pressure cooker",
+      "style": "box"
+    },
+    "set": "room",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The dome trapped everyone in a room with a monster who stopped hiding.",
+      "concreteVisual": "The dome drawn as a sealed glass town, with Junior's angry face inside it.",
+      "onScreenText": "A pressure cooker",
+      "relationToPrevious": "Extends the tumor point to the dome as the setting.",
+      "addedInformation": "The dome does not teach hatred; it traps people with it."
+    }
+  },
+  {
+    "i": 127,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "What is happening outside",
+      "style": "highlight"
+    },
+    "set": "sky",
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The show turns from the inside of the dome to the outside world.",
+      "concreteVisual": "Andy, worried and thinking, looks toward the blue sky over the sealed town.",
+      "onScreenText": "What is happening outside",
+      "relationToPrevious": "Pivots from the inside collapse to the outside contrast.",
+      "addedInformation": "Sets up the outside as the second half of the argument."
+    }
+  },
+  {
+    "i": 128,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "The illusion of outside rescue",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Colonel Cox and the military offer an illusion of rescue from outside.",
+      "concreteVisual": "A military icon at the edge of the highway, the border of the town.",
+      "onScreenText": "The illusion of outside rescue",
+      "relationToPrevious": "Moves from the sky-sealed town to the military outside.",
+      "addedInformation": "Names the military response as an illusion before it is shown failing."
+    }
+  },
+  {
+    "i": 129,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "The cruise missile strikes",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A cruise missile hits the dome with a blinding flash.",
+      "concreteVisual": "A war icon and a bright white flash on the highway edge.",
+      "onScreenText": "The cruise missile strikes",
+      "relationToPrevious": "Shows the rescue attempt named in the previous beat.",
+      "addedInformation": "The missile is the military's most advanced weapon, so its failure lands harder."
+    }
+  },
+  {
+    "i": 130,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "Scorch mark on the glass",
+      "style": "stack"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The missile does nothing to the dome except scorch it and set the woods on fire.",
+      "concreteVisual": "The dome intact, with a black scorch mark on the glass and fire in the woods beyond.",
+      "onScreenText": "Scorch mark on the glass",
+      "relationToPrevious": "Shows what the missile actually did.",
+      "addedInformation": "The dome is drawn intact; only the mark and fire change."
+    }
+  },
+  {
+    "i": 131,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Military might is useless",
+      "style": "strike"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Technology and military might are useless against systemic traps.",
+      "concreteVisual": "An empty sky over the sealed town, with nothing to strike.",
+      "onScreenText": "Military might is useless",
+      "relationToPrevious": "Draws the lesson from the failed missile.",
+      "addedInformation": "Makes the impotence of the military the claim, not the missile."
+    }
+  },
+  {
+    "i": 132,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "You cannot bomb your way out",
+      "style": "highlight"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "You cannot bomb your way out of a social trap.",
+      "concreteVisual": "Empty sky over the town, the bounce-off of force shown only by the words.",
+      "onScreenText": "You cannot bomb your way out",
+      "relationToPrevious": "Generalises the missile failure into a rule.",
+      "addedInformation": "Names force as the wrong tool for a social problem."
+    }
+  },
+  {
+    "i": 133,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Traditional power structures",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Traditional power structures are ill-equipped for an unprecedented paradigm.",
+      "concreteVisual": "An empty town office desk, the old institution with no answer.",
+      "onScreenText": "Traditional power structures",
+      "relationToPrevious": "Turns to what the institutions do next.",
+      "addedInformation": "Frames the institutions as the subject of the failure."
+    }
+  },
+  {
+    "i": 134,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A hollow PR stunt",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Visitors day is a hollow PR stunt with families lined up in zones.",
+      "concreteVisual": "The highway edge with a controlled press line of families behind a barrier.",
+      "onScreenText": "A hollow PR stunt",
+      "relationToPrevious": "Answers the pivot to optics.",
+      "addedInformation": "Names the event as theatre, not help."
+    }
+  },
+  {
+    "i": 135,
+    "concept": "photo",
+    "diagram": null,
+    "callout": {
+      "text": "Hands pressed to the glass",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Families press their hands to the glass while the media takes photos.",
+      "concreteVisual": "A photo icon at the highway edge with hands pressed on the invisible glass.",
+      "onScreenText": "Hands pressed to the glass",
+      "relationToPrevious": "Describes the controlled event from the previous beat.",
+      "addedInformation": "The camera is the point: the photo is for the government's image."
+    }
+  },
+  {
+    "i": 136,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "Big Jim laughs at Cox",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Big Jim ignores Cox's threats because the military has no jurisdiction inside the dome.",
+      "concreteVisual": "Big Jim smirking in the town office, a law icon behind him.",
+      "onScreenText": "Big Jim laughs at Cox",
+      "relationToPrevious": "Shows the town's own law overriding federal force.",
+      "addedInformation": "Smirk gives Jim the edge of a man who knows he is untouchable."
+    }
+  },
+  {
+    "i": 137,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Cox operates under the old rules",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Cox still believes the threat of federal force guarantees compliance.",
+      "concreteVisual": "An empty town office, the old rules named in the words.",
+      "onScreenText": "Cox operates under the old rules",
+      "relationToPrevious": "Explains why Cox's threat fails.",
+      "addedInformation": "Names the outdated assumption behind the threat."
+    }
+  },
+  {
+    "i": 138,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "The old rules are dead",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The old rules are dead; the dome is a new reality.",
+      "concreteVisual": "Big Jim thinking in the town office, the dome drawn over the town.",
+      "onScreenText": "The old rules are dead",
+      "relationToPrevious": "Shows Jim recognising the new situation.",
+      "addedInformation": "Makes the dome the reason the old rules no longer apply."
+    }
+  },
+  {
+    "i": 139,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Just a loud noise",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "In this reality a cruise missile is just a loud noise.",
+      "concreteVisual": "The highway edge with the dome; nothing visibly happens.",
+      "onScreenText": "Just a loud noise",
+      "relationToPrevious": "Extends the missile failure into the new reality.",
+      "addedInformation": "Downgrades the missile to noise in one phrase."
+    }
+  },
+  {
+    "i": 140,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Working the problem from outside",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Cox works the problem from outside as best he can.",
+      "concreteVisual": "An empty town office, the outside effort named in words.",
+      "onScreenText": "Working the problem from outside",
+      "relationToPrevious": "Opens the debate about Cox as a hero.",
+      "addedInformation": "Gives the sympathetic reading of Cox before the rebuttal."
+    }
+  },
+  {
+    "i": 141,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Far more cynical",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Cox is far more cynical than a hero.",
+      "concreteVisual": "An empty town office; the verdict is in the words.",
+      "onScreenText": "Far more cynical",
+      "relationToPrevious": "The rebuttal to the hero reading.",
+      "addedInformation": "States the hosts' disagreement about Cox directly."
+    }
+  },
+  {
+    "i": 142,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Cares about optics",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Cox cares deeply about optics and maintaining viability.",
+      "concreteVisual": "An empty town office; the word optics is the claim.",
+      "onScreenText": "Cares about optics",
+      "relationToPrevious": "Supports the cynical reading with Cox's own priorities.",
+      "addedInformation": "Names what Cox values most."
+    }
+  },
+  {
+    "i": 143,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "Cut the town's phone lines",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Cox threatens to shut off the town's cell service and internet to punish Rennie.",
+      "concreteVisual": "A phone icon with Big Jim slumped, worried, in the town office.",
+      "onScreenText": "Cut the town's phone lines",
+      "relationToPrevious": "Shows the cost of Cox's punishment.",
+      "addedInformation": "The phone lines are the town's last link to the outside."
+    }
+  },
+  {
+    "i": 144,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Plunged into complete darkness",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Cox would plunge the citizens into darkness and isolation for a political fight.",
+      "concreteVisual": "Big Jim slumped in a dim room, worried.",
+      "onScreenText": "Plunged into complete darkness",
+      "relationToPrevious": "Explains the cost of the cell-service threat.",
+      "addedInformation": "Shows the collateral harm to the citizens."
+    }
+  },
+  {
+    "i": 145,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "A chilling parallel",
+      "style": "box"
+    },
+    "set": "highway",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Cox has the same callous disregard for collateral damage as Randy.",
+      "concreteVisual": "The highway edge, a sanitized tent implied, the parallel in the words.",
+      "onScreenText": "A chilling parallel",
+      "relationToPrevious": "Draws the parallel between Cox and the inside leader.",
+      "addedInformation": "Connects the outside government to the inside cruelty."
+    }
+  },
+  {
+    "i": 146,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Just as flawed as leadership",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The outside government is as flawed and ego-driven as the inside leadership.",
+      "concreteVisual": "Big Jim smirking in the town office, the leadership point.",
+      "onScreenText": "Just as flawed as leadership",
+      "relationToPrevious": "Broadens the Cox parallel to the whole government.",
+      "addedInformation": "Ties the government's flaws to the same ego Jim shows."
+    }
+  },
+  {
+    "i": 147,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "It exposed the limits",
+      "style": "reveal"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The barrier did not make the government ineffective; it exposed the limits of its methods.",
+      "concreteVisual": "Empty sky over the dome, the exposure named in words.",
+      "onScreenText": "It exposed the limits",
+      "relationToPrevious": "Refines the government point: exposure, not cause.",
+      "addedInformation": "Separates what the dome caused from what it revealed."
+    }
+  },
+  {
+    "i": 148,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Accelerates every flaw it touches",
+      "style": "highlight"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The dome accelerates the flaws in every system it touches, not only the bad.",
+      "concreteVisual": "Empty sky over the sealed town; the acceleration is in the words.",
+      "onScreenText": "Accelerates every flaw it touches",
+      "relationToPrevious": "Summarises the first half of the episode.",
+      "addedInformation": "Sets up the turn to the people who find courage."
+    }
+  },
+  {
+    "i": 149,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Find their courage",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The other side: people who see the chance and find their courage.",
+      "concreteVisual": "Julia, thinking, in a quiet room with a notebook.",
+      "onScreenText": "Find their courage",
+      "relationToPrevious": "Turns from the failing systems to the people who respond.",
+      "addedInformation": "Introduces the counter-movement the episode follows."
+    }
+  },
+  {
+    "i": 150,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "Brenda Perkins, a widow",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Brenda Perkins is a widow freshly mourning Duke, who died when his pacemaker exploded.",
+      "concreteVisual": "A grave icon in a quiet living room.",
+      "onScreenText": "Brenda Perkins, a widow",
+      "relationToPrevious": "Introduces Brenda, the first of the people who find courage.",
+      "addedInformation": "Gives her grief and the cause of her husband's death."
+    }
+  },
+  {
+    "i": 151,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "Reading her husband's VA file",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Brenda reads the VA file, putting together her dead husband's secret investigation.",
+      "concreteVisual": "Printed pages of the VA file held in her hands.",
+      "onScreenText": "Reading her husband's VA file",
+      "relationToPrevious": "Shows the grief turning into investigation.",
+      "addedInformation": "The printed pages are the evidence she is assembling."
+    }
+  },
+  {
+    "i": 152,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Bankrolled by Big Jim",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The methamphetamine lab is bankrolled by Big Jim, and isolation radicalises the complacent.",
+      "concreteVisual": "Big Jim smirking, the lab's backer shown in the room.",
+      "onScreenText": "Bankrolled by Big Jim",
+      "relationToPrevious": "Names the hidden backer behind the investigation.",
+      "addedInformation": "Smirk gives Jim the sinister edge of the man behind the lab."
+    }
+  },
+  {
+    "i": 153,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "You have to step up",
+      "style": "stack"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "When the systems fail and the government cannot reach you, you have to step up.",
+      "concreteVisual": "Julia, worried and thinking, in a quiet room.",
+      "onScreenText": "You have to step up",
+      "relationToPrevious": "Generalises Brenda's position into a rule of isolation.",
+      "addedInformation": "Explains the radicalisation as a choice forced by the situation."
+    }
+  },
+  {
+    "i": 154,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Cannot simply wait for justice",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Brenda realises she cannot simply wait for the gears of justice to turn.",
+      "concreteVisual": "A quiet room, the waiting named in the words.",
+      "onScreenText": "Cannot simply wait for justice",
+      "relationToPrevious": "Brenda's decision follows the principle from the previous beat.",
+      "addedInformation": "Rejects waiting as a form of justice."
+    }
+  },
+  {
+    "i": 155,
+    "concept": "balance",
+    "diagram": null,
+    "callout": {
+      "text": "Become the mechanism of justice",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Brenda must become the mechanism of justice herself, with Julia beside her.",
+      "concreteVisual": "A balance icon with Julia speaking beside it.",
+      "onScreenText": "Become the mechanism of justice",
+      "relationToPrevious": "Turns the decision into the role Brenda takes on.",
+      "addedInformation": "Julia is her partner in that role; the balance shows justice as the goal."
+    }
+  },
+  {
+    "i": 156,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "She backed his campaigns",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "Julia once supported Big Jim's political campaigns and liked his pro-business stance, but she is sharp.",
+      "concreteVisual": "Julia, thinking, in the town office.",
+      "onScreenText": "She backed his campaigns",
+      "relationToPrevious": "Gives Julia's past support before her turn.",
+      "addedInformation": "Shows that Julia backed Jim before she saw through him."
+    }
+  },
+  {
+    "i": 157,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Guns confiscated on day two",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Jim's power grab came too fast and too coordinated, with guns confiscated on day two.",
+      "concreteVisual": "Big Jim angrily pointing in the town office.",
+      "onScreenText": "Guns confiscated on day two",
+      "relationToPrevious": "Shows the specific moves Julia found suspicious.",
+      "addedInformation": "Angry and pointing marks the power grab as aggression, not authority."
+    }
+  },
+  {
+    "i": 158,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Covering his criminal tracks",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Jim is using the dome crisis to cover his criminal tracks, and Julia pivots.",
+      "concreteVisual": "Julia, worried and thinking, in the office.",
+      "onScreenText": "Covering his criminal tracks",
+      "relationToPrevious": "States Julia's conclusion from the power grab.",
+      "addedInformation": "Names the criminal motive behind the crisis."
+    }
+  },
+  {
+    "i": 159,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Publish the truth",
+      "style": "box"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Julia organises an underground resistance and prepares to publish the truth despite the danger.",
+      "concreteVisual": "Julia holding her notes, ready to publish.",
+      "onScreenText": "Publish the truth",
+      "relationToPrevious": "Julia's pivot becomes action.",
+      "addedInformation": "Shows that the danger does not stop her publishing."
+    }
+  }
+]

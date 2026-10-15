@@ -1,0 +1,870 @@
+[
+  {
+    "i": 160,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Andy goes quiet to survive",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "julia",
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Julia is the moral counterweight: she speaks while Andy stays silent to survive.",
+      "concreteVisual": "Julia thinking, Andy beside her in a rumpled brown suit, quiet.",
+      "onScreenText": "Andy goes quiet to survive",
+      "relationToPrevious": "Follows the trailing context about Julia's and Brenda's courage.",
+      "addedInformation": "Contrasts the two leaders' silence with Julia's resolve."
+    }
+  },
+  {
+    "i": 161,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Silence is a death sentence",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "angry",
+    "action": "talk",
+    "storyboard": {
+      "claim": "Speaking up is risky, and silence kills the town's soul.",
+      "concreteVisual": "Julia mid-speech at the newspaper office, defiant face.",
+      "onScreenText": "Silence is a death sentence",
+      "relationToPrevious": "Pivots from Andy's silence to Julia's speaking up.",
+      "addedInformation": "The defiant face shows confrontation, not mere talking."
+    }
+  },
+  {
+    "i": 162,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Brenda's tactical execution",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The host pushes back on Brenda's timing and tactics.",
+      "concreteVisual": "Julia pausing and weighing a critique, office behind her.",
+      "onScreenText": "Brenda's tactical execution",
+      "relationToPrevious": "Host banter turning to critique of Brenda's approach.",
+      "addedInformation": "weak: the critique is a judgment on tactics; the face only suggests doubt."
+    }
+  },
+  {
+    "i": 163,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "She has the absolute proof",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "notes",
+    "storyboard": {
+      "claim": "Julia holds damning proof against Rennie but waits to use it.",
+      "concreteVisual": "Julia holding a stack of notes, the evidence in her hands.",
+      "onScreenText": "She has the absolute proof",
+      "relationToPrevious": "Explains why her delay is a tactical choice.",
+      "addedInformation": "The held file makes the evidence physical."
+    }
+  },
+  {
+    "i": 164,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "She holds on to the evidence",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "photo",
+    "storyboard": {
+      "claim": "She hides the evidence instead of acting at once.",
+      "concreteVisual": "Julia clutching a photo to her chest, half turned away.",
+      "onScreenText": "She holds on to the evidence",
+      "relationToPrevious": "Follows her proof to the choice to hide it.",
+      "addedInformation": "The photo stands for the hidden evidence; the hiding gesture reads as concealment."
+    }
+  },
+  {
+    "i": 165,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "She kept it in her pocket",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Her timing was a critique, but she was a grieving person acting under fear.",
+      "concreteVisual": "Julia reflecting, hand near her jacket pocket.",
+      "onScreenText": "She kept it in her pocket",
+      "relationToPrevious": "Turns from critique to her humanity.",
+      "addedInformation": "The pocket gesture shows her holding back the silver bullet."
+    }
+  },
+  {
+    "i": 166,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "She's a newly grieving widow",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Julia is a newly grieving widow after a violent death.",
+      "concreteVisual": "Julia slumped, grief on her face.",
+      "onScreenText": "She's a newly grieving widow",
+      "relationToPrevious": "Explains why she hesitates.",
+      "addedInformation": "Grief is shown in the body, not only named."
+    }
+  },
+  {
+    "i": 167,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a ruthless drug lord",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "julia",
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Julia calculates her route while Rennie is a ruthless drug lord.",
+      "concreteVisual": "Julia worried in thought, Big Jim smirking beside her.",
+      "onScreenText": "a ruthless drug lord",
+      "relationToPrevious": "Widens to the town losing its mind and Rennie's danger.",
+      "addedInformation": "Rennie's smirk shows the threat behind the title."
+    }
+  },
+  {
+    "i": 168,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Rennie would murder her",
+      "style": "strike"
+    },
+    "set": "office",
+    "cast": [
+      "jim",
+      "julia"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "Rennie would murder Julia if she revealed the file too early.",
+      "concreteVisual": "Big Jim pointing a threatening finger at Julia, who looks afraid.",
+      "onScreenText": "Rennie would murder her",
+      "relationToPrevious": "Explains the stakes behind her waiting.",
+      "addedInformation": "The threat is staged on Rennie, not on the callout alone."
+    }
+  },
+  {
+    "i": 169,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "waiting for the federal cavalry",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Julia waits for outside help to break the dome, which is logical.",
+      "concreteVisual": "The glass dome over the town, with Julia thinking below it.",
+      "onScreenText": "waiting for the federal cavalry",
+      "relationToPrevious": "Justifies her waiting on the outside world.",
+      "addedInformation": "The dome icon shows what she is waiting to be broken."
+    }
+  },
+  {
+    "i": 170,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the logical delay is fatal",
+      "style": "stack"
+    },
+    "set": "street",
+    "cast": [
+      "julia"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Under the dome, waiting is fatal; the old pacing rules do not apply.",
+      "concreteVisual": "Julia looking afraid on a street under the dome.",
+      "onScreenText": "the logical delay is fatal",
+      "relationToPrevious": "Counters the logic of waiting.",
+      "addedInformation": "Fear shows the cost of delay; the time element is carried by the callout."
+    }
+  },
+  {
+    "i": 171,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Their bravery is undeniable",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "julia"
+    ],
+    "expression": "happy",
+    "action": "celebrate",
+    "storyboard": {
+      "claim": "Julia and Brenda's bravery is undeniable.",
+      "concreteVisual": "Julia raising a fist in admiration, office background.",
+      "onScreenText": "Their bravery is undeniable",
+      "relationToPrevious": "Honors their courage after the critique.",
+      "addedInformation": "Genuine warmth, not a fake smile."
+    }
+  },
+  {
+    "i": 172,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The environmental collapse of Chester's Mill",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The town's environment is collapsing with it.",
+      "concreteVisual": "A wide view of the town street under the dome.",
+      "onScreenText": "The environmental collapse of Chester's Mill",
+      "relationToPrevious": "Turns from the people to the physical setting.",
+      "addedInformation": "weak: an empty frame; the callout carries the claim."
+    }
+  },
+  {
+    "i": 173,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The town becomes a character",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The town itself becomes a character in its own demise.",
+      "concreteVisual": "The empty street of Chester's Mill under the dome.",
+      "onScreenText": "The town becomes a character",
+      "relationToPrevious": "Continues the setting theme.",
+      "addedInformation": "weak: an empty frame; the callout carries the claim."
+    }
+  },
+  {
+    "i": 174,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Rusty steps outside the hospital",
+      "style": "reveal"
+    },
+    "set": "hospital",
+    "cast": [
+      "rusty"
+    ],
+    "expression": "worried",
+    "action": "walk",
+    "storyboard": {
+      "claim": "Rusty steps outside the hospital into the air.",
+      "concreteVisual": "Rusty in blue scrubs walking out of the hospital doors.",
+      "onScreenText": "Rusty steps outside the hospital",
+      "relationToPrevious": "Introduces the scene the host describes.",
+      "addedInformation": "Shows the setting: the hospital door, the outside air."
+    }
+  },
+  {
+    "i": 175,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a swampy stench rising",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "rusty"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The air is heavy and swampy, a greasy stench from the dried stream.",
+      "concreteVisual": "Rusty standing in the street, face strained by the air.",
+      "onScreenText": "a swampy stench rising",
+      "relationToPrevious": "Describes the air Rusty smells.",
+      "addedInformation": "The strained face carries the bad air."
+    }
+  },
+  {
+    "i": 176,
+    "concept": "water",
+    "diagram": null,
+    "callout": {
+      "text": "The water isn't flowing",
+      "style": "strike"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The water is dying and no longer flows.",
+      "concreteVisual": "A water icon in the scene, the dried-up stream.",
+      "onScreenText": "The water isn't flowing",
+      "relationToPrevious": "Moves to the water and air failing.",
+      "addedInformation": "The water icon reads as water; the callout gives the failure."
+    }
+  },
+  {
+    "i": 177,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The town is choking",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "rusty"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The town is choking on its own air.",
+      "concreteVisual": "Rusty looking afraid on the street, breath tight.",
+      "onScreenText": "The town is choking",
+      "relationToPrevious": "Follows the air description.",
+      "addedInformation": "Fear on the face shows the choking."
+    }
+  },
+  {
+    "i": 178,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "moral collapse of its citizens",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The physical collapse mirrors the moral collapse of the citizens.",
+      "concreteVisual": "Andy in thought on the street, anxious.",
+      "onScreenText": "moral collapse of its citizens",
+      "relationToPrevious": "Links environment to society.",
+      "addedInformation": "Andy stands in for the citizens losing their moral footing."
+    }
+  },
+  {
+    "i": 179,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "cannot separate the health",
+      "style": "highlight"
+    },
+    "set": "hospital",
+    "cast": [
+      "rusty"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "storyboard": {
+      "claim": "The health of the environment cannot be separated from the health of society.",
+      "concreteVisual": "Rusty slumped in the hospital, sad.",
+      "onScreenText": "cannot separate the health",
+      "relationToPrevious": "Develops the link between environment and society.",
+      "addedInformation": "Sadness shows the cost of the link."
+    }
+  },
+  {
+    "i": 180,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Bad air",
+        "People go mad"
+      ]
+    },
+    "callout": null,
+    "set": "street",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "When the air goes bad, the people go mad.",
+      "concreteVisual": "A flow from bad air to people going mad, with Junior angry on the street.",
+      "onScreenText": "The bad air makes people mad",
+      "relationToPrevious": "Turns the environment into a cause and effect.",
+      "addedInformation": "The diagram makes the cause and effect explicit."
+    }
+  },
+  {
+    "i": 181,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The hoarding of the propane",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Resources are managed selfishly in the face of the environmental death.",
+      "concreteVisual": "Big Jim smirking in the office.",
+      "onScreenText": "The hoarding of the propane",
+      "relationToPrevious": "Moves from air to hoarded resources.",
+      "addedInformation": "The smirk gives the hoarding a manipulative edge; no propane tank is drawn."
+    }
+  },
+  {
+    "i": 182,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "looking out for number one",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The Bowie undertakers hoard propane out of selfish paranoia.",
+      "concreteVisual": "A grave icon for the undertakers, in a room.",
+      "onScreenText": "looking out for number one",
+      "relationToPrevious": "Names the hoarding parties.",
+      "addedInformation": "weak: no face on screen for the brothers; the grave icon carries the undertakers."
+    }
+  },
+  {
+    "i": 183,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Big Jim Rennie is hoarding",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Big Jim Rennie hoards industrial propane for his meth lab and generators.",
+      "concreteVisual": "Big Jim smirking in the office.",
+      "onScreenText": "Big Jim Rennie is hoarding",
+      "relationToPrevious": "Names the hoarder who matters most.",
+      "addedInformation": "The smirk shows his manipulation."
+    }
+  },
+  {
+    "i": 184,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "human greed restricts them",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Human greed holds back resources the town needs.",
+      "concreteVisual": "Big Jim angry in the office.",
+      "onScreenText": "human greed restricts them",
+      "relationToPrevious": "Generalizes Jim's hoarding to human greed.",
+      "addedInformation": "The angry face shows the cost to others."
+    }
+  },
+  {
+    "i": 185,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "at the expense of the many",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "jim",
+      "barbie"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The few hoard life-saving resources at the expense of the many.",
+      "concreteVisual": "Big Jim smirking beside Barbie, worried, on the street.",
+      "onScreenText": "at the expense of the many",
+      "relationToPrevious": "Shows the few against the many.",
+      "addedInformation": "Two people, one smug and one worried, stand for the two sides."
+    }
+  },
+  {
+    "i": 186,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "over the long-term survival",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "andy"
+    ],
+    "expression": "blank",
+    "action": "idle",
+    "storyboard": {
+      "claim": "They prioritize short-term comfort and power over long-term survival.",
+      "concreteVisual": "Andy blank-faced in a room.",
+      "onScreenText": "over the long-term survival",
+      "relationToPrevious": "Draws the conclusion about the few.",
+      "addedInformation": "Blank face reads as indifference to the long term."
+    }
+  },
+  {
+    "i": 187,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the actual primary threat",
+      "style": "highlight"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "What is the real primary threat to Chester's Mill?",
+      "concreteVisual": "The sky under the dome, a question on screen.",
+      "onScreenText": "the actual primary threat",
+      "relationToPrevious": "Asks the question that the next beats answer.",
+      "addedInformation": "weak: no person on screen; the callout asks the question."
+    }
+  },
+  {
+    "i": 188,
+    "concept": "hourglass",
+    "diagram": null,
+    "callout": {
+      "text": "a death sentence",
+      "style": "reveal"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The dome is a death sentence within weeks.",
+      "concreteVisual": "An hourglass under the dome, sand running out.",
+      "onScreenText": "a death sentence",
+      "relationToPrevious": "Answers the threat question with time.",
+      "addedInformation": "The hourglass reads as time running out, matching 'in weeks'."
+    }
+  },
+  {
+    "i": 189,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the environment won't get the chance",
+      "style": "highlight"
+    },
+    "set": "hospital",
+    "cast": [
+      "rusty"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humans, not the environment, are the primary killer in practice.",
+      "concreteVisual": "Rusty worried in the hospital.",
+      "onScreenText": "the environment won't get the chance",
+      "relationToPrevious": "Corrects the environmental threat to a human one.",
+      "addedInformation": "Worry on the face shows the human danger."
+    }
+  },
+  {
+    "i": 190,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "riots at the supermarket",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "The riots, hoarding, and armed teens will collapse society faster than the air.",
+      "concreteVisual": "Junior angry, pointing at the supermarket street.",
+      "onScreenText": "riots at the supermarket",
+      "relationToPrevious": "Explains how society kills faster than air.",
+      "addedInformation": "Junior stands for the armed teens; the point shows the threat."
+    }
+  },
+  {
+    "i": 191,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The oxygen runs out",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Social collapse kills before the oxygen runs out.",
+      "concreteVisual": "Barbie thinking, worried, on the street.",
+      "onScreenText": "The oxygen runs out",
+      "relationToPrevious": "Continues the claim that humanity is the danger.",
+      "addedInformation": "Worried thought conveys the race against time."
+    }
+  },
+  {
+    "i": 192,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "humanity is the weapon",
+      "style": "reveal"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Humanity is the weapon; the dome trapped everyone with their own greed.",
+      "concreteVisual": "The dome over the town.",
+      "onScreenText": "humanity is the weapon",
+      "relationToPrevious": "Concludes the environment-versus-humanity argument.",
+      "addedInformation": "The dome shows what trapped them."
+    }
+  },
+  {
+    "i": 193,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The search for the why",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "afraid",
+    "action": "think",
+    "storyboard": {
+      "claim": "The narrative turns to the search for the why.",
+      "concreteVisual": "Barbie afraid and thinking on the street.",
+      "onScreenText": "The search for the why",
+      "relationToPrevious": "Opens the final existential search.",
+      "addedInformation": "The afraid face shows the stakes of the question."
+    }
+  },
+  {
+    "i": 194,
+    "concept": "tree",
+    "diagram": null,
+    "callout": {
+      "text": "the ruined McCoy Apple Orchard",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "They are deep in the ruined McCoy Apple Orchard.",
+      "concreteVisual": "A tree icon for the orchard.",
+      "onScreenText": "the ruined McCoy Apple Orchard",
+      "relationToPrevious": "Moves to the orchard location.",
+      "addedInformation": "weak: the kids are not cast; the tree icon carries the orchard."
+    }
+  },
+  {
+    "i": 195,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Geiger counter spikes",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Their Geiger counter spikes; they follow the radiation.",
+      "concreteVisual": "A Geiger counter spiking in the orchard.",
+      "onScreenText": "The Geiger counter spikes",
+      "relationToPrevious": "Describes the orchard discovery.",
+      "addedInformation": "weak: the counter is not drawn; only the callout names it."
+    }
+  },
+  {
+    "i": 196,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "a glowing purple box",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The source is a glowing purple box with symbols that knocks people out.",
+      "concreteVisual": "A glowing purple box in the orchard.",
+      "onScreenText": "a glowing purple box",
+      "relationToPrevious": "Reveals the source of the radiation.",
+      "addedInformation": "weak: the box is not drawn; the callout names it."
+    }
+  },
+  {
+    "i": 197,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the cosmic into the mundane",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "surprised",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The cosmic insertion into the mundane is fascinating.",
+      "concreteVisual": "Barbie surprised in a room.",
+      "onScreenText": "the cosmic into the mundane",
+      "relationToPrevious": "Moves from the box to its meaning.",
+      "addedInformation": "Surprise reads as fascination."
+    }
+  },
+  {
+    "i": 198,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "the human drama dwarfs",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie",
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The human drama dwarfs the alien box and nothing changes how they treat each other.",
+      "concreteVisual": "Barbie worried beside Big Jim on the street.",
+      "onScreenText": "the human drama dwarfs",
+      "relationToPrevious": "Pivots to human drama over the box.",
+      "addedInformation": "The two people show the human drama."
+    }
+  },
+  {
+    "i": 199,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The real story isn't the box",
+      "style": "strike"
+    },
+    "set": "sky",
+    "cast": [],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The real story is not the mechanics of the box.",
+      "concreteVisual": "The sky over the town, empty.",
+      "onScreenText": "The real story isn't the box",
+      "relationToPrevious": "Closes the box discussion.",
+      "addedInformation": "weak: an empty frame; the callout rejects the box as the story."
+    }
+  }
+]

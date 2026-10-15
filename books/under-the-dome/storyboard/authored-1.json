@@ -1,0 +1,889 @@
+[
+  {
+    "i": 0,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "Sealed off from the world",
+      "style": "reveal"
+    },
+    "set": "sky",
+    "cast": [
+      "andy"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A town is sealed off from the world by an invisible barrier.",
+      "concreteVisual": "The Dome, a glass barrier cut over the town, with planes burning against it.",
+      "onScreenText": "Sealed off from the world",
+      "relationToPrevious": "Cold open.",
+      "addedInformation": "Shows the barrier as a physical dome sealing the town, not an abstract wall."
+    }
+  },
+  {
+    "i": 1,
+    "concept": "grave",
+    "diagram": null,
+    "callout": {
+      "text": "People are dying",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "People are dying and the air is turning toxic.",
+      "concreteVisual": "A grave icon while Big Jim sits in his office holding a gold baseball.",
+      "onScreenText": "People are dying",
+      "relationToPrevious": "The dome is set up; now the cost and the man who benefits.",
+      "addedInformation": "Pairs the deaths with Jim calmly sitting in his office, the gap between the two is the point."
+    }
+  },
+  {
+    "i": 2,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "No state police",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "With no state police, Jim is smiling at the power he now has.",
+      "concreteVisual": "Jim smirking in his office; a law icon for the absence of state police.",
+      "onScreenText": "No state police",
+      "relationToPrevious": "From the deaths to Jim's private satisfaction.",
+      "addedInformation": "The smirk shows he is pleased, the law icon names what is missing."
+    }
+  },
+  {
+    "i": 3,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The monster is inside",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "The real monster is inside the town, not outside the dome.",
+      "concreteVisual": "Jim pointing inward at the town, angry.",
+      "onScreenText": "The monster is inside",
+      "relationToPrevious": "Jim is the source of the threat; the dome is not.",
+      "addedInformation": "Accusing point with an angry face turns the monster idea into a person."
+    }
+  },
+  {
+    "i": 4,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "Stephen King's Under the Dome",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "storyboard": {
+      "claim": "Most readers categorise Under the Dome the moment they see it.",
+      "concreteVisual": "Julia holding the novel up.",
+      "onScreenText": "Stephen King's Under the Dome",
+      "relationToPrevious": "From the monster line to the book being discussed.",
+      "addedInformation": "Shows the book itself as the thing being categorised."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Not a breezy romance",
+      "style": "strike"
+    },
+    "set": "room",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "This is not a breezy romance or a standard thriller with a twist.",
+      "concreteVisual": "Julia pointing at the viewer, neutral, rejecting the genre label.",
+      "onScreenText": "Not a breezy romance",
+      "relationToPrevious": "Continues the book-as-categorised thread into the expectation the hosts reject.",
+      "addedInformation": "Strike marks the rejected genre label."
+    }
+  },
+  {
+    "i": 6,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Humanity versus the unknown",
+      "style": "strike"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The usual reading of an external threat story is wrong.",
+      "concreteVisual": "Barbie looking out past the town edge, thinking.",
+      "onScreenText": "Humanity versus the unknown",
+      "relationToPrevious": "The hosts reject the external-threat reading.",
+      "addedInformation": "Strike marks the rejected framing; Barbie looks outward to show what the usual reading expects."
+    }
+  },
+  {
+    "i": 7,
+    "concept": "theDome",
+    "diagram": null,
+    "callout": {
+      "text": "Just the plot device",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "julia"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "storyboard": {
+      "claim": "The barrier is just a plot device, not the real story.",
+      "concreteVisual": "The Dome barrier drawn over the town, with Julia pointing at it.",
+      "onScreenText": "Just the plot device",
+      "relationToPrevious": "Dismisses the outside-threat reading.",
+      "addedInformation": "The dome icon is the literal barrier the narrator calls a device."
+    }
+  },
+  {
+    "i": 8,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The actual horror here",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "The horror is the town's own social order, not the dome.",
+      "concreteVisual": "Jim angrily pointing at the town around him.",
+      "onScreenText": "The actual horror here",
+      "relationToPrevious": "Moves from the barrier to the town's own cruelty.",
+      "addedInformation": "Accusing point with an angry face places the cruelty in the town's leader."
+    }
+  },
+  {
+    "i": 9,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Strips away the consequences",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The dome removes the outside consequences that held the town in check.",
+      "concreteVisual": "Andy, worried, thinking over the empty street.",
+      "onScreenText": "Strips away the consequences",
+      "relationToPrevious": "Explains how the dome changes the town.",
+      "addedInformation": "Worried thinking shows the loss of consequence without a symbol."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Ordinary versus impossible",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "storyboard": {
+      "claim": "The contrast between the ordinary and the impossible makes the story work.",
+      "concreteVisual": "Barbie walking down Chester's Mill main street.",
+      "onScreenText": "Ordinary versus impossible",
+      "relationToPrevious": "Moves the listener into the town.",
+      "addedInformation": "Walking on an ordinary street sets the everyday baseline."
+    }
+  },
+  {
+    "i": 11,
+    "concept": "tree",
+    "diagram": null,
+    "callout": {
+      "text": "Mundane Saturday chores",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "julia"
+    ],
+    "expression": "happy",
+    "action": "walk",
+    "storyboard": {
+      "claim": "It is an ordinary autumn Saturday with people doing chores.",
+      "concreteVisual": "A tree with turning leaves on an ordinary street; Julia walking, mildly content.",
+      "onScreenText": "Mundane Saturday chores",
+      "relationToPrevious": "The ordinary baseline before the event.",
+      "addedInformation": "The tree shows the turning autumn leaves the narrator describes."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Just a normal weekend",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "happy",
+    "action": "idle",
+    "storyboard": {
+      "claim": "It is a completely normal weekend.",
+      "concreteVisual": "Barbie, relaxed and content, on an ordinary street.",
+      "onScreenText": "Just a normal weekend",
+      "relationToPrevious": "Repeats the normalcy just before the event.",
+      "addedInformation": "Genuine ease, since the calm is the point before the break."
+    }
+  },
+  {
+    "i": 13,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Along Route 119",
+      "style": "highlight"
+    },
+    "set": "highway",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "surprised",
+    "action": "walk",
+    "storyboard": {
+      "claim": "A dog and an old woodchuck are bumbling along Route 119 at the town edge.",
+      "concreteVisual": "Barbie on the highway edge, surprised by the animals walking along the road.",
+      "onScreenText": "Along Route 119",
+      "relationToPrevious": "The abrupt start of the event.",
+      "addedInformation": "Surprise shows the abruptness the narrator names."
+    }
+  },
+  {
+    "i": 14,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The Dome cuts through the town",
+      "style": "reveal"
+    },
+    "set": "highway",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Both animals are instantly and cleanly sliced into.",
+      "concreteVisual": "Barbie, afraid, at the edge of Route 119 where the animals were.",
+      "onScreenText": "The Dome cuts through the town",
+      "relationToPrevious": "The first death, right after the animals.",
+      "addedInformation": "Fear shows the horror of an instant, invisible cut."
+    }
+  },
+  {
+    "i": 15,
+    "concept": "fire",
+    "diagram": null,
+    "callout": {
+      "text": "Rains fire and body parts",
+      "style": "reveal"
+    },
+    "set": "sky",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "afraid",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A Piper airplane disintegrates against the blue sky and rains fire down on the town.",
+      "concreteVisual": "A fire icon over a sky with a falling plane.",
+      "onScreenText": "Rains fire and body parts",
+      "relationToPrevious": "The plane follows the animals.",
+      "addedInformation": "The fire icon literally shows fire falling; the plane is named in the narration."
+    }
+  },
+  {
+    "i": 16,
+    "concept": "law",
+    "diagram": null,
+    "callout": {
+      "text": "Chief of Police Duke Perkins",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "neutral",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Chief of Police Duke Perkins is outside raking his lawn when the surge hits.",
+      "concreteVisual": "A law icon for the police chief on his lawn.",
+      "onScreenText": "Chief of Police Duke Perkins",
+      "relationToPrevious": "The event reaches the town's law.",
+      "addedInformation": "weak: Duke Perkins has no cast key; the law icon carries the role and andy is a placeholder body."
+    }
+  },
+  {
+    "i": 17,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "His pacemaker explodes",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "afraid",
+    "action": "collapsed",
+    "storyboard": {
+      "claim": "The pacemaker explodes inside his chest from the electromagnetic surge.",
+      "concreteVisual": "A man collapsed on the street, eyes shut.",
+      "onScreenText": "His pacemaker explodes",
+      "relationToPrevious": "The chief is hit by the surge.",
+      "addedInformation": "weak: the placeholder is andy; the collapse reads as fainted, the callout names the cause."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Physically",
+        "Legally",
+        "Morally"
+      ]
+    },
+    "callout": null,
+    "set": "highway",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The dome isolates the town physically, then legally and morally.",
+      "concreteVisual": "A three-bucket sorter for the kinds of isolation.",
+      "onScreenText": "Isolated by land, law and morals",
+      "relationToPrevious": "Explains the mechanism behind the event.",
+      "addedInformation": "The sorter names the three kinds of isolation the narrator lists."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Severed from federal law",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The town is severed from federal law, supply chains and oversight.",
+      "concreteVisual": "Jim smirking in the office, sitting in the town he now runs.",
+      "onScreenText": "Severed from federal law",
+      "relationToPrevious": "From the physical isolation to the legal one.",
+      "addedInformation": "The smirk shows Jim gains from the severance."
+    }
+  },
+  {
+    "i": 20,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Thin veneer of civilization",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Removing consequences strips away the thin veneer of civilization.",
+      "concreteVisual": "Jim, relaxed, in the office; the veneer is named in the callout.",
+      "onScreenText": "Thin veneer of civilization",
+      "relationToPrevious": "Lists the agencies that are now gone.",
+      "addedInformation": "No symbol for a veneer exists; the callout carries the idea."
+    }
+  },
+  {
+    "i": 21,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Human nature in a vacuum",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "julia"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "Without outside law, human nature in a vacuum is not kind.",
+      "concreteVisual": "Julia, worried, thinking over the empty town street.",
+      "onScreenText": "Human nature in a vacuum",
+      "relationToPrevious": "The summary of what is left after the agencies are gone.",
+      "addedInformation": "Worried thinking carries the bleak conclusion."
+    }
+  },
+  {
+    "i": 22,
+    "concept": "puppeteer",
+    "diagram": null,
+    "callout": {
+      "text": "Step into that vacuum",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "The people who take charge step into the vacuum.",
+      "concreteVisual": "A puppeteer icon for one person controlling others, with Jim pointing as he takes charge.",
+      "onScreenText": "Step into that vacuum",
+      "relationToPrevious": "From human nature to the people who take charge.",
+      "addedInformation": "The puppeteer icon shows one man controlling others, which is the leader's role."
+    }
+  },
+  {
+    "i": 23,
+    "concept": "food",
+    "diagram": null,
+    "callout": {
+      "text": "Chaotic apocalyptic mess",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Food City is a chaotic mess a few days into the dome.",
+      "concreteVisual": "A food icon for the supermarket, Barbie worried in the aisle.",
+      "onScreenText": "Chaotic apocalyptic mess",
+      "relationToPrevious": "Moves from the leaders to the scene of the riot.",
+      "addedInformation": "The food icon literally marks the supermarket."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Fighting over canned goods",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "junior",
+      "barbie"
+    ],
+    "expression": "angry",
+    "action": "fighting",
+    "storyboard": {
+      "claim": "Panicked people fight over canned goods in the supermarket.",
+      "concreteVisual": "Junior fighting with a second man over food.",
+      "onScreenText": "Fighting over canned goods",
+      "relationToPrevious": "The riot in the supermarket.",
+      "addedInformation": "Two figures fighting read as an actual scuffle."
+    }
+  },
+  {
+    "i": 25,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Doing nothing",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "blank",
+    "action": "idle",
+    "storyboard": {
+      "claim": "The acting police chief stands there letting the looting happen and does nothing.",
+      "concreteVisual": "A blank-faced man standing still while the riot goes on.",
+      "onScreenText": "Doing nothing",
+      "relationToPrevious": "Continues the riot scene.",
+      "addedInformation": "weak: Pete Randolph has no cast key; andy is a placeholder with a blank face, the callout names the inaction."
+    }
+  },
+  {
+    "i": 26,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Crisis opportunism",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "junior"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "A cruel laugh as an old man is pushed to the floor is crisis opportunism.",
+      "concreteVisual": "Junior with a cruel smirk on the street.",
+      "onScreenText": "Crisis opportunism",
+      "relationToPrevious": "Continues the riot with the cruelty.",
+      "addedInformation": "weak: the old man and the laugher have no cast keys; junior's sinister smirk stands in for the cruelty."
+    }
+  },
+  {
+    "i": 27,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Crises forge heroes",
+      "style": "strike"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "neutral",
+    "action": "think",
+    "storyboard": {
+      "claim": "The comforting myth that crises forge heroes is rejected.",
+      "concreteVisual": "Barbie, neutral and thinking, as the myth is rejected.",
+      "onScreenText": "Crises forge heroes",
+      "relationToPrevious": "The hosts reject the heroic myth.",
+      "addedInformation": "Strike marks the rejected myth; the neutral face avoids an upbeat read."
+    }
+  },
+  {
+    "i": 28,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Vacuums that empower opportunists",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "think",
+    "storyboard": {
+      "claim": "Crises create power vacuums that empower opportunists, and Jim is watching.",
+      "concreteVisual": "Jim, smirking and calculating in his office.",
+      "onScreenText": "Vacuums that empower opportunists",
+      "relationToPrevious": "From the myth to the real pattern.",
+      "addedInformation": "Calculating smirk shows Jim sees the opportunity."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "He wants it to happen",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Jim wants the riot and needs it to justify rationing.",
+      "concreteVisual": "Jim, smirking, in the office.",
+      "onScreenText": "He wants it to happen",
+      "relationToPrevious": "Jim's intent behind the riot.",
+      "addedInformation": "The smirk reads as wanting the chaos."
+    }
+  },
+  {
+    "i": 30,
+    "concept": "food",
+    "diagram": null,
+    "callout": {
+      "text": "Seizes control of food",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Jim seizes control of the food supply under a false pretext.",
+      "concreteVisual": "A food icon for the supply, with Jim angry in the office.",
+      "onScreenText": "Seizes control of food",
+      "relationToPrevious": "From wanting the riot to taking the food.",
+      "addedInformation": "The food icon literally marks the food supply."
+    }
+  },
+  {
+    "i": 31,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Let the crisis escalate",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim",
+      "julia"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Let the crisis escalate, let people feel terror, then step in as the savior.",
+      "concreteVisual": "Jim smirking, with Julia afraid beside him as the people who feel the terror.",
+      "onScreenText": "Let the crisis escalate",
+      "relationToPrevious": "The step-by-step authoritarian playbook.",
+      "addedInformation": "Julia stands for the frightened public while Jim leads."
+    }
+  },
+  {
+    "i": 32,
+    "concept": "chains",
+    "diagram": null,
+    "callout": {
+      "text": "Trade freedom for bread",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "storyboard": {
+      "claim": "Citizens surrender their autonomy in exchange for food.",
+      "concreteVisual": "Chains icon for the surrendered autonomy, with Andy slumped and worried.",
+      "onScreenText": "Trade freedom for bread",
+      "relationToPrevious": "The cost of the food deal.",
+      "addedInformation": "The chains read as bound and controlled, matching surrendered autonomy."
+    }
+  },
+  {
+    "i": 33,
+    "concept": "war",
+    "diagram": null,
+    "callout": {
+      "text": "Monopoly on violence",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "angry",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Jim seizes the monopoly on violence, the cornerstone of any dictatorship.",
+      "concreteVisual": "A war icon for violence, with Jim angry in the office.",
+      "onScreenText": "Monopoly on violence",
+      "relationToPrevious": "From food to force.",
+      "addedInformation": "The war icon reads as organised violence."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Deputizes the teenage thugs",
+      "style": "reveal"
+    },
+    "set": "street",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "storyboard": {
+      "claim": "Jim deputizes teenage thugs from the high school, Carter Thibodeau among them.",
+      "concreteVisual": "Jim pointing at the teenagers he is deputizing.",
+      "onScreenText": "Deputizes the teenage thugs",
+      "relationToPrevious": "Moves from violence to the people he arms.",
+      "addedInformation": "Pointing to the new deputies shows Jim choosing them."
+    }
+  },
+  {
+    "i": 35,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Firearms, badges, armbands",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "andy"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "The teenagers get guns, badges and armbands in place of the trained police force, a recipe for disaster.",
+      "concreteVisual": "Andy, worried and thinking, reacting to the armed kids.",
+      "onScreenText": "Firearms, badges, armbands",
+      "relationToPrevious": "What Jim hands the teenagers.",
+      "addedInformation": "Worried thinking shows the alarm at arming them, the callout lists the items."
+    }
+  },
+  {
+    "i": 36,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The rules stop applying",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "barbie"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "storyboard": {
+      "claim": "In a community where the rules stop applying, notice who takes advantage first.",
+      "concreteVisual": "Barbie, worried and thinking, on the street.",
+      "onScreenText": "The rules stop applying",
+      "relationToPrevious": "A direct address to the viewer.",
+      "addedInformation": "Thinking expression invites the viewer to consider the vacuum."
+    }
+  },
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Won't care about due process",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "Big Jim knows the teenagers will not ask constitutional questions or care about due process.",
+      "concreteVisual": "Jim smirking, knowing his deputies will not object.",
+      "onScreenText": "Won't care about due process",
+      "relationToPrevious": "Why Jim chose these teenagers.",
+      "addedInformation": "The smirk shows Jim's knowing calculation."
+    }
+  },
+  {
+    "i": 38,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "The ability to bully",
+      "style": "highlight"
+    },
+    "set": "street",
+    "cast": [
+      "junior"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "storyboard": {
+      "claim": "The teenagers want power, the thrill, and the ability to bully people who looked down on them.",
+      "concreteVisual": "Junior, angry, pointing at people he wants to bully.",
+      "onScreenText": "The ability to bully",
+      "relationToPrevious": "Their motives.",
+      "addedInformation": "Accusing point with an angry face reads as a bully's threat."
+    }
+  },
+  {
+    "i": 39,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Bypassing anyone with morals",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "jim"
+    ],
+    "expression": "smirk",
+    "action": "idle",
+    "storyboard": {
+      "claim": "By arming the worst of the hierarchy, Rennie bypasses anyone with a moral compass.",
+      "concreteVisual": "Jim smirking in the office, the man bypassing the moral ones.",
+      "onScreenText": "Bypassing anyone with morals",
+      "relationToPrevious": "Jim's strategy: bypass anyone who would object.",
+      "addedInformation": "Smirk reads as calculated; the callout names who is bypassed."
+    }
+  }
+]

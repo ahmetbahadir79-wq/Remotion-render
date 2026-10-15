@@ -1,0 +1,2295 @@
+{
+  "version": 1,
+  "slug": "under-the-dome",
+  "generatedAt": "2026-10-15T08:49:05.416Z",
+  "history": [
+    {
+      "at": "2026-10-15T08:46:23.933Z",
+      "reason": "pipeline",
+      "scenes": 238
+    },
+    {
+      "at": "2026-10-15T08:49:05.413Z",
+      "reason": "pipeline",
+      "scenes": 238
+    }
+  ],
+  "scenes": {
+    "intro": {
+      "fp": "96af63ed29",
+      "props": [],
+      "texts": 2,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-01": {
+      "fp": "b73395d719",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "office"
+    },
+    "scene-02": {
+      "fp": "39cd6bfe9a",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "office"
+    },
+    "scene-03": {
+      "fp": "ce71622efe",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-04": {
+      "fp": "e20798273c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "room"
+    },
+    "scene-05": {
+      "fp": "47ec81569f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-06": {
+      "fp": "540702d974",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-07": {
+      "fp": "e7e11fef3d",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "street"
+    },
+    "scene-08": {
+      "fp": "8159fe0387",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-09": {
+      "fp": "fcecad3bce",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-10": {
+      "fp": "0a2f68484a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-11": {
+      "fp": "cc8f2c62f4",
+      "props": [
+        "tree"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "tree",
+      "set": "street"
+    },
+    "scene-12": {
+      "fp": "df2b66751a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-13": {
+      "fp": "7085fe6af0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-14": {
+      "fp": "819bb8308e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-15": {
+      "fp": "466ad41bed",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "sky"
+    },
+    "scene-16": {
+      "fp": "3767212056",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "street"
+    },
+    "scene-17": {
+      "fp": "27f2b89598",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-18": {
+      "fp": "14b33e7e05",
+      "props": [],
+      "texts": 0,
+      "diagram": "sorter",
+      "characters": 0,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-19": {
+      "fp": "f01b738fcc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-20": {
+      "fp": "02d4311ce8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-21": {
+      "fp": "6e715aea29",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-22": {
+      "fp": "1800fc7983",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "office"
+    },
+    "scene-23": {
+      "fp": "f7d45b00fd",
+      "props": [
+        "food"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "food",
+      "set": "street"
+    },
+    "scene-24": {
+      "fp": "f6f68e337d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-25": {
+      "fp": "570b0d8b31",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-26": {
+      "fp": "741c6f648f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-27": {
+      "fp": "0d33b56d6f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-28": {
+      "fp": "f69cac8489",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-29": {
+      "fp": "fa46d406f8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-30": {
+      "fp": "cb09c4bea5",
+      "props": [
+        "food"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "food",
+      "set": "office"
+    },
+    "scene-31": {
+      "fp": "471e717e69",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-32": {
+      "fp": "22811e3c40",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "street"
+    },
+    "scene-33": {
+      "fp": "c17e7eff6b",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "office"
+    },
+    "scene-34": {
+      "fp": "f89623f1dd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-35": {
+      "fp": "e7ea995405",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-36": {
+      "fp": "152cd82b7e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-37": {
+      "fp": "6b31b79c2e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-38": {
+      "fp": "822336e985",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-39": {
+      "fp": "efad1c1262",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-40": {
+      "fp": "110a2b1f08",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "street"
+    },
+    "scene-41": {
+      "fp": "e59b00e29f",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "office"
+    },
+    "scene-42": {
+      "fp": "d8071ac2cb",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "sky"
+    },
+    "scene-43": {
+      "fp": "a16d6e2455",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-44": {
+      "fp": "e424a1481a",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "mask",
+      "set": "office"
+    },
+    "scene-45": {
+      "fp": "b758a6d88b",
+      "props": [
+        "coin"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "coin",
+      "set": "office"
+    },
+    "scene-46": {
+      "fp": "8ff0f2ace7",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "office"
+    },
+    "scene-47": {
+      "fp": "27ae5f9119",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "office"
+    },
+    "scene-48": {
+      "fp": "4e812c288a",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-49": {
+      "fp": "582bc45023",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "office"
+    },
+    "scene-50": {
+      "fp": "17963a48b0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-51": {
+      "fp": "2053cc61b7",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "room"
+    },
+    "scene-52": {
+      "fp": "74b1a6d8d4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-53": {
+      "fp": "dd0a69c662",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-54": {
+      "fp": "08b39d05ad",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "room"
+    },
+    "scene-55": {
+      "fp": "bdd94c973f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-56": {
+      "fp": "9473c828c7",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "target",
+      "set": "street"
+    },
+    "scene-57": {
+      "fp": "8eff9ee58d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-58": {
+      "fp": "7ced4f1173",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-59": {
+      "fp": "1f8fbdcf21",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-60": {
+      "fp": "6e44236b7c",
+      "props": [
+        "puppeteer"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "puppeteer",
+      "set": "street"
+    },
+    "scene-61": {
+      "fp": "7cc97a5755",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-62": {
+      "fp": "7ba4f65231",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-63": {
+      "fp": "ef36026e4c",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "street"
+    },
+    "scene-64": {
+      "fp": "49739e430d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-65": {
+      "fp": "cdedcbdfbb",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-66": {
+      "fp": "329e033c73",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "office"
+    },
+    "scene-67": {
+      "fp": "c4290984b0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-68": {
+      "fp": "e975376452",
+      "props": [
+        "food"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "food",
+      "set": "cafe"
+    },
+    "scene-69": {
+      "fp": "efdab46a5d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-70": {
+      "fp": "ae333741f5",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "street"
+    },
+    "scene-71": {
+      "fp": "23cda2a099",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-72": {
+      "fp": "640925ef37",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "street"
+    },
+    "scene-73": {
+      "fp": "0851e61c96",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-74": {
+      "fp": "356c2a79d8",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "room"
+    },
+    "scene-75": {
+      "fp": "dc828c8f88",
+      "props": [
+        "chains"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "chains",
+      "set": "room"
+    },
+    "scene-76": {
+      "fp": "1b2094cc30",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "sky"
+    },
+    "scene-77": {
+      "fp": "b801ba7796",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-78": {
+      "fp": "b79b2031f5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-79": {
+      "fp": "3cd79ba45f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-80": {
+      "fp": "0b5e70e88d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-81": {
+      "fp": "ebadab8628",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "street"
+    },
+    "scene-82": {
+      "fp": "b6b1f62ab9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-83": {
+      "fp": "f60391f124",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-84": {
+      "fp": "7c9f83d289",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-85": {
+      "fp": "d9a3b69980",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-86": {
+      "fp": "c86589c5b4",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-87": {
+      "fp": "1ebd914fe0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-88": {
+      "fp": "92e06cd457",
+      "props": [
+        "mask"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "mask",
+      "set": "room"
+    },
+    "scene-89": {
+      "fp": "9892d73dd5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-90": {
+      "fp": "5f1f2fac34",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-91": {
+      "fp": "cae1256e65",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-92": {
+      "fp": "eeb1036eb0",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "office"
+    },
+    "scene-93": {
+      "fp": "3ebbf004ce",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-94": {
+      "fp": "fe68f586f4",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "office"
+    },
+    "scene-95": {
+      "fp": "0822ff69c9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-96": {
+      "fp": "23d154804f",
+      "props": [
+        "water"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "water",
+      "set": "office"
+    },
+    "scene-97": {
+      "fp": "552c49e91f",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-98": {
+      "fp": "76d67b25b4",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "law",
+      "set": "room"
+    },
+    "scene-99": {
+      "fp": "eaf2ca5baa",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-100": {
+      "fp": "ca513730ed",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-101": {
+      "fp": "6b9d9151b1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-102": {
+      "fp": "702b12f3b1",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "room"
+    },
+    "scene-103": {
+      "fp": "9be5345f91",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-104": {
+      "fp": "24f35bd234",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-105": {
+      "fp": "d64e3988f1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-106": {
+      "fp": "db15699983",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-107": {
+      "fp": "011e4690fb",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "room"
+    },
+    "scene-108": {
+      "fp": "47fe1d7cf9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-109": {
+      "fp": "566fefe2c0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-110": {
+      "fp": "9e55baaa99",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "office"
+    },
+    "scene-111": {
+      "fp": "424a8b97bf",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-112": {
+      "fp": "66afbd5dd5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-113": {
+      "fp": "2a3e9f3488",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "room"
+    },
+    "scene-114": {
+      "fp": "5b7fdb5ff9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-115": {
+      "fp": "64c375cc44",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-116": {
+      "fp": "324c784818",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-117": {
+      "fp": "dc4544c4af",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-118": {
+      "fp": "c37d46045b",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "hospital"
+    },
+    "scene-119": {
+      "fp": "e3708d3c54",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-120": {
+      "fp": "75684cb416",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "room"
+    },
+    "scene-121": {
+      "fp": "ffdcc0ae05",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-122": {
+      "fp": "615021b04d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-123": {
+      "fp": "a20d486a5b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-124": {
+      "fp": "e8995217d7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-125": {
+      "fp": "ad91754fea",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-126": {
+      "fp": "dea29dbbb8",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "room"
+    },
+    "scene-127": {
+      "fp": "ff5bb3e622",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-128": {
+      "fp": "ec4a1c18d4",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "highway"
+    },
+    "scene-129": {
+      "fp": "a87cd9ae07",
+      "props": [
+        "war"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "war",
+      "set": "highway"
+    },
+    "scene-130": {
+      "fp": "d17816d2e0",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "highway"
+    },
+    "scene-131": {
+      "fp": "da47319316",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-132": {
+      "fp": "1bd614de28",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-133": {
+      "fp": "9c206fd30c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-134": {
+      "fp": "93ffc1a546",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-135": {
+      "fp": "ab77638dca",
+      "props": [
+        "photo"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "photo",
+      "set": "highway"
+    },
+    "scene-136": {
+      "fp": "4886579d8f",
+      "props": [
+        "law"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "law",
+      "set": "office"
+    },
+    "scene-137": {
+      "fp": "5b7060210e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-138": {
+      "fp": "24c0d23919",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "office"
+    },
+    "scene-139": {
+      "fp": "6d36e3ab9d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "highway"
+    },
+    "scene-140": {
+      "fp": "53e0115a39",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-141": {
+      "fp": "aa0ba2389b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-142": {
+      "fp": "b78e6123fc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-143": {
+      "fp": "dc1237a1ab",
+      "props": [
+        "phone"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "phone",
+      "set": "office"
+    },
+    "scene-144": {
+      "fp": "8daddff405",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-145": {
+      "fp": "96aa444a4e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-146": {
+      "fp": "6ae340ae13",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-147": {
+      "fp": "7d8cab302c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-148": {
+      "fp": "01ee72a7c2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-149": {
+      "fp": "299feb5173",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-150": {
+      "fp": "bda78429ee",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "room"
+    },
+    "scene-151": {
+      "fp": "da4e1f3f4b",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "room"
+    },
+    "scene-152": {
+      "fp": "9ee7e9062a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-153": {
+      "fp": "9fd3810eef",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-154": {
+      "fp": "6d27ba891a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-155": {
+      "fp": "a4b763e224",
+      "props": [
+        "balance"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balance",
+      "set": "room"
+    },
+    "scene-156": {
+      "fp": "0df717af65",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-157": {
+      "fp": "af6f96ae95",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-158": {
+      "fp": "388aaabdac",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-159": {
+      "fp": "f51bdd3af8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-160": {
+      "fp": "647caeddb4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-161": {
+      "fp": "cbbba35d70",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-162": {
+      "fp": "d40b06e2cf",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-163": {
+      "fp": "86ee271b73",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-164": {
+      "fp": "c48c075759",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-165": {
+      "fp": "72fb67ad0a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-166": {
+      "fp": "f2341ddb04",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-167": {
+      "fp": "345795dd50",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-168": {
+      "fp": "764808dea0",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-169": {
+      "fp": "a74b4280f5",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "street"
+    },
+    "scene-170": {
+      "fp": "0c532772b5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-171": {
+      "fp": "3f4e1d6afc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-172": {
+      "fp": "a379472fd3",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-173": {
+      "fp": "3470f936bc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-174": {
+      "fp": "99613198ba",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-175": {
+      "fp": "9a4cf28a23",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-176": {
+      "fp": "b282095ebc",
+      "props": [
+        "water"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "water",
+      "set": "street"
+    },
+    "scene-177": {
+      "fp": "aede3652bf",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-178": {
+      "fp": "856e5b3150",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-179": {
+      "fp": "98698de23a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-180": {
+      "fp": "39375688a3",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-181": {
+      "fp": "03b8bba8a1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-182": {
+      "fp": "d0902110ee",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "room"
+    },
+    "scene-183": {
+      "fp": "3b12a051c9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-184": {
+      "fp": "4c5b91f689",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-185": {
+      "fp": "ffac26bf63",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-186": {
+      "fp": "7be5f0d453",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-187": {
+      "fp": "118a3b33ec",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-188": {
+      "fp": "7dd70fbf7e",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "sky"
+    },
+    "scene-189": {
+      "fp": "646ad942c6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "hospital"
+    },
+    "scene-190": {
+      "fp": "a62097025e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-191": {
+      "fp": "8c6721b241",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-192": {
+      "fp": "615e366a28",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "sky"
+    },
+    "scene-193": {
+      "fp": "261b8cc804",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "street"
+    },
+    "scene-194": {
+      "fp": "7c73ca1d8e",
+      "props": [
+        "tree"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "tree",
+      "set": "street"
+    },
+    "scene-195": {
+      "fp": "154170925f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-196": {
+      "fp": "308cee4ae2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-197": {
+      "fp": "03b0092c38",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-198": {
+      "fp": "73e4db470f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-199": {
+      "fp": "571ba6a3ff",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-200": {
+      "fp": "48cd05d709",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-201": {
+      "fp": "f314aa2d7f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-202": {
+      "fp": "191970e5ce",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-203": {
+      "fp": "fe729f3aae",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-204": {
+      "fp": "5eda126365",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-205": {
+      "fp": "0cd59b8946",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-206": {
+      "fp": "2b4bcaa741",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-207": {
+      "fp": "5702236958",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-208": {
+      "fp": "5c79ab1181",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-209": {
+      "fp": "f1a8d1618f",
+      "props": [],
+      "texts": 0,
+      "diagram": "sorter",
+      "characters": 0,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-210": {
+      "fp": "217ae1ed61",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-211": {
+      "fp": "c2a3f2e95e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-212": {
+      "fp": "dc2f887fb7",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "office"
+    },
+    "scene-213": {
+      "fp": "8bf68ce47d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-214": {
+      "fp": "dc29dd20bb",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-215": {
+      "fp": "7f5a2a5f83",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-216": {
+      "fp": "bbb04382d7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-217": {
+      "fp": "ea3c2c938b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-218": {
+      "fp": "d096495e8c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-219": {
+      "fp": "78ce00cffe",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-220": {
+      "fp": "9d952a1713",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-221": {
+      "fp": "c4e0c955ee",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-222": {
+      "fp": "838f125772",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-223": {
+      "fp": "03fc69239b",
+      "props": [
+        "grave"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "grave",
+      "set": "office"
+    },
+    "scene-224": {
+      "fp": "9a7f321cc9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-225": {
+      "fp": "60b952401c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-226": {
+      "fp": "c35e8d3864",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-227": {
+      "fp": "52826ebfd8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-228": {
+      "fp": "27134c168a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "sky"
+    },
+    "scene-229": {
+      "fp": "4510be0136",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-230": {
+      "fp": "383dc1d409",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-231": {
+      "fp": "297a5c328a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-232": {
+      "fp": "59edccf0d8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-233": {
+      "fp": "6f578f138e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-234": {
+      "fp": "a53f91cba8",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "room"
+    },
+    "scene-235": {
+      "fp": "cd5682a483",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "room"
+    },
+    "scene-236": {
+      "fp": "2f2e867a2f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-237": {
+      "fp": "2c6902aa93",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "theDome",
+      "set": "office"
+    }
+  }
+}
