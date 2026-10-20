@@ -1,0 +1,818 @@
+[
+ {
+  "i": 160,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "SILVER WHITE INFERNO",
+   "style": "reveal"
+  },
+  "set": "forest",
+  "storyboard": {
+   "claim": "The island is being consumed by Diem's unleashed magic in a white-hot blaze.",
+   "concreteVisual": "A scorched landscape burning under a silver-white fire icon.",
+   "onScreenText": "SILVER WHITE INFERNO",
+   "relationToPrevious": "Opens the temple battle sequence.",
+   "addedInformation": "Gives the fire a colour and a scale: an island-wide inferno, not a campfire.",
+   "staging": "Fire icon over the burning forest, no people: the blaze is the subject."
+  }
+ },
+ {
+  "i": 161,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "The ancient immortal kindred",
+   "style": "reveal"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "The sentence names a group of immortal beings; a single figure would misrepresent a group and a crowd repeats one person, so the callout names them.",
+  "noVisual": "A group of godlike immortals has no vocabulary icon, and a crowd shot would repeat one person as ghost duplicates.",
+  "storyboard": {
+   "claim": "The kindred are ancient immortal beings who shaped the world.",
+   "concreteVisual": "No figure; the callout names the group against the fire.",
+   "onScreenText": "The ancient immortal kindred",
+   "relationToPrevious": "Continues the fire of the previous beat.",
+   "addedInformation": "Who the kindred are."
+  }
+ },
+ {
+  "i": 162,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Confessing their most shameful sin",
+   "style": "reveal"
+  },
+  "cast": [
+   "diem"
+  ],
+  "expression": "worried",
+  "action": "think",
+  "explainedBy": "Diem listens while the kindred confess a sin to her: she is the one hearing the confession.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "The kindred weep and confess their sin to Diem.",
+   "concreteVisual": "Diem standing, head slightly lowered, listening with a troubled look.",
+   "onScreenText": "Confessing their most shameful sin",
+   "relationToPrevious": "The kindred are introduced in the previous beat.",
+   "addedInformation": "The kindred confess to Diem, not to the audience."
+  }
+ },
+ {
+  "i": 163,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "THE GOD STONE TEMPLE",
+   "style": "reveal"
+  },
+  "set": "stage",
+  "storyboard": {
+   "claim": "The Kindred built the temple on Corel out of god stone, with no malice intended.",
+   "concreteVisual": "The temple on Corel where the god stone was used.",
+   "onScreenText": "THE GOD STONE TEMPLE",
+   "relationToPrevious": "Explains the origin of the god stone.",
+   "addedInformation": "Names the object the temple is built from: the god stone.",
+   "staging": "Temple stage with the callout naming the god stone temple."
+  }
+ },
+ {
+  "i": 164,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A child cut his hand",
+   "style": "highlight"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "A child's hand is cut on the god stone: this injury is the first event that reveals the stone is dangerous.",
+  "noVisual": "No child figure is in the cast and no icon reads literally as a cut.",
+  "storyboard": {
+   "claim": "A child cut his hand on the god stone, starting the discovery.",
+   "concreteVisual": "No figure; the callout names the injury.",
+   "onScreenText": "A child cut his hand",
+   "relationToPrevious": "Follows the monument intention.",
+   "addedInformation": "The accident that started the discovery."
+  }
+ },
+ {
+  "i": 165,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Highly toxic and lethal",
+   "style": "highlight"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "The Kindred learn the material is toxic: the injury is the cause, and the lethal material is the effect they discover.",
+  "noVisual": "Toxicity has no icon; the callout states the property.",
+  "storyboard": {
+   "claim": "The god stone is highly toxic and lethal.",
+   "concreteVisual": "No figure; the callout states the lethal property.",
+   "onScreenText": "Highly toxic and lethal",
+   "relationToPrevious": "Follows the child's injury.",
+   "addedInformation": "The stone's toxicity is the discovery."
+  }
+ },
+ {
+  "i": 166,
+  "concept": "grave",
+  "diagram": null,
+  "callout": {
+   "text": "THE MONUMENT WAS A MURDER",
+   "style": "reveal"
+  },
+  "set": "stage",
+  "storyboard": {
+   "claim": "The monument, built to honour the children, was lethal to them: a murder.",
+   "concreteVisual": "A grave icon over the temple, read as death.",
+   "onScreenText": "THE MONUMENT WAS A MURDER",
+   "relationToPrevious": "The lethal material is applied to the Kindred's own children.",
+   "addedInformation": "The grave reads the lethal result literally: death.",
+   "staging": "Grave icon over the temple stage with the callout naming the murder."
+  }
+ },
+ {
+  "i": 167,
+  "concept": "shield",
+  "diagram": null,
+  "callout": {
+   "text": "PROTECT THE PEOPLE YOU LOVE",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "The worst atrocities start from desperate attempts to protect the people you love, not from malice.",
+   "concreteVisual": "A shield icon, the literal sense of protection.",
+   "onScreenText": "PROTECT THE PEOPLE YOU LOVE",
+   "relationToPrevious": "Generalises the Kindred's panic into a truth about conflict.",
+   "addedInformation": "Shield states the motive, protection, without the word malice.",
+   "staging": "Shield icon on an abstract set with the callout stating the motive."
+  }
+ },
+ {
+  "i": 168,
+  "concept": "war",
+  "diagram": null,
+  "callout": {
+   "text": "HIDE YOUR SINS",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Hiding a catastrophic mistake guarantees the children will have to fight the war.",
+   "concreteVisual": "A war icon, the consequence the children inherit.",
+   "onScreenText": "HIDE YOUR SINS",
+   "relationToPrevious": "Moves from the panic to the cost of burying a mistake.",
+   "addedInformation": "War makes the consequence literal: the children fight it.",
+   "staging": "War icon with the callout on the act of hiding sins."
+  }
+ },
+ {
+  "i": 169,
+  "concept": "puppeteer",
+  "diagram": null,
+  "callout": {
+   "text": "ERASED IT FROM MINDS",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "The Kindred erased the mistake from the minds of the whole continent.",
+   "concreteVisual": "A puppeteer icon: one power controlling many minds.",
+   "onScreenText": "ERASED IT FROM MINDS",
+   "relationToPrevious": "Escalates from burying the mistake to erasing it from every mind.",
+   "addedInformation": "Puppeteer shows control over others, which is what the erasing does.",
+   "staging": "Puppeteer icon with the callout on the erasure."
+  }
+ },
+ {
+  "i": 170,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "UMBROSE MAGIC ERASED THE MEMORY",
+   "style": "box"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Umbrose magic, which works on shadows in the mind, wiped the memory of Ofuca and the stone's danger from everyone.",
+   "concreteVisual": "An abstract set with the magic named in the callout.",
+   "onScreenText": "UMBROSE MAGIC ERASED THE MEMORY",
+   "relationToPrevious": "Names the method of the erasure.",
+   "addedInformation": "weak: no icon reads shadow-magic literally; the callout names the method.",
+   "staging": "Abstract set with callout; no icon, so no false reading."
+  }
+ },
+ {
+  "i": 171,
+  "concept": "chains",
+  "diagram": null,
+  "callout": {
+   "text": "A MASSIVE VIOLATION OF AUTONOMY",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Wiping the memory of an entire continent is a massive violation of autonomy.",
+   "concreteVisual": "An abstract set with the verdict named on screen.",
+   "onScreenText": "A MASSIVE VIOLATION OF AUTONOMY",
+   "relationToPrevious": "The narrator stops to judge the method.",
+   "addedInformation": "States the moral judgement directly.",
+   "staging": "Abstract set with the verdict callout."
+  }
+ },
+ {
+  "i": 172,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A violation of autonomy",
+   "style": "highlight"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "The wipe removes choices from the people it erases: their autonomy is taken, which is the consequence the narration names.",
+  "noVisual": "Autonomy has no icon that reads literally; the callout names it.",
+  "storyboard": {
+   "claim": "Erasing history is a violation of autonomy, and the Kindred erased their own brother.",
+   "concreteVisual": "No figure; the callout names the violation.",
+   "onScreenText": "A violation of autonomy",
+   "relationToPrevious": "Judges the wipe from the previous beat.",
+   "addedInformation": "The Kindred erased their own brother from history."
+  }
+ },
+ {
+  "i": 173,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Terrified mortals would harvest it",
+   "style": "reveal"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "Fear is the cause: the Kindred fear that mortals would harvest the stone and kill the children, so they alter reality.",
+  "noVisual": "Terror has no picture here and no figure is staged; the callout states the fear.",
+  "storyboard": {
+   "claim": "The Kindred were terrified mortals would harvest godstone and kill the vulnerable children.",
+   "concreteVisual": "No figure; the callout states the fear.",
+   "onScreenText": "Terrified mortals would harvest it",
+   "relationToPrevious": "Gives the motive for the wipe.",
+   "addedInformation": "The motive behind the cover-up."
+  }
+ },
+ {
+  "i": 174,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "JUST UNFORGIVABLE",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "cast": [
+   "narrator"
+  ],
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "The mistake, and the cover-up, are unforgivable.",
+   "concreteVisual": "An abstract set with the verdict on screen.",
+   "onScreenText": "JUST UNFORGIVABLE",
+   "relationToPrevious": "The hosts agree on the verdict.",
+   "addedInformation": "States the hosts' verdict in the narrator's words.",
+   "staging": "Abstract set with the verdict callout."
+  }
+ },
+ {
+  "i": 175,
+  "concept": "puppeteer",
+  "diagram": null,
+  "callout": {
+   "text": "PLAYED GOD WITH MINDS",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "expression": "angry",
+  "action": "point",
+  "storyboard": {
+   "claim": "The Kindred played God with millions of minds to cover up a monumental mistake.",
+   "concreteVisual": "An abstract set with the accusation named on screen.",
+   "onScreenText": "PLAYED GOD WITH MINDS",
+   "relationToPrevious": "Expands the verdict into the charge of control.",
+   "addedInformation": "Puppeteer was avoided here to keep the accusation from reading as a literal puppet show.",
+   "staging": "Abstract set with the accusation callout."
+  }
+ },
+ {
+  "i": 176,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "SHE HEARS THE CONFESSION",
+   "style": "reveal"
+  },
+  "cast": [
+   "diem"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "explainedBy": "Diem's horror follows the confession: she hears the same sin she committed herself.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "Diem is horrified because she realises she did the same thing.",
+   "concreteVisual": "Diem with a horrified, afraid look, thinking.",
+   "onScreenText": "SHE HEARS THE CONFESSION",
+   "relationToPrevious": "Turns from the Kindred to Diem.",
+   "addedInformation": "Diem's own parallel act."
+  }
+ },
+ {
+  "i": 177,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "LUTHER WAS DYING",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "cast": [
+   "luther"
+  ],
+  "expression": "sad",
+  "action": "collapsed",
+  "storyboard": {
+   "claim": "Diem did the same thing: when Luther was dying of god stone poisoning, she acted.",
+   "concreteVisual": "Luther fallen on the floor, eyes shut, from the poisoning.",
+   "onScreenText": "LUTHER WAS DYING",
+   "relationToPrevious": "Recalls the earlier scene where Luther was poisoned.",
+   "addedInformation": "Collapsed reads as fallen and dying, not as treatment.",
+   "staging": "Luther collapsed on the floor, sad: the dying man Diem is recalling."
+  }
+ },
+ {
+  "i": 178,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "THE BRINK OF DEATH",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "cast": [
+   "luther"
+  ],
+  "expression": "sad",
+  "action": "collapsed",
+  "storyboard": {
+   "claim": "Diem vowed never to harm mortals, but at the brink of death she did.",
+   "concreteVisual": "Luther fallen on the floor again, at the brink of death.",
+   "onScreenText": "THE BRINK OF DEATH",
+   "relationToPrevious": "Continues the Luther memory with Diem's vow.",
+   "addedInformation": "Repeats the collapse so the viewer links the vow to Luther's fall.",
+   "staging": "Luther collapsed, sad, with the callout on the brink of death."
+  }
+ },
+ {
+  "i": 179,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Sank a blade into mortal flesh",
+   "style": "reveal"
+  },
+  "cast": [
+   "diem"
+  ],
+  "expression": "worried",
+  "action": "slump",
+  "explainedBy": "Diem's own act: she sank a blade into a mortal, and that act is what saved Luther.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "Diem actively sank a blade into mortal flesh to save Luther.",
+   "concreteVisual": "Diem slumped, guilty and worried.",
+   "onScreenText": "Sank a blade into mortal flesh",
+   "relationToPrevious": "Names the act that broke the vow.",
+   "addedInformation": "The act that broke her code."
+  }
+ },
+ {
+  "i": 180,
+  "concept": "heart",
+  "diagram": null,
+  "callout": {
+   "text": "YOUR BONDED PARTNER",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "When the person you are bonded to is in danger, you will do terrible things.",
+   "concreteVisual": "A heart icon for the bond, read as love.",
+   "onScreenText": "YOUR BONDED PARTNER",
+   "relationToPrevious": "Generalises Diem's act into a rule about bonds.",
+   "addedInformation": "Heart marks the bond as love, which is the reason for the act.",
+   "staging": "Heart icon with the callout on the bonded person."
+  }
+ },
+ {
+  "i": 181,
+  "concept": "heart",
+  "diagram": null,
+  "callout": {
+   "text": "HER LOVE MADE HER MONSTROUS",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Her love made her as monstrous as the Kindred.",
+   "concreteVisual": "A heart icon for love.",
+   "onScreenText": "HER LOVE MADE HER MONSTROUS",
+   "relationToPrevious": "Completes the parallel with the Kindred.",
+   "addedInformation": "Love is the cause named in the callout; monstrous is the verdict.",
+   "staging": "Heart icon with the callout on love and monstrosity."
+  }
+ },
+ {
+  "i": 182,
+  "concept": "chains",
+  "diagram": null,
+  "callout": {
+   "text": "THE ULTIMATE TWISTED BOND",
+   "style": "reveal"
+  },
+  "set": "horizon",
+  "storyboard": {
+   "claim": "The forging spell that created the realms of Amaran is revealed as the ultimate twisted bond.",
+   "concreteVisual": "Chains icon over the realm horizon, read as bound.",
+   "onScreenText": "THE ULTIMATE TWISTED BOND",
+   "relationToPrevious": "Turns to the forging spell, the grandest magic.",
+   "addedInformation": "Chains read literally as bound, which is the bond the narrator means.",
+   "staging": "Chains icon over the realm horizon with the callout on the twisted bond."
+  }
+ },
+ {
+  "i": 183,
+  "concept": "chains",
+  "diagram": null,
+  "callout": {
+   "text": "CHAINED THEIR OWN SOULS",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "The Kindred chained their magic to the soil, and chained their own souls with it.",
+   "concreteVisual": "Chains icon on an abstract set, bound.",
+   "onScreenText": "CHAINED THEIR OWN SOULS",
+   "relationToPrevious": "Explains the cost of the chaining.",
+   "addedInformation": "Chains reads bound; the callout says the souls are the bound thing.",
+   "staging": "Chains icon with callout on the Kindred's souls."
+  }
+ },
+ {
+  "i": 184,
+  "concept": "grave",
+  "diagram": null,
+  "callout": {
+   "text": "BETWEEN LIFE AND DEATH",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "The Kindred are trapped in endless purgatory between life and death.",
+   "concreteVisual": "Grave icon on an abstract set, read as death.",
+   "onScreenText": "BETWEEN LIFE AND DEATH",
+   "relationToPrevious": "Describes what the chaining did to the Kindred.",
+   "addedInformation": "Grave reads the death side of purgatory; the callout names the in-between.",
+   "staging": "Grave icon with callout on the state between life and death."
+  }
+ },
+ {
+  "i": 185,
+  "concept": "chains",
+  "diagram": null,
+  "callout": {
+   "text": "THE KINDRED COULDN'T FOLLOW",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "expression": "sad",
+  "action": "idle",
+  "storyboard": {
+   "claim": "Mortals die and move on, but the Kindred could not follow, so they anchored to the living world.",
+   "concreteVisual": "Abstract set with the limitation named on screen.",
+   "onScreenText": "THE KINDRED COULDN'T FOLLOW",
+   "relationToPrevious": "Gives the reason for the chaining.",
+   "addedInformation": "Explains why the Kindred anchored themselves to the living world.",
+   "staging": "Abstract set with the callout on the Kindred's limit."
+  }
+ },
+ {
+  "i": 186,
+  "concept": "chains",
+  "diagram": null,
+  "callout": {
+   "text": "A CAGE FOR THE CONTINENT",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "expression": "worried",
+  "action": "think",
+  "storyboard": {
+   "claim": "Their desperate, clinging love created a cage for the entire continent.",
+   "concreteVisual": "Abstract set with the cage named on screen.",
+   "onScreenText": "A CAGE FOR THE CONTINENT",
+   "relationToPrevious": "Turns the bond into the cage it became.",
+   "addedInformation": "Chains were avoided here: the metaphor would read as links rather than confinement.",
+   "staging": "Abstract set with the callout on the cage."
+  }
+ },
+ {
+  "i": 187,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "CHAOS AT THE TEMPLE",
+   "style": "reveal"
+  },
+  "set": "stage",
+  "cast": [
+   "luther"
+  ],
+  "expression": "afraid",
+  "action": "think",
+  "storyboard": {
+   "claim": "The different types of bonds show up in the chaos at the temple.",
+   "concreteVisual": "The temple stage with the chaos named on screen.",
+   "onScreenText": "CHAOS AT THE TEMPLE",
+   "relationToPrevious": "Moves from the theory of bonds to the battle.",
+   "addedInformation": "Places the next argument at the temple.",
+   "staging": "Temple stage with callout on the chaos."
+  }
+ },
+ {
+  "i": 188,
+  "concept": "puppeteer",
+  "diagram": null,
+  "callout": {
+   "text": "HYPNOTIZED BY THE HEART STONE",
+   "style": "reveal"
+  },
+  "set": "stage",
+  "expression": "blank",
+  "action": "idle",
+  "storyboard": {
+   "claim": "The Meos king is hypnotized by the heart stone and hurls water magic with dead eyes.",
+   "concreteVisual": "Temple stage with the king's state named on screen.",
+   "onScreenText": "HYPNOTIZED BY THE HEART STONE",
+   "relationToPrevious": "Introduces the first victim of the heart stone.",
+   "addedInformation": "weak: the king is not in the cast; the callout names his state.",
+   "staging": "Temple stage with callout on the hypnosis."
+  }
+ },
+ {
+  "i": 189,
+  "concept": "water",
+  "diagram": null,
+  "callout": {
+   "text": "Hissing blasts of water magic",
+   "style": "reveal"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "The king's magic is water: the hurled blasts are the event, and the dead eyes are the effect of the heart stone.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "The king hurls hissing blasts of water magic while mindless.",
+   "concreteVisual": "A water icon.",
+   "onScreenText": "Hissing blasts of water magic",
+   "relationToPrevious": "Follows the king controlled.",
+   "addedInformation": "The water magic and the dead eyes."
+  }
+ },
+ {
+  "i": 190,
+  "concept": "shield",
+  "diagram": null,
+  "callout": {
+   "text": "SHIELDING HUNDREDS OF MORTALS",
+   "style": "highlight"
+  },
+  "set": "stage",
+  "storyboard": {
+   "claim": "Ofus effortlessly shields hundreds of mortals, treating a crown like a toy.",
+   "concreteVisual": "Shield icon on the temple stage, read as protection.",
+   "onScreenText": "SHIELDING HUNDREDS OF MORTALS",
+   "relationToPrevious": "Shows Ofus's control in action.",
+   "addedInformation": "Shield reads as protection, which is what Ofus performs.",
+   "staging": "Shield icon with callout on the shielding."
+  }
+ },
+ {
+  "i": 191,
+  "concept": "fire",
+  "diagram": null,
+  "callout": {
+   "text": "TERRIFYING DISPLAY OF POWER",
+   "style": "highlight"
+  },
+  "set": "stage",
+  "expression": "afraid",
+  "action": "idle",
+  "storyboard": {
+   "claim": "His magical aura never flickers, a terrifying display of effortless power.",
+   "concreteVisual": "Temple stage with the display named on screen.",
+   "onScreenText": "TERRIFYING DISPLAY OF POWER",
+   "relationToPrevious": "Describes the aura before the mechanism.",
+   "addedInformation": "Names the display; no aura can be drawn.",
+   "staging": "Temple stage with callout on the display."
+  }
+ },
+ {
+  "i": 192,
+  "concept": "puppeteer",
+  "diagram": null,
+  "callout": {
+   "text": "FORCED SUBJUGATION",
+   "style": "reveal"
+  },
+  "set": "abstract",
+  "storyboard": {
+   "claim": "He is not inspiring loyalty; he hijacks the nervous system through the heart stone.",
+   "concreteVisual": "Puppeteer icon: one power controlling others.",
+   "onScreenText": "FORCED SUBJUGATION",
+   "relationToPrevious": "Explains the mechanism behind the display.",
+   "addedInformation": "Puppeteer shows control; the negation of loyalty is carried by the callout.",
+   "staging": "Puppeteer icon with callout on forced subjugation."
+  }
+ },
+ {
+  "i": 193,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "A question about power",
+   "style": "reveal"
+  },
+  "cast": [],
+  "expression": null,
+  "action": null,
+  "explainedBy": "The sentence poses a question; nothing visual is caused by it, so the callout alone labels the question.",
+  "noVisual": "A philosophical question has no picture in the vocabulary; the callout states it.",
+  "storyboard": {
+   "claim": "The effective control raises a philosophical question about power.",
+   "concreteVisual": "No figure; the callout names the question.",
+   "onScreenText": "A question about power",
+   "relationToPrevious": "Pivots from the mechanism to the question.",
+   "addedInformation": "The question itself."
+  }
+ },
+ {
+  "i": 194,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "CONTROLLING OTHERS",
+   "style": "highlight"
+  },
+  "set": "abstract",
+  "cast": [
+   "narrator"
+  ],
+  "expression": "neutral",
+  "action": "point",
+  "storyboard": {
+   "claim": "True power is not about controlling others like chess pieces.",
+   "concreteVisual": "Abstract set with the rejected phrase struck through.",
+   "onScreenText": "CONTROLLING OTHERS",
+   "relationToPrevious": "Rejects control as the source of power.",
+   "addedInformation": "The strike marks the phrase the narrator rejects.",
+   "staging": "Abstract set with the struck phrase, no figure staged controlling."
+  }
+ },
+ {
+  "i": 195,
+  "concept": null,
+  "diagram": {
+   "type": "flow",
+   "labels": [
+    "Spell drops",
+    "Fear wanes",
+    "It is brittle"
+   ]
+  },
+  "callout": null,
+  "set": "abstract",
+  "storyboard": {
+   "claim": "Forced loyalty breaks the moment the spell drops or the fear wanes.",
+   "concreteVisual": "A three-step flow: spell drops, fear wanes, brittle.",
+   "onScreenText": "FORCED LOYALTY BREAKS WHEN FEAR WANES",
+   "relationToPrevious": "Shifts from the question to the structure of brittle control.",
+   "addedInformation": "Makes the cause-effect chain of brittle control visible.",
+   "staging": "Flow diagram of the three steps of brittle control."
+  }
+ },
+ {
+  "i": 196,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "She takes the rose bane petal",
+   "style": "reveal"
+  },
+  "cast": [
+   "diem"
+  ],
+  "expression": "worried",
+  "action": "reach",
+  "holds": "flower",
+  "explainedBy": "Diem reaches to take the rose bane petal: the action shows the poison in her hand.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "Diem takes the velvety rose bane petal, the poison.",
+   "concreteVisual": "Diem reaching, holding a flower petal.",
+   "onScreenText": "She takes the rose bane petal",
+   "relationToPrevious": "Recalls an earlier action.",
+   "addedInformation": "The poison is the rose bane petal."
+  }
+ },
+ {
+  "i": 197,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "MIND CONTROLLED",
+   "style": "strike"
+  },
+  "set": "abstract",
+  "cast": [
+   "narrator"
+  ],
+  "expression": "neutral",
+  "action": "point",
+  "storyboard": {
+   "claim": "She knows the danger and swallows it anyway, and she is not being mind controlled.",
+   "concreteVisual": "Abstract set with the rejected phrase struck through.",
+   "onScreenText": "MIND CONTROLLED",
+   "relationToPrevious": "Rejects the control reading of Diem's act.",
+   "addedInformation": "The strike rejects the mind-control reading; no icon, since puppeteer would show control.",
+   "staging": "Abstract set with struck callout; no figure is staged as controlled."
+  }
+ },
+ {
+  "i": 198,
+  "concept": null,
+  "diagram": null,
+  "callout": {
+   "text": "Willing to endure agonizing pain",
+   "style": "reveal"
+  },
+  "cast": [
+   "diem"
+  ],
+  "expression": "sad",
+  "action": "slump",
+  "explainedBy": "Diem accepts agonizing pain for the greater good: the pain is the cost she chooses.",
+  "noVisual": null,
+  "storyboard": {
+   "claim": "She acts on blind faith and endures agonizing pain for the greater good.",
+   "concreteVisual": "Diem slumped, sad.",
+   "onScreenText": "Willing to endure agonizing pain",
+   "relationToPrevious": "Continues the sacrifice.",
+   "addedInformation": "The cost she accepts."
+  }
+ },
+ {
+  "i": 199,
+  "concept": "balance",
+  "diagram": null,
+  "callout": {
+   "text": "PLAY DEVIL'S ADVOCATE",
+   "style": "highlight"
+  },
+  "set": "stage",
+  "cast": [
+   "narrator"
+  ],
+  "expression": "neutral",
+  "action": "think",
+  "storyboard": {
+   "claim": "The hosts now argue the opposing side for a moment.",
+   "concreteVisual": "Temple stage with the turn named on screen.",
+   "onScreenText": "PLAY DEVIL'S ADVOCATE",
+   "relationToPrevious": "Turns to the counterargument that Ofus is superior.",
+   "addedInformation": "Signals the counterargument to come.",
+   "staging": "Temple stage with the devil's advocate callout."
+  }
+ }
+]

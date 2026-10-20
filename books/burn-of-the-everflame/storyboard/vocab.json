@@ -1,0 +1,173 @@
+{
+  "icons": [
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "puppeteer",
+    "chains",
+    "compass",
+    "boulder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "gift",
+    "inheritance",
+    "everflame"
+  ],
+  "ownIcons": [
+    "everflame"
+  ],
+  "sets": [
+    "none",
+    "horizon",
+    "stage",
+    "sky",
+    "abstract",
+    "forest",
+    "shore"
+  ],
+  "shots": [
+    "wide",
+    "medium",
+    "closeUp",
+    "twoShot",
+    "overShoulder",
+    "insert",
+    "split",
+    "silhouette",
+    "lowAngle",
+    "crowd",
+    "illustration",
+    "diorama",
+    "beforeAfter"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "sad",
+    "surprised",
+    "worried",
+    "angry",
+    "smirk",
+    "blank",
+    "afraid"
+  ],
+  "actions": [
+    "idle",
+    "talk",
+    "point",
+    "celebrate",
+    "slump",
+    "think",
+    "walk",
+    "sit",
+    "hold",
+    "reach",
+    "lying",
+    "collapsed",
+    "falling",
+    "fighting",
+    "struggling",
+    "grabbing"
+  ],
+  "holds": [
+    "book",
+    "phone",
+    "key",
+    "notes",
+    "letter",
+    "coin",
+    "cup",
+    "lightbulb",
+    "mask",
+    "photo",
+    "mirror",
+    "flower",
+    "compass",
+    "briefcase",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift"
+  ],
+  "cast": [
+    {
+      "key": "luther",
+      "name": "Luther Corbois",
+      "role": "Diem's devoted mate, a commander whose magic nearly levels the forest",
+      "look": "a broad-shouldered man in his late twenties, dark hair, dark leather armour over a grey tunic, a sword belt, grim focused expression"
+    },
+    {
+      "key": "teller",
+      "name": "Teller",
+      "role": "Dean's mortal brother, sitting alone, grieving a bond forced on him by his mother",
+      "look": "a lean young man in his twenties, sandy hair, worn travel cloak over a plain shirt, tired eyes"
+    },
+    {
+      "key": "taran",
+      "name": "Taran",
+      "role": "Diem's brother, one of the Crowns of Lumnos",
+      "look": "a young man with a severe, watchful face, short dark hair, a dark formal coat with a silver clasp"
+    },
+    {
+      "key": "narrator",
+      "name": "Narrator",
+      "role": "the host voice that frames the argument",
+      "look": "a neutral narrator figure, seen only as a presence"
+    },
+    {
+      "key": "diem",
+      "name": "Diem",
+      "role": "queen and Crown of Lumnos, bonded to Luther, whose choices the bond overrides",
+      "look": "a young queen with long auburn hair and a silver circlet, in a dark regal robe, determined and conflicted expression"
+    },
+    {
+      "key": "arley",
+      "name": "Arley",
+      "role": "Teller and Taran's mother who manipulated her children from behind the scenes",
+      "look": "a composed adult woman in a dark violet robe with a high collar, cold controlled gaze, hair tied in a bun"
+    },
+    {
+      "key": "ofus",
+      "name": "Ofus",
+      "role": "the northern villain who raises an army to wipe out the Descended and hypnotises followers",
+      "look": "a cold adult man in heavy black armour with a dark collar, close-cropped hair, calculating expression"
+    }
+  ],
+  "inputs": {
+    "story-bible.json": "3d59359de2e55969780c482d3e019fa82933d27e26f3c9d2799a32d497292bcd",
+    "motifs.json": "6a880bbaad5ed62ac1c01f12c8306dc740aceaca0cc1c9be2e5e9b3b87d81ca7"
+  }
+}
