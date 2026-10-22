@@ -1,0 +1,946 @@
+[
+  {
+    "i": 37,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "ATTENTION",
+        "REGISTRATION",
+        "MEMORY"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram showing that attention directly leads to registration, which is the required prerequisite for memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Memory requires registration, and registration requires attention.",
+      "concreteVisual": "A linear causal flow diagram: Attention -> Registration -> Memory.",
+      "onScreenText": "ATTENTION -> REGISTRATION -> MEMORY",
+      "relationToPrevious": "Turns the bouncer analogy into a concrete structural chain of cognitive processing.",
+      "addedInformation": "Shows registration as the non-negotiable intermediate gateway between attention and lasting memory."
+    }
+  },
+  {
+    "i": 38,
+    "concept": null,
+    "callout": {
+      "text": "LIONESS IN THE WILD",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley steps forward to introduce his foundational savannah analogy explaining the evolutionary biology of focus.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley introduces the analogy of the lioness hunting in the wild.",
+      "concreteVisual": "Horsley speaking deliberately on stage introducing the analogy.",
+      "onScreenText": "LIONESS IN THE WILD",
+      "relationToPrevious": "Transitions from cognitive mechanism to Horsley's biological hunting analogy.",
+      "addedInformation": "Presents Kevin Horsley as the teacher framing the mental model."
+    }
+  },
+  {
+    "i": 39,
+    "concept": "target",
+    "callout": {
+      "text": "ONE SPECIFIC WILDEBEEST",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "A learner locks on a single target with absolute zeroed-in focus, exemplifying the lioness hunting on the savannah.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "When hunting, the lioness locks eyes entirely on one single target.",
+      "concreteVisual": "A clear target icon zeroed in as the learner points intently at it.",
+      "onScreenText": "ONE SPECIFIC WILDEBEEST",
+      "relationToPrevious": "Visualizes the first step of the savannah analogy: single-minded lock on one prey.",
+      "addedInformation": "Represents uncompromised single-pointed gaze isolating one objective."
+    }
+  },
+  {
+    "i": 40,
+    "concept": "target",
+    "callout": {
+      "text": "NEVER TARGETS TWO",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "continue": true,
+    "explainedBy": "The learner maintains the exact same laser focus on the single target, refusing to split gaze toward passing distractions.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The lioness completely ignores hundreds of others and never targets two at once.",
+      "concreteVisual": "Continued lock on the solitary target icon, underscoring the absolute refusal to split aim.",
+      "onScreenText": "NEVER TARGETS TWO",
+      "relationToPrevious": "Continues the locked aim while emphasizing exclusion of all secondary targets.",
+      "addedInformation": "Maintains stage continuity to prove single-minded focus is sustained exclusion."
+    }
+  },
+  {
+    "i": 41,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "DIVIDED ATTENTION",
+        "SINGLE MINDED"
+      ],
+      "values": [
+        0.05,
+        0.95
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A spectrum comparing divided attention against single-minded focus to demonstrate the mathematical drop in capture odds.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dividing attention makes the mathematical odds of missing both astronomical.",
+      "concreteVisual": "A spectrum diagram contrasting divided attention (near zero success) against single-minded focus (near certainty).",
+      "onScreenText": "DIVIDED ATTENTION vs SINGLE MINDED",
+      "relationToPrevious": "Translates the lioness's survival calculation into an explicit probability contrast.",
+      "addedInformation": "Directly graphs the catastrophic failure rate of splitting attention."
+    }
+  },
+  {
+    "i": 42,
+    "concept": null,
+    "callout": {
+      "text": "LION TAMER IN THE CAGE",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley contrasts the wild predator with circus captivity, questioning how a tamer controls a 400-pound apex predator.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Circus lion tamers use a surprising primary tool to control an apex predator.",
+      "concreteVisual": "Horsley lecturing from the stage setting up the circus tamer contrast.",
+      "onScreenText": "LION TAMER IN THE CAGE",
+      "relationToPrevious": "Flips the wild savannah hunting analogy to the circus taming counter-example.",
+      "addedInformation": "Prepares the mental pivot from single focus to engineered cognitive paralysis."
+    }
+  },
+  {
+    "i": 43,
+    "concept": null,
+    "callout": {
+      "text": "A SIMPLE WOODEN CHAIR",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "point",
+    "explainedBy": "The learner reacts with surprise to the ridiculous weakness of the tool: a plain wooden chair neutralizing a predator.",
+    "noVisual": "The vocabulary lacks a chair icon; the surprise reaction and verbal reveal carry the core insight.",
+    "storyboard": {
+      "claim": "The tamer controls the beast with a simple wooden chair.",
+      "concreteVisual": "Learner gesturing in disbelief at the fragile household object used against a predator.",
+      "onScreenText": "A SIMPLE WOODEN CHAIR",
+      "relationToPrevious": "Reveals the unexpected object of the riddle.",
+      "addedInformation": "Highlights the cognitive irony that a lightweight object disarms raw physical power."
+    }
+  },
+  {
+    "i": 44,
+    "concept": "shield",
+    "callout": {
+      "text": "NOT A PHYSICAL SHIELD",
+      "style": "strike"
+    },
+    "set": "stage",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "The shield icon is crossed out to show that the chair is not a physical barrier, but a cognitive exploit.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The chair is not a physical shield; it presents four simultaneous focal points.",
+      "concreteVisual": "The shield icon struck through as the learner explains the mechanism.",
+      "onScreenText": "NOT A PHYSICAL SHIELD",
+      "relationToPrevious": "Clarifies why the chair works: negation of brute physical protection.",
+      "addedInformation": "Explicit strike callout prevents the viewer from thinking the chair acts as armor."
+    }
+  },
+  {
+    "i": 45,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "LEG 1",
+        "LEG 2",
+        "LEG 3",
+        "LEG 4"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A sorter diagram mapping the four chair legs moving at once, illustrating how the animal's visual attention is split into four competing points.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain tries to track all four chair legs simultaneously, completely dividing attention.",
+      "concreteVisual": "A sorter diagram showing four distinct competing focus points: Leg 1, Leg 2, Leg 3, Leg 4.",
+      "onScreenText": "LEG 1 / LEG 2 / LEG 3 / LEG 4",
+      "relationToPrevious": "Breaks down the physical chair into its four simultaneous visual vectors.",
+      "addedInformation": "Visually proves how four discrete stimuli overload working memory channels."
+    }
+  },
+  {
+    "i": 46,
+    "concept": null,
+    "callout": {
+      "text": "PARALYZED TRANCE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "blank",
+    "action": "slump",
+    "explainedBy": "The learner slumps into a blank, paralyzed stupor, physically demonstrating the frozen trance caused by cognitive overload.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Working memory overloads and the apex predator freezes into a passive paralyzed trance.",
+      "concreteVisual": "Learner slumped with a completely blank, stunned expression.",
+      "onScreenText": "PARALYZED TRANCE",
+      "relationToPrevious": "Shows the direct physiological result of the 4-leg sensory overload.",
+      "addedInformation": "Embodies the total freeze response of an overloaded mammalian nervous system."
+    }
+  },
+  {
+    "i": 47,
+    "concept": "target",
+    "callout": {
+      "text": "Paralyzed by multi-tasking inputs",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "The lion paralyzed by four chair legs: attention split across too many targets at once.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Multi-tasking fractures attention into paralysis.",
+      "concreteVisual": "Learner frozen before diverging targets with divided attention.",
+      "onScreenText": "FOUR LEGS OF THE CHAIR",
+      "relationToPrevious": "Transposes the lion tamer analogy directly into modern office work.",
+      "addedInformation": "Identifies the smartphone as our primary modern chair leg creating self-imposed paralysis."
+    }
+  },
+  {
+    "i": 48,
+    "concept": "clock",
+    "callout": {
+      "text": "SLOWS YOU DOWN BY 50%",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The clock icon beside a slumped worker demonstrates the severe time penalty of divided focus.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Multitasking actually slows you down by 50 percent.",
+      "concreteVisual": "Clock icon measuring lost productivity as the worker slumps in despair.",
+      "onScreenText": "SLOWS YOU DOWN BY 50%",
+      "relationToPrevious": "Quantifies the exact operational speed cost of continuous multitasking.",
+      "addedInformation": "Links the time measurement icon with measurable productivity collapse."
+    }
+  },
+  {
+    "i": 49,
+    "concept": "phone",
+    "callout": {
+      "text": "DO NOT HAVE TO PICK UP",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "The learner points firmly away from a ringing phone, demonstrating the disciplined refusal to surrender attention.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley notes that when your phone rings, you do not actually have to answer it.",
+      "concreteVisual": "Phone icon active while the learner deliberately refuses to engage.",
+      "onScreenText": "DO NOT HAVE TO PICK UP",
+      "relationToPrevious": "Offers the immediate practical defense against involuntary chair-leg distractions.",
+      "addedInformation": "Reframes incoming phone rings as optional invitations rather than mandatory commands."
+    }
+  },
+  {
+    "i": 50,
+    "concept": "chains",
+    "callout": {
+      "text": "PROFOUND SELF-SABOTAGE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Chains bound beside a despondent worker illustrate self-sabotage: voluntarily stepping into the tamer's cage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We willingly step into the lion tamer's cage and ask for the chair, causing profound self-sabotage.",
+      "concreteVisual": "The chains icon representing self-imprisonment beside a despondent professional.",
+      "onScreenText": "PROFOUND SELF-SABOTAGE",
+      "relationToPrevious": "Diagnoses our modern habit of welcoming sensory distraction as voluntary confinement.",
+      "addedInformation": "Chains visually anchor the captive state of willing self-sabotage."
+    }
+  },
+  {
+    "i": 51,
+    "concept": null,
+    "callout": {
+      "text": "TRAINING AN ATTENTION DEFICIT",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "continue": true,
+    "explainedBy": "Continued slumping as the worker reflects on how rapid channel-switching actively conditions chronic attention deficit.",
+    "noVisual": "Rapid switching of internal channels has no literal single icon; continuing the distressed pose carries the chronic deficit.",
+    "storyboard": {
+      "claim": "We are actively conditioning our brains to suffer from chronic attention deficit.",
+      "concreteVisual": "Worker remaining in distress as mental channels rapidly switch without settling.",
+      "onScreenText": "TRAINING AN ATTENTION DEFICIT",
+      "relationToPrevious": "Shows the cumulative neurological degradation resulting from chronic self-sabotage.",
+      "addedInformation": "Emphasizes that attention deficit is an actively trained habit, not a hardware defect."
+    }
+  },
+  {
+    "i": 52,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "CHUNK 1",
+        "CHUNK 2",
+        "CHUNK 3",
+        "CHUNK 4"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A sorter diagram displaying exactly four distinct storage buckets, depicting the strict neurobiological ceiling of human working memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Human working memory can only hold about four distinct chunks of information at once.",
+      "concreteVisual": "A sorter diagram neatly divided into four chunks: Chunk 1, Chunk 2, Chunk 3, Chunk 4.",
+      "onScreenText": "FOUR DISTINCT CHUNKS",
+      "relationToPrevious": "Moves from cultural critique to the hard neurobiological constraint of working memory capacity.",
+      "addedInformation": "Establishes the biological baseline limit of conscious processing slots."
+    }
+  },
+  {
+    "i": 53,
+    "concept": "crash",
+    "callout": {
+      "text": "BRAIN DROPS THEM",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "slump",
+    "explainedBy": "A crash icon appears as the learner slumps, visualizing cognitive overflow when extra tasks exceed the four slots.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Pushing 5 or 6 tasks into working memory causes the brain to drop them rather than process concurrently.",
+      "concreteVisual": "Crash icon indicating systemic mental breakdown when cognitive slots overflow.",
+      "onScreenText": "BRAIN DROPS THEM",
+      "relationToPrevious": "Shows the direct consequence of exceeding the 4-chunk capacity outlined in beat 52.",
+      "addedInformation": "Uses crash to embody the total cognitive failure of trying to process 5+ streams."
+    }
+  },
+  {
+    "i": 54,
+    "concept": null,
+    "callout": {
+      "text": "MODERN WORKFORCE REALITY",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "A worker speaks up anxiously to voice the objection of modern employees trapped in multitasking environments.",
+    "noVisual": "Devil's advocate argument and workforce sentiment are verbal challenges.",
+    "storyboard": {
+      "claim": "Multitasking feels like a fundamental prerequisite for survival in the modern workplace.",
+      "concreteVisual": "Everyman speaking anxiously in an office setting voicing the practical dilemma.",
+      "onScreenText": "MODERN WORKFORCE REALITY",
+      "relationToPrevious": "Shifts perspective to play devil's advocate for the overwhelmed employee.",
+      "addedInformation": "Validates the real-world pressure employees face before debunking it."
+    }
+  },
+  {
+    "i": 55,
+    "concept": "target",
+    "callout": {
+      "text": "Quieting the internal chatter",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "afraid",
+    "action": "talk",
+    "continue": true,
+    "explainedBy": "The employee expresses outright fear that refusing multitasking will lead directly to getting fired by the boss.",
+    "noVisual": "The threat of job loss is an emotional and verbal workplace reality.",
+    "storyboard": {
+      "claim": "Telling a boss you will only do one thing at a time feels like career suicide.",
+      "concreteVisual": "Employee showing genuine fear while discussing boss expectations.",
+      "onScreenText": "GOING TO GET FIRED",
+      "relationToPrevious": "Escalates the devil's advocate worry from inconvenience to existential fear.",
+      "addedInformation": "Captures the visceral terror driving modern workers to compromise their attention."
+    }
+  },
+  {
+    "i": 56,
+    "concept": null,
+    "callout": {
+      "text": "THE FLOW STATE DEFENSE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "sit",
+    "explainedBy": "A student sits at a computer workstation, embodying the software engineer defending deep flow amid ambient music.",
+    "noVisual": "Audio and coding flow are best represented by the seated practitioner at their computer setup.",
+    "storyboard": {
+      "claim": "People cite brilliant engineers working with music and Slack as evidence of multitasking flow.",
+      "concreteVisual": "Student sitting intently at a workstation immersed in screen work.",
+      "onScreenText": "THE FLOW STATE DEFENSE",
+      "relationToPrevious": "Presents the intellectual defense of high-stimulation work environments.",
+      "addedInformation": "Introduces the tech worker prototype who claims immunity to cognitive distraction."
+    }
+  },
+  {
+    "i": 57,
+    "concept": "notes",
+    "callout": {
+      "text": "MONITORING SLACK CHANNELS",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "continue": true,
+    "explainedBy": "The student checks side notes and feeds while attempting to sustain high-output creative work.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Workers monitor real-time company chats out of the corner of their eye while producing work.",
+      "concreteVisual": "Student holding incoming message notes while remaining at the desk.",
+      "onScreenText": "MONITORING SLACK CHANNELS",
+      "relationToPrevious": "Details the second simultaneous channel competing for the coder's focus.",
+      "addedInformation": "Held notes represent the ambient stream of Slack notifications."
+    }
+  },
+  {
+    "i": 58,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Multi-tasking inputs",
+        "Brain fracture"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The claim that multitasking stimulates the brain is refuted: multiple inputs degrade neural processing.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The belief that multi-input stimulation boosts productivity is scientifically false.",
+      "concreteVisual": "A spectrum diagram placing the stimulation defense far away from factual neurobiology.",
+      "onScreenText": "STIMULATION DEFENSE vs NEUROLOGICAL REALITY",
+      "relationToPrevious": "Directly confronts the engineer's flow defense with hard neuroscience.",
+      "addedInformation": "Clarifies the massive discrepancy between subjective feeling and brain mechanics."
+    }
+  },
+  {
+    "i": 59,
+    "concept": null,
+    "callout": {
+      "text": "ENTIRELY A MYTH",
+      "style": "strike"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley speaks with resolute authority, dismantling the multitasking flow state as a complete physiological impossibility.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "That highly stimulated flow state is entirely a neurological myth.",
+      "concreteVisual": "Horsley delivering the firm definitive verdict from center stage.",
+      "onScreenText": "ENTIRELY A MYTH",
+      "relationToPrevious": "Horsley steps back in to decisively reject the multi-input defense.",
+      "addedInformation": "Strike style emphatically demolishes the multitasking illusion."
+    }
+  },
+  {
+    "i": 60,
+    "concept": null,
+    "callout": {
+      "text": "CONTINUOUS PARTIAL ATTENTION",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley gestures toward the board in a classroom setting, defining the precise scientific term: Continuous Partial Attention.",
+    "noVisual": "A scientific term defined in lecture is carried by Horsley's authoritative instruction.",
+    "storyboard": {
+      "claim": "Cognitive scientists define this state as continuous partial attention.",
+      "concreteVisual": "Horsley pointing to instruct on the exact cognitive term.",
+      "onScreenText": "CONTINUOUS PARTIAL ATTENTION",
+      "relationToPrevious": "Provides the formal academic terminology replacing the false concept of multitasking.",
+      "addedInformation": "Anchors the scientific taxonomy of modern fragmented focus."
+    }
+  },
+  {
+    "i": 61,
+    "concept": "mask",
+    "callout": {
+      "text": "ILLUSION OF PRODUCTIVITY",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "Holding a mask illustrates the false facade: multitasking feels highly efficient, but it is purely an illusion of competence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Simultaneous processing is physically impossible; it is only a convincing illusion of productivity.",
+      "concreteVisual": "A worker holding up a mask, exposing the counterfeit nature of multitasking.",
+      "onScreenText": "ILLUSION OF PRODUCTIVITY",
+      "relationToPrevious": "Exposes the psychological deceit beneath the stimulated work state.",
+      "addedInformation": "The mask physically embodies the deceptive false face of rapid switching."
+    }
+  },
+  {
+    "i": 62,
+    "concept": null,
+    "diagram": {
+      "type": "matchWave",
+      "labels": [
+        "CODE: 2 SECONDS",
+        "DISENGAGE"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A matchWave diagram illustrating the jagged, erratic toggling between coding for two seconds and abrupt mental disengagement.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain focuses on code for 2 seconds, then entirely disengages.",
+      "concreteVisual": "A matchWave diagram showing the abrupt, fragmented frequency of micro-switching.",
+      "onScreenText": "CODE: 2 SECONDS / DISENGAGE",
+      "relationToPrevious": "Diagrams the granular millisecond mechanics of rapid micro-switching.",
+      "addedInformation": "Visually graphs the violent stopping and starting of attention."
+    }
+  },
+  {
+    "i": 63,
+    "concept": null,
+    "diagram": {
+      "type": "matchWave",
+      "labels": [
+        "SLACK: HALF SECOND",
+        "RE-ENGAGE"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "The matchWave diagram continues, tracing the rapid bounce to Slack for half a second before struggling to re-engage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain turns to Slack for half a second, disengages again, and rebounds at immense cost.",
+      "concreteVisual": "The matchWave diagram continues the fractured cycle of toggling between tasks.",
+      "onScreenText": "SLACK: HALF SECOND / RE-ENGAGE",
+      "relationToPrevious": "Completes the micro-switching loop started in beat 62.",
+      "addedInformation": "Reveals the chaotic non-linear rhythm of modern task switching."
+    }
+  },
+  {
+    "i": 64,
+    "concept": "coin",
+    "callout": {
+      "text": "COGNITIVE TRANSITION COST",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "coin",
+    "explainedBy": "Holding a coin illustrates paying a literal biological tax on every single cognitive transition.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Every time your brain executes a switch, there is an unavoidable cognitive transition cost.",
+      "concreteVisual": "Worker holding a coin, visually representing the hidden financial and metabolic toll.",
+      "onScreenText": "COGNITIVE TRANSITION COST",
+      "relationToPrevious": "Introduces the metabolic currency paid during every attention shift.",
+      "addedInformation": "Literal coin stands for the non-negotiable tax extracted by the nervous system."
+    }
+  },
+  {
+    "i": 65,
+    "concept": "fire",
+    "callout": {
+      "text": "BURNS PREFRONTAL GLUCOSE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "The fire icon burning beside an exhausted worker depicts the metabolic combustion of glucose in the prefrontal cortex.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain burns glucose to reorient, completely depleting the prefrontal cortex across an 8-hour day.",
+      "concreteVisual": "Fire icon indicating fuel consumption as the worker collapses from mental exhaustion.",
+      "onScreenText": "BURNS PREFRONTAL GLUCOSE",
+      "relationToPrevious": "Explains the physiological mechanism underlying the transition tax.",
+      "addedInformation": "Fire directly visualizes the literal burning and depletion of brain energy."
+    }
+  },
+  {
+    "i": 66,
+    "concept": null,
+    "callout": {
+      "text": "NOT TRUE FLOW",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "cast": [
+      "student"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "explainedBy": "A software developer at a desk realizing their stimulated music and Slack state is not true deep flow.",
+    "noVisual": "Debunking the coder's internal mental state.",
+    "storyboard": {
+      "claim": "The engineer listening to music and checking Slack is not in a true flow state.",
+      "concreteVisual": "The seated coder realizing the false nature of their stimulated working groove.",
+      "onScreenText": "NOT TRUE FLOW",
+      "relationToPrevious": "Brings the glucose analysis back to evaluate the software engineer from beat 56.",
+      "addedInformation": "Rejection strike callout strips away the romanticism of multitasking coders."
+    }
+  },
+  {
+    "i": 67,
+    "concept": "storm",
+    "callout": {
+      "text": "ADRENALINE AND CORTISOL",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "student"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "continue": true,
+    "explainedBy": "A storm icon raging beside the seated developer illustrates the chaotic surge of stress hormones masquerading as productivity.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "They are merely riding a wave of adrenaline and cortisol stimulation that mimics productivity.",
+      "concreteVisual": "A turbulent storm icon visualizing internal endocrine agitation.",
+      "onScreenText": "ADRENALINE AND CORTISOL",
+      "relationToPrevious": "Identifies the chemical driver masquerading as efficient workflow.",
+      "addedInformation": "Storm icon depicts the biological turbulence of chronic stress hormones."
+    }
+  },
+  {
+    "i": 68,
+    "concept": "trophy",
+    "callout": {
+      "text": "MEASURABLY IMPROVE",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "trophy",
+    "explainedBy": "Holding a trophy celebrates the proven result: shutting down chatter dramatically improves error reduction and speed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Silencing music and Slack measurably and universally improves error reduction and coding speed.",
+      "concreteVisual": "Student happily holding a trophy celebrating objective performance mastery.",
+      "onScreenText": "MEASURABLY IMPROVE",
+      "relationToPrevious": "Shows the triumphant performance payoff of eliminating ambient distractions.",
+      "addedInformation": "Trophy concretizes the measurable competitive edge gained from deep focus."
+    }
+  },
+  {
+    "i": 69,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "ONE TASK",
+        "COMPLETION",
+        "NEXT TASK"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram illustrating consecutive tasking: executing one task through completion before commencing the next.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Consecutive tasking means doing one thing until completion, resting, then doing the next.",
+      "concreteVisual": "A linear sequence flow diagram: One Task -> Completion -> Next Task.",
+      "onScreenText": "CONSECUTIVE TASKING FLOW",
+      "relationToPrevious": "Provides the explicit structural alternative to continuous micro-switching.",
+      "addedInformation": "Formulates the disciplined architecture of single-task progression."
+    }
+  },
+  {
+    "i": 70,
+    "concept": "balance",
+    "callout": {
+      "text": "CONSECUTIVE BEATS SIMULTANEOUS",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "The balance scale demonstrates the decisive comparison: consecutive tasking invariably outweighs simultaneous tasking.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Consecutive tasking invariably beats simultaneous tasking in both speed and quality.",
+      "concreteVisual": "A balance scale weighing consecutive execution decisively above divided tasking.",
+      "onScreenText": "CONSECUTIVE BEATS SIMULTANEOUS",
+      "relationToPrevious": "Declares the clear operational victor in speed, accuracy, and metabolic cost.",
+      "addedInformation": "Balance icon visually adjudicates the superior efficiency of sequential focus."
+    }
+  },
+  {
+    "i": 71,
+    "concept": "lightbulb",
+    "callout": {
+      "text": "MUST ACHIEVE PRESENCE",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley steps forward beside a glowing lightbulb, synthesizing the lesson: presence is the fundamental prerequisite for memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Before you can memorize anything, you must achieve complete presence.",
+      "concreteVisual": "Horsley speaking beside an illuminating lightbulb on stage.",
+      "onScreenText": "MUST ACHIEVE PRESENCE",
+      "relationToPrevious": "Connects the biological critique of multitasking back to foundational memory building.",
+      "addedInformation": "Lightbulb signifies cognitive clarity and foundational insight."
+    }
+  },
+  {
+    "i": 72,
+    "concept": "home",
+    "callout": {
+      "text": "ARCHITECTURAL CONSTRUCTION",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "The student gestures toward a structured home building, visualizing memory as laying deliberate architectural bricks.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Memory is an active architectural construction requiring directed attention before laying a single brick.",
+      "concreteVisual": "A structured building icon symbolizing memory's deliberate mental architecture.",
+      "onScreenText": "ARCHITECTURAL CONSTRUCTION",
+      "relationToPrevious": "Reinforces the architectural metaphor introduced at the start of the book.",
+      "addedInformation": "Home icon provides the physical architectural anchor for memory palaces."
+    }
+  },
+  {
+    "i": 73,
+    "concept": "target",
+    "callout": {
+      "text": "ONLY WILDEBEEST ON SAVANNAH",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "A target icon refocuses the student's gaze, completing the loop back to treating learning material as the sole wilderbeast on the savannah.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Silence the inner critic and engage with the material as if it is the only wildebeest on the savannah.",
+      "concreteVisual": "Target icon focused sharply as the student directs singular visual attention.",
+      "onScreenText": "ONLY WILDEBEEST ON SAVANNAH",
+      "relationToPrevious": "Closes the loop on the lioness metaphor from beats 38-41.",
+      "addedInformation": "Restores single-minded predatory focus as the ultimate standard for study."
+    }
+  },
+  {
+    "i": 74,
+    "concept": "road",
+    "callout": {
+      "text": "CLEARED THE SITE",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "Horsley walks along an open road, signifying that clearing mental clutter prepares the open pathway for mechanical encoding.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Once you clear the site with laser attention, you are ready for the mechanical phase.",
+      "concreteVisual": "Horsley walking along a clean, open road pathway on stage.",
+      "onScreenText": "CLEARED THE SITE",
+      "relationToPrevious": "Transitions from clearing attention clutter to beginning mechanical memory techniques.",
+      "addedInformation": "Road icon visualizes the open runway ready for mnemonic construction."
+    }
+  },
+  {
+    "i": 75,
+    "concept": "book",
+    "callout": {
+      "text": "DRY BORING FACTS",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "A student in a library holds a dense textbook with a weary expression, confronting boring facts they do not care about.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "What do you actually do with the dry, boring facts you need to memorize but do not care about?",
+      "concreteVisual": "A student holding an academic textbook with a weary, unenthusiastic expression.",
+      "onScreenText": "DRY BORING FACTS",
+      "relationToPrevious": "Poses the practical hurdle: applying focus to intrinsically dull information.",
+      "addedInformation": "Book icon grounds the abstract facts into typical study material."
+    }
+  },
+  {
+    "i": 76,
+    "concept": "book",
+    "callout": {
+      "text": "BRAIN WANTS TO REJECT",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "book",
+    "continue": true,
+    "explainedBy": "Still holding the textbook, the student looks worried as the narrator asks how to encode data the brain naturally rejects.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "How do you encode data that your brain biologically and naturally wants to reject?",
+      "concreteVisual": "Learner maintaining hold of the dense book, troubled by the brain's natural resistance.",
+      "onScreenText": "BRAIN WANTS TO REJECT",
+      "relationToPrevious": "Elevates the challenge from boredom to active biological resistance.",
+      "addedInformation": "Sustains the book stage while pivoting toward the SEE principle solution."
+    }
+  }
+]

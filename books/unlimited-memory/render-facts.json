@@ -1,0 +1,71 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-10-22T10:42:08.652Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "9f4d31da",
+      "configHash": "7d55005e67dde674",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 602
+      },
+      "decision": {
+        "kind": "REFUSED",
+        "ok": false,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 40,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    },
+    {
+      "at": "2026-10-22T10:42:27.444Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "9f4d31da",
+      "configHash": "7d55005e67dde674",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 602
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT (recorded now)",
+        "ok": true,
+        "accepted": true,
+        "reason": "Operator approved final render with known quality debt: firewall 0 BLOCK 602 REVIEW and mute test run2 WRONG 5/30 on config 7d55005e67dde674",
+        "covered": 40,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    },
+    {
+      "at": "2026-10-22T10:45:00.314Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "9f4d31da",
+      "configHash": "7d55005e67dde674",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 602
+      },
+      "decision": {
+        "kind": "ACCEPTED_DEBT",
+        "ok": true,
+        "accepted": false,
+        "reason": "Operator approved final render with known quality debt: firewall 0 BLOCK 602 REVIEW and mute test run2 WRONG 5/30 on config 7d55005e67dde674",
+        "covered": 40,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    }
+  ]
+}

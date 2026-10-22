@@ -1,0 +1,334 @@
+{
+  "slug": "unlimited-memory",
+  "world": {
+    "era": "2020s",
+    "worldId": "cognitive-architecture-everyday",
+    "approxYear": 2025,
+    "setting": "Contemporary learning environments and cognitive training spaces: libraries, study desks, quiet classrooms, office workstations, home kitchens, memory palace mental routes. Modern everyday professionals and students mastering mental systems.",
+    "register": "contemporary nonfiction, cognitive self-mastery, systematic mental techniques",
+    "forbid": [
+      "quill",
+      "scroll",
+      "sundial",
+      "law",
+      "war",
+      "grave",
+      "shipOfState",
+      "caveAllegory",
+      "mythOfEr",
+      "kallipolis",
+      "ringOfGyges",
+      "thirtyTyrants",
+      "tripartiteSoul",
+      "fiveRegimes",
+      "icebergDepth"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "unlimited-memory",
+    "worldId": "cognitive-architecture-everyday",
+    "allowedMotifs": [
+      "book",
+      "lightbulb",
+      "notes",
+      "target",
+      "key",
+      "door",
+      "ladder",
+      "balance",
+      "compass",
+      "clock",
+      "hourglass",
+      "magnifier",
+      "mirror",
+      "road",
+      "shield",
+      "trophy",
+      "phone",
+      "car",
+      "home",
+      "school",
+      "work",
+      "dominoCascade",
+      "boulder",
+      "summit",
+      "chains",
+      "synapseLoop",
+      "mask",
+      "crash",
+      "coin",
+      "fire",
+      "storm",
+      "city",
+      "food",
+      "tree",
+      "heart"
+    ],
+    "forbiddenMotifs": [
+      "caveAllegory",
+      "mythOfEr",
+      "kallipolis",
+      "ringOfGyges",
+      "thirtyTyrants",
+      "tripartiteSoul",
+      "fiveRegimes",
+      "shipOfState"
+    ],
+    "allowedCharacters": [
+      "horsley",
+      "everyman",
+      "student",
+      "narrator"
+    ],
+    "allowedLocations": [
+      "library",
+      "classroom",
+      "office",
+      "workstation",
+      "room",
+      "kitchen",
+      "bedroom",
+      "street",
+      "abstract",
+      "stage"
+    ],
+    "allowedProps": [
+      "book",
+      "notes",
+      "phone",
+      "lightbulb",
+      "key",
+      "target",
+      "clock",
+      "magnifier",
+      "car",
+      "trophy"
+    ]
+  },
+  "cast": {
+    "narrator": {
+      "name": "Narrator",
+      "role": "the analytical voice explaining cognitive systems and memory architecture; never staged as a person",
+      "look": "Off-screen explanatory voice framing mnemonic techniques, drawn as a clean neutral presence.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#2D3748",
+        "shirt": "#EDF2F7",
+        "skin": "#D69E2E",
+        "hair": "#2D3748",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "horsley": {
+      "name": "Kevin Horsley",
+      "role": "the author and memory grandmaster who broke the World Memory Championship record reciting 10,000 digits of Pi",
+      "look": "Kevin Horsley, a sharp man in his early 40s, athletic build, short dark hair, wearing a clean navy casual blazer over a grey t-shirt, focused and deliberate expression.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#1E3A8A",
+        "shirt": "#94A3B8",
+        "skin": "#F8D7DA",
+        "hair": "#1E293B",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      },
+      "mentions": 12
+    },
+    "everyman": {
+      "name": "Everyman learner",
+      "role": "a professional or everyday person struggling with information overload, forgotten names, and mental clutter",
+      "look": "A professional in their mid 30s, average build, brown hair, wearing a casual crewneck sweater and dark trousers, looking intently at learning material.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#475569",
+        "shirt": "#F1F5F9",
+        "skin": "#E2E8F0",
+        "hair": "#475569",
+        "hairStyle": "ponytail",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": true,
+        "accessory": "badge"
+      },
+      "mentions": 8
+    },
+    "student": {
+      "name": "Mnemonic practitioner",
+      "role": "a student actively practicing the loci method and visualizing absurd imagery along physical routes",
+      "look": "A young adult in their 20s, slim build, wavy dark hair, wearing a light jacket over a graphic tee, actively visualizing and gesturing with focus.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "slight",
+        "outfit": "casual",
+        "suit": "#334155",
+        "shirt": "#E2E8F0",
+        "skin": "#FBCFE8",
+        "hair": "#0F172A",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      },
+      "mentions": 6
+    }
+  },
+  "places": {
+    "library": {
+      "set": "library",
+      "look": "A quiet modern library with tall bookshelves, organized study desks, warm reading lamps, and calm concentration.",
+      "mentions": 14
+    },
+    "classroom": {
+      "set": "classroom",
+      "look": "A structured lecture classroom with a clean whiteboard showing numbered diagrams and mnemonic schemas.",
+      "mentions": 11
+    },
+    "office": {
+      "set": "office",
+      "look": "A contemporary desk workspace with notebook lists, a smartphone, and clean spatial organization.",
+      "mentions": 8
+    },
+    "room": {
+      "set": "room",
+      "look": "A familiar living room interior used as a memory palace locus with distinct stations: doorway, sofa, coffee table, shelf.",
+      "mentions": 21
+    },
+    "kitchen": {
+      "set": "kitchen",
+      "look": "A bright home kitchen locus route: refrigerator, kitchen counter, sink, and dining table as physical peg points.",
+      "mentions": 7
+    },
+    "abstract": {
+      "set": "abstract",
+      "look": "A minimalist mental mindspace with glowing neural pathways, geometric scaffolds, and spatial coordinate grids.",
+      "mentions": 18
+    }
+  },
+  "objects": [
+    {
+      "concept": "book",
+      "mentions": 25,
+      "why": "Knowledge text and manual of memory techniques."
+    },
+    {
+      "concept": "notes",
+      "mentions": 18,
+      "why": "Written memory lists, pegs, and number systems representing external recording versus internal architectural memory."
+    },
+    {
+      "concept": "lightbulb",
+      "mentions": 15,
+      "why": "The spark of sensory imagination and vivid visualization (SEE principle)."
+    },
+    {
+      "concept": "key",
+      "mentions": 10,
+      "why": "The mnemonic key unlocking recall along a palace route."
+    },
+    {
+      "concept": "target",
+      "mentions": 12,
+      "why": "Total concentration and focused attention eliminating distractions."
+    },
+    {
+      "concept": "clock",
+      "mentions": 14,
+      "why": "Spaced repetition intervals and review cycles across the forgetting curve."
+    },
+    {
+      "concept": "car",
+      "mentions": 9,
+      "why": "The Car Method peg system where vehicle compartments store items."
+    },
+    {
+      "concept": "phone",
+      "mentions": 26,
+      "why": "The digital crutch creating cognitive outsourcing and passive attention."
+    },
+    {
+      "concept": "trophy",
+      "mentions": 6,
+      "why": "World Memory Championship achievement reciting 10,000 digits of Pi."
+    }
+  ],
+  "groups": {
+    "focus": {
+      "name": "Concentration & Attention",
+      "description": "The foundation of memory: eliminating mental chatter and fixing awareness onto the target information.",
+      "evidence": "Horsley emphasizes that concentration is not hard work but the decision to direct undivided attention without multitasking."
+    },
+    "palace": {
+      "name": "The Route & Loci Architecture",
+      "description": "Connecting concepts to known physical locations in sequence for effortless random access and long-term retention.",
+      "evidence": "The ancient Roman route method turns rooms, streets, and cars into walkable memory containers."
+    },
+    "visualization": {
+      "name": "Sensory Imagination (SEE Principle)",
+      "description": "Transforming abstract numbers and words into exaggerated, humorous, moving sensory pictures.",
+      "evidence": "Memory thrives on sensory richness, extreme exaggeration, and energetic movement rather than abstract words."
+    }
+  },
+  "spine": [
+    {
+      "act": 1,
+      "title": "The Myth of the Broken Brain",
+      "claim": "Forgetfulness is not an inherited hardware limitation, but the direct consequence of passive, divided attention.",
+      "fromFrame": 0
+    },
+    {
+      "act": 2,
+      "title": "The SEE Engine of Imagination",
+      "claim": "Abstract data vanishes unless deliberately encoded into vivid, exaggerated sensory mental pictures.",
+      "fromFrame": 13425
+    },
+    {
+      "act": 3,
+      "title": "Architecting the Memory Palace",
+      "claim": "Spatial navigation is humanity's innate superpower; anchoring thoughts to physical locations turns recall into a walk.",
+      "fromFrame": 26850
+    },
+    {
+      "act": 4,
+      "title": "Pegs, Cars, and Sequential Mastery",
+      "claim": "Pre-constructed mental scaffolding provides instant, ordered access to complex lists and abstract numbers.",
+      "fromFrame": 40275
+    },
+    {
+      "act": 5,
+      "title": "Faces, Names, and Social Presence",
+      "claim": "Remembering another person is an act of deep respect powered by anchoring bizarre images to physical features.",
+      "fromFrame": 53700
+    },
+    {
+      "act": 6,
+      "title": "Defeating the Forgetting Curve",
+      "claim": "Initial encoding without systematic, spaced review is temporary; intentional repetition cements neural architecture.",
+      "fromFrame": 67125
+    },
+    {
+      "act": 7,
+      "title": "Radical Ownership of Your Mind",
+      "claim": "In an era of cognitive outsourcing to algorithms, a trained memory is the ultimate sanctuary of independent thinking.",
+      "fromFrame": 80550
+    }
+  ],
+  "authored": true
+}

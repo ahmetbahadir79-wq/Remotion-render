@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "label": "run1",
+      "date": "2026-10-22T09:01:39.726Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 22,
+        "ADDS": 22,
+        "TEXT_ONLY": 6,
+        "WRONG": 5,
+        "NONE": 2,
+        "NEUTRAL": 3,
+        "EXPLAINS": 2
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": false,
+      "sample": "fresh",
+      "verdict": false,
+      "dead": 2,
+      "addsTargetMet": true,
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 73
+    },
+    {
+      "label": "run2",
+      "date": "2026-10-22T09:51:14.137Z",
+      "n": 30,
+      "totals": {
+        "CORRECT": 22,
+        "ADDS": 23,
+        "EXPLAINS": 3,
+        "TEXT_ONLY": 7,
+        "NEUTRAL": 3,
+        "WRONG": 5
+      },
+      "bars": {
+        "wrongPer30": 1,
+        "deadPer30": 5,
+        "addsTarget": 0.6
+      },
+      "pass": false,
+      "sample": "fresh",
+      "verdict": false,
+      "dead": 0,
+      "addsTargetMet": true,
+      "imageBeats": 0,
+      "imageAdds": 0,
+      "addsAll": 77
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "slug": "unlimited-memory",
+  "instructions": [
+    "Rewrite `bible` against `evidence`. The counts are a starting point, not the answer.",
+    "ENGLISH ONLY (US market invariant).",
+    "cast: keep only real characters, key them by a lowercase slug, and give every one a `look`:",
+    "  ONE Flux-ready sentence naming age, build, hair, clothing and period.",
+    "  This is the field that makes a character the same person in beat 12 and beat 204.",
+    "  `variant` carries Antidote costume hints (garment, headwear, hair, height, build, headScale).",
+    "places: `set` MUST be one of horizon office street room stage sky abstract kitchen bedroom classroom library cafe hospital court forest shore highway workstation startupGarage serverRoom pitchStage.",
+    "objects: the book's OWN recurring subjects. `concept` may name an icon we do not have yet;",
+    "  say so in `why` and Phase 4 will draw it.",
+    "world.forbid: icons this period cannot contain. An anachronism is the loudest mistake we can make.",
+    "spine: one entry per act; `claim` is the argument that act makes, in one sentence.",
+    "Then: node scripts/plan-bible.js --slug=unlimited-memory --bible=<this file>"
+  ],
+  "validSets": [
+    "horizon",
+    "office",
+    "street",
+    "room",
+    "stage",
+    "sky",
+    "abstract",
+    "kitchen",
+    "bedroom",
+    "classroom",
+    "library",
+    "cafe",
+    "hospital",
+    "court",
+    "forest",
+    "shore",
+    "highway",
+    "workstation",
+    "startupGarage",
+    "serverRoom",
+    "pitchStage"
+  ],
+  "knownConcepts": [
+    "alarmClock",
+    "butterfly",
+    "subway",
+    "car",
+    "coffee",
+    "codeWindow",
+    "rocketLaunch",
+    "funnelMetrics",
+    "dollarExchange",
+    "laptopMockup",
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "school",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "work",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "shadowSelf",
+    "puppeteer",
+    "chains",
+    "compass",
+    "dominoCascade",
+    "icebergDepth",
+    "funnelTrap",
+    "thirtyTyrants",
+    "ringOfGyges",
+    "caveAllegory",
+    "shipOfState",
+    "tripartiteSoul",
+    "kallipolis",
+    "fiveRegimes",
+    "mythOfEr",
+    "boulder",
+    "summit",
+    "ladder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "sword",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift",
+    "inheritance",
+    "zap"
+  ],
+  "bible": {
+    "slug": "unlimited-memory",
+    "world": {
+      "era": "1901–1942",
+      "worldId": "",
+      "approxYear": 1942,
+      "setting": "",
+      "register": "",
+      "forbid": [
+        "phone",
+        "codeWindow",
+        "laptopMockup",
+        "rocketLaunch",
+        "funnelMetrics",
+        "dollarExchange",
+        "subway",
+        "car",
+        "alarmClock",
+        "medical",
+        "coffee"
+      ]
+    },
+    "visualProvenance": {
+      "bookId": "unlimited-memory",
+      "worldId": "",
+      "allowedMotifs": [],
+      "forbiddenMotifs": [],
+      "allowedCharacters": [],
+      "allowedLocations": [],
+      "allowedProps": []
+    },
+    "cast": {
+      "one": {
+        "name": "One",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 4
+      },
+      "horsely": {
+        "name": "Horsely",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 2
+      },
+      "which": {
+        "name": "Which",
+        "role": "",
+        "look": "",
+        "variant": {},
+        "mentions": 2
+      }
+    },
+    "places": {
+      "kitchen": {
+        "set": "kitchen",
+        "look": "",
+        "mentions": 7
+      },
+      "manuscript": {
+        "set": "manuscript",
+        "look": "",
+        "mentions": 6
+      },
+      "cave": {
+        "set": "cave",
+        "look": "",
+        "mentions": 1
+      },
+      "forest": {
+        "set": "forest",
+        "look": "",
+        "mentions": 1
+      },
+      "library": {
+        "set": "library",
+        "look": "",
+        "mentions": 1
+      },
+      "office": {
+        "set": "office",
+        "look": "",
+        "mentions": 1
+      }
+    },
+    "objects": [
+      {
+        "concept": "phone",
+        "mentions": 26,
+        "why": ""
+      },
+      {
+        "concept": "home",
+        "mentions": 21,
+        "why": ""
+      },
+      {
+        "concept": "codeWindow",
+        "mentions": 18,
+        "why": ""
+      },
+      {
+        "concept": "school",
+        "mentions": 11,
+        "why": ""
+      },
+      {
+        "concept": "notes",
+        "mentions": 11,
+        "why": ""
+      },
+      {
+        "concept": "car",
+        "mentions": 9,
+        "why": ""
+      },
+      {
+        "concept": "target",
+        "mentions": 7,
+        "why": ""
+      },
+      {
+        "concept": "heart",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "lightbulb",
+        "mentions": 6,
+        "why": ""
+      },
+      {
+        "concept": "road",
+        "mentions": 5,
+        "why": ""
+      },
+      {
+        "concept": "fire",
+        "mentions": 4,
+        "why": ""
+      },
+      {
+        "concept": "laptopMockup",
+        "mentions": 4,
+        "why": ""
+      }
+    ],
+    "spine": [
+      {
+        "act": "setup",
+        "fromFrame": 5,
+        "claim": ""
+      },
+      {
+        "act": "development",
+        "fromFrame": 18600,
+        "claim": ""
+      },
+      {
+        "act": "turn",
+        "fromFrame": 38950,
+        "claim": ""
+      },
+      {
+        "act": "consequence",
+        "fromFrame": 56986,
+        "claim": ""
+      },
+      {
+        "act": "close",
+        "fromFrame": 74892,
+        "claim": ""
+      }
+    ]
+  },
+  "evidence": {
+    "sentences": 699,
+    "cast": [
+      {
+        "name": "One",
+        "asSubject": 4,
+        "total": 4,
+        "samples": [
+          "One is the rhyming peg method.",
+          "One is bun, two is shoe, three is tree, four is door, five is hive.",
+          "One is bun, two is shoe, three is tree."
+        ]
+      },
+      {
+        "name": "Horsely",
+        "asSubject": 2,
+        "total": 11,
+        "samples": [
+          "Let's do a live exercise with exactly how Horsely does this, particularly with foreign languages.",
+          "Horsely tells this brilliant almost philosophical tale of earth one versus earth 2 to illustrate the biology of belief."
+        ]
+      },
+      {
+        "name": "Which",
+        "asSubject": 2,
+        "total": 6,
+        "samples": [
+          "Which is exhausting.",
+          "Which leaves us with this final thought to maul over."
+        ]
+      }
+    ],
+    "places": [
+      {
+        "set": "kitchen",
+        "mentions": 7,
+        "samples": [
+          "You know where the kitchen is.",
+          "Ouch. Okay. You walk into your kitchen, open your refrigerator, and you place the whip right next to the milk."
+        ]
+      },
+      {
+        "set": "manuscript",
+        "mentions": 6,
+        "samples": [
+          "Because to build the mental architecture, you can't use the raw materials of abstract text.",
+          "No, text is terrible for this."
+        ]
+      },
+      {
+        "set": "cave",
+        "mentions": 1,
+        "samples": [
+          "For the vast majority of human history, survival depended on remembering routes through a dense forest, the exact location of seasonal water sources, "
+        ]
+      },
+      {
+        "set": "forest",
+        "mentions": 1,
+        "samples": [
+          "For the vast majority of human history, survival depended on remembering routes through a dense forest, the exact location of seasonal water sources, "
+        ]
+      },
+      {
+        "set": "library",
+        "mentions": 1,
+        "samples": [
+          "Exactly. By doing this, you turn abstract knowledge into a physical, walkable, internal library."
+        ]
+      },
+      {
+        "set": "office",
+        "mentions": 1,
+        "samples": [
+          "Three days later, you are sitting in the office break room trying to excitedly explain the core concepts to a colleague and you open your mouth and yo"
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "concept": "phone",
+        "mentions": 26,
+        "sample": "What we so casually call a quote unquote bad memory is actually just an untrained habit."
+      },
+      {
+        "concept": "home",
+        "mentions": 21,
+        "sample": "So, make the strawberry the size of a two-story house."
+      },
+      {
+        "concept": "codeWindow",
+        "mentions": 18,
+        "sample": "but by fundamentally changing his software, his strategy."
+      },
+      {
+        "concept": "school",
+        "mentions": 11,
+        "sample": "He was labeled dyslexic, struggled through 12 years of school, couldn't remember basic facts, and then memorized the first 10,000 didds of p"
+      },
+      {
+        "concept": "notes",
+        "mentions": 11,
+        "sample": "We are trying to check our phones, listen to a podcast, a deep dive, you know, write a highly technical email and eat our lunch all at the e"
+      },
+      {
+        "concept": "car",
+        "mentions": 9,
+        "sample": "Exactly. For that, we move to a variation called the peg and car method."
+      },
+      {
+        "concept": "target",
+        "mentions": 7,
+        "sample": "So, our mission in this deep dive is to shortcut you to being exceptionally well-informed about these advanced learning strategies, not just"
+      },
+      {
+        "concept": "heart",
+        "mentions": 6,
+        "sample": "So when you get down to the absolute fundamental mechanics of it, memory is an active architectural I love that phrase, active architectural"
+      },
+      {
+        "concept": "lightbulb",
+        "mentions": 6,
+        "sample": "And Kevin Horesley is just the perfect lens through which to view this because his personal journey completely obliterates the idea of genet"
+      },
+      {
+        "concept": "road",
+        "mentions": 5,
+        "sample": "And Kevin Horesley is just the perfect lens through which to view this because his personal journey completely obliterates the idea of genet"
+      },
+      {
+        "concept": "fire",
+        "mentions": 4,
+        "sample": "Your eyes are burning and your inner voice is just screaming on a loop."
+      },
+      {
+        "concept": "laptopMockup",
+        "mentions": 4,
+        "sample": "like a computer hard drive that has simply run out of megabytes."
+      }
+    ],
+    "openingLines": [
+      "He was labeled dyslexic, struggled through 12 years of school, couldn't remember basic facts, and then memorized the first 10,000 didds of pi to break the world record, right?",
+      "It's just I mean, [laughter] it's wild to even wrap your head around.",
+      "It really is.",
+      "But see, forgetfulness is not a hardware flaw of the human brain.",
+      "That's, you know, that's the core illusion we operate under almost entirely as a modern society.",
+      "What we so casually call a quote unquote bad memory is actually just an untrained habit."
+    ],
+    "closingLines": [
+      "The tools are all there.",
+      "The architecture is waiting to be built.",
+      "But remember, as Kevin Horesley so perfectly puts it, batteries are not included.",
+      "You have to provide the energy."
+    ]
+  }
+}

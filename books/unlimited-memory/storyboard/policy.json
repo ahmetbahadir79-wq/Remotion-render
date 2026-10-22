@@ -1,0 +1,36 @@
+{
+  "policy": "baseline",
+  "promptSha256": "6c8f243458541ba45eb92bf60be6679c3bb94e00bb67c23bb6aa0a62200f49c4",
+  "codeSha": "9f4d31da02849b7a80bbab2acae11fcd2ef38948",
+  "code": {
+    "head": "9f4d31da02849b7a80bbab2acae11fcd2ef38948",
+    "dirty": 14,
+    "treeSha256": "b78fbdf50c9a90d723b42260e011708e47f5e39beaf821e2a3f6aab081aa027f",
+    "changed": [
+      "data/engine-outcomes.json",
+      "src/books.generated.ts"
+    ],
+    "untracked": [
+      "scripts/assemble-direct.js",
+      "scripts/blind-describe.js",
+      "scripts/check-runs-live.js",
+      "scripts/curl-assemble.js",
+      "scripts/download-all-remaining.js",
+      "scripts/gen-authored-god-sees.js",
+      "scripts/judge-gemini.js",
+      "scripts/lib/.firewall-baseline-test.js",
+      "scripts/temp-blind.js",
+      "scripts/temp-crop-mute.js",
+      "scripts/temp-judge.js",
+      "scripts/temp-refine-meta.js"
+    ]
+  },
+  "engine": "antidote",
+  "beatSource": "plan-antidote (VTT)",
+  "model": "unrecorded",
+  "generation": {
+    "chunk": 40,
+    "mode": "claude-authored"
+  },
+  "recordedAt": "2026-10-22T09:02:29.369Z"
+}

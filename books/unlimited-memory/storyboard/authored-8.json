@@ -1,0 +1,1162 @@
+[
+  {
+    "i": 274,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Image created",
+        "Neural trace forged"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Encoding an image into memory biologically triggers a physical neural trace.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Storing the image forges a physical neural trace in the brain.",
+      "concreteVisual": "A two-stage flow diagram showing the transition from mental image to biological trace.",
+      "onScreenText": "Image created -> Neural trace forged",
+      "relationToPrevious": "Transitions from conference inspiration to biological mechanism.",
+      "addedInformation": "Diagrams the cause-and-effect of initial sensory encoding."
+    }
+  },
+  {
+    "i": 275,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ENERGY CONSERVATIONIST",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The brain operates as an energy conservationist, allowing unreinforced synaptic connections to decay.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Without spaced repetition, synaptic connections inevitably decay to conserve energy.",
+      "concreteVisual": "Everyman slumps as the neural energy cuts off unreinforced memory.",
+      "onScreenText": "ENERGY CONSERVATIONIST",
+      "relationToPrevious": "Explains the biological obstacle confronting the neural trace.",
+      "addedInformation": "Everyman displays defeat as metabolic conservation eliminates traces."
+    }
+  },
+  {
+    "i": 276,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "No recall",
+        "Assumed useless",
+        "Biological decay"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The brain algorithmically marks unused data as irrelevant to survival and allows it to decay.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain assumes unused information is irrelevant to immediate survival.",
+      "concreteVisual": "A three-step flow sequence linking lack of recall to biological pruning.",
+      "onScreenText": "No recall -> Assumed useless -> Biological decay",
+      "relationToPrevious": "Details the brain's internal algorithm for discarding information.",
+      "addedInformation": "Maps the exact evolutionary logic of forgetting."
+    }
+  },
+  {
+    "i": 277,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Immediate recall",
+        "Forgetting curve"
+      ],
+      "values": [
+        0.2
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "cast": [],
+    "explainedBy": "Ebbinghaus mapped the rapid exponential drop in retention known as the forgetting curve.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Ebbinghaus mapped synaptic pruning as the forgetting curve.",
+      "concreteVisual": "A spectrum diagram plotting the precipitous decline of retained memory.",
+      "onScreenText": "Immediate recall | Forgetting curve",
+      "relationToPrevious": "Formalizes the biological decay into Ebbinghaus's classic scientific curve.",
+      "addedInformation": "Quantifies the rapid loss of unreinforced data."
+    }
+  },
+  {
+    "i": 278,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FAMILIARITY BREEDS FORGETFULNESS",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "Glancing at yesterday's notes gives a false sense of mastery, preventing active recall.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Familiarity with notes prevents active recall efforts.",
+      "concreteVisual": "Everyman smirks complacently while holding conference notes.",
+      "onScreenText": "FAMILIARITY BREEDS FORGETFULNESS",
+      "relationToPrevious": "Exposes the psychological trap that accelerates the forgetting curve.",
+      "addedInformation": "Captures passive recognition masquerading as active memory."
+    }
+  },
+  {
+    "i": 279,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SYSTEMATIC REVIEW SCHEDULE",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley introduces a precise spaced review schedule based on cognitive science.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley provides an exact systematic schedule of spaced repetition.",
+      "concreteVisual": "Horsley points deliberately forward, introducing the spaced review methodology.",
+      "onScreenText": "SYSTEMATIC REVIEW SCHEDULE",
+      "relationToPrevious": "Contrasts vague review advice with Horsley's structured protocol.",
+      "addedInformation": "Presents Horsley as the authoritative guide introducing the framework."
+    }
+  },
+  {
+    "i": 280,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WALK BACK THROUGH",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "Retaining knowledge requires systematically walking back through mental loci at expanding intervals.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You must systematically traverse your mental architecture to prevent evaporation.",
+      "concreteVisual": "Student walks across the room locus retracing mnemonic stations.",
+      "onScreenText": "WALK BACK THROUGH",
+      "relationToPrevious": "Defines what reviewing actually entails: physical/mental traversal.",
+      "addedInformation": "Shows active movement through the spatial environment."
+    }
+  },
+  {
+    "i": 281,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "1 hour",
+        "1 day",
+        "7 days",
+        "21 days"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "cast": [],
+    "explainedBy": "The spaced repetition protocol spaces reviews from 1 hour to 21 days.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley's review intervals expand from 1 hour up to 21 days.",
+      "concreteVisual": "A progressive flow timeline showing the expanding sequence of review intervals.",
+      "onScreenText": "1 hour -> 1 day -> 7 days -> 21 days",
+      "relationToPrevious": "Specifies the precise timeline for early and mid-range spaced reviews.",
+      "addedInformation": "Lays out the concrete numerical sequence of Horsley's schedule."
+    }
+  },
+  {
+    "i": 282,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "28 days",
+        "2 months",
+        "3 months"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "cast": [],
+    "continue": true,
+    "explainedBy": "The review timeline culminates at 3 months, with the first 72 hours being the vital window.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Long-term reviews span 28 days to 3 months, anchored by the first 72 hours.",
+      "concreteVisual": "Continued progressive flow timeline extending to 3 months.",
+      "onScreenText": "28 days -> 2 months -> 3 months",
+      "relationToPrevious": "Completes the 9-step spaced repetition timeline.",
+      "addedInformation": "Shows the long-term consolidation horizon."
+    }
+  },
+  {
+    "i": 283,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE CRITICAL 72 HOURS",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "The listener expresses exhaustion and overwhelm at the prospect of a nine-step review schedule.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Catching fragile memory in the first 72 hours prompts listener exhaustion.",
+      "concreteVisual": "Everyman speaks up anxiously voicing the practical burden.",
+      "onScreenText": "THE CRITICAL 72 HOURS",
+      "relationToPrevious": "Shifts from theoretical schedule to practical listener skepticism.",
+      "addedInformation": "Gives voice to the user's natural dread of maintenance overhead."
+    }
+  },
+  {
+    "i": 284,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NINE SEPARATE TIMES",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "book",
+    "continue": true,
+    "explainedBy": "The listener questions who has time to review every book, article, and conversation nine times.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Reviewing every learned item nine times across three months seems impossible.",
+      "concreteVisual": "Everyman clutches a thick book in frustration at the review burden.",
+      "onScreenText": "NINE SEPARATE TIMES",
+      "relationToPrevious": "Deepens the objection by detailing the volume of information.",
+      "addedInformation": "Shows the physical weight of reading material."
+    }
+  },
+  {
+    "i": 285,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ENTIRE WAKING LIFE",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "continue": true,
+    "explainedBy": "The listener fears that strict review would consume their entire working day.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Implementing the schedule threatens to consume all productive working hours.",
+      "concreteVisual": "Everyman slumps at the office desk in total exhaustion.",
+      "onScreenText": "ENTIRE WAKING LIFE",
+      "relationToPrevious": "Reaches the peak of the listener's despair and pushback.",
+      "addedInformation": "Visually dramatizes burnout from perceived study maintenance."
+    },
+    "holds": "book"
+  },
+  {
+    "i": 286,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT REREADING THE BOOK",
+      "style": "strike"
+    },
+    "set": "library",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley clarifies that a review does not mean laboriously rereading texts or flashcards.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The objection mistakenly equates review with rereading books or restudying cards.",
+      "concreteVisual": "Horsley speaks calmly, dismantling the misconception of rereading.",
+      "onScreenText": "NOT REREADING THE BOOK",
+      "relationToPrevious": "Reframes the objection by exposing its false assumption.",
+      "addedInformation": "Directly rejects brute-force restudying with a strike callout."
+    }
+  },
+  {
+    "i": 287,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE SYSTEM WE BUILT",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "horsley",
+      "everyman"
+    ],
+    "expression": "neutral",
+    "partnerExpression": "surprised",
+    "action": "point",
+    "explainedBy": "Horsley reminds the listener of the spatial palace architecture they just constructed.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The memory palace architecture completely alters how review operates.",
+      "concreteVisual": "Horsley points outward reassuringly as Everyman looks on with surprise.",
+      "onScreenText": "THE SYSTEM WE BUILT",
+      "relationToPrevious": "Pivots from debunking old methods to invoking the palace architecture.",
+      "addedInformation": "Two-shot interaction between teacher and skeptical learner."
+    }
+  },
+  {
+    "i": 288,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Hours of rereading",
+        "Seconds in palace"
+      ],
+      "values": [
+        0.95
+      ]
+    },
+    "callout": null,
+    "set": "room",
+    "cast": [],
+    "explainedBy": "Reviewing a memory palace takes mere seconds compared to hours of textbook rereading.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Reviewing a memory palace takes seconds rather than hours.",
+      "concreteVisual": "A spectrum comparing hours of rereading against seconds of palace traversal.",
+      "onScreenText": "Hours of rereading | Seconds in palace",
+      "relationToPrevious": "Quantifies the dramatic time compression afforded by loci.",
+      "addedInformation": "Contrasts classical studying duration with spatial navigation."
+    }
+  },
+  {
+    "i": 289,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "LIGHTNING FAST SPRINT",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "walk",
+    "explainedBy": "The practitioner closes their eyes for 5 seconds to mentally sprint through their house.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Review is simply closing your eyes for five seconds and sprinting mentally through the house.",
+      "concreteVisual": "Student walks briskly through the room checking mental loci with confidence.",
+      "onScreenText": "LIGHTNING FAST SPRINT",
+      "relationToPrevious": "Illustrates the effortless speed of a 5-second mental walkthrough.",
+      "addedInformation": "Shows the energetic ease of internal visualization."
+    }
+  },
+  {
+    "i": 290,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STILL IN THE FRIDGE",
+      "style": "reveal"
+    },
+    "set": "kitchen",
+    "cast": [
+      "student"
+    ],
+    "expression": "surprised",
+    "action": "point",
+    "explainedBy": "The practitioner spots the absurd peg images still sitting exactly where placed in the kitchen.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Absurd anomalous images remain effortlessly intact at their physical stations.",
+      "concreteVisual": "Student points at the kitchen station confirming the bizarre items remain.",
+      "onScreenText": "STILL IN THE FRIDGE",
+      "relationToPrevious": "Demonstrates the concrete checkpoint inside the memory palace.",
+      "addedInformation": "Anchors recall to absurd visual markers."
+    }
+  },
+  {
+    "i": 291,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ZERO COGNITIVE LOAD",
+      "style": "highlight"
+    },
+    "set": "kitchen",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "idle",
+    "continue": true,
+    "explainedBy": "Verifying bizarre images along a familiar route takes almost zero mental effort.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Verifying existing images takes practically zero cognitive load.",
+      "concreteVisual": "Student stands relaxed and pleased in the kitchen after verifying stations.",
+      "onScreenText": "ZERO COGNITIVE LOAD",
+      "relationToPrevious": "Explains why the mental walkthrough creates zero fatigue.",
+      "addedInformation": "Student displays relief and ease."
+    }
+  },
+  {
+    "i": 292,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STRUCTURAL INTEGRITY CHECK",
+      "style": "box"
+    },
+    "set": "room",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Maintenance is a quick integrity walkthrough, not a demolition and complete rebuild.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Maintenance is a brief structural check, not a painful demolition.",
+      "concreteVisual": "Horsley speaks to explain that traversal itself maintains the structure.",
+      "onScreenText": "STRUCTURAL INTEGRITY CHECK",
+      "relationToPrevious": "Summarizes the architectural nature of memory maintenance.",
+      "addedInformation": "Frames recall as building inspection."
+    }
+  },
+  {
+    "i": 293,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "KEEP PATHWAYS CLEAR",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "Walking the mental pathways keeps them clean and free of cognitive weeds.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Regular walkthroughs keep mental pathways clear over time.",
+      "concreteVisual": "Student walks deliberately along the mental route maintaining clarity.",
+      "onScreenText": "KEEP PATHWAYS CLEAR",
+      "relationToPrevious": "Emphasizes the ongoing habit of route maintenance.",
+      "addedInformation": "Depicts mental paths kept pristine through action."
+    }
+  },
+  {
+    "i": 294,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE FOUNDATIONAL PILLAR",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley transitions to the final, most fundamental pillar: identity and self-discipline.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The final foundation of memory mastery is self-discipline and identity.",
+      "concreteVisual": "Horsley commands the stage, gesturing toward the foundational mindset.",
+      "onScreenText": "THE FOUNDATIONAL PILLAR",
+      "relationToPrevious": "Shifts from mnemonic techniques to internal psychology.",
+      "addedInformation": "Establishes identity as the bedrock supporting all memory tools."
+    }
+  },
+  {
+    "i": 295,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SELF-CONCEPT SABOTAGE",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "Techniques and palaces fail completely if the person sabotages themselves with a negative self-concept.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Bizarre imagery and palaces are useless if self-concept actively sabotages them.",
+      "concreteVisual": "Everyman slumps as mental architecture stalls under negative belief.",
+      "onScreenText": "SELF-CONCEPT SABOTAGE",
+      "relationToPrevious": "Identifies the core vulnerability that undermines technique.",
+      "addedInformation": "Shows internal doubt collapsing external structures."
+    }
+  },
+  {
+    "i": 296,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WAKING UP LATE",
+      "style": "reveal"
+    },
+    "set": "bedroom",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "reach",
+    "explainedBy": "The everyday morning crisis begins: waking up late and scrambling in a rush.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A harmless morning routine illustrates the roots of negative identity programming.",
+      "concreteVisual": "Everyman bolts awake and reaches hurriedly in the bedroom.",
+      "onScreenText": "WAKING UP LATE",
+      "relationToPrevious": "Introduces an everyday relatable narrative scenario.",
+      "addedInformation": "Grounds cognitive theory in daily morning stress."
+    }
+  },
+  {
+    "i": 297,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SEARCHING FOR KEYS",
+      "style": "reveal"
+    },
+    "set": "kitchen",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "take",
+    "actionCue": "buried under a pile of mail",
+    "holds": "key",
+    "explainedBy": "Frantically searching through kitchen clutter, the person finally finds their car keys under mail.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Scrambling frantically, you unearth your car keys from under a pile of mail.",
+      "concreteVisual": "Everyman takes the car keys in hand from the kitchen counter.",
+      "onScreenText": "SEARCHING FOR KEYS",
+      "relationToPrevious": "Follows the morning rush into the kitchen search.",
+      "addedInformation": "Action of seizing the keys after frantic looking."
+    }
+  },
+  {
+    "i": 298,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "I ALWAYS LOSE THINGS",
+      "style": "highlight"
+    },
+    "set": "kitchen",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "key",
+    "continue": true,
+    "explainedBy": "Holding the keys, the person casually mutters self-defeating statements about their memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "People casually utter self-deprecating remarks affirming memory failure.",
+      "concreteVisual": "Everyman holds the keys with a demoralized expression.",
+      "onScreenText": "I ALWAYS LOSE THINGS",
+      "relationToPrevious": "Captures the spoken negative self-talk following the key incident.",
+      "addedInformation": "Shows habituated vocal reinforcement of poor memory."
+    }
+  },
+  {
+    "i": 299,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "HARMLESS JOKE",
+      "style": "strike"
+    },
+    "set": "kitchen",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "continue": true,
+    "explainedBy": "What feels like a harmless joke to diffuse stress is actually an instruction manual for the mind.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Self-deprecating humor about memory is far from harmless.",
+      "concreteVisual": "Everyman gives a defensive smirk while talking, brushing off the statement.",
+      "onScreenText": "HARMLESS JOKE",
+      "relationToPrevious": "Challenges the perception that negative remarks are benign jokes.",
+      "addedInformation": "Strike style rejects the notion that casual self-deprecation is harmless."
+    },
+    "holds": "key"
+  },
+  {
+    "i": 300,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "INSTRUCTION MANUAL FOR MIND",
+      "style": "box"
+    },
+    "set": "abstract",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Negative self-talk functions as an explicit programming instruction manual for the subconscious.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Negative jokes serve as literal programming commands to the subconscious mind.",
+      "concreteVisual": "Horsley explains the neurological gravity of repeated internal commands.",
+      "onScreenText": "INSTRUCTION MANUAL FOR MIND",
+      "relationToPrevious": "Reveals the neurological consequence of the muttered phrase.",
+      "addedInformation": "Frames words as neural software commands."
+    }
+  },
+  {
+    "i": 301,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Identity belief",
+        "Consistent practice",
+        "Mnemonic mastery"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Consistency in memory practice requires an aligned identity as its foundation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Consistent practice cannot occur if core identity contradicts it.",
+      "concreteVisual": "A causal flow linking identity belief to consistency and mastery.",
+      "onScreenText": "Identity belief -> Consistent practice -> Mnemonic mastery",
+      "relationToPrevious": "Outlines the prerequisite relationship between identity and execution.",
+      "addedInformation": "Diagrams the psychological alignment needed for skill retention."
+    }
+  },
+  {
+    "i": 302,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "RADICAL UNCOMPROMISING OWNERSHIP",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley advocates taking radical, uncompromising personal ownership of one's mind.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The ultimate transformation is taking radical, uncompromising ownership of your mind.",
+      "concreteVisual": "Horsley gestures decisively from the stage, calling for total accountability.",
+      "onScreenText": "RADICAL UNCOMPROMISING OWNERSHIP",
+      "relationToPrevious": "Presents Horsley's definitive philosophical imperative.",
+      "addedInformation": "Shows decisive empowerment replacing helplessness."
+    }
+  },
+  {
+    "i": 303,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Passive helpless victim",
+        "Active information architect"
+      ],
+      "values": [
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Identity must shift from being a passive victim of bad memory to an active information architect.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You must shift identity from passive victim to empowered architect.",
+      "concreteVisual": "A spectrum shifting from helpless victimhood to information architecture.",
+      "onScreenText": "Passive helpless victim | Active information architect",
+      "relationToPrevious": "Defines the exact transition needed in the learner's self-image.",
+      "addedInformation": "Maps the complete philosophical identity polarity."
+    }
+  },
+  {
+    "i": 304,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Two cognitive outcomes",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley introduces the parable of Earth One versus Earth Two to illustrate the biology of belief.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley presents two parallel earths to illustrate how belief dictates biology.",
+      "concreteVisual": "Horsley narrates the philosophical thought experiment of two parallel worlds.",
+      "onScreenText": "EARTH ONE VS EARTH TWO",
+      "relationToPrevious": "Sets up the comparative thought experiment.",
+      "addedInformation": "Frames the parable of contrasting realities."
+    }
+  },
+  {
+    "i": 305,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Genetics",
+        "Nervous system",
+        "Brain capacity"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Both Mr. A and Mr. B share identical biological hardware across all categories.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Both individuals possess identical genetics, nervous systems, and biological capacity.",
+      "concreteVisual": "A sorter displaying identical biological baseline categories shared by both men.",
+      "onScreenText": "Genetics | Nervous system | Brain capacity",
+      "relationToPrevious": "Establishes that biological hardware is completely controlled and equal.",
+      "addedInformation": "Categorizes the identical biological variables."
+    }
+  },
+  {
+    "i": 306,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "MY MEMORY IS A SIEVE",
+      "style": "highlight"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Mr. A continually reinforces negative beliefs, telling himself his memory is a sieve and full.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mr. A constantly declares his memory defective and anticipates failure.",
+      "concreteVisual": "Everyman portrays Mr. A slumping in defeat, consumed by mental defeat.",
+      "onScreenText": "MY MEMORY IS A SIEVE",
+      "relationToPrevious": "Introduces Mr. A's defeatist internal narrative.",
+      "addedInformation": "Embodies the demoralized state of self-limiting belief."
+    }
+  },
+  {
+    "i": 307,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "FOCUS IS A LASER",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "point",
+    "explainedBy": "Mr. B tells himself his focus is a laser beam with the exact same hardware.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mr. B declares his focus a laser beam and approaches training with enthusiasm.",
+      "concreteVisual": "Student portrays Mr. B, pointing with confidence and clarity.",
+      "onScreenText": "FOCUS IS A LASER",
+      "relationToPrevious": "Contrasts Mr. A's despair directly against Mr. B's positive focus.",
+      "addedInformation": "Shows sharp intentional focus replacing helplessness."
+    }
+  },
+  {
+    "i": 308,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "AN INFINITE CONTAINER",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "book",
+    "continue": true,
+    "explainedBy": "Mr. B views his mind as an infinite container and trains with genuine joy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Believing the mind is an infinite container creates joy in cognitive training.",
+      "concreteVisual": "Student holds learning material eagerly with a joyful posture.",
+      "onScreenText": "AN INFINITE CONTAINER",
+      "relationToPrevious": "Deepens Mr. B's empowered learning stance.",
+      "addedInformation": "Demonstrates joyful engagement with information."
+    }
+  },
+  {
+    "i": 309,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Standard recall",
+        "Trained grandmaster"
+      ],
+      "values": [
+        0.9
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Mr. B achieves vastly superior memory due to the self-fulfilling prophecy of belief.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Mr. B achieves superior memory not through biology, but self-fulfilling belief.",
+      "concreteVisual": "A spectrum showing Mr. B far outpacing Mr. A despite identical biology.",
+      "onScreenText": "Mr. A (Atrophy) | Mr. B (Superior memory)",
+      "relationToPrevious": "Measures the divergence in cognitive outcomes between the two mindsets.",
+      "addedInformation": "Proves the decisive impact of belief on performance."
+    }
+  },
+  {
+    "i": 310,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Beliefs",
+        "Emotional state",
+        "Behavior",
+        "Results"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Beliefs dictate emotion, emotion dictates behavior and effort, and behavior dictates results.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Beliefs dictate emotional state, behavior, and final memory results.",
+      "concreteVisual": "A four-stage causal flow tracing beliefs to real-world memory performance.",
+      "onScreenText": "Beliefs -> Emotional state -> Behavior -> Results",
+      "relationToPrevious": "Formalizes the exact cognitive chain producing the self-fulfilling result.",
+      "addedInformation": "Provides a clear psychological cause-and-effect roadmap."
+    }
+  },
+  {
+    "i": 311,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "EFFORT DEEMED FUTILE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Believing your memory is defective prevents you from putting in the effort to visualize.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "If you believe memory is hopeless, you abandon the effort to create mnemonic images.",
+      "concreteVisual": "Everyman slumps passively, giving up on active visualization.",
+      "onScreenText": "EFFORT DEEMED FUTILE",
+      "relationToPrevious": "Demonstrates how negative belief halts behavioral execution.",
+      "addedInformation": "Connects inner cynicism with cessation of creative visualization."
+    }
+  },
+  {
+    "i": 312,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TOXIC POSITIVITY?",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "everyman",
+      "horsley"
+    ],
+    "expression": "worried",
+    "partnerExpression": "neutral",
+    "action": "talk",
+    "explainedBy": "The co-host raises the pushback that pure belief cannot bypass biological limitations.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The host questions whether pure belief borders on toxic positivity.",
+      "concreteVisual": "Everyman challenges Horsley directly, questioning if biology can be wished away.",
+      "onScreenText": "TOXIC POSITIVITY?",
+      "relationToPrevious": "Introduces critical skepticism regarding the limits of mindset.",
+      "addedInformation": "Two-shot debate confronting oversimplified positive thinking."
+    }
+  },
+  {
+    "i": 313,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "PHYSIOLOGICAL REALITY",
+      "style": "box"
+    },
+    "set": "classroom",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "continue": true,
+    "explainedBy": "The host asks if positive thinking dismisses cognitive fatigue, burnout, or biological aging.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Telling people with burnout or aging brains to change beliefs may ignore biology.",
+      "concreteVisual": "Everyman continues pressing the argument for physiological constraints.",
+      "onScreenText": "PHYSIOLOGICAL REALITY",
+      "relationToPrevious": "Elaborates on medical and age-related brain fatigue.",
+      "addedInformation": "Defends the grounded reality of neurological wear."
+    }
+  },
+  {
+    "i": 314,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Brain health",
+        "Adequate sleep",
+        "Cardiovascular health",
+        "Nutrition"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "cast": [],
+    "explainedBy": "Horsley acknowledges that sleep, nutrition, cardiovascular health, and biology are real undeniable factors.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Physical brain health, sleep, and cardiovascular fitness are undeniable factors.",
+      "concreteVisual": "A sorter listing the non-negotiable physiological pillars of cognitive health.",
+      "onScreenText": "Brain health | Adequate sleep | Cardiovascular health | Nutrition",
+      "relationToPrevious": "Validates the co-host's concern with biological candor.",
+      "addedInformation": "Categorizes physical brain support requirements."
+    }
+  },
+  {
+    "i": 315,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT DENYING PHYSIOLOGY",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley affirms that physiology is real, but psychological baseline expands or limits its expression.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley respects physiology while proving psychology sets the operating boundary.",
+      "concreteVisual": "Horsley speaks calmly and authoritatively, clarifying the nuance.",
+      "onScreenText": "NOT DENYING PHYSIOLOGY",
+      "relationToPrevious": "Harmonizes biological reality with mental agency.",
+      "addedInformation": "Affirms medical facts without forfeiting personal responsibility."
+    }
+  },
+  {
+    "i": 316,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ARGUE FOR YOUR LIMITATIONS",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley quotes Richard Bach: argue for your limitations, and sure enough, they are yours.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Richard Bach's principle: defending your limitations guarantees you keep them.",
+      "concreteVisual": "Horsley points out firmly, delivering the central aphorism.",
+      "onScreenText": "ARGUE FOR YOUR LIMITATIONS",
+      "relationToPrevious": "Delivers the core thematic quote anchoring the chapter.",
+      "addedInformation": "Challenges the listener's impulse to justify mental weakness."
+    }
+  },
+  {
+    "i": 317,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DECIDING MEMORY IS GONE",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Assuming memory is naturally gone at age 50 or 60 leads to prematurely giving up.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Deciding memory is gone at age 50 or 60 causes people to surrender effort.",
+      "concreteVisual": "Everyman slumps in resignation, abandoning active mental engagement.",
+      "onScreenText": "DECIDING MEMORY IS GONE",
+      "relationToPrevious": "Provides a concrete demographic example of self-imposed limitation.",
+      "addedInformation": "Illustrates self-fulfilling cognitive surrender with age."
+    }
+  },
+  {
+    "i": 318,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DIGITAL OUTSOURCING",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "blank",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Surrendering memory leads to total passive reliance on a smartphone or spouse.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Giving up on memory leads to complete digital outsourcing and mental atrophy.",
+      "concreteVisual": "Everyman stares blankly at a smartphone, outsourcing recall entirely.",
+      "onScreenText": "DIGITAL OUTSOURCING",
+      "relationToPrevious": "Shows the behavioral consequence of surrendering internal memory.",
+      "addedInformation": "Captures the passive dependence on mobile devices."
+    }
+  },
+  {
+    "i": 319,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Stop firing",
+        "Biological atrophy",
+        "Reinforced decline"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Stopping neural firing causes biological atrophy in a negative self-reinforcing feedback loop.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Failing to fire neural circuits creates biological atrophy in a reinforcing feedback loop.",
+      "concreteVisual": "A flow diagram mapping the downward cycle of neural disuse.",
+      "onScreenText": "Stop firing -> Biological atrophy -> Reinforced decline",
+      "relationToPrevious": "Diagrams the physiological 'use it or lose it' mechanism.",
+      "addedInformation": "Connects disuse directly to physical decay."
+    }
+  },
+  {
+    "i": 320,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "YOU ARE NOT A TREE",
+      "style": "box"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "Horsley's empowering conclusion: you are not rooted like a tree to your current cognitive state.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley's empowering core message: you are not fixed or rooted like a tree.",
+      "concreteVisual": "Horsley points forward with determination, delivering the liberating takeaway.",
+      "onScreenText": "YOU ARE NOT A TREE",
+      "relationToPrevious": "Breaks the downward loop with an empowering call to action.",
+      "addedInformation": "Leaves the viewer with an unmistakable mandate for growth."
+    }
+  }
+]

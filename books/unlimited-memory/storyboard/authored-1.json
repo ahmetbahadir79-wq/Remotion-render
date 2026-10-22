@@ -1,0 +1,913 @@
+[
+  {
+    "i": 0,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "10,000 DIGITS OF PI",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "happy",
+    "action": "celebrate",
+    "holds": "trophy",
+    "explainedBy": "Horsley overcomes 12 years of severe school struggle and dyslexia to shatter a world memory record reciting 10,000 digits of Pi.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A student labeled dyslexic broke the world record memorizing 10,000 digits of pi.",
+      "concreteVisual": "Horsley celebrating on stage holding a championship trophy for reciting 10,000 digits of Pi.",
+      "onScreenText": "10,000 DIGITS OF PI",
+      "relationToPrevious": "Opening hook of the summary.",
+      "addedInformation": "Presents Horsley's triumphant breakthrough right against the memory championship benchmark."
+    }
+  },
+  {
+    "i": 1,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT A HARDWARE FLAW",
+      "style": "box"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "think",
+    "explainedBy": "Forgetfulness is revealed not to be an inherent hardware defect of human biology, countering society's core illusion.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Forgetfulness is not an innate hardware flaw of the human brain.",
+      "concreteVisual": "An everyman learner reflecting in an abstract cognitive space confronting the illusion of a broken brain.",
+      "onScreenText": "NOT A HARDWARE FLAW",
+      "relationToPrevious": "Transitions from Horsley's triumph to the universal myth of biological memory limits.",
+      "addedInformation": "Focuses the viewer directly on challenging the biological defect assumption."
+    }
+  },
+  {
+    "i": 2,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Untrained Habit",
+        "Trained Design"
+      ],
+      "values": [
+        0.15,
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A comparison distinguishing a casually blamed 'bad memory' as merely an untrained habit versus deliberate architectural design.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A bad memory is not defective biology, but an untrained passive habit.",
+      "concreteVisual": "A spectrum diagram contrasting passive untrained habit against deliberate memory design.",
+      "onScreenText": "Untrained Habit vs Trained Design",
+      "relationToPrevious": "Defines what bad memory actually is versus deliberate design.",
+      "addedInformation": "Lays out the progression from passive observation to deliberate cognitive training."
+    }
+  },
+  {
+    "i": 3,
+    "concept": "compass",
+    "diagram": null,
+    "callout": {
+      "text": "ACTIVE ARCHITECTURAL DESIGN",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "holds": "compass",
+    "explainedBy": "Real memory operates as deliberate design using emotional association and physical spatial navigation.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "True memory is deliberate architectural navigation and spatial anchoring.",
+      "concreteVisual": "A student walking through mental space holding a compass to map spatial routes.",
+      "onScreenText": "ACTIVE ARCHITECTURAL DESIGN",
+      "relationToPrevious": "Specifies the active components: spatial navigation and deliberate design.",
+      "addedInformation": "Shows memory physically embodied as navigation and spatial structure."
+    }
+  },
+  {
+    "i": 4,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "WALKING INTO A ROOM",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "An everyday person walks through a doorway into a room, demonstrating the relatable experience of instantaneous memory loss.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "People routinely experience sudden memory blanking simply crossing thresholds.",
+      "concreteVisual": "An everyday learner walking into a living room doorway.",
+      "onScreenText": "WALKING INTO A ROOM",
+      "relationToPrevious": "Shifts to an everyday relatable demonstration of sudden forgetting.",
+      "addedInformation": "Grounds cognitive theory in the universal household experience of entering a room."
+    }
+  },
+  {
+    "i": 5,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "BLANK RADIO STATIC",
+      "style": "box"
+    },
+    "set": "room",
+    "continue": true,
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "The person freezes inside the room, completely forgetting their objective while their mind offers only blank static.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You instantly forget your purpose or face blank static trying to recall a familiar colleague's name.",
+      "concreteVisual": "The same learner slumping with a bewildered worried expression having lost their train of thought.",
+      "onScreenText": "BLANK RADIO STATIC",
+      "relationToPrevious": "Direct continuation: enters the room and immediately goes blank.",
+      "addedInformation": "Captures the sudden helpless feeling of complete mental blankness."
+    }
+  },
+  {
+    "i": 6,
+    "concept": "mask",
+    "diagram": null,
+    "callout": {
+      "text": "Memory is trained skill",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "smirk",
+    "action": "hold",
+    "holds": "mask",
+    "explainedBy": "We laugh off mental slips by pretending to have an innate bad memory, hiding behind a false excuse that is a complete lie.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dismissing forgetfulness as an innate bad memory is a comfortable lie.",
+      "concreteVisual": "A professional holding a smiling mask while offering a casual shrug excuse.",
+      "onScreenText": "\"BAD MEMORY\" COMPLETE LIE",
+      "relationToPrevious": "Reveals the shrug and 'bad memory' excuse as a false social mask.",
+      "addedInformation": "Exposes the casual dismissal as an untruthful coping facade."
+    }
+  },
+  {
+    "i": 7,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "MISUNDERSTANDING THE MACHINERY",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "point",
+    "holds": "magnifier",
+    "explainedBy": "A user inspecting their mental machinery with a magnifier, realizing they have completely misunderstood how memory operates.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We fundamentally misunderstand the cognitive machinery inside our own brains.",
+      "concreteVisual": "An individual holding a magnifier to inspect cognitive processes with growing awareness.",
+      "onScreenText": "MISUNDERSTANDING THE MACHINERY",
+      "relationToPrevious": "Questions the user's understanding of their own mental machinery.",
+      "addedInformation": "Frames memory as an inspectable mechanism rather than mystical talent."
+    }
+  },
+  {
+    "i": 8,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "UNLIMITED MEMORY",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "Horsley presents his book 'Unlimited Memory' in a library, offering the structured manual to dismantle learning misconceptions.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley's Unlimited Memory provides the blueprint to dismantle cognitive myths.",
+      "concreteVisual": "Kevin Horsley standing in a study library holding his book Unlimited Memory.",
+      "onScreenText": "UNLIMITED MEMORY",
+      "relationToPrevious": "Introduces the book and author guiding the breakdown of this misconception.",
+      "addedInformation": "Establishes Horsley and the book as the authoritative guide for the deep dive."
+    }
+  },
+  {
+    "i": 9,
+    "concept": "mirror",
+    "diagram": null,
+    "callout": {
+      "text": "Identity as learner",
+      "style": "box"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "mirror",
+    "explainedBy": "An individual looking into a mirror to confront their core identity and foundational nature as a human being.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "To understand memory stakes, one must examine what a human being actually is.",
+      "concreteVisual": "A person holding up a mirror examining their true self.",
+      "onScreenText": "WHAT YOU ACTUALLY ARE",
+      "relationToPrevious": "Sets the existential stakes for the viewer.",
+      "addedInformation": "Forces self-reflection on the essence of human identity."
+    }
+  },
+  {
+    "i": 10,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Raw Data",
+        "Memory",
+        "Intelligence"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram mapping how raw collected data converts through memory into intelligence and meaningful experience.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "At your core, you are a data collecting entity whose intelligence depends on memory.",
+      "concreteVisual": "A 3-step flow diagram showing Raw Data leading through Memory to Intelligence.",
+      "onScreenText": "Raw Data -> Memory -> Intelligence",
+      "relationToPrevious": "Explains the foundational role of memory in creating intelligence.",
+      "addedInformation": "Visually articulates that without memory, raw experience cannot yield intelligence."
+    }
+  },
+  {
+    "i": 11,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "MEMORY CONSTRUCTS IDENTITY",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "notes",
+    "explainedBy": "When asked who you are, the brain does not consult a mystic soul; it immediately reviews and arranges stored memory records.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Identity is not an abstract soul but a collection of rearranged memories.",
+      "concreteVisual": "An individual holding personal records and notes, assembling their identity.",
+      "onScreenText": "MEMORY CONSTRUCTS IDENTITY",
+      "relationToPrevious": "Deepens the claim: memory doesn't just store facts, it forms identity.",
+      "addedInformation": "Emphasizes that personal identity is built from memory retrieval."
+    }
+  },
+  {
+    "i": 12,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Passing a Test",
+        "Permanent Cognitive Architecture"
+      ]
+    },
+    "callout": null,
+    "set": "classroom",
+    "cast": [],
+    "explainedBy": "A comparison contrasting superficial short-term test memorization against deep, permanent cognitive restructuring.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The mission is not just cramming to pass a test, but mastering advanced learning strategies.",
+      "concreteVisual": "A two-bin sorter categorizing short-term test cramming versus permanent cognitive architecture.",
+      "onScreenText": "Passing a Test vs Permanent Architecture",
+      "relationToPrevious": "Defines the goal of the deep dive.",
+      "addedInformation": "Clarifies the scope from temporary rote study to permanent cognitive skill."
+    }
+  },
+  {
+    "i": 13,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "Encoding neural pathways",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "holds": "target",
+    "explainedBy": "The student targets a fundamental upgrade, aiming to permanently rewrite how the brain stores and retrieves information.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The purpose is to permanently rewrite how your brain stores information.",
+      "concreteVisual": "A student aiming at a target in cognitive space, directing memory storage redesign.",
+      "onScreenText": "REWRITE HOW BRAIN STORES",
+      "relationToPrevious": "Reinforces the active objective of permanent brain reprogramming.",
+      "addedInformation": "Gives visual intentionality to cognitive redesign."
+    }
+  },
+  {
+    "i": 14,
+    "concept": "chains",
+    "conceptMotion": "break",
+    "conceptMotionCue": "obliterates",
+    "diagram": null,
+    "callout": {
+      "text": "OBLITERATES GENETIC DESTINY",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley's radical transformation shatters the supposed biological chains of fixed genetic destiny in learning.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley's life journey shatters the myth of genetic destiny in learning.",
+      "concreteVisual": "Horsley standing as heavy chains snap apart, symbolizing the breaking of genetic determinism.",
+      "onScreenText": "OBLITERATES GENETIC DESTINY",
+      "relationToPrevious": "Brings Horsley's story as living proof against genetic limits.",
+      "addedInformation": "Directly links breaking chains to overcoming supposed biological limits."
+    }
+  },
+  {
+    "i": 15,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT A PHOTOGRAPHIC MEMORY",
+      "style": "strike"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley clarifies he was never blessed by a genetic lottery or born with natural photographic recall.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Horsley was not born with a photographic memory or genetic lottery advantage.",
+      "concreteVisual": "Horsley speaking in a classroom rejecting the photographic memory assumption.",
+      "onScreenText": "NOT A PHOTOGRAPHIC MEMORY",
+      "relationToPrevious": "Dispels the assumption of natural innate genius.",
+      "addedInformation": "Strikes out the photographic memory myth explicitly."
+    }
+  },
+  {
+    "i": 16,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "COULD NOT READ A BOOK",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "holds": "book",
+    "explainedBy": "A young Horsley struggles with severe dyslexia, unable to read a single book from cover to cover through high school.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Battling severe dyslexia, Horsley could not read a single book cover to cover in school.",
+      "concreteVisual": "Horsley slumping at a school desk staring helplessly at an unread book.",
+      "onScreenText": "COULD NOT READ A BOOK",
+      "relationToPrevious": "Details the harsh reality of his early learning struggles.",
+      "addedInformation": "Shows the agonizing friction of severe childhood dyslexia."
+    }
+  },
+  {
+    "i": 17,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "SYLLABUS READ OUT LOUD",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "everyman",
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "holds": "notes",
+    "explainedBy": "A family member and friend must physically read the school syllabus out loud so the struggling Horsley can scrape by.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Friends and family had to physically read his school syllabus out loud to him.",
+      "concreteVisual": "A peer holding notes reading aloud to Horsley at a classroom desk.",
+      "onScreenText": "SYLLABUS READ OUT LOUD",
+      "relationToPrevious": "Depicts the extreme accommodations required just to scrape through school.",
+      "addedInformation": "Visualizes the relational support required due to his reading friction."
+    }
+  },
+  {
+    "i": 18,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "DIAGNOSED \"BRAIN DAMAGE\"",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "explainedBy": "A school psychologist evaluates Horsley and coldly tells him he might have a form of undiagnosed brain damage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A psychologist warned Horsley he might have undiagnosed brain damage.",
+      "concreteVisual": "Horsley sitting anxiously in a clinical evaluation office absorbing the devastating label.",
+      "onScreenText": "DIAGNOSED \"BRAIN DAMAGE\"",
+      "relationToPrevious": "The lowest point of institutional labeling.",
+      "addedInformation": "Captures the crushing weight of a professional's flawed cognitive diagnosis."
+    }
+  },
+  {
+    "i": 19,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "TEXTBOOK \"BAD LEARNER\"",
+      "style": "box"
+    },
+    "set": "office",
+    "continue": true,
+    "cast": [
+      "horsley"
+    ],
+    "expression": "sad",
+    "action": "slump",
+    "explainedBy": "Horsley slumped under the institutional label of being a hopeless, textbook bad learner.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Society classified him as the textbook definition of a bad learner.",
+      "concreteVisual": "Horsley slumped in defeat under the societal stamp of a hopeless learner.",
+      "onScreenText": "TEXTBOOK \"BAD LEARNER\"",
+      "relationToPrevious": "Continues from the psychologist's evaluation to societal labeling.",
+      "addedInformation": "Emphasizes how educational systems label struggling students."
+    }
+  },
+  {
+    "i": 20,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "GRANDMASTER OF MEMORY",
+      "style": "reveal"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "happy",
+    "action": "celebrate",
+    "holds": "trophy",
+    "explainedBy": "Horsley undergoes a superhero-like transformation from a struggling student to an internationally sanctioned Grandmaster of Memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "He transformed himself into a world-sanctioned International Grandmaster of Memory.",
+      "concreteVisual": "Horsley standing triumphantly on stage holding the Grandmaster memory trophy.",
+      "onScreenText": "GRANDMASTER OF MEMORY",
+      "relationToPrevious": "Dramatic reversal: from labeled failure to world memory grandmaster.",
+      "addedInformation": "Shows the ultimate fruition of deliberate cognitive training."
+    }
+  },
+  {
+    "i": 21,
+    "concept": "trophy",
+    "diagram": null,
+    "callout": {
+      "text": "WORLD RECORD: PI",
+      "style": "highlight"
+    },
+    "set": "stage",
+    "continue": true,
+    "cast": [
+      "horsley"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "trophy",
+    "explainedBy": "Horsley breaks the world record for memorizing Pi, sanctioned by the World Memory Championship and Brain Trust.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "He broke the world record for memorizing digits of Pi.",
+      "concreteVisual": "Horsley proudly holding his world record championship trophy.",
+      "onScreenText": "WORLD RECORD: PI",
+      "relationToPrevious": "Specifies the exact pinnacle feat: the world record for Pi.",
+      "addedInformation": "Keeps the stage to reinforce the magnitude of the official record."
+    }
+  },
+  {
+    "i": 22,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "\"IMPOSSIBLE FOR SOMEONE LIKE YOU\"",
+      "style": "strike"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "smirk",
+    "action": "point",
+    "explainedBy": "Horsley proves critics wrong after they claimed achieving such feats was impossible for someone with his background.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "He targeted the record specifically because people insisted it was impossible for him.",
+      "concreteVisual": "Horsley defiantly pointing in a classroom, striking down the claim of impossibility.",
+      "onScreenText": "\"IMPOSSIBLE FOR SOMEONE LIKE YOU\"",
+      "relationToPrevious": "Reveals the personal motivation behind attacking the Pi record.",
+      "addedInformation": "Shows defiant mastery over limiting academic expectations."
+    }
+  },
+  {
+    "i": 23,
+    "concept": "key",
+    "diagram": null,
+    "callout": {
+      "text": "FROM SIEVE TO VAULT",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "hold",
+    "holds": "key",
+    "explainedBy": "Horsley turned his mind from a porous sieve into an impenetrable memory vault using structural mnemonic keys.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "He converted his brain from a leaky sieve into an impenetrable vault.",
+      "concreteVisual": "Horsley holding a mnemonic key inside an architectural mental vault.",
+      "onScreenText": "FROM SIEVE TO VAULT",
+      "relationToPrevious": "Summarizes the transformation of mental capacity.",
+      "addedInformation": "Visualizes the key unlocking architectural mental storage."
+    }
+  },
+  {
+    "i": 24,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Same Hardware",
+        "New Strategy",
+        "Vault Mind"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram illustrating how unchanging biological hardware combined with new mental software produces elite memory.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The hardware remained identical; he simply replaced the mental software and strategy.",
+      "concreteVisual": "A flow diagram: Same Hardware -> New Strategy -> Vault Mind.",
+      "onScreenText": "Same Hardware -> New Strategy -> Vault Mind",
+      "relationToPrevious": "Explains the fundamental mechanism of his transformation.",
+      "addedInformation": "Distinguishes biological hardware from methodological software."
+    }
+  },
+  {
+    "i": 25,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "CLEAR THE SITE FIRST",
+      "style": "reveal"
+    },
+    "set": "abstract",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "walk",
+    "explainedBy": "Before building mental architecture, the learner must clear the mental construction site of debris and cluttered habits.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Before constructing memory palaces, you must clear the internal construction site.",
+      "concreteVisual": "A learner stepping onto a cleared abstract foundation site to begin rebuilding.",
+      "onScreenText": "CLEAR THE SITE FIRST",
+      "relationToPrevious": "Introduces Act 1's imperative: clearing mental clutter before building.",
+      "addedInformation": "Establishes the foundation motif for cognitive architecture."
+    }
+  },
+  {
+    "i": 26,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "TEAR DOWN FLAWED BLUEPRINTS",
+      "style": "highlight"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "holds": "notes",
+    "explainedBy": "The learner reviews and tears down outdated mental blueprints and childhood assumptions about fixed intelligence.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We must demolish the flawed cognitive blueprints carried since childhood.",
+      "concreteVisual": "A learner examining and pointing to outdated schematic notes at a desk.",
+      "onScreenText": "TEAR DOWN FLAWED BLUEPRINTS",
+      "relationToPrevious": "Specifies what must be cleared: childhood assumptions and mental clutter.",
+      "addedInformation": "Treats learning habits as tangible blueprints that can be discarded."
+    }
+  },
+  {
+    "i": 27,
+    "concept": "balance",
+    "diagram": null,
+    "callout": {
+      "text": "BIOLOGICAL COST OF ATTENTION",
+      "style": "box"
+    },
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A balance scale weighs the myth of inherently bad memory against the steep biological cost of fragmented attention.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dismantling the bad memory myth requires facing the steep cost of divided attention.",
+      "concreteVisual": "A balance scale weighing attention fragmentation against memory retention.",
+      "onScreenText": "BIOLOGICAL COST OF ATTENTION",
+      "relationToPrevious": "Sets up the core biological tradeoff: attention vs retention.",
+      "addedInformation": "Weighs the true driver of forgetfulness: divided biological attention."
+    }
+  },
+  {
+    "i": 28,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "2:00 AM CRAM SESSION",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "holds": "notes",
+    "explainedBy": "At 2 a.m., an exhausted professional sits at a workstation clutching notes, staring blankly ahead of an impending deadline.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Everyone knows the 2 a.m. exhaustion staring at study notes or reports before a deadline.",
+      "concreteVisual": "A student sitting late at night beside a clock clutching dense study notes.",
+      "onScreenText": "2:00 AM CRAM SESSION",
+      "relationToPrevious": "Initiates the vivid sequence of the late-night study breakdown.",
+      "addedInformation": "Embodies the exhaustion of late-night panic studying."
+    }
+  },
+  {
+    "i": 29,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "Overwhelmed by information",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "slump",
+    "explainedBy": "Physical exhaustion sets in with burning eyes and an inner voice screaming in helpless despair.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Eyes burn from exhaustion while an internal loop screams in frustration.",
+      "concreteVisual": "The same student slumping forward over the desk in sheer fatigue.",
+      "onScreenText": "EYES BURNING, INNER SCREAM",
+      "relationToPrevious": "Escalation in the sequence: physical collapse and internal screaming.",
+      "addedInformation": "Captures the visceral physical toll of late-night cramming."
+    }
+  },
+  {
+    "i": 30,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "\"MY BRAIN IS FULL\"",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "continue": true,
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "sit",
+    "explainedBy": "The student feels like a full hard drive bouncing words away, falsely believing their brain has run out of storage space.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You feel like a full hard drive where words bounce off because memory is supposedly full.",
+      "concreteVisual": "The student sitting in distress as text refuses to stick, striking the 'brain is full' excuse.",
+      "onScreenText": "\"MY BRAIN IS FULL\"",
+      "relationToPrevious": "Continues the cram sequence to the mental rationalization: claiming full capacity.",
+      "addedInformation": "Directly confronts the myth of reaching cognitive memory capacity."
+    }
+  },
+  {
+    "i": 31,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "THE ACTUAL COGNITIVE REALITY",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley steps forward in a lecture setting to reveal what is actually occurring within the brain during that overwhelmed moment.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Here is what is actually taking place in your cognitive process during that moment.",
+      "concreteVisual": "Horsley addressing the viewer to break down the true neurological reality.",
+      "onScreenText": "THE ACTUAL COGNITIVE REALITY",
+      "relationToPrevious": "Shifts from the student's panic to Horsley's objective cognitive diagnosis.",
+      "addedInformation": "Pivots from subjective feeling to scientific neurological explanation."
+    }
+  },
+  {
+    "i": 32,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "STORAGE VIRTUALLY INFINITE",
+      "style": "highlight"
+    },
+    "set": "abstract",
+    "cast": [
+      "student"
+    ],
+    "expression": "surprised",
+    "action": "reach",
+    "explainedBy": "Human brain storage capacity is practically infinite; your memory is neither completely full nor biologically broken.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The human brain's storage capacity is practically infinite and never broken.",
+      "concreteVisual": "A student reaching into an expansive mental mindspace, realizing capacity is vast.",
+      "onScreenText": "STORAGE VIRTUALLY INFINITE",
+      "relationToPrevious": "Directly contradicts the 'brain is full' belief with neuroscientific reality.",
+      "addedInformation": "Visualizes the mind as an unconstrained, expansive network."
+    }
+  },
+  {
+    "i": 33,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Fixed capacity",
+        "Passive storage"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A comparison distinguishing between the false model of a full hard drive container and the reality of a dynamic neural network.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The brain is not a rigid container requiring old file deletion to fit new data.",
+      "concreteVisual": "A sorter diagram contrasting rigid container storage with an associative neural network.",
+      "onScreenText": "Rigid Container vs Dynamic Network",
+      "relationToPrevious": "Clarifies the exact cognitive structure: not a filled hard drive.",
+      "addedInformation": "Replaces the digital file storage metaphor with biological reality."
+    }
+  },
+  {
+    "i": 34,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Sensory Input",
+        "Divided Attention",
+        "Failed Storage"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "A flow diagram illustrating how divided attention disrupts incoming sensory input so it never enters short-term storage.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Information never enters short-term storage because attention is split by internal chatter.",
+      "concreteVisual": "A flow diagram showing Sensory Input derailed by Divided Attention before Storage.",
+      "onScreenText": "Input -> Divided Attention -> Failed Storage",
+      "relationToPrevious": "Reveals the root cause: attention failure at the gateway, not storage decay.",
+      "addedInformation": "Pinpoints attention as the bottleneck preventing memory encoding."
+    }
+  },
+  {
+    "i": 35,
+    "concept": "phone",
+    "conceptMotion": "light",
+    "conceptMotionCue": "email",
+    "diagram": null,
+    "callout": {
+      "text": "Single-pointed concentration",
+      "style": "box"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "A professional holding a lighting smartphone screen, overwhelmed by panicky mental chatter about traffic and missed emails.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Internal chatter about tomorrow's worries and forgotten emails fractures attention.",
+      "concreteVisual": "A worried worker holding a phone as the screen lights up with notifications.",
+      "onScreenText": "PANICKY INTERNAL CHATTER",
+      "relationToPrevious": "Illustrates the exact internal chatter: panicking over daily stresses and emails.",
+      "addedInformation": "Embodies the distractions of notifications and mental chatter."
+    }
+  },
+  {
+    "i": 36,
+    "concept": "door",
+    "diagram": null,
+    "callout": {
+      "text": "BOUNCER AT THE DOOR",
+      "style": "highlight"
+    },
+    "set": "room",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "angry",
+    "action": "point",
+    "explainedBy": "The frantic inner voice acts like an aggressive bouncer standing at the doorway, actively blocking sensory data from entering.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "That panicked internal voice acts like a bouncer blocking data from entering your mind.",
+      "concreteVisual": "A stern figure standing like a bouncer blocking entry at a doorway.",
+      "onScreenText": "BOUNCER AT THE DOOR",
+      "relationToPrevious": "Visualizes Horsley's vivid bouncer metaphor for divided attention.",
+      "addedInformation": "Dramatizes the mental gatekeeper blocking information from reaching memory."
+    }
+  }
+]

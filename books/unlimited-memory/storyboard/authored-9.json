@@ -1,0 +1,617 @@
+[
+  {
+    "i": 321,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Software Upgrade",
+        "Hardware Optimized"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Upgrading the mental software directly optimizes and preserves the biological hardware of the brain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You are not rooted to your cognitive state; upgrading software optimizes the hardware.",
+      "concreteVisual": "A clean two-stage flow diagram showing Software Upgrade driving Hardware Optimized.",
+      "onScreenText": "Software Upgrade -> Hardware Optimized",
+      "relationToPrevious": "Continues from Horsley's message that you are not rooted like a tree.",
+      "addedInformation": "Establishes the neuroplastic mechanism where software habits strengthen neural hardware."
+    }
+  },
+  {
+    "i": 322,
+    "concept": null,
+    "diagram": {
+      "type": "spectrum",
+      "labels": [
+        "Untrained Habit",
+        "Deliberate Design"
+      ],
+      "values": [
+        0.15,
+        0.85
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Forgetfulness is contrasted as merely an untrained habit on one end of the spectrum versus deliberate engineering on the other.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "You are the chief engineer of your mind; forgetfulness is an untrained habit.",
+      "concreteVisual": "A spectrum mapping untrained habit on the left against deliberate design on the right.",
+      "onScreenText": "Untrained Habit vs Deliberate Design",
+      "relationToPrevious": "Distinguishes between passive default habits and deliberate mental engineering.",
+      "addedInformation": "Framing memory as an engineered spectrum rather than an innate biological ceiling."
+    }
+  },
+  {
+    "i": 323,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "ZOOM OUT TO MACRO",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley steps back to synthesize the overall memory training system and shift perspective to the macro level.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Real memory is deliberate design where you provide the energy as we zoom out to the macro level.",
+      "concreteVisual": "Horsley speaking at the front of a structured classroom addressing the big picture perspective.",
+      "onScreenText": "ZOOM OUT TO MACRO",
+      "relationToPrevious": "Transitions from individual mental engineering to a holistic review of the macro toolkit.",
+      "addedInformation": "Prepares the viewer for the overarching synthesis of the book's core philosophy."
+    }
+  },
+  {
+    "i": 324,
+    "concept": "book",
+    "diagram": null,
+    "callout": {
+      "text": "THE FULL TOOLKIT",
+      "style": "box"
+    },
+    "set": "classroom",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "book",
+    "explainedBy": "A mnemonic practitioner holds the comprehensive guidebook combining palaces, phonetic numbers, and name-hooking into one full toolkit.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We have assembled the full toolkit: memory palaces, phonetic systems, and identity shifts.",
+      "concreteVisual": "A student holding the mnemonic reference book proudly in a structured classroom setting.",
+      "onScreenText": "THE FULL TOOLKIT",
+      "relationToPrevious": "Summarizes the specific techniques learned throughout the preceding chapters.",
+      "addedInformation": "Consolidates palaces, major system pegs, and face anchors into one master manual."
+    }
+  },
+  {
+    "i": 325,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "Defending cognitive independence",
+      "style": "box"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "An everyday learner holds a smartphone in a modern workstation, confronting the modern reality of pervasive technological externalization.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We live in an era of unprecedented technological externalization with smartphones everywhere.",
+      "concreteVisual": "An everyman looking with concern at their smartphone at a workstation desk.",
+      "onScreenText": "TECHNOLOGICAL EXTERNALIZATION",
+      "relationToPrevious": "Introduces the central objection: why train memory when smartphones exist?",
+      "addedInformation": "Highlights the digital crutch replacing biological cognitive effort in contemporary life."
+    }
+  },
+  {
+    "i": 326,
+    "concept": "phone",
+    "conceptMotion": "light",
+    "conceptMotionCue": "flawlessly",
+    "diagram": null,
+    "callout": {
+      "text": "10,000 DIGITS IN A MICROSECOND",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "surprised",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "The phone screen lights up instantly delivering 10,000 digits of pi in a microsecond, demonstrating external algorithmic instant recall.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Generative AI and search engines can read 10,000 digits of pi flawlessly in a microsecond.",
+      "concreteVisual": "The smartphone screen lights up brightly as the learner reacts with surprised realization at the phone's speed.",
+      "onScreenText": "10,000 DIGITS IN A MICROSECOND",
+      "relationToPrevious": "Continues the smartphone workstation scene, contrasting human effort with instant device query.",
+      "addedInformation": "Emphasizes the speed and frictionless illusion of digital queries versus human encoding."
+    }
+  },
+  {
+    "i": 327,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "Active architectural recall",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "continue": true,
+    "explainedBy": "The learner slumps at the desk questioning whether biological memory training is completely archaic and obsolete in the 21st century.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Why train competitive spatial mnemonics when search engines make the pursuit seem archaic?",
+      "concreteVisual": "The learner slumps at the workstation desk beneath a struck-through question about obsolescence.",
+      "onScreenText": "ARCHAIC AND OBSOLETE?",
+      "relationToPrevious": "Pushes the digital convenience objection to its sharpest sceptical conclusion.",
+      "addedInformation": "Visually challenges the skeptical notion that internal biological recall is obsolete."
+    },
+    "holds": "phone"
+  },
+  {
+    "i": 328,
+    "concept": "shield",
+    "diagram": null,
+    "callout": {
+      "text": "THE DANGEROUS CRITICISM",
+      "style": "box"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "Horsley steps forward to confront and defend against the dangerous criticism that external storage replaces biological cognition.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Dismissing memory training as redundant is the most common and dangerous criticism today.",
+      "concreteVisual": "Horsley speaking resolutely beside a protective shield icon in the classroom.",
+      "onScreenText": "THE DANGEROUS CRITICISM",
+      "relationToPrevious": "Counters the skeptic's objection voiced in the preceding beat.",
+      "addedInformation": "Frames the critique not merely as a misconception, but as an active hazard to mental development."
+    }
+  },
+  {
+    "i": 329,
+    "concept": null,
+    "diagram": {
+      "type": "sorter",
+      "labels": [
+        "Externally Accessible",
+        "Cognitive Waste?"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Sorting the flawed assumption that because raw data is externally accessible, internalizing it in the brain must be a waste of cognitive space.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "We falsely assume that because data is accessible externally, internalizing it is a waste of effort.",
+      "concreteVisual": "A sorter diagram contrasting externally accessible data against the assumption of cognitive waste.",
+      "onScreenText": "Externally Accessible vs Cognitive Waste?",
+      "relationToPrevious": "Deconstructs the flawed logic behind dismissing internal factual knowledge.",
+      "addedInformation": "Breaks the digital crutch fallacy into its two component assumptions."
+    }
+  },
+  {
+    "i": 330,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Outsource to AI",
+        "Degrades Deep Synthesis"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Outsourcing memory to Google and AI directly causes a severe breakdown in the human capacity for deep synthesis.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The massive hidden risk of outsourcing memory is that it degrades capacity for deep synthesis.",
+      "concreteVisual": "A cause-and-effect flow showing Outsource to AI leading directly to Degrades Deep Synthesis.",
+      "onScreenText": "Outsource to AI -> Degrades Deep Synthesis",
+      "relationToPrevious": "Reveals the hidden causal consequence behind the convenience of external storage.",
+      "addedInformation": "Establishes the core intellectual danger: losing the internal synthesis engine."
+    }
+  },
+  {
+    "i": 331,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "SPUR OF THE MOMENT",
+      "style": "reveal"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "talk",
+    "explainedBy": "A professional in a high-stakes office negotiation faces an urgent spur-of-the-moment decision requiring immediate command of facts.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Jeopardy champion Ken Jennings noted that spur-of-the-moment decisions in business require immediate recall.",
+      "concreteVisual": "A professional leaning forward anxiously during an intense office negotiation scenario.",
+      "onScreenText": "SPUR OF THE MOMENT",
+      "relationToPrevious": "Introduces Ken Jennings' real-world pressure test where external lookups fail.",
+      "addedInformation": "Grounds the theoretical debate into an intense, real-world business negotiation setting."
+    }
+  },
+  {
+    "i": 332,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "AT YOUR FINGERTIPS NOT PHONE",
+      "style": "box"
+    },
+    "set": "office",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "continue": true,
+    "explainedBy": "Holding the phone during a crisis exposes that facts sitting on a remote server in California cannot provide immediate context.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "In emergencies, facts must be at your fingertips, not sitting on a remote server in California.",
+      "concreteVisual": "The professional clutches the smartphone anxiously, highlighting the gap between server data and immediate personal context.",
+      "onScreenText": "AT YOUR FINGERTIPS NOT PHONE",
+      "relationToPrevious": "Continues the negotiation pressure scenario, revealing the fatal latency of phone lookups.",
+      "addedInformation": "Dramatizes the dangerous disconnect between cloud servers and immediate human intuition."
+    }
+  },
+  {
+    "i": 333,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Factual Knowledge",
+        "Critical Skill"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Factual knowledge held internally in the brain is the mandatory prerequisite that precedes and powers critical thinking skill.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Factual knowledge always precedes skill; you cannot think critically without holding facts.",
+      "concreteVisual": "A two-stage flow diagram showing Factual Knowledge directly preceding and feeding Critical Skill.",
+      "onScreenText": "Factual Knowledge -> Critical Skill",
+      "relationToPrevious": "Formalizes the pedagogical principle that facts are the necessary fuel for analytical thought.",
+      "addedInformation": "Visually disproves the modern myth that facts can be bypassed for pure problem-solving."
+    }
+  },
+  {
+    "i": 334,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "COLLISION OF INTERNAL DATA",
+      "style": "highlight"
+    },
+    "set": "library",
+    "cast": [
+      "student"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "explainedBy": "A learner points to the mental mindscape showing that creativity is the rapid subconscious collision of internalized data points.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Creativity at its core is the rapid subconscious collision of diverse internalized data points.",
+      "concreteVisual": "A student standing in a library pointing with focused insight as mental connections fire.",
+      "onScreenText": "COLLISION OF INTERNAL DATA",
+      "relationToPrevious": "Defines the true neurological mechanism of creative thought.",
+      "addedInformation": "Shows that novel insight depends on rich mental stockpiles colliding automatically."
+    }
+  },
+  {
+    "i": 335,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "THE SYNTHESIS NEVER OCCURS",
+      "style": "strike"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "sad",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "Constantly looking up data points on a phone prevents subconscious connections from colliding, so creative synthesis never occurs.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "If you look up every data point on your phone, cognitive collision and synthesis never occur.",
+      "concreteVisual": "An everyman looking down dejectedly at a phone screen under a struck-out synthesis callout.",
+      "onScreenText": "THE SYNTHESIS NEVER OCCURS",
+      "relationToPrevious": "Contrasts the creative collision principle with the reality of phone-dependent lookup.",
+      "addedInformation": "Illustrates how external lookup friction completely aborts the synthesis process."
+    }
+  },
+  {
+    "i": 336,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "MODELS INSIDE YOUR HEAD",
+      "style": "reveal"
+    },
+    "set": "library",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "lightbulb",
+    "explainedBy": "Genuine innovation relies on vivid mental models illuminating the mind from within rather than queried on an external glass screen.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Deep critical thinking and genuine innovation rely entirely on mental models held inside your head.",
+      "concreteVisual": "A student in a library holding a glowing lightbulb representing internalized mental frameworks.",
+      "onScreenText": "MODELS INSIDE YOUR HEAD",
+      "relationToPrevious": "Celebrates the power of internally mastered mental models over passive screen reading.",
+      "addedInformation": "Affirms that true intellectual sovereignty lives in internal mental architecture."
+    }
+  },
+  {
+    "i": 337,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Externalize Memory",
+        "Surrender Critical Thought"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "Externalizing memory inevitably leads to externalizing critical thought itself, surrendering independent judgment to screens.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Externalizing memory inevitably leads to externalizing critical thought and surrendering independence.",
+      "concreteVisual": "A causal flow diagram linking Externalize Memory directly to Surrender Critical Thought.",
+      "onScreenText": "Externalize Memory -> Surrender Critical Thought",
+      "relationToPrevious": "Drives home the philosophical climax: loss of memory is loss of independent intellect.",
+      "addedInformation": "Highlights the creeping intellectual erosion when outsourcing human reasoning."
+    }
+  },
+  {
+    "i": 338,
+    "concept": null,
+    "diagram": null,
+    "callout": {
+      "text": "NOT A PASSIVE ARCHIVE",
+      "style": "strike"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "talk",
+    "explainedBy": "Horsley reframes the central thesis, rejecting the common view that memory is merely a passive archive of where you have been.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Your memory is not a passive archive of past events to be shelved away.",
+      "concreteVisual": "Horsley standing in a classroom authoritatively reframing the definition of memory.",
+      "onScreenText": "NOT A PASSIVE ARCHIVE",
+      "relationToPrevious": "Re-anchors the core philosophy as the summary approaches its concluding act.",
+      "addedInformation": "Shatters the warehouse metaphor of memory in favor of an active living engine."
+    }
+  },
+  {
+    "i": 339,
+    "concept": "notes",
+    "diagram": null,
+    "callout": {
+      "text": "NOT A DUSTY CABINET",
+      "style": "strike"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "neutral",
+    "action": "point",
+    "continue": true,
+    "explainedBy": "Horsley points away from outdated filing notes, emphasizing memory is not a dusty filing cabinet to be outsourced to cloud servers.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Memory is not a dusty filing cabinet of facts to outsource to the cloud; it is your working engine.",
+      "concreteVisual": "Horsley points firmly away from a stack of notes rejecting the dusty archive paradigm.",
+      "onScreenText": "NOT A DUSTY CABINET",
+      "relationToPrevious": "Continues the reframing of memory from static filing to dynamic cognitive engine.",
+      "addedInformation": "Rejects digital cloud complacency as an adequate replacement for personal consciousness."
+    }
+  },
+  {
+    "i": 340,
+    "concept": "target",
+    "diagram": null,
+    "callout": {
+      "text": "THE WORKING ENGINE",
+      "style": "reveal"
+    },
+    "set": "classroom",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "happy",
+    "action": "point",
+    "continue": true,
+    "explainedBy": "Horsley points to a clear target, showing that a well-stocked mind is the working engine and boundary of everything you can think next.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "A well-stocked mind is the absolute prerequisite for an autonomous, brilliant life.",
+      "concreteVisual": "Horsley gestures towards a target icon embodying purposeful mental focus and cognitive clarity.",
+      "onScreenText": "THE WORKING ENGINE",
+      "relationToPrevious": "Crowns the definition of internal memory as the engine of future capability.",
+      "addedInformation": "Positions cognitive mastery as the gateway to personal intellectual independence."
+    }
+  },
+  {
+    "i": 341,
+    "concept": "phone",
+    "diagram": null,
+    "callout": {
+      "text": "THE COMFORTABLE EXCUSE",
+      "style": "box"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "holds": "phone",
+    "explainedBy": "An everyman holding a smartphone confronts the seductive comfort of excusing poor recall while letting devices do all heavy lifting.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "If you cling to the comfortable excuse of a bad memory and let phones do the heavy lifting, who will you become?",
+      "concreteVisual": "An everyman seated at a workstation holding their phone with an anxious, questioning expression.",
+      "onScreenText": "THE COMFORTABLE EXCUSE",
+      "relationToPrevious": "Presents the final ethical and practical dilemma to the viewer.",
+      "addedInformation": "Forces an honest confrontation with passive technology addiction and self-limiting excuses."
+    }
+  },
+  {
+    "i": 342,
+    "concept": "clock",
+    "diagram": null,
+    "callout": {
+      "text": "Choosing mental ownership",
+      "style": "reveal"
+    },
+    "set": "workstation",
+    "cast": [
+      "everyman"
+    ],
+    "expression": "worried",
+    "action": "hold",
+    "continue": true,
+    "explainedBy": "Beside an advancing clock, the learner slumps contemplating five years of cognitive surrender if digital crutches remain unchallenged.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Who will you be 5 years from now? How much of your mind will you have surrendered?",
+      "concreteVisual": "The learner slumps at the desk next to a ticking clock representing the five-year timeline.",
+      "onScreenText": "WHO WILL YOU BE?",
+      "relationToPrevious": "Continues the workstation dilemma, projecting five years of mental atrophy into the future.",
+      "addedInformation": "Connects the passing of time directly to the compound penalty of cognitive abdication."
+    },
+    "holds": "phone"
+  },
+  {
+    "i": 343,
+    "concept": "key",
+    "diagram": null,
+    "callout": {
+      "text": "TAKE UP RESIDENCE",
+      "style": "reveal"
+    },
+    "set": "room",
+    "cast": [
+      "student"
+    ],
+    "expression": "happy",
+    "action": "hold",
+    "holds": "key",
+    "explainedBy": "A practitioner holds the mnemonic key inside a well-structured room locus, deciding to finally take up residence in their own mind.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Who could you be tomorrow if you decide to clear the clutter and take up residence in your own mind?",
+      "concreteVisual": "A student standing in an organized room holding a golden key symbolizing mastery of the mental palace.",
+      "onScreenText": "TAKE UP RESIDENCE",
+      "relationToPrevious": "Pivots from the dystopian trap of digital passivity to the empowering path of self-mastery.",
+      "addedInformation": "Presents conscious mental tenancy as the solution to cognitive clutter."
+    }
+  },
+  {
+    "i": 344,
+    "concept": null,
+    "diagram": {
+      "type": "flow",
+      "labels": [
+        "Mnemonic Tools",
+        "Mental Architecture"
+      ]
+    },
+    "callout": null,
+    "set": "abstract",
+    "cast": [],
+    "explainedBy": "The proven mnemonic tools stand ready to assemble the full cognitive architecture waiting inside the learner's brain.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "The tools are right there; the architecture is waiting to be built.",
+      "concreteVisual": "A clean flow diagram showing Mnemonic Tools assembling the complete Mental Architecture.",
+      "onScreenText": "Mnemonic Tools -> Mental Architecture",
+      "relationToPrevious": "Reassures the viewer that the complete framework is established and ready for implementation.",
+      "addedInformation": "Bridges the book's specific techniques into a unified mental construction plan."
+    }
+  },
+  {
+    "i": 345,
+    "concept": "lightbulb",
+    "diagram": null,
+    "callout": {
+      "text": "YOU PROVIDE THE ENERGY",
+      "style": "highlight"
+    },
+    "set": "stage",
+    "cast": [
+      "horsley"
+    ],
+    "expression": "happy",
+    "action": "point",
+    "explainedBy": "Horsley points forward with energy on stage, delivering his final core insight: batteries are not included, you must provide the energy.",
+    "noVisual": null,
+    "storyboard": {
+      "claim": "Batteries are not included; you have to provide the energy to animate the architecture.",
+      "concreteVisual": "Horsley on stage passionately pointing towards the viewer beside a glowing lightbulb of mental energy.",
+      "onScreenText": "YOU PROVIDE THE ENERGY",
+      "relationToPrevious": "The final closing call to action of the entire book summary.",
+      "addedInformation": "Leaves the audience with the central moral: mnemonic systems work only when energized by personal practice."
+    }
+  }
+]

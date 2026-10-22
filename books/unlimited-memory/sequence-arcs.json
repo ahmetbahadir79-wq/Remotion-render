@@ -1,0 +1,4432 @@
+{
+  "slug": "unlimited-memory",
+  "totalSequences": 123,
+  "totalScenes": 346,
+  "averageDurationSecs": 25.5,
+  "sequences": [
+    {
+      "id": "seq-01",
+      "source": "engine",
+      "fromFrame": 5,
+      "durationFrames": 1293,
+      "durationSeconds": 43.1,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "sceneId": "intro",
+          "fromFrame": 5,
+          "durationFrames": 329,
+          "role": "setup",
+          "narration": "He was labeled dyslexic, struggled through 12 years of school, couldn't remember basic facts, and th"
+        },
+        {
+          "index": 1,
+          "sceneId": "scene-01",
+          "fromFrame": 334,
+          "durationFrames": 355,
+          "role": "question",
+          "narration": "wild to even wrap your head around. It really is. But see, forgetfulness is not a hardware flaw of t"
+        },
+        {
+          "index": 2,
+          "sceneId": "scene-02",
+          "fromFrame": 689,
+          "durationFrames": 254,
+          "role": "complication",
+          "narration": "What we so casually call a quote unquote bad memory is actually just an untrained habit. It's passiv"
+        },
+        {
+          "index": 3,
+          "sceneId": "scene-03",
+          "fromFrame": 943,
+          "durationFrames": 355,
+          "role": "reveal",
+          "narration": "is deliberate design. It's emotional association and it's physical spatial navigation. So when you g"
+        }
+      ]
+    },
+    {
+      "id": "seq-02",
+      "source": "authored",
+      "fromFrame": 1298,
+      "durationFrames": 684,
+      "durationSeconds": 22.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 4,
+          "sceneId": "scene-04",
+          "fromFrame": 1298,
+          "durationFrames": 312,
+          "role": "authored-start",
+          "narration": "I love that phrase, active architectural Because you know, think about how many times just this week"
+        },
+        {
+          "index": 5,
+          "sceneId": "scene-05",
+          "fromFrame": 1610,
+          "durationFrames": 372,
+          "role": "authored-kept",
+          "narration": "forgotten why you went in there. Oh, happens to everyone, right? Or you're at a networking event sta"
+        }
+      ]
+    },
+    {
+      "id": "seq-03",
+      "source": "engine",
+      "fromFrame": 1982,
+      "durationFrames": 1107,
+      "durationSeconds": 36.9,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 6,
+          "sceneId": "scene-06",
+          "fromFrame": 1982,
+          "durationFrames": 212,
+          "role": "setup",
+          "narration": "We all do this. We just shrug. We laugh it off and we say, \"Well, I just have a bad memory.\" But wha"
+        },
+        {
+          "index": 7,
+          "sceneId": "scene-07",
+          "fromFrame": 2194,
+          "durationFrames": 182,
+          "role": "question",
+          "narration": "What if you are fundamentally misunderstanding the machinery inside your own head?"
+        },
+        {
+          "index": 8,
+          "sceneId": "scene-08",
+          "fromFrame": 2376,
+          "durationFrames": 245,
+          "role": "partial_answer",
+          "narration": "So today we are tearing down that misconception completely. We're doing a deep dive into the insight"
+        },
+        {
+          "index": 9,
+          "sceneId": "scene-09",
+          "fromFrame": 2621,
+          "durationFrames": 199,
+          "role": "complication",
+          "narration": "And to really set the stakes for you listening right now, we have to look at what you actually are a"
+        },
+        {
+          "index": 10,
+          "sceneId": "scene-10",
+          "fromFrame": 2820,
+          "durationFrames": 269,
+          "role": "reveal",
+          "narration": "Right. At your core. Yeah. At your core, you are a data collecting entity. If you didn't have a memo"
+        }
+      ]
+    },
+    {
+      "id": "seq-04",
+      "source": "engine",
+      "fromFrame": 3089,
+      "durationFrames": 1075,
+      "durationSeconds": 35.8,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 11,
+          "sceneId": "scene-11",
+          "fromFrame": 3089,
+          "durationFrames": 211,
+          "role": "setup",
+          "narration": "You wouldn't even have a coherent identity. That's a huge point. If I ask you who you are, your brai"
+        },
+        {
+          "index": 12,
+          "sceneId": "scene-12",
+          "fromFrame": 3300,
+          "durationFrames": 372,
+          "role": "question",
+          "narration": "it immediately starts rearranging memories to formulate an answer. So, our mission in this deep dive"
+        },
+        {
+          "index": 13,
+          "sceneId": "scene-13",
+          "fromFrame": 3672,
+          "durationFrames": 242,
+          "role": "complication",
+          "narration": "a test. Exactly. Not just for a test, but to actually rewrite how your brain stores information perm"
+        },
+        {
+          "index": 14,
+          "sceneId": "scene-14",
+          "fromFrame": 3914,
+          "durationFrames": 250,
+          "role": "reveal",
+          "narration": "through which to view this because his personal journey completely obliterates the idea of genetic d"
+        }
+      ]
+    },
+    {
+      "id": "seq-05",
+      "source": "engine",
+      "fromFrame": 4164,
+      "durationFrames": 924,
+      "durationSeconds": 30.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 15,
+          "sceneId": "scene-15",
+          "fromFrame": 4164,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "Oh, totally. I mean, this isn't someone who won the genetic lottery for cognitive retention. He wasn"
+        },
+        {
+          "index": 16,
+          "sceneId": "scene-16",
+          "fromFrame": 4428,
+          "durationFrames": 336,
+          "role": "question",
+          "narration": "You mentioned the severe dyslexia in the opening. Yeah, he struggled. The reality of his early life "
+        },
+        {
+          "index": 17,
+          "sceneId": "scene-17",
+          "fromFrame": 4764,
+          "durationFrames": 324,
+          "role": "reveal",
+          "narration": "The cognitive friction was just too high, which is so frustrating to even think about. His mother an"
+        }
+      ]
+    },
+    {
+      "id": "seq-06",
+      "source": "authored",
+      "fromFrame": 5088,
+      "durationFrames": 396,
+      "durationSeconds": 13.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 18,
+          "sceneId": "scene-18",
+          "fromFrame": 5088,
+          "durationFrames": 192,
+          "role": "authored-start",
+          "narration": "A school psychologist evaluated him and actually told him he might have a form of undiagnosed brain "
+        },
+        {
+          "index": 19,
+          "sceneId": "scene-19",
+          "fromFrame": 5280,
+          "durationFrames": 204,
+          "role": "authored-kept",
+          "narration": "Yeah. He was the absolute textbook definition of what our educational society labels a bad learner."
+        }
+      ]
+    },
+    {
+      "id": "seq-07",
+      "source": "authored",
+      "fromFrame": 5484,
+      "durationFrames": 619,
+      "durationSeconds": 20.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 20,
+          "sceneId": "scene-20",
+          "fromFrame": 5484,
+          "durationFrames": 355,
+          "role": "authored-start",
+          "narration": "Which makes the second half of his life sound like, I don't know, a superhero origin story or someth"
+        },
+        {
+          "index": 21,
+          "sceneId": "scene-21",
+          "fromFrame": 5839,
+          "durationFrames": 264,
+          "role": "authored-kept",
+          "narration": "grandmaster of memory, which is sanctioned by the brain trust, by the way. It's incredibly difficult"
+        }
+      ]
+    },
+    {
+      "id": "seq-08",
+      "source": "engine",
+      "fromFrame": 6103,
+      "durationFrames": 1104,
+      "durationSeconds": 36.8,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 22,
+          "sceneId": "scene-22",
+          "fromFrame": 6103,
+          "durationFrames": 144,
+          "role": "setup",
+          "narration": "specifically because people told him it was impossible for someone with his academic background."
+        },
+        {
+          "index": 23,
+          "sceneId": "scene-23",
+          "fromFrame": 6247,
+          "durationFrames": 324,
+          "role": "question",
+          "narration": "He took his brain from a civ that couldn't hold a high school reading assignment to an impenetrable "
+        },
+        {
+          "index": 24,
+          "sceneId": "scene-24",
+          "fromFrame": 6571,
+          "durationFrames": 271,
+          "role": "complication",
+          "narration": "same, right? but by fundamentally changing his software, his strategy. Precisely. Which brings us to"
+        },
+        {
+          "index": 25,
+          "sceneId": "scene-25",
+          "fromFrame": 6842,
+          "durationFrames": 204,
+          "role": "complication",
+          "narration": "Before we can start building this incredible mental architecture Horsely talks about, we have to cle"
+        },
+        {
+          "index": 26,
+          "sceneId": "scene-26",
+          "fromFrame": 7046,
+          "durationFrames": 161,
+          "role": "reveal",
+          "narration": "We have to tear down the mental clutter and the flawed blueprints we've been carrying around since c"
+        }
+      ]
+    },
+    {
+      "id": "seq-09",
+      "source": "engine",
+      "fromFrame": 7207,
+      "durationFrames": 394,
+      "durationSeconds": 13.1,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 27,
+          "sceneId": "scene-27",
+          "fromFrame": 7207,
+          "durationFrames": 394,
+          "role": "reveal",
+          "narration": "And that starts with entirely dismantling the myth of the inherently good or bad Okay? and understan"
+        }
+      ]
+    },
+    {
+      "id": "seq-10",
+      "source": "authored",
+      "fromFrame": 7601,
+      "durationFrames": 840,
+      "durationSeconds": 28,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 28,
+          "sceneId": "scene-28",
+          "fromFrame": 7601,
+          "durationFrames": 247,
+          "role": "authored-start",
+          "narration": "It's 2 a.m. You are staring at an index card or, you know, a quarterly financial report for work or "
+        },
+        {
+          "index": 29,
+          "sceneId": "scene-29",
+          "fromFrame": 7848,
+          "durationFrames": 221,
+          "role": "authored-kept",
+          "narration": "The classic cram session. Yeah. You're physically exhausted. Your eyes are burning and your inner vo"
+        },
+        {
+          "index": 30,
+          "sceneId": "scene-30",
+          "fromFrame": 8069,
+          "durationFrames": 372,
+          "role": "authored-kept",
+          "narration": "I just have a terrible memory. Nothing is sticking. My brain is completely full. You feel totally he"
+        }
+      ]
+    },
+    {
+      "id": "seq-11",
+      "source": "engine",
+      "fromFrame": 8441,
+      "durationFrames": 1195,
+      "durationSeconds": 39.8,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 31,
+          "sceneId": "scene-31",
+          "fromFrame": 8441,
+          "durationFrames": 156,
+          "role": "setup",
+          "narration": "off your Well, here's what that actually means for your cognitive process in that moment."
+        },
+        {
+          "index": 32,
+          "sceneId": "scene-32",
+          "fromFrame": 8597,
+          "durationFrames": 237,
+          "role": "partial_answer",
+          "narration": "Your memory isn't full. The human brain storage capacity, for all practical purposes, is virtually i"
+        },
+        {
+          "index": 33,
+          "sceneId": "scene-33",
+          "fromFrame": 8834,
+          "durationFrames": 219,
+          "role": "question",
+          "narration": "It's not a container that has reached maximum capacity and needs old files deleted to make room for "
+        },
+        {
+          "index": 34,
+          "sceneId": "scene-34",
+          "fromFrame": 9053,
+          "durationFrames": 338,
+          "role": "complication",
+          "narration": "The physiological reality is that your attention is simply divided. Information is never actually en"
+        },
+        {
+          "index": 35,
+          "sceneId": "scene-35",
+          "fromFrame": 9391,
+          "durationFrames": 245,
+          "role": "reveal",
+          "narration": "Exactly. That panicky voice screaming about how tired you are or worrying about tomorrow's traffic o"
+        }
+      ]
+    },
+    {
+      "id": "seq-12",
+      "source": "engine",
+      "fromFrame": 9636,
+      "durationFrames": 701,
+      "durationSeconds": 23.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 36,
+          "sceneId": "scene-36",
+          "fromFrame": 9636,
+          "durationFrames": 245,
+          "role": "setup",
+          "narration": "That voice is acting like a bouncer at the door of your mind. Oh, I like that. It is actively blocki"
+        },
+        {
+          "index": 37,
+          "sceneId": "scene-37",
+          "fromFrame": 9881,
+          "durationFrames": 213,
+          "role": "question",
+          "narration": "You cannot remember what you never fully paid attention to in the first place. Memory requires regis"
+        },
+        {
+          "index": 38,
+          "sceneId": "scene-38",
+          "fromFrame": 10094,
+          "durationFrames": 243,
+          "role": "reveal",
+          "narration": "requires uncompromised Horsely uses this incredible analogy of the lioness hunting in the wild to ex"
+        }
+      ]
+    },
+    {
+      "id": "seq-13",
+      "source": "authored",
+      "fromFrame": 10337,
+      "durationFrames": 523,
+      "durationSeconds": 17.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 39,
+          "sceneId": "scene-39",
+          "fromFrame": 10337,
+          "durationFrames": 319,
+          "role": "authored-start",
+          "narration": "Yes. The savannah analogy. Yeah. When a lioness is hunting on the savannah, she focuses entirely, si"
+        },
+        {
+          "index": 40,
+          "sceneId": "scene-40",
+          "fromFrame": 10656,
+          "durationFrames": 204,
+          "role": "authored-kept",
+          "narration": "one target and completely ignore the hundreds of other wilderbeasts running past her. She never targ"
+        }
+      ]
+    },
+    {
+      "id": "seq-14",
+      "source": "engine",
+      "fromFrame": 10860,
+      "durationFrames": 1094,
+      "durationSeconds": 36.5,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 41,
+          "sceneId": "scene-41",
+          "fromFrame": 10860,
+          "durationFrames": 271,
+          "role": "setup",
+          "narration": "Never. Why? Because the mathematical odds of missing both of them if she divides her attention are a"
+        },
+        {
+          "index": 42,
+          "sceneId": "scene-42",
+          "fromFrame": 11131,
+          "durationFrames": 247,
+          "role": "question",
+          "narration": "But then look at what humans do in the circus. When a lion tamer steps into the cage, what is the pr"
+        },
+        {
+          "index": 43,
+          "sceneId": "scene-43",
+          "fromFrame": 11378,
+          "durationFrames": 224,
+          "role": "complication",
+          "narration": "A simple wooden chair. A wooden chair. And the psychology behind that wooden chair perfectly illustr"
+        },
+        {
+          "index": 44,
+          "sceneId": "scene-44",
+          "fromFrame": 11602,
+          "durationFrames": 352,
+          "role": "reveal",
+          "narration": "Exactly. Because it's not a physical shield. The tamer isn't going to stop a charging lion with a fl"
+        }
+      ]
+    },
+    {
+      "id": "seq-15",
+      "source": "engine",
+      "fromFrame": 11954,
+      "durationFrames": 972,
+      "durationSeconds": 32.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 45,
+          "sceneId": "scene-45",
+          "fromFrame": 11954,
+          "durationFrames": 257,
+          "role": "setup",
+          "narration": "moving in its field of vision simultaneously. So, it gets confused, right? The lion's brain tries to"
+        },
+        {
+          "index": 46,
+          "sceneId": "scene-46",
+          "fromFrame": 12211,
+          "durationFrames": 377,
+          "role": "question",
+          "narration": "Its working memory is overloaded. It gets confused. And it essentially goes into a passive paralyzed"
+        },
+        {
+          "index": 47,
+          "sceneId": "scene-47",
+          "fromFrame": 12588,
+          "durationFrames": 338,
+          "role": "reveal",
+          "narration": "day in the modern Oh, constantly. We are the lion staring at the four legs of the chair. We are tryi"
+        }
+      ]
+    },
+    {
+      "id": "seq-16",
+      "source": "engine",
+      "fromFrame": 12926,
+      "durationFrames": 531,
+      "durationSeconds": 17.7,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 48,
+          "sceneId": "scene-48",
+          "fromFrame": 12926,
+          "durationFrames": 216,
+          "role": "setup",
+          "narration": "lunch all at the exact same time. And the data is brutal on this. Multitasking actually slows you do"
+        },
+        {
+          "index": 49,
+          "sceneId": "scene-49",
+          "fromFrame": 13142,
+          "durationFrames": 315,
+          "role": "reveal",
+          "narration": "and adds 50% more mistakes to whatever you are doing. Horsely points out a hard truth here, which is"
+        }
+      ]
+    },
+    {
+      "id": "seq-17",
+      "source": "authored",
+      "fromFrame": 13457,
+      "durationFrames": 518,
+      "durationSeconds": 17.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 50,
+          "sceneId": "scene-50",
+          "fromFrame": 13457,
+          "durationFrames": 249,
+          "role": "authored-start",
+          "narration": "That's why voicemail was invented. We are willingly stepping into the lion tamer's cage and asking f"
+        },
+        {
+          "index": 51,
+          "sceneId": "scene-51",
+          "fromFrame": 13706,
+          "durationFrames": 269,
+          "role": "authored-kept",
+          "narration": "We are actively training our brains to have an attention deficit. We just rapid switch through the c"
+        }
+      ]
+    },
+    {
+      "id": "seq-18",
+      "source": "engine",
+      "fromFrame": 13975,
+      "durationFrames": 694,
+      "durationSeconds": 23.1,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 52,
+          "sceneId": "scene-52",
+          "fromFrame": 13975,
+          "durationFrames": 365,
+          "role": "setup",
+          "narration": "Clearly, let's look at the underlying neurobiology here. Human working memory is severely limited. W"
+        },
+        {
+          "index": 53,
+          "sceneId": "scene-53",
+          "fromFrame": 14340,
+          "durationFrames": 329,
+          "role": "reveal",
+          "narration": "When you push five or six tasks into that space, the brain doesn't process them concurrently. It dro"
+        }
+      ]
+    },
+    {
+      "id": "seq-19",
+      "source": "authored",
+      "fromFrame": 14669,
+      "durationFrames": 617,
+      "durationSeconds": 20.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 54,
+          "sceneId": "scene-54",
+          "fromFrame": 14669,
+          "durationFrames": 324,
+          "role": "authored-start",
+          "narration": "modern workforce listening to this. Fair enough. Multitasking isn't just a bad habit anymore, right?"
+        },
+        {
+          "index": 55,
+          "sceneId": "scene-55",
+          "fromFrame": 14993,
+          "durationFrames": 293,
+          "role": "authored-kept",
+          "narration": "Sure, it feels that way. I mean, if I go into my boss's office tomorrow and say, \"Hey, I am only doi"
+        }
+      ]
+    },
+    {
+      "id": "seq-20",
+      "source": "authored",
+      "fromFrame": 15286,
+      "durationFrames": 405,
+      "durationSeconds": 13.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 56,
+          "sceneId": "scene-56",
+          "fromFrame": 15286,
+          "durationFrames": 254,
+          "role": "authored-start",
+          "narration": "And what about the people who swear by the flow state? You see, software engineers are brilliant wri"
+        },
+        {
+          "index": 57,
+          "sceneId": "scene-57",
+          "fromFrame": 15540,
+          "durationFrames": 151,
+          "role": "authored-kept",
+          "narration": "monitor a company's Slack channel out of the corner of their eye, and still produce incredible work."
+        }
+      ]
+    },
+    {
+      "id": "seq-21",
+      "source": "engine",
+      "fromFrame": 15691,
+      "durationFrames": 1219,
+      "durationSeconds": 40.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 58,
+          "sceneId": "scene-58",
+          "fromFrame": 15691,
+          "durationFrames": 329,
+          "role": "setup",
+          "narration": "Isn't there a threshold where multiple inputs actually stimulate the brain and increase productivity"
+        },
+        {
+          "index": 59,
+          "sceneId": "scene-59",
+          "fromFrame": 16020,
+          "durationFrames": 317,
+          "role": "question",
+          "narration": "entirely Really? Entirely. Entirely. What you are describing as multitasking or that highly stimulat"
+        },
+        {
+          "index": 60,
+          "sceneId": "scene-60",
+          "fromFrame": 16337,
+          "durationFrames": 199,
+          "role": "complication",
+          "narration": "scientists call continuous partial Continuous partial attention. Right? It is a"
+        },
+        {
+          "index": 61,
+          "sceneId": "scene-61",
+          "fromFrame": 16536,
+          "durationFrames": 374,
+          "role": "reveal",
+          "narration": "highly convincing illusion of productivity. Your brain is not and physically cannot process those co"
+        }
+      ]
+    },
+    {
+      "id": "seq-22",
+      "source": "authored",
+      "fromFrame": 16910,
+      "durationFrames": 452,
+      "durationSeconds": 15.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 62,
+          "sceneId": "scene-62",
+          "fromFrame": 16910,
+          "durationFrames": 197,
+          "role": "authored-start",
+          "narration": "back and forth. Exactly. It is turning its full attention to the code for 2 seconds, then entirely d"
+        },
+        {
+          "index": 63,
+          "sceneId": "scene-63",
+          "fromFrame": 17107,
+          "durationFrames": 255,
+          "role": "authored-kept",
+          "narration": "turning to the Slack channel for half a second, disengaging, and turning back to the And there's a c"
+        }
+      ]
+    },
+    {
+      "id": "seq-23",
+      "source": "engine",
+      "fromFrame": 17362,
+      "durationFrames": 578,
+      "durationSeconds": 19.3,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 64,
+          "sceneId": "scene-64",
+          "fromFrame": 17362,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "tax. Every single time your brain executes that switch, there's a cognitive transition cost."
+        },
+        {
+          "index": 65,
+          "sceneId": "scene-65",
+          "fromFrame": 17566,
+          "durationFrames": 374,
+          "role": "reveal",
+          "narration": "Your brain has to burn a tiny bit of glucose to reorient itself to the new rule set of the new task."
+        }
+      ]
+    },
+    {
+      "id": "seq-24",
+      "source": "authored",
+      "fromFrame": 17940,
+      "durationFrames": 521,
+      "durationSeconds": 17.4,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 66,
+          "sceneId": "scene-66",
+          "fromFrame": 17940,
+          "durationFrames": 180,
+          "role": "authored-start",
+          "narration": "That software engineer listening to music and checking Slack isn't in a true flow state. What are th"
+        },
+        {
+          "index": 67,
+          "sceneId": "scene-67",
+          "fromFrame": 18120,
+          "durationFrames": 341,
+          "role": "authored-kept",
+          "narration": "They are in a state of heightened adrenaline and cortisol stimulation that mimics the feeling of pro"
+        }
+      ]
+    },
+    {
+      "id": "seq-25",
+      "source": "engine",
+      "fromFrame": 18461,
+      "durationFrames": 1195,
+      "durationSeconds": 39.8,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 68,
+          "sceneId": "scene-68",
+          "fromFrame": 18461,
+          "durationFrames": 192,
+          "role": "setup",
+          "narration": "error reduction rates would universally measurably improve. That's crazy to think about."
+        },
+        {
+          "index": 69,
+          "sceneId": "scene-69",
+          "fromFrame": 18653,
+          "durationFrames": 194,
+          "role": "question",
+          "narration": "Consecutive tasking, doing one thing until completion, resting, then doing the next always"
+        },
+        {
+          "index": 70,
+          "sceneId": "scene-70",
+          "fromFrame": 18847,
+          "durationFrames": 291,
+          "role": "partial_answer",
+          "narration": "invariably beats simultaneous tasking in both speed and quality because you are bleeding glucose eve"
+        },
+        {
+          "index": 71,
+          "sceneId": "scene-71",
+          "fromFrame": 19138,
+          "durationFrames": 175,
+          "role": "complication",
+          "narration": "So connecting this to the broader picture, before you can memorize anything, you have to achieve pre"
+        },
+        {
+          "index": 72,
+          "sceneId": "scene-72",
+          "fromFrame": 19313,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "Because memory is an active architectural construction, you must purposefully deliberately direct yo"
+        }
+      ]
+    },
+    {
+      "id": "seq-26",
+      "source": "engine",
+      "fromFrame": 19656,
+      "durationFrames": 518,
+      "durationSeconds": 17.3,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 73,
+          "sceneId": "scene-73",
+          "fromFrame": 19656,
+          "durationFrames": 264,
+          "role": "setup",
+          "narration": "silence the inner voice that catches you doing things wrong and consciously choose to engage with th"
+        },
+        {
+          "index": 74,
+          "sceneId": "scene-74",
+          "fromFrame": 19920,
+          "durationFrames": 254,
+          "role": "reveal",
+          "narration": "which perfectly sets up the mechanical phase of the process. Because once you have cleared the site,"
+        }
+      ]
+    },
+    {
+      "id": "seq-27",
+      "source": "authored",
+      "fromFrame": 20174,
+      "durationFrames": 370,
+      "durationSeconds": 12.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 75,
+          "sceneId": "scene-75",
+          "fromFrame": 20174,
+          "durationFrames": 197,
+          "role": "authored-start",
+          "narration": "attention, what do you actually do with the dry, boring facts you need to Right. The stuff you don't"
+        },
+        {
+          "index": 76,
+          "sceneId": "scene-76",
+          "fromFrame": 20371,
+          "durationFrames": 173,
+          "role": "authored-kept",
+          "narration": "Exactly. How do you encode data that your brain biologically naturally wants to reject?"
+        }
+      ]
+    },
+    {
+      "id": "seq-28",
+      "source": "engine",
+      "fromFrame": 20544,
+      "durationFrames": 823,
+      "durationSeconds": 27.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 77,
+          "sceneId": "scene-77",
+          "fromFrame": 20544,
+          "durationFrames": 202,
+          "role": "setup",
+          "narration": "This brings us to a concept Horsely calls the E principle. See, senses,"
+        },
+        {
+          "index": 78,
+          "sceneId": "scene-78",
+          "fromFrame": 20746,
+          "durationFrames": 225,
+          "role": "question",
+          "narration": "exaggeration, and energetic movement. Because to build the mental architecture, you can't use the ra"
+        },
+        {
+          "index": 79,
+          "sceneId": "scene-79",
+          "fromFrame": 20971,
+          "durationFrames": 231,
+          "role": "complication",
+          "narration": "No, text is terrible for this. You have to translate sterile, lifeless information into a visceral l"
+        },
+        {
+          "index": 80,
+          "sceneId": "scene-80",
+          "fromFrame": 21202,
+          "durationFrames": 165,
+          "role": "reveal",
+          "narration": "The human brain simply does not speak in abstract text. It speaks in multi-ensory experiences."
+        }
+      ]
+    },
+    {
+      "id": "seq-29",
+      "source": "authored",
+      "fromFrame": 21367,
+      "durationFrames": 893,
+      "durationSeconds": 29.8,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 81,
+          "sceneId": "scene-81",
+          "fromFrame": 21367,
+          "durationFrames": 235,
+          "role": "authored-start",
+          "narration": "Text is a relatively new invention in the span of human We've all experienced the failure of text. Y"
+        },
+        {
+          "index": 82,
+          "sceneId": "scene-82",
+          "fromFrame": 21602,
+          "durationFrames": 336,
+          "role": "authored-kept",
+          "narration": "Maybe it's corporate tax law. Maybe it's a software manual. Or maybe it's a chapter on the really dr"
+        },
+        {
+          "index": 83,
+          "sceneId": "scene-83",
+          "fromFrame": 21938,
+          "durationFrames": 322,
+          "role": "authored-kept",
+          "narration": "You get all the way to the bottom of page 42. You look up and you realize with a sinking feeling of "
+        }
+      ]
+    },
+    {
+      "id": "seq-30",
+      "source": "engine",
+      "fromFrame": 22260,
+      "durationFrames": 1320,
+      "durationSeconds": 44,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 84,
+          "sceneId": "scene-84",
+          "fromFrame": 22260,
+          "durationFrames": 252,
+          "role": "setup",
+          "narration": "A total blank. Your eyes did the mechanical physical work, but your brain completely rejected the pa"
+        },
+        {
+          "index": 85,
+          "sceneId": "scene-85",
+          "fromFrame": 22512,
+          "durationFrames": 314,
+          "role": "question",
+          "narration": "functional level. Raw abstractions vanish because they don't trigger the brain's survival or emotion"
+        },
+        {
+          "index": 86,
+          "sceneId": "scene-86",
+          "fromFrame": 22826,
+          "durationFrames": 389,
+          "role": "complication",
+          "narration": "writer Arthur Gordon phrased it beautifully. He said, \"Letters are just little black marks on paper,"
+        },
+        {
+          "index": 87,
+          "sceneId": "scene-87",
+          "fromFrame": 23215,
+          "durationFrames": 365,
+          "role": "reveal",
+          "narration": "fiction novel. You don't struggle to remember the plot or the characters because your brain is autom"
+        }
+      ]
+    },
+    {
+      "id": "seq-31",
+      "source": "engine",
+      "fromFrame": 23580,
+      "durationFrames": 499,
+      "durationSeconds": 16.6,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 88,
+          "sceneId": "scene-88",
+          "fromFrame": 23580,
+          "durationFrames": 278,
+          "role": "setup",
+          "narration": "sword Exactly. But when we study textbooks or business reports, we suddenly abandon that natural tra"
+        },
+        {
+          "index": 89,
+          "sceneId": "scene-89",
+          "fromFrame": 23858,
+          "durationFrames": 221,
+          "role": "reveal",
+          "narration": "Yeah. We just try to memorize the words. We try to take a sterile photographic mental snapshot of th"
+        }
+      ]
+    },
+    {
+      "id": "seq-32",
+      "source": "authored",
+      "fromFrame": 24079,
+      "durationFrames": 883,
+      "durationSeconds": 29.4,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 90,
+          "sceneId": "scene-90",
+          "fromFrame": 24079,
+          "durationFrames": 375,
+          "role": "authored-start",
+          "narration": "And wrote repetition is incredibly inefficient. To actually remember sterile facts, you must forcibl"
+        },
+        {
+          "index": 91,
+          "sceneId": "scene-91",
+          "fromFrame": 24454,
+          "durationFrames": 213,
+          "role": "authored-kept",
+          "narration": "into the dry data. Let's do a live exercise with exactly how Horsely does this, particularly with fo"
+        },
+        {
+          "index": 92,
+          "sceneId": "scene-92",
+          "fromFrame": 24667,
+          "durationFrames": 295,
+          "role": "authored-kept",
+          "narration": "Because languages are notoriously difficult, the sounds are often completely arbitrary to a non-nati"
+        }
+      ]
+    },
+    {
+      "id": "seq-33",
+      "source": "engine",
+      "fromFrame": 24962,
+      "durationFrames": 785,
+      "durationSeconds": 26.2,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 93,
+          "sceneId": "scene-93",
+          "fromFrame": 24962,
+          "durationFrames": 327,
+          "role": "setup",
+          "narration": "Now, the traditional wrote learning method is to stare at a flash card and chant tiger is tiger is t"
+        },
+        {
+          "index": 94,
+          "sceneId": "scene-94",
+          "fromFrame": 25289,
+          "durationFrames": 252,
+          "role": "question",
+          "narration": "neurons, right? Which is exhausting. But using the e principle, you look at the word and you listen "
+        },
+        {
+          "index": 95,
+          "sceneId": "scene-95",
+          "fromFrame": 25541,
+          "durationFrames": 206,
+          "role": "reveal",
+          "narration": "It sounds like the English words t and T gray. So, in your mental theater right now,"
+        }
+      ]
+    },
+    {
+      "id": "seq-34",
+      "source": "authored",
+      "fromFrame": 25747,
+      "durationFrames": 564,
+      "durationSeconds": 18.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 96,
+          "sceneId": "scene-96",
+          "fromFrame": 25747,
+          "durationFrames": 334,
+          "role": "authored-start",
+          "narration": "imagine a massive, ferocious Bengal tiger. Not just a picture of a tiger, but a living one. He is si"
+        },
+        {
+          "index": 97,
+          "sceneId": "scene-97",
+          "fromFrame": 26081,
+          "durationFrames": 230,
+          "role": "authored-kept",
+          "narration": "paws. I love this visual. And he's drinking a cup of tea, but the tea has turned a sludgy, disgustin"
+        }
+      ]
+    },
+    {
+      "id": "seq-35",
+      "source": "engine",
+      "fromFrame": 26311,
+      "durationFrames": 1111,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 98,
+          "sceneId": "scene-98",
+          "fromFrame": 26311,
+          "durationFrames": 274,
+          "role": "setup",
+          "narration": "Tea. Gray. Tay. Notice what we just did there. We engaged the senses. sight, sound, maybe even the s"
+        },
+        {
+          "index": 99,
+          "sceneId": "scene-99",
+          "fromFrame": 26585,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "Yeah, make it gross. If you need to remember the word for horse, you shouldn't just visualize the le"
+        },
+        {
+          "index": 100,
+          "sceneId": "scene-100",
+          "fromFrame": 26868,
+          "durationFrames": 350,
+          "role": "complication",
+          "narration": "feel the coarse hair on its neck, hear the sharp crack of its hooves on pavement. And that's the S a"
+        },
+        {
+          "index": 101,
+          "sceneId": "scene-101",
+          "fromFrame": 27218,
+          "durationFrames": 204,
+          "role": "reveal",
+          "narration": "So, make the strawberry the size of a two-story house. make the teacup impossibly small. Go big or g"
+        }
+      ]
+    },
+    {
+      "id": "seq-36",
+      "source": "engine",
+      "fromFrame": 27422,
+      "durationFrames": 701,
+      "durationSeconds": 23.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 102,
+          "sceneId": "scene-102",
+          "fromFrame": 27422,
+          "durationFrames": 332,
+          "role": "setup",
+          "narration": "Finally, the last E is energetic movement. A static image is forgettable. A running horse or a tiger"
+        },
+        {
+          "index": 103,
+          "sceneId": "scene-103",
+          "fromFrame": 27754,
+          "durationFrames": 369,
+          "role": "reveal",
+          "narration": "triggers the brain's threat detection systems. To remember a dry abstract concept, you don't repeat "
+        }
+      ]
+    },
+    {
+      "id": "seq-37",
+      "source": "authored",
+      "fromFrame": 28123,
+      "durationFrames": 658,
+      "durationSeconds": 21.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 104,
+          "sceneId": "scene-104",
+          "fromFrame": 28123,
+          "durationFrames": 353,
+          "role": "authored-start",
+          "narration": "Okay. I have a massive professional hurdle with this. Let's hear it. If I am an aspiring surgeon stu"
+        },
+        {
+          "index": 105,
+          "sceneId": "scene-105",
+          "fromFrame": 28476,
+          "durationFrames": 305,
+          "role": "authored-kept",
+          "narration": "everything into a ridiculous cartoon of an elephant in a pink bikini or a tiger drinking tea actuall"
+        }
+      ]
+    },
+    {
+      "id": "seq-38",
+      "source": "engine",
+      "fromFrame": 28781,
+      "durationFrames": 1070,
+      "durationSeconds": 35.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 106,
+          "sceneId": "scene-106",
+          "fromFrame": 28781,
+          "durationFrames": 197,
+          "role": "setup",
+          "narration": "That's a very common fear. I feel like if I trivialize the data into a circus act, I'm becoming a le"
+        },
+        {
+          "index": 107,
+          "sceneId": "scene-107",
+          "fromFrame": 28978,
+          "durationFrames": 273,
+          "role": "question",
+          "narration": "Doesn't this obscure the actual knowledge? That is a deeply ingrained psychological barrier that man"
+        },
+        {
+          "index": 108,
+          "sceneId": "scene-108",
+          "fromFrame": 29251,
+          "durationFrames": 377,
+          "role": "complication",
+          "narration": "From kindergarten through graduate school, we're conditioned to believe that serious learning must b"
+        },
+        {
+          "index": 109,
+          "sceneId": "scene-109",
+          "fromFrame": 29628,
+          "durationFrames": 223,
+          "role": "reveal",
+          "narration": "But there is absolutely zero scientific evidence in the field of neuroscience that learning must be "
+        }
+      ]
+    },
+    {
+      "id": "seq-39",
+      "source": "engine",
+      "fromFrame": 29851,
+      "durationFrames": 1025,
+      "durationSeconds": 34.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 110,
+          "sceneId": "scene-110",
+          "fromFrame": 29851,
+          "durationFrames": 209,
+          "role": "setup",
+          "narration": "Really In fact, neurochemical imaging shows the exact opposite is true."
+        },
+        {
+          "index": 111,
+          "sceneId": "scene-111",
+          "fromFrame": 30060,
+          "durationFrames": 274,
+          "role": "question",
+          "narration": "The humor, the absurdity, the bizarre exaggeration, these are the exact elements that chemically hoo"
+        },
+        {
+          "index": 112,
+          "sceneId": "scene-112",
+          "fromFrame": 30334,
+          "durationFrames": 278,
+          "role": "complication",
+          "narration": "and the hippocampus. So, it's biological. Yes. Your brain is evolutionarily wired through millions o"
+        },
+        {
+          "index": 113,
+          "sceneId": "scene-113",
+          "fromFrame": 30612,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "remember the extraordinary and forget the mundane. That makes A normal tiger in a jungle is expected"
+        }
+      ]
+    },
+    {
+      "id": "seq-40",
+      "source": "engine",
+      "fromFrame": 30876,
+      "durationFrames": 1106,
+      "durationSeconds": 36.9,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 114,
+          "sceneId": "scene-114",
+          "fromFrame": 30876,
+          "durationFrames": 240,
+          "role": "setup",
+          "narration": "A tiger drinking herbal gray tea out of a porcelain cup is highly anomalous, bizarre, and therefore "
+        },
+        {
+          "index": 115,
+          "sceneId": "scene-115",
+          "fromFrame": 31116,
+          "durationFrames": 365,
+          "role": "question",
+          "narration": "as must remember It's basically hacking the brain's evolutionary threat and novelty detection system"
+        },
+        {
+          "index": 116,
+          "sceneId": "scene-116",
+          "fromFrame": 31481,
+          "durationFrames": 278,
+          "role": "complication",
+          "narration": "environment. Precisely. You are deliberately creating a false anomaly. The absurdity is the neuroche"
+        },
+        {
+          "index": 117,
+          "sceneId": "scene-117",
+          "fromFrame": 31759,
+          "durationFrames": 223,
+          "role": "reveal",
+          "narration": "You aren't disrespecting the material. You are packaging it in the only language the brain's long-te"
+        }
+      ]
+    },
+    {
+      "id": "seq-41",
+      "source": "authored",
+      "fromFrame": 31982,
+      "durationFrames": 524,
+      "durationSeconds": 17.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 118,
+          "sceneId": "scene-118",
+          "fromFrame": 31982,
+          "durationFrames": 276,
+          "role": "authored-start",
+          "narration": "Which means we are proving the thesis again by taking the time and the cognitive effort to turn ster"
+        },
+        {
+          "index": 119,
+          "sceneId": "scene-119",
+          "fromFrame": 32258,
+          "durationFrames": 248,
+          "role": "authored-kept",
+          "narration": "energized movies. You prove that memory is deliberate design. Yes, you aren't just passively reading"
+        }
+      ]
+    },
+    {
+      "id": "seq-42",
+      "source": "engine",
+      "fromFrame": 32506,
+      "durationFrames": 1032,
+      "durationSeconds": 34.4,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 120,
+          "sceneId": "scene-120",
+          "fromFrame": 32506,
+          "durationFrames": 175,
+          "role": "setup",
+          "narration": "You are engaging in an active architectural construction. You are molding the data."
+        },
+        {
+          "index": 121,
+          "sceneId": "scene-121",
+          "fromFrame": 32681,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "But this naturally leads to the next structural problem. Because once you've crafted these incredibl"
+        },
+        {
+          "index": 122,
+          "sceneId": "scene-122",
+          "fromFrame": 32964,
+          "durationFrames": 353,
+          "role": "complication",
+          "narration": "which is where do you put them so you can find them again? Exactly. Because you now have a mental th"
+        },
+        {
+          "index": 123,
+          "sceneId": "scene-123",
+          "fromFrame": 33317,
+          "durationFrames": 221,
+          "role": "reveal",
+          "narration": "around in the dark void of your mind, they are going to get lost. Just a chaotic mess. You can't jus"
+        }
+      ]
+    },
+    {
+      "id": "seq-43",
+      "source": "engine",
+      "fromFrame": 33538,
+      "durationFrames": 1209,
+      "durationSeconds": 40.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 124,
+          "sceneId": "scene-124",
+          "fromFrame": 33538,
+          "durationFrames": 391,
+          "role": "setup",
+          "narration": "And to build that, we turn to the Losi method, which is also known as the root method or the memory "
+        },
+        {
+          "index": 125,
+          "sceneId": "scene-125",
+          "fromFrame": 33929,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "spatial navigation. Our brains were not evolved to remember Excel spreadsheets, alphabetical lists, "
+        },
+        {
+          "index": 126,
+          "sceneId": "scene-126",
+          "fromFrame": 34183,
+          "durationFrames": 307,
+          "role": "complication",
+          "narration": "For the vast majority of human history, survival depended on remembering routes through a dense fore"
+        },
+        {
+          "index": 127,
+          "sceneId": "scene-127",
+          "fromFrame": 34490,
+          "durationFrames": 257,
+          "role": "reveal",
+          "narration": "Our spatial memory is incredibly robust. Let's prove this right now. For you listening, I want you t"
+        }
+      ]
+    },
+    {
+      "id": "seq-44",
+      "source": "authored",
+      "fromFrame": 34747,
+      "durationFrames": 819,
+      "durationSeconds": 27.3,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 128,
+          "sceneId": "scene-128",
+          "fromFrame": 34747,
+          "durationFrames": 315,
+          "role": "authored-start",
+          "narration": "Imagine you were walking up to the old childhood home you grew up in. Even if you haven't lived ther"
+        },
+        {
+          "index": 129,
+          "sceneId": "scene-129",
+          "fromFrame": 35062,
+          "durationFrames": 189,
+          "role": "authored-kept",
+          "narration": "your mind's eye without even trying. You know exactly what room is to your left. You know where the "
+        },
+        {
+          "index": 130,
+          "sceneId": "scene-130",
+          "fromFrame": 35251,
+          "durationFrames": 315,
+          "role": "authored-kept",
+          "narration": "You can probably perfectly recall the exact spot on the hallway baseboard where the paint was scuffe"
+        }
+      ]
+    },
+    {
+      "id": "seq-45",
+      "source": "engine",
+      "fromFrame": 35566,
+      "durationFrames": 1058,
+      "durationSeconds": 35.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 131,
+          "sceneId": "scene-131",
+          "fromFrame": 35566,
+          "durationFrames": 153,
+          "role": "setup",
+          "narration": "Yes. You didn't study the blueprint of that house with flashcards. You just lived in it."
+        },
+        {
+          "index": 132,
+          "sceneId": "scene-132",
+          "fromFrame": 35719,
+          "durationFrames": 247,
+          "role": "question",
+          "narration": "And here's what that means for you as an information architect. Your brain effortlessly, almost auto"
+        },
+        {
+          "index": 133,
+          "sceneId": "scene-133",
+          "fromFrame": 35966,
+          "durationFrames": 281,
+          "role": "complication",
+          "narration": "It is permanent, deeply ingrained, highdefin data. The LOSI method works by taking those vivid exagg"
+        },
+        {
+          "index": 134,
+          "sceneId": "scene-134",
+          "fromFrame": 36247,
+          "durationFrames": 377,
+          "role": "reveal",
+          "narration": "and physically anchoring them to these fixed physical locations in your mental hooking them together"
+        }
+      ]
+    },
+    {
+      "id": "seq-46",
+      "source": "engine",
+      "fromFrame": 36624,
+      "durationFrames": 178,
+      "durationSeconds": 5.9,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 135,
+          "sceneId": "scene-135",
+          "fromFrame": 36624,
+          "durationFrames": 178,
+          "role": "reveal",
+          "narration": "The formula Horsely uses is beautifully simple and mechanically sound. Let's hear it."
+        }
+      ]
+    },
+    {
+      "id": "seq-47",
+      "source": "authored",
+      "fromFrame": 36802,
+      "durationFrames": 540,
+      "durationSeconds": 18,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 136,
+          "sceneId": "scene-136",
+          "fromFrame": 36802,
+          "durationFrames": 208,
+          "role": "authored-start",
+          "narration": "Your long-term memory, which is the deeply familiar house, plus your short-term memory, which is the"
+        },
+        {
+          "index": 137,
+          "sceneId": "scene-137",
+          "fromFrame": 37010,
+          "durationFrames": 332,
+          "role": "authored-kept",
+          "narration": "energized image of the new fact, equals a secure, easily retrievable medium-term memory. Let's do a "
+        }
+      ]
+    },
+    {
+      "id": "seq-48",
+      "source": "engine",
+      "fromFrame": 37342,
+      "durationFrames": 297,
+      "durationSeconds": 9.9,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 138,
+          "sceneId": "scene-138",
+          "fromFrame": 37342,
+          "durationFrames": 297,
+          "role": "reveal",
+          "narration": "Let's say you are a manager and you want to memorize the 12 keys of leadership from author John C. M"
+        }
+      ]
+    },
+    {
+      "id": "seq-49",
+      "source": "authored",
+      "fromFrame": 37639,
+      "durationFrames": 1001,
+      "durationSeconds": 33.4,
+      "sceneCount": 4,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 139,
+          "sceneId": "scene-139",
+          "fromFrame": 37639,
+          "durationFrames": 216,
+          "role": "authored-start",
+          "narration": "Instead of just making a bulleted list on a piece of paper and trying to memorize the text, you crea"
+        },
+        {
+          "index": 140,
+          "sceneId": "scene-140",
+          "fromFrame": 37855,
+          "durationFrames": 267,
+          "role": "authored-kept",
+          "narration": "You take the first abstract concept. Let's say the first key is vision. Okay, vision. You use the pr"
+        },
+        {
+          "index": 141,
+          "sceneId": "scene-141",
+          "fromFrame": 38122,
+          "durationFrames": 314,
+          "role": "authored-kept",
+          "narration": "Maybe a giant wet glowing eyeball. Now you mentally walk into your laundry room and you place that g"
+        },
+        {
+          "index": 142,
+          "sceneId": "scene-142",
+          "fromFrame": 38436,
+          "durationFrames": 204,
+          "role": "authored-kept",
+          "narration": "You literally see it there. You see it spinning around during the spin cycle. The second key of lead"
+        }
+      ]
+    },
+    {
+      "id": "seq-50",
+      "source": "engine",
+      "fromFrame": 38640,
+      "durationFrames": 679,
+      "durationSeconds": 22.6,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 143,
+          "sceneId": "scene-143",
+          "fromFrame": 38640,
+          "durationFrames": 360,
+          "role": "setup",
+          "narration": "You turn discipline into a physical object like a heavy cracking leather whip. Ouch. Okay. You walk "
+        },
+        {
+          "index": 144,
+          "sceneId": "scene-144",
+          "fromFrame": 39000,
+          "durationFrames": 319,
+          "role": "reveal",
+          "narration": "The fourth goes on your kitchen table. You physically in your mind walk from the laundry room to the"
+        }
+      ]
+    },
+    {
+      "id": "seq-51",
+      "source": "authored",
+      "fromFrame": 39319,
+      "durationFrames": 437,
+      "durationSeconds": 14.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 145,
+          "sceneId": "scene-145",
+          "fromFrame": 39319,
+          "durationFrames": 271,
+          "role": "authored-start",
+          "narration": "sequence. It's a mental walk, right? So when it is time to give the speech and retrieve the 12 abstr"
+        },
+        {
+          "index": 146,
+          "sceneId": "scene-146",
+          "fromFrame": 39590,
+          "durationFrames": 166,
+          "role": "authored-kept",
+          "narration": "You just take a calm mental walk through your house and look at what is sitting on your"
+        }
+      ]
+    },
+    {
+      "id": "seq-52",
+      "source": "engine",
+      "fromFrame": 39756,
+      "durationFrames": 672,
+      "durationSeconds": 22.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 147,
+          "sceneId": "scene-147",
+          "fromFrame": 39756,
+          "durationFrames": 372,
+          "role": "setup",
+          "narration": "You are actively harnessing the hippocampus's spatial mapping The hippocampus again. Yes, it contain"
+        },
+        {
+          "index": 148,
+          "sceneId": "scene-148",
+          "fromFrame": 40128,
+          "durationFrames": 300,
+          "role": "reveal",
+          "narration": "a place cell, retrieval becomes incredibly efficient. It's why you never forget where your bathroom "
+        }
+      ]
+    },
+    {
+      "id": "seq-53",
+      "source": "authored",
+      "fromFrame": 40428,
+      "durationFrames": 473,
+      "durationSeconds": 15.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 149,
+          "sceneId": "scene-149",
+          "fromFrame": 40428,
+          "durationFrames": 250,
+          "role": "authored-start",
+          "narration": "But I foresee a massive traffic jam Uh-oh. If I keep using my house to remember different lists, my "
+        },
+        {
+          "index": 150,
+          "sceneId": "scene-150",
+          "fromFrame": 40678,
+          "durationFrames": 223,
+          "role": "authored-kept",
+          "narration": "presentation notes for Tuesday's board meeting, won't all these absurd images eventually crash into "
+        }
+      ]
+    },
+    {
+      "id": "seq-54",
+      "source": "engine",
+      "fromFrame": 40901,
+      "durationFrames": 321,
+      "durationSeconds": 10.7,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 151,
+          "sceneId": "scene-151",
+          "fromFrame": 40901,
+          "durationFrames": 321,
+          "role": "reveal",
+          "narration": "Yeah. Am I going to be standing at the podium giving a highly sensitive presentation to the board of"
+        }
+      ]
+    },
+    {
+      "id": "seq-55",
+      "source": "authored",
+      "fromFrame": 41222,
+      "durationFrames": 615,
+      "durationSeconds": 20.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 152,
+          "sceneId": "scene-152",
+          "fromFrame": 41222,
+          "durationFrames": 375,
+          "role": "authored-start",
+          "narration": "list on my mental washing machine right next to the giant eyeball? Does the house get full? It is a "
+        },
+        {
+          "index": 153,
+          "sceneId": "scene-153",
+          "fromFrame": 41597,
+          "durationFrames": 240,
+          "role": "authored-kept",
+          "narration": "But it severely underestimates the sheer volume of spatial data your brain already holds in deep sto"
+        }
+      ]
+    },
+    {
+      "id": "seq-56",
+      "source": "engine",
+      "fromFrame": 41837,
+      "durationFrames": 1169,
+      "durationSeconds": 39,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 154,
+          "sceneId": "scene-154",
+          "fromFrame": 41837,
+          "durationFrames": 211,
+          "role": "setup",
+          "narration": "You don't just know your childhood home. You know your current apartment or house. You know the exac"
+        },
+        {
+          "index": 155,
+          "sceneId": "scene-155",
+          "fromFrame": 42048,
+          "durationFrames": 206,
+          "role": "question",
+          "narration": "You know your local grocery store aisle by aisle. Oh, that's true. You know the museum you visited o"
+        },
+        {
+          "index": 156,
+          "sceneId": "scene-156",
+          "fromFrame": 42254,
+          "durationFrames": 219,
+          "role": "partial_answer",
+          "narration": "You know the hallways of your high school. The human brain has thousands of highly detailed familiar"
+        },
+        {
+          "index": 157,
+          "sceneId": "scene-157",
+          "fromFrame": 42473,
+          "durationFrames": 247,
+          "role": "complication",
+          "narration": "So I have basically infinite houses. Exactly. If you need to memorize a new presentation, you simply"
+        },
+        {
+          "index": 158,
+          "sceneId": "scene-158",
+          "fromFrame": 42720,
+          "durationFrames": 286,
+          "role": "reveal",
+          "narration": "You put the presentation in your high school. You keep your groceries in your current kitchen. And y"
+        }
+      ]
+    },
+    {
+      "id": "seq-57",
+      "source": "engine",
+      "fromFrame": 43006,
+      "durationFrames": 343,
+      "durationSeconds": 11.4,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 159,
+          "sceneId": "scene-159",
+          "fromFrame": 43006,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "Furthermore, the brain is remarkably adept at clearing out temporary installations. If you don't con"
+        }
+      ]
+    },
+    {
+      "id": "seq-58",
+      "source": "authored",
+      "fromFrame": 43349,
+      "durationFrames": 626,
+      "durationSeconds": 20.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 160,
+          "sceneId": "scene-160",
+          "fromFrame": 43349,
+          "durationFrames": 290,
+          "role": "authored-start",
+          "narration": "leaving the mental space clean and ready for the next temporary list. You aren't just storing data i"
+        },
+        {
+          "index": 161,
+          "sceneId": "scene-161",
+          "fromFrame": 43639,
+          "durationFrames": 336,
+          "role": "authored-kept",
+          "narration": "You are taking advantage of a biological reality of human evolution. Memory is an active architectur"
+        }
+      ]
+    },
+    {
+      "id": "seq-59",
+      "source": "engine",
+      "fromFrame": 43975,
+      "durationFrames": 847,
+      "durationSeconds": 28.2,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 162,
+          "sceneId": "scene-162",
+          "fromFrame": 43975,
+          "durationFrames": 190,
+          "role": "setup",
+          "narration": "But let's scale this down because what if you don't need a massive 50 room memory palace,"
+        },
+        {
+          "index": 163,
+          "sceneId": "scene-163",
+          "fromFrame": 44165,
+          "durationFrames": 345,
+          "role": "question",
+          "narration": "Sometimes you don't need to memorize a textbook, a TED talk, or an entire corporate presentation. So"
+        },
+        {
+          "index": 164,
+          "sceneId": "scene-164",
+          "fromFrame": 44510,
+          "durationFrames": 312,
+          "role": "reveal",
+          "narration": "Right? What if you just need to remember a five-point meeting agenda or six key features for a sales"
+        }
+      ]
+    },
+    {
+      "id": "seq-60",
+      "source": "authored",
+      "fromFrame": 44822,
+      "durationFrames": 1220,
+      "durationSeconds": 40.7,
+      "sceneCount": 6,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 165,
+          "sceneId": "scene-165",
+          "fromFrame": 44822,
+          "durationFrames": 226,
+          "role": "authored-start",
+          "narration": "Exactly. For that, we move to a variation called the peg and car method. Okay. The peg and car metho"
+        },
+        {
+          "index": 166,
+          "sceneId": "scene-166",
+          "fromFrame": 45048,
+          "durationFrames": 257,
+          "role": "authored-kept",
+          "narration": "This is all about building systematic short lists. Think of this as having a temporary portable scaf"
+        },
+        {
+          "index": 167,
+          "sceneId": "scene-167",
+          "fromFrame": 45305,
+          "durationFrames": 223,
+          "role": "authored-kept",
+          "narration": "It's a smaller, more intimate memory palace. Imagine this scene. You are sitting in the driver's sea"
+        },
+        {
+          "index": 168,
+          "sceneId": "scene-168",
+          "fromFrame": 45528,
+          "durationFrames": 166,
+          "role": "authored-kept",
+          "narration": "You grip the textured leather of the steering wheel. You look down at the illuminated dashboard."
+        },
+        {
+          "index": 169,
+          "sceneId": "scene-169",
+          "fromFrame": 45694,
+          "durationFrames": 141,
+          "role": "authored-kept",
+          "narration": "Then you glance up at the rear view mirror. Then down to the gear shift."
+        },
+        {
+          "index": 170,
+          "sceneId": "scene-170",
+          "fromFrame": 45835,
+          "durationFrames": 207,
+          "role": "authored-kept",
+          "narration": "Then over to the passenger seat. You know it perfectly. You know the geography of your car perfectly"
+        }
+      ]
+    },
+    {
+      "id": "seq-61",
+      "source": "engine",
+      "fromFrame": 46042,
+      "durationFrames": 981,
+      "durationSeconds": 32.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 171,
+          "sceneId": "scene-171",
+          "fromFrame": 46042,
+          "durationFrames": 201,
+          "role": "setup",
+          "narration": "It is a confined, highly structured space that you occupy almost every day. Here is what that means "
+        },
+        {
+          "index": 172,
+          "sceneId": "scene-172",
+          "fromFrame": 46243,
+          "durationFrames": 240,
+          "role": "question",
+          "narration": "You can use the built-in sequential compartments of your car or even your own physical body parts to"
+        },
+        {
+          "index": 173,
+          "sceneId": "scene-173",
+          "fromFrame": 46483,
+          "durationFrames": 315,
+          "role": "complication",
+          "narration": "Oh wow. It acts as a permanent pegboard in your mind because you always know logically and physicall"
+        },
+        {
+          "index": 174,
+          "sceneId": "scene-174",
+          "fromFrame": 46798,
+          "durationFrames": 225,
+          "role": "reveal",
+          "narration": "You can't mix it up, right? You can attach information to the specific locations and never confuse t"
+        }
+      ]
+    },
+    {
+      "id": "seq-62",
+      "source": "engine",
+      "fromFrame": 47023,
+      "durationFrames": 737,
+      "durationSeconds": 24.6,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 175,
+          "sceneId": "scene-175",
+          "fromFrame": 47023,
+          "durationFrames": 399,
+          "role": "setup",
+          "narration": "Horesley offers a few amazing variations of this pegging concept. One is the rhyming peg method. You"
+        },
+        {
+          "index": 176,
+          "sceneId": "scene-176",
+          "fromFrame": 47422,
+          "durationFrames": 338,
+          "role": "reveal",
+          "narration": "shoe, three is tree, four is door, five is hive. These are your permanent unchangeable hooks. let's "
+        }
+      ]
+    },
+    {
+      "id": "seq-63",
+      "source": "authored",
+      "fromFrame": 47760,
+      "durationFrames": 593,
+      "durationSeconds": 19.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 177,
+          "sceneId": "scene-177",
+          "fromFrame": 47760,
+          "durationFrames": 310,
+          "role": "authored-start",
+          "narration": "For number one, the first emotion is love. You don't just think of the word. You imagine a giant war"
+        },
+        {
+          "index": 178,
+          "sceneId": "scene-178",
+          "fromFrame": 48070,
+          "durationFrames": 283,
+          "role": "authored-kept",
+          "narration": "violently beating anatomically correct A very visceral image, right? For number two, the emotion is "
+        }
+      ]
+    },
+    {
+      "id": "seq-64",
+      "source": "engine",
+      "fromFrame": 48353,
+      "durationFrames": 1209,
+      "durationSeconds": 40.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 179,
+          "sceneId": "scene-179",
+          "fromFrame": 48353,
+          "durationFrames": 348,
+          "role": "setup",
+          "narration": "and someone is bowing down on the ground intensely and tearfully thanking the They're grateful to th"
+        },
+        {
+          "index": 180,
+          "sceneId": "scene-180",
+          "fromFrame": 48701,
+          "durationFrames": 218,
+          "role": "partial_answer",
+          "narration": "Alternatively, you can use the body method. Using your own anatomy as Loki, let's say you want to re"
+        },
+        {
+          "index": 181,
+          "sceneId": "scene-181",
+          "fromFrame": 48919,
+          "durationFrames": 334,
+          "role": "question",
+          "narration": "For creative intelligence, you imagine you are standing barefoot on a massive burning, brilliantly g"
+        },
+        {
+          "index": 182,
+          "sceneId": "scene-182",
+          "fromFrame": 49253,
+          "durationFrames": 309,
+          "role": "reveal",
+          "narration": "That last detail is crucial. You are utilizing the sensory cortex by imagining the feeling of heat w"
+        }
+      ]
+    },
+    {
+      "id": "seq-65",
+      "source": "authored",
+      "fromFrame": 49562,
+      "durationFrames": 408,
+      "durationSeconds": 13.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 183,
+          "sceneId": "scene-183",
+          "fromFrame": 49562,
+          "durationFrames": 176,
+          "role": "authored-start",
+          "narration": "But let me hit pause on this because I have a major psychological hurdle with the rhyming pegs. Okay"
+        },
+        {
+          "index": 184,
+          "sceneId": "scene-184",
+          "fromFrame": 49738,
+          "durationFrames": 232,
+          "role": "authored-kept",
+          "narration": "Isn't memorizing a list of rhyming pegs? One is bun, two is shoe, three is tree. Just adding more us"
+        }
+      ]
+    },
+    {
+      "id": "seq-66",
+      "source": "authored",
+      "fromFrame": 49970,
+      "durationFrames": 480,
+      "durationSeconds": 16,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 185,
+          "sceneId": "scene-185",
+          "fromFrame": 49970,
+          "durationFrames": 240,
+          "role": "authored-start",
+          "narration": "A lot of people feel that way. I have to sit down and memorize a nursery rhyme before I can even get"
+        },
+        {
+          "index": 186,
+          "sceneId": "scene-186",
+          "fromFrame": 50210,
+          "durationFrames": 240,
+          "role": "authored-kept",
+          "narration": "It feels like adding an unnecessary layer of cognitive load to an already overworked brain. It absol"
+        }
+      ]
+    },
+    {
+      "id": "seq-67",
+      "source": "engine",
+      "fromFrame": 50450,
+      "durationFrames": 1157,
+      "durationSeconds": 38.6,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 187,
+          "sceneId": "scene-187",
+          "fromFrame": 50450,
+          "durationFrames": 178,
+          "role": "setup",
+          "narration": "It feels like a detour. A huge detour. But think of it like building a physical walk-in closet in yo"
+        },
+        {
+          "index": 188,
+          "sceneId": "scene-188",
+          "fromFrame": 50628,
+          "durationFrames": 221,
+          "role": "question",
+          "narration": "Yes, it takes time, energy, money, and effort to go to the hardware store, buy the wood, measure the"
+        },
+        {
+          "index": 189,
+          "sceneId": "scene-189",
+          "fromFrame": 50849,
+          "durationFrames": 221,
+          "role": "complication",
+          "narration": "building the shelves is extra upfront work. But once those shelves are built, you never have to buil"
+        },
+        {
+          "index": 190,
+          "sceneId": "scene-190",
+          "fromFrame": 51070,
+          "durationFrames": 254,
+          "role": "complication",
+          "narration": "And from that day forward, your clothes never end up in a disorganized, chaotic, wrinkled pile on th"
+        },
+        {
+          "index": 191,
+          "sceneId": "scene-191",
+          "fromFrame": 51324,
+          "durationFrames": 283,
+          "role": "reveal",
+          "narration": "to your entire wardrobe. So the pegs are the shelves. Exactly. The rhyming pegs, the car compartment"
+        }
+      ]
+    },
+    {
+      "id": "seq-68",
+      "source": "engine",
+      "fromFrame": 51607,
+      "durationFrames": 1111,
+      "durationSeconds": 37,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 192,
+          "sceneId": "scene-192",
+          "fromFrame": 51607,
+          "durationFrames": 353,
+          "role": "setup",
+          "narration": "The upfront cognitive investment of memorizing one is bun takes maybe 10 Not long at all, right? And"
+        },
+        {
+          "index": 193,
+          "sceneId": "scene-193",
+          "fromFrame": 51960,
+          "durationFrames": 254,
+          "role": "question",
+          "narration": "So once again, you are intentionally building permanent shelves in your mind before you try to store"
+        },
+        {
+          "index": 194,
+          "sceneId": "scene-194",
+          "fromFrame": 52214,
+          "durationFrames": 291,
+          "role": "complication",
+          "narration": "happen to you. It is deliberate design which acts as a perfect segue into perhaps the most highstake"
+        },
+        {
+          "index": 195,
+          "sceneId": "scene-195",
+          "fromFrame": 52505,
+          "durationFrames": 213,
+          "role": "reveal",
+          "narration": "Moving away from lists and numbers, let's talk about human beings. Ah, yes, the ultimate stress"
+        }
+      ]
+    },
+    {
+      "id": "seq-69",
+      "source": "engine",
+      "fromFrame": 52718,
+      "durationFrames": 1140,
+      "durationSeconds": 38,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 196,
+          "sceneId": "scene-196",
+          "fromFrame": 52718,
+          "durationFrames": 197,
+          "role": "setup",
+          "narration": "inducing test of our mental architecture. We've covered abstract concepts. We've covered lists and s"
+        },
+        {
+          "index": 197,
+          "sceneId": "scene-197",
+          "fromFrame": 52915,
+          "durationFrames": 226,
+          "role": "question",
+          "narration": "But let's apply this architectural design to names and faces So important. We have all lived this ni"
+        },
+        {
+          "index": 198,
+          "sceneId": "scene-198",
+          "fromFrame": 53141,
+          "durationFrames": 221,
+          "role": "partial_answer",
+          "narration": "You're standing at a high-end networking cocktail party. The room is loud. The clinking of glasses i"
+        },
+        {
+          "index": 199,
+          "sceneId": "scene-199",
+          "fromFrame": 53362,
+          "durationFrames": 204,
+          "role": "complication",
+          "narration": "You walk up to a crucial potential client. You shake hands. They smile. And they introduce themselve"
+        },
+        {
+          "index": 200,
+          "sceneId": "scene-200",
+          "fromFrame": 53566,
+          "durationFrames": 292,
+          "role": "reveal",
+          "narration": "You exchange pleasantries, ask how the appetizers are. And literally 5 seconds after they said their"
+        }
+      ]
+    },
+    {
+      "id": "seq-70",
+      "source": "authored",
+      "fromFrame": 53858,
+      "durationFrames": 519,
+      "durationSeconds": 17.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 201,
+          "sceneId": "scene-201",
+          "fromFrame": 53858,
+          "durationFrames": 255,
+          "role": "authored-start",
+          "narration": "Panic sets in. You are nodding, smiling, and internally panicking because you realize you are going "
+        },
+        {
+          "index": 202,
+          "sceneId": "scene-202",
+          "fromFrame": 54113,
+          "durationFrames": 264,
+          "role": "authored-kept",
+          "narration": "And you have zero idea how to solve this and you're stuck. It is a universal social crisis and it ca"
+        }
+      ]
+    },
+    {
+      "id": "seq-71",
+      "source": "engine",
+      "fromFrame": 54377,
+      "durationFrames": 1137,
+      "durationSeconds": 37.9,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 203,
+          "sceneId": "scene-203",
+          "fromFrame": 54377,
+          "durationFrames": 223,
+          "role": "setup",
+          "narration": "But here is what that means for you fundamentally. There is no such thing as a bad memory for There "
+        },
+        {
+          "index": 204,
+          "sceneId": "scene-204",
+          "fromFrame": 54600,
+          "durationFrames": 197,
+          "role": "question",
+          "narration": "There's only a bad strategy. When you blank on a name after 5 seconds, it isn't because your memory "
+        },
+        {
+          "index": 205,
+          "sceneId": "scene-205",
+          "fromFrame": 54797,
+          "durationFrames": 199,
+          "role": "partial_answer",
+          "narration": "It is because your memory was never engaged. You weren't paying attention. You were never actually l"
+        },
+        {
+          "index": 206,
+          "sceneId": "scene-206",
+          "fromFrame": 54996,
+          "durationFrames": 317,
+          "role": "complication",
+          "narration": "During that handshake, you were worrying about your posture, thinking about what clever thing you we"
+        },
+        {
+          "index": 207,
+          "sceneId": "scene-207",
+          "fromFrame": 55313,
+          "durationFrames": 201,
+          "role": "reveal",
+          "narration": "Classic divided Your attention was entirely internal. To master names, you must"
+        }
+      ]
+    },
+    {
+      "id": "seq-72",
+      "source": "engine",
+      "fromFrame": 55514,
+      "durationFrames": 992,
+      "durationSeconds": 33.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 208,
+          "sceneId": "scene-208",
+          "fromFrame": 55514,
+          "durationFrames": 288,
+          "role": "setup",
+          "narration": "shift your focus entirely outward. You must listen with total presence, visually scan for an outstan"
+        },
+        {
+          "index": 209,
+          "sceneId": "scene-209",
+          "fromFrame": 55802,
+          "durationFrames": 341,
+          "role": "question",
+          "narration": "and anchor an absurd image directly to that physical landmark. Let's get very specific on Horesley's"
+        },
+        {
+          "index": 210,
+          "sceneId": "scene-210",
+          "fromFrame": 56143,
+          "durationFrames": 363,
+          "role": "reveal",
+          "narration": "It's a bit ruthless. Yes. Let's say you meet a woman named Janice. First, you have to actively look "
+        }
+      ]
+    },
+    {
+      "id": "seq-73",
+      "source": "engine",
+      "fromFrame": 56506,
+      "durationFrames": 1072,
+      "durationSeconds": 35.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 211,
+          "sceneId": "scene-211",
+          "fromFrame": 56506,
+          "durationFrames": 189,
+          "role": "setup",
+          "narration": "bright blue eyes. Okay, the blue eyes. That feature becomes your physical locust, your mental peg."
+        },
+        {
+          "index": 212,
+          "sceneId": "scene-212",
+          "fromFrame": 56695,
+          "durationFrames": 348,
+          "role": "partial_answer",
+          "narration": "Now, you convert the abstract, meaningless sound of the name Janice into a picture. Janice sounds ph"
+        },
+        {
+          "index": 213,
+          "sceneId": "scene-213",
+          "fromFrame": 57043,
+          "durationFrames": 303,
+          "role": "question",
+          "narration": "in your mental theater, you vividly imagine a heavy, freezing, clinking chain made entirely of ice f"
+        },
+        {
+          "index": 214,
+          "sceneId": "scene-214",
+          "fromFrame": 57346,
+          "durationFrames": 232,
+          "role": "reveal",
+          "narration": "It's absurd, so it sticks. Or you meet a man named Peter. You scan his face and notice he has a rath"
+        }
+      ]
+    },
+    {
+      "id": "seq-74",
+      "source": "engine",
+      "fromFrame": 57578,
+      "durationFrames": 802,
+      "durationSeconds": 26.7,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 215,
+          "sceneId": "scene-215",
+          "fromFrame": 57578,
+          "durationFrames": 255,
+          "role": "setup",
+          "narration": "Peter sounds like pee eater. You imagine a giant wet green pee being aggressively chomped and eaten "
+        },
+        {
+          "index": 216,
+          "sceneId": "scene-216",
+          "fromFrame": 57833,
+          "durationFrames": 261,
+          "role": "question",
+          "narration": "You are connecting the unknown data, the arbitrary sound of the new name, to the known permanent dat"
+        },
+        {
+          "index": 217,
+          "sceneId": "scene-217",
+          "fromFrame": 58094,
+          "durationFrames": 286,
+          "role": "reveal",
+          "narration": "Next time you see Peter, you will naturally look at his prominent nose and the image of the P will t"
+        }
+      ]
+    },
+    {
+      "id": "seq-75",
+      "source": "authored",
+      "fromFrame": 58380,
+      "durationFrames": 533,
+      "durationSeconds": 17.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 218,
+          "sceneId": "scene-218",
+          "fromFrame": 58380,
+          "durationFrames": 365,
+          "role": "authored-start",
+          "narration": "If I am standing two feet away from someone, focusing incredibly intensely on a physical flaw like a"
+        },
+        {
+          "index": 219,
+          "sceneId": "scene-219",
+          "fromFrame": 58745,
+          "durationFrames": 168,
+          "role": "authored-kept",
+          "narration": "and then I'm mentally imagining a giant pee being eaten by their nose."
+        }
+      ]
+    },
+    {
+      "id": "seq-76",
+      "source": "engine",
+      "fromFrame": 58913,
+      "durationFrames": 1190,
+      "durationSeconds": 39.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 220,
+          "sceneId": "scene-220",
+          "fromFrame": 58913,
+          "durationFrames": 341,
+          "role": "setup",
+          "narration": "Aren't I going to start laughing right in their face? Or aren't they going to catch me aggressively,"
+        },
+        {
+          "index": 221,
+          "sceneId": "scene-221",
+          "fromFrame": 59254,
+          "durationFrames": 362,
+          "role": "question",
+          "narration": "composure. Certainly, it requires practice to keep a straight face. I would hope so. But you have to"
+        },
+        {
+          "index": 222,
+          "sceneId": "scene-222",
+          "fromFrame": 59616,
+          "durationFrames": 197,
+          "role": "complication",
+          "narration": "Furthermore, the act of searching for a distinctive feature actually forces you to genuinely look at"
+        },
+        {
+          "index": 223,
+          "sceneId": "scene-223",
+          "fromFrame": 59813,
+          "durationFrames": 290,
+          "role": "reveal",
+          "narration": "instead of looking past them. Right? In modern networking, most people never make true sustained eye"
+        }
+      ]
+    },
+    {
+      "id": "seq-77",
+      "source": "engine",
+      "fromFrame": 60103,
+      "durationFrames": 1219,
+      "durationSeconds": 40.6,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 224,
+          "sceneId": "scene-224",
+          "fromFrame": 60103,
+          "durationFrames": 199,
+          "role": "setup",
+          "narration": "By scanning their face to build your mental image, you are giving them intense, focused, undivided a"
+        },
+        {
+          "index": 225,
+          "sceneId": "scene-225",
+          "fromFrame": 60302,
+          "durationFrames": 221,
+          "role": "question",
+          "narration": "which people like. this intense observation actually makes you appear highly charismatic,"
+        },
+        {
+          "index": 226,
+          "sceneId": "scene-226",
+          "fromFrame": 60523,
+          "durationFrames": 156,
+          "role": "partial_answer",
+          "narration": "confident, and present to the other person. People crave being truly seen."
+        },
+        {
+          "index": 227,
+          "sceneId": "scene-227",
+          "fromFrame": 60679,
+          "durationFrames": 252,
+          "role": "complication",
+          "narration": "That's a good point. The only strict non-negotiable rule Horley emphasizes is that you must never ev"
+        },
+        {
+          "index": 228,
+          "sceneId": "scene-228",
+          "fromFrame": 60931,
+          "durationFrames": 391,
+          "role": "reveal",
+          "narration": "Oh god, no. He tells a hilarious but cautionary tale in the book of meeting a woman named Hazel. Lat"
+        }
+      ]
+    },
+    {
+      "id": "seq-78",
+      "source": "engine",
+      "fromFrame": 61322,
+      "durationFrames": 672,
+      "durationSeconds": 22.4,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 229,
+          "sceneId": "scene-229",
+          "fromFrame": 61322,
+          "durationFrames": 339,
+          "role": "setup",
+          "narration": "hazelnut in place of her head. Oh no. She was deeply offended and the rapport was ruined. The archit"
+        },
+        {
+          "index": 230,
+          "sceneId": "scene-230",
+          "fromFrame": 61661,
+          "durationFrames": 333,
+          "role": "reveal",
+          "narration": "The secret internal scaffold. By taking a fleeting invisible sound and converting it into a structur"
+        }
+      ]
+    },
+    {
+      "id": "seq-79",
+      "source": "authored",
+      "fromFrame": 61994,
+      "durationFrames": 351,
+      "durationSeconds": 11.7,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 231,
+          "sceneId": "scene-231",
+          "fromFrame": 61994,
+          "durationFrames": 188,
+          "role": "authored-start",
+          "narration": "an active architectural construction. But here is the next evolutionary challenge."
+        },
+        {
+          "index": 232,
+          "sceneId": "scene-232",
+          "fromFrame": 62182,
+          "durationFrames": 163,
+          "role": "authored-kept",
+          "narration": "Faces have topography. They have features, curves, and colors we can physically hook onto."
+        }
+      ]
+    },
+    {
+      "id": "seq-80",
+      "source": "engine",
+      "fromFrame": 62345,
+      "durationFrames": 1221,
+      "durationSeconds": 40.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 233,
+          "sceneId": "scene-233",
+          "fromFrame": 62345,
+          "durationFrames": 379,
+          "role": "setup",
+          "narration": "Houses have rooms. What happens when the data you need to memorize has absolutely no topography You "
+        },
+        {
+          "index": 234,
+          "sceneId": "scene-234",
+          "fromFrame": 62724,
+          "durationFrames": 283,
+          "role": "question",
+          "narration": "Remembering numbers with the phonetic system, sometimes called the major Numbers are completely arbi"
+        },
+        {
+          "index": 235,
+          "sceneId": "scene-235",
+          "fromFrame": 63007,
+          "durationFrames": 199,
+          "role": "complication",
+          "narration": "The brain hates them. Our biological storydriven huntergatherer brains naturally reject them."
+        },
+        {
+          "index": 236,
+          "sceneId": "scene-236",
+          "fromFrame": 63206,
+          "durationFrames": 360,
+          "role": "reveal",
+          "narration": "How do we design a mental structure for pure sterile mathematics? We have to translate the mathemati"
+        }
+      ]
+    },
+    {
+      "id": "seq-81",
+      "source": "authored",
+      "fromFrame": 63566,
+      "durationFrames": 636,
+      "durationSeconds": 21.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 237,
+          "sceneId": "scene-237",
+          "fromFrame": 63566,
+          "durationFrames": 341,
+          "role": "authored-start",
+          "narration": "right Picture this scenario. You are staring at a massive financial spreadsheet for an upcoming merg"
+        },
+        {
+          "index": 238,
+          "sceneId": "scene-238",
+          "fromFrame": 63907,
+          "durationFrames": 295,
+          "role": "authored-kept",
+          "narration": "memorize historical dates for a history exam. It's just a wall of numbers. You stare at the page and"
+        }
+      ]
+    },
+    {
+      "id": "seq-82",
+      "source": "authored",
+      "fromFrame": 64202,
+      "durationFrames": 555,
+      "durationSeconds": 18.5,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 239,
+          "sceneId": "scene-239",
+          "fromFrame": 64202,
+          "durationFrames": 221,
+          "role": "authored-start",
+          "narration": "A seven looks a bit like a one. An eight is just a squiggly line. There is absolutely no emotional r"
+        },
+        {
+          "index": 240,
+          "sceneId": "scene-240",
+          "fromFrame": 64423,
+          "durationFrames": 334,
+          "role": "authored-kept",
+          "narration": "It's just geometry. Here is what that means for you cognitively. To remember numbers effortlessly, y"
+        }
+      ]
+    },
+    {
+      "id": "seq-83",
+      "source": "engine",
+      "fromFrame": 64757,
+      "durationFrames": 681,
+      "durationSeconds": 22.7,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 241,
+          "sceneId": "scene-241",
+          "fromFrame": 64757,
+          "durationFrames": 381,
+          "role": "setup",
+          "narration": "The working memory will drop them. So what do you do? You have to decode the cold symbols into tangi"
+        },
+        {
+          "index": 242,
+          "sceneId": "scene-242",
+          "fromFrame": 65138,
+          "durationFrames": 300,
+          "role": "reveal",
+          "narration": "sounds to build tangible visual words. This is the phonetic system. And I will warn you, it is argua"
+        }
+      ]
+    },
+    {
+      "id": "seq-84",
+      "source": "authored",
+      "fromFrame": 65438,
+      "durationFrames": 884,
+      "durationSeconds": 29.5,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 243,
+          "sceneId": "scene-243",
+          "fromFrame": 65438,
+          "durationFrames": 257,
+          "role": "authored-start",
+          "narration": "It takes some work. Let's walk through exactly how the code works. Every digit from 0 to 9 is perman"
+        },
+        {
+          "index": 244,
+          "sceneId": "scene-244",
+          "fromFrame": 65695,
+          "durationFrames": 363,
+          "role": "authored-kept",
+          "narration": "how the mouth physically moves to make the sound. For example, the number one is assigned the T or D"
+        },
+        {
+          "index": 245,
+          "sceneId": "scene-245",
+          "fromFrame": 66058,
+          "durationFrames": 264,
+          "role": "authored-kept",
+          "narration": "or P sound because a P looks like a backward nine. Visual clues. Yeah. The number zero is an S or Z "
+        }
+      ]
+    },
+    {
+      "id": "seq-85",
+      "source": "engine",
+      "fromFrame": 66322,
+      "durationFrames": 170,
+      "durationSeconds": 5.7,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 246,
+          "sceneId": "scene-246",
+          "fromFrame": 66322,
+          "durationFrames": 170,
+          "role": "reveal",
+          "narration": "So, let's say you need to memorize the year the Nobel Prize was first awarded, which is 1901."
+        }
+      ]
+    },
+    {
+      "id": "seq-86",
+      "source": "authored",
+      "fromFrame": 66492,
+      "durationFrames": 857,
+      "durationSeconds": 28.6,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 247,
+          "sceneId": "scene-247",
+          "fromFrame": 66492,
+          "durationFrames": 326,
+          "role": "authored-start",
+          "narration": "Instead of repeating 1 9 0 1, you translate it through the code. Okay, let's translate. One is T, 9 "
+        },
+        {
+          "index": 248,
+          "sceneId": "scene-248",
+          "fromFrame": 66818,
+          "durationFrames": 202,
+          "role": "authored-kept",
+          "narration": "You have the consonant skeleton. T P S T. Now, to make it a word, you insert vowels."
+        },
+        {
+          "index": 249,
+          "sceneId": "scene-249",
+          "fromFrame": 67020,
+          "durationFrames": 329,
+          "role": "authored-kept",
+          "narration": "Vowels have absolutely no numerical value in the system. They are just wild cards used to build word"
+        }
+      ]
+    },
+    {
+      "id": "seq-87",
+      "source": "engine",
+      "fromFrame": 67349,
+      "durationFrames": 871,
+      "durationSeconds": 29,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 250,
+          "sceneId": "scene-250",
+          "fromFrame": 67349,
+          "durationFrames": 259,
+          "role": "setup",
+          "narration": "moment. Just focus on the core pasta. 1901 is pasta. So you create a vibrant mental movie of a digni"
+        },
+        {
+          "index": 251,
+          "sceneId": "scene-251",
+          "fromFrame": 67608,
+          "durationFrames": 348,
+          "role": "question",
+          "narration": "But instead of handing the laurate a gold medal, the king of Sweden hands them a giant steaming mess"
+        },
+        {
+          "index": 252,
+          "sceneId": "scene-252",
+          "fromFrame": 67956,
+          "durationFrames": 264,
+          "role": "reveal",
+          "narration": "as we established earlier, the hippocampus absolutely loves. You've turned abstract math into a mess"
+        }
+      ]
+    },
+    {
+      "id": "seq-88",
+      "source": "authored",
+      "fromFrame": 68220,
+      "durationFrames": 394,
+      "durationSeconds": 13.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 253,
+          "sceneId": "scene-253",
+          "fromFrame": 68220,
+          "durationFrames": 235,
+          "role": "authored-start",
+          "narration": "The first electronic computer was developed in 1942. 9 is B. Four is an R sound."
+        },
+        {
+          "index": 254,
+          "sceneId": "scene-254",
+          "fromFrame": 68455,
+          "durationFrames": 159,
+          "role": "authored-kept",
+          "narration": "Two is an N sound. B R N. B R N."
+        }
+      ]
+    },
+    {
+      "id": "seq-89",
+      "source": "engine",
+      "fromFrame": 68614,
+      "durationFrames": 376,
+      "durationSeconds": 12.5,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 255,
+          "sceneId": "scene-255",
+          "fromFrame": 68614,
+          "durationFrames": 376,
+          "role": "reveal",
+          "narration": "Add an A and you get barn. You vividly imagine walking up to an old red wooden agricultural barn, op"
+        }
+      ]
+    },
+    {
+      "id": "seq-90",
+      "source": "authored",
+      "fromFrame": 68990,
+      "durationFrames": 653,
+      "durationSeconds": 21.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 256,
+          "sceneId": "scene-256",
+          "fromFrame": 68990,
+          "durationFrames": 346,
+          "role": "authored-start",
+          "narration": "humming with electricity. 1942 is a barn. It's brilliant. But I am going to push back incredibly har"
+        },
+        {
+          "index": 257,
+          "sceneId": "scene-257",
+          "fromFrame": 69336,
+          "durationFrames": 307,
+          "role": "authored-kept",
+          "narration": "Learning a whole new phonetic alphabet. That sounds insane to the average person. That sounds like t"
+        }
+      ]
+    },
+    {
+      "id": "seq-91",
+      "source": "engine",
+      "fromFrame": 69643,
+      "durationFrames": 775,
+      "durationSeconds": 25.8,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 258,
+          "sceneId": "scene-258",
+          "fromFrame": 69643,
+          "durationFrames": 221,
+          "role": "setup",
+          "narration": "It's a heavy lift. The upfront cognitive cost and the hours required to memorize which phonetic soun"
+        },
+        {
+          "index": 259,
+          "sceneId": "scene-259",
+          "fromFrame": 69864,
+          "durationFrames": 211,
+          "role": "question",
+          "narration": "seems vastly disproportionate to the benefit. Most people are just going to say I'll just put the nu"
+        },
+        {
+          "index": 260,
+          "sceneId": "scene-260",
+          "fromFrame": 70075,
+          "durationFrames": 343,
+          "role": "reveal",
+          "narration": "I completely concede that the phonetic system has the steepest initial learning curve of any techniq"
+        }
+      ]
+    },
+    {
+      "id": "seq-92",
+      "source": "authored",
+      "fromFrame": 70418,
+      "durationFrames": 593,
+      "durationSeconds": 19.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 261,
+          "sceneId": "scene-261",
+          "fromFrame": 70418,
+          "durationFrames": 368,
+          "role": "authored-start",
+          "narration": "exponential returns on investment. Yes, taking the time to embed the 0 to9 code into your subconscio"
+        },
+        {
+          "index": 262,
+          "sceneId": "scene-262",
+          "fromFrame": 70786,
+          "durationFrames": 225,
+          "role": "authored-kept",
+          "narration": "translates abstract data into concrete imagery almost instantaneously without conscious effort. Real"
+        }
+      ]
+    },
+    {
+      "id": "seq-93",
+      "source": "engine",
+      "fromFrame": 71011,
+      "durationFrames": 1099,
+      "durationSeconds": 36.6,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 263,
+          "sceneId": "scene-263",
+          "fromFrame": 71011,
+          "durationFrames": 281,
+          "role": "setup",
+          "narration": "Yes. International memory masters use this exact precise system to memorize a random meaningless 50-"
+        },
+        {
+          "index": 264,
+          "sceneId": "scene-264",
+          "fromFrame": 71292,
+          "durationFrames": 331,
+          "role": "question",
+          "narration": "Wow. Think about the professional application. It grants you a level of cognitive fluidity with fina"
+        },
+        {
+          "index": 265,
+          "sceneId": "scene-265",
+          "fromFrame": 71623,
+          "durationFrames": 250,
+          "role": "complication",
+          "narration": "You aren't just memorizing a pin number. You are fundamentally upgrading your brain's operating syst"
+        },
+        {
+          "index": 266,
+          "sceneId": "scene-266",
+          "fromFrame": 71873,
+          "durationFrames": 237,
+          "role": "reveal",
+          "narration": "You're turning numbers into nouns. Numbers aren't meant to be mechanically recorded. They must be cr"
+        }
+      ]
+    },
+    {
+      "id": "seq-94",
+      "source": "engine",
+      "fromFrame": 72110,
+      "durationFrames": 293,
+      "durationSeconds": 9.8,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 267,
+          "sceneId": "scene-267",
+          "fromFrame": 72110,
+          "durationFrames": 293,
+          "role": "reveal",
+          "narration": "Real memory, especially with the hardest, coldest data, is deliberate But here is the tragic part of"
+        }
+      ]
+    },
+    {
+      "id": "seq-95",
+      "source": "authored",
+      "fromFrame": 72403,
+      "durationFrames": 653,
+      "durationSeconds": 21.8,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 268,
+          "sceneId": "scene-268",
+          "fromFrame": 72403,
+          "durationFrames": 250,
+          "role": "authored-start",
+          "narration": "You've done the work. You've built the memory palace. You've placed the giant eyeball in the washing"
+        },
+        {
+          "index": 269,
+          "sceneId": "scene-269",
+          "fromFrame": 72653,
+          "durationFrames": 403,
+          "role": "authored-kept",
+          "narration": "You've put the supercomput in the barn. The architecture is complete. But architecture, no matter ho"
+        }
+      ]
+    },
+    {
+      "id": "seq-96",
+      "source": "engine",
+      "fromFrame": 73056,
+      "durationFrames": 533,
+      "durationSeconds": 17.8,
+      "sceneCount": 2,
+      "curiosityArc": [
+        "setup",
+        "question"
+      ],
+      "beats": [
+        {
+          "index": 270,
+          "sceneId": "scene-270",
+          "fromFrame": 73056,
+          "durationFrames": 305,
+          "role": "setup",
+          "narration": "In the human brain, the destructive elements are time and interference. This brings us to the crucia"
+        },
+        {
+          "index": 271,
+          "sceneId": "scene-271",
+          "fromFrame": 73361,
+          "durationFrames": 228,
+          "role": "reveal",
+          "narration": "Imagine walking out of an amazing multi-day professional conference. Feeling super inspired. You too"
+        }
+      ]
+    },
+    {
+      "id": "seq-97",
+      "source": "authored",
+      "fromFrame": 73589,
+      "durationFrames": 729,
+      "durationSeconds": 24.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 272,
+          "sceneId": "scene-272",
+          "fromFrame": 73589,
+          "durationFrames": 389,
+          "role": "authored-start",
+          "narration": "You feel perfectly inspired. And your head is full of actionable strategies. Three days later, you a"
+        },
+        {
+          "index": 273,
+          "sceneId": "scene-273",
+          "fromFrame": 73978,
+          "durationFrames": 340,
+          "role": "authored-kept",
+          "narration": "you find your mind is completely empty. It just evaporated. The vague feeling of inspiration is stil"
+        }
+      ]
+    },
+    {
+      "id": "seq-98",
+      "source": "engine",
+      "fromFrame": 74318,
+      "durationFrames": 1071,
+      "durationSeconds": 35.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 274,
+          "sceneId": "scene-274",
+          "fromFrame": 74318,
+          "durationFrames": 248,
+          "role": "setup",
+          "narration": "Storing the image is only half the battle. When you create a memory, even a bizarre multiensory one,"
+        },
+        {
+          "index": 275,
+          "sceneId": "scene-275",
+          "fromFrame": 74566,
+          "durationFrames": 273,
+          "role": "question",
+          "narration": "a synaptic connection in the brain. but the brain has a harsh energy conservationist. Without spaced"
+        },
+        {
+          "index": 276,
+          "sceneId": "scene-276",
+          "fromFrame": 74839,
+          "durationFrames": 245,
+          "role": "complication",
+          "narration": "biologically decay. The brain's algorithm assumes that if you don't recall or use the information, i"
+        },
+        {
+          "index": 277,
+          "sceneId": "scene-277",
+          "fromFrame": 75084,
+          "durationFrames": 305,
+          "role": "reveal",
+          "narration": "So, it actively prunes the synaptic connection to save glucose. It's just trying to be efficient, ri"
+        }
+      ]
+    },
+    {
+      "id": "seq-99",
+      "source": "engine",
+      "fromFrame": 75389,
+      "durationFrames": 825,
+      "durationSeconds": 27.5,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 278,
+          "sceneId": "scene-278",
+          "fromFrame": 75389,
+          "durationFrames": 259,
+          "role": "setup",
+          "narration": "Furthermore, familiarity breeds forgetfulness. You look at your notes, you think, I know this becaus"
+        },
+        {
+          "index": 279,
+          "sceneId": "scene-279",
+          "fromFrame": 75648,
+          "durationFrames": 319,
+          "role": "question",
+          "narration": "And therefore, the trace weakens. Horsely doesn't just vaguely say, make sure you review your notes."
+        },
+        {
+          "index": 280,
+          "sceneId": "scene-280",
+          "fromFrame": 75967,
+          "durationFrames": 247,
+          "role": "reveal",
+          "narration": "It's very specific. To truly put a lid on your learning so the data doesn't evaporate, you must syst"
+        }
+      ]
+    },
+    {
+      "id": "seq-100",
+      "source": "authored",
+      "fromFrame": 76214,
+      "durationFrames": 608,
+      "durationSeconds": 20.3,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 281,
+          "sceneId": "scene-281",
+          "fromFrame": 76214,
+          "durationFrames": 279,
+          "role": "authored-start",
+          "narration": "intervals. He suggests reviewing the material after 1 hour, then after 1 day, then 3 days, 7 days, 1"
+        },
+        {
+          "index": 282,
+          "sceneId": "scene-282",
+          "fromFrame": 76493,
+          "durationFrames": 329,
+          "role": "authored-kept",
+          "narration": "28 days, 2 months, and finally 3 months. The intervals are key. He emphasizes heavily that the first"
+        }
+      ]
+    },
+    {
+      "id": "seq-101",
+      "source": "authored",
+      "fromFrame": 76822,
+      "durationFrames": 991,
+      "durationSeconds": 33,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 283,
+          "sceneId": "scene-283",
+          "fromFrame": 76822,
+          "durationFrames": 218,
+          "role": "authored-start",
+          "narration": "short-term memory into deep permanent storage. You have to catch it early. Okay, I have to be the vo"
+        },
+        {
+          "index": 284,
+          "sceneId": "scene-284",
+          "fromFrame": 77040,
+          "durationFrames": 398,
+          "role": "authored-kept",
+          "narration": "I know where this is going. I'm looking at a ninestep review schedule spanning 3 months. Who on eart"
+        },
+        {
+          "index": 285,
+          "sceneId": "scene-285",
+          "fromFrame": 77438,
+          "durationFrames": 375,
+          "role": "authored-kept",
+          "narration": "separate times? It sounds impossible. If I actually implemented that schedule, I would spend my enti"
+        }
+      ]
+    },
+    {
+      "id": "seq-102",
+      "source": "engine",
+      "fromFrame": 77813,
+      "durationFrames": 1041,
+      "durationSeconds": 34.7,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 286,
+          "sceneId": "scene-286",
+          "fromFrame": 77813,
+          "durationFrames": 285,
+          "role": "setup",
+          "narration": "It sounds That objection is incredibly common, but it assumes that a review means rereading the book"
+        },
+        {
+          "index": 287,
+          "sceneId": "scene-287",
+          "fromFrame": 78098,
+          "durationFrames": 156,
+          "role": "question",
+          "narration": "restudying the flashards. Well, doesn't it? No. But remember this system we just built."
+        },
+        {
+          "index": 288,
+          "sceneId": "scene-288",
+          "fromFrame": 78254,
+          "durationFrames": 267,
+          "role": "complication",
+          "narration": "We have built a spatial architecture. Reviewing a well- constructed memory palace takes seconds, not"
+        },
+        {
+          "index": 289,
+          "sceneId": "scene-289",
+          "fromFrame": 78521,
+          "durationFrames": 333,
+          "role": "reveal",
+          "narration": "You are not rereading the dense textbook on leadership. You are simply closing your eyes for 5 secon"
+        }
+      ]
+    },
+    {
+      "id": "seq-103",
+      "source": "authored",
+      "fromFrame": 78854,
+      "durationFrames": 605,
+      "durationSeconds": 20.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 290,
+          "sceneId": "scene-290",
+          "fromFrame": 78854,
+          "durationFrames": 250,
+          "role": "authored-start",
+          "narration": "sitting on the washing machine and the whip is still in the fridge. Oh, I see. Because the images yo"
+        },
+        {
+          "index": 291,
+          "sceneId": "scene-291",
+          "fromFrame": 79104,
+          "durationFrames": 355,
+          "role": "authored-kept",
+          "narration": "verifying their existence in the physical space takes practically zero cognitive load. It's a quick "
+        }
+      ]
+    },
+    {
+      "id": "seq-104",
+      "source": "engine",
+      "fromFrame": 79459,
+      "durationFrames": 1119,
+      "durationSeconds": 37.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 292,
+          "sceneId": "scene-292",
+          "fromFrame": 79459,
+          "durationFrames": 327,
+          "role": "setup",
+          "narration": "rebuild. It takes moments. So maintenance is simply walking the mental route. The traversal is the M"
+        },
+        {
+          "index": 293,
+          "sceneId": "scene-293",
+          "fromFrame": 79786,
+          "durationFrames": 201,
+          "role": "question",
+          "narration": "Memory remains an active architectural construction over time. You just have to do the walkthroughs "
+        },
+        {
+          "index": 294,
+          "sceneId": "scene-294",
+          "fromFrame": 79987,
+          "durationFrames": 199,
+          "role": "complication",
+          "narration": "You have to walk the path. Which brings us to the final and perhaps most foundational pillar of this"
+        },
+        {
+          "index": 295,
+          "sceneId": "scene-295",
+          "fromFrame": 80186,
+          "durationFrames": 392,
+          "role": "reveal",
+          "narration": "Self-discipline and identity Because none of the spectacular techniques we've discussed, the palaces"
+        }
+      ]
+    },
+    {
+      "id": "seq-105",
+      "source": "engine",
+      "fromFrame": 80578,
+      "durationFrames": 204,
+      "durationSeconds": 6.8,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 296,
+          "sceneId": "scene-296",
+          "fromFrame": 80578,
+          "durationFrames": 204,
+          "role": "reveal",
+          "narration": "the construction site with their own self-concept. Think about this seemingly harmless morning routi"
+        }
+      ]
+    },
+    {
+      "id": "seq-106",
+      "source": "authored",
+      "fromFrame": 80782,
+      "durationFrames": 780,
+      "durationSeconds": 26,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 297,
+          "sceneId": "scene-297",
+          "fromFrame": 80782,
+          "durationFrames": 290,
+          "role": "authored-start",
+          "narration": "You are frantically scrambling around the kitchen looking for your car keys. We've all been there. Y"
+        },
+        {
+          "index": 298,
+          "sceneId": "scene-298",
+          "fromFrame": 81072,
+          "durationFrames": 197,
+          "role": "authored-kept",
+          "narration": "\"I always lose things. I have such a terrible memory. I'm literally losing my mind. We all say thing"
+        },
+        {
+          "index": 299,
+          "sceneId": "scene-299",
+          "fromFrame": 81269,
+          "durationFrames": 293,
+          "role": "authored-kept",
+          "narration": "It feels like a harmless, self-deprecating joke to diffuse the stress.\" But here is what that actual"
+        }
+      ]
+    },
+    {
+      "id": "seq-107",
+      "source": "engine",
+      "fromFrame": 81562,
+      "durationFrames": 1118,
+      "durationSeconds": 37.3,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 300,
+          "sceneId": "scene-300",
+          "fromFrame": 81562,
+          "durationFrames": 384,
+          "role": "setup",
+          "narration": "is a literal instruction manual for your subconscious mind. Techniques are utterly useless without c"
+        },
+        {
+          "index": 301,
+          "sceneId": "scene-301",
+          "fromFrame": 81946,
+          "durationFrames": 206,
+          "role": "question",
+          "narration": "is opposed to your That makes total sense. The ultimate shift Horsely advocates is taking radical"
+        },
+        {
+          "index": 302,
+          "sceneId": "scene-302",
+          "fromFrame": 82152,
+          "durationFrames": 250,
+          "role": "complication",
+          "narration": "uncompromising ownership of your mind. You have to fundamentally move your identity from being a pas"
+        },
+        {
+          "index": 303,
+          "sceneId": "scene-303",
+          "fromFrame": 82402,
+          "durationFrames": 278,
+          "role": "reveal",
+          "narration": "to being an active empowered information architect. Your self-t talk programs your reality. Horsely "
+        }
+      ]
+    },
+    {
+      "id": "seq-108",
+      "source": "engine",
+      "fromFrame": 82680,
+      "durationFrames": 816,
+      "durationSeconds": 27.2,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 304,
+          "sceneId": "scene-304",
+          "fromFrame": 82680,
+          "durationFrames": 271,
+          "role": "setup",
+          "narration": "earth one versus earth 2 to illustrate the biology of belief. Imagine two identical earths in parall"
+        },
+        {
+          "index": 305,
+          "sceneId": "scene-305",
+          "fromFrame": 82951,
+          "durationFrames": 288,
+          "role": "question",
+          "narration": "A and on earth two lives Mr. B. Okay, two Earths. They have the exact same genetics, the exact same "
+        },
+        {
+          "index": 306,
+          "sceneId": "scene-306",
+          "fromFrame": 83239,
+          "durationFrames": 257,
+          "role": "reveal",
+          "narration": "But Mr. A continuously tells himself, \"My memory is a civ. My attention is a hopping kangaroo. My br"
+        }
+      ]
+    },
+    {
+      "id": "seq-109",
+      "source": "authored",
+      "fromFrame": 83496,
+      "durationFrames": 499,
+      "durationSeconds": 16.6,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 307,
+          "sceneId": "scene-307",
+          "fromFrame": 83496,
+          "durationFrames": 269,
+          "role": "authored-start",
+          "narration": "anticipates failure and A completely negative outlook. Mr. B with the exact same hardware tells hims"
+        },
+        {
+          "index": 308,
+          "sceneId": "scene-308",
+          "fromFrame": 83765,
+          "durationFrames": 230,
+          "role": "authored-kept",
+          "narration": "My memory can store quadrillions of facts. My mind is an infinite container.\" He loves training his "
+        }
+      ]
+    },
+    {
+      "id": "seq-110",
+      "source": "engine",
+      "fromFrame": 83995,
+      "durationFrames": 852,
+      "durationSeconds": 28.4,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 309,
+          "sceneId": "scene-309",
+          "fromFrame": 83995,
+          "durationFrames": 279,
+          "role": "setup",
+          "narration": "And the neurological result of those two mindsets is entirely predictable. Mr. B will possess the va"
+        },
+        {
+          "index": 310,
+          "sceneId": "scene-310",
+          "fromFrame": 84274,
+          "durationFrames": 350,
+          "role": "question",
+          "narration": "but because of the self-fulfilling prophecy of his beliefs. Our beliefs dictate our emotional state."
+        },
+        {
+          "index": 311,
+          "sceneId": "scene-311",
+          "fromFrame": 84624,
+          "durationFrames": 223,
+          "role": "reveal",
+          "narration": "If you believe your memory is terrible, you won't exert the effort to visualize the tiger drinking t"
+        }
+      ]
+    },
+    {
+      "id": "seq-111",
+      "source": "authored",
+      "fromFrame": 84847,
+      "durationFrames": 605,
+      "durationSeconds": 20.2,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 312,
+          "sceneId": "scene-312",
+          "fromFrame": 84847,
+          "durationFrames": 228,
+          "role": "authored-start",
+          "narration": "But let's pause. This borders on toxic positivity, doesn't it? How so? We can't just believe our way"
+        },
+        {
+          "index": 313,
+          "sceneId": "scene-313",
+          "fromFrame": 85075,
+          "durationFrames": 377,
+          "role": "authored-kept",
+          "narration": "If someone is experiencing genuine cognitive fatigue from burnout or the very real natural effects o"
+        }
+      ]
+    },
+    {
+      "id": "seq-112",
+      "source": "engine",
+      "fromFrame": 85452,
+      "durationFrames": 850,
+      "durationSeconds": 28.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 314,
+          "sceneId": "scene-314",
+          "fromFrame": 85452,
+          "durationFrames": 379,
+          "role": "setup",
+          "narration": "of physiological reality? It is absolutely crucial to acknowledge that physical brain health, adequa"
+        },
+        {
+          "index": 315,
+          "sceneId": "scene-315",
+          "fromFrame": 85831,
+          "durationFrames": 240,
+          "role": "question",
+          "narration": "factor. So, he's not ignoring that. Horsely isn't denying physiology. But his core point is that you"
+        },
+        {
+          "index": 316,
+          "sceneId": "scene-316",
+          "fromFrame": 86071,
+          "durationFrames": 231,
+          "role": "reveal",
+          "narration": "severely limits or vastly expands your biological As the author Richard Vach famously said, \"Argue"
+        }
+      ]
+    },
+    {
+      "id": "seq-113",
+      "source": "authored",
+      "fromFrame": 86302,
+      "durationFrames": 530,
+      "durationSeconds": 17.7,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 317,
+          "sceneId": "scene-317",
+          "fromFrame": 86302,
+          "durationFrames": 326,
+          "role": "authored-start",
+          "narration": "for your limitations, and sure enough, they're yours.\" Argue for your limitations, they're yours. Wo"
+        },
+        {
+          "index": 318,
+          "sceneId": "scene-318",
+          "fromFrame": 86628,
+          "durationFrames": 204,
+          "role": "authored-kept",
+          "narration": "you will stop trying to remember things. You will lean entirely on your spouse or your phone because"
+        }
+      ]
+    },
+    {
+      "id": "seq-114",
+      "source": "engine",
+      "fromFrame": 86832,
+      "durationFrames": 1114,
+      "durationSeconds": 37.1,
+      "sceneCount": 5,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication",
+        "reveal"
+      ],
+      "beats": [
+        {
+          "index": 319,
+          "sceneId": "scene-319",
+          "fromFrame": 86832,
+          "durationFrames": 266,
+          "role": "setup",
+          "narration": "You stop firing those neural Use it or lose it. Exactly. Because you stop firing them, they biologic"
+        },
+        {
+          "index": 320,
+          "sceneId": "scene-320",
+          "fromFrame": 87098,
+          "durationFrames": 188,
+          "role": "question",
+          "narration": "self-reinforcing feedback loop. Horsley's message is empowering. You are not a tree."
+        },
+        {
+          "index": 321,
+          "sceneId": "scene-321",
+          "fromFrame": 87286,
+          "durationFrames": 230,
+          "role": "partial_answer",
+          "narration": "You are not rooted to your current cognitive state. You can upgrade the software which in turn optim"
+        },
+        {
+          "index": 322,
+          "sceneId": "scene-322",
+          "fromFrame": 87516,
+          "durationFrames": 161,
+          "role": "complication",
+          "narration": "You are the chief engineer of your mind. Forgetfulness is an untrained habit."
+        },
+        {
+          "index": 323,
+          "sceneId": "scene-323",
+          "fromFrame": 87677,
+          "durationFrames": 269,
+          "role": "reveal",
+          "narration": "Real memory is deliberate design. You provide the energy. That's it. Okay, let's pull all of this to"
+        }
+      ]
+    },
+    {
+      "id": "seq-115",
+      "source": "engine",
+      "fromFrame": 87946,
+      "durationFrames": 259,
+      "durationSeconds": 8.6,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 324,
+          "sceneId": "scene-324",
+          "fromFrame": 87946,
+          "durationFrames": 259,
+          "role": "reveal",
+          "narration": "We've built the memory palaces. We've decoded the numbers with phonetics. We've learned to hook name"
+        }
+      ]
+    },
+    {
+      "id": "seq-116",
+      "source": "authored",
+      "fromFrame": 88205,
+      "durationFrames": 1029,
+      "durationSeconds": 34.3,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 325,
+          "sceneId": "scene-325",
+          "fromFrame": 88205,
+          "durationFrames": 307,
+          "role": "authored-start",
+          "narration": "But we have to address the elephant in the room and not the one dancing in the pink bikini. We live "
+        },
+        {
+          "index": 326,
+          "sceneId": "scene-326",
+          "fromFrame": 88512,
+          "durationFrames": 346,
+          "role": "authored-kept",
+          "narration": "We have ubiquitous search engines. Generative AI is in every single person's pocket. It's everywhere"
+        },
+        {
+          "index": 327,
+          "sceneId": "scene-327",
+          "fromFrame": 88858,
+          "durationFrames": 376,
+          "role": "authored-kept",
+          "narration": "Why on earth do we need to train competitive spatial pneumonics to memorize thousands of facts in ou"
+        }
+      ]
+    },
+    {
+      "id": "seq-117",
+      "source": "engine",
+      "fromFrame": 89234,
+      "durationFrames": 730,
+      "durationSeconds": 24.3,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 328,
+          "sceneId": "scene-328",
+          "fromFrame": 89234,
+          "durationFrames": 171,
+          "role": "setup",
+          "narration": "It is the most common and frankly the most dangerous criticism of memory training today."
+        },
+        {
+          "index": 329,
+          "sceneId": "scene-329",
+          "fromFrame": 89405,
+          "durationFrames": 252,
+          "role": "question",
+          "narration": "We assume that because raw data is externally accessible, internalizing it is a waste of cognitive Y"
+        },
+        {
+          "index": 330,
+          "sceneId": "scene-330",
+          "fromFrame": 89657,
+          "durationFrames": 307,
+          "role": "reveal",
+          "narration": "But the massive hidden risk of externalizing our memory to Google or to AI is that it fundamentally "
+        }
+      ]
+    },
+    {
+      "id": "seq-118",
+      "source": "authored",
+      "fromFrame": 89964,
+      "durationFrames": 574,
+      "durationSeconds": 19.1,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 331,
+          "sceneId": "scene-331",
+          "fromFrame": 89964,
+          "durationFrames": 269,
+          "role": "authored-start",
+          "narration": "The famous Jeopardy champion Ken Jennings noted something profound about this. When you have to make"
+        },
+        {
+          "index": 332,
+          "sceneId": "scene-332",
+          "fromFrame": 90233,
+          "durationFrames": 305,
+          "role": "authored-kept",
+          "narration": "or in an emergency, you need facts at your fingertips, not in your phone. If those facts are sitting"
+        }
+      ]
+    },
+    {
+      "id": "seq-119",
+      "source": "engine",
+      "fromFrame": 90538,
+      "durationFrames": 1147,
+      "durationSeconds": 38.2,
+      "sceneCount": 4,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer",
+        "complication"
+      ],
+      "beats": [
+        {
+          "index": 333,
+          "sceneId": "scene-333",
+          "fromFrame": 90538,
+          "durationFrames": 393,
+          "role": "setup",
+          "narration": "the nuance, and the intuition to act decisively. Factual knowledge always precedes skill. You can't "
+        },
+        {
+          "index": 334,
+          "sceneId": "scene-334",
+          "fromFrame": 90931,
+          "durationFrames": 262,
+          "role": "question",
+          "narration": "if your internal database is empty. Creativity at its core is simply the rapid subconscious collisio"
+        },
+        {
+          "index": 335,
+          "sceneId": "scene-335",
+          "fromFrame": 91193,
+          "durationFrames": 295,
+          "role": "complication",
+          "narration": "data points. I love that. The collision of data If you have to look up every single data point on yo"
+        },
+        {
+          "index": 336,
+          "sceneId": "scene-336",
+          "fromFrame": 91488,
+          "durationFrames": 197,
+          "role": "reveal",
+          "narration": "Deep critical thinking and genuine innovation rely entirely on the mental models you hold inside you"
+        }
+      ]
+    },
+    {
+      "id": "seq-120",
+      "source": "engine",
+      "fromFrame": 91685,
+      "durationFrames": 245,
+      "durationSeconds": 8.2,
+      "sceneCount": 1,
+      "curiosityArc": [
+        "setup"
+      ],
+      "beats": [
+        {
+          "index": 337,
+          "sceneId": "scene-337",
+          "fromFrame": 91685,
+          "durationFrames": 245,
+          "role": "reveal",
+          "narration": "not the ones you can query on a screen. Externalizing memory eventually inevitably leads to external"
+        }
+      ]
+    },
+    {
+      "id": "seq-121",
+      "source": "authored",
+      "fromFrame": 91930,
+      "durationFrames": 936,
+      "durationSeconds": 31.2,
+      "sceneCount": 3,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 338,
+          "sceneId": "scene-338",
+          "fromFrame": 91930,
+          "durationFrames": 333,
+          "role": "authored-start",
+          "narration": "We surrender our cognitive independence. So to completely reframe our entire thesis today, your memo"
+        },
+        {
+          "index": 339,
+          "sceneId": "scene-339",
+          "fromFrame": 92263,
+          "durationFrames": 322,
+          "role": "authored-kept",
+          "narration": "It is not a dusty filing cabinet of old school facts that you can just outsource to the cloud. Defin"
+        },
+        {
+          "index": 340,
+          "sceneId": "scene-340",
+          "fromFrame": 92585,
+          "durationFrames": 281,
+          "role": "authored-kept",
+          "narration": "of everything you are capable of thinking next. A well stocked, highly organized mind is the absolut"
+        }
+      ]
+    },
+    {
+      "id": "seq-122",
+      "source": "authored",
+      "fromFrame": 92866,
+      "durationFrames": 626,
+      "durationSeconds": 20.9,
+      "sceneCount": 2,
+      "curiosityArc": [],
+      "beats": [
+        {
+          "index": 341,
+          "sceneId": "scene-341",
+          "fromFrame": 92866,
+          "durationFrames": 369,
+          "role": "authored-start",
+          "narration": "life. Which leaves us with this final thought to maul over. If you continue to hold on to the comfor"
+        },
+        {
+          "index": 342,
+          "sceneId": "scene-342",
+          "fromFrame": 93235,
+          "durationFrames": 257,
+          "role": "authored-kept",
+          "narration": "you be 5 years from now? That's the real question. How much of your own mind will you have surrender"
+        }
+      ]
+    },
+    {
+      "id": "seq-123",
+      "source": "engine",
+      "fromFrame": 93492,
+      "durationFrames": 483,
+      "durationSeconds": 16.1,
+      "sceneCount": 3,
+      "curiosityArc": [
+        "setup",
+        "question",
+        "partial_answer"
+      ],
+      "beats": [
+        {
+          "index": 343,
+          "sceneId": "scene-343",
+          "fromFrame": 93492,
+          "durationFrames": 204,
+          "role": "setup",
+          "narration": "if you decide to finally take up residence in your own mind? Clear out the clutter and start buildin"
+        },
+        {
+          "index": 344,
+          "sceneId": "scene-344",
+          "fromFrame": 93696,
+          "durationFrames": 182,
+          "role": "question",
+          "narration": "The tools are all there. The architecture is waiting to be built. But remember, as Kevin Horesley so"
+        },
+        {
+          "index": 345,
+          "sceneId": "scene-345",
+          "fromFrame": 93878,
+          "durationFrames": 97,
+          "role": "reveal",
+          "narration": "batteries are not included. You have to provide the energy."
+        }
+      ]
+    }
+  ]
+}
