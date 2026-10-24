@@ -1,0 +1,483 @@
+{
+  "slug": "do-over-rescue-monday-reinvent-your-work-and-never-get-stuck",
+  "world": {
+    "era": "Contemporary (2015-present workplace, corporate offices, cubicles, and home desks)",
+    "worldId": "acuff-do-over",
+    "approxYear": 2015,
+    "setting": "Modern corporate offices, open-plan bullpens, cubicle workstations, coffee shops with sketch napkins, home desks with blank index cards, and the stark visual metaphor of the four-quadrant Career Savings Account.",
+    "register": "sharp argumentative career advice deep dive — two podcast hosts analyzing career reinvention through workplace case studies",
+    "forbid": [
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "shadowSelf",
+      "boulder",
+      "grave",
+      "war",
+      "sword",
+      "shield",
+      "chains"
+    ]
+  },
+  "visualProvenance": {
+    "bookId": "do-over-rescue-monday-reinvent-your-work-and-never-get-stuck",
+    "worldId": "acuff-do-over",
+    "allowedMotifs": [
+      "customSvg",
+      "office",
+      "workstation",
+      "work",
+      "phone",
+      "notes",
+      "wallet",
+      "coin",
+      "door",
+      "key",
+      "target",
+      "compass",
+      "lightbulb",
+      "clock",
+      "hourglass",
+      "trophy",
+      "gift",
+      "cafe",
+      "room",
+      "abstract",
+      "horizon",
+      "csaVault",
+      "doOverGrid",
+      "balanceSlip",
+      "indexCards",
+      "crash",
+      "ledge",
+      "water",
+      "grave",
+      "medical",
+      "home",
+      "family",
+      "road",
+      "storm",
+      "star",
+      "heart",
+      "fire",
+      "tree",
+      "mask",
+      "mirror",
+      "law",
+      "photo",
+      "war",
+      "game",
+      "city",
+      "food",
+      "puppeteer",
+      "chains",
+      "boulder",
+      "crack",
+      "balance",
+      "book",
+      "shield",
+      "inheritance"
+    ],
+    "forbiddenMotifs": [
+      "thirtyTyrants",
+      "ringOfGyges",
+      "caveAllegory",
+      "shipOfState",
+      "tripartiteSoul",
+      "kallipolis",
+      "fiveRegimes",
+      "mythOfEr",
+      "shadowSelf",
+      "boulder",
+      "grave",
+      "war",
+      "sword",
+      "chains",
+      "subway",
+      "codeWindow",
+      "rocketLaunch",
+      "funnelMetrics",
+      "dollarExchange",
+      "serverRoom",
+      "pitchStage",
+      "court",
+      "hospital"
+    ],
+    "allowedCharacters": [
+      "narrator",
+      "analyst",
+      "acuff",
+      "everyman",
+      "nate",
+      "matt",
+      "steve",
+      "boss"
+    ],
+    "allowedLocations": [
+      "office",
+      "workstation",
+      "cafe",
+      "room",
+      "abstract",
+      "horizon"
+    ],
+    "allowedProps": [
+      "customSvg",
+      "briefcase",
+      "laptop",
+      "smartphone",
+      "notes",
+      "clock",
+      "target",
+      "coin",
+      "wallet",
+      "office",
+      "workstation",
+      "work",
+      "phone",
+      "door",
+      "key",
+      "compass",
+      "lightbulb",
+      "hourglass",
+      "trophy",
+      "gift",
+      "cafe",
+      "room",
+      "abstract",
+      "horizon",
+      "csaVault",
+      "doOverGrid",
+      "balanceSlip",
+      "indexCards",
+      "crash",
+      "ledge",
+      "water",
+      "grave",
+      "medical",
+      "home",
+      "family",
+      "road",
+      "storm",
+      "star",
+      "heart",
+      "fire",
+      "tree",
+      "mask",
+      "mirror",
+      "law",
+      "photo",
+      "war",
+      "game",
+      "city",
+      "food",
+      "puppeteer",
+      "chains",
+      "boulder",
+      "crack",
+      "balance",
+      "book",
+      "shield",
+      "inheritance"
+    ]
+  },
+  "cast": {
+    "narrator": {
+      "name": "Narrator",
+      "role": "dialogue_host — the lead host deconstructing the career mechanics",
+      "look": "A sharp professional podcast host in his mid-30s with short dark hair, wearing a slate-blue blazer over a casual white shirt.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#2C3E50",
+        "shirt": "#ECF0F1",
+        "skin": "#E8B98F",
+        "hair": "#2C3E50",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "analyst": {
+      "name": "Analyst",
+      "role": "dialogue_cohost — the co-host pushing back on corporate dilemmas",
+      "look": "An incisive workplace commentator in her early 30s with dark brown hair tied back, wearing a minimalist forest-green cardigan over an ivory top.",
+      "variant": {
+        "gender": "f",
+        "age": "adult",
+        "build": "slight",
+        "outfit": "casual",
+        "suit": "#1E4D2B",
+        "shirt": "#F7F9F6",
+        "skin": "#F5D0A9",
+        "hair": "#3D2314",
+        "hairStyle": "ponytail",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": true,
+        "accessory": "none"
+      }
+    },
+    "acuff": {
+      "name": "Jon Acuff",
+      "role": "author — the pragmatic, humorous workplace researcher and speaker",
+      "look": "A cheerful, energetic author in his late 30s with light brown hair and a tailored charcoal-grey blazer with an open collar.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#34495E",
+        "shirt": "#FFFFFF",
+        "skin": "#E8B98F",
+        "hair": "#8B5A2B",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "everyman": {
+      "name": "Everyman Worker",
+      "role": "the relatable worker facing career ceiling, bump, jump, and opportunity",
+      "look": "An ordinary corporate employee in their early 30s wearing a simple heather-blue sweater over a collared shirt.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "casual",
+        "suit": "#4A69BD",
+        "shirt": "#DCDDE1",
+        "skin": "#E8B98F",
+        "hair": "#57606F",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "boss": {
+      "name": "Corporate Boss",
+      "role": "the demanding manager or executive overseeing the department",
+      "look": "A commanding corporate director in his 40s wearing a crisp dark-navy suit and sharp dark tie.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "heavy",
+        "outfit": "suit",
+        "suit": "#1E272C",
+        "shirt": "#ECEFF1",
+        "skin": "#E8B98F",
+        "hair": "#78909C",
+        "hairStyle": "receding",
+        "headwear": "none",
+        "beard": "none",
+        "glasses": true,
+        "accessory": "tie"
+      }
+    },
+    "nate": {
+      "name": "Nate",
+      "role": "neighbor and honest ally who tells Acuff the blunt truth about his career moves",
+      "look": "A friendly, grounded suburban neighbor in his late 30s wearing a warm brown casual vest over a plaid shirt.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "vest",
+        "suit": "#795548",
+        "shirt": "#FFE0B2",
+        "skin": "#E8B98F",
+        "hair": "#4E342E",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "none"
+      }
+    },
+    "matt": {
+      "name": "Matt Wilson",
+      "role": "the marketing copywriter building invisible skills and finding leverage",
+      "look": "A focused, creative agency copywriter in his late 20s wearing a grey pullover and round glasses.",
+      "variant": {
+        "gender": "m",
+        "age": "young",
+        "build": "slight",
+        "outfit": "casual",
+        "suit": "#607D8B",
+        "shirt": "#ECEFF1",
+        "skin": "#F5D0A9",
+        "hair": "#263238",
+        "hairStyle": "messy",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": true,
+        "accessory": "none"
+      }
+    },
+    "steve": {
+      "name": "Steve G",
+      "role": "the seasoned colleague navigating unexpected career jumps and opportunities",
+      "look": "A veteran workplace veteran in his early 40s with salt-and-pepper hair, wearing a sharp dark blazer.",
+      "variant": {
+        "gender": "m",
+        "age": "adult",
+        "build": "average",
+        "outfit": "suit",
+        "suit": "#37474F",
+        "shirt": "#CFD8DC",
+        "skin": "#E8B98F",
+        "hair": "#90A4AE",
+        "hairStyle": "short",
+        "headwear": "none",
+        "beard": "stubble",
+        "glasses": false,
+        "accessory": "none"
+      }
+    }
+  },
+  "places": {
+    "office": {
+      "set": "office",
+      "look": "A modern bright corporate office floor with glass partitions and desks"
+    },
+    "workstation": {
+      "set": "workstation",
+      "look": "An individual cubicle desk with dual monitors, sticky notes, and an office chair"
+    },
+    "cafe": {
+      "set": "cafe",
+      "look": "A warm corner cafe with wooden tables where career plans are sketched on napkins"
+    },
+    "room": {
+      "set": "room",
+      "look": "A quiet home study where index cards and career notes are spread across the table"
+    },
+    "abstract": {
+      "set": "abstract",
+      "look": "A minimalist conceptual space where grids, charts, and account formulas float"
+    },
+    "horizon": {
+      "set": "horizon",
+      "look": "An open expansive dawn horizon representing long-term career possibilities"
+    }
+  },
+  "objects": [
+    {
+      "concept": "customSvg",
+      "why": "signature objects: csaVault, doOverGrid, balanceSlip, indexCards"
+    },
+    {
+      "concept": "work",
+      "mentions": 64,
+      "why": "daily workplace tasks, employment, and career activity"
+    },
+    {
+      "concept": "notes",
+      "mentions": 8,
+      "why": "the blank index cards, drafts, and career notes"
+    },
+    {
+      "concept": "wallet",
+      "mentions": 7,
+      "why": "savings account balance and deposits into career equity"
+    },
+    {
+      "concept": "coin",
+      "mentions": 7,
+      "why": "units of career currency: relationships, skills, character, and hustle"
+    },
+    {
+      "concept": "phone",
+      "mentions": 14,
+      "why": "emergency Sunday night calls, texts, and communication"
+    },
+    {
+      "concept": "compass",
+      "mentions": 6,
+      "why": "navigating the four directions of career transitions"
+    },
+    {
+      "concept": "target",
+      "mentions": 5,
+      "why": "hustle focused on high-yield professional goals"
+    },
+    {
+      "concept": "door",
+      "mentions": 5,
+      "why": "career transitions: exiting a ceiling or jumping to a new opportunity"
+    },
+    {
+      "concept": "clock",
+      "mentions": 5,
+      "why": "the dread of Sunday 7 PM and the urgency of Monday morning"
+    },
+    {
+      "concept": "lightbulb",
+      "mentions": 4,
+      "why": "strategic epiphanies and discovering invisible skills"
+    }
+  ],
+  "spine": [
+    {
+      "act": "setup",
+      "fromFrame": 2,
+      "claim": "The dread of Sunday evening is not burnout but an overdraft alert on an empty Career Savings Account."
+    },
+    {
+      "act": "development",
+      "fromFrame": 11549,
+      "claim": "Building invisible skills and cultivating relationships before a crisis hits are the only true shields against career ceilings and bumps."
+    },
+    {
+      "act": "turn",
+      "fromFrame": 23926,
+      "claim": "Character and intentional hustle distinguish a calculated career jump from a reckless, disastrous freefall."
+    },
+    {
+      "act": "consequence",
+      "fromFrame": 37762,
+      "claim": "Stripping away fake hustle and transactional networking restores Monday morning agency and stockpiles equity."
+    },
+    {
+      "act": "close",
+      "fromFrame": 51574,
+      "claim": "The Do Over Grid proves that every transition can be mastered when you deposit into the four foundational currencies."
+    }
+  ],
+  "signatureObjects": [
+    {
+      "key": "csaVault",
+      "name": "Career Savings Account Vault",
+      "why": "The central formula (Relationships + Skills + Character) * Hustle visualized as a secured vault"
+    },
+    {
+      "key": "doOverGrid",
+      "name": "The Do Over Grid",
+      "why": "The 2x2 grid mapping Ceilings, Bumps, Jumps, and Opportunities to the four currencies"
+    },
+    {
+      "key": "balanceSlip",
+      "name": "Overdraft Account Slip",
+      "why": "The bank receipt alert showing a depleted balance versus healthy deposits"
+    },
+    {
+      "key": "indexCards",
+      "name": "Sea of Blank Index Cards",
+      "why": "Acuff cataloging skills and relationships on 3x5 cards across a desk"
+    }
+  ],
+  "authored": true
+}

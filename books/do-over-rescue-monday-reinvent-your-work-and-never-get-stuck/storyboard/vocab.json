@@ -1,0 +1,186 @@
+{
+  "icons": [
+    "crash",
+    "ledge",
+    "water",
+    "grave",
+    "medical",
+    "notes",
+    "phone",
+    "home",
+    "family",
+    "road",
+    "storm",
+    "star",
+    "heart",
+    "fire",
+    "tree",
+    "mask",
+    "mirror",
+    "key",
+    "law",
+    "photo",
+    "war",
+    "game",
+    "city",
+    "food",
+    "coin",
+    "door",
+    "lightbulb",
+    "puppeteer",
+    "chains",
+    "compass",
+    "boulder",
+    "crack",
+    "clock",
+    "balance",
+    "book",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "gift",
+    "inheritance",
+    "csaVault",
+    "doOverGrid",
+    "balanceSlip",
+    "indexCards"
+  ],
+  "ownIcons": [
+    "csaVault",
+    "doOverGrid",
+    "balanceSlip",
+    "indexCards"
+  ],
+  "sets": [
+    "horizon",
+    "office",
+    "room",
+    "abstract",
+    "cafe",
+    "workstation"
+  ],
+  "shots": [
+    "wide",
+    "medium",
+    "closeUp",
+    "twoShot",
+    "overShoulder",
+    "insert",
+    "split",
+    "silhouette",
+    "lowAngle",
+    "crowd",
+    "illustration",
+    "diorama",
+    "beforeAfter"
+  ],
+  "expressions": [
+    "neutral",
+    "happy",
+    "sad",
+    "surprised",
+    "worried",
+    "angry",
+    "smirk",
+    "blank",
+    "afraid"
+  ],
+  "actions": [
+    "idle",
+    "talk",
+    "point",
+    "celebrate",
+    "slump",
+    "think",
+    "walk",
+    "sit",
+    "hold",
+    "reach",
+    "lying",
+    "collapsed",
+    "falling",
+    "fighting",
+    "struggling",
+    "grabbing",
+    "take",
+    "embrace"
+  ],
+  "holds": [
+    "book",
+    "phone",
+    "key",
+    "notes",
+    "letter",
+    "coin",
+    "cup",
+    "lightbulb",
+    "mask",
+    "photo",
+    "mirror",
+    "flower",
+    "compass",
+    "briefcase",
+    "shield",
+    "trophy",
+    "hourglass",
+    "target",
+    "magnifier",
+    "wallet",
+    "gift"
+  ],
+  "cast": [
+    {
+      "key": "narrator",
+      "name": "Narrator",
+      "role": "dialogue_host — the lead host deconstructing the career mechanics",
+      "look": "A sharp professional podcast host in his mid-30s with short dark hair, wearing a slate-blue blazer over a casual white shirt."
+    },
+    {
+      "key": "analyst",
+      "name": "Analyst",
+      "role": "dialogue_cohost — the co-host pushing back on corporate dilemmas",
+      "look": "An incisive workplace commentator in her early 30s with dark brown hair tied back, wearing a minimalist forest-green cardigan over an ivory top."
+    },
+    {
+      "key": "acuff",
+      "name": "Jon Acuff",
+      "role": "author — the pragmatic, humorous workplace researcher and speaker",
+      "look": "A cheerful, energetic author in his late 30s with light brown hair and a tailored charcoal-grey blazer with an open collar."
+    },
+    {
+      "key": "everyman",
+      "name": "Everyman Worker",
+      "role": "the relatable worker facing career ceiling, bump, jump, and opportunity",
+      "look": "An ordinary corporate employee in their early 30s wearing a simple heather-blue sweater over a collared shirt."
+    },
+    {
+      "key": "boss",
+      "name": "Corporate Boss",
+      "role": "the demanding manager or executive overseeing the department",
+      "look": "A commanding corporate director in his 40s wearing a crisp dark-navy suit and sharp dark tie."
+    },
+    {
+      "key": "nate",
+      "name": "Nate",
+      "role": "neighbor and honest ally who tells Acuff the blunt truth about his career moves",
+      "look": "A friendly, grounded suburban neighbor in his late 30s wearing a warm brown casual vest over a plaid shirt."
+    },
+    {
+      "key": "matt",
+      "name": "Matt Wilson",
+      "role": "the marketing copywriter building invisible skills and finding leverage",
+      "look": "A focused, creative agency copywriter in his late 20s wearing a grey pullover and round glasses."
+    },
+    {
+      "key": "steve",
+      "name": "Steve G",
+      "role": "the seasoned colleague navigating unexpected career jumps and opportunities",
+      "look": "A veteran workplace veteran in his early 40s with salt-and-pepper hair, wearing a sharp dark blazer."
+    }
+  ],
+  "inputs": {
+    "story-bible.json": "0a51b15980e0d858bfb8ed89e9264eb1b0ab8be06540c93a3dba2d3587c07c80",
+    "motifs.json": "041a350e3203a0178ecb2e3bd15889a454283798e9baefd2e08661682155ae2e"
+  }
+}

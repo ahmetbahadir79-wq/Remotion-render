@@ -1,0 +1,2463 @@
+{
+  "version": 1,
+  "slug": "do-over-rescue-monday-reinvent-your-work-and-never-get-stuck",
+  "generatedAt": "2026-10-24T07:35:39.860Z",
+  "history": [
+    {
+      "at": "2026-10-24T07:30:47.759Z",
+      "reason": "pipeline",
+      "scenes": 248
+    },
+    {
+      "at": "2026-10-24T07:31:14.483Z",
+      "reason": "pipeline",
+      "scenes": 248
+    },
+    {
+      "at": "2026-10-24T07:33:49.743Z",
+      "reason": "pipeline",
+      "scenes": 248
+    },
+    {
+      "at": "2026-10-24T07:35:39.859Z",
+      "reason": "pipeline",
+      "scenes": 248
+    }
+  ],
+  "scenes": {
+    "intro": {
+      "fp": "2fd812e15c",
+      "props": [],
+      "texts": 2,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-01": {
+      "fp": "43fa8d8060",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "balanceSlip",
+      "set": "abstract"
+    },
+    "scene-02": {
+      "fp": "a6eea1626f",
+      "props": [
+        "coin"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "coin",
+      "set": "abstract"
+    },
+    "scene-03": {
+      "fp": "84b656733e",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "room"
+    },
+    "scene-04": {
+      "fp": "421414dd7d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-05": {
+      "fp": "bbe65e8212",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "csaVault",
+      "set": "abstract"
+    },
+    "scene-06": {
+      "fp": "922b262969",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "door",
+      "set": "office"
+    },
+    "scene-07": {
+      "fp": "38eccb3c38",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-08": {
+      "fp": "6f4b679904",
+      "props": [
+        "coin"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "coin",
+      "set": "abstract"
+    },
+    "scene-09": {
+      "fp": "c1309817eb",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "balanceSlip",
+      "set": "abstract"
+    },
+    "scene-10": {
+      "fp": "2c64175550",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-11": {
+      "fp": "6c29ae7f14",
+      "props": [],
+      "texts": 0,
+      "diagram": "sorter",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-12": {
+      "fp": "9abe344149",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balanceSlip",
+      "set": "office"
+    },
+    "scene-13": {
+      "fp": "77a09f3642",
+      "props": [],
+      "texts": 0,
+      "diagram": "flow",
+      "characters": 0,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-14": {
+      "fp": "058ba2b159",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "csaVault",
+      "set": "abstract"
+    },
+    "scene-15": {
+      "fp": "8bc5d6e90a",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "office"
+    },
+    "scene-16": {
+      "fp": "0c2468898f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-17": {
+      "fp": "160d42218b",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "target",
+      "set": "abstract"
+    },
+    "scene-18": {
+      "fp": "a7e4e18ed9",
+      "props": [
+        "crash"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "crash",
+      "set": "office"
+    },
+    "scene-19": {
+      "fp": "16b487bdac",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "abstract"
+    },
+    "scene-20": {
+      "fp": "6a2bdcad6a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-21": {
+      "fp": "852eac007e",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "horizon"
+    },
+    "scene-22": {
+      "fp": "cb197847a1",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-23": {
+      "fp": "9d0b2e20b9",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "workstation"
+    },
+    "scene-24": {
+      "fp": "058f7c122d",
+      "props": [
+        "clock"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "clock",
+      "set": "workstation"
+    },
+    "scene-25": {
+      "fp": "2d2cd373cc",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "office"
+    },
+    "scene-26": {
+      "fp": "837f2dd5b4",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "office"
+    },
+    "scene-27": {
+      "fp": "49b71d5242",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "workstation"
+    },
+    "scene-28": {
+      "fp": "ed741205b0",
+      "props": [
+        "key"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "key",
+      "set": "room"
+    },
+    "scene-29": {
+      "fp": "75741b916d",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-30": {
+      "fp": "656376f736",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-31": {
+      "fp": "7051f33739",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "abstract"
+    },
+    "scene-32": {
+      "fp": "e042eac9c0",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "room"
+    },
+    "scene-33": {
+      "fp": "5e69bd8e9a",
+      "props": [
+        "medical"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "medical",
+      "set": "workstation"
+    },
+    "scene-34": {
+      "fp": "340f15706b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-35": {
+      "fp": "86a4e1da30",
+      "props": [
+        "door"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "door",
+      "set": "workstation"
+    },
+    "scene-36": {
+      "fp": "b88b790bd4",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "balanceSlip",
+      "set": "room"
+    },
+    "scene-37": {
+      "fp": "30488f43b3",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-38": {
+      "fp": "33208ae9c4",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "room"
+    },
+    "scene-39": {
+      "fp": "73cd08492c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "room"
+    },
+    "scene-40": {
+      "fp": "994b570bb2",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "workstation"
+    },
+    "scene-41": {
+      "fp": "cb15c08ca1",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "abstract"
+    },
+    "scene-42": {
+      "fp": "c50bd4c4e8",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "compass",
+      "set": "office"
+    },
+    "scene-43": {
+      "fp": "a33cf29b7b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-44": {
+      "fp": "c1dcaceda9",
+      "props": [
+        "crash"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "crash",
+      "set": "office"
+    },
+    "scene-45": {
+      "fp": "582769cc05",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "lightbulb",
+      "set": "abstract"
+    },
+    "scene-46": {
+      "fp": "e2d906ffb8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-47": {
+      "fp": "8a09856257",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-48": {
+      "fp": "22e61c27b3",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "workstation"
+    },
+    "scene-49": {
+      "fp": "2592e10b7b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-50": {
+      "fp": "c569e355fc",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-51": {
+      "fp": "6fb27c9aa8",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "office"
+    },
+    "scene-52": {
+      "fp": "369650b1ba",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-53": {
+      "fp": "388e3a3e18",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-54": {
+      "fp": "ce51c592d5",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "workstation"
+    },
+    "scene-55": {
+      "fp": "58adea9b26",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-56": {
+      "fp": "71254617cd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-57": {
+      "fp": "4a494b69d0",
+      "props": [
+        "notes"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "notes",
+      "set": "office"
+    },
+    "scene-58": {
+      "fp": "00c1de9b4e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-59": {
+      "fp": "61c606c26d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-60": {
+      "fp": "6167a3f96e",
+      "props": [
+        "lightbulb"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "lightbulb",
+      "set": "workstation"
+    },
+    "scene-61": {
+      "fp": "a2b3bacc4d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-62": {
+      "fp": "2583c113ff",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-63": {
+      "fp": "3edd07da6c",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "abstract"
+    },
+    "scene-64": {
+      "fp": "676941723a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-65": {
+      "fp": "33d43ad031",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-66": {
+      "fp": "f25eedae92",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "csaVault",
+      "set": "office"
+    },
+    "scene-67": {
+      "fp": "7c26712f96",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-68": {
+      "fp": "3264afe57d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-69": {
+      "fp": "7d941bb711",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "abstract"
+    },
+    "scene-70": {
+      "fp": "c73fdb934c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-71": {
+      "fp": "6be90422d3",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-72": {
+      "fp": "3b36953ad2",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "csaVault",
+      "set": "office"
+    },
+    "scene-73": {
+      "fp": "43bcc53293",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-74": {
+      "fp": "22d5143b88",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-75": {
+      "fp": "86a15ab082",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "abstract"
+    },
+    "scene-76": {
+      "fp": "e79020f860",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-77": {
+      "fp": "79cfcd5f84",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-78": {
+      "fp": "d78220711e",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "csaVault",
+      "set": "office"
+    },
+    "scene-79": {
+      "fp": "fcc0c3d8ce",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-80": {
+      "fp": "25d0c6ac83",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-81": {
+      "fp": "dfce22d4f3",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "shield",
+      "set": "abstract"
+    },
+    "scene-82": {
+      "fp": "0807fdee5b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-83": {
+      "fp": "1d72344ee2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-84": {
+      "fp": "f51fc1967f",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "csaVault",
+      "set": "office"
+    },
+    "scene-85": {
+      "fp": "853ffbd512",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-86": {
+      "fp": "69f0f78a3c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-87": {
+      "fp": "76279bdb53",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-88": {
+      "fp": "1f0fd1f518",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-89": {
+      "fp": "38dcffee6f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-90": {
+      "fp": "868d47474d",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "room"
+    },
+    "scene-91": {
+      "fp": "bca6995148",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-92": {
+      "fp": "16c831b1db",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-93": {
+      "fp": "734964b9f4",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-94": {
+      "fp": "bb80545066",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-95": {
+      "fp": "c7584a468a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-96": {
+      "fp": "5c0f208356",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "room"
+    },
+    "scene-97": {
+      "fp": "317324268f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-98": {
+      "fp": "c55c0a9434",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-99": {
+      "fp": "c97a79511c",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-100": {
+      "fp": "15676f2cc6",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-101": {
+      "fp": "be35983ae5",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-102": {
+      "fp": "060778ea07",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "room"
+    },
+    "scene-103": {
+      "fp": "360c2ae79b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-104": {
+      "fp": "ed9f6cf53f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-105": {
+      "fp": "1e43c95def",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-106": {
+      "fp": "4960ff2d8e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-107": {
+      "fp": "4dc5c6d7be",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-108": {
+      "fp": "49f83055e0",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "room"
+    },
+    "scene-109": {
+      "fp": "ce618f8212",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-110": {
+      "fp": "7bfc28e911",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-111": {
+      "fp": "620a89f3e8",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-112": {
+      "fp": "2787791f14",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-113": {
+      "fp": "0e75c47203",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-114": {
+      "fp": "ed9ff77655",
+      "props": [
+        "hourglass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "hourglass",
+      "set": "room"
+    },
+    "scene-115": {
+      "fp": "3ba32062a7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-116": {
+      "fp": "eda348e3ff",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-117": {
+      "fp": "1fd9442781",
+      "props": [
+        "shield"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "shield",
+      "set": "horizon"
+    },
+    "scene-118": {
+      "fp": "8a0196a19d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-119": {
+      "fp": "ec9fd60254",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "horizon"
+    },
+    "scene-120": {
+      "fp": "cdee470a3f",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-121": {
+      "fp": "02164d28ee",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-122": {
+      "fp": "29bc1ca616",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-123": {
+      "fp": "ce839f9698",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-124": {
+      "fp": "d5e7b9c600",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-125": {
+      "fp": "23f5908ae2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-126": {
+      "fp": "db7607ae21",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-127": {
+      "fp": "66527b0756",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-128": {
+      "fp": "402a74a18c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-129": {
+      "fp": "5b61b648bd",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-130": {
+      "fp": "f626f7dfd7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-131": {
+      "fp": "b1e7ce2dce",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-132": {
+      "fp": "4044649bc0",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-133": {
+      "fp": "74fa473e96",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-134": {
+      "fp": "42713e112c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-135": {
+      "fp": "e7e6befc0e",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-136": {
+      "fp": "e1ee086bd9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-137": {
+      "fp": "326a0ebe34",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-138": {
+      "fp": "743c980c1e",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-139": {
+      "fp": "d50a903a63",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-140": {
+      "fp": "5d0cd93a51",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-141": {
+      "fp": "fb8f0ab350",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-142": {
+      "fp": "a0421afb4d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-143": {
+      "fp": "1f6713d9f8",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-144": {
+      "fp": "c0b2024816",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-145": {
+      "fp": "88aed79400",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-146": {
+      "fp": "0f537a45b4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-147": {
+      "fp": "d3b2006ab3",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-148": {
+      "fp": "1976a605ed",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-149": {
+      "fp": "3383fbd451",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-150": {
+      "fp": "3ab7839445",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-151": {
+      "fp": "9034c585a1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-152": {
+      "fp": "a369adc009",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-153": {
+      "fp": "467f90faeb",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "indexCards",
+      "set": "office"
+    },
+    "scene-154": {
+      "fp": "40f1672d75",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "cafe"
+    },
+    "scene-155": {
+      "fp": "604ed1cd67",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "office"
+    },
+    "scene-156": {
+      "fp": "19a744ddb8",
+      "props": [
+        "target"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "target",
+      "set": "cafe"
+    },
+    "scene-157": {
+      "fp": "db287b3b9b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-158": {
+      "fp": "58eaf321f1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-159": {
+      "fp": "40b4920d5d",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-160": {
+      "fp": "923552565e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-161": {
+      "fp": "cc9409dcf1",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-162": {
+      "fp": "64421da60b",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-163": {
+      "fp": "b78041de78",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-164": {
+      "fp": "000f1869a4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-165": {
+      "fp": "01fd2c905d",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-166": {
+      "fp": "5b8c5b2811",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-167": {
+      "fp": "1d0c83482e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-168": {
+      "fp": "3cff1748d3",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-169": {
+      "fp": "83200dd20f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-170": {
+      "fp": "f1a5739fde",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-171": {
+      "fp": "9d010559d9",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-172": {
+      "fp": "e09135d838",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-173": {
+      "fp": "eed4bc382d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-174": {
+      "fp": "b90b0671af",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-175": {
+      "fp": "aab9b0cf1f",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-176": {
+      "fp": "7933dd82d7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-177": {
+      "fp": "befee6ed7b",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-178": {
+      "fp": "07ce59f58d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-179": {
+      "fp": "375528cde7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-180": {
+      "fp": "08b536dc1c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-181": {
+      "fp": "80201a3ca7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-182": {
+      "fp": "b99385be2a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-183": {
+      "fp": "4b9cb00c64",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-184": {
+      "fp": "83c64b9543",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-185": {
+      "fp": "9760c01f71",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-186": {
+      "fp": "ed04e7a00c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-187": {
+      "fp": "e31784a7c2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-188": {
+      "fp": "c1596b6462",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-189": {
+      "fp": "04d238c16f",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-190": {
+      "fp": "7cc4467b7c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-191": {
+      "fp": "d348216392",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-192": {
+      "fp": "f2aaa7254d",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-193": {
+      "fp": "472d209417",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-194": {
+      "fp": "a627b15595",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-195": {
+      "fp": "dda8032c6b",
+      "props": [
+        "fire"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "fire",
+      "set": "room"
+    },
+    "scene-196": {
+      "fp": "749c08d89a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-197": {
+      "fp": "5aeb807940",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "room"
+    },
+    "scene-198": {
+      "fp": "884dd4070c",
+      "props": [
+        "book"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": "book",
+      "set": "workstation"
+    },
+    "scene-199": {
+      "fp": "6977ad90dd",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-200": {
+      "fp": "fa13fa4715",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 1,
+      "concept": null,
+      "set": "workstation"
+    },
+    "scene-201": {
+      "fp": "a6f3efcb0c",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-202": {
+      "fp": "4a1a590e80",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-203": {
+      "fp": "fb8d07af32",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-204": {
+      "fp": "ce541858d2",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-205": {
+      "fp": "c67a14e818",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-206": {
+      "fp": "f79b6a07df",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-207": {
+      "fp": "ee976b3ed5",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-208": {
+      "fp": "7946f648c9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-209": {
+      "fp": "a0a925c625",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-210": {
+      "fp": "70e0109b85",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-211": {
+      "fp": "7956f3607e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-212": {
+      "fp": "74684ec64e",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-213": {
+      "fp": "39d6139932",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-214": {
+      "fp": "34c6624a5a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-215": {
+      "fp": "22a3791e9d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-216": {
+      "fp": "300181e17e",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-217": {
+      "fp": "fb69421495",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-218": {
+      "fp": "389ea70129",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-219": {
+      "fp": "33b3468684",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-220": {
+      "fp": "c682a609a4",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-221": {
+      "fp": "9d4d3ef254",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-222": {
+      "fp": "df9e59eb11",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-223": {
+      "fp": "30522d5755",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-224": {
+      "fp": "e01fef01ec",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-225": {
+      "fp": "ed9cc6bbbd",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-226": {
+      "fp": "5a21be12c7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-227": {
+      "fp": "084ae4a608",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-228": {
+      "fp": "0541d033a3",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-229": {
+      "fp": "1dc445e423",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-230": {
+      "fp": "e232a49373",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-231": {
+      "fp": "96ecb4ae82",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-232": {
+      "fp": "be22d11e1c",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-233": {
+      "fp": "7f53f77ff7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-234": {
+      "fp": "bb7e964bed",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-235": {
+      "fp": "741c98d1e7",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-236": {
+      "fp": "cc6cfb724b",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-237": {
+      "fp": "15404cf647",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-238": {
+      "fp": "be7e2ffa61",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-239": {
+      "fp": "59b252b54a",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-240": {
+      "fp": "e34b95213f",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-241": {
+      "fp": "15508135ef",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-242": {
+      "fp": "64cb40bff9",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-243": {
+      "fp": "3f189d22d8",
+      "props": [
+        "customSvg"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "doOverGrid",
+      "set": "abstract"
+    },
+    "scene-244": {
+      "fp": "a7a69d41b2",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-245": {
+      "fp": "e295554462",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    },
+    "scene-246": {
+      "fp": "c06709dd97",
+      "props": [
+        "compass"
+      ],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": "compass",
+      "set": "abstract"
+    },
+    "scene-247": {
+      "fp": "77d631984d",
+      "props": [],
+      "texts": 1,
+      "diagram": null,
+      "characters": 2,
+      "concept": null,
+      "set": "abstract"
+    }
+  }
+}

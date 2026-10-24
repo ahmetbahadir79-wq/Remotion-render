@@ -1,0 +1,55 @@
+{
+  "csaVault": {
+    "title": "Career Savings Account Vault",
+    "reads": "a heavy steel bank vault with a round combination dial on its door",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M 80 100 L 440 100 L 440 420 L 80 420 Z", "fill": "none", "stroke": "ink", "strokeWidth": 20 },
+      { "d": "M 110 130 L 410 130 L 410 390 L 110 390 Z", "fill": "none", "stroke": "ink", "strokeWidth": 8, "opacity": 0.4 },
+      { "d": "M 260 260 m -70 0 a 70 70 0 1 0 140 0 a 70 70 0 1 0 -140 0", "fill": "none", "stroke": "accent", "strokeWidth": 16 },
+      { "d": "M 260 260 m -24 0 a 24 24 0 1 0 48 0 a 24 24 0 1 0 -48 0", "fill": "ink" },
+      { "d": "M 260 170 L 260 190 M 260 330 L 260 350 M 170 260 L 190 260 M 330 260 L 350 260", "stroke": "accent", "strokeWidth": 12 },
+      { "d": "M 390 190 L 410 190 L 410 230 L 390 230 Z M 390 290 L 410 290 L 410 330 L 390 330 Z", "fill": "ink" }
+    ]
+  },
+  "doOverGrid": {
+    "title": "The Do Over Grid",
+    "reads": "a two by two quadrant grid with four distinct squares and coordinate arrows",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M 80 80 L 440 80 L 440 440 L 80 440 Z", "fill": "none", "stroke": "ink", "strokeWidth": 16 },
+      { "d": "M 260 80 L 260 440", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M 80 260 L 440 260", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M 130 130 L 210 130 L 210 210 L 130 210 Z", "fill": "accent", "opacity": 0.35 },
+      { "d": "M 310 130 L 390 130 L 390 210 L 310 210 Z", "fill": "accent", "opacity": 0.35 },
+      { "d": "M 130 310 L 210 310 L 210 390 L 130 390 Z", "fill": "accent", "opacity": 0.35 },
+      { "d": "M 310 310 L 390 310 L 390 390 L 310 390 Z", "fill": "accent", "opacity": 0.35 },
+      { "d": "M 260 50 L 250 80 L 270 80 Z M 470 260 L 440 250 L 440 270 Z", "fill": "ink" }
+    ]
+  },
+  "balanceSlip": {
+    "title": "Overdraft Account Slip",
+    "reads": "a paper bank receipt marked with an alert symbol and financial lines",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M 120 70 L 400 70 L 400 450 L 365 430 L 330 450 L 295 430 L 260 450 L 225 430 L 190 450 L 155 430 L 120 450 Z", "fill": "none", "stroke": "ink", "strokeWidth": 16 },
+      { "d": "M 160 130 L 360 130", "stroke": "ink", "strokeWidth": 12 },
+      { "d": "M 160 180 L 320 180", "stroke": "ink", "strokeWidth": 8, "opacity": 0.5 },
+      { "d": "M 160 220 L 280 220", "stroke": "ink", "strokeWidth": 8, "opacity": 0.5 },
+      { "d": "M 160 280 L 360 280", "stroke": "accent", "strokeWidth": 10 },
+      { "d": "M 260 330 m -35 0 a 35 35 0 1 0 70 0 a 35 35 0 1 0 -70 0", "fill": "accent" },
+      { "d": "M 260 312 L 260 334 M 260 346 L 260 350", "stroke": "#FFFFFF", "strokeWidth": 6 }
+    ]
+  },
+  "indexCards": {
+    "title": "Sea of Blank Index Cards",
+    "reads": "a neat stack of overlapping rectangular 3 by 5 index cards",
+    "viewBox": "0 0 520 520",
+    "paths": [
+      { "d": "M 100 160 L 360 160 L 360 320 L 100 320 Z", "fill": "none", "stroke": "ink", "strokeWidth": 12, "opacity": 0.4 },
+      { "d": "M 130 190 L 390 190 L 390 350 L 130 350 Z", "fill": "none", "stroke": "ink", "strokeWidth": 12, "opacity": 0.7 },
+      { "d": "M 160 220 L 420 220 L 420 380 L 160 380 Z", "fill": "none", "stroke": "ink", "strokeWidth": 16 },
+      { "d": "M 190 260 L 390 260 M 190 295 L 350 295 M 190 330 L 310 330", "stroke": "accent", "strokeWidth": 8 }
+    ]
+  }
+}

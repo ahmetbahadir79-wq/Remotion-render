@@ -1,0 +1,2513 @@
+{
+  "book": {
+    "slug": "do-over-rescue-monday-reinvent-your-work-and-never-get-stuck",
+    "title": "Do Over: Rescue Monday, Reinvent Your Work, and Never Get Stuck",
+    "author": "Jon Acuff",
+    "genre": "nonfiction"
+  },
+  "instructions": [
+    "Rewrite `callout.text` per beat: 2-4 words, concrete and loaded, in the viewer's second person where it fits.",
+    "NEVER an abstract noun (ORGANIZATION / MANAGEMENT / INFORMATION). Prefer what a person can see, feel or do.",
+    "Set callout to null when the beat has no hook worth stamping — silence is a valid, good choice.",
+    "`style`: reveal (3-4 words) | highlight (2 words) | strike (a negation) | outline (a real stat) | box | stack.",
+    "`concept`: the beat's LITERAL subject → a scene icon that gets shown instead of talking heads.",
+    "  Allowed: alarmClock, butterfly, subway, car, coffee, codeWindow, rocketLaunch, funnelMetrics, dollarExchange, laptopMockup, crash, ledge, water, grave, medical, notes, phone, school, home, family, road, storm, star, heart, fire, tree, mask, mirror, key, law, photo, war, game, work, city, food, coin, door, lightbulb, shadowSelf, puppeteer, chains, compass, dominoCascade, icebergDepth, funnelTrap, thirtyTyrants, ringOfGyges, caveAllegory, shipOfState, tripartiteSoul, kallipolis, fiveRegimes, mythOfEr, boulder, summit, ladder, crack, clock, balance, book, shield, trophy, hourglass, sword, target, magnifier, wallet, gift, inheritance, zap. Set a string when the beat is really ABOUT that thing",
+    "  (a crash, a home, a lake, a wall of notes); null or omitted = no icon (there is no lexicon",
+    "  fallback). Use only when it's the true subject — a wrong icon is worse than none. The icon must",
+    "  be in the book's story-bible visualProvenance.allowedMotifs or it is dropped with a warning.",
+    "`set` (optional): the location, one of the renderer's sets — honoured as written.",
+    "`shotOverride` (optional): force a framing. `shot` above is only the director's first guess.",
+    "The director stages the body itself from the concept — a beat whose subject is a",
+    "  letter/phone/key/photo/book/coin/mirror/mask/idea/compass/meal/love/job/court puts that",
+    "  object IN THE LEAD'S HAND, an outdoor beat can make them walk across the set, an indoor",
+    "  one can sit them down. You do not author that here; naming the right `concept` is what",
+    "  turns it on. A wrong concept costs more now than it used to.",
+    "`diagram`: an EXPLANATORY self-drawing graphic that BECOMES the whole beat (cast dropped,",
+    "  no callout). Author one ONLY on a genuinely conceptual beat; leave null otherwise — a weak",
+    "  or generic diagram is worse than none. Use at most a handful across the whole book. Shape:",
+    "  { type, title?, labels[], values[] }, where type is one of:",
+    "    sorter   — a taxonomy sorting into buckets. labels = the 2-4 category names; values = optional per-bucket counts.",
+    "    matchWave— two rhythms drifting then locking into sync. labels[0] = the payoff word (e.g. IN SYNC).",
+    "    flow     — a cause→effect chain. labels = 2-3 ordered node names.",
+    "    spectrum — a marker on a continuum. labels = [leftPole, rightPole]; values = [0..1 marker position].",
+    "  Keep labels 1-2 words. Best on the beat that first NAMES a framework, a sync, a process or a scale.",
+    "`concept: null` means NO icon on this beat (not even a decorative one); omitting the key is ALSO no icon — there is no lexicon fallback (Faz 0). Every beat needs an entry; an unauthored beat fails gate-authorship.",
+    "Do not leave a beat silent when its narration names concrete things (a list of objects, an anecdote, a person doing something) — give it the narrator's phrase or the object.",
+    "Prefer the narrator's concrete phrase over an abstract metaphor label (\"PAUSE THE IMPULSE\", not \"A LOGIC FILTER\").",
+    "A diagram title must not promise a shape its type cannot draw (no \"LOOP\"/\"PYRAMID\" on a straight flow).",
+    "Keep the array order and length. Then re-run plan-antidote with --callouts=<this file>.",
+    "After re-running: node scripts/audit-antidote.js --slug=<slug> — it FAILS the plan if any",
+    "  window runs longer than 8s with nothing happening on screen."
+  ],
+  "beats": [
+    {
+      "i": 0,
+      "shot": "lowAngle",
+      "beat": "title",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, the moment you absolutely dread Sunday evening, you know, right around 7 Oh, yeah. The Sunday scaries. Exactly.",
+      "callout": {
+        "text": "DO OVER",
+        "style": "plain"
+      }
+    },
+    {
+      "i": 1,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "But it isn't just burnout. I mean, it's actually an overdraft alert. An overdraft alert. I like that. Because you've basically been writing checks against a career account that's been bone dry for like 6 months.",
+      "callout": null
+    },
+    {
+      "i": 2,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Totally. You're just running on fumes at that point. Yeah. And today, for all of you listening, we are conducting a hardcore financial audit of your professional Let's get into it.",
+      "callout": null
+    },
+    {
+      "i": 3,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We're doing a deep dive into John Acuff's book, Doover. And let's set the mission straight right Yeah, we need to be clear. This is not some fluffy, you know, chase your bliss, follow your dreams kind of No, not",
+      "callout": null
+    },
+    {
+      "i": 4,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "at all. This is about understanding the actual literal mechanics of why you feel stuck or terrified or just entirely depleted at work.",
+      "callout": {
+        "text": "YOU FEEL STUCK",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 5,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "And that framing of an overdraft alert is just the perfect place to start, right? Because whether you're staring at a completely stagnant path in your current cubicle or you're reeling from a sudden layoff, which is terrifying completely, or even",
+      "callout": null
+    },
+    {
+      "i": 6,
+      "shot": "overShoulder",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "if you're paralyzed by a massive new opportunity that's just landed in your lap. Yeah, that happens too, right? The pain you are feeling in any of those scenarios is almost entirely because we always misdiagnose it, right?",
+      "callout": null
+    },
+    {
+      "i": 7,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Exactly. We tend to diagnose these moments as a lack of passion. We think, oh, I've lost my ambition. Like something is broken inside us.",
+      "callout": {
+        "text": "I'VE LOST",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 8,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yes. But at their core, most career crises are actually liquidity crisis.",
+      "callout": null
+    },
+    {
+      "i": 9,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A liquidity crisis. So we're talking about running out of a very specific kind of capital here. Yes, we are. The overarching argument Acuff makes is that career reinvention is not some cinematic",
+      "callout": null
+    },
+    {
+      "i": 10,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "radical leap into the absolute unknown like burning your boats and starting from scratch, right? You don't jump to zero.",
+      "callout": null
+    },
+    {
+      "i": 11,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The most successful pivots are actually intentional calibrations of four specific currencies. Okay. four currencies applied across four distinct career transitions. So when you hit that Sunday night",
+      "callout": null
+    },
+    {
+      "i": 12,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "panic, it is simply because you were trying to spend a currency you never deposited in the first place. Wow. Yeah. And he actually provides a literal formula for this which he calls the career savings account or the CSA.",
+      "callout": {
+        "text": "CALLS THE CAREER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 13,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The math on this is crucial. It is. The formula goes like this. Relationships plus skills plus",
+      "callout": null
+    },
+    {
+      "i": 14,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right? That's the base. Yeah. You take the sum of those three and you multiply it by hustle and that equals your career savings account. We need to pay very very close attention to the math of that formula.",
+      "callout": {
+        "text": "EQUALS YOUR CAREER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 15,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Notice that relationships, skills, and character are being added together. They form the foundation. Exactly. But hustle is the multiplier, Think about the implications of that.",
+      "callout": null
+    },
+    {
+      "i": 16,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's say you have absolutely zero in your base. Like no skills at all, right? You haven't built any relevant skills. You've completely alienated your entire network.",
+      "callout": null
+    },
+    {
+      "i": 17,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "and your character is highly questionable. A total disaster. If you multiply that zero base by intense grinding 80our a week hustle, the result is still zero. It's still zero.",
+      "callout": null
+    },
+    {
+      "i": 18,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, it's worse than zero. Honestly, it's lethal. Oh, completely. Cuz if you're a toxic colleague with no skills, hustling just makes you a highly visible, incredibly",
+      "callout": null
+    },
+    {
+      "i": 19,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "active menace to everyone around you. Yes, you just ruin things faster. Acuff actually calls this the career version of the emperor's new clothes. Such a good analogy.",
+      "callout": null
+    },
+    {
+      "i": 20,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're running around completely exposed, assuming that your sheer velocity proves you're fully You think motion equals value. Exactly. You're just busy.",
+      "callout": null
+    },
+    {
+      "i": 21,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Which is how you end up with profound burnout in a trail of burned bridges. So to stop that from happening, we really have to audit these currencies step by step.",
+      "callout": {
+        "text": "STOP",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 22,
+      "shot": "wide",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "We do. We need to look at how they function out in the wild, right? When you actually slam into the different walls of a modern career. Let's start with the first wall.",
+      "callout": {
+        "text": "START WITH THE FIRST",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 23,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, let's drop right into it. Picture yourself sitting at your desk. I'm there. You're staring at a completely blank calendar for the week. The worst feeling.",
+      "callout": null
+    },
+    {
+      "i": 24,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're under that sterile, humming, fluorescent office light. And suddenly this very cold realization washes over you.",
+      "callout": null
+    },
+    {
+      "i": 25,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are 32 years old and you have entirely peaked. Oh man, that hurts. Right. Your title's maxed out.",
+      "callout": {
+        "text": "YOU ARE 32 YEARS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 26,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's say you're the senior content designer and unless the creative director suddenly retires or like moves out of the state, there is physically nowhere else for you to go. Nowhere.",
+      "callout": null
+    },
+    {
+      "i": 27,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are staring down the barrel of 30 years of gentle, comfortable That is a highly specific, deeply suffocating sensation.",
+      "callout": {
+        "text": "30 YEARS",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 28,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It really is. It's the exact moment you realize safety has basically become a cage.",
+      "callout": null
+    },
+    {
+      "i": 29,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. And what that means for you in your day-to-day work is that you have hit a career ceiling. A ceiling. Okay. In this framework, a ceiling is classified as a voluntary negative Voluntary because you're",
+      "callout": null
+    },
+    {
+      "i": 30,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "choosing to Exactly. You are actively choosing to stay in an environment that has ceased to serve your growth. So to break through a ceiling, the specific currency you are required to withdraw from your account",
+      "callout": {
+        "text": "SERVE YOUR GROWTH",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 31,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "is skills. Skills. But the catch is it's rarely the obvious skills.",
+      "callout": null
+    },
+    {
+      "i": 32,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "What do you mean? Well, you have to build what Acuff calls invisible skills. Invisible skills. Yeah. long before the visible promotions or the escape routes ever actually Okay, give me an example of that.",
+      "callout": null
+    },
+    {
+      "i": 33,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "To really ground this, let's look at Matt Wilson from the book, right? He's an X-ray technician whose story Acuff unpacks.",
+      "callout": null
+    },
+    {
+      "i": 34,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So Matt works for an absolutely miserable boss. Just a bad environment. Awful. The medical practice is poorly run.",
+      "callout": {
+        "text": "MATT WORKS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 35,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "The culture is toxic and everyone is perpetually unhappy. But let me guess, he doesn't leave. He refuses to leave. Why? His justification is well he constantly repeats this phrase.",
+      "callout": null
+    },
+    {
+      "i": 36,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "There are a lot of unemployed x-ray texts right now. Oh wow. Yeah. He has basically constructed a ceiling for himself",
+      "callout": null
+    },
+    {
+      "i": 37,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "made entirely out of macroeconomic anxiety. He's using the economy as an excuse. He uses a broad economic excuse to justify his own micro cowardice. Okay.",
+      "callout": null
+    },
+    {
+      "i": 38,
+      "shot": "diorama",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "But we all do that. I mean it is so much easier to blame the job market than to face the absolute terror of updating a resume.",
+      "callout": {
+        "text": "BLAME THE JOB MARKET",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 39,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, it is the ultimate comfort blanket. But Acuff connects math situation to Seth Goden's concept of the dip. The dip, right?",
+      "callout": null
+    },
+    {
+      "i": 40,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "If you remember organic chemistry in barely, but yes. You know, that class doesn't just exist to teach carbon structures, It actually exists as an artificial screen to ruthlessly filter out the",
+      "callout": null
+    },
+    {
+      "i": 41,
+      "shot": "closeUp",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a weed out class. Exactly. It separates the people who will actually become doctors from the people who just kind of like the aesthetics of wearing a white coat.",
+      "callout": null
+    },
+    {
+      "i": 42,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's a great point. And a career ceiling functions exactly the same way. It's a screen testing your I have to stop you there, though. Because realistically, is it always a lack of resolve or a lack of",
+      "callout": null
+    },
+    {
+      "i": 43,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "skills? What do you mean? Well, what if your boss is just a tyrant? Like objectively terrible? Or what if you work in a completely flat corporate structure where there physically is no position above you?",
+      "callout": {
+        "text": "YOUR BOSS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 44,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That happens a lot, right? So sometimes the ceiling isn't a test of your skills at all. It's just a concrete wall built by someone else's bad management.",
+      "callout": null
+    },
+    {
+      "i": 45,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is a very fair critique, but I think it requires us to expand our definition of what a skill actually is.",
+      "callout": null
+    },
+    {
+      "i": 46,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay. Expand it. How? In Matt Wilson's case, learning how to read X-rays with 10% more accuracy, that won't fix a toxic boss. Exactly. It will not fix his tyrant boss.",
+      "callout": {
+        "text": "TOXIC BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 47,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The technical skill isn't the deficit here. So, what is the invisible skill he lacks is the ability to pivot.",
+      "callout": null
+    },
+    {
+      "i": 48,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He needs the skill of translating his medical background into a completely different field. Oh, I see. Or he needs the skill of boundary setting or the skill of interviewing after a decade out of the game.",
+      "callout": {
+        "text": "NEEDS THE SKILL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 49,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, the wall forces the skill. Yes. The concrete wall you mentioned isn't the failure. The wall is the exact friction required to force the acquisition of a new tool.",
+      "callout": null
+    },
+    {
+      "i": 50,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Wow. Bumping into the ceiling is literally the training ground for your next move. Oh, that completely flips the perspective.",
+      "callout": {
+        "text": "MOVE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 51,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't learn to pivot when the door is wide open. No, never. You learn to pivot when you are locked in the room. You have to forge the hammer of skills to break the glass.",
+      "callout": null
+    },
+    {
+      "i": 52,
+      "shot": "split",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's the phrase right there. You can't buy your way out of a ceiling if you haven't deposited the skill currency first. Spot on. But as we know, you don't always get the luxury of choosing when to pivot.",
+      "callout": {
+        "text": "KNOW",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 53,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, you don't. Sometimes you don't hit the ceiling. Sometimes the floor simply vanishes from under you. The involuntary shock. Exactly.",
+      "callout": null
+    },
+    {
+      "i": 54,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "So, let's picture this. The quiet echoing car ride on a random Monday morning. Oh, no. You just had the dreaded",
+      "callout": null
+    },
+    {
+      "i": 55,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "quick touch base with HR and your manager. The ambush meeting. Yeah. You pull your car out of the parking lot purely on muscle memory.",
+      "callout": null
+    },
+    {
+      "i": 56,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're just numb. You reach down to your passenger seat for your lanyard and you realize your company badge is dead plastic.",
+      "callout": {
+        "text": "YOUR PASSENGER SEAT",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 57,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's over. The corporate bioddome has been shattered and you are suddenly outside in the cold.",
+      "callout": null
+    },
+    {
+      "i": 58,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That drive home is honestly one of the most isolating experiences a professional can go through. It really is. And what that means for your career savings account is that you have hit a",
+      "callout": {
+        "text": "YOUR CAREER",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 59,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "career bump. A bump. Yes. This is the involuntary negative Getting laid off, getting fired, or just getting completely sidelined at a massive reorg.",
+      "callout": null
+    },
+    {
+      "i": 60,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "So what currency do we need here in that specific vacuum?",
+      "callout": null
+    },
+    {
+      "i": 61,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The currency you desperately need to draw upon is Relationships. Okay. And the brutal truth is",
+      "callout": {
+        "text": "BRUTAL TRUTH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 62,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "if you wait until the badge stops working to start building your network, it's too late. You have already lost because at that point you are networking from a posture of sheer desperation You",
+      "callout": null
+    },
+    {
+      "i": 63,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "aren't cashing in ac crude equity. You are just a stranger begging for a massive favor. And people can smell that desperation a mile away. Oh, totally. Acuff shares a brilliant case study of this with his neighbor Nate.",
+      "callout": null
+    },
+    {
+      "i": 64,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "What happened with Nate? So, Nate lived in a very safe corporate bioddome for eight straight years. Nice and cozy. He always hid his sales numbers.",
+      "callout": null
+    },
+    {
+      "i": 65,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "His colleagues generally liked him and he assumed his output was his security. That's a dangerous assumption. Very. Then a corporate rogue wave hits.",
+      "callout": null
+    },
+    {
+      "i": 66,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A merger, a downsizing, whatever. And Nate loses his job on a Friday out of nowhere. Out of nowhere. He sits down with Acuff over coffee, totally exasperated,",
+      "callout": {
+        "text": "LOSES HIS JOB",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 67,
+      "shot": "medium",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "and admits, \"I don't even know how to use Oh, wow. Eight years in a bunker, completely ignoring the outside world. Exactly.",
+      "callout": null
+    },
+    {
+      "i": 68,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Now, contrast Nate's total isolation with how the corporate hiring machine actually operates. How so? Companies will routinely pay their own employees a $2,000 or $3,000 referral bonus just to",
+      "callout": {
+        "text": "$2,000",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 69,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "source a mid-level developer or project manager. I've seen that, right? So, why would a company spend that much money when they could just post a free job listing?",
+      "callout": {
+        "text": "FREE JOB",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 70,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because it's risky to hire a stranger. Because a trusted relationship is the ultimate risk mitigation tool. That makes sense.",
+      "callout": null
+    },
+    {
+      "i": 71,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "A resume is just a bedazzled piece of paper. But a relationship means an existing employee is willing to put their own internal reputation on the line to vouch for you.",
+      "callout": null
+    },
+    {
+      "i": 72,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "Okay, let's play a devil's advocate for a second here. Bring it. Isn't this exact logic why networking feels so inherently gross to most people?",
+      "callout": null
+    },
+    {
+      "i": 73,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "How do you mean like if I am deliberately cultivating a stable of advocates just so they can act as my personal insurance policy during a hypothetical layoff, That is deeply transactional.",
+      "callout": null
+    },
+    {
+      "i": 74,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "It feels manipulative, like I'm only buying them coffee because I might need their referral bonus in 3 years. I get that. It would be manipulative if you were faking the connection purely for extraction, But AOF",
+      "callout": null
+    },
+    {
+      "i": 75,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "draws a sharp line between casual friends and true advocates. And the entire mechanism relies on genuine",
+      "callout": null
+    },
+    {
+      "i": 76,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "So it goes both ways. Yes. If you are building real relationships, you are also the one reaching out when they hit a bump. Okay, that's fair.",
+      "callout": {
+        "text": "YOU ARE BUILDING REAL",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 77,
+      "shot": "illustration",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "He uses a visceral metaphor for this. Imagine a career bump is like turning a bucket of marbles upside down over a wire sieve.",
+      "callout": null
+    },
+    {
+      "i": 78,
+      "shot": "split",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "A bucket of marbles over a civ. Okay. When times are good and the bucket is upright, you don't really know who is genuinely with you because everyone is just kind of there.",
+      "callout": null
+    },
+    {
+      "i": 79,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But when the layoff hits and the bucket turns over, the transactional connections fall right through the They just disappear. Yep.",
+      "callout": null
+    },
+    {
+      "i": 80,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Only the genuine relationships, the ones too big and substantial to pass through the mesh, stay caught in the The marbles in the civ.",
+      "callout": {
+        "text": "ONES TOO BIG",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 81,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's your network. So when the unexpected bump drains your account, your community acts as your overdraft protection.",
+      "callout": null
+    },
+    {
+      "i": 82,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "You cannot survive an involuntary shock in total isolation. You really can't. Now, we've talked about playing defense against ceilings and bumps, right?",
+      "callout": {
+        "text": "YOU CANNOT SURVIVE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 83,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Acuff says the same math applies to playing offense, which brings its own kind of terror.",
+      "callout": null
+    },
+    {
+      "i": 84,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The voluntary positive transition. The jump. The jump.",
+      "callout": null
+    },
+    {
+      "i": 85,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Imagine handing in your resignation letter to a boss you actually like. Oh, that's hard. Your heart is pounding in your throat. You are leaving a perfectly good, safe, well-paying job. Maybe even what you used to consider a",
+      "callout": {
+        "text": "YOUR HEART",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 86,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "dream job to start your own venture or to completely change industries. You are stepping off a stable ledge into the Mariana trench of the unknown.",
+      "callout": {
+        "text": "DREAM JOB",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 87,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That leap triggers a profound physiological response. Because you are stripping away all your external scaffolding, every bit of it.",
+      "callout": null
+    },
+    {
+      "i": 88,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "And what this means for you is that you are initiating a career jump. It's positive because you chose it, But it creates massive sweeping chaos in your life.",
+      "callout": {
+        "text": "CHAOS IN YOUR LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 89,
+      "shot": "overShoulder",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Total chaos. The corporate brand, the scheduled meetings, the IT department that fixes your laptop, all of it So what currency do we spend here?",
+      "callout": null
+    },
+    {
+      "i": 90,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The currency you must spend to survive that self-induced chaos is character. We are talking about integrity, self-discipline, empathy,",
+      "callout": null
+    },
+    {
+      "i": 91,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "and most importantly, generosity. Yes. Without a massive reserve of character, your jump turns into a fatal freefall.",
+      "callout": null
+    },
+    {
+      "i": 92,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's interesting that generosity is the anchor there. It is because when you make a jump, you are hyper aware of your limited runway.",
+      "callout": null
+    },
+    {
+      "i": 93,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The scarcity mindset is literally screaming at you. Oh, it's deafening. It tells you to hoard your contacts, aggressively guard your time, and charge maximum dollar for every single interaction immediately.",
+      "callout": {
+        "text": "GUARD YOUR TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 94,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Akaf frames this tension as planting an orchard versus succumbing to the weed of The weed of greed. The scarcity mindset tells you that every interaction must be monetized today, right now.",
+      "callout": null
+    },
+    {
+      "i": 95,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Acuff argues the exact opposite approach is required. During a jump, you must deploy radical generosity.",
+      "callout": null
+    },
+    {
+      "i": 96,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Radical generosity. Generosity creates loyalty. And loyalty is the mortar that holds your new fragile career savings account together while you build your new identity. Okay, that sounds beautiful in theory, but",
+      "callout": {
+        "text": "NEW FRAGILE CAREER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 97,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "let's talk about actual survival. if I am jumping into the absolute unknown and I have a mortgage, a family, and real bills to pay, Isn't looking out for number one a biological necessity? How on earth can I afford to",
+      "callout": {
+        "text": "FAMILY AND REAL",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 98,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "be generous with my time or give away free expertise when I am objectively terrified of going bankrupt in 6 months?",
+      "callout": {
+        "text": "GIVE AWAY FREE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 99,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "I mean, it feels incredibly counterintuitive when you are staring at a shrinking bank account. I'll give you right?",
+      "callout": null
+    },
+    {
+      "i": 100,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But if we analyze the actual cost of greed in a transitional phase, the math becomes really clear. Okay, show me the math.",
+      "callout": {
+        "text": "ACTUAL COST",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 101,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Ak's premise is that keeping score builds transactions, not relationships. Keeping score.",
+      "callout": null
+    },
+    {
+      "i": 102,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "When you first make a jump, your new product or your new service is probably not perfect yet. No, it's probably pretty messy. Your skills are still catching up to your new ambition. So why do clients or peers",
+      "callout": {
+        "text": "YOU FIRST",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 103,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "stick with you during that messy unpolished phase? Because they like you. They don't stick with you because you are the absolute best in the world yet.",
+      "callout": null
+    },
+    {
+      "i": 104,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "They stick with you because of your character becomes your competitive advantage.",
+      "callout": null
+    },
+    {
+      "i": 105,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "People will rally around someone with high integrity. That makes a lot of sense. They will forgive mistakes. They'll offer grace. And they will actively hire you,",
+      "callout": null
+    },
+    {
+      "i": 106,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "effectively rescuing your jump when the strict financial logic doesn't even make sense yet. Wow. But if you act out of greed, you immediately alienate the exact people who are preparing to",
+      "callout": null
+    },
+    {
+      "i": 107,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "catch you. So you cannot hustle your way out of bad If your character is bankrupt, the multiplier of hustle just accelerates your ruin.",
+      "callout": null
+    },
+    {
+      "i": 108,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Character is the mortar that ensures your career balance sheet doesn't crumble under the pressure of a leap. That's a great way to put it. Which brings us to the final quadrant of the transitions. Yes. The unexpected windfall.",
+      "callout": null
+    },
+    {
+      "i": 109,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "the Picture this scenario. You're checking your phone at 6 a.m.",
+      "callout": {
+        "text": "YOUR PHONE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 110,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are in Spain. You're completely exhausted from an all night party. Sounds fun. You look up from your screen and you realize you are suddenly standing next to Skrillex",
+      "callout": null
+    },
+    {
+      "i": 111,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "at a massive music festival, actively collaborating on a project. That is wild. It makes zero logical sense based on where you were 5 years ago, but it is actually happening.",
+      "callout": {
+        "text": "YOU WERE 5 YEARS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 112,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "A surreal, magnificent moment of pure Truly. And what that means for your career is that a career opportunity has fallen into your lap.",
+      "callout": null
+    },
+    {
+      "i": 113,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "An opportunity. This is the involuntary positive transition. You didn't orchestrate every single step to get next to Skrillex.",
+      "callout": null
+    },
+    {
+      "i": 114,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "The universe just handed you a wild card. But serendipity isn't a strategy, To actually capture the upside of that fleeting moment, you must withdraw And we need",
+      "callout": null
+    },
+    {
+      "i": 115,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to be incredibly precise about what hustle means here. Raw undirected effort just burns you out.",
+      "callout": null
+    },
+    {
+      "i": 116,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Targeted hustle is what locks the opportunity into place. Let's bring in Steve G for this one. Oh, Steve G. Yes.",
+      "callout": null
+    },
+    {
+      "i": 117,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "This is a guy Acuff profiles in the book who has four master's degrees from astrophysics,",
+      "callout": null
+    },
+    {
+      "i": 118,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "computer science, mathematics, and philosophy. He is incredibly deep into his academic research.",
+      "callout": null
+    },
+    {
+      "i": 119,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "He's invested years into this highly specific path. Right. And then he suddenly looks up and realizes he has to change direction.",
+      "callout": {
+        "text": "CHANGE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 120,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The math of his life is pointing him somewhere entirely different. The sunk cost fallacy for someone with four Oxford degrees must be immense. Oh, I can't even imagine.",
+      "callout": null
+    },
+    {
+      "i": 121,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "To pivot out of that requires terrifying It does. And he uses a technique Acuff calls head down, head up. Yes.",
+      "callout": null
+    },
+    {
+      "i": 122,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The head down, head up dynamic is vital here because hustle isn't just mindlessly grinding forward into the dark. it is the situational awareness to realize when a door has permanently shut and having",
+      "callout": null
+    },
+    {
+      "i": 123,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "the sheer grit to hitch up your skirt and crawl through a tiny window instead.",
+      "callout": null
+    },
+    {
+      "i": 124,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Head down is the execution phase, right? Doing the grueling work. Yeah. But head up is the navigation phase. If you just keep your head down and run,",
+      "callout": {
+        "text": "KEEP YOUR HEAD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 125,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "you might be running in the wrong direction at incredible speed. Exactly. Steve G had to pick his head up to see the new opportunity even when it contradicted his past investments.",
+      "callout": {
+        "text": "PICK HIS HEAD",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 126,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But wait, I hear the word hustle and my modern workplace alarms immediately go I don't blame you. Isn't telling people to just hustle on every single opportunity promoting toxic It",
+      "callout": {
+        "text": "GO I DON'T BLAME",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 127,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "can sound like it. Isn't that exact mentality, always be grinding, always be maximizing, how we ended up with a workforce where 70% of people are clinically burned out?",
+      "callout": null
+    },
+    {
+      "i": 128,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "we just tell them to run the engine hotter. It's a very common and very dangerous misconception. But Acuff aggressively corrects this by redefining hustle as a scalpel, not a sledgehammer.",
+      "callout": null
+    },
+    {
+      "i": 129,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "A scalpel. Okay. And more importantly, he introduces the concept that hustle has seasons.",
+      "callout": null
+    },
+    {
+      "i": 130,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Yeah. He gives the example of a father with a four-week old baby. Oh, rough season, right? The dad is waking up at 3:00 a.m. to feed the child, and he is torturing himself with guilt because he isn't getting up at 5:00",
+      "callout": {
+        "text": "FEED THE CHILD",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 131,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "a.m. to work on his entrepreneurial side project. Oh, that's brutal. Acuff tells him to immediately stop.",
+      "callout": null
+    },
+    {
+      "i": 132,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "His hustle is his family right now. You cannot maintain maximum output in every single area of your life That is deeply relieving to hear. True hustle requires the discipline of pausing,",
+      "callout": {
+        "text": "YOUR LIFE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 133,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "stopping, and actively reconfiguring your energy based on the literal season of life you are in. Right. Hustle isn't about running the engine hotter.",
+      "callout": null
+    },
+    {
+      "i": 134,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's about making sure your career investments are multiplying, not combusting. So, we know we need these four currencies: skills, relationships, character, and hustle ready for these We do.",
+      "callout": null
+    },
+    {
+      "i": 135,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "But how do we actually build them? Let's zoom in on the hardest one for most people. Relationships. Yes, the infamous friends on purpose Let's set the scene for how Acuff suggests you audit this. You are sitting at your dining",
+      "callout": null
+    },
+    {
+      "i": 136,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "room table. It is covered in a chaotic sea of blank 3x5 index cards, a mess of paper. You are staring at them trying to force yourself to physically write down the names of people you",
+      "callout": {
+        "text": "ROOM TABLE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 137,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "actually know in your professional and personal sphere. And it's hard. It is agonizingly difficult. It's confronting because we usually let our professional relationships",
+      "callout": null
+    },
+    {
+      "i": 138,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "happen completely by accident. Right? Proximity. We mistake proximity for connection. Just because you sit next to someone in a pod for 3 years doesn't mean they are in your corner. Not at all.",
+      "callout": {
+        "text": "3 YEARS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 139,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "What this audit means for you is that you have to brutally assess who will actually answer your call when the corporate business card and your fancy title disappear. Who is actually there?",
+      "callout": null
+    },
+    {
+      "i": 140,
+      "shot": "medium",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Aub stresses that you need to gather people around a small table deliberately. You cannot leave your network to chance. He introduces the concept of throwing I",
+      "callout": {
+        "text": "SMALL TABLE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 141,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "love this visual. It's so good. These are relationships that you invest in with zero expectation of immediate return.",
+      "callout": null
+    },
+    {
+      "i": 142,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You just throw them out there. They head off into the distance. Maybe you don't speak for a year or two and then they come back and land perfectly in your hand when you least expect it.",
+      "callout": null
+    },
+    {
+      "i": 143,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. Like a casual editor you collaborated with three years ago suddenly moves to a new agency and recommends you for a massive freelance Exactly.",
+      "callout": {
+        "text": "THREE YEARS",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 144,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "But the audit isn't just about finding the good ones. It's also about identifying your foes.",
+      "callout": null
+    },
+    {
+      "i": 145,
+      "shot": "crowd",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "We all have them. Oh yeah. The actively toxic coworker who constantly undermines you in meetings or the relentless internet troll who drains your emotional battery.",
+      "callout": null
+    },
+    {
+      "i": 146,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Acuff says, \"You have to give these foes the one thing they need most. Absolute You cannot convert a true foe with kindness.",
+      "callout": {
+        "text": "CANNOT CONVERT A TRUE",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 147,
+      "shot": "twoShot",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You just have to remove their access to your account, which clears space for the positive But okay, hold on. How do you actively make friends",
+      "callout": null
+    },
+    {
+      "i": 148,
+      "shot": "wide",
+      "beat": "crowd",
+      "concept": null,
+      "diagram": null,
+      "narration": "on purpose without turning into that slimy networking guy at the conference hotel bar? Oh, we all know that guy.",
+      "callout": null
+    },
+    {
+      "i": 149,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "You know the guy. He's literally scanning your badge while you're talking to see if your title is important enough to warrant his attention. It all comes down to your selection",
+      "callout": null
+    },
+    {
+      "i": 150,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "If your criteria is who can advance my career the fastest, you will become that slimy guy",
+      "callout": null
+    },
+    {
+      "i": 151,
+      "shot": "insert",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Ak's rule is brilliantly simple and disarming. He says, ask yourself, who would it be fun to get to know?",
+      "callout": {
+        "text": "ASK YOURSELF",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 152,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Who would it be fun to get to know? That completely shifts the paradigm. It instantly removes the ladder climbing agenda.",
+      "callout": null
+    },
+    {
+      "i": 153,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "It humanizes the entire process, Maybe the person who is fun to get to know is a junior graphic designer, not the VP of marketing.",
+      "callout": null
+    },
+    {
+      "i": 154,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "And once you identify those people, you have to actually do the unglamorous work of friendship. You do. You have to be a first responder to their emails. You have to own the inconvenience",
+      "callout": null
+    },
+    {
+      "i": 155,
+      "shot": "lowAngle",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "of connection, which means meaning you are the one who drives 20 minutes out of your way in traffic to meet them for coffee at their favorite spot, not the one conveniently located under your office. You're consistently depositing equity into",
+      "callout": {
+        "text": "DRIVES 20 MINUTES",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 156,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "a human being, not extracting value from a walking Right? You can't withdraw a referral if you haven't deposited a boomerang. Perfectly said.",
+      "callout": null
+    },
+    {
+      "i": 157,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Now, let's bring all of this highle strategy back to the immediate visceral Not the grand jumps or the sudden layoffs, but the mundane reality of tomorrow morning, rescuing Monday morning.",
+      "callout": null
+    },
+    {
+      "i": 158,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The scene is universally recognizable. The office badge buzzes against the scanner. You hear the breakroom coffee maker sputtering.",
+      "callout": null
+    },
+    {
+      "i": 159,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "I can smell the stale You sit down in your ergonomic chair, the screen flickers to life, and you realize you are sleepwalking into another",
+      "callout": {
+        "text": "YOUR ERGONOMIC CHAIR",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 160,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "entirely mediocre week. you are just playing the part of a lifer, quietly serving out your sentence until Friday at 5:00 p.m.",
+      "callout": null
+    },
+    {
+      "i": 161,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The slow, quiet fade into apathy. It's depressing. It's arguably more dangerous than a layoff because there's no precipitating event to force a change. You just rot, right?",
+      "callout": {
+        "text": "SLOW",
+        "style": "box"
+      }
+    },
+    {
+      "i": 162,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "But what this section of the book means for you is incredibly empowering. How so? You do not have to blow up your entire life, quit your job, and move to a cabin in the woods to fix this feeling.",
+      "callout": {
+        "text": "LIFE QUIT YOUR JOB",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 163,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You don't have to escape. No, you can actually rescue your Monday through very small iterative adjustments to your attitude and your expectations right now. Ak aggressively",
+      "callout": null
+    },
+    {
+      "i": 164,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "dismantles the modern myth that you have to find your ultimate passion or else your life is a tragic failure. He tells this hilarious and illuminating story about his time writing advertising copy for Home Depot.",
+      "callout": {
+        "text": "ELSE YOUR LIFE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 165,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, this is a great story. He contrasts personal currency versus company currency,",
+      "callout": null
+    },
+    {
+      "i": 166,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "The company's currency was simple. They needed clear, compelling copy to sell curtains to suburban homeowners. Curtains. Simple enough.",
+      "callout": {
+        "text": "SIMPLE ENOUGH",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 167,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But Acuff's personal currency was he was obsessively trying to force LL CoolJ lyrics into the curtain copy. That is amazing.",
+      "callout": null
+    },
+    {
+      "i": 168,
+      "shot": "diorama",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He was sneaking rap references into descriptions of granite countertops, and he was getting deeply frustrated and resentful when his boss kept shooting his ideas down because it didn't fit. He felt creatively stifled.",
+      "callout": null
+    },
+    {
+      "i": 169,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "But the breakthrough came when he realized he had to align his value with the company's currency first.",
+      "callout": null
+    },
+    {
+      "i": 170,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He had to actually sell the curtains before he could earn the right to inject his own voice. Okay, let's challenge this philosophy for a second.",
+      "callout": {
+        "text": "OWN VOICE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 171,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's do it. If you just adjust your expectations to perfectly fit the demands of an incredibly boring utilitarian job. Aren't you essentially just giving up?",
+      "callout": null
+    },
+    {
+      "i": 172,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Isn't that settling for a comeos career? It sounds like it. If you stop trying to be creative and just write the boring curtain copy, doesn't your soul just slowly die in that cubicle?",
+      "callout": null
+    },
+    {
+      "i": 173,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is exactly what fear and ego whisper to you. But Acuff dissects this popular cultural formula that says happiness equals reality minus",
+      "callout": {
+        "text": "FEAR AND EGO",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 174,
+      "shot": "overShoulder",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right? Lower your expectations. the idea that if you just expect nothing, you'll never be disappointed. He says that formula is garbage.",
+      "callout": null
+    },
+    {
+      "i": 175,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Because intentionally killing your expectations means intentionally killing your hope. Oh wow. The goal isn't to murder your hopes.",
+      "callout": null
+    },
+    {
+      "i": 176,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The goal is to find the correct home for Find the right home. Maybe your expectation for deep avantguard creative fulfillment belongs in a side hustle or a weekend hobby or a novel you write at 5 a.m.",
+      "callout": null
+    },
+    {
+      "i": 177,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Not at Home Depot. It does not belong on the shoulders of your by the numbers middle management boss who just needs you to format a quarterly spreadsheet.",
+      "callout": {
+        "text": "YOUR BY THE NUMBERS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 178,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Stop demanding the spreadsheet provide you with spiritual enlightenment. That is a massive paradigm shift, isn't it?",
+      "callout": null
+    },
+    {
+      "i": 179,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You preserve your passion by refusing to demand that your day job fulfill every single aspect of your human soul. You diversify your emotional portfolio. Exactly. Rescuing Monday is",
+      "callout": {
+        "text": "YOUR DAY JOB",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 180,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "about balancing the books on your Beautifully said. Which brings us to what happens when we do decide to care, but we channel that energy in entirely the wrong direction.",
+      "callout": null
+    },
+    {
+      "i": 181,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "The trap of fake hustle. Here's the You are frantically hitting refresh on your inbox every 30 seconds.",
+      "callout": {
+        "text": "TRAP OF FAKE",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 182,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "You are tweaking the font size on a slide deck for the fifth time. You feel incredibly busy. Your heart rate is elevated, but you are achieving absolutely nothing of substance.",
+      "callout": null
+    },
+    {
+      "i": 183,
+      "shot": "diorama",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Is spinning your wheels. You are binge watching 22 episodes of The Blacklist on a second monitor while simultaneously complaining to everyone on Slack that you are completely swamped.",
+      "callout": null
+    },
+    {
+      "i": 184,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "We have all lived in that exact state of frantic paralysis. Oh, absolutely. What that means for your career account is that you are engaging in fake hustle.",
+      "callout": null
+    },
+    {
+      "i": 185,
+      "shot": "overShoulder",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "It is performative busyiness. Performative busyiness. It completely depletes your energy account. You end the day exhausted, but it doesn't add a single ounce of actual equity or value",
+      "callout": null
+    },
+    {
+      "i": 186,
+      "shot": "overShoulder",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "to your career. So, what's the alternative? True hustle requires something much deeper and much less glamorous. Grit. Grit is doing these specific unsexy things you actively hate doing,",
+      "callout": {
+        "text": "YOU ACTIVELY HATE",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 187,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "but that are absolutely critical to moving your career forward. Ak introduces the grit list.",
+      "callout": {
+        "text": "MOVING YOUR CAREER",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 188,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He compares it to eating albino broccoli, which is basically I love that comparison. You hate it. It's bland, but you have to consume it for your health.",
+      "callout": {
+        "text": "YOU HATE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 189,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "He also brings in the legendary industrial designer Dita Ram's philosophy. Less but better. Less but better. True hustle is not about adding 50 minor tasks to your to-do list so you",
+      "callout": null
+    },
+    {
+      "i": 190,
+      "shot": "medium",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "look indispensable to your co-workers. it's about violently stripping away the 45 tasks that don't actually matter and executing the five that drive the business forward with absolute But",
+      "callout": null
+    },
+    {
+      "i": 191,
+      "shot": "lowAngle",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "let's apply this to harsh corporate realities, though. Okay, let's be real. How can an employee possibly do less but better when their manager is explicitly demanding constant, highly visible right? the optics of working.",
+      "callout": null
+    },
+    {
+      "i": 192,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "When the company culture actively celebrates 80hour weeks and responding to Slack messages at midnight, it's a huge problem. If you do less in that environment, you don't get praised for efficiency.",
+      "callout": null
+    },
+    {
+      "i": 193,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You get fired for lacking culture fit. It is the ultimate friction point of modern work.",
+      "callout": {
+        "text": "MODERN WORK",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 194,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "But AOF points to the single tactic that cuts through the noise, relentlessly asking, am I adding value? Am I adding value?",
+      "callout": null
+    },
+    {
+      "i": 195,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "Fake hustle is at its core a hiding mechanism. It's how we avoid this scary highstakes work. So, true hustle is what?",
+      "callout": null
+    },
+    {
+      "i": 196,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "True hustle is finding the sheer courage to pull back, apply the scalpel, and focus on the currency that actually drives the bottom line, even if it's uncomfortable. And yes, that might mean having a highly",
+      "callout": null
+    },
+    {
+      "i": 197,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "uncomfortable, terrifying conversation with your boss. What do you say to them? You have to look them in the eye and say, \"I can answer emails at midnight and look busy, or I can deliver this major client project",
+      "callout": null
+    },
+    {
+      "i": 198,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "flawlessly on Thursday.\" Which outcome adds more value to your quarterly goals? Wow. You are forcing the manager to choose between the appearance of work and the impact",
+      "callout": {
+        "text": "CHOOSE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 199,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "of work. Exactly. Fake hustle writes bad checks that bounce when performance reviews happen.",
+      "callout": null
+    },
+    {
+      "i": 200,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "True hustle deposits undeniable That's a mic drop right there.",
+      "callout": null
+    },
+    {
+      "i": 201,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's bring this entire framework together into the ultimate diagnostic Okay, let's do it.",
+      "callout": null
+    },
+    {
+      "i": 202,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "The doover grid. the grid. Imagine sitting in a coffee shop, taking out a pen, and drawing a simple cross on a napkin.",
+      "callout": null
+    },
+    {
+      "i": 203,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Simple enough. You draw a vertical line going from voluntary at the top to involuntary at the bottom.",
+      "callout": null
+    },
+    {
+      "i": 204,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "You draw a horizontal line going from negative on the left to positive on the Got it?",
+      "callout": null
+    },
+    {
+      "i": 205,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You look at those four quadrants, the ceiling, the bump, the jump, and the opportunity, and you finally realize exactly where you are trapped.",
+      "callout": {
+        "text": "YOU ARE TRAPPED",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 206,
+      "shot": "diorama",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "That visual clarity is so liberating because it removes the vague sense of dread and replaces it with coordinates, right? You have coordinates.",
+      "callout": null
+    },
+    {
+      "i": 207,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Now, what this grid means for you is that you have to honestly map exactly where you are today. Because once you pinpoint your location, you know exactly which of the four currencies you need to begin stockpiling immediately to survive",
+      "callout": null
+    },
+    {
+      "i": 208,
+      "shot": "split",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "the Ak uses this brilliant vivid metaphor of the lobsters versus the birds in Rockport, Massachusetts. This is wild.",
+      "callout": null
+    },
+    {
+      "i": 209,
+      "shot": "diorama",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "There are these old heavy wooden lobster traps sitting on the dock. For a lobster, that trap is an instrument of literal death. It's a negative, inescapable prison.",
+      "callout": null
+    },
+    {
+      "i": 210,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "But local birds have flown in, looked at the exact same traps, and started building nests inside the cages. The birds are gentrifying the lobster They literally are. It is the exact same environment,",
+      "callout": null
+    },
+    {
+      "i": 211,
+      "shot": "closeUp",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "the exact same structure, but a completely different outcome based on the occupant. That's incredible. You have to ask yourself, are you hanging out with negative gossiping lobsters in your office who want you to stay stuck complaining in your",
+      "callout": null
+    },
+    {
+      "i": 212,
+      "shot": "illustration",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "quadrant? Or are you acting like a bird finding a completely new advantageous use for your current",
+      "callout": null
+    },
+    {
+      "i": 213,
+      "shot": "illustration",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's a great metaphor, but life is rarely as clean as a drawing on a What do you mean? What if your situation is incredibly messy?",
+      "callout": null
+    },
+    {
+      "i": 214,
+      "shot": "medium",
+      "beat": "question",
+      "concept": null,
+      "diagram": null,
+      "narration": "What if you are in multiple quadrants simultaneously? Can that happen? Sure. What if you are hitting a painful suffocating ceiling at your day job, but you also have a positive involuntary opportunity exploding with a side hustle",
+      "callout": null
+    },
+    {
+      "i": 215,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "at the exact same time? the grid could feel a bit too tidy for",
+      "callout": {
+        "text": "EXACT SAME TIME",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 216,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "Well, Aka fully acknowledges that the borders between these quadrants are deeply murky. Okay. But the beauty of treating this as a career savings account is its absolute Explain that. If you are wellunded across the board, if",
+      "callout": null
+    },
+    {
+      "i": 217,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "you have invested in relationships, skills, character, and hustle over years, you're fully stocked. You do not panic when the lines blur and you find yourself in two transitions at You don't freeze in terror. You simply reach into your account",
+      "callout": {
+        "text": "YOU DO NOT PANIC",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 218,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "and apply the specific tool required for the immediate friction point in front of You pull out the hammer of skills to start dismantling the day job ceiling, and you pour the targeted fuel of hustle onto the side project opportunity.",
+      "callout": null
+    },
+    {
+      "i": 219,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "You're solvent across the board, so the complexity doesn't bankrupt you. The grid is your balance sheet mapped out. It tells you exactly what career currency to spend. It removes the existential dread",
+      "callout": {
+        "text": "ACROSS THE BOARD",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 220,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "because you have effectively diversified your career portfolio. Exactly. Okay. So, we have built this massive",
+      "callout": null
+    },
+    {
+      "i": 221,
+      "shot": "closeUp",
+      "beat": "contrast",
+      "concept": null,
+      "diagram": null,
+      "narration": "robust system. We understand the We do. But we have to take a step back and address the elephant in the room. Let's address it. We have to push back on the fundamental premise of the book.",
+      "callout": null
+    },
+    {
+      "i": 222,
+      "shot": "insert",
+      "beat": "stat",
+      "concept": null,
+      "diagram": null,
+      "narration": "Go for it. Acuff's framework is incredibly almost aggressively It really is. It implies that the individual has total 100% control over their destiny. But what happens when you",
+      "callout": {
+        "text": "100",
+        "style": "outline"
+      }
+    },
+    {
+      "i": 223,
+      "shot": "illustration",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "hit a wall made of massive structural economic like a massive recession or a deeply systemically toxic corporate trap steeped in prejudice or",
+      "callout": null
+    },
+    {
+      "i": 224,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "illegal Very real scenarios. Can your individual character and a good attitude really bridge the gap of total systemic It's the critical counterpoint to any self-help framework.",
+      "callout": null
+    },
+    {
+      "i": 225,
+      "shot": "twoShot",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "And if we look strictly at Acuff's text, he actually doesn't shy away from this He doesn't. No. He openly admits there are macroeconomic forces",
+      "callout": null
+    },
+    {
+      "i": 226,
+      "shot": "closeUp",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "completely out of your control. He calls them rogue waves. Rogue waves. A global recession, an industry collapse, or the booby trap meeting where you get fired without cause or Right.",
+      "callout": {
+        "text": "BOOBY TRAP MEETING",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 227,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "He even grounds this by sharing the extreme story of Raid Naji Hadab. Who is that? He's a cab driver Acuff met who literally had to flee al-Qaeda.",
+      "callout": null
+    },
+    {
+      "i": 228,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh wow. It's a stark sobering reminder that some foes aren't just annoying co-workers.",
+      "callout": null
+    },
+    {
+      "i": 229,
+      "shot": "silhouette",
+      "beat": "negative",
+      "concept": null,
+      "diagram": null,
+      "narration": "Some foes are very real, very systemic, and highly dangerous. Yeah. You can't hustle your way out of Exactly. Acuff doesn't promise that the career savings account will magically fix a broken global economy or",
+      "callout": {
+        "text": "FIX A BROKEN",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 230,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "a corrupt So what does it do? He promises that it is the only safety net you actually have direct control over.",
+      "callout": null
+    },
+    {
+      "i": 231,
+      "shot": "twoShot",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Right. Right. So the math doesn't fix a toxic system. It gives you the leverage to survive it. Precisely. If you are trapped under a truly toxic boss, Acuff says you basically have three stark choices.",
+      "callout": {
+        "text": "TRULY TOXIC BOSS",
+        "style": "strike"
+      }
+    },
+    {
+      "i": 232,
+      "shot": "closeUp",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "What are they? One, you can try to improve your performance and see if it miraculously helps the dynamic. Unlikely, but possible.",
+      "callout": {
+        "text": "POSSIBLE",
+        "style": "box"
+      }
+    },
+    {
+      "i": 233,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "Two, you can swallow your pride, accept that you are just a cog in their machine, and do exactly what you're told to collect the paycheck.",
+      "callout": {
+        "text": "YOUR PRIDE",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 234,
+      "shot": "wide",
+      "beat": "positive",
+      "concept": null,
+      "diagram": null,
+      "narration": "survival mode. Or three, you can take their toxic actions as a literal dare to get a better job. I love that the CSA doesn't rehabilitate the bad boss. It gives you the liquidity, the",
+      "callout": null
+    },
+    {
+      "i": 235,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "network, and the skills to escape the bad boss. It is your exit capital.",
+      "callout": {
+        "text": "ESCAPE THE BAD BOSS",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 236,
+      "shot": "wide",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That is the ultimate payoff of this entire framework. It really is. A doover is not a magical clean slate, fresh start where you get to jump back to zero, erase all your past mistakes, and pretend your previous career didn't happen.",
+      "callout": {
+        "text": "YOUR PAST MISTAKES",
+        "style": "reveal"
+      }
+    },
+    {
+      "i": 237,
+      "shot": "medium",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "No, not at all. A doover is an intentional, highly strategic audit of your career balance sheet. It's learning to read your accounts, understand your severe deficits, and make daily deposits before Monday morning bankrupts",
+      "callout": null
+    },
+    {
+      "i": 238,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "you. You control vastly more than you think, provided you have the discipline to deposit the currency before you actually need to make the withdrawal.",
+      "callout": {
+        "text": "YOU CONTROL",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 239,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "The power is entirely in the preparation So, as we wrap up this deep dive, I want to leave you with a thought that expands on everything AUF has taught us.",
+      "callout": null
+    },
+    {
+      "i": 240,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Let's hear it. We are entering an era where algorithms and AI are threatening to automate massive chunks of what we traditionally call skills.",
+      "callout": null
+    },
+    {
+      "i": 241,
+      "shot": "insert",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "Oh, absolutely. The landscape is shifting under our feet. The technical requirements of your job might be completely rewritten by a machine in the next 5 years.",
+      "callout": {
+        "text": "YOUR JOB",
+        "style": "highlight"
+      }
+    },
+    {
+      "i": 242,
+      "shot": "closeUp",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "It's very possible. That is a rogue wave we can all see Yes, we can. But as that happens, the other currencies in your account, the relationships and character, yes, your genuine relationships and your deep character, they become the only",
+      "callout": null
+    },
+    {
+      "i": 243,
+      "shot": "overShoulder",
+      "beat": "story",
+      "concept": null,
+      "diagram": null,
+      "narration": "assets that a machine absolutely cannot They aren't just soft skills anymore. They are your ultimate futurep proofing.",
+      "callout": null
+    },
+    {
+      "i": 244,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "That's a powerful realization. So, look at your actual calendar for tomorrow. Are you actively scheduling deposits into the human currencies that will survive the next wave of Or",
+      "callout": null
+    },
+    {
+      "i": 245,
+      "shot": "diorama",
+      "beat": "time",
+      "concept": null,
+      "diagram": null,
+      "narration": "are you just writing more checks on an account that is already empty? Because eventually the X-ray machine of your career is going to show the undeniable truth of what's inside that And you wanted to show a balance that",
+      "callout": null
+    },
+    {
+      "i": 246,
+      "shot": "diorama",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "can weather whatever jump, bump, or opportunity comes next. Exactly. Thank you for diving into the mechanics of the doover with us today.",
+      "callout": null
+    },
+    {
+      "i": 247,
+      "shot": "closeUp",
+      "beat": "neutral",
+      "concept": null,
+      "diagram": null,
+      "narration": "Keep building your",
+      "callout": null
+    }
+  ]
+}

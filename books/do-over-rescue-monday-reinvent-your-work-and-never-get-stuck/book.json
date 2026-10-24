@@ -1,0 +1,45 @@
+{
+  "slug": "do-over-rescue-monday-reinvent-your-work-and-never-get-stuck",
+  "title": "Do Over: Rescue Monday, Reinvent Your Work, and Never Get Stuck",
+  "author": "Jon Acuff",
+  "genre": "nonfiction",
+  "engine": "antidote",
+  "engineRationale": "Nonfiction career development and work reinvention ideas/advice book with framework diagrams and concepts",
+  "engineDecidedBy": "claude-explicit",
+  "engineProfile": {
+    "kind": "nonfiction",
+    "world": "ideas",
+    "era": 2015,
+    "realPeople": false,
+    "format": "argument",
+    "violence": "none",
+    "minorHarm": false,
+    "mustSee": [
+      "career savings account formula",
+      "relationships skills character hustle grid",
+      "reinventing work after getting stuck"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-24",
+    "fit": "antidote",
+    "confidence": "strong",
+    "voxScore": 0,
+    "antidoteScore": 26.5,
+    "signals": {
+      "year": 0,
+      "history": 0,
+      "second": 62.2,
+      "abstract": 5.9,
+      "sensitive": 2.3,
+      "era": 2015,
+      "words": 6560
+    },
+    "reasons": [
+      "the narration addresses the viewer (\"you\" 62.2/1k) → an idea/advice film, drawn as icons, diagrams and an everyman (Antidote)"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

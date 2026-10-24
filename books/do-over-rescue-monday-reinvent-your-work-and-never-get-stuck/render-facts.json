@@ -1,0 +1,27 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-10-24T09:15:02.518Z",
+      "kind": "preflight",
+      "mode": "preview-only",
+      "commit": "4166eb2d",
+      "configHash": "c963906dd9229a4d",
+      "quality": {
+        "status": "FAIL",
+        "blocks": 0,
+        "reviews": 564
+      },
+      "decision": {
+        "kind": "PREVIEW_ONLY",
+        "ok": true,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    }
+  ]
+}
