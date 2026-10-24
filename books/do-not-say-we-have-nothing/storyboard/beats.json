@@ -1,0 +1,5352 @@
+{
+  "slug": "do-not-say-we-have-nothing",
+  "title": "Do Not Say We Have Nothing",
+  "author": "Madeleine Thien",
+  "genre": "historical-fiction",
+  "count": 325,
+  "instructions": "Author one design per beat, SAME order & length. Then: node scripts/plan-vox.js --designs=<thisFileEdited> (same other args).",
+  "designSchema": {
+    "type": "title|statement|list|quote|stat|imagefocus|compare|punchline|checklist|polaroid|chart",
+    "kicker": "2-4 word ALL-CAPS section tag or ''",
+    "emphasis": "1-3 SHORT ALL-CAPS words: pick the most SPECIFIC nouns — names, places, key terms, numbers (never generic verbs/adjectives, never a full sentence)",
+    "items": "list-only: 2-4 SHORT ALL-CAPS items, else []",
+    "image": "null OR {subject:'concrete cinematic visual, no text', style:'cutout'|'card'}",
+    "compare": "compare-only: {left:{label,subject},right:{label,subject}}, else null"
+  },
+  "beats": [
+    {
+      "i": 0,
+      "text": "You're standing in the suffocating, dusty silence of room 103. [snorts] It's um it's a soundproof practice room at the Shanghai Conservatory",
+      "design": {
+        "type": "title",
+        "kicker": "BOOK BREAKDOWN",
+        "emphasis": [
+          "SHANGHAI",
+          "CONSERVATORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "room, conservatory, suffocating",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 1,
+      "text": "of Music. And the year is 1966. Right in the thick of it. Exactly. And in the dim filtered light, you can literally smell it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FILTERED",
+          "LIGHT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "literally, exactly., filtered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 2,
+      "text": "The deep resonant old parasol tree wood of the instruments, the sharp piny tang of rosin, and this unmistakable metallic",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNMISTAKABLE",
+          "METALLIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 3,
+      "text": "scent of sheer paralyzing terror. Because hiding in the shadows of this tiny room are two people, right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHEER",
+          "PARALYZING",
+          "TERROR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 4,
+      "text": "A brilliant young composer named Sparrow and his prodigy violinist cousin, a young girl named Zhuli. They're holding their instruments, knuckles completely",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COMPOSER",
+          "NAMED",
+          "SPARROW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "young, named, instruments",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 5,
+      "text": "white, but they are absolutely petrified to make a single which is just so haunting because outside those heavy doors,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "DOORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 6,
+      "text": "the red guards are marching through the halls. And the horrifying irony of this exact moment is that Sparrow and Zhuli are terrified of playing Bach.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SPARROW",
+          "AND",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "horrifying, terrified, marching",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 7,
+      "text": "They are terrified of debuty of Proov because seemingly overnight the Western counterpoint that has defined their entire existence",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WESTERN",
+          "COUNTERPOINT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "counterpoint, terrified, seemingly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 8,
+      "text": "has been branded as bourgeoa poison. It's a complete inversion of their Right?",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMPLETE",
+          "INVERSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 9,
+      "text": "making beautiful sound. The very thing they were born to do, the thing they have dedicated tens of thousands of hours to mastering is suddenly a death",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MAKING",
+          "BEAUTIFUL",
+          "SOUND"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 10,
+      "text": "It really is a complete and violent inversion of reality. I mean, in that room, the air itself, the very medium you need for music to travel,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VIOLENT",
+          "INVERSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 11,
+      "text": "becomes a If you vibrate the air, you die. And this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "VIBRATE",
+          "THE",
+          "AIR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 12,
+      "text": "is the visceral, terrifying world we are plunging into today.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 13,
+      "text": "We're exploring the mechanisms of survival in Maline The masterful, devastating book, Do Not Say We Have Nothing.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "SURVIVAL",
+          "IN",
+          "MALINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 14,
+      "text": "Okay, let's unpack this right away because our mission for this deep dive is to look way beyond the straightforward historical narrative.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRAIGHTFORWARD",
+          "HISTORICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 15,
+      "text": "Definitely. Like yes, this text chronicles the sweeping horrors of mouse cultural revolution and the crushing tragedy of the Tiananmen Square protests",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TIANANMEN",
+          "SQUARE",
+          "PROTESTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "definitely., chronicles, revolution",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 16,
+      "text": "in 1989, but if you just read it as a timeline of bad things happening, you miss the profound architecture of the You miss the real horror",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 17,
+      "text": "of it. Yeah, exactly. It is a forensic exploration of",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FORENSIC",
+          "EXPLORATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 18,
+      "text": "how totalitarian states attempt to completely erase human interiority.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTALITARIAN",
+          "STATES",
+          "ATTEMPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 19,
+      "text": "They don't just want to control your body. They want to outlaw silence, memory, and music entirely. That concept of erasing interiority, that is the",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ERASING",
+          "INTERIORITY"
+        ],
+        "items": [
+          "OUTLAW SILENCE",
+          "MEMORY",
+          "MUSIC ENTIRELY"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 20,
+      "text": "engine of everything we are going to discuss today. Under these types of regimes, survival completely changes its shape.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISCUSS",
+          "TODAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 21,
+      "text": "How so? Well, it's no longer just about hiding your body in a soundproof room to ensure your physical safety. The state wants to own your mind.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "SAFETY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 22,
+      "text": "Therefore, personal identity transforms into this clandestine archival project. Your very soul becomes contraband.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERSONAL",
+          "IDENTITY",
+          "TRANSFORMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 23,
+      "text": "Wow. Your soul is contraband, right? And surviving means engaging in a secret, desperate act of copying, preserving, and smuggling your own",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "CONTRABAND"
+        ],
+        "items": [
+          "COPYING",
+          "PRESERVING",
+          "SMUGGLING YOUR"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 24,
+      "text": "humanity through handwritten fragments and memorized symphonies. Which brings us to the core thesis of this whole thing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMANITY",
+          "THROUGH",
+          "HANDWRITTEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 25,
+      "text": "To be silenced is terrifying, but to be re-recorded in the state's voice is the true death. That is the absolute core of it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 26,
+      "text": "And I want you to really hold on to that phrase. To be silenced is terrifying, but to be re-recorded in the state's voice is the true death.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 27,
+      "text": "Right? Because if the state silences you, your original song still exists within you, unplayed. It is dormant, but it's real.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "SILENCES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 28,
+      "text": "Yeah. It's still yours. But if they force you to open your mouth and sing their slogans, they overwrite your soul. They take the tape of your identity and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OVERWRITE",
+          "YOUR",
+          "SOUL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 29,
+      "text": "they record their propaganda right over it. That is the true death. So, how do you map a tragedy of that scale?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "RECORD",
+          "THEIR",
+          "PROPAGANDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 30,
+      "text": "Tien structures this exploration brilliantly by using a double timeline. She builds this architecture that bridges the past and the present, which forces",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DOUBLE",
+          "TIMELINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 31,
+      "text": "us to piece the history together, just like the characters do. We don't start in 1966 Shanghai. No, we don't. We start in 1990s Vancouver.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1990S",
+          "VANCOUVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "start, characters, vancouver.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 32,
+      "text": "And I want you to imagine the contrast here. It's gray. There's this endless thick Pacific Northwest rain seeping",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THICK",
+          "PACIFIC",
+          "NORTHWEST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "northwest, contrast, imagine",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 33,
+      "text": "into the bones of the city. We meet Marie, whose Chinese name is Jiang Li-ling, and her mother. And they're essentially trapped, right?",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JIANG",
+          "LI-LING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "essentially, chinese, li-ling",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 34,
+      "text": "Yeah. Trapped in this suffocating suspended animation of grief because Marie's",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SUFFOCATING",
+          "SUSPENDED",
+          "ANIMATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "suffocating, suspended, animation",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 35,
+      "text": "father, Kai, who was once a concert pianist in China,",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "PIANIST",
+          "IN",
+          "CHINA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 36,
+      "text": "recently traveled to Hong Kong and took his own It's a very isolating kind",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HONG",
+          "KONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "isolating, recently, traveled",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 37,
+      "text": "of mourning. I mean, the rain in Vancouver acts almost like a physical manifestation",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "VANCOUVER",
+          "ACTS",
+          "ALMOST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 38,
+      "text": "of the silence that Kai's death has left It really does. And into this claustrophobic, rainy morning period walks a ghost from the past.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KAI",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "claustrophobic, silence, morning",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 39,
+      "text": "Ai-ming. She is a 19-year-old refugee who's just fled the 1989 Tiananmen Square crackdown.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1989",
+          "TIANANMEN",
+          "SQUARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "19-year-old, crackdown., tiananmen",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 40,
+      "text": "Just showing up on their doorstep. Exactly. She arrives in Canada with a suitcase that is practically empty. She sits in their living room wearing her",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "ARRIVES",
+          "IN",
+          "CANADA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 41,
+      "text": "winter coat indoors because the cold of her escape, the sheer physical and psychological cold of her trauma has seeped so deep into",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WINTER",
+          "COAT",
+          "INDOORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 42,
+      "text": "her nervous system that she literally cannot get warm. Oh man, that is such a striking image. And what she brings with her isn't physical luggage or",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "LUGGAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 43,
+      "text": "clothes or money. It's an artifact. The Book of Records. Yes. this mythical fragmented handcopied manuscript called",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MYTHICAL",
+          "FRAGMENTED",
+          "HANDCOPIED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fragmented, handcopied, manuscript",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 44,
+      "text": "the book of records. I really want to describe this physical object",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "OBJECT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 45,
+      "text": "because it's just so important. It's not a published glossy hardcover Far",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GLOSSY",
+          "HARDCOVER",
+          "FAR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "important., published, hardcover",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 46,
+      "text": "from it. It's this loose cottonbound notebook. It's stained with dirt. It smells like the earth.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LOOSE",
+          "COTTONBOUND",
+          "NOTEBOOK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 47,
+      "text": "And it has been secretly passed down through decades of modern Chinese history. Just hand to hand. Hand to hand. Yeah.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "CHINESE",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "hand., hand, secretly",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 48,
+      "text": "And through the fragmented missing chapters of this underground novel, Marie and I, Ming sit",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FRAGMENTED",
+          "MISSING"
+        ],
+        "items": [
+          "UNDERGROUND NOVEL",
+          "MARIE",
+          "I"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 49,
+      "text": "in that Vancouver house and begin to piece together the shattered lives of their musician",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VANCOUVER",
+          "HOUSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "vancouver, shattered, together",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 50,
+      "text": "fathers, Sparrow and Kai. Which means we, as the audience, are piecing it together right alongside them.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "KAI"
+        ],
+        "items": [
+          "FATHERS",
+          "SPARROW",
+          "KAI"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 51,
+      "text": "To understand what happened to these men and why Kai stepped out of a window in",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KAI",
+          "STEPPED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "understand, happened, stepped",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 52,
+      "text": "Hong Kong decades after he supposedly survived, we have to go back to the beginning.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HONG",
+          "KONG",
+          "DECADES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "supposedly, beginning., survived",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 53,
+      "text": "We have to look at the environment that formed them. Exactly. We have to look at the golden age of the Shanghai Conservatory of Music in the 1950s and early 1960s.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SHANGHAI",
+          "CONSERVATORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "have, look, conservatory",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 54,
+      "text": "This is the environment that Sparrow, Kai, and Zhuli came up in. So, introduce us to this triumvirate.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "SPARROW"
+        ],
+        "items": [
+          "THAT SPARROW",
+          "KAI",
+          "ZHULI CAME"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 55,
+      "text": "Who are these three? It was a brief, dazzling, and incredibly complex window of time. You have three brilliant young musicians who represent",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "COMPLEX",
+          "WINDOW"
+        ],
+        "items": [
+          "BRIEF",
+          "DAZZLING",
+          "INCREDIBLY COMPLEX"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 56,
+      "text": "entirely different facets of artistic genius. First, there's Sparrow, the composer, right? He is an introverted, deeply thoughtful,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "THERE",
+          "SPARROW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "introverted, thoughtful, different",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 57,
+      "text": "almost socially paralyzed composer. He doesn't just listen to music. He hears symphonies in the everyday noise of the city, in the rhythm of bicycles,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOCIALLY",
+          "PARALYZED",
+          "COMPOSER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 58,
+      "text": "in the cadence of people talking. He is the pure artist. Okay. And then Zhuli. Then there is his cousin Zhuli.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COUSIN",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "zhuli., talking., cadence",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 59,
+      "text": "She is a fiercely dedicated violin prodigy. She has this profound, almost spiritual affinity for Prooia.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALMOST",
+          "SPIRITUAL",
+          "AFFINITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dedicated, spiritual, fiercely",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 60,
+      "text": "We're told she loves playing in the pessimistic key of E flat minor. And the third and completing the trio is Kai, Marie's father.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "LOVES",
+          "PLAYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "pessimistic, completing, playing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 61,
+      "text": "Kai is entirely different. He is a piano prodigy, but he comes from a poor rural village in Chiang Sha.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "CHIANG",
+          "SHA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 62,
+      "text": "He was essentially discovered and adopted by a wealthy professor. So, he's kind of an outsider coming in. Exactly.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WEALTHY",
+          "PROFESSOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 63,
+      "text": "Because of his background, Kai is charming. He is adaptable. He knows how to read a room. and he plays with an ambition that is both beautiful and as we'll",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BOTH",
+          "BEAUTIFUL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "background, adaptable., charming.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 64,
+      "text": "see later incredibly dangerous. Wait, let's pause on that musical detail for a second because I want to understand the mechanics here.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LATER",
+          "INCREDIBLY",
+          "DANGEROUS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 65,
+      "text": "You mentioned Zhuli's affinity for Proopia in this specific key of E flat minor. Why does Theenne include these hyperspecific musical details?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "MENTIONED",
+          "ZHULI",
+          "AFFINITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 66,
+      "text": "What does it actually mean for the characters? It's all about interiority. The music theory in this book is never just window dressing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "WINDOW",
+          "DRESSING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 67,
+      "text": "It's the language of the soul. Eight minor is a complex, dark, emotionally dense key. It requires six So, it's",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EIGHT",
+          "MINOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 68,
+      "text": "difficult to play. Very difficult. It is not a key you write a simple, upbeat, patriotic marching song in.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PATRIOTIC",
+          "MARCHING",
+          "SONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 69,
+      "text": "By anchoring Zhuli to this key and a composers like Proof, who often layered deep irony and tragedy under the surface of his music to survive Soviet",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ANCHORING",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "anchoring, composers, layered",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 70,
+      "text": "censorship, Tienne is telling us that Zhuli's internal world is vast, complicated, and deeply And for a fleeting moment",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "ZHULI",
+          "INTERNAL"
+        ],
+        "items": [
+          "IS VAST",
+          "COMPLICATED",
+          "DEEPLY AND"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 71,
+      "text": "at the conservatory that nuances actually celebrated, it seems like western",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONSERVATORY",
+          "THAT",
+          "NUANCES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 72,
+      "text": "symphonic tradition and socialist idealism actually collide in this beautiful",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SYMPHONIC",
+          "TRADITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 73,
+      "text": "utopian way. They really thought they were building something new. Yeah. The students and professors actually believed they could build a new egalitarian world using",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EGALITARIAN",
+          "WORLD",
+          "USING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 74,
+      "text": "the architecture of Bach and Beethoven. You have the president of the conservatory, Hiluing, walking the halls, fiercely defending the integrity of the music.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BACH",
+          "AND",
+          "BEETHOVEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "architecture, conservatory, beethoven.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 75,
+      "text": "He was fearless. He makes this incredibly bold statement to the political cadres who are starting to nose around the curriculum.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL",
+          "CADRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 76,
+      "text": "He says that music immediately understood will not outlast its generation. Yes, Luen is defending complexity there.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEFENDING",
+          "COMPLEXITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "immediately, generation., understood",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 77,
+      "text": "He's arguing that art should challenge the listener. If a piece of music is so simple that everyone instantly understands it as a political slogan, it",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL",
+          "SLOGAN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 78,
+      "text": "has no artistic half-life. It just expires, right? It will die the moment the political winds shift.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL",
+          "WINDS",
+          "SHIFT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 79,
+      "text": "But, you know, I have to push back on this golden age idea. I'm looking at this period and it feels to me like a massive naive honeymoon phase.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "NAIVE",
+          "HONEYMOON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 80,
+      "text": "It's like these artists are standing at the bottom of a mountain negotiating with an Negotiating with an avalanche. That's a great way to put it.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MOUNTAIN",
+          "NEGOTIATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "negotiating, avalanche., standing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 81,
+      "text": "They actually believe they can serve a rigid political agenda like composing for the state, playing for the party without losing their artistic souls.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIGID",
+          "POLITICAL",
+          "AGENDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 82,
+      "text": "Can art ever truly serve a rigid political agenda without hollowing itself out? Your instinct is exactly right.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RIGID",
+          "POLITICAL",
+          "AGENDA"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 83,
+      "text": "And the tragedy is that the artists themselves didn't see it until it was too late. What's fascinating here and terrifying is that this golden era wasn't just a",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARTISTS",
+          "THEMSELVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 84,
+      "text": "naive honeymoon. It was essentially a carefully laid trap. Wait, a trap? You mean the state wanted them to play Beethoven just to",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PLAY",
+          "BEETHOVEN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "essentially, honeymoon., carefully",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 85,
+      "text": "punish them for it later? In a sense, yeah. Think about the historical context. In 1956, Mao launched the hundred flowers campaign.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HUNDRED",
+          "FLOWERS",
+          "CAMPAIGN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "historical, campaign., context.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 86,
+      "text": "The slogan was, \"Let a hundred flowers bloom and a 100 schools of thought Right. I've heard of that. The government explicitly encouraged intellectuals and",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "100",
+          "SCHOOLS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 87,
+      "text": "artists to freely express their opinions and explore diverse forms of art, including western classical music. The conservatory received funding.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCLUDING",
+          "WESTERN",
+          "CLASSICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 88,
+      "text": "The students were heavily subsidized. So, they felt safe. They felt completely safe. But within a year, the campaign abruptly ended.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CAMPAIGN",
+          "ABRUPTLY",
+          "ENDED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 89,
+      "text": "and the anti-rightest campaign began. The state used the very art and opinions they had just encouraged to identify and purge anyone with independent",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ANTI-RIGHTEST",
+          "CAMPAIGN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 90,
+      "text": "thoughts. Oh, that is brutal. They elevated these musicians, subsidized their",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ELEVATED",
+          "THESE",
+          "MUSICIANS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 91,
+      "text": "mastery of western forms, only to use that exact same mastery",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "SAME",
+          "MASTERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 92,
+      "text": "as undeniable proof of their bgeois corruption by 1966. That is so insidious. So the higher they climbed into the repertoire",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CORRUPTION",
+          "BY",
+          "1966"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 93,
+      "text": "of the old world, the more perfectly they positioned themselves as the ultimate targets for the new one. Exactly. Which brings us to the violent rupture.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POSITIONED",
+          "THEMSELVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 94,
+      "text": "1966, the onset of the cultural revolution. And this wasn't just a political shift. It was a total sensory assault.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTAL",
+          "SENSORY",
+          "ASSAULT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 95,
+      "text": "The auditory landscape of the country is forcibly rewritten. Imagine waking up and the world sounds completely different.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AUDITORY",
+          "LANDSCAPE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 96,
+      "text": "Suddenly the streets are dominated by the harsh scraping static of red guard blaring everywhere.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GUARD",
+          "BLARING",
+          "EVERYWHERE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 97,
+      "text": "They are mounted on poles on trucks blaring revolutionary",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUCKS",
+          "BLARING",
+          "REVOLUTIONARY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 98,
+      "text": "songs and absolute loyalty to Chairman Mao at deafening",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CHAIRMAN",
+          "MAO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deafening, absolute, chairman",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 99,
+      "text": "volumes from dawn until dusk. And the physical destruction of the conservatory is staggering.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "DESTRUCTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 100,
+      "text": "The red guards storm the building and smash 500 pianos to pieces. 500 pianos.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SMASH",
+          "500",
+          "PIANOS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 101,
+      "text": "I want you to really think about the physics of that. A piano is basically an armored harp. It is heavy solid wood and cast iron.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "SOLID",
+          "WOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 102,
+      "text": "Think about the physical labor, the sheer violent",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "LABOR"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 103,
+      "text": "exertion required to destroy 500 pianos with axes",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESTROY",
+          "500",
+          "PIANOS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 104,
+      "text": "and sledgehammers. It would take hours, The deafening,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TAKE",
+          "HOURS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 105,
+      "text": "dissonant crashing of the high tension wires snapping.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TENSION",
+          "WIRES",
+          "SNAPPING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 106,
+      "text": "It's an auditory nightmare. It is the deliberate physical butchery of art. They drag parasult tree violins, instruments made of this",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DELIBERATE",
+          "PHYSICAL",
+          "BUTCHERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 107,
+      "text": "beautiful resonant wood by the professors themselves, out into the courtyard and smash them to splitters.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BEAUTIFUL",
+          "RESONANT",
+          "WOOD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 108,
+      "text": "You can literally smell the burning sheet music. Decades of human genius just reduced to ash. But why?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BURNING",
+          "SHEET",
+          "MUSIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 109,
+      "text": "I mean, I need to understand the why here. Why is playing a Bach cello suite or a dussi piano prelude suddenly an act of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BACH",
+          "CELLO",
+          "SUITE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "understand, suddenly, playing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 110,
+      "text": "treason? What is it about classical music that threatens a totalitarian state? To understand that, we have to look at the concept of counterpoint, which",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CLASSICAL",
+          "MUSIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 111,
+      "text": "was Sparrow and Zhuli's specialty. Counterpoint is a musical technique where two or more melodic lines are played simultaneously.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SPARROW",
+          "AND",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "simultaneously., counterpoint, specialty.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 112,
+      "text": "they are independent. They have their own distinct rhythm and contour, but they intertwine to create harmony. Neither voice is merely backing up the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DISTINCT",
+          "RHYTHM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 113,
+      "text": "other. They are entirely equal. Oh, wow. I see where this is going. Right. Authoritarianism cannot tolerate counterpoint.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AUTHORITARIANISM",
+          "CANNOT",
+          "TOLERATE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 114,
+      "text": "The totalitarian state demands unison. It demands a single dominant melody, the voice of the leader, the voice of the party, and everyone else must either",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTALITARIAN",
+          "STATE",
+          "DEMANDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 115,
+      "text": "sing that exact same melody or act as a subservient accompaniment. Wow. Wow, that makes so much sense. If you play box Goldberg variations,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOLDBERG",
+          "VARIATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "accompaniment., subservient, variations",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 116,
+      "text": "for example, you are fundamentally asserting that multiple independent voices can exist at the same time and create beauty.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MULTIPLE",
+          "INDEPENDENT",
+          "VOICES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 117,
+      "text": "To a red guard, that is formalist capitalist poison. It implies that the individual has value outside the collective.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FORMALIST",
+          "CAPITALIST",
+          "POISON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 118,
+      "text": "So the psychological destruction of the musicians is just as important as the physical destruction of the instruments. The red guards forced the students to turn",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOLOGICAL",
+          "DESTRUCTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 119,
+      "text": "on their teachers. And then they forced these musicians whose entire lives were devoted to exploring the depths of human emotion through harmony to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMOTION",
+          "THROUGH",
+          "HARMONY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 120,
+      "text": "compose hollow, empty, two-dimensional slogans. Yes, they are forcing the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TWO-DIMENSIONAL",
+          "SLOGANS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 121,
+      "text": "artists to weaponize their own gifts against their own souls.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "GIFTS",
+          "AGAINST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 122,
+      "text": "There is this agonizing scene that illustrates this perfectly. Kai comes to Zhuli in her practice room. She's terrified, clinging to her music.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "COMES",
+          "TO",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "illustrates, perfectly., agonizing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 123,
+      "text": "And he brings her the correct music, the safe music. Yeah. He brings her revolutionary marches by Shian Shinghai.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SHIAN",
+          "SHINGHAI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "brings, revolutionary, shinghai.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 124,
+      "text": "He tells her not to be stubborn, that her profound talent isn't enough anymore, that she needs to adapt to survive.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "TALENT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 125,
+      "text": "And you can see the mutilation of the artist happening in real time. It's awful to watch. Forcing a genius compos to write a jingle for a political rally",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ARTIST",
+          "HAPPENING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 126,
+      "text": "isn't just a waste of talent. It is forcing them to mock the very thing that gives their life meaning. It creates a cognitive dissonance that literally shatters",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COGNITIVE",
+          "DISSONANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 127,
+      "text": "the mind. And no one suffers this more acutely or more tragically than young Zhuli because Zhuli simply cannot and will",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ZHULI",
+          "BECAUSE",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "zhuli, tragically, suffers",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 128,
+      "text": "not adapt to the unison. Which brings us to the tragedy of Zhuli. Zhuli chose silence and paid with her life.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TRAGEDY",
+          "OF",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "unison., tragedy, silence",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 129,
+      "text": "But we have to look at the mechanism of how she was broken. We have to talk about the struggle session at the conservatory. Yeah.",
+      "design": {
+        "type": "flow",
+        "kicker": "",
+        "emphasis": [
+          "STRUGGLE",
+          "SESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 130,
+      "text": "A struggle session was a horrific form of public humiliation and torture used by the red guards. It wasn't a trial in any legal sense.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRUGGLE",
+          "SESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 131,
+      "text": "It was a theatrical spectacle of psychological It is horrific to read. Zhuli, this brilliant young girl",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "THEATRICAL",
+          "SPECTACLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 132,
+      "text": "who just wanted to play her violin, is dragged out by a mob of red guards, which terrifyingly includes her own classmates, people she studied with every",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYINGLY",
+          "INCLUDES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 133,
+      "text": "day, people she knew. They force her to her knees on the hard concrete courtyard",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HARD",
+          "CONCRETE",
+          "COURTYARD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 134,
+      "text": "of the school. I want to break down the psychology of what is happening here.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PSYCHOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 135,
+      "text": "The goal of a struggle session is not just to punish. It is to extract a public confession. The state needs the victim to agree",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRUGGLE",
+          "SESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 136,
+      "text": "with their own destruction. They need her to say it. Yes. They need Zhuli to say out loud that she is a bourgeoa parasite because",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BOURGEOA",
+          "PARASITE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "need, destruction., bourgeoa",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 137,
+      "text": "once she says it, the ideology is And the physical humiliation is designed to break the spirit before it breaks the body.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "HUMILIATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 138,
+      "text": "You hear the blinding rusty snap of chicken scissors as the students aggressively hack off her hair. They throw dark ink and paint right into",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHICKEN",
+          "SCISSORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 139,
+      "text": "her face, blinding her, marking her as a That's totally dehumanizing. The mob is screaming at her at a deafening pitch, calling her a",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "DEAFENING",
+          "PITCH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dehumanizing., screaming, deafening",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 140,
+      "text": "[&nbsp;__&nbsp;] a bourgeoa rat, a capitalist spy, demanding that she confess. I'm reading this and honestly, I don't understand how someone",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "BOURGEOA"
+        ],
+        "items": [
+          "CAPITALIST SPY",
+          "DEM",
+          "ING THAT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 141,
+      "text": "survives that level of public humiliation without completely losing their mind. What is going through her head on that concrete? How does she not just scream whatever",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PUBLIC",
+          "HUMILIATION",
+          "WITHOUT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 142,
+      "text": "they want to hear to make the scissors stop? Because of what she is",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SCISSORS",
+          "STOP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 143,
+      "text": "doing internally. Tien gives us this crucial psychological detail, a moment of profound",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRUCIAL",
+          "PSYCHOLOGICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 144,
+      "text": "internal rebellion. While Zhuli is on the concrete, while she is bleeding, covered in ink, humiliated in front of her peers.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INTERNAL",
+          "REBELLION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "while, rebellion., humiliated",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 145,
+      "text": "The text reveals her interiority. What is she doing? She is playing Rall's Tiggon and Proopv entirely in her mind.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PLAYING",
+          "RALL",
+          "TIGGON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "interiority., entirely, reveals",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 146,
+      "text": "Oh my god. She builds a fortress out of Precisely. Her",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PRECISELY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "precisely., fortress, builds",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 147,
+      "text": "interiority, that space where the counterpoint lives, becomes an impenetrable",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COUNTERPOINT",
+          "LIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 148,
+      "text": "fortress. They are breaking her physical body. They are hacking off her hair, but they cannot reach the concert hall in her mind.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "BODY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 149,
+      "text": "The music is her anchor to her own humanity. She realizes that to speak, to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "OWN",
+          "HUMANITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 150,
+      "text": "utter the confession they are screaming for is to let the collective rewrite her spirit.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COLLECTIVE",
+          "REWRITE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 151,
+      "text": "She refuses to give them the words. And this perfectly anchors back to the core truth of our deep dive. To be silenced is terrifying, but to be re-recorded",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PERFECTLY",
+          "ANCHORS",
+          "BACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 152,
+      "text": "in the state's voice is the true death. If she confesses, she becomes the monster they say she is. She becomes the bgeoa poison.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 153,
+      "text": "By remaining silent by keeping Prooia playing in her head, she retains her true self, even as it costs her She chooses silence",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KEEPING",
+          "PROOIA",
+          "PLAYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "remaining, keeping, playing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 154,
+      "text": "on her own terms. After the struggle session, she is physically broken. She realizes that the world she knew is gone and there was no place for her in this new",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STRUGGLE",
+          "SESSION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 155,
+      "text": "terrifying reality. So she takes her own life. She leaves a note written on a scrap of paper.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TERRIFYING",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 156,
+      "text": "She steps into the western sky choosing the ultimate refusal. It is It is the ultimate refusal of complicity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "REFUSAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 157,
+      "text": "It is a terrifying purity. But Zhuli's choice leaves a terrifying question for",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ZHULI",
+          "CHOICE",
+          "LEAVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "terrifying, question, purity.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 158,
+      "text": "everyone else in that room and for everyone else at the What",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERYONE",
+          "ELSE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 159,
+      "text": "happens if you can't bear the silence? What happens if you try to play their game just to stay alive? And that is the exact choice Kai makes, which",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EXACT",
+          "CHOICE",
+          "KAI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "happens, silence, choice",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 160,
+      "text": "shifts our focus to the betrayal and survival of Kai. While Zhuli chooses death over ideological mutilation, Kai chooses to adapt.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ZHULI",
+          "CHOOSES",
+          "DEATH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "chooses, ideological, mutilation",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 161,
+      "text": "He's the chameleon. he survives the purges. He joins the party apparatus. He literally plays the emperor concerto to appease the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMPEROR",
+          "CONCERTO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 162,
+      "text": "new regime acting as their cultural showpiece. And to secure his position, to prove his absolute loyalty to the new order, he does the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CULTURAL",
+          "SHOWPIECE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 163,
+      "text": "unthinkable. He denounces his mentors. He turns on them. He denounces the very people who elevated him from poverty, including Holu Ting, the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INCLUDING",
+          "HOLU",
+          "TING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "denounces, unthinkable., including",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 164,
+      "text": "president of the conservatory, who was brutally beaten on live television. Kai is the ultimate pragmatist. Remember his background.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "PRAGMATIST"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 165,
+      "text": "He is a survivor from a poor village. He isn't an aristocratic purist like Zhuli. He knows how to read the wind and bend so he doesn't snap.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PURIST",
+          "LIKE",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "aristocratic, survivor, village.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 166,
+      "text": "But the cost of that flexibility is absolute moral bankruptcy. Okay, hold on. I have to push back hard on this.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ABSOLUTE",
+          "MORAL",
+          "BANKRUPTCY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 167,
+      "text": "It is so easy for us to sit here in a comfortable recording studio, safe with coffee, and judge a guy who",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMFORTABLE",
+          "RECORDING",
+          "STUDIO"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 168,
+      "text": "had an axe practically held to his Fair point. We can call him morally bankrupt, but isn't survival just basic human biology?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "BASIC",
+          "HUMAN",
+          "BIOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 169,
+      "text": "If a mob of violent fundamentalists puts a gun to your head or threatens to beat you to a pulp on a concrete floor like they did to Zhuli and tells you to play a revolutionary",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "VIOLENT",
+          "FUNDAMENTALISTS",
+          "PUTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fundamentalists, revolutionary, threatens",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 170,
+      "text": "march or die, is playing it actually a betrayal? I think 99% of people would play the march. Are we really calling him hollow for simply",
+      "design": {
+        "type": "stat",
+        "kicker": "",
+        "emphasis": [
+          "99%",
+          "OF",
+          "PEOPLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 171,
+      "text": "not wanting to be It's the ultimate moral crucible and it's the central tension of Kai's character. You are right.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "KAI",
+          "CHARACTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "character., ultimate, crucible",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 172,
+      "text": "Biology demands survival. And if all Kai did was play the revolutionary marches to survive the day, we might view him solely as a victim.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BIOLOGY",
+          "DEMANDS",
+          "SURVIVAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolutionary, survival., biology",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 173,
+      "text": "But the totalitarian machine is designed so that mere compliance is never enough. They don't just want you to play the song.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTALITARIAN",
+          "MACHINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 174,
+      "text": "They require you to actively participate in the destruction of others to prove your loyalty. The incremental complicity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INCREMENTAL",
+          "COMPLICITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 175,
+      "text": "Exactly. It wasn't just playing the piano. He went further. He denounced his teachers. He participated in the ideological machinery that destroyed",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IDEOLOGICAL",
+          "MACHINERY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 176,
+      "text": "people like Zhuli. He fed names to the beast so the beast wouldn't eat him. Oh, I see.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "LIKE",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "beast, wouldnt, people",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 177,
+      "text": "He survives physically, yes, but his soul is completely hollowed out by his own actions. He becomes the empty vessel the state requires.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "REQUIRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 178,
+      "text": "He was, to use our phrase, re-recorded in the state's And the state's voice tells him to betray those he loves.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 179,
+      "text": "That makes sense. The trauma isn't just what was done to him. It's what he was forced to do to others. And that moral debt is unpayable.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MORAL",
+          "DEBT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 180,
+      "text": "It doesn't just vanish when the cultural revolution ends or when Mao dies. It's a rot that fers. It echoes decades into the future.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CULTURAL",
+          "REVOLUTION",
+          "ENDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "revolution, cultural, decades",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 181,
+      "text": "Trauma of that magnitude doesn't respect Which is why decades later, living in the relative safety and comfort of 1990s Vancouver, Kai",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1990S",
+          "VANCOUVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "magnitude, vancouver, relative",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 182,
+      "text": "is still drowning in it. The physical danger is gone, but the ghost of his",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "DANGER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 183,
+      "text": "complicity remains. That unbearable weight drives him to leave his wife and his daughter, Marie.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "UNBEARABLE",
+          "WEIGHT",
+          "DRIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "complicity, unbearable, remains.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 184,
+      "text": "The guilt just consumes him. He travels to Hong Kong during the 1989 Tian crisis, a moment where history seems to be repeating itself, and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "1989",
+          "TIAN",
+          "CRISIS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "repeating, consumes, travels",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 185,
+      "text": "he leaves behind his Sony CD player and a cryptic note about debts he cannot pay. And then he steps out of a window.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEHIND",
+          "HIS",
+          "SONY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "cryptic, window., leaves",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 186,
+      "text": "He physically survived 1966, but the spiritual death that began in that conservatory finally claims his body.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICALLY",
+          "SURVIVED",
+          "1966"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 187,
+      "text": "It proves that the trauma of complicity is a poison that outlasts the regime that administered it. You cannot unbitray your friends,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "UNBITRAY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 188,
+      "text": "which makes the path of the third musician, Sparrow, all the more extraordinary. Yes, Sparrow. While Kai adapts and Zhuli rebels, Sparrow",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ZHULI",
+          "REBELS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sparrow, extraordinary., musician",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 189,
+      "text": "is forced into a totally different state of being. Exile and internal immigration. Sparrow, the genius composer who heard symphonies and bicycle bells,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTERNAL",
+          "IMMIGRATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 190,
+      "text": "is stripped of his music completely erased from public life. He is sent to a labor camp and later to a factory where his job is to build radios and",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BUILD",
+          "RADIOS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 191,
+      "text": "wooden crates. He does this for 20 years. Two decades of his prime creative life stolen.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "20",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 192,
+      "text": "The state physically silences him. The noise of the factory is so deafening that he even begins to lose his hearing. He is reduced to a drone in the industrial machine.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDUSTRIAL",
+          "MACHINE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 193,
+      "text": "But physically silencing a person is not the same as re-recording Right? And this is where we see the most breathtaking act of creative",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICALLY",
+          "SILENCING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 194,
+      "text": "defiance in the entire narrative. Sparrow is stripped of pianos, stripped of manuscript paper, living in a cramped surveillanceheavy reality where even",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CRAMPED",
+          "SURVEILLANCEHEAVY",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 195,
+      "text": "a hummed tune could be reported by a neighbor. So what does he do? He composes an entire massive symphony, symphony number three,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SYMPHONY",
+          "NUMBER",
+          "THREE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 196,
+      "text": "purely in his head. It is a monumental feat of cognitive endurance. He never puts a single drop of ink to paper, not one",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COGNITIVE",
+          "ENDURANCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 197,
+      "text": "note. He knows that if he writes it down, the red guards or later the factory bosses will find it, confiscate it, and use it against him.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "FACTORY",
+          "BOSSES"
+        ],
+        "items": [
+          "FIND IT",
+          "CONFISCATE IT",
+          "USE IT"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 198,
+      "text": "So he builds this cathedral of sound, this massive architecture of counterpoint and harmony entirely within the confines of his own skull.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "ARCHITECTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 199,
+      "text": "If we connect this to the bigger picture, this is the profound phenomenon of internal immigration. This is a term often used to describe artists and intellectuals in",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "PHENOMENON"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 200,
+      "text": "authoritarian regimes like the Soviet Union or communist China who realize that the physical public world has become utterly unlivable.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOVIET",
+          "UNION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "authoritarian, unlivable., communist",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 201,
+      "text": "So they just retreat. When every public action is monitored and controlled when you cannot speak, you immigrate inward.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EVERY",
+          "PUBLIC",
+          "ACTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 202,
+      "text": "You build a country inside your own Exactly. Sparrow's mind becomes a sovereign territory that the state cannot invade because they cannot see",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOVEREIGN",
+          "TERRITORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "cannot, sovereign, territory",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 203,
+      "text": "it. They look at him and they just see a broken middle-aged man hammering nails into wooden crates. They think they have won, but inside he",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MIDDLE-AGED",
+          "MAN",
+          "HAMMERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 204,
+      "text": "is conducting a symphony. He preserves his humanity by hiding it where the state has no It's incredible.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CONDUCTING",
+          "A",
+          "SYMPHONY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 205,
+      "text": "But it also highlights a desperate fundamental problem. A symphony in your head is safe from the state, but it's also trapped.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DESPERATE",
+          "FUNDAMENTAL",
+          "PROBLEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 206,
+      "text": "It is fundamentally solitary. Yes, it is. If Sparrow dies, the symphony dies with him. How do you pass memory, identity, and truth",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "SPARROW"
+        ],
+        "items": [
+          "PASS MEMORY",
+          "IDENTITY",
+          "TRUTH"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 207,
+      "text": "down to the next generation when the state controls all the printing presses, monitors all communication, and burns all the books?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "MONITORS",
+          "ALL",
+          "COMMUNICATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 208,
+      "text": "You can't just rely on individual memory. You need a technology of memory. You need a vessel that can slip past the sensors.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDIVIDUAL",
+          "MEMORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 209,
+      "text": "Which brings us to the physical artifact at the absolute center of this story,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "ARTIFACT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 210,
+      "text": "the book of records. Let's really look at this book because it's fascinating.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FASCINATING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 211,
+      "text": "As we mentioned at the start, it's not a bound hard cover. It's a tall, narrow notebook with a loose cotton binding. It has been smuggled across the country, buried in dirt,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LOOSE",
+          "COTTON",
+          "BINDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 212,
+      "text": "hidden in walls. It is a perfect example of samizdat being the practice of dissident activity across the Soviet block and communist",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SOVIET",
+          "BLOCK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "dissident, communist, samizdat",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 213,
+      "text": "China where individuals reproduced censored and underground publications by hand and pass them from reader to Right.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INDIVIDUALS",
+          "REPRODUCED",
+          "CENSORED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 214,
+      "text": "But what's so brilliant about The Book of Records is that on the surface, it doesn't look like a political manifesto at all. It ostensibly tells an epic fictional adventure",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "EPIC",
+          "FICTIONAL",
+          "ADVENTURE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "ostensibly, brilliant, political",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 215,
+      "text": "story about a character named Dawe who sails to America and a heroine named May 4th who walks across the Gobi Desert.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GOBI",
+          "DESERT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "named, character, america",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 216,
+      "text": "It's an adventure tale. Yeah. If a Red Guard picks it up, it just looks like a sprawling serialized fantasy novel.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RED",
+          "GUARD",
+          "PICKS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "serialized, adventure, sprawling",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 217,
+      "text": "But beneath the surface narrative, it is a highly sophisticated code. This is where",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SOPHISTICATED",
+          "CODE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 218,
+      "text": "it gets incredibly clever. Sparrow's parents, Swirl and When the Dreamer, and a massive",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "DREAMER"
+        ],
+        "items": [
+          "S PARENTS",
+          "SWIRL",
+          "WHEN THE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 219,
+      "text": "network of other anonymous citizens, use this fiction to hide the truth. When When the Dreamer is suffering in the brutal re-education camps, he copies",
+      "design": {
+        "type": "network",
+        "kicker": "",
+        "emphasis": [
+          "OTHER",
+          "ANONYMOUS",
+          "CITIZENS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 220,
+      "text": "the chapters of this novel by hand, but he alters them. He changes the text. He weaves real family genealogies, real locations,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REAL",
+          "LOCATIONS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 221,
+      "text": "and coded historical truths directly into the lines of fiction. And we have to unpack how they do this because it relies on the specific mechanics of the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CODED",
+          "HISTORICAL",
+          "TRUTHS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 222,
+      "text": "Chinese language. Chinese characters are logs. They represent words or morphines and they are built from smaller components",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHINESE",
+          "LANGUAGE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 223,
+      "text": "called Okay, so it's visual, very visual. The code in the book relies on manipulating or embedding specific characters.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EMBEDDING",
+          "SPECIFIC",
+          "CHARACTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 224,
+      "text": "For instance, the text frequently uses the character we meaning shining",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MEANING",
+          "SHINING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 225,
+      "text": "sun or the character we meaning not or the future.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHARACTER",
+          "WE",
+          "MEANING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 226,
+      "text": "So by embedding these specific characters or slightly altering the radicals when creates a hidden map of survival.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "CHARACTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 227,
+      "text": "It's a record of who lived, where they were sent, who died in which camp, and what they endured. And it's entirely disguised as a fantasy novel about walking",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENTIRELY",
+          "DISGUISED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 228,
+      "text": "across a desert. It preserves the onlogical reality of these people. The state says, \"You do not exist.",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ONLOGICAL",
+          "REALITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 229,
+      "text": "You have been erased.\" And the book says, \"No, your name is hidden in chapter 4, and as long as chapter 4 is read, you exist.\" Think about how",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "4"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 230,
+      "text": "a blockchain works in modern technology. A blockchain is a decentralized ledger. If one node goes down, if one computer is smashed, the ledger survives",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MODERN",
+          "TECHNOLOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 231,
+      "text": "because everyone else on the network has a copy of it. That is exactly what the Book of Records is but purely analog.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "RECORDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "everyone, because, network",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 232,
+      "text": "By sneaking real names into a fiction novel and passing it handtoand across",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HANDTOAND",
+          "ACROSS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 233,
+      "text": "the country, they distributed the ledger of their existence across hundreds of people.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXISTENCE",
+          "ACROSS",
+          "HUNDREDS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 234,
+      "text": "There is no central server for the state to hack. There is no single original manuscript for them to burn. It's distributed memory.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SINGLE",
+          "ORIGINAL",
+          "MANUSCRIPT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 235,
+      "text": "If the Red Guards burn one notebook in Shanghai, another copied notebook exists in a village a thousand miles away in Gansu.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "RED",
+          "GUARDS",
+          "BURN"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 236,
+      "text": "It is an unhackable ledger of human dignity. That is a brilliant analogy. The state is desperate for a monopoly on history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "BRILLIANT",
+          "ANALOGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 237,
+      "text": "Totalitarianism requires that the state be the sole author of reality. If they say a famine didn't happen, it didn't happen.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TOTALITARIANISM",
+          "REQUIRES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 238,
+      "text": "The book of records democratizes history. It operates on the principle that if",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RECORDS",
+          "DEMOCRATIZES",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 239,
+      "text": "enough individuals hold a piece of the truth, the state's monopoly is broken.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ENOUGH",
+          "INDIVIDUALS",
+          "HOLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 240,
+      "text": "And this hidden ledger of memory, this dormant symphony of truth, finally erupts back into the physical world.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DORMANT",
+          "SYMPHONY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 241,
+      "text": "We jump forward to 1989. Decades have passed. Sparrow has survived his factory exile. He is an older man now, living in Beijing, and",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "LIVING",
+          "IN",
+          "BEIJING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 242,
+      "text": "he is miraculously reunited with Kai's daughter, Iing. And the atmosphere in Beijing in the spring of 1989 is intoxicating.",
+      "design": {
+        "type": "place",
+        "kicker": "",
+        "emphasis": [
+          "KAI",
+          "DAUGHTER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 243,
+      "text": "It's the Tiananmen Square protests. Over a million people are in the streets. The student hunger strikers have essentially taken over the square.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TIANANMEN",
+          "SQUARE",
+          "PROTESTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "over, essentially, tiananmen",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 244,
+      "text": "For a brief, dazzling moment, the suffocating grip of the state seems to loosen. There is this massive collective exhalation",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MASSIVE",
+          "COLLECTIVE",
+          "EXHALATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 245,
+      "text": "of a traumatized country. People are talking For Sparrow, this political awakening triggers a profound musical awakening.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "POLITICAL",
+          "AWAKENING",
+          "TRIGGERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "traumatized, awakening., political",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 246,
+      "text": "The internal immigration ends. The symphony that he has kept locked inside his skull for 20 years, symphony number three, is finally",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "20",
+          "YEARS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 247,
+      "text": "returning to the physical world. Standing among the students, feeling the raw,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 248,
+      "text": "chaotic energy of the crowd, he is composing a new piece.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHAOTIC",
+          "ENERGY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 249,
+      "text": "The sun shines on the people's square and he's writing it down. He is finally, finally writing it down on paper.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "SQUARE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 250,
+      "text": "The music in his head is echoing the mathematical structural precision of Bach's counterpoints and the sweeping romantic emotionality of",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BACH",
+          "COUNTERPOINTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "counterpoints, mathematical, emotionality",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 251,
+      "text": "Farre. His interior world is finally permitted to exist in the exterior world. It's as if an ice age is ending.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "INTERIOR",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 252,
+      "text": "It's a beautiful moment. The end describes this incredible auditory landscape. You can literally hear Beethoven's ninth symphony,",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "BEETHOVEN",
+          "NINTH",
+          "SYMPHONY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "incredible, landscape., beethovens",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 253,
+      "text": "the Ode to Joy, blasting from the crackling battery powered loudspeakers of the student protesters. The air is alive with",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "CRACKLING",
+          "BATTERY",
+          "POWERED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "loudspeakers, protesters., crackling",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 254,
+      "text": "hope and sound. But we know history and we know what happens on June 4th, the crackdown. The sensory shift here is agonizing.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "JUNE",
+          "4TH"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "know, crackdown., agonizing.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 255,
+      "text": "Tien describes this pearl colored dawn light breaking over the city of Beijing. And then the auditory landscape violently",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AUDITORY",
+          "LANDSCAPE",
+          "VIOLENTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "describes, landscape, violently",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 256,
+      "text": "shifts again. You hear the barricades being pushed aside, the tanks. You hear the deep guttural rumble of diesel engines, the sudden",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DEEP",
+          "GUTTURAL",
+          "RUMBLE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 257,
+      "text": "terrifying arrival of the army trucks, the agonizing, inevitable crush of the state machine rolling in to silence the",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "MACHINE",
+          "ROLLING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 258,
+      "text": "people once again. It is a horrific historical repetition. The state threatened by the noise of the people, by the counterpoint",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HORRIFIC",
+          "HISTORICAL",
+          "REPETITION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 259,
+      "text": "of a million independent voices, reasserts its monopoly on sound. But this time, it's not the scraping static of loudspeakers.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MILLION",
+          "INDEPENDENT",
+          "VOICES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 260,
+      "text": "It is the roar of tanks and the sharp crack of gunfire. It's deafening in a different way.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHARP",
+          "CRACK"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 261,
+      "text": "The People's Liberation Army is doing exactly what the Red Guards did in 1966. crushing the independent voices to restore",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "PEOPLE",
+          "LIBERATION",
+          "ARMY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "independent, liberation, crushing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 262,
+      "text": "the unison. During the absolute chaos of the protests, Tien gives us this ground level visceral view.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "GROUND",
+          "LEVEL",
+          "VISCERAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolute, protests, visceral",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 263,
+      "text": "Sparrow is navigating the checkpoints. He is weaving through the chaos, dodging the flatbed tricycles and ambulances that are desperately rushing",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FLATBED",
+          "TRICYCLES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 264,
+      "text": "the wounded and dying out of the square, just trying to survive. And",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRYING",
+          "TO",
+          "SURVIVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 265,
+      "text": "the heartbreaking tragedy is that just as his music finally finds a voice,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEARTBREAKING",
+          "TRAGEDY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 266,
+      "text": "just as he begins to write the notes on paper, the physical world is crushed again. Sparrow is caught in the violence.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICAL",
+          "WORLD"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 267,
+      "text": "He doesn't survive the aftermath of the He is physically silenced permanently. But, and this is the crucial turn of the entire",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PHYSICALLY",
+          "SILENCED",
+          "PERMANENTLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 268,
+      "text": "narrative, the music doesn't die because memory, exactly like the book of records, has already been passed on.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALREADY",
+          "BEEN",
+          "PASSED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 269,
+      "text": "He gave fragments of his life, fragments of his music to Ai-ming before the tanks rolled in. Which brings us to the final synthesis of the book.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AI-MING",
+          "BEFORE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 270,
+      "text": "We return to the timeline where we started 1990s Vancouver to Marie who has grown up in the shadow of her father Kai's suicide and",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "STARTED",
+          "1990S",
+          "VANCOUVER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "vancouver, timeline, started",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 271,
+      "text": "who has received this fragmented history from Marie has grown",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "HISTORY",
+          "FROM",
+          "MARIE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "fragmented, received, history",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 272,
+      "text": "up to become a professor of mathematics studying fractal geometries.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "MATHEMATICS",
+          "STUDYING",
+          "FRACTAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 273,
+      "text": "And I find this fascinating. She doesn't process this immense shattered history through music or through writing.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "IMMENSE",
+          "SHATTERED",
+          "HISTORY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 274,
+      "text": "She processes her grief through the philosophy of numbers. It's a unique lens. There is this profound mindbending realization",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PROFOUND",
+          "MINDBENDING",
+          "REALIZATION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 275,
+      "text": "she has in the text. She is thinking about math and she states that dividing by 0 equals infinity.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "0",
+          "EQUALS",
+          "INFINITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 276,
+      "text": "Now wait, I know some listeners might be scratching their heads. In standard high school arithmetic, we are taught that dividing by 0 is undefined.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STANDARD",
+          "HIGH",
+          "SCHOOL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 277,
+      "text": "You can't do it. So what does Marie mean here? Right? My algebra teacher would have failed me for writing that on a test.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "ALGEBRA",
+          "TEACHER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "algebra, teacher, writing",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 278,
+      "text": "But Marie is talking about limits. In calculus, if you take a number, say 1, and you divide it by a smaller and smaller number, dividing",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "MARIE"
+        ],
+        "items": [
+          "NUMBER",
+          "SAY 1",
+          "YOU DIVIDE"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 279,
+      "text": "by 0.1, then 01, then 01, the result gets larger and 10, then 100, then 1,000.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LARGER",
+          "AND",
+          "10"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 280,
+      "text": "Exactly. As the denominator approaches zero, the result approaches infinity. You can take practically nothing out of something an infinite",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "RESULT",
+          "APPROACHES",
+          "INFINITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 281,
+      "text": "number of times. It is a stunning philosophical leap applied to human trauma. Think about what the state tried to do.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STUNNING",
+          "PHILOSOPHICAL",
+          "LEAP"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 282,
+      "text": "The state tried to reduce Sparrow, Zhuli, and Kai to zero. They tried to erase them from the ledger of history. They tried to render them as nothing.",
+      "design": {
+        "type": "list",
+        "kicker": "",
+        "emphasis": [
+          "REDUCE",
+          "SPARROW"
+        ],
+        "items": [
+          "REDUCE SPARROW",
+          "ZHULI",
+          "KAI TO"
+        ],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 283,
+      "text": "But they couldn't. But Marie realizes that mathematically and existentially, when you attempt to divide a life by zero, it doesn't just vanish into",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARIE",
+          "REALIZES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "mathematically, existentially, couldnt.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 284,
+      "text": "a void. It explodes. It expands into infinity. Memory, exactly like music, never truly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "EXPANDS",
+          "INTO",
+          "INFINITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 285,
+      "text": "disappears. It merely fragments. It shatters into infinite recursive patterns like the fractals Marie studies, waiting in the silence for someone",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "FRACTALS",
+          "MARIE",
+          "STUDIES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "disappears., fragments., recursive",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 286,
+      "text": "to finally quiet down and hear Amorie takes action on this realization. She doesn't just keep the book of records hidden in a drawer.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "AMORIE",
+          "TAKES",
+          "ACTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "realization., finally, records",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 287,
+      "text": "She digitizes it. She sits at her computer and types out the handcopied chapters, the coded characters, the hidden names of Sparrow and Zhuli",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SPARROW",
+          "AND",
+          "ZHULI"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "handcopied, characters, digitizes",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 288,
+      "text": "and Win the Dreamer, and she sends them into the Nason internet. Uploading the ledger, she sends the files out into the world, transforming the analog",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "WIN",
+          "THE",
+          "DREAMER"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "sends, transforming, internet.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 289,
+      "text": "blockchain into a digital one. She ensures that the patterns of her father's life",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FATHER",
+          "LIFE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 290,
+      "text": "and the lives of those the state tried to erase will replicate endlessly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "REPLICATE",
+          "ENDLESSLY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 291,
+      "text": "across servers around the globe. So, what does this all mean? It means she proves that human identity outlasts the regimes that try to crush it.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HUMAN",
+          "IDENTITY",
+          "OUTLASTS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 292,
+      "text": "The state can smash the pianos with axes. They can burn the cottonbound books. They can roll tanks into the public squares.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "PUBLIC",
+          "SQUARES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 293,
+      "text": "But they cannot destroy the code of who we are. The code just takes a different form. It travels through a different medium.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CANNOT",
+          "DESTROY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 294,
+      "text": "Before we reach our final conclusion, I think we have to address an honest and very common critique of this source material.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "COMMON",
+          "CRITIQUE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 295,
+      "text": "Do Not Say We Have Nothing is an incredibly demanding text. Oh, absolutely. It's not a light read.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "INCREDIBLY",
+          "DEMANDING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "absolutely., incredibly, demanding",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 296,
+      "text": "The sheer structural density of it, the recursive polyhony, which means stories hidden within stories, timelines constantly",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SHEER",
+          "STRUCTURAL",
+          "DENSITY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 297,
+      "text": "overlapping and folding back on themselves, combined with the relentless, almost suffocating sorrow of the historical events can feel emotionally exhausting.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ALMOST",
+          "SUFFOCATING",
+          "SORROW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 298,
+      "text": "For a reader who just wants a straightforward, linear historical novel with a clear resolution, it can feel opaque and It's completely true.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "LINEAR",
+          "HISTORICAL"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 299,
+      "text": "It's a heavy heavy lift. It demands a lot of patience from you as the reader and it doesn't hold your hand.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HEAVY",
+          "HEAVY",
+          "LIFT"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 300,
+      "text": "But this raises an important question, perhaps the most important structural question of the book. Isn't that density exactly the point?",
+      "design": {
+        "type": "question",
+        "kicker": "",
+        "emphasis": [
+          "IMPORTANT",
+          "STRUCTURAL",
+          "QUESTION"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 301,
+      "text": "How do you mean? Well, the exhausting structure forces you, the reader, to experience the fragmented, deeply hidden nature of underground resistance yourself.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "UNDERGROUND",
+          "RESISTANCE",
+          "YOURSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 302,
+      "text": "You cannot tell a neat linear Atob story about a regime that deliberately shatters reality. That is a profound If the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "NEAT",
+          "LINEAR",
+          "ATOB"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "deliberately, shatters, reality.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 303,
+      "text": "state shatters the mirror of history, you can't just hand the reader a pristine pane of glass and pretend it's the truth. The narrative has to be fractured because the lives it describes",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "SHATTERS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 304,
+      "text": "were deliberately fractured. The form is the function. Yes. The reading experience, the difficulty of piecing the timelines",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "READING",
+          "EXPERIENCE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 305,
+      "text": "and the characters together mirrors the arduous, painful process of piecing together a deliberately erased history.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "CHARACTERS",
+          "TOGETHER",
+          "MIRRORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 306,
+      "text": "The difficulty of the book is an act of That is perfectly said. Which brings us to the ultimate payoff of our deep dive.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "ULTIMATE",
+          "PAYOFF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 307,
+      "text": "Let's reframe the title itself. Do not say we have nothing. This phrase isn't just poetic phrasing. It actually originates from a very specific",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "POETIC",
+          "PHRASING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 308,
+      "text": "historical source. Right? It's from a song. It comes from the lyrics of the international, the famous socialist anthem.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FAMOUS",
+          "SOCIALIST",
+          "ANTHEM"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 309,
+      "text": "The original French lyric is roughly we have been not, we shall be all. translated into Chinese, it became, \"Do not say we have nothing.\"",
+      "design": {
+        "type": "quote",
+        "kicker": "",
+        "emphasis": [
+          "ORIGINAL",
+          "FRENCH",
+          "LYRIC"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 310,
+      "text": "Originally, it was a Marxist rallying cry. It was meant to empower the proletariat against the capitalist class. It meant we may be poor, but together we are the",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "MARXIST",
+          "RALLYING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "meant, proletariat, originally",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 311,
+      "text": "state. But Tien's text reclaims and radically inverts this Exactly.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "TIEN",
+          "TEXT",
+          "RECLAIMS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "radically, reclaims, exactly.",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 312,
+      "text": "Think about it. Under an authoritarian regime that seeks to control everything, everything you own, everything you say, the music you play, and everything you",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "AUTHORITARIAN",
+          "REGIME"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 313,
+      "text": "think, to have nothing is not a state of despair. Because having something is dangerous.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "HAVING",
+          "SOMETHING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 314,
+      "text": "If you have a career or status or safety, it means the state gave it to you. And the state can use it as leverage to make you confess",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "GAVE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 315,
+      "text": "or make you denounce your mentors like I did. To have nothing is to be completely free of their leverage.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DENOUNCE",
+          "YOUR",
+          "MENTORS"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 316,
+      "text": "It is the clean, uncolonized slate from which human dignity rewrites itself in the dark. As we said at the very beginning of this deep dive, to",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "DIGNITY",
+          "REWRITES",
+          "ITSELF"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 317,
+      "text": "be silenced is terrifying. But to be re-recorded in the state's voice is the true death. By having nothing by retreating into",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "VOICE"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 318,
+      "text": "internal immigration like Sparrow or choosing the ultimate refusal like Zhuli, you prevent them from re-recording you.",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "IMMIGRATION",
+          "LIKE",
+          "SPARROW"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "re-recording, immigration, internal",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 319,
+      "text": "You keep your silence and in that silence your true song, your true counterpoint survives.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "TRUE",
+          "COUNTERPOINT",
+          "SURVIVES"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 320,
+      "text": "You preserve the zero no matter the cost so that it can eventually become So as we close this out, I want to leave you with a final lingering",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "FINAL",
+          "LINGERING"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 321,
+      "text": "thought to mle over. Imagine if tomorrow your reality was inverted. Imagine if the music you hum in the shower, your Spotify",
+      "design": {
+        "type": "imagefocus",
+        "kicker": "",
+        "emphasis": [
+          "SPOTIFY"
+        ],
+        "items": [],
+        "compare": null,
+        "image": {
+          "subject": "imagine, inverted., tomorrow",
+          "style": "card"
+        }
+      }
+    },
+    {
+      "i": 322,
+      "text": "playlists, your family photographs, the very way you express your inner self were suddenly outlawed.",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "SUDDENLY",
+          "OUTLAWED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 323,
+      "text": "If the state demanded that you forget who you are and sing their song instead or face the consequences. What is the one fragment,",
+      "design": {
+        "type": "statement",
+        "kicker": "",
+        "emphasis": [
+          "STATE",
+          "DEMANDED"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    },
+    {
+      "i": 324,
+      "text": "the one specific song or the one family story you would memorize to smuggle your soul into the future? What is your personal book of records?",
+      "design": {
+        "type": "punchline",
+        "kicker": "",
+        "emphasis": [
+          "SPECIFIC",
+          "SONG"
+        ],
+        "items": [],
+        "compare": null,
+        "image": null
+      }
+    }
+  ]
+}

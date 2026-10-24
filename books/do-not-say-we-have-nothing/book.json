@@ -1,0 +1,47 @@
+{
+  "slug": "do-not-say-we-have-nothing",
+  "title": "Do Not Say We Have Nothing",
+  "author": "Madeleine Thien",
+  "genre": "historical-fiction",
+  "engine": "vox",
+  "engineRationale": "Book profile (moderate): a period world (1966) → period realism favours Vox RISK: some violence → plan those beats as aftermath/symbol if Vox",
+  "engineDecidedBy": "book-profile",
+  "engineProfile": {
+    "kind": "fiction",
+    "world": "period",
+    "era": 1966,
+    "realPeople": false,
+    "format": "story",
+    "violence": "some",
+    "minorHarm": false,
+    "mustSee": [
+      "Shanghai Conservatory of Music",
+      "the Book of Records handwritten notebooks",
+      "violins and pianos under Cultural Revolution",
+      "Tiananmen Square protests 1989",
+      "three generations of musicians"
+    ]
+  },
+  "bgTint": true,
+  "engineCheck": {
+    "at": "2026-10-24",
+    "fit": "vox",
+    "confidence": "moderate",
+    "voxScore": 15.1,
+    "antidoteScore": 8.1,
+    "signals": {
+      "year": 1.8,
+      "history": 3.3,
+      "second": 15.8,
+      "abstract": 3.2,
+      "sensitive": 3.5,
+      "era": 1966,
+      "words": 6649
+    },
+    "reasons": [
+      "real-world / dated references (1.8 years, 3.3 history terms per 1k words) → photoreal shows the actual world (Vox)"
+    ],
+    "risks": [],
+    "confirmed": false
+  }
+}

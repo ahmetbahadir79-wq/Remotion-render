@@ -1,0 +1,71 @@
+{
+  "note": "Three facts per run: technical (output file), quality (firewall PASS/FAIL), decision (operator). Append-only; FAIL records are never removed.",
+  "runs": [
+    {
+      "at": "2026-10-24T12:01:07.733Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "4166eb2d",
+      "configHash": "5a5a3cd2f1f7dbdd",
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "blocks": null,
+        "reviews": null
+      },
+      "decision": {
+        "kind": "NOT_APPLICABLE",
+        "ok": true,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    },
+    {
+      "at": "2026-10-24T12:01:45.928Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "4166eb2d",
+      "configHash": "5a5a3cd2f1f7dbdd",
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "blocks": null,
+        "reviews": null
+      },
+      "decision": {
+        "kind": "NOT_APPLICABLE",
+        "ok": true,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    },
+    {
+      "at": "2026-10-24T12:02:08.056Z",
+      "kind": "preflight",
+      "mode": "production",
+      "commit": "4166eb2d",
+      "configHash": "5a5a3cd2f1f7dbdd",
+      "quality": {
+        "status": "NOT_ASSESSED",
+        "blocks": null,
+        "reviews": null
+      },
+      "decision": {
+        "kind": "NOT_APPLICABLE",
+        "ok": true,
+        "accepted": false,
+        "reason": null,
+        "covered": 0,
+        "newFindings": 0,
+        "goneFindings": 0
+      },
+      "technical": "NOT_RUN"
+    }
+  ]
+}
